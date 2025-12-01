@@ -51,6 +51,7 @@ export * as interfaceEthernetSwitchCrs from './interface-ethernet-switch-crs';
 export * as interfaceEthernetSwitchCrsEgressVlanTag from './interface-ethernet-switch-crs-egress-vlan-tag';
 export * as interfaceEthernetSwitchCrsEgressVlanTranslation from './interface-ethernet-switch-crs-egress-vlan-translation';
 export * as interfaceEthernetSwitchCrsIngressVlanTranslation from './interface-ethernet-switch-crs-ingress-vlan-translation';
+export * as interfaceEthernetSwitchCrsVlan from './interface-ethernet-switch-crs-vlan';
 export * as interfaceEthernetSwitchHost from './interface-ethernet-switch-host';
 export * as interfaceEthernetSwitchPort from './interface-ethernet-switch-port';
 export * as interfaceEthernetSwitchPortIsolation from './interface-ethernet-switch-port-isolation';

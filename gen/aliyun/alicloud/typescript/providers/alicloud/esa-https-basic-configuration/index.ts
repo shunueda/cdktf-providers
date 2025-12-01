@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_basic_configuration
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_https_basic_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,90 +8,90 @@ import * as cdktf from 'cdktf';
 
 export interface EsaHttpsBasicConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_basic_configuration#ciphersuite EsaHttpsBasicConfiguration#ciphersuite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_https_basic_configuration#ciphersuite EsaHttpsBasicConfiguration#ciphersuite}
   */
   readonly ciphersuite?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_basic_configuration#ciphersuite_group EsaHttpsBasicConfiguration#ciphersuite_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_https_basic_configuration#ciphersuite_group EsaHttpsBasicConfiguration#ciphersuite_group}
   */
   readonly ciphersuiteGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_basic_configuration#http2 EsaHttpsBasicConfiguration#http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_https_basic_configuration#http2 EsaHttpsBasicConfiguration#http2}
   */
   readonly http2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_basic_configuration#http3 EsaHttpsBasicConfiguration#http3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_https_basic_configuration#http3 EsaHttpsBasicConfiguration#http3}
   */
   readonly http3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_basic_configuration#https EsaHttpsBasicConfiguration#https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_https_basic_configuration#https EsaHttpsBasicConfiguration#https}
   */
   readonly https?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_basic_configuration#id EsaHttpsBasicConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_https_basic_configuration#id EsaHttpsBasicConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_basic_configuration#ocsp_stapling EsaHttpsBasicConfiguration#ocsp_stapling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_https_basic_configuration#ocsp_stapling EsaHttpsBasicConfiguration#ocsp_stapling}
   */
   readonly ocspStapling?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_basic_configuration#rule EsaHttpsBasicConfiguration#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_https_basic_configuration#rule EsaHttpsBasicConfiguration#rule}
   */
   readonly rule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_basic_configuration#rule_enable EsaHttpsBasicConfiguration#rule_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_https_basic_configuration#rule_enable EsaHttpsBasicConfiguration#rule_enable}
   */
   readonly ruleEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_basic_configuration#rule_name EsaHttpsBasicConfiguration#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_https_basic_configuration#rule_name EsaHttpsBasicConfiguration#rule_name}
   */
   readonly ruleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_basic_configuration#sequence EsaHttpsBasicConfiguration#sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_https_basic_configuration#sequence EsaHttpsBasicConfiguration#sequence}
   */
   readonly sequence?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_basic_configuration#site_id EsaHttpsBasicConfiguration#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_https_basic_configuration#site_id EsaHttpsBasicConfiguration#site_id}
   */
   readonly siteId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_basic_configuration#tls10 EsaHttpsBasicConfiguration#tls10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_https_basic_configuration#tls10 EsaHttpsBasicConfiguration#tls10}
   */
   readonly tls10?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_basic_configuration#tls11 EsaHttpsBasicConfiguration#tls11}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_https_basic_configuration#tls11 EsaHttpsBasicConfiguration#tls11}
   */
   readonly tls11?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_basic_configuration#tls12 EsaHttpsBasicConfiguration#tls12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_https_basic_configuration#tls12 EsaHttpsBasicConfiguration#tls12}
   */
   readonly tls12?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_basic_configuration#tls13 EsaHttpsBasicConfiguration#tls13}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_https_basic_configuration#tls13 EsaHttpsBasicConfiguration#tls13}
   */
   readonly tls13?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_basic_configuration#timeouts EsaHttpsBasicConfiguration#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_https_basic_configuration#timeouts EsaHttpsBasicConfiguration#timeouts}
   */
   readonly timeouts?: EsaHttpsBasicConfigurationTimeouts;
 }
 export interface EsaHttpsBasicConfigurationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_basic_configuration#create EsaHttpsBasicConfiguration#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_https_basic_configuration#create EsaHttpsBasicConfiguration#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_basic_configuration#delete EsaHttpsBasicConfiguration#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_https_basic_configuration#delete EsaHttpsBasicConfiguration#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_basic_configuration#update EsaHttpsBasicConfiguration#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_https_basic_configuration#update EsaHttpsBasicConfiguration#update}
   */
   readonly update?: string;
 }
@@ -243,7 +243,7 @@ export class EsaHttpsBasicConfigurationTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_basic_configuration alicloud_esa_https_basic_configuration}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_https_basic_configuration alicloud_esa_https_basic_configuration}
 */
 export class EsaHttpsBasicConfiguration extends cdktf.TerraformResource {
 
@@ -259,7 +259,7 @@ export class EsaHttpsBasicConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EsaHttpsBasicConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EsaHttpsBasicConfiguration to import
-  * @param importFromId The id of the existing EsaHttpsBasicConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_basic_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EsaHttpsBasicConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_https_basic_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EsaHttpsBasicConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -271,7 +271,7 @@ export class EsaHttpsBasicConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_https_basic_configuration alicloud_esa_https_basic_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_https_basic_configuration alicloud_esa_https_basic_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -282,8 +282,8 @@ export class EsaHttpsBasicConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_esa_https_basic_configuration',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

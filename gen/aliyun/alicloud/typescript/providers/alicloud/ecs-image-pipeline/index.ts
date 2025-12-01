@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_image_pipeline
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_image_pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface EcsImagePipelineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_image_pipeline#add_account EcsImagePipeline#add_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_image_pipeline#add_account EcsImagePipeline#add_account}
   */
   readonly addAccount?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_image_pipeline#base_image EcsImagePipeline#base_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_image_pipeline#base_image EcsImagePipeline#base_image}
   */
   readonly baseImage: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_image_pipeline#base_image_type EcsImagePipeline#base_image_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_image_pipeline#base_image_type EcsImagePipeline#base_image_type}
   */
   readonly baseImageType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_image_pipeline#build_content EcsImagePipeline#build_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_image_pipeline#build_content EcsImagePipeline#build_content}
   */
   readonly buildContent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_image_pipeline#delete_instance_on_failure EcsImagePipeline#delete_instance_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_image_pipeline#delete_instance_on_failure EcsImagePipeline#delete_instance_on_failure}
   */
   readonly deleteInstanceOnFailure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_image_pipeline#description EcsImagePipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_image_pipeline#description EcsImagePipeline#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_image_pipeline#id EcsImagePipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_image_pipeline#id EcsImagePipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_image_pipeline#image_name EcsImagePipeline#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_image_pipeline#image_name EcsImagePipeline#image_name}
   */
   readonly imageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_image_pipeline#instance_type EcsImagePipeline#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_image_pipeline#instance_type EcsImagePipeline#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_image_pipeline#internet_max_bandwidth_out EcsImagePipeline#internet_max_bandwidth_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_image_pipeline#internet_max_bandwidth_out EcsImagePipeline#internet_max_bandwidth_out}
   */
   readonly internetMaxBandwidthOut?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_image_pipeline#name EcsImagePipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_image_pipeline#name EcsImagePipeline#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_image_pipeline#resource_group_id EcsImagePipeline#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_image_pipeline#resource_group_id EcsImagePipeline#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_image_pipeline#system_disk_size EcsImagePipeline#system_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_image_pipeline#system_disk_size EcsImagePipeline#system_disk_size}
   */
   readonly systemDiskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_image_pipeline#tags EcsImagePipeline#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_image_pipeline#tags EcsImagePipeline#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_image_pipeline#to_region_id EcsImagePipeline#to_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_image_pipeline#to_region_id EcsImagePipeline#to_region_id}
   */
   readonly toRegionId?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_image_pipeline#vswitch_id EcsImagePipeline#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_image_pipeline#vswitch_id EcsImagePipeline#vswitch_id}
   */
   readonly vswitchId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_image_pipeline alicloud_ecs_image_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_image_pipeline alicloud_ecs_image_pipeline}
 */
 export class EcsImagePipeline extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class EcsImagePipeline extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EcsImagePipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcsImagePipeline to import
-  * @param importFromId The id of the existing EcsImagePipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_image_pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcsImagePipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_image_pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcsImagePipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class EcsImagePipeline extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_image_pipeline alicloud_ecs_image_pipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_image_pipeline alicloud_ecs_image_pipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class EcsImagePipeline extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ecs_image_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

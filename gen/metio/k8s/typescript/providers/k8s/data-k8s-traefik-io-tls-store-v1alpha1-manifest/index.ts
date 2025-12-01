@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8STraefikIoTlsStoreV1Alpha1ManifestConfig extends cdktf.Te
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#metadata DataK8STraefikIoTlsStoreV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#metadata DataK8STraefikIoTlsStoreV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8STraefikIoTlsStoreV1Alpha1ManifestMetadata;
   /**
   * TLSStoreSpec defines the desired state of a TLSStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#spec DataK8STraefikIoTlsStoreV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#spec DataK8STraefikIoTlsStoreV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8STraefikIoTlsStoreV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8STraefikIoTlsStoreV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#annotations DataK8STraefikIoTlsStoreV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#annotations DataK8STraefikIoTlsStoreV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#labels DataK8STraefikIoTlsStoreV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#labels DataK8STraefikIoTlsStoreV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#name DataK8STraefikIoTlsStoreV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#name DataK8STraefikIoTlsStoreV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#namespace DataK8STraefikIoTlsStoreV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#namespace DataK8STraefikIoTlsStoreV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8STraefikIoTlsStoreV1Alpha1ManifestSpecCertificates {
   /**
   * SecretName is the name of the referenced Kubernetes Secret to specify the certificate details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#secret_name DataK8STraefikIoTlsStoreV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#secret_name DataK8STraefikIoTlsStoreV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -334,7 +334,7 @@ export interface DataK8STraefikIoTlsStoreV1Alpha1ManifestSpecDefaultCertificate 
   /**
   * SecretName is the name of the referenced Kubernetes Secret to specify the certificate details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#secret_name DataK8STraefikIoTlsStoreV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#secret_name DataK8STraefikIoTlsStoreV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -427,13 +427,13 @@ export interface DataK8STraefikIoTlsStoreV1Alpha1ManifestSpecDefaultGeneratedCer
   /**
   * Main defines the main domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#main DataK8STraefikIoTlsStoreV1Alpha1Manifest#main}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#main DataK8STraefikIoTlsStoreV1Alpha1Manifest#main}
   */
   readonly main?: string;
   /**
   * SANs defines the subject alternative domain names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#sans DataK8STraefikIoTlsStoreV1Alpha1Manifest#sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#sans DataK8STraefikIoTlsStoreV1Alpha1Manifest#sans}
   */
   readonly sans?: string[];
 }
@@ -558,13 +558,13 @@ export interface DataK8STraefikIoTlsStoreV1Alpha1ManifestSpecDefaultGeneratedCer
   /**
   * Domain is the domain definition for the DefaultCertificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#domain DataK8STraefikIoTlsStoreV1Alpha1Manifest#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#domain DataK8STraefikIoTlsStoreV1Alpha1Manifest#domain}
   */
   readonly domain?: DataK8STraefikIoTlsStoreV1Alpha1ManifestSpecDefaultGeneratedCertDomain;
   /**
   * Resolver is the name of the resolver that will be used to issue the DefaultCertificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#resolver DataK8STraefikIoTlsStoreV1Alpha1Manifest#resolver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#resolver DataK8STraefikIoTlsStoreV1Alpha1Manifest#resolver}
   */
   readonly resolver?: string;
 }
@@ -689,19 +689,19 @@ export interface DataK8STraefikIoTlsStoreV1Alpha1ManifestSpec {
   /**
   * Certificates is a list of secret names, each secret holding a key/certificate pair to add to the store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#certificates DataK8STraefikIoTlsStoreV1Alpha1Manifest#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#certificates DataK8STraefikIoTlsStoreV1Alpha1Manifest#certificates}
   */
   readonly certificates?: DataK8STraefikIoTlsStoreV1Alpha1ManifestSpecCertificates[] | cdktf.IResolvable;
   /**
   * DefaultCertificate defines the default certificate configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#default_certificate DataK8STraefikIoTlsStoreV1Alpha1Manifest#default_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#default_certificate DataK8STraefikIoTlsStoreV1Alpha1Manifest#default_certificate}
   */
   readonly defaultCertificate?: DataK8STraefikIoTlsStoreV1Alpha1ManifestSpecDefaultCertificate;
   /**
   * DefaultGeneratedCert defines the default generated certificate configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#default_generated_cert DataK8STraefikIoTlsStoreV1Alpha1Manifest#default_generated_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#default_generated_cert DataK8STraefikIoTlsStoreV1Alpha1Manifest#default_generated_cert}
   */
   readonly defaultGeneratedCert?: DataK8STraefikIoTlsStoreV1Alpha1ManifestSpecDefaultGeneratedCert;
 }
@@ -853,7 +853,7 @@ export class DataK8STraefikIoTlsStoreV1Alpha1ManifestSpecOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest k8s_traefik_io_tls_store_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest k8s_traefik_io_tls_store_v1alpha1_manifest}
 */
 export class DataK8STraefikIoTlsStoreV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -869,7 +869,7 @@ export class DataK8STraefikIoTlsStoreV1Alpha1Manifest extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataK8STraefikIoTlsStoreV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STraefikIoTlsStoreV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8STraefikIoTlsStoreV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STraefikIoTlsStoreV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STraefikIoTlsStoreV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -881,7 +881,7 @@ export class DataK8STraefikIoTlsStoreV1Alpha1Manifest extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest k8s_traefik_io_tls_store_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_tls_store_v1alpha1_manifest k8s_traefik_io_tls_store_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -892,8 +892,8 @@ export class DataK8STraefikIoTlsStoreV1Alpha1Manifest extends cdktf.TerraformDat
       terraformResourceType: 'k8s_traefik_io_tls_store_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

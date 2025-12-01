@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_function_async_invoke_config
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_function_async_invoke_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface FcFunctionAsyncInvokeConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_function_async_invoke_config#function_name FcFunctionAsyncInvokeConfig#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_function_async_invoke_config#function_name FcFunctionAsyncInvokeConfig#function_name}
   */
   readonly functionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_function_async_invoke_config#id FcFunctionAsyncInvokeConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_function_async_invoke_config#id FcFunctionAsyncInvokeConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_function_async_invoke_config#maximum_event_age_in_seconds FcFunctionAsyncInvokeConfig#maximum_event_age_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_function_async_invoke_config#maximum_event_age_in_seconds FcFunctionAsyncInvokeConfig#maximum_event_age_in_seconds}
   */
   readonly maximumEventAgeInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_function_async_invoke_config#maximum_retry_attempts FcFunctionAsyncInvokeConfig#maximum_retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_function_async_invoke_config#maximum_retry_attempts FcFunctionAsyncInvokeConfig#maximum_retry_attempts}
   */
   readonly maximumRetryAttempts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_function_async_invoke_config#qualifier FcFunctionAsyncInvokeConfig#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_function_async_invoke_config#qualifier FcFunctionAsyncInvokeConfig#qualifier}
   */
   readonly qualifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_function_async_invoke_config#service_name FcFunctionAsyncInvokeConfig#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_function_async_invoke_config#service_name FcFunctionAsyncInvokeConfig#service_name}
   */
   readonly serviceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_function_async_invoke_config#stateful_invocation FcFunctionAsyncInvokeConfig#stateful_invocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_function_async_invoke_config#stateful_invocation FcFunctionAsyncInvokeConfig#stateful_invocation}
   */
   readonly statefulInvocation?: boolean | cdktf.IResolvable;
   /**
   * destination_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_function_async_invoke_config#destination_config FcFunctionAsyncInvokeConfig#destination_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_function_async_invoke_config#destination_config FcFunctionAsyncInvokeConfig#destination_config}
   */
   readonly destinationConfig?: FcFunctionAsyncInvokeConfigDestinationConfig;
 }
 export interface FcFunctionAsyncInvokeConfigDestinationConfigOnFailure {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_function_async_invoke_config#destination FcFunctionAsyncInvokeConfig#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_function_async_invoke_config#destination FcFunctionAsyncInvokeConfig#destination}
   */
   readonly destination: string;
 }
@@ -128,7 +128,7 @@ export class FcFunctionAsyncInvokeConfigDestinationConfigOnFailureOutputReferenc
 }
 export interface FcFunctionAsyncInvokeConfigDestinationConfigOnSuccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_function_async_invoke_config#destination FcFunctionAsyncInvokeConfig#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_function_async_invoke_config#destination FcFunctionAsyncInvokeConfig#destination}
   */
   readonly destination: string;
 }
@@ -211,13 +211,13 @@ export interface FcFunctionAsyncInvokeConfigDestinationConfig {
   /**
   * on_failure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_function_async_invoke_config#on_failure FcFunctionAsyncInvokeConfig#on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_function_async_invoke_config#on_failure FcFunctionAsyncInvokeConfig#on_failure}
   */
   readonly onFailure?: FcFunctionAsyncInvokeConfigDestinationConfigOnFailure;
   /**
   * on_success block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_function_async_invoke_config#on_success FcFunctionAsyncInvokeConfig#on_success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_function_async_invoke_config#on_success FcFunctionAsyncInvokeConfig#on_success}
   */
   readonly onSuccess?: FcFunctionAsyncInvokeConfigDestinationConfigOnSuccess;
 }
@@ -330,7 +330,7 @@ export class FcFunctionAsyncInvokeConfigDestinationConfigOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_function_async_invoke_config alicloud_fc_function_async_invoke_config}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_function_async_invoke_config alicloud_fc_function_async_invoke_config}
 */
 export class FcFunctionAsyncInvokeConfig extends cdktf.TerraformResource {
 
@@ -346,7 +346,7 @@ export class FcFunctionAsyncInvokeConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FcFunctionAsyncInvokeConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FcFunctionAsyncInvokeConfig to import
-  * @param importFromId The id of the existing FcFunctionAsyncInvokeConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_function_async_invoke_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FcFunctionAsyncInvokeConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_function_async_invoke_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FcFunctionAsyncInvokeConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -358,7 +358,7 @@ export class FcFunctionAsyncInvokeConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_function_async_invoke_config alicloud_fc_function_async_invoke_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_function_async_invoke_config alicloud_fc_function_async_invoke_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -369,8 +369,8 @@ export class FcFunctionAsyncInvokeConfig extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_fc_function_async_invoke_config',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

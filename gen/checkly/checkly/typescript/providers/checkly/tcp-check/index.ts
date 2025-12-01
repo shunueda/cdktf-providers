@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check
+// https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface TcpCheckConfig extends cdktf.TerraformMetaArguments {
   /**
   * Determines if the check is running or not. Possible values `true`, and `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#activated TcpCheck#activated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#activated TcpCheck#activated}
   */
   readonly activated: boolean | cdktf.IResolvable;
   /**
   * The response time in milliseconds starting from which a check should be considered degraded. Possible values are between 0 and 5000. (Default `4000`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#degraded_response_time TcpCheck#degraded_response_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#degraded_response_time TcpCheck#degraded_response_time}
   */
   readonly degradedResponseTime?: number;
   /**
   * The frequency in minutes to run the check. Possible values are `0`, `1`, `2`, `5`, `10`, `15`, `30`, `60`, `120`, `180`, `360`, `720`, and `1440`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#frequency TcpCheck#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#frequency TcpCheck#frequency}
   */
   readonly frequency: number;
   /**
   * To create a high frequency check, the property `frequency` must be `0` and `frequency_offset` can be `10`, `20` or `30`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#frequency_offset TcpCheck#frequency_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#frequency_offset TcpCheck#frequency_offset}
   */
   readonly frequencyOffset?: number;
   /**
   * The id of the check group this check is part of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#group_id TcpCheck#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#group_id TcpCheck#group_id}
   */
   readonly groupId?: number;
   /**
   * The position of this check in a check group. It determines in what order checks are run when a group is triggered from the API or from CI/CD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#group_order TcpCheck#group_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#group_order TcpCheck#group_order}
   */
   readonly groupOrder?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#id TcpCheck#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#id TcpCheck#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,101 +53,101 @@ export interface TcpCheckConfig extends cdktf.TerraformMetaArguments {
   /**
   * An array of one or more data center locations where to run the this check. (Default ["us-east-1"])
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#locations TcpCheck#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#locations TcpCheck#locations}
   */
   readonly locations?: string[];
   /**
   * The response time in milliseconds starting from which a check should be considered failing. Possible values are between 0 and 5000. (Default `5000`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#max_response_time TcpCheck#max_response_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#max_response_time TcpCheck#max_response_time}
   */
   readonly maxResponseTime?: number;
   /**
   * Determines if any notifications will be sent out when a check fails/degrades/recovers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#muted TcpCheck#muted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#muted TcpCheck#muted}
   */
   readonly muted?: boolean | cdktf.IResolvable;
   /**
   * The name of the check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#name TcpCheck#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#name TcpCheck#name}
   */
   readonly name: string;
   /**
   * An array of one or more private locations slugs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#private_locations TcpCheck#private_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#private_locations TcpCheck#private_locations}
   */
   readonly privateLocations?: string[];
   /**
   * Determines if the check should run in all selected locations in parallel or round-robin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#run_parallel TcpCheck#run_parallel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#run_parallel TcpCheck#run_parallel}
   */
   readonly runParallel?: boolean | cdktf.IResolvable;
   /**
   * The ID of the runtime to use for this check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#runtime_id TcpCheck#runtime_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#runtime_id TcpCheck#runtime_id}
   */
   readonly runtimeId?: string;
   /**
   * Allows to invert the behaviour of when a check is considered to fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#should_fail TcpCheck#should_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#should_fail TcpCheck#should_fail}
   */
   readonly shouldFail?: boolean | cdktf.IResolvable;
   /**
   * A list of tags for organizing and filtering checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#tags TcpCheck#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#tags TcpCheck#tags}
   */
   readonly tags?: string[];
   /**
   * When true, the account level alert settings will be used, not the alert setting defined on this check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#use_global_alert_settings TcpCheck#use_global_alert_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#use_global_alert_settings TcpCheck#use_global_alert_settings}
   */
   readonly useGlobalAlertSettings?: boolean | cdktf.IResolvable;
   /**
   * alert_channel_subscription block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#alert_channel_subscription TcpCheck#alert_channel_subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#alert_channel_subscription TcpCheck#alert_channel_subscription}
   */
   readonly alertChannelSubscription?: TcpCheckAlertChannelSubscription[] | cdktf.IResolvable;
   /**
   * alert_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#alert_settings TcpCheck#alert_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#alert_settings TcpCheck#alert_settings}
   */
   readonly alertSettings?: TcpCheckAlertSettings;
   /**
   * request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#request TcpCheck#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#request TcpCheck#request}
   */
   readonly request: TcpCheckRequest;
   /**
   * retry_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#retry_strategy TcpCheck#retry_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#retry_strategy TcpCheck#retry_strategy}
   */
   readonly retryStrategy?: TcpCheckRetryStrategy;
   /**
   * trigger_incident block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#trigger_incident TcpCheck#trigger_incident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#trigger_incident TcpCheck#trigger_incident}
   */
   readonly triggerIncident?: TcpCheckTriggerIncident;
 }
 export interface TcpCheckAlertChannelSubscription {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#activated TcpCheck#activated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#activated TcpCheck#activated}
   */
   readonly activated: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#channel_id TcpCheck#channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#channel_id TcpCheck#channel_id}
   */
   readonly channelId: number;
 }
@@ -288,13 +288,13 @@ export interface TcpCheckAlertSettingsParallelRunFailureThreshold {
   /**
   * Whether parallel run failure threshold is enabled. Only applies if the monitor is scheduled for multiple locations in parallel. (Default `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#enabled TcpCheck#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#enabled TcpCheck#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Percentage of runs that must fail to trigger alert. Possible values are `10`, `20`, `30`, `40`, `50`, `60`, `70`, `80`, `90`, and `100`. (Default `10`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#percentage TcpCheck#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#percentage TcpCheck#percentage}
   */
   readonly percentage?: number;
 }
@@ -441,13 +441,13 @@ export interface TcpCheckAlertSettingsReminders {
   /**
   * Number of reminder notifications to send. Possible values are `0`, `1`, `2`, `3`, `4`, `5`, and `100000` (`0` to disable, `100000` for unlimited). (Default `0`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#amount TcpCheck#amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#amount TcpCheck#amount}
   */
   readonly amount?: number;
   /**
   * Interval between reminder notifications in minutes. Possible values are `5`, `10`, `15`, and `30`. (Default `5`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#interval TcpCheck#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#interval TcpCheck#interval}
   */
   readonly interval?: number;
 }
@@ -594,7 +594,7 @@ export interface TcpCheckAlertSettingsRunBasedEscalation {
   /**
   * Send an alert notification after the given number of consecutive monitor runs have failed. Possible values are between `1` and `5`. (Default `1`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#failed_run_threshold TcpCheck#failed_run_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#failed_run_threshold TcpCheck#failed_run_threshold}
   */
   readonly failedRunThreshold?: number;
 }
@@ -712,7 +712,7 @@ export interface TcpCheckAlertSettingsTimeBasedEscalation {
   /**
   * Send an alert notification after the monitor has been failing for the given amount of time (in minutes). Possible values are `5`, `10`, `15`, and `30`. (Default `5`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#minutes_failing_threshold TcpCheck#minutes_failing_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#minutes_failing_threshold TcpCheck#minutes_failing_threshold}
   */
   readonly minutesFailingThreshold?: number;
 }
@@ -830,31 +830,31 @@ export interface TcpCheckAlertSettings {
   /**
   * Determines the type of escalation to use. Possible values are `RUN_BASED` and `TIME_BASED`. (Default `RUN_BASED`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#escalation_type TcpCheck#escalation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#escalation_type TcpCheck#escalation_type}
   */
   readonly escalationType?: string;
   /**
   * parallel_run_failure_threshold block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#parallel_run_failure_threshold TcpCheck#parallel_run_failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#parallel_run_failure_threshold TcpCheck#parallel_run_failure_threshold}
   */
   readonly parallelRunFailureThreshold?: TcpCheckAlertSettingsParallelRunFailureThreshold[] | cdktf.IResolvable;
   /**
   * reminders block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#reminders TcpCheck#reminders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#reminders TcpCheck#reminders}
   */
   readonly reminders?: TcpCheckAlertSettingsReminders[] | cdktf.IResolvable;
   /**
   * run_based_escalation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#run_based_escalation TcpCheck#run_based_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#run_based_escalation TcpCheck#run_based_escalation}
   */
   readonly runBasedEscalation?: TcpCheckAlertSettingsRunBasedEscalation[] | cdktf.IResolvable;
   /**
   * time_based_escalation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#time_based_escalation TcpCheck#time_based_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#time_based_escalation TcpCheck#time_based_escalation}
   */
   readonly timeBasedEscalation?: TcpCheckAlertSettingsTimeBasedEscalation[] | cdktf.IResolvable;
 }
@@ -1056,21 +1056,21 @@ export interface TcpCheckRequestAssertion {
   /**
   * The type of comparison to be executed between expected and actual value of the assertion. Possible values are `EQUALS`, `NOT_EQUALS`, `HAS_KEY`, `NOT_HAS_KEY`, `HAS_VALUE`, `NOT_HAS_VALUE`, `IS_EMPTY`, `NOT_EMPTY`, `GREATER_THAN`, `LESS_THAN`, `CONTAINS`, `NOT_CONTAINS`, `IS_NULL`, and `NOT_NULL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#comparison TcpCheck#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#comparison TcpCheck#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#property TcpCheck#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#property TcpCheck#property}
   */
   readonly property?: string;
   /**
   * The source of the asserted value. Possible values are `RESPONSE_DATA` and `RESPONSE_TIME`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#source TcpCheck#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#source TcpCheck#source}
   */
   readonly source: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#target TcpCheck#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#target TcpCheck#target}
   */
   readonly target?: string;
 }
@@ -1269,31 +1269,31 @@ export interface TcpCheckRequest {
   /**
   * The data to send to the target host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#data TcpCheck#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#data TcpCheck#data}
   */
   readonly data?: string;
   /**
   * The hostname or IP to connect to. Do not include a scheme or a port in this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#hostname TcpCheck#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#hostname TcpCheck#hostname}
   */
   readonly hostname: string;
   /**
   * The IP family to use when executing the TCP check. The value can be either `IPv4` or `IPv6`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#ip_family TcpCheck#ip_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#ip_family TcpCheck#ip_family}
   */
   readonly ipFamily?: string;
   /**
   * The port number to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#port TcpCheck#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#port TcpCheck#port}
   */
   readonly port: number;
   /**
   * assertion block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#assertion TcpCheck#assertion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#assertion TcpCheck#assertion}
   */
   readonly assertion?: TcpCheckRequestAssertion[] | cdktf.IResolvable;
 }
@@ -1489,7 +1489,7 @@ export interface TcpCheckRetryStrategyOnlyOn {
   /**
   * When `true`, retry only if the cause of the failure is a network error. (Default `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#network_error TcpCheck#network_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#network_error TcpCheck#network_error}
   */
   readonly networkError?: boolean | cdktf.IResolvable;
 }
@@ -1575,37 +1575,37 @@ export interface TcpCheckRetryStrategy {
   /**
   * The number of seconds to wait before the first retry attempt. (Default `60`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#base_backoff_seconds TcpCheck#base_backoff_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#base_backoff_seconds TcpCheck#base_backoff_seconds}
   */
   readonly baseBackoffSeconds?: number;
   /**
   * The total amount of time to continue retrying the check/monitor (maximum 600 seconds). Available when `type` is `FIXED`, `LINEAR`, or `EXPONENTIAL`. (Default `600`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#max_duration_seconds TcpCheck#max_duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#max_duration_seconds TcpCheck#max_duration_seconds}
   */
   readonly maxDurationSeconds?: number;
   /**
   * The maximum number of times to retry the check/monitor. Value must be between `1` and `10`. Available when `type` is `FIXED`, `LINEAR`, or `EXPONENTIAL`. (Default `2`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#max_retries TcpCheck#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#max_retries TcpCheck#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Whether retries should be run in the same region as the initial check/monitor run. (Default `true`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#same_region TcpCheck#same_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#same_region TcpCheck#same_region}
   */
   readonly sameRegion?: boolean | cdktf.IResolvable;
   /**
   * Determines which type of retry strategy to use. Possible values are `FIXED`, `LINEAR`, `EXPONENTIAL`, `SINGLE_RETRY`, and `NO_RETRIES`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#type TcpCheck#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#type TcpCheck#type}
   */
   readonly type: string;
   /**
   * only_on block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#only_on TcpCheck#only_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#only_on TcpCheck#only_on}
   */
   readonly onlyOn?: TcpCheckRetryStrategyOnlyOn;
 }
@@ -1833,31 +1833,31 @@ export interface TcpCheckTriggerIncident {
   /**
   * A detailed description of the incident.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#description TcpCheck#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#description TcpCheck#description}
   */
   readonly description: string;
   /**
   * The name of the incident.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#name TcpCheck#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#name TcpCheck#name}
   */
   readonly name: string;
   /**
   * Whether to notify subscribers when the incident is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#notify_subscribers TcpCheck#notify_subscribers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#notify_subscribers TcpCheck#notify_subscribers}
   */
   readonly notifySubscribers: boolean | cdktf.IResolvable;
   /**
   * The status page service that this incident will be associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#service_id TcpCheck#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#service_id TcpCheck#service_id}
   */
   readonly serviceId: string;
   /**
   * The severity level of the incident. Possible values are `MINOR`, `MEDIUM`, `MAJOR`, and `CRITICAL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#severity TcpCheck#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#severity TcpCheck#severity}
   */
   readonly severity: string;
 }
@@ -2042,7 +2042,7 @@ export class TcpCheckTriggerIncidentOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check checkly_tcp_check}
+* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check checkly_tcp_check}
 */
 export class TcpCheck extends cdktf.TerraformResource {
 
@@ -2058,7 +2058,7 @@ export class TcpCheck extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TcpCheck resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TcpCheck to import
-  * @param importFromId The id of the existing TcpCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TcpCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TcpCheck to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2070,7 +2070,7 @@ export class TcpCheck extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/tcp_check checkly_tcp_check} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/tcp_check checkly_tcp_check} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2081,8 +2081,8 @@ export class TcpCheck extends cdktf.TerraformResource {
       terraformResourceType: 'checkly_tcp_check',
       terraformGeneratorMetadata: {
         providerName: 'checkly',
-        providerVersion: '1.16.0',
-        providerVersionConstraint: '1.16.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

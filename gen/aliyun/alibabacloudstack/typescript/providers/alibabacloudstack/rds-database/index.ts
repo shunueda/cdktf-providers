@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_database
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface RdsDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_database#character_set RdsDatabase#character_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_database#character_set RdsDatabase#character_set}
   */
   readonly characterSet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_database#character_set_name RdsDatabase#character_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_database#character_set_name RdsDatabase#character_set_name}
   */
   readonly characterSetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_database#data_base_description RdsDatabase#data_base_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_database#data_base_description RdsDatabase#data_base_description}
   */
   readonly dataBaseDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_database#data_base_instance_id RdsDatabase#data_base_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_database#data_base_instance_id RdsDatabase#data_base_instance_id}
   */
   readonly dataBaseInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_database#data_base_name RdsDatabase#data_base_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_database#data_base_name RdsDatabase#data_base_name}
   */
   readonly dataBaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_database#description RdsDatabase#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_database#description RdsDatabase#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_database#id RdsDatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_database#id RdsDatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_database#instance_id RdsDatabase#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_database#instance_id RdsDatabase#instance_id}
   */
   readonly instanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_database#name RdsDatabase#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_database#name RdsDatabase#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_database alibabacloudstack_rds_database}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_database alibabacloudstack_rds_database}
 */
 export class RdsDatabase extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class RdsDatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RdsDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsDatabase to import
-  * @param importFromId The id of the existing RdsDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class RdsDatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_database alibabacloudstack_rds_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_database alibabacloudstack_rds_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class RdsDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_rds_database',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

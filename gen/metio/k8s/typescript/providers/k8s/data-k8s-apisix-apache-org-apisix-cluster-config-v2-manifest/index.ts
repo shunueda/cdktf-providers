@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SApisixApacheOrgApisixClusterConfigV2ManifestConfig exten
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#metadata DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#metadata DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#metadata}
   */
   readonly metadata: DataK8SApisixApacheOrgApisixClusterConfigV2ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#spec DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#spec DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#spec}
   */
   readonly spec?: DataK8SApisixApacheOrgApisixClusterConfigV2ManifestSpec;
 }
@@ -22,19 +22,19 @@ export interface DataK8SApisixApacheOrgApisixClusterConfigV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#annotations DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#annotations DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#labels DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#labels DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#name DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#name DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#name}
   */
   readonly name: string;
 }
@@ -183,11 +183,11 @@ export class DataK8SApisixApacheOrgApisixClusterConfigV2ManifestMetadataOutputRe
 }
 export interface DataK8SApisixApacheOrgApisixClusterConfigV2ManifestSpecAdmin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#admin_key DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#admin_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#admin_key DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#admin_key}
   */
   readonly adminKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#base_url DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#base_url DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#base_url}
   */
   readonly baseUrl: string;
 }
@@ -307,11 +307,11 @@ export class DataK8SApisixApacheOrgApisixClusterConfigV2ManifestSpecAdminOutputR
 }
 export interface DataK8SApisixApacheOrgApisixClusterConfigV2ManifestSpecMonitoringPrometheus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#enable DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#enable DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#prefer_name DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#prefer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#prefer_name DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#prefer_name}
   */
   readonly preferName?: boolean | cdktf.IResolvable;
 }
@@ -434,11 +434,11 @@ export class DataK8SApisixApacheOrgApisixClusterConfigV2ManifestSpecMonitoringPr
 }
 export interface DataK8SApisixApacheOrgApisixClusterConfigV2ManifestSpecMonitoringSkywalking {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#enable DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#enable DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#sample_ratio DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#sample_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#sample_ratio DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#sample_ratio}
   */
   readonly sampleRatio?: number;
 }
@@ -561,11 +561,11 @@ export class DataK8SApisixApacheOrgApisixClusterConfigV2ManifestSpecMonitoringSk
 }
 export interface DataK8SApisixApacheOrgApisixClusterConfigV2ManifestSpecMonitoring {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#prometheus DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#prometheus DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#prometheus}
   */
   readonly prometheus?: DataK8SApisixApacheOrgApisixClusterConfigV2ManifestSpecMonitoringPrometheus;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#skywalking DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#skywalking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#skywalking DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#skywalking}
   */
   readonly skywalking?: DataK8SApisixApacheOrgApisixClusterConfigV2ManifestSpecMonitoringSkywalking;
 }
@@ -688,15 +688,15 @@ export class DataK8SApisixApacheOrgApisixClusterConfigV2ManifestSpecMonitoringOu
 }
 export interface DataK8SApisixApacheOrgApisixClusterConfigV2ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#admin DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#admin DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#admin}
   */
   readonly admin?: DataK8SApisixApacheOrgApisixClusterConfigV2ManifestSpecAdmin;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#ingress_class_name DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#ingress_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#ingress_class_name DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#ingress_class_name}
   */
   readonly ingressClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#monitoring DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#monitoring DataK8SApisixApacheOrgApisixClusterConfigV2Manifest#monitoring}
   */
   readonly monitoring?: DataK8SApisixApacheOrgApisixClusterConfigV2ManifestSpecMonitoring;
 }
@@ -848,7 +848,7 @@ export class DataK8SApisixApacheOrgApisixClusterConfigV2ManifestSpecOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest k8s_apisix_apache_org_apisix_cluster_config_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest k8s_apisix_apache_org_apisix_cluster_config_v2_manifest}
 */
 export class DataK8SApisixApacheOrgApisixClusterConfigV2Manifest extends cdktf.TerraformDataSource {
 
@@ -864,7 +864,7 @@ export class DataK8SApisixApacheOrgApisixClusterConfigV2Manifest extends cdktf.T
   * Generates CDKTF code for importing a DataK8SApisixApacheOrgApisixClusterConfigV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SApisixApacheOrgApisixClusterConfigV2Manifest to import
-  * @param importFromId The id of the existing DataK8SApisixApacheOrgApisixClusterConfigV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SApisixApacheOrgApisixClusterConfigV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SApisixApacheOrgApisixClusterConfigV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -876,7 +876,7 @@ export class DataK8SApisixApacheOrgApisixClusterConfigV2Manifest extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest k8s_apisix_apache_org_apisix_cluster_config_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_cluster_config_v2_manifest k8s_apisix_apache_org_apisix_cluster_config_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -887,8 +887,8 @@ export class DataK8SApisixApacheOrgApisixClusterConfigV2Manifest extends cdktf.T
       terraformResourceType: 'k8s_apisix_apache_org_apisix_cluster_config_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

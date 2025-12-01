@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1ManifestConfig 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#metadata DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#metadata DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1ManifestMetadata;
   /**
   * DBClusterSpec defines the desired state of DBCluster. Detailed information about a cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#spec DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#spec DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1ManifestMetadat
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#annotations DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#annotations DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#labels DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#labels DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#name DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#name DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#namespace DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#namespace DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1ManifestMetadataOut
 }
 export interface DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1ManifestSpecDbSubnetGroupRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#name DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#name DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#namespace DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#namespace DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -346,7 +346,7 @@ export interface DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1ManifestSpecDbS
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#from DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#from DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1ManifestSpecDbSubnetGroupRefFrom;
 }
@@ -440,11 +440,11 @@ export class DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1ManifestSpecDbSubne
 }
 export interface DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1ManifestSpecKmsKeyRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#name DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#name DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#namespace DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#namespace DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -569,7 +569,7 @@ export interface DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1ManifestSpecKms
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#from DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#from DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1ManifestSpecKmsKeyRefFrom;
 }
@@ -665,19 +665,19 @@ export interface DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1ManifestSpecMas
   /**
   * Key is the key within the secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#key DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#key DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#name DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#name DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#namespace DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#namespace DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -826,11 +826,11 @@ export class DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1ManifestSpecMasterU
 }
 export interface DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#key DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#key DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#value DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#value DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -975,11 +975,11 @@ export class DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1ManifestSpecTagsLis
 }
 export interface DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1ManifestSpecVpcSecurityGroupRefsFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#name DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#name DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#namespace DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#namespace DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1104,7 +1104,7 @@ export interface DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1ManifestSpecVpc
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#from DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#from DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1ManifestSpecVpcSecurityGroupRefsFrom;
 }
@@ -1222,161 +1222,161 @@ export interface DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1ManifestSpec {
   /**
   * A list of Amazon EC2 Availability Zones that instances in the cluster can be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#availability_zones DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#availability_zones DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#availability_zones}
   */
   readonly availabilityZones?: string[];
   /**
   * The number of days for which automated backups are retained. You must specify a minimum value of 1. Default: 1 Constraints: * Must be a value from 1 to 35.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#backup_retention_period DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#backup_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#backup_retention_period DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#backup_retention_period}
   */
   readonly backupRetentionPeriod?: number;
   /**
   * The cluster identifier. This parameter is stored as a lowercase string. Constraints: * Must contain from 1 to 63 letters, numbers, or hyphens. * The first character must be a letter. * Cannot end with a hyphen or contain two consecutive hyphens. Example: my-cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#db_cluster_identifier DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#db_cluster_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#db_cluster_identifier DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#db_cluster_identifier}
   */
   readonly dbClusterIdentifier: string;
   /**
   * The name of the cluster parameter group to associate with this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#db_cluster_parameter_group_name DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#db_cluster_parameter_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#db_cluster_parameter_group_name DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#db_cluster_parameter_group_name}
   */
   readonly dbClusterParameterGroupName?: string;
   /**
   * A subnet group to associate with this cluster. Constraints: Must match the name of an existing DBSubnetGroup. Must not be default. Example: mySubnetgroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#db_subnet_group_name DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#db_subnet_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#db_subnet_group_name DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#db_subnet_group_name}
   */
   readonly dbSubnetGroupName?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#db_subnet_group_ref DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#db_subnet_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#db_subnet_group_ref DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#db_subnet_group_ref}
   */
   readonly dbSubnetGroupRef?: DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1ManifestSpecDbSubnetGroupRef;
   /**
   * Specifies whether this cluster can be deleted. If DeletionProtection is enabled, the cluster cannot be deleted unless it is modified and DeletionProtection is disabled. DeletionProtection protects clusters from being accidentally deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#deletion_protection DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#deletion_protection DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * DestinationRegion is used for presigning the request to a given region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#destination_region DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#destination_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#destination_region DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#destination_region}
   */
   readonly destinationRegion?: string;
   /**
   * A list of log types that need to be enabled for exporting to Amazon CloudWatch Logs. You can enable audit logs or profiler logs. For more information, see Auditing Amazon DocumentDB Events (https://docs.aws.amazon.com/documentdb/latest/developerguide/event-auditing.html) and Profiling Amazon DocumentDB Operations (https://docs.aws.amazon.com/documentdb/latest/developerguide/profiling.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#enable_cloudwatch_logs_exports DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#enable_cloudwatch_logs_exports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#enable_cloudwatch_logs_exports DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#enable_cloudwatch_logs_exports}
   */
   readonly enableCloudwatchLogsExports?: string[];
   /**
   * The name of the database engine to be used for this cluster. Valid values: docdb
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#engine DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#engine DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#engine}
   */
   readonly engine: string;
   /**
   * The version number of the database engine to use. The --engine-version will default to the latest major engine version. For production workloads, we recommend explicitly declaring this parameter with the intended major engine version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#engine_version DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#engine_version DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#engine_version}
   */
   readonly engineVersion?: string;
   /**
   * The cluster identifier of the new global cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#global_cluster_identifier DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#global_cluster_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#global_cluster_identifier DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#global_cluster_identifier}
   */
   readonly globalClusterIdentifier?: string;
   /**
   * The KMS key identifier for an encrypted cluster. The KMS key identifier is the Amazon Resource Name (ARN) for the KMS encryption key. If you are creating a cluster using the same Amazon Web Services account that owns the KMS encryption key that is used to encrypt the new cluster, you can use the KMS key alias instead of the ARN for the KMS encryption key. If an encryption key is not specified in KmsKeyId: * If the StorageEncrypted parameter is true, Amazon DocumentDB uses your default encryption key. KMS creates the default encryption key for your Amazon Web Services account. Your Amazon Web Services account has a different default encryption key for each Amazon Web Services Regions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#kms_key_id DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#kms_key_id DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#kms_key_ref DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#kms_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#kms_key_ref DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#kms_key_ref}
   */
   readonly kmsKeyRef?: DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1ManifestSpecKmsKeyRef;
   /**
   * The password for the master database user. This password can contain any printable ASCII character except forward slash (/), double quote ('), or the 'at' symbol (@). Constraints: Must contain from 8 to 100 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#master_user_password DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#master_user_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#master_user_password DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#master_user_password}
   */
   readonly masterUserPassword?: DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1ManifestSpecMasterUserPassword;
   /**
   * The name of the master user for the cluster. Constraints: * Must be from 1 to 63 letters or numbers. * The first character must be a letter. * Cannot be a reserved word for the chosen database engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#master_username DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#master_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#master_username DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#master_username}
   */
   readonly masterUsername?: string;
   /**
   * The port number on which the instances in the cluster accept connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#port DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#port DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Not currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#pre_signed_url DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#pre_signed_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#pre_signed_url DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#pre_signed_url}
   */
   readonly preSignedUrl?: string;
   /**
   * The daily time range during which automated backups are created if automated backups are enabled using the BackupRetentionPeriod parameter. The default is a 30-minute window selected at random from an 8-hour block of time for each Amazon Web Services Region. Constraints: * Must be in the format hh24:mi-hh24:mi. * Must be in Universal Coordinated Time (UTC). * Must not conflict with the preferred maintenance window. * Must be at least 30 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#preferred_backup_window DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#preferred_backup_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#preferred_backup_window DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#preferred_backup_window}
   */
   readonly preferredBackupWindow?: string;
   /**
   * The weekly time range during which system maintenance can occur, in Universal Coordinated Time (UTC). Format: ddd:hh24:mi-ddd:hh24:mi The default is a 30-minute window selected at random from an 8-hour block of time for each Amazon Web Services Region, occurring on a random day of the week. Valid days: Mon, Tue, Wed, Thu, Fri, Sat, Sun Constraints: Minimum 30-minute window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#preferred_maintenance_window DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#preferred_maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#preferred_maintenance_window DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#preferred_maintenance_window}
   */
   readonly preferredMaintenanceWindow?: string;
   /**
   * The identifier for the snapshot or cluster snapshot to restore from. You can use either the name or the Amazon Resource Name (ARN) to specify a cluster snapshot. However, you can use only the ARN to specify a snapshot. Constraints: * Must match the identifier of an existing snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#snapshot_identifier DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#snapshot_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#snapshot_identifier DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#snapshot_identifier}
   */
   readonly snapshotIdentifier?: string;
   /**
   * SourceRegion is the source region where the resource exists. This is not sent over the wire and is only used for presigning. This value should always have the same region as the source ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#source_region DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#source_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#source_region DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#source_region}
   */
   readonly sourceRegion?: string;
   /**
   * Specifies whether the cluster is encrypted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#storage_encrypted DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#storage_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#storage_encrypted DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#storage_encrypted}
   */
   readonly storageEncrypted?: boolean | cdktf.IResolvable;
   /**
   * The storage type to associate with the DB cluster. For information on storage types for Amazon DocumentDB clusters, see Cluster storage configurations in the Amazon DocumentDB Developer Guide. Valid values for storage type - standard | iopt1 Default value is standard When you create a DocumentDB DB cluster with the storage type set to iopt1, the storage type is returned in the response. The storage type isn't returned when you set it to standard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#storage_type DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#storage_type DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#storage_type}
   */
   readonly storageType?: string;
   /**
   * The tags to be assigned to the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#tags DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#tags DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
   /**
   * A list of EC2 VPC security groups to associate with this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#vpc_security_group_i_ds DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#vpc_security_group_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#vpc_security_group_i_ds DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#vpc_security_group_i_ds}
   */
   readonly vpcSecurityGroupIDs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#vpc_security_group_refs DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#vpc_security_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#vpc_security_group_refs DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest#vpc_security_group_refs}
   */
   readonly vpcSecurityGroupRefs?: DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1ManifestSpecVpcSecurityGroupRefs[] | cdktf.IResolvable;
 }
@@ -2218,7 +2218,7 @@ export class DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1ManifestSpecOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest k8s_documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest k8s_documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest}
 */
 export class DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2234,7 +2234,7 @@ export class DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest extends cd
   * Generates CDKTF code for importing a DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2246,7 +2246,7 @@ export class DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest k8s_documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest k8s_documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2257,8 +2257,8 @@ export class DataK8SDocumentdbServicesK8SAwsDbClusterV1Alpha1Manifest extends cd
       terraformResourceType: 'k8s_documentdb_services_k8s_aws_db_cluster_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

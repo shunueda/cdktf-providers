@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,178 +8,178 @@ import * as cdktf from 'cdktf';
 
 export interface DtsSynchronizationJobConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#checkpoint DtsSynchronizationJob#checkpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#checkpoint DtsSynchronizationJob#checkpoint}
   */
   readonly checkpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#data_initialization DtsSynchronizationJob#data_initialization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#data_initialization DtsSynchronizationJob#data_initialization}
   */
   readonly dataInitialization: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#data_synchronization DtsSynchronizationJob#data_synchronization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#data_synchronization DtsSynchronizationJob#data_synchronization}
   */
   readonly dataSynchronization: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#db_list DtsSynchronizationJob#db_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#db_list DtsSynchronizationJob#db_list}
   */
   readonly dbList: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#delay_notice DtsSynchronizationJob#delay_notice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#delay_notice DtsSynchronizationJob#delay_notice}
   */
   readonly delayNotice?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#delay_phone DtsSynchronizationJob#delay_phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#delay_phone DtsSynchronizationJob#delay_phone}
   */
   readonly delayPhone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#delay_rule_time DtsSynchronizationJob#delay_rule_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#delay_rule_time DtsSynchronizationJob#delay_rule_time}
   */
   readonly delayRuleTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#destination_endpoint_database_name DtsSynchronizationJob#destination_endpoint_database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#destination_endpoint_database_name DtsSynchronizationJob#destination_endpoint_database_name}
   */
   readonly destinationEndpointDatabaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#destination_endpoint_engine_name DtsSynchronizationJob#destination_endpoint_engine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#destination_endpoint_engine_name DtsSynchronizationJob#destination_endpoint_engine_name}
   */
   readonly destinationEndpointEngineName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#destination_endpoint_instance_id DtsSynchronizationJob#destination_endpoint_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#destination_endpoint_instance_id DtsSynchronizationJob#destination_endpoint_instance_id}
   */
   readonly destinationEndpointInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#destination_endpoint_instance_type DtsSynchronizationJob#destination_endpoint_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#destination_endpoint_instance_type DtsSynchronizationJob#destination_endpoint_instance_type}
   */
   readonly destinationEndpointInstanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#destination_endpoint_ip DtsSynchronizationJob#destination_endpoint_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#destination_endpoint_ip DtsSynchronizationJob#destination_endpoint_ip}
   */
   readonly destinationEndpointIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#destination_endpoint_oracle_sid DtsSynchronizationJob#destination_endpoint_oracle_sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#destination_endpoint_oracle_sid DtsSynchronizationJob#destination_endpoint_oracle_sid}
   */
   readonly destinationEndpointOracleSid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#destination_endpoint_password DtsSynchronizationJob#destination_endpoint_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#destination_endpoint_password DtsSynchronizationJob#destination_endpoint_password}
   */
   readonly destinationEndpointPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#destination_endpoint_port DtsSynchronizationJob#destination_endpoint_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#destination_endpoint_port DtsSynchronizationJob#destination_endpoint_port}
   */
   readonly destinationEndpointPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#destination_endpoint_region DtsSynchronizationJob#destination_endpoint_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#destination_endpoint_region DtsSynchronizationJob#destination_endpoint_region}
   */
   readonly destinationEndpointRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#destination_endpoint_user_name DtsSynchronizationJob#destination_endpoint_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#destination_endpoint_user_name DtsSynchronizationJob#destination_endpoint_user_name}
   */
   readonly destinationEndpointUserName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#dts_instance_id DtsSynchronizationJob#dts_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#dts_instance_id DtsSynchronizationJob#dts_instance_id}
   */
   readonly dtsInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#dts_job_id DtsSynchronizationJob#dts_job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#dts_job_id DtsSynchronizationJob#dts_job_id}
   */
   readonly dtsJobId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#dts_job_name DtsSynchronizationJob#dts_job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#dts_job_name DtsSynchronizationJob#dts_job_name}
   */
   readonly dtsJobName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#error_notice DtsSynchronizationJob#error_notice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#error_notice DtsSynchronizationJob#error_notice}
   */
   readonly errorNotice?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#error_phone DtsSynchronizationJob#error_phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#error_phone DtsSynchronizationJob#error_phone}
   */
   readonly errorPhone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#id DtsSynchronizationJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#id DtsSynchronizationJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#instance_class DtsSynchronizationJob#instance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#instance_class DtsSynchronizationJob#instance_class}
   */
   readonly instanceClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#reserve DtsSynchronizationJob#reserve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#reserve DtsSynchronizationJob#reserve}
   */
   readonly reserve?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#source_endpoint_database_name DtsSynchronizationJob#source_endpoint_database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#source_endpoint_database_name DtsSynchronizationJob#source_endpoint_database_name}
   */
   readonly sourceEndpointDatabaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#source_endpoint_engine_name DtsSynchronizationJob#source_endpoint_engine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#source_endpoint_engine_name DtsSynchronizationJob#source_endpoint_engine_name}
   */
   readonly sourceEndpointEngineName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#source_endpoint_instance_id DtsSynchronizationJob#source_endpoint_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#source_endpoint_instance_id DtsSynchronizationJob#source_endpoint_instance_id}
   */
   readonly sourceEndpointInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#source_endpoint_instance_type DtsSynchronizationJob#source_endpoint_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#source_endpoint_instance_type DtsSynchronizationJob#source_endpoint_instance_type}
   */
   readonly sourceEndpointInstanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#source_endpoint_ip DtsSynchronizationJob#source_endpoint_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#source_endpoint_ip DtsSynchronizationJob#source_endpoint_ip}
   */
   readonly sourceEndpointIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#source_endpoint_oracle_sid DtsSynchronizationJob#source_endpoint_oracle_sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#source_endpoint_oracle_sid DtsSynchronizationJob#source_endpoint_oracle_sid}
   */
   readonly sourceEndpointOracleSid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#source_endpoint_owner_id DtsSynchronizationJob#source_endpoint_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#source_endpoint_owner_id DtsSynchronizationJob#source_endpoint_owner_id}
   */
   readonly sourceEndpointOwnerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#source_endpoint_password DtsSynchronizationJob#source_endpoint_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#source_endpoint_password DtsSynchronizationJob#source_endpoint_password}
   */
   readonly sourceEndpointPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#source_endpoint_port DtsSynchronizationJob#source_endpoint_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#source_endpoint_port DtsSynchronizationJob#source_endpoint_port}
   */
   readonly sourceEndpointPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#source_endpoint_region DtsSynchronizationJob#source_endpoint_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#source_endpoint_region DtsSynchronizationJob#source_endpoint_region}
   */
   readonly sourceEndpointRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#source_endpoint_role DtsSynchronizationJob#source_endpoint_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#source_endpoint_role DtsSynchronizationJob#source_endpoint_role}
   */
   readonly sourceEndpointRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#source_endpoint_user_name DtsSynchronizationJob#source_endpoint_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#source_endpoint_user_name DtsSynchronizationJob#source_endpoint_user_name}
   */
   readonly sourceEndpointUserName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#status DtsSynchronizationJob#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#status DtsSynchronizationJob#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#structure_initialization DtsSynchronizationJob#structure_initialization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#structure_initialization DtsSynchronizationJob#structure_initialization}
   */
   readonly structureInitialization: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#synchronization_direction DtsSynchronizationJob#synchronization_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#synchronization_direction DtsSynchronizationJob#synchronization_direction}
   */
   readonly synchronizationDirection?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#timeouts DtsSynchronizationJob#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#timeouts DtsSynchronizationJob#timeouts}
   */
   readonly timeouts?: DtsSynchronizationJobTimeouts;
 }
 export interface DtsSynchronizationJobTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#update DtsSynchronizationJob#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#update DtsSynchronizationJob#update}
   */
   readonly update?: string;
 }
@@ -273,7 +273,7 @@ export class DtsSynchronizationJobTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job alibabacloudstack_dts_synchronization_job}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job alibabacloudstack_dts_synchronization_job}
 */
 export class DtsSynchronizationJob extends cdktf.TerraformResource {
 
@@ -289,7 +289,7 @@ export class DtsSynchronizationJob extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DtsSynchronizationJob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DtsSynchronizationJob to import
-  * @param importFromId The id of the existing DtsSynchronizationJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DtsSynchronizationJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DtsSynchronizationJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -301,7 +301,7 @@ export class DtsSynchronizationJob extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dts_synchronization_job alibabacloudstack_dts_synchronization_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dts_synchronization_job alibabacloudstack_dts_synchronization_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -312,8 +312,8 @@ export class DtsSynchronizationJob extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_dts_synchronization_job',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

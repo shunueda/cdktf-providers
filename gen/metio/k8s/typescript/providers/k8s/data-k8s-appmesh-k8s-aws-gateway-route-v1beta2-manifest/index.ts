@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#metadata DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#metadata DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#metadata}
   */
   readonly metadata: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestMetadata;
   /**
   * GatewayRouteSpec defines the desired state of GatewayRoute refers to https://docs.aws.amazon.com/app-mesh/latest/userguide/virtual_gateways.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#spec DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#spec DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#spec}
   */
   readonly spec?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#annotations DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#annotations DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#labels DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#labels DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#name DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#name DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export class DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestMetadataOutputRefere
 }
 export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecGrpcRouteActionRewriteHostname {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#default_target_hostname DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#default_target_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#default_target_hostname DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#default_target_hostname}
   */
   readonly defaultTargetHostname?: string;
 }
@@ -313,7 +313,7 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecGrpcRouteAct
   /**
   * GatewayRouteHostnameRewrite refers to https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_GatewayRouteHostnameRewrite.html ENABLE or DISABLE default behavior for Hostname rewrite
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#hostname DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#hostname DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#hostname}
   */
   readonly hostname?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecGrpcRouteActionRewriteHostname;
 }
@@ -409,13 +409,13 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecGrpcRouteAct
   /**
   * Name is the name of VirtualService CR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#name DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#name DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of VirtualService CR. If unspecified, defaults to the referencing object's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -537,13 +537,13 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecGrpcRouteAct
   /**
   * Amazon Resource Name to AppMesh VirtualService object to associate with the gateway route virtual service target. Exactly one of 'virtualServiceRef' or 'virtualServiceARN' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#virtual_service_arn DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#virtual_service_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#virtual_service_arn DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#virtual_service_arn}
   */
   readonly virtualServiceArn?: string;
   /**
   * Reference to Kubernetes VirtualService CR in cluster to associate with the gateway route virtual service target. Exactly one of 'virtualServiceRef' or 'virtualServiceARN' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#virtual_service_ref DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#virtual_service_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#virtual_service_ref DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#virtual_service_ref}
   */
   readonly virtualServiceRef?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecGrpcRouteActionTargetVirtualServiceVirtualServiceRef;
 }
@@ -668,13 +668,13 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecGrpcRouteAct
   /**
   * Specifies the port of the gateway route target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#port DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#port DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#port}
   */
   readonly port?: number;
   /**
   * The virtual service to associate with the gateway route target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#virtual_service DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#virtual_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#virtual_service DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#virtual_service}
   */
   readonly virtualService: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecGrpcRouteActionTargetVirtualService;
 }
@@ -796,13 +796,13 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecGrpcRouteAct
   /**
   * GrpcGatewayRouteRewrite refers to https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_GrpcGatewayRouteRewrite.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#rewrite DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#rewrite DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#rewrite}
   */
   readonly rewrite?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecGrpcRouteActionRewrite;
   /**
   * An object that represents the target that traffic is routed to when a request matches the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#target DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#target DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#target}
   */
   readonly target: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecGrpcRouteActionTarget;
 }
@@ -924,13 +924,13 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecGrpcRouteMat
   /**
   * The value sent by the client must match the specified value exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#exact DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#exact DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#exact}
   */
   readonly exact?: string;
   /**
   * The value sent by the client must end with the specified characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#suffix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#suffix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#suffix}
   */
   readonly suffix?: string;
 }
@@ -1055,13 +1055,13 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecGrpcRouteMat
   /**
   * The end of the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#end DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#end DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#end}
   */
   readonly end: number;
   /**
   * The start of the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#start DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#start DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#start}
   */
   readonly start: number;
 }
@@ -1180,31 +1180,31 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecGrpcRouteMat
   /**
   * The value sent by the client must match the specified value exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#exact DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#exact DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#exact}
   */
   readonly exact?: string;
   /**
   * The value sent by the client must begin with the specified characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#prefix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#prefix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * An object that represents the range of values to match on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#range DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#range DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#range}
   */
   readonly range?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecGrpcRouteMatchMetadataMatchRange;
   /**
   * The value sent by the client must include the specified characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#regex DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#regex DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#regex}
   */
   readonly regex?: string;
   /**
   * The value sent by the client must end with the specified characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#suffix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#suffix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#suffix}
   */
   readonly suffix?: string;
 }
@@ -1416,19 +1416,19 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecGrpcRouteMat
   /**
   * Specify True to match anything except the match criteria. The default value is False.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#invert DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#invert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#invert DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#invert}
   */
   readonly invert?: boolean | cdktf.IResolvable;
   /**
   * An object that represents the data to match from the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#match DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#match DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#match}
   */
   readonly match?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecGrpcRouteMatchMetadataMatch;
   /**
   * The name of the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#name DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#name DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#name}
   */
   readonly name: string;
 }
@@ -1601,25 +1601,25 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecGrpcRouteMat
   /**
   * The client specified Hostname to match on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#hostname DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#hostname DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#hostname}
   */
   readonly hostname?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecGrpcRouteMatchHostname;
   /**
   * An object that represents the data to match from the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#metadata DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#metadata DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#metadata}
   */
   readonly metadata?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecGrpcRouteMatchMetadata[] | cdktf.IResolvable;
   /**
   * Specifies the port the request to be matched on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#port DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#port DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#port}
   */
   readonly port?: number;
   /**
   * Either ServiceName or Hostname must be specified. Both are allowed as well The fully qualified domain name for the service to match from the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#service_name DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#service_name DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#service_name}
   */
   readonly serviceName?: string;
 }
@@ -1802,13 +1802,13 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecGrpcRoute {
   /**
   * An object that represents the action to take if a match is determined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#action DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#action DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#action}
   */
   readonly action: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecGrpcRouteAction;
   /**
   * An object that represents the criteria for determining a request match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#match DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#match DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#match}
   */
   readonly match: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecGrpcRouteMatch;
 }
@@ -1925,7 +1925,7 @@ export class DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecGrpcRouteOutputR
 }
 export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteActionRewriteHostname {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#default_target_hostname DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#default_target_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#default_target_hostname DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#default_target_hostname}
   */
   readonly defaultTargetHostname?: string;
 }
@@ -2019,7 +2019,7 @@ export class DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteAction
 }
 export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteActionRewritePath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#exact DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#exact DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#exact}
   */
   readonly exact?: string;
 }
@@ -2113,13 +2113,13 @@ export class DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteAction
 }
 export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteActionRewritePrefix {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#default_prefix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#default_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#default_prefix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#default_prefix}
   */
   readonly defaultPrefix?: string;
   /**
   * When DefaultPrefix is specified, Value cannot be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#value DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#value DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#value}
   */
   readonly value?: string;
 }
@@ -2244,19 +2244,19 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteAc
   /**
   * GatewayRouteHostnameRewrite refers to https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_GatewayRouteHostnameRewrite.html ENABLE or DISABLE default behavior for Hostname rewrite
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#hostname DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#hostname DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#hostname}
   */
   readonly hostname?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteActionRewriteHostname;
   /**
   * GatewayRoutePathRewrite refers to https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_HttpGatewayRoutePathRewrite.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#path DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#path DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#path}
   */
   readonly path?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteActionRewritePath;
   /**
   * GatewayRoutePrefixRewrite refers to https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_HttpGatewayRoutePrefixRewrite.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#prefix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#prefix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#prefix}
   */
   readonly prefix?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteActionRewritePrefix;
 }
@@ -2410,13 +2410,13 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteAc
   /**
   * Name is the name of VirtualService CR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#name DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#name DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of VirtualService CR. If unspecified, defaults to the referencing object's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2538,13 +2538,13 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteAc
   /**
   * Amazon Resource Name to AppMesh VirtualService object to associate with the gateway route virtual service target. Exactly one of 'virtualServiceRef' or 'virtualServiceARN' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#virtual_service_arn DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#virtual_service_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#virtual_service_arn DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#virtual_service_arn}
   */
   readonly virtualServiceArn?: string;
   /**
   * Reference to Kubernetes VirtualService CR in cluster to associate with the gateway route virtual service target. Exactly one of 'virtualServiceRef' or 'virtualServiceARN' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#virtual_service_ref DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#virtual_service_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#virtual_service_ref DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#virtual_service_ref}
   */
   readonly virtualServiceRef?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteActionTargetVirtualServiceVirtualServiceRef;
 }
@@ -2669,13 +2669,13 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteAc
   /**
   * Specifies the port of the gateway route target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#port DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#port DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#port}
   */
   readonly port?: number;
   /**
   * The virtual service to associate with the gateway route target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#virtual_service DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#virtual_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#virtual_service DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#virtual_service}
   */
   readonly virtualService: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteActionTargetVirtualService;
 }
@@ -2797,13 +2797,13 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteAc
   /**
   * HTTPGatewayRouteRewrite refers to https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_HttpGatewayRouteRewrite.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#rewrite DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#rewrite DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#rewrite}
   */
   readonly rewrite?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteActionRewrite;
   /**
   * An object that represents the target that traffic is routed to when a request matches the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#target DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#target DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#target}
   */
   readonly target: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteActionTarget;
 }
@@ -2925,13 +2925,13 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteMa
   /**
   * The end of the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#end DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#end DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#end}
   */
   readonly end: number;
   /**
   * The start of the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#start DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#start DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#start}
   */
   readonly start: number;
 }
@@ -3050,31 +3050,31 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteMa
   /**
   * The value sent by the client must match the specified value exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#exact DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#exact DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#exact}
   */
   readonly exact?: string;
   /**
   * The value sent by the client must begin with the specified characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#prefix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#prefix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * An object that represents the range of values to match on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#range DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#range DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#range}
   */
   readonly range?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteMatchHeadersMatchRange;
   /**
   * The value sent by the client must include the specified characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#regex DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#regex DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#regex}
   */
   readonly regex?: string;
   /**
   * The value sent by the client must end with the specified characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#suffix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#suffix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#suffix}
   */
   readonly suffix?: string;
 }
@@ -3286,19 +3286,19 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteMa
   /**
   * Specify True to match anything except the match criteria. The default value is False.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#invert DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#invert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#invert DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#invert}
   */
   readonly invert?: boolean | cdktf.IResolvable;
   /**
   * The HeaderMatchMethod object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#match DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#match DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#match}
   */
   readonly match?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteMatchHeadersMatch;
   /**
   * A name for the HTTP header in the client request that will be matched on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#name DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#name DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#name}
   */
   readonly name: string;
 }
@@ -3471,13 +3471,13 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteMa
   /**
   * The value sent by the client must match the specified value exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#exact DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#exact DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#exact}
   */
   readonly exact?: string;
   /**
   * The value sent by the client must end with the specified characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#suffix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#suffix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#suffix}
   */
   readonly suffix?: string;
 }
@@ -3602,13 +3602,13 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteMa
   /**
   * The value sent by the client must match the specified value exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#exact DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#exact DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#exact}
   */
   readonly exact?: string;
   /**
   * The value sent by the client must end with the specified characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#regex DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#regex DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -3731,7 +3731,7 @@ export class DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteMatchP
 }
 export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteMatchQueryParametersMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#exact DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#exact DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#exact}
   */
   readonly exact?: string;
 }
@@ -3827,11 +3827,11 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteMa
   /**
   * The QueryMatchMethod object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#match DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#match DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#match}
   */
   readonly match?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteMatchQueryParametersMatch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#name DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#name DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#name}
   */
   readonly name: string;
 }
@@ -3975,43 +3975,43 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteMa
   /**
   * An object that represents the client request headers to match on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#headers DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#headers DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#headers}
   */
   readonly headers?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteMatchHeaders[] | cdktf.IResolvable;
   /**
   * The client specified Hostname to match on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#hostname DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#hostname DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#hostname}
   */
   readonly hostname?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteMatchHostname;
   /**
   * The client request method to match on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#method DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#method DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#method}
   */
   readonly method?: string;
   /**
   * Specified path of the request to be matched on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#path DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#path DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#path}
   */
   readonly path?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteMatchPath;
   /**
   * Specifies the port the request to be matched on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#port DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#port DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#port}
   */
   readonly port?: number;
   /**
   * Either Prefix or Hostname must be specified. Both are allowed as well. Specifies the prefix to match requests with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#prefix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#prefix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * Client specified query parameters to match on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#query_parameters DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#query_parameters DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#query_parameters}
   */
   readonly queryParameters?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteMatchQueryParameters[] | cdktf.IResolvable;
 }
@@ -4281,13 +4281,13 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2Route {
   /**
   * An object that represents the action to take if a match is determined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#action DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#action DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#action}
   */
   readonly action: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteAction;
   /**
   * An object that represents the criteria for determining a request match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#match DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#match DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#match}
   */
   readonly match: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteMatch;
 }
@@ -4404,7 +4404,7 @@ export class DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2RouteOutput
 }
 export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteActionRewriteHostname {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#default_target_hostname DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#default_target_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#default_target_hostname DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#default_target_hostname}
   */
   readonly defaultTargetHostname?: string;
 }
@@ -4498,7 +4498,7 @@ export class DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteActionR
 }
 export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteActionRewritePath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#exact DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#exact DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#exact}
   */
   readonly exact?: string;
 }
@@ -4592,13 +4592,13 @@ export class DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteActionR
 }
 export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteActionRewritePrefix {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#default_prefix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#default_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#default_prefix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#default_prefix}
   */
   readonly defaultPrefix?: string;
   /**
   * When DefaultPrefix is specified, Value cannot be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#value DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#value DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#value}
   */
   readonly value?: string;
 }
@@ -4723,19 +4723,19 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteAct
   /**
   * GatewayRouteHostnameRewrite refers to https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_GatewayRouteHostnameRewrite.html ENABLE or DISABLE default behavior for Hostname rewrite
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#hostname DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#hostname DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#hostname}
   */
   readonly hostname?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteActionRewriteHostname;
   /**
   * GatewayRoutePathRewrite refers to https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_HttpGatewayRoutePathRewrite.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#path DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#path DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#path}
   */
   readonly path?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteActionRewritePath;
   /**
   * GatewayRoutePrefixRewrite refers to https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_HttpGatewayRoutePrefixRewrite.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#prefix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#prefix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#prefix}
   */
   readonly prefix?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteActionRewritePrefix;
 }
@@ -4889,13 +4889,13 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteAct
   /**
   * Name is the name of VirtualService CR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#name DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#name DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of VirtualService CR. If unspecified, defaults to the referencing object's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -5017,13 +5017,13 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteAct
   /**
   * Amazon Resource Name to AppMesh VirtualService object to associate with the gateway route virtual service target. Exactly one of 'virtualServiceRef' or 'virtualServiceARN' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#virtual_service_arn DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#virtual_service_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#virtual_service_arn DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#virtual_service_arn}
   */
   readonly virtualServiceArn?: string;
   /**
   * Reference to Kubernetes VirtualService CR in cluster to associate with the gateway route virtual service target. Exactly one of 'virtualServiceRef' or 'virtualServiceARN' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#virtual_service_ref DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#virtual_service_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#virtual_service_ref DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#virtual_service_ref}
   */
   readonly virtualServiceRef?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteActionTargetVirtualServiceVirtualServiceRef;
 }
@@ -5148,13 +5148,13 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteAct
   /**
   * Specifies the port of the gateway route target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#port DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#port DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#port}
   */
   readonly port?: number;
   /**
   * The virtual service to associate with the gateway route target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#virtual_service DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#virtual_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#virtual_service DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#virtual_service}
   */
   readonly virtualService: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteActionTargetVirtualService;
 }
@@ -5276,13 +5276,13 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteAct
   /**
   * HTTPGatewayRouteRewrite refers to https://docs.aws.amazon.com/app-mesh/latest/APIReference/API_HttpGatewayRouteRewrite.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#rewrite DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#rewrite DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#rewrite}
   */
   readonly rewrite?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteActionRewrite;
   /**
   * An object that represents the target that traffic is routed to when a request matches the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#target DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#target DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#target}
   */
   readonly target: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteActionTarget;
 }
@@ -5404,13 +5404,13 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteMat
   /**
   * The end of the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#end DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#end DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#end}
   */
   readonly end: number;
   /**
   * The start of the range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#start DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#start DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#start}
   */
   readonly start: number;
 }
@@ -5529,31 +5529,31 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteMat
   /**
   * The value sent by the client must match the specified value exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#exact DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#exact DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#exact}
   */
   readonly exact?: string;
   /**
   * The value sent by the client must begin with the specified characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#prefix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#prefix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * An object that represents the range of values to match on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#range DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#range DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#range}
   */
   readonly range?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteMatchHeadersMatchRange;
   /**
   * The value sent by the client must include the specified characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#regex DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#regex DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#regex}
   */
   readonly regex?: string;
   /**
   * The value sent by the client must end with the specified characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#suffix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#suffix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#suffix}
   */
   readonly suffix?: string;
 }
@@ -5765,19 +5765,19 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteMat
   /**
   * Specify True to match anything except the match criteria. The default value is False.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#invert DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#invert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#invert DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#invert}
   */
   readonly invert?: boolean | cdktf.IResolvable;
   /**
   * The HeaderMatchMethod object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#match DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#match DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#match}
   */
   readonly match?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteMatchHeadersMatch;
   /**
   * A name for the HTTP header in the client request that will be matched on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#name DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#name DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#name}
   */
   readonly name: string;
 }
@@ -5950,13 +5950,13 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteMat
   /**
   * The value sent by the client must match the specified value exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#exact DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#exact DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#exact}
   */
   readonly exact?: string;
   /**
   * The value sent by the client must end with the specified characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#suffix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#suffix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#suffix}
   */
   readonly suffix?: string;
 }
@@ -6081,13 +6081,13 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteMat
   /**
   * The value sent by the client must match the specified value exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#exact DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#exact DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#exact}
   */
   readonly exact?: string;
   /**
   * The value sent by the client must end with the specified characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#regex DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#regex DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -6210,7 +6210,7 @@ export class DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteMatchPa
 }
 export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteMatchQueryParametersMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#exact DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#exact DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#exact}
   */
   readonly exact?: string;
 }
@@ -6306,11 +6306,11 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteMat
   /**
   * The QueryMatchMethod object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#match DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#match DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#match}
   */
   readonly match?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteMatchQueryParametersMatch;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#name DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#name DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#name}
   */
   readonly name: string;
 }
@@ -6454,43 +6454,43 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteMat
   /**
   * An object that represents the client request headers to match on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#headers DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#headers DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#headers}
   */
   readonly headers?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteMatchHeaders[] | cdktf.IResolvable;
   /**
   * The client specified Hostname to match on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#hostname DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#hostname DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#hostname}
   */
   readonly hostname?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteMatchHostname;
   /**
   * The client request method to match on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#method DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#method DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#method}
   */
   readonly method?: string;
   /**
   * Specified path of the request to be matched on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#path DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#path DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#path}
   */
   readonly path?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteMatchPath;
   /**
   * Specifies the port the request to be matched on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#port DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#port DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#port}
   */
   readonly port?: number;
   /**
   * Either Prefix or Hostname must be specified. Both are allowed as well. Specifies the prefix to match requests with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#prefix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#prefix DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * Client specified query parameters to match on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#query_parameters DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#query_parameters DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#query_parameters}
   */
   readonly queryParameters?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteMatchQueryParameters[] | cdktf.IResolvable;
 }
@@ -6760,13 +6760,13 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRoute {
   /**
   * An object that represents the action to take if a match is determined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#action DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#action DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#action}
   */
   readonly action: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteAction;
   /**
   * An object that represents the criteria for determining a request match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#match DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#match DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#match}
   */
   readonly match: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRouteMatch;
 }
@@ -6885,13 +6885,13 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecMeshRef {
   /**
   * Name is the name of Mesh CR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#name DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#name DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * UID is the UID of Mesh CR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#uid DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#uid DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#uid}
   */
   readonly uid: string;
 }
@@ -7010,19 +7010,19 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecVirtualGatew
   /**
   * Name is the name of VirtualGateway CR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#name DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#name DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of VirtualGateway CR. If unspecified, defaults to the referencing object's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#namespace DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * UID is the UID of VirtualGateway CR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#uid DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#uid DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#uid}
   */
   readonly uid: string;
 }
@@ -7170,43 +7170,43 @@ export interface DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpec {
   /**
   * AWSName is the AppMesh GatewayRoute object's name. If unspecified or empty, it defaults to be '${name}_${namespace}' of k8s GatewayRoute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#aws_name DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#aws_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#aws_name DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#aws_name}
   */
   readonly awsName?: string;
   /**
   * An object that represents the specification of a gRPC gatewayRoute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#grpc_route DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#grpc_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#grpc_route DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#grpc_route}
   */
   readonly grpcRoute?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecGrpcRoute;
   /**
   * An object that represents the specification of an HTTP/2 gatewayRoute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#http2_route DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#http2_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#http2_route DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#http2_route}
   */
   readonly http2Route?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttp2Route;
   /**
   * An object that represents the specification of an HTTP gatewayRoute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#http_route DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#http_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#http_route DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#http_route}
   */
   readonly httpRoute?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecHttpRoute;
   /**
   * A reference to k8s Mesh CR that this GatewayRoute belongs to. The admission controller populates it using Meshes's selector, and prevents users from setting this field. Populated by the system. Read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#mesh_ref DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#mesh_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#mesh_ref DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#mesh_ref}
   */
   readonly meshRef?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecMeshRef;
   /**
   * Priority for the gatewayroute. Default Priority is 1000 which is lowest priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#priority DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#priority DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#priority}
   */
   readonly priority?: number;
   /**
   * A reference to k8s VirtualGateway CR that this GatewayRoute belongs to. The admission controller populates it using VirtualGateway's selector, and prevents users from setting this field. Populated by the system. Read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#virtual_gateway_ref DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#virtual_gateway_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#virtual_gateway_ref DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest#virtual_gateway_ref}
   */
   readonly virtualGatewayRef?: DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecVirtualGatewayRef;
 }
@@ -7474,7 +7474,7 @@ export class DataK8SAppmeshK8SAwsGatewayRouteV1Beta2ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest k8s_appmesh_k8s_aws_gateway_route_v1beta2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest k8s_appmesh_k8s_aws_gateway_route_v1beta2_manifest}
 */
 export class DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest extends cdktf.TerraformDataSource {
 
@@ -7490,7 +7490,7 @@ export class DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest to import
-  * @param importFromId The id of the existing DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7502,7 +7502,7 @@ export class DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest k8s_appmesh_k8s_aws_gateway_route_v1beta2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/appmesh_k8s_aws_gateway_route_v1beta2_manifest k8s_appmesh_k8s_aws_gateway_route_v1beta2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7513,8 +7513,8 @@ export class DataK8SAppmeshK8SAwsGatewayRouteV1Beta2Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_appmesh_k8s_aws_gateway_route_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

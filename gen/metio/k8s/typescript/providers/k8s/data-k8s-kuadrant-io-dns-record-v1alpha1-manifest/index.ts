@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKuadrantIoDnsRecordV1Alpha1ManifestConfig extends cdktf.
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#metadata DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#metadata DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SKuadrantIoDnsRecordV1Alpha1ManifestMetadata;
   /**
   * DNSRecordSpec defines the desired state of DNSRecord
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#spec DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#spec DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SKuadrantIoDnsRecordV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKuadrantIoDnsRecordV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#annotations DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#annotations DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#labels DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#labels DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#name DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#name DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#namespace DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#namespace DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SKuadrantIoDnsRecordV1Alpha1ManifestMetadataOutputReference e
 }
 export interface DataK8SKuadrantIoDnsRecordV1Alpha1ManifestSpecEndpointsProviderSpecific {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#name DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#name DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#value DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#value DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -368,43 +368,43 @@ export interface DataK8SKuadrantIoDnsRecordV1Alpha1ManifestSpecEndpoints {
   /**
   * The hostname of the DNS record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#dns_name DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#dns_name DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#dns_name}
   */
   readonly dnsName?: string;
   /**
   * Labels stores labels defined for the Endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#labels DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#labels DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * ProviderSpecific stores provider specific config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#provider_specific DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#provider_specific}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#provider_specific DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#provider_specific}
   */
   readonly providerSpecific?: DataK8SKuadrantIoDnsRecordV1Alpha1ManifestSpecEndpointsProviderSpecific[] | cdktf.IResolvable;
   /**
   * TTL for the record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#record_ttl DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#record_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#record_ttl DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#record_ttl}
   */
   readonly recordTtl?: number;
   /**
   * RecordType type of record, e.g. CNAME, A, AAAA, SRV, TXT etc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#record_type DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#record_type DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#record_type}
   */
   readonly recordType?: string;
   /**
   * Identifier to distinguish multiple records with the same name and type (e.g. Route53 records with routing policies other than 'simple')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#set_identifier DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#set_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#set_identifier DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#set_identifier}
   */
   readonly setIdentifier?: string;
   /**
   * The targets the DNS record points to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#targets DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#targets DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#targets}
   */
   readonly targets?: string[];
 }
@@ -694,7 +694,7 @@ export class DataK8SKuadrantIoDnsRecordV1Alpha1ManifestSpecEndpointsList extends
 }
 export interface DataK8SKuadrantIoDnsRecordV1Alpha1ManifestSpecHealthCheckAdditionalHeadersRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#name DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#name DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -787,43 +787,43 @@ export interface DataK8SKuadrantIoDnsRecordV1Alpha1ManifestSpecHealthCheck {
   /**
   * AdditionalHeadersRef refers to a secret that contains extra headers to send in the probe request, this is primarily useful if an authentication token is required by the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#additional_headers_ref DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#additional_headers_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#additional_headers_ref DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#additional_headers_ref}
   */
   readonly additionalHeadersRef?: DataK8SKuadrantIoDnsRecordV1Alpha1ManifestSpecHealthCheckAdditionalHeadersRef;
   /**
   * AllowInsecureCertificate will instruct the health check probe to not fail on a self-signed or otherwise invalid SSL certificate this is primarily used in development or testing environments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#allow_insecure_certificate DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#allow_insecure_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#allow_insecure_certificate DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#allow_insecure_certificate}
   */
   readonly allowInsecureCertificate?: boolean | cdktf.IResolvable;
   /**
   * FailureThreshold is a limit of consecutive failures that must occur for a host to be considered unhealthy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#failure_threshold DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#failure_threshold DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * Interval defines how frequently this probe should execute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#interval DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#interval DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Path is the path to append to the host to reach the expected health check. Must start with '?' or '/', contain only valid URL characters and end with alphanumeric char or '/'. For example '/' or '/healthz' are common
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#path DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#path DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Port to connect to the host on. Must be either 80, 443 or 1024-49151
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#port DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#port DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Protocol to use when connecting to the host, valid values are 'HTTP' or 'HTTPS'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#protocol DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#protocol DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -1091,7 +1091,7 @@ export class DataK8SKuadrantIoDnsRecordV1Alpha1ManifestSpecHealthCheckOutputRefe
 }
 export interface DataK8SKuadrantIoDnsRecordV1Alpha1ManifestSpecProviderRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#name DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#name DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1184,31 +1184,31 @@ export interface DataK8SKuadrantIoDnsRecordV1Alpha1ManifestSpec {
   /**
   * endpoints is a list of endpoints that will be published into the dns provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#endpoints DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#endpoints DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#endpoints}
   */
   readonly endpoints?: DataK8SKuadrantIoDnsRecordV1Alpha1ManifestSpecEndpoints[] | cdktf.IResolvable;
   /**
   * HealthCheckSpec configures health checks in the DNS provider. By default this health check will be applied to each unique DNS A Record for the listeners assigned to the target gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#health_check DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#health_check DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#health_check}
   */
   readonly healthCheck?: DataK8SKuadrantIoDnsRecordV1Alpha1ManifestSpecHealthCheck;
   /**
   * ownerID is a unique string used to identify the owner of this record. If unset or set to an empty string the record UID will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#owner_id DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#owner_id DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#owner_id}
   */
   readonly ownerId?: string;
   /**
   * providerRef is a reference to a provider secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#provider_ref DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#provider_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#provider_ref DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#provider_ref}
   */
   readonly providerRef: DataK8SKuadrantIoDnsRecordV1Alpha1ManifestSpecProviderRef;
   /**
   * rootHost is the single root for all endpoints in a DNSRecord. it is expected all defined endpoints are children of or equal to this rootHost Must contain at least two groups of valid URL characters separated by a '.'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#root_host DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#root_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#root_host DataK8SKuadrantIoDnsRecordV1Alpha1Manifest#root_host}
   */
   readonly rootHost: string;
 }
@@ -1412,7 +1412,7 @@ export class DataK8SKuadrantIoDnsRecordV1Alpha1ManifestSpecOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest k8s_kuadrant_io_dns_record_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest k8s_kuadrant_io_dns_record_v1alpha1_manifest}
 */
 export class DataK8SKuadrantIoDnsRecordV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1428,7 +1428,7 @@ export class DataK8SKuadrantIoDnsRecordV1Alpha1Manifest extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataK8SKuadrantIoDnsRecordV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKuadrantIoDnsRecordV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SKuadrantIoDnsRecordV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKuadrantIoDnsRecordV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKuadrantIoDnsRecordV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1440,7 +1440,7 @@ export class DataK8SKuadrantIoDnsRecordV1Alpha1Manifest extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest k8s_kuadrant_io_dns_record_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_dns_record_v1alpha1_manifest k8s_kuadrant_io_dns_record_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1451,8 +1451,8 @@ export class DataK8SKuadrantIoDnsRecordV1Alpha1Manifest extends cdktf.TerraformD
       terraformResourceType: 'k8s_kuadrant_io_dns_record_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

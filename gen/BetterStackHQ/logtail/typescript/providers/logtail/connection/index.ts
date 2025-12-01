@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/connection
+// https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Type of client connection. Currently only `clickhouse` is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/connection#client_type Connection#client_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/connection#client_type Connection#client_type}
   */
   readonly clientType: string;
   /**
   * Data region or private cluster name. Permitted values: `us_east`, `us_west`, `germany`, `singapore`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/connection#data_region Connection#data_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/connection#data_region Connection#data_region}
   */
   readonly dataRegion?: string;
   /**
   * Array of IP addresses or CIDR ranges that are allowed to use this connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/connection#ip_allowlist Connection#ip_allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/connection#ip_allowlist Connection#ip_allowlist}
   */
   readonly ipAllowlist?: string[];
   /**
   * A descriptive note for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/connection#note Connection#note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/connection#note Connection#note}
   */
   readonly note?: string;
   /**
   * Array of team IDs to associate with the connection. Only one of `team_names` or `team_ids` should be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/connection#team_ids Connection#team_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/connection#team_ids Connection#team_ids}
   */
   readonly teamIds?: number[];
   /**
   * Array of team names to associate with the connection. Only one of `team_names` or `team_ids` should be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/connection#team_names Connection#team_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/connection#team_names Connection#team_names}
   */
   readonly teamNames?: string[];
   /**
   * ISO 8601 timestamp when the connection expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/connection#valid_until Connection#valid_until}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/connection#valid_until Connection#valid_until}
   */
   readonly validUntil?: string;
 }
@@ -142,7 +142,7 @@ export class ConnectionDataSourcesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/connection logtail_connection}
+* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/connection logtail_connection}
 */
 export class Connection extends cdktf.TerraformResource {
 
@@ -158,7 +158,7 @@ export class Connection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Connection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Connection to import
-  * @param importFromId The id of the existing Connection that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Connection that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Connection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -170,7 +170,7 @@ export class Connection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/connection logtail_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/connection logtail_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -181,8 +181,8 @@ export class Connection extends cdktf.TerraformResource {
       terraformResourceType: 'logtail_connection',
       terraformGeneratorMetadata: {
         providerName: 'logtail',
-        providerVersion: '0.7.1',
-        providerVersionConstraint: '0.7.1'
+        providerVersion: '0.7.2',
+        providerVersionConstraint: '0.7.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

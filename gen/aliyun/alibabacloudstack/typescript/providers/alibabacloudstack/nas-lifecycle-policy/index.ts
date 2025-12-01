@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/nas_lifecycle_policy
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/nas_lifecycle_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface NasLifecyclePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/nas_lifecycle_policy#file_system_id NasLifecyclePolicy#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/nas_lifecycle_policy#file_system_id NasLifecyclePolicy#file_system_id}
   */
   readonly fileSystemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/nas_lifecycle_policy#id NasLifecyclePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/nas_lifecycle_policy#id NasLifecyclePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/nas_lifecycle_policy#lifecycle_policy_name NasLifecyclePolicy#lifecycle_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/nas_lifecycle_policy#lifecycle_policy_name NasLifecyclePolicy#lifecycle_policy_name}
   */
   readonly lifecyclePolicyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/nas_lifecycle_policy#lifecycle_rule_name NasLifecyclePolicy#lifecycle_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/nas_lifecycle_policy#lifecycle_rule_name NasLifecyclePolicy#lifecycle_rule_name}
   */
   readonly lifecycleRuleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/nas_lifecycle_policy#oss_bucket NasLifecyclePolicy#oss_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/nas_lifecycle_policy#oss_bucket NasLifecyclePolicy#oss_bucket}
   */
   readonly ossBucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/nas_lifecycle_policy#path NasLifecyclePolicy#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/nas_lifecycle_policy#path NasLifecyclePolicy#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/nas_lifecycle_policy#recursive NasLifecyclePolicy#recursive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/nas_lifecycle_policy#recursive NasLifecyclePolicy#recursive}
   */
   readonly recursive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/nas_lifecycle_policy#storage_type NasLifecyclePolicy#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/nas_lifecycle_policy#storage_type NasLifecyclePolicy#storage_type}
   */
   readonly storageType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/nas_lifecycle_policy alibabacloudstack_nas_lifecycle_policy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/nas_lifecycle_policy alibabacloudstack_nas_lifecycle_policy}
 */
 export class NasLifecyclePolicy extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class NasLifecyclePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NasLifecyclePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NasLifecyclePolicy to import
-  * @param importFromId The id of the existing NasLifecyclePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/nas_lifecycle_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NasLifecyclePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/nas_lifecycle_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NasLifecyclePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class NasLifecyclePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/nas_lifecycle_policy alibabacloudstack_nas_lifecycle_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/nas_lifecycle_policy alibabacloudstack_nas_lifecycle_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,7 +84,8 @@ export class NasLifecyclePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_nas_lifecycle_policy',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

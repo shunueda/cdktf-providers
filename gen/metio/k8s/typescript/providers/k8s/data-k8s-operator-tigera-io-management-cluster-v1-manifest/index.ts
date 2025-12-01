@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_management_cluster_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_management_cluster_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOperatorTigeraIoManagementClusterV1ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_management_cluster_v1_manifest#metadata DataK8SOperatorTigeraIoManagementClusterV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_management_cluster_v1_manifest#metadata DataK8SOperatorTigeraIoManagementClusterV1Manifest#metadata}
   */
   readonly metadata: DataK8SOperatorTigeraIoManagementClusterV1ManifestMetadata;
   /**
   * ManagementClusterSpec defines the desired state of a ManagementCluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_management_cluster_v1_manifest#spec DataK8SOperatorTigeraIoManagementClusterV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_management_cluster_v1_manifest#spec DataK8SOperatorTigeraIoManagementClusterV1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorTigeraIoManagementClusterV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SOperatorTigeraIoManagementClusterV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_management_cluster_v1_manifest#annotations DataK8SOperatorTigeraIoManagementClusterV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_management_cluster_v1_manifest#annotations DataK8SOperatorTigeraIoManagementClusterV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_management_cluster_v1_manifest#labels DataK8SOperatorTigeraIoManagementClusterV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_management_cluster_v1_manifest#labels DataK8SOperatorTigeraIoManagementClusterV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_management_cluster_v1_manifest#name DataK8SOperatorTigeraIoManagementClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_management_cluster_v1_manifest#name DataK8SOperatorTigeraIoManagementClusterV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,7 +187,7 @@ export interface DataK8SOperatorTigeraIoManagementClusterV1ManifestSpecTls {
   /**
   * SecretName indicates the name of the secret in the tigera-operator namespace that contains the private key and certificate that the management cluster uses when it listens for incoming connections. When set to tigera-management-cluster-connection voltron will use the same cert bundle which Guardian client certs are signed with. When set to manager-tls, voltron will use the same cert bundle which Manager UI is served with. This cert bundle must be a publicly signed cert created by the user. Note that Tigera Operator will generate a self-signed manager-tls cert if one does not exist, and use of that cert will result in Guardian being unable to verify Voltron's identity. If changed on a running cluster with connected managed clusters, all managed clusters will disconnect as they will no longer be able to verify Voltron's identity. To reconnect existing managed clusters, change the tls.ca of the managed clusters' ManagementClusterConnection resource. One of: tigera-management-cluster-connection, manager-tls Default: tigera-management-cluster-connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_management_cluster_v1_manifest#secret_name DataK8SOperatorTigeraIoManagementClusterV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_management_cluster_v1_manifest#secret_name DataK8SOperatorTigeraIoManagementClusterV1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -283,13 +283,13 @@ export interface DataK8SOperatorTigeraIoManagementClusterV1ManifestSpec {
   /**
   * This field specifies the externally reachable address to which your managed cluster will connect. When a managed cluster is added, this field is used to populate an easy-to-apply manifest that will connect both clusters. Valid examples are: '0.0.0.0:31000', 'example.com:32000', '[::1]:32500'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_management_cluster_v1_manifest#address DataK8SOperatorTigeraIoManagementClusterV1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_management_cluster_v1_manifest#address DataK8SOperatorTigeraIoManagementClusterV1Manifest#address}
   */
   readonly address?: string;
   /**
   * TLS provides options for configuring how Managed Clusters can establish an mTLS connection with the Management Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_management_cluster_v1_manifest#tls DataK8SOperatorTigeraIoManagementClusterV1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_management_cluster_v1_manifest#tls DataK8SOperatorTigeraIoManagementClusterV1Manifest#tls}
   */
   readonly tls?: DataK8SOperatorTigeraIoManagementClusterV1ManifestSpecTls;
 }
@@ -412,7 +412,7 @@ export class DataK8SOperatorTigeraIoManagementClusterV1ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_management_cluster_v1_manifest k8s_operator_tigera_io_management_cluster_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_management_cluster_v1_manifest k8s_operator_tigera_io_management_cluster_v1_manifest}
 */
 export class DataK8SOperatorTigeraIoManagementClusterV1Manifest extends cdktf.TerraformDataSource {
 
@@ -428,7 +428,7 @@ export class DataK8SOperatorTigeraIoManagementClusterV1Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SOperatorTigeraIoManagementClusterV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOperatorTigeraIoManagementClusterV1Manifest to import
-  * @param importFromId The id of the existing DataK8SOperatorTigeraIoManagementClusterV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_management_cluster_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOperatorTigeraIoManagementClusterV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_management_cluster_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOperatorTigeraIoManagementClusterV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -440,7 +440,7 @@ export class DataK8SOperatorTigeraIoManagementClusterV1Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_tigera_io_management_cluster_v1_manifest k8s_operator_tigera_io_management_cluster_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_tigera_io_management_cluster_v1_manifest k8s_operator_tigera_io_management_cluster_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -451,8 +451,8 @@ export class DataK8SOperatorTigeraIoManagementClusterV1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_operator_tigera_io_management_cluster_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

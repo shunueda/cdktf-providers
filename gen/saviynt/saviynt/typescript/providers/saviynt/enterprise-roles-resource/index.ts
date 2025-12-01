@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,493 +10,493 @@ export interface EnterpriseRolesResourceConfig extends cdktf.TerraformMetaArgume
   /**
   * Indicates if segregation of duties (SoD) checks should be performed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#check_sod EnterpriseRolesResource#check_sod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#check_sod EnterpriseRolesResource#check_sod}
   */
   readonly checkSod?: string;
   /**
   * Set of child roles associated with the role. Child roles provide conditional access - when a user requests entitlements from a child role, the system checks if they have the parent role entitlements. Conversely, requesting parent role entitlements automatically grants child role entitlements. To add child roles, include them in the set; to remove child roles, exclude them from the set. Each child role requires 'role_name'. Note: This attribute is only available in Saviynt version 25.B and later.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#child_roles EnterpriseRolesResource#child_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#child_roles EnterpriseRolesResource#child_roles}
   */
   readonly childRoles?: EnterpriseRolesResourceChildRoles[] | cdktf.IResolvable;
   /**
   * Select the confidentiality of this role. Valid options: 'None', 'Very Low', 'Low', 'Medium', 'High', 'Critical'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#confidentiality EnterpriseRolesResource#confidentiality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#confidentiality EnterpriseRolesResource#confidentiality}
   */
   readonly confidentiality?: string;
   /**
   * Custom Property 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property1 EnterpriseRolesResource#custom_property1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property1 EnterpriseRolesResource#custom_property1}
   */
   readonly customProperty1?: string;
   /**
   * Custom Property 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property10 EnterpriseRolesResource#custom_property10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property10 EnterpriseRolesResource#custom_property10}
   */
   readonly customProperty10?: string;
   /**
   * Custom Property 11.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property11 EnterpriseRolesResource#custom_property11}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property11 EnterpriseRolesResource#custom_property11}
   */
   readonly customProperty11?: string;
   /**
   * Custom Property 12.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property12 EnterpriseRolesResource#custom_property12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property12 EnterpriseRolesResource#custom_property12}
   */
   readonly customProperty12?: string;
   /**
   * Custom Property 13.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property13 EnterpriseRolesResource#custom_property13}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property13 EnterpriseRolesResource#custom_property13}
   */
   readonly customProperty13?: string;
   /**
   * Custom Property 14.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property14 EnterpriseRolesResource#custom_property14}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property14 EnterpriseRolesResource#custom_property14}
   */
   readonly customProperty14?: string;
   /**
   * Custom Property 15.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property15 EnterpriseRolesResource#custom_property15}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property15 EnterpriseRolesResource#custom_property15}
   */
   readonly customProperty15?: string;
   /**
   * Custom Property 16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property16 EnterpriseRolesResource#custom_property16}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property16 EnterpriseRolesResource#custom_property16}
   */
   readonly customProperty16?: string;
   /**
   * Custom Property 17.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property17 EnterpriseRolesResource#custom_property17}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property17 EnterpriseRolesResource#custom_property17}
   */
   readonly customProperty17?: string;
   /**
   * Custom Property 18.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property18 EnterpriseRolesResource#custom_property18}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property18 EnterpriseRolesResource#custom_property18}
   */
   readonly customProperty18?: string;
   /**
   * Custom Property 19.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property19 EnterpriseRolesResource#custom_property19}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property19 EnterpriseRolesResource#custom_property19}
   */
   readonly customProperty19?: string;
   /**
   * Custom Property 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property2 EnterpriseRolesResource#custom_property2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property2 EnterpriseRolesResource#custom_property2}
   */
   readonly customProperty2?: string;
   /**
   * Custom Property 20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property20 EnterpriseRolesResource#custom_property20}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property20 EnterpriseRolesResource#custom_property20}
   */
   readonly customProperty20?: string;
   /**
   * Custom Property 21.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property21 EnterpriseRolesResource#custom_property21}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property21 EnterpriseRolesResource#custom_property21}
   */
   readonly customProperty21?: string;
   /**
   * Custom Property 22.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property22 EnterpriseRolesResource#custom_property22}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property22 EnterpriseRolesResource#custom_property22}
   */
   readonly customProperty22?: string;
   /**
   * Custom Property 23.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property23 EnterpriseRolesResource#custom_property23}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property23 EnterpriseRolesResource#custom_property23}
   */
   readonly customProperty23?: string;
   /**
   * Custom Property 24.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property24 EnterpriseRolesResource#custom_property24}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property24 EnterpriseRolesResource#custom_property24}
   */
   readonly customProperty24?: string;
   /**
   * Custom Property 25.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property25 EnterpriseRolesResource#custom_property25}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property25 EnterpriseRolesResource#custom_property25}
   */
   readonly customProperty25?: string;
   /**
   * Custom Property 26.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property26 EnterpriseRolesResource#custom_property26}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property26 EnterpriseRolesResource#custom_property26}
   */
   readonly customProperty26?: string;
   /**
   * Custom Property 27.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property27 EnterpriseRolesResource#custom_property27}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property27 EnterpriseRolesResource#custom_property27}
   */
   readonly customProperty27?: string;
   /**
   * Custom Property 28.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property28 EnterpriseRolesResource#custom_property28}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property28 EnterpriseRolesResource#custom_property28}
   */
   readonly customProperty28?: string;
   /**
   * Custom Property 29.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property29 EnterpriseRolesResource#custom_property29}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property29 EnterpriseRolesResource#custom_property29}
   */
   readonly customProperty29?: string;
   /**
   * Custom Property 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property3 EnterpriseRolesResource#custom_property3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property3 EnterpriseRolesResource#custom_property3}
   */
   readonly customProperty3?: string;
   /**
   * Custom Property 30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property30 EnterpriseRolesResource#custom_property30}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property30 EnterpriseRolesResource#custom_property30}
   */
   readonly customProperty30?: string;
   /**
   * Custom Property 31.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property31 EnterpriseRolesResource#custom_property31}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property31 EnterpriseRolesResource#custom_property31}
   */
   readonly customProperty31?: string;
   /**
   * Custom Property 32.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property32 EnterpriseRolesResource#custom_property32}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property32 EnterpriseRolesResource#custom_property32}
   */
   readonly customProperty32?: string;
   /**
   * Custom Property 33.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property33 EnterpriseRolesResource#custom_property33}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property33 EnterpriseRolesResource#custom_property33}
   */
   readonly customProperty33?: string;
   /**
   * Custom Property 34.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property34 EnterpriseRolesResource#custom_property34}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property34 EnterpriseRolesResource#custom_property34}
   */
   readonly customProperty34?: string;
   /**
   * Custom Property 35.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property35 EnterpriseRolesResource#custom_property35}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property35 EnterpriseRolesResource#custom_property35}
   */
   readonly customProperty35?: string;
   /**
   * Custom Property 36.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property36 EnterpriseRolesResource#custom_property36}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property36 EnterpriseRolesResource#custom_property36}
   */
   readonly customProperty36?: string;
   /**
   * Custom Property 37.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property37 EnterpriseRolesResource#custom_property37}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property37 EnterpriseRolesResource#custom_property37}
   */
   readonly customProperty37?: string;
   /**
   * Custom Property 38.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property38 EnterpriseRolesResource#custom_property38}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property38 EnterpriseRolesResource#custom_property38}
   */
   readonly customProperty38?: string;
   /**
   * Custom Property 39.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property39 EnterpriseRolesResource#custom_property39}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property39 EnterpriseRolesResource#custom_property39}
   */
   readonly customProperty39?: string;
   /**
   * Custom Property 4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property4 EnterpriseRolesResource#custom_property4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property4 EnterpriseRolesResource#custom_property4}
   */
   readonly customProperty4?: string;
   /**
   * Custom Property 40.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property40 EnterpriseRolesResource#custom_property40}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property40 EnterpriseRolesResource#custom_property40}
   */
   readonly customProperty40?: string;
   /**
   * Custom Property 41.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property41 EnterpriseRolesResource#custom_property41}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property41 EnterpriseRolesResource#custom_property41}
   */
   readonly customProperty41?: string;
   /**
   * Custom Property 42.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property42 EnterpriseRolesResource#custom_property42}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property42 EnterpriseRolesResource#custom_property42}
   */
   readonly customProperty42?: string;
   /**
   * Custom Property 43.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property43 EnterpriseRolesResource#custom_property43}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property43 EnterpriseRolesResource#custom_property43}
   */
   readonly customProperty43?: string;
   /**
   * Custom Property 44.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property44 EnterpriseRolesResource#custom_property44}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property44 EnterpriseRolesResource#custom_property44}
   */
   readonly customProperty44?: string;
   /**
   * Custom Property 45.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property45 EnterpriseRolesResource#custom_property45}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property45 EnterpriseRolesResource#custom_property45}
   */
   readonly customProperty45?: string;
   /**
   * Custom Property 46.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property46 EnterpriseRolesResource#custom_property46}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property46 EnterpriseRolesResource#custom_property46}
   */
   readonly customProperty46?: string;
   /**
   * Custom Property 47.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property47 EnterpriseRolesResource#custom_property47}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property47 EnterpriseRolesResource#custom_property47}
   */
   readonly customProperty47?: string;
   /**
   * Custom Property 48.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property48 EnterpriseRolesResource#custom_property48}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property48 EnterpriseRolesResource#custom_property48}
   */
   readonly customProperty48?: string;
   /**
   * Custom Property 49.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property49 EnterpriseRolesResource#custom_property49}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property49 EnterpriseRolesResource#custom_property49}
   */
   readonly customProperty49?: string;
   /**
   * Custom Property 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property5 EnterpriseRolesResource#custom_property5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property5 EnterpriseRolesResource#custom_property5}
   */
   readonly customProperty5?: string;
   /**
   * Custom Property 50.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property50 EnterpriseRolesResource#custom_property50}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property50 EnterpriseRolesResource#custom_property50}
   */
   readonly customProperty50?: string;
   /**
   * Custom Property 51.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property51 EnterpriseRolesResource#custom_property51}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property51 EnterpriseRolesResource#custom_property51}
   */
   readonly customProperty51?: string;
   /**
   * Custom Property 52.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property52 EnterpriseRolesResource#custom_property52}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property52 EnterpriseRolesResource#custom_property52}
   */
   readonly customProperty52?: string;
   /**
   * Custom Property 53.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property53 EnterpriseRolesResource#custom_property53}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property53 EnterpriseRolesResource#custom_property53}
   */
   readonly customProperty53?: string;
   /**
   * Custom Property 54.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property54 EnterpriseRolesResource#custom_property54}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property54 EnterpriseRolesResource#custom_property54}
   */
   readonly customProperty54?: string;
   /**
   * Custom Property 55.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property55 EnterpriseRolesResource#custom_property55}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property55 EnterpriseRolesResource#custom_property55}
   */
   readonly customProperty55?: string;
   /**
   * Custom Property 56.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property56 EnterpriseRolesResource#custom_property56}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property56 EnterpriseRolesResource#custom_property56}
   */
   readonly customProperty56?: string;
   /**
   * Custom Property 57.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property57 EnterpriseRolesResource#custom_property57}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property57 EnterpriseRolesResource#custom_property57}
   */
   readonly customProperty57?: string;
   /**
   * Custom Property 58.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property58 EnterpriseRolesResource#custom_property58}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property58 EnterpriseRolesResource#custom_property58}
   */
   readonly customProperty58?: string;
   /**
   * Custom Property 59.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property59 EnterpriseRolesResource#custom_property59}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property59 EnterpriseRolesResource#custom_property59}
   */
   readonly customProperty59?: string;
   /**
   * Custom Property 6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property6 EnterpriseRolesResource#custom_property6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property6 EnterpriseRolesResource#custom_property6}
   */
   readonly customProperty6?: string;
   /**
   * Custom Property 60.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property60 EnterpriseRolesResource#custom_property60}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property60 EnterpriseRolesResource#custom_property60}
   */
   readonly customProperty60?: string;
   /**
   * Custom Property 7.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property7 EnterpriseRolesResource#custom_property7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property7 EnterpriseRolesResource#custom_property7}
   */
   readonly customProperty7?: string;
   /**
   * Custom Property 8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property8 EnterpriseRolesResource#custom_property8}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property8 EnterpriseRolesResource#custom_property8}
   */
   readonly customProperty8?: string;
   /**
   * Custom Property 9.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#custom_property9 EnterpriseRolesResource#custom_property9}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#custom_property9 EnterpriseRolesResource#custom_property9}
   */
   readonly customProperty9?: string;
   /**
   * Specify the default time frame (in hours) to request access for a role. This defines how long users will have access when assigned this role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#default_time_frame EnterpriseRolesResource#default_time_frame}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#default_time_frame EnterpriseRolesResource#default_time_frame}
   */
   readonly defaultTimeFrame?: string;
   /**
   * Displays the description of the role. You can change the description, as required. This helps users understand what the role is for and what permissions it grants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#description EnterpriseRolesResource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#description EnterpriseRolesResource#description}
   */
   readonly description?: string;
   /**
   * Displays the display name of the role. This is a user-friendly name that can be different from the role_name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#display_name EnterpriseRolesResource#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#display_name EnterpriseRolesResource#display_name}
   */
   readonly displayName?: string;
   /**
   * Name of the endpoint associated with this role. Must be an existing endpoint in Saviynt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#endpoint_name EnterpriseRolesResource#endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#endpoint_name EnterpriseRolesResource#endpoint_name}
   */
   readonly endpointName?: string;
   /**
   * Set of entitlements associated with the role. Entitlements dictate user (role assignee) responsibility in managing an application. To add entitlements, include them in the set; to remove entitlements, exclude them from the set. Each entitlement requires 'entitlement_value', 'entitlement_type', and 'endpoint'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#entitlements EnterpriseRolesResource#entitlements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#entitlements EnterpriseRolesResource#entitlements}
   */
   readonly entitlements?: EnterpriseRolesResourceEntitlements[] | cdktf.IResolvable;
   /**
   * Displays the Glossary about the role. This provides additional context and definitions related to the role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#glossary EnterpriseRolesResource#glossary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#glossary EnterpriseRolesResource#glossary}
   */
   readonly glossary?: string;
   /**
   * Enter the hierarchy level of this role. This defines the role's position in the organizational hierarchy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#level EnterpriseRolesResource#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#level EnterpriseRolesResource#level}
   */
   readonly level?: string;
   /**
   * Set of role owners with their respective ranks. Each owner must have 'owner_name' (valid Saviynt username) and 'rank' (1-27, where 1 is highest priority). The same owner can have up to 5 different ranks. To add owners, include them in the set; to remove owners, exclude them from the set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#owners EnterpriseRolesResource#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#owners EnterpriseRolesResource#owners}
   */
   readonly owners?: EnterpriseRolesResourceOwners[] | cdktf.IResolvable;
   /**
   * Select the privileged criticality of the role which describes privileges assigned to the role and amount of risk to provide access to this role. Valid options: 'None', 'Very Low', 'Low', 'Medium', 'High', 'Critical'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#privileged EnterpriseRolesResource#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#privileged EnterpriseRolesResource#privileged}
   */
   readonly privileged?: string;
   /**
   * Specify if you want the users to request for the role. Valid options: 'true' (makes the role requestable), 'false' (makes the role non-requestable). Defaults to 'true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#requestable EnterpriseRolesResource#requestable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#requestable EnterpriseRolesResource#requestable}
   */
   readonly requestable?: string;
   /**
   * Username of the person requesting the role creation. This should be a valid Saviynt user who has permissions to create roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#requestor EnterpriseRolesResource#requestor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#requestor EnterpriseRolesResource#requestor}
   */
   readonly requestor: string;
   /**
   * Displays the risk level specified for the role required during the separation of duties based on the roles. Valid options: 'None', 'Very Low', 'Low', 'Medium', 'High', 'Critical'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#risk EnterpriseRolesResource#risk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#risk EnterpriseRolesResource#risk}
   */
   readonly risk?: string;
   /**
   * Unique name of the role. This will be used as the identifier for the role in Saviynt and must be unique across all roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#role_name EnterpriseRolesResource#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#role_name EnterpriseRolesResource#role_name}
   */
   readonly roleName: string;
   /**
   * Type of the role. Valid values: 'ENABLER', 'TRANSACTIONAL', 'FIREFIGHTER', 'ENTERPRISE', 'APPLICATION', 'ENTITLEMENT'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#role_type EnterpriseRolesResource#role_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#role_type EnterpriseRolesResource#role_type}
   */
   readonly roleType: string;
   /**
   * Displays the dynamic attributes associated with the role. For example, there is a Dynamic Attribute A, which is Boolean set as true and false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#show_dynamic_attrs EnterpriseRolesResource#show_dynamic_attrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#show_dynamic_attrs EnterpriseRolesResource#show_dynamic_attrs}
   */
   readonly showDynamicAttrs?: string;
   /**
   * Select the SOX criticality of the role. Valid options: 'None', 'Very Low', 'Low', 'Medium', 'High', 'Critical'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#sox_critical EnterpriseRolesResource#sox_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#sox_critical EnterpriseRolesResource#sox_critical}
   */
   readonly soxCritical?: string;
   /**
   * Select the SYS criticality of the role. Valid options: 'None', 'Very Low', 'Low', 'Medium', 'High', 'Critical'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#sys_critical EnterpriseRolesResource#sys_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#sys_critical EnterpriseRolesResource#sys_critical}
   */
   readonly sysCritical?: string;
   /**
   * Set of users assigned to the role. To add users to the role, include them in the set; to remove users from the role, exclude them from the set. Each user requires 'user_name' (valid Saviynt username). When users are assigned to a role, they inherit all entitlements and permissions associated with that role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#users EnterpriseRolesResource#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#users EnterpriseRolesResource#users}
   */
   readonly users?: EnterpriseRolesResourceUsers[] | cdktf.IResolvable;
 }
 export interface EnterpriseRolesResourceChildRoles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#role_name EnterpriseRolesResource#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#role_name EnterpriseRolesResource#role_name}
   */
   readonly roleName?: string;
 }
@@ -612,15 +612,15 @@ export class EnterpriseRolesResourceChildRolesList extends cdktf.ComplexList {
 }
 export interface EnterpriseRolesResourceEntitlements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#endpoint EnterpriseRolesResource#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#endpoint EnterpriseRolesResource#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#entitlement_type EnterpriseRolesResource#entitlement_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#entitlement_type EnterpriseRolesResource#entitlement_type}
   */
   readonly entitlementType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#entitlement_value EnterpriseRolesResource#entitlement_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#entitlement_value EnterpriseRolesResource#entitlement_value}
   */
   readonly entitlementValue?: string;
 }
@@ -794,11 +794,11 @@ export class EnterpriseRolesResourceEntitlementsList extends cdktf.ComplexList {
 }
 export interface EnterpriseRolesResourceOwners {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#owner_name EnterpriseRolesResource#owner_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#owner_name EnterpriseRolesResource#owner_name}
   */
   readonly ownerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#rank EnterpriseRolesResource#rank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#rank EnterpriseRolesResource#rank}
   */
   readonly rank?: string;
 }
@@ -943,7 +943,7 @@ export class EnterpriseRolesResourceOwnersList extends cdktf.ComplexList {
 }
 export interface EnterpriseRolesResourceUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#user_name EnterpriseRolesResource#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#user_name EnterpriseRolesResource#user_name}
   */
   readonly userName?: string;
 }
@@ -1059,7 +1059,7 @@ export class EnterpriseRolesResourceUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource saviynt_enterprise_roles_resource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource saviynt_enterprise_roles_resource}
 */
 export class EnterpriseRolesResource extends cdktf.TerraformResource {
 
@@ -1075,7 +1075,7 @@ export class EnterpriseRolesResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EnterpriseRolesResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnterpriseRolesResource to import
-  * @param importFromId The id of the existing EnterpriseRolesResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EnterpriseRolesResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnterpriseRolesResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1087,7 +1087,7 @@ export class EnterpriseRolesResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/enterprise_roles_resource saviynt_enterprise_roles_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/enterprise_roles_resource saviynt_enterprise_roles_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1098,8 +1098,8 @@ export class EnterpriseRolesResource extends cdktf.TerraformResource {
       terraformResourceType: 'saviynt_enterprise_roles_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.3.1',
-        providerVersionConstraint: '0.3.1'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

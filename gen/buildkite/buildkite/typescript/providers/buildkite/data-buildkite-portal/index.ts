@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/portal
+// https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/portal
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataBuildkitePortalConfig extends cdktf.TerraformMetaArguments 
   /**
   * The slug of the portal to retrieve.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/portal#slug DataBuildkitePortal#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/portal#slug DataBuildkitePortal#slug}
   */
   readonly slug: string;
 }
@@ -80,7 +80,7 @@ export class DataBuildkitePortalCreatedByOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/portal buildkite_portal}
+* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/portal buildkite_portal}
 */
 export class DataBuildkitePortal extends cdktf.TerraformDataSource {
 
@@ -96,7 +96,7 @@ export class DataBuildkitePortal extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBuildkitePortal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBuildkitePortal to import
-  * @param importFromId The id of the existing DataBuildkitePortal that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/portal#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBuildkitePortal that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/portal#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBuildkitePortal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -108,7 +108,7 @@ export class DataBuildkitePortal extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/portal buildkite_portal} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/portal buildkite_portal} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -119,8 +119,8 @@ export class DataBuildkitePortal extends cdktf.TerraformDataSource {
       terraformResourceType: 'buildkite_portal',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.27.0',
-        providerVersionConstraint: '1.27.0'
+        providerVersion: '1.27.1',
+        providerVersionConstraint: '1.27.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

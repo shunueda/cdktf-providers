@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,166 +8,166 @@ import * as cdktf from 'cdktf';
 
 export interface EssScalingConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#active EssScalingConfiguration#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#active EssScalingConfiguration#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#deployment_set_id EssScalingConfiguration#deployment_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#deployment_set_id EssScalingConfiguration#deployment_set_id}
   */
   readonly deploymentSetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#enable EssScalingConfiguration#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#enable EssScalingConfiguration#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#force_delete EssScalingConfiguration#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#force_delete EssScalingConfiguration#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#host_name EssScalingConfiguration#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#host_name EssScalingConfiguration#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#id EssScalingConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#id EssScalingConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#image_id EssScalingConfiguration#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#image_id EssScalingConfiguration#image_id}
   */
   readonly imageId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#instance_name EssScalingConfiguration#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#instance_name EssScalingConfiguration#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#instance_type EssScalingConfiguration#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#instance_type EssScalingConfiguration#instance_type}
   */
   readonly instanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#instance_types EssScalingConfiguration#instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#instance_types EssScalingConfiguration#instance_types}
   */
   readonly instanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#internet_max_bandwidth_in EssScalingConfiguration#internet_max_bandwidth_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#internet_max_bandwidth_in EssScalingConfiguration#internet_max_bandwidth_in}
   */
   readonly internetMaxBandwidthIn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#is_outdated EssScalingConfiguration#is_outdated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#is_outdated EssScalingConfiguration#is_outdated}
   */
   readonly isOutdated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#key_name EssScalingConfiguration#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#key_name EssScalingConfiguration#key_name}
   */
   readonly keyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#key_pair_name EssScalingConfiguration#key_pair_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#key_pair_name EssScalingConfiguration#key_pair_name}
   */
   readonly keyPairName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#override EssScalingConfiguration#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#override EssScalingConfiguration#override}
   */
   readonly override?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#ram_role_name EssScalingConfiguration#ram_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#ram_role_name EssScalingConfiguration#ram_role_name}
   */
   readonly ramRoleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#role_name EssScalingConfiguration#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#role_name EssScalingConfiguration#role_name}
   */
   readonly roleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#scaling_configuration_name EssScalingConfiguration#scaling_configuration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#scaling_configuration_name EssScalingConfiguration#scaling_configuration_name}
   */
   readonly scalingConfigurationName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#scaling_group_id EssScalingConfiguration#scaling_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#scaling_group_id EssScalingConfiguration#scaling_group_id}
   */
   readonly scalingGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#security_group_ids EssScalingConfiguration#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#security_group_ids EssScalingConfiguration#security_group_ids}
   */
   readonly securityGroupIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#status EssScalingConfiguration#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#status EssScalingConfiguration#status}
   */
   readonly status?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#substitute EssScalingConfiguration#substitute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#substitute EssScalingConfiguration#substitute}
   */
   readonly substitute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#system_disk_auto_snapshot_policy_id EssScalingConfiguration#system_disk_auto_snapshot_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#system_disk_auto_snapshot_policy_id EssScalingConfiguration#system_disk_auto_snapshot_policy_id}
   */
   readonly systemDiskAutoSnapshotPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#system_disk_category EssScalingConfiguration#system_disk_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#system_disk_category EssScalingConfiguration#system_disk_category}
   */
   readonly systemDiskCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#system_disk_size EssScalingConfiguration#system_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#system_disk_size EssScalingConfiguration#system_disk_size}
   */
   readonly systemDiskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#tags EssScalingConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#tags EssScalingConfiguration#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#user_data EssScalingConfiguration#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#user_data EssScalingConfiguration#user_data}
   */
   readonly userData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#zone_id EssScalingConfiguration#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#zone_id EssScalingConfiguration#zone_id}
   */
   readonly zoneId?: string;
   /**
   * data_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#data_disk EssScalingConfiguration#data_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#data_disk EssScalingConfiguration#data_disk}
   */
   readonly dataDisk?: EssScalingConfigurationDataDisk[] | cdktf.IResolvable;
 }
 export interface EssScalingConfigurationDataDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#auto_snapshot_policy_id EssScalingConfiguration#auto_snapshot_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#auto_snapshot_policy_id EssScalingConfiguration#auto_snapshot_policy_id}
   */
   readonly autoSnapshotPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#category EssScalingConfiguration#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#category EssScalingConfiguration#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#delete_with_instance EssScalingConfiguration#delete_with_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#delete_with_instance EssScalingConfiguration#delete_with_instance}
   */
   readonly deleteWithInstance?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#description EssScalingConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#description EssScalingConfiguration#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#device EssScalingConfiguration#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#device EssScalingConfiguration#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#encrypted EssScalingConfiguration#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#encrypted EssScalingConfiguration#encrypted}
   */
   readonly encrypted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#kms_key_id EssScalingConfiguration#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#kms_key_id EssScalingConfiguration#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#name EssScalingConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#name EssScalingConfiguration#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#size EssScalingConfiguration#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#size EssScalingConfiguration#size}
   */
   readonly size?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#snapshot_id EssScalingConfiguration#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#snapshot_id EssScalingConfiguration#snapshot_id}
   */
   readonly snapshotId?: string;
 }
@@ -544,7 +544,7 @@ export class EssScalingConfigurationDataDiskList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration alibabacloudstack_ess_scaling_configuration}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration alibabacloudstack_ess_scaling_configuration}
 */
 export class EssScalingConfiguration extends cdktf.TerraformResource {
 
@@ -560,7 +560,7 @@ export class EssScalingConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EssScalingConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EssScalingConfiguration to import
-  * @param importFromId The id of the existing EssScalingConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EssScalingConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EssScalingConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -572,7 +572,7 @@ export class EssScalingConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ess_scaling_configuration alibabacloudstack_ess_scaling_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ess_scaling_configuration alibabacloudstack_ess_scaling_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -583,8 +583,8 @@ export class EssScalingConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_ess_scaling_configuration',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

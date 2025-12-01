@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/errors_application
+// https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,269 @@ export interface ErrorsApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the application group this application belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/errors_application#application_group_id ErrorsApplication#application_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#application_group_id ErrorsApplication#application_group_id}
   */
   readonly applicationGroupId?: number;
   /**
   * Data region or cluster name where application data will be stored. If omitted, the default data region for your team will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/errors_application#data_region ErrorsApplication#data_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#data_region ErrorsApplication#data_region}
   */
   readonly dataRegion?: string;
   /**
   * Error data retention period in days. Default retention is 90 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/errors_application#errors_retention ErrorsApplication#errors_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#errors_retention ErrorsApplication#errors_retention}
   */
   readonly errorsRetention?: number;
   /**
   * This property allows you to temporarily pause data ingesting for this application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/errors_application#ingesting_paused ErrorsApplication#ingesting_paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#ingesting_paused ErrorsApplication#ingesting_paused}
   */
   readonly ingestingPaused?: boolean | cdktf.IResolvable;
   /**
   * Application name. Must be unique within your team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/errors_application#name ErrorsApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#name ErrorsApplication#name}
   */
   readonly name: string;
   /**
   * The platform type for the application. This helps configure appropriate SDKs and integrations. Examples: dot_net_errors, dot_net_maui_errors, dot_net_http_errors, aiohttp_errors, asgi_errors, asp_dot_net_errors, asp_dot_net_core_errors, aws_lambda_dot_net_errors, aws_lambda_node_errors, aws_lambda_python_errors... Must be suffixed with _errors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/errors_application#platform ErrorsApplication#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#platform ErrorsApplication#platform}
   */
   readonly platform: string;
   /**
   * Used to specify the team the resource should be created in when using global tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/errors_application#team_name ErrorsApplication#team_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#team_name ErrorsApplication#team_name}
   */
   readonly teamName?: string;
+  /**
+  * custom_bucket block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#custom_bucket ErrorsApplication#custom_bucket}
+  */
+  readonly customBucket?: ErrorsApplicationCustomBucket;
+}
+export interface ErrorsApplicationCustomBucket {
+  /**
+  * Access key ID
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#access_key_id ErrorsApplication#access_key_id}
+  */
+  readonly accessKeyId: string;
+  /**
+  * Bucket endpoint
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#endpoint ErrorsApplication#endpoint}
+  */
+  readonly endpoint: string;
+  /**
+  * Whether we should keep data in the bucket after the retention period.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#keep_data_after_retention ErrorsApplication#keep_data_after_retention}
+  */
+  readonly keepDataAfterRetention?: boolean | cdktf.IResolvable;
+  /**
+  * Bucket name
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#name ErrorsApplication#name}
+  */
+  readonly name: string;
+  /**
+  * Secret access key
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#secret_access_key ErrorsApplication#secret_access_key}
+  */
+  readonly secretAccessKey: string;
+}
+
+export function errorsApplicationCustomBucketToTerraform(struct?: ErrorsApplicationCustomBucketOutputReference | ErrorsApplicationCustomBucket): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    access_key_id: cdktf.stringToTerraform(struct!.accessKeyId),
+    endpoint: cdktf.stringToTerraform(struct!.endpoint),
+    keep_data_after_retention: cdktf.booleanToTerraform(struct!.keepDataAfterRetention),
+    name: cdktf.stringToTerraform(struct!.name),
+    secret_access_key: cdktf.stringToTerraform(struct!.secretAccessKey),
+  }
+}
+
+
+export function errorsApplicationCustomBucketToHclTerraform(struct?: ErrorsApplicationCustomBucketOutputReference | ErrorsApplicationCustomBucket): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    access_key_id: {
+      value: cdktf.stringToHclTerraform(struct!.accessKeyId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    endpoint: {
+      value: cdktf.stringToHclTerraform(struct!.endpoint),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    keep_data_after_retention: {
+      value: cdktf.booleanToHclTerraform(struct!.keepDataAfterRetention),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    secret_access_key: {
+      value: cdktf.stringToHclTerraform(struct!.secretAccessKey),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ErrorsApplicationCustomBucketOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): ErrorsApplicationCustomBucket | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._accessKeyId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.accessKeyId = this._accessKeyId;
+    }
+    if (this._endpoint !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.endpoint = this._endpoint;
+    }
+    if (this._keepDataAfterRetention !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.keepDataAfterRetention = this._keepDataAfterRetention;
+    }
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._secretAccessKey !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.secretAccessKey = this._secretAccessKey;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ErrorsApplicationCustomBucket | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._accessKeyId = undefined;
+      this._endpoint = undefined;
+      this._keepDataAfterRetention = undefined;
+      this._name = undefined;
+      this._secretAccessKey = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._accessKeyId = value.accessKeyId;
+      this._endpoint = value.endpoint;
+      this._keepDataAfterRetention = value.keepDataAfterRetention;
+      this._name = value.name;
+      this._secretAccessKey = value.secretAccessKey;
+    }
+  }
+
+  // access_key_id - computed: false, optional: false, required: true
+  private _accessKeyId?: string; 
+  public get accessKeyId() {
+    return this.getStringAttribute('access_key_id');
+  }
+  public set accessKeyId(value: string) {
+    this._accessKeyId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get accessKeyIdInput() {
+    return this._accessKeyId;
+  }
+
+  // endpoint - computed: false, optional: false, required: true
+  private _endpoint?: string; 
+  public get endpoint() {
+    return this.getStringAttribute('endpoint');
+  }
+  public set endpoint(value: string) {
+    this._endpoint = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get endpointInput() {
+    return this._endpoint;
+  }
+
+  // keep_data_after_retention - computed: false, optional: true, required: false
+  private _keepDataAfterRetention?: boolean | cdktf.IResolvable; 
+  public get keepDataAfterRetention() {
+    return this.getBooleanAttribute('keep_data_after_retention');
+  }
+  public set keepDataAfterRetention(value: boolean | cdktf.IResolvable) {
+    this._keepDataAfterRetention = value;
+  }
+  public resetKeepDataAfterRetention() {
+    this._keepDataAfterRetention = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keepDataAfterRetentionInput() {
+    return this._keepDataAfterRetention;
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // secret_access_key - computed: false, optional: false, required: true
+  private _secretAccessKey?: string; 
+  public get secretAccessKey() {
+    return this.getStringAttribute('secret_access_key');
+  }
+  public set secretAccessKey(value: string) {
+    this._secretAccessKey = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secretAccessKeyInput() {
+    return this._secretAccessKey;
+  }
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/errors_application logtail_errors_application}
+* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application logtail_errors_application}
 */
 export class ErrorsApplication extends cdktf.TerraformResource {
 
@@ -68,7 +288,7 @@ export class ErrorsApplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ErrorsApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ErrorsApplication to import
-  * @param importFromId The id of the existing ErrorsApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/errors_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ErrorsApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ErrorsApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +300,7 @@ export class ErrorsApplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/errors_application logtail_errors_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/errors_application logtail_errors_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +311,8 @@ export class ErrorsApplication extends cdktf.TerraformResource {
       terraformResourceType: 'logtail_errors_application',
       terraformGeneratorMetadata: {
         providerName: 'logtail',
-        providerVersion: '0.7.1',
-        providerVersionConstraint: '0.7.1'
+        providerVersion: '0.7.2',
+        providerVersionConstraint: '0.7.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -109,6 +329,7 @@ export class ErrorsApplication extends cdktf.TerraformResource {
     this._name = config.name;
     this._platform = config.platform;
     this._teamName = config.teamName;
+    this._customBucket.internalValue = config.customBucket;
   }
 
   // ==========
@@ -251,6 +472,22 @@ export class ErrorsApplication extends cdktf.TerraformResource {
     return this.getStringAttribute('updated_at');
   }
 
+  // custom_bucket - computed: false, optional: true, required: false
+  private _customBucket = new ErrorsApplicationCustomBucketOutputReference(this, "custom_bucket");
+  public get customBucket() {
+    return this._customBucket;
+  }
+  public putCustomBucket(value: ErrorsApplicationCustomBucket) {
+    this._customBucket.internalValue = value;
+  }
+  public resetCustomBucket() {
+    this._customBucket.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customBucketInput() {
+    return this._customBucket.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -264,6 +501,7 @@ export class ErrorsApplication extends cdktf.TerraformResource {
       name: cdktf.stringToTerraform(this._name),
       platform: cdktf.stringToTerraform(this._platform),
       team_name: cdktf.stringToTerraform(this._teamName),
+      custom_bucket: errorsApplicationCustomBucketToTerraform(this._customBucket.internalValue),
     };
   }
 
@@ -310,6 +548,12 @@ export class ErrorsApplication extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      custom_bucket: {
+        value: errorsApplicationCustomBucketToHclTerraform(this._customBucket.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ErrorsApplicationCustomBucketList",
       },
     };
 

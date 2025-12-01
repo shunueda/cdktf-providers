@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_backup_policy
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_backup_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface ThreatDetectionBackupPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_backup_policy#backup_policy_name ThreatDetectionBackupPolicy#backup_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_backup_policy#backup_policy_name ThreatDetectionBackupPolicy#backup_policy_name}
   */
   readonly backupPolicyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_backup_policy#id ThreatDetectionBackupPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_backup_policy#id ThreatDetectionBackupPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_backup_policy#policy ThreatDetectionBackupPolicy#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_backup_policy#policy ThreatDetectionBackupPolicy#policy}
   */
   readonly policy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_backup_policy#policy_region_id ThreatDetectionBackupPolicy#policy_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_backup_policy#policy_region_id ThreatDetectionBackupPolicy#policy_region_id}
   */
   readonly policyRegionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_backup_policy#policy_version ThreatDetectionBackupPolicy#policy_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_backup_policy#policy_version ThreatDetectionBackupPolicy#policy_version}
   */
   readonly policyVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_backup_policy#uuid_list ThreatDetectionBackupPolicy#uuid_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_backup_policy#uuid_list ThreatDetectionBackupPolicy#uuid_list}
   */
   readonly uuidList: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_backup_policy#timeouts ThreatDetectionBackupPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_backup_policy#timeouts ThreatDetectionBackupPolicy#timeouts}
   */
   readonly timeouts?: ThreatDetectionBackupPolicyTimeouts;
 }
 export interface ThreatDetectionBackupPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_backup_policy#create ThreatDetectionBackupPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_backup_policy#create ThreatDetectionBackupPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_backup_policy#delete ThreatDetectionBackupPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_backup_policy#delete ThreatDetectionBackupPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_backup_policy#update ThreatDetectionBackupPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_backup_policy#update ThreatDetectionBackupPolicy#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class ThreatDetectionBackupPolicyTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_backup_policy alicloud_threat_detection_backup_policy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_backup_policy alicloud_threat_detection_backup_policy}
 */
 export class ThreatDetectionBackupPolicy extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class ThreatDetectionBackupPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ThreatDetectionBackupPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ThreatDetectionBackupPolicy to import
-  * @param importFromId The id of the existing ThreatDetectionBackupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_backup_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ThreatDetectionBackupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_backup_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ThreatDetectionBackupPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class ThreatDetectionBackupPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_backup_policy alicloud_threat_detection_backup_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_backup_policy alicloud_threat_detection_backup_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class ThreatDetectionBackupPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_threat_detection_backup_policy',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

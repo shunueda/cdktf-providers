@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbr_vaults
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/hbr_vaults
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudHbrVaultsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbr_vaults#id DataAlicloudHbrVaults#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/hbr_vaults#id DataAlicloudHbrVaults#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbr_vaults#ids DataAlicloudHbrVaults#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/hbr_vaults#ids DataAlicloudHbrVaults#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbr_vaults#name_regex DataAlicloudHbrVaults#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/hbr_vaults#name_regex DataAlicloudHbrVaults#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbr_vaults#output_file DataAlicloudHbrVaults#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/hbr_vaults#output_file DataAlicloudHbrVaults#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbr_vaults#status DataAlicloudHbrVaults#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/hbr_vaults#status DataAlicloudHbrVaults#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbr_vaults#vault_type DataAlicloudHbrVaults#vault_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/hbr_vaults#vault_type DataAlicloudHbrVaults#vault_type}
   */
   readonly vaultType?: string;
 }
@@ -232,7 +232,7 @@ export class DataAlicloudHbrVaultsVaultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbr_vaults alicloud_hbr_vaults}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/hbr_vaults alicloud_hbr_vaults}
 */
 export class DataAlicloudHbrVaults extends cdktf.TerraformDataSource {
 
@@ -248,7 +248,7 @@ export class DataAlicloudHbrVaults extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudHbrVaults resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudHbrVaults to import
-  * @param importFromId The id of the existing DataAlicloudHbrVaults that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbr_vaults#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudHbrVaults that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/hbr_vaults#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudHbrVaults to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -260,7 +260,7 @@ export class DataAlicloudHbrVaults extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbr_vaults alicloud_hbr_vaults} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/hbr_vaults alicloud_hbr_vaults} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -271,8 +271,8 @@ export class DataAlicloudHbrVaults extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_hbr_vaults',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

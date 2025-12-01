@@ -43,13 +43,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecIn
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#port DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#port DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#service DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#service DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -171,13 +171,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecIn
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#value DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#value DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -318,31 +318,31 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecIn
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#host DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#host DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#http_headers DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#http_headers DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecInitContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#port DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#port DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#scheme DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#scheme DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -551,13 +551,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecIn
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#host DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#host DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#port DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#port DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -679,61 +679,61 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecIn
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#exec DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#exec DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecInitContainersStartupProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#failure_threshold DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#failure_threshold DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#grpc DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#grpc DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecInitContainersStartupProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#http_get DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#http_get DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecInitContainersStartupProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#initial_delay_seconds DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#initial_delay_seconds DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#period_seconds DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#period_seconds DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#success_threshold DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#success_threshold DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#tcp_socket DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#tcp_socket DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecInitContainersStartupProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#termination_grace_period_seconds DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#termination_grace_period_seconds DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#timeout_seconds DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#timeout_seconds DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -1090,13 +1090,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecIn
   /**
   * devicePath is the path inside of the container that the device will be mapped to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#device_path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#device_path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
   * name must match the name of a persistentVolumeClaim in the pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -1237,43 +1237,43 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecIn
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#mount_path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#mount_path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10. When RecursiveReadOnly is set to IfPossible or to Enabled, MountPropagation must be None or unspecified (which defaults to None).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#mount_propagation DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#mount_propagation DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * RecursiveReadOnly specifies whether read-only mounts should be handled recursively. If ReadOnly is false, this field has no meaning and must be unspecified. If ReadOnly is true, and this field is set to Disabled, the mount is not made recursively read-only. If this field is set to IfPossible, the mount is made recursively read-only, if it is supported by the container runtime. If this field is set to Enabled, the mount is made recursively read-only if it is supported by the container runtime, otherwise the pod will not be started and an error will be generated to indicate the reason. If this field is set to IfPossible or Enabled, MountPropagation must be set to None (or be unspecified, which defaults to None). If this field is not specified, it is treated as an equivalent of Disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#recursive_read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#recursive_read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#sub_path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#sub_path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#sub_path_expr DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#sub_path_expr DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -1559,145 +1559,145 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecIn
   /**
   * Arguments to the entrypoint. The container image's CMD is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#args DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#args DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Entrypoint array. Not executed within a shell. The container image's ENTRYPOINT is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#command DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#command DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
   * List of environment variables to set in the container. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#env DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#env DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecInitContainersEnv[] | cdktf.IResolvable;
   /**
   * List of sources to populate environment variables in the container. The keys defined within a source must be a C_IDENTIFIER. All invalid keys will be reported as an event when the container is starting. When a key exists in multiple sources, the value associated with the last source will take precedence. Values defined by an Env with a duplicate key will take precedence. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#env_from DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#env_from DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#env_from}
   */
   readonly envFrom?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecInitContainersEnvFrom[] | cdktf.IResolvable;
   /**
   * Container image name. More info: https://kubernetes.io/docs/concepts/containers/images This field is optional to allow higher level config management to default or override container images in workload controllers like Deployments and StatefulSets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#image DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#image DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Image pull policy. One of Always, Never, IfNotPresent. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise. Cannot be updated. More info: https://kubernetes.io/docs/concepts/containers/images#updating-images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#image_pull_policy DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#image_pull_policy DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Actions that the management system should take in response to container lifecycle events. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#lifecycle DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#lifecycle DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecInitContainersLifecycle;
   /**
   * Periodic probe of container liveness. Container will be restarted if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#liveness_probe DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#liveness_probe DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecInitContainersLivenessProbe;
   /**
   * Name of the container specified as a DNS_LABEL. Each container in a pod must have a unique name (DNS_LABEL). Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * List of ports to expose from the container. Not specifying a port here DOES NOT prevent that port from being exposed. Any port which is listening on the default '0.0.0.0' address inside a container will be accessible from the network. Modifying this array with strategic merge patch may corrupt the data. For more information See https://github.com/kubernetes/kubernetes/issues/108255. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#ports DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#ports DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecInitContainersPorts[] | cdktf.IResolvable;
   /**
   * Periodic probe of container service readiness. Container will be removed from service endpoints if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#readiness_probe DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#readiness_probe DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecInitContainersReadinessProbe;
   /**
   * Resources resize policy for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#resize_policy DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#resize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#resize_policy DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#resize_policy}
   */
   readonly resizePolicy?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecInitContainersResizePolicy[] | cdktf.IResolvable;
   /**
   * Compute Resources required by this container. Cannot be updated. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#resources DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#resources DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecInitContainersResources;
   /**
   * RestartPolicy defines the restart behavior of individual containers in a pod. This field may only be set for init containers, and the only allowed value is 'Always'. For non-init containers or when this field is not specified, the restart behavior is defined by the Pod's restart policy and the container type. Setting the RestartPolicy as 'Always' for the init container will have the following effect: this init container will be continually restarted on exit until all regular containers have terminated. Once all regular containers have completed, all init containers with restartPolicy 'Always' will be shut down. This lifecycle differs from normal init containers and is often referred to as a 'sidecar' container. Although this init container still starts in the init container sequence, it does not wait for the container to complete before proceeding to the next init container. Instead, the next init container starts immediately after this init container is started, or after any startupProbe has successfully completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#restart_policy DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#restart_policy DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
   * SecurityContext defines the security options the container should be run with. If set, the fields of SecurityContext override the equivalent fields of PodSecurityContext. More info: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#security_context DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#security_context DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#security_context}
   */
   readonly securityContext?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecInitContainersSecurityContext;
   /**
   * StartupProbe indicates that the Pod has successfully initialized. If specified, no other probes are executed until this completes successfully. If this probe fails, the Pod will be restarted, just as if the livenessProbe failed. This can be used to provide different probe parameters at the beginning of a Pod's lifecycle, when it might take a long time to load data or warm a cache, than during steady-state operation. This cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#startup_probe DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#startup_probe DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecInitContainersStartupProbe;
   /**
   * Whether this container should allocate a buffer for stdin in the container runtime. If this is not set, reads from stdin in the container will always result in EOF. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#stdin DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#stdin DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
   * Whether the container runtime should close the stdin channel after it has been opened by a single attach. When stdin is true the stdin stream will remain open across multiple attach sessions. If stdinOnce is set to true, stdin is opened on container start, is empty until the first client attaches to stdin, and then remains open and accepts data until the client disconnects, at which time stdin is closed and remains closed until the container is restarted. If this flag is false, a container processes that reads from stdin will never receive an EOF. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#stdin_once DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#stdin_once DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
   * Optional: Path at which the file to which the container's termination message will be written is mounted into the container's filesystem. Message written is intended to be brief final status, such as an assertion failure message. Will be truncated by the node if greater than 4096 bytes. The total message length across all containers will be limited to 12kb. Defaults to /dev/termination-log. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#termination_message_path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#termination_message_path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
   * Indicate how the termination message should be populated. File will use the contents of terminationMessagePath to populate the container status message on both success and failure. FallbackToLogsOnError will use the last chunk of container log output if the termination message file is empty and the container exited with an error. The log output is limited to 2048 bytes or 80 lines, whichever is smaller. Defaults to File. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#termination_message_policy DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#termination_message_policy DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
   * Whether this container should allocate a TTY for itself, also requires 'stdin' to be true. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#tty DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#tty DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
   * volumeDevices is the list of block devices to be used by the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_devices DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_devices DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecInitContainersVolumeDevices[] | cdktf.IResolvable;
   /**
   * Pod volumes to mount into the container's filesystem. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_mounts DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_mounts DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecInitContainersVolumeMounts[] | cdktf.IResolvable;
   /**
   * Container's working directory. If not specified, the container runtime's default will be used, which might be configured in the container image. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#working_dir DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#working_dir DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -2479,7 +2479,7 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecOt
   /**
   * List of OpenTelemetry Attributes that should be promoted to metric labels, defaults to none.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#promote_resource_attributes DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#promote_resource_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#promote_resource_attributes DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#promote_resource_attributes}
   */
   readonly promoteResourceAttributes?: string[];
 }
@@ -2575,13 +2575,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecPe
   /**
   * WhenDeleted specifies what happens to PVCs created from StatefulSet VolumeClaimTemplates when the StatefulSet is deleted. The default policy of 'Retain' causes PVCs to not be affected by StatefulSet deletion. The 'Delete' policy causes those PVCs to be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#when_deleted DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#when_deleted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#when_deleted DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#when_deleted}
   */
   readonly whenDeleted?: string;
   /**
   * WhenScaled specifies what happens to PVCs created from StatefulSet VolumeClaimTemplates when the StatefulSet is scaled down. The default policy of 'Retain' causes PVCs to not be affected by a scaledown. The 'Delete' policy causes the associated PVCs for any excess pods above the replica count to be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#when_scaled DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#when_scaled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#when_scaled DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#when_scaled}
   */
   readonly whenScaled?: string;
 }
@@ -2706,19 +2706,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecPo
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#annotations DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#annotations DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2872,19 +2872,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecPo
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#values DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#values DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3054,13 +3054,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecPo
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_expressions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_expressions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecPodMonitorNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3185,19 +3185,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecPo
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#values DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#values DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3367,13 +3367,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecPo
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_expressions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_expressions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecPodMonitorSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3498,19 +3498,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecPr
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#values DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#values DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3680,13 +3680,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecPr
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_expressions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_expressions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecProbeNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3811,19 +3811,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecPr
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#values DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#values DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3993,13 +3993,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecPr
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_expressions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_expressions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecProbeSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4124,19 +4124,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4287,19 +4287,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * Selects a key of a Secret in the namespace that contains the credentials for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteAuthorizationCredentials;
   /**
   * File to read a secret from, mutually exclusive with 'credentials'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#credentials_file DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#credentials_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#credentials_file DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#credentials_file}
   */
   readonly credentialsFile?: string;
   /**
   * Defines the authentication type. The value is case-insensitive. 'Basic' is not a supported value. Default: 'Bearer'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -4453,7 +4453,7 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * The client id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#client_id}
   */
   readonly clientId: string;
 }
@@ -4546,19 +4546,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4709,19 +4709,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * 'clientID' is the clientId of the Azure Active Directory application that is being used to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#client_id}
   */
   readonly clientId: string;
   /**
   * 'clientSecret' specifies a key of a Secret containing the client secret of the Azure Active Directory application that is being used to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#client_secret}
   */
   readonly clientSecret: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteAzureAdOauthClientSecret;
   /**
   * 'tenantId' is the tenant ID of the Azure Active Directory application that is being used to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#tenant_id DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#tenant_id DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#tenant_id}
   */
   readonly tenantId: string;
 }
@@ -4866,7 +4866,7 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * 'tenantId' is the tenant ID of the azure active directory application that is being used to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#tenant_id DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#tenant_id DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -4962,25 +4962,25 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * The Azure Cloud. Options are 'AzurePublic', 'AzureChina', or 'AzureGovernment'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#cloud DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#cloud DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#cloud}
   */
   readonly cloud?: string;
   /**
   * ManagedIdentity defines the Azure User-assigned Managed identity. Cannot be set at the same time as 'oauth' or 'sdk'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#managed_identity DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#managed_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#managed_identity DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#managed_identity}
   */
   readonly managedIdentity?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteAzureAdManagedIdentity;
   /**
   * OAuth defines the oauth config that is being used to authenticate. Cannot be set at the same time as 'managedIdentity' or 'sdk'. It requires Prometheus >= v2.48.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#oauth DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#oauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#oauth DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#oauth}
   */
   readonly oauth?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteAzureAdOauth;
   /**
   * SDK defines the Azure SDK config that is being used to authenticate. See https://learn.microsoft.com/en-us/azure/developer/go/azure-sdk-authentication Cannot be set at the same time as 'oauth' or 'managedIdentity'. It requires Prometheus >= 2.52.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#sdk DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#sdk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#sdk DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#sdk}
   */
   readonly sdk?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteAzureAdSdk;
 }
@@ -5163,19 +5163,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5326,19 +5326,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5489,13 +5489,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * 'password' specifies a key of a Secret containing the password for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#password DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#password DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteBasicAuthPassword;
   /**
   * 'username' specifies a key of a Secret containing the username for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#username DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#username DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#username}
   */
   readonly username?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteBasicAuthUsername;
 }
@@ -5620,13 +5620,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * Defines whether metric metadata is sent to the remote storage or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#send DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#send DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#send}
   */
   readonly send?: boolean | cdktf.IResolvable;
   /**
   * Defines how frequently metric metadata is sent to the remote storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#send_interval DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#send_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#send_interval DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#send_interval}
   */
   readonly sendInterval?: string;
 }
@@ -5751,19 +5751,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5914,19 +5914,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6077,13 +6077,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteOauth2ClientIdConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteOauth2ClientIdSecret;
 }
@@ -6208,19 +6208,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6371,19 +6371,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6534,19 +6534,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6697,13 +6697,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteOauth2TlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteOauth2TlsConfigCaSecret;
 }
@@ -6828,19 +6828,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6991,19 +6991,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7154,13 +7154,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteOauth2TlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteOauth2TlsConfigCertSecret;
 }
@@ -7285,19 +7285,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7448,43 +7448,43 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#ca DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#ca DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteOauth2TlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#cert DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#cert DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteOauth2TlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteOauth2TlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -7754,61 +7754,61 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * 'clientId' specifies a key of a Secret or ConfigMap containing the OAuth2 client's ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#client_id}
   */
   readonly clientId: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteOauth2ClientId;
   /**
   * 'clientSecret' specifies a key of a Secret containing the OAuth2 client's secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#client_secret}
   */
   readonly clientSecret: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteOauth2ClientSecret;
   /**
   * 'endpointParams' configures the HTTP parameters to append to the token URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#endpoint_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#endpoint_params}
   */
   readonly endpointParams?: { [key: string]: string };
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * 'scopes' defines the OAuth2 scopes used for the token request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * TLS configuration to use when connecting to the OAuth2 server. It requires Prometheus >= v2.43.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteOauth2TlsConfig;
   /**
   * 'tokenURL' configures the URL to fetch the token from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -8156,61 +8156,61 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * BatchSendDeadline is the maximum time a sample will wait in buffer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#batch_send_deadline DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#batch_send_deadline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#batch_send_deadline DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#batch_send_deadline}
   */
   readonly batchSendDeadline?: string;
   /**
   * Capacity is the number of samples to buffer per shard before we start dropping them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#capacity DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#capacity DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#capacity}
   */
   readonly capacity?: number;
   /**
   * MaxBackoff is the maximum retry delay.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#max_backoff DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#max_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#max_backoff DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#max_backoff}
   */
   readonly maxBackoff?: string;
   /**
   * MaxRetries is the maximum number of times to retry a batch on recoverable errors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#max_retries DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#max_retries DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * MaxSamplesPerSend is the maximum number of samples per send.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#max_samples_per_send DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#max_samples_per_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#max_samples_per_send DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#max_samples_per_send}
   */
   readonly maxSamplesPerSend?: number;
   /**
   * MaxShards is the maximum number of shards, i.e. amount of concurrency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#max_shards DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#max_shards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#max_shards DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#max_shards}
   */
   readonly maxShards?: number;
   /**
   * MinBackoff is the initial retry delay. Gets doubled for every retry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#min_backoff DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#min_backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#min_backoff DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#min_backoff}
   */
   readonly minBackoff?: string;
   /**
   * MinShards is the minimum number of shards, i.e. amount of concurrency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#min_shards DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#min_shards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#min_shards DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#min_shards}
   */
   readonly minShards?: number;
   /**
   * Retry upon receiving a 429 status code from the remote-write storage. This is an *experimental feature*, it may change in any upcoming release in a breaking way.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#retry_on_rate_limit DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#retry_on_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#retry_on_rate_limit DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#retry_on_rate_limit}
   */
   readonly retryOnRateLimit?: boolean | cdktf.IResolvable;
   /**
   * SampleAgeLimit drops samples older than the limit. It requires Prometheus >= v2.50.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#sample_age_limit DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#sample_age_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#sample_age_limit DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#sample_age_limit}
   */
   readonly sampleAgeLimit?: string;
 }
@@ -8567,19 +8567,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8730,19 +8730,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8893,31 +8893,31 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * AccessKey is the AWS API key. If not specified, the environment variable 'AWS_ACCESS_KEY_ID' is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#access_key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#access_key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#access_key}
   */
   readonly accessKey?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteSigv4AccessKey;
   /**
   * Profile is the named AWS profile used to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#profile DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#profile DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#profile}
   */
   readonly profile?: string;
   /**
   * Region is the AWS region. If blank, the region from the default credentials chain used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#region DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#region DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#region}
   */
   readonly region?: string;
   /**
   * RoleArn is the named AWS profile used to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#role_arn DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#role_arn DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#role_arn}
   */
   readonly roleArn?: string;
   /**
   * SecretKey is the AWS API secret. If not specified, the environment variable 'AWS_SECRET_ACCESS_KEY' is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret_key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret_key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret_key}
   */
   readonly secretKey?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteSigv4SecretKey;
 }
@@ -9129,19 +9129,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9292,19 +9292,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9455,13 +9455,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteTlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteTlsConfigCaSecret;
 }
@@ -9586,19 +9586,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9749,19 +9749,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9912,13 +9912,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteTlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteTlsConfigCertSecret;
 }
@@ -10043,19 +10043,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10206,61 +10206,61 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#ca DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#ca DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteTlsConfigCa;
   /**
   * Path to the CA cert in the Prometheus container to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#ca_file DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#ca_file DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#ca_file}
   */
   readonly caFile?: string;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#cert DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#cert DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteTlsConfigCert;
   /**
   * Path to the client cert file in the Prometheus container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#cert_file DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#cert_file DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#cert_file}
   */
   readonly certFile?: string;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Path to the client key file in the Prometheus container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key_file DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key_file DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key_file}
   */
   readonly keyFile?: string;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteTlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -10617,43 +10617,43 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * Action to perform based on the regex matching. 'Uppercase' and 'Lowercase' actions require Prometheus >= v2.36.0. 'DropEqual' and 'KeepEqual' actions require Prometheus >= v2.41.0. Default: 'Replace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#action DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#action DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#action}
   */
   readonly action?: string;
   /**
   * Modulus to take of the hash of the source label values. Only applicable when the action is 'HashMod'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#modulus DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#modulus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#modulus DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#modulus}
   */
   readonly modulus?: number;
   /**
   * Regular expression against which the extracted value is matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#regex DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#regex DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#regex}
   */
   readonly regex?: string;
   /**
   * Replacement value against which a Replace action is performed if the regular expression matches. Regex capture groups are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#replacement DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#replacement DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#replacement}
   */
   readonly replacement?: string;
   /**
   * Separator is the string between concatenated SourceLabels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#separator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#separator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#separator}
   */
   readonly separator?: string;
   /**
   * The source labels select values from existing labels. Their content is concatenated using the configured Separator and matched against the configured regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#source_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#source_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#source_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#source_labels}
   */
   readonly sourceLabels?: string[];
   /**
   * Label to which the resulting string is written in a replacement. It is mandatory for 'Replace', 'HashMod', 'Lowercase', 'Uppercase', 'KeepEqual' and 'DropEqual' actions. Regex capture groups are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#target_label DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#target_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#target_label DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#target_label}
   */
   readonly targetLabel?: string;
 }
@@ -10945,139 +10945,139 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * Authorization section for the URL. It requires Prometheus >= v2.26.0. Cannot be set at the same time as 'sigv4', 'basicAuth', 'oauth2', or 'azureAd'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#authorization}
   */
   readonly authorization?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteAuthorization;
   /**
   * AzureAD for the URL. It requires Prometheus >= v2.45.0. Cannot be set at the same time as 'authorization', 'basicAuth', 'oauth2', or 'sigv4'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#azure_ad DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#azure_ad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#azure_ad DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#azure_ad}
   */
   readonly azureAd?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteAzureAd;
   /**
   * BasicAuth configuration for the URL. Cannot be set at the same time as 'sigv4', 'authorization', 'oauth2', or 'azureAd'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#basic_auth DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#basic_auth DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteBasicAuth;
   /**
   * *Warning: this field shouldn't be used because the token value appears in clear-text. Prefer using 'authorization'.* Deprecated: this will be removed in a future release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#bearer_token DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#bearer_token DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * File from which to read bearer token for the URL. Deprecated: this will be removed in a future release. Prefer using 'authorization'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#bearer_token_file DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#bearer_token_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#bearer_token_file DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#bearer_token_file}
   */
   readonly bearerTokenFile?: string;
   /**
   * Whether to enable HTTP2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#enable_http2 DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#enable_http2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#enable_http2 DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#enable_http2}
   */
   readonly enableHttp2?: boolean | cdktf.IResolvable;
   /**
   * Configure whether HTTP requests follow HTTP 3xx redirects. It requires Prometheus >= v2.26.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * Custom HTTP headers to be sent along with each remote write request. Be aware that headers that are set by Prometheus itself can't be overwritten. It requires Prometheus >= v2.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#headers DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#headers DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * MetadataConfig configures the sending of series metadata to the remote storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#metadata_config DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#metadata_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#metadata_config DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#metadata_config}
   */
   readonly metadataConfig?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteMetadataConfig;
   /**
   * The name of the remote write queue, it must be unique if specified. The name is used in metrics and logging in order to differentiate queues. It requires Prometheus >= v2.15.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * OAuth2 configuration for the URL. It requires Prometheus >= v2.27.0. Cannot be set at the same time as 'sigv4', 'authorization', 'basicAuth', or 'azureAd'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#oauth2 DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#oauth2 DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#oauth2}
   */
   readonly oauth2?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteOauth2;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * QueueConfig allows tuning of the remote write queue parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#queue_config DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#queue_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#queue_config DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#queue_config}
   */
   readonly queueConfig?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteQueueConfig;
   /**
   * Timeout for requests to the remote write endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#remote_timeout DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#remote_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#remote_timeout DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#remote_timeout}
   */
   readonly remoteTimeout?: string;
   /**
   * Enables sending of exemplars over remote write. Note that exemplar-storage itself must be enabled using the 'spec.enableFeature' option for exemplars to be scraped in the first place. It requires Prometheus >= v2.27.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#send_exemplars DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#send_exemplars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#send_exemplars DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#send_exemplars}
   */
   readonly sendExemplars?: boolean | cdktf.IResolvable;
   /**
   * Enables sending of native histograms, also known as sparse histograms over remote write. It requires Prometheus >= v2.40.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#send_native_histograms DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#send_native_histograms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#send_native_histograms DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#send_native_histograms}
   */
   readonly sendNativeHistograms?: boolean | cdktf.IResolvable;
   /**
   * Sigv4 allows to configures AWS's Signature Verification 4 for the URL. It requires Prometheus >= v2.26.0. Cannot be set at the same time as 'authorization', 'basicAuth', 'oauth2', or 'azureAd'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#sigv4 DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#sigv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#sigv4 DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#sigv4}
   */
   readonly sigv4?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteSigv4;
   /**
   * TLS Config to use for the URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteTlsConfig;
   /**
   * The URL of the endpoint to send samples to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#url DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#url DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#url}
   */
   readonly url: string;
   /**
   * The list of remote write relabel configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#write_relabel_configs DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#write_relabel_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#write_relabel_configs DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#write_relabel_configs}
   */
   readonly writeRelabelConfigs?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRemoteWriteWriteRelabelConfigs[] | cdktf.IResolvable;
 }
@@ -11830,13 +11830,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#request DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#request DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#request}
   */
   readonly request?: string;
 }
@@ -11980,19 +11980,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecRe
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#claims DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#claims DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#limits DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#limits DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#requests DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#requests DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -12146,7 +12146,7 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSc
   /**
   * When set to true, Prometheus attaches node metadata to the discovered targets. The Prometheus service account must have the 'list' and 'watch' permissions on the 'Nodes' objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#node DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#node DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#node}
   */
   readonly nodeAttribute?: boolean | cdktf.IResolvable;
 }
@@ -12242,43 +12242,43 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSc
   /**
   * Action to perform based on the regex matching. 'Uppercase' and 'Lowercase' actions require Prometheus >= v2.36.0. 'DropEqual' and 'KeepEqual' actions require Prometheus >= v2.41.0. Default: 'Replace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#action DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#action DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#action}
   */
   readonly action?: string;
   /**
   * Modulus to take of the hash of the source label values. Only applicable when the action is 'HashMod'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#modulus DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#modulus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#modulus DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#modulus}
   */
   readonly modulus?: number;
   /**
   * Regular expression against which the extracted value is matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#regex DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#regex DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#regex}
   */
   readonly regex?: string;
   /**
   * Replacement value against which a Replace action is performed if the regular expression matches. Regex capture groups are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#replacement DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#replacement DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#replacement}
   */
   readonly replacement?: string;
   /**
   * Separator is the string between concatenated SourceLabels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#separator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#separator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#separator}
   */
   readonly separator?: string;
   /**
   * The source labels select values from existing labels. Their content is concatenated using the configured Separator and matched against the configured regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#source_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#source_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#source_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#source_labels}
   */
   readonly sourceLabels?: string[];
   /**
   * Label to which the resulting string is written in a replacement. It is mandatory for 'Replace', 'HashMod', 'Lowercase', 'Uppercase', 'KeepEqual' and 'DropEqual' actions. Regex capture groups are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#target_label DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#target_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#target_label DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#target_label}
   */
   readonly targetLabel?: string;
 }
@@ -12570,43 +12570,43 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSc
   /**
   * Action to perform based on the regex matching. 'Uppercase' and 'Lowercase' actions require Prometheus >= v2.36.0. 'DropEqual' and 'KeepEqual' actions require Prometheus >= v2.41.0. Default: 'Replace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#action DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#action DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#action}
   */
   readonly action?: string;
   /**
   * Modulus to take of the hash of the source label values. Only applicable when the action is 'HashMod'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#modulus DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#modulus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#modulus DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#modulus}
   */
   readonly modulus?: number;
   /**
   * Regular expression against which the extracted value is matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#regex DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#regex DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#regex}
   */
   readonly regex?: string;
   /**
   * Replacement value against which a Replace action is performed if the regular expression matches. Regex capture groups are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#replacement DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#replacement DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#replacement}
   */
   readonly replacement?: string;
   /**
   * Separator is the string between concatenated SourceLabels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#separator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#separator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#separator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#separator}
   */
   readonly separator?: string;
   /**
   * The source labels select values from existing labels. Their content is concatenated using the configured Separator and matched against the configured regular expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#source_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#source_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#source_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#source_labels}
   */
   readonly sourceLabels?: string[];
   /**
   * Label to which the resulting string is written in a replacement. It is mandatory for 'Replace', 'HashMod', 'Lowercase', 'Uppercase', 'KeepEqual' and 'DropEqual' actions. Regex capture groups are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#target_label DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#target_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#target_label DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#target_label}
   */
   readonly targetLabel?: string;
 }
@@ -12898,19 +12898,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSc
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13061,19 +13061,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSc
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13224,13 +13224,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSc
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecScrapeClassesTlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecScrapeClassesTlsConfigCaSecret;
 }
@@ -13355,19 +13355,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSc
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13518,19 +13518,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSc
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13681,13 +13681,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSc
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecScrapeClassesTlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecScrapeClassesTlsConfigCertSecret;
 }
@@ -13812,19 +13812,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSc
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13975,61 +13975,61 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSc
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#ca DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#ca DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecScrapeClassesTlsConfigCa;
   /**
   * Path to the CA cert in the Prometheus container to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#ca_file DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#ca_file DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#ca_file}
   */
   readonly caFile?: string;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#cert DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#cert DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecScrapeClassesTlsConfigCert;
   /**
   * Path to the client cert file in the Prometheus container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#cert_file DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#cert_file DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#cert_file}
   */
   readonly certFile?: string;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Path to the client key file in the Prometheus container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key_file DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key_file DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key_file}
   */
   readonly keyFile?: string;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecScrapeClassesTlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -14386,37 +14386,37 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSc
   /**
   * AttachMetadata configures additional metadata to the discovered targets. When the scrape object defines its own configuration, it takes precedence over the scrape class configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#attach_metadata DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#attach_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#attach_metadata DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#attach_metadata}
   */
   readonly attachMetadata?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecScrapeClassesAttachMetadata;
   /**
   * Default indicates that the scrape applies to all scrape objects that don't configure an explicit scrape class name. Only one scrape class can be set as the default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#default DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#default DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * MetricRelabelings configures the relabeling rules to apply to all samples before ingestion. The Operator adds the scrape class metric relabelings defined here. Then the Operator adds the target-specific metric relabelings defined in ServiceMonitors, PodMonitors, Probes and ScrapeConfigs. Then the Operator adds namespace enforcement relabeling rule, specified in '.spec.enforcedNamespaceLabel'. More info: https://prometheus.io/docs/prometheus/latest/configuration/configuration/#metric_relabel_configs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#metric_relabelings DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#metric_relabelings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#metric_relabelings DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#metric_relabelings}
   */
   readonly metricRelabelings?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecScrapeClassesMetricRelabelings[] | cdktf.IResolvable;
   /**
   * Name of the scrape class.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Relabelings configures the relabeling rules to apply to all scrape targets. The Operator automatically adds relabelings for a few standard Kubernetes fields like '__meta_kubernetes_namespace' and '__meta_kubernetes_service_name'. Then the Operator adds the scrape class relabelings defined here. Then the Operator adds the target-specific relabelings defined in the scrape object. More info: https://prometheus.io/docs/prometheus/latest/configuration/configuration/#relabel_config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#relabelings DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#relabelings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#relabelings DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#relabelings}
   */
   readonly relabelings?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecScrapeClassesRelabelings[] | cdktf.IResolvable;
   /**
   * TLSConfig defines the TLS settings to use for the scrape. When the scrape objects define their own CA, certificate and/or key, they take precedence over the corresponding scrape class fields. For now only the 'caFile', 'certFile' and 'keyFile' fields are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecScrapeClassesTlsConfig;
 }
@@ -14676,19 +14676,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSc
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#values DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#values DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -14858,13 +14858,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSc
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_expressions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_expressions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecScrapeConfigNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -14989,19 +14989,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSc
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#values DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#values DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -15171,13 +15171,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSc
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_expressions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_expressions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecScrapeConfigSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -15302,13 +15302,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSe
   /**
   * localhostProfile indicates a profile loaded on the node that should be used. The profile must be preconfigured on the node to work. Must match the loaded name of the profile. Must be set if and only if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#localhost_profile DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#localhost_profile DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of AppArmor profile will be applied. Valid options are: Localhost - a profile pre-loaded on the node. RuntimeDefault - the container runtime's default profile. Unconfined - no AppArmor enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -15430,25 +15430,25 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSe
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#level DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#level DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#role DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#role DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#user DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#user DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -15631,13 +15631,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSe
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#localhost_profile DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#localhost_profile DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -15759,13 +15759,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSe
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#value DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#value DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -15906,25 +15906,25 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSe
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#gmsa_credential_spec DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#gmsa_credential_spec DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#gmsa_credential_spec_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#gmsa_credential_spec_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#host_process DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#host_process DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#run_as_user_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#run_as_user_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -16107,73 +16107,73 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSe
   /**
   * appArmorProfile is the AppArmor options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#app_armor_profile DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#app_armor_profile DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSecurityContextAppArmorProfile;
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#fs_group DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#fs_group DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#fs_group_change_policy DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#fs_group_change_policy DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#run_as_group DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#run_as_group DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#run_as_non_root DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#run_as_non_root DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#run_as_user DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#run_as_user DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#se_linux_options DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#se_linux_options DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#seccomp_profile DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#seccomp_profile DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID and fsGroup (if specified). If the SupplementalGroupsPolicy feature is enabled, the supplementalGroupsPolicy field determines whether these are in addition to or instead of any group memberships defined in the container image. If unspecified, no additional groups are added, though group memberships defined in the container image may still be used, depending on the supplementalGroupsPolicy field. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#supplemental_groups DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#supplemental_groups DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Defines how supplemental groups of the first container processes are calculated. Valid values are 'Merge' and 'Strict'. If not specified, 'Merge' is used. (Alpha) Using the field requires the SupplementalGroupsPolicy feature gate to be enabled and the container runtime must implement support for this feature. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#supplemental_groups_policy DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#supplemental_groups_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#supplemental_groups_policy DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#supplemental_groups_policy}
   */
   readonly supplementalGroupsPolicy?: string;
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#sysctls DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#sysctls DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#windows_options DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#windows_options DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSecurityContextWindowsOptions;
 }
@@ -16588,19 +16588,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#values DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#values DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -16770,13 +16770,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_expressions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_expressions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecServiceMonitorNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -16901,19 +16901,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#values DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#values DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -17083,13 +17083,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_expressions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_expressions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecServiceMonitorSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -17214,13 +17214,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSt
   /**
   * medium represents what type of storage medium should back this directory. The default is '' which means to use the node's default medium. Must be an empty string (default) or Memory. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#medium DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#medium DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#medium}
   */
   readonly medium?: string;
   /**
   * sizeLimit is the total amount of local storage required for this EmptyDir volume. The size limit is also applicable for memory medium. The maximum usage on memory medium EmptyDir would be the minimum value between the SizeLimit specified here and the sum of memory limits of all containers in a pod. The default is nil which means that the limit is undefined. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#size_limit DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#size_limit DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -17345,19 +17345,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSt
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#api_group DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#api_group DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#kind DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#kind DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -17505,25 +17505,25 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSt
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#api_group DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#api_group DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#kind DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#kind DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#namespace DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#namespace DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -17700,13 +17700,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSt
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#limits DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#limits DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#requests DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#requests DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -17831,19 +17831,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSt
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#values DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#values DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18013,13 +18013,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSt
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_expressions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_expressions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecStorageEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -18144,55 +18144,55 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSt
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#access_modes DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#access_modes DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#data_source DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#data_source DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecStorageEphemeralVolumeClaimTemplateSpecDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#data_source_ref DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#data_source_ref DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecStorageEphemeralVolumeClaimTemplateSpecDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#resources DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#resources DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecStorageEphemeralVolumeClaimTemplateSpecResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#selector DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#selector DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecStorageEphemeralVolumeClaimTemplateSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#storage_class_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#storage_class_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeAttributesClassName may be used to set the VolumeAttributesClass used by this claim. If specified, the CSI driver will create or update the volume with the attributes defined in the corresponding VolumeAttributesClass. This has a different purpose than storageClassName, it can be changed after the claim is created. An empty string value means that no VolumeAttributesClass will be applied to the claim but it's not allowed to reset this field to empty string once it is set. If unspecified and the PersistentVolumeClaim is unbound, the default VolumeAttributesClass will be set by the persistentvolume controller if it exists. If the resource referred to by volumeAttributesClass does not exist, this PersistentVolumeClaim will be set to a Pending state, as reflected by the modifyVolumeStatus field, until such as a resource exists. More info: https://kubernetes.io/docs/concepts/storage/volume-attributes-classes/ (Beta) Using this field requires the VolumeAttributesClass feature gate to be enabled (off by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_attributes_class_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_attributes_class_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_mode DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_mode DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -18520,13 +18520,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSt
   /**
   * May contain labels and annotations that will be copied into the PVC when creating it. No other fields are allowed and will be rejected during validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#metadata DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#metadata DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * The specification for the PersistentVolumeClaim. The entire content is copied unchanged into the PVC that gets created from this template. The same fields as in a PersistentVolumeClaim are also valid here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#spec DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#spec DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecStorageEphemeralVolumeClaimTemplateSpec;
 }
@@ -18648,7 +18648,7 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSt
   /**
   * Will be used to create a stand-alone PVC to provision the volume. The pod in which this EphemeralVolumeSource is embedded will be the owner of the PVC, i.e. the PVC will be deleted together with the pod. The name of the PVC will be '<pod name>-<volume name>' where '<volume name>' is the name from the 'PodSpec.Volumes' array entry. Pod validation will reject the pod if the concatenated name is not valid for a PVC (for example, too long). An existing PVC with that name that is not owned by the pod will *not* be used for the pod to avoid using an unrelated volume by mistake. Starting the pod is then blocked until the unrelated PVC is removed. If such a pre-created PVC is meant to be used by the pod, the PVC has to updated with an owner reference to the pod once the pod exists. Normally this should not be necessary, but it may be useful when manually reconstructing a broken cluster. This field is read-only and no changes will be made by Kubernetes to the PVC after it has been created. Required, must not be nil.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_claim_template DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_claim_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_claim_template DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_claim_template}
   */
   readonly volumeClaimTemplate?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecStorageEphemeralVolumeClaimTemplate;
 }
@@ -18744,19 +18744,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSt
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#annotations DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#annotations DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -18910,19 +18910,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSt
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#api_group DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#api_group DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#kind DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#kind DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -19070,25 +19070,25 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSt
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#api_group DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#api_group DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#kind DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#kind DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#namespace DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#namespace DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -19265,13 +19265,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSt
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#limits DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#limits DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#requests DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#requests DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -19396,19 +19396,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSt
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#values DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#values DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19578,13 +19578,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSt
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_expressions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_expressions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecStorageVolumeClaimTemplateSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -19709,55 +19709,55 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSt
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#access_modes DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#access_modes DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#data_source DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#data_source DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecStorageVolumeClaimTemplateSpecDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#data_source_ref DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#data_source_ref DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecStorageVolumeClaimTemplateSpecDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#resources DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#resources DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecStorageVolumeClaimTemplateSpecResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#selector DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#selector DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecStorageVolumeClaimTemplateSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#storage_class_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#storage_class_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeAttributesClassName may be used to set the VolumeAttributesClass used by this claim. If specified, the CSI driver will create or update the volume with the attributes defined in the corresponding VolumeAttributesClass. This has a different purpose than storageClassName, it can be changed after the claim is created. An empty string value means that no VolumeAttributesClass will be applied to the claim but it's not allowed to reset this field to empty string once it is set. If unspecified and the PersistentVolumeClaim is unbound, the default VolumeAttributesClass will be set by the persistentvolume controller if it exists. If the resource referred to by volumeAttributesClass does not exist, this PersistentVolumeClaim will be set to a Pending state, as reflected by the modifyVolumeStatus field, until such as a resource exists. More info: https://kubernetes.io/docs/concepts/storage/volume-attributes-classes/ (Beta) Using this field requires the VolumeAttributesClass feature gate to be enabled (off by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_attributes_class_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_attributes_class_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_mode DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_mode DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -20085,35 +20085,35 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSt
   /**
   * lastProbeTime is the time we probed the condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#last_probe_time DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#last_probe_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#last_probe_time DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#last_probe_time}
   */
   readonly lastProbeTime?: string;
   /**
   * lastTransitionTime is the time the condition transitioned from one status to another.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#last_transition_time DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#last_transition_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#last_transition_time DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#last_transition_time}
   */
   readonly lastTransitionTime?: string;
   /**
   * message is the human-readable message indicating details about last transition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#message DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#message DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#message}
   */
   readonly message?: string;
   /**
   * reason is a unique, this should be a short, machine understandable string that gives the reason for condition's last transition. If it reports 'Resizing' that means the underlying persistent volume is being resized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#reason DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#reason DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#status DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#status DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#status}
   */
   readonly status: string;
   /**
   * PersistentVolumeClaimConditionType defines the condition of PV claim. Valid values are: - 'Resizing', 'FileSystemResizePending' If RecoverVolumeExpansionFailure feature gate is enabled, then following additional values can be expected: - 'ControllerResizeError', 'NodeResizeError' If VolumeAttributesClass feature gate is enabled, then following additional values can be expected: - 'ModifyVolumeError', 'ModifyingVolume'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -20370,13 +20370,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSt
   /**
   * status is the status of the ControllerModifyVolume operation. It can be in any of following states: - Pending Pending indicates that the PersistentVolumeClaim cannot be modified due to unmet requirements, such as the specified VolumeAttributesClass not existing. - InProgress InProgress indicates that the volume is being modified. - Infeasible Infeasible indicates that the request has been rejected as invalid by the CSI driver. To resolve the error, a valid VolumeAttributesClass needs to be specified. Note: New statuses can be added in the future. Consumers should check for unknown statuses and fail appropriately.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#status DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#status DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#status}
   */
   readonly status: string;
   /**
   * targetVolumeAttributesClassName is the name of the VolumeAttributesClass the PVC currently being reconciled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#target_volume_attributes_class_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#target_volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#target_volume_attributes_class_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#target_volume_attributes_class_name}
   */
   readonly targetVolumeAttributesClassName?: string;
 }
@@ -20498,49 +20498,49 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSt
   /**
   * accessModes contains the actual access modes the volume backing the PVC has. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#access_modes DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#access_modes DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * allocatedResourceStatuses stores status of resource being resized for the given PVC. Key names follow standard Kubernetes label syntax. Valid values are either: * Un-prefixed keys: - storage - the capacity of the volume. * Custom resources must use implementation-defined prefixed names such as 'example.com/my-custom-resource' Apart from above values - keys that are unprefixed or have kubernetes.io prefix are considered reserved and hence may not be used. ClaimResourceStatus can be in any of following states: - ControllerResizeInProgress: State set when resize controller starts resizing the volume in control-plane. - ControllerResizeFailed: State set when resize has failed in resize controller with a terminal error. - NodeResizePending: State set when resize controller has finished resizing the volume but further resizing of volume is needed on the node. - NodeResizeInProgress: State set when kubelet starts resizing the volume. - NodeResizeFailed: State set when resizing has failed in kubelet with a terminal error. Transient errors don't set NodeResizeFailed. For example: if expanding a PVC for more capacity - this field can be one of the following states: - pvc.status.allocatedResourceStatus['storage'] = 'ControllerResizeInProgress' - pvc.status.allocatedResourceStatus['storage'] = 'ControllerResizeFailed' - pvc.status.allocatedResourceStatus['storage'] = 'NodeResizePending' - pvc.status.allocatedResourceStatus['storage'] = 'NodeResizeInProgress' - pvc.status.allocatedResourceStatus['storage'] = 'NodeResizeFailed' When this field is not set, it means that no resize operation is in progress for the given PVC. A controller that receives PVC update with previously unknown resourceName or ClaimResourceStatus should ignore the update for the purpose it was designed. For example - a controller that only is responsible for resizing capacity of the volume, should ignore PVC updates that change other valid resources associated with PVC. This is an alpha field and requires enabling RecoverVolumeExpansionFailure feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#allocated_resource_statuses DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#allocated_resource_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#allocated_resource_statuses DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#allocated_resource_statuses}
   */
   readonly allocatedResourceStatuses?: { [key: string]: string };
   /**
   * allocatedResources tracks the resources allocated to a PVC including its capacity. Key names follow standard Kubernetes label syntax. Valid values are either: * Un-prefixed keys: - storage - the capacity of the volume. * Custom resources must use implementation-defined prefixed names such as 'example.com/my-custom-resource' Apart from above values - keys that are unprefixed or have kubernetes.io prefix are considered reserved and hence may not be used. Capacity reported here may be larger than the actual capacity when a volume expansion operation is requested. For storage quota, the larger value from allocatedResources and PVC.spec.resources is used. If allocatedResources is not set, PVC.spec.resources alone is used for quota calculation. If a volume expansion capacity request is lowered, allocatedResources is only lowered if there are no expansion operations in progress and if the actual volume capacity is equal or lower than the requested capacity. A controller that receives PVC update with previously unknown resourceName should ignore the update for the purpose it was designed. For example - a controller that only is responsible for resizing capacity of the volume, should ignore PVC updates that change other valid resources associated with PVC. This is an alpha field and requires enabling RecoverVolumeExpansionFailure feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#allocated_resources DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#allocated_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#allocated_resources DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#allocated_resources}
   */
   readonly allocatedResources?: { [key: string]: string };
   /**
   * capacity represents the actual resources of the underlying volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#capacity DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#capacity DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#capacity}
   */
   readonly capacity?: { [key: string]: string };
   /**
   * conditions is the current Condition of persistent volume claim. If underlying persistent volume is being resized then the Condition will be set to 'Resizing'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#conditions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#conditions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#conditions}
   */
   readonly conditions?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecStorageVolumeClaimTemplateStatusConditions[] | cdktf.IResolvable;
   /**
   * currentVolumeAttributesClassName is the current name of the VolumeAttributesClass the PVC is using. When unset, there is no VolumeAttributeClass applied to this PersistentVolumeClaim This is a beta field and requires enabling VolumeAttributesClass feature (off by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#current_volume_attributes_class_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#current_volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#current_volume_attributes_class_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#current_volume_attributes_class_name}
   */
   readonly currentVolumeAttributesClassName?: string;
   /**
   * ModifyVolumeStatus represents the status object of ControllerModifyVolume operation. When this is unset, there is no ModifyVolume operation being attempted. This is a beta field and requires enabling VolumeAttributesClass feature (off by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#modify_volume_status DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#modify_volume_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#modify_volume_status DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#modify_volume_status}
   */
   readonly modifyVolumeStatus?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecStorageVolumeClaimTemplateStatusModifyVolumeStatus;
   /**
   * phase represents the current phase of PersistentVolumeClaim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#phase DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#phase DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#phase}
   */
   readonly phase?: string;
 }
@@ -20839,31 +20839,31 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSt
   /**
   * APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#api_version DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#api_version DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#kind DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#kind DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * EmbeddedMetadata contains metadata relevant to an EmbeddedResource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#metadata DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#metadata DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecStorageVolumeClaimTemplateMetadata;
   /**
   * Defines the desired characteristics of a volume requested by a pod author. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#spec DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#spec DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecStorageVolumeClaimTemplateSpec;
   /**
   * Deprecated: this field is never set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#status DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#status DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#status}
   */
   readonly status?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecStorageVolumeClaimTemplateStatus;
 }
@@ -21075,25 +21075,25 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecSt
   /**
   * Deprecated: subPath usage will be removed in a future release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#disable_mount_sub_path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#disable_mount_sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#disable_mount_sub_path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#disable_mount_sub_path}
   */
   readonly disableMountSubPath?: boolean | cdktf.IResolvable;
   /**
   * EmptyDirVolumeSource to be used by the StatefulSet. If specified, it takes precedence over 'ephemeral' and 'volumeClaimTemplate'. More info: https://kubernetes.io/docs/concepts/storage/volumes/#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#empty_dir DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#empty_dir DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecStorageEmptyDir;
   /**
   * EphemeralVolumeSource to be used by the StatefulSet. This is a beta field in k8s 1.21 and GA in 1.15. For lower versions, starting with k8s 1.19, it requires enabling the GenericEphemeralVolume feature gate. More info: https://kubernetes.io/docs/concepts/storage/ephemeral-volumes/#generic-ephemeral-volumes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#ephemeral DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#ephemeral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#ephemeral DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#ephemeral}
   */
   readonly ephemeral?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecStorageEphemeral;
   /**
   * Defines the PVC spec to be used by the Prometheus StatefulSets. The easiest way to use a volume that cannot be automatically provisioned is to use a label selector alongside manually created PersistentVolumes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_claim_template DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_claim_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_claim_template DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_claim_template}
   */
   readonly volumeClaimTemplate?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecStorageVolumeClaimTemplate;
 }
@@ -21276,31 +21276,31 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecTo
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#effect DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#effect DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#toleration_seconds DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#toleration_seconds DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#value DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#value DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -21534,19 +21534,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecTo
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#values DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#values DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21716,13 +21716,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecTo
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_expressions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_expressions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -21847,55 +21847,55 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecTo
   /**
   * Defines what Prometheus Operator managed labels should be added to labelSelector on the topologySpreadConstraint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#additional_label_selectors DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#additional_label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#additional_label_selectors DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#additional_label_selectors}
   */
   readonly additionalLabelSelectors?: string;
   /**
   * LabelSelector is used to find matching pods. Pods that match this label selector are counted to determine the number of pods in their corresponding topology domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#label_selector DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#label_selector DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecTopologySpreadConstraintsLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select the pods over which spreading will be calculated. The keys are used to lookup values from the incoming pod labels, those key-value labels are ANDed with labelSelector to select the group of existing pods over which spreading will be calculated for the incoming pod. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. MatchLabelKeys cannot be set when LabelSelector isn't set. Keys that don't exist in the incoming pod labels will be ignored. A null or empty list means only match against labelSelector. This is a beta field and requires the MatchLabelKeysInPodTopologySpread feature gate to be enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_label_keys DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_label_keys DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MaxSkew describes the degree to which pods may be unevenly distributed. When 'whenUnsatisfiable=DoNotSchedule', it is the maximum permitted difference between the number of matching pods in the target topology and the global minimum. The global minimum is the minimum number of matching pods in an eligible domain or zero if the number of eligible domains is less than MinDomains. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 2/2/1: In this case, the global minimum is 1. | zone1 | zone2 | zone3 | | P P | P P | P | - if MaxSkew is 1, incoming pod can only be scheduled to zone3 to become 2/2/2; scheduling it onto zone1(zone2) would make the ActualSkew(3-1) on zone1(zone2) violate MaxSkew(1). - if MaxSkew is 2, incoming pod can be scheduled onto any zone. When 'whenUnsatisfiable=ScheduleAnyway', it is used to give higher precedence to topologies that satisfy it. It's a required field. Default value is 1 and 0 is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#max_skew DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#max_skew DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
   * MinDomains indicates a minimum number of eligible domains. When the number of eligible domains with matching topology keys is less than minDomains, Pod Topology Spread treats 'global minimum' as 0, and then the calculation of Skew is performed. And when the number of eligible domains with matching topology keys equals or greater than minDomains, this value has no effect on scheduling. As a result, when the number of eligible domains is less than minDomains, scheduler won't schedule more than maxSkew Pods to those domains. If value is nil, the constraint behaves as if MinDomains is equal to 1. Valid values are integers greater than 0. When value is not nil, WhenUnsatisfiable must be DoNotSchedule. For example, in a 3-zone cluster, MaxSkew is set to 2, MinDomains is set to 5 and pods with the same labelSelector spread as 2/2/2: | zone1 | zone2 | zone3 | | P P | P P | P P | The number of domains is less than 5(MinDomains), so 'global minimum' is treated as 0. In this situation, new pod with the same labelSelector cannot be scheduled, because computed skew will be 3(3 - 0) if new Pod is scheduled to any of the three zones, it will violate MaxSkew.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#min_domains DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#min_domains DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
   * NodeAffinityPolicy indicates how we will treat Pod's nodeAffinity/nodeSelector when calculating pod topology spread skew. Options are: - Honor: only nodes matching nodeAffinity/nodeSelector are included in the calculations. - Ignore: nodeAffinity/nodeSelector are ignored. All nodes are included in the calculations. If this value is nil, the behavior is equivalent to the Honor policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#node_affinity_policy DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#node_affinity_policy DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
   * NodeTaintsPolicy indicates how we will treat node taints when calculating pod topology spread skew. Options are: - Honor: nodes without taints, along with tainted nodes for which the incoming pod has a toleration, are included. - Ignore: node taints are ignored. All nodes are included. If this value is nil, the behavior is equivalent to the Ignore policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#node_taints_policy DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#node_taints_policy DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
   * TopologyKey is the key of node labels. Nodes that have a label with this key and identical values are considered to be in the same topology. We consider each <key, value> as a 'bucket', and try to put balanced number of pods into each bucket. We define a domain as a particular instance of a topology. Also, we define an eligible domain as a domain whose nodes meet the requirements of nodeAffinityPolicy and nodeTaintsPolicy. e.g. If TopologyKey is 'kubernetes.io/hostname', each Node is a domain of that topology. And, if TopologyKey is 'topology.kubernetes.io/zone', each zone is a domain of that topology. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#topology_key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#topology_key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
   * WhenUnsatisfiable indicates how to deal with a pod if it doesn't satisfy the spread constraint. - DoNotSchedule (default) tells the scheduler not to schedule it. - ScheduleAnyway tells the scheduler to schedule the pod in any location, but giving higher precedence to topologies that would help reduce the skew. A constraint is considered 'Unsatisfiable' for an incoming pod if and only if every possible node assignment for that pod would violate 'MaxSkew' on some topology. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 3/1/1: | zone1 | zone2 | zone3 | | P P P | P | P | If WhenUnsatisfiable is set to DoNotSchedule, incoming pod can only be scheduled to zone2(zone3) to become 3/2/1(3/1/2) as ActualSkew(2-1) on zone2(zone3) satisfies MaxSkew(1). In other words, the cluster can still be imbalanced, but scheduler won't make it *more* imbalanced. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#when_unsatisfiable DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#when_unsatisfiable DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -22236,19 +22236,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecTr
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -22399,19 +22399,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecTr
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -22562,13 +22562,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecTr
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecTracingConfigTlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecTracingConfigTlsConfigCaSecret;
 }
@@ -22693,19 +22693,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecTr
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -22856,19 +22856,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecTr
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -23019,13 +23019,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecTr
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecTracingConfigTlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecTracingConfigTlsConfigCertSecret;
 }
@@ -23150,19 +23150,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecTr
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -23313,61 +23313,61 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecTr
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#ca DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#ca DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecTracingConfigTlsConfigCa;
   /**
   * Path to the CA cert in the Prometheus container to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#ca_file DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#ca_file DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#ca_file}
   */
   readonly caFile?: string;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#cert DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#cert DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecTracingConfigTlsConfigCert;
   /**
   * Path to the client cert file in the Prometheus container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#cert_file DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#cert_file DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#cert_file}
   */
   readonly certFile?: string;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Path to the client key file in the Prometheus container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key_file DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key_file DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key_file}
   */
   readonly keyFile?: string;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecTracingConfigTlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -23724,49 +23724,49 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecTr
   /**
   * Client used to export the traces. Supported values are 'http' or 'grpc'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#client_type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#client_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#client_type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#client_type}
   */
   readonly clientType?: string;
   /**
   * Compression key for supported compression types. The only supported value is 'gzip'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#compression DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#compression DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#compression}
   */
   readonly compression?: string;
   /**
   * Endpoint to send the traces to. Should be provided in format <host>:<port>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#endpoint DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#endpoint DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#endpoint}
   */
   readonly endpoint: string;
   /**
   * Key-value pairs to be used as headers associated with gRPC or HTTP requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#headers DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#headers DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * If disabled, the client will use a secure connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#insecure DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#insecure DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Sets the probability a given trace will be sampled. Must be a float from 0 through 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#sampling_fraction DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#sampling_fraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#sampling_fraction DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#sampling_fraction}
   */
   readonly samplingFraction?: string;
   /**
   * Maximum time the exporter will wait for each batch export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#timeout DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#timeout DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * TLS Config to use when sending traces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecTracingConfigTlsConfig;
 }
@@ -24062,7 +24062,7 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecTs
   /**
   * Configures how old an out-of-order/out-of-bounds sample can be with respect to the TSDB max time. An out-of-order/out-of-bounds sample is ingested into the TSDB as long as the timestamp of the sample is >= (TSDB.MaxTime - outOfOrderTimeWindow). This is an *experimental feature*, it may change in any upcoming release in a breaking way. It requires Prometheus >= v2.39.0 or PrometheusAgent >= v2.54.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#out_of_order_time_window DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#out_of_order_time_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#out_of_order_time_window DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#out_of_order_time_window}
   */
   readonly outOfOrderTimeWindow?: string;
 }
@@ -24158,43 +24158,43 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#mount_path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#mount_path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10. When RecursiveReadOnly is set to IfPossible or to Enabled, MountPropagation must be None or unspecified (which defaults to None).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#mount_propagation DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#mount_propagation DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * RecursiveReadOnly specifies whether read-only mounts should be handled recursively. If ReadOnly is false, this field has no meaning and must be unspecified. If ReadOnly is true, and this field is set to Disabled, the mount is not made recursively read-only. If this field is set to IfPossible, the mount is made recursively read-only, if it is supported by the container runtime. If this field is set to Enabled, the mount is made recursively read-only if it is supported by the container runtime, otherwise the pod will not be started and an error will be generated to indicate the reason. If this field is set to IfPossible or Enabled, MountPropagation must be set to None (or be unspecified, which defaults to None). If this field is not specified, it is treated as an equivalent of Disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#recursive_read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#recursive_read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#sub_path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#sub_path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#sub_path_expr DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#sub_path_expr DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -24480,25 +24480,25 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#fs_type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#fs_type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * partition is the partition in the volume that you want to mount. If omitted, the default is to mount by volume name. Examples: For volume /dev/sda1, you specify the partition as '1'. Similarly, the volume partition for /dev/sda is '0' (or you can leave the property empty).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#partition DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#partition DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#partition}
   */
   readonly partition?: number;
   /**
   * readOnly value true will force the readOnly setting in VolumeMounts. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeID is unique ID of the persistent disk resource in AWS (Amazon EBS volume). More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_id DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_id DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -24678,37 +24678,37 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * cachingMode is the Host Caching mode: None, Read Only, Read Write.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#caching_mode DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#caching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#caching_mode DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#caching_mode}
   */
   readonly cachingMode?: string;
   /**
   * diskName is the Name of the data disk in the blob storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#disk_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#disk_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#disk_name}
   */
   readonly diskName: string;
   /**
   * diskURI is the URI of data disk in the blob storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#disk_uri DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#disk_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#disk_uri DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#disk_uri}
   */
   readonly diskUri: string;
   /**
   * fsType is Filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#fs_type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#fs_type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * kind expected values are Shared: multiple blob disks per storage account Dedicated: single blob disk per storage account Managed: azure managed data disk (only in managed availability set). defaults to shared
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#kind DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#kind DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * readOnly Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -24943,19 +24943,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of secret that contains Azure Storage Account Name and Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
   /**
   * shareName is the azure share Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#share_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#share_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#share_name}
   */
   readonly shareName: string;
 }
@@ -25103,7 +25103,7 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -25199,37 +25199,37 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * monitors is Required: Monitors is a collection of Ceph monitors More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#monitors DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#monitors DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
   * path is Optional: Used as the mounted root, rather than the full Ceph tree, default is /
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * readOnly is Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts. More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretFile is Optional: SecretFile is the path to key ring for User, default is /etc/ceph/user.secret More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret_file DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret_file DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret_file}
   */
   readonly secretFile?: string;
   /**
   * secretRef is Optional: SecretRef is reference to the authentication secret for User, default is empty. More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret_ref DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret_ref DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVolumesCephfsSecretRef;
   /**
   * user is optional: User is the rados user name, default is admin More info: https://examples.k8s.io/volumes/cephfs/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#user DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#user DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -25467,7 +25467,7 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -25563,25 +25563,25 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#fs_type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#fs_type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is optional: points to a secret object containing parameters used to connect to OpenStack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret_ref DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret_ref DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVolumesCinderSecretRef;
   /**
   * volumeID used to identify the volume in cinder. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_id DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_id DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -25761,19 +25761,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#mode DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#mode DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -25943,25 +25943,25 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * defaultMode is optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#default_mode DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#default_mode DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#items DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#items DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVolumesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -26144,7 +26144,7 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -26240,31 +26240,31 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * driver is the name of the CSI driver that handles this volume. Consult with your admin for the correct name as registered in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#driver DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#driver DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#driver}
   */
   readonly driver: string;
   /**
   * fsType to mount. Ex. 'ext4', 'xfs', 'ntfs'. If not provided, the empty value is passed to the associated CSI driver which will determine the default filesystem to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#fs_type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#fs_type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * nodePublishSecretRef is a reference to the secret object containing sensitive information to pass to the CSI driver to complete the CSI NodePublishVolume and NodeUnpublishVolume calls. This field is optional, and may be empty if no secret is required. If the secret object contains more than one secret, all secret references are passed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#node_publish_secret_ref DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#node_publish_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#node_publish_secret_ref DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#node_publish_secret_ref}
   */
   readonly nodePublishSecretRef?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVolumesCsiNodePublishSecretRef;
   /**
   * readOnly specifies a read-only configuration for the volume. Defaults to false (read/write).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeAttributes stores driver-specific properties that are passed to the CSI driver. Consult your driver's documentation for supported values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_attributes DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_attributes DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_attributes}
   */
   readonly volumeAttributes?: { [key: string]: string };
 }
@@ -26473,13 +26473,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#api_version DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#api_version DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#field_path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#field_path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -26601,19 +26601,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#container_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#container_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#divisor DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#divisor DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#resource DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#resource DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -26764,25 +26764,25 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * Required: Selects a field of the pod: only annotations, labels, name, namespace and uid are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#field_ref DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#field_ref DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVolumesDownwardApiItemsFieldRef;
   /**
   * Optional: mode bits used to set permissions on this file, must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#mode DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#mode DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * Required: Path is the relative path name of the file to be created. Must not be absolute or contain the '..' path. Must be utf-8 encoded. The first item of the relative path must not start with '..'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, requests.cpu and requests.memory) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#resource_field_ref DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#resource_field_ref DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVolumesDownwardApiItemsResourceFieldRef;
 }
@@ -26984,13 +26984,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * Optional: mode bits to use on created files by default. Must be a Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#default_mode DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#default_mode DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * Items is a list of downward API volume file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#items DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#items DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVolumesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -27115,13 +27115,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * medium represents what type of storage medium should back this directory. The default is '' which means to use the node's default medium. Must be an empty string (default) or Memory. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#medium DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#medium DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#medium}
   */
   readonly medium?: string;
   /**
   * sizeLimit is the total amount of local storage required for this EmptyDir volume. The size limit is also applicable for memory medium. The maximum usage on memory medium EmptyDir would be the minimum value between the SizeLimit specified here and the sum of memory limits of all containers in a pod. The default is nil which means that the limit is undefined. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#size_limit DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#size_limit DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -27246,19 +27246,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#api_group DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#api_group DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#kind DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#kind DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -27406,25 +27406,25 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#api_group DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#api_group DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#kind DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#kind DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#namespace DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#namespace DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -27601,13 +27601,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#limits DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#limits DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#requests DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#requests DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -27732,19 +27732,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#values DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#values DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -27914,13 +27914,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_expressions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_expressions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVolumesEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -28045,55 +28045,55 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#access_modes DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#access_modes DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#data_source DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#data_source DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVolumesEphemeralVolumeClaimTemplateSpecDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#data_source_ref DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#data_source_ref DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVolumesEphemeralVolumeClaimTemplateSpecDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#resources DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#resources DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVolumesEphemeralVolumeClaimTemplateSpecResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#selector DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#selector DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVolumesEphemeralVolumeClaimTemplateSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#storage_class_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#storage_class_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeAttributesClassName may be used to set the VolumeAttributesClass used by this claim. If specified, the CSI driver will create or update the volume with the attributes defined in the corresponding VolumeAttributesClass. This has a different purpose than storageClassName, it can be changed after the claim is created. An empty string value means that no VolumeAttributesClass will be applied to the claim but it's not allowed to reset this field to empty string once it is set. If unspecified and the PersistentVolumeClaim is unbound, the default VolumeAttributesClass will be set by the persistentvolume controller if it exists. If the resource referred to by volumeAttributesClass does not exist, this PersistentVolumeClaim will be set to a Pending state, as reflected by the modifyVolumeStatus field, until such as a resource exists. More info: https://kubernetes.io/docs/concepts/storage/volume-attributes-classes/ (Beta) Using this field requires the VolumeAttributesClass feature gate to be enabled (off by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_attributes_class_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_attributes_class_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_mode DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_mode DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -28421,13 +28421,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * May contain labels and annotations that will be copied into the PVC when creating it. No other fields are allowed and will be rejected during validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#metadata DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#metadata DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * The specification for the PersistentVolumeClaim. The entire content is copied unchanged into the PVC that gets created from this template. The same fields as in a PersistentVolumeClaim are also valid here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#spec DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#spec DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVolumesEphemeralVolumeClaimTemplateSpec;
 }
@@ -28549,7 +28549,7 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * Will be used to create a stand-alone PVC to provision the volume. The pod in which this EphemeralVolumeSource is embedded will be the owner of the PVC, i.e. the PVC will be deleted together with the pod. The name of the PVC will be '<pod name>-<volume name>' where '<volume name>' is the name from the 'PodSpec.Volumes' array entry. Pod validation will reject the pod if the concatenated name is not valid for a PVC (for example, too long). An existing PVC with that name that is not owned by the pod will *not* be used for the pod to avoid using an unrelated volume by mistake. Starting the pod is then blocked until the unrelated PVC is removed. If such a pre-created PVC is meant to be used by the pod, the PVC has to updated with an owner reference to the pod once the pod exists. Normally this should not be necessary, but it may be useful when manually reconstructing a broken cluster. This field is read-only and no changes will be made by Kubernetes to the PVC after it has been created. Required, must not be nil.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_claim_template DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_claim_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_claim_template DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_claim_template}
   */
   readonly volumeClaimTemplate?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVolumesEphemeralVolumeClaimTemplate;
 }
@@ -28645,31 +28645,31 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#fs_type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#fs_type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * lun is Optional: FC target lun number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#lun DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#lun DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#lun}
   */
   readonly lun?: number;
   /**
   * readOnly is Optional: Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * targetWWNs is Optional: FC target worldwide names (WWNs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#target_ww_ns DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#target_ww_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#target_ww_ns DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#target_ww_ns}
   */
   readonly targetWwNs?: string[];
   /**
   * wwids Optional: FC volume world wide identifiers (wwids) Either wwids or combination of targetWWNs and lun must be set, but not both simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#wwids DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#wwids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#wwids DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#wwids}
   */
   readonly wwids?: string[];
 }
@@ -28881,7 +28881,7 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -28977,31 +28977,31 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * driver is the name of the driver to use for this volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#driver DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#driver DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#driver}
   */
   readonly driver: string;
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. The default filesystem depends on FlexVolume script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#fs_type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#fs_type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * options is Optional: this field holds extra command options if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#options DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#options DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
   * readOnly is Optional: defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is Optional: secretRef is reference to the secret object containing sensitive information to pass to the plugin scripts. This may be empty if no secret object is specified. If the secret object contains more than one secret, all secrets are passed to the plugin scripts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret_ref DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret_ref DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVolumesFlexVolumeSecretRef;
 }
@@ -29210,13 +29210,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * datasetName is Name of the dataset stored as metadata -> name on the dataset for Flocker should be considered as deprecated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#dataset_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#dataset_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#dataset_name}
   */
   readonly datasetName?: string;
   /**
   * datasetUUID is the UUID of the dataset. This is unique identifier of a Flocker dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#dataset_uuid DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#dataset_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#dataset_uuid DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#dataset_uuid}
   */
   readonly datasetUuid?: string;
 }
@@ -29341,25 +29341,25 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * fsType is filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#fs_type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#fs_type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * partition is the partition in the volume that you want to mount. If omitted, the default is to mount by volume name. Examples: For volume /dev/sda1, you specify the partition as '1'. Similarly, the volume partition for /dev/sda is '0' (or you can leave the property empty). More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#partition DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#partition DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#partition}
   */
   readonly partition?: number;
   /**
   * pdName is unique name of the PD resource in GCE. Used to identify the disk in GCE. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#pd_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#pd_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#pd_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#pd_name}
   */
   readonly pdName: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -29539,19 +29539,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * directory is the target directory name. Must not contain or start with '..'. If '.' is supplied, the volume directory will be the git repository. Otherwise, if specified, the volume will contain the git repository in the subdirectory with the given name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#directory DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#directory DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#directory}
   */
   readonly directory?: string;
   /**
   * repository is the URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#repository DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#repository DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#repository}
   */
   readonly repository: string;
   /**
   * revision is the commit hash for the specified revision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#revision DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#revision DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#revision}
   */
   readonly revision?: string;
 }
@@ -29702,19 +29702,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * endpoints is the endpoint name that details Glusterfs topology. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#endpoints DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#endpoints DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#endpoints}
   */
   readonly endpoints: string;
   /**
   * path is the Glusterfs volume path. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * readOnly here will force the Glusterfs volume to be mounted with read-only permissions. Defaults to false. More info: https://examples.k8s.io/volumes/glusterfs/README.md#create-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -29862,13 +29862,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * path of the directory on the host. If the path is a symlink, it will follow the link to the real path. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * type for HostPath Volume Defaults to '' More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -29990,13 +29990,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * Policy for pulling OCI objects. Possible values are: Always: the kubelet always attempts to pull the reference. Container creation will fail If the pull fails. Never: the kubelet never pulls the reference and only uses a local image or artifact. Container creation will fail if the reference isn't present. IfNotPresent: the kubelet pulls if the reference isn't already present on disk. Container creation will fail if the reference isn't present and the pull fails. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#pull_policy DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#pull_policy DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#pull_policy}
   */
   readonly pullPolicy?: string;
   /**
   * Required: Image or artifact reference to be used. Behaves in the same way as pod.spec.containers[*].image. Pull secrets will be assembled in the same way as for the container image by looking up node credentials, SA image pull secrets, and pod spec image pull secrets. More info: https://kubernetes.io/docs/concepts/containers/images This field is optional to allow higher level config management to default or override container images in workload controllers like Deployments and StatefulSets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#reference DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#reference DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#reference}
   */
   readonly reference?: string;
 }
@@ -30121,7 +30121,7 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -30217,67 +30217,67 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * chapAuthDiscovery defines whether support iSCSI Discovery CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#chap_auth_discovery DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#chap_auth_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#chap_auth_discovery DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#chap_auth_discovery}
   */
   readonly chapAuthDiscovery?: boolean | cdktf.IResolvable;
   /**
   * chapAuthSession defines whether support iSCSI Session CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#chap_auth_session DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#chap_auth_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#chap_auth_session DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#chap_auth_session}
   */
   readonly chapAuthSession?: boolean | cdktf.IResolvable;
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#iscsi
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#fs_type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#fs_type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * initiatorName is the custom iSCSI Initiator Name. If initiatorName is specified with iscsiInterface simultaneously, new iSCSI interface <target portal>:<volume name> will be created for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#initiator_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#initiator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#initiator_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#initiator_name}
   */
   readonly initiatorName?: string;
   /**
   * iqn is the target iSCSI Qualified Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#iqn DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#iqn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#iqn DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#iqn}
   */
   readonly iqn: string;
   /**
   * iscsiInterface is the interface Name that uses an iSCSI transport. Defaults to 'default' (tcp).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#iscsi_interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#iscsi_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#iscsi_interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#iscsi_interface}
   */
   readonly iscsiInterface?: string;
   /**
   * lun represents iSCSI Target Lun number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#lun DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#lun DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#lun}
   */
   readonly lun: number;
   /**
   * portals is the iSCSI Target Portal List. The portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#portals DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#portals DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#portals}
   */
   readonly portals?: string[];
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is the CHAP Secret for iSCSI target and initiator authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret_ref DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#secret_ref DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVolumesIscsiSecretRef;
   /**
   * targetPortal is iSCSI Target Portal. The Portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#target_portal DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#target_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#target_portal DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#target_portal}
   */
   readonly targetPortal: string;
 }
@@ -30654,19 +30654,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * path that is exported by the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * readOnly here will force the NFS export to be mounted with read-only permissions. Defaults to false. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * server is the hostname or IP address of the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#server DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#server DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#server}
   */
   readonly server: string;
 }
@@ -30814,13 +30814,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * claimName is the name of a PersistentVolumeClaim in the same namespace as the pod using this volume. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#claim_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#claim_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
   * readOnly Will force the ReadOnly setting in VolumeMounts. Default false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -30942,13 +30942,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#fs_type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#fs_type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * pdID is the ID that identifies Photon Controller persistent disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#pd_id DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#pd_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#pd_id DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#pd_id}
   */
   readonly pdId: string;
 }
@@ -31070,19 +31070,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * fSType represents the filesystem type to mount Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#fs_type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#fs_type DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#read_only DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeID uniquely identifies a Portworx volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_id DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#volume_id DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -31233,19 +31233,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#operator DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#values DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#values DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -31415,13 +31415,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_expressions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_expressions DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVolumesProjectedSourcesClusterTrustBundleLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#match_labels DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -31546,31 +31546,31 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * Select all ClusterTrustBundles that match this label selector. Only has effect if signerName is set. Mutually-exclusive with name. If unset, interpreted as 'match nothing'. If set but empty, interpreted as 'match everything'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#label_selector DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#label_selector DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVolumesProjectedSourcesClusterTrustBundleLabelSelector;
   /**
   * Select a single ClusterTrustBundle by object name. Mutually-exclusive with signerName and labelSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * If true, don't block pod startup if the referenced ClusterTrustBundle(s) aren't available. If using name, then the named ClusterTrustBundle is allowed not to exist. If using signerName, then the combination of signerName and labelSelector is allowed to match zero ClusterTrustBundles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * Relative path from the volume root to write the bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Select all ClusterTrustBundles that match this signer name. Mutually-exclusive with name. The contents of all selected ClusterTrustBundles will be unified and deduplicated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#signer_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#signer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#signer_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#signer_name}
   */
   readonly signerName?: string;
 }
@@ -31779,19 +31779,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#key DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#mode DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#mode DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -31961,19 +31961,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#items DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#items DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVolumesProjectedSourcesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#optional DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -32127,13 +32127,13 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#api_version DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#api_version DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#field_path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#field_path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -32255,19 +32255,19 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#container_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#container_name DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#divisor DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#divisor DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#resource DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#resource DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -32418,25 +32418,25 @@ export interface DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVo
   /**
   * Required: Selects a field of the pod: only annotations, labels, name, namespace and uid are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#field_ref DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#field_ref DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVolumesProjectedSourcesDownwardApiItemsFieldRef;
   /**
   * Optional: mode bits used to set permissions on this file, must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#mode DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#mode DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * Required: Path is the relative path name of the file to be created. Must not be absolute or contain the '..' path. Must be utf-8 encoded. The first item of the relative path must not start with '..'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#path DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, requests.cpu and requests.memory) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#resource_field_ref DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_prometheus_agent_v1alpha1_manifest#resource_field_ref DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SMonitoringCoreosComPrometheusAgentV1Alpha1ManifestSpecVolumesProjectedSourcesDownwardApiItemsResourceFieldRef;
 }

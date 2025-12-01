@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/simple_application_server_instances
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/simple_application_server_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudSimpleApplicationServerInstancesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/simple_application_server_instances#id DataAlicloudSimpleApplicationServerInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/simple_application_server_instances#id DataAlicloudSimpleApplicationServerInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/simple_application_server_instances#ids DataAlicloudSimpleApplicationServerInstances#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/simple_application_server_instances#ids DataAlicloudSimpleApplicationServerInstances#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/simple_application_server_instances#name_regex DataAlicloudSimpleApplicationServerInstances#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/simple_application_server_instances#name_regex DataAlicloudSimpleApplicationServerInstances#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/simple_application_server_instances#output_file DataAlicloudSimpleApplicationServerInstances#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/simple_application_server_instances#output_file DataAlicloudSimpleApplicationServerInstances#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/simple_application_server_instances#payment_type DataAlicloudSimpleApplicationServerInstances#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/simple_application_server_instances#payment_type DataAlicloudSimpleApplicationServerInstances#payment_type}
   */
   readonly paymentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/simple_application_server_instances#status DataAlicloudSimpleApplicationServerInstances#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/simple_application_server_instances#status DataAlicloudSimpleApplicationServerInstances#status}
   */
   readonly status?: string;
 }
@@ -172,7 +172,7 @@ export class DataAlicloudSimpleApplicationServerInstancesInstancesList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/simple_application_server_instances alicloud_simple_application_server_instances}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/simple_application_server_instances alicloud_simple_application_server_instances}
 */
 export class DataAlicloudSimpleApplicationServerInstances extends cdktf.TerraformDataSource {
 
@@ -188,7 +188,7 @@ export class DataAlicloudSimpleApplicationServerInstances extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataAlicloudSimpleApplicationServerInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudSimpleApplicationServerInstances to import
-  * @param importFromId The id of the existing DataAlicloudSimpleApplicationServerInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/simple_application_server_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudSimpleApplicationServerInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/simple_application_server_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudSimpleApplicationServerInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -200,7 +200,7 @@ export class DataAlicloudSimpleApplicationServerInstances extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/simple_application_server_instances alicloud_simple_application_server_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/simple_application_server_instances alicloud_simple_application_server_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -211,8 +211,8 @@ export class DataAlicloudSimpleApplicationServerInstances extends cdktf.Terrafor
       terraformResourceType: 'alicloud_simple_application_server_instances',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

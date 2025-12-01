@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SHncXK8SIoHncConfigurationV1Alpha2ManifestConfig extends 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest#metadata DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest#metadata DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest#metadata}
   */
   readonly metadata: DataK8SHncXK8SIoHncConfigurationV1Alpha2ManifestMetadata;
   /**
   * HNCConfigurationSpec defines the desired state of HNC configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest#spec DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest#spec DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest#spec}
   */
   readonly spec?: DataK8SHncXK8SIoHncConfigurationV1Alpha2ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SHncXK8SIoHncConfigurationV1Alpha2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest#annotations DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest#annotations DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest#labels DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest#labels DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest#name DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest#name DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest#name}
   */
   readonly name: string;
 }
@@ -187,19 +187,19 @@ export interface DataK8SHncXK8SIoHncConfigurationV1Alpha2ManifestSpecResources {
   /**
   * Group of the resource defined below. This is used to unambiguously identify the resource. It may be omitted for core resources (e.g. 'secrets').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest#group DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest#group DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest#group}
   */
   readonly group?: string;
   /**
   * Synchronization mode of the kind. If the field is empty, it will be treated as 'Propagate'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest#mode DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest#mode DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest#mode}
   */
   readonly mode?: string;
   /**
   * Resource to be configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest#resource DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest#resource DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest#resource}
   */
   readonly resource: string;
 }
@@ -372,7 +372,7 @@ export interface DataK8SHncXK8SIoHncConfigurationV1Alpha2ManifestSpec {
   /**
   * Resources defines the cluster-wide settings for resource synchronization. Note that 'roles' and 'rolebindings' are pre-configured by HNC with 'Propagate' mode and are omitted in the spec. Any configuration of 'roles' or 'rolebindings' are not allowed. To learn more, see https://github.com/kubernetes-sigs/hierarchical-namespaces/blob/master/docs/user-guide/how-to.md#admin-types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest#resources DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest#resources DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest#resources}
   */
   readonly resources?: DataK8SHncXK8SIoHncConfigurationV1Alpha2ManifestSpecResources[] | cdktf.IResolvable;
 }
@@ -466,7 +466,7 @@ export class DataK8SHncXK8SIoHncConfigurationV1Alpha2ManifestSpecOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest k8s_hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest k8s_hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest}
 */
 export class DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest extends cdktf.TerraformDataSource {
 
@@ -482,7 +482,7 @@ export class DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest extends cdktf.Terr
   * Generates CDKTF code for importing a DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest to import
-  * @param importFromId The id of the existing DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -494,7 +494,7 @@ export class DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest k8s_hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest k8s_hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -505,8 +505,8 @@ export class DataK8SHncXK8SIoHncConfigurationV1Alpha2Manifest extends cdktf.Terr
       terraformResourceType: 'k8s_hnc_x_k8s_io_hnc_configuration_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

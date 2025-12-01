@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestConfig extends
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#metadata DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#metadata DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestMetadata;
   /**
   * NodegroupSpec defines the desired state of Nodegroup. An object representing an Amazon EKS managed node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#spec DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#spec DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#annotations DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#annotations DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#labels DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#labels DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#name DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#name DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestMetadataOutputRefe
 }
 export interface DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecClusterRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#name DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#name DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -346,7 +346,7 @@ export interface DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecClusterRef
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#from DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#from DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecClusterRefFrom;
 }
@@ -440,18 +440,18 @@ export class DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecClusterRefOutp
 }
 export interface DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecLaunchTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#id DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#id DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#name DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#name DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#version DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#version DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -603,11 +603,11 @@ export class DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecLaunchTemplate
 }
 export interface DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecNodeRoleRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#name DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#name DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -732,7 +732,7 @@ export interface DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecNodeRoleRe
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#from DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#from DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecNodeRoleRefFrom;
 }
@@ -826,11 +826,11 @@ export class DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecNodeRoleRefOut
 }
 export interface DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecRemoteAccessSourceSecurityGroupRefsFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#name DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#name DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -955,7 +955,7 @@ export interface DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecRemoteAcce
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#from DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#from DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecRemoteAccessSourceSecurityGroupRefsFrom;
 }
@@ -1071,17 +1071,17 @@ export class DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecRemoteAccessSo
 }
 export interface DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecRemoteAccess {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#ec2_ssh_key DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#ec2_ssh_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#ec2_ssh_key DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#ec2_ssh_key}
   */
   readonly ec2SshKey?: string;
   /**
   * Reference field for SourceSecurityGroups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#source_security_group_refs DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#source_security_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#source_security_group_refs DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#source_security_group_refs}
   */
   readonly sourceSecurityGroupRefs?: DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecRemoteAccessSourceSecurityGroupRefs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#source_security_groups DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#source_security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#source_security_groups DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#source_security_groups}
   */
   readonly sourceSecurityGroups?: string[];
 }
@@ -1233,15 +1233,15 @@ export class DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecRemoteAccessOu
 }
 export interface DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecScalingConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#desired_size DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#desired_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#desired_size DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#desired_size}
   */
   readonly desiredSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#max_size DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#max_size DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#max_size}
   */
   readonly maxSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#min_size DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#min_size DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#min_size}
   */
   readonly minSize?: number;
 }
@@ -1393,11 +1393,11 @@ export class DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecScalingConfigO
 }
 export interface DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecSubnetRefsFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#name DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#name DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1522,7 +1522,7 @@ export interface DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecSubnetRefs
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#from DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#from DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecSubnetRefsFrom;
 }
@@ -1638,15 +1638,15 @@ export class DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecSubnetRefsList
 }
 export interface DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecTaints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#effect DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#effect DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#key DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#key DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#value DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#value DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1820,11 +1820,11 @@ export class DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecTaintsList ext
 }
 export interface DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecUpdateConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#max_unavailable DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#max_unavailable DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#max_unavailable_percentage DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#max_unavailable_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#max_unavailable_percentage DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#max_unavailable_percentage}
   */
   readonly maxUnavailablePercentage?: number;
 }
@@ -1949,125 +1949,125 @@ export interface DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpec {
   /**
   * The AMI type for your node group. If you specify launchTemplate, and your launch template uses a custom AMI, then don't specify amiType, or the node group deployment will fail. If your launch template uses a Windows custom AMI, then add eks:kube-proxy-windows to your Windows nodes rolearn in the aws-auth ConfigMap. For more information about using launch templates with Amazon EKS, see Customizing managed nodes with launch templates (https://docs.aws.amazon.com/eks/latest/userguide/launch-templates.html) in the Amazon EKS User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#ami_type DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#ami_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#ami_type DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#ami_type}
   */
   readonly amiType?: string;
   /**
   * The capacity type for your node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#capacity_type DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#capacity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#capacity_type DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#capacity_type}
   */
   readonly capacityType?: string;
   /**
   * A unique, case-sensitive identifier that you provide to ensure the idempotency of the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#client_request_token DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#client_request_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#client_request_token DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#client_request_token}
   */
   readonly clientRequestToken?: string;
   /**
   * The name of your cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#cluster_name DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#cluster_name DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#cluster_ref DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#cluster_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#cluster_ref DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#cluster_ref}
   */
   readonly clusterRef?: DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecClusterRef;
   /**
   * The root device disk size (in GiB) for your node group instances. The default disk size is 20 GiB for Linux and Bottlerocket. The default disk size is 50 GiB for Windows. If you specify launchTemplate, then don't specify diskSize, or the node group deployment will fail. For more information about using launch templates with Amazon EKS, see Customizing managed nodes with launch templates (https://docs.aws.amazon.com/eks/latest/userguide/launch-templates.html) in the Amazon EKS User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#disk_size DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#disk_size DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#disk_size}
   */
   readonly diskSize?: number;
   /**
   * Specify the instance types for a node group. If you specify a GPU instance type, make sure to also specify an applicable GPU AMI type with the amiType parameter. If you specify launchTemplate, then you can specify zero or one instance type in your launch template or you can specify 0-20 instance types for instanceTypes. If however, you specify an instance type in your launch template and specify any instanceTypes, the node group deployment will fail. If you don't specify an instance type in a launch template or for instanceTypes, then t3.medium is used, by default. If you specify Spot for capacityType, then we recommend specifying multiple values for instanceTypes. For more information, see Managed node group capacity types (https://docs.aws.amazon.com/eks/latest/userguide/managed-node-groups.html#managed-node-group-capacity-types) and Customizing managed nodes with launch templates (https://docs.aws.amazon.com/eks/latest/userguide/launch-templates.html) in the Amazon EKS User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#instance_types DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#instance_types DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#instance_types}
   */
   readonly instanceTypes?: string[];
   /**
   * The Kubernetes labels to apply to the nodes in the node group when they are created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#labels DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#labels DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * An object representing a node group's launch template specification. When using this object, don't directly specify instanceTypes, diskSize, or remoteAccess. Make sure that the launch template meets the requirements in launchTemplateSpecification. Also refer to Customizing managed nodes with launch templates (https://docs.aws.amazon.com/eks/latest/userguide/launch-templates.html) in the Amazon EKS User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#launch_template DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#launch_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#launch_template DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#launch_template}
   */
   readonly launchTemplate?: DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecLaunchTemplate;
   /**
   * The unique name to give your node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#name DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#name DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The Amazon Resource Name (ARN) of the IAM role to associate with your node group. The Amazon EKS worker node kubelet daemon makes calls to Amazon Web Services APIs on your behalf. Nodes receive permissions for these API calls through an IAM instance profile and associated policies. Before you can launch nodes and register them into a cluster, you must create an IAM role for those nodes to use when they are launched. For more information, see Amazon EKS node IAM role (https://docs.aws.amazon.com/eks/latest/userguide/create-node-role.html) in the Amazon EKS User Guide . If you specify launchTemplate, then don't specify IamInstanceProfile (https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_IamInstanceProfile.html) in your launch template, or the node group deployment will fail. For more information about using launch templates with Amazon EKS, see Customizing managed nodes with launch templates (https://docs.aws.amazon.com/eks/latest/userguide/launch-templates.html) in the Amazon EKS User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#node_role DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#node_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#node_role DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#node_role}
   */
   readonly nodeRole?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#node_role_ref DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#node_role_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#node_role_ref DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#node_role_ref}
   */
   readonly nodeRoleRef?: DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecNodeRoleRef;
   /**
   * The AMI version of the Amazon EKS optimized AMI to use with your node group. By default, the latest available AMI version for the node group's current Kubernetes version is used. For information about Linux versions, see Amazon EKS optimized Amazon Linux AMI versions (https://docs.aws.amazon.com/eks/latest/userguide/eks-linux-ami-versions.html) in the Amazon EKS User Guide. Amazon EKS managed node groups support the November 2022 and later releases of the Windows AMIs. For information about Windows versions, see Amazon EKS optimized Windows AMI versions (https://docs.aws.amazon.com/eks/latest/userguide/eks-ami-versions-windows.html) in the Amazon EKS User Guide. If you specify launchTemplate, and your launch template uses a custom AMI, then don't specify releaseVersion, or the node group deployment will fail. For more information about using launch templates with Amazon EKS, see Customizing managed nodes with launch templates (https://docs.aws.amazon.com/eks/latest/userguide/launch-templates.html) in the Amazon EKS User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#release_version DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#release_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#release_version DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#release_version}
   */
   readonly releaseVersion?: string;
   /**
   * The remote access configuration to use with your node group. For Linux, the protocol is SSH. For Windows, the protocol is RDP. If you specify launchTemplate, then don't specify remoteAccess, or the node group deployment will fail. For more information about using launch templates with Amazon EKS, see Customizing managed nodes with launch templates (https://docs.aws.amazon.com/eks/latest/userguide/launch-templates.html) in the Amazon EKS User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#remote_access DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#remote_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#remote_access DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#remote_access}
   */
   readonly remoteAccess?: DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecRemoteAccess;
   /**
   * The scaling configuration details for the Auto Scaling group that is created for your node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#scaling_config DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#scaling_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#scaling_config DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#scaling_config}
   */
   readonly scalingConfig?: DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecScalingConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#subnet_refs DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#subnet_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#subnet_refs DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#subnet_refs}
   */
   readonly subnetRefs?: DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecSubnetRefs[] | cdktf.IResolvable;
   /**
   * The subnets to use for the Auto Scaling group that is created for your node group. If you specify launchTemplate, then don't specify SubnetId (https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_CreateNetworkInterface.html) in your launch template, or the node group deployment will fail. For more information about using launch templates with Amazon EKS, see Customizing managed nodes with launch templates (https://docs.aws.amazon.com/eks/latest/userguide/launch-templates.html) in the Amazon EKS User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#subnets DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#subnets DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#subnets}
   */
   readonly subnets?: string[];
   /**
   * Metadata that assists with categorization and organization. Each tag consists of a key and an optional value. You define both. Tags don't propagate to any other cluster or Amazon Web Services resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#tags DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#tags DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The Kubernetes taints to be applied to the nodes in the node group. For more information, see Node taints on managed node groups (https://docs.aws.amazon.com/eks/latest/userguide/node-taints-managed-node-groups.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#taints DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#taints DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#taints}
   */
   readonly taints?: DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecTaints[] | cdktf.IResolvable;
   /**
   * The node group update configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#update_config DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#update_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#update_config DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#update_config}
   */
   readonly updateConfig?: DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecUpdateConfig;
   /**
   * The Kubernetes version to use for your managed nodes. By default, the Kubernetes version of the cluster is used, and this is the only accepted specified value. If you specify launchTemplate, and your launch template uses a custom AMI, then don't specify version, or the node group deployment will fail. For more information about using launch templates with Amazon EKS, see Customizing managed nodes with launch templates (https://docs.aws.amazon.com/eks/latest/userguide/launch-templates.html) in the Amazon EKS User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#version DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#version DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -2738,7 +2738,7 @@ export class DataK8SEksServicesK8SAwsNodegroupV1Alpha1ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest k8s_eks_services_k8s_aws_nodegroup_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest k8s_eks_services_k8s_aws_nodegroup_v1alpha1_manifest}
 */
 export class DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2754,7 +2754,7 @@ export class DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2766,7 +2766,7 @@ export class DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest k8s_eks_services_k8s_aws_nodegroup_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_nodegroup_v1alpha1_manifest k8s_eks_services_k8s_aws_nodegroup_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2777,8 +2777,8 @@ export class DataK8SEksServicesK8SAwsNodegroupV1Alpha1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_eks_services_k8s_aws_nodegroup_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/network_interface
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/network_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/network_interface#description NetworkInterface#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/network_interface#description NetworkInterface#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/network_interface#id NetworkInterface#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/network_interface#id NetworkInterface#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/network_interface#name NetworkInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/network_interface#name NetworkInterface#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/network_interface#network_interface_name NetworkInterface#network_interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/network_interface#network_interface_name NetworkInterface#network_interface_name}
   */
   readonly networkInterfaceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/network_interface#primary_ip_address NetworkInterface#primary_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/network_interface#primary_ip_address NetworkInterface#primary_ip_address}
   */
   readonly primaryIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/network_interface#private_ip NetworkInterface#private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/network_interface#private_ip NetworkInterface#private_ip}
   */
   readonly privateIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/network_interface#private_ips NetworkInterface#private_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/network_interface#private_ips NetworkInterface#private_ips}
   */
   readonly privateIps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/network_interface#private_ips_count NetworkInterface#private_ips_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/network_interface#private_ips_count NetworkInterface#private_ips_count}
   */
   readonly privateIpsCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/network_interface#security_groups NetworkInterface#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/network_interface#security_groups NetworkInterface#security_groups}
   */
   readonly securityGroups: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/network_interface#tags NetworkInterface#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/network_interface#tags NetworkInterface#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/network_interface#vswitch_id NetworkInterface#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/network_interface#vswitch_id NetworkInterface#vswitch_id}
   */
   readonly vswitchId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/network_interface alibabacloudstack_network_interface}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/network_interface alibabacloudstack_network_interface}
 */
 export class NetworkInterface extends cdktf.TerraformResource {
 
@@ -73,7 +73,7 @@ export class NetworkInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkInterface to import
-  * @param importFromId The id of the existing NetworkInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/network_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/network_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -85,7 +85,7 @@ export class NetworkInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/network_interface alibabacloudstack_network_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/network_interface alibabacloudstack_network_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -96,8 +96,8 @@ export class NetworkInterface extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_network_interface',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

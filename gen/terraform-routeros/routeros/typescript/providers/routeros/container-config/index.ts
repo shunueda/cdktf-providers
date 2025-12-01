@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/container_config
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/container_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ContainerConfigAConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/container_config#___path___ ContainerConfigA#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/container_config#___path___ ContainerConfigA#___path___}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/container_config#id ContainerConfigA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/container_config#id ContainerConfigA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface ContainerConfigAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Container layers directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/container_config#layer_dir ContainerConfigA#layer_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/container_config#layer_dir ContainerConfigA#layer_dir}
   */
   readonly layerDir?: string;
   /**
   * Specifies the password for authentication (starting from ROS 7.8)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/container_config#password ContainerConfigA#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/container_config#password ContainerConfigA#password}
   */
   readonly password?: string;
   /**
   * RAM usage limit. (0 for unlimited)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/container_config#ram_high ContainerConfigA#ram_high}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/container_config#ram_high ContainerConfigA#ram_high}
   */
   readonly ramHigh?: string;
   /**
   * External registry url from where the container will be downloaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/container_config#registry_url ContainerConfigA#registry_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/container_config#registry_url ContainerConfigA#registry_url}
   */
   readonly registryUrl?: string;
   /**
   * Container extraction directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/container_config#tmpdir ContainerConfigA#tmpdir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/container_config#tmpdir ContainerConfigA#tmpdir}
   */
   readonly tmpdir?: string;
   /**
   * Specifies the username for authentication (starting from ROS 7.8)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/container_config#username ContainerConfigA#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/container_config#username ContainerConfigA#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/container_config routeros_container_config}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/container_config routeros_container_config}
 */
 export class ContainerConfigA extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class ContainerConfigA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ContainerConfigA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ContainerConfigA to import
-  * @param importFromId The id of the existing ContainerConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/container_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ContainerConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/container_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ContainerConfigA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class ContainerConfigA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/container_config routeros_container_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/container_config routeros_container_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class ContainerConfigA extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_container_config',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.94.0',
-        providerVersionConstraint: '1.94.0'
+        providerVersion: '1.95.0',
+        providerVersionConstraint: '1.95.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

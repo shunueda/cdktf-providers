@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/resource_manager_resource_shares
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/resource_manager_resource_shares
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudResourceManagerResourceSharesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/resource_manager_resource_shares#id DataAlicloudResourceManagerResourceShares#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/resource_manager_resource_shares#id DataAlicloudResourceManagerResourceShares#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/resource_manager_resource_shares#ids DataAlicloudResourceManagerResourceShares#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/resource_manager_resource_shares#ids DataAlicloudResourceManagerResourceShares#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/resource_manager_resource_shares#name_regex DataAlicloudResourceManagerResourceShares#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/resource_manager_resource_shares#name_regex DataAlicloudResourceManagerResourceShares#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/resource_manager_resource_shares#output_file DataAlicloudResourceManagerResourceShares#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/resource_manager_resource_shares#output_file DataAlicloudResourceManagerResourceShares#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/resource_manager_resource_shares#resource_share_name DataAlicloudResourceManagerResourceShares#resource_share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/resource_manager_resource_shares#resource_share_name DataAlicloudResourceManagerResourceShares#resource_share_name}
   */
   readonly resourceShareName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/resource_manager_resource_shares#resource_share_owner DataAlicloudResourceManagerResourceShares#resource_share_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/resource_manager_resource_shares#resource_share_owner DataAlicloudResourceManagerResourceShares#resource_share_owner}
   */
   readonly resourceShareOwner: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/resource_manager_resource_shares#status DataAlicloudResourceManagerResourceShares#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/resource_manager_resource_shares#status DataAlicloudResourceManagerResourceShares#status}
   */
   readonly status?: string;
 }
@@ -136,7 +136,7 @@ export class DataAlicloudResourceManagerResourceSharesSharesList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/resource_manager_resource_shares alicloud_resource_manager_resource_shares}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/resource_manager_resource_shares alicloud_resource_manager_resource_shares}
 */
 export class DataAlicloudResourceManagerResourceShares extends cdktf.TerraformDataSource {
 
@@ -152,7 +152,7 @@ export class DataAlicloudResourceManagerResourceShares extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataAlicloudResourceManagerResourceShares resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudResourceManagerResourceShares to import
-  * @param importFromId The id of the existing DataAlicloudResourceManagerResourceShares that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/resource_manager_resource_shares#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudResourceManagerResourceShares that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/resource_manager_resource_shares#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudResourceManagerResourceShares to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -164,7 +164,7 @@ export class DataAlicloudResourceManagerResourceShares extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/resource_manager_resource_shares alicloud_resource_manager_resource_shares} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/resource_manager_resource_shares alicloud_resource_manager_resource_shares} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -175,8 +175,8 @@ export class DataAlicloudResourceManagerResourceShares extends cdktf.TerraformDa
       terraformResourceType: 'alicloud_resource_manager_resource_shares',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

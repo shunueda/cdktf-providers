@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/test_suite
+// https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/test_suite
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataBuildkiteTestSuiteConfig extends cdktf.TerraformMetaArgumen
   /**
   * The generated slug of the test suite.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/test_suite#slug DataBuildkiteTestSuite#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/test_suite#slug DataBuildkiteTestSuite#slug}
   */
   readonly slug: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/test_suite buildkite_test_suite}
+* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/test_suite buildkite_test_suite}
 */
 export class DataBuildkiteTestSuite extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataBuildkiteTestSuite extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBuildkiteTestSuite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBuildkiteTestSuite to import
-  * @param importFromId The id of the existing DataBuildkiteTestSuite that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/test_suite#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBuildkiteTestSuite that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/test_suite#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBuildkiteTestSuite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataBuildkiteTestSuite extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/test_suite buildkite_test_suite} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/test_suite buildkite_test_suite} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataBuildkiteTestSuite extends cdktf.TerraformDataSource {
       terraformResourceType: 'buildkite_test_suite',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.27.0',
-        providerVersionConstraint: '1.27.0'
+        providerVersion: '1.27.1',
+        providerVersionConstraint: '1.27.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

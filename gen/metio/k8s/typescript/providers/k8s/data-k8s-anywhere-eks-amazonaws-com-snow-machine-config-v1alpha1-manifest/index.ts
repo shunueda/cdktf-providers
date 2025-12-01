@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1ManifestMetadata;
   /**
   * SnowMachineConfigSpec defines the desired state of SnowMachineConfigSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#spec DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#spec DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#annotations DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#annotations DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest
   /**
   * Device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#device_name DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#device_name DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#device_name}
   */
   readonly deviceName?: string;
   /**
   * Size specifies size (in Gi) of the storage device. Must be greater than the image snapshot size or 8 (whichever is greater).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#size DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#size DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#size}
   */
   readonly size: number;
   /**
   * Type is the type of the volume (sbp1 for capacity-optimized HDD, sbg1 performance-optimized SSD, default is sbp1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#type DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#type DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -380,7 +380,7 @@ export class DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1ManifestSpec
 }
 export interface DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1ManifestSpecHostOsConfigurationBottlerocketConfigurationBoot {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#boot_kernel_parameters DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#boot_kernel_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#boot_kernel_parameters DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#boot_kernel_parameters}
   */
   readonly bootKernelParameters?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -476,7 +476,7 @@ export interface DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest
   /**
   * SysctlSettings defines the kernel sysctl settings to set for bottlerocket nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#sysctl_settings DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#sysctl_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#sysctl_settings DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#sysctl_settings}
   */
   readonly sysctlSettings?: { [key: string]: string };
 }
@@ -572,187 +572,187 @@ export interface DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest
   /**
   * AllowedUnsafeSysctls defines the list of unsafe sysctls that can be set on a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#allowed_unsafe_sysctls DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#allowed_unsafe_sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#allowed_unsafe_sysctls DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#allowed_unsafe_sysctls}
   */
   readonly allowedUnsafeSysctls?: string[];
   /**
   * ClusterDNSIPs defines IP addresses of the DNS servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#cluster_dnsi_ps DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#cluster_dnsi_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#cluster_dnsi_ps DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#cluster_dnsi_ps}
   */
   readonly clusterDnsiPs?: string[];
   /**
   * ClusterDomain defines the DNS domain for the cluster, allowing all Kubernetes-run containers to search this domain before the host’s search domains
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#cluster_domain DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#cluster_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#cluster_domain DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#cluster_domain}
   */
   readonly clusterDomain?: string;
   /**
   * ContainerLogMaxFiles specifies the maximum number of container log files that can be present for a container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#container_log_max_files DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#container_log_max_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#container_log_max_files DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#container_log_max_files}
   */
   readonly containerLogMaxFiles?: number;
   /**
   * ContainerLogMaxSize is a quantity defining the maximum size of the container log file before it is rotated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#container_log_max_size DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#container_log_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#container_log_max_size DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#container_log_max_size}
   */
   readonly containerLogMaxSize?: string;
   /**
   * CPUCFSQuota enables CPU CFS quota enforcement for containers that specify CPU limits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#cpu_cfs_quota DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#cpu_cfs_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#cpu_cfs_quota DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#cpu_cfs_quota}
   */
   readonly cpuCfsQuota?: boolean | cdktf.IResolvable;
   /**
   * CPUManagerPolicy is the name of the policy to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#cpu_manager_policy DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#cpu_manager_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#cpu_manager_policy DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#cpu_manager_policy}
   */
   readonly cpuManagerPolicy?: string;
   /**
   * CPUManagerPolicyOptions is a set of key=value which allows to set extra options to fine tune the behaviour of the cpu manager policies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#cpu_manager_policy_options DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#cpu_manager_policy_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#cpu_manager_policy_options DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#cpu_manager_policy_options}
   */
   readonly cpuManagerPolicyOptions?: { [key: string]: string };
   /**
   * CPUManagerReconcilePeriod is the reconciliation period for the CPU Manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#cpu_manager_reconcile_period DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#cpu_manager_reconcile_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#cpu_manager_reconcile_period DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#cpu_manager_reconcile_period}
   */
   readonly cpuManagerReconcilePeriod?: string;
   /**
   * EventBurst is the maximum size of a burst of event creations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#event_burst DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#event_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#event_burst DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#event_burst}
   */
   readonly eventBurst?: number;
   /**
   * EventRecordQPS is the maximum event creations per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#event_record_qps DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#event_record_qps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#event_record_qps DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#event_record_qps}
   */
   readonly eventRecordQps?: number;
   /**
   * EvictionHard is a map of signal names to quantities that defines hard eviction thresholds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#eviction_hard DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#eviction_hard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#eviction_hard DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#eviction_hard}
   */
   readonly evictionHard?: { [key: string]: string };
   /**
   * EvictionMaxPodGracePeriod is the maximum allowed grace period (in seconds) to use when terminating pods in response to a soft eviction threshold being met.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#eviction_max_pod_grace_period DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#eviction_max_pod_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#eviction_max_pod_grace_period DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#eviction_max_pod_grace_period}
   */
   readonly evictionMaxPodGracePeriod?: number;
   /**
   * EvictionSoft is a map of signal names to quantities that defines soft eviction thresholds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#eviction_soft DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#eviction_soft}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#eviction_soft DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#eviction_soft}
   */
   readonly evictionSoft?: { [key: string]: string };
   /**
   * EvictionSoftGracePeriod is a map of signal names to quantities that defines grace periods for each soft eviction signal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#eviction_soft_grace_period DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#eviction_soft_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#eviction_soft_grace_period DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#eviction_soft_grace_period}
   */
   readonly evictionSoftGracePeriod?: { [key: string]: string };
   /**
   * ImageGCHighThresholdPercent is the percent of disk usage after which image garbage collection is always run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#image_gc_high_threshold_percent DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#image_gc_high_threshold_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#image_gc_high_threshold_percent DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#image_gc_high_threshold_percent}
   */
   readonly imageGcHighThresholdPercent?: number;
   /**
   * ImageGCLowThresholdPercent is the percent of disk usage before which image garbage collection is never run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#image_gc_low_threshold_percent DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#image_gc_low_threshold_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#image_gc_low_threshold_percent DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#image_gc_low_threshold_percent}
   */
   readonly imageGcLowThresholdPercent?: number;
   /**
   * KubeAPIBurst is the burst to allow while talking with kubernetes API server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#kube_api_burst DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#kube_api_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#kube_api_burst DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#kube_api_burst}
   */
   readonly kubeApiBurst?: number;
   /**
   * KubeAPIQPS is the QPS to use while talking with kubernetes apiserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#kube_apiqps DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#kube_apiqps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#kube_apiqps DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#kube_apiqps}
   */
   readonly kubeApiqps?: number;
   /**
   * KubeReserved is a set of ResourceName=ResourceQuantity pairs that describe resources reserved for kubernetes system components
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#kube_reserved DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#kube_reserved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#kube_reserved DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#kube_reserved}
   */
   readonly kubeReserved?: { [key: string]: string };
   /**
   * MaxPods defines the maximum number of pods that can run on a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#max_pods DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#max_pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#max_pods DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#max_pods}
   */
   readonly maxPods?: number;
   /**
   * MemoryManagerPolicy is the name of the policy to use by memory manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#memory_manager_policy DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#memory_manager_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#memory_manager_policy DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#memory_manager_policy}
   */
   readonly memoryManagerPolicy?: string;
   /**
   * PodPidsLimit is the maximum number of PIDs in any pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#pod_pids_limit DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#pod_pids_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#pod_pids_limit DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#pod_pids_limit}
   */
   readonly podPidsLimit?: number;
   /**
   * ProviderID sets the unique ID of the instance that an external provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#provider_id DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#provider_id DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#provider_id}
   */
   readonly providerId?: string;
   /**
   * RegistryBurst is the maximum size of bursty pulls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#registry_burst DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#registry_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#registry_burst DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#registry_burst}
   */
   readonly registryBurst?: number;
   /**
   * RegistryPullQPS is the limit of registry pulls per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#registry_pull_qps DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#registry_pull_qps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#registry_pull_qps DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#registry_pull_qps}
   */
   readonly registryPullQps?: number;
   /**
   * ShutdownGracePeriod specifies the total duration that the node should delay the shutdown and total grace period for pod termination during a node shutdown.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#shutdown_grace_period DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#shutdown_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#shutdown_grace_period DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#shutdown_grace_period}
   */
   readonly shutdownGracePeriod?: string;
   /**
   * ShutdownGracePeriodCriticalPods specifies the duration used to terminate critical pods during a node shutdown.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#shutdown_grace_period_critical_pods DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#shutdown_grace_period_critical_pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#shutdown_grace_period_critical_pods DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#shutdown_grace_period_critical_pods}
   */
   readonly shutdownGracePeriodCriticalPods?: string;
   /**
   * SystemReserved is a set of ResourceName=ResourceQuantity pairs that describe resources reserved for non-kubernetes components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#system_reserved DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#system_reserved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#system_reserved DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#system_reserved}
   */
   readonly systemReserved?: { [key: string]: string };
   /**
   * TopologyManagerPolicy is the name of the topology manager policy to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#topology_manager_policy DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#topology_manager_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#topology_manager_policy DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#topology_manager_policy}
   */
   readonly topologyManagerPolicy?: string;
   /**
   * TopologyManagerScope represents the scope of topology hint generation that topology manager requests and hint providers generate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#topology_manager_scope DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#topology_manager_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#topology_manager_scope DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#topology_manager_scope}
   */
   readonly topologyManagerScope?: string;
 }
@@ -1718,19 +1718,19 @@ export interface DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest
   /**
   * Boot defines the boot settings for bottlerocket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#boot DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#boot DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#boot}
   */
   readonly boot?: DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1ManifestSpecHostOsConfigurationBottlerocketConfigurationBoot;
   /**
   * Kernel defines the kernel settings for bottlerocket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#kernel DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#kernel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#kernel DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#kernel}
   */
   readonly kernel?: DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1ManifestSpecHostOsConfigurationBottlerocketConfigurationKernel;
   /**
   * Kubernetes defines the Kubernetes settings on the host OS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#kubernetes DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#kubernetes DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#kubernetes}
   */
   readonly kubernetes?: DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1ManifestSpecHostOsConfigurationBottlerocketConfigurationKubernetes;
 }
@@ -1884,13 +1884,13 @@ export interface DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest
   /**
   * Data defines the cert bundle data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#data DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#data DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#data}
   */
   readonly data: string;
   /**
   * Name defines the cert bundle name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -2031,7 +2031,7 @@ export interface DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest
   /**
   * Servers defines a list of NTP servers to be configured on the host OS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#servers DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#servers DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#servers}
   */
   readonly servers: string[];
 }
@@ -2124,17 +2124,17 @@ export interface DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest
   /**
   * BottlerocketConfiguration defines the Bottlerocket configuration on the host OS. These settings only take effect when the 'osFamily' is bottlerocket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#bottlerocket_configuration DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#bottlerocket_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#bottlerocket_configuration DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#bottlerocket_configuration}
   */
   readonly bottlerocketConfiguration?: DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1ManifestSpecHostOsConfigurationBottlerocketConfiguration;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#cert_bundles DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#cert_bundles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#cert_bundles DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#cert_bundles}
   */
   readonly certBundles?: DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1ManifestSpecHostOsConfigurationCertBundles[] | cdktf.IResolvable;
   /**
   * NTPConfiguration defines the NTP configuration on the host OS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#ntp_configuration DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#ntp_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#ntp_configuration DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#ntp_configuration}
   */
   readonly ntpConfiguration?: DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1ManifestSpecHostOsConfigurationNtpConfiguration;
 }
@@ -2286,11 +2286,11 @@ export class DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1ManifestSpec
 }
 export interface DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1ManifestSpecNetworkDirectNetworkInterfacesIpPoolRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#kind DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#kind DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2415,31 +2415,31 @@ export interface DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest
   /**
   * DHCP defines whether DHCP is used to assign ip for the DNI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#dhcp DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#dhcp DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#dhcp}
   */
   readonly dhcp?: boolean | cdktf.IResolvable;
   /**
   * Index is the index number of DNI used to clarify the position in the list. Usually starts with 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#index DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#index DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#index}
   */
   readonly index?: number;
   /**
   * IPPool contains a reference to a snow ip pool which provides a range of ip addresses. When specified, an ip address selected from the pool is allocated to this DNI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#ip_pool_ref DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#ip_pool_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#ip_pool_ref DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#ip_pool_ref}
   */
   readonly ipPoolRef?: DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1ManifestSpecNetworkDirectNetworkInterfacesIpPoolRef;
   /**
   * Primary indicates whether the DNI is primary or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#primary DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#primary DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#primary}
   */
   readonly primary?: boolean | cdktf.IResolvable;
   /**
   * VlanID is the vlan id assigned by the user for the DNI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#vlan_id DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#vlan_id DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#vlan_id}
   */
   readonly vlanId?: number;
 }
@@ -2673,7 +2673,7 @@ export interface DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest
   /**
   * DirectNetworkInterfaces contains a list of direct network interface (DNI) configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#direct_network_interfaces DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#direct_network_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#direct_network_interfaces DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#direct_network_interfaces}
   */
   readonly directNetworkInterfaces?: DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1ManifestSpecNetworkDirectNetworkInterfaces[] | cdktf.IResolvable;
 }
@@ -2769,19 +2769,19 @@ export interface DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest
   /**
   * Device name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#device_name DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#device_name DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#device_name}
   */
   readonly deviceName?: string;
   /**
   * Size specifies size (in Gi) of the storage device. Must be greater than the image snapshot size or 8 (whichever is greater).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#size DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#size DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#size}
   */
   readonly size: number;
   /**
   * Type is the type of the volume (sbp1 for capacity-optimized HDD, sbg1 performance-optimized SSD, default is sbp1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#type DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#type DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -2954,61 +2954,61 @@ export interface DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest
   /**
   * The AMI ID from which to create the machine instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#ami_id DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#ami_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#ami_id DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#ami_id}
   */
   readonly amiId?: string;
   /**
   * ContainersVolume provides the configuration options for the containers data storage volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#containers_volume DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#containers_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#containers_volume DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#containers_volume}
   */
   readonly containersVolume?: DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1ManifestSpecContainersVolume;
   /**
   * Devices contains a device ip list assigned by the user to provision machines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#devices DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#devices DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#devices}
   */
   readonly devices?: string[];
   /**
   * HostOSConfiguration provides OS specific configurations for the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#host_os_configuration DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#host_os_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#host_os_configuration DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#host_os_configuration}
   */
   readonly hostOsConfiguration?: DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1ManifestSpecHostOsConfiguration;
   /**
   * InstanceType is the type of instance to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#instance_type DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#instance_type DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#instance_type}
   */
   readonly instanceType?: string;
   /**
   * Network provides the custom network setting for the machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#network DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#network DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#network}
   */
   readonly network: DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1ManifestSpecNetwork;
   /**
   * NonRootVolumes provides the configuration options for the non root storage volumes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#non_root_volumes DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#non_root_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#non_root_volumes DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#non_root_volumes}
   */
   readonly nonRootVolumes?: DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1ManifestSpecNonRootVolumes[] | cdktf.IResolvable;
   /**
   * OSFamily is the node instance OS. Valid values: 'bottlerocket' and 'ubuntu'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#os_family DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#os_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#os_family DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#os_family}
   */
   readonly osFamily?: string;
   /**
   * PhysicalNetworkConnector is the physical network connector type to use for creating direct network interfaces (DNI). Valid values: 'SFP_PLUS' (default), 'QSFP' and 'RJ45'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#physical_network_connector DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#physical_network_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#physical_network_connector DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#physical_network_connector}
   */
   readonly physicalNetworkConnector?: string;
   /**
   * SSHKeyName is the name of the ssh key defined in the aws snow key pairs, to attach to the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#ssh_key_name DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#ssh_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#ssh_key_name DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest#ssh_key_name}
   */
   readonly sshKeyName?: string;
 }
@@ -3360,7 +3360,7 @@ export class DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1ManifestSpec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest}
 */
 export class DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -3376,7 +3376,7 @@ export class DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest ext
   * Generates CDKTF code for importing a DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3388,7 +3388,7 @@ export class DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest ext
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3399,8 +3399,8 @@ export class DataK8SAnywhereEksAmazonawsComSnowMachineConfigV1Alpha1Manifest ext
       terraformResourceType: 'k8s_anywhere_eks_amazonaws_com_snow_machine_config_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_vpn_server
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_vpn_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface SslVpnServerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_vpn_server#cipher SslVpnServer#cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_vpn_server#cipher SslVpnServer#cipher}
   */
   readonly cipher?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_vpn_server#client_ip_pool SslVpnServer#client_ip_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_vpn_server#client_ip_pool SslVpnServer#client_ip_pool}
   */
   readonly clientIpPool: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_vpn_server#compress SslVpnServer#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_vpn_server#compress SslVpnServer#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_vpn_server#id SslVpnServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_vpn_server#id SslVpnServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_vpn_server#local_subnet SslVpnServer#local_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_vpn_server#local_subnet SslVpnServer#local_subnet}
   */
   readonly localSubnet: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_vpn_server#name SslVpnServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_vpn_server#name SslVpnServer#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_vpn_server#port SslVpnServer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_vpn_server#port SslVpnServer#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_vpn_server#protocol SslVpnServer#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_vpn_server#protocol SslVpnServer#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_vpn_server#vpn_gateway_id SslVpnServer#vpn_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_vpn_server#vpn_gateway_id SslVpnServer#vpn_gateway_id}
   */
   readonly vpnGatewayId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_vpn_server alicloud_ssl_vpn_server}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_vpn_server alicloud_ssl_vpn_server}
 */
 export class SslVpnServer extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class SslVpnServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SslVpnServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SslVpnServer to import
-  * @param importFromId The id of the existing SslVpnServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_vpn_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SslVpnServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_vpn_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SslVpnServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class SslVpnServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_vpn_server alicloud_ssl_vpn_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_vpn_server alicloud_ssl_vpn_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class SslVpnServer extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ssl_vpn_server',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

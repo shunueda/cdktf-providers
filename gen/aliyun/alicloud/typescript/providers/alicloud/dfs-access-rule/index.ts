@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dfs_access_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dfs_access_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface DfsAccessRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dfs_access_rule#access_group_id DfsAccessRule#access_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dfs_access_rule#access_group_id DfsAccessRule#access_group_id}
   */
   readonly accessGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dfs_access_rule#description DfsAccessRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dfs_access_rule#description DfsAccessRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dfs_access_rule#id DfsAccessRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dfs_access_rule#id DfsAccessRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dfs_access_rule#network_segment DfsAccessRule#network_segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dfs_access_rule#network_segment DfsAccessRule#network_segment}
   */
   readonly networkSegment: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dfs_access_rule#priority DfsAccessRule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dfs_access_rule#priority DfsAccessRule#priority}
   */
   readonly priority: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dfs_access_rule#rw_access_type DfsAccessRule#rw_access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dfs_access_rule#rw_access_type DfsAccessRule#rw_access_type}
   */
   readonly rwAccessType: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dfs_access_rule#timeouts DfsAccessRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dfs_access_rule#timeouts DfsAccessRule#timeouts}
   */
   readonly timeouts?: DfsAccessRuleTimeouts;
 }
 export interface DfsAccessRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dfs_access_rule#create DfsAccessRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dfs_access_rule#create DfsAccessRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dfs_access_rule#delete DfsAccessRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dfs_access_rule#delete DfsAccessRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dfs_access_rule#update DfsAccessRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dfs_access_rule#update DfsAccessRule#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class DfsAccessRuleTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dfs_access_rule alicloud_dfs_access_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dfs_access_rule alicloud_dfs_access_rule}
 */
 export class DfsAccessRule extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class DfsAccessRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DfsAccessRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DfsAccessRule to import
-  * @param importFromId The id of the existing DfsAccessRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dfs_access_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DfsAccessRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dfs_access_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DfsAccessRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class DfsAccessRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dfs_access_rule alicloud_dfs_access_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dfs_access_rule alicloud_dfs_access_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class DfsAccessRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_dfs_access_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

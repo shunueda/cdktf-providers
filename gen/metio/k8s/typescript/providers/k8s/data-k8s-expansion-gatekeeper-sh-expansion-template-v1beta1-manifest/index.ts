@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1ManifestCon
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#metadata DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#metadata DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1ManifestMetadata;
   /**
   * ExpansionTemplateSpec defines the desired state of ExpansionTemplate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#spec DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#spec DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1ManifestMet
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#annotations DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#annotations DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#labels DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#labels DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#name DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#name DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -185,15 +185,15 @@ export class DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1ManifestMetadat
 }
 export interface DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1ManifestSpecApplyTo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#groups DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#groups DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#groups}
   */
   readonly groups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#kinds DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#kinds DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#kinds}
   */
   readonly kinds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#versions DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#versions DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#versions}
   */
   readonly versions?: string[];
 }
@@ -367,15 +367,15 @@ export class DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1ManifestSpecApp
 }
 export interface DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1ManifestSpecGeneratedGvk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#group DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#group DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#kind DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#kind DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#version DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#version DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#version}
   */
   readonly version?: string;
 }
@@ -529,25 +529,25 @@ export interface DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1ManifestSpe
   /**
   * ApplyTo lists the specific groups, versions and kinds of generator resources which will be expanded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#apply_to DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#apply_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#apply_to DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#apply_to}
   */
   readonly applyTo?: DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1ManifestSpecApplyTo[] | cdktf.IResolvable;
   /**
   * EnforcementAction specifies the enforcement action to be used for resources matching the ExpansionTemplate. Specifying an empty value will use the enforcement action specified by the Constraint in violation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#enforcement_action DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#enforcement_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#enforcement_action DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#enforcement_action}
   */
   readonly enforcementAction?: string;
   /**
   * GeneratedGVK specifies the GVK of the resources which the generator resource creates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#generated_gvk DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#generated_gvk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#generated_gvk DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#generated_gvk}
   */
   readonly generatedGvk?: DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1ManifestSpecGeneratedGvk;
   /**
   * TemplateSource specifies the source field on the generator resource to use as the base for expanded resource. For Pod-creating generators, this is usually spec.template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#template_source DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#template_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#template_source DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest#template_source}
   */
   readonly templateSource?: string;
 }
@@ -728,7 +728,7 @@ export class DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1ManifestSpecOut
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest k8s_expansion_gatekeeper_sh_expansion_template_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest k8s_expansion_gatekeeper_sh_expansion_template_v1beta1_manifest}
 */
 export class DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -744,7 +744,7 @@ export class DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest extend
   * Generates CDKTF code for importing a DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -756,7 +756,7 @@ export class DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest k8s_expansion_gatekeeper_sh_expansion_template_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/expansion_gatekeeper_sh_expansion_template_v1beta1_manifest k8s_expansion_gatekeeper_sh_expansion_template_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -767,8 +767,8 @@ export class DataK8SExpansionGatekeeperShExpansionTemplateV1Beta1Manifest extend
       terraformResourceType: 'k8s_expansion_gatekeeper_sh_expansion_template_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

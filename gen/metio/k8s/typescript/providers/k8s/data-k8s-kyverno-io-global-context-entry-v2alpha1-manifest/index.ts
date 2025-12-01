@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKyvernoIoGlobalContextEntryV2Alpha1ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#metadata DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#metadata DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SKyvernoIoGlobalContextEntryV2Alpha1ManifestMetadata;
   /**
   * Spec declares policy exception behaviors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#spec DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#spec DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#spec}
   */
   readonly spec: DataK8SKyvernoIoGlobalContextEntryV2Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SKyvernoIoGlobalContextEntryV2Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#annotations DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#annotations DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#labels DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#labels DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#name DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#name DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,13 +187,13 @@ export interface DataK8SKyvernoIoGlobalContextEntryV2Alpha1ManifestSpecApiCallDa
   /**
   * Key is a unique identifier for the data value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#key DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#key DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Value is the data value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#value DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#value DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -334,13 +334,13 @@ export interface DataK8SKyvernoIoGlobalContextEntryV2Alpha1ManifestSpecApiCallSe
   /**
   * Key is the header key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#key DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#key DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Value is the header value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#value DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#value DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -481,19 +481,19 @@ export interface DataK8SKyvernoIoGlobalContextEntryV2Alpha1ManifestSpecApiCallSe
   /**
   * CABundle is a PEM encoded CA bundle which will be used to validate the server certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#ca_bundle DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#ca_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#ca_bundle DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#ca_bundle}
   */
   readonly caBundle?: string;
   /**
   * Headers is a list of optional HTTP headers to be included in the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#headers DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#headers DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#headers}
   */
   readonly headers?: DataK8SKyvernoIoGlobalContextEntryV2Alpha1ManifestSpecApiCallServiceHeaders[] | cdktf.IResolvable;
   /**
   * URL is the JSON web service URL. A typical form is 'https://{service}.{namespace}:{port}/{path}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#url DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#url DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#url}
   */
   readonly url: string;
 }
@@ -644,37 +644,37 @@ export interface DataK8SKyvernoIoGlobalContextEntryV2Alpha1ManifestSpecApiCall {
   /**
   * The data object specifies the POST data sent to the server. Only applicable when the method field is set to POST.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#data DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#data DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#data}
   */
   readonly data?: DataK8SKyvernoIoGlobalContextEntryV2Alpha1ManifestSpecApiCallData[] | cdktf.IResolvable;
   /**
   * Method is the HTTP request type (GET or POST). Defaults to GET.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#method DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#method DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * RefreshInterval defines the interval in duration at which to poll the APICall. The duration is a sequence of decimal numbers, each with optional fraction and a unit suffix, such as '300ms', '1.5h' or '2h45m'. Valid time units are 'ns', 'us' (or 'µs'), 'ms', 's', 'm', 'h'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#refresh_interval DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#refresh_interval DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#refresh_interval}
   */
   readonly refreshInterval?: string;
   /**
   * RetryLimit defines the number of times the APICall should be retried in case of failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#retry_limit DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#retry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#retry_limit DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#retry_limit}
   */
   readonly retryLimit?: number;
   /**
   * Service is an API call to a JSON web service. This is used for non-Kubernetes API server calls. It's mutually exclusive with the URLPath field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#service DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#service DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#service}
   */
   readonly service?: DataK8SKyvernoIoGlobalContextEntryV2Alpha1ManifestSpecApiCallService;
   /**
   * URLPath is the URL path to be used in the HTTP GET or POST request to the Kubernetes API server (e.g. '/api/v1/namespaces' or '/apis/apps/v1/deployments'). The format required is the same format used by the 'kubectl get --raw' command. See https://kyverno.io/docs/writing-policies/external-data-sources/#variables-from-kubernetes-api-server-calls for details. It's mutually exclusive with the Service field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#url_path DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#url_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#url_path DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#url_path}
   */
   readonly urlPath?: string;
 }
@@ -915,25 +915,25 @@ export interface DataK8SKyvernoIoGlobalContextEntryV2Alpha1ManifestSpecKubernete
   /**
   * Group defines the group of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#group DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#group DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
   * Namespace defines the namespace of the resource. Leave empty for cluster scoped resources. If left empty for namespaced resources, all resources from all namespaces will be cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#namespace DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#namespace DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Resource defines the type of the resource. Requires the pluralized form of the resource kind in lowercase. (Ex., 'deployments')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#resource DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#resource DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#resource}
   */
   readonly resource: string;
   /**
   * Version defines the version of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#version DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#version DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#version}
   */
   readonly version: string;
 }
@@ -1110,13 +1110,13 @@ export interface DataK8SKyvernoIoGlobalContextEntryV2Alpha1ManifestSpec {
   /**
   * Stores results from an API call which will be cached. Mutually exclusive with KubernetesResource. This can be used to make calls to external (non-Kubernetes API server) services. It can also be used to make calls to the Kubernetes API server in such cases: 1. A POST is needed to create a resource. 2. Finer-grained control is needed. Example: To restrict the number of resources cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#api_call DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#api_call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#api_call DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#api_call}
   */
   readonly apiCall?: DataK8SKyvernoIoGlobalContextEntryV2Alpha1ManifestSpecApiCall;
   /**
   * Stores a list of Kubernetes resources which will be cached. Mutually exclusive with APICall.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#kubernetes_resource DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#kubernetes_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#kubernetes_resource DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest#kubernetes_resource}
   */
   readonly kubernetesResource?: DataK8SKyvernoIoGlobalContextEntryV2Alpha1ManifestSpecKubernetesResource;
 }
@@ -1239,7 +1239,7 @@ export class DataK8SKyvernoIoGlobalContextEntryV2Alpha1ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest k8s_kyverno_io_global_context_entry_v2alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest k8s_kyverno_io_global_context_entry_v2alpha1_manifest}
 */
 export class DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1255,7 +1255,7 @@ export class DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1267,7 +1267,7 @@ export class DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest k8s_kyverno_io_global_context_entry_v2alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_global_context_entry_v2alpha1_manifest k8s_kyverno_io_global_context_entry_v2alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1278,8 +1278,8 @@ export class DataK8SKyvernoIoGlobalContextEntryV2Alpha1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_kyverno_io_global_context_entry_v2alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

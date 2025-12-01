@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/kms_network_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/kms_network_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface KmsNetworkRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/kms_network_rule#description KmsNetworkRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/kms_network_rule#description KmsNetworkRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/kms_network_rule#id KmsNetworkRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/kms_network_rule#id KmsNetworkRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/kms_network_rule#network_rule_name KmsNetworkRule#network_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/kms_network_rule#network_rule_name KmsNetworkRule#network_rule_name}
   */
   readonly networkRuleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/kms_network_rule#source_private_ip KmsNetworkRule#source_private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/kms_network_rule#source_private_ip KmsNetworkRule#source_private_ip}
   */
   readonly sourcePrivateIp: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/kms_network_rule#timeouts KmsNetworkRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/kms_network_rule#timeouts KmsNetworkRule#timeouts}
   */
   readonly timeouts?: KmsNetworkRuleTimeouts;
 }
 export interface KmsNetworkRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/kms_network_rule#create KmsNetworkRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/kms_network_rule#create KmsNetworkRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/kms_network_rule#delete KmsNetworkRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/kms_network_rule#delete KmsNetworkRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/kms_network_rule#update KmsNetworkRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/kms_network_rule#update KmsNetworkRule#update}
   */
   readonly update?: string;
 }
@@ -195,7 +195,7 @@ export class KmsNetworkRuleTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/kms_network_rule alicloud_kms_network_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/kms_network_rule alicloud_kms_network_rule}
 */
 export class KmsNetworkRule extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class KmsNetworkRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KmsNetworkRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KmsNetworkRule to import
-  * @param importFromId The id of the existing KmsNetworkRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/kms_network_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KmsNetworkRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/kms_network_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KmsNetworkRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class KmsNetworkRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/kms_network_rule alicloud_kms_network_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/kms_network_rule alicloud_kms_network_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class KmsNetworkRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_kms_network_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

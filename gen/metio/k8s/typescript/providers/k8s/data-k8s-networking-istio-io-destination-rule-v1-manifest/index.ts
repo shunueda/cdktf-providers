@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestConfig extends
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#metadata DataK8SNetworkingIstioIoDestinationRuleV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#metadata DataK8SNetworkingIstioIoDestinationRuleV1Manifest#metadata}
   */
   readonly metadata: DataK8SNetworkingIstioIoDestinationRuleV1ManifestMetadata;
   /**
   * Configuration affecting load balancing, outlier detection, etc. See more details at: https://istio.io/docs/reference/config/networking/destination-rule.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#spec DataK8SNetworkingIstioIoDestinationRuleV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#spec DataK8SNetworkingIstioIoDestinationRuleV1Manifest#spec}
   */
   readonly spec?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#annotations DataK8SNetworkingIstioIoDestinationRuleV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#annotations DataK8SNetworkingIstioIoDestinationRuleV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#labels DataK8SNetworkingIstioIoDestinationRuleV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#labels DataK8SNetworkingIstioIoDestinationRuleV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#namespace DataK8SNetworkingIstioIoDestinationRuleV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#namespace DataK8SNetworkingIstioIoDestinationRuleV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,49 +219,49 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * Specify if http1.1 connection should be upgraded to http2 for the associated destination. Valid Options: DEFAULT, DO_NOT_UPGRADE, UPGRADE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#h2_upgrade_policy DataK8SNetworkingIstioIoDestinationRuleV1Manifest#h2_upgrade_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#h2_upgrade_policy DataK8SNetworkingIstioIoDestinationRuleV1Manifest#h2_upgrade_policy}
   */
   readonly h2UpgradePolicy?: string;
   /**
   * Maximum number of requests that will be queued while waiting for a ready connection pool connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http1_max_pending_requests DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http1_max_pending_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http1_max_pending_requests DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http1_max_pending_requests}
   */
   readonly http1MaxPendingRequests?: number;
   /**
   * Maximum number of active requests to a destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http2_max_requests DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http2_max_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http2_max_requests DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http2_max_requests}
   */
   readonly http2MaxRequests?: number;
   /**
   * The idle timeout for upstream connection pool connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#idle_timeout DataK8SNetworkingIstioIoDestinationRuleV1Manifest#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#idle_timeout DataK8SNetworkingIstioIoDestinationRuleV1Manifest#idle_timeout}
   */
   readonly idleTimeout?: string;
   /**
   * The maximum number of concurrent streams allowed for a peer on one HTTP/2 connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_concurrent_streams DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_concurrent_streams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_concurrent_streams DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_concurrent_streams}
   */
   readonly maxConcurrentStreams?: number;
   /**
   * Maximum number of requests per connection to a backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_requests_per_connection DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_requests_per_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_requests_per_connection DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_requests_per_connection}
   */
   readonly maxRequestsPerConnection?: number;
   /**
   * Maximum number of retries that can be outstanding to all hosts in a cluster at a given time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_retries DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_retries DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * If set to true, client protocol will be preserved while initiating connection to backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#use_client_protocol DataK8SNetworkingIstioIoDestinationRuleV1Manifest#use_client_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#use_client_protocol DataK8SNetworkingIstioIoDestinationRuleV1Manifest#use_client_protocol}
   */
   readonly useClientProtocol?: boolean | cdktf.IResolvable;
 }
@@ -560,19 +560,19 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * The time duration between keep-alive probes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#interval DataK8SNetworkingIstioIoDestinationRuleV1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#interval DataK8SNetworkingIstioIoDestinationRuleV1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Maximum number of keepalive probes to send without response before deciding the connection is dead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#probes DataK8SNetworkingIstioIoDestinationRuleV1Manifest#probes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#probes DataK8SNetworkingIstioIoDestinationRuleV1Manifest#probes}
   */
   readonly probes?: number;
   /**
   * The time duration a connection needs to be idle before keep-alive probes start being sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#time DataK8SNetworkingIstioIoDestinationRuleV1Manifest#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#time DataK8SNetworkingIstioIoDestinationRuleV1Manifest#time}
   */
   readonly time?: string;
 }
@@ -726,31 +726,31 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * TCP connection timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#connect_timeout DataK8SNetworkingIstioIoDestinationRuleV1Manifest#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#connect_timeout DataK8SNetworkingIstioIoDestinationRuleV1Manifest#connect_timeout}
   */
   readonly connectTimeout?: string;
   /**
   * The idle timeout for TCP connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#idle_timeout DataK8SNetworkingIstioIoDestinationRuleV1Manifest#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#idle_timeout DataK8SNetworkingIstioIoDestinationRuleV1Manifest#idle_timeout}
   */
   readonly idleTimeout?: string;
   /**
   * The maximum duration of a connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_connection_duration DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_connection_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_connection_duration DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_connection_duration}
   */
   readonly maxConnectionDuration?: string;
   /**
   * Maximum number of HTTP1 /TCP connections to a destination host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_connections DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_connections DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_connections}
   */
   readonly maxConnections?: number;
   /**
   * If set then set SO_KEEPALIVE on the socket to enable TCP Keepalives.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tcp_keepalive DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tcp_keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tcp_keepalive DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tcp_keepalive}
   */
   readonly tcpKeepalive?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyConnectionPoolTcpTcpKeepalive;
 }
@@ -962,13 +962,13 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * HTTP connection pool settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http}
   */
   readonly http?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyConnectionPoolHttp;
   /**
   * Settings common to both HTTP and TCP upstream connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tcp DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tcp DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tcp}
   */
   readonly tcp?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyConnectionPoolTcp;
 }
@@ -1093,19 +1093,19 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * Name of the cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#name}
   */
   readonly name: string;
   /**
   * Path to set for the cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#path DataK8SNetworkingIstioIoDestinationRuleV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#path DataK8SNetworkingIstioIoDestinationRuleV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Lifetime of the cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ttl DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ttl DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ttl}
   */
   readonly ttl?: string;
 }
@@ -1256,7 +1256,7 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * The table size for Maglev hashing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#table_size DataK8SNetworkingIstioIoDestinationRuleV1Manifest#table_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#table_size DataK8SNetworkingIstioIoDestinationRuleV1Manifest#table_size}
   */
   readonly tableSize?: number;
 }
@@ -1352,7 +1352,7 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * The minimum number of virtual nodes to use for the hash ring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#minimum_ring_size DataK8SNetworkingIstioIoDestinationRuleV1Manifest#minimum_ring_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#minimum_ring_size DataK8SNetworkingIstioIoDestinationRuleV1Manifest#minimum_ring_size}
   */
   readonly minimumRingSize?: number;
 }
@@ -1448,43 +1448,43 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * Hash based on HTTP cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http_cookie DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http_cookie DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http_cookie}
   */
   readonly httpCookie?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyLoadBalancerConsistentHashHttpCookie;
   /**
   * Hash based on a specific HTTP header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http_header_name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http_header_name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http_header_name}
   */
   readonly httpHeaderName?: string;
   /**
   * Hash based on a specific HTTP query parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http_query_parameter_name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http_query_parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http_query_parameter_name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http_query_parameter_name}
   */
   readonly httpQueryParameterName?: string;
   /**
   * The Maglev load balancer implements consistent hashing to backend hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#maglev DataK8SNetworkingIstioIoDestinationRuleV1Manifest#maglev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#maglev DataK8SNetworkingIstioIoDestinationRuleV1Manifest#maglev}
   */
   readonly maglev?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyLoadBalancerConsistentHashMaglev;
   /**
   * Deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#minimum_ring_size DataK8SNetworkingIstioIoDestinationRuleV1Manifest#minimum_ring_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#minimum_ring_size DataK8SNetworkingIstioIoDestinationRuleV1Manifest#minimum_ring_size}
   */
   readonly minimumRingSize?: number;
   /**
   * The ring/modulo hash load balancer implements consistent hashing to backend hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ring_hash DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ring_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ring_hash DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ring_hash}
   */
   readonly ringHash?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyLoadBalancerConsistentHashRingHash;
   /**
   * Hash based on the source IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#use_source_ip DataK8SNetworkingIstioIoDestinationRuleV1Manifest#use_source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#use_source_ip DataK8SNetworkingIstioIoDestinationRuleV1Manifest#use_source_ip}
   */
   readonly useSourceIp?: boolean | cdktf.IResolvable;
 }
@@ -1754,13 +1754,13 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * Originating locality, '/' separated, e.g.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#from DataK8SNetworkingIstioIoDestinationRuleV1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#from DataK8SNetworkingIstioIoDestinationRuleV1Manifest#from}
   */
   readonly from?: string;
   /**
   * Map of upstream localities to traffic distribution weights.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#to DataK8SNetworkingIstioIoDestinationRuleV1Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#to DataK8SNetworkingIstioIoDestinationRuleV1Manifest#to}
   */
   readonly to?: { [key: string]: string };
 }
@@ -1907,13 +1907,13 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * Originating region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#from DataK8SNetworkingIstioIoDestinationRuleV1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#from DataK8SNetworkingIstioIoDestinationRuleV1Manifest#from}
   */
   readonly from?: string;
   /**
   * Destination region the traffic will fail over to when endpoints in the 'from' region becomes unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#to DataK8SNetworkingIstioIoDestinationRuleV1Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#to DataK8SNetworkingIstioIoDestinationRuleV1Manifest#to}
   */
   readonly to?: string;
 }
@@ -2060,25 +2060,25 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * Optional: only one of distribute, failover or failoverPriority can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#distribute DataK8SNetworkingIstioIoDestinationRuleV1Manifest#distribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#distribute DataK8SNetworkingIstioIoDestinationRuleV1Manifest#distribute}
   */
   readonly distribute?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyLoadBalancerLocalityLbSettingDistribute[] | cdktf.IResolvable;
   /**
   * enable locality load balancing, this is DestinationRule-level and will override mesh wide settings in entirety.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#enabled DataK8SNetworkingIstioIoDestinationRuleV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#enabled DataK8SNetworkingIstioIoDestinationRuleV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Optional: only one of distribute, failover or failoverPriority can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#failover DataK8SNetworkingIstioIoDestinationRuleV1Manifest#failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#failover DataK8SNetworkingIstioIoDestinationRuleV1Manifest#failover}
   */
   readonly failover?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyLoadBalancerLocalityLbSettingFailover[] | cdktf.IResolvable;
   /**
   * failoverPriority is an ordered list of labels used to sort endpoints to do priority based load balancing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#failover_priority DataK8SNetworkingIstioIoDestinationRuleV1Manifest#failover_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#failover_priority DataK8SNetworkingIstioIoDestinationRuleV1Manifest#failover_priority}
   */
   readonly failoverPriority?: string[];
 }
@@ -2259,23 +2259,23 @@ export class DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTraffic
 }
 export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyLoadBalancer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consistent_hash DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consistent_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consistent_hash DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consistent_hash}
   */
   readonly consistentHash?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyLoadBalancerConsistentHash;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#locality_lb_setting DataK8SNetworkingIstioIoDestinationRuleV1Manifest#locality_lb_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#locality_lb_setting DataK8SNetworkingIstioIoDestinationRuleV1Manifest#locality_lb_setting}
   */
   readonly localityLbSetting?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyLoadBalancerLocalityLbSetting;
   /**
   *  Valid Options: LEAST_CONN, RANDOM, PASSTHROUGH, ROUND_ROBIN, LEAST_REQUEST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#simple DataK8SNetworkingIstioIoDestinationRuleV1Manifest#simple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#simple DataK8SNetworkingIstioIoDestinationRuleV1Manifest#simple}
   */
   readonly simple?: string;
   /**
   * Represents the warmup duration of Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#warmup_duration_secs DataK8SNetworkingIstioIoDestinationRuleV1Manifest#warmup_duration_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#warmup_duration_secs DataK8SNetworkingIstioIoDestinationRuleV1Manifest#warmup_duration_secs}
   */
   readonly warmupDurationSecs?: string;
 }
@@ -2458,53 +2458,53 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * Minimum ejection duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#base_ejection_time DataK8SNetworkingIstioIoDestinationRuleV1Manifest#base_ejection_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#base_ejection_time DataK8SNetworkingIstioIoDestinationRuleV1Manifest#base_ejection_time}
   */
   readonly baseEjectionTime?: string;
   /**
   * Number of 5xx errors before a host is ejected from the connection pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive5xx_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive5xx_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive5xx_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive5xx_errors}
   */
   readonly consecutive5XxErrors?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive_errors}
   */
   readonly consecutiveErrors?: number;
   /**
   * Number of gateway errors before a host is ejected from the connection pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive_gateway_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive_gateway_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive_gateway_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive_gateway_errors}
   */
   readonly consecutiveGatewayErrors?: number;
   /**
   * The number of consecutive locally originated failures before ejection occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive_local_origin_failures DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive_local_origin_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive_local_origin_failures DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive_local_origin_failures}
   */
   readonly consecutiveLocalOriginFailures?: number;
   /**
   * Time interval between ejection sweep analysis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#interval DataK8SNetworkingIstioIoDestinationRuleV1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#interval DataK8SNetworkingIstioIoDestinationRuleV1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Maximum % of hosts in the load balancing pool for the upstream service that can be ejected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_ejection_percent DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_ejection_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_ejection_percent DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_ejection_percent}
   */
   readonly maxEjectionPercent?: number;
   /**
   * Outlier detection will be enabled as long as the associated load balancing pool has at least min_health_percent hosts in healthy mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#min_health_percent DataK8SNetworkingIstioIoDestinationRuleV1Manifest#min_health_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#min_health_percent DataK8SNetworkingIstioIoDestinationRuleV1Manifest#min_health_percent}
   */
   readonly minHealthPercent?: number;
   /**
   * Determines whether to distinguish local origin failures from external errors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#split_external_local_origin_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#split_external_local_origin_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#split_external_local_origin_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#split_external_local_origin_errors}
   */
   readonly splitExternalLocalOriginErrors?: boolean | cdktf.IResolvable;
 }
@@ -2832,49 +2832,49 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * Specify if http1.1 connection should be upgraded to http2 for the associated destination. Valid Options: DEFAULT, DO_NOT_UPGRADE, UPGRADE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#h2_upgrade_policy DataK8SNetworkingIstioIoDestinationRuleV1Manifest#h2_upgrade_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#h2_upgrade_policy DataK8SNetworkingIstioIoDestinationRuleV1Manifest#h2_upgrade_policy}
   */
   readonly h2UpgradePolicy?: string;
   /**
   * Maximum number of requests that will be queued while waiting for a ready connection pool connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http1_max_pending_requests DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http1_max_pending_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http1_max_pending_requests DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http1_max_pending_requests}
   */
   readonly http1MaxPendingRequests?: number;
   /**
   * Maximum number of active requests to a destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http2_max_requests DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http2_max_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http2_max_requests DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http2_max_requests}
   */
   readonly http2MaxRequests?: number;
   /**
   * The idle timeout for upstream connection pool connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#idle_timeout DataK8SNetworkingIstioIoDestinationRuleV1Manifest#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#idle_timeout DataK8SNetworkingIstioIoDestinationRuleV1Manifest#idle_timeout}
   */
   readonly idleTimeout?: string;
   /**
   * The maximum number of concurrent streams allowed for a peer on one HTTP/2 connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_concurrent_streams DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_concurrent_streams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_concurrent_streams DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_concurrent_streams}
   */
   readonly maxConcurrentStreams?: number;
   /**
   * Maximum number of requests per connection to a backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_requests_per_connection DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_requests_per_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_requests_per_connection DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_requests_per_connection}
   */
   readonly maxRequestsPerConnection?: number;
   /**
   * Maximum number of retries that can be outstanding to all hosts in a cluster at a given time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_retries DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_retries DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * If set to true, client protocol will be preserved while initiating connection to backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#use_client_protocol DataK8SNetworkingIstioIoDestinationRuleV1Manifest#use_client_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#use_client_protocol DataK8SNetworkingIstioIoDestinationRuleV1Manifest#use_client_protocol}
   */
   readonly useClientProtocol?: boolean | cdktf.IResolvable;
 }
@@ -3173,19 +3173,19 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * The time duration between keep-alive probes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#interval DataK8SNetworkingIstioIoDestinationRuleV1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#interval DataK8SNetworkingIstioIoDestinationRuleV1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Maximum number of keepalive probes to send without response before deciding the connection is dead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#probes DataK8SNetworkingIstioIoDestinationRuleV1Manifest#probes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#probes DataK8SNetworkingIstioIoDestinationRuleV1Manifest#probes}
   */
   readonly probes?: number;
   /**
   * The time duration a connection needs to be idle before keep-alive probes start being sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#time DataK8SNetworkingIstioIoDestinationRuleV1Manifest#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#time DataK8SNetworkingIstioIoDestinationRuleV1Manifest#time}
   */
   readonly time?: string;
 }
@@ -3339,31 +3339,31 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * TCP connection timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#connect_timeout DataK8SNetworkingIstioIoDestinationRuleV1Manifest#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#connect_timeout DataK8SNetworkingIstioIoDestinationRuleV1Manifest#connect_timeout}
   */
   readonly connectTimeout?: string;
   /**
   * The idle timeout for TCP connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#idle_timeout DataK8SNetworkingIstioIoDestinationRuleV1Manifest#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#idle_timeout DataK8SNetworkingIstioIoDestinationRuleV1Manifest#idle_timeout}
   */
   readonly idleTimeout?: string;
   /**
   * The maximum duration of a connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_connection_duration DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_connection_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_connection_duration DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_connection_duration}
   */
   readonly maxConnectionDuration?: string;
   /**
   * Maximum number of HTTP1 /TCP connections to a destination host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_connections DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_connections DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_connections}
   */
   readonly maxConnections?: number;
   /**
   * If set then set SO_KEEPALIVE on the socket to enable TCP Keepalives.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tcp_keepalive DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tcp_keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tcp_keepalive DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tcp_keepalive}
   */
   readonly tcpKeepalive?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyPortLevelSettingsConnectionPoolTcpTcpKeepalive;
 }
@@ -3575,13 +3575,13 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * HTTP connection pool settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http}
   */
   readonly http?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyPortLevelSettingsConnectionPoolHttp;
   /**
   * Settings common to both HTTP and TCP upstream connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tcp DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tcp DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tcp}
   */
   readonly tcp?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyPortLevelSettingsConnectionPoolTcp;
 }
@@ -3706,19 +3706,19 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * Name of the cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#name}
   */
   readonly name: string;
   /**
   * Path to set for the cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#path DataK8SNetworkingIstioIoDestinationRuleV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#path DataK8SNetworkingIstioIoDestinationRuleV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Lifetime of the cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ttl DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ttl DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ttl}
   */
   readonly ttl?: string;
 }
@@ -3869,7 +3869,7 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * The table size for Maglev hashing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#table_size DataK8SNetworkingIstioIoDestinationRuleV1Manifest#table_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#table_size DataK8SNetworkingIstioIoDestinationRuleV1Manifest#table_size}
   */
   readonly tableSize?: number;
 }
@@ -3965,7 +3965,7 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * The minimum number of virtual nodes to use for the hash ring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#minimum_ring_size DataK8SNetworkingIstioIoDestinationRuleV1Manifest#minimum_ring_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#minimum_ring_size DataK8SNetworkingIstioIoDestinationRuleV1Manifest#minimum_ring_size}
   */
   readonly minimumRingSize?: number;
 }
@@ -4061,43 +4061,43 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * Hash based on HTTP cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http_cookie DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http_cookie DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http_cookie}
   */
   readonly httpCookie?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyPortLevelSettingsLoadBalancerConsistentHashHttpCookie;
   /**
   * Hash based on a specific HTTP header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http_header_name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http_header_name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http_header_name}
   */
   readonly httpHeaderName?: string;
   /**
   * Hash based on a specific HTTP query parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http_query_parameter_name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http_query_parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http_query_parameter_name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http_query_parameter_name}
   */
   readonly httpQueryParameterName?: string;
   /**
   * The Maglev load balancer implements consistent hashing to backend hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#maglev DataK8SNetworkingIstioIoDestinationRuleV1Manifest#maglev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#maglev DataK8SNetworkingIstioIoDestinationRuleV1Manifest#maglev}
   */
   readonly maglev?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyPortLevelSettingsLoadBalancerConsistentHashMaglev;
   /**
   * Deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#minimum_ring_size DataK8SNetworkingIstioIoDestinationRuleV1Manifest#minimum_ring_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#minimum_ring_size DataK8SNetworkingIstioIoDestinationRuleV1Manifest#minimum_ring_size}
   */
   readonly minimumRingSize?: number;
   /**
   * The ring/modulo hash load balancer implements consistent hashing to backend hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ring_hash DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ring_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ring_hash DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ring_hash}
   */
   readonly ringHash?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyPortLevelSettingsLoadBalancerConsistentHashRingHash;
   /**
   * Hash based on the source IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#use_source_ip DataK8SNetworkingIstioIoDestinationRuleV1Manifest#use_source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#use_source_ip DataK8SNetworkingIstioIoDestinationRuleV1Manifest#use_source_ip}
   */
   readonly useSourceIp?: boolean | cdktf.IResolvable;
 }
@@ -4367,13 +4367,13 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * Originating locality, '/' separated, e.g.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#from DataK8SNetworkingIstioIoDestinationRuleV1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#from DataK8SNetworkingIstioIoDestinationRuleV1Manifest#from}
   */
   readonly from?: string;
   /**
   * Map of upstream localities to traffic distribution weights.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#to DataK8SNetworkingIstioIoDestinationRuleV1Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#to DataK8SNetworkingIstioIoDestinationRuleV1Manifest#to}
   */
   readonly to?: { [key: string]: string };
 }
@@ -4520,13 +4520,13 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * Originating region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#from DataK8SNetworkingIstioIoDestinationRuleV1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#from DataK8SNetworkingIstioIoDestinationRuleV1Manifest#from}
   */
   readonly from?: string;
   /**
   * Destination region the traffic will fail over to when endpoints in the 'from' region becomes unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#to DataK8SNetworkingIstioIoDestinationRuleV1Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#to DataK8SNetworkingIstioIoDestinationRuleV1Manifest#to}
   */
   readonly to?: string;
 }
@@ -4673,25 +4673,25 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * Optional: only one of distribute, failover or failoverPriority can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#distribute DataK8SNetworkingIstioIoDestinationRuleV1Manifest#distribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#distribute DataK8SNetworkingIstioIoDestinationRuleV1Manifest#distribute}
   */
   readonly distribute?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyPortLevelSettingsLoadBalancerLocalityLbSettingDistribute[] | cdktf.IResolvable;
   /**
   * enable locality load balancing, this is DestinationRule-level and will override mesh wide settings in entirety.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#enabled DataK8SNetworkingIstioIoDestinationRuleV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#enabled DataK8SNetworkingIstioIoDestinationRuleV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Optional: only one of distribute, failover or failoverPriority can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#failover DataK8SNetworkingIstioIoDestinationRuleV1Manifest#failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#failover DataK8SNetworkingIstioIoDestinationRuleV1Manifest#failover}
   */
   readonly failover?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyPortLevelSettingsLoadBalancerLocalityLbSettingFailover[] | cdktf.IResolvable;
   /**
   * failoverPriority is an ordered list of labels used to sort endpoints to do priority based load balancing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#failover_priority DataK8SNetworkingIstioIoDestinationRuleV1Manifest#failover_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#failover_priority DataK8SNetworkingIstioIoDestinationRuleV1Manifest#failover_priority}
   */
   readonly failoverPriority?: string[];
 }
@@ -4872,23 +4872,23 @@ export class DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTraffic
 }
 export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyPortLevelSettingsLoadBalancer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consistent_hash DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consistent_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consistent_hash DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consistent_hash}
   */
   readonly consistentHash?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyPortLevelSettingsLoadBalancerConsistentHash;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#locality_lb_setting DataK8SNetworkingIstioIoDestinationRuleV1Manifest#locality_lb_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#locality_lb_setting DataK8SNetworkingIstioIoDestinationRuleV1Manifest#locality_lb_setting}
   */
   readonly localityLbSetting?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyPortLevelSettingsLoadBalancerLocalityLbSetting;
   /**
   *  Valid Options: LEAST_CONN, RANDOM, PASSTHROUGH, ROUND_ROBIN, LEAST_REQUEST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#simple DataK8SNetworkingIstioIoDestinationRuleV1Manifest#simple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#simple DataK8SNetworkingIstioIoDestinationRuleV1Manifest#simple}
   */
   readonly simple?: string;
   /**
   * Represents the warmup duration of Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#warmup_duration_secs DataK8SNetworkingIstioIoDestinationRuleV1Manifest#warmup_duration_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#warmup_duration_secs DataK8SNetworkingIstioIoDestinationRuleV1Manifest#warmup_duration_secs}
   */
   readonly warmupDurationSecs?: string;
 }
@@ -5071,53 +5071,53 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * Minimum ejection duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#base_ejection_time DataK8SNetworkingIstioIoDestinationRuleV1Manifest#base_ejection_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#base_ejection_time DataK8SNetworkingIstioIoDestinationRuleV1Manifest#base_ejection_time}
   */
   readonly baseEjectionTime?: string;
   /**
   * Number of 5xx errors before a host is ejected from the connection pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive5xx_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive5xx_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive5xx_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive5xx_errors}
   */
   readonly consecutive5XxErrors?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive_errors}
   */
   readonly consecutiveErrors?: number;
   /**
   * Number of gateway errors before a host is ejected from the connection pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive_gateway_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive_gateway_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive_gateway_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive_gateway_errors}
   */
   readonly consecutiveGatewayErrors?: number;
   /**
   * The number of consecutive locally originated failures before ejection occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive_local_origin_failures DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive_local_origin_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive_local_origin_failures DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive_local_origin_failures}
   */
   readonly consecutiveLocalOriginFailures?: number;
   /**
   * Time interval between ejection sweep analysis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#interval DataK8SNetworkingIstioIoDestinationRuleV1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#interval DataK8SNetworkingIstioIoDestinationRuleV1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Maximum % of hosts in the load balancing pool for the upstream service that can be ejected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_ejection_percent DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_ejection_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_ejection_percent DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_ejection_percent}
   */
   readonly maxEjectionPercent?: number;
   /**
   * Outlier detection will be enabled as long as the associated load balancing pool has at least min_health_percent hosts in healthy mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#min_health_percent DataK8SNetworkingIstioIoDestinationRuleV1Manifest#min_health_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#min_health_percent DataK8SNetworkingIstioIoDestinationRuleV1Manifest#min_health_percent}
   */
   readonly minHealthPercent?: number;
   /**
   * Determines whether to distinguish local origin failures from external errors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#split_external_local_origin_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#split_external_local_origin_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#split_external_local_origin_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#split_external_local_origin_errors}
   */
   readonly splitExternalLocalOriginErrors?: boolean | cdktf.IResolvable;
 }
@@ -5443,7 +5443,7 @@ export class DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTraffic
 }
 export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyPortLevelSettingsPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#number DataK8SNetworkingIstioIoDestinationRuleV1Manifest#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#number DataK8SNetworkingIstioIoDestinationRuleV1Manifest#number}
   */
   readonly number?: number;
 }
@@ -5539,55 +5539,55 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * OPTIONAL: The path to the file containing certificate authority certificates to use in verifying a presented server certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ca_certificates DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ca_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ca_certificates DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ca_certificates}
   */
   readonly caCertificates?: string;
   /**
   * OPTIONAL: The path to the file containing the certificate revocation list (CRL) to use in verifying a presented server certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ca_crl DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ca_crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ca_crl DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ca_crl}
   */
   readonly caCrl?: string;
   /**
   * REQUIRED if mode is 'MUTUAL'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#client_certificate DataK8SNetworkingIstioIoDestinationRuleV1Manifest#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#client_certificate DataK8SNetworkingIstioIoDestinationRuleV1Manifest#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * The name of the secret that holds the TLS certs for the client including the CA certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#credential_name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#credential_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#credential_name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#credential_name}
   */
   readonly credentialName?: string;
   /**
   * 'insecureSkipVerify' specifies whether the proxy should skip verifying the CA signature and SAN for the server certificate corresponding to the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#insecure_skip_verify DataK8SNetworkingIstioIoDestinationRuleV1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#insecure_skip_verify DataK8SNetworkingIstioIoDestinationRuleV1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether connections to this port should be secured using TLS. Valid Options: DISABLE, SIMPLE, MUTUAL, ISTIO_MUTUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#mode DataK8SNetworkingIstioIoDestinationRuleV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#mode DataK8SNetworkingIstioIoDestinationRuleV1Manifest#mode}
   */
   readonly mode?: string;
   /**
   * REQUIRED if mode is 'MUTUAL'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#private_key DataK8SNetworkingIstioIoDestinationRuleV1Manifest#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#private_key DataK8SNetworkingIstioIoDestinationRuleV1Manifest#private_key}
   */
   readonly privateKey?: string;
   /**
   * SNI string to present to the server during TLS handshake.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#sni DataK8SNetworkingIstioIoDestinationRuleV1Manifest#sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#sni DataK8SNetworkingIstioIoDestinationRuleV1Manifest#sni}
   */
   readonly sni?: string;
   /**
   * A list of alternate names to verify the subject identity in the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#subject_alt_names DataK8SNetworkingIstioIoDestinationRuleV1Manifest#subject_alt_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#subject_alt_names DataK8SNetworkingIstioIoDestinationRuleV1Manifest#subject_alt_names}
   */
   readonly subjectAltNames?: string[];
 }
@@ -5913,29 +5913,29 @@ export class DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTraffic
 }
 export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyPortLevelSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#connection_pool DataK8SNetworkingIstioIoDestinationRuleV1Manifest#connection_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#connection_pool DataK8SNetworkingIstioIoDestinationRuleV1Manifest#connection_pool}
   */
   readonly connectionPool?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyPortLevelSettingsConnectionPool;
   /**
   * Settings controlling the load balancer algorithms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#load_balancer DataK8SNetworkingIstioIoDestinationRuleV1Manifest#load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#load_balancer DataK8SNetworkingIstioIoDestinationRuleV1Manifest#load_balancer}
   */
   readonly loadBalancer?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyPortLevelSettingsLoadBalancer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#outlier_detection DataK8SNetworkingIstioIoDestinationRuleV1Manifest#outlier_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#outlier_detection DataK8SNetworkingIstioIoDestinationRuleV1Manifest#outlier_detection}
   */
   readonly outlierDetection?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyPortLevelSettingsOutlierDetection;
   /**
   * Specifies the number of a port on the destination service on which this policy is being applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#port DataK8SNetworkingIstioIoDestinationRuleV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#port DataK8SNetworkingIstioIoDestinationRuleV1Manifest#port}
   */
   readonly port?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyPortLevelSettingsPort;
   /**
   * TLS related settings for connections to the upstream service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tls DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tls DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tls}
   */
   readonly tls?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyPortLevelSettingsTls;
 }
@@ -6169,7 +6169,7 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * The PROXY protocol version to use. Valid Options: V1, V2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#version DataK8SNetworkingIstioIoDestinationRuleV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#version DataK8SNetworkingIstioIoDestinationRuleV1Manifest#version}
   */
   readonly version?: string;
 }
@@ -6265,55 +6265,55 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * OPTIONAL: The path to the file containing certificate authority certificates to use in verifying a presented server certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ca_certificates DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ca_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ca_certificates DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ca_certificates}
   */
   readonly caCertificates?: string;
   /**
   * OPTIONAL: The path to the file containing the certificate revocation list (CRL) to use in verifying a presented server certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ca_crl DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ca_crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ca_crl DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ca_crl}
   */
   readonly caCrl?: string;
   /**
   * REQUIRED if mode is 'MUTUAL'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#client_certificate DataK8SNetworkingIstioIoDestinationRuleV1Manifest#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#client_certificate DataK8SNetworkingIstioIoDestinationRuleV1Manifest#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * The name of the secret that holds the TLS certs for the client including the CA certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#credential_name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#credential_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#credential_name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#credential_name}
   */
   readonly credentialName?: string;
   /**
   * 'insecureSkipVerify' specifies whether the proxy should skip verifying the CA signature and SAN for the server certificate corresponding to the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#insecure_skip_verify DataK8SNetworkingIstioIoDestinationRuleV1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#insecure_skip_verify DataK8SNetworkingIstioIoDestinationRuleV1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether connections to this port should be secured using TLS. Valid Options: DISABLE, SIMPLE, MUTUAL, ISTIO_MUTUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#mode DataK8SNetworkingIstioIoDestinationRuleV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#mode DataK8SNetworkingIstioIoDestinationRuleV1Manifest#mode}
   */
   readonly mode?: string;
   /**
   * REQUIRED if mode is 'MUTUAL'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#private_key DataK8SNetworkingIstioIoDestinationRuleV1Manifest#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#private_key DataK8SNetworkingIstioIoDestinationRuleV1Manifest#private_key}
   */
   readonly privateKey?: string;
   /**
   * SNI string to present to the server during TLS handshake.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#sni DataK8SNetworkingIstioIoDestinationRuleV1Manifest#sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#sni DataK8SNetworkingIstioIoDestinationRuleV1Manifest#sni}
   */
   readonly sni?: string;
   /**
   * A list of alternate names to verify the subject identity in the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#subject_alt_names DataK8SNetworkingIstioIoDestinationRuleV1Manifest#subject_alt_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#subject_alt_names DataK8SNetworkingIstioIoDestinationRuleV1Manifest#subject_alt_names}
   */
   readonly subjectAltNames?: string[];
 }
@@ -6641,19 +6641,19 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTra
   /**
   * Specifies which protocol to use for tunneling the downstream connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#protocol DataK8SNetworkingIstioIoDestinationRuleV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#protocol DataK8SNetworkingIstioIoDestinationRuleV1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * Specifies a host to which the downstream connection is tunneled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#target_host DataK8SNetworkingIstioIoDestinationRuleV1Manifest#target_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#target_host DataK8SNetworkingIstioIoDestinationRuleV1Manifest#target_host}
   */
   readonly targetHost: string;
   /**
   * Specifies a port to which the downstream connection is tunneled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#target_port DataK8SNetworkingIstioIoDestinationRuleV1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#target_port DataK8SNetworkingIstioIoDestinationRuleV1Manifest#target_port}
   */
   readonly targetPort: number;
 }
@@ -6799,41 +6799,41 @@ export class DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTraffic
 }
 export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#connection_pool DataK8SNetworkingIstioIoDestinationRuleV1Manifest#connection_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#connection_pool DataK8SNetworkingIstioIoDestinationRuleV1Manifest#connection_pool}
   */
   readonly connectionPool?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyConnectionPool;
   /**
   * Settings controlling the load balancer algorithms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#load_balancer DataK8SNetworkingIstioIoDestinationRuleV1Manifest#load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#load_balancer DataK8SNetworkingIstioIoDestinationRuleV1Manifest#load_balancer}
   */
   readonly loadBalancer?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyLoadBalancer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#outlier_detection DataK8SNetworkingIstioIoDestinationRuleV1Manifest#outlier_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#outlier_detection DataK8SNetworkingIstioIoDestinationRuleV1Manifest#outlier_detection}
   */
   readonly outlierDetection?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyOutlierDetection;
   /**
   * Traffic policies specific to individual ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#port_level_settings DataK8SNetworkingIstioIoDestinationRuleV1Manifest#port_level_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#port_level_settings DataK8SNetworkingIstioIoDestinationRuleV1Manifest#port_level_settings}
   */
   readonly portLevelSettings?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyPortLevelSettings[] | cdktf.IResolvable;
   /**
   * The upstream PROXY protocol settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#proxy_protocol DataK8SNetworkingIstioIoDestinationRuleV1Manifest#proxy_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#proxy_protocol DataK8SNetworkingIstioIoDestinationRuleV1Manifest#proxy_protocol}
   */
   readonly proxyProtocol?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyProxyProtocol;
   /**
   * TLS related settings for connections to the upstream service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tls DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tls DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tls}
   */
   readonly tls?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyTls;
   /**
   * Configuration of tunneling TCP over other transport or application layers for the host configured in the DestinationRule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tunnel DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tunnel DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tunnel}
   */
   readonly tunnel?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicyTunnel;
 }
@@ -7103,19 +7103,19 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsets {
   /**
   * Labels apply a filter over the endpoints of a service in the service registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#labels DataK8SNetworkingIstioIoDestinationRuleV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#labels DataK8SNetworkingIstioIoDestinationRuleV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the subset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#name}
   */
   readonly name: string;
   /**
   * Traffic policies that apply to this subset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#traffic_policy DataK8SNetworkingIstioIoDestinationRuleV1Manifest#traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#traffic_policy DataK8SNetworkingIstioIoDestinationRuleV1Manifest#traffic_policy}
   */
   readonly trafficPolicy?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsetsTrafficPolicy;
 }
@@ -7288,49 +7288,49 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * Specify if http1.1 connection should be upgraded to http2 for the associated destination. Valid Options: DEFAULT, DO_NOT_UPGRADE, UPGRADE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#h2_upgrade_policy DataK8SNetworkingIstioIoDestinationRuleV1Manifest#h2_upgrade_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#h2_upgrade_policy DataK8SNetworkingIstioIoDestinationRuleV1Manifest#h2_upgrade_policy}
   */
   readonly h2UpgradePolicy?: string;
   /**
   * Maximum number of requests that will be queued while waiting for a ready connection pool connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http1_max_pending_requests DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http1_max_pending_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http1_max_pending_requests DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http1_max_pending_requests}
   */
   readonly http1MaxPendingRequests?: number;
   /**
   * Maximum number of active requests to a destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http2_max_requests DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http2_max_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http2_max_requests DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http2_max_requests}
   */
   readonly http2MaxRequests?: number;
   /**
   * The idle timeout for upstream connection pool connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#idle_timeout DataK8SNetworkingIstioIoDestinationRuleV1Manifest#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#idle_timeout DataK8SNetworkingIstioIoDestinationRuleV1Manifest#idle_timeout}
   */
   readonly idleTimeout?: string;
   /**
   * The maximum number of concurrent streams allowed for a peer on one HTTP/2 connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_concurrent_streams DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_concurrent_streams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_concurrent_streams DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_concurrent_streams}
   */
   readonly maxConcurrentStreams?: number;
   /**
   * Maximum number of requests per connection to a backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_requests_per_connection DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_requests_per_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_requests_per_connection DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_requests_per_connection}
   */
   readonly maxRequestsPerConnection?: number;
   /**
   * Maximum number of retries that can be outstanding to all hosts in a cluster at a given time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_retries DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_retries DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * If set to true, client protocol will be preserved while initiating connection to backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#use_client_protocol DataK8SNetworkingIstioIoDestinationRuleV1Manifest#use_client_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#use_client_protocol DataK8SNetworkingIstioIoDestinationRuleV1Manifest#use_client_protocol}
   */
   readonly useClientProtocol?: boolean | cdktf.IResolvable;
 }
@@ -7629,19 +7629,19 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * The time duration between keep-alive probes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#interval DataK8SNetworkingIstioIoDestinationRuleV1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#interval DataK8SNetworkingIstioIoDestinationRuleV1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Maximum number of keepalive probes to send without response before deciding the connection is dead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#probes DataK8SNetworkingIstioIoDestinationRuleV1Manifest#probes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#probes DataK8SNetworkingIstioIoDestinationRuleV1Manifest#probes}
   */
   readonly probes?: number;
   /**
   * The time duration a connection needs to be idle before keep-alive probes start being sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#time DataK8SNetworkingIstioIoDestinationRuleV1Manifest#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#time DataK8SNetworkingIstioIoDestinationRuleV1Manifest#time}
   */
   readonly time?: string;
 }
@@ -7795,31 +7795,31 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * TCP connection timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#connect_timeout DataK8SNetworkingIstioIoDestinationRuleV1Manifest#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#connect_timeout DataK8SNetworkingIstioIoDestinationRuleV1Manifest#connect_timeout}
   */
   readonly connectTimeout?: string;
   /**
   * The idle timeout for TCP connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#idle_timeout DataK8SNetworkingIstioIoDestinationRuleV1Manifest#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#idle_timeout DataK8SNetworkingIstioIoDestinationRuleV1Manifest#idle_timeout}
   */
   readonly idleTimeout?: string;
   /**
   * The maximum duration of a connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_connection_duration DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_connection_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_connection_duration DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_connection_duration}
   */
   readonly maxConnectionDuration?: string;
   /**
   * Maximum number of HTTP1 /TCP connections to a destination host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_connections DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_connections DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_connections}
   */
   readonly maxConnections?: number;
   /**
   * If set then set SO_KEEPALIVE on the socket to enable TCP Keepalives.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tcp_keepalive DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tcp_keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tcp_keepalive DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tcp_keepalive}
   */
   readonly tcpKeepalive?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyConnectionPoolTcpTcpKeepalive;
 }
@@ -8031,13 +8031,13 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * HTTP connection pool settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http}
   */
   readonly http?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyConnectionPoolHttp;
   /**
   * Settings common to both HTTP and TCP upstream connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tcp DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tcp DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tcp}
   */
   readonly tcp?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyConnectionPoolTcp;
 }
@@ -8162,19 +8162,19 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * Name of the cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#name}
   */
   readonly name: string;
   /**
   * Path to set for the cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#path DataK8SNetworkingIstioIoDestinationRuleV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#path DataK8SNetworkingIstioIoDestinationRuleV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Lifetime of the cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ttl DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ttl DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ttl}
   */
   readonly ttl?: string;
 }
@@ -8325,7 +8325,7 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * The table size for Maglev hashing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#table_size DataK8SNetworkingIstioIoDestinationRuleV1Manifest#table_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#table_size DataK8SNetworkingIstioIoDestinationRuleV1Manifest#table_size}
   */
   readonly tableSize?: number;
 }
@@ -8421,7 +8421,7 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * The minimum number of virtual nodes to use for the hash ring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#minimum_ring_size DataK8SNetworkingIstioIoDestinationRuleV1Manifest#minimum_ring_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#minimum_ring_size DataK8SNetworkingIstioIoDestinationRuleV1Manifest#minimum_ring_size}
   */
   readonly minimumRingSize?: number;
 }
@@ -8517,43 +8517,43 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * Hash based on HTTP cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http_cookie DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http_cookie DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http_cookie}
   */
   readonly httpCookie?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyLoadBalancerConsistentHashHttpCookie;
   /**
   * Hash based on a specific HTTP header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http_header_name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http_header_name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http_header_name}
   */
   readonly httpHeaderName?: string;
   /**
   * Hash based on a specific HTTP query parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http_query_parameter_name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http_query_parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http_query_parameter_name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http_query_parameter_name}
   */
   readonly httpQueryParameterName?: string;
   /**
   * The Maglev load balancer implements consistent hashing to backend hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#maglev DataK8SNetworkingIstioIoDestinationRuleV1Manifest#maglev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#maglev DataK8SNetworkingIstioIoDestinationRuleV1Manifest#maglev}
   */
   readonly maglev?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyLoadBalancerConsistentHashMaglev;
   /**
   * Deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#minimum_ring_size DataK8SNetworkingIstioIoDestinationRuleV1Manifest#minimum_ring_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#minimum_ring_size DataK8SNetworkingIstioIoDestinationRuleV1Manifest#minimum_ring_size}
   */
   readonly minimumRingSize?: number;
   /**
   * The ring/modulo hash load balancer implements consistent hashing to backend hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ring_hash DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ring_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ring_hash DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ring_hash}
   */
   readonly ringHash?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyLoadBalancerConsistentHashRingHash;
   /**
   * Hash based on the source IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#use_source_ip DataK8SNetworkingIstioIoDestinationRuleV1Manifest#use_source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#use_source_ip DataK8SNetworkingIstioIoDestinationRuleV1Manifest#use_source_ip}
   */
   readonly useSourceIp?: boolean | cdktf.IResolvable;
 }
@@ -8823,13 +8823,13 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * Originating locality, '/' separated, e.g.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#from DataK8SNetworkingIstioIoDestinationRuleV1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#from DataK8SNetworkingIstioIoDestinationRuleV1Manifest#from}
   */
   readonly from?: string;
   /**
   * Map of upstream localities to traffic distribution weights.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#to DataK8SNetworkingIstioIoDestinationRuleV1Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#to DataK8SNetworkingIstioIoDestinationRuleV1Manifest#to}
   */
   readonly to?: { [key: string]: string };
 }
@@ -8976,13 +8976,13 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * Originating region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#from DataK8SNetworkingIstioIoDestinationRuleV1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#from DataK8SNetworkingIstioIoDestinationRuleV1Manifest#from}
   */
   readonly from?: string;
   /**
   * Destination region the traffic will fail over to when endpoints in the 'from' region becomes unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#to DataK8SNetworkingIstioIoDestinationRuleV1Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#to DataK8SNetworkingIstioIoDestinationRuleV1Manifest#to}
   */
   readonly to?: string;
 }
@@ -9129,25 +9129,25 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * Optional: only one of distribute, failover or failoverPriority can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#distribute DataK8SNetworkingIstioIoDestinationRuleV1Manifest#distribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#distribute DataK8SNetworkingIstioIoDestinationRuleV1Manifest#distribute}
   */
   readonly distribute?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyLoadBalancerLocalityLbSettingDistribute[] | cdktf.IResolvable;
   /**
   * enable locality load balancing, this is DestinationRule-level and will override mesh wide settings in entirety.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#enabled DataK8SNetworkingIstioIoDestinationRuleV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#enabled DataK8SNetworkingIstioIoDestinationRuleV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Optional: only one of distribute, failover or failoverPriority can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#failover DataK8SNetworkingIstioIoDestinationRuleV1Manifest#failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#failover DataK8SNetworkingIstioIoDestinationRuleV1Manifest#failover}
   */
   readonly failover?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyLoadBalancerLocalityLbSettingFailover[] | cdktf.IResolvable;
   /**
   * failoverPriority is an ordered list of labels used to sort endpoints to do priority based load balancing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#failover_priority DataK8SNetworkingIstioIoDestinationRuleV1Manifest#failover_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#failover_priority DataK8SNetworkingIstioIoDestinationRuleV1Manifest#failover_priority}
   */
   readonly failoverPriority?: string[];
 }
@@ -9328,23 +9328,23 @@ export class DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyL
 }
 export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyLoadBalancer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consistent_hash DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consistent_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consistent_hash DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consistent_hash}
   */
   readonly consistentHash?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyLoadBalancerConsistentHash;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#locality_lb_setting DataK8SNetworkingIstioIoDestinationRuleV1Manifest#locality_lb_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#locality_lb_setting DataK8SNetworkingIstioIoDestinationRuleV1Manifest#locality_lb_setting}
   */
   readonly localityLbSetting?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyLoadBalancerLocalityLbSetting;
   /**
   *  Valid Options: LEAST_CONN, RANDOM, PASSTHROUGH, ROUND_ROBIN, LEAST_REQUEST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#simple DataK8SNetworkingIstioIoDestinationRuleV1Manifest#simple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#simple DataK8SNetworkingIstioIoDestinationRuleV1Manifest#simple}
   */
   readonly simple?: string;
   /**
   * Represents the warmup duration of Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#warmup_duration_secs DataK8SNetworkingIstioIoDestinationRuleV1Manifest#warmup_duration_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#warmup_duration_secs DataK8SNetworkingIstioIoDestinationRuleV1Manifest#warmup_duration_secs}
   */
   readonly warmupDurationSecs?: string;
 }
@@ -9527,53 +9527,53 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * Minimum ejection duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#base_ejection_time DataK8SNetworkingIstioIoDestinationRuleV1Manifest#base_ejection_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#base_ejection_time DataK8SNetworkingIstioIoDestinationRuleV1Manifest#base_ejection_time}
   */
   readonly baseEjectionTime?: string;
   /**
   * Number of 5xx errors before a host is ejected from the connection pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive5xx_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive5xx_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive5xx_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive5xx_errors}
   */
   readonly consecutive5XxErrors?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive_errors}
   */
   readonly consecutiveErrors?: number;
   /**
   * Number of gateway errors before a host is ejected from the connection pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive_gateway_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive_gateway_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive_gateway_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive_gateway_errors}
   */
   readonly consecutiveGatewayErrors?: number;
   /**
   * The number of consecutive locally originated failures before ejection occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive_local_origin_failures DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive_local_origin_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive_local_origin_failures DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive_local_origin_failures}
   */
   readonly consecutiveLocalOriginFailures?: number;
   /**
   * Time interval between ejection sweep analysis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#interval DataK8SNetworkingIstioIoDestinationRuleV1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#interval DataK8SNetworkingIstioIoDestinationRuleV1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Maximum % of hosts in the load balancing pool for the upstream service that can be ejected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_ejection_percent DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_ejection_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_ejection_percent DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_ejection_percent}
   */
   readonly maxEjectionPercent?: number;
   /**
   * Outlier detection will be enabled as long as the associated load balancing pool has at least min_health_percent hosts in healthy mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#min_health_percent DataK8SNetworkingIstioIoDestinationRuleV1Manifest#min_health_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#min_health_percent DataK8SNetworkingIstioIoDestinationRuleV1Manifest#min_health_percent}
   */
   readonly minHealthPercent?: number;
   /**
   * Determines whether to distinguish local origin failures from external errors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#split_external_local_origin_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#split_external_local_origin_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#split_external_local_origin_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#split_external_local_origin_errors}
   */
   readonly splitExternalLocalOriginErrors?: boolean | cdktf.IResolvable;
 }
@@ -9901,49 +9901,49 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * Specify if http1.1 connection should be upgraded to http2 for the associated destination. Valid Options: DEFAULT, DO_NOT_UPGRADE, UPGRADE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#h2_upgrade_policy DataK8SNetworkingIstioIoDestinationRuleV1Manifest#h2_upgrade_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#h2_upgrade_policy DataK8SNetworkingIstioIoDestinationRuleV1Manifest#h2_upgrade_policy}
   */
   readonly h2UpgradePolicy?: string;
   /**
   * Maximum number of requests that will be queued while waiting for a ready connection pool connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http1_max_pending_requests DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http1_max_pending_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http1_max_pending_requests DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http1_max_pending_requests}
   */
   readonly http1MaxPendingRequests?: number;
   /**
   * Maximum number of active requests to a destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http2_max_requests DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http2_max_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http2_max_requests DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http2_max_requests}
   */
   readonly http2MaxRequests?: number;
   /**
   * The idle timeout for upstream connection pool connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#idle_timeout DataK8SNetworkingIstioIoDestinationRuleV1Manifest#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#idle_timeout DataK8SNetworkingIstioIoDestinationRuleV1Manifest#idle_timeout}
   */
   readonly idleTimeout?: string;
   /**
   * The maximum number of concurrent streams allowed for a peer on one HTTP/2 connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_concurrent_streams DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_concurrent_streams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_concurrent_streams DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_concurrent_streams}
   */
   readonly maxConcurrentStreams?: number;
   /**
   * Maximum number of requests per connection to a backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_requests_per_connection DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_requests_per_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_requests_per_connection DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_requests_per_connection}
   */
   readonly maxRequestsPerConnection?: number;
   /**
   * Maximum number of retries that can be outstanding to all hosts in a cluster at a given time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_retries DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_retries DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * If set to true, client protocol will be preserved while initiating connection to backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#use_client_protocol DataK8SNetworkingIstioIoDestinationRuleV1Manifest#use_client_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#use_client_protocol DataK8SNetworkingIstioIoDestinationRuleV1Manifest#use_client_protocol}
   */
   readonly useClientProtocol?: boolean | cdktf.IResolvable;
 }
@@ -10242,19 +10242,19 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * The time duration between keep-alive probes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#interval DataK8SNetworkingIstioIoDestinationRuleV1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#interval DataK8SNetworkingIstioIoDestinationRuleV1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Maximum number of keepalive probes to send without response before deciding the connection is dead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#probes DataK8SNetworkingIstioIoDestinationRuleV1Manifest#probes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#probes DataK8SNetworkingIstioIoDestinationRuleV1Manifest#probes}
   */
   readonly probes?: number;
   /**
   * The time duration a connection needs to be idle before keep-alive probes start being sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#time DataK8SNetworkingIstioIoDestinationRuleV1Manifest#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#time DataK8SNetworkingIstioIoDestinationRuleV1Manifest#time}
   */
   readonly time?: string;
 }
@@ -10408,31 +10408,31 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * TCP connection timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#connect_timeout DataK8SNetworkingIstioIoDestinationRuleV1Manifest#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#connect_timeout DataK8SNetworkingIstioIoDestinationRuleV1Manifest#connect_timeout}
   */
   readonly connectTimeout?: string;
   /**
   * The idle timeout for TCP connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#idle_timeout DataK8SNetworkingIstioIoDestinationRuleV1Manifest#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#idle_timeout DataK8SNetworkingIstioIoDestinationRuleV1Manifest#idle_timeout}
   */
   readonly idleTimeout?: string;
   /**
   * The maximum duration of a connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_connection_duration DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_connection_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_connection_duration DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_connection_duration}
   */
   readonly maxConnectionDuration?: string;
   /**
   * Maximum number of HTTP1 /TCP connections to a destination host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_connections DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_connections DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_connections}
   */
   readonly maxConnections?: number;
   /**
   * If set then set SO_KEEPALIVE on the socket to enable TCP Keepalives.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tcp_keepalive DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tcp_keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tcp_keepalive DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tcp_keepalive}
   */
   readonly tcpKeepalive?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyPortLevelSettingsConnectionPoolTcpTcpKeepalive;
 }
@@ -10644,13 +10644,13 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * HTTP connection pool settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http}
   */
   readonly http?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyPortLevelSettingsConnectionPoolHttp;
   /**
   * Settings common to both HTTP and TCP upstream connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tcp DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tcp DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tcp}
   */
   readonly tcp?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyPortLevelSettingsConnectionPoolTcp;
 }
@@ -10775,19 +10775,19 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * Name of the cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#name}
   */
   readonly name: string;
   /**
   * Path to set for the cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#path DataK8SNetworkingIstioIoDestinationRuleV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#path DataK8SNetworkingIstioIoDestinationRuleV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Lifetime of the cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ttl DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ttl DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ttl}
   */
   readonly ttl?: string;
 }
@@ -10938,7 +10938,7 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * The table size for Maglev hashing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#table_size DataK8SNetworkingIstioIoDestinationRuleV1Manifest#table_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#table_size DataK8SNetworkingIstioIoDestinationRuleV1Manifest#table_size}
   */
   readonly tableSize?: number;
 }
@@ -11034,7 +11034,7 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * The minimum number of virtual nodes to use for the hash ring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#minimum_ring_size DataK8SNetworkingIstioIoDestinationRuleV1Manifest#minimum_ring_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#minimum_ring_size DataK8SNetworkingIstioIoDestinationRuleV1Manifest#minimum_ring_size}
   */
   readonly minimumRingSize?: number;
 }
@@ -11130,43 +11130,43 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * Hash based on HTTP cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http_cookie DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http_cookie DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http_cookie}
   */
   readonly httpCookie?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyPortLevelSettingsLoadBalancerConsistentHashHttpCookie;
   /**
   * Hash based on a specific HTTP header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http_header_name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http_header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http_header_name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http_header_name}
   */
   readonly httpHeaderName?: string;
   /**
   * Hash based on a specific HTTP query parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http_query_parameter_name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http_query_parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#http_query_parameter_name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#http_query_parameter_name}
   */
   readonly httpQueryParameterName?: string;
   /**
   * The Maglev load balancer implements consistent hashing to backend hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#maglev DataK8SNetworkingIstioIoDestinationRuleV1Manifest#maglev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#maglev DataK8SNetworkingIstioIoDestinationRuleV1Manifest#maglev}
   */
   readonly maglev?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyPortLevelSettingsLoadBalancerConsistentHashMaglev;
   /**
   * Deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#minimum_ring_size DataK8SNetworkingIstioIoDestinationRuleV1Manifest#minimum_ring_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#minimum_ring_size DataK8SNetworkingIstioIoDestinationRuleV1Manifest#minimum_ring_size}
   */
   readonly minimumRingSize?: number;
   /**
   * The ring/modulo hash load balancer implements consistent hashing to backend hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ring_hash DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ring_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ring_hash DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ring_hash}
   */
   readonly ringHash?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyPortLevelSettingsLoadBalancerConsistentHashRingHash;
   /**
   * Hash based on the source IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#use_source_ip DataK8SNetworkingIstioIoDestinationRuleV1Manifest#use_source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#use_source_ip DataK8SNetworkingIstioIoDestinationRuleV1Manifest#use_source_ip}
   */
   readonly useSourceIp?: boolean | cdktf.IResolvable;
 }
@@ -11436,13 +11436,13 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * Originating locality, '/' separated, e.g.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#from DataK8SNetworkingIstioIoDestinationRuleV1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#from DataK8SNetworkingIstioIoDestinationRuleV1Manifest#from}
   */
   readonly from?: string;
   /**
   * Map of upstream localities to traffic distribution weights.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#to DataK8SNetworkingIstioIoDestinationRuleV1Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#to DataK8SNetworkingIstioIoDestinationRuleV1Manifest#to}
   */
   readonly to?: { [key: string]: string };
 }
@@ -11589,13 +11589,13 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * Originating region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#from DataK8SNetworkingIstioIoDestinationRuleV1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#from DataK8SNetworkingIstioIoDestinationRuleV1Manifest#from}
   */
   readonly from?: string;
   /**
   * Destination region the traffic will fail over to when endpoints in the 'from' region becomes unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#to DataK8SNetworkingIstioIoDestinationRuleV1Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#to DataK8SNetworkingIstioIoDestinationRuleV1Manifest#to}
   */
   readonly to?: string;
 }
@@ -11742,25 +11742,25 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * Optional: only one of distribute, failover or failoverPriority can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#distribute DataK8SNetworkingIstioIoDestinationRuleV1Manifest#distribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#distribute DataK8SNetworkingIstioIoDestinationRuleV1Manifest#distribute}
   */
   readonly distribute?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyPortLevelSettingsLoadBalancerLocalityLbSettingDistribute[] | cdktf.IResolvable;
   /**
   * enable locality load balancing, this is DestinationRule-level and will override mesh wide settings in entirety.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#enabled DataK8SNetworkingIstioIoDestinationRuleV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#enabled DataK8SNetworkingIstioIoDestinationRuleV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Optional: only one of distribute, failover or failoverPriority can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#failover DataK8SNetworkingIstioIoDestinationRuleV1Manifest#failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#failover DataK8SNetworkingIstioIoDestinationRuleV1Manifest#failover}
   */
   readonly failover?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyPortLevelSettingsLoadBalancerLocalityLbSettingFailover[] | cdktf.IResolvable;
   /**
   * failoverPriority is an ordered list of labels used to sort endpoints to do priority based load balancing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#failover_priority DataK8SNetworkingIstioIoDestinationRuleV1Manifest#failover_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#failover_priority DataK8SNetworkingIstioIoDestinationRuleV1Manifest#failover_priority}
   */
   readonly failoverPriority?: string[];
 }
@@ -11941,23 +11941,23 @@ export class DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyP
 }
 export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyPortLevelSettingsLoadBalancer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consistent_hash DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consistent_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consistent_hash DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consistent_hash}
   */
   readonly consistentHash?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyPortLevelSettingsLoadBalancerConsistentHash;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#locality_lb_setting DataK8SNetworkingIstioIoDestinationRuleV1Manifest#locality_lb_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#locality_lb_setting DataK8SNetworkingIstioIoDestinationRuleV1Manifest#locality_lb_setting}
   */
   readonly localityLbSetting?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyPortLevelSettingsLoadBalancerLocalityLbSetting;
   /**
   *  Valid Options: LEAST_CONN, RANDOM, PASSTHROUGH, ROUND_ROBIN, LEAST_REQUEST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#simple DataK8SNetworkingIstioIoDestinationRuleV1Manifest#simple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#simple DataK8SNetworkingIstioIoDestinationRuleV1Manifest#simple}
   */
   readonly simple?: string;
   /**
   * Represents the warmup duration of Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#warmup_duration_secs DataK8SNetworkingIstioIoDestinationRuleV1Manifest#warmup_duration_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#warmup_duration_secs DataK8SNetworkingIstioIoDestinationRuleV1Manifest#warmup_duration_secs}
   */
   readonly warmupDurationSecs?: string;
 }
@@ -12140,53 +12140,53 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * Minimum ejection duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#base_ejection_time DataK8SNetworkingIstioIoDestinationRuleV1Manifest#base_ejection_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#base_ejection_time DataK8SNetworkingIstioIoDestinationRuleV1Manifest#base_ejection_time}
   */
   readonly baseEjectionTime?: string;
   /**
   * Number of 5xx errors before a host is ejected from the connection pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive5xx_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive5xx_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive5xx_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive5xx_errors}
   */
   readonly consecutive5XxErrors?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive_errors}
   */
   readonly consecutiveErrors?: number;
   /**
   * Number of gateway errors before a host is ejected from the connection pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive_gateway_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive_gateway_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive_gateway_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive_gateway_errors}
   */
   readonly consecutiveGatewayErrors?: number;
   /**
   * The number of consecutive locally originated failures before ejection occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive_local_origin_failures DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive_local_origin_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#consecutive_local_origin_failures DataK8SNetworkingIstioIoDestinationRuleV1Manifest#consecutive_local_origin_failures}
   */
   readonly consecutiveLocalOriginFailures?: number;
   /**
   * Time interval between ejection sweep analysis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#interval DataK8SNetworkingIstioIoDestinationRuleV1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#interval DataK8SNetworkingIstioIoDestinationRuleV1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Maximum % of hosts in the load balancing pool for the upstream service that can be ejected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_ejection_percent DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_ejection_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#max_ejection_percent DataK8SNetworkingIstioIoDestinationRuleV1Manifest#max_ejection_percent}
   */
   readonly maxEjectionPercent?: number;
   /**
   * Outlier detection will be enabled as long as the associated load balancing pool has at least min_health_percent hosts in healthy mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#min_health_percent DataK8SNetworkingIstioIoDestinationRuleV1Manifest#min_health_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#min_health_percent DataK8SNetworkingIstioIoDestinationRuleV1Manifest#min_health_percent}
   */
   readonly minHealthPercent?: number;
   /**
   * Determines whether to distinguish local origin failures from external errors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#split_external_local_origin_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#split_external_local_origin_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#split_external_local_origin_errors DataK8SNetworkingIstioIoDestinationRuleV1Manifest#split_external_local_origin_errors}
   */
   readonly splitExternalLocalOriginErrors?: boolean | cdktf.IResolvable;
 }
@@ -12512,7 +12512,7 @@ export class DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyP
 }
 export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyPortLevelSettingsPort {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#number DataK8SNetworkingIstioIoDestinationRuleV1Manifest#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#number DataK8SNetworkingIstioIoDestinationRuleV1Manifest#number}
   */
   readonly number?: number;
 }
@@ -12608,55 +12608,55 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * OPTIONAL: The path to the file containing certificate authority certificates to use in verifying a presented server certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ca_certificates DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ca_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ca_certificates DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ca_certificates}
   */
   readonly caCertificates?: string;
   /**
   * OPTIONAL: The path to the file containing the certificate revocation list (CRL) to use in verifying a presented server certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ca_crl DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ca_crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ca_crl DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ca_crl}
   */
   readonly caCrl?: string;
   /**
   * REQUIRED if mode is 'MUTUAL'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#client_certificate DataK8SNetworkingIstioIoDestinationRuleV1Manifest#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#client_certificate DataK8SNetworkingIstioIoDestinationRuleV1Manifest#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * The name of the secret that holds the TLS certs for the client including the CA certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#credential_name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#credential_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#credential_name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#credential_name}
   */
   readonly credentialName?: string;
   /**
   * 'insecureSkipVerify' specifies whether the proxy should skip verifying the CA signature and SAN for the server certificate corresponding to the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#insecure_skip_verify DataK8SNetworkingIstioIoDestinationRuleV1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#insecure_skip_verify DataK8SNetworkingIstioIoDestinationRuleV1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether connections to this port should be secured using TLS. Valid Options: DISABLE, SIMPLE, MUTUAL, ISTIO_MUTUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#mode DataK8SNetworkingIstioIoDestinationRuleV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#mode DataK8SNetworkingIstioIoDestinationRuleV1Manifest#mode}
   */
   readonly mode?: string;
   /**
   * REQUIRED if mode is 'MUTUAL'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#private_key DataK8SNetworkingIstioIoDestinationRuleV1Manifest#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#private_key DataK8SNetworkingIstioIoDestinationRuleV1Manifest#private_key}
   */
   readonly privateKey?: string;
   /**
   * SNI string to present to the server during TLS handshake.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#sni DataK8SNetworkingIstioIoDestinationRuleV1Manifest#sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#sni DataK8SNetworkingIstioIoDestinationRuleV1Manifest#sni}
   */
   readonly sni?: string;
   /**
   * A list of alternate names to verify the subject identity in the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#subject_alt_names DataK8SNetworkingIstioIoDestinationRuleV1Manifest#subject_alt_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#subject_alt_names DataK8SNetworkingIstioIoDestinationRuleV1Manifest#subject_alt_names}
   */
   readonly subjectAltNames?: string[];
 }
@@ -12982,29 +12982,29 @@ export class DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyP
 }
 export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyPortLevelSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#connection_pool DataK8SNetworkingIstioIoDestinationRuleV1Manifest#connection_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#connection_pool DataK8SNetworkingIstioIoDestinationRuleV1Manifest#connection_pool}
   */
   readonly connectionPool?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyPortLevelSettingsConnectionPool;
   /**
   * Settings controlling the load balancer algorithms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#load_balancer DataK8SNetworkingIstioIoDestinationRuleV1Manifest#load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#load_balancer DataK8SNetworkingIstioIoDestinationRuleV1Manifest#load_balancer}
   */
   readonly loadBalancer?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyPortLevelSettingsLoadBalancer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#outlier_detection DataK8SNetworkingIstioIoDestinationRuleV1Manifest#outlier_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#outlier_detection DataK8SNetworkingIstioIoDestinationRuleV1Manifest#outlier_detection}
   */
   readonly outlierDetection?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyPortLevelSettingsOutlierDetection;
   /**
   * Specifies the number of a port on the destination service on which this policy is being applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#port DataK8SNetworkingIstioIoDestinationRuleV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#port DataK8SNetworkingIstioIoDestinationRuleV1Manifest#port}
   */
   readonly port?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyPortLevelSettingsPort;
   /**
   * TLS related settings for connections to the upstream service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tls DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tls DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tls}
   */
   readonly tls?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyPortLevelSettingsTls;
 }
@@ -13238,7 +13238,7 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * The PROXY protocol version to use. Valid Options: V1, V2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#version DataK8SNetworkingIstioIoDestinationRuleV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#version DataK8SNetworkingIstioIoDestinationRuleV1Manifest#version}
   */
   readonly version?: string;
 }
@@ -13334,55 +13334,55 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * OPTIONAL: The path to the file containing certificate authority certificates to use in verifying a presented server certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ca_certificates DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ca_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ca_certificates DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ca_certificates}
   */
   readonly caCertificates?: string;
   /**
   * OPTIONAL: The path to the file containing the certificate revocation list (CRL) to use in verifying a presented server certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ca_crl DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ca_crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#ca_crl DataK8SNetworkingIstioIoDestinationRuleV1Manifest#ca_crl}
   */
   readonly caCrl?: string;
   /**
   * REQUIRED if mode is 'MUTUAL'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#client_certificate DataK8SNetworkingIstioIoDestinationRuleV1Manifest#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#client_certificate DataK8SNetworkingIstioIoDestinationRuleV1Manifest#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * The name of the secret that holds the TLS certs for the client including the CA certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#credential_name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#credential_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#credential_name DataK8SNetworkingIstioIoDestinationRuleV1Manifest#credential_name}
   */
   readonly credentialName?: string;
   /**
   * 'insecureSkipVerify' specifies whether the proxy should skip verifying the CA signature and SAN for the server certificate corresponding to the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#insecure_skip_verify DataK8SNetworkingIstioIoDestinationRuleV1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#insecure_skip_verify DataK8SNetworkingIstioIoDestinationRuleV1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether connections to this port should be secured using TLS. Valid Options: DISABLE, SIMPLE, MUTUAL, ISTIO_MUTUAL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#mode DataK8SNetworkingIstioIoDestinationRuleV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#mode DataK8SNetworkingIstioIoDestinationRuleV1Manifest#mode}
   */
   readonly mode?: string;
   /**
   * REQUIRED if mode is 'MUTUAL'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#private_key DataK8SNetworkingIstioIoDestinationRuleV1Manifest#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#private_key DataK8SNetworkingIstioIoDestinationRuleV1Manifest#private_key}
   */
   readonly privateKey?: string;
   /**
   * SNI string to present to the server during TLS handshake.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#sni DataK8SNetworkingIstioIoDestinationRuleV1Manifest#sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#sni DataK8SNetworkingIstioIoDestinationRuleV1Manifest#sni}
   */
   readonly sni?: string;
   /**
   * A list of alternate names to verify the subject identity in the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#subject_alt_names DataK8SNetworkingIstioIoDestinationRuleV1Manifest#subject_alt_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#subject_alt_names DataK8SNetworkingIstioIoDestinationRuleV1Manifest#subject_alt_names}
   */
   readonly subjectAltNames?: string[];
 }
@@ -13710,19 +13710,19 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPol
   /**
   * Specifies which protocol to use for tunneling the downstream connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#protocol DataK8SNetworkingIstioIoDestinationRuleV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#protocol DataK8SNetworkingIstioIoDestinationRuleV1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * Specifies a host to which the downstream connection is tunneled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#target_host DataK8SNetworkingIstioIoDestinationRuleV1Manifest#target_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#target_host DataK8SNetworkingIstioIoDestinationRuleV1Manifest#target_host}
   */
   readonly targetHost: string;
   /**
   * Specifies a port to which the downstream connection is tunneled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#target_port DataK8SNetworkingIstioIoDestinationRuleV1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#target_port DataK8SNetworkingIstioIoDestinationRuleV1Manifest#target_port}
   */
   readonly targetPort: number;
 }
@@ -13868,41 +13868,41 @@ export class DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyT
 }
 export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#connection_pool DataK8SNetworkingIstioIoDestinationRuleV1Manifest#connection_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#connection_pool DataK8SNetworkingIstioIoDestinationRuleV1Manifest#connection_pool}
   */
   readonly connectionPool?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyConnectionPool;
   /**
   * Settings controlling the load balancer algorithms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#load_balancer DataK8SNetworkingIstioIoDestinationRuleV1Manifest#load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#load_balancer DataK8SNetworkingIstioIoDestinationRuleV1Manifest#load_balancer}
   */
   readonly loadBalancer?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyLoadBalancer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#outlier_detection DataK8SNetworkingIstioIoDestinationRuleV1Manifest#outlier_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#outlier_detection DataK8SNetworkingIstioIoDestinationRuleV1Manifest#outlier_detection}
   */
   readonly outlierDetection?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyOutlierDetection;
   /**
   * Traffic policies specific to individual ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#port_level_settings DataK8SNetworkingIstioIoDestinationRuleV1Manifest#port_level_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#port_level_settings DataK8SNetworkingIstioIoDestinationRuleV1Manifest#port_level_settings}
   */
   readonly portLevelSettings?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyPortLevelSettings[] | cdktf.IResolvable;
   /**
   * The upstream PROXY protocol settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#proxy_protocol DataK8SNetworkingIstioIoDestinationRuleV1Manifest#proxy_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#proxy_protocol DataK8SNetworkingIstioIoDestinationRuleV1Manifest#proxy_protocol}
   */
   readonly proxyProtocol?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyProxyProtocol;
   /**
   * TLS related settings for connections to the upstream service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tls DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tls DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tls}
   */
   readonly tls?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyTls;
   /**
   * Configuration of tunneling TCP over other transport or application layers for the host configured in the DestinationRule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tunnel DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#tunnel DataK8SNetworkingIstioIoDestinationRuleV1Manifest#tunnel}
   */
   readonly tunnel?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicyTunnel;
 }
@@ -14172,7 +14172,7 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecWorkloadSe
   /**
   * One or more labels that indicate a specific set of pods/VMs on which a policy should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#match_labels DataK8SNetworkingIstioIoDestinationRuleV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#match_labels DataK8SNetworkingIstioIoDestinationRuleV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -14268,31 +14268,31 @@ export interface DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpec {
   /**
   * A list of namespaces to which this destination rule is exported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#export_to DataK8SNetworkingIstioIoDestinationRuleV1Manifest#export_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#export_to DataK8SNetworkingIstioIoDestinationRuleV1Manifest#export_to}
   */
   readonly exportTo?: string[];
   /**
   * The name of a service from the service registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#host DataK8SNetworkingIstioIoDestinationRuleV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#host DataK8SNetworkingIstioIoDestinationRuleV1Manifest#host}
   */
   readonly host: string;
   /**
   * One or more named sets that represent individual versions of a service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#subsets DataK8SNetworkingIstioIoDestinationRuleV1Manifest#subsets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#subsets DataK8SNetworkingIstioIoDestinationRuleV1Manifest#subsets}
   */
   readonly subsets?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecSubsets[] | cdktf.IResolvable;
   /**
   * Traffic policies to apply (load balancing policy, connection pool sizes, outlier detection).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#traffic_policy DataK8SNetworkingIstioIoDestinationRuleV1Manifest#traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#traffic_policy DataK8SNetworkingIstioIoDestinationRuleV1Manifest#traffic_policy}
   */
   readonly trafficPolicy?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecTrafficPolicy;
   /**
   * Criteria used to select the specific set of pods/VMs on which this 'DestinationRule' configuration should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#workload_selector DataK8SNetworkingIstioIoDestinationRuleV1Manifest#workload_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#workload_selector DataK8SNetworkingIstioIoDestinationRuleV1Manifest#workload_selector}
   */
   readonly workloadSelector?: DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecWorkloadSelector;
 }
@@ -14499,7 +14499,7 @@ export class DataK8SNetworkingIstioIoDestinationRuleV1ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest k8s_networking_istio_io_destination_rule_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest k8s_networking_istio_io_destination_rule_v1_manifest}
 */
 export class DataK8SNetworkingIstioIoDestinationRuleV1Manifest extends cdktf.TerraformDataSource {
 
@@ -14515,7 +14515,7 @@ export class DataK8SNetworkingIstioIoDestinationRuleV1Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SNetworkingIstioIoDestinationRuleV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SNetworkingIstioIoDestinationRuleV1Manifest to import
-  * @param importFromId The id of the existing DataK8SNetworkingIstioIoDestinationRuleV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SNetworkingIstioIoDestinationRuleV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SNetworkingIstioIoDestinationRuleV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -14527,7 +14527,7 @@ export class DataK8SNetworkingIstioIoDestinationRuleV1Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_istio_io_destination_rule_v1_manifest k8s_networking_istio_io_destination_rule_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_istio_io_destination_rule_v1_manifest k8s_networking_istio_io_destination_rule_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -14538,8 +14538,8 @@ export class DataK8SNetworkingIstioIoDestinationRuleV1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_networking_istio_io_destination_rule_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

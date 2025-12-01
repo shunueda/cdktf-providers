@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_load_balancer_zone_shifted_attachment
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nlb_load_balancer_zone_shifted_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface NlbLoadBalancerZoneShiftedAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_load_balancer_zone_shifted_attachment#id NlbLoadBalancerZoneShiftedAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nlb_load_balancer_zone_shifted_attachment#id NlbLoadBalancerZoneShiftedAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_load_balancer_zone_shifted_attachment#load_balancer_id NlbLoadBalancerZoneShiftedAttachment#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nlb_load_balancer_zone_shifted_attachment#load_balancer_id NlbLoadBalancerZoneShiftedAttachment#load_balancer_id}
   */
   readonly loadBalancerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_load_balancer_zone_shifted_attachment#vswitch_id NlbLoadBalancerZoneShiftedAttachment#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nlb_load_balancer_zone_shifted_attachment#vswitch_id NlbLoadBalancerZoneShiftedAttachment#vswitch_id}
   */
   readonly vswitchId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_load_balancer_zone_shifted_attachment#zone_id NlbLoadBalancerZoneShiftedAttachment#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nlb_load_balancer_zone_shifted_attachment#zone_id NlbLoadBalancerZoneShiftedAttachment#zone_id}
   */
   readonly zoneId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_load_balancer_zone_shifted_attachment#timeouts NlbLoadBalancerZoneShiftedAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nlb_load_balancer_zone_shifted_attachment#timeouts NlbLoadBalancerZoneShiftedAttachment#timeouts}
   */
   readonly timeouts?: NlbLoadBalancerZoneShiftedAttachmentTimeouts;
 }
 export interface NlbLoadBalancerZoneShiftedAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_load_balancer_zone_shifted_attachment#create NlbLoadBalancerZoneShiftedAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nlb_load_balancer_zone_shifted_attachment#create NlbLoadBalancerZoneShiftedAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_load_balancer_zone_shifted_attachment#delete NlbLoadBalancerZoneShiftedAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nlb_load_balancer_zone_shifted_attachment#delete NlbLoadBalancerZoneShiftedAttachment#delete}
   */
   readonly delete?: string;
 }
@@ -162,7 +162,7 @@ export class NlbLoadBalancerZoneShiftedAttachmentTimeoutsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_load_balancer_zone_shifted_attachment alicloud_nlb_load_balancer_zone_shifted_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nlb_load_balancer_zone_shifted_attachment alicloud_nlb_load_balancer_zone_shifted_attachment}
 */
 export class NlbLoadBalancerZoneShiftedAttachment extends cdktf.TerraformResource {
 
@@ -178,7 +178,7 @@ export class NlbLoadBalancerZoneShiftedAttachment extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a NlbLoadBalancerZoneShiftedAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NlbLoadBalancerZoneShiftedAttachment to import
-  * @param importFromId The id of the existing NlbLoadBalancerZoneShiftedAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_load_balancer_zone_shifted_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NlbLoadBalancerZoneShiftedAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nlb_load_balancer_zone_shifted_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NlbLoadBalancerZoneShiftedAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -190,7 +190,7 @@ export class NlbLoadBalancerZoneShiftedAttachment extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_load_balancer_zone_shifted_attachment alicloud_nlb_load_balancer_zone_shifted_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nlb_load_balancer_zone_shifted_attachment alicloud_nlb_load_balancer_zone_shifted_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,8 +201,8 @@ export class NlbLoadBalancerZoneShiftedAttachment extends cdktf.TerraformResourc
       terraformResourceType: 'alicloud_nlb_load_balancer_zone_shifted_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

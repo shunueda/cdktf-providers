@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SFluentdFluentIoFilterV1Alpha1ManifestConfig extends cdkt
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#metadata DataK8SFluentdFluentIoFilterV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#metadata DataK8SFluentdFluentIoFilterV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SFluentdFluentIoFilterV1Alpha1ManifestMetadata;
   /**
   * FilterSpec defines the desired state of Filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#spec DataK8SFluentdFluentIoFilterV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#spec DataK8SFluentdFluentIoFilterV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SFluentdFluentIoFilterV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#annotations DataK8SFluentdFluentIoFilterV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#annotations DataK8SFluentdFluentIoFilterV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#labels DataK8SFluentdFluentIoFilterV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#labels DataK8SFluentdFluentIoFilterV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#name DataK8SFluentdFluentIoFilterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#name DataK8SFluentdFluentIoFilterV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#namespace DataK8SFluentdFluentIoFilterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#namespace DataK8SFluentdFluentIoFilterV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export class DataK8SFluentdFluentIoFilterV1Alpha1ManifestMetadataOutputReference
 }
 export interface DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersCustomPlugin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#config DataK8SFluentdFluentIoFilterV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#config DataK8SFluentdFluentIoFilterV1Alpha1Manifest#config}
   */
   readonly config: string;
 }
@@ -308,11 +308,11 @@ export class DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersCustomPlugin
 }
 export interface DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersGrepAndExclude {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#pattern DataK8SFluentdFluentIoFilterV1Alpha1Manifest#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#pattern DataK8SFluentdFluentIoFilterV1Alpha1Manifest#pattern}
   */
   readonly pattern?: string;
 }
@@ -435,11 +435,11 @@ export class DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersGrepAndExclu
 }
 export interface DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersGrepAndRegexp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#pattern DataK8SFluentdFluentIoFilterV1Alpha1Manifest#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#pattern DataK8SFluentdFluentIoFilterV1Alpha1Manifest#pattern}
   */
   readonly pattern?: string;
 }
@@ -564,13 +564,13 @@ export interface DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersGrepAnd 
   /**
   * Exclude defines the parameters for the exclude plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#exclude DataK8SFluentdFluentIoFilterV1Alpha1Manifest#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#exclude DataK8SFluentdFluentIoFilterV1Alpha1Manifest#exclude}
   */
   readonly exclude?: DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersGrepAndExclude;
   /**
   * Regexp defines the parameters for the regexp plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#regexp DataK8SFluentdFluentIoFilterV1Alpha1Manifest#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#regexp DataK8SFluentdFluentIoFilterV1Alpha1Manifest#regexp}
   */
   readonly regexp?: DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersGrepAndRegexp;
 }
@@ -715,11 +715,11 @@ export class DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersGrepAndList 
 }
 export interface DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersGrepExclude {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#pattern DataK8SFluentdFluentIoFilterV1Alpha1Manifest#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#pattern DataK8SFluentdFluentIoFilterV1Alpha1Manifest#pattern}
   */
   readonly pattern?: string;
 }
@@ -864,11 +864,11 @@ export class DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersGrepExcludeL
 }
 export interface DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersGrepOrExclude {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#pattern DataK8SFluentdFluentIoFilterV1Alpha1Manifest#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#pattern DataK8SFluentdFluentIoFilterV1Alpha1Manifest#pattern}
   */
   readonly pattern?: string;
 }
@@ -991,11 +991,11 @@ export class DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersGrepOrExclud
 }
 export interface DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersGrepOrRegexp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#pattern DataK8SFluentdFluentIoFilterV1Alpha1Manifest#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#pattern DataK8SFluentdFluentIoFilterV1Alpha1Manifest#pattern}
   */
   readonly pattern?: string;
 }
@@ -1120,13 +1120,13 @@ export interface DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersGrepOr {
   /**
   * Exclude defines the parameters for the exclude plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#exclude DataK8SFluentdFluentIoFilterV1Alpha1Manifest#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#exclude DataK8SFluentdFluentIoFilterV1Alpha1Manifest#exclude}
   */
   readonly exclude?: DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersGrepOrExclude;
   /**
   * Regexp defines the parameters for the regexp plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#regexp DataK8SFluentdFluentIoFilterV1Alpha1Manifest#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#regexp DataK8SFluentdFluentIoFilterV1Alpha1Manifest#regexp}
   */
   readonly regexp?: DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersGrepOrRegexp;
 }
@@ -1271,11 +1271,11 @@ export class DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersGrepOrList e
 }
 export interface DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersGrepRegexp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#pattern DataK8SFluentdFluentIoFilterV1Alpha1Manifest#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#pattern DataK8SFluentdFluentIoFilterV1Alpha1Manifest#pattern}
   */
   readonly pattern?: string;
 }
@@ -1420,19 +1420,19 @@ export class DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersGrepRegexpLi
 }
 export interface DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersGrep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#and DataK8SFluentdFluentIoFilterV1Alpha1Manifest#and}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#and DataK8SFluentdFluentIoFilterV1Alpha1Manifest#and}
   */
   readonly and?: DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersGrepAnd[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#exclude DataK8SFluentdFluentIoFilterV1Alpha1Manifest#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#exclude DataK8SFluentdFluentIoFilterV1Alpha1Manifest#exclude}
   */
   readonly exclude?: DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersGrepExclude[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#or DataK8SFluentdFluentIoFilterV1Alpha1Manifest#or}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#or DataK8SFluentdFluentIoFilterV1Alpha1Manifest#or}
   */
   readonly or?: DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersGrepOr[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#regexp DataK8SFluentdFluentIoFilterV1Alpha1Manifest#regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#regexp DataK8SFluentdFluentIoFilterV1Alpha1Manifest#regexp}
   */
   readonly regexp?: DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersGrepRegexp[] | cdktf.IResolvable;
 }
@@ -1615,37 +1615,37 @@ export interface DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersParserPa
   /**
   * If true, keep time field in the record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#keep_time_key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#keep_time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#keep_time_key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#keep_time_key}
   */
   readonly keepTimeKey?: boolean | cdktf.IResolvable;
   /**
   * The name of this grok section.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#name DataK8SFluentdFluentIoFilterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#name DataK8SFluentdFluentIoFilterV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * The pattern of grok. Required parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#pattern DataK8SFluentdFluentIoFilterV1Alpha1Manifest#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#pattern DataK8SFluentdFluentIoFilterV1Alpha1Manifest#pattern}
   */
   readonly pattern?: string;
   /**
   * Process value using specified format. This is available only when time_type is string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_format DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_format DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_format}
   */
   readonly timeFormat?: string;
   /**
   * Specify time field for event time. If the event doesn't have this field, current time is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_key}
   */
   readonly timeKey?: string;
   /**
   * Use specified timezone. one can parse/format the time value in the specified timezone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_zone DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_zone DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_zone}
   */
   readonly timeZone?: string;
 }
@@ -1908,49 +1908,49 @@ export interface DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersParserPa
   /**
   * Path to the file that includes custom grok patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#custom_pattern_path DataK8SFluentdFluentIoFilterV1Alpha1Manifest#custom_pattern_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#custom_pattern_path DataK8SFluentdFluentIoFilterV1Alpha1Manifest#custom_pattern_path}
   */
   readonly customPatternPath?: string;
   /**
   * If true, use Fluent::Eventnow(current time) as a timestamp when time_key is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#estimate_current_event DataK8SFluentdFluentIoFilterV1Alpha1Manifest#estimate_current_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#estimate_current_event DataK8SFluentdFluentIoFilterV1Alpha1Manifest#estimate_current_event}
   */
   readonly estimateCurrentEvent?: boolean | cdktf.IResolvable;
   /**
   * Specifies the regular expression for matching logs. Regular expression also supports i and m suffix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#expression DataK8SFluentdFluentIoFilterV1Alpha1Manifest#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#expression DataK8SFluentdFluentIoFilterV1Alpha1Manifest#expression}
   */
   readonly expression?: string;
   /**
   * Grok Sections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#grok DataK8SFluentdFluentIoFilterV1Alpha1Manifest#grok}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#grok DataK8SFluentdFluentIoFilterV1Alpha1Manifest#grok}
   */
   readonly grok?: DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersParserParseGrok[] | cdktf.IResolvable;
   /**
   * The key has grok failure reason.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#grok_failure_key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#grok_failure_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#grok_failure_key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#grok_failure_key}
   */
   readonly grokFailureKey?: string;
   /**
   * The pattern of grok.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#grok_pattern DataK8SFluentdFluentIoFilterV1Alpha1Manifest#grok_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#grok_pattern DataK8SFluentdFluentIoFilterV1Alpha1Manifest#grok_pattern}
   */
   readonly grokPattern?: string;
   /**
   * Specify grok pattern series set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#grok_pattern_series DataK8SFluentdFluentIoFilterV1Alpha1Manifest#grok_pattern_series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#grok_pattern_series DataK8SFluentdFluentIoFilterV1Alpha1Manifest#grok_pattern_series}
   */
   readonly grokPatternSeries?: string;
   /**
   * The @id parameter specifies a unique name for the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#id DataK8SFluentdFluentIoFilterV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#id DataK8SFluentdFluentIoFilterV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1959,79 +1959,79 @@ export interface DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersParserPa
   /**
   * If true, keep time field in th record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#keep_time_key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#keep_time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#keep_time_key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#keep_time_key}
   */
   readonly keepTimeKey?: boolean | cdktf.IResolvable;
   /**
   * If true, uses local time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#localtime DataK8SFluentdFluentIoFilterV1Alpha1Manifest#localtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#localtime DataK8SFluentdFluentIoFilterV1Alpha1Manifest#localtime}
   */
   readonly localtime?: boolean | cdktf.IResolvable;
   /**
   * The @log_level parameter specifies the plugin-specific logging level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#log_level DataK8SFluentdFluentIoFilterV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#log_level DataK8SFluentdFluentIoFilterV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * The regexp to match beginning of multiline. This is only for 'multiline_grok'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#multi_line_start_regexp DataK8SFluentdFluentIoFilterV1Alpha1Manifest#multi_line_start_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#multi_line_start_regexp DataK8SFluentdFluentIoFilterV1Alpha1Manifest#multi_line_start_regexp}
   */
   readonly multiLineStartRegexp?: string;
   /**
   * Process value according to the specified format. This is available only when time_type is string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_format DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_format DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_format}
   */
   readonly timeFormat?: string;
   /**
   * Uses the specified time format as a fallback in the specified order. You can parse undetermined time format by using time_format_fallbacks. This options is enabled when time_type is mixed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_format_fallbacks DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_format_fallbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_format_fallbacks DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_format_fallbacks}
   */
   readonly timeFormatFallbacks?: string;
   /**
   * Specify time field for event time. If the event doesn't have this field, current time is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_key}
   */
   readonly timeKey?: string;
   /**
   * parses/formats value according to this type, default is string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_type DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_type DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_type}
   */
   readonly timeType?: string;
   /**
   * Specify timeout for parse processing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#timeout DataK8SFluentdFluentIoFilterV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#timeout DataK8SFluentdFluentIoFilterV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * Uses the specified timezone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#timezone DataK8SFluentdFluentIoFilterV1Alpha1Manifest#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#timezone DataK8SFluentdFluentIoFilterV1Alpha1Manifest#timezone}
   */
   readonly timezone?: string;
   /**
   * The @type parameter specifies the type of the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#type DataK8SFluentdFluentIoFilterV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#type DataK8SFluentdFluentIoFilterV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * Specify types for converting field into another, i.e: types user_id:integer,paid:bool,paid_usd_amount:float
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#types DataK8SFluentdFluentIoFilterV1Alpha1Manifest#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#types DataK8SFluentdFluentIoFilterV1Alpha1Manifest#types}
   */
   readonly types?: string;
   /**
   * If true, uses UTC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#utc DataK8SFluentdFluentIoFilterV1Alpha1Manifest#utc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#utc DataK8SFluentdFluentIoFilterV1Alpha1Manifest#utc}
   */
   readonly utc?: boolean | cdktf.IResolvable;
 }
@@ -2704,55 +2704,55 @@ export interface DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersParser {
   /**
   * Emits invalid record to @ERROR label. Invalid cases are: key does not exist;the format is not matched;an unexpected error. If you want to ignore these errors, set false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#emit_invalid_record_to_error DataK8SFluentdFluentIoFilterV1Alpha1Manifest#emit_invalid_record_to_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#emit_invalid_record_to_error DataK8SFluentdFluentIoFilterV1Alpha1Manifest#emit_invalid_record_to_error}
   */
   readonly emitInvalidRecordToError?: boolean | cdktf.IResolvable;
   /**
   * Stores the parsed values as a hash value in a field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#hash_value_field DataK8SFluentdFluentIoFilterV1Alpha1Manifest#hash_value_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#hash_value_field DataK8SFluentdFluentIoFilterV1Alpha1Manifest#hash_value_field}
   */
   readonly hashValueField?: string;
   /**
   * Stores the parsed values with the specified key name prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#inject_key_prefix DataK8SFluentdFluentIoFilterV1Alpha1Manifest#inject_key_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#inject_key_prefix DataK8SFluentdFluentIoFilterV1Alpha1Manifest#inject_key_prefix}
   */
   readonly injectKeyPrefix?: string;
   /**
   * Specifies the field name in the record to parse. Required parameter. i.e: If set keyName to log, {'key':'value','log':'{'time':1622473200,'user':1}'} => {'user':1}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#key_name DataK8SFluentdFluentIoFilterV1Alpha1Manifest#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#key_name DataK8SFluentdFluentIoFilterV1Alpha1Manifest#key_name}
   */
   readonly keyName: string;
   /**
   * Parse defines various parameters for the parse plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#parse DataK8SFluentdFluentIoFilterV1Alpha1Manifest#parse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#parse DataK8SFluentdFluentIoFilterV1Alpha1Manifest#parse}
   */
   readonly parse: DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersParserParse;
   /**
   * Removes key_name field when parsing is succeeded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#remove_key_name_field DataK8SFluentdFluentIoFilterV1Alpha1Manifest#remove_key_name_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#remove_key_name_field DataK8SFluentdFluentIoFilterV1Alpha1Manifest#remove_key_name_field}
   */
   readonly removeKeyNameField?: boolean | cdktf.IResolvable;
   /**
   * If true, invalid string is replaced with safe characters and re-parse it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#replace_invalid_sequence DataK8SFluentdFluentIoFilterV1Alpha1Manifest#replace_invalid_sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#replace_invalid_sequence DataK8SFluentdFluentIoFilterV1Alpha1Manifest#replace_invalid_sequence}
   */
   readonly replaceInvalidSequence?: boolean | cdktf.IResolvable;
   /**
   * Keeps the original key-value pair in the parsed result. Default is false. i.e: If set keyName to log, reverseData to true, {'key':'value','log':'{'user':1,'num':2}'} => {'key':'value','log':'{'user':1,'num':2}','user':1,'num':2}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#reserve_data DataK8SFluentdFluentIoFilterV1Alpha1Manifest#reserve_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#reserve_data DataK8SFluentdFluentIoFilterV1Alpha1Manifest#reserve_data}
   */
   readonly reserveData?: boolean | cdktf.IResolvable;
   /**
   * Keeps the original event time in the parsed result. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#reserve_time DataK8SFluentdFluentIoFilterV1Alpha1Manifest#reserve_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#reserve_time DataK8SFluentdFluentIoFilterV1Alpha1Manifest#reserve_time}
   */
   readonly reserveTime?: boolean | cdktf.IResolvable;
 }
@@ -3074,13 +3074,13 @@ export interface DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersRecordTr
   /**
   * New field can be defined as key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * The value must from Record properties. See https://docs.fluentd.org/filter/record_transformer#less-than-record-greater-than-directive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#value DataK8SFluentdFluentIoFilterV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#value DataK8SFluentdFluentIoFilterV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -3221,41 +3221,41 @@ export interface DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersRecordTr
   /**
   * Automatically casts the field types. Default is false. This option is effective only for field values comprised of a single placeholder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#auto_typecast DataK8SFluentdFluentIoFilterV1Alpha1Manifest#auto_typecast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#auto_typecast DataK8SFluentdFluentIoFilterV1Alpha1Manifest#auto_typecast}
   */
   readonly autoTypecast?: boolean | cdktf.IResolvable;
   /**
   * When set to true, the full Ruby syntax is enabled in the ${...} expression. The default value is false. i.e: jsonized_record ${record.to_json}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#enable_ruby DataK8SFluentdFluentIoFilterV1Alpha1Manifest#enable_ruby}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#enable_ruby DataK8SFluentdFluentIoFilterV1Alpha1Manifest#enable_ruby}
   */
   readonly enableRuby?: boolean | cdktf.IResolvable;
   /**
   * A list of keys to keep. Only relevant if renew_record is set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#keep_keys DataK8SFluentdFluentIoFilterV1Alpha1Manifest#keep_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#keep_keys DataK8SFluentdFluentIoFilterV1Alpha1Manifest#keep_keys}
   */
   readonly keepKeys?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#records DataK8SFluentdFluentIoFilterV1Alpha1Manifest#records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#records DataK8SFluentdFluentIoFilterV1Alpha1Manifest#records}
   */
   readonly records?: DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersRecordTransformerRecords[] | cdktf.IResolvable;
   /**
   * A list of keys to delete. Supports nested field via record_accessor syntax since v1.1.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#remove_keys DataK8SFluentdFluentIoFilterV1Alpha1Manifest#remove_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#remove_keys DataK8SFluentdFluentIoFilterV1Alpha1Manifest#remove_keys}
   */
   readonly removeKeys?: string;
   /**
   * By default, the record transformer filter mutates the incoming data. However, if this parameter is set to true, it modifies a new empty hash instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#renew_record DataK8SFluentdFluentIoFilterV1Alpha1Manifest#renew_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#renew_record DataK8SFluentdFluentIoFilterV1Alpha1Manifest#renew_record}
   */
   readonly renewRecord?: boolean | cdktf.IResolvable;
   /**
   * renew_time_key foo overwrites the time of events with a value of the record field foo if exists. The value of foo must be a Unix timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#renew_time_key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#renew_time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#renew_time_key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#renew_time_key}
   */
   readonly renewTimeKey?: string;
 }
@@ -3525,13 +3525,13 @@ export interface DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersStdoutFo
   /**
   * Delimiter for each field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#delimiter DataK8SFluentdFluentIoFilterV1Alpha1Manifest#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#delimiter DataK8SFluentdFluentIoFilterV1Alpha1Manifest#delimiter}
   */
   readonly delimiter?: string;
   /**
   * The @id parameter specifies a unique name for the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#id DataK8SFluentdFluentIoFilterV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#id DataK8SFluentdFluentIoFilterV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3540,67 +3540,67 @@ export interface DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersStdoutFo
   /**
   * If true, uses local time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#localtime DataK8SFluentdFluentIoFilterV1Alpha1Manifest#localtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#localtime DataK8SFluentdFluentIoFilterV1Alpha1Manifest#localtime}
   */
   readonly localtime?: boolean | cdktf.IResolvable;
   /**
   * The @log_level parameter specifies the plugin-specific logging level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#log_level DataK8SFluentdFluentIoFilterV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#log_level DataK8SFluentdFluentIoFilterV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * Specify newline characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#newline DataK8SFluentdFluentIoFilterV1Alpha1Manifest#newline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#newline DataK8SFluentdFluentIoFilterV1Alpha1Manifest#newline}
   */
   readonly newline?: string;
   /**
   * Output tag field if true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#output_tag DataK8SFluentdFluentIoFilterV1Alpha1Manifest#output_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#output_tag DataK8SFluentdFluentIoFilterV1Alpha1Manifest#output_tag}
   */
   readonly outputTag?: boolean | cdktf.IResolvable;
   /**
   * Output time field if true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#output_time DataK8SFluentdFluentIoFilterV1Alpha1Manifest#output_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#output_time DataK8SFluentdFluentIoFilterV1Alpha1Manifest#output_time}
   */
   readonly outputTime?: boolean | cdktf.IResolvable;
   /**
   * Process value according to the specified format. This is available only when time_type is string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_format DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_format DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_format}
   */
   readonly timeFormat?: string;
   /**
   * Uses the specified time format as a fallback in the specified order. You can parse undetermined time format by using time_format_fallbacks. This options is enabled when time_type is mixed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_format_fallbacks DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_format_fallbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_format_fallbacks DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_format_fallbacks}
   */
   readonly timeFormatFallbacks?: string;
   /**
   * parses/formats value according to this type, default is string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_type DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_type DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_type}
   */
   readonly timeType?: string;
   /**
   * Uses the specified timezone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#timezone DataK8SFluentdFluentIoFilterV1Alpha1Manifest#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#timezone DataK8SFluentdFluentIoFilterV1Alpha1Manifest#timezone}
   */
   readonly timezone?: string;
   /**
   * The @type parameter specifies the type of the plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#type DataK8SFluentdFluentIoFilterV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#type DataK8SFluentdFluentIoFilterV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * If true, uses UTC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#utc DataK8SFluentdFluentIoFilterV1Alpha1Manifest#utc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#utc DataK8SFluentdFluentIoFilterV1Alpha1Manifest#utc}
   */
   readonly utc?: boolean | cdktf.IResolvable;
 }
@@ -4044,37 +4044,37 @@ export interface DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersStdoutIn
   /**
   * If true, uses local time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#localtime DataK8SFluentdFluentIoFilterV1Alpha1Manifest#localtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#localtime DataK8SFluentdFluentIoFilterV1Alpha1Manifest#localtime}
   */
   readonly localtime?: boolean | cdktf.IResolvable;
   /**
   * Process value according to the specified format. This is available only when time_type is string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_format DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_format DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_format}
   */
   readonly timeFormat?: string;
   /**
   * Uses the specified time format as a fallback in the specified order. You can parse undetermined time format by using time_format_fallbacks. This options is enabled when time_type is mixed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_format_fallbacks DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_format_fallbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_format_fallbacks DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_format_fallbacks}
   */
   readonly timeFormatFallbacks?: string;
   /**
   * parses/formats value according to this type, default is string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_type DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_type DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_type}
   */
   readonly timeType?: string;
   /**
   * Uses the specified timezone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#timezone DataK8SFluentdFluentIoFilterV1Alpha1Manifest#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#timezone DataK8SFluentdFluentIoFilterV1Alpha1Manifest#timezone}
   */
   readonly timezone?: string;
   /**
   * If true, uses UTC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#utc DataK8SFluentdFluentIoFilterV1Alpha1Manifest#utc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#utc DataK8SFluentdFluentIoFilterV1Alpha1Manifest#utc}
   */
   readonly utc?: boolean | cdktf.IResolvable;
 }
@@ -4315,37 +4315,37 @@ export interface DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersStdoutIn
   /**
   * Hostname value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#hostname DataK8SFluentdFluentIoFilterV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#hostname DataK8SFluentdFluentIoFilterV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * The field name to inject hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#hostname_key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#hostname_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#hostname_key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#hostname_key}
   */
   readonly hostnameKey?: string;
   /**
   * Time section
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#inline DataK8SFluentdFluentIoFilterV1Alpha1Manifest#inline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#inline DataK8SFluentdFluentIoFilterV1Alpha1Manifest#inline}
   */
   readonly inline?: DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersStdoutInjectInline;
   /**
   * The field name to inject tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#tag_key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#tag_key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#tag_key}
   */
   readonly tagKey?: string;
   /**
   * The field name to inject time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#time_key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#time_key}
   */
   readonly timeKey?: string;
   /**
   * The field name to inject worker_id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#worker_id_key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#worker_id_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#worker_id_key DataK8SFluentdFluentIoFilterV1Alpha1Manifest#worker_id_key}
   */
   readonly workerIdKey?: string;
 }
@@ -4586,13 +4586,13 @@ export interface DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersStdout {
   /**
   * The format section
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#format DataK8SFluentdFluentIoFilterV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#format DataK8SFluentdFluentIoFilterV1Alpha1Manifest#format}
   */
   readonly format?: DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersStdoutFormat;
   /**
   * The inject section
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#inject DataK8SFluentdFluentIoFilterV1Alpha1Manifest#inject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#inject DataK8SFluentdFluentIoFilterV1Alpha1Manifest#inject}
   */
   readonly inject?: DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersStdoutInject;
 }
@@ -4717,43 +4717,43 @@ export interface DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFilters {
   /**
   * Custom plugin type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#custom_plugin DataK8SFluentdFluentIoFilterV1Alpha1Manifest#custom_plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#custom_plugin DataK8SFluentdFluentIoFilterV1Alpha1Manifest#custom_plugin}
   */
   readonly customPlugin?: DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersCustomPlugin;
   /**
   * The filter_grep filter plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#grep DataK8SFluentdFluentIoFilterV1Alpha1Manifest#grep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#grep DataK8SFluentdFluentIoFilterV1Alpha1Manifest#grep}
   */
   readonly grep?: DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersGrep;
   /**
   * The @log_level parameter specifies the plugin-specific logging level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#log_level DataK8SFluentdFluentIoFilterV1Alpha1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#log_level DataK8SFluentdFluentIoFilterV1Alpha1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * The filter_parser filter plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#parser DataK8SFluentdFluentIoFilterV1Alpha1Manifest#parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#parser DataK8SFluentdFluentIoFilterV1Alpha1Manifest#parser}
   */
   readonly parser?: DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersParser;
   /**
   * The filter_record_transformer filter plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#record_transformer DataK8SFluentdFluentIoFilterV1Alpha1Manifest#record_transformer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#record_transformer DataK8SFluentdFluentIoFilterV1Alpha1Manifest#record_transformer}
   */
   readonly recordTransformer?: DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersRecordTransformer;
   /**
   * The filter_stdout filter plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#stdout DataK8SFluentdFluentIoFilterV1Alpha1Manifest#stdout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#stdout DataK8SFluentdFluentIoFilterV1Alpha1Manifest#stdout}
   */
   readonly stdout?: DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersStdout;
   /**
   * Which tag to be matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#tag DataK8SFluentdFluentIoFilterV1Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#tag DataK8SFluentdFluentIoFilterV1Alpha1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -5043,7 +5043,7 @@ export class DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFiltersList extends
 }
 export interface DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#filters DataK8SFluentdFluentIoFilterV1Alpha1Manifest#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#filters DataK8SFluentdFluentIoFilterV1Alpha1Manifest#filters}
   */
   readonly filters?: DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecFilters[] | cdktf.IResolvable;
 }
@@ -5137,7 +5137,7 @@ export class DataK8SFluentdFluentIoFilterV1Alpha1ManifestSpecOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest k8s_fluentd_fluent_io_filter_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest k8s_fluentd_fluent_io_filter_v1alpha1_manifest}
 */
 export class DataK8SFluentdFluentIoFilterV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -5153,7 +5153,7 @@ export class DataK8SFluentdFluentIoFilterV1Alpha1Manifest extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataK8SFluentdFluentIoFilterV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SFluentdFluentIoFilterV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SFluentdFluentIoFilterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SFluentdFluentIoFilterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SFluentdFluentIoFilterV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5165,7 +5165,7 @@ export class DataK8SFluentdFluentIoFilterV1Alpha1Manifest extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest k8s_fluentd_fluent_io_filter_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentd_fluent_io_filter_v1alpha1_manifest k8s_fluentd_fluent_io_filter_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5176,8 +5176,8 @@ export class DataK8SFluentdFluentIoFilterV1Alpha1Manifest extends cdktf.Terrafor
       terraformResourceType: 'k8s_fluentd_fluent_io_filter_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

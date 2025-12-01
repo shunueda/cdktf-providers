@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_load_balancer_internet
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_load_balancer_internet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface SaeLoadBalancerInternetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_load_balancer_internet#app_id SaeLoadBalancerInternet#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_load_balancer_internet#app_id SaeLoadBalancerInternet#app_id}
   */
   readonly appId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_load_balancer_internet#id SaeLoadBalancerInternet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_load_balancer_internet#id SaeLoadBalancerInternet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_load_balancer_internet#internet_slb_id SaeLoadBalancerInternet#internet_slb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_load_balancer_internet#internet_slb_id SaeLoadBalancerInternet#internet_slb_id}
   */
   readonly internetSlbId?: string;
   /**
   * internet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_load_balancer_internet#internet SaeLoadBalancerInternet#internet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_load_balancer_internet#internet SaeLoadBalancerInternet#internet}
   */
   readonly internet: SaeLoadBalancerInternetInternet[] | cdktf.IResolvable;
 }
 export interface SaeLoadBalancerInternetInternet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_load_balancer_internet#https_cert_id SaeLoadBalancerInternet#https_cert_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_load_balancer_internet#https_cert_id SaeLoadBalancerInternet#https_cert_id}
   */
   readonly httpsCertId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_load_balancer_internet#port SaeLoadBalancerInternet#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_load_balancer_internet#port SaeLoadBalancerInternet#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_load_balancer_internet#protocol SaeLoadBalancerInternet#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_load_balancer_internet#protocol SaeLoadBalancerInternet#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_load_balancer_internet#target_port SaeLoadBalancerInternet#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_load_balancer_internet#target_port SaeLoadBalancerInternet#target_port}
   */
   readonly targetPort?: number;
 }
@@ -246,7 +246,7 @@ export class SaeLoadBalancerInternetInternetList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_load_balancer_internet alicloud_sae_load_balancer_internet}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_load_balancer_internet alicloud_sae_load_balancer_internet}
 */
 export class SaeLoadBalancerInternet extends cdktf.TerraformResource {
 
@@ -262,7 +262,7 @@ export class SaeLoadBalancerInternet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SaeLoadBalancerInternet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SaeLoadBalancerInternet to import
-  * @param importFromId The id of the existing SaeLoadBalancerInternet that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_load_balancer_internet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SaeLoadBalancerInternet that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_load_balancer_internet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SaeLoadBalancerInternet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -274,7 +274,7 @@ export class SaeLoadBalancerInternet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_load_balancer_internet alicloud_sae_load_balancer_internet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_load_balancer_internet alicloud_sae_load_balancer_internet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -285,8 +285,8 @@ export class SaeLoadBalancerInternet extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_sae_load_balancer_internet',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

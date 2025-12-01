@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SClusterXK8SIoClusterV1Alpha3ManifestConfig extends cdktf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#metadata DataK8SClusterXK8SIoClusterV1Alpha3Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#metadata DataK8SClusterXK8SIoClusterV1Alpha3Manifest#metadata}
   */
   readonly metadata: DataK8SClusterXK8SIoClusterV1Alpha3ManifestMetadata;
   /**
   * ClusterSpec defines the desired state of Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#spec DataK8SClusterXK8SIoClusterV1Alpha3Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#spec DataK8SClusterXK8SIoClusterV1Alpha3Manifest#spec}
   */
   readonly spec?: DataK8SClusterXK8SIoClusterV1Alpha3ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SClusterXK8SIoClusterV1Alpha3ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#annotations DataK8SClusterXK8SIoClusterV1Alpha3Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#annotations DataK8SClusterXK8SIoClusterV1Alpha3Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#labels DataK8SClusterXK8SIoClusterV1Alpha3Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#labels DataK8SClusterXK8SIoClusterV1Alpha3Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#name DataK8SClusterXK8SIoClusterV1Alpha3Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#name DataK8SClusterXK8SIoClusterV1Alpha3Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#namespace DataK8SClusterXK8SIoClusterV1Alpha3Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#namespace DataK8SClusterXK8SIoClusterV1Alpha3Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export class DataK8SClusterXK8SIoClusterV1Alpha3ManifestMetadataOutputReference 
 }
 export interface DataK8SClusterXK8SIoClusterV1Alpha3ManifestSpecClusterNetworkPods {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#cidr_blocks DataK8SClusterXK8SIoClusterV1Alpha3Manifest#cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#cidr_blocks DataK8SClusterXK8SIoClusterV1Alpha3Manifest#cidr_blocks}
   */
   readonly cidrBlocks: string[];
 }
@@ -308,7 +308,7 @@ export class DataK8SClusterXK8SIoClusterV1Alpha3ManifestSpecClusterNetworkPodsOu
 }
 export interface DataK8SClusterXK8SIoClusterV1Alpha3ManifestSpecClusterNetworkServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#cidr_blocks DataK8SClusterXK8SIoClusterV1Alpha3Manifest#cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#cidr_blocks DataK8SClusterXK8SIoClusterV1Alpha3Manifest#cidr_blocks}
   */
   readonly cidrBlocks: string[];
 }
@@ -401,25 +401,25 @@ export interface DataK8SClusterXK8SIoClusterV1Alpha3ManifestSpecClusterNetwork {
   /**
   * APIServerPort specifies the port the API Server should bind to. Defaults to 6443.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#api_server_port DataK8SClusterXK8SIoClusterV1Alpha3Manifest#api_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#api_server_port DataK8SClusterXK8SIoClusterV1Alpha3Manifest#api_server_port}
   */
   readonly apiServerPort?: number;
   /**
   * The network ranges from which Pod networks are allocated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#pods DataK8SClusterXK8SIoClusterV1Alpha3Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#pods DataK8SClusterXK8SIoClusterV1Alpha3Manifest#pods}
   */
   readonly pods?: DataK8SClusterXK8SIoClusterV1Alpha3ManifestSpecClusterNetworkPods;
   /**
   * Domain name for services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#service_domain DataK8SClusterXK8SIoClusterV1Alpha3Manifest#service_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#service_domain DataK8SClusterXK8SIoClusterV1Alpha3Manifest#service_domain}
   */
   readonly serviceDomain?: string;
   /**
   * The network ranges from which service VIPs are allocated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#services DataK8SClusterXK8SIoClusterV1Alpha3Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#services DataK8SClusterXK8SIoClusterV1Alpha3Manifest#services}
   */
   readonly services?: DataK8SClusterXK8SIoClusterV1Alpha3ManifestSpecClusterNetworkServices;
 }
@@ -602,13 +602,13 @@ export interface DataK8SClusterXK8SIoClusterV1Alpha3ManifestSpecControlPlaneEndp
   /**
   * The hostname on which the API server is serving.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#host DataK8SClusterXK8SIoClusterV1Alpha3Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#host DataK8SClusterXK8SIoClusterV1Alpha3Manifest#host}
   */
   readonly host: string;
   /**
   * The port on which the API server is serving.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#port DataK8SClusterXK8SIoClusterV1Alpha3Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#port DataK8SClusterXK8SIoClusterV1Alpha3Manifest#port}
   */
   readonly port: number;
 }
@@ -727,43 +727,43 @@ export interface DataK8SClusterXK8SIoClusterV1Alpha3ManifestSpecControlPlaneRef 
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#api_version DataK8SClusterXK8SIoClusterV1Alpha3Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#api_version DataK8SClusterXK8SIoClusterV1Alpha3Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#field_path DataK8SClusterXK8SIoClusterV1Alpha3Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#field_path DataK8SClusterXK8SIoClusterV1Alpha3Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#kind DataK8SClusterXK8SIoClusterV1Alpha3Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#kind DataK8SClusterXK8SIoClusterV1Alpha3Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#name DataK8SClusterXK8SIoClusterV1Alpha3Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#name DataK8SClusterXK8SIoClusterV1Alpha3Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#namespace DataK8SClusterXK8SIoClusterV1Alpha3Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#namespace DataK8SClusterXK8SIoClusterV1Alpha3Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#resource_version DataK8SClusterXK8SIoClusterV1Alpha3Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#resource_version DataK8SClusterXK8SIoClusterV1Alpha3Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#uid DataK8SClusterXK8SIoClusterV1Alpha3Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#uid DataK8SClusterXK8SIoClusterV1Alpha3Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -1033,43 +1033,43 @@ export interface DataK8SClusterXK8SIoClusterV1Alpha3ManifestSpecInfrastructureRe
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#api_version DataK8SClusterXK8SIoClusterV1Alpha3Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#api_version DataK8SClusterXK8SIoClusterV1Alpha3Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#field_path DataK8SClusterXK8SIoClusterV1Alpha3Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#field_path DataK8SClusterXK8SIoClusterV1Alpha3Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#kind DataK8SClusterXK8SIoClusterV1Alpha3Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#kind DataK8SClusterXK8SIoClusterV1Alpha3Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#name DataK8SClusterXK8SIoClusterV1Alpha3Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#name DataK8SClusterXK8SIoClusterV1Alpha3Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#namespace DataK8SClusterXK8SIoClusterV1Alpha3Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#namespace DataK8SClusterXK8SIoClusterV1Alpha3Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#resource_version DataK8SClusterXK8SIoClusterV1Alpha3Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#resource_version DataK8SClusterXK8SIoClusterV1Alpha3Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#uid DataK8SClusterXK8SIoClusterV1Alpha3Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#uid DataK8SClusterXK8SIoClusterV1Alpha3Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -1339,31 +1339,31 @@ export interface DataK8SClusterXK8SIoClusterV1Alpha3ManifestSpec {
   /**
   * Cluster network configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#cluster_network DataK8SClusterXK8SIoClusterV1Alpha3Manifest#cluster_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#cluster_network DataK8SClusterXK8SIoClusterV1Alpha3Manifest#cluster_network}
   */
   readonly clusterNetwork?: DataK8SClusterXK8SIoClusterV1Alpha3ManifestSpecClusterNetwork;
   /**
   * ControlPlaneEndpoint represents the endpoint used to communicate with the control plane.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#control_plane_endpoint DataK8SClusterXK8SIoClusterV1Alpha3Manifest#control_plane_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#control_plane_endpoint DataK8SClusterXK8SIoClusterV1Alpha3Manifest#control_plane_endpoint}
   */
   readonly controlPlaneEndpoint?: DataK8SClusterXK8SIoClusterV1Alpha3ManifestSpecControlPlaneEndpoint;
   /**
   * ControlPlaneRef is an optional reference to a provider-specific resource that holds the details for provisioning the Control Plane for a Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#control_plane_ref DataK8SClusterXK8SIoClusterV1Alpha3Manifest#control_plane_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#control_plane_ref DataK8SClusterXK8SIoClusterV1Alpha3Manifest#control_plane_ref}
   */
   readonly controlPlaneRef?: DataK8SClusterXK8SIoClusterV1Alpha3ManifestSpecControlPlaneRef;
   /**
   * InfrastructureRef is a reference to a provider-specific resource that holds the details for provisioning infrastructure for a cluster in said provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#infrastructure_ref DataK8SClusterXK8SIoClusterV1Alpha3Manifest#infrastructure_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#infrastructure_ref DataK8SClusterXK8SIoClusterV1Alpha3Manifest#infrastructure_ref}
   */
   readonly infrastructureRef?: DataK8SClusterXK8SIoClusterV1Alpha3ManifestSpecInfrastructureRef;
   /**
   * Paused can be used to prevent controllers from processing the Cluster and all its associated objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#paused DataK8SClusterXK8SIoClusterV1Alpha3Manifest#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#paused DataK8SClusterXK8SIoClusterV1Alpha3Manifest#paused}
   */
   readonly paused?: boolean | cdktf.IResolvable;
 }
@@ -1573,7 +1573,7 @@ export class DataK8SClusterXK8SIoClusterV1Alpha3ManifestSpecOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest k8s_cluster_x_k8s_io_cluster_v1alpha3_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest k8s_cluster_x_k8s_io_cluster_v1alpha3_manifest}
 */
 export class DataK8SClusterXK8SIoClusterV1Alpha3Manifest extends cdktf.TerraformDataSource {
 
@@ -1589,7 +1589,7 @@ export class DataK8SClusterXK8SIoClusterV1Alpha3Manifest extends cdktf.Terraform
   * Generates CDKTF code for importing a DataK8SClusterXK8SIoClusterV1Alpha3Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SClusterXK8SIoClusterV1Alpha3Manifest to import
-  * @param importFromId The id of the existing DataK8SClusterXK8SIoClusterV1Alpha3Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SClusterXK8SIoClusterV1Alpha3Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SClusterXK8SIoClusterV1Alpha3Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1601,7 +1601,7 @@ export class DataK8SClusterXK8SIoClusterV1Alpha3Manifest extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest k8s_cluster_x_k8s_io_cluster_v1alpha3_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_cluster_v1alpha3_manifest k8s_cluster_x_k8s_io_cluster_v1alpha3_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1612,8 +1612,8 @@ export class DataK8SClusterXK8SIoClusterV1Alpha3Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_cluster_x_k8s_io_cluster_v1alpha3_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,215 @@ import * as cdktf from 'cdktf';
 
 export interface VpcConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc#cidr_block Vpc#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc#cidr_block Vpc#cidr_block}
   */
   readonly cidrBlock?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc#description Vpc#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc#description Vpc#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc#dry_run Vpc#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc#dry_run Vpc#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc#enable_ipv6 Vpc#enable_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc#enable_ipv6 Vpc#enable_ipv6}
   */
   readonly enableIpv6?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc#id Vpc#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc#id Vpc#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc#name Vpc#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc#name Vpc#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc#resource_group_id Vpc#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc#resource_group_id Vpc#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc#secondary_cidr_blocks Vpc#secondary_cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc#secondary_cidr_blocks Vpc#secondary_cidr_blocks}
   */
   readonly secondaryCidrBlocks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc#tags Vpc#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc#tags Vpc#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc#user_cidrs Vpc#user_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc#user_cidrs Vpc#user_cidrs}
   */
   readonly userCidrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc#vpc_name Vpc#vpc_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc#vpc_name Vpc#vpc_name}
   */
   readonly vpcName?: string;
   /**
+  * ipv6_cidr_blocks block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc#ipv6_cidr_blocks Vpc#ipv6_cidr_blocks}
+  */
+  readonly ipv6CidrBlocks?: VpcIpv6CidrBlocks[] | cdktf.IResolvable;
+  /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc#timeouts Vpc#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc#timeouts Vpc#timeouts}
   */
   readonly timeouts?: VpcTimeouts;
 }
+export interface VpcIpv6CidrBlocks {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc#ipv6_cidr_block Vpc#ipv6_cidr_block}
+  */
+  readonly ipv6CidrBlock: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc#ipv6_isp Vpc#ipv6_isp}
+  */
+  readonly ipv6Isp: string;
+}
+
+export function vpcIpv6CidrBlocksToTerraform(struct?: VpcIpv6CidrBlocks | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    ipv6_cidr_block: cdktf.stringToTerraform(struct!.ipv6CidrBlock),
+    ipv6_isp: cdktf.stringToTerraform(struct!.ipv6Isp),
+  }
+}
+
+
+export function vpcIpv6CidrBlocksToHclTerraform(struct?: VpcIpv6CidrBlocks | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    ipv6_cidr_block: {
+      value: cdktf.stringToHclTerraform(struct!.ipv6CidrBlock),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ipv6_isp: {
+      value: cdktf.stringToHclTerraform(struct!.ipv6Isp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VpcIpv6CidrBlocksOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): VpcIpv6CidrBlocks | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._ipv6CidrBlock !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6CidrBlock = this._ipv6CidrBlock;
+    }
+    if (this._ipv6Isp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6Isp = this._ipv6Isp;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VpcIpv6CidrBlocks | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._ipv6CidrBlock = undefined;
+      this._ipv6Isp = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._ipv6CidrBlock = value.ipv6CidrBlock;
+      this._ipv6Isp = value.ipv6Isp;
+    }
+  }
+
+  // ipv6_cidr_block - computed: false, optional: false, required: true
+  private _ipv6CidrBlock?: string; 
+  public get ipv6CidrBlock() {
+    return this.getStringAttribute('ipv6_cidr_block');
+  }
+  public set ipv6CidrBlock(value: string) {
+    this._ipv6CidrBlock = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6CidrBlockInput() {
+    return this._ipv6CidrBlock;
+  }
+
+  // ipv6_isp - computed: false, optional: false, required: true
+  private _ipv6Isp?: string; 
+  public get ipv6Isp() {
+    return this.getStringAttribute('ipv6_isp');
+  }
+  public set ipv6Isp(value: string) {
+    this._ipv6Isp = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6IspInput() {
+    return this._ipv6Isp;
+  }
+}
+
+export class VpcIpv6CidrBlocksList extends cdktf.ComplexList {
+  public internalValue? : VpcIpv6CidrBlocks[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): VpcIpv6CidrBlocksOutputReference {
+    return new VpcIpv6CidrBlocksOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface VpcTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc#create Vpc#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc#create Vpc#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc#delete Vpc#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc#delete Vpc#delete}
   */
   readonly delete?: string;
 }
@@ -190,7 +339,7 @@ export class VpcTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc alibabacloudstack_vpc}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc alibabacloudstack_vpc}
 */
 export class Vpc extends cdktf.TerraformResource {
 
@@ -206,7 +355,7 @@ export class Vpc extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vpc resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vpc to import
-  * @param importFromId The id of the existing Vpc that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vpc that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vpc to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -218,7 +367,7 @@ export class Vpc extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc alibabacloudstack_vpc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc alibabacloudstack_vpc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -229,8 +378,8 @@ export class Vpc extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_vpc',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -251,6 +400,7 @@ export class Vpc extends cdktf.TerraformResource {
     this._tags = config.tags;
     this._userCidrs = config.userCidrs;
     this._vpcName = config.vpcName;
+    this._ipv6CidrBlocks.internalValue = config.ipv6CidrBlocks;
     this._timeouts.internalValue = config.timeouts;
   }
 
@@ -459,6 +609,22 @@ export class Vpc extends cdktf.TerraformResource {
     return this._vpcName;
   }
 
+  // ipv6_cidr_blocks - computed: false, optional: true, required: false
+  private _ipv6CidrBlocks = new VpcIpv6CidrBlocksList(this, "ipv6_cidr_blocks", true);
+  public get ipv6CidrBlocks() {
+    return this._ipv6CidrBlocks;
+  }
+  public putIpv6CidrBlocks(value: VpcIpv6CidrBlocks[] | cdktf.IResolvable) {
+    this._ipv6CidrBlocks.internalValue = value;
+  }
+  public resetIpv6CidrBlocks() {
+    this._ipv6CidrBlocks.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6CidrBlocksInput() {
+    return this._ipv6CidrBlocks.internalValue;
+  }
+
   // timeouts - computed: false, optional: true, required: false
   private _timeouts = new VpcTimeoutsOutputReference(this, "timeouts");
   public get timeouts() {
@@ -492,6 +658,7 @@ export class Vpc extends cdktf.TerraformResource {
       tags: cdktf.hashMapper(cdktf.stringToTerraform)(this._tags),
       user_cidrs: cdktf.listMapper(cdktf.stringToTerraform, false)(this._userCidrs),
       vpc_name: cdktf.stringToTerraform(this._vpcName),
+      ipv6_cidr_blocks: cdktf.listMapper(vpcIpv6CidrBlocksToTerraform, true)(this._ipv6CidrBlocks.internalValue),
       timeouts: vpcTimeoutsToTerraform(this._timeouts.internalValue),
     };
   }
@@ -563,6 +730,12 @@ export class Vpc extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      ipv6_cidr_blocks: {
+        value: cdktf.listMapperHcl(vpcIpv6CidrBlocksToHclTerraform, true)(this._ipv6CidrBlocks.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "VpcIpv6CidrBlocksList",
       },
       timeouts: {
         value: vpcTimeoutsToHclTerraform(this._timeouts.internalValue),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rdc_organization
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rdc_organization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface RdcOrganizationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rdc_organization#desired_member_count RdcOrganization#desired_member_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rdc_organization#desired_member_count RdcOrganization#desired_member_count}
   */
   readonly desiredMemberCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rdc_organization#id RdcOrganization#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rdc_organization#id RdcOrganization#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rdc_organization#organization_name RdcOrganization#organization_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rdc_organization#organization_name RdcOrganization#organization_name}
   */
   readonly organizationName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rdc_organization#real_pk RdcOrganization#real_pk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rdc_organization#real_pk RdcOrganization#real_pk}
   */
   readonly realPk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rdc_organization#source RdcOrganization#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rdc_organization#source RdcOrganization#source}
   */
   readonly source: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rdc_organization alicloud_rdc_organization}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rdc_organization alicloud_rdc_organization}
 */
 export class RdcOrganization extends cdktf.TerraformResource {
 
@@ -49,7 +49,7 @@ export class RdcOrganization extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RdcOrganization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdcOrganization to import
-  * @param importFromId The id of the existing RdcOrganization that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rdc_organization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdcOrganization that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rdc_organization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdcOrganization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class RdcOrganization extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rdc_organization alicloud_rdc_organization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rdc_organization alicloud_rdc_organization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class RdcOrganization extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_rdc_organization',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

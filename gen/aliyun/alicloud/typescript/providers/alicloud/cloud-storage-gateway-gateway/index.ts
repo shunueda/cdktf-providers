@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface CloudStorageGatewayGatewayConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway#description CloudStorageGatewayGateway#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway#description CloudStorageGatewayGateway#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway#gateway_class CloudStorageGatewayGateway#gateway_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway#gateway_class CloudStorageGatewayGateway#gateway_class}
   */
   readonly gatewayClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway#gateway_name CloudStorageGatewayGateway#gateway_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway#gateway_name CloudStorageGatewayGateway#gateway_name}
   */
   readonly gatewayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway#id CloudStorageGatewayGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway#id CloudStorageGatewayGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway#location CloudStorageGatewayGateway#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway#location CloudStorageGatewayGateway#location}
   */
   readonly location: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway#payment_type CloudStorageGatewayGateway#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway#payment_type CloudStorageGatewayGateway#payment_type}
   */
   readonly paymentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway#public_network_bandwidth CloudStorageGatewayGateway#public_network_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway#public_network_bandwidth CloudStorageGatewayGateway#public_network_bandwidth}
   */
   readonly publicNetworkBandwidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway#reason_detail CloudStorageGatewayGateway#reason_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway#reason_detail CloudStorageGatewayGateway#reason_detail}
   */
   readonly reasonDetail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway#reason_type CloudStorageGatewayGateway#reason_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway#reason_type CloudStorageGatewayGateway#reason_type}
   */
   readonly reasonType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway#release_after_expiration CloudStorageGatewayGateway#release_after_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway#release_after_expiration CloudStorageGatewayGateway#release_after_expiration}
   */
   readonly releaseAfterExpiration?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway#storage_bundle_id CloudStorageGatewayGateway#storage_bundle_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway#storage_bundle_id CloudStorageGatewayGateway#storage_bundle_id}
   */
   readonly storageBundleId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway#type CloudStorageGatewayGateway#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway#type CloudStorageGatewayGateway#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway#vswitch_id CloudStorageGatewayGateway#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway#vswitch_id CloudStorageGatewayGateway#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway#timeouts CloudStorageGatewayGateway#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway#timeouts CloudStorageGatewayGateway#timeouts}
   */
   readonly timeouts?: CloudStorageGatewayGatewayTimeouts;
 }
 export interface CloudStorageGatewayGatewayTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway#create CloudStorageGatewayGateway#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway#create CloudStorageGatewayGateway#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway#delete CloudStorageGatewayGateway#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway#delete CloudStorageGatewayGateway#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway#update CloudStorageGatewayGateway#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway#update CloudStorageGatewayGateway#update}
   */
   readonly update?: string;
 }
@@ -231,7 +231,7 @@ export class CloudStorageGatewayGatewayTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway alicloud_cloud_storage_gateway_gateway}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway alicloud_cloud_storage_gateway_gateway}
 */
 export class CloudStorageGatewayGateway extends cdktf.TerraformResource {
 
@@ -247,7 +247,7 @@ export class CloudStorageGatewayGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudStorageGatewayGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudStorageGatewayGateway to import
-  * @param importFromId The id of the existing CloudStorageGatewayGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudStorageGatewayGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudStorageGatewayGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -259,7 +259,7 @@ export class CloudStorageGatewayGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_storage_gateway_gateway alicloud_cloud_storage_gateway_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_storage_gateway_gateway alicloud_cloud_storage_gateway_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -270,8 +270,8 @@ export class CloudStorageGatewayGateway extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cloud_storage_gateway_gateway',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

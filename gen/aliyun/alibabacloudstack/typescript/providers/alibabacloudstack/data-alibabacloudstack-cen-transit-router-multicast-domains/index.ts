@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cen_transit_router_multicast_domains
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cen_transit_router_multicast_domains
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackCenTransitRouterMulticastDomainsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cen_transit_router_multicast_domains#description_regex DataAlibabacloudstackCenTransitRouterMulticastDomains#description_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cen_transit_router_multicast_domains#description_regex DataAlibabacloudstackCenTransitRouterMulticastDomains#description_regex}
   */
   readonly descriptionRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cen_transit_router_multicast_domains#id DataAlibabacloudstackCenTransitRouterMulticastDomains#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cen_transit_router_multicast_domains#id DataAlibabacloudstackCenTransitRouterMulticastDomains#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cen_transit_router_multicast_domains#ids DataAlibabacloudstackCenTransitRouterMulticastDomains#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cen_transit_router_multicast_domains#ids DataAlibabacloudstackCenTransitRouterMulticastDomains#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cen_transit_router_multicast_domains#name_regex DataAlibabacloudstackCenTransitRouterMulticastDomains#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cen_transit_router_multicast_domains#name_regex DataAlibabacloudstackCenTransitRouterMulticastDomains#name_regex}
   */
   readonly nameRegex?: string;
   /**
   * ID of the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cen_transit_router_multicast_domains#transit_router_route_id DataAlibabacloudstackCenTransitRouterMulticastDomains#transit_router_route_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cen_transit_router_multicast_domains#transit_router_route_id DataAlibabacloudstackCenTransitRouterMulticastDomains#transit_router_route_id}
   */
   readonly transitRouterRouteId: string;
 }
@@ -130,7 +130,7 @@ export class DataAlibabacloudstackCenTransitRouterMulticastDomainsTransitRouterM
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cen_transit_router_multicast_domains alibabacloudstack_cen_transit_router_multicast_domains}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cen_transit_router_multicast_domains alibabacloudstack_cen_transit_router_multicast_domains}
 */
 export class DataAlibabacloudstackCenTransitRouterMulticastDomains extends cdktf.TerraformDataSource {
 
@@ -146,7 +146,7 @@ export class DataAlibabacloudstackCenTransitRouterMulticastDomains extends cdktf
   * Generates CDKTF code for importing a DataAlibabacloudstackCenTransitRouterMulticastDomains resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackCenTransitRouterMulticastDomains to import
-  * @param importFromId The id of the existing DataAlibabacloudstackCenTransitRouterMulticastDomains that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cen_transit_router_multicast_domains#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackCenTransitRouterMulticastDomains that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cen_transit_router_multicast_domains#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackCenTransitRouterMulticastDomains to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -158,7 +158,7 @@ export class DataAlibabacloudstackCenTransitRouterMulticastDomains extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/cen_transit_router_multicast_domains alibabacloudstack_cen_transit_router_multicast_domains} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cen_transit_router_multicast_domains alibabacloudstack_cen_transit_router_multicast_domains} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -169,7 +169,8 @@ export class DataAlibabacloudstackCenTransitRouterMulticastDomains extends cdktf
       terraformResourceType: 'alibabacloudstack_cen_transit_router_multicast_domains',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

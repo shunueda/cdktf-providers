@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_network_interface_attachment
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_network_interface_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface EcsNetworkInterfaceAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_network_interface_attachment#id EcsNetworkInterfaceAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_network_interface_attachment#id EcsNetworkInterfaceAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_network_interface_attachment#instance_id EcsNetworkInterfaceAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_network_interface_attachment#instance_id EcsNetworkInterfaceAttachment#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_network_interface_attachment#network_card_index EcsNetworkInterfaceAttachment#network_card_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_network_interface_attachment#network_card_index EcsNetworkInterfaceAttachment#network_card_index}
   */
   readonly networkCardIndex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_network_interface_attachment#network_interface_id EcsNetworkInterfaceAttachment#network_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_network_interface_attachment#network_interface_id EcsNetworkInterfaceAttachment#network_interface_id}
   */
   readonly networkInterfaceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_network_interface_attachment#trunk_network_instance_id EcsNetworkInterfaceAttachment#trunk_network_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_network_interface_attachment#trunk_network_instance_id EcsNetworkInterfaceAttachment#trunk_network_instance_id}
   */
   readonly trunkNetworkInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_network_interface_attachment#wait_for_network_configuration_ready EcsNetworkInterfaceAttachment#wait_for_network_configuration_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_network_interface_attachment#wait_for_network_configuration_ready EcsNetworkInterfaceAttachment#wait_for_network_configuration_ready}
   */
   readonly waitForNetworkConfigurationReady?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_network_interface_attachment#timeouts EcsNetworkInterfaceAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_network_interface_attachment#timeouts EcsNetworkInterfaceAttachment#timeouts}
   */
   readonly timeouts?: EcsNetworkInterfaceAttachmentTimeouts;
 }
 export interface EcsNetworkInterfaceAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_network_interface_attachment#create EcsNetworkInterfaceAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_network_interface_attachment#create EcsNetworkInterfaceAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_network_interface_attachment#delete EcsNetworkInterfaceAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_network_interface_attachment#delete EcsNetworkInterfaceAttachment#delete}
   */
   readonly delete?: string;
 }
@@ -170,7 +170,7 @@ export class EcsNetworkInterfaceAttachmentTimeoutsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_network_interface_attachment alicloud_ecs_network_interface_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_network_interface_attachment alicloud_ecs_network_interface_attachment}
 */
 export class EcsNetworkInterfaceAttachment extends cdktf.TerraformResource {
 
@@ -186,7 +186,7 @@ export class EcsNetworkInterfaceAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EcsNetworkInterfaceAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcsNetworkInterfaceAttachment to import
-  * @param importFromId The id of the existing EcsNetworkInterfaceAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_network_interface_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcsNetworkInterfaceAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_network_interface_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcsNetworkInterfaceAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -198,7 +198,7 @@ export class EcsNetworkInterfaceAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecs_network_interface_attachment alicloud_ecs_network_interface_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecs_network_interface_attachment alicloud_ecs_network_interface_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -209,8 +209,8 @@ export class EcsNetworkInterfaceAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ecs_network_interface_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

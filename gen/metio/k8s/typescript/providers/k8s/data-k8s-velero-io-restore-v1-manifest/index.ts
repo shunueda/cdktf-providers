@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SVeleroIoRestoreV1ManifestConfig extends cdktf.TerraformM
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#metadata DataK8SVeleroIoRestoreV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#metadata DataK8SVeleroIoRestoreV1Manifest#metadata}
   */
   readonly metadata: DataK8SVeleroIoRestoreV1ManifestMetadata;
   /**
   * RestoreSpec defines the specification for a Velero restore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#spec DataK8SVeleroIoRestoreV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#spec DataK8SVeleroIoRestoreV1Manifest#spec}
   */
   readonly spec?: DataK8SVeleroIoRestoreV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SVeleroIoRestoreV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#annotations DataK8SVeleroIoRestoreV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#annotations DataK8SVeleroIoRestoreV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#labels DataK8SVeleroIoRestoreV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#labels DataK8SVeleroIoRestoreV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#name DataK8SVeleroIoRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#name DataK8SVeleroIoRestoreV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#namespace DataK8SVeleroIoRestoreV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#namespace DataK8SVeleroIoRestoreV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SVeleroIoRestoreV1ManifestSpecHooksResourcesLabelSelector
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#key DataK8SVeleroIoRestoreV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#key DataK8SVeleroIoRestoreV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#operator DataK8SVeleroIoRestoreV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#operator DataK8SVeleroIoRestoreV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#values DataK8SVeleroIoRestoreV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#values DataK8SVeleroIoRestoreV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -401,13 +401,13 @@ export interface DataK8SVeleroIoRestoreV1ManifestSpecHooksResourcesLabelSelector
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#match_expressions DataK8SVeleroIoRestoreV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#match_expressions DataK8SVeleroIoRestoreV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVeleroIoRestoreV1ManifestSpecHooksResourcesLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#match_labels DataK8SVeleroIoRestoreV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#match_labels DataK8SVeleroIoRestoreV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -532,37 +532,37 @@ export interface DataK8SVeleroIoRestoreV1ManifestSpecHooksResourcesPostHooksExec
   /**
   * Command is the command and arguments to execute from within a container after a pod has been restored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#command DataK8SVeleroIoRestoreV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#command DataK8SVeleroIoRestoreV1Manifest#command}
   */
   readonly command: string[];
   /**
   * Container is the container in the pod where the command should be executed. If not specified, the pod's first container is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#container DataK8SVeleroIoRestoreV1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#container DataK8SVeleroIoRestoreV1Manifest#container}
   */
   readonly container?: string;
   /**
   * ExecTimeout defines the maximum amount of time Velero should wait for the hook to complete before considering the execution a failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#exec_timeout DataK8SVeleroIoRestoreV1Manifest#exec_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#exec_timeout DataK8SVeleroIoRestoreV1Manifest#exec_timeout}
   */
   readonly execTimeout?: string;
   /**
   * OnError specifies how Velero should behave if it encounters an error executing this hook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#on_error DataK8SVeleroIoRestoreV1Manifest#on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#on_error DataK8SVeleroIoRestoreV1Manifest#on_error}
   */
   readonly onError?: string;
   /**
   * WaitForReady ensures command will be launched when container is Ready instead of Running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#wait_for_ready DataK8SVeleroIoRestoreV1Manifest#wait_for_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#wait_for_ready DataK8SVeleroIoRestoreV1Manifest#wait_for_ready}
   */
   readonly waitForReady?: boolean | cdktf.IResolvable;
   /**
   * WaitTimeout defines the maximum amount of time Velero should wait for the container to be Ready before attempting to run the command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#wait_timeout DataK8SVeleroIoRestoreV1Manifest#wait_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#wait_timeout DataK8SVeleroIoRestoreV1Manifest#wait_timeout}
   */
   readonly waitTimeout?: string;
 }
@@ -800,13 +800,13 @@ export interface DataK8SVeleroIoRestoreV1ManifestSpecHooksResourcesPostHooksInit
   /**
   * InitContainers is list of init containers to be added to a pod during its restore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#init_containers DataK8SVeleroIoRestoreV1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#init_containers DataK8SVeleroIoRestoreV1Manifest#init_containers}
   */
   readonly initContainers?: { [key: string]: string };
   /**
   * Timeout defines the maximum amount of time Velero should wait for the initContainers to complete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#timeout DataK8SVeleroIoRestoreV1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#timeout DataK8SVeleroIoRestoreV1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -931,13 +931,13 @@ export interface DataK8SVeleroIoRestoreV1ManifestSpecHooksResourcesPostHooks {
   /**
   * Exec defines an exec restore hook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#exec DataK8SVeleroIoRestoreV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#exec DataK8SVeleroIoRestoreV1Manifest#exec}
   */
   readonly exec?: DataK8SVeleroIoRestoreV1ManifestSpecHooksResourcesPostHooksExec;
   /**
   * Init defines an init restore hook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#init DataK8SVeleroIoRestoreV1Manifest#init}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#init DataK8SVeleroIoRestoreV1Manifest#init}
   */
   readonly init?: DataK8SVeleroIoRestoreV1ManifestSpecHooksResourcesPostHooksInit;
 }
@@ -1084,43 +1084,43 @@ export interface DataK8SVeleroIoRestoreV1ManifestSpecHooksResources {
   /**
   * ExcludedNamespaces specifies the namespaces to which this hook spec does not apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#excluded_namespaces DataK8SVeleroIoRestoreV1Manifest#excluded_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#excluded_namespaces DataK8SVeleroIoRestoreV1Manifest#excluded_namespaces}
   */
   readonly excludedNamespaces?: string[];
   /**
   * ExcludedResources specifies the resources to which this hook spec does not apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#excluded_resources DataK8SVeleroIoRestoreV1Manifest#excluded_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#excluded_resources DataK8SVeleroIoRestoreV1Manifest#excluded_resources}
   */
   readonly excludedResources?: string[];
   /**
   * IncludedNamespaces specifies the namespaces to which this hook spec applies. If empty, it applies to all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#included_namespaces DataK8SVeleroIoRestoreV1Manifest#included_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#included_namespaces DataK8SVeleroIoRestoreV1Manifest#included_namespaces}
   */
   readonly includedNamespaces?: string[];
   /**
   * IncludedResources specifies the resources to which this hook spec applies. If empty, it applies to all resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#included_resources DataK8SVeleroIoRestoreV1Manifest#included_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#included_resources DataK8SVeleroIoRestoreV1Manifest#included_resources}
   */
   readonly includedResources?: string[];
   /**
   * LabelSelector, if specified, filters the resources to which this hook spec applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#label_selector DataK8SVeleroIoRestoreV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#label_selector DataK8SVeleroIoRestoreV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SVeleroIoRestoreV1ManifestSpecHooksResourcesLabelSelector;
   /**
   * Name is the name of this hook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#name DataK8SVeleroIoRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#name DataK8SVeleroIoRestoreV1Manifest#name}
   */
   readonly name: string;
   /**
   * PostHooks is a list of RestoreResourceHooks to execute during and after restoring a resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#post_hooks DataK8SVeleroIoRestoreV1Manifest#post_hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#post_hooks DataK8SVeleroIoRestoreV1Manifest#post_hooks}
   */
   readonly postHooks?: DataK8SVeleroIoRestoreV1ManifestSpecHooksResourcesPostHooks[] | cdktf.IResolvable;
 }
@@ -1407,7 +1407,7 @@ export class DataK8SVeleroIoRestoreV1ManifestSpecHooksResourcesList extends cdkt
 }
 export interface DataK8SVeleroIoRestoreV1ManifestSpecHooks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#resources DataK8SVeleroIoRestoreV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#resources DataK8SVeleroIoRestoreV1Manifest#resources}
   */
   readonly resources?: DataK8SVeleroIoRestoreV1ManifestSpecHooksResources[] | cdktf.IResolvable;
 }
@@ -1503,19 +1503,19 @@ export interface DataK8SVeleroIoRestoreV1ManifestSpecLabelSelectorMatchExpressio
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#key DataK8SVeleroIoRestoreV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#key DataK8SVeleroIoRestoreV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#operator DataK8SVeleroIoRestoreV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#operator DataK8SVeleroIoRestoreV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#values DataK8SVeleroIoRestoreV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#values DataK8SVeleroIoRestoreV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1685,13 +1685,13 @@ export interface DataK8SVeleroIoRestoreV1ManifestSpecLabelSelector {
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#match_expressions DataK8SVeleroIoRestoreV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#match_expressions DataK8SVeleroIoRestoreV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVeleroIoRestoreV1ManifestSpecLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#match_labels DataK8SVeleroIoRestoreV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#match_labels DataK8SVeleroIoRestoreV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1816,19 +1816,19 @@ export interface DataK8SVeleroIoRestoreV1ManifestSpecOrLabelSelectorsMatchExpres
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#key DataK8SVeleroIoRestoreV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#key DataK8SVeleroIoRestoreV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#operator DataK8SVeleroIoRestoreV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#operator DataK8SVeleroIoRestoreV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#values DataK8SVeleroIoRestoreV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#values DataK8SVeleroIoRestoreV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1998,13 +1998,13 @@ export interface DataK8SVeleroIoRestoreV1ManifestSpecOrLabelSelectors {
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#match_expressions DataK8SVeleroIoRestoreV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#match_expressions DataK8SVeleroIoRestoreV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SVeleroIoRestoreV1ManifestSpecOrLabelSelectorsMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#match_labels DataK8SVeleroIoRestoreV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#match_labels DataK8SVeleroIoRestoreV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2151,19 +2151,19 @@ export interface DataK8SVeleroIoRestoreV1ManifestSpecResourceModifier {
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#api_group DataK8SVeleroIoRestoreV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#api_group DataK8SVeleroIoRestoreV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#kind DataK8SVeleroIoRestoreV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#kind DataK8SVeleroIoRestoreV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#name DataK8SVeleroIoRestoreV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#name DataK8SVeleroIoRestoreV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2311,13 +2311,13 @@ export interface DataK8SVeleroIoRestoreV1ManifestSpecRestoreStatus {
   /**
   * ExcludedResources specifies the resources to which will not restore the status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#excluded_resources DataK8SVeleroIoRestoreV1Manifest#excluded_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#excluded_resources DataK8SVeleroIoRestoreV1Manifest#excluded_resources}
   */
   readonly excludedResources?: string[];
   /**
   * IncludedResources specifies the resources to which will restore the status. If empty, it applies to all resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#included_resources DataK8SVeleroIoRestoreV1Manifest#included_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#included_resources DataK8SVeleroIoRestoreV1Manifest#included_resources}
   */
   readonly includedResources?: string[];
 }
@@ -2442,13 +2442,13 @@ export interface DataK8SVeleroIoRestoreV1ManifestSpecUploaderConfig {
   /**
   * ParallelFilesDownload is the concurrency number setting for restore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#parallel_files_download DataK8SVeleroIoRestoreV1Manifest#parallel_files_download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#parallel_files_download DataK8SVeleroIoRestoreV1Manifest#parallel_files_download}
   */
   readonly parallelFilesDownload?: number;
   /**
   * WriteSparseFiles is a flag to indicate whether write files sparsely or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#write_sparse_files DataK8SVeleroIoRestoreV1Manifest#write_sparse_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#write_sparse_files DataK8SVeleroIoRestoreV1Manifest#write_sparse_files}
   */
   readonly writeSparseFiles?: boolean | cdktf.IResolvable;
 }
@@ -2573,109 +2573,109 @@ export interface DataK8SVeleroIoRestoreV1ManifestSpec {
   /**
   * BackupName is the unique name of the Velero backup to restore from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#backup_name DataK8SVeleroIoRestoreV1Manifest#backup_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#backup_name DataK8SVeleroIoRestoreV1Manifest#backup_name}
   */
   readonly backupName?: string;
   /**
   * ExcludedNamespaces contains a list of namespaces that are not included in the restore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#excluded_namespaces DataK8SVeleroIoRestoreV1Manifest#excluded_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#excluded_namespaces DataK8SVeleroIoRestoreV1Manifest#excluded_namespaces}
   */
   readonly excludedNamespaces?: string[];
   /**
   * ExcludedResources is a slice of resource names that are not included in the restore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#excluded_resources DataK8SVeleroIoRestoreV1Manifest#excluded_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#excluded_resources DataK8SVeleroIoRestoreV1Manifest#excluded_resources}
   */
   readonly excludedResources?: string[];
   /**
   * ExistingResourcePolicy specifies the restore behavior for the Kubernetes resource to be restored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#existing_resource_policy DataK8SVeleroIoRestoreV1Manifest#existing_resource_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#existing_resource_policy DataK8SVeleroIoRestoreV1Manifest#existing_resource_policy}
   */
   readonly existingResourcePolicy?: string;
   /**
   * Hooks represent custom behaviors that should be executed during or post restore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#hooks DataK8SVeleroIoRestoreV1Manifest#hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#hooks DataK8SVeleroIoRestoreV1Manifest#hooks}
   */
   readonly hooks?: DataK8SVeleroIoRestoreV1ManifestSpecHooks;
   /**
   * IncludeClusterResources specifies whether cluster-scoped resources should be included for consideration in the restore. If null, defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#include_cluster_resources DataK8SVeleroIoRestoreV1Manifest#include_cluster_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#include_cluster_resources DataK8SVeleroIoRestoreV1Manifest#include_cluster_resources}
   */
   readonly includeClusterResources?: boolean | cdktf.IResolvable;
   /**
   * IncludedNamespaces is a slice of namespace names to include objects from. If empty, all namespaces are included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#included_namespaces DataK8SVeleroIoRestoreV1Manifest#included_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#included_namespaces DataK8SVeleroIoRestoreV1Manifest#included_namespaces}
   */
   readonly includedNamespaces?: string[];
   /**
   * IncludedResources is a slice of resource names to include in the restore. If empty, all resources in the backup are included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#included_resources DataK8SVeleroIoRestoreV1Manifest#included_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#included_resources DataK8SVeleroIoRestoreV1Manifest#included_resources}
   */
   readonly includedResources?: string[];
   /**
   * ItemOperationTimeout specifies the time used to wait for RestoreItemAction operations The default value is 4 hour.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#item_operation_timeout DataK8SVeleroIoRestoreV1Manifest#item_operation_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#item_operation_timeout DataK8SVeleroIoRestoreV1Manifest#item_operation_timeout}
   */
   readonly itemOperationTimeout?: string;
   /**
   * LabelSelector is a metav1.LabelSelector to filter with when restoring individual objects from the backup. If empty or nil, all objects are included. Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#label_selector DataK8SVeleroIoRestoreV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#label_selector DataK8SVeleroIoRestoreV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SVeleroIoRestoreV1ManifestSpecLabelSelector;
   /**
   * NamespaceMapping is a map of source namespace names to target namespace names to restore into. Any source namespaces not included in the map will be restored into namespaces of the same name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#namespace_mapping DataK8SVeleroIoRestoreV1Manifest#namespace_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#namespace_mapping DataK8SVeleroIoRestoreV1Manifest#namespace_mapping}
   */
   readonly namespaceMapping?: { [key: string]: string };
   /**
   * OrLabelSelectors is list of metav1.LabelSelector to filter with when restoring individual objects from the backup. If multiple provided they will be joined by the OR operator. LabelSelector as well as OrLabelSelectors cannot co-exist in restore request, only one of them can be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#or_label_selectors DataK8SVeleroIoRestoreV1Manifest#or_label_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#or_label_selectors DataK8SVeleroIoRestoreV1Manifest#or_label_selectors}
   */
   readonly orLabelSelectors?: DataK8SVeleroIoRestoreV1ManifestSpecOrLabelSelectors[] | cdktf.IResolvable;
   /**
   * PreserveNodePorts specifies whether to restore old nodePorts from backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#preserve_node_ports DataK8SVeleroIoRestoreV1Manifest#preserve_node_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#preserve_node_ports DataK8SVeleroIoRestoreV1Manifest#preserve_node_ports}
   */
   readonly preserveNodePorts?: boolean | cdktf.IResolvable;
   /**
   * ResourceModifier specifies the reference to JSON resource patches that should be applied to resources before restoration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#resource_modifier DataK8SVeleroIoRestoreV1Manifest#resource_modifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#resource_modifier DataK8SVeleroIoRestoreV1Manifest#resource_modifier}
   */
   readonly resourceModifier?: DataK8SVeleroIoRestoreV1ManifestSpecResourceModifier;
   /**
   * RestorePVs specifies whether to restore all included PVs from snapshot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#restore_p_vs DataK8SVeleroIoRestoreV1Manifest#restore_p_vs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#restore_p_vs DataK8SVeleroIoRestoreV1Manifest#restore_p_vs}
   */
   readonly restorePVs?: boolean | cdktf.IResolvable;
   /**
   * RestoreStatus specifies which resources we should restore the status field. If nil, no objects are included. Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#restore_status DataK8SVeleroIoRestoreV1Manifest#restore_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#restore_status DataK8SVeleroIoRestoreV1Manifest#restore_status}
   */
   readonly restoreStatus?: DataK8SVeleroIoRestoreV1ManifestSpecRestoreStatus;
   /**
   * ScheduleName is the unique name of the Velero schedule to restore from. If specified, and BackupName is empty, Velero will restore from the most recent successful backup created from this schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#schedule_name DataK8SVeleroIoRestoreV1Manifest#schedule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#schedule_name DataK8SVeleroIoRestoreV1Manifest#schedule_name}
   */
   readonly scheduleName?: string;
   /**
   * UploaderConfig specifies the configuration for the restore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#uploader_config DataK8SVeleroIoRestoreV1Manifest#uploader_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#uploader_config DataK8SVeleroIoRestoreV1Manifest#uploader_config}
   */
   readonly uploaderConfig?: DataK8SVeleroIoRestoreV1ManifestSpecUploaderConfig;
 }
@@ -3262,7 +3262,7 @@ export class DataK8SVeleroIoRestoreV1ManifestSpecOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest k8s_velero_io_restore_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest k8s_velero_io_restore_v1_manifest}
 */
 export class DataK8SVeleroIoRestoreV1Manifest extends cdktf.TerraformDataSource {
 
@@ -3278,7 +3278,7 @@ export class DataK8SVeleroIoRestoreV1Manifest extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataK8SVeleroIoRestoreV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SVeleroIoRestoreV1Manifest to import
-  * @param importFromId The id of the existing DataK8SVeleroIoRestoreV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SVeleroIoRestoreV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SVeleroIoRestoreV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3290,7 +3290,7 @@ export class DataK8SVeleroIoRestoreV1Manifest extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/velero_io_restore_v1_manifest k8s_velero_io_restore_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/velero_io_restore_v1_manifest k8s_velero_io_restore_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3301,8 +3301,8 @@ export class DataK8SVeleroIoRestoreV1Manifest extends cdktf.TerraformDataSource 
       terraformResourceType: 'k8s_velero_io_restore_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

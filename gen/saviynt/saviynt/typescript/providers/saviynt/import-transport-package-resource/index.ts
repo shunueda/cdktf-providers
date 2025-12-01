@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/import_transport_package_resource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/import_transport_package_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ImportTransportPackageResourceConfig extends cdktf.TerraformMet
   /**
   * Business justification for the import.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/import_transport_package_resource#business_justification ImportTransportPackageResource#business_justification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/import_transport_package_resource#business_justification ImportTransportPackageResource#business_justification}
   */
   readonly businessJustification?: string;
   /**
   * Version identifier for the import package. Change this value to trigger re-import of the same package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/import_transport_package_resource#import_package_version ImportTransportPackageResource#import_package_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/import_transport_package_resource#import_package_version ImportTransportPackageResource#import_package_version}
   */
   readonly importPackageVersion?: string;
   /**
   * Complete path of the package that needs to be imported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/import_transport_package_resource#package_path ImportTransportPackageResource#package_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/import_transport_package_resource#package_path ImportTransportPackageResource#package_path}
   */
   readonly packagePath: string;
   /**
   * Username of the user importing the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/import_transport_package_resource#update_user ImportTransportPackageResource#update_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/import_transport_package_resource#update_user ImportTransportPackageResource#update_user}
   */
   readonly updateUser?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/import_transport_package_resource saviynt_import_transport_package_resource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/import_transport_package_resource saviynt_import_transport_package_resource}
 */
 export class ImportTransportPackageResource extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class ImportTransportPackageResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ImportTransportPackageResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImportTransportPackageResource to import
-  * @param importFromId The id of the existing ImportTransportPackageResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/import_transport_package_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImportTransportPackageResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/import_transport_package_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImportTransportPackageResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class ImportTransportPackageResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/import_transport_package_resource saviynt_import_transport_package_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/import_transport_package_resource saviynt_import_transport_package_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class ImportTransportPackageResource extends cdktf.TerraformResource {
       terraformResourceType: 'saviynt_import_transport_package_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.3.1',
-        providerVersionConstraint: '0.3.1'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

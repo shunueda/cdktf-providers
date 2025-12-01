@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/edas_clusters
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/edas_clusters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackEdasClustersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/edas_clusters#id DataAlibabacloudstackEdasClusters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/edas_clusters#id DataAlibabacloudstackEdasClusters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/edas_clusters#ids DataAlibabacloudstackEdasClusters#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/edas_clusters#ids DataAlibabacloudstackEdasClusters#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/edas_clusters#logical_region_id DataAlibabacloudstackEdasClusters#logical_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/edas_clusters#logical_region_id DataAlibabacloudstackEdasClusters#logical_region_id}
   */
-  readonly logicalRegionId: string;
+  readonly logicalRegionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/edas_clusters#name_regex DataAlibabacloudstackEdasClusters#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/edas_clusters#name_regex DataAlibabacloudstackEdasClusters#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/edas_clusters#output_file DataAlibabacloudstackEdasClusters#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/edas_clusters#output_file DataAlibabacloudstackEdasClusters#output_file}
   */
   readonly outputFile?: string;
 }
@@ -168,7 +168,7 @@ export class DataAlibabacloudstackEdasClustersClustersList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/edas_clusters alibabacloudstack_edas_clusters}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/edas_clusters alibabacloudstack_edas_clusters}
 */
 export class DataAlibabacloudstackEdasClusters extends cdktf.TerraformDataSource {
 
@@ -184,7 +184,7 @@ export class DataAlibabacloudstackEdasClusters extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataAlibabacloudstackEdasClusters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackEdasClusters to import
-  * @param importFromId The id of the existing DataAlibabacloudstackEdasClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/edas_clusters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackEdasClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/edas_clusters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackEdasClusters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -196,19 +196,19 @@ export class DataAlibabacloudstackEdasClusters extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/edas_clusters alibabacloudstack_edas_clusters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/edas_clusters alibabacloudstack_edas_clusters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options DataAlibabacloudstackEdasClustersConfig
+  * @param options DataAlibabacloudstackEdasClustersConfig = {}
   */
-  public constructor(scope: Construct, id: string, config: DataAlibabacloudstackEdasClustersConfig) {
+  public constructor(scope: Construct, id: string, config: DataAlibabacloudstackEdasClustersConfig = {}) {
     super(scope, id, {
       terraformResourceType: 'alibabacloudstack_edas_clusters',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -267,13 +267,16 @@ export class DataAlibabacloudstackEdasClusters extends cdktf.TerraformDataSource
     return this._ids;
   }
 
-  // logical_region_id - computed: false, optional: false, required: true
+  // logical_region_id - computed: false, optional: true, required: false
   private _logicalRegionId?: string; 
   public get logicalRegionId() {
     return this.getStringAttribute('logical_region_id');
   }
   public set logicalRegionId(value: string) {
     this._logicalRegionId = value;
+  }
+  public resetLogicalRegionId() {
+    this._logicalRegionId = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get logicalRegionIdInput() {

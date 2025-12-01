@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestConfi
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#metadata DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#metadata DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestMetadata;
   /**
   * ActionSetSpec defines the desired state of ActionSet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#spec DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#spec DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestMetad
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#annotations DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#annotations DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#labels DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#labels DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#name DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,13 +187,13 @@ export interface DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecB
   /**
   * Determines if the backup progress should be synchronized. If set to true, a sidecar container will be instantiated to synchronize the backup progress with the Backup Custom Resource (CR) status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#enabled DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#enabled DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Defines the interval in seconds for synchronizing the backup progress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#interval_seconds DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#interval_seconds DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#interval_seconds}
   */
   readonly intervalSeconds?: number;
 }
@@ -318,31 +318,31 @@ export interface DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecB
   /**
   * Defines the commands to back up the volume data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#command DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#command DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#command}
   */
   readonly command: string[];
   /**
   * Specifies the image of the backup container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#image DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#image DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#image}
   */
   readonly image: string;
   /**
   * Indicates how to behave if an error is encountered during the execution of this action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#on_error DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#on_error DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#on_error}
   */
   readonly onError?: string;
   /**
   * Determines whether to run the job workload on the target pod node. If the backup container needs to mount the target pod's volumes, this field should be set to true. Otherwise, the target pod's volumes will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#run_on_target_pod_node DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#run_on_target_pod_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#run_on_target_pod_node DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#run_on_target_pod_node}
   */
   readonly runOnTargetPodNode?: boolean | cdktf.IResolvable;
   /**
   * Determines if the backup progress should be synchronized and the interval for synchronization in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#sync_progress DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#sync_progress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#sync_progress DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#sync_progress}
   */
   readonly syncProgress?: DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecBackupBackupDataSyncProgress;
 }
@@ -548,25 +548,25 @@ export interface DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecB
   /**
   * Defines the command and arguments to be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#command DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#command DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#command}
   */
   readonly command: string[];
   /**
   * Specifies the container within the pod where the command should be executed. If not specified, the first container in the pod is used by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#container DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#container DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#container}
   */
   readonly container?: string;
   /**
   * Indicates how to behave if an error is encountered during the execution of this action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#on_error DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#on_error DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#on_error}
   */
   readonly onError?: string;
   /**
   * Specifies the maximum duration to wait for the hook to complete before considering the execution a failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#timeout DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#timeout DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -746,25 +746,25 @@ export interface DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecB
   /**
   * Defines the commands to back up the volume data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#command DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#command DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#command}
   */
   readonly command: string[];
   /**
   * Specifies the image of the backup container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#image DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#image DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#image}
   */
   readonly image: string;
   /**
   * Indicates how to behave if an error is encountered during the execution of this action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#on_error DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#on_error DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#on_error}
   */
   readonly onError?: string;
   /**
   * Determines whether to run the job workload on the target pod node. If the backup container needs to mount the target pod's volumes, this field should be set to true. Otherwise, the target pod's volumes will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#run_on_target_pod_node DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#run_on_target_pod_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#run_on_target_pod_node DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#run_on_target_pod_node}
   */
   readonly runOnTargetPodNode?: boolean | cdktf.IResolvable;
 }
@@ -941,13 +941,13 @@ export interface DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecB
   /**
   * Specifies that the action should be executed using the pod's exec API within a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#exec DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#exec DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecBackupPostBackupExec;
   /**
   * Specifies that the action should be executed by a Kubernetes Job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#job DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#job}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#job DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#job}
   */
   readonly job?: DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecBackupPostBackupJob;
 }
@@ -1094,25 +1094,25 @@ export interface DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecB
   /**
   * Defines the command and arguments to be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#command DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#command DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#command}
   */
   readonly command: string[];
   /**
   * Specifies the container within the pod where the command should be executed. If not specified, the first container in the pod is used by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#container DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#container DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#container}
   */
   readonly container?: string;
   /**
   * Indicates how to behave if an error is encountered during the execution of this action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#on_error DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#on_error DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#on_error}
   */
   readonly onError?: string;
   /**
   * Specifies the maximum duration to wait for the hook to complete before considering the execution a failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#timeout DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#timeout DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -1292,25 +1292,25 @@ export interface DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecB
   /**
   * Defines the commands to back up the volume data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#command DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#command DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#command}
   */
   readonly command: string[];
   /**
   * Specifies the image of the backup container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#image DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#image DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#image}
   */
   readonly image: string;
   /**
   * Indicates how to behave if an error is encountered during the execution of this action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#on_error DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#on_error DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#on_error}
   */
   readonly onError?: string;
   /**
   * Determines whether to run the job workload on the target pod node. If the backup container needs to mount the target pod's volumes, this field should be set to true. Otherwise, the target pod's volumes will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#run_on_target_pod_node DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#run_on_target_pod_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#run_on_target_pod_node DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#run_on_target_pod_node}
   */
   readonly runOnTargetPodNode?: boolean | cdktf.IResolvable;
 }
@@ -1487,13 +1487,13 @@ export interface DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecB
   /**
   * Specifies that the action should be executed using the pod's exec API within a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#exec DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#exec DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecBackupPreBackupExec;
   /**
   * Specifies that the action should be executed by a Kubernetes Job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#job DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#job}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#job DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#job}
   */
   readonly job?: DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecBackupPreBackupJob;
 }
@@ -1640,13 +1640,13 @@ export interface DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecB
   /**
   * Defines the commands to back up the volume data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#command DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#command DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#command}
   */
   readonly command: string[];
   /**
   * Specifies the image of the backup container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#image DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#image DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#image}
   */
   readonly image: string;
 }
@@ -1765,25 +1765,25 @@ export interface DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecB
   /**
   * Represents the action to be performed for backing up data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#backup_data DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#backup_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#backup_data DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#backup_data}
   */
   readonly backupData?: DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecBackupBackupData;
   /**
   * Represents a set of actions that should be executed after the backup process has completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#post_backup DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#post_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#post_backup DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#post_backup}
   */
   readonly postBackup?: DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecBackupPostBackup[] | cdktf.IResolvable;
   /**
   * Represents a set of actions that should be executed before the backup process begins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#pre_backup DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#pre_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#pre_backup DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#pre_backup}
   */
   readonly preBackup?: DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecBackupPreBackup[] | cdktf.IResolvable;
   /**
   * Represents a custom deletion action that can be executed before the built-in deletion action. Note: The preDelete action job will ignore the env/envFrom.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#pre_delete DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#pre_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#pre_delete DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#pre_delete}
   */
   readonly preDelete?: DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecBackupPreDelete;
 }
@@ -1966,25 +1966,25 @@ export interface DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecR
   /**
   * Defines the command and arguments to be executed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#command DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#command DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#command}
   */
   readonly command: string[];
   /**
   * Specifies the container within the pod where the command should be executed. If not specified, the first container in the pod is used by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#container DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#container DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#container}
   */
   readonly container?: string;
   /**
   * Indicates how to behave if an error is encountered during the execution of this action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#on_error DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#on_error DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#on_error}
   */
   readonly onError?: string;
   /**
   * Specifies the maximum duration to wait for the hook to complete before considering the execution a failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#timeout DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#timeout DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -2164,25 +2164,25 @@ export interface DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecR
   /**
   * Defines the commands to back up the volume data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#command DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#command DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#command}
   */
   readonly command: string[];
   /**
   * Specifies the image of the backup container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#image DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#image DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#image}
   */
   readonly image: string;
   /**
   * Indicates how to behave if an error is encountered during the execution of this action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#on_error DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#on_error DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#on_error}
   */
   readonly onError?: string;
   /**
   * Determines whether to run the job workload on the target pod node. If the backup container needs to mount the target pod's volumes, this field should be set to true. Otherwise, the target pod's volumes will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#run_on_target_pod_node DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#run_on_target_pod_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#run_on_target_pod_node DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#run_on_target_pod_node}
   */
   readonly runOnTargetPodNode?: boolean | cdktf.IResolvable;
 }
@@ -2359,13 +2359,13 @@ export interface DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecR
   /**
   * Specifies that the action should be executed using the pod's exec API within a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#exec DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#exec DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecRestorePostReadyExec;
   /**
   * Specifies that the action should be executed by a Kubernetes Job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#job DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#job}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#job DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#job}
   */
   readonly job?: DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecRestorePostReadyJob;
 }
@@ -2512,25 +2512,25 @@ export interface DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecR
   /**
   * Defines the commands to back up the volume data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#command DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#command DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#command}
   */
   readonly command: string[];
   /**
   * Specifies the image of the backup container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#image DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#image DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#image}
   */
   readonly image: string;
   /**
   * Indicates how to behave if an error is encountered during the execution of this action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#on_error DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#on_error DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#on_error}
   */
   readonly onError?: string;
   /**
   * Determines whether to run the job workload on the target pod node. If the backup container needs to mount the target pod's volumes, this field should be set to true. Otherwise, the target pod's volumes will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#run_on_target_pod_node DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#run_on_target_pod_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#run_on_target_pod_node DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#run_on_target_pod_node}
   */
   readonly runOnTargetPodNode?: boolean | cdktf.IResolvable;
 }
@@ -2707,19 +2707,19 @@ export interface DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecR
   /**
   * Determines if a base backup is required during restoration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#base_backup_required DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#base_backup_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#base_backup_required DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#base_backup_required}
   */
   readonly baseBackupRequired?: boolean | cdktf.IResolvable;
   /**
   * Specifies the actions that should be executed after the data has been prepared and is ready for restoration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#post_ready DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#post_ready}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#post_ready DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#post_ready}
   */
   readonly postReady?: DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecRestorePostReady[] | cdktf.IResolvable;
   /**
   * Specifies the action required to prepare data for restoration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#prepare_data DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#prepare_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#prepare_data DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#prepare_data}
   */
   readonly prepareData?: DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecRestorePrepareData;
 }
@@ -2873,31 +2873,31 @@ export interface DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpec 
   /**
   * Specifies the backup action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#backup DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#backup DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#backup}
   */
   readonly backup?: DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecBackup;
   /**
   * Specifies the backup type. Supported values include: - 'Full' for a full backup. - 'Incremental' back up data that have changed since the last backup (either full or incremental). - 'Differential' back up data that has changed since the last full backup. - 'Continuous' back up transaction logs continuously, such as MySQL binlog, PostgreSQL WAL, etc. Continuous backup is essential for implementing Point-in-Time Recovery (PITR).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#backup_type DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#backup_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#backup_type DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#backup_type}
   */
   readonly backupType: string;
   /**
   * Specifies a list of environment variables to be set in the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#env DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#env DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#env}
   */
   readonly env?: { [key: string]: string };
   /**
   * Specifies a list of sources to populate environment variables in the container. The keys within a source must be a C_IDENTIFIER. Any invalid keys will be reported as an event when the container starts. If a key exists in multiple sources, the value from the last source will take precedence. Any values defined by an Env with a duplicate key will take precedence. This field cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#env_from DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#env_from DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#env_from}
   */
   readonly envFrom?: { [key: string]: string };
   /**
   * Specifies the restore action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#restore DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#restore DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest#restore}
   */
   readonly restore?: DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecRestore;
 }
@@ -3104,7 +3104,7 @@ export class DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1ManifestSpecOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest k8s_dataprotection_kubeblocks_io_action_set_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest k8s_dataprotection_kubeblocks_io_action_set_v1alpha1_manifest}
 */
 export class DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -3120,7 +3120,7 @@ export class DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest extends 
   * Generates CDKTF code for importing a DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3132,7 +3132,7 @@ export class DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest k8s_dataprotection_kubeblocks_io_action_set_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/dataprotection_kubeblocks_io_action_set_v1alpha1_manifest k8s_dataprotection_kubeblocks_io_action_set_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3143,8 +3143,8 @@ export class DataK8SDataprotectionKubeblocksIoActionSetV1Alpha1Manifest extends 
       terraformResourceType: 'k8s_dataprotection_kubeblocks_io_action_set_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/dmsenterprise_users
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/dmsenterprise_users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackDmsenterpriseUsersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/dmsenterprise_users#id DataAlibabacloudstackDmsenterpriseUsers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/dmsenterprise_users#id DataAlibabacloudstackDmsenterpriseUsers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/dmsenterprise_users#ids DataAlibabacloudstackDmsenterpriseUsers#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/dmsenterprise_users#ids DataAlibabacloudstackDmsenterpriseUsers#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/dmsenterprise_users#name_regex DataAlibabacloudstackDmsenterpriseUsers#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/dmsenterprise_users#name_regex DataAlibabacloudstackDmsenterpriseUsers#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/dmsenterprise_users#output_file DataAlibabacloudstackDmsenterpriseUsers#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/dmsenterprise_users#output_file DataAlibabacloudstackDmsenterpriseUsers#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/dmsenterprise_users#role DataAlibabacloudstackDmsenterpriseUsers#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/dmsenterprise_users#role DataAlibabacloudstackDmsenterpriseUsers#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/dmsenterprise_users#search_key DataAlibabacloudstackDmsenterpriseUsers#search_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/dmsenterprise_users#search_key DataAlibabacloudstackDmsenterpriseUsers#search_key}
   */
   readonly searchKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/dmsenterprise_users#status DataAlibabacloudstackDmsenterpriseUsers#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/dmsenterprise_users#status DataAlibabacloudstackDmsenterpriseUsers#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/dmsenterprise_users#tid DataAlibabacloudstackDmsenterpriseUsers#tid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/dmsenterprise_users#tid DataAlibabacloudstackDmsenterpriseUsers#tid}
   */
   readonly tid?: number;
 }
@@ -165,7 +165,7 @@ export class DataAlibabacloudstackDmsenterpriseUsersUsersList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/dmsenterprise_users alibabacloudstack_dmsenterprise_users}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/dmsenterprise_users alibabacloudstack_dmsenterprise_users}
 */
 export class DataAlibabacloudstackDmsenterpriseUsers extends cdktf.TerraformDataSource {
 
@@ -181,7 +181,7 @@ export class DataAlibabacloudstackDmsenterpriseUsers extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataAlibabacloudstackDmsenterpriseUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackDmsenterpriseUsers to import
-  * @param importFromId The id of the existing DataAlibabacloudstackDmsenterpriseUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/dmsenterprise_users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackDmsenterpriseUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/dmsenterprise_users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackDmsenterpriseUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -193,7 +193,7 @@ export class DataAlibabacloudstackDmsenterpriseUsers extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/dmsenterprise_users alibabacloudstack_dmsenterprise_users} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/dmsenterprise_users alibabacloudstack_dmsenterprise_users} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -204,8 +204,8 @@ export class DataAlibabacloudstackDmsenterpriseUsers extends cdktf.TerraformData
       terraformResourceType: 'alibabacloudstack_dmsenterprise_users',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

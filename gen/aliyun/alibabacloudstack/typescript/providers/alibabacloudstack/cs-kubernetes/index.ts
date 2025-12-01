@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,246 +8,270 @@ import * as cdktf from 'cdktf';
 
 export interface CsKubernetesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#availability_zone CsKubernetes#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#availability_zone CsKubernetes#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#client_cert CsKubernetes#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#client_cert CsKubernetes#client_cert}
   */
   readonly clientCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#client_key CsKubernetes#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#client_key CsKubernetes#client_key}
   */
   readonly clientKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#cloud_monitor_flags CsKubernetes#cloud_monitor_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#cloud_monitor_flags CsKubernetes#cloud_monitor_flags}
   */
   readonly cloudMonitorFlags?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#cluster_ca_cert CsKubernetes#cluster_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#cluster_ca_cert CsKubernetes#cluster_ca_cert}
   */
   readonly clusterCaCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#cluster_type CsKubernetes#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#cluster_type CsKubernetes#cluster_type}
   */
   readonly clusterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#cpu_policy CsKubernetes#cpu_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#cpu_policy CsKubernetes#cpu_policy}
   */
   readonly cpuPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#delete_protection CsKubernetes#delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#delete_protection CsKubernetes#delete_protection}
   */
   readonly deleteProtection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#enable_ssh CsKubernetes#enable_ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#enable_ssh CsKubernetes#enable_ssh}
   */
   readonly enableSsh?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#format_disk CsKubernetes#format_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#format_disk CsKubernetes#format_disk}
   */
   readonly formatDisk?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#id CsKubernetes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#id CsKubernetes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#image_id CsKubernetes#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#image_id CsKubernetes#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#instances CsKubernetes#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#instances CsKubernetes#instances}
   */
   readonly instances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#is_enterprise_security_group CsKubernetes#is_enterprise_security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#is_enterprise_security_group CsKubernetes#is_enterprise_security_group}
   */
   readonly isEnterpriseSecurityGroup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#keep_instance_name CsKubernetes#keep_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#keep_instance_name CsKubernetes#keep_instance_name}
   */
   readonly keepInstanceName?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#key_name CsKubernetes#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#key_name CsKubernetes#key_name}
   */
   readonly keyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#kms_encrypted_password CsKubernetes#kms_encrypted_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#kms_encrypted_password CsKubernetes#kms_encrypted_password}
   */
   readonly kmsEncryptedPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#kms_encryption_context CsKubernetes#kms_encryption_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#kms_encryption_context CsKubernetes#kms_encryption_context}
   */
   readonly kmsEncryptionContext?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#kube_config CsKubernetes#kube_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#kube_config CsKubernetes#kube_config}
   */
   readonly kubeConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#master_count CsKubernetes#master_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#master_count CsKubernetes#master_count}
   */
   readonly masterCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#master_disk_category CsKubernetes#master_disk_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#master_disk_category CsKubernetes#master_disk_category}
   */
   readonly masterDiskCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#master_disk_size CsKubernetes#master_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#master_disk_encrypt_algorithm CsKubernetes#master_disk_encrypt_algorithm}
+  */
+  readonly masterDiskEncryptAlgorithm?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#master_disk_encrypted CsKubernetes#master_disk_encrypted}
+  */
+  readonly masterDiskEncrypted?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#master_disk_kms_key_id CsKubernetes#master_disk_kms_key_id}
+  */
+  readonly masterDiskKmsKeyId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#master_disk_size CsKubernetes#master_disk_size}
   */
   readonly masterDiskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#master_instance_types CsKubernetes#master_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#master_instance_types CsKubernetes#master_instance_types}
   */
   readonly masterInstanceTypes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#master_storage_set_id CsKubernetes#master_storage_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#master_storage_set_id CsKubernetes#master_storage_set_id}
   */
   readonly masterStorageSetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#master_storage_set_partition_number CsKubernetes#master_storage_set_partition_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#master_storage_set_partition_number CsKubernetes#master_storage_set_partition_number}
   */
   readonly masterStorageSetPartitionNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#master_system_disk_performance_level CsKubernetes#master_system_disk_performance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#master_system_disk_performance_level CsKubernetes#master_system_disk_performance_level}
   */
   readonly masterSystemDiskPerformanceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#master_vswitch_ids CsKubernetes#master_vswitch_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#master_vswitch_ids CsKubernetes#master_vswitch_ids}
   */
   readonly masterVswitchIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#name CsKubernetes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#name CsKubernetes#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#new_nat_gateway CsKubernetes#new_nat_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#new_nat_gateway CsKubernetes#new_nat_gateway}
   */
   readonly newNatGateway?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#node_cidr_mask CsKubernetes#node_cidr_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#node_cidr_mask CsKubernetes#node_cidr_mask}
   */
   readonly nodeCidrMask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#node_port_range CsKubernetes#node_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#node_port_range CsKubernetes#node_port_range}
   */
   readonly nodePortRange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#nodes CsKubernetes#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#nodes CsKubernetes#nodes}
   */
   readonly nodes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#num_of_nodes CsKubernetes#num_of_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#num_of_nodes CsKubernetes#num_of_nodes}
   */
   readonly numOfNodes: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#os_type CsKubernetes#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#os_type CsKubernetes#os_type}
   */
   readonly osType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#password CsKubernetes#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#password CsKubernetes#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#platform CsKubernetes#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#platform CsKubernetes#platform}
   */
   readonly platform?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#pod_cidr CsKubernetes#pod_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#pod_cidr CsKubernetes#pod_cidr}
   */
   readonly podCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#pod_vswitch_ids CsKubernetes#pod_vswitch_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#pod_vswitch_ids CsKubernetes#pod_vswitch_ids}
   */
   readonly podVswitchIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#proxy_mode CsKubernetes#proxy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#proxy_mode CsKubernetes#proxy_mode}
   */
   readonly proxyMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#security_group_id CsKubernetes#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#security_group_id CsKubernetes#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#service_cidr CsKubernetes#service_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#service_cidr CsKubernetes#service_cidr}
   */
   readonly serviceCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#slb_internet_enabled CsKubernetes#slb_internet_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#slb_internet_enabled CsKubernetes#slb_internet_enabled}
   */
   readonly slbInternetEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#tags CsKubernetes#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#tags CsKubernetes#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#timeout_mins CsKubernetes#timeout_mins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#timeout_mins CsKubernetes#timeout_mins}
   */
   readonly timeoutMins?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#user_data CsKubernetes#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#user_data CsKubernetes#user_data}
   */
   readonly userData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#version CsKubernetes#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#version CsKubernetes#version}
   */
   readonly version?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#vpc_id CsKubernetes#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#vpc_id CsKubernetes#vpc_id}
   */
   readonly vpcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#worker_disk_category CsKubernetes#worker_disk_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#worker_disk_category CsKubernetes#worker_disk_category}
   */
   readonly workerDiskCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#worker_disk_size CsKubernetes#worker_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#worker_disk_encrypt_algorithm CsKubernetes#worker_disk_encrypt_algorithm}
+  */
+  readonly workerDiskEncryptAlgorithm?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#worker_disk_encrypted CsKubernetes#worker_disk_encrypted}
+  */
+  readonly workerDiskEncrypted?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#worker_disk_kms_key_id CsKubernetes#worker_disk_kms_key_id}
+  */
+  readonly workerDiskKmsKeyId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#worker_disk_size CsKubernetes#worker_disk_size}
   */
   readonly workerDiskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#worker_instance_types CsKubernetes#worker_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#worker_instance_types CsKubernetes#worker_instance_types}
   */
   readonly workerInstanceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#worker_storage_set_id CsKubernetes#worker_storage_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#worker_storage_set_id CsKubernetes#worker_storage_set_id}
   */
   readonly workerStorageSetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#worker_storage_set_partition_number CsKubernetes#worker_storage_set_partition_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#worker_storage_set_partition_number CsKubernetes#worker_storage_set_partition_number}
   */
   readonly workerStorageSetPartitionNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#worker_system_disk_performance_level CsKubernetes#worker_system_disk_performance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#worker_system_disk_performance_level CsKubernetes#worker_system_disk_performance_level}
   */
   readonly workerSystemDiskPerformanceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#worker_vswitch_ids CsKubernetes#worker_vswitch_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#worker_vswitch_ids CsKubernetes#worker_vswitch_ids}
   */
   readonly workerVswitchIds?: string[];
   /**
   * addons block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#addons CsKubernetes#addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#addons CsKubernetes#addons}
   */
   readonly addons?: CsKubernetesAddons[] | cdktf.IResolvable;
   /**
   * runtime block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#runtime CsKubernetes#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#runtime CsKubernetes#runtime}
   */
   readonly runtime?: CsKubernetesRuntime;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#timeouts CsKubernetes#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#timeouts CsKubernetes#timeouts}
   */
   readonly timeouts?: CsKubernetesTimeouts;
   /**
   * worker_data_disks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#worker_data_disks CsKubernetes#worker_data_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#worker_data_disks CsKubernetes#worker_data_disks}
   */
   readonly workerDataDisks?: CsKubernetesWorkerDataDisks[] | cdktf.IResolvable;
 }
@@ -423,11 +447,11 @@ export class CsKubernetesWorkerNodesList extends cdktf.ComplexList {
 }
 export interface CsKubernetesAddons {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#config CsKubernetes#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#config CsKubernetes#config}
   */
   readonly config?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#name CsKubernetes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#name CsKubernetes#name}
   */
   readonly name?: string;
 }
@@ -572,11 +596,11 @@ export class CsKubernetesAddonsList extends cdktf.ComplexList {
 }
 export interface CsKubernetesRuntime {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#name CsKubernetes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#name CsKubernetes#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#version CsKubernetes#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#version CsKubernetes#version}
   */
   readonly version?: string;
 }
@@ -689,15 +713,15 @@ export class CsKubernetesRuntimeOutputReference extends cdktf.ComplexObject {
 }
 export interface CsKubernetesTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#create CsKubernetes#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#create CsKubernetes#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#delete CsKubernetes#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#delete CsKubernetes#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#update CsKubernetes#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#update CsKubernetes#update}
   */
   readonly update?: string;
 }
@@ -849,31 +873,27 @@ export class CsKubernetesTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 export interface CsKubernetesWorkerDataDisks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#auto_snapshot_policy_id CsKubernetes#auto_snapshot_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#auto_snapshot_policy_id CsKubernetes#auto_snapshot_policy_id}
   */
   readonly autoSnapshotPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#category CsKubernetes#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#category CsKubernetes#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#encrypt_algorithm CsKubernetes#encrypt_algorithm}
-  */
-  readonly encryptAlgorithm?: string;
-  /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#encrypted CsKubernetes#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#encrypted CsKubernetes#encrypted}
   */
   readonly encrypted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#kms_key_id CsKubernetes#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#kms_key_id CsKubernetes#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#performance_level CsKubernetes#performance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#performance_level CsKubernetes#performance_level}
   */
   readonly performanceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#size CsKubernetes#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#size CsKubernetes#size}
   */
   readonly size?: number;
 }
@@ -886,7 +906,6 @@ export function csKubernetesWorkerDataDisksToTerraform(struct?: CsKubernetesWork
   return {
     auto_snapshot_policy_id: cdktf.stringToTerraform(struct!.autoSnapshotPolicyId),
     category: cdktf.stringToTerraform(struct!.category),
-    encrypt_algorithm: cdktf.stringToTerraform(struct!.encryptAlgorithm),
     encrypted: cdktf.booleanToTerraform(struct!.encrypted),
     kms_key_id: cdktf.stringToTerraform(struct!.kmsKeyId),
     performance_level: cdktf.stringToTerraform(struct!.performanceLevel),
@@ -909,12 +928,6 @@ export function csKubernetesWorkerDataDisksToHclTerraform(struct?: CsKubernetesW
     },
     category: {
       value: cdktf.stringToHclTerraform(struct!.category),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "string",
-    },
-    encrypt_algorithm: {
-      value: cdktf.stringToHclTerraform(struct!.encryptAlgorithm),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -977,10 +990,6 @@ export class CsKubernetesWorkerDataDisksOutputReference extends cdktf.ComplexObj
       hasAnyValues = true;
       internalValueResult.category = this._category;
     }
-    if (this._encryptAlgorithm !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.encryptAlgorithm = this._encryptAlgorithm;
-    }
     if (this._encrypted !== undefined) {
       hasAnyValues = true;
       internalValueResult.encrypted = this._encrypted;
@@ -1006,7 +1015,6 @@ export class CsKubernetesWorkerDataDisksOutputReference extends cdktf.ComplexObj
       this.resolvableValue = undefined;
       this._autoSnapshotPolicyId = undefined;
       this._category = undefined;
-      this._encryptAlgorithm = undefined;
       this._encrypted = undefined;
       this._kmsKeyId = undefined;
       this._performanceLevel = undefined;
@@ -1021,7 +1029,6 @@ export class CsKubernetesWorkerDataDisksOutputReference extends cdktf.ComplexObj
       this.resolvableValue = undefined;
       this._autoSnapshotPolicyId = value.autoSnapshotPolicyId;
       this._category = value.category;
-      this._encryptAlgorithm = value.encryptAlgorithm;
       this._encrypted = value.encrypted;
       this._kmsKeyId = value.kmsKeyId;
       this._performanceLevel = value.performanceLevel;
@@ -1059,22 +1066,6 @@ export class CsKubernetesWorkerDataDisksOutputReference extends cdktf.ComplexObj
   // Temporarily expose input value. Use with caution.
   public get categoryInput() {
     return this._category;
-  }
-
-  // encrypt_algorithm - computed: false, optional: true, required: false
-  private _encryptAlgorithm?: string; 
-  public get encryptAlgorithm() {
-    return this.getStringAttribute('encrypt_algorithm');
-  }
-  public set encryptAlgorithm(value: string) {
-    this._encryptAlgorithm = value;
-  }
-  public resetEncryptAlgorithm() {
-    this._encryptAlgorithm = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get encryptAlgorithmInput() {
-    return this._encryptAlgorithm;
   }
 
   // encrypted - computed: false, optional: true, required: false
@@ -1163,7 +1154,7 @@ export class CsKubernetesWorkerDataDisksList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes alibabacloudstack_cs_kubernetes}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes alibabacloudstack_cs_kubernetes}
 */
 export class CsKubernetes extends cdktf.TerraformResource {
 
@@ -1179,7 +1170,7 @@ export class CsKubernetes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CsKubernetes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CsKubernetes to import
-  * @param importFromId The id of the existing CsKubernetes that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CsKubernetes that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CsKubernetes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1191,7 +1182,7 @@ export class CsKubernetes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cs_kubernetes alibabacloudstack_cs_kubernetes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cs_kubernetes alibabacloudstack_cs_kubernetes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1202,8 +1193,8 @@ export class CsKubernetes extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_cs_kubernetes',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1234,6 +1225,9 @@ export class CsKubernetes extends cdktf.TerraformResource {
     this._kubeConfig = config.kubeConfig;
     this._masterCount = config.masterCount;
     this._masterDiskCategory = config.masterDiskCategory;
+    this._masterDiskEncryptAlgorithm = config.masterDiskEncryptAlgorithm;
+    this._masterDiskEncrypted = config.masterDiskEncrypted;
+    this._masterDiskKmsKeyId = config.masterDiskKmsKeyId;
     this._masterDiskSize = config.masterDiskSize;
     this._masterInstanceTypes = config.masterInstanceTypes;
     this._masterStorageSetId = config.masterStorageSetId;
@@ -1261,6 +1255,9 @@ export class CsKubernetes extends cdktf.TerraformResource {
     this._version = config.version;
     this._vpcId = config.vpcId;
     this._workerDiskCategory = config.workerDiskCategory;
+    this._workerDiskEncryptAlgorithm = config.workerDiskEncryptAlgorithm;
+    this._workerDiskEncrypted = config.workerDiskEncrypted;
+    this._workerDiskKmsKeyId = config.workerDiskKmsKeyId;
     this._workerDiskSize = config.workerDiskSize;
     this._workerInstanceTypes = config.workerInstanceTypes;
     this._workerStorageSetId = config.workerStorageSetId;
@@ -1611,6 +1608,54 @@ export class CsKubernetes extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get masterDiskCategoryInput() {
     return this._masterDiskCategory;
+  }
+
+  // master_disk_encrypt_algorithm - computed: false, optional: true, required: false
+  private _masterDiskEncryptAlgorithm?: string; 
+  public get masterDiskEncryptAlgorithm() {
+    return this.getStringAttribute('master_disk_encrypt_algorithm');
+  }
+  public set masterDiskEncryptAlgorithm(value: string) {
+    this._masterDiskEncryptAlgorithm = value;
+  }
+  public resetMasterDiskEncryptAlgorithm() {
+    this._masterDiskEncryptAlgorithm = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get masterDiskEncryptAlgorithmInput() {
+    return this._masterDiskEncryptAlgorithm;
+  }
+
+  // master_disk_encrypted - computed: false, optional: true, required: false
+  private _masterDiskEncrypted?: boolean | cdktf.IResolvable; 
+  public get masterDiskEncrypted() {
+    return this.getBooleanAttribute('master_disk_encrypted');
+  }
+  public set masterDiskEncrypted(value: boolean | cdktf.IResolvable) {
+    this._masterDiskEncrypted = value;
+  }
+  public resetMasterDiskEncrypted() {
+    this._masterDiskEncrypted = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get masterDiskEncryptedInput() {
+    return this._masterDiskEncrypted;
+  }
+
+  // master_disk_kms_key_id - computed: false, optional: true, required: false
+  private _masterDiskKmsKeyId?: string; 
+  public get masterDiskKmsKeyId() {
+    return this.getStringAttribute('master_disk_kms_key_id');
+  }
+  public set masterDiskKmsKeyId(value: string) {
+    this._masterDiskKmsKeyId = value;
+  }
+  public resetMasterDiskKmsKeyId() {
+    this._masterDiskKmsKeyId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get masterDiskKmsKeyIdInput() {
+    return this._masterDiskKmsKeyId;
   }
 
   // master_disk_size - computed: false, optional: true, required: false
@@ -2054,6 +2099,54 @@ export class CsKubernetes extends cdktf.TerraformResource {
     return this._workerDiskCategory;
   }
 
+  // worker_disk_encrypt_algorithm - computed: false, optional: true, required: false
+  private _workerDiskEncryptAlgorithm?: string; 
+  public get workerDiskEncryptAlgorithm() {
+    return this.getStringAttribute('worker_disk_encrypt_algorithm');
+  }
+  public set workerDiskEncryptAlgorithm(value: string) {
+    this._workerDiskEncryptAlgorithm = value;
+  }
+  public resetWorkerDiskEncryptAlgorithm() {
+    this._workerDiskEncryptAlgorithm = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get workerDiskEncryptAlgorithmInput() {
+    return this._workerDiskEncryptAlgorithm;
+  }
+
+  // worker_disk_encrypted - computed: false, optional: true, required: false
+  private _workerDiskEncrypted?: boolean | cdktf.IResolvable; 
+  public get workerDiskEncrypted() {
+    return this.getBooleanAttribute('worker_disk_encrypted');
+  }
+  public set workerDiskEncrypted(value: boolean | cdktf.IResolvable) {
+    this._workerDiskEncrypted = value;
+  }
+  public resetWorkerDiskEncrypted() {
+    this._workerDiskEncrypted = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get workerDiskEncryptedInput() {
+    return this._workerDiskEncrypted;
+  }
+
+  // worker_disk_kms_key_id - computed: false, optional: true, required: false
+  private _workerDiskKmsKeyId?: string; 
+  public get workerDiskKmsKeyId() {
+    return this.getStringAttribute('worker_disk_kms_key_id');
+  }
+  public set workerDiskKmsKeyId(value: string) {
+    this._workerDiskKmsKeyId = value;
+  }
+  public resetWorkerDiskKmsKeyId() {
+    this._workerDiskKmsKeyId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get workerDiskKmsKeyIdInput() {
+    return this._workerDiskKmsKeyId;
+  }
+
   // worker_disk_size - computed: false, optional: true, required: false
   private _workerDiskSize?: number; 
   public get workerDiskSize() {
@@ -2252,6 +2345,9 @@ export class CsKubernetes extends cdktf.TerraformResource {
       kube_config: cdktf.stringToTerraform(this._kubeConfig),
       master_count: cdktf.numberToTerraform(this._masterCount),
       master_disk_category: cdktf.stringToTerraform(this._masterDiskCategory),
+      master_disk_encrypt_algorithm: cdktf.stringToTerraform(this._masterDiskEncryptAlgorithm),
+      master_disk_encrypted: cdktf.booleanToTerraform(this._masterDiskEncrypted),
+      master_disk_kms_key_id: cdktf.stringToTerraform(this._masterDiskKmsKeyId),
       master_disk_size: cdktf.numberToTerraform(this._masterDiskSize),
       master_instance_types: cdktf.listMapper(cdktf.stringToTerraform, false)(this._masterInstanceTypes),
       master_storage_set_id: cdktf.stringToTerraform(this._masterStorageSetId),
@@ -2279,6 +2375,9 @@ export class CsKubernetes extends cdktf.TerraformResource {
       version: cdktf.stringToTerraform(this._version),
       vpc_id: cdktf.stringToTerraform(this._vpcId),
       worker_disk_category: cdktf.stringToTerraform(this._workerDiskCategory),
+      worker_disk_encrypt_algorithm: cdktf.stringToTerraform(this._workerDiskEncryptAlgorithm),
+      worker_disk_encrypted: cdktf.booleanToTerraform(this._workerDiskEncrypted),
+      worker_disk_kms_key_id: cdktf.stringToTerraform(this._workerDiskKmsKeyId),
       worker_disk_size: cdktf.numberToTerraform(this._workerDiskSize),
       worker_instance_types: cdktf.listMapper(cdktf.stringToTerraform, false)(this._workerInstanceTypes),
       worker_storage_set_id: cdktf.stringToTerraform(this._workerStorageSetId),
@@ -2416,6 +2515,24 @@ export class CsKubernetes extends cdktf.TerraformResource {
       },
       master_disk_category: {
         value: cdktf.stringToHclTerraform(this._masterDiskCategory),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      master_disk_encrypt_algorithm: {
+        value: cdktf.stringToHclTerraform(this._masterDiskEncryptAlgorithm),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      master_disk_encrypted: {
+        value: cdktf.booleanToHclTerraform(this._masterDiskEncrypted),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      master_disk_kms_key_id: {
+        value: cdktf.stringToHclTerraform(this._masterDiskKmsKeyId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -2578,6 +2695,24 @@ export class CsKubernetes extends cdktf.TerraformResource {
       },
       worker_disk_category: {
         value: cdktf.stringToHclTerraform(this._workerDiskCategory),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      worker_disk_encrypt_algorithm: {
+        value: cdktf.stringToHclTerraform(this._workerDiskEncryptAlgorithm),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      worker_disk_encrypted: {
+        value: cdktf.booleanToHclTerraform(this._workerDiskEncrypted),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      worker_disk_kms_key_id: {
+        value: cdktf.stringToHclTerraform(this._workerDiskKmsKeyId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

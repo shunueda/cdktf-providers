@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wireguard
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wireguard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface WireguardConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wireguard#___path___ Wireguard#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wireguard#___path___ Wireguard#___path___}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wireguard#comment Wireguard#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wireguard#comment Wireguard#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wireguard#disabled Wireguard#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wireguard#disabled Wireguard#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wireguard#id Wireguard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wireguard#id Wireguard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,13 +31,13 @@ export interface WireguardConfig extends cdktf.TerraformMetaArguments {
   /**
   * Port for WireGuard service to listen on for incoming sessions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wireguard#listen_port Wireguard#listen_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wireguard#listen_port Wireguard#listen_port}
   */
   readonly listenPort: number;
   /**
   * Layer3 Maximum transmission unit ('auto', 0 .. 65535). Look for the exact minimum value in the MikroTik documentation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wireguard#mtu Wireguard#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wireguard#mtu Wireguard#mtu}
   */
   readonly mtu?: string;
   /**
@@ -46,19 +46,19 @@ export interface WireguardConfig extends cdktf.TerraformMetaArguments {
   * 	> Changing the name of the resource outside of a Terraform will result in a loss of control integrity for that resource!
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wireguard#name Wireguard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wireguard#name Wireguard#name}
   */
   readonly name: string;
   /**
   * A base64 private key. If not specified, it will be automatically generated upon interface creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wireguard#private_key Wireguard#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wireguard#private_key Wireguard#private_key}
   */
   readonly privateKey?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wireguard routeros_wireguard}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wireguard routeros_wireguard}
 */
 export class Wireguard extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class Wireguard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Wireguard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Wireguard to import
-  * @param importFromId The id of the existing Wireguard that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wireguard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Wireguard that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wireguard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Wireguard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class Wireguard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wireguard routeros_wireguard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wireguard routeros_wireguard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class Wireguard extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_wireguard',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.94.0',
-        providerVersionConstraint: '1.94.0'
+        providerVersion: '1.95.0',
+        providerVersionConstraint: '1.95.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

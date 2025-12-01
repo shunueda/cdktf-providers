@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,212 +8,212 @@ import * as cdktf from 'cdktf';
 
 export interface MongodbShardingInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#account_password MongodbShardingInstance#account_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#account_password MongodbShardingInstance#account_password}
   */
   readonly accountPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#auto_renew MongodbShardingInstance#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#auto_renew MongodbShardingInstance#auto_renew}
   */
   readonly autoRenew?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#backup_interval MongodbShardingInstance#backup_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#backup_interval MongodbShardingInstance#backup_interval}
   */
   readonly backupInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#backup_period MongodbShardingInstance#backup_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#backup_period MongodbShardingInstance#backup_period}
   */
   readonly backupPeriod?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#backup_retention_period MongodbShardingInstance#backup_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#backup_retention_period MongodbShardingInstance#backup_retention_period}
   */
   readonly backupRetentionPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#backup_retention_policy_on_cluster_deletion MongodbShardingInstance#backup_retention_policy_on_cluster_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#backup_retention_policy_on_cluster_deletion MongodbShardingInstance#backup_retention_policy_on_cluster_deletion}
   */
   readonly backupRetentionPolicyOnClusterDeletion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#backup_time MongodbShardingInstance#backup_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#backup_time MongodbShardingInstance#backup_time}
   */
   readonly backupTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#cloud_disk_encryption_key MongodbShardingInstance#cloud_disk_encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#cloud_disk_encryption_key MongodbShardingInstance#cloud_disk_encryption_key}
   */
   readonly cloudDiskEncryptionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#db_instance_release_protection MongodbShardingInstance#db_instance_release_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#db_instance_release_protection MongodbShardingInstance#db_instance_release_protection}
   */
   readonly dbInstanceReleaseProtection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#enable_backup_log MongodbShardingInstance#enable_backup_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#enable_backup_log MongodbShardingInstance#enable_backup_log}
   */
   readonly enableBackupLog?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#encrypted MongodbShardingInstance#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#encrypted MongodbShardingInstance#encrypted}
   */
   readonly encrypted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#encryption_key MongodbShardingInstance#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#encryption_key MongodbShardingInstance#encryption_key}
   */
   readonly encryptionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#encryptor_name MongodbShardingInstance#encryptor_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#encryptor_name MongodbShardingInstance#encryptor_name}
   */
   readonly encryptorName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#engine_version MongodbShardingInstance#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#engine_version MongodbShardingInstance#engine_version}
   */
   readonly engineVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#global_security_group_list MongodbShardingInstance#global_security_group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#global_security_group_list MongodbShardingInstance#global_security_group_list}
   */
   readonly globalSecurityGroupList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#hidden_zone_id MongodbShardingInstance#hidden_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#hidden_zone_id MongodbShardingInstance#hidden_zone_id}
   */
   readonly hiddenZoneId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#id MongodbShardingInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#id MongodbShardingInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#instance_charge_type MongodbShardingInstance#instance_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#instance_charge_type MongodbShardingInstance#instance_charge_type}
   */
   readonly instanceChargeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#kms_encrypted_password MongodbShardingInstance#kms_encrypted_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#kms_encrypted_password MongodbShardingInstance#kms_encrypted_password}
   */
   readonly kmsEncryptedPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#kms_encryption_context MongodbShardingInstance#kms_encryption_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#kms_encryption_context MongodbShardingInstance#kms_encryption_context}
   */
   readonly kmsEncryptionContext?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#log_backup_retention_period MongodbShardingInstance#log_backup_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#log_backup_retention_period MongodbShardingInstance#log_backup_retention_period}
   */
   readonly logBackupRetentionPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#maintain_end_time MongodbShardingInstance#maintain_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#maintain_end_time MongodbShardingInstance#maintain_end_time}
   */
   readonly maintainEndTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#maintain_start_time MongodbShardingInstance#maintain_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#maintain_start_time MongodbShardingInstance#maintain_start_time}
   */
   readonly maintainStartTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#name MongodbShardingInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#name MongodbShardingInstance#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#network_type MongodbShardingInstance#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#network_type MongodbShardingInstance#network_type}
   */
   readonly networkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#order_type MongodbShardingInstance#order_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#order_type MongodbShardingInstance#order_type}
   */
   readonly orderType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#period MongodbShardingInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#period MongodbShardingInstance#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#protocol_type MongodbShardingInstance#protocol_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#protocol_type MongodbShardingInstance#protocol_type}
   */
   readonly protocolType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#provisioned_iops MongodbShardingInstance#provisioned_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#provisioned_iops MongodbShardingInstance#provisioned_iops}
   */
   readonly provisionedIops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#resource_group_id MongodbShardingInstance#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#resource_group_id MongodbShardingInstance#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#role_arn MongodbShardingInstance#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#role_arn MongodbShardingInstance#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#secondary_zone_id MongodbShardingInstance#secondary_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#secondary_zone_id MongodbShardingInstance#secondary_zone_id}
   */
   readonly secondaryZoneId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#security_group_id MongodbShardingInstance#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#security_group_id MongodbShardingInstance#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#security_ip_list MongodbShardingInstance#security_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#security_ip_list MongodbShardingInstance#security_ip_list}
   */
   readonly securityIpList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#snapshot_backup_type MongodbShardingInstance#snapshot_backup_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#snapshot_backup_type MongodbShardingInstance#snapshot_backup_type}
   */
   readonly snapshotBackupType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#ssl_action MongodbShardingInstance#ssl_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#ssl_action MongodbShardingInstance#ssl_action}
   */
   readonly sslAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#storage_engine MongodbShardingInstance#storage_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#storage_engine MongodbShardingInstance#storage_engine}
   */
   readonly storageEngine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#storage_type MongodbShardingInstance#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#storage_type MongodbShardingInstance#storage_type}
   */
   readonly storageType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#tags MongodbShardingInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#tags MongodbShardingInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#tde_status MongodbShardingInstance#tde_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#tde_status MongodbShardingInstance#tde_status}
   */
   readonly tdeStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#vpc_id MongodbShardingInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#vpc_id MongodbShardingInstance#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#vswitch_id MongodbShardingInstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#vswitch_id MongodbShardingInstance#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#zone_id MongodbShardingInstance#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#zone_id MongodbShardingInstance#zone_id}
   */
   readonly zoneId?: string;
   /**
   * config_server_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#config_server_list MongodbShardingInstance#config_server_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#config_server_list MongodbShardingInstance#config_server_list}
   */
   readonly configServerList?: MongodbShardingInstanceConfigServerListStruct;
   /**
   * mongo_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#mongo_list MongodbShardingInstance#mongo_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#mongo_list MongodbShardingInstance#mongo_list}
   */
   readonly mongoList: MongodbShardingInstanceMongoListStruct[] | cdktf.IResolvable;
   /**
   * shard_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#shard_list MongodbShardingInstance#shard_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#shard_list MongodbShardingInstance#shard_list}
   */
   readonly shardList: MongodbShardingInstanceShardListStruct[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#timeouts MongodbShardingInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#timeouts MongodbShardingInstance#timeouts}
   */
   readonly timeouts?: MongodbShardingInstanceTimeouts;
 }
 export interface MongodbShardingInstanceConfigServerListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#node_class MongodbShardingInstance#node_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#node_class MongodbShardingInstance#node_class}
   */
   readonly nodeClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#node_storage MongodbShardingInstance#node_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#node_storage MongodbShardingInstance#node_storage}
   */
   readonly nodeStorage?: number;
 }
@@ -356,7 +356,7 @@ export class MongodbShardingInstanceConfigServerListStructOutputReference extend
 }
 export interface MongodbShardingInstanceMongoListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#node_class MongodbShardingInstance#node_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#node_class MongodbShardingInstance#node_class}
   */
   readonly nodeClass: string;
 }
@@ -484,15 +484,15 @@ export class MongodbShardingInstanceMongoListStructList extends cdktf.ComplexLis
 }
 export interface MongodbShardingInstanceShardListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#node_class MongodbShardingInstance#node_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#node_class MongodbShardingInstance#node_class}
   */
   readonly nodeClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#node_storage MongodbShardingInstance#node_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#node_storage MongodbShardingInstance#node_storage}
   */
   readonly nodeStorage: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#readonly_replicas MongodbShardingInstance#readonly_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#readonly_replicas MongodbShardingInstance#readonly_replicas}
   */
   readonly readonlyReplicas?: number;
 }
@@ -665,15 +665,15 @@ export class MongodbShardingInstanceShardListStructList extends cdktf.ComplexLis
 }
 export interface MongodbShardingInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#create MongodbShardingInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#create MongodbShardingInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#delete MongodbShardingInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#delete MongodbShardingInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#update MongodbShardingInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#update MongodbShardingInstance#update}
   */
   readonly update?: string;
 }
@@ -825,7 +825,7 @@ export class MongodbShardingInstanceTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance alicloud_mongodb_sharding_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance alicloud_mongodb_sharding_instance}
 */
 export class MongodbShardingInstance extends cdktf.TerraformResource {
 
@@ -841,7 +841,7 @@ export class MongodbShardingInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MongodbShardingInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MongodbShardingInstance to import
-  * @param importFromId The id of the existing MongodbShardingInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MongodbShardingInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MongodbShardingInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -853,7 +853,7 @@ export class MongodbShardingInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mongodb_sharding_instance alicloud_mongodb_sharding_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mongodb_sharding_instance alicloud_mongodb_sharding_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -864,8 +864,8 @@ export class MongodbShardingInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_mongodb_sharding_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

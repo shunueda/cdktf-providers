@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_lte_apn
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_lte_apn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface InterfaceLteApnConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_lte_apn#___path___ InterfaceLteApn#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_lte_apn#___path___ InterfaceLteApn#___path___}
   */
   readonly path?: string;
   /**
   * Whether to add a default route to forward all traffic over the LTE interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_lte_apn#add_default_route InterfaceLteApn#add_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_lte_apn#add_default_route InterfaceLteApn#add_default_route}
   */
   readonly addDefaultRoute?: boolean | cdktf.IResolvable;
   /**
   * Service Provider's Access Point Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_lte_apn#apn InterfaceLteApn#apn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_lte_apn#apn InterfaceLteApn#apn}
   */
   readonly apn?: string;
   /**
   * Allowed protocol to use for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_lte_apn#authentication InterfaceLteApn#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_lte_apn#authentication InterfaceLteApn#authentication}
   */
   readonly authentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_lte_apn#comment InterfaceLteApn#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_lte_apn#comment InterfaceLteApn#comment}
   */
   readonly comment?: string;
   /**
   * Sets distance value applied to auto-created default route, if add-default-route is also selected. LTE route by default is with distance 2 to prefer wired routes over LTE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_lte_apn#default_route_distance InterfaceLteApn#default_route_distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_lte_apn#default_route_distance InterfaceLteApn#default_route_distance}
   */
   readonly defaultRouteDistance?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_lte_apn#id InterfaceLteApn#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_lte_apn#id InterfaceLteApn#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,73 +51,73 @@ export interface InterfaceLteApnConfig extends cdktf.TerraformMetaArguments {
   /**
   * Requested PDN type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_lte_apn#ip_type InterfaceLteApn#ip_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_lte_apn#ip_type InterfaceLteApn#ip_type}
   */
   readonly ipType?: string;
   /**
   * Interface on which to advertise IPv6 prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_lte_apn#ipv6_interface InterfaceLteApn#ipv6_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_lte_apn#ipv6_interface InterfaceLteApn#ipv6_interface}
   */
   readonly ipv6Interface?: string;
   /**
   * APN profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_lte_apn#name InterfaceLteApn#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_lte_apn#name InterfaceLteApn#name}
   */
   readonly name: string;
   /**
   * APN profile number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_lte_apn#number InterfaceLteApn#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_lte_apn#number InterfaceLteApn#number}
   */
   readonly number?: number;
   /**
   * Interface to passthrough IP configuration (activates passthrough).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_lte_apn#passthrough_interface InterfaceLteApn#passthrough_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_lte_apn#passthrough_interface InterfaceLteApn#passthrough_interface}
   */
   readonly passthroughInterface?: string;
   /**
   * If set to auto, then will learn MAC from the first packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_lte_apn#passthrough_mac InterfaceLteApn#passthrough_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_lte_apn#passthrough_mac InterfaceLteApn#passthrough_mac}
   */
   readonly passthroughMac?: string;
   /**
   * `auto` selects the smallest possible subnet to be used for the passthrough interface. `p2p` sets the passthrough interface subnet as `/32` and picks gateway address from `10.177.0.0/16` range. The gateway address stays the same until the apn configuration is changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_lte_apn#passthrough_subnet_selection InterfaceLteApn#passthrough_subnet_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_lte_apn#passthrough_subnet_selection InterfaceLteApn#passthrough_subnet_selection}
   */
   readonly passthroughSubnetSelection?: string;
   /**
   * Password used if any of the authentication protocols are active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_lte_apn#password InterfaceLteApn#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_lte_apn#password InterfaceLteApn#password}
   */
   readonly password?: string;
   /**
   * Parameter is available starting from RouterOS v7 and used only for MBIM modems. If set to yes, uses network provided APN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_lte_apn#use_network_apn InterfaceLteApn#use_network_apn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_lte_apn#use_network_apn InterfaceLteApn#use_network_apn}
   */
   readonly useNetworkApn?: boolean | cdktf.IResolvable;
   /**
   * If set to yes, uses DNS received from LTE interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_lte_apn#use_peer_dns InterfaceLteApn#use_peer_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_lte_apn#use_peer_dns InterfaceLteApn#use_peer_dns}
   */
   readonly usePeerDns?: boolean | cdktf.IResolvable;
   /**
   * Username used if any of the authentication protocols are active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_lte_apn#user InterfaceLteApn#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_lte_apn#user InterfaceLteApn#user}
   */
   readonly user?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_lte_apn routeros_interface_lte_apn}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_lte_apn routeros_interface_lte_apn}
 */
 export class InterfaceLteApn extends cdktf.TerraformResource {
 
@@ -133,7 +133,7 @@ export class InterfaceLteApn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceLteApn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceLteApn to import
-  * @param importFromId The id of the existing InterfaceLteApn that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_lte_apn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceLteApn that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_lte_apn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceLteApn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -145,7 +145,7 @@ export class InterfaceLteApn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_lte_apn routeros_interface_lte_apn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_lte_apn routeros_interface_lte_apn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -156,8 +156,8 @@ export class InterfaceLteApn extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_interface_lte_apn',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.94.0',
-        providerVersionConstraint: '1.94.0'
+        providerVersion: '1.95.0',
+        providerVersionConstraint: '1.95.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

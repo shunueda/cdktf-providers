@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,104 +8,104 @@ import * as cdktf from 'cdktf';
 
 export interface RdsDbProxyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy#db_proxy_connect_string_port RdsDbProxy#db_proxy_connect_string_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy#db_proxy_connect_string_port RdsDbProxy#db_proxy_connect_string_port}
   */
   readonly dbProxyConnectStringPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy#db_proxy_connection_prefix RdsDbProxy#db_proxy_connection_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy#db_proxy_connection_prefix RdsDbProxy#db_proxy_connection_prefix}
   */
   readonly dbProxyConnectionPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy#db_proxy_endpoint_read_write_mode RdsDbProxy#db_proxy_endpoint_read_write_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy#db_proxy_endpoint_read_write_mode RdsDbProxy#db_proxy_endpoint_read_write_mode}
   */
   readonly dbProxyEndpointReadWriteMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy#db_proxy_features RdsDbProxy#db_proxy_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy#db_proxy_features RdsDbProxy#db_proxy_features}
   */
   readonly dbProxyFeatures?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy#db_proxy_instance_num RdsDbProxy#db_proxy_instance_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy#db_proxy_instance_num RdsDbProxy#db_proxy_instance_num}
   */
   readonly dbProxyInstanceNum: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy#db_proxy_instance_type RdsDbProxy#db_proxy_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy#db_proxy_instance_type RdsDbProxy#db_proxy_instance_type}
   */
   readonly dbProxyInstanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy#db_proxy_ssl_enabled RdsDbProxy#db_proxy_ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy#db_proxy_ssl_enabled RdsDbProxy#db_proxy_ssl_enabled}
   */
   readonly dbProxySslEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy#effective_specific_time RdsDbProxy#effective_specific_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy#effective_specific_time RdsDbProxy#effective_specific_time}
   */
   readonly effectiveSpecificTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy#effective_time RdsDbProxy#effective_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy#effective_time RdsDbProxy#effective_time}
   */
   readonly effectiveTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy#id RdsDbProxy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy#id RdsDbProxy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy#instance_id RdsDbProxy#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy#instance_id RdsDbProxy#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy#instance_network_type RdsDbProxy#instance_network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy#instance_network_type RdsDbProxy#instance_network_type}
   */
   readonly instanceNetworkType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy#read_only_instance_distribution_type RdsDbProxy#read_only_instance_distribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy#read_only_instance_distribution_type RdsDbProxy#read_only_instance_distribution_type}
   */
   readonly readOnlyInstanceDistributionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy#read_only_instance_max_delay_time RdsDbProxy#read_only_instance_max_delay_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy#read_only_instance_max_delay_time RdsDbProxy#read_only_instance_max_delay_time}
   */
   readonly readOnlyInstanceMaxDelayTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy#resource_group_id RdsDbProxy#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy#resource_group_id RdsDbProxy#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy#switch_time RdsDbProxy#switch_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy#switch_time RdsDbProxy#switch_time}
   */
   readonly switchTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy#upgrade_time RdsDbProxy#upgrade_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy#upgrade_time RdsDbProxy#upgrade_time}
   */
   readonly upgradeTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy#vpc_id RdsDbProxy#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy#vpc_id RdsDbProxy#vpc_id}
   */
   readonly vpcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy#vswitch_id RdsDbProxy#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy#vswitch_id RdsDbProxy#vswitch_id}
   */
   readonly vswitchId: string;
   /**
   * read_only_instance_weight block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy#read_only_instance_weight RdsDbProxy#read_only_instance_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy#read_only_instance_weight RdsDbProxy#read_only_instance_weight}
   */
   readonly readOnlyInstanceWeight?: RdsDbProxyReadOnlyInstanceWeight[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy#timeouts RdsDbProxy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy#timeouts RdsDbProxy#timeouts}
   */
   readonly timeouts?: RdsDbProxyTimeouts;
 }
 export interface RdsDbProxyReadOnlyInstanceWeight {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy#instance_id RdsDbProxy#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy#instance_id RdsDbProxy#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy#weight RdsDbProxy#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy#weight RdsDbProxy#weight}
   */
   readonly weight: string;
 }
@@ -244,15 +244,15 @@ export class RdsDbProxyReadOnlyInstanceWeightList extends cdktf.ComplexList {
 }
 export interface RdsDbProxyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy#create RdsDbProxy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy#create RdsDbProxy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy#delete RdsDbProxy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy#delete RdsDbProxy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy#update RdsDbProxy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy#update RdsDbProxy#update}
   */
   readonly update?: string;
 }
@@ -404,7 +404,7 @@ export class RdsDbProxyTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy alicloud_rds_db_proxy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy alicloud_rds_db_proxy}
 */
 export class RdsDbProxy extends cdktf.TerraformResource {
 
@@ -420,7 +420,7 @@ export class RdsDbProxy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RdsDbProxy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsDbProxy to import
-  * @param importFromId The id of the existing RdsDbProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsDbProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsDbProxy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -432,7 +432,7 @@ export class RdsDbProxy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_db_proxy alicloud_rds_db_proxy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_db_proxy alicloud_rds_db_proxy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -443,8 +443,8 @@ export class RdsDbProxy extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_rds_db_proxy',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

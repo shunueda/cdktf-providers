@@ -1,3 +1,3 @@
 # `data_alicloud_drds_instances`
 
-Refer to the Terraform Registry for docs: [`data_alicloud_drds_instances`](https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/drds_instances).
+Refer to the Terraform Registry for docs: [`data_alicloud_drds_instances`](https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/drds_instances).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_saved_query
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_saved_query
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface ResourceManagerSavedQueryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_saved_query#description ResourceManagerSavedQuery#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_saved_query#description ResourceManagerSavedQuery#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_saved_query#expression ResourceManagerSavedQuery#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_saved_query#expression ResourceManagerSavedQuery#expression}
   */
   readonly expression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_saved_query#id ResourceManagerSavedQuery#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_saved_query#id ResourceManagerSavedQuery#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_saved_query#saved_query_name ResourceManagerSavedQuery#saved_query_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_saved_query#saved_query_name ResourceManagerSavedQuery#saved_query_name}
   */
   readonly savedQueryName: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_saved_query#timeouts ResourceManagerSavedQuery#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_saved_query#timeouts ResourceManagerSavedQuery#timeouts}
   */
   readonly timeouts?: ResourceManagerSavedQueryTimeouts;
 }
 export interface ResourceManagerSavedQueryTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_saved_query#create ResourceManagerSavedQuery#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_saved_query#create ResourceManagerSavedQuery#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_saved_query#delete ResourceManagerSavedQuery#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_saved_query#delete ResourceManagerSavedQuery#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_saved_query#update ResourceManagerSavedQuery#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_saved_query#update ResourceManagerSavedQuery#update}
   */
   readonly update?: string;
 }
@@ -195,7 +195,7 @@ export class ResourceManagerSavedQueryTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_saved_query alicloud_resource_manager_saved_query}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_saved_query alicloud_resource_manager_saved_query}
 */
 export class ResourceManagerSavedQuery extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class ResourceManagerSavedQuery extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourceManagerSavedQuery resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceManagerSavedQuery to import
-  * @param importFromId The id of the existing ResourceManagerSavedQuery that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_saved_query#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceManagerSavedQuery that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_saved_query#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceManagerSavedQuery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class ResourceManagerSavedQuery extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_saved_query alicloud_resource_manager_saved_query} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_saved_query alicloud_resource_manager_saved_query} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class ResourceManagerSavedQuery extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_resource_manager_saved_query',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

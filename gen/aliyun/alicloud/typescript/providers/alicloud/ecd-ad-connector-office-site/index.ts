@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecd_ad_connector_office_site
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_ad_connector_office_site
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,102 +8,102 @@ import * as cdktf from 'cdktf';
 
 export interface EcdAdConnectorOfficeSiteConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecd_ad_connector_office_site#ad_connector_office_site_name EcdAdConnectorOfficeSite#ad_connector_office_site_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_ad_connector_office_site#ad_connector_office_site_name EcdAdConnectorOfficeSite#ad_connector_office_site_name}
   */
   readonly adConnectorOfficeSiteName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecd_ad_connector_office_site#ad_hostname EcdAdConnectorOfficeSite#ad_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_ad_connector_office_site#ad_hostname EcdAdConnectorOfficeSite#ad_hostname}
   */
   readonly adHostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecd_ad_connector_office_site#bandwidth EcdAdConnectorOfficeSite#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_ad_connector_office_site#bandwidth EcdAdConnectorOfficeSite#bandwidth}
   */
   readonly bandwidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecd_ad_connector_office_site#cen_id EcdAdConnectorOfficeSite#cen_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_ad_connector_office_site#cen_id EcdAdConnectorOfficeSite#cen_id}
   */
   readonly cenId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecd_ad_connector_office_site#cen_owner_id EcdAdConnectorOfficeSite#cen_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_ad_connector_office_site#cen_owner_id EcdAdConnectorOfficeSite#cen_owner_id}
   */
   readonly cenOwnerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecd_ad_connector_office_site#cidr_block EcdAdConnectorOfficeSite#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_ad_connector_office_site#cidr_block EcdAdConnectorOfficeSite#cidr_block}
   */
   readonly cidrBlock: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecd_ad_connector_office_site#desktop_access_type EcdAdConnectorOfficeSite#desktop_access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_ad_connector_office_site#desktop_access_type EcdAdConnectorOfficeSite#desktop_access_type}
   */
   readonly desktopAccessType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecd_ad_connector_office_site#dns_address EcdAdConnectorOfficeSite#dns_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_ad_connector_office_site#dns_address EcdAdConnectorOfficeSite#dns_address}
   */
   readonly dnsAddress: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecd_ad_connector_office_site#domain_name EcdAdConnectorOfficeSite#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_ad_connector_office_site#domain_name EcdAdConnectorOfficeSite#domain_name}
   */
   readonly domainName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecd_ad_connector_office_site#domain_password EcdAdConnectorOfficeSite#domain_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_ad_connector_office_site#domain_password EcdAdConnectorOfficeSite#domain_password}
   */
   readonly domainPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecd_ad_connector_office_site#domain_user_name EcdAdConnectorOfficeSite#domain_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_ad_connector_office_site#domain_user_name EcdAdConnectorOfficeSite#domain_user_name}
   */
   readonly domainUserName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecd_ad_connector_office_site#enable_admin_access EcdAdConnectorOfficeSite#enable_admin_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_ad_connector_office_site#enable_admin_access EcdAdConnectorOfficeSite#enable_admin_access}
   */
   readonly enableAdminAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecd_ad_connector_office_site#enable_internet_access EcdAdConnectorOfficeSite#enable_internet_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_ad_connector_office_site#enable_internet_access EcdAdConnectorOfficeSite#enable_internet_access}
   */
   readonly enableInternetAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecd_ad_connector_office_site#id EcdAdConnectorOfficeSite#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_ad_connector_office_site#id EcdAdConnectorOfficeSite#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecd_ad_connector_office_site#mfa_enabled EcdAdConnectorOfficeSite#mfa_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_ad_connector_office_site#mfa_enabled EcdAdConnectorOfficeSite#mfa_enabled}
   */
   readonly mfaEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecd_ad_connector_office_site#protocol_type EcdAdConnectorOfficeSite#protocol_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_ad_connector_office_site#protocol_type EcdAdConnectorOfficeSite#protocol_type}
   */
   readonly protocolType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecd_ad_connector_office_site#specification EcdAdConnectorOfficeSite#specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_ad_connector_office_site#specification EcdAdConnectorOfficeSite#specification}
   */
   readonly specification?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecd_ad_connector_office_site#sub_domain_dns_address EcdAdConnectorOfficeSite#sub_domain_dns_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_ad_connector_office_site#sub_domain_dns_address EcdAdConnectorOfficeSite#sub_domain_dns_address}
   */
   readonly subDomainDnsAddress?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecd_ad_connector_office_site#sub_domain_name EcdAdConnectorOfficeSite#sub_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_ad_connector_office_site#sub_domain_name EcdAdConnectorOfficeSite#sub_domain_name}
   */
   readonly subDomainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecd_ad_connector_office_site#verify_code EcdAdConnectorOfficeSite#verify_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_ad_connector_office_site#verify_code EcdAdConnectorOfficeSite#verify_code}
   */
   readonly verifyCode?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecd_ad_connector_office_site#timeouts EcdAdConnectorOfficeSite#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_ad_connector_office_site#timeouts EcdAdConnectorOfficeSite#timeouts}
   */
   readonly timeouts?: EcdAdConnectorOfficeSiteTimeouts;
 }
 export interface EcdAdConnectorOfficeSiteTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecd_ad_connector_office_site#create EcdAdConnectorOfficeSite#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_ad_connector_office_site#create EcdAdConnectorOfficeSite#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecd_ad_connector_office_site#delete EcdAdConnectorOfficeSite#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_ad_connector_office_site#delete EcdAdConnectorOfficeSite#delete}
   */
   readonly delete?: string;
 }
@@ -226,7 +226,7 @@ export class EcdAdConnectorOfficeSiteTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecd_ad_connector_office_site alicloud_ecd_ad_connector_office_site}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_ad_connector_office_site alicloud_ecd_ad_connector_office_site}
 */
 export class EcdAdConnectorOfficeSite extends cdktf.TerraformResource {
 
@@ -242,7 +242,7 @@ export class EcdAdConnectorOfficeSite extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EcdAdConnectorOfficeSite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcdAdConnectorOfficeSite to import
-  * @param importFromId The id of the existing EcdAdConnectorOfficeSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecd_ad_connector_office_site#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcdAdConnectorOfficeSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_ad_connector_office_site#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcdAdConnectorOfficeSite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -254,7 +254,7 @@ export class EcdAdConnectorOfficeSite extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecd_ad_connector_office_site alicloud_ecd_ad_connector_office_site} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecd_ad_connector_office_site alicloud_ecd_ad_connector_office_site} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -265,8 +265,8 @@ export class EcdAdConnectorOfficeSite extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ecd_ad_connector_office_site',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

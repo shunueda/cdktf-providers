@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOracleDbAnthosapisComExportV1Alpha1ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#metadata DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#metadata DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SOracleDbAnthosapisComExportV1Alpha1ManifestMetadata;
   /**
   * ExportSpec defines the desired state of Export
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#spec DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#spec DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SOracleDbAnthosapisComExportV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SOracleDbAnthosapisComExportV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#annotations DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#annotations DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#labels DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#labels DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#namespace DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#namespace DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,49 +219,49 @@ export interface DataK8SOracleDbAnthosapisComExportV1Alpha1ManifestSpec {
   /**
   * DatabaseName is the database resource name within Instance to export from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#database_name DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#database_name DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#database_name}
   */
   readonly databaseName: string;
   /**
   * ExportObjectType is the type of objects to export. If omitted, the default of Schemas is assumed. Supported options at this point are: Schemas or Tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#export_object_type DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#export_object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#export_object_type DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#export_object_type}
   */
   readonly exportObjectType?: string;
   /**
   * ExportObjects are objects, schemas or tables, exported by DataPump.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#export_objects DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#export_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#export_objects DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#export_objects}
   */
   readonly exportObjects?: string[];
   /**
   * FlashbackTime is an optional time. If this time is set, the SCN that most closely matches the time is found, and this SCN is used to enable the Flashback utility. The export operation is performed with data that is consistent up to this SCN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#flashback_time DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#flashback_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#flashback_time DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#flashback_time}
   */
   readonly flashbackTime?: string;
   /**
   * GcsLogPath is an optional full path in GCS. If set up ahead of time, export logs can be optionally transferred to set GCS bucket. A user is to ensure proper write access to the bucket from within the Oracle Operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#gcs_log_path DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#gcs_log_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#gcs_log_path DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#gcs_log_path}
   */
   readonly gcsLogPath?: string;
   /**
   * GcsPath is a full path in GCS bucket to transfer exported files to. A user is to ensure proper write access to the bucket from within the Oracle Operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#gcs_path DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#gcs_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#gcs_path DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#gcs_path}
   */
   readonly gcsPath?: string;
   /**
   * Instance is the resource name within namespace to export from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#instance DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#instance DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#instance}
   */
   readonly instance: string;
   /**
   * Type of the Export. If omitted, the default of DataPump is assumed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#type DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#type DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -552,7 +552,7 @@ export class DataK8SOracleDbAnthosapisComExportV1Alpha1ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest k8s_oracle_db_anthosapis_com_export_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest k8s_oracle_db_anthosapis_com_export_v1alpha1_manifest}
 */
 export class DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -568,7 +568,7 @@ export class DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -580,7 +580,7 @@ export class DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest k8s_oracle_db_anthosapis_com_export_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_export_v1alpha1_manifest k8s_oracle_db_anthosapis_com_export_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -591,8 +591,8 @@ export class DataK8SOracleDbAnthosapisComExportV1Alpha1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_oracle_db_anthosapis_com_export_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_basic_endpoint
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_basic_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,39 +8,39 @@ import * as cdktf from 'cdktf';
 
 export interface GaBasicEndpointConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_basic_endpoint#accelerator_id GaBasicEndpoint#accelerator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_basic_endpoint#accelerator_id GaBasicEndpoint#accelerator_id}
   */
   readonly acceleratorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_basic_endpoint#basic_endpoint_name GaBasicEndpoint#basic_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_basic_endpoint#basic_endpoint_name GaBasicEndpoint#basic_endpoint_name}
   */
   readonly basicEndpointName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_basic_endpoint#endpoint_address GaBasicEndpoint#endpoint_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_basic_endpoint#endpoint_address GaBasicEndpoint#endpoint_address}
   */
   readonly endpointAddress: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_basic_endpoint#endpoint_group_id GaBasicEndpoint#endpoint_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_basic_endpoint#endpoint_group_id GaBasicEndpoint#endpoint_group_id}
   */
   readonly endpointGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_basic_endpoint#endpoint_sub_address GaBasicEndpoint#endpoint_sub_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_basic_endpoint#endpoint_sub_address GaBasicEndpoint#endpoint_sub_address}
   */
   readonly endpointSubAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_basic_endpoint#endpoint_sub_address_type GaBasicEndpoint#endpoint_sub_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_basic_endpoint#endpoint_sub_address_type GaBasicEndpoint#endpoint_sub_address_type}
   */
   readonly endpointSubAddressType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_basic_endpoint#endpoint_type GaBasicEndpoint#endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_basic_endpoint#endpoint_type GaBasicEndpoint#endpoint_type}
   */
   readonly endpointType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_basic_endpoint#endpoint_zone_id GaBasicEndpoint#endpoint_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_basic_endpoint#endpoint_zone_id GaBasicEndpoint#endpoint_zone_id}
   */
   readonly endpointZoneId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_basic_endpoint#id GaBasicEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_basic_endpoint#id GaBasicEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,21 +49,21 @@ export interface GaBasicEndpointConfig extends cdktf.TerraformMetaArguments {
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_basic_endpoint#timeouts GaBasicEndpoint#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_basic_endpoint#timeouts GaBasicEndpoint#timeouts}
   */
   readonly timeouts?: GaBasicEndpointTimeouts;
 }
 export interface GaBasicEndpointTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_basic_endpoint#create GaBasicEndpoint#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_basic_endpoint#create GaBasicEndpoint#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_basic_endpoint#delete GaBasicEndpoint#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_basic_endpoint#delete GaBasicEndpoint#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_basic_endpoint#update GaBasicEndpoint#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_basic_endpoint#update GaBasicEndpoint#update}
   */
   readonly update?: string;
 }
@@ -215,7 +215,7 @@ export class GaBasicEndpointTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_basic_endpoint alicloud_ga_basic_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_basic_endpoint alicloud_ga_basic_endpoint}
 */
 export class GaBasicEndpoint extends cdktf.TerraformResource {
 
@@ -231,7 +231,7 @@ export class GaBasicEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GaBasicEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GaBasicEndpoint to import
-  * @param importFromId The id of the existing GaBasicEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_basic_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GaBasicEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_basic_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GaBasicEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -243,7 +243,7 @@ export class GaBasicEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_basic_endpoint alicloud_ga_basic_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_basic_endpoint alicloud_ga_basic_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -254,8 +254,8 @@ export class GaBasicEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ga_basic_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

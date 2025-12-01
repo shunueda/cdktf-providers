@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/warehouse_time_series
+// https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_time_series
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface WarehouseTimeSeriesConfig extends cdktf.TerraformMetaArguments 
   /**
   * An array of aggregation functions (e.g., `avg`, `min`, `max`). If omitted, no aggregations are applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/warehouse_time_series#aggregations WarehouseTimeSeries#aggregations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_time_series#aggregations WarehouseTimeSeries#aggregations}
   */
   readonly aggregations?: string[];
   /**
   * The type of vector index to apply (e.g., `vector_similarity`). Only applicable for vector types (`array_bfloat16`, `array_float32`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/warehouse_time_series#expression_index WarehouseTimeSeries#expression_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_time_series#expression_index WarehouseTimeSeries#expression_index}
   */
   readonly expressionIndex?: string;
   /**
   * The name of the time series. Must contain only letters, numbers, and underscores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/warehouse_time_series#name WarehouseTimeSeries#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_time_series#name WarehouseTimeSeries#name}
   */
   readonly name: string;
   /**
   * The ID of the Warehouse source to create the time series for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/warehouse_time_series#source_id WarehouseTimeSeries#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_time_series#source_id WarehouseTimeSeries#source_id}
   */
   readonly sourceId: string;
   /**
   * The SQL expression used to compute the time series. For example `JSONExtract(raw, 'response_time', 'Nullable(Float64)')`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/warehouse_time_series#sql_expression WarehouseTimeSeries#sql_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_time_series#sql_expression WarehouseTimeSeries#sql_expression}
   */
   readonly sqlExpression: string;
   /**
   * The data type of the time series. Valid types are: `string`, `string_low_cardinality`, `int64_delta`, `int64`, `uint64_delta`, `uint64`, `float64_delta`, `datetime64_delta`, `boolean`, `array_bfloat16`, `array_float32`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/warehouse_time_series#type WarehouseTimeSeries#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_time_series#type WarehouseTimeSeries#type}
   */
   readonly type: string;
   /**
   * The vector dimension if `expression_index` is `vector_similarity` (e.g., `512`). Supported values: 256, 384, 512, 768, 1024, 1536, 3072, 4096, 10752.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/warehouse_time_series#vector_dimension WarehouseTimeSeries#vector_dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_time_series#vector_dimension WarehouseTimeSeries#vector_dimension}
   */
   readonly vectorDimension?: number;
   /**
   * The distance function to use for vector similarity (e.g., `cosine`, `l2`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/warehouse_time_series#vector_distance_function WarehouseTimeSeries#vector_distance_function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_time_series#vector_distance_function WarehouseTimeSeries#vector_distance_function}
   */
   readonly vectorDistanceFunction?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/warehouse_time_series logtail_warehouse_time_series}
+* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_time_series logtail_warehouse_time_series}
 */
 export class WarehouseTimeSeries extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class WarehouseTimeSeries extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WarehouseTimeSeries resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WarehouseTimeSeries to import
-  * @param importFromId The id of the existing WarehouseTimeSeries that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/warehouse_time_series#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WarehouseTimeSeries that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_time_series#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WarehouseTimeSeries to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class WarehouseTimeSeries extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/warehouse_time_series logtail_warehouse_time_series} Resource
+  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_time_series logtail_warehouse_time_series} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class WarehouseTimeSeries extends cdktf.TerraformResource {
       terraformResourceType: 'logtail_warehouse_time_series',
       terraformGeneratorMetadata: {
         providerName: 'logtail',
-        providerVersion: '0.7.1',
-        providerVersionConstraint: '0.7.1'
+        providerVersion: '0.7.2',
+        providerVersionConstraint: '0.7.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

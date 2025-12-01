@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/slb_servercertificate
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/slb_servercertificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface SlbServercertificateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/slb_servercertificate#id SlbServercertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/slb_servercertificate#id SlbServercertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/slb_servercertificate#name SlbServercertificate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/slb_servercertificate#name SlbServercertificate#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/slb_servercertificate#private_key SlbServercertificate#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/slb_servercertificate#private_key SlbServercertificate#private_key}
   */
   readonly privateKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/slb_servercertificate#server_certificate SlbServercertificate#server_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/slb_servercertificate#server_certificate SlbServercertificate#server_certificate}
   */
   readonly serverCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/slb_servercertificate#server_certificate_name SlbServercertificate#server_certificate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/slb_servercertificate#server_certificate_name SlbServercertificate#server_certificate_name}
   */
   readonly serverCertificateName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/slb_servercertificate alibabacloudstack_slb_servercertificate}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/slb_servercertificate alibabacloudstack_slb_servercertificate}
 */
 export class SlbServercertificate extends cdktf.TerraformResource {
 
@@ -49,7 +49,7 @@ export class SlbServercertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbServercertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbServercertificate to import
-  * @param importFromId The id of the existing SlbServercertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/slb_servercertificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbServercertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/slb_servercertificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbServercertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class SlbServercertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/slb_servercertificate alibabacloudstack_slb_servercertificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/slb_servercertificate alibabacloudstack_slb_servercertificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class SlbServercertificate extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_slb_servercertificate',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

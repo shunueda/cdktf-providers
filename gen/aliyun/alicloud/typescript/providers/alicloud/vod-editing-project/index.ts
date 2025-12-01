@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vod_editing_project
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vod_editing_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface VodEditingProjectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vod_editing_project#cover_url VodEditingProject#cover_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vod_editing_project#cover_url VodEditingProject#cover_url}
   */
   readonly coverUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vod_editing_project#division VodEditingProject#division}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vod_editing_project#division VodEditingProject#division}
   */
   readonly division?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vod_editing_project#editing_project_name VodEditingProject#editing_project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vod_editing_project#editing_project_name VodEditingProject#editing_project_name}
   */
   readonly editingProjectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vod_editing_project#id VodEditingProject#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vod_editing_project#id VodEditingProject#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vod_editing_project#timeline VodEditingProject#timeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vod_editing_project#timeline VodEditingProject#timeline}
   */
   readonly timeline?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vod_editing_project#title VodEditingProject#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vod_editing_project#title VodEditingProject#title}
   */
   readonly title: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vod_editing_project#timeouts VodEditingProject#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vod_editing_project#timeouts VodEditingProject#timeouts}
   */
   readonly timeouts?: VodEditingProjectTimeouts;
 }
 export interface VodEditingProjectTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vod_editing_project#create VodEditingProject#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vod_editing_project#create VodEditingProject#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vod_editing_project#delete VodEditingProject#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vod_editing_project#delete VodEditingProject#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vod_editing_project#update VodEditingProject#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vod_editing_project#update VodEditingProject#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class VodEditingProjectTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vod_editing_project alicloud_vod_editing_project}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vod_editing_project alicloud_vod_editing_project}
 */
 export class VodEditingProject extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class VodEditingProject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VodEditingProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VodEditingProject to import
-  * @param importFromId The id of the existing VodEditingProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vod_editing_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VodEditingProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vod_editing_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VodEditingProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class VodEditingProject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vod_editing_project alicloud_vod_editing_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vod_editing_project alicloud_vod_editing_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class VodEditingProject extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_vod_editing_project',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

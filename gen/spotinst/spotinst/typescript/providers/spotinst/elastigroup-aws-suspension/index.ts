@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/elastigroup_aws_suspension
+// https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/elastigroup_aws_suspension
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface ElastigroupAwsSuspensionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/elastigroup_aws_suspension#group_id ElastigroupAwsSuspension#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/elastigroup_aws_suspension#group_id ElastigroupAwsSuspension#group_id}
   */
   readonly groupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/elastigroup_aws_suspension#id ElastigroupAwsSuspension#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/elastigroup_aws_suspension#id ElastigroupAwsSuspension#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,13 +21,13 @@ export interface ElastigroupAwsSuspensionConfig extends cdktf.TerraformMetaArgum
   /**
   * suspension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/elastigroup_aws_suspension#suspension ElastigroupAwsSuspension#suspension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/elastigroup_aws_suspension#suspension ElastigroupAwsSuspension#suspension}
   */
   readonly suspension: ElastigroupAwsSuspensionSuspension[] | cdktf.IResolvable;
 }
 export interface ElastigroupAwsSuspensionSuspension {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/elastigroup_aws_suspension#name ElastigroupAwsSuspension#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/elastigroup_aws_suspension#name ElastigroupAwsSuspension#name}
   */
   readonly name: string;
 }
@@ -140,7 +140,7 @@ export class ElastigroupAwsSuspensionSuspensionList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/elastigroup_aws_suspension spotinst_elastigroup_aws_suspension}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/elastigroup_aws_suspension spotinst_elastigroup_aws_suspension}
 */
 export class ElastigroupAwsSuspension extends cdktf.TerraformResource {
 
@@ -156,7 +156,7 @@ export class ElastigroupAwsSuspension extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElastigroupAwsSuspension resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElastigroupAwsSuspension to import
-  * @param importFromId The id of the existing ElastigroupAwsSuspension that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/elastigroup_aws_suspension#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElastigroupAwsSuspension that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/elastigroup_aws_suspension#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElastigroupAwsSuspension to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -168,7 +168,7 @@ export class ElastigroupAwsSuspension extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/elastigroup_aws_suspension spotinst_elastigroup_aws_suspension} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/elastigroup_aws_suspension spotinst_elastigroup_aws_suspension} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -179,8 +179,8 @@ export class ElastigroupAwsSuspension extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_elastigroup_aws_suspension',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.230.0',
-        providerVersionConstraint: '1.230.0'
+        providerVersion: '1.231.0',
+        providerVersionConstraint: '1.231.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

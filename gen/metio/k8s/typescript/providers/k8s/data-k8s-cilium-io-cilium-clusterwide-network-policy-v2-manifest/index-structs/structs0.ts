@@ -3,19 +3,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestMetadata
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#annotations DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#annotations DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
   */
   readonly name: string;
 }
@@ -166,7 +166,7 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * Mode is the required authentication mode for the allowed traffic, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#mode DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#mode DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#mode}
   */
   readonly mode: string;
 }
@@ -259,13 +259,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * Family is a IP address version. Currently, we support 'IPv4' and 'IPv6'. 'IPv4' is set as default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#family DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#family DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#family}
   */
   readonly family?: string;
   /**
   * Type is a ICMP-type. It should be an 8bit code (0-255), or it's CamelCase name (for example, 'EchoReply'). Allowed ICMP types are: Ipv4: EchoReply | DestinationUnreachable | Redirect | Echo | EchoRequest | RouterAdvertisement | RouterSelection | TimeExceeded | ParameterProblem | Timestamp | TimestampReply | Photuris | ExtendedEcho Request | ExtendedEcho Reply Ipv6: DestinationUnreachable | PacketTooBig | TimeExceeded | ParameterProblem | EchoRequest | EchoReply | MulticastListenerQuery| MulticastListenerReport | MulticastListenerDone | RouterSolicitation | RouterAdvertisement | NeighborSolicitation | NeighborAdvertisement | RedirectMessage | RouterRenumbering | ICMPNodeInformationQuery | ICMPNodeInformationResponse | InverseNeighborDiscoverySolicitation | InverseNeighborDiscoveryAdvertisement | HomeAgentAddressDiscoveryRequest | HomeAgentAddressDiscoveryReply | MobilePrefixSolicitation | MobilePrefixAdvertisement | DuplicateAddressRequestCodeSuffix | DuplicateAddressConfirmationCodeSuffix | ExtendedEchoRequest | ExtendedEchoReply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#type DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#type DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#type}
   */
   readonly type: string;
 }
@@ -409,7 +409,7 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * Fields is a list of ICMP fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#fields DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#fields DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#fields}
   */
   readonly fields?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressIcmpsFields[] | cdktf.IResolvable;
 }
@@ -527,19 +527,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * CIDR is a CIDR prefix / IP Block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#cidr DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#cidr DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#cidr}
   */
   readonly cidr?: string;
   /**
   * CIDRGroupRef is a reference to a CiliumCIDRGroup object. A CiliumCIDRGroup contains a list of CIDRs that the endpoint, subject to the rule, can (Ingress/Egress) or cannot (IngressDeny/EgressDeny) receive connections from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#cidr_group_ref DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#cidr_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#cidr_group_ref DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#cidr_group_ref}
   */
   readonly cidrGroupRef?: string;
   /**
   * ExceptCIDRs is a list of IP blocks which the endpoint subject to the rule is not allowed to initiate connections to. These CIDR prefixes should be contained within Cidr, using ExceptCIDRs together with CIDRGroupRef is not supported yet. These exceptions are only applied to the Cidr in this CIDRRule, and do not apply to any other CIDR prefixes in any other CIDRRules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#except DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#except DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#except}
   */
   readonly except?: string[];
 }
@@ -715,19 +715,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -897,13 +897,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToEndpointsMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1050,13 +1050,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * MatchName matches literal DNS names. A trailing '.' is automatically added when missing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_name}
   */
   readonly matchName?: string;
   /**
   * MatchPattern allows using wildcards to match DNS names. All wildcards are case insensitive. The wildcards are: - '*' matches 0 or more DNS valid characters, and may occur anywhere in the pattern. As a special case a '*' as the leftmost character, without a following '.' matches all subdomains as well as the name to the right. A trailing '.' is automatically added when missing. Examples: '*.cilium.io' matches subomains of cilium at that level www.cilium.io and blog.cilium.io match, cilium.io and google.com do not '*cilium.io' matches cilium.io and all subdomains ends with 'cilium.io' except those containing '.' separator, subcilium.io and sub-cilium.io match, www.cilium.io and blog.cilium.io does not sub*.cilium.io matches subdomains of cilium where the subdomain component begins with 'sub' sub.cilium.io and subdomain.cilium.io match, www.cilium.io, blog.cilium.io, cilium.io and google.com do not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_pattern DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_pattern DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_pattern}
   */
   readonly matchPattern?: string;
 }
@@ -1201,19 +1201,19 @@ export class DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressTo
 }
 export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToGroupsAws {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#region DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#region DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#security_groups_ids DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#security_groups_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#security_groups_ids DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#security_groups_ids}
   */
   readonly securityGroupsIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#security_groups_names DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#security_groups_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#security_groups_names DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#security_groups_names}
   */
   readonly securityGroupsNames?: string[];
 }
@@ -1396,7 +1396,7 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * AWSGroup is an structure that can be used to whitelisting information from AWS integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#aws DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#aws DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#aws}
   */
   readonly aws?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToGroupsAws;
 }
@@ -1514,19 +1514,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1696,13 +1696,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToNodesMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1849,13 +1849,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * Kind is the resource type being referred to. Defaults to CiliumEnvoyConfig or CiliumClusterwideEnvoyConfig for CiliumNetworkPolicy and CiliumClusterwideNetworkPolicy, respectively. The only case this is currently explicitly needed is when referring to a CiliumClusterwideEnvoyConfig from CiliumNetworkPolicy, as using a namespaced listener from a cluster scoped policy is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#kind DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#kind DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name is the resource name of the CiliumEnvoyConfig or CiliumClusterwideEnvoyConfig where the listener is defined in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
   */
   readonly name: string;
 }
@@ -1977,19 +1977,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * EnvoyConfig is a reference to the CEC or CCEC resource in which the listener is defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#envoy_config DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#envoy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#envoy_config DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#envoy_config}
   */
   readonly envoyConfig: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToPortsListenerEnvoyConfig;
   /**
   * Name is the name of the listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
   */
   readonly name: string;
   /**
   * Priority for this Listener that is used when multiple rules would apply different listeners to a policy map entry. Behavior of this is implementation dependent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#priority DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#priority DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#priority}
   */
   readonly priority?: number;
 }
@@ -2137,13 +2137,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * Name is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace in which the secret exists. Context of use determines the default value if left out (e.g., 'default').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2265,25 +2265,25 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * Certificate is the file name or k8s secret item name for the certificate chain. If omitted, 'tls.crt' is assumed, if it exists. If given, the item must exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#certificate DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#certificate DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#certificate}
   */
   readonly certificate?: string;
   /**
   * PrivateKey is the file name or k8s secret item name for the private key matching the certificate chain. If omitted, 'tls.key' is assumed, if it exists. If given, the item must exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#private_key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#private_key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#private_key}
   */
   readonly privateKey?: string;
   /**
   * Secret is the secret that contains the certificates and private key for the TLS context. By default, Cilium will search in this secret for the following items: - 'ca.crt' - Which represents the trusted CA to verify remote source. - 'tls.crt' - Which represents the public key certificate. - 'tls.key' - Which represents the private key matching the public key certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#secret DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#secret DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#secret}
   */
   readonly secret: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToPortsOriginatingTlsSecret;
   /**
   * TrustedCA is the file name or k8s secret item name for the trusted CA. If omitted, 'ca.crt' is assumed, if it exists. If given, the item must exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#trusted_ca DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#trusted_ca DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#trusted_ca}
   */
   readonly trustedCa?: string;
 }
@@ -2463,19 +2463,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * EndPort can only be an L4 port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#end_port DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#end_port DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#end_port}
   */
   readonly endPort?: number;
   /**
   * Port can be an L4 port number, or a name in the form of 'http' or 'http-8080'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#port DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#port DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#port}
   */
   readonly port: string;
   /**
   * Protocol is the L4 protocol. If omitted or empty, any protocol matches. Accepted values: 'TCP', 'UDP', 'SCTP', 'ANY' Matching on ICMP is not supported. Named port specified for a container may narrow this down, but may not contradict this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#protocol DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#protocol DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -2648,13 +2648,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * MatchName matches literal DNS names. A trailing '.' is automatically added when missing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_name}
   */
   readonly matchName?: string;
   /**
   * MatchPattern allows using wildcards to match DNS names. All wildcards are case insensitive. The wildcards are: - '*' matches 0 or more DNS valid characters, and may occur anywhere in the pattern. As a special case a '*' as the leftmost character, without a following '.' matches all subdomains as well as the name to the right. A trailing '.' is automatically added when missing. Examples: '*.cilium.io' matches subomains of cilium at that level www.cilium.io and blog.cilium.io match, cilium.io and google.com do not '*cilium.io' matches cilium.io and all subdomains ends with 'cilium.io' except those containing '.' separator, subcilium.io and sub-cilium.io match, www.cilium.io and blog.cilium.io does not sub*.cilium.io matches subdomains of cilium where the subdomain component begins with 'sub' sub.cilium.io and subdomain.cilium.io match, www.cilium.io, blog.cilium.io, cilium.io and google.com do not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_pattern DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_pattern DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_pattern}
   */
   readonly matchPattern?: string;
 }
@@ -2801,13 +2801,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * Name is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace in which the secret exists. Context of use determines the default value if left out (e.g., 'default').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2929,25 +2929,25 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * Mismatch identifies what to do in case there is no match. The default is to drop the request. Otherwise the overall rule is still considered as matching, but the mismatches are logged in the access log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#mismatch DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#mismatch DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#mismatch}
   */
   readonly mismatch?: string;
   /**
   * Name identifies the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
   */
   readonly name: string;
   /**
   * Secret refers to a secret that contains the value to be matched against. The secret must only contain one entry. If the referred secret does not exist, and there is no 'Value' specified, the match will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#secret DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#secret DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#secret}
   */
   readonly secret?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToPortsRulesHttpHeaderMatchesSecret;
   /**
   * Value matches the exact value of the header. Can be specified either alone or together with 'Secret'; will be used as the header value if the secret can not be found in the latter case.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#value DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#value DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#value}
   */
   readonly value?: string;
 }
@@ -3149,31 +3149,31 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * HeaderMatches is a list of HTTP headers which must be present and match against the given values. Mismatch field can be used to specify what to do when there is no match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#header_matches DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#header_matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#header_matches DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#header_matches}
   */
   readonly headerMatches?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToPortsRulesHttpHeaderMatches[] | cdktf.IResolvable;
   /**
   * Headers is a list of HTTP headers which must be present in the request. If omitted or empty, requests are allowed regardless of headers present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#headers DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#headers DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#headers}
   */
   readonly headers?: string[];
   /**
   * Host is an extended POSIX regex matched against the host header of a request. Examples: - foo.bar.com will match the host fooXbar.com or foo-bar.com - foo.bar.com will only match the host foo.bar.com If omitted or empty, the value of the host header is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#host DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#host DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#host}
   */
   readonly host?: string;
   /**
   * Method is an extended POSIX regex matched against the method of a request, e.g. 'GET', 'POST', 'PUT', 'PATCH', 'DELETE', ... If omitted or empty, all methods are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#method DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#method DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#method}
   */
   readonly method?: string;
   /**
   * Path is an extended POSIX regex matched against the path of a request. Currently it can contain characters disallowed from the conventional 'path' part of a URL as defined by RFC 3986. If omitted or empty, all paths are all allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#path DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#path DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#path}
   */
   readonly path?: string;
 }
@@ -3407,31 +3407,31 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * APIKey is a case-insensitive string matched against the key of a request, e.g. 'produce', 'fetch', 'createtopic', 'deletetopic', et al Reference: https://kafka.apache.org/protocol#protocol_api_keys If omitted or empty, and if Role is not specified, then all keys are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#api_key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#api_key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#api_key}
   */
   readonly apiKey?: string;
   /**
   * APIVersion is the version matched against the api version of the Kafka message. If set, it has to be a string representing a positive integer. If omitted or empty, all versions are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#api_version DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#api_version DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * ClientID is the client identifier as provided in the request. From Kafka protocol documentation: This is a user supplied identifier for the client application. The user can use any identifier they like and it will be used when logging errors, monitoring aggregates, etc. For example, one might want to monitor not just the requests per second overall, but the number coming from each client application (each of which could reside on multiple servers). This id acts as a logical grouping across all requests from a particular client. If omitted or empty, all client identifiers are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#client_id DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#client_id DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#client_id}
   */
   readonly clientId?: string;
   /**
   * Role is a case-insensitive string and describes a group of API keys necessary to perform certain higher-level Kafka operations such as 'produce' or 'consume'. A Role automatically expands into all APIKeys required to perform the specified higher-level operation. The following values are supported: - 'produce': Allow producing to the topics specified in the rule - 'consume': Allow consuming from the topics specified in the rule This field is incompatible with the APIKey field, i.e APIKey and Role cannot both be specified in the same rule. If omitted or empty, and if APIKey is not specified, then all keys are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#role DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#role DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#role}
   */
   readonly role?: string;
   /**
   * Topic is the topic name contained in the message. If a Kafka request contains multiple topics, then all topics must be allowed or the message will be rejected. This constraint is ignored if the matched request message type doesn't contain any topic. Maximum size of Topic can be 249 characters as per recent Kafka spec and allowed characters are a-z, A-Z, 0-9, -, . and _. Older Kafka versions had longer topic lengths of 255, but in Kafka 0.10 version the length was changed from 255 to 249. For compatibility reasons we are using 255. If omitted or empty, all topics are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#topic DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#topic DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#topic}
   */
   readonly topic?: string;
 }
@@ -3665,31 +3665,31 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * DNS-specific rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#dns DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#dns DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#dns}
   */
   readonly dns?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToPortsRulesDns[] | cdktf.IResolvable;
   /**
   * HTTP specific rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#http DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#http DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#http}
   */
   readonly http?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToPortsRulesHttp[] | cdktf.IResolvable;
   /**
   * Kafka-specific rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#kafka DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#kafka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#kafka DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#kafka}
   */
   readonly kafka?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToPortsRulesKafka[] | cdktf.IResolvable;
   /**
   * Key-value pair rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#l7 DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#l7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#l7 DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#l7}
   */
   readonly l7?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * Name of the L7 protocol for which the Key-value pair rules apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#l7proto DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#l7proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#l7proto DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#l7proto}
   */
   readonly l7Proto?: string;
 }
@@ -3901,13 +3901,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * Name is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace in which the secret exists. Context of use determines the default value if left out (e.g., 'default').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -4029,25 +4029,25 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * Certificate is the file name or k8s secret item name for the certificate chain. If omitted, 'tls.crt' is assumed, if it exists. If given, the item must exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#certificate DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#certificate DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#certificate}
   */
   readonly certificate?: string;
   /**
   * PrivateKey is the file name or k8s secret item name for the private key matching the certificate chain. If omitted, 'tls.key' is assumed, if it exists. If given, the item must exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#private_key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#private_key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#private_key}
   */
   readonly privateKey?: string;
   /**
   * Secret is the secret that contains the certificates and private key for the TLS context. By default, Cilium will search in this secret for the following items: - 'ca.crt' - Which represents the trusted CA to verify remote source. - 'tls.crt' - Which represents the public key certificate. - 'tls.key' - Which represents the private key matching the public key certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#secret DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#secret DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#secret}
   */
   readonly secret: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToPortsTerminatingTlsSecret;
   /**
   * TrustedCA is the file name or k8s secret item name for the trusted CA. If omitted, 'ca.crt' is assumed, if it exists. If given, the item must exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#trusted_ca DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#trusted_ca DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#trusted_ca}
   */
   readonly trustedCa?: string;
 }
@@ -4227,37 +4227,37 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * listener specifies the name of a custom Envoy listener to which this traffic should be redirected to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#listener DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#listener}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#listener DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#listener}
   */
   readonly listener?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToPortsListener;
   /**
   * OriginatingTLS is the TLS context for the connections originated by the L7 proxy. For egress policy this specifies the client-side TLS parameters for the upstream connection originating from the L7 proxy to the remote destination. For ingress policy this specifies the client-side TLS parameters for the connection from the L7 proxy to the local endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#originating_tls DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#originating_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#originating_tls DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#originating_tls}
   */
   readonly originatingTls?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToPortsOriginatingTls;
   /**
   * Ports is a list of L4 port/protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#ports DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#ports DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#ports}
   */
   readonly ports?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToPortsPorts[] | cdktf.IResolvable;
   /**
   * Rules is a list of additional port level rules which must be met in order for the PortRule to allow the traffic. If omitted or empty, no layer 7 rules are enforced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#rules DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#rules DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#rules}
   */
   readonly rules?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToPortsRules;
   /**
   * ServerNames is a list of allowed TLS SNI values. If not empty, then TLS must be present and one of the provided SNIs must be indicated in the TLS handshake.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#server_names DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#server_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#server_names DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#server_names}
   */
   readonly serverNames?: string[];
   /**
   * TerminatingTLS is the TLS context for the connection terminated by the L7 proxy. For egress policy this specifies the server-side TLS parameters to be applied on the connections originated from the local endpoint and terminated by the L7 proxy. For ingress policy this specifies the server-side TLS parameters to be applied on the connections originated from a remote source and terminated by the L7 proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#terminating_tls DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#terminating_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#terminating_tls DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#terminating_tls}
   */
   readonly terminatingTls?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToPortsTerminatingTls;
 }
@@ -4520,19 +4520,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4702,13 +4702,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToRequiresMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4853,11 +4853,11 @@ export class DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressTo
 }
 export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToServicesK8SService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#service_name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#service_name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#service_name}
   */
   readonly serviceName?: string;
 }
@@ -4982,19 +4982,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5164,13 +5164,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToServicesK8SServiceSelectorSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5293,13 +5293,13 @@ export class DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressTo
 }
 export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToServicesK8SServiceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * ServiceSelector is a label selector for k8s services
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#selector DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#selector DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#selector}
   */
   readonly selector: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToServicesK8SServiceSelectorSelector;
 }
@@ -5421,13 +5421,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * K8sService selects service by name and namespace pair
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#k8s_service DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#k8s_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#k8s_service DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#k8s_service}
   */
   readonly k8SService?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToServicesK8SService;
   /**
   * K8sServiceSelector selects services by k8s labels and namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#k8s_service_selector DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#k8s_service_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#k8s_service_selector DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#k8s_service_selector}
   */
   readonly k8SServiceSelector?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToServicesK8SServiceSelector;
 }
@@ -5574,73 +5574,73 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * Authentication is the required authentication type for the allowed traffic, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#authentication DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#authentication DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#authentication}
   */
   readonly authentication?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressAuthentication;
   /**
   * ICMPs is a list of ICMP rule identified by type number which the endpoint subject to the rule is allowed to connect to. Example: Any endpoint with the label 'app=httpd' is allowed to initiate type 8 ICMP connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#icmps DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#icmps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#icmps DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#icmps}
   */
   readonly icmps?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressIcmps[] | cdktf.IResolvable;
   /**
   * ToCIDR is a list of IP blocks which the endpoint subject to the rule is allowed to initiate connections. Only connections destined for outside of the cluster and not targeting the host will be subject to CIDR rules. This will match on the destination IP address of outgoing connections. Adding a prefix into ToCIDR or into ToCIDRSet with no ExcludeCIDRs is equivalent. Overlaps are allowed between ToCIDR and ToCIDRSet. Example: Any endpoint with the label 'app=database-proxy' is allowed to initiate connections to 10.2.3.0/24
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_cidr DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_cidr DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_cidr}
   */
   readonly toCidr?: string[];
   /**
   * ToCIDRSet is a list of IP blocks which the endpoint subject to the rule is allowed to initiate connections to in addition to connections which are allowed via ToEndpoints, along with a list of subnets contained within their corresponding IP block to which traffic should not be allowed. This will match on the destination IP address of outgoing connections. Adding a prefix into ToCIDR or into ToCIDRSet with no ExcludeCIDRs is equivalent. Overlaps are allowed between ToCIDR and ToCIDRSet. Example: Any endpoint with the label 'app=database-proxy' is allowed to initiate connections to 10.2.3.0/24 except from IPs in subnet 10.2.3.0/28.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_cidr_set DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_cidr_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_cidr_set DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_cidr_set}
   */
   readonly toCidrSet?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToCidrSet[] | cdktf.IResolvable;
   /**
   * ToEndpoints is a list of endpoints identified by an EndpointSelector to which the endpoints subject to the rule are allowed to communicate. Example: Any endpoint with the label 'role=frontend' can communicate with any endpoint carrying the label 'role=backend'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_endpoints DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_endpoints DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_endpoints}
   */
   readonly toEndpoints?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToEndpoints[] | cdktf.IResolvable;
   /**
   * ToEntities is a list of special entities to which the endpoint subject to the rule is allowed to initiate connections. Supported entities are 'world', 'cluster','host','remote-node','kube-apiserver', 'init', 'health','unmanaged' and 'all'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_entities DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_entities DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_entities}
   */
   readonly toEntities?: string[];
   /**
   * ToFQDN allows whitelisting DNS names in place of IPs. The IPs that result from DNS resolution of 'ToFQDN.MatchName's are added to the same EgressRule object as ToCIDRSet entries, and behave accordingly. Any L4 and L7 rules within this EgressRule will also apply to these IPs. The DNS -> IP mapping is re-resolved periodically from within the cilium-agent, and the IPs in the DNS response are effected in the policy for selected pods as-is (i.e. the list of IPs is not modified in any way). Note: An explicit rule to allow for DNS traffic is needed for the pods, as ToFQDN counts as an egress rule and will enforce egress policy when PolicyEnforcment=default. Note: If the resolved IPs are IPs within the kubernetes cluster, the ToFQDN rule will not apply to that IP. Note: ToFQDN cannot occur in the same policy as other To* rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_fqd_ns DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_fqd_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_fqd_ns DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_fqd_ns}
   */
   readonly toFqdNs?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToFqdNs[] | cdktf.IResolvable;
   /**
   * ToGroups is a directive that allows the integration with multiple outside providers. Currently, only AWS is supported, and the rule can select by multiple sub directives: Example: toGroups: - aws: securityGroupsIds: - 'sg-XXXXXXXXXXXXX'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_groups DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_groups DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_groups}
   */
   readonly toGroups?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToGroups[] | cdktf.IResolvable;
   /**
   * ToNodes is a list of nodes identified by an EndpointSelector to which endpoints subject to the rule is allowed to communicate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_nodes DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_nodes DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_nodes}
   */
   readonly toNodes?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToNodes[] | cdktf.IResolvable;
   /**
   * ToPorts is a list of destination ports identified by port number and protocol which the endpoint subject to the rule is allowed to connect to. Example: Any endpoint with the label 'role=frontend' is allowed to initiate connections to destination port 8080/tcp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_ports DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_ports DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_ports}
   */
   readonly toPorts?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToPorts[] | cdktf.IResolvable;
   /**
   * ToRequires is a list of additional constraints which must be met in order for the selected endpoints to be able to connect to other endpoints. These additional constraints do no by itself grant access privileges and must always be accompanied with at least one matching ToEndpoints. Example: Any Endpoint with the label 'team=A' requires any endpoint to which it communicates to also carry the label 'team=A'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_requires DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_requires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_requires DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_requires}
   */
   readonly toRequires?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToRequires[] | cdktf.IResolvable;
   /**
   * ToServices is a list of services to which the endpoint subject to the rule is allowed to initiate connections. Currently Cilium only supports toServices for K8s services without selectors. Example: Any endpoint with the label 'app=backend-app' is allowed to initiate connections to all cidrs backing the 'external-service' service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_services DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_services DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_services}
   */
   readonly toServices?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressToServices[] | cdktf.IResolvable;
 }
@@ -6077,13 +6077,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * Family is a IP address version. Currently, we support 'IPv4' and 'IPv6'. 'IPv4' is set as default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#family DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#family DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#family}
   */
   readonly family?: string;
   /**
   * Type is a ICMP-type. It should be an 8bit code (0-255), or it's CamelCase name (for example, 'EchoReply'). Allowed ICMP types are: Ipv4: EchoReply | DestinationUnreachable | Redirect | Echo | EchoRequest | RouterAdvertisement | RouterSelection | TimeExceeded | ParameterProblem | Timestamp | TimestampReply | Photuris | ExtendedEcho Request | ExtendedEcho Reply Ipv6: DestinationUnreachable | PacketTooBig | TimeExceeded | ParameterProblem | EchoRequest | EchoReply | MulticastListenerQuery| MulticastListenerReport | MulticastListenerDone | RouterSolicitation | RouterAdvertisement | NeighborSolicitation | NeighborAdvertisement | RedirectMessage | RouterRenumbering | ICMPNodeInformationQuery | ICMPNodeInformationResponse | InverseNeighborDiscoverySolicitation | InverseNeighborDiscoveryAdvertisement | HomeAgentAddressDiscoveryRequest | HomeAgentAddressDiscoveryReply | MobilePrefixSolicitation | MobilePrefixAdvertisement | DuplicateAddressRequestCodeSuffix | DuplicateAddressConfirmationCodeSuffix | ExtendedEchoRequest | ExtendedEchoReply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#type DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#type DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#type}
   */
   readonly type: string;
 }
@@ -6227,7 +6227,7 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * Fields is a list of ICMP fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#fields DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#fields DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#fields}
   */
   readonly fields?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressDenyIcmpsFields[] | cdktf.IResolvable;
 }
@@ -6345,19 +6345,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * CIDR is a CIDR prefix / IP Block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#cidr DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#cidr DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#cidr}
   */
   readonly cidr?: string;
   /**
   * CIDRGroupRef is a reference to a CiliumCIDRGroup object. A CiliumCIDRGroup contains a list of CIDRs that the endpoint, subject to the rule, can (Ingress/Egress) or cannot (IngressDeny/EgressDeny) receive connections from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#cidr_group_ref DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#cidr_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#cidr_group_ref DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#cidr_group_ref}
   */
   readonly cidrGroupRef?: string;
   /**
   * ExceptCIDRs is a list of IP blocks which the endpoint subject to the rule is not allowed to initiate connections to. These CIDR prefixes should be contained within Cidr, using ExceptCIDRs together with CIDRGroupRef is not supported yet. These exceptions are only applied to the Cidr in this CIDRRule, and do not apply to any other CIDR prefixes in any other CIDRRules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#except DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#except DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#except}
   */
   readonly except?: string[];
 }
@@ -6533,19 +6533,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6715,13 +6715,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressDenyToEndpointsMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6866,19 +6866,19 @@ export class DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressDe
 }
 export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressDenyToGroupsAws {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#region DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#region DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#security_groups_ids DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#security_groups_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#security_groups_ids DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#security_groups_ids}
   */
   readonly securityGroupsIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#security_groups_names DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#security_groups_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#security_groups_names DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#security_groups_names}
   */
   readonly securityGroupsNames?: string[];
 }
@@ -7061,7 +7061,7 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * AWSGroup is an structure that can be used to whitelisting information from AWS integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#aws DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#aws DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#aws}
   */
   readonly aws?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressDenyToGroupsAws;
 }
@@ -7179,19 +7179,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7361,13 +7361,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressDenyToNodesMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -7514,19 +7514,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * EndPort can only be an L4 port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#end_port DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#end_port DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#end_port}
   */
   readonly endPort?: number;
   /**
   * Port can be an L4 port number, or a name in the form of 'http' or 'http-8080'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#port DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#port DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#port}
   */
   readonly port: string;
   /**
   * Protocol is the L4 protocol. If omitted or empty, any protocol matches. Accepted values: 'TCP', 'UDP', 'SCTP', 'ANY' Matching on ICMP is not supported. Named port specified for a container may narrow this down, but may not contradict this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#protocol DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#protocol DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -7699,7 +7699,7 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * Ports is a list of L4 port/protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#ports DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#ports DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#ports}
   */
   readonly ports?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressDenyToPortsPorts[] | cdktf.IResolvable;
 }
@@ -7817,19 +7817,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7999,13 +7999,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressDenyToRequiresMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -8150,11 +8150,11 @@ export class DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressDe
 }
 export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressDenyToServicesK8SService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#service_name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#service_name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#service_name}
   */
   readonly serviceName?: string;
 }
@@ -8279,19 +8279,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8461,13 +8461,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressDenyToServicesK8SServiceSelectorSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -8590,13 +8590,13 @@ export class DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressDe
 }
 export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressDenyToServicesK8SServiceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * ServiceSelector is a label selector for k8s services
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#selector DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#selector DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#selector}
   */
   readonly selector: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressDenyToServicesK8SServiceSelectorSelector;
 }
@@ -8718,13 +8718,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * K8sService selects service by name and namespace pair
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#k8s_service DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#k8s_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#k8s_service DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#k8s_service}
   */
   readonly k8SService?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressDenyToServicesK8SService;
   /**
   * K8sServiceSelector selects services by k8s labels and namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#k8s_service_selector DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#k8s_service_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#k8s_service_selector DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#k8s_service_selector}
   */
   readonly k8SServiceSelector?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressDenyToServicesK8SServiceSelector;
 }
@@ -8871,61 +8871,61 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgre
   /**
   * ICMPs is a list of ICMP rule identified by type number which the endpoint subject to the rule is not allowed to connect to. Example: Any endpoint with the label 'app=httpd' is not allowed to initiate type 8 ICMP connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#icmps DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#icmps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#icmps DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#icmps}
   */
   readonly icmps?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressDenyIcmps[] | cdktf.IResolvable;
   /**
   * ToCIDR is a list of IP blocks which the endpoint subject to the rule is allowed to initiate connections. Only connections destined for outside of the cluster and not targeting the host will be subject to CIDR rules. This will match on the destination IP address of outgoing connections. Adding a prefix into ToCIDR or into ToCIDRSet with no ExcludeCIDRs is equivalent. Overlaps are allowed between ToCIDR and ToCIDRSet. Example: Any endpoint with the label 'app=database-proxy' is allowed to initiate connections to 10.2.3.0/24
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_cidr DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_cidr DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_cidr}
   */
   readonly toCidr?: string[];
   /**
   * ToCIDRSet is a list of IP blocks which the endpoint subject to the rule is allowed to initiate connections to in addition to connections which are allowed via ToEndpoints, along with a list of subnets contained within their corresponding IP block to which traffic should not be allowed. This will match on the destination IP address of outgoing connections. Adding a prefix into ToCIDR or into ToCIDRSet with no ExcludeCIDRs is equivalent. Overlaps are allowed between ToCIDR and ToCIDRSet. Example: Any endpoint with the label 'app=database-proxy' is allowed to initiate connections to 10.2.3.0/24 except from IPs in subnet 10.2.3.0/28.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_cidr_set DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_cidr_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_cidr_set DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_cidr_set}
   */
   readonly toCidrSet?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressDenyToCidrSet[] | cdktf.IResolvable;
   /**
   * ToEndpoints is a list of endpoints identified by an EndpointSelector to which the endpoints subject to the rule are allowed to communicate. Example: Any endpoint with the label 'role=frontend' can communicate with any endpoint carrying the label 'role=backend'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_endpoints DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_endpoints DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_endpoints}
   */
   readonly toEndpoints?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressDenyToEndpoints[] | cdktf.IResolvable;
   /**
   * ToEntities is a list of special entities to which the endpoint subject to the rule is allowed to initiate connections. Supported entities are 'world', 'cluster','host','remote-node','kube-apiserver', 'init', 'health','unmanaged' and 'all'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_entities DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_entities DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_entities}
   */
   readonly toEntities?: string[];
   /**
   * ToGroups is a directive that allows the integration with multiple outside providers. Currently, only AWS is supported, and the rule can select by multiple sub directives: Example: toGroups: - aws: securityGroupsIds: - 'sg-XXXXXXXXXXXXX'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_groups DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_groups DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_groups}
   */
   readonly toGroups?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressDenyToGroups[] | cdktf.IResolvable;
   /**
   * ToNodes is a list of nodes identified by an EndpointSelector to which endpoints subject to the rule is allowed to communicate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_nodes DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_nodes DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_nodes}
   */
   readonly toNodes?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressDenyToNodes[] | cdktf.IResolvable;
   /**
   * ToPorts is a list of destination ports identified by port number and protocol which the endpoint subject to the rule is not allowed to connect to. Example: Any endpoint with the label 'role=frontend' is not allowed to initiate connections to destination port 8080/tcp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_ports DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_ports DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_ports}
   */
   readonly toPorts?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressDenyToPorts[] | cdktf.IResolvable;
   /**
   * ToRequires is a list of additional constraints which must be met in order for the selected endpoints to be able to connect to other endpoints. These additional constraints do no by itself grant access privileges and must always be accompanied with at least one matching ToEndpoints. Example: Any Endpoint with the label 'team=A' requires any endpoint to which it communicates to also carry the label 'team=A'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_requires DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_requires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_requires DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_requires}
   */
   readonly toRequires?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressDenyToRequires[] | cdktf.IResolvable;
   /**
   * ToServices is a list of services to which the endpoint subject to the rule is allowed to initiate connections. Currently Cilium only supports toServices for K8s services without selectors. Example: Any endpoint with the label 'app=backend-app' is allowed to initiate connections to all cidrs backing the 'external-service' service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_services DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_services DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_services}
   */
   readonly toServices?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressDenyToServices[] | cdktf.IResolvable;
 }
@@ -9304,13 +9304,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEnab
   /**
   * Whether or not the endpoint should have a default-deny rule applied to egress traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#egress DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#egress DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#egress}
   */
   readonly egress?: boolean | cdktf.IResolvable;
   /**
   * Whether or not the endpoint should have a default-deny rule applied to ingress traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#ingress DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#ingress DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#ingress}
   */
   readonly ingress?: boolean | cdktf.IResolvable;
 }
@@ -9435,19 +9435,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEndp
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9617,13 +9617,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEndp
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEndpointSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -9748,7 +9748,7 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * Mode is the required authentication mode for the allowed traffic, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#mode DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#mode DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#mode}
   */
   readonly mode: string;
 }
@@ -9841,19 +9841,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * CIDR is a CIDR prefix / IP Block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#cidr DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#cidr DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#cidr}
   */
   readonly cidr?: string;
   /**
   * CIDRGroupRef is a reference to a CiliumCIDRGroup object. A CiliumCIDRGroup contains a list of CIDRs that the endpoint, subject to the rule, can (Ingress/Egress) or cannot (IngressDeny/EgressDeny) receive connections from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#cidr_group_ref DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#cidr_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#cidr_group_ref DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#cidr_group_ref}
   */
   readonly cidrGroupRef?: string;
   /**
   * ExceptCIDRs is a list of IP blocks which the endpoint subject to the rule is not allowed to initiate connections to. These CIDR prefixes should be contained within Cidr, using ExceptCIDRs together with CIDRGroupRef is not supported yet. These exceptions are only applied to the Cidr in this CIDRRule, and do not apply to any other CIDR prefixes in any other CIDRRules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#except DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#except DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#except}
   */
   readonly except?: string[];
 }
@@ -10029,19 +10029,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10211,13 +10211,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressFromEndpointsMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -10362,19 +10362,19 @@ export class DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressF
 }
 export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressFromGroupsAws {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#region DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#region DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#security_groups_ids DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#security_groups_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#security_groups_ids DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#security_groups_ids}
   */
   readonly securityGroupsIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#security_groups_names DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#security_groups_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#security_groups_names DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#security_groups_names}
   */
   readonly securityGroupsNames?: string[];
 }
@@ -10557,7 +10557,7 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * AWSGroup is an structure that can be used to whitelisting information from AWS integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#aws DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#aws DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#aws}
   */
   readonly aws?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressFromGroupsAws;
 }
@@ -10675,19 +10675,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10857,13 +10857,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressFromNodesMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11010,19 +11010,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11192,13 +11192,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressFromRequiresMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11345,13 +11345,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * Family is a IP address version. Currently, we support 'IPv4' and 'IPv6'. 'IPv4' is set as default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#family DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#family DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#family}
   */
   readonly family?: string;
   /**
   * Type is a ICMP-type. It should be an 8bit code (0-255), or it's CamelCase name (for example, 'EchoReply'). Allowed ICMP types are: Ipv4: EchoReply | DestinationUnreachable | Redirect | Echo | EchoRequest | RouterAdvertisement | RouterSelection | TimeExceeded | ParameterProblem | Timestamp | TimestampReply | Photuris | ExtendedEcho Request | ExtendedEcho Reply Ipv6: DestinationUnreachable | PacketTooBig | TimeExceeded | ParameterProblem | EchoRequest | EchoReply | MulticastListenerQuery| MulticastListenerReport | MulticastListenerDone | RouterSolicitation | RouterAdvertisement | NeighborSolicitation | NeighborAdvertisement | RedirectMessage | RouterRenumbering | ICMPNodeInformationQuery | ICMPNodeInformationResponse | InverseNeighborDiscoverySolicitation | InverseNeighborDiscoveryAdvertisement | HomeAgentAddressDiscoveryRequest | HomeAgentAddressDiscoveryReply | MobilePrefixSolicitation | MobilePrefixAdvertisement | DuplicateAddressRequestCodeSuffix | DuplicateAddressConfirmationCodeSuffix | ExtendedEchoRequest | ExtendedEchoReply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#type DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#type DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#type}
   */
   readonly type: string;
 }
@@ -11495,7 +11495,7 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * Fields is a list of ICMP fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#fields DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#fields DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#fields}
   */
   readonly fields?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressIcmpsFields[] | cdktf.IResolvable;
 }
@@ -11613,13 +11613,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * Kind is the resource type being referred to. Defaults to CiliumEnvoyConfig or CiliumClusterwideEnvoyConfig for CiliumNetworkPolicy and CiliumClusterwideNetworkPolicy, respectively. The only case this is currently explicitly needed is when referring to a CiliumClusterwideEnvoyConfig from CiliumNetworkPolicy, as using a namespaced listener from a cluster scoped policy is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#kind DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#kind DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name is the resource name of the CiliumEnvoyConfig or CiliumClusterwideEnvoyConfig where the listener is defined in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
   */
   readonly name: string;
 }
@@ -11741,19 +11741,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * EnvoyConfig is a reference to the CEC or CCEC resource in which the listener is defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#envoy_config DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#envoy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#envoy_config DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#envoy_config}
   */
   readonly envoyConfig: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressToPortsListenerEnvoyConfig;
   /**
   * Name is the name of the listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
   */
   readonly name: string;
   /**
   * Priority for this Listener that is used when multiple rules would apply different listeners to a policy map entry. Behavior of this is implementation dependent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#priority DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#priority DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#priority}
   */
   readonly priority?: number;
 }
@@ -11901,13 +11901,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * Name is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace in which the secret exists. Context of use determines the default value if left out (e.g., 'default').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -12029,25 +12029,25 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * Certificate is the file name or k8s secret item name for the certificate chain. If omitted, 'tls.crt' is assumed, if it exists. If given, the item must exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#certificate DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#certificate DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#certificate}
   */
   readonly certificate?: string;
   /**
   * PrivateKey is the file name or k8s secret item name for the private key matching the certificate chain. If omitted, 'tls.key' is assumed, if it exists. If given, the item must exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#private_key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#private_key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#private_key}
   */
   readonly privateKey?: string;
   /**
   * Secret is the secret that contains the certificates and private key for the TLS context. By default, Cilium will search in this secret for the following items: - 'ca.crt' - Which represents the trusted CA to verify remote source. - 'tls.crt' - Which represents the public key certificate. - 'tls.key' - Which represents the private key matching the public key certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#secret DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#secret DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#secret}
   */
   readonly secret: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressToPortsOriginatingTlsSecret;
   /**
   * TrustedCA is the file name or k8s secret item name for the trusted CA. If omitted, 'ca.crt' is assumed, if it exists. If given, the item must exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#trusted_ca DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#trusted_ca DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#trusted_ca}
   */
   readonly trustedCa?: string;
 }
@@ -12227,19 +12227,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * EndPort can only be an L4 port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#end_port DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#end_port DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#end_port}
   */
   readonly endPort?: number;
   /**
   * Port can be an L4 port number, or a name in the form of 'http' or 'http-8080'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#port DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#port DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#port}
   */
   readonly port: string;
   /**
   * Protocol is the L4 protocol. If omitted or empty, any protocol matches. Accepted values: 'TCP', 'UDP', 'SCTP', 'ANY' Matching on ICMP is not supported. Named port specified for a container may narrow this down, but may not contradict this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#protocol DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#protocol DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -12412,13 +12412,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * MatchName matches literal DNS names. A trailing '.' is automatically added when missing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_name}
   */
   readonly matchName?: string;
   /**
   * MatchPattern allows using wildcards to match DNS names. All wildcards are case insensitive. The wildcards are: - '*' matches 0 or more DNS valid characters, and may occur anywhere in the pattern. As a special case a '*' as the leftmost character, without a following '.' matches all subdomains as well as the name to the right. A trailing '.' is automatically added when missing. Examples: '*.cilium.io' matches subomains of cilium at that level www.cilium.io and blog.cilium.io match, cilium.io and google.com do not '*cilium.io' matches cilium.io and all subdomains ends with 'cilium.io' except those containing '.' separator, subcilium.io and sub-cilium.io match, www.cilium.io and blog.cilium.io does not sub*.cilium.io matches subdomains of cilium where the subdomain component begins with 'sub' sub.cilium.io and subdomain.cilium.io match, www.cilium.io, blog.cilium.io, cilium.io and google.com do not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_pattern DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_pattern DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_pattern}
   */
   readonly matchPattern?: string;
 }
@@ -12565,13 +12565,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * Name is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace in which the secret exists. Context of use determines the default value if left out (e.g., 'default').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -12693,25 +12693,25 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * Mismatch identifies what to do in case there is no match. The default is to drop the request. Otherwise the overall rule is still considered as matching, but the mismatches are logged in the access log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#mismatch DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#mismatch DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#mismatch}
   */
   readonly mismatch?: string;
   /**
   * Name identifies the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
   */
   readonly name: string;
   /**
   * Secret refers to a secret that contains the value to be matched against. The secret must only contain one entry. If the referred secret does not exist, and there is no 'Value' specified, the match will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#secret DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#secret DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#secret}
   */
   readonly secret?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressToPortsRulesHttpHeaderMatchesSecret;
   /**
   * Value matches the exact value of the header. Can be specified either alone or together with 'Secret'; will be used as the header value if the secret can not be found in the latter case.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#value DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#value DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#value}
   */
   readonly value?: string;
 }
@@ -12913,31 +12913,31 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * HeaderMatches is a list of HTTP headers which must be present and match against the given values. Mismatch field can be used to specify what to do when there is no match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#header_matches DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#header_matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#header_matches DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#header_matches}
   */
   readonly headerMatches?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressToPortsRulesHttpHeaderMatches[] | cdktf.IResolvable;
   /**
   * Headers is a list of HTTP headers which must be present in the request. If omitted or empty, requests are allowed regardless of headers present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#headers DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#headers DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#headers}
   */
   readonly headers?: string[];
   /**
   * Host is an extended POSIX regex matched against the host header of a request. Examples: - foo.bar.com will match the host fooXbar.com or foo-bar.com - foo.bar.com will only match the host foo.bar.com If omitted or empty, the value of the host header is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#host DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#host DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#host}
   */
   readonly host?: string;
   /**
   * Method is an extended POSIX regex matched against the method of a request, e.g. 'GET', 'POST', 'PUT', 'PATCH', 'DELETE', ... If omitted or empty, all methods are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#method DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#method DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#method}
   */
   readonly method?: string;
   /**
   * Path is an extended POSIX regex matched against the path of a request. Currently it can contain characters disallowed from the conventional 'path' part of a URL as defined by RFC 3986. If omitted or empty, all paths are all allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#path DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#path DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#path}
   */
   readonly path?: string;
 }
@@ -13171,31 +13171,31 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * APIKey is a case-insensitive string matched against the key of a request, e.g. 'produce', 'fetch', 'createtopic', 'deletetopic', et al Reference: https://kafka.apache.org/protocol#protocol_api_keys If omitted or empty, and if Role is not specified, then all keys are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#api_key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#api_key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#api_key}
   */
   readonly apiKey?: string;
   /**
   * APIVersion is the version matched against the api version of the Kafka message. If set, it has to be a string representing a positive integer. If omitted or empty, all versions are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#api_version DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#api_version DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * ClientID is the client identifier as provided in the request. From Kafka protocol documentation: This is a user supplied identifier for the client application. The user can use any identifier they like and it will be used when logging errors, monitoring aggregates, etc. For example, one might want to monitor not just the requests per second overall, but the number coming from each client application (each of which could reside on multiple servers). This id acts as a logical grouping across all requests from a particular client. If omitted or empty, all client identifiers are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#client_id DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#client_id DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#client_id}
   */
   readonly clientId?: string;
   /**
   * Role is a case-insensitive string and describes a group of API keys necessary to perform certain higher-level Kafka operations such as 'produce' or 'consume'. A Role automatically expands into all APIKeys required to perform the specified higher-level operation. The following values are supported: - 'produce': Allow producing to the topics specified in the rule - 'consume': Allow consuming from the topics specified in the rule This field is incompatible with the APIKey field, i.e APIKey and Role cannot both be specified in the same rule. If omitted or empty, and if APIKey is not specified, then all keys are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#role DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#role DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#role}
   */
   readonly role?: string;
   /**
   * Topic is the topic name contained in the message. If a Kafka request contains multiple topics, then all topics must be allowed or the message will be rejected. This constraint is ignored if the matched request message type doesn't contain any topic. Maximum size of Topic can be 249 characters as per recent Kafka spec and allowed characters are a-z, A-Z, 0-9, -, . and _. Older Kafka versions had longer topic lengths of 255, but in Kafka 0.10 version the length was changed from 255 to 249. For compatibility reasons we are using 255. If omitted or empty, all topics are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#topic DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#topic DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#topic}
   */
   readonly topic?: string;
 }
@@ -13429,31 +13429,31 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * DNS-specific rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#dns DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#dns DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#dns}
   */
   readonly dns?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressToPortsRulesDns[] | cdktf.IResolvable;
   /**
   * HTTP specific rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#http DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#http DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#http}
   */
   readonly http?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressToPortsRulesHttp[] | cdktf.IResolvable;
   /**
   * Kafka-specific rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#kafka DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#kafka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#kafka DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#kafka}
   */
   readonly kafka?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressToPortsRulesKafka[] | cdktf.IResolvable;
   /**
   * Key-value pair rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#l7 DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#l7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#l7 DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#l7}
   */
   readonly l7?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * Name of the L7 protocol for which the Key-value pair rules apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#l7proto DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#l7proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#l7proto DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#l7proto}
   */
   readonly l7Proto?: string;
 }
@@ -13665,13 +13665,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * Name is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace in which the secret exists. Context of use determines the default value if left out (e.g., 'default').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -13793,25 +13793,25 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * Certificate is the file name or k8s secret item name for the certificate chain. If omitted, 'tls.crt' is assumed, if it exists. If given, the item must exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#certificate DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#certificate DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#certificate}
   */
   readonly certificate?: string;
   /**
   * PrivateKey is the file name or k8s secret item name for the private key matching the certificate chain. If omitted, 'tls.key' is assumed, if it exists. If given, the item must exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#private_key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#private_key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#private_key}
   */
   readonly privateKey?: string;
   /**
   * Secret is the secret that contains the certificates and private key for the TLS context. By default, Cilium will search in this secret for the following items: - 'ca.crt' - Which represents the trusted CA to verify remote source. - 'tls.crt' - Which represents the public key certificate. - 'tls.key' - Which represents the private key matching the public key certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#secret DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#secret DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#secret}
   */
   readonly secret: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressToPortsTerminatingTlsSecret;
   /**
   * TrustedCA is the file name or k8s secret item name for the trusted CA. If omitted, 'ca.crt' is assumed, if it exists. If given, the item must exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#trusted_ca DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#trusted_ca DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#trusted_ca}
   */
   readonly trustedCa?: string;
 }
@@ -13991,37 +13991,37 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * listener specifies the name of a custom Envoy listener to which this traffic should be redirected to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#listener DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#listener}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#listener DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#listener}
   */
   readonly listener?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressToPortsListener;
   /**
   * OriginatingTLS is the TLS context for the connections originated by the L7 proxy. For egress policy this specifies the client-side TLS parameters for the upstream connection originating from the L7 proxy to the remote destination. For ingress policy this specifies the client-side TLS parameters for the connection from the L7 proxy to the local endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#originating_tls DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#originating_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#originating_tls DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#originating_tls}
   */
   readonly originatingTls?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressToPortsOriginatingTls;
   /**
   * Ports is a list of L4 port/protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#ports DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#ports DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#ports}
   */
   readonly ports?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressToPortsPorts[] | cdktf.IResolvable;
   /**
   * Rules is a list of additional port level rules which must be met in order for the PortRule to allow the traffic. If omitted or empty, no layer 7 rules are enforced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#rules DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#rules DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#rules}
   */
   readonly rules?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressToPortsRules;
   /**
   * ServerNames is a list of allowed TLS SNI values. If not empty, then TLS must be present and one of the provided SNIs must be indicated in the TLS handshake.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#server_names DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#server_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#server_names DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#server_names}
   */
   readonly serverNames?: string[];
   /**
   * TerminatingTLS is the TLS context for the connection terminated by the L7 proxy. For egress policy this specifies the server-side TLS parameters to be applied on the connections originated from the local endpoint and terminated by the L7 proxy. For ingress policy this specifies the server-side TLS parameters to be applied on the connections originated from a remote source and terminated by the L7 proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#terminating_tls DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#terminating_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#terminating_tls DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#terminating_tls}
   */
   readonly terminatingTls?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressToPortsTerminatingTls;
 }
@@ -14284,61 +14284,61 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * Authentication is the required authentication type for the allowed traffic, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#authentication DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#authentication DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#authentication}
   */
   readonly authentication?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressAuthentication;
   /**
   * FromCIDR is a list of IP blocks which the endpoint subject to the rule is allowed to receive connections from. Only connections which do *not* originate from the cluster or from the local host are subject to CIDR rules. In order to allow in-cluster connectivity, use the FromEndpoints field. This will match on the source IP address of incoming connections. Adding a prefix into FromCIDR or into FromCIDRSet with no ExcludeCIDRs is equivalent. Overlaps are allowed between FromCIDR and FromCIDRSet. Example: Any endpoint with the label 'app=my-legacy-pet' is allowed to receive connections from 10.3.9.1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_cidr DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_cidr DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_cidr}
   */
   readonly fromCidr?: string[];
   /**
   * FromCIDRSet is a list of IP blocks which the endpoint subject to the rule is allowed to receive connections from in addition to FromEndpoints, along with a list of subnets contained within their corresponding IP block from which traffic should not be allowed. This will match on the source IP address of incoming connections. Adding a prefix into FromCIDR or into FromCIDRSet with no ExcludeCIDRs is equivalent. Overlaps are allowed between FromCIDR and FromCIDRSet. Example: Any endpoint with the label 'app=my-legacy-pet' is allowed to receive connections from 10.0.0.0/8 except from IPs in subnet 10.96.0.0/12.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_cidr_set DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_cidr_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_cidr_set DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_cidr_set}
   */
   readonly fromCidrSet?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressFromCidrSet[] | cdktf.IResolvable;
   /**
   * FromEndpoints is a list of endpoints identified by an EndpointSelector which are allowed to communicate with the endpoint subject to the rule. Example: Any endpoint with the label 'role=backend' can be consumed by any endpoint carrying the label 'role=frontend'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_endpoints DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_endpoints DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_endpoints}
   */
   readonly fromEndpoints?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressFromEndpoints[] | cdktf.IResolvable;
   /**
   * FromEntities is a list of special entities which the endpoint subject to the rule is allowed to receive connections from. Supported entities are 'world', 'cluster' and 'host'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_entities DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_entities DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_entities}
   */
   readonly fromEntities?: string[];
   /**
   * FromGroups is a directive that allows the integration with multiple outside providers. Currently, only AWS is supported, and the rule can select by multiple sub directives: Example: FromGroups: - aws: securityGroupsIds: - 'sg-XXXXXXXXXXXXX'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_groups DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_groups DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_groups}
   */
   readonly fromGroups?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressFromGroups[] | cdktf.IResolvable;
   /**
   * FromNodes is a list of nodes identified by an EndpointSelector which are allowed to communicate with the endpoint subject to the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_nodes DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_nodes DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_nodes}
   */
   readonly fromNodes?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressFromNodes[] | cdktf.IResolvable;
   /**
   * FromRequires is a list of additional constraints which must be met in order for the selected endpoints to be reachable. These additional constraints do no by itself grant access privileges and must always be accompanied with at least one matching FromEndpoints. Example: Any Endpoint with the label 'team=A' requires consuming endpoint to also carry the label 'team=A'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_requires DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_requires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_requires DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_requires}
   */
   readonly fromRequires?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressFromRequires[] | cdktf.IResolvable;
   /**
   * ICMPs is a list of ICMP rule identified by type number which the endpoint subject to the rule is allowed to receive connections on. Example: Any endpoint with the label 'app=httpd' can only accept incoming type 8 ICMP connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#icmps DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#icmps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#icmps DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#icmps}
   */
   readonly icmps?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressIcmps[] | cdktf.IResolvable;
   /**
   * ToPorts is a list of destination ports identified by port number and protocol which the endpoint subject to the rule is allowed to receive connections on. Example: Any endpoint with the label 'app=httpd' can only accept incoming connections on port 80/tcp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_ports DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_ports DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_ports}
   */
   readonly toPorts?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressToPorts[] | cdktf.IResolvable;
 }
@@ -14717,19 +14717,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * CIDR is a CIDR prefix / IP Block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#cidr DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#cidr DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#cidr}
   */
   readonly cidr?: string;
   /**
   * CIDRGroupRef is a reference to a CiliumCIDRGroup object. A CiliumCIDRGroup contains a list of CIDRs that the endpoint, subject to the rule, can (Ingress/Egress) or cannot (IngressDeny/EgressDeny) receive connections from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#cidr_group_ref DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#cidr_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#cidr_group_ref DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#cidr_group_ref}
   */
   readonly cidrGroupRef?: string;
   /**
   * ExceptCIDRs is a list of IP blocks which the endpoint subject to the rule is not allowed to initiate connections to. These CIDR prefixes should be contained within Cidr, using ExceptCIDRs together with CIDRGroupRef is not supported yet. These exceptions are only applied to the Cidr in this CIDRRule, and do not apply to any other CIDR prefixes in any other CIDRRules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#except DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#except DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#except}
   */
   readonly except?: string[];
 }
@@ -14905,19 +14905,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -15087,13 +15087,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressDenyFromEndpointsMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -15238,19 +15238,19 @@ export class DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressD
 }
 export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressDenyFromGroupsAws {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#region DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#region DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#security_groups_ids DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#security_groups_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#security_groups_ids DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#security_groups_ids}
   */
   readonly securityGroupsIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#security_groups_names DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#security_groups_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#security_groups_names DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#security_groups_names}
   */
   readonly securityGroupsNames?: string[];
 }
@@ -15433,7 +15433,7 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * AWSGroup is an structure that can be used to whitelisting information from AWS integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#aws DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#aws DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#aws}
   */
   readonly aws?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressDenyFromGroupsAws;
 }
@@ -15551,19 +15551,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -15733,13 +15733,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressDenyFromNodesMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -15886,19 +15886,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -16068,13 +16068,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressDenyFromRequiresMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -16221,13 +16221,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * Family is a IP address version. Currently, we support 'IPv4' and 'IPv6'. 'IPv4' is set as default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#family DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#family DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#family}
   */
   readonly family?: string;
   /**
   * Type is a ICMP-type. It should be an 8bit code (0-255), or it's CamelCase name (for example, 'EchoReply'). Allowed ICMP types are: Ipv4: EchoReply | DestinationUnreachable | Redirect | Echo | EchoRequest | RouterAdvertisement | RouterSelection | TimeExceeded | ParameterProblem | Timestamp | TimestampReply | Photuris | ExtendedEcho Request | ExtendedEcho Reply Ipv6: DestinationUnreachable | PacketTooBig | TimeExceeded | ParameterProblem | EchoRequest | EchoReply | MulticastListenerQuery| MulticastListenerReport | MulticastListenerDone | RouterSolicitation | RouterAdvertisement | NeighborSolicitation | NeighborAdvertisement | RedirectMessage | RouterRenumbering | ICMPNodeInformationQuery | ICMPNodeInformationResponse | InverseNeighborDiscoverySolicitation | InverseNeighborDiscoveryAdvertisement | HomeAgentAddressDiscoveryRequest | HomeAgentAddressDiscoveryReply | MobilePrefixSolicitation | MobilePrefixAdvertisement | DuplicateAddressRequestCodeSuffix | DuplicateAddressConfirmationCodeSuffix | ExtendedEchoRequest | ExtendedEchoReply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#type DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#type DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#type}
   */
   readonly type: string;
 }
@@ -16371,7 +16371,7 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * Fields is a list of ICMP fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#fields DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#fields DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#fields}
   */
   readonly fields?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressDenyIcmpsFields[] | cdktf.IResolvable;
 }
@@ -16489,19 +16489,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * EndPort can only be an L4 port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#end_port DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#end_port DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#end_port}
   */
   readonly endPort?: number;
   /**
   * Port can be an L4 port number, or a name in the form of 'http' or 'http-8080'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#port DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#port DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#port}
   */
   readonly port: string;
   /**
   * Protocol is the L4 protocol. If omitted or empty, any protocol matches. Accepted values: 'TCP', 'UDP', 'SCTP', 'ANY' Matching on ICMP is not supported. Named port specified for a container may narrow this down, but may not contradict this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#protocol DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#protocol DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -16674,7 +16674,7 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * Ports is a list of L4 port/protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#ports DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#ports DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#ports}
   */
   readonly ports?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressDenyToPortsPorts[] | cdktf.IResolvable;
 }
@@ -16792,55 +16792,55 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngr
   /**
   * FromCIDR is a list of IP blocks which the endpoint subject to the rule is allowed to receive connections from. Only connections which do *not* originate from the cluster or from the local host are subject to CIDR rules. In order to allow in-cluster connectivity, use the FromEndpoints field. This will match on the source IP address of incoming connections. Adding a prefix into FromCIDR or into FromCIDRSet with no ExcludeCIDRs is equivalent. Overlaps are allowed between FromCIDR and FromCIDRSet. Example: Any endpoint with the label 'app=my-legacy-pet' is allowed to receive connections from 10.3.9.1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_cidr DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_cidr DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_cidr}
   */
   readonly fromCidr?: string[];
   /**
   * FromCIDRSet is a list of IP blocks which the endpoint subject to the rule is allowed to receive connections from in addition to FromEndpoints, along with a list of subnets contained within their corresponding IP block from which traffic should not be allowed. This will match on the source IP address of incoming connections. Adding a prefix into FromCIDR or into FromCIDRSet with no ExcludeCIDRs is equivalent. Overlaps are allowed between FromCIDR and FromCIDRSet. Example: Any endpoint with the label 'app=my-legacy-pet' is allowed to receive connections from 10.0.0.0/8 except from IPs in subnet 10.96.0.0/12.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_cidr_set DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_cidr_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_cidr_set DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_cidr_set}
   */
   readonly fromCidrSet?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressDenyFromCidrSet[] | cdktf.IResolvable;
   /**
   * FromEndpoints is a list of endpoints identified by an EndpointSelector which are allowed to communicate with the endpoint subject to the rule. Example: Any endpoint with the label 'role=backend' can be consumed by any endpoint carrying the label 'role=frontend'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_endpoints DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_endpoints DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_endpoints}
   */
   readonly fromEndpoints?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressDenyFromEndpoints[] | cdktf.IResolvable;
   /**
   * FromEntities is a list of special entities which the endpoint subject to the rule is allowed to receive connections from. Supported entities are 'world', 'cluster' and 'host'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_entities DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_entities DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_entities}
   */
   readonly fromEntities?: string[];
   /**
   * FromGroups is a directive that allows the integration with multiple outside providers. Currently, only AWS is supported, and the rule can select by multiple sub directives: Example: FromGroups: - aws: securityGroupsIds: - 'sg-XXXXXXXXXXXXX'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_groups DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_groups DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_groups}
   */
   readonly fromGroups?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressDenyFromGroups[] | cdktf.IResolvable;
   /**
   * FromNodes is a list of nodes identified by an EndpointSelector which are allowed to communicate with the endpoint subject to the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_nodes DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_nodes DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_nodes}
   */
   readonly fromNodes?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressDenyFromNodes[] | cdktf.IResolvable;
   /**
   * FromRequires is a list of additional constraints which must be met in order for the selected endpoints to be reachable. These additional constraints do no by itself grant access privileges and must always be accompanied with at least one matching FromEndpoints. Example: Any Endpoint with the label 'team=A' requires consuming endpoint to also carry the label 'team=A'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_requires DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_requires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#from_requires DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#from_requires}
   */
   readonly fromRequires?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressDenyFromRequires[] | cdktf.IResolvable;
   /**
   * ICMPs is a list of ICMP rule identified by type number which the endpoint subject to the rule is not allowed to receive connections on. Example: Any endpoint with the label 'app=httpd' can not accept incoming type 8 ICMP connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#icmps DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#icmps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#icmps DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#icmps}
   */
   readonly icmps?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressDenyIcmps[] | cdktf.IResolvable;
   /**
   * ToPorts is a list of destination ports identified by port number and protocol which the endpoint subject to the rule is not allowed to receive connections on. Example: Any endpoint with the label 'app=httpd' can not accept incoming connections on port 80/tcp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_ports DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#to_ports DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#to_ports}
   */
   readonly toPorts?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressDenyToPorts[] | cdktf.IResolvable;
 }
@@ -17188,17 +17188,17 @@ export class DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressD
 }
 export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
   */
   readonly key: string;
   /**
   * Source can be one of the above values (e.g.: LabelSourceContainer).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#source DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#source DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#source}
   */
   readonly source?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#value DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#value DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#value}
   */
   readonly value?: string;
 }
@@ -17371,19 +17371,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecNode
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -17553,13 +17553,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecNode
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecNodeSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -17684,55 +17684,55 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpec {
   /**
   * Description is a free form string, it can be used by the creator of the rule to store human readable explanation of the purpose of this rule. Rules cannot be identified by comment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#description DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#description DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#description}
   */
   readonly description?: string;
   /**
   * Egress is a list of EgressRule which are enforced at egress. If omitted or empty, this rule does not apply at egress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#egress DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#egress DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#egress}
   */
   readonly egress?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgress[] | cdktf.IResolvable;
   /**
   * EgressDeny is a list of EgressDenyRule which are enforced at egress. Any rule inserted here will be denied regardless of the allowed egress rules in the 'egress' field. If omitted or empty, this rule does not apply at egress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#egress_deny DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#egress_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#egress_deny DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#egress_deny}
   */
   readonly egressDeny?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEgressDeny[] | cdktf.IResolvable;
   /**
   * EnableDefaultDeny determines whether this policy configures the subject endpoint(s) to have a default deny mode. If enabled, this causes all traffic not explicitly allowed by a network policy to be dropped. If not specified, the default is true for each traffic direction that has rules, and false otherwise. For example, if a policy only has Ingress or IngressDeny rules, then the default for ingress is true and egress is false. If multiple policies apply to an endpoint, that endpoint's default deny will be enabled if any policy requests it. This is useful for creating broad-based network policies that will not cause endpoints to enter default-deny mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#enable_default_deny DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#enable_default_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#enable_default_deny DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#enable_default_deny}
   */
   readonly enableDefaultDeny?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEnableDefaultDeny;
   /**
   * EndpointSelector selects all endpoints which should be subject to this rule. EndpointSelector and NodeSelector cannot be both empty and are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#endpoint_selector DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#endpoint_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#endpoint_selector DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#endpoint_selector}
   */
   readonly endpointSelector?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecEndpointSelector;
   /**
   * Ingress is a list of IngressRule which are enforced at ingress. If omitted or empty, this rule does not apply at ingress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#ingress DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#ingress DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#ingress}
   */
   readonly ingress?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngress[] | cdktf.IResolvable;
   /**
   * IngressDeny is a list of IngressDenyRule which are enforced at ingress. Any rule inserted here will be denied regardless of the allowed ingress rules in the 'ingress' field. If omitted or empty, this rule does not apply at ingress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#ingress_deny DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#ingress_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#ingress_deny DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#ingress_deny}
   */
   readonly ingressDeny?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecIngressDeny[] | cdktf.IResolvable;
   /**
   * Labels is a list of optional strings which can be used to re-identify the rule or to store metadata. It is possible to lookup or delete strings based on labels. Labels are not required to be unique, multiple rules can have overlapping or identical labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#labels}
   */
   readonly labels?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecLabels[] | cdktf.IResolvable;
   /**
   * NodeSelector selects all nodes which should be subject to this rule. EndpointSelector and NodeSelector cannot be both empty and are mutually exclusive. Can only be used in CiliumClusterwideNetworkPolicies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#node_selector DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#node_selector DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#node_selector}
   */
   readonly nodeSelector?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecNodeSelector;
 }
@@ -18060,7 +18060,7 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecsEgr
   /**
   * Mode is the required authentication mode for the allowed traffic, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#mode DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#mode DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#mode}
   */
   readonly mode: string;
 }
@@ -18153,13 +18153,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecsEgr
   /**
   * Family is a IP address version. Currently, we support 'IPv4' and 'IPv6'. 'IPv4' is set as default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#family DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#family DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#family}
   */
   readonly family?: string;
   /**
   * Type is a ICMP-type. It should be an 8bit code (0-255), or it's CamelCase name (for example, 'EchoReply'). Allowed ICMP types are: Ipv4: EchoReply | DestinationUnreachable | Redirect | Echo | EchoRequest | RouterAdvertisement | RouterSelection | TimeExceeded | ParameterProblem | Timestamp | TimestampReply | Photuris | ExtendedEcho Request | ExtendedEcho Reply Ipv6: DestinationUnreachable | PacketTooBig | TimeExceeded | ParameterProblem | EchoRequest | EchoReply | MulticastListenerQuery| MulticastListenerReport | MulticastListenerDone | RouterSolicitation | RouterAdvertisement | NeighborSolicitation | NeighborAdvertisement | RedirectMessage | RouterRenumbering | ICMPNodeInformationQuery | ICMPNodeInformationResponse | InverseNeighborDiscoverySolicitation | InverseNeighborDiscoveryAdvertisement | HomeAgentAddressDiscoveryRequest | HomeAgentAddressDiscoveryReply | MobilePrefixSolicitation | MobilePrefixAdvertisement | DuplicateAddressRequestCodeSuffix | DuplicateAddressConfirmationCodeSuffix | ExtendedEchoRequest | ExtendedEchoReply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#type DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#type DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#type}
   */
   readonly type: string;
 }
@@ -18303,7 +18303,7 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecsEgr
   /**
   * Fields is a list of ICMP fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#fields DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#fields DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#fields}
   */
   readonly fields?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecsEgressIcmpsFields[] | cdktf.IResolvable;
 }
@@ -18421,19 +18421,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecsEgr
   /**
   * CIDR is a CIDR prefix / IP Block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#cidr DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#cidr DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#cidr}
   */
   readonly cidr?: string;
   /**
   * CIDRGroupRef is a reference to a CiliumCIDRGroup object. A CiliumCIDRGroup contains a list of CIDRs that the endpoint, subject to the rule, can (Ingress/Egress) or cannot (IngressDeny/EgressDeny) receive connections from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#cidr_group_ref DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#cidr_group_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#cidr_group_ref DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#cidr_group_ref}
   */
   readonly cidrGroupRef?: string;
   /**
   * ExceptCIDRs is a list of IP blocks which the endpoint subject to the rule is not allowed to initiate connections to. These CIDR prefixes should be contained within Cidr, using ExceptCIDRs together with CIDRGroupRef is not supported yet. These exceptions are only applied to the Cidr in this CIDRRule, and do not apply to any other CIDR prefixes in any other CIDRRules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#except DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#except DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#except}
   */
   readonly except?: string[];
 }
@@ -18609,19 +18609,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecsEgr
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18791,13 +18791,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecsEgr
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecsEgressToEndpointsMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -18944,13 +18944,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecsEgr
   /**
   * MatchName matches literal DNS names. A trailing '.' is automatically added when missing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_name}
   */
   readonly matchName?: string;
   /**
   * MatchPattern allows using wildcards to match DNS names. All wildcards are case insensitive. The wildcards are: - '*' matches 0 or more DNS valid characters, and may occur anywhere in the pattern. As a special case a '*' as the leftmost character, without a following '.' matches all subdomains as well as the name to the right. A trailing '.' is automatically added when missing. Examples: '*.cilium.io' matches subomains of cilium at that level www.cilium.io and blog.cilium.io match, cilium.io and google.com do not '*cilium.io' matches cilium.io and all subdomains ends with 'cilium.io' except those containing '.' separator, subcilium.io and sub-cilium.io match, www.cilium.io and blog.cilium.io does not sub*.cilium.io matches subdomains of cilium where the subdomain component begins with 'sub' sub.cilium.io and subdomain.cilium.io match, www.cilium.io, blog.cilium.io, cilium.io and google.com do not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_pattern DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_pattern DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_pattern}
   */
   readonly matchPattern?: string;
 }
@@ -19095,19 +19095,19 @@ export class DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecsEgressT
 }
 export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecsEgressToGroupsAws {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#region DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#region DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#security_groups_ids DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#security_groups_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#security_groups_ids DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#security_groups_ids}
   */
   readonly securityGroupsIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#security_groups_names DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#security_groups_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#security_groups_names DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#security_groups_names}
   */
   readonly securityGroupsNames?: string[];
 }
@@ -19290,7 +19290,7 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecsEgr
   /**
   * AWSGroup is an structure that can be used to whitelisting information from AWS integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#aws DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#aws DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#aws}
   */
   readonly aws?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecsEgressToGroupsAws;
 }
@@ -19408,19 +19408,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecsEgr
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#operator DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#values DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19590,13 +19590,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecsEgr
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_expressions DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecsEgressToNodesMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_labels DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -19743,13 +19743,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecsEgr
   /**
   * Kind is the resource type being referred to. Defaults to CiliumEnvoyConfig or CiliumClusterwideEnvoyConfig for CiliumNetworkPolicy and CiliumClusterwideNetworkPolicy, respectively. The only case this is currently explicitly needed is when referring to a CiliumClusterwideEnvoyConfig from CiliumNetworkPolicy, as using a namespaced listener from a cluster scoped policy is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#kind DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#kind DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name is the resource name of the CiliumEnvoyConfig or CiliumClusterwideEnvoyConfig where the listener is defined in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
   */
   readonly name: string;
 }
@@ -19871,19 +19871,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecsEgr
   /**
   * EnvoyConfig is a reference to the CEC or CCEC resource in which the listener is defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#envoy_config DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#envoy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#envoy_config DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#envoy_config}
   */
   readonly envoyConfig: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecsEgressToPortsListenerEnvoyConfig;
   /**
   * Name is the name of the listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
   */
   readonly name: string;
   /**
   * Priority for this Listener that is used when multiple rules would apply different listeners to a policy map entry. Behavior of this is implementation dependent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#priority DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#priority DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#priority}
   */
   readonly priority?: number;
 }
@@ -20031,13 +20031,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecsEgr
   /**
   * Name is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace in which the secret exists. Context of use determines the default value if left out (e.g., 'default').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -20159,25 +20159,25 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecsEgr
   /**
   * Certificate is the file name or k8s secret item name for the certificate chain. If omitted, 'tls.crt' is assumed, if it exists. If given, the item must exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#certificate DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#certificate DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#certificate}
   */
   readonly certificate?: string;
   /**
   * PrivateKey is the file name or k8s secret item name for the private key matching the certificate chain. If omitted, 'tls.key' is assumed, if it exists. If given, the item must exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#private_key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#private_key DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#private_key}
   */
   readonly privateKey?: string;
   /**
   * Secret is the secret that contains the certificates and private key for the TLS context. By default, Cilium will search in this secret for the following items: - 'ca.crt' - Which represents the trusted CA to verify remote source. - 'tls.crt' - Which represents the public key certificate. - 'tls.key' - Which represents the private key matching the public key certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#secret DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#secret DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#secret}
   */
   readonly secret: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecsEgressToPortsOriginatingTlsSecret;
   /**
   * TrustedCA is the file name or k8s secret item name for the trusted CA. If omitted, 'ca.crt' is assumed, if it exists. If given, the item must exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#trusted_ca DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#trusted_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#trusted_ca DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#trusted_ca}
   */
   readonly trustedCa?: string;
 }
@@ -20357,19 +20357,19 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecsEgr
   /**
   * EndPort can only be an L4 port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#end_port DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#end_port DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#end_port}
   */
   readonly endPort?: number;
   /**
   * Port can be an L4 port number, or a name in the form of 'http' or 'http-8080'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#port DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#port DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#port}
   */
   readonly port: string;
   /**
   * Protocol is the L4 protocol. If omitted or empty, any protocol matches. Accepted values: 'TCP', 'UDP', 'SCTP', 'ANY' Matching on ICMP is not supported. Named port specified for a container may narrow this down, but may not contradict this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#protocol DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#protocol DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -20542,13 +20542,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecsEgr
   /**
   * MatchName matches literal DNS names. A trailing '.' is automatically added when missing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_name}
   */
   readonly matchName?: string;
   /**
   * MatchPattern allows using wildcards to match DNS names. All wildcards are case insensitive. The wildcards are: - '*' matches 0 or more DNS valid characters, and may occur anywhere in the pattern. As a special case a '*' as the leftmost character, without a following '.' matches all subdomains as well as the name to the right. A trailing '.' is automatically added when missing. Examples: '*.cilium.io' matches subomains of cilium at that level www.cilium.io and blog.cilium.io match, cilium.io and google.com do not '*cilium.io' matches cilium.io and all subdomains ends with 'cilium.io' except those containing '.' separator, subcilium.io and sub-cilium.io match, www.cilium.io and blog.cilium.io does not sub*.cilium.io matches subdomains of cilium where the subdomain component begins with 'sub' sub.cilium.io and subdomain.cilium.io match, www.cilium.io, blog.cilium.io, cilium.io and google.com do not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_pattern DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#match_pattern DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#match_pattern}
   */
   readonly matchPattern?: string;
 }
@@ -20695,13 +20695,13 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecsEgr
   /**
   * Name is the name of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace in which the secret exists. Context of use determines the default value if left out (e.g., 'default').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#namespace DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -20823,25 +20823,25 @@ export interface DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecsEgr
   /**
   * Mismatch identifies what to do in case there is no match. The default is to drop the request. Otherwise the overall rule is still considered as matching, but the mismatches are logged in the access log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#mismatch DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#mismatch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#mismatch DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#mismatch}
   */
   readonly mismatch?: string;
   /**
   * Name identifies the header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#name DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#name}
   */
   readonly name: string;
   /**
   * Secret refers to a secret that contains the value to be matched against. The secret must only contain one entry. If the referred secret does not exist, and there is no 'Value' specified, the match will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#secret DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#secret DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#secret}
   */
   readonly secret?: DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2ManifestSpecsEgressToPortsRulesHttpHeaderMatchesSecret;
   /**
   * Value matches the exact value of the header. Can be specified either alone or together with 'Secret'; will be used as the header value if the secret can not be found in the latter case.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#value DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cilium_io_cilium_clusterwide_network_policy_v2_manifest#value DataK8SCiliumIoCiliumClusterwideNetworkPolicyV2Manifest#value}
   */
   readonly value?: string;
 }

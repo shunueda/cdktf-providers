@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/transformation_project
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface TransformationProjectConfig extends cdktf.TerraformMetaArgument
   /**
   * The unique identifier for the group within the Fivetran system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/transformation_project#group_id TransformationProject#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation_project#group_id TransformationProject#group_id}
   */
   readonly groupId: string;
   /**
   * Specifies whether the setup tests should be run automatically. The default value is TRUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/transformation_project#run_tests TransformationProject#run_tests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation_project#run_tests TransformationProject#run_tests}
   */
   readonly runTests?: boolean | cdktf.IResolvable;
   /**
   * Transformation project type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/transformation_project#type TransformationProject#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation_project#type TransformationProject#type}
   */
   readonly type: string;
   /**
   * project_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/transformation_project#project_config TransformationProject#project_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation_project#project_config TransformationProject#project_config}
   */
   readonly projectConfig?: TransformationProjectProjectConfig;
 }
@@ -36,49 +36,49 @@ export interface TransformationProjectProjectConfig {
   /**
   * The version of transformation that should run the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/transformation_project#dbt_version TransformationProject#dbt_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation_project#dbt_version TransformationProject#dbt_version}
   */
   readonly dbtVersion?: string;
   /**
   * Default schema in destination. This production schema will contain your transformed data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/transformation_project#default_schema TransformationProject#default_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation_project#default_schema TransformationProject#default_schema}
   */
   readonly defaultSchema?: string;
   /**
   * List of environment variables defined as key-value pairs in the raw string format using = as a separator. The variable name should have the DBT_ prefix and can contain A-Z, 0-9, dash, underscore, or dot characters. Example: "DBT_VARIABLE=variable_value"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/transformation_project#environment_vars TransformationProject#environment_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation_project#environment_vars TransformationProject#environment_vars}
   */
   readonly environmentVars?: string[];
   /**
   * Folder in Git repo with your transformation project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/transformation_project#folder_path TransformationProject#folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation_project#folder_path TransformationProject#folder_path}
   */
   readonly folderPath?: string;
   /**
   * Git branch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/transformation_project#git_branch TransformationProject#git_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation_project#git_branch TransformationProject#git_branch}
   */
   readonly gitBranch?: string;
   /**
   * Git remote URL with your transformation project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/transformation_project#git_remote_url TransformationProject#git_remote_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation_project#git_remote_url TransformationProject#git_remote_url}
   */
   readonly gitRemoteUrl?: string;
   /**
   * Target name to set or override the value from the deployment.yaml
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/transformation_project#target_name TransformationProject#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation_project#target_name TransformationProject#target_name}
   */
   readonly targetName?: string;
   /**
   * The number of threads transformation will use (from 1 to 32). Make sure this value is compatible with your destination type. For example, Snowflake supports only 8 concurrent queries on an X-Small warehouse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/transformation_project#threads TransformationProject#threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation_project#threads TransformationProject#threads}
   */
   readonly threads?: number;
 }
@@ -380,7 +380,7 @@ export class TransformationProjectProjectConfigOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/transformation_project fivetran_transformation_project}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation_project fivetran_transformation_project}
 */
 export class TransformationProject extends cdktf.TerraformResource {
 
@@ -396,7 +396,7 @@ export class TransformationProject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TransformationProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TransformationProject to import
-  * @param importFromId The id of the existing TransformationProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/transformation_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TransformationProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TransformationProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -408,7 +408,7 @@ export class TransformationProject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/transformation_project fivetran_transformation_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/transformation_project fivetran_transformation_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -419,8 +419,8 @@ export class TransformationProject extends cdktf.TerraformResource {
       terraformResourceType: 'fivetran_transformation_project',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.15',
-        providerVersionConstraint: '1.9.15'
+        providerVersion: '1.9.16',
+        providerVersionConstraint: '1.9.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

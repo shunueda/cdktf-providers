@@ -9,6 +9,8 @@ export * as environmentVariable from './environment-variable';
 export * as heartbeat from './heartbeat';
 export * as heartbeatMonitor from './heartbeat-monitor';
 export * as maintenanceWindows from './maintenance-windows';
+export * as playwrightCheckSuite from './playwright-check-suite';
+export * as playwrightCodeBundle from './playwright-code-bundle';
 export * as privateLocation from './private-location';
 export * as snippet from './snippet';
 export * as statusPage from './status-page';

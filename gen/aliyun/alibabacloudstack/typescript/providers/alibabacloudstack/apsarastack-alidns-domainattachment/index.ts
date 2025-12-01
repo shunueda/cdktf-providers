@@ -1,0 +1,166 @@
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alidns_domainattachment
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface ApsarastackAlidnsDomainattachmentConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alidns_domainattachment#domain_names ApsarastackAlidnsDomainattachment#domain_names}
+  */
+  readonly domainNames: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alidns_domainattachment#id ApsarastackAlidnsDomainattachment#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alidns_domainattachment#instance_id ApsarastackAlidnsDomainattachment#instance_id}
+  */
+  readonly instanceId: string;
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alidns_domainattachment apsarastack_alidns_domainattachment}
+*/
+export class ApsarastackAlidnsDomainattachment extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "apsarastack_alidns_domainattachment";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a ApsarastackAlidnsDomainattachment resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the ApsarastackAlidnsDomainattachment to import
+  * @param importFromId The id of the existing ApsarastackAlidnsDomainattachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alidns_domainattachment#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the ApsarastackAlidnsDomainattachment to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "apsarastack_alidns_domainattachment", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_alidns_domainattachment apsarastack_alidns_domainattachment} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options ApsarastackAlidnsDomainattachmentConfig
+  */
+  public constructor(scope: Construct, id: string, config: ApsarastackAlidnsDomainattachmentConfig) {
+    super(scope, id, {
+      terraformResourceType: 'apsarastack_alidns_domainattachment',
+      terraformGeneratorMetadata: {
+        providerName: 'alibabacloudstack',
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._domainNames = config.domainNames;
+    this._id = config.id;
+    this._instanceId = config.instanceId;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // domain_names - computed: false, optional: false, required: true
+  private _domainNames?: string[]; 
+  public get domainNames() {
+    return cdktf.Fn.tolist(this.getListAttribute('domain_names'));
+  }
+  public set domainNames(value: string[]) {
+    this._domainNames = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get domainNamesInput() {
+    return this._domainNames;
+  }
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // instance_id - computed: false, optional: false, required: true
+  private _instanceId?: string; 
+  public get instanceId() {
+    return this.getStringAttribute('instance_id');
+  }
+  public set instanceId(value: string) {
+    this._instanceId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceIdInput() {
+    return this._instanceId;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      domain_names: cdktf.listMapper(cdktf.stringToTerraform, false)(this._domainNames),
+      id: cdktf.stringToTerraform(this._id),
+      instance_id: cdktf.stringToTerraform(this._instanceId),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      domain_names: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._domainNames),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      instance_id: {
+        value: cdktf.stringToHclTerraform(this._instanceId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

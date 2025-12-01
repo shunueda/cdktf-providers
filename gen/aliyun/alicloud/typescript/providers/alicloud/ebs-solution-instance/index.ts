@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_solution_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_solution_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface EbsSolutionInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_solution_instance#description EbsSolutionInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_solution_instance#description EbsSolutionInstance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_solution_instance#id EbsSolutionInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_solution_instance#id EbsSolutionInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_solution_instance#resource_group_id EbsSolutionInstance#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_solution_instance#resource_group_id EbsSolutionInstance#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_solution_instance#solution_id EbsSolutionInstance#solution_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_solution_instance#solution_id EbsSolutionInstance#solution_id}
   */
   readonly solutionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_solution_instance#solution_instance_name EbsSolutionInstance#solution_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_solution_instance#solution_instance_name EbsSolutionInstance#solution_instance_name}
   */
   readonly solutionInstanceName?: string;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_solution_instance#parameters EbsSolutionInstance#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_solution_instance#parameters EbsSolutionInstance#parameters}
   */
   readonly parameters?: EbsSolutionInstanceParameters[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_solution_instance#timeouts EbsSolutionInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_solution_instance#timeouts EbsSolutionInstance#timeouts}
   */
   readonly timeouts?: EbsSolutionInstanceTimeouts;
 }
 export interface EbsSolutionInstanceParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_solution_instance#parameter_key EbsSolutionInstance#parameter_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_solution_instance#parameter_key EbsSolutionInstance#parameter_key}
   */
   readonly parameterKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_solution_instance#parameter_value EbsSolutionInstance#parameter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_solution_instance#parameter_value EbsSolutionInstance#parameter_value}
   */
   readonly parameterValue: string;
 }
@@ -188,15 +188,15 @@ export class EbsSolutionInstanceParametersList extends cdktf.ComplexList {
 }
 export interface EbsSolutionInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_solution_instance#create EbsSolutionInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_solution_instance#create EbsSolutionInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_solution_instance#delete EbsSolutionInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_solution_instance#delete EbsSolutionInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_solution_instance#update EbsSolutionInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_solution_instance#update EbsSolutionInstance#update}
   */
   readonly update?: string;
 }
@@ -348,7 +348,7 @@ export class EbsSolutionInstanceTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_solution_instance alicloud_ebs_solution_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_solution_instance alicloud_ebs_solution_instance}
 */
 export class EbsSolutionInstance extends cdktf.TerraformResource {
 
@@ -364,7 +364,7 @@ export class EbsSolutionInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EbsSolutionInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EbsSolutionInstance to import
-  * @param importFromId The id of the existing EbsSolutionInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_solution_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EbsSolutionInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_solution_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EbsSolutionInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -376,7 +376,7 @@ export class EbsSolutionInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_solution_instance alicloud_ebs_solution_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_solution_instance alicloud_ebs_solution_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -387,8 +387,8 @@ export class EbsSolutionInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ebs_solution_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

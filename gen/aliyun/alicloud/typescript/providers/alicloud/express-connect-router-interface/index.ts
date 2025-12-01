@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,138 +8,138 @@ import * as cdktf from 'cdktf';
 
 export interface ExpressConnectRouterInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#access_point_id ExpressConnectRouterInterface#access_point_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#access_point_id ExpressConnectRouterInterface#access_point_id}
   */
   readonly accessPointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#auto_pay ExpressConnectRouterInterface#auto_pay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#auto_pay ExpressConnectRouterInterface#auto_pay}
   */
   readonly autoPay?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#auto_renew ExpressConnectRouterInterface#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#auto_renew ExpressConnectRouterInterface#auto_renew}
   */
   readonly autoRenew?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#delete_health_check_ip ExpressConnectRouterInterface#delete_health_check_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#delete_health_check_ip ExpressConnectRouterInterface#delete_health_check_ip}
   */
   readonly deleteHealthCheckIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#description ExpressConnectRouterInterface#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#description ExpressConnectRouterInterface#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#fast_link_mode ExpressConnectRouterInterface#fast_link_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#fast_link_mode ExpressConnectRouterInterface#fast_link_mode}
   */
   readonly fastLinkMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#hc_rate ExpressConnectRouterInterface#hc_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#hc_rate ExpressConnectRouterInterface#hc_rate}
   */
   readonly hcRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#hc_threshold ExpressConnectRouterInterface#hc_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#hc_threshold ExpressConnectRouterInterface#hc_threshold}
   */
   readonly hcThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#health_check_source_ip ExpressConnectRouterInterface#health_check_source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#health_check_source_ip ExpressConnectRouterInterface#health_check_source_ip}
   */
   readonly healthCheckSourceIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#health_check_target_ip ExpressConnectRouterInterface#health_check_target_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#health_check_target_ip ExpressConnectRouterInterface#health_check_target_ip}
   */
   readonly healthCheckTargetIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#id ExpressConnectRouterInterface#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#id ExpressConnectRouterInterface#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#opposite_access_point_id ExpressConnectRouterInterface#opposite_access_point_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#opposite_access_point_id ExpressConnectRouterInterface#opposite_access_point_id}
   */
   readonly oppositeAccessPointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#opposite_interface_id ExpressConnectRouterInterface#opposite_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#opposite_interface_id ExpressConnectRouterInterface#opposite_interface_id}
   */
   readonly oppositeInterfaceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#opposite_interface_owner_id ExpressConnectRouterInterface#opposite_interface_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#opposite_interface_owner_id ExpressConnectRouterInterface#opposite_interface_owner_id}
   */
   readonly oppositeInterfaceOwnerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#opposite_region_id ExpressConnectRouterInterface#opposite_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#opposite_region_id ExpressConnectRouterInterface#opposite_region_id}
   */
   readonly oppositeRegionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#opposite_router_id ExpressConnectRouterInterface#opposite_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#opposite_router_id ExpressConnectRouterInterface#opposite_router_id}
   */
   readonly oppositeRouterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#opposite_router_type ExpressConnectRouterInterface#opposite_router_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#opposite_router_type ExpressConnectRouterInterface#opposite_router_type}
   */
   readonly oppositeRouterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#payment_type ExpressConnectRouterInterface#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#payment_type ExpressConnectRouterInterface#payment_type}
   */
   readonly paymentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#period ExpressConnectRouterInterface#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#period ExpressConnectRouterInterface#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#pricing_cycle ExpressConnectRouterInterface#pricing_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#pricing_cycle ExpressConnectRouterInterface#pricing_cycle}
   */
   readonly pricingCycle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#resource_group_id ExpressConnectRouterInterface#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#resource_group_id ExpressConnectRouterInterface#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#role ExpressConnectRouterInterface#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#role ExpressConnectRouterInterface#role}
   */
   readonly role: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#router_id ExpressConnectRouterInterface#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#router_id ExpressConnectRouterInterface#router_id}
   */
   readonly routerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#router_interface_name ExpressConnectRouterInterface#router_interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#router_interface_name ExpressConnectRouterInterface#router_interface_name}
   */
   readonly routerInterfaceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#router_type ExpressConnectRouterInterface#router_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#router_type ExpressConnectRouterInterface#router_type}
   */
   readonly routerType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#spec ExpressConnectRouterInterface#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#spec ExpressConnectRouterInterface#spec}
   */
   readonly spec: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#status ExpressConnectRouterInterface#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#status ExpressConnectRouterInterface#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#tags ExpressConnectRouterInterface#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#tags ExpressConnectRouterInterface#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#timeouts ExpressConnectRouterInterface#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#timeouts ExpressConnectRouterInterface#timeouts}
   */
   readonly timeouts?: ExpressConnectRouterInterfaceTimeouts;
 }
 export interface ExpressConnectRouterInterfaceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#create ExpressConnectRouterInterface#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#create ExpressConnectRouterInterface#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#delete ExpressConnectRouterInterface#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#delete ExpressConnectRouterInterface#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#update ExpressConnectRouterInterface#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#update ExpressConnectRouterInterface#update}
   */
   readonly update?: string;
 }
@@ -291,7 +291,7 @@ export class ExpressConnectRouterInterfaceTimeoutsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface alicloud_express_connect_router_interface}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface alicloud_express_connect_router_interface}
 */
 export class ExpressConnectRouterInterface extends cdktf.TerraformResource {
 
@@ -307,7 +307,7 @@ export class ExpressConnectRouterInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExpressConnectRouterInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExpressConnectRouterInterface to import
-  * @param importFromId The id of the existing ExpressConnectRouterInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExpressConnectRouterInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExpressConnectRouterInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -319,7 +319,7 @@ export class ExpressConnectRouterInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_interface alicloud_express_connect_router_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_interface alicloud_express_connect_router_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,8 +330,8 @@ export class ExpressConnectRouterInterface extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_express_connect_router_interface',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

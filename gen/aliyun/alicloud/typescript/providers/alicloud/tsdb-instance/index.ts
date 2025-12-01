@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/tsdb_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/tsdb_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface TsdbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/tsdb_instance#app_key TsdbInstance#app_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/tsdb_instance#app_key TsdbInstance#app_key}
   */
   readonly appKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/tsdb_instance#disk_category TsdbInstance#disk_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/tsdb_instance#disk_category TsdbInstance#disk_category}
   */
   readonly diskCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/tsdb_instance#duration TsdbInstance#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/tsdb_instance#duration TsdbInstance#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/tsdb_instance#engine_type TsdbInstance#engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/tsdb_instance#engine_type TsdbInstance#engine_type}
   */
   readonly engineType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/tsdb_instance#id TsdbInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/tsdb_instance#id TsdbInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/tsdb_instance#instance_alias TsdbInstance#instance_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/tsdb_instance#instance_alias TsdbInstance#instance_alias}
   */
   readonly instanceAlias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/tsdb_instance#instance_class TsdbInstance#instance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/tsdb_instance#instance_class TsdbInstance#instance_class}
   */
   readonly instanceClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/tsdb_instance#instance_storage TsdbInstance#instance_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/tsdb_instance#instance_storage TsdbInstance#instance_storage}
   */
   readonly instanceStorage: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/tsdb_instance#payment_type TsdbInstance#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/tsdb_instance#payment_type TsdbInstance#payment_type}
   */
   readonly paymentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/tsdb_instance#vswitch_id TsdbInstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/tsdb_instance#vswitch_id TsdbInstance#vswitch_id}
   */
   readonly vswitchId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/tsdb_instance#zone_id TsdbInstance#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/tsdb_instance#zone_id TsdbInstance#zone_id}
   */
   readonly zoneId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/tsdb_instance#timeouts TsdbInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/tsdb_instance#timeouts TsdbInstance#timeouts}
   */
   readonly timeouts?: TsdbInstanceTimeouts;
 }
 export interface TsdbInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/tsdb_instance#create TsdbInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/tsdb_instance#create TsdbInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/tsdb_instance#update TsdbInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/tsdb_instance#update TsdbInstance#update}
   */
   readonly update?: string;
 }
@@ -190,7 +190,7 @@ export class TsdbInstanceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/tsdb_instance alicloud_tsdb_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/tsdb_instance alicloud_tsdb_instance}
 */
 export class TsdbInstance extends cdktf.TerraformResource {
 
@@ -206,7 +206,7 @@ export class TsdbInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TsdbInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TsdbInstance to import
-  * @param importFromId The id of the existing TsdbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/tsdb_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TsdbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/tsdb_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TsdbInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -218,7 +218,7 @@ export class TsdbInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/tsdb_instance alicloud_tsdb_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/tsdb_instance alicloud_tsdb_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -229,8 +229,8 @@ export class TsdbInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_tsdb_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

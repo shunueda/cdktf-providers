@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,152 +8,152 @@ import * as cdktf from 'cdktf';
 
 export interface RdsDbinstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#auto_renew RdsDbinstance#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#auto_renew RdsDbinstance#auto_renew}
   */
   readonly autoRenew?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#auto_renew_period RdsDbinstance#auto_renew_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#auto_renew_period RdsDbinstance#auto_renew_period}
   */
   readonly autoRenewPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#db_instance_class RdsDbinstance#db_instance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#db_instance_class RdsDbinstance#db_instance_class}
   */
   readonly dbInstanceClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#db_instance_description RdsDbinstance#db_instance_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#db_instance_description RdsDbinstance#db_instance_description}
   */
   readonly dbInstanceDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#db_instance_storage RdsDbinstance#db_instance_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#db_instance_storage RdsDbinstance#db_instance_storage}
   */
   readonly dbInstanceStorage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#db_instance_storage_type RdsDbinstance#db_instance_storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#db_instance_storage_type RdsDbinstance#db_instance_storage_type}
   */
   readonly dbInstanceStorageType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#enable_ssl RdsDbinstance#enable_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#enable_ssl RdsDbinstance#enable_ssl}
   */
   readonly enableSsl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#encryption RdsDbinstance#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#encryption RdsDbinstance#encryption}
   */
   readonly encryption?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#encryption_key RdsDbinstance#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#encryption_key RdsDbinstance#encryption_key}
   */
   readonly encryptionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#engine RdsDbinstance#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#engine RdsDbinstance#engine}
   */
   readonly engine: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#engine_version RdsDbinstance#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#engine_version RdsDbinstance#engine_version}
   */
   readonly engineVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#force_restart RdsDbinstance#force_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#force_restart RdsDbinstance#force_restart}
   */
   readonly forceRestart?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#id RdsDbinstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#id RdsDbinstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#instance_charge_type RdsDbinstance#instance_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#instance_charge_type RdsDbinstance#instance_charge_type}
   */
   readonly instanceChargeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#instance_name RdsDbinstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#instance_name RdsDbinstance#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#instance_storage RdsDbinstance#instance_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#instance_storage RdsDbinstance#instance_storage}
   */
   readonly instanceStorage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#instance_type RdsDbinstance#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#instance_type RdsDbinstance#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#maintain_time RdsDbinstance#maintain_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#maintain_time RdsDbinstance#maintain_time}
   */
   readonly maintainTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#monitoring_period RdsDbinstance#monitoring_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#monitoring_period RdsDbinstance#monitoring_period}
   */
   readonly monitoringPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#payment_type RdsDbinstance#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#payment_type RdsDbinstance#payment_type}
   */
   readonly paymentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#period RdsDbinstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#period RdsDbinstance#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#role_arn RdsDbinstance#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#role_arn RdsDbinstance#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#security_ip_mode RdsDbinstance#security_ip_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#security_ip_mode RdsDbinstance#security_ip_mode}
   */
   readonly securityIpMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#security_ips RdsDbinstance#security_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#security_ips RdsDbinstance#security_ips}
   */
   readonly securityIps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#storage_type RdsDbinstance#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#storage_type RdsDbinstance#storage_type}
   */
   readonly storageType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#tags RdsDbinstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#tags RdsDbinstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#tde_status RdsDbinstance#tde_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#tde_status RdsDbinstance#tde_status}
   */
   readonly tdeStatus?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#vswitch_id RdsDbinstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#vswitch_id RdsDbinstance#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#zone_id RdsDbinstance#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#zone_id RdsDbinstance#zone_id}
   */
   readonly zoneId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#zone_id_slave1 RdsDbinstance#zone_id_slave1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#zone_id_slave1 RdsDbinstance#zone_id_slave1}
   */
   readonly zoneIdSlave1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#zone_id_slave2 RdsDbinstance#zone_id_slave2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#zone_id_slave2 RdsDbinstance#zone_id_slave2}
   */
   readonly zoneIdSlave2?: string;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#parameters RdsDbinstance#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#parameters RdsDbinstance#parameters}
   */
   readonly parameters?: RdsDbinstanceParameters[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#timeouts RdsDbinstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#timeouts RdsDbinstance#timeouts}
   */
   readonly timeouts?: RdsDbinstanceTimeouts;
 }
 export interface RdsDbinstanceParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#name RdsDbinstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#name RdsDbinstance#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#value RdsDbinstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#value RdsDbinstance#value}
   */
   readonly value: string;
 }
@@ -292,15 +292,15 @@ export class RdsDbinstanceParametersList extends cdktf.ComplexList {
 }
 export interface RdsDbinstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#create RdsDbinstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#create RdsDbinstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#delete RdsDbinstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#delete RdsDbinstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#update RdsDbinstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#update RdsDbinstance#update}
   */
   readonly update?: string;
 }
@@ -452,7 +452,7 @@ export class RdsDbinstanceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance alibabacloudstack_rds_dbinstance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance alibabacloudstack_rds_dbinstance}
 */
 export class RdsDbinstance extends cdktf.TerraformResource {
 
@@ -468,7 +468,7 @@ export class RdsDbinstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RdsDbinstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsDbinstance to import
-  * @param importFromId The id of the existing RdsDbinstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsDbinstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsDbinstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -480,7 +480,7 @@ export class RdsDbinstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/rds_dbinstance alibabacloudstack_rds_dbinstance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/rds_dbinstance alibabacloudstack_rds_dbinstance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -491,8 +491,8 @@ export class RdsDbinstance extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_rds_dbinstance',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

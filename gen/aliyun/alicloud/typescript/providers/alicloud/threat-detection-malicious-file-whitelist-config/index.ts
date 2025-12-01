@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_malicious_file_whitelist_config
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_malicious_file_whitelist_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface ThreatDetectionMaliciousFileWhitelistConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_malicious_file_whitelist_config#event_name ThreatDetectionMaliciousFileWhitelistConfig#event_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_malicious_file_whitelist_config#event_name ThreatDetectionMaliciousFileWhitelistConfig#event_name}
   */
   readonly eventName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_malicious_file_whitelist_config#field ThreatDetectionMaliciousFileWhitelistConfig#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_malicious_file_whitelist_config#field ThreatDetectionMaliciousFileWhitelistConfig#field}
   */
   readonly field?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_malicious_file_whitelist_config#field_value ThreatDetectionMaliciousFileWhitelistConfig#field_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_malicious_file_whitelist_config#field_value ThreatDetectionMaliciousFileWhitelistConfig#field_value}
   */
   readonly fieldValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_malicious_file_whitelist_config#id ThreatDetectionMaliciousFileWhitelistConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_malicious_file_whitelist_config#id ThreatDetectionMaliciousFileWhitelistConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_malicious_file_whitelist_config#operator ThreatDetectionMaliciousFileWhitelistConfig#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_malicious_file_whitelist_config#operator ThreatDetectionMaliciousFileWhitelistConfig#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_malicious_file_whitelist_config#source ThreatDetectionMaliciousFileWhitelistConfig#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_malicious_file_whitelist_config#source ThreatDetectionMaliciousFileWhitelistConfig#source}
   */
   readonly source?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_malicious_file_whitelist_config#target_type ThreatDetectionMaliciousFileWhitelistConfig#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_malicious_file_whitelist_config#target_type ThreatDetectionMaliciousFileWhitelistConfig#target_type}
   */
   readonly targetType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_malicious_file_whitelist_config#target_value ThreatDetectionMaliciousFileWhitelistConfig#target_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_malicious_file_whitelist_config#target_value ThreatDetectionMaliciousFileWhitelistConfig#target_value}
   */
   readonly targetValue?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_malicious_file_whitelist_config#timeouts ThreatDetectionMaliciousFileWhitelistConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_malicious_file_whitelist_config#timeouts ThreatDetectionMaliciousFileWhitelistConfig#timeouts}
   */
   readonly timeouts?: ThreatDetectionMaliciousFileWhitelistConfigTimeouts;
 }
 export interface ThreatDetectionMaliciousFileWhitelistConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_malicious_file_whitelist_config#create ThreatDetectionMaliciousFileWhitelistConfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_malicious_file_whitelist_config#create ThreatDetectionMaliciousFileWhitelistConfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_malicious_file_whitelist_config#delete ThreatDetectionMaliciousFileWhitelistConfig#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_malicious_file_whitelist_config#delete ThreatDetectionMaliciousFileWhitelistConfig#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_malicious_file_whitelist_config#update ThreatDetectionMaliciousFileWhitelistConfig#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_malicious_file_whitelist_config#update ThreatDetectionMaliciousFileWhitelistConfig#update}
   */
   readonly update?: string;
 }
@@ -211,7 +211,7 @@ export class ThreatDetectionMaliciousFileWhitelistConfigTimeoutsOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_malicious_file_whitelist_config alicloud_threat_detection_malicious_file_whitelist_config}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_malicious_file_whitelist_config alicloud_threat_detection_malicious_file_whitelist_config}
 */
 export class ThreatDetectionMaliciousFileWhitelistConfig extends cdktf.TerraformResource {
 
@@ -227,7 +227,7 @@ export class ThreatDetectionMaliciousFileWhitelistConfig extends cdktf.Terraform
   * Generates CDKTF code for importing a ThreatDetectionMaliciousFileWhitelistConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ThreatDetectionMaliciousFileWhitelistConfig to import
-  * @param importFromId The id of the existing ThreatDetectionMaliciousFileWhitelistConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_malicious_file_whitelist_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ThreatDetectionMaliciousFileWhitelistConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_malicious_file_whitelist_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ThreatDetectionMaliciousFileWhitelistConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -239,7 +239,7 @@ export class ThreatDetectionMaliciousFileWhitelistConfig extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_malicious_file_whitelist_config alicloud_threat_detection_malicious_file_whitelist_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_malicious_file_whitelist_config alicloud_threat_detection_malicious_file_whitelist_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,8 +250,8 @@ export class ThreatDetectionMaliciousFileWhitelistConfig extends cdktf.Terraform
       terraformResourceType: 'alicloud_threat_detection_malicious_file_whitelist_config',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

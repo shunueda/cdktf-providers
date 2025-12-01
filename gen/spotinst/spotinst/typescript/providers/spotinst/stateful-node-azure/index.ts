@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure
+// https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,246 +8,246 @@ import * as cdktf from 'cdktf';
 
 export interface StatefulNodeAzureConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#custom_data StatefulNodeAzure#custom_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#custom_data StatefulNodeAzure#custom_data}
   */
   readonly customData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#data_disks_persistence_mode StatefulNodeAzure#data_disks_persistence_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#data_disks_persistence_mode StatefulNodeAzure#data_disks_persistence_mode}
   */
   readonly dataDisksPersistenceMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#description StatefulNodeAzure#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#description StatefulNodeAzure#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#id StatefulNodeAzure#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#id StatefulNodeAzure#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#license_type StatefulNodeAzure#license_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#license_type StatefulNodeAzure#license_type}
   */
   readonly licenseType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#os StatefulNodeAzure#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#os StatefulNodeAzure#os}
   */
   readonly os: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#os_disk_persistence_mode StatefulNodeAzure#os_disk_persistence_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#os_disk_persistence_mode StatefulNodeAzure#os_disk_persistence_mode}
   */
   readonly osDiskPersistenceMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#preferred_zone StatefulNodeAzure#preferred_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#preferred_zone StatefulNodeAzure#preferred_zone}
   */
   readonly preferredZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#region StatefulNodeAzure#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#region StatefulNodeAzure#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}
   */
   readonly resourceGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#should_persist_data_disks StatefulNodeAzure#should_persist_data_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#should_persist_data_disks StatefulNodeAzure#should_persist_data_disks}
   */
   readonly shouldPersistDataDisks: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#should_persist_network StatefulNodeAzure#should_persist_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#should_persist_network StatefulNodeAzure#should_persist_network}
   */
   readonly shouldPersistNetwork: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#should_persist_os_disk StatefulNodeAzure#should_persist_os_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#should_persist_os_disk StatefulNodeAzure#should_persist_os_disk}
   */
   readonly shouldPersistOsDisk: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#shutdown_script StatefulNodeAzure#shutdown_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#shutdown_script StatefulNodeAzure#shutdown_script}
   */
   readonly shutdownScript?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#user_data StatefulNodeAzure#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#user_data StatefulNodeAzure#user_data}
   */
   readonly userData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#vm_name StatefulNodeAzure#vm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#vm_name StatefulNodeAzure#vm_name}
   */
   readonly vmName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#vm_name_prefix StatefulNodeAzure#vm_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#vm_name_prefix StatefulNodeAzure#vm_name_prefix}
   */
   readonly vmNamePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#zones StatefulNodeAzure#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#zones StatefulNodeAzure#zones}
   */
   readonly zones?: string[];
   /**
   * attach_data_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#attach_data_disk StatefulNodeAzure#attach_data_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#attach_data_disk StatefulNodeAzure#attach_data_disk}
   */
   readonly attachDataDisk?: StatefulNodeAzureAttachDataDisk[] | cdktf.IResolvable;
   /**
   * boot_diagnostics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#boot_diagnostics StatefulNodeAzure#boot_diagnostics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#boot_diagnostics StatefulNodeAzure#boot_diagnostics}
   */
   readonly bootDiagnostics?: StatefulNodeAzureBootDiagnostics[] | cdktf.IResolvable;
   /**
   * data_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#data_disk StatefulNodeAzure#data_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#data_disk StatefulNodeAzure#data_disk}
   */
   readonly dataDisk?: StatefulNodeAzureDataDisk[] | cdktf.IResolvable;
   /**
   * delete block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#delete StatefulNodeAzure#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#delete StatefulNodeAzure#delete}
   */
   readonly delete?: StatefulNodeAzureDelete[] | cdktf.IResolvable;
   /**
   * detach_data_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#detach_data_disk StatefulNodeAzure#detach_data_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#detach_data_disk StatefulNodeAzure#detach_data_disk}
   */
   readonly detachDataDisk?: StatefulNodeAzureDetachDataDisk[] | cdktf.IResolvable;
   /**
   * extension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#extension StatefulNodeAzure#extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#extension StatefulNodeAzure#extension}
   */
   readonly extension?: StatefulNodeAzureExtension[] | cdktf.IResolvable;
   /**
   * health block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#health StatefulNodeAzure#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#health StatefulNodeAzure#health}
   */
   readonly health?: StatefulNodeAzureHealth;
   /**
   * image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#image StatefulNodeAzure#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#image StatefulNodeAzure#image}
   */
   readonly image?: StatefulNodeAzureImage;
   /**
   * import_vm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#import_vm StatefulNodeAzure#import_vm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#import_vm StatefulNodeAzure#import_vm}
   */
   readonly importVm?: StatefulNodeAzureImportVm[] | cdktf.IResolvable;
   /**
   * load_balancer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#load_balancer StatefulNodeAzure#load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#load_balancer StatefulNodeAzure#load_balancer}
   */
   readonly loadBalancer?: StatefulNodeAzureLoadBalancer[] | cdktf.IResolvable;
   /**
   * login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#login StatefulNodeAzure#login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#login StatefulNodeAzure#login}
   */
   readonly login?: StatefulNodeAzureLogin;
   /**
   * managed_service_identities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#managed_service_identities StatefulNodeAzure#managed_service_identities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#managed_service_identities StatefulNodeAzure#managed_service_identities}
   */
   readonly managedServiceIdentities?: StatefulNodeAzureManagedServiceIdentities[] | cdktf.IResolvable;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#network StatefulNodeAzure#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#network StatefulNodeAzure#network}
   */
   readonly network?: StatefulNodeAzureNetwork;
   /**
   * os_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#os_disk StatefulNodeAzure#os_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#os_disk StatefulNodeAzure#os_disk}
   */
   readonly osDisk?: StatefulNodeAzureOsDisk;
   /**
   * proximity_placement_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#proximity_placement_groups StatefulNodeAzure#proximity_placement_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#proximity_placement_groups StatefulNodeAzure#proximity_placement_groups}
   */
   readonly proximityPlacementGroups?: StatefulNodeAzureProximityPlacementGroups[] | cdktf.IResolvable;
   /**
   * scheduling_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#scheduling_task StatefulNodeAzure#scheduling_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#scheduling_task StatefulNodeAzure#scheduling_task}
   */
   readonly schedulingTask?: StatefulNodeAzureSchedulingTask[] | cdktf.IResolvable;
   /**
   * secret block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#secret StatefulNodeAzure#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#secret StatefulNodeAzure#secret}
   */
   readonly secret?: StatefulNodeAzureSecret[] | cdktf.IResolvable;
   /**
   * security block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#security StatefulNodeAzure#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#security StatefulNodeAzure#security}
   */
   readonly security?: StatefulNodeAzureSecurity;
   /**
   * signal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#signal StatefulNodeAzure#signal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#signal StatefulNodeAzure#signal}
   */
   readonly signal?: StatefulNodeAzureSignal[] | cdktf.IResolvable;
   /**
   * strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#strategy StatefulNodeAzure#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#strategy StatefulNodeAzure#strategy}
   */
   readonly strategy: StatefulNodeAzureStrategy;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#tag StatefulNodeAzure#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#tag StatefulNodeAzure#tag}
   */
   readonly tag?: StatefulNodeAzureTag[] | cdktf.IResolvable;
   /**
   * update_state block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#update_state StatefulNodeAzure#update_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#update_state StatefulNodeAzure#update_state}
   */
   readonly updateState?: StatefulNodeAzureUpdateState[] | cdktf.IResolvable;
   /**
   * vm_sizes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#vm_sizes StatefulNodeAzure#vm_sizes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#vm_sizes StatefulNodeAzure#vm_sizes}
   */
   readonly vmSizes: StatefulNodeAzureVmSizes;
 }
 export interface StatefulNodeAzureAttachDataDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#data_disk_name StatefulNodeAzure#data_disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#data_disk_name StatefulNodeAzure#data_disk_name}
   */
   readonly dataDiskName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#data_disk_resource_group_name StatefulNodeAzure#data_disk_resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#data_disk_resource_group_name StatefulNodeAzure#data_disk_resource_group_name}
   */
   readonly dataDiskResourceGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#lun StatefulNodeAzure#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#lun StatefulNodeAzure#lun}
   */
   readonly lun?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}
   */
   readonly sizeGb: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#storage_account_type StatefulNodeAzure#storage_account_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#storage_account_type StatefulNodeAzure#storage_account_type}
   */
   readonly storageAccountType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#zone StatefulNodeAzure#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#zone StatefulNodeAzure#zone}
   */
   readonly zone?: string;
 }
@@ -496,15 +496,15 @@ export class StatefulNodeAzureAttachDataDiskList extends cdktf.ComplexList {
 }
 export interface StatefulNodeAzureBootDiagnostics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#is_enabled StatefulNodeAzure#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#is_enabled StatefulNodeAzure#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#storage_url StatefulNodeAzure#storage_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#storage_url StatefulNodeAzure#storage_url}
   */
   readonly storageUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}
   */
   readonly type?: string;
 }
@@ -678,15 +678,15 @@ export class StatefulNodeAzureBootDiagnosticsList extends cdktf.ComplexList {
 }
 export interface StatefulNodeAzureDataDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#lun StatefulNodeAzure#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#lun StatefulNodeAzure#lun}
   */
   readonly lun: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}
   */
   readonly sizeGb: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}
   */
   readonly type: string;
 }
@@ -851,47 +851,47 @@ export class StatefulNodeAzureDataDiskList extends cdktf.ComplexList {
 }
 export interface StatefulNodeAzureDelete {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#disk_should_deallocate StatefulNodeAzure#disk_should_deallocate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#disk_should_deallocate StatefulNodeAzure#disk_should_deallocate}
   */
   readonly diskShouldDeallocate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#disk_ttl_in_hours StatefulNodeAzure#disk_ttl_in_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#disk_ttl_in_hours StatefulNodeAzure#disk_ttl_in_hours}
   */
   readonly diskTtlInHours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#network_should_deallocate StatefulNodeAzure#network_should_deallocate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#network_should_deallocate StatefulNodeAzure#network_should_deallocate}
   */
   readonly networkShouldDeallocate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#network_ttl_in_hours StatefulNodeAzure#network_ttl_in_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#network_ttl_in_hours StatefulNodeAzure#network_ttl_in_hours}
   */
   readonly networkTtlInHours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#public_ip_should_deallocate StatefulNodeAzure#public_ip_should_deallocate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#public_ip_should_deallocate StatefulNodeAzure#public_ip_should_deallocate}
   */
   readonly publicIpShouldDeallocate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#public_ip_ttl_in_hours StatefulNodeAzure#public_ip_ttl_in_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#public_ip_ttl_in_hours StatefulNodeAzure#public_ip_ttl_in_hours}
   */
   readonly publicIpTtlInHours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#should_deregister_from_lb StatefulNodeAzure#should_deregister_from_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#should_deregister_from_lb StatefulNodeAzure#should_deregister_from_lb}
   */
   readonly shouldDeregisterFromLb?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#should_revert_to_od StatefulNodeAzure#should_revert_to_od}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#should_revert_to_od StatefulNodeAzure#should_revert_to_od}
   */
   readonly shouldRevertToOd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#should_terminate_vm StatefulNodeAzure#should_terminate_vm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#should_terminate_vm StatefulNodeAzure#should_terminate_vm}
   */
   readonly shouldTerminateVm: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#snapshot_should_deallocate StatefulNodeAzure#snapshot_should_deallocate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#snapshot_should_deallocate StatefulNodeAzure#snapshot_should_deallocate}
   */
   readonly snapshotShouldDeallocate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#snapshot_ttl_in_hours StatefulNodeAzure#snapshot_ttl_in_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#snapshot_ttl_in_hours StatefulNodeAzure#snapshot_ttl_in_hours}
   */
   readonly snapshotTtlInHours?: number;
 }
@@ -1294,19 +1294,19 @@ export class StatefulNodeAzureDeleteList extends cdktf.ComplexList {
 }
 export interface StatefulNodeAzureDetachDataDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#data_disk_name StatefulNodeAzure#data_disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#data_disk_name StatefulNodeAzure#data_disk_name}
   */
   readonly dataDiskName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#data_disk_resource_group_name StatefulNodeAzure#data_disk_resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#data_disk_resource_group_name StatefulNodeAzure#data_disk_resource_group_name}
   */
   readonly dataDiskResourceGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#should_deallocate StatefulNodeAzure#should_deallocate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#should_deallocate StatefulNodeAzure#should_deallocate}
   */
   readonly shouldDeallocate: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#ttl_in_hours StatefulNodeAzure#ttl_in_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#ttl_in_hours StatefulNodeAzure#ttl_in_hours}
   */
   readonly ttlInHours?: number;
 }
@@ -1500,31 +1500,31 @@ export class StatefulNodeAzureDetachDataDiskList extends cdktf.ComplexList {
 }
 export interface StatefulNodeAzureExtension {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#api_version StatefulNodeAzure#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#api_version StatefulNodeAzure#api_version}
   */
   readonly apiVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#minor_version_auto_upgrade StatefulNodeAzure#minor_version_auto_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#minor_version_auto_upgrade StatefulNodeAzure#minor_version_auto_upgrade}
   */
   readonly minorVersionAutoUpgrade: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#protected_settings StatefulNodeAzure#protected_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#protected_settings StatefulNodeAzure#protected_settings}
   */
   readonly protectedSettings?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#public_settings StatefulNodeAzure#public_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#public_settings StatefulNodeAzure#public_settings}
   */
   readonly publicSettings?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#publisher StatefulNodeAzure#publisher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#publisher StatefulNodeAzure#publisher}
   */
   readonly publisher: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}
   */
   readonly type: string;
 }
@@ -1799,19 +1799,19 @@ export class StatefulNodeAzureExtensionList extends cdktf.ComplexList {
 }
 export interface StatefulNodeAzureHealth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#auto_healing StatefulNodeAzure#auto_healing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#auto_healing StatefulNodeAzure#auto_healing}
   */
   readonly autoHealing: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#grace_period StatefulNodeAzure#grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#grace_period StatefulNodeAzure#grace_period}
   */
   readonly gracePeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#health_check_types StatefulNodeAzure#health_check_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#health_check_types StatefulNodeAzure#health_check_types}
   */
   readonly healthCheckTypes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#unhealthy_duration StatefulNodeAzure#unhealthy_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#unhealthy_duration StatefulNodeAzure#unhealthy_duration}
   */
   readonly unhealthyDuration?: number;
 }
@@ -1976,11 +1976,11 @@ export class StatefulNodeAzureHealthOutputReference extends cdktf.ComplexObject 
 }
 export interface StatefulNodeAzureImageCustomImage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#custom_image_resource_group_name StatefulNodeAzure#custom_image_resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#custom_image_resource_group_name StatefulNodeAzure#custom_image_resource_group_name}
   */
   readonly customImageResourceGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}
   */
   readonly name: string;
 }
@@ -2119,23 +2119,23 @@ export class StatefulNodeAzureImageCustomImageList extends cdktf.ComplexList {
 }
 export interface StatefulNodeAzureImageGallery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#gallery_name StatefulNodeAzure#gallery_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#gallery_name StatefulNodeAzure#gallery_name}
   */
   readonly galleryName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#gallery_resource_group_name StatefulNodeAzure#gallery_resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#gallery_resource_group_name StatefulNodeAzure#gallery_resource_group_name}
   */
   readonly galleryResourceGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#image_name StatefulNodeAzure#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#image_name StatefulNodeAzure#image_name}
   */
   readonly imageName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#spot_account_id StatefulNodeAzure#spot_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#spot_account_id StatefulNodeAzure#spot_account_id}
   */
   readonly spotAccountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#version_name StatefulNodeAzure#version_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#version_name StatefulNodeAzure#version_name}
   */
   readonly versionName: string;
 }
@@ -2355,19 +2355,19 @@ export class StatefulNodeAzureImageGalleryList extends cdktf.ComplexList {
 }
 export interface StatefulNodeAzureImageMarketplaceImage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#offer StatefulNodeAzure#offer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#offer StatefulNodeAzure#offer}
   */
   readonly offer: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#publisher StatefulNodeAzure#publisher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#publisher StatefulNodeAzure#publisher}
   */
   readonly publisher: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#sku StatefulNodeAzure#sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#sku StatefulNodeAzure#sku}
   */
   readonly sku: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#version StatefulNodeAzure#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#version StatefulNodeAzure#version}
   */
   readonly version: string;
 }
@@ -2560,19 +2560,19 @@ export interface StatefulNodeAzureImage {
   /**
   * custom_image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#custom_image StatefulNodeAzure#custom_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#custom_image StatefulNodeAzure#custom_image}
   */
   readonly customImage?: StatefulNodeAzureImageCustomImage[] | cdktf.IResolvable;
   /**
   * gallery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#gallery StatefulNodeAzure#gallery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#gallery StatefulNodeAzure#gallery}
   */
   readonly gallery?: StatefulNodeAzureImageGallery[] | cdktf.IResolvable;
   /**
   * marketplace_image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#marketplace_image StatefulNodeAzure#marketplace_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#marketplace_image StatefulNodeAzure#marketplace_image}
   */
   readonly marketplaceImage?: StatefulNodeAzureImageMarketplaceImage[] | cdktf.IResolvable;
 }
@@ -2714,19 +2714,19 @@ export class StatefulNodeAzureImageOutputReference extends cdktf.ComplexObject {
 }
 export interface StatefulNodeAzureImportVm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#draining_timeout StatefulNodeAzure#draining_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#draining_timeout StatefulNodeAzure#draining_timeout}
   */
   readonly drainingTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#original_vm_name StatefulNodeAzure#original_vm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#original_vm_name StatefulNodeAzure#original_vm_name}
   */
   readonly originalVmName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}
   */
   readonly resourceGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#resources_retention_time StatefulNodeAzure#resources_retention_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#resources_retention_time StatefulNodeAzure#resources_retention_time}
   */
   readonly resourcesRetentionTime?: number;
 }
@@ -2923,23 +2923,23 @@ export class StatefulNodeAzureImportVmList extends cdktf.ComplexList {
 }
 export interface StatefulNodeAzureLoadBalancer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#backend_pool_names StatefulNodeAzure#backend_pool_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#backend_pool_names StatefulNodeAzure#backend_pool_names}
   */
   readonly backendPoolNames: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}
   */
   readonly resourceGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#sku StatefulNodeAzure#sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#sku StatefulNodeAzure#sku}
   */
   readonly sku?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}
   */
   readonly type: string;
 }
@@ -3159,15 +3159,15 @@ export class StatefulNodeAzureLoadBalancerList extends cdktf.ComplexList {
 }
 export interface StatefulNodeAzureLogin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#password StatefulNodeAzure#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#password StatefulNodeAzure#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#ssh_public_key StatefulNodeAzure#ssh_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#ssh_public_key StatefulNodeAzure#ssh_public_key}
   */
   readonly sshPublicKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#user_name StatefulNodeAzure#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#user_name StatefulNodeAzure#user_name}
   */
   readonly userName: string;
 }
@@ -3306,15 +3306,15 @@ export class StatefulNodeAzureLoginOutputReference extends cdktf.ComplexObject {
 }
 export interface StatefulNodeAzureManagedServiceIdentities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}
   */
   readonly resourceGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#subscription_id StatefulNodeAzure#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#subscription_id StatefulNodeAzure#subscription_id}
   */
   readonly subscriptionId?: string;
 }
@@ -3482,11 +3482,11 @@ export class StatefulNodeAzureManagedServiceIdentitiesList extends cdktf.Complex
 }
 export interface StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#private_ip_address_version StatefulNodeAzure#private_ip_address_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#private_ip_address_version StatefulNodeAzure#private_ip_address_version}
   */
   readonly privateIpAddressVersion: string;
 }
@@ -3625,11 +3625,11 @@ export class StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurationsL
 }
 export interface StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}
   */
   readonly networkResourceGroupName: string;
 }
@@ -3768,11 +3768,11 @@ export class StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroupsLi
 }
 export interface StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}
   */
   readonly networkResourceGroupName?: string;
 }
@@ -3917,11 +3917,11 @@ export class StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroupList ex
 }
 export interface StatefulNodeAzureNetworkNetworkInterfacePublicIps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}
   */
   readonly networkResourceGroupName: string;
 }
@@ -4060,51 +4060,51 @@ export class StatefulNodeAzureNetworkNetworkInterfacePublicIpsList extends cdktf
 }
 export interface StatefulNodeAzureNetworkNetworkInterface {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#assign_public_ip StatefulNodeAzure#assign_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#assign_public_ip StatefulNodeAzure#assign_public_ip}
   */
   readonly assignPublicIp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#enable_ip_forwarding StatefulNodeAzure#enable_ip_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#enable_ip_forwarding StatefulNodeAzure#enable_ip_forwarding}
   */
   readonly enableIpForwarding?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#is_primary StatefulNodeAzure#is_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#is_primary StatefulNodeAzure#is_primary}
   */
   readonly isPrimary: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#private_ip_addresses StatefulNodeAzure#private_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#private_ip_addresses StatefulNodeAzure#private_ip_addresses}
   */
   readonly privateIpAddresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#public_ip_sku StatefulNodeAzure#public_ip_sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#public_ip_sku StatefulNodeAzure#public_ip_sku}
   */
   readonly publicIpSku?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#subnet_name StatefulNodeAzure#subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#subnet_name StatefulNodeAzure#subnet_name}
   */
   readonly subnetName: string;
   /**
   * additional_ip_configurations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#additional_ip_configurations StatefulNodeAzure#additional_ip_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#additional_ip_configurations StatefulNodeAzure#additional_ip_configurations}
   */
   readonly additionalIpConfigurations?: StatefulNodeAzureNetworkNetworkInterfaceAdditionalIpConfigurations[] | cdktf.IResolvable;
   /**
   * application_security_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#application_security_groups StatefulNodeAzure#application_security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#application_security_groups StatefulNodeAzure#application_security_groups}
   */
   readonly applicationSecurityGroups?: StatefulNodeAzureNetworkNetworkInterfaceApplicationSecurityGroups[] | cdktf.IResolvable;
   /**
   * network_security_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#network_security_group StatefulNodeAzure#network_security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#network_security_group StatefulNodeAzure#network_security_group}
   */
   readonly networkSecurityGroup?: StatefulNodeAzureNetworkNetworkInterfaceNetworkSecurityGroup[] | cdktf.IResolvable;
   /**
   * public_ips block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#public_ips StatefulNodeAzure#public_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#public_ips StatefulNodeAzure#public_ips}
   */
   readonly publicIps?: StatefulNodeAzureNetworkNetworkInterfacePublicIps[] | cdktf.IResolvable;
 }
@@ -4475,17 +4475,17 @@ export class StatefulNodeAzureNetworkNetworkInterfaceList extends cdktf.ComplexL
 }
 export interface StatefulNodeAzureNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#network_resource_group_name StatefulNodeAzure#network_resource_group_name}
   */
   readonly networkResourceGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#virtual_network_name StatefulNodeAzure#virtual_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#virtual_network_name StatefulNodeAzure#virtual_network_name}
   */
   readonly virtualNetworkName: string;
   /**
   * network_interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#network_interface StatefulNodeAzure#network_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#network_interface StatefulNodeAzure#network_interface}
   */
   readonly networkInterface: StatefulNodeAzureNetworkNetworkInterface[] | cdktf.IResolvable;
 }
@@ -4618,15 +4618,15 @@ export class StatefulNodeAzureNetworkOutputReference extends cdktf.ComplexObject
 }
 export interface StatefulNodeAzureOsDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#caching StatefulNodeAzure#caching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#caching StatefulNodeAzure#caching}
   */
   readonly caching?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#size_gb StatefulNodeAzure#size_gb}
   */
   readonly sizeGb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}
   */
   readonly type: string;
 }
@@ -4765,11 +4765,11 @@ export class StatefulNodeAzureOsDiskOutputReference extends cdktf.ComplexObject 
 }
 export interface StatefulNodeAzureProximityPlacementGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}
   */
   readonly resourceGroupName: string;
 }
@@ -4908,15 +4908,15 @@ export class StatefulNodeAzureProximityPlacementGroupsList extends cdktf.Complex
 }
 export interface StatefulNodeAzureSchedulingTask {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#cron_expression StatefulNodeAzure#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#cron_expression StatefulNodeAzure#cron_expression}
   */
   readonly cronExpression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#is_enabled StatefulNodeAzure#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#is_enabled StatefulNodeAzure#is_enabled}
   */
   readonly isEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}
   */
   readonly type: string;
 }
@@ -5081,11 +5081,11 @@ export class StatefulNodeAzureSchedulingTaskList extends cdktf.ComplexList {
 }
 export interface StatefulNodeAzureSecretSourceVault {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#name StatefulNodeAzure#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#resource_group_name StatefulNodeAzure#resource_group_name}
   */
   readonly resourceGroupName: string;
 }
@@ -5224,11 +5224,11 @@ export class StatefulNodeAzureSecretSourceVaultList extends cdktf.ComplexList {
 }
 export interface StatefulNodeAzureSecretVaultCertificates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#certificate_store StatefulNodeAzure#certificate_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#certificate_store StatefulNodeAzure#certificate_store}
   */
   readonly certificateStore?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#certificate_url StatefulNodeAzure#certificate_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#certificate_url StatefulNodeAzure#certificate_url}
   */
   readonly certificateUrl?: string;
 }
@@ -5375,13 +5375,13 @@ export interface StatefulNodeAzureSecret {
   /**
   * source_vault block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#source_vault StatefulNodeAzure#source_vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#source_vault StatefulNodeAzure#source_vault}
   */
   readonly sourceVault: StatefulNodeAzureSecretSourceVault[] | cdktf.IResolvable;
   /**
   * vault_certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#vault_certificates StatefulNodeAzure#vault_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#vault_certificates StatefulNodeAzure#vault_certificates}
   */
   readonly vaultCertificates: StatefulNodeAzureSecretVaultCertificates[] | cdktf.IResolvable;
 }
@@ -5520,23 +5520,23 @@ export class StatefulNodeAzureSecretList extends cdktf.ComplexList {
 }
 export interface StatefulNodeAzureSecurity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#confidential_os_disk_encryption StatefulNodeAzure#confidential_os_disk_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#confidential_os_disk_encryption StatefulNodeAzure#confidential_os_disk_encryption}
   */
   readonly confidentialOsDiskEncryption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#encryption_at_host StatefulNodeAzure#encryption_at_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#encryption_at_host StatefulNodeAzure#encryption_at_host}
   */
   readonly encryptionAtHost?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#secure_boot_enabled StatefulNodeAzure#secure_boot_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#secure_boot_enabled StatefulNodeAzure#secure_boot_enabled}
   */
   readonly secureBootEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#security_type StatefulNodeAzure#security_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#security_type StatefulNodeAzure#security_type}
   */
   readonly securityType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#vtpm_enabled StatefulNodeAzure#vtpm_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#vtpm_enabled StatefulNodeAzure#vtpm_enabled}
   */
   readonly vtpmEnabled?: boolean | cdktf.IResolvable;
 }
@@ -5736,11 +5736,11 @@ export class StatefulNodeAzureSecurityOutputReference extends cdktf.ComplexObjec
 }
 export interface StatefulNodeAzureSignal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#timeout StatefulNodeAzure#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#timeout StatefulNodeAzure#timeout}
   */
   readonly timeout: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#type StatefulNodeAzure#type}
   */
   readonly type: string;
 }
@@ -5879,15 +5879,15 @@ export class StatefulNodeAzureSignalList extends cdktf.ComplexList {
 }
 export interface StatefulNodeAzureStrategyCapacityReservationCapacityReservationGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#crg_name StatefulNodeAzure#crg_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#crg_name StatefulNodeAzure#crg_name}
   */
   readonly crgName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#crg_resource_group_name StatefulNodeAzure#crg_resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#crg_resource_group_name StatefulNodeAzure#crg_resource_group_name}
   */
   readonly crgResourceGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#crg_should_prioritize StatefulNodeAzure#crg_should_prioritize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#crg_should_prioritize StatefulNodeAzure#crg_should_prioritize}
   */
   readonly crgShouldPrioritize?: boolean | cdktf.IResolvable;
 }
@@ -6055,17 +6055,17 @@ export class StatefulNodeAzureStrategyCapacityReservationCapacityReservationGrou
 }
 export interface StatefulNodeAzureStrategyCapacityReservation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#should_utilize StatefulNodeAzure#should_utilize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#should_utilize StatefulNodeAzure#should_utilize}
   */
   readonly shouldUtilize: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#utilization_strategy StatefulNodeAzure#utilization_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#utilization_strategy StatefulNodeAzure#utilization_strategy}
   */
   readonly utilizationStrategy: string;
   /**
   * capacity_reservation_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#capacity_reservation_groups StatefulNodeAzure#capacity_reservation_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#capacity_reservation_groups StatefulNodeAzure#capacity_reservation_groups}
   */
   readonly capacityReservationGroups?: StatefulNodeAzureStrategyCapacityReservationCapacityReservationGroups[] | cdktf.IResolvable;
 }
@@ -6233,7 +6233,7 @@ export class StatefulNodeAzureStrategyCapacityReservationList extends cdktf.Comp
 }
 export interface StatefulNodeAzureStrategyRevertToSpot {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#perform_at StatefulNodeAzure#perform_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#perform_at StatefulNodeAzure#perform_at}
   */
   readonly performAt: string;
 }
@@ -6314,43 +6314,43 @@ export class StatefulNodeAzureStrategyRevertToSpotOutputReference extends cdktf.
 }
 export interface StatefulNodeAzureStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#availability_vs_cost StatefulNodeAzure#availability_vs_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#availability_vs_cost StatefulNodeAzure#availability_vs_cost}
   */
   readonly availabilityVsCost?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#draining_timeout StatefulNodeAzure#draining_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#draining_timeout StatefulNodeAzure#draining_timeout}
   */
   readonly drainingTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#fallback_to_on_demand StatefulNodeAzure#fallback_to_on_demand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#fallback_to_on_demand StatefulNodeAzure#fallback_to_on_demand}
   */
   readonly fallbackToOnDemand: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#od_windows StatefulNodeAzure#od_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#od_windows StatefulNodeAzure#od_windows}
   */
   readonly odWindows?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#optimization_windows StatefulNodeAzure#optimization_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#optimization_windows StatefulNodeAzure#optimization_windows}
   */
   readonly optimizationWindows?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#preferred_life_cycle StatefulNodeAzure#preferred_life_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#preferred_life_cycle StatefulNodeAzure#preferred_life_cycle}
   */
   readonly preferredLifeCycle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#vm_admins StatefulNodeAzure#vm_admins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#vm_admins StatefulNodeAzure#vm_admins}
   */
   readonly vmAdmins?: string[];
   /**
   * capacity_reservation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#capacity_reservation StatefulNodeAzure#capacity_reservation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#capacity_reservation StatefulNodeAzure#capacity_reservation}
   */
   readonly capacityReservation?: StatefulNodeAzureStrategyCapacityReservation[] | cdktf.IResolvable;
   /**
   * revert_to_spot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#revert_to_spot StatefulNodeAzure#revert_to_spot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#revert_to_spot StatefulNodeAzure#revert_to_spot}
   */
   readonly revertToSpot?: StatefulNodeAzureStrategyRevertToSpot;
 }
@@ -6663,11 +6663,11 @@ export class StatefulNodeAzureStrategyOutputReference extends cdktf.ComplexObjec
 }
 export interface StatefulNodeAzureTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#tag_key StatefulNodeAzure#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#tag_key StatefulNodeAzure#tag_key}
   */
   readonly tagKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#tag_value StatefulNodeAzure#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#tag_value StatefulNodeAzure#tag_value}
   */
   readonly tagValue?: string;
 }
@@ -6809,7 +6809,7 @@ export class StatefulNodeAzureTagList extends cdktf.ComplexList {
 }
 export interface StatefulNodeAzureUpdateState {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#state StatefulNodeAzure#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#state StatefulNodeAzure#state}
   */
   readonly state: string;
 }
@@ -6922,27 +6922,27 @@ export class StatefulNodeAzureUpdateStateList extends cdktf.ComplexList {
 }
 export interface StatefulNodeAzureVmSizesSpotSizeAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#max_cpu StatefulNodeAzure#max_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#max_cpu StatefulNodeAzure#max_cpu}
   */
   readonly maxCpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#max_memory StatefulNodeAzure#max_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#max_memory StatefulNodeAzure#max_memory}
   */
   readonly maxMemory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#max_storage StatefulNodeAzure#max_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#max_storage StatefulNodeAzure#max_storage}
   */
   readonly maxStorage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#min_cpu StatefulNodeAzure#min_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#min_cpu StatefulNodeAzure#min_cpu}
   */
   readonly minCpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#min_memory StatefulNodeAzure#min_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#min_memory StatefulNodeAzure#min_memory}
   */
   readonly minMemory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#min_storage StatefulNodeAzure#min_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#min_storage StatefulNodeAzure#min_storage}
   */
   readonly minStorage?: number;
 }
@@ -7171,25 +7171,25 @@ export class StatefulNodeAzureVmSizesSpotSizeAttributesOutputReference extends c
 }
 export interface StatefulNodeAzureVmSizes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#excluded_vm_sizes StatefulNodeAzure#excluded_vm_sizes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#excluded_vm_sizes StatefulNodeAzure#excluded_vm_sizes}
   */
   readonly excludedVmSizes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#od_sizes StatefulNodeAzure#od_sizes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#od_sizes StatefulNodeAzure#od_sizes}
   */
   readonly odSizes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#preferred_spot_sizes StatefulNodeAzure#preferred_spot_sizes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#preferred_spot_sizes StatefulNodeAzure#preferred_spot_sizes}
   */
   readonly preferredSpotSizes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#spot_sizes StatefulNodeAzure#spot_sizes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#spot_sizes StatefulNodeAzure#spot_sizes}
   */
   readonly spotSizes?: string[];
   /**
   * spot_size_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#spot_size_attributes StatefulNodeAzure#spot_size_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#spot_size_attributes StatefulNodeAzure#spot_size_attributes}
   */
   readonly spotSizeAttributes?: StatefulNodeAzureVmSizesSpotSizeAttributes;
 }
@@ -7386,7 +7386,7 @@ export class StatefulNodeAzureVmSizesOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure spotinst_stateful_node_azure}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure spotinst_stateful_node_azure}
 */
 export class StatefulNodeAzure extends cdktf.TerraformResource {
 
@@ -7402,7 +7402,7 @@ export class StatefulNodeAzure extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StatefulNodeAzure resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StatefulNodeAzure to import
-  * @param importFromId The id of the existing StatefulNodeAzure that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StatefulNodeAzure that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StatefulNodeAzure to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7414,7 +7414,7 @@ export class StatefulNodeAzure extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/stateful_node_azure spotinst_stateful_node_azure} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/stateful_node_azure spotinst_stateful_node_azure} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7425,8 +7425,8 @@ export class StatefulNodeAzure extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_stateful_node_azure',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.230.0',
-        providerVersionConstraint: '1.230.0'
+        providerVersion: '1.231.0',
+        providerVersionConstraint: '1.231.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/slb_acl_entry_attachment
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_acl_entry_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface SlbAclEntryAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/slb_acl_entry_attachment#acl_id SlbAclEntryAttachment#acl_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_acl_entry_attachment#acl_id SlbAclEntryAttachment#acl_id}
   */
   readonly aclId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/slb_acl_entry_attachment#comment SlbAclEntryAttachment#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_acl_entry_attachment#comment SlbAclEntryAttachment#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/slb_acl_entry_attachment#entry SlbAclEntryAttachment#entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_acl_entry_attachment#entry SlbAclEntryAttachment#entry}
   */
   readonly entry: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/slb_acl_entry_attachment#id SlbAclEntryAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_acl_entry_attachment#id SlbAclEntryAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,17 +29,17 @@ export interface SlbAclEntryAttachmentConfig extends cdktf.TerraformMetaArgument
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/slb_acl_entry_attachment#timeouts SlbAclEntryAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_acl_entry_attachment#timeouts SlbAclEntryAttachment#timeouts}
   */
   readonly timeouts?: SlbAclEntryAttachmentTimeouts;
 }
 export interface SlbAclEntryAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/slb_acl_entry_attachment#create SlbAclEntryAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_acl_entry_attachment#create SlbAclEntryAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/slb_acl_entry_attachment#delete SlbAclEntryAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_acl_entry_attachment#delete SlbAclEntryAttachment#delete}
   */
   readonly delete?: string;
 }
@@ -162,7 +162,7 @@ export class SlbAclEntryAttachmentTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/slb_acl_entry_attachment alicloud_slb_acl_entry_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_acl_entry_attachment alicloud_slb_acl_entry_attachment}
 */
 export class SlbAclEntryAttachment extends cdktf.TerraformResource {
 
@@ -178,7 +178,7 @@ export class SlbAclEntryAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbAclEntryAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbAclEntryAttachment to import
-  * @param importFromId The id of the existing SlbAclEntryAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/slb_acl_entry_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbAclEntryAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_acl_entry_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbAclEntryAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -190,7 +190,7 @@ export class SlbAclEntryAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/slb_acl_entry_attachment alicloud_slb_acl_entry_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_acl_entry_attachment alicloud_slb_acl_entry_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,8 +201,8 @@ export class SlbAclEntryAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_slb_acl_entry_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

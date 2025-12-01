@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_network_interfaces
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_network_interfaces
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudEcsNetworkInterfacesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_network_interfaces#id DataAlicloudEcsNetworkInterfaces#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_network_interfaces#id DataAlicloudEcsNetworkInterfaces#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_network_interfaces#ids DataAlicloudEcsNetworkInterfaces#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_network_interfaces#ids DataAlicloudEcsNetworkInterfaces#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_network_interfaces#instance_id DataAlicloudEcsNetworkInterfaces#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_network_interfaces#instance_id DataAlicloudEcsNetworkInterfaces#instance_id}
   */
   readonly instanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_network_interfaces#name DataAlicloudEcsNetworkInterfaces#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_network_interfaces#name DataAlicloudEcsNetworkInterfaces#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_network_interfaces#name_regex DataAlicloudEcsNetworkInterfaces#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_network_interfaces#name_regex DataAlicloudEcsNetworkInterfaces#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_network_interfaces#network_interface_name DataAlicloudEcsNetworkInterfaces#network_interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_network_interfaces#network_interface_name DataAlicloudEcsNetworkInterfaces#network_interface_name}
   */
   readonly networkInterfaceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_network_interfaces#output_file DataAlicloudEcsNetworkInterfaces#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_network_interfaces#output_file DataAlicloudEcsNetworkInterfaces#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_network_interfaces#primary_ip_address DataAlicloudEcsNetworkInterfaces#primary_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_network_interfaces#primary_ip_address DataAlicloudEcsNetworkInterfaces#primary_ip_address}
   */
   readonly primaryIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_network_interfaces#private_ip DataAlicloudEcsNetworkInterfaces#private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_network_interfaces#private_ip DataAlicloudEcsNetworkInterfaces#private_ip}
   */
   readonly privateIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_network_interfaces#resource_group_id DataAlicloudEcsNetworkInterfaces#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_network_interfaces#resource_group_id DataAlicloudEcsNetworkInterfaces#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_network_interfaces#security_group_id DataAlicloudEcsNetworkInterfaces#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_network_interfaces#security_group_id DataAlicloudEcsNetworkInterfaces#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_network_interfaces#service_managed DataAlicloudEcsNetworkInterfaces#service_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_network_interfaces#service_managed DataAlicloudEcsNetworkInterfaces#service_managed}
   */
   readonly serviceManaged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_network_interfaces#status DataAlicloudEcsNetworkInterfaces#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_network_interfaces#status DataAlicloudEcsNetworkInterfaces#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_network_interfaces#tags DataAlicloudEcsNetworkInterfaces#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_network_interfaces#tags DataAlicloudEcsNetworkInterfaces#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_network_interfaces#type DataAlicloudEcsNetworkInterfaces#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_network_interfaces#type DataAlicloudEcsNetworkInterfaces#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_network_interfaces#vpc_id DataAlicloudEcsNetworkInterfaces#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_network_interfaces#vpc_id DataAlicloudEcsNetworkInterfaces#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_network_interfaces#vswitch_id DataAlicloudEcsNetworkInterfaces#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_network_interfaces#vswitch_id DataAlicloudEcsNetworkInterfaces#vswitch_id}
   */
   readonly vswitchId?: string;
 }
@@ -368,7 +368,7 @@ export class DataAlicloudEcsNetworkInterfacesInterfacesList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_network_interfaces alicloud_ecs_network_interfaces}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_network_interfaces alicloud_ecs_network_interfaces}
 */
 export class DataAlicloudEcsNetworkInterfaces extends cdktf.TerraformDataSource {
 
@@ -384,7 +384,7 @@ export class DataAlicloudEcsNetworkInterfaces extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataAlicloudEcsNetworkInterfaces resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudEcsNetworkInterfaces to import
-  * @param importFromId The id of the existing DataAlicloudEcsNetworkInterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_network_interfaces#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudEcsNetworkInterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_network_interfaces#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudEcsNetworkInterfaces to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -396,7 +396,7 @@ export class DataAlicloudEcsNetworkInterfaces extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ecs_network_interfaces alicloud_ecs_network_interfaces} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ecs_network_interfaces alicloud_ecs_network_interfaces} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -407,8 +407,8 @@ export class DataAlicloudEcsNetworkInterfaces extends cdktf.TerraformDataSource 
       terraformResourceType: 'alicloud_ecs_network_interfaces',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

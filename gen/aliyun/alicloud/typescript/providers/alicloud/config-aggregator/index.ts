@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregator
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface ConfigAggregatorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregator#aggregator_name ConfigAggregator#aggregator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregator#aggregator_name ConfigAggregator#aggregator_name}
   */
   readonly aggregatorName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregator#aggregator_type ConfigAggregator#aggregator_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregator#aggregator_type ConfigAggregator#aggregator_type}
   */
   readonly aggregatorType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregator#description ConfigAggregator#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregator#description ConfigAggregator#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregator#folder_id ConfigAggregator#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregator#folder_id ConfigAggregator#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregator#id ConfigAggregator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregator#id ConfigAggregator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,27 +33,27 @@ export interface ConfigAggregatorConfig extends cdktf.TerraformMetaArguments {
   /**
   * aggregator_accounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregator#aggregator_accounts ConfigAggregator#aggregator_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregator#aggregator_accounts ConfigAggregator#aggregator_accounts}
   */
   readonly aggregatorAccounts?: ConfigAggregatorAggregatorAccounts[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregator#timeouts ConfigAggregator#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregator#timeouts ConfigAggregator#timeouts}
   */
   readonly timeouts?: ConfigAggregatorTimeouts;
 }
 export interface ConfigAggregatorAggregatorAccounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregator#account_id ConfigAggregator#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregator#account_id ConfigAggregator#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregator#account_name ConfigAggregator#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregator#account_name ConfigAggregator#account_name}
   */
   readonly accountName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregator#account_type ConfigAggregator#account_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregator#account_type ConfigAggregator#account_type}
   */
   readonly accountType?: string;
 }
@@ -227,15 +227,15 @@ export class ConfigAggregatorAggregatorAccountsList extends cdktf.ComplexList {
 }
 export interface ConfigAggregatorTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregator#create ConfigAggregator#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregator#create ConfigAggregator#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregator#delete ConfigAggregator#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregator#delete ConfigAggregator#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregator#update ConfigAggregator#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregator#update ConfigAggregator#update}
   */
   readonly update?: string;
 }
@@ -387,7 +387,7 @@ export class ConfigAggregatorTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregator alicloud_config_aggregator}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregator alicloud_config_aggregator}
 */
 export class ConfigAggregator extends cdktf.TerraformResource {
 
@@ -403,7 +403,7 @@ export class ConfigAggregator extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConfigAggregator resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConfigAggregator to import
-  * @param importFromId The id of the existing ConfigAggregator that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConfigAggregator that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConfigAggregator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -415,7 +415,7 @@ export class ConfigAggregator extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregator alicloud_config_aggregator} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregator alicloud_config_aggregator} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -426,8 +426,8 @@ export class ConfigAggregator extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_config_aggregator',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

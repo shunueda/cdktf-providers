@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSubmarinerIoServiceDiscoveryV1Alpha1ManifestConfig exten
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#metadata DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#metadata DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSubmarinerIoServiceDiscoveryV1Alpha1ManifestMetadata;
   /**
   * ServiceDiscoverySpec defines the desired state of ServiceDiscovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#spec DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#spec DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SSubmarinerIoServiceDiscoveryV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSubmarinerIoServiceDiscoveryV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#annotations DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#annotations DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#labels DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#labels DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#name DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#name DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#namespace DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#namespace DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SSubmarinerIoServiceDiscoveryV1Alpha1ManifestSpecCoreDnsC
   /**
   * Name of the custom CoreDNS configmap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#config_map_name DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#config_map_name DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#config_map_name}
   */
   readonly configMapName?: string;
   /**
   * Namespace of the custom CoreDNS configmap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#namespace DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#namespace DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -350,31 +350,31 @@ export interface DataK8SSubmarinerIoServiceDiscoveryV1Alpha1ManifestSpecTolerati
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#effect DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#effect DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#key DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#key DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#operator DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#operator DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#toleration_seconds DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#toleration_seconds DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#value DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#value DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -606,83 +606,83 @@ export class DataK8SSubmarinerIoServiceDiscoveryV1Alpha1ManifestSpecTolerationsL
 }
 export interface DataK8SSubmarinerIoServiceDiscoveryV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#broker_k8s_api_server DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#broker_k8s_api_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#broker_k8s_api_server DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#broker_k8s_api_server}
   */
   readonly brokerK8SApiServer: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#broker_k8s_api_server_token DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#broker_k8s_api_server_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#broker_k8s_api_server_token DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#broker_k8s_api_server_token}
   */
   readonly brokerK8SApiServerToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#broker_k8s_ca DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#broker_k8s_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#broker_k8s_ca DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#broker_k8s_ca}
   */
   readonly brokerK8SCa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#broker_k8s_insecure DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#broker_k8s_insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#broker_k8s_insecure DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#broker_k8s_insecure}
   */
   readonly brokerK8SInsecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#broker_k8s_remote_namespace DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#broker_k8s_remote_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#broker_k8s_remote_namespace DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#broker_k8s_remote_namespace}
   */
   readonly brokerK8SRemoteNamespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#broker_k8s_secret DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#broker_k8s_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#broker_k8s_secret DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#broker_k8s_secret}
   */
   readonly brokerK8SSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#cluster_id DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#cluster_id DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#clusterset_ip_cidr DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#clusterset_ip_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#clusterset_ip_cidr DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#clusterset_ip_cidr}
   */
   readonly clustersetIpCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#clusterset_ip_enabled DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#clusterset_ip_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#clusterset_ip_enabled DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#clusterset_ip_enabled}
   */
   readonly clustersetIpEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#core_dns_custom_config DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#core_dns_custom_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#core_dns_custom_config DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#core_dns_custom_config}
   */
   readonly coreDnsCustomConfig?: DataK8SSubmarinerIoServiceDiscoveryV1Alpha1ManifestSpecCoreDnsCustomConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#custom_domains DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#custom_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#custom_domains DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#custom_domains}
   */
   readonly customDomains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#debug DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#debug DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#debug}
   */
   readonly debug: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#globalnet_enabled DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#globalnet_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#globalnet_enabled DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#globalnet_enabled}
   */
   readonly globalnetEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#halt_on_certificate_error DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#halt_on_certificate_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#halt_on_certificate_error DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#halt_on_certificate_error}
   */
   readonly haltOnCertificateError?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#image_overrides DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#image_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#image_overrides DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#image_overrides}
   */
   readonly imageOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#namespace DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#namespace DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#node_selector DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#node_selector DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#repository DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#repository DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#repository}
   */
   readonly repository?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#tolerations DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#tolerations DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SSubmarinerIoServiceDiscoveryV1Alpha1ManifestSpecTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#version DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#version DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -1312,7 +1312,7 @@ export class DataK8SSubmarinerIoServiceDiscoveryV1Alpha1ManifestSpecOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest k8s_submariner_io_service_discovery_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest k8s_submariner_io_service_discovery_v1alpha1_manifest}
 */
 export class DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1328,7 +1328,7 @@ export class DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest extends cdktf.T
   * Generates CDKTF code for importing a DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1340,7 +1340,7 @@ export class DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest k8s_submariner_io_service_discovery_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/submariner_io_service_discovery_v1alpha1_manifest k8s_submariner_io_service_discovery_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1351,8 +1351,8 @@ export class DataK8SSubmarinerIoServiceDiscoveryV1Alpha1Manifest extends cdktf.T
       terraformResourceType: 'k8s_submariner_io_service_discovery_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

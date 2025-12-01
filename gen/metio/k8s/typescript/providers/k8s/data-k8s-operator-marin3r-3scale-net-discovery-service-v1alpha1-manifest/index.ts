@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#metadata DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#metadata DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1ManifestMetadata;
   /**
   * DiscoveryServiceSpec defines the desired state of DiscoveryService
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#spec DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#spec DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#annotations DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#annotations DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#labels DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#labels DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#namespace DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#namespace DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1ManifestMeta
 }
 export interface DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1ManifestSpecPkiConfgRootCertificateAuthority {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#duration DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#duration DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#duration}
   */
   readonly duration: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#secret_name DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#secret_name DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -338,11 +338,11 @@ export class DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1ManifestSpec
 }
 export interface DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1ManifestSpecPkiConfgServerCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#duration DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#duration DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#duration}
   */
   readonly duration: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#secret_name DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#secret_name DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#secret_name}
   */
   readonly secretName: string;
 }
@@ -461,13 +461,13 @@ export interface DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest
   /**
   * CertificateOptions specifies options to generate the server certificate used both for the xDS server and the mutating webhook server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#root_certificate_authority DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#root_certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#root_certificate_authority DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#root_certificate_authority}
   */
   readonly rootCertificateAuthority: DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1ManifestSpecPkiConfgRootCertificateAuthority;
   /**
   * CertificateOptions specifies options to generate the server certificate used both for the xDS server and the mutating webhook server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#server_certificate DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#server_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#server_certificate DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#server_certificate}
   */
   readonly serverCertificate: DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1ManifestSpecPkiConfgServerCertificate;
 }
@@ -586,7 +586,7 @@ export interface DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -701,19 +701,19 @@ export interface DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#claims DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#claims DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1ManifestSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#limits DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#limits DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#requests DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#requests DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -865,13 +865,13 @@ export class DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1ManifestSpec
 }
 export interface DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1ManifestSpecServiceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#name DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * ServiceType is an enum with the available discovery service Service types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#type DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#type DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -996,55 +996,55 @@ export interface DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest
   /**
   * Debug enables debugging log level for the discovery service controllers. It is safe to use since secret data is never shown in the logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#debug DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#debug DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#debug}
   */
   readonly debug?: boolean | cdktf.IResolvable;
   /**
   * Image holds the image to use for the discovery service Deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#image DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#image DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * MetricsPort is the port where metrics are served. Defaults to 8383.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#metrics_port DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#metrics_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#metrics_port DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#metrics_port}
   */
   readonly metricsPort?: number;
   /**
   * PKIConfig has configuration for the PKI that marin3r manages for the different certificates it requires
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#pki_confg DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#pki_confg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#pki_confg DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#pki_confg}
   */
   readonly pkiConfg?: DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1ManifestSpecPkiConfg;
   /**
   * PriorityClass to assign the discovery service Pod to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#pod_priority_class DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#pod_priority_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#pod_priority_class DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#pod_priority_class}
   */
   readonly podPriorityClass?: string;
   /**
   * ProbePort is the port where healthz endpoint is served. Defaults to 8384.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#probe_port DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#probe_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#probe_port DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#probe_port}
   */
   readonly probePort?: number;
   /**
   * Resources holds the Resource Requirements to use for the discovery service Deployment. When not set it defaults to no resource requests nor limits. CPU and Memory resources are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#resources DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#resources DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1ManifestSpecResources;
   /**
   * ServiceConfig configures the way the DiscoveryService endpoints are exposed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#service_config DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#service_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#service_config DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#service_config}
   */
   readonly serviceConfig?: DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1ManifestSpecServiceConfig;
   /**
   * XdsServerPort is the port where the xDS server listens. Defaults to 18000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#xds_server_port DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#xds_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#xds_server_port DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest#xds_server_port}
   */
   readonly xdsServerPort?: number;
 }
@@ -1370,7 +1370,7 @@ export class DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1ManifestSpec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest k8s_operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest k8s_operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest}
 */
 export class DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1386,7 +1386,7 @@ export class DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest ext
   * Generates CDKTF code for importing a DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1398,7 +1398,7 @@ export class DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest ext
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest k8s_operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest k8s_operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1409,8 +1409,8 @@ export class DataK8SOperatorMarin3R3ScaleNetDiscoveryServiceV1Alpha1Manifest ext
       terraformResourceType: 'k8s_operator_marin3r_3scale_net_discovery_service_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

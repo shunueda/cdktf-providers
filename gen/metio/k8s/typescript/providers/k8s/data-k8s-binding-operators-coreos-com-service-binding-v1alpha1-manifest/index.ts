@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1ManifestC
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#metadata DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#metadata DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1ManifestMetadata;
   /**
   * ServiceBindingSpec defines the desired state of ServiceBinding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#spec DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#spec DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1ManifestM
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#annotations DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#annotations DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#labels DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#labels DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#name DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#name DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#namespace DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#namespace DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1ManifestS
   /**
   * ContainersPath defines the path to the corev1.Containers reference. If BindingPath is not specified, the default location is 'spec.template.spec.containers'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#containers_path DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#containers_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#containers_path DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#containers_path}
   */
   readonly containersPath?: string;
   /**
   * SecretPath defines the path to a string field where the name of the secret object is going to be assigned. Note: The name of the secret object is same as that of the name of service binding custom resource (metadata.name).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#secret_path DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#secret_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#secret_path DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#secret_path}
   */
   readonly secretPath?: string;
 }
@@ -350,19 +350,19 @@ export interface DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#key DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#key DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#operator DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#operator DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#values DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#values DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -532,13 +532,13 @@ export interface DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#match_expressions DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#match_expressions DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1ManifestSpecApplicationLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#match_labels DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#match_labels DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -663,43 +663,43 @@ export interface DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1ManifestS
   /**
   * BindingPath refers to the paths in the application workload's schema where the binding workload would be referenced. If BindingPath is not specified, then the default path locations are used. The default location for ContainersPath is 'spec.template.spec.containers'. If SecretPath is not specified, then the name of the secret object does not need to be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#binding_path DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#binding_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#binding_path DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#binding_path}
   */
   readonly bindingPath?: DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1ManifestSpecApplicationBindingPath;
   /**
   * Group of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#group DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#group DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#group}
   */
   readonly group: string;
   /**
   * Kind of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#kind DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#kind DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#label_selector DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#label_selector DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1ManifestSpecApplicationLabelSelector;
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#name DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#name DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Resource of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#resource DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#resource DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#resource}
   */
   readonly resource?: string;
   /**
   * Version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#version DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#version DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#version}
   */
   readonly version: string;
 }
@@ -963,13 +963,13 @@ export interface DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1ManifestS
   /**
   * Name is the name of new binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#name DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#name DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value specificies a go template that will be rendered and injected into the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#value DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#value DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -1110,11 +1110,11 @@ export interface DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1ManifestS
   /**
   * Group of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#group DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#group DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#group}
   */
   readonly group: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#id DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#id DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1123,31 +1123,31 @@ export interface DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1ManifestS
   /**
   * Kind of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#kind DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#kind DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#name DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#name DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. If unspecified, assumes the same namespace as ServiceBinding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#namespace DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#namespace DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Resource of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#resource DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#resource DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#resource}
   */
   readonly resource?: string;
   /**
   * Version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#version DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#version DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#version}
   */
   readonly version: string;
 }
@@ -1433,43 +1433,43 @@ export interface DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1ManifestS
   /**
   * Application identifies the application connecting to the backing service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#application DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#application DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#application}
   */
   readonly application: DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1ManifestSpecApplication;
   /**
   * BindAsFiles makes the binding values available as files in the application's container. By default, values are mounted under the path '/bindings'; this can be changed by setting the SERVICE_BINDING_ROOT environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#bind_as_files DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#bind_as_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#bind_as_files DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#bind_as_files}
   */
   readonly bindAsFiles?: boolean | cdktf.IResolvable;
   /**
   * DetectBindingResources is a flag that, when set to true, will cause SBO to search for binding information in the owned resources of the specified services. If this binding information exists, then the application is bound to these subresources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#detect_binding_resources DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#detect_binding_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#detect_binding_resources DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#detect_binding_resources}
   */
   readonly detectBindingResources?: boolean | cdktf.IResolvable;
   /**
   * Mappings specifies custom mappings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#mappings DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#mappings DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#mappings}
   */
   readonly mappings?: DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1ManifestSpecMappings[] | cdktf.IResolvable;
   /**
   * Name is the name of the service as projected into the workload container. Defaults to .metadata.name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#name DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#name DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * NamingStrategy defines custom string template for preparing binding names. It can be set to pre-defined strategies: 'none', 'lowercase', or 'uppercase'. Otherwise, it is treated as a custom go template, and it is handled accordingly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#naming_strategy DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#naming_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#naming_strategy DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#naming_strategy}
   */
   readonly namingStrategy?: string;
   /**
   * Services indicates the backing services to be connected to by an application. At least one service must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#services DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#services DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest#services}
   */
   readonly services: DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1ManifestSpecServices[] | cdktf.IResolvable;
 }
@@ -1731,7 +1731,7 @@ export class DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1ManifestSpecO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest k8s_binding_operators_coreos_com_service_binding_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest k8s_binding_operators_coreos_com_service_binding_v1alpha1_manifest}
 */
 export class DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1747,7 +1747,7 @@ export class DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest exte
   * Generates CDKTF code for importing a DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1759,7 +1759,7 @@ export class DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest exte
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest k8s_binding_operators_coreos_com_service_binding_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/binding_operators_coreos_com_service_binding_v1alpha1_manifest k8s_binding_operators_coreos_com_service_binding_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1770,8 +1770,8 @@ export class DataK8SBindingOperatorsCoreosComServiceBindingV1Alpha1Manifest exte
       terraformResourceType: 'k8s_binding_operators_coreos_com_service_binding_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

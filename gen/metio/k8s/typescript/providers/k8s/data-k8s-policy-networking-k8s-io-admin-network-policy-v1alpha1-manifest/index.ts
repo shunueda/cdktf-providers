@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestC
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#metadata DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#metadata DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestMetadata;
   /**
   * Specification of the desired behavior of AdminNetworkPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#spec DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#spec DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestM
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#annotations DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#annotations DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#labels DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#labels DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#name DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#name DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,13 +187,13 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * Number defines a network port value. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#port DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#port DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Protocol is the network protocol (TCP, UDP, or SCTP) which traffic must match. If not specified, this field defaults to TCP. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#protocol DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#protocol DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#protocol}
   */
   readonly protocol: string;
 }
@@ -312,19 +312,19 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * End defines a network port that is the end of a port range, the End value must be greater than Start. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#end DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#end DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#end}
   */
   readonly end: number;
   /**
   * Protocol is the network protocol (TCP, UDP, or SCTP) which traffic must match. If not specified, this field defaults to TCP. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#protocol DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#protocol DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * Start defines a network port that is the start of a port range, the Start value must be less than End. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#start DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#start DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#start}
   */
   readonly start: number;
 }
@@ -472,13 +472,13 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * Port selects a port on a pod(s) based on number. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#port_number DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#port_number DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#port_number}
   */
   readonly portNumber?: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecEgressPortsPortNumber;
   /**
   * PortRange selects a port range on a pod(s) based on provided start and end values. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#port_range DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#port_range DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#port_range}
   */
   readonly portRange?: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecEgressPortsPortRange;
 }
@@ -625,19 +625,19 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#key DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#key DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#operator DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#operator DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#values DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#values DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -807,13 +807,13 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_expressions DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_expressions DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecEgressToNamespacesMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_labels DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_labels DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -938,19 +938,19 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#key DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#key DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#operator DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#operator DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#values DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#values DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1120,13 +1120,13 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_expressions DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_expressions DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecEgressToPodsNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_labels DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_labels DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1251,19 +1251,19 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#key DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#key DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#operator DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#operator DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#values DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#values DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1433,13 +1433,13 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_expressions DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_expressions DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecEgressToPodsPodSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_labels DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_labels DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1564,13 +1564,13 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * NamespaceSelector follows standard label selector semantics; if empty, it selects all Namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#namespace_selector DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#namespace_selector DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecEgressToPodsNamespaceSelector;
   /**
   * PodSelector is used to explicitly select pods within a namespace; if empty, it selects all Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#pod_selector DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#pod_selector DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#pod_selector}
   */
   readonly podSelector: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecEgressToPodsPodSelector;
 }
@@ -1689,13 +1689,13 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * Namespaces defines a way to select all pods within a set of Namespaces. Note that host-networked pods are not included in this type of peer. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#namespaces DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#namespaces DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecEgressToNamespaces;
   /**
   * Pods defines a way to select a set of pods in a set of namespaces. Note that host-networked pods are not included in this type of peer. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#pods DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#pods DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#pods}
   */
   readonly pods?: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecEgressToPods;
 }
@@ -1842,25 +1842,25 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * Action specifies the effect this rule will have on matching traffic. Currently the following actions are supported: Allow: allows the selected traffic (even if it would otherwise have been denied by NetworkPolicy) Deny: denies the selected traffic Pass: instructs the selected traffic to skip any remaining ANP rules, and then pass execution to any NetworkPolicies that select the pod. If the pod is not selected by any NetworkPolicies then execution is passed to any BaselineAdminNetworkPolicies that select the pod. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#action DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#action DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#action}
   */
   readonly action: string;
   /**
   * Name is an identifier for this rule, that may be no more than 100 characters in length. This field should be used by the implementation to help improve observability, readability and error-reporting for any applied AdminNetworkPolicies. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#name DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#name DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Ports allows for matching traffic based on port and protocols. This field is a list of destination ports for the outgoing egress traffic. If Ports is not set then the rule does not filter traffic via port. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#ports DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#ports DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecEgressPorts[] | cdktf.IResolvable;
   /**
   * To is the List of destinations whose traffic this rule applies to. If any AdminNetworkPolicyEgressPeer matches the destination of outgoing traffic then the specified action is applied. This field must be defined and contain at least one item. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#to DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#to DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#to}
   */
   readonly to: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecEgressTo[] | cdktf.IResolvable;
 }
@@ -2059,19 +2059,19 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#key DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#key DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#operator DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#operator DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#values DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#values DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2241,13 +2241,13 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_expressions DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_expressions DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecIngressFromNamespacesMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_labels DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_labels DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2372,19 +2372,19 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#key DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#key DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#operator DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#operator DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#values DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#values DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2554,13 +2554,13 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_expressions DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_expressions DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecIngressFromPodsNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_labels DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_labels DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2685,19 +2685,19 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#key DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#key DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#operator DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#operator DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#values DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#values DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2867,13 +2867,13 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_expressions DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_expressions DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecIngressFromPodsPodSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_labels DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_labels DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2998,13 +2998,13 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * NamespaceSelector follows standard label selector semantics; if empty, it selects all Namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#namespace_selector DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#namespace_selector DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecIngressFromPodsNamespaceSelector;
   /**
   * PodSelector is used to explicitly select pods within a namespace; if empty, it selects all Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#pod_selector DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#pod_selector DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#pod_selector}
   */
   readonly podSelector: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecIngressFromPodsPodSelector;
 }
@@ -3123,13 +3123,13 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * Namespaces defines a way to select all pods within a set of Namespaces. Note that host-networked pods are not included in this type of peer. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#namespaces DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#namespaces DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecIngressFromNamespaces;
   /**
   * Pods defines a way to select a set of pods in a set of namespaces. Note that host-networked pods are not included in this type of peer. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#pods DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#pods DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#pods}
   */
   readonly pods?: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecIngressFromPods;
 }
@@ -3276,13 +3276,13 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * Number defines a network port value. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#port DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#port DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Protocol is the network protocol (TCP, UDP, or SCTP) which traffic must match. If not specified, this field defaults to TCP. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#protocol DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#protocol DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#protocol}
   */
   readonly protocol: string;
 }
@@ -3401,19 +3401,19 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * End defines a network port that is the end of a port range, the End value must be greater than Start. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#end DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#end DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#end}
   */
   readonly end: number;
   /**
   * Protocol is the network protocol (TCP, UDP, or SCTP) which traffic must match. If not specified, this field defaults to TCP. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#protocol DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#protocol DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * Start defines a network port that is the start of a port range, the Start value must be less than End. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#start DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#start DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#start}
   */
   readonly start: number;
 }
@@ -3561,13 +3561,13 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * Port selects a port on a pod(s) based on number. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#port_number DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#port_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#port_number DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#port_number}
   */
   readonly portNumber?: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecIngressPortsPortNumber;
   /**
   * PortRange selects a port range on a pod(s) based on provided start and end values. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#port_range DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#port_range DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#port_range}
   */
   readonly portRange?: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecIngressPortsPortRange;
 }
@@ -3714,25 +3714,25 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * Action specifies the effect this rule will have on matching traffic. Currently the following actions are supported: Allow: allows the selected traffic (even if it would otherwise have been denied by NetworkPolicy) Deny: denies the selected traffic Pass: instructs the selected traffic to skip any remaining ANP rules, and then pass execution to any NetworkPolicies that select the pod. If the pod is not selected by any NetworkPolicies then execution is passed to any BaselineAdminNetworkPolicies that select the pod. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#action DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#action DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#action}
   */
   readonly action: string;
   /**
   * From is the list of sources whose traffic this rule applies to. If any AdminNetworkPolicyIngressPeer matches the source of incoming traffic then the specified action is applied. This field must be defined and contain at least one item. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#from DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#from DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#from}
   */
   readonly from: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecIngressFrom[] | cdktf.IResolvable;
   /**
   * Name is an identifier for this rule, that may be no more than 100 characters in length. This field should be used by the implementation to help improve observability, readability and error-reporting for any applied AdminNetworkPolicies. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#name DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#name DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Ports allows for matching traffic based on port and protocols. This field is a list of ports which should be matched on the pods selected for this policy i.e the subject of the policy. So it matches on the destination port for the ingress traffic. If Ports is not set then the rule does not filter traffic via port. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#ports DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#ports DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecIngressPorts[] | cdktf.IResolvable;
 }
@@ -3931,19 +3931,19 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#key DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#key DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#operator DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#operator DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#values DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#values DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4113,13 +4113,13 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_expressions DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_expressions DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecSubjectNamespacesMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_labels DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_labels DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4244,19 +4244,19 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#key DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#key DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#operator DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#operator DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#values DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#values DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4426,13 +4426,13 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_expressions DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_expressions DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecSubjectPodsNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_labels DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_labels DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4557,19 +4557,19 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#key DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#key DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#operator DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#operator DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#values DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#values DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4739,13 +4739,13 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_expressions DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_expressions DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecSubjectPodsPodSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_labels DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#match_labels DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4870,13 +4870,13 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * NamespaceSelector follows standard label selector semantics; if empty, it selects all Namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#namespace_selector DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#namespace_selector DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecSubjectPodsNamespaceSelector;
   /**
   * PodSelector is used to explicitly select pods within a namespace; if empty, it selects all Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#pod_selector DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#pod_selector DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#pod_selector}
   */
   readonly podSelector: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecSubjectPodsPodSelector;
 }
@@ -4995,13 +4995,13 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * Namespaces is used to select pods via namespace selectors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#namespaces DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#namespaces DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecSubjectNamespaces;
   /**
   * Pods is used to select pods via namespace AND pod selectors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#pods DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#pods DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#pods}
   */
   readonly pods?: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecSubjectPods;
 }
@@ -5126,25 +5126,25 @@ export interface DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestS
   /**
   * Egress is the list of Egress rules to be applied to the selected pods. A total of 100 rules will be allowed in each ANP instance. The relative precedence of egress rules within a single ANP object (all of which share the priority) will be determined by the order in which the rule is written. Thus, a rule that appears at the top of the egress rules would take the highest precedence. ANPs with no egress rules do not affect egress traffic. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#egress DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#egress DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#egress}
   */
   readonly egress?: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecEgress[] | cdktf.IResolvable;
   /**
   * Ingress is the list of Ingress rules to be applied to the selected pods. A total of 100 rules will be allowed in each ANP instance. The relative precedence of ingress rules within a single ANP object (all of which share the priority) will be determined by the order in which the rule is written. Thus, a rule that appears at the top of the ingress rules would take the highest precedence. ANPs with no ingress rules do not affect ingress traffic. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#ingress DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#ingress DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#ingress}
   */
   readonly ingress?: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecIngress[] | cdktf.IResolvable;
   /**
   * Priority is a value from 0 to 1000. Policies with lower priority values have higher precedence, and are checked before policies with higher priority values. All AdminNetworkPolicy rules have higher precedence than NetworkPolicy or BaselineAdminNetworkPolicy rules Every AdminNetworkPolicy should have a unique priority value; if two (or more) policies with the same priority could both match a connection, then the implementation can apply any of the matching policies to the connection, and there is no way for the user to reliably determine which one it will choose. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#priority DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#priority DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#priority}
   */
   readonly priority: number;
   /**
   * Subject defines the pods to which this AdminNetworkPolicy applies. Note that host-networked pods are not included in subject selection. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#subject DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#subject DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest#subject}
   */
   readonly subject: DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecSubject;
 }
@@ -5319,7 +5319,7 @@ export class DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1ManifestSpecO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest k8s_policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest k8s_policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest}
 */
 export class DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -5335,7 +5335,7 @@ export class DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest exte
   * Generates CDKTF code for importing a DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5347,7 +5347,7 @@ export class DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest exte
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest k8s_policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest k8s_policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5358,8 +5358,8 @@ export class DataK8SPolicyNetworkingK8SIoAdminNetworkPolicyV1Alpha1Manifest exte
       terraformResourceType: 'k8s_policy_networking_k8s_io_admin_network_policy_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

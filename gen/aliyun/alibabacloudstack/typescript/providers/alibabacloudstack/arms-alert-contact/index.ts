@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_alert_contact
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/arms_alert_contact
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface ArmsAlertContactConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_alert_contact#alert_contact_name ArmsAlertContact#alert_contact_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/arms_alert_contact#alert_contact_name ArmsAlertContact#alert_contact_name}
   */
   readonly alertContactName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_alert_contact#ding_robot_webhook_url ArmsAlertContact#ding_robot_webhook_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/arms_alert_contact#ding_robot_webhook_url ArmsAlertContact#ding_robot_webhook_url}
   */
   readonly dingRobotWebhookUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_alert_contact#email ArmsAlertContact#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/arms_alert_contact#email ArmsAlertContact#email}
   */
   readonly email?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_alert_contact#id ArmsAlertContact#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/arms_alert_contact#id ArmsAlertContact#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_alert_contact#phone_num ArmsAlertContact#phone_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/arms_alert_contact#phone_num ArmsAlertContact#phone_num}
   */
   readonly phoneNum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_alert_contact#system_noc ArmsAlertContact#system_noc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/arms_alert_contact#system_noc ArmsAlertContact#system_noc}
   */
   readonly systemNoc?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_alert_contact alibabacloudstack_arms_alert_contact}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/arms_alert_contact alibabacloudstack_arms_alert_contact}
 */
 export class ArmsAlertContact extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class ArmsAlertContact extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArmsAlertContact resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArmsAlertContact to import
-  * @param importFromId The id of the existing ArmsAlertContact that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_alert_contact#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArmsAlertContact that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/arms_alert_contact#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArmsAlertContact to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class ArmsAlertContact extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/arms_alert_contact alibabacloudstack_arms_alert_contact} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/arms_alert_contact alibabacloudstack_arms_alert_contact} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class ArmsAlertContact extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_arms_alert_contact',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

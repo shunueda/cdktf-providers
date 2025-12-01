@@ -1,3 +1,3 @@
 # `alicloud_gwlb_server_group`
 
-Refer to the Terraform Registry for docs: [`alicloud_gwlb_server_group`](https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gwlb_server_group).
+Refer to the Terraform Registry for docs: [`alicloud_gwlb_server_group`](https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gwlb_server_group).

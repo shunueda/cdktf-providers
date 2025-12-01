@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/tsdb_instances
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/tsdb_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudTsdbInstancesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/tsdb_instances#app_key DataAlicloudTsdbInstances#app_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/tsdb_instances#app_key DataAlicloudTsdbInstances#app_key}
   */
   readonly appKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/tsdb_instances#enable_details DataAlicloudTsdbInstances#enable_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/tsdb_instances#enable_details DataAlicloudTsdbInstances#enable_details}
   */
   readonly enableDetails?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/tsdb_instances#engine_type DataAlicloudTsdbInstances#engine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/tsdb_instances#engine_type DataAlicloudTsdbInstances#engine_type}
   */
   readonly engineType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/tsdb_instances#id DataAlicloudTsdbInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/tsdb_instances#id DataAlicloudTsdbInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/tsdb_instances#ids DataAlicloudTsdbInstances#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/tsdb_instances#ids DataAlicloudTsdbInstances#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/tsdb_instances#output_file DataAlicloudTsdbInstances#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/tsdb_instances#output_file DataAlicloudTsdbInstances#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/tsdb_instances#query_str DataAlicloudTsdbInstances#query_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/tsdb_instances#query_str DataAlicloudTsdbInstances#query_str}
   */
   readonly queryStr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/tsdb_instances#status DataAlicloudTsdbInstances#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/tsdb_instances#status DataAlicloudTsdbInstances#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/tsdb_instances#status_list DataAlicloudTsdbInstances#status_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/tsdb_instances#status_list DataAlicloudTsdbInstances#status_list}
   */
   readonly statusList?: string;
 }
@@ -209,7 +209,7 @@ export class DataAlicloudTsdbInstancesInstancesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/tsdb_instances alicloud_tsdb_instances}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/tsdb_instances alicloud_tsdb_instances}
 */
 export class DataAlicloudTsdbInstances extends cdktf.TerraformDataSource {
 
@@ -225,7 +225,7 @@ export class DataAlicloudTsdbInstances extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudTsdbInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudTsdbInstances to import
-  * @param importFromId The id of the existing DataAlicloudTsdbInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/tsdb_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudTsdbInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/tsdb_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudTsdbInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -237,7 +237,7 @@ export class DataAlicloudTsdbInstances extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/tsdb_instances alicloud_tsdb_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/tsdb_instances alicloud_tsdb_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -248,8 +248,8 @@ export class DataAlicloudTsdbInstances extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_tsdb_instances',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

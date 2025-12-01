@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs
+// https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface SpotinstProviderConfig {
   /**
   * Spotinst Account ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs#account SpotinstProvider#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs#account SpotinstProvider#account}
   */
   readonly account?: string;
   /**
   * Enable or disable the Spotinst provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs#enabled SpotinstProvider#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs#enabled SpotinstProvider#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Spotinst SDK Feature Flags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs#feature_flags SpotinstProvider#feature_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs#feature_flags SpotinstProvider#feature_flags}
   */
   readonly featureFlags?: string;
   /**
   * Spotinst Personal API Access Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs#token SpotinstProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs#token SpotinstProvider#token}
   */
   readonly token?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs#alias SpotinstProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs#alias SpotinstProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs spotinst}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs spotinst}
 */
 export class SpotinstProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class SpotinstProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a SpotinstProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SpotinstProvider to import
-  * @param importFromId The id of the existing SpotinstProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SpotinstProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SpotinstProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class SpotinstProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs spotinst} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs spotinst} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class SpotinstProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'spotinst',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.230.0',
-        providerVersionConstraint: '1.230.0'
+        providerVersion: '1.231.0',
+        providerVersionConstraint: '1.231.0'
       },
       terraformProviderSource: 'spotinst/spotinst'
     });

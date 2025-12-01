@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Bet
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#metadata DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#metadata DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#metadata}
   */
   readonly metadata: DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3ManifestMetadata;
   /**
   * PriorityLevelConfigurationSpec specifies the configuration of a priority level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#spec DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#spec DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#spec}
   */
   readonly spec?: DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Bet
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#annotations DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#annotations DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#labels DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#labels DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#name DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#name DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#name}
   */
   readonly name: string;
 }
@@ -187,13 +187,13 @@ export interface DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Bet
   /**
   * 'lendablePercent' prescribes the fraction of the level's NominalCL that can be borrowed by other priority levels. This value of this field must be between 0 and 100, inclusive, and it defaults to 0. The number of seats that other levels can borrow from this level, known as this level's LendableConcurrencyLimit (LendableCL), is defined as follows. LendableCL(i) = round( NominalCL(i) * lendablePercent(i)/100.0 )
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#lendable_percent DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#lendable_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#lendable_percent DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#lendable_percent}
   */
   readonly lendablePercent?: number;
   /**
   * 'nominalConcurrencyShares' (NCS) contributes to the computation of the NominalConcurrencyLimit (NominalCL) of this level. This is the number of execution seats nominally reserved for this priority level. This DOES NOT limit the dispatching from this priority level but affects the other priority levels through the borrowing mechanism. The server's concurrency limit (ServerCL) is divided among all the priority levels in proportion to their NCS values: NominalCL(i) = ceil( ServerCL * NCS(i) / sum_ncs ) sum_ncs = sum[priority level k] NCS(k) Bigger numbers mean a larger nominal concurrency limit, at the expense of every other priority level. This field has a default value of zero.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#nominal_concurrency_shares DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#nominal_concurrency_shares}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#nominal_concurrency_shares DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#nominal_concurrency_shares}
   */
   readonly nominalConcurrencyShares?: number;
 }
@@ -318,19 +318,19 @@ export interface DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Bet
   /**
   * 'handSize' is a small positive number that configures the shuffle sharding of requests into queues. When enqueuing a request at this priority level the request's flow identifier (a string pair) is hashed and the hash value is used to shuffle the list of queues and deal a hand of the size specified here. The request is put into one of the shortest queues in that hand. 'handSize' must be no larger than 'queues', and should be significantly smaller (so that a few heavy flows do not saturate most of the queues). See the user-facing documentation for more extensive guidance on setting this field. This field has a default value of 8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#hand_size DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#hand_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#hand_size DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#hand_size}
   */
   readonly handSize?: number;
   /**
   * 'queueLengthLimit' is the maximum number of requests allowed to be waiting in a given queue of this priority level at a time; excess requests are rejected. This value must be positive. If not specified, it will be defaulted to 50.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#queue_length_limit DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#queue_length_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#queue_length_limit DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#queue_length_limit}
   */
   readonly queueLengthLimit?: number;
   /**
   * 'queues' is the number of queues for this priority level. The queues exist independently at each apiserver. The value must be positive. Setting it to 1 effectively precludes shufflesharding and thus makes the distinguisher method of associated flow schemas irrelevant. This field has a default value of 64.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#queues DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#queues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#queues DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#queues}
   */
   readonly queues?: number;
 }
@@ -484,13 +484,13 @@ export interface DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Bet
   /**
   * QueuingConfiguration holds the configuration parameters for queuing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#queuing DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#queuing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#queuing DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#queuing}
   */
   readonly queuing?: DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3ManifestSpecLimitedLimitResponseQueuing;
   /**
   * 'type' is 'Queue' or 'Reject'. 'Queue' means that requests that can not be executed upon arrival are held in a queue until they can be executed or a queuing limit is reached. 'Reject' means that requests that can not be executed upon arrival are rejected. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#type DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#type DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#type}
   */
   readonly type: string;
 }
@@ -612,25 +612,25 @@ export interface DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Bet
   /**
   * 'borrowingLimitPercent', if present, configures a limit on how many seats this priority level can borrow from other priority levels. The limit is known as this level's BorrowingConcurrencyLimit (BorrowingCL) and is a limit on the total number of seats that this level may borrow at any one time. This field holds the ratio of that limit to the level's nominal concurrency limit. When this field is non-nil, it must hold a non-negative integer and the limit is calculated as follows. BorrowingCL(i) = round( NominalCL(i) * borrowingLimitPercent(i)/100.0 ) The value of this field can be more than 100, implying that this priority level can borrow a number of seats that is greater than its own nominal concurrency limit (NominalCL). When this field is left 'nil', the limit is effectively infinite.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#borrowing_limit_percent DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#borrowing_limit_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#borrowing_limit_percent DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#borrowing_limit_percent}
   */
   readonly borrowingLimitPercent?: number;
   /**
   * 'lendablePercent' prescribes the fraction of the level's NominalCL that can be borrowed by other priority levels. The value of this field must be between 0 and 100, inclusive, and it defaults to 0. The number of seats that other levels can borrow from this level, known as this level's LendableConcurrencyLimit (LendableCL), is defined as follows. LendableCL(i) = round( NominalCL(i) * lendablePercent(i)/100.0 )
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#lendable_percent DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#lendable_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#lendable_percent DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#lendable_percent}
   */
   readonly lendablePercent?: number;
   /**
   * LimitResponse defines how to handle requests that can not be executed right now.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#limit_response DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#limit_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#limit_response DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#limit_response}
   */
   readonly limitResponse?: DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3ManifestSpecLimitedLimitResponse;
   /**
   * 'nominalConcurrencyShares' (NCS) contributes to the computation of the NominalConcurrencyLimit (NominalCL) of this level. This is the number of execution seats available at this priority level. This is used both for requests dispatched from this priority level as well as requests dispatched from other priority levels borrowing seats from this level. The server's concurrency limit (ServerCL) is divided among the Limited priority levels in proportion to their NCS values: NominalCL(i) = ceil( ServerCL * NCS(i) / sum_ncs ) sum_ncs = sum[priority level k] NCS(k) Bigger numbers mean a larger nominal concurrency limit, at the expense of every other priority level. This field has a default value of 30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#nominal_concurrency_shares DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#nominal_concurrency_shares}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#nominal_concurrency_shares DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#nominal_concurrency_shares}
   */
   readonly nominalConcurrencyShares?: number;
 }
@@ -813,19 +813,19 @@ export interface DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Bet
   /**
   * ExemptPriorityLevelConfiguration describes the configurable aspects of the handling of exempt requests. In the mandatory exempt configuration object the values in the fields here can be modified by authorized users, unlike the rest of the 'spec'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#exempt DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#exempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#exempt DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#exempt}
   */
   readonly exempt?: DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3ManifestSpecExempt;
   /**
   * LimitedPriorityLevelConfiguration specifies how to handle requests that are subject to limits. It addresses two issues: - How are requests for this priority level limited? - What should be done with requests that exceed the limit?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#limited DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#limited}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#limited DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#limited}
   */
   readonly limited?: DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3ManifestSpecLimited;
   /**
   * 'type' indicates whether this priority level is subject to limitation on request execution. A value of ''Exempt'' means that requests of this priority level are not subject to a limit (and thus are never queued) and do not detract from the capacity made available to other priority levels. A value of ''Limited'' means that (a) requests of this priority level _are_ subject to limits and (b) some of the server's limited capacity is made available exclusively to this priority level. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#type DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#type DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest#type}
   */
   readonly type: string;
 }
@@ -974,7 +974,7 @@ export class DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Ma
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest k8s_flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest k8s_flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest}
 */
 export class DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest extends cdktf.TerraformDataSource {
 
@@ -990,7 +990,7 @@ export class DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Ma
   * Generates CDKTF code for importing a DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest to import
-  * @param importFromId The id of the existing DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1002,7 +1002,7 @@ export class DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Ma
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest k8s_flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest k8s_flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1013,8 +1013,8 @@ export class DataK8SFlowcontrolApiserverK8SIoPriorityLevelConfigurationV1Beta3Ma
       terraformResourceType: 'k8s_flowcontrol_apiserver_k8s_io_priority_level_configuration_v1beta3_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

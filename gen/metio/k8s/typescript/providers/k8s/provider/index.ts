@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface K8SProviderConfig {
   /**
   * The context to use from your kubeconfig. Can be specified with the `TF_K8S_CONTEXT` environment variable. Defaults to the current context in your config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs#context K8SProvider#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs#context K8SProvider#context}
   */
   readonly context?: string;
   /**
   * The name of the manager used to track field ownership. Can be specified with the `TF_K8S_FIELD_MANAGER` environment variable. Defaults to `terraform-provider-k8s`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs#field_manager K8SProvider#field_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs#field_manager K8SProvider#field_manager}
   */
   readonly fieldManager?: string;
   /**
   * If `true`, server-side apply will force the changes against conflicts. Can be specified with the `TF_K8S_FORCE_CONFLICTS` environment variable. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs#force_conflicts K8SProvider#force_conflicts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs#force_conflicts K8SProvider#force_conflicts}
   */
   readonly forceConflicts?: boolean | cdktf.IResolvable;
   /**
   * An explicit path to a kubeconfig file. Can be specified with the `TF_K8S_CONFIG` environment variable. Uses Kubernetes defaults if not specified (`KUBECONFIG`, or your home directory).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs#kubeconfig K8SProvider#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs#kubeconfig K8SProvider#kubeconfig}
   */
   readonly kubeconfig?: string;
   /**
   * Enable offline mode for this provider. In offline mode, no connection to a kubernetes cluster will be performed, therefore no resource or data source can be created except manifest data sources (those ending with _manifest). Can be specified with the `TF_K8S_OFFLINE` environment variable. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs#offline K8SProvider#offline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs#offline K8SProvider#offline}
   */
   readonly offline?: boolean | cdktf.IResolvable;
   /**
   * The timeout to apply for HTTP requests in seconds. Can be specified with the `TF_K8S_TIMEOUT` environment variable. Defaults to `32`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs#timeout K8SProvider#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs#timeout K8SProvider#timeout}
   */
   readonly timeout?: number;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs#alias K8SProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs#alias K8SProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs k8s}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs k8s}
 */
 export class K8SProvider extends cdktf.TerraformProvider {
 
@@ -68,7 +68,7 @@ export class K8SProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a K8SProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the K8SProvider to import
-  * @param importFromId The id of the existing K8SProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing K8SProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the K8SProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class K8SProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs k8s} Resource
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs k8s} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class K8SProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'k8s',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       terraformProviderSource: 'metio/k8s'
     });

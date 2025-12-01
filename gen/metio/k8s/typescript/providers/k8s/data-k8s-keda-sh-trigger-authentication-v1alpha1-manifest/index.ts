@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#metadata DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#metadata DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestMetadata;
   /**
   * TriggerAuthenticationSpec defines the various ways to authenticate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#spec DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#spec DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#annotations DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#annotations DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#labels DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#labels DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#name DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#name DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#namespace DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#namespace DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestMetadataOutputRef
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretManagerCredentialsAccessKeyValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#key DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#key DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#name DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#name DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -338,7 +338,7 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretMana
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretManagerCredentialsAccessKeyValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#secret_key_ref DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#secret_key_ref DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretManagerCredentialsAccessKeyValueFromSecretKeyRef;
 }
@@ -429,7 +429,7 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretMana
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretManagerCredentialsAccessKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#value_from DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#value_from DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#value_from}
   */
   readonly valueFrom: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretManagerCredentialsAccessKeyValueFrom;
 }
@@ -520,11 +520,11 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretMana
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretManagerCredentialsAccessSecretKeyValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#key DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#key DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#name DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#name DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -641,7 +641,7 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretMana
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretManagerCredentialsAccessSecretKeyValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#secret_key_ref DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#secret_key_ref DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretManagerCredentialsAccessSecretKeyValueFromSecretKeyRef;
 }
@@ -732,7 +732,7 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretMana
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretManagerCredentialsAccessSecretKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#value_from DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#value_from DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#value_from}
   */
   readonly valueFrom: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretManagerCredentialsAccessSecretKeyValueFrom;
 }
@@ -823,11 +823,11 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretMana
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretManagerCredentialsAccessTokenValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#key DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#key DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#name DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#name DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -944,7 +944,7 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretMana
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretManagerCredentialsAccessTokenValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#secret_key_ref DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#secret_key_ref DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretManagerCredentialsAccessTokenValueFromSecretKeyRef;
 }
@@ -1035,7 +1035,7 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretMana
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretManagerCredentialsAccessToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#value_from DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#value_from DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#value_from}
   */
   readonly valueFrom: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretManagerCredentialsAccessTokenValueFrom;
 }
@@ -1126,15 +1126,15 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretMana
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretManagerCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#access_key DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#access_key DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#access_key}
   */
   readonly accessKey: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretManagerCredentialsAccessKey;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#access_secret_key DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#access_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#access_secret_key DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#access_secret_key}
   */
   readonly accessSecretKey: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretManagerCredentialsAccessSecretKey;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#access_token DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#access_token DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#access_token}
   */
   readonly accessToken?: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretManagerCredentialsAccessToken;
 }
@@ -1282,35 +1282,35 @@ export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecret
   /**
   * Set identityAuthorityHost to override the default Azure authority host. If this is set, then the IdentityTenantID must also be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_authority_host DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_authority_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_authority_host DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_authority_host}
   */
   readonly identityAuthorityHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_id DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_id DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_id}
   */
   readonly identityId?: string;
   /**
   * IdentityOwner configures which identity has to be used during auto discovery, keda or the scaled workload. Mutually exclusive with roleArn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_owner DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_owner DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_owner}
   */
   readonly identityOwner?: string;
   /**
   * Set identityTenantId to override the default Azure tenant id. If this is set, then the IdentityID must also be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_tenant_id DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_tenant_id DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_tenant_id}
   */
   readonly identityTenantId?: string;
   /**
   * PodIdentityProvider contains the list of providers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#provider DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#provider DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#provider}
   */
   readonly provider: string;
   /**
   * RoleArn sets the AWS RoleArn to be used. Mutually exclusive with IdentityOwner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#role_arn DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#role_arn DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -1546,19 +1546,19 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretMana
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretManagerSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#name DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#name DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#parameter DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#parameter DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#parameter}
   */
   readonly parameter: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#version_id DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#version_id DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#version_id}
   */
   readonly versionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#version_stage DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#version_stage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#version_stage DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#version_stage}
   */
   readonly versionStage?: string;
 }
@@ -1755,21 +1755,21 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretMana
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretManager {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#credentials DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#credentials DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretManagerCredentials;
   /**
   * AuthPodIdentity allows users to select the platform native identity mechanism
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#pod_identity DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#pod_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#pod_identity DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#pod_identity}
   */
   readonly podIdentity?: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretManagerPodIdentity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#region DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#region DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#secrets DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#secrets DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#secrets}
   */
   readonly secrets: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretManagerSecrets[] | cdktf.IResolvable;
 }
@@ -1947,15 +1947,15 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretMana
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAzureKeyVaultCloud {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#active_directory_endpoint DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#active_directory_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#active_directory_endpoint DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#active_directory_endpoint}
   */
   readonly activeDirectoryEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#key_vault_resource_url DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#key_vault_resource_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#key_vault_resource_url DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#key_vault_resource_url}
   */
   readonly keyVaultResourceUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#type DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#type DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -2104,11 +2104,11 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAzureKeyVault
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAzureKeyVaultCredentialsClientSecretValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#key DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#key DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#name DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#name DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -2225,7 +2225,7 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAzureKeyVault
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAzureKeyVaultCredentialsClientSecretValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#secret_key_ref DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#secret_key_ref DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAzureKeyVaultCredentialsClientSecretValueFromSecretKeyRef;
 }
@@ -2316,7 +2316,7 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAzureKeyVault
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAzureKeyVaultCredentialsClientSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#value_from DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#value_from DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#value_from}
   */
   readonly valueFrom: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAzureKeyVaultCredentialsClientSecretValueFrom;
 }
@@ -2407,15 +2407,15 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAzureKeyVault
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAzureKeyVaultCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#client_id DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#client_id DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#client_secret DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#client_secret DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#client_secret}
   */
   readonly clientSecret: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAzureKeyVaultCredentialsClientSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#tenant_id DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#tenant_id DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#tenant_id}
   */
   readonly tenantId: string;
 }
@@ -2560,35 +2560,35 @@ export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAzureKeyV
   /**
   * Set identityAuthorityHost to override the default Azure authority host. If this is set, then the IdentityTenantID must also be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_authority_host DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_authority_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_authority_host DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_authority_host}
   */
   readonly identityAuthorityHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_id DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_id DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_id}
   */
   readonly identityId?: string;
   /**
   * IdentityOwner configures which identity has to be used during auto discovery, keda or the scaled workload. Mutually exclusive with roleArn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_owner DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_owner DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_owner}
   */
   readonly identityOwner?: string;
   /**
   * Set identityTenantId to override the default Azure tenant id. If this is set, then the IdentityID must also be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_tenant_id DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_tenant_id DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_tenant_id}
   */
   readonly identityTenantId?: string;
   /**
   * PodIdentityProvider contains the list of providers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#provider DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#provider DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#provider}
   */
   readonly provider: string;
   /**
   * RoleArn sets the AWS RoleArn to be used. Mutually exclusive with IdentityOwner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#role_arn DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#role_arn DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -2824,15 +2824,15 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAzureKeyVault
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAzureKeyVaultSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#name DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#name DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#parameter DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#parameter DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#parameter}
   */
   readonly parameter: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#version DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#version DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -3000,25 +3000,25 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAzureKeyVault
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAzureKeyVault {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#cloud DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#cloud DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#cloud}
   */
   readonly cloud?: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAzureKeyVaultCloud;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#credentials DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#credentials DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAzureKeyVaultCredentials;
   /**
   * AuthPodIdentity allows users to select the platform native identity mechanism
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#pod_identity DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#pod_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#pod_identity DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#pod_identity}
   */
   readonly podIdentity?: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAzureKeyVaultPodIdentity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#secrets DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#secrets DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#secrets}
   */
   readonly secrets: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAzureKeyVaultSecrets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#vault_uri DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#vault_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#vault_uri DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#vault_uri}
   */
   readonly vaultUri: string;
 }
@@ -3222,15 +3222,15 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAzureKeyVault
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecConfigMapTargetRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#key DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#key DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#name DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#name DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#parameter DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#parameter DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#parameter}
   */
   readonly parameter: string;
 }
@@ -3395,15 +3395,15 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecConfigMapTarg
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#container_name DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#container_name DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#name DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#name DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#parameter DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#parameter DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#parameter}
   */
   readonly parameter: string;
 }
@@ -3571,11 +3571,11 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecEnvList exten
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecGcpSecretManagerCredentialsClientSecretValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#key DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#key DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#name DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#name DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -3692,7 +3692,7 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecGcpSecretMana
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecGcpSecretManagerCredentialsClientSecretValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#secret_key_ref DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#secret_key_ref DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecGcpSecretManagerCredentialsClientSecretValueFromSecretKeyRef;
 }
@@ -3783,7 +3783,7 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecGcpSecretMana
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecGcpSecretManagerCredentialsClientSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#value_from DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#value_from DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#value_from}
   */
   readonly valueFrom: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecGcpSecretManagerCredentialsClientSecretValueFrom;
 }
@@ -3874,7 +3874,7 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecGcpSecretMana
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecGcpSecretManagerCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#client_secret DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#client_secret DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#client_secret}
   */
   readonly clientSecret: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecGcpSecretManagerCredentialsClientSecret;
 }
@@ -3967,35 +3967,35 @@ export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecGcpSecret
   /**
   * Set identityAuthorityHost to override the default Azure authority host. If this is set, then the IdentityTenantID must also be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_authority_host DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_authority_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_authority_host DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_authority_host}
   */
   readonly identityAuthorityHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_id DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_id DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_id}
   */
   readonly identityId?: string;
   /**
   * IdentityOwner configures which identity has to be used during auto discovery, keda or the scaled workload. Mutually exclusive with roleArn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_owner DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_owner DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_owner}
   */
   readonly identityOwner?: string;
   /**
   * Set identityTenantId to override the default Azure tenant id. If this is set, then the IdentityID must also be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_tenant_id DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_tenant_id DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_tenant_id}
   */
   readonly identityTenantId?: string;
   /**
   * PodIdentityProvider contains the list of providers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#provider DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#provider DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#provider}
   */
   readonly provider: string;
   /**
   * RoleArn sets the AWS RoleArn to be used. Mutually exclusive with IdentityOwner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#role_arn DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#role_arn DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -4231,18 +4231,18 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecGcpSecretMana
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecGcpSecretManagerSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#id DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#id DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#parameter DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#parameter DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#parameter}
   */
   readonly parameter: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#version DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#version DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -4410,17 +4410,17 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecGcpSecretMana
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecGcpSecretManager {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#credentials DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#credentials DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecGcpSecretManagerCredentials;
   /**
   * AuthPodIdentity allows users to select the platform native identity mechanism
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#pod_identity DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#pod_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#pod_identity DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#pod_identity}
   */
   readonly podIdentity?: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecGcpSecretManagerPodIdentity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#secrets DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#secrets DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#secrets}
   */
   readonly secrets: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecGcpSecretManagerSecrets[] | cdktf.IResolvable;
 }
@@ -4569,11 +4569,11 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecGcpSecretMana
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecHashiCorpVaultCredential {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#service_account DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#service_account DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#service_account}
   */
   readonly serviceAccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#token DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#token DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#token}
   */
   readonly token?: string;
 }
@@ -4696,31 +4696,31 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecHashiCorpVaul
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecHashiCorpVaultSecretsPkiData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#alt_names DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#alt_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#alt_names DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#alt_names}
   */
   readonly altNames?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#common_name DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#common_name DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#common_name}
   */
   readonly commonName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#format DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#format DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#ip_sans DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#ip_sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#ip_sans DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#ip_sans}
   */
   readonly ipSans?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#other_sans DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#other_sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#other_sans DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#other_sans}
   */
   readonly otherSans?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#ttl DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#ttl DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#ttl}
   */
   readonly ttl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#uri_sans DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#uri_sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#uri_sans DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#uri_sans}
   */
   readonly uriSans?: string;
 }
@@ -4988,25 +4988,25 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecHashiCorpVaul
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecHashiCorpVaultSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#key DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#key DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#parameter DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#parameter DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#parameter}
   */
   readonly parameter: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#path DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#path DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#pki_data DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#pki_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#pki_data DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#pki_data}
   */
   readonly pkiData?: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecHashiCorpVaultSecretsPkiData;
   /**
   * VaultSecretType defines the type of vault secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#type DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#type DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -5229,35 +5229,35 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecHashiCorpVaul
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecHashiCorpVault {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#address DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#address DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#address}
   */
   readonly address: string;
   /**
   * VaultAuthentication contains the list of Hashicorp Vault authentication methods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#authentication DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#authentication DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#authentication}
   */
   readonly authentication: string;
   /**
   * Credential defines the Hashicorp Vault credentials depending on the authentication method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#credential DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#credential DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#credential}
   */
   readonly credential?: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecHashiCorpVaultCredential;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#mount DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#mount DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#mount}
   */
   readonly mount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#namespace DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#namespace DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#role DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#role DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#secrets DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#secrets DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#secrets}
   */
   readonly secrets: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecHashiCorpVaultSecrets[] | cdktf.IResolvable;
 }
@@ -5518,35 +5518,35 @@ export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecPodIdenti
   /**
   * Set identityAuthorityHost to override the default Azure authority host. If this is set, then the IdentityTenantID must also be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_authority_host DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_authority_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_authority_host DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_authority_host}
   */
   readonly identityAuthorityHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_id DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_id DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_id}
   */
   readonly identityId?: string;
   /**
   * IdentityOwner configures which identity has to be used during auto discovery, keda or the scaled workload. Mutually exclusive with roleArn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_owner DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_owner DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_owner}
   */
   readonly identityOwner?: string;
   /**
   * Set identityTenantId to override the default Azure tenant id. If this is set, then the IdentityID must also be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_tenant_id DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#identity_tenant_id DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#identity_tenant_id}
   */
   readonly identityTenantId?: string;
   /**
   * PodIdentityProvider contains the list of providers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#provider DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#provider DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#provider}
   */
   readonly provider: string;
   /**
   * RoleArn sets the AWS RoleArn to be used. Mutually exclusive with IdentityOwner
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#role_arn DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#role_arn DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -5782,15 +5782,15 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecPodIdentityOu
 }
 export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecSecretTargetRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#key DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#key DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#name DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#name DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#parameter DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#parameter DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#parameter}
   */
   readonly parameter: string;
 }
@@ -5957,41 +5957,41 @@ export interface DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpec {
   /**
   * AwsSecretManager is used to authenticate using AwsSecretManager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#aws_secret_manager DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#aws_secret_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#aws_secret_manager DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#aws_secret_manager}
   */
   readonly awsSecretManager?: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAwsSecretManager;
   /**
   * AzureKeyVault is used to authenticate using Azure Key Vault
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#azure_key_vault DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#azure_key_vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#azure_key_vault DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#azure_key_vault}
   */
   readonly azureKeyVault?: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecAzureKeyVault;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#config_map_target_ref DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#config_map_target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#config_map_target_ref DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#config_map_target_ref}
   */
   readonly configMapTargetRef?: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecConfigMapTargetRef[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#env DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#env DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#gcp_secret_manager DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#gcp_secret_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#gcp_secret_manager DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#gcp_secret_manager}
   */
   readonly gcpSecretManager?: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecGcpSecretManager;
   /**
   * HashiCorpVault is used to authenticate using Hashicorp Vault
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#hashi_corp_vault DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#hashi_corp_vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#hashi_corp_vault DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#hashi_corp_vault}
   */
   readonly hashiCorpVault?: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecHashiCorpVault;
   /**
   * AuthPodIdentity allows users to select the platform native identity mechanism
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#pod_identity DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#pod_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#pod_identity DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#pod_identity}
   */
   readonly podIdentity?: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecPodIdentity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#secret_target_ref DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#secret_target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#secret_target_ref DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest#secret_target_ref}
   */
   readonly secretTargetRef?: DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecSecretTargetRef[] | cdktf.IResolvable;
 }
@@ -6288,7 +6288,7 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest k8s_keda_sh_trigger_authentication_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest k8s_keda_sh_trigger_authentication_v1alpha1_manifest}
 */
 export class DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -6304,7 +6304,7 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6316,7 +6316,7 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest k8s_keda_sh_trigger_authentication_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keda_sh_trigger_authentication_v1alpha1_manifest k8s_keda_sh_trigger_authentication_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6327,8 +6327,8 @@ export class DataK8SKedaShTriggerAuthenticationV1Alpha1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_keda_sh_trigger_authentication_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

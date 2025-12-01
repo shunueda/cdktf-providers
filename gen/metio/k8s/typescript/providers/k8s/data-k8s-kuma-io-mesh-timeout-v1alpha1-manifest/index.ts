@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKumaIoMeshTimeoutV1Alpha1ManifestConfig extends cdktf.Te
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#metadata DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#metadata DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SKumaIoMeshTimeoutV1Alpha1ManifestMetadata;
   /**
   * Spec is the specification of the Kuma MeshTimeout resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#spec DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#spec DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SKumaIoMeshTimeoutV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKumaIoMeshTimeoutV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#annotations DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#annotations DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#labels DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#labels DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#name DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#name DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#namespace DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#namespace DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,31 +219,31 @@ export interface DataK8SKumaIoMeshTimeoutV1Alpha1ManifestSpecFromDefaultHttp {
   /**
   * MaxConnectionDuration is the time after which a connection will be drained and/or closed, starting from when it was first established. Setting this timeout to 0 will disable it. Disabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#max_connection_duration DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#max_connection_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#max_connection_duration DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#max_connection_duration}
   */
   readonly maxConnectionDuration?: string;
   /**
   * MaxStreamDuration is the maximum time that a stream’s lifetime will span. Setting this timeout to 0 will disable it. Disabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#max_stream_duration DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#max_stream_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#max_stream_duration DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#max_stream_duration}
   */
   readonly maxStreamDuration?: string;
   /**
   * RequestHeadersTimeout The amount of time that proxy will wait for the request headers to be received. The timer is activated when the first byte of the headers is received, and is disarmed when the last byte of the headers has been received. If not specified or set to 0, this timeout is disabled. Disabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#request_headers_timeout DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#request_headers_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#request_headers_timeout DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#request_headers_timeout}
   */
   readonly requestHeadersTimeout?: string;
   /**
   * RequestTimeout The amount of time that proxy will wait for the entire request to be received. The timer is activated when the request is initiated, and is disarmed when the last byte of the request is sent, OR when the response is initiated. Setting this timeout to 0 will disable it. Default is 15s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#request_timeout DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#request_timeout DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#request_timeout}
   */
   readonly requestTimeout?: string;
   /**
   * StreamIdleTimeout is the amount of time that proxy will allow a stream to exist with no activity. Setting this timeout to 0 will disable it. Default is 30m
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#stream_idle_timeout DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#stream_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#stream_idle_timeout DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#stream_idle_timeout}
   */
   readonly streamIdleTimeout?: string;
 }
@@ -455,19 +455,19 @@ export interface DataK8SKumaIoMeshTimeoutV1Alpha1ManifestSpecFromDefault {
   /**
   * ConnectionTimeout specifies the amount of time proxy will wait for an TCP connection to be established. Default value is 5 seconds. Cannot be set to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#connection_timeout DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#connection_timeout DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#connection_timeout}
   */
   readonly connectionTimeout?: string;
   /**
   * Http provides configuration for HTTP specific timeouts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#http DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#http DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#http}
   */
   readonly http?: DataK8SKumaIoMeshTimeoutV1Alpha1ManifestSpecFromDefaultHttp;
   /**
   * IdleTimeout is defined as the period in which there are no bytes sent or received on connection Setting this timeout to 0 will disable it. Be cautious when disabling it because it can lead to connection leaking. Default value is 1h.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#idle_timeout DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#idle_timeout DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#idle_timeout}
   */
   readonly idleTimeout?: string;
 }
@@ -621,49 +621,49 @@ export interface DataK8SKumaIoMeshTimeoutV1Alpha1ManifestSpecFromTargetRef {
   /**
   * Kind of the referenced resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#kind DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#kind DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Labels are used to select group of MeshServices that match labels. Either Labels or Name and Namespace can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#labels DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#labels DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Mesh is reserved for future use to identify cross mesh resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#mesh DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#mesh DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#mesh}
   */
   readonly mesh?: string;
   /**
   * Name of the referenced resource. Can only be used with kinds: 'MeshService', 'MeshServiceSubset' and 'MeshGatewayRoute'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#name DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#name DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies the namespace of target resource. If empty only resources in policy namespace will be targeted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#namespace DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#namespace DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * ProxyTypes specifies the data plane types that are subject to the policy. When not specified, all data plane types are targeted by the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#proxy_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#proxy_types}
   */
   readonly proxyTypes?: string[];
   /**
   * SectionName is used to target specific section of resource. For example, you can target port from MeshService.ports[] by its name. Only traffic to this port will be affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#section_name DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#section_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#section_name DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#section_name}
   */
   readonly sectionName?: string;
   /**
   * Tags used to select a subset of proxies by tags. Can only be used with kinds 'MeshSubset' and 'MeshServiceSubset'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#tags DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#tags DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -962,13 +962,13 @@ export interface DataK8SKumaIoMeshTimeoutV1Alpha1ManifestSpecFrom {
   /**
   * Default is a configuration specific to the group of clients referenced in 'targetRef'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#default DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#default DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#default}
   */
   readonly default?: DataK8SKumaIoMeshTimeoutV1Alpha1ManifestSpecFromDefault;
   /**
   * TargetRef is a reference to the resource that represents a group of clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#target_ref DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#target_ref DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#target_ref}
   */
   readonly targetRef: DataK8SKumaIoMeshTimeoutV1Alpha1ManifestSpecFromTargetRef;
 }
@@ -1112,49 +1112,49 @@ export interface DataK8SKumaIoMeshTimeoutV1Alpha1ManifestSpecTargetRef {
   /**
   * Kind of the referenced resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#kind DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#kind DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Labels are used to select group of MeshServices that match labels. Either Labels or Name and Namespace can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#labels DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#labels DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Mesh is reserved for future use to identify cross mesh resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#mesh DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#mesh DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#mesh}
   */
   readonly mesh?: string;
   /**
   * Name of the referenced resource. Can only be used with kinds: 'MeshService', 'MeshServiceSubset' and 'MeshGatewayRoute'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#name DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#name DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies the namespace of target resource. If empty only resources in policy namespace will be targeted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#namespace DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#namespace DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * ProxyTypes specifies the data plane types that are subject to the policy. When not specified, all data plane types are targeted by the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#proxy_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#proxy_types}
   */
   readonly proxyTypes?: string[];
   /**
   * SectionName is used to target specific section of resource. For example, you can target port from MeshService.ports[] by its name. Only traffic to this port will be affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#section_name DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#section_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#section_name DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#section_name}
   */
   readonly sectionName?: string;
   /**
   * Tags used to select a subset of proxies by tags. Can only be used with kinds 'MeshSubset' and 'MeshServiceSubset'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#tags DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#tags DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -1453,31 +1453,31 @@ export interface DataK8SKumaIoMeshTimeoutV1Alpha1ManifestSpecToDefaultHttp {
   /**
   * MaxConnectionDuration is the time after which a connection will be drained and/or closed, starting from when it was first established. Setting this timeout to 0 will disable it. Disabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#max_connection_duration DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#max_connection_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#max_connection_duration DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#max_connection_duration}
   */
   readonly maxConnectionDuration?: string;
   /**
   * MaxStreamDuration is the maximum time that a stream’s lifetime will span. Setting this timeout to 0 will disable it. Disabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#max_stream_duration DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#max_stream_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#max_stream_duration DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#max_stream_duration}
   */
   readonly maxStreamDuration?: string;
   /**
   * RequestHeadersTimeout The amount of time that proxy will wait for the request headers to be received. The timer is activated when the first byte of the headers is received, and is disarmed when the last byte of the headers has been received. If not specified or set to 0, this timeout is disabled. Disabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#request_headers_timeout DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#request_headers_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#request_headers_timeout DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#request_headers_timeout}
   */
   readonly requestHeadersTimeout?: string;
   /**
   * RequestTimeout The amount of time that proxy will wait for the entire request to be received. The timer is activated when the request is initiated, and is disarmed when the last byte of the request is sent, OR when the response is initiated. Setting this timeout to 0 will disable it. Default is 15s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#request_timeout DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#request_timeout DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#request_timeout}
   */
   readonly requestTimeout?: string;
   /**
   * StreamIdleTimeout is the amount of time that proxy will allow a stream to exist with no activity. Setting this timeout to 0 will disable it. Default is 30m
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#stream_idle_timeout DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#stream_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#stream_idle_timeout DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#stream_idle_timeout}
   */
   readonly streamIdleTimeout?: string;
 }
@@ -1689,19 +1689,19 @@ export interface DataK8SKumaIoMeshTimeoutV1Alpha1ManifestSpecToDefault {
   /**
   * ConnectionTimeout specifies the amount of time proxy will wait for an TCP connection to be established. Default value is 5 seconds. Cannot be set to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#connection_timeout DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#connection_timeout DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#connection_timeout}
   */
   readonly connectionTimeout?: string;
   /**
   * Http provides configuration for HTTP specific timeouts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#http DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#http DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#http}
   */
   readonly http?: DataK8SKumaIoMeshTimeoutV1Alpha1ManifestSpecToDefaultHttp;
   /**
   * IdleTimeout is defined as the period in which there are no bytes sent or received on connection Setting this timeout to 0 will disable it. Be cautious when disabling it because it can lead to connection leaking. Default value is 1h.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#idle_timeout DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#idle_timeout DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#idle_timeout}
   */
   readonly idleTimeout?: string;
 }
@@ -1855,49 +1855,49 @@ export interface DataK8SKumaIoMeshTimeoutV1Alpha1ManifestSpecToTargetRef {
   /**
   * Kind of the referenced resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#kind DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#kind DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Labels are used to select group of MeshServices that match labels. Either Labels or Name and Namespace can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#labels DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#labels DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Mesh is reserved for future use to identify cross mesh resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#mesh DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#mesh DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#mesh}
   */
   readonly mesh?: string;
   /**
   * Name of the referenced resource. Can only be used with kinds: 'MeshService', 'MeshServiceSubset' and 'MeshGatewayRoute'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#name DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#name DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies the namespace of target resource. If empty only resources in policy namespace will be targeted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#namespace DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#namespace DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * ProxyTypes specifies the data plane types that are subject to the policy. When not specified, all data plane types are targeted by the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#proxy_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#proxy_types}
   */
   readonly proxyTypes?: string[];
   /**
   * SectionName is used to target specific section of resource. For example, you can target port from MeshService.ports[] by its name. Only traffic to this port will be affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#section_name DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#section_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#section_name DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#section_name}
   */
   readonly sectionName?: string;
   /**
   * Tags used to select a subset of proxies by tags. Can only be used with kinds 'MeshSubset' and 'MeshServiceSubset'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#tags DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#tags DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -2196,13 +2196,13 @@ export interface DataK8SKumaIoMeshTimeoutV1Alpha1ManifestSpecTo {
   /**
   * Default is a configuration specific to the group of destinations referenced in 'targetRef'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#default DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#default DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#default}
   */
   readonly default?: DataK8SKumaIoMeshTimeoutV1Alpha1ManifestSpecToDefault;
   /**
   * TargetRef is a reference to the resource that represents a group of destinations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#target_ref DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#target_ref DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#target_ref}
   */
   readonly targetRef: DataK8SKumaIoMeshTimeoutV1Alpha1ManifestSpecToTargetRef;
 }
@@ -2346,19 +2346,19 @@ export interface DataK8SKumaIoMeshTimeoutV1Alpha1ManifestSpec {
   /**
   * From list makes a match between clients and corresponding configurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#from DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#from DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SKumaIoMeshTimeoutV1Alpha1ManifestSpecFrom[] | cdktf.IResolvable;
   /**
   * TargetRef is a reference to the resource the policy takes an effect on. The resource could be either a real store object or virtual resource defined inplace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#target_ref DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#target_ref DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#target_ref}
   */
   readonly targetRef?: DataK8SKumaIoMeshTimeoutV1Alpha1ManifestSpecTargetRef;
   /**
   * To list makes a match between the consumed services and corresponding configurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#to DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#to DataK8SKumaIoMeshTimeoutV1Alpha1Manifest#to}
   */
   readonly to?: DataK8SKumaIoMeshTimeoutV1Alpha1ManifestSpecTo[] | cdktf.IResolvable;
 }
@@ -2510,7 +2510,7 @@ export class DataK8SKumaIoMeshTimeoutV1Alpha1ManifestSpecOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest k8s_kuma_io_mesh_timeout_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest k8s_kuma_io_mesh_timeout_v1alpha1_manifest}
 */
 export class DataK8SKumaIoMeshTimeoutV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2526,7 +2526,7 @@ export class DataK8SKumaIoMeshTimeoutV1Alpha1Manifest extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataK8SKumaIoMeshTimeoutV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKumaIoMeshTimeoutV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SKumaIoMeshTimeoutV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKumaIoMeshTimeoutV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKumaIoMeshTimeoutV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2538,7 +2538,7 @@ export class DataK8SKumaIoMeshTimeoutV1Alpha1Manifest extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest k8s_kuma_io_mesh_timeout_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_timeout_v1alpha1_manifest k8s_kuma_io_mesh_timeout_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2549,8 +2549,8 @@ export class DataK8SKumaIoMeshTimeoutV1Alpha1Manifest extends cdktf.TerraformDat
       terraformResourceType: 'k8s_kuma_io_mesh_timeout_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

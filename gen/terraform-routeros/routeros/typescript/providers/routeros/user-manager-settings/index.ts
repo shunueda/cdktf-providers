@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/user_manager_settings
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/user_manager_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface UserManagerSettingsConfig extends cdktf.TerraformMetaArguments 
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/user_manager_settings#___path___ UserManagerSettings#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/user_manager_settings#___path___ UserManagerSettings#___path___}
   */
   readonly path?: string;
   /**
   * Port to listen for RADIUS accounting requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/user_manager_settings#accounting_port UserManagerSettings#accounting_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/user_manager_settings#accounting_port UserManagerSettings#accounting_port}
   */
   readonly accountingPort?: number;
   /**
   * Port to listen for RADIUS authentication requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/user_manager_settings#authentication_port UserManagerSettings#authentication_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/user_manager_settings#authentication_port UserManagerSettings#authentication_port}
   */
   readonly authenticationPort?: number;
   /**
   * Certificate for use in EAP TLS-type authentication methods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/user_manager_settings#certificate UserManagerSettings#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/user_manager_settings#certificate UserManagerSettings#certificate}
   */
   readonly certificate?: string;
   /**
   * An option whether the User Manager functionality is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/user_manager_settings#enabled UserManagerSettings#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/user_manager_settings#enabled UserManagerSettings#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/user_manager_settings#id UserManagerSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/user_manager_settings#id UserManagerSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,19 +47,19 @@ export interface UserManagerSettingsConfig extends cdktf.TerraformMetaArguments 
   /**
   * An option whether to require `Message-Authenticator` in received Access-Accept/Challenge/Reject messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/user_manager_settings#require_message_auth UserManagerSettings#require_message_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/user_manager_settings#require_message_auth UserManagerSettings#require_message_auth}
   */
   readonly requireMessageAuth?: string;
   /**
   * An option whether to use Profiles and Limitations. When set to `false`, only User configuration is required to run User Manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/user_manager_settings#use_profiles UserManagerSettings#use_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/user_manager_settings#use_profiles UserManagerSettings#use_profiles}
   */
   readonly useProfiles?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/user_manager_settings routeros_user_manager_settings}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/user_manager_settings routeros_user_manager_settings}
 */
 export class UserManagerSettings extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class UserManagerSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserManagerSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserManagerSettings to import
-  * @param importFromId The id of the existing UserManagerSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/user_manager_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserManagerSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/user_manager_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserManagerSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class UserManagerSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/user_manager_settings routeros_user_manager_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/user_manager_settings routeros_user_manager_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class UserManagerSettings extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_user_manager_settings',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.94.0',
-        providerVersionConstraint: '1.94.0'
+        providerVersion: '1.95.0',
+        providerVersionConstraint: '1.95.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

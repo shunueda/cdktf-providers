@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cloud_sso_access_configurations
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_sso_access_configurations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudCloudSsoAccessConfigurationsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cloud_sso_access_configurations#directory_id DataAlicloudCloudSsoAccessConfigurations#directory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_sso_access_configurations#directory_id DataAlicloudCloudSsoAccessConfigurations#directory_id}
   */
   readonly directoryId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cloud_sso_access_configurations#enable_details DataAlicloudCloudSsoAccessConfigurations#enable_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_sso_access_configurations#enable_details DataAlicloudCloudSsoAccessConfigurations#enable_details}
   */
   readonly enableDetails?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cloud_sso_access_configurations#id DataAlicloudCloudSsoAccessConfigurations#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_sso_access_configurations#id DataAlicloudCloudSsoAccessConfigurations#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cloud_sso_access_configurations#ids DataAlicloudCloudSsoAccessConfigurations#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_sso_access_configurations#ids DataAlicloudCloudSsoAccessConfigurations#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cloud_sso_access_configurations#name_regex DataAlicloudCloudSsoAccessConfigurations#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_sso_access_configurations#name_regex DataAlicloudCloudSsoAccessConfigurations#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cloud_sso_access_configurations#output_file DataAlicloudCloudSsoAccessConfigurations#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_sso_access_configurations#output_file DataAlicloudCloudSsoAccessConfigurations#output_file}
   */
   readonly outputFile?: string;
 }
@@ -248,7 +248,7 @@ export class DataAlicloudCloudSsoAccessConfigurationsConfigurationsList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cloud_sso_access_configurations alicloud_cloud_sso_access_configurations}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_sso_access_configurations alicloud_cloud_sso_access_configurations}
 */
 export class DataAlicloudCloudSsoAccessConfigurations extends cdktf.TerraformDataSource {
 
@@ -264,7 +264,7 @@ export class DataAlicloudCloudSsoAccessConfigurations extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataAlicloudCloudSsoAccessConfigurations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudCloudSsoAccessConfigurations to import
-  * @param importFromId The id of the existing DataAlicloudCloudSsoAccessConfigurations that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cloud_sso_access_configurations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudCloudSsoAccessConfigurations that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_sso_access_configurations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudCloudSsoAccessConfigurations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -276,7 +276,7 @@ export class DataAlicloudCloudSsoAccessConfigurations extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cloud_sso_access_configurations alicloud_cloud_sso_access_configurations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_sso_access_configurations alicloud_cloud_sso_access_configurations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -287,8 +287,8 @@ export class DataAlicloudCloudSsoAccessConfigurations extends cdktf.TerraformDat
       terraformResourceType: 'alicloud_cloud_sso_access_configurations',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

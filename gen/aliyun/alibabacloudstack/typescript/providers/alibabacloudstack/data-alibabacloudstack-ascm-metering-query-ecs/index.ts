@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_metering_query_ecs
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ascm_metering_query_ecs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackAscmMeteringQueryEcsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_metering_query_ecs#end_time DataAlibabacloudstackAscmMeteringQueryEcs#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ascm_metering_query_ecs#end_time DataAlibabacloudstackAscmMeteringQueryEcs#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_metering_query_ecs#id DataAlibabacloudstackAscmMeteringQueryEcs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ascm_metering_query_ecs#id DataAlibabacloudstackAscmMeteringQueryEcs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_metering_query_ecs#ins_id DataAlibabacloudstackAscmMeteringQueryEcs#ins_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ascm_metering_query_ecs#ins_id DataAlibabacloudstackAscmMeteringQueryEcs#ins_id}
   */
   readonly insId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_metering_query_ecs#is_parent_id DataAlibabacloudstackAscmMeteringQueryEcs#is_parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ascm_metering_query_ecs#is_parent_id DataAlibabacloudstackAscmMeteringQueryEcs#is_parent_id}
   */
   readonly isParentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_metering_query_ecs#name_regex DataAlibabacloudstackAscmMeteringQueryEcs#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ascm_metering_query_ecs#name_regex DataAlibabacloudstackAscmMeteringQueryEcs#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_metering_query_ecs#org_id DataAlibabacloudstackAscmMeteringQueryEcs#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ascm_metering_query_ecs#org_id DataAlibabacloudstackAscmMeteringQueryEcs#org_id}
   */
   readonly orgId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_metering_query_ecs#product_name DataAlibabacloudstackAscmMeteringQueryEcs#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ascm_metering_query_ecs#output_file DataAlibabacloudstackAscmMeteringQueryEcs#output_file}
+  */
+  readonly outputFile?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ascm_metering_query_ecs#product_name DataAlibabacloudstackAscmMeteringQueryEcs#product_name}
   */
   readonly productName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_metering_query_ecs#region DataAlibabacloudstackAscmMeteringQueryEcs#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ascm_metering_query_ecs#region DataAlibabacloudstackAscmMeteringQueryEcs#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_metering_query_ecs#resource_group_id DataAlibabacloudstackAscmMeteringQueryEcs#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ascm_metering_query_ecs#resource_group_id DataAlibabacloudstackAscmMeteringQueryEcs#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_metering_query_ecs#start_time DataAlibabacloudstackAscmMeteringQueryEcs#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ascm_metering_query_ecs#start_time DataAlibabacloudstackAscmMeteringQueryEcs#start_time}
   */
   readonly startTime: string;
 }
@@ -218,7 +222,7 @@ export class DataAlibabacloudstackAscmMeteringQueryEcsDataList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_metering_query_ecs alibabacloudstack_ascm_metering_query_ecs}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ascm_metering_query_ecs alibabacloudstack_ascm_metering_query_ecs}
 */
 export class DataAlibabacloudstackAscmMeteringQueryEcs extends cdktf.TerraformDataSource {
 
@@ -234,7 +238,7 @@ export class DataAlibabacloudstackAscmMeteringQueryEcs extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataAlibabacloudstackAscmMeteringQueryEcs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackAscmMeteringQueryEcs to import
-  * @param importFromId The id of the existing DataAlibabacloudstackAscmMeteringQueryEcs that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_metering_query_ecs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackAscmMeteringQueryEcs that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ascm_metering_query_ecs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackAscmMeteringQueryEcs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -246,7 +250,7 @@ export class DataAlibabacloudstackAscmMeteringQueryEcs extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/ascm_metering_query_ecs alibabacloudstack_ascm_metering_query_ecs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ascm_metering_query_ecs alibabacloudstack_ascm_metering_query_ecs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -257,8 +261,8 @@ export class DataAlibabacloudstackAscmMeteringQueryEcs extends cdktf.TerraformDa
       terraformResourceType: 'alibabacloudstack_ascm_metering_query_ecs',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -274,6 +278,7 @@ export class DataAlibabacloudstackAscmMeteringQueryEcs extends cdktf.TerraformDa
     this._isParentId = config.isParentId;
     this._nameRegex = config.nameRegex;
     this._orgId = config.orgId;
+    this._outputFile = config.outputFile;
     this._productName = config.productName;
     this._region = config.region;
     this._resourceGroupId = config.resourceGroupId;
@@ -383,6 +388,22 @@ export class DataAlibabacloudstackAscmMeteringQueryEcs extends cdktf.TerraformDa
     return this._orgId;
   }
 
+  // output_file - computed: false, optional: true, required: false
+  private _outputFile?: string; 
+  public get outputFile() {
+    return this.getStringAttribute('output_file');
+  }
+  public set outputFile(value: string) {
+    this._outputFile = value;
+  }
+  public resetOutputFile() {
+    this._outputFile = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get outputFileInput() {
+    return this._outputFile;
+  }
+
   // product_name - computed: false, optional: false, required: true
   private _productName?: string; 
   public get productName() {
@@ -453,6 +474,7 @@ export class DataAlibabacloudstackAscmMeteringQueryEcs extends cdktf.TerraformDa
       is_parent_id: cdktf.stringToTerraform(this._isParentId),
       name_regex: cdktf.stringToTerraform(this._nameRegex),
       org_id: cdktf.stringToTerraform(this._orgId),
+      output_file: cdktf.stringToTerraform(this._outputFile),
       product_name: cdktf.stringToTerraform(this._productName),
       region: cdktf.stringToTerraform(this._region),
       resource_group_id: cdktf.stringToTerraform(this._resourceGroupId),
@@ -494,6 +516,12 @@ export class DataAlibabacloudstackAscmMeteringQueryEcs extends cdktf.TerraformDa
       },
       org_id: {
         value: cdktf.stringToHclTerraform(this._orgId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      output_file: {
+        value: cdktf.stringToHclTerraform(this._outputFile),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

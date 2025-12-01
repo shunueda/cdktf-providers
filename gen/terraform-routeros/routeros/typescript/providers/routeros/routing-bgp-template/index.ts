@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface RoutingBgpTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#___path___ RoutingBgpTemplate#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#___path___ RoutingBgpTemplate#___path___}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#add_path_out RoutingBgpTemplate#add_path_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#add_path_out RoutingBgpTemplate#add_path_out}
   */
   readonly addPathOut?: string;
   /**
   * List of address families about which this peer will exchange routing information. The remote peer must support (they usually do) BGP capabilities optional parameter to negotiate any other families than IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#address_families RoutingBgpTemplate#address_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#address_families RoutingBgpTemplate#address_families}
   */
   readonly addressFamilies?: string;
   /**
   * 32-bit BGP autonomous system number. Value can be entered in AS-Plain and AS-Dot formats. The parameter is also used to set up the BGP confederation, in the following format: confederation_as/as . For example, if your AS is 34 and your confederation AS is 43, then as configuration should be as =43/34.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#as RoutingBgpTemplate#as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#as RoutingBgpTemplate#as}
   */
   readonly as: string;
   /**
   * If set, then all instances of the remote peer's AS number in the BGP AS-PATH attribute are replaced with the local AS number before sending a route update to that peer. Happens before routing filters and prepending.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#as_override RoutingBgpTemplate#as_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#as_override RoutingBgpTemplate#as_override}
   */
   readonly asOverride?: boolean | cdktf.IResolvable;
   /**
   * VPLS NLRI length format type. Used for compatibility with Cisco VPLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#cisco_vpls_nlri_len_fmt RoutingBgpTemplate#cisco_vpls_nlri_len_fmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#cisco_vpls_nlri_len_fmt RoutingBgpTemplate#cisco_vpls_nlri_len_fmt}
   */
   readonly ciscoVplsNlriLenFmt?: string;
   /**
   * In case this instance is a route reflector: the cluster ID of the router reflector cluster to this instance belongs. This attribute helps to recognize routing updates that come from another route reflector in this cluster and avoid routing information looping. Note that normally there is only one route reflector in a cluster; in this case, 'cluster-id' does not need to be configured and BGP router ID is used instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#cluster_id RoutingBgpTemplate#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#cluster_id RoutingBgpTemplate#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#comment RoutingBgpTemplate#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#comment RoutingBgpTemplate#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#disabled RoutingBgpTemplate#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#disabled RoutingBgpTemplate#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Specifies the BGP Hold Time value to use when negotiating with peers. According to the BGP specification, if the router does not receive successive KEEPALIVE and/or UPDATE and/or NOTIFICATION messages within the period specified in the Hold Time field of the OPEN message, then the BGP connection to the peer will be closed. The minimal hold-time value of both peers will be actually used (note that the special value 0 or 'infinity' is lower than any other value) infinity - never expire the connection and never send keepalive messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#hold_time RoutingBgpTemplate#hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#hold_time RoutingBgpTemplate#hold_time}
   */
   readonly holdTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#id RoutingBgpTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#id RoutingBgpTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,79 +71,79 @@ export interface RoutingBgpTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
   * How long to keep the BGP session open after the last received 'keepalive' message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#keepalive_time RoutingBgpTemplate#keepalive_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#keepalive_time RoutingBgpTemplate#keepalive_time}
   */
   readonly keepaliveTime?: string;
   /**
   * Specifies whether the remote peer is more than one hop away. This option affects outgoing next-hop selection as described in RFC 4271 (for EBGP only, excluding EBGP peers local to the confederation). It also affects: whether to accept connections from peers that are not in the same network (the remote address of the connection is used for this check); whether to accept incoming routes with NEXT_HOP attribute that is not in the same network as the address used to establish the connection; the target-scope of the routes installed from this peer; routes from multi-hop or IBGP peers resolve their next-hops through IGP routes by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#multihop RoutingBgpTemplate#multihop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#multihop RoutingBgpTemplate#multihop}
   */
   readonly multihop?: boolean | cdktf.IResolvable;
   /**
   * Name of the BGP template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#name RoutingBgpTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#name RoutingBgpTemplate#name}
   */
   readonly name: string;
   /**
   * Affects the outgoing NEXT_HOP attribute selection. Note that next-hops set in filters always take precedence. Also note that the next-hop is not changed on route reflection, except when it's set in the filter. default - select the next-hop as described in RFC 4271 force-self - always use a local address of the interface that is used to connect to the peer as the next-hop; propagate - try to propagate further the next-hop received; i.e. if the route has BGP NEXT_HOP attribute, then use it as the next-hop, otherwise, fall back to the default case.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#nexthop_choice RoutingBgpTemplate#nexthop_choice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#nexthop_choice RoutingBgpTemplate#nexthop_choice}
   */
   readonly nexthopChoice?: string;
   /**
   * If set, then the BGP AS-PATH attribute is removed before sending out route updates if the attribute contains only private AS numbers. The removal process happens before routing filters are applied and before the local, AS number is prepended to the AS path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#remove_private_as RoutingBgpTemplate#remove_private_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#remove_private_as RoutingBgpTemplate#remove_private_as}
   */
   readonly removePrivateAs?: boolean | cdktf.IResolvable;
   /**
   * BGP Router ID to be used. Use the ID from the /routing/router-id configuration by specifying the reference name, or set the ID directly by specifying IP. Equal router-ids are also used to group peers into one instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#router_id RoutingBgpTemplate#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#router_id RoutingBgpTemplate#router_id}
   */
   readonly routerId?: string;
   /**
   * Name of the routing table, to install routes in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#routing_table RoutingBgpTemplate#routing_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#routing_table RoutingBgpTemplate#routing_table}
   */
   readonly routingTable?: string;
   /**
   * Filename to be used to save BGP protocol-specific packet content (Exported PDU) into pcap file. This method allows much simpler peer-specific packet capturing for debugging purposes. Pcap files in this format can also be loaded to create virtual BGP peers to recreate conditions that happened at the time when packet capture was running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#save_to RoutingBgpTemplate#save_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#save_to RoutingBgpTemplate#save_to}
   */
   readonly saveTo?: string;
   /**
   * List of template names from which to inherit parameters. Useful feature, to easily configure groups with overlapping configuration options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#templates RoutingBgpTemplate#templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#templates RoutingBgpTemplate#templates}
   */
   readonly templates?: string[];
   /**
   * Whether to use the BFD protocol for faster connection state detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#use_bfd RoutingBgpTemplate#use_bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#use_bfd RoutingBgpTemplate#use_bfd}
   */
   readonly useBfd?: boolean | cdktf.IResolvable;
   /**
   * The VRF table this resource operates on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#vrf RoutingBgpTemplate#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#vrf RoutingBgpTemplate#vrf}
   */
   readonly vrf?: string;
   /**
   * input block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#input RoutingBgpTemplate#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#input RoutingBgpTemplate#input}
   */
   readonly input?: RoutingBgpTemplateInput;
   /**
   * output block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#output RoutingBgpTemplate#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#output RoutingBgpTemplate#output}
   */
   readonly output?: RoutingBgpTemplateOutput;
 }
@@ -151,97 +151,97 @@ export interface RoutingBgpTemplateInput {
   /**
   * A quick way to filter incoming updates with specific communities. It allows filtering incoming messages directly before they are even parsed and stored in memory, that way significantly reducing memory usage. Regular input filter chain can only reject prefixes which means that it will still eat memory and will be visible in /routing route table as 'not active, filtered'. Changes to be applied required session refresh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#accept_comunities RoutingBgpTemplate#accept_comunities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#accept_comunities RoutingBgpTemplate#accept_comunities}
   */
   readonly acceptComunities?: string;
   /**
   * A quick way to filter incoming updates with specific extended communities. It allows filtering incoming messages directly before they are even parsed and stored in memory, that way significantly reducing memory usage. Regular input filter chain can only reject prefixes which means that it will still eat memory and will be visible in /routing route table as 'not active, filtered'. Changes to be applied required session refresh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#accept_ext_communities RoutingBgpTemplate#accept_ext_communities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#accept_ext_communities RoutingBgpTemplate#accept_ext_communities}
   */
   readonly acceptExtCommunities?: string;
   /**
   * A quick way to filter incoming updates with specific large communities. It allows filtering incoming messages directly before they are even parsed and stored in memory, that way significantly reducing memory usage. Regular input filter chain can only reject prefixes which means that it will still eat memory and will be visible in /routing route table as 'not active, filtered'. Changes to be applied required session refresh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#accept_large_comunities RoutingBgpTemplate#accept_large_comunities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#accept_large_comunities RoutingBgpTemplate#accept_large_comunities}
   */
   readonly acceptLargeComunities?: string;
   /**
   * Name of the ipv4/6 address-list. A quick way to filter incoming updates with specific NLRIs. It allows filtering incoming messages directly before they are even parsed and stored in memory, that way significantly reducing memory usage. Regular input filter chain can only reject prefixes which means that it will still eat memory and will be visible in /routing route table as 'not active, filtered'. Changes to be applied required session restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#accept_nlri RoutingBgpTemplate#accept_nlri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#accept_nlri RoutingBgpTemplate#accept_nlri}
   */
   readonly acceptNlri?: string;
   /**
   * A quick way to filter incoming updates with specific 'unknown' attributes. It allows filtering incoming messages directly before they are even parsed and stored in memory, that way significantly reducing memory usage. Regular input filter chain can only reject prefixes which means that it will still eat memory and will be visible in /routing route table as 'not active, filtered'. Changes to be applied required session refresh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#accept_unknown RoutingBgpTemplate#accept_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#accept_unknown RoutingBgpTemplate#accept_unknown}
   */
   readonly acceptUnknown?: string;
   /**
   * Configure input multi-core processing. Read more in Routing Protocol Multi-core Support article. alone - input and output of each session are processed in its own process, most likely the best option when there are a lot of cores and a lot of peers afi, instance, vrf, remote-as - try to run input/output of new session in process with similar parameters main - run input/output in the main process (could potentially increase performance on single-core even possibly on multi-core devices with a small amount of cores) input - run output in the same process as input (can be set only for output affinity)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#affinity RoutingBgpTemplate#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#affinity RoutingBgpTemplate#affinity}
   */
   readonly affinity?: string;
   /**
   * Indicates how many times to allow your own AS number in AS-PATH, before discarding a prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#allow_as RoutingBgpTemplate#allow_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#allow_as RoutingBgpTemplate#allow_as}
   */
   readonly allowAs?: number;
   /**
   * Name of the routing filter chain to be used on input prefixes. This happens after NLRIs are processed. If the chain is not specified, then BGP by default accepts everything.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#filter RoutingBgpTemplate#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#filter RoutingBgpTemplate#filter}
   */
   readonly filter?: string;
   /**
   * A quick way to filter incoming updates with specific communities. It allows filtering incoming messages directly before they are even parsed and stored in memory, that way significantly reducing memory usage. Regular input filter chain can only reject prefixes which means that it will still eat memory and will be visible in /routing route table as "not active, filtered". Changes to be applied required session refresh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#filter_communities RoutingBgpTemplate#filter_communities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#filter_communities RoutingBgpTemplate#filter_communities}
   */
   readonly filterCommunities?: string;
   /**
   * A quick way to filter incoming updates with specific extended communities. It allows filtering incoming messages directly before they are even parsed and stored in memory, that way significantly reducing memory usage. Regular input filter chain can only reject prefixes which means that it will still eat memory and will be visible in /routing route table as "not active, filtered". Changes to be applied required session refresh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#filter_ext_communities RoutingBgpTemplate#filter_ext_communities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#filter_ext_communities RoutingBgpTemplate#filter_ext_communities}
   */
   readonly filterExtCommunities?: string;
   /**
   * A quick way to filter incoming updates with specific large communities. It allows filtering incoming messages directly before they are even parsed and stored in memory, that way significantly reducing memory usage. Regular input filter chain can only reject prefixes which means that it will still eat memory and will be visible in /routing route table as "not active, filtered". Changes to be applied required session refresh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#filter_large_communities RoutingBgpTemplate#filter_large_communities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#filter_large_communities RoutingBgpTemplate#filter_large_communities}
   */
   readonly filterLargeCommunities?: string;
   /**
   * Name of the filter chain that will filter incoming IPv4/IPv6 NLRIs directly before they are  stored in memory, that way significantly reducing memory usage. Regular input filter chain can only reject prefixes which means that it will still eat memory and will be visible in `/routing route` table as `not active, filtered`. Changes to be applied required session restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#filter_nlri RoutingBgpTemplate#filter_nlri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#filter_nlri RoutingBgpTemplate#filter_nlri}
   */
   readonly filterNlri?: string;
   /**
   * A quick way to filter incoming updates with specific "unknown" attributes. It allows filtering incoming messages directly before they are even parsed and stored in memory, that way significantly reducing memory usage. Regular input filter chain can only reject prefixes which means that it will still eat memory and will be visible in /routing route table as "not active, filtered". Changes to be applied required session refresh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#filter_unknown RoutingBgpTemplate#filter_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#filter_unknown RoutingBgpTemplate#filter_unknown}
   */
   readonly filterUnknown?: string;
   /**
   * Whether to ignore the AS_PATH attribute in the BGP route selection algorithm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#ignore_as_path_len RoutingBgpTemplate#ignore_as_path_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#ignore_as_path_len RoutingBgpTemplate#ignore_as_path_len}
   */
   readonly ignoreAsPathLen?: boolean | cdktf.IResolvable;
   /**
   * Try to limit the amount of received IPv4 routes to the specified number. This number does not represent the exact number of routes going to be installed in the routing table by the peer. BGP session 'clear' command must be used to reset the flag if the limit is reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#limit_process_routes_ipv4 RoutingBgpTemplate#limit_process_routes_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#limit_process_routes_ipv4 RoutingBgpTemplate#limit_process_routes_ipv4}
   */
   readonly limitProcessRoutesIpv4?: number;
   /**
   * Try to limit the amount of received IPv6 routes to the specified number. This number does not represent the exact number of routes going to be installed in the routing table by the peer. BGP session 'clear' command must be used to reset the flag if the limit is reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#limit_process_routes_ipv6 RoutingBgpTemplate#limit_process_routes_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#limit_process_routes_ipv6 RoutingBgpTemplate#limit_process_routes_ipv6}
   */
   readonly limitProcessRoutesIpv6?: number;
 }
@@ -762,61 +762,61 @@ export interface RoutingBgpTemplateOutput {
   /**
   * Configure output multicore processing. Read more in Routing Protocol Multi-core Support article. alone - input and output of each session is processed in its own process, the most likely best option when there are a lot of cores and a lot of peers afi, instance, vrf, remote-as - try to run input/output of new session in process with similar parameters main - run input/output in the main process (could potentially increase performance on single-core even possibly on multicore devices with small amount of cores) input - run output in the same process as input (can be set only for output affinity).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#affinity RoutingBgpTemplate#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#affinity RoutingBgpTemplate#affinity}
   */
   readonly affinity?: string;
   /**
   * Specifies default route (0.0.0.0/0) distribution method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#default_originate RoutingBgpTemplate#default_originate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#default_originate RoutingBgpTemplate#default_originate}
   */
   readonly defaultOriginate?: string;
   /**
   * The count of AS prepended to the AS path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#default_prepend RoutingBgpTemplate#default_prepend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#default_prepend RoutingBgpTemplate#default_prepend}
   */
   readonly defaultPrepend?: number;
   /**
   * Name of the routing filter chain to be used on the output prefixes. If the chain is not specified, then BGP by default accepts everything.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#filter_chain RoutingBgpTemplate#filter_chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#filter_chain RoutingBgpTemplate#filter_chain}
   */
   readonly filterChain?: string;
   /**
   * Name of the routing select chain to be used for prefix selection. If not specified, then default selection is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#filter_select RoutingBgpTemplate#filter_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#filter_select RoutingBgpTemplate#filter_select}
   */
   readonly filterSelect?: string;
   /**
   * Store in memory sent prefix attributes, required for ' dump-saved-advertisements ' command to work. By default, sent-out prefixes are not stored to preserve the router's memory. An option should be enabled only for debugging purposes when necessary to see currently advertised prefixes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#keep_sent_attributes RoutingBgpTemplate#keep_sent_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#keep_sent_attributes RoutingBgpTemplate#keep_sent_attributes}
   */
   readonly keepSentAttributes?: boolean | cdktf.IResolvable;
   /**
   * Name of the address list used to send local networks. The network is sent only if a matching IGP route exists in the routing table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#network RoutingBgpTemplate#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#network RoutingBgpTemplate#network}
   */
   readonly network?: string;
   /**
   * Disable client-to-client route reflection in Route Reflector setups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#no_client_to_client_reflection RoutingBgpTemplate#no_client_to_client_reflection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#no_client_to_client_reflection RoutingBgpTemplate#no_client_to_client_reflection}
   */
   readonly noClientToClientReflection?: boolean | cdktf.IResolvable;
   /**
   * The early cut is the mechanism, to guess (based on default RFC behavior) what would happen with the sent NPLRI when received by the remote peer. If the algorithm determines that the NLRI is going to be dropped, a peer will not even try to send it. However such behavior may not be desired in specific scenarios, then then this option should be used to disable the early cut feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#no_early_cut RoutingBgpTemplate#no_early_cut}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#no_early_cut RoutingBgpTemplate#no_early_cut}
   */
   readonly noEarlyCut?: boolean | cdktf.IResolvable;
   /**
   * Enable redistribution of specified route types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#redistribute RoutingBgpTemplate#redistribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#redistribute RoutingBgpTemplate#redistribute}
   */
   readonly redistribute?: string;
 }
@@ -1161,7 +1161,7 @@ export class RoutingBgpTemplateOutputOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template routeros_routing_bgp_template}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template routeros_routing_bgp_template}
 */
 export class RoutingBgpTemplate extends cdktf.TerraformResource {
 
@@ -1177,7 +1177,7 @@ export class RoutingBgpTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RoutingBgpTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RoutingBgpTemplate to import
-  * @param importFromId The id of the existing RoutingBgpTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RoutingBgpTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RoutingBgpTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1189,7 +1189,7 @@ export class RoutingBgpTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/routing_bgp_template routeros_routing_bgp_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/routing_bgp_template routeros_routing_bgp_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1200,8 +1200,8 @@ export class RoutingBgpTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_routing_bgp_template',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.94.0',
-        providerVersionConstraint: '1.94.0'
+        providerVersion: '1.95.0',
+        providerVersionConstraint: '1.95.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

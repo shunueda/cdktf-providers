@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1A
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#metadata DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#metadata DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1ManifestMetadata;
   /**
   * SelfNodeRemediationConfigSpec defines the desired state of SelfNodeRemediationConfig
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#spec DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#spec DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1A
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#annotations DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#annotations DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#labels DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#labels DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#name DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#name DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#namespace DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#namespace DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,31 +219,31 @@ export interface DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1A
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#effect DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#effect DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#key DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#key DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#operator DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#operator DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#toleration_seconds DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#toleration_seconds DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#value DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#value DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -477,79 +477,79 @@ export interface DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1A
   /**
   * The frequency for api-server connectivity check. Valid time units are 'ms', 's', 'm', 'h'. the frequency for api-server connectivity check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#api_check_interval DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#api_check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#api_check_interval DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#api_check_interval}
   */
   readonly apiCheckInterval?: string;
   /**
   * Timeout for each api-connectivity check. Valid time units are 'ms', 's', 'm', 'h'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#api_server_timeout DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#api_server_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#api_server_timeout DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#api_server_timeout}
   */
   readonly apiServerTimeout?: string;
   /**
   * CustomDsTolerations allows to add custom tolerations snr agents that are running on the ds in order to support remediation for different types of nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#custom_ds_tolerations DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#custom_ds_tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#custom_ds_tolerations DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#custom_ds_tolerations}
   */
   readonly customDsTolerations?: DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1ManifestSpecCustomDsTolerations[] | cdktf.IResolvable;
   /**
   * EndpointHealthCheckUrl is an url that self node remediation agents which run on control-plane node will try to access when they can't contact their peers. This is a part of self diagnostics which will decide whether the node should be remediated or not. It will be ignored when empty (which is the default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#endpoint_health_check_url DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#endpoint_health_check_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#endpoint_health_check_url DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#endpoint_health_check_url}
   */
   readonly endpointHealthCheckUrl?: string;
   /**
   * HostPort is used for internal communication between SNR agents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#host_port DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#host_port DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
   * IsSoftwareRebootEnabled indicates whether self node remediation agent will do software reboot, if the watchdog device can not be used or will use watchdog only, without a fallback to software reboot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#is_software_reboot_enabled DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#is_software_reboot_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#is_software_reboot_enabled DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#is_software_reboot_enabled}
   */
   readonly isSoftwareRebootEnabled?: boolean | cdktf.IResolvable;
   /**
   * After this threshold, the node will start contacting its peers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#max_api_error_threshold DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#max_api_error_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#max_api_error_threshold DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#max_api_error_threshold}
   */
   readonly maxApiErrorThreshold?: number;
   /**
   * The timeout for api-server connectivity check. Valid time units are 'ms', 's', 'm', 'h'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#peer_api_server_timeout DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#peer_api_server_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#peer_api_server_timeout DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#peer_api_server_timeout}
   */
   readonly peerApiServerTimeout?: string;
   /**
   * Timeout for establishing connection to peer. Valid time units are 'ms', 's', 'm', 'h'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#peer_dial_timeout DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#peer_dial_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#peer_dial_timeout DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#peer_dial_timeout}
   */
   readonly peerDialTimeout?: string;
   /**
   * Timeout for each peer request. Valid time units are 'ms', 's', 'm', 'h'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#peer_request_timeout DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#peer_request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#peer_request_timeout DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#peer_request_timeout}
   */
   readonly peerRequestTimeout?: string;
   /**
   * The frequency for updating peers. Valid time units are 'ms', 's', 'm', 'h'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#peer_update_interval DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#peer_update_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#peer_update_interval DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#peer_update_interval}
   */
   readonly peerUpdateInterval?: string;
   /**
   * SafeTimeToAssumeNodeRebootedSeconds is the time after which the healthy self node remediation agents will assume the unhealthy node has been rebooted, and it is safe to recover affected workloads. This is extremely important as starting replacement Pods while they are still running on the failed node will likely lead to data corruption and violation of run-once semantics. In an effort to prevent this, the operator ignores values lower than a minimum calculated from the ApiCheckInterval, ApiServerTimeout, MaxApiErrorThreshold, PeerDialTimeout, and PeerRequestTimeout fields, and the unhealthy node's individual watchdog timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#safe_time_to_assume_node_rebooted_seconds DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#safe_time_to_assume_node_rebooted_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#safe_time_to_assume_node_rebooted_seconds DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#safe_time_to_assume_node_rebooted_seconds}
   */
   readonly safeTimeToAssumeNodeRebootedSeconds?: number;
   /**
   * WatchdogFilePath is the watchdog file path that should be available on each node, e.g. /dev/watchdog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#watchdog_file_path DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#watchdog_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#watchdog_file_path DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest#watchdog_file_path}
   */
   readonly watchdogFilePath?: string;
 }
@@ -991,7 +991,7 @@ export class DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest k8s_self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest k8s_self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest}
 */
 export class DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1007,7 +1007,7 @@ export class DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha
   * Generates CDKTF code for importing a DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1019,7 +1019,7 @@ export class DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest k8s_self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest k8s_self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1030,8 +1030,8 @@ export class DataK8SSelfNodeRemediationMedik8SIoSelfNodeRemediationConfigV1Alpha
       terraformResourceType: 'k8s_self_node_remediation_medik8s_io_self_node_remediation_config_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

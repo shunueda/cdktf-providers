@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_layer_version
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_layer_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface FcLayerVersionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_layer_version#compatible_runtime FcLayerVersion#compatible_runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_layer_version#compatible_runtime FcLayerVersion#compatible_runtime}
   */
   readonly compatibleRuntime: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_layer_version#description FcLayerVersion#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_layer_version#description FcLayerVersion#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_layer_version#id FcLayerVersion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_layer_version#id FcLayerVersion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_layer_version#layer_name FcLayerVersion#layer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_layer_version#layer_name FcLayerVersion#layer_name}
   */
   readonly layerName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_layer_version#oss_bucket_name FcLayerVersion#oss_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_layer_version#oss_bucket_name FcLayerVersion#oss_bucket_name}
   */
   readonly ossBucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_layer_version#oss_object_name FcLayerVersion#oss_object_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_layer_version#oss_object_name FcLayerVersion#oss_object_name}
   */
   readonly ossObjectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_layer_version#skip_destroy FcLayerVersion#skip_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_layer_version#skip_destroy FcLayerVersion#skip_destroy}
   */
   readonly skipDestroy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_layer_version#zip_file FcLayerVersion#zip_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_layer_version#zip_file FcLayerVersion#zip_file}
   */
   readonly zipFile?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_layer_version#timeouts FcLayerVersion#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_layer_version#timeouts FcLayerVersion#timeouts}
   */
   readonly timeouts?: FcLayerVersionTimeouts;
 }
 export interface FcLayerVersionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_layer_version#create FcLayerVersion#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_layer_version#create FcLayerVersion#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_layer_version#delete FcLayerVersion#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_layer_version#delete FcLayerVersion#delete}
   */
   readonly delete?: string;
 }
@@ -178,7 +178,7 @@ export class FcLayerVersionTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_layer_version alicloud_fc_layer_version}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_layer_version alicloud_fc_layer_version}
 */
 export class FcLayerVersion extends cdktf.TerraformResource {
 
@@ -194,7 +194,7 @@ export class FcLayerVersion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FcLayerVersion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FcLayerVersion to import
-  * @param importFromId The id of the existing FcLayerVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_layer_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FcLayerVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_layer_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FcLayerVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -206,7 +206,7 @@ export class FcLayerVersion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fc_layer_version alicloud_fc_layer_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fc_layer_version alicloud_fc_layer_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -217,8 +217,8 @@ export class FcLayerVersion extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_fc_layer_version',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

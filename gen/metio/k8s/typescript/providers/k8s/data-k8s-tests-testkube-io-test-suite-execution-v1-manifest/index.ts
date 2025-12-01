@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#metadata DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#metadata DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#metadata}
   */
   readonly metadata: DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestMetadata;
   /**
   * TestSuiteExecutionSpec defines the desired state of TestSuiteExecution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#spec DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#spec DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#spec}
   */
   readonly spec?: DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#annotations DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#annotations DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#labels DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#labels DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#name DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#name DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#namespace DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#namespace DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,25 +219,25 @@ export interface DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestSpecExecution
   /**
   * branch/tag name for checkout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#branch DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#branch DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#branch}
   */
   readonly branch?: string;
   /**
   * commit id (sha) for checkout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#commit DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#commit DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#commit}
   */
   readonly commit?: string;
   /**
   * if needed we can checkout particular path (dir or file) in case of BIG/mono repositories
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#path DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#path DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#path}
   */
   readonly path?: string;
   /**
   * if provided we checkout the whole repository and run test from this directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#working_dir DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#working_dir DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -420,7 +420,7 @@ export interface DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestSpecExecution
   /**
   * repository parameters for tests in git repositories
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#repository DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#repository DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#repository}
   */
   readonly repository?: DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestSpecExecutionRequestContentRequestRepository;
 }
@@ -516,13 +516,13 @@ export interface DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestSpecExecution
   /**
   * Context value depending from its type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#context DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#context DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#context}
   */
   readonly context?: string;
   /**
   * One of possible context types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#type DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#type DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#type}
   */
   readonly type: string;
 }
@@ -644,19 +644,19 @@ export interface DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestSpecExecution
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#key DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#key DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#name DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#name DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#optional DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#optional DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -807,13 +807,13 @@ export interface DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestSpecExecution
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#api_version DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#api_version DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#field_path DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#field_path DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -935,19 +935,19 @@ export interface DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestSpecExecution
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#container_name DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#container_name DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#divisor DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#divisor DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#resource DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#resource DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -1098,19 +1098,19 @@ export interface DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestSpecExecution
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#key DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#key DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#name DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#name DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#optional DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#optional DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1261,25 +1261,25 @@ export interface DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestSpecExecution
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#config_map_key_ref DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#config_map_key_ref DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestSpecExecutionRequestVariablesValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#field_ref DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#field_ref DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestSpecExecutionRequestVariablesValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#resource_field_ref DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#resource_field_ref DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestSpecExecutionRequestVariablesValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#secret_key_ref DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#secret_key_ref DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestSpecExecutionRequestVariablesValueFromSecretKeyRef;
 }
@@ -1462,25 +1462,25 @@ export interface DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestSpecExecution
   /**
   * variable name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#name DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#name DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * variable type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#type DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#type DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#type}
   */
   readonly type?: string;
   /**
   * variable string value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#value DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#value DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#value}
   */
   readonly value?: string;
   /**
   * or load it from var source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#value_from DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#value_from DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestSpecExecutionRequestVariablesValueFrom;
 }
@@ -1663,101 +1663,101 @@ export interface DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestSpecExecution
   /**
   * number of tests run in parallel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#concurrency_level DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#concurrency_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#concurrency_level DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#concurrency_level}
   */
   readonly concurrencyLevel?: number;
   /**
   * test content request body
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#content_request DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#content_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#content_request DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#content_request}
   */
   readonly contentRequest?: DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestSpecExecutionRequestContentRequest;
   /**
   * cron job template extensions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#cron_job_template DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#cron_job_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#cron_job_template DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#cron_job_template}
   */
   readonly cronJobTemplate?: string;
   /**
   * whether webhooks should be disabled for this execution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#disable_webhooks DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#disable_webhooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#disable_webhooks DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#disable_webhooks}
   */
   readonly disableWebhooks?: boolean | cdktf.IResolvable;
   /**
   * execution labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#execution_labels DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#execution_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#execution_labels DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#execution_labels}
   */
   readonly executionLabels?: { [key: string]: string };
   /**
   * http proxy for executor containers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#http_proxy DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#http_proxy DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#http_proxy}
   */
   readonly httpProxy?: string;
   /**
   * https proxy for executor containers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#https_proxy DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#https_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#https_proxy DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#https_proxy}
   */
   readonly httpsProxy?: string;
   /**
   * test suite labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#labels DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#labels DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * test execution custom name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#name DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#name DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#name}
   */
   readonly name?: string;
   /**
   * test kubernetes namespace ('testkube' when not set)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#namespace DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#namespace DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * test suite execution number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#number DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#number DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#number}
   */
   readonly number?: number;
   /**
   * running context for test or test suite execution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#running_context DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#running_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#running_context DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#running_context}
   */
   readonly runningContext?: DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestSpecExecutionRequestRunningContext;
   /**
   * secret uuid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#secret_uuid DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#secret_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#secret_uuid DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#secret_uuid}
   */
   readonly secretUuid?: string;
   /**
   * whether to start execution sync or async
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#sync DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#sync DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#sync}
   */
   readonly sync?: boolean | cdktf.IResolvable;
   /**
   * test suite execution name started the test suite execution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#test_suite_execution_name DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#test_suite_execution_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#test_suite_execution_name DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#test_suite_execution_name}
   */
   readonly testSuiteExecutionName?: string;
   /**
   * duration in seconds the test suite may be active, until its stopped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#timeout DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#timeout DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#variables DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#variables DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#variables}
   */
   readonly variables?: DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestSpecExecutionRequestVariables;
 }
@@ -2317,13 +2317,13 @@ export interface DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestSpecTestSuite
   /**
   * object name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#name DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#name DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#name}
   */
   readonly name: string;
   /**
   * object kubernetes namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#namespace DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#namespace DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2445,11 +2445,11 @@ export interface DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestSpec {
   /**
   * test suite execution request body
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#execution_request DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#execution_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#execution_request DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#execution_request}
   */
   readonly executionRequest?: DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestSpecExecutionRequest;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#test_suite DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#test_suite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#test_suite DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest#test_suite}
   */
   readonly testSuite: DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestSpecTestSuite;
 }
@@ -2569,7 +2569,7 @@ export class DataK8STestsTestkubeIoTestSuiteExecutionV1ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest k8s_tests_testkube_io_test_suite_execution_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest k8s_tests_testkube_io_test_suite_execution_v1_manifest}
 */
 export class DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest extends cdktf.TerraformDataSource {
 
@@ -2585,7 +2585,7 @@ export class DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest to import
-  * @param importFromId The id of the existing DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2597,7 +2597,7 @@ export class DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest k8s_tests_testkube_io_test_suite_execution_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tests_testkube_io_test_suite_execution_v1_manifest k8s_tests_testkube_io_test_suite_execution_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2608,8 +2608,8 @@ export class DataK8STestsTestkubeIoTestSuiteExecutionV1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_tests_testkube_io_test_suite_execution_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

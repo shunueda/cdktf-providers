@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#metadata DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#metadata DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestMetadata;
   /**
   * APIMaticSpec defines the desired state of APIMatic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#spec DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#spec DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#annotations DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#annotations DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#labels DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#labels DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#name DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#name DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#namespace DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#namespace DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecLicensesp
   /**
   * The name of the resource that includes the APIMatic license file information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#license_source_name DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#license_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#license_source_name DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#license_source_name}
   */
   readonly licenseSourceName: string;
   /**
   * The type of resource that includes the APIMatic license file information. Valid values are ConfigMap and ConfigSecret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#license_source_type DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#license_source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#license_source_type DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#license_source_type}
   */
   readonly licenseSourceType: string;
 }
@@ -344,19 +344,19 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacem
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#key DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#key DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#operator DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#operator DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#values DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#values DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -526,19 +526,19 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacem
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#key DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#key DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#operator DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#operator DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#values DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#values DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -708,13 +708,13 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacem
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#match_expressions DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#match_expressions DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacementspecNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#match_fields DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#match_fields DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacementspecNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -839,13 +839,13 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacem
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#preference DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#preference DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#preference}
   */
   readonly preference: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacementspecNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#weight DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#weight DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -986,19 +986,19 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacem
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#key DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#key DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#operator DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#operator DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#values DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#values DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1168,19 +1168,19 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacem
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#key DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#key DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#operator DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#operator DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#values DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#values DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1350,13 +1350,13 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacem
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#match_expressions DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#match_expressions DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacementspecNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#match_fields DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#match_fields DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacementspecNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -1503,7 +1503,7 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacem
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#node_selector_terms DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#node_selector_terms DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacementspecNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -1596,13 +1596,13 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacem
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacementspecNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacementspecNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -1727,19 +1727,19 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacem
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#key DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#key DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#operator DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#operator DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#values DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#values DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1909,13 +1909,13 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacem
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#match_expressions DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#match_expressions DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacementspecPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#match_labels DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#match_labels DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2040,19 +2040,19 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacem
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#key DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#key DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#operator DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#operator DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#values DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#values DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2222,13 +2222,13 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacem
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#match_expressions DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#match_expressions DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacementspecPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#match_labels DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#match_labels DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2353,25 +2353,25 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacem
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#label_selector DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#label_selector DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacementspecPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces. This field is alpha-level and is only honored when PodAffinityNamespaceSelector feature is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#namespace_selector DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#namespace_selector DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacementspecPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#namespaces DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#namespaces DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#topology_key DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#topology_key DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2551,13 +2551,13 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacem
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#pod_affinity_term DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#pod_affinity_term DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacementspecPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#weight DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#weight DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2698,19 +2698,19 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacem
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#key DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#key DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#operator DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#operator DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#values DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#values DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2880,13 +2880,13 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacem
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#match_expressions DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#match_expressions DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacementspecPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#match_labels DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#match_labels DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3011,19 +3011,19 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacem
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#key DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#key DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#operator DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#operator DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#values DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#values DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3193,13 +3193,13 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacem
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#match_expressions DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#match_expressions DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacementspecPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#match_labels DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#match_labels DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3324,25 +3324,25 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacem
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#label_selector DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#label_selector DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacementspecPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces. This field is alpha-level and is only honored when PodAffinityNamespaceSelector feature is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#namespace_selector DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#namespace_selector DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacementspecPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#namespaces DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#namespaces DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#topology_key DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#topology_key DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3544,13 +3544,13 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacem
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacementspecPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacementspecPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -3675,31 +3675,31 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacem
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#effect DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#effect DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#key DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#key DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#operator DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#operator DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#toleration_seconds DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#toleration_seconds DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#value DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#value DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -3933,31 +3933,31 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacem
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#node_affinity DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#node_affinity DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacementspecNodeAffinity;
   /**
   * NodeName is a request to schedule this pod onto a specific node. If it is non-empty, the scheduler simply schedules this pod onto that node, assuming that it fits resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#node_name DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#node_name DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#node_name}
   */
   readonly nodeName?: string;
   /**
   * NodeSelector is a selector which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. More info: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#node_selector DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#node_selector DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#pod_affinity DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#pod_affinity DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacementspecPodAffinity;
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#tolerations DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#tolerations DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacementspecTolerations[] | cdktf.IResolvable;
 }
@@ -4169,13 +4169,13 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodspecAp
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#limits DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#limits DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#requests DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#requests DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -4300,25 +4300,25 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodspecAp
   /**
   * APIMatic container image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#image DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#image DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#image}
   */
   readonly image: string;
   /**
   * Image pull policy. One of Always, Never, IfNotPresent. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise. Cannot be updated.More info: https://kubernetes.io/docs/concepts/containers/images#updating-images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#image_pull_policy DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#image_pull_policy DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * ImagePullSecret is an optional reference to a secret in the same namespace to use for pulling the APIMatic CodeGen container image. If specified, this secrets will be passed to the puller implementation to use. For example, in the case of docker, only DockerConfig type secrets are honored. More info: https://kubernetes.io/docs/concepts/containers/images#specifying-imagepullsecrets-on-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#image_pull_secret DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#image_pull_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#image_pull_secret DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#image_pull_secret}
   */
   readonly imagePullSecret?: string;
   /**
   * Resource Requirements represents the compute resource requirements of the APIMatic container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#resources DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#resources DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodspecApimaticContainerSpecResources;
 }
@@ -4498,11 +4498,11 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodspecDn
   /**
   * Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#name DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#name DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#value DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#value DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -4649,19 +4649,19 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodspecDn
   /**
   * A list of DNS name server IP addresses. This will be appended to the base nameservers generated from DNSPolicy. Duplicated nameservers will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#nameservers DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#nameservers DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#nameservers}
   */
   readonly nameservers?: string[];
   /**
   * A list of DNS resolver options. This will be merged with the base options generated from DNSPolicy. Duplicated entries will be removed. Resolution options given in Options will override those that appear in the base DNSPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#options DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#options DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#options}
   */
   readonly options?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodspecDnsConfigOptions[] | cdktf.IResolvable;
   /**
   * A list of DNS search domains for host-name lookup. This will be appended to the base search paths generated from DNSPolicy. Duplicated search paths will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#searches DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#searches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#searches DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#searches}
   */
   readonly searches?: string[];
 }
@@ -4815,13 +4815,13 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodspecHo
   /**
   * Hostnames for the above IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#hostnames DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#hostnames DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#hostnames}
   */
   readonly hostnames?: string[];
   /**
   * IP address of the host file entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#ip DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#ip DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#ip}
   */
   readonly ip?: string;
 }
@@ -4968,7 +4968,7 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodspecRe
   /**
   * ConditionType refers to a condition in the pod's condition list with matching type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#condition_type DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#condition_type DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#condition_type}
   */
   readonly conditionType: string;
 }
@@ -5083,25 +5083,25 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodspecSe
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#level DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#level DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#role DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#role DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#type DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#type DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#user DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#user DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#user}
   */
   readonly user?: string;
 }
@@ -5284,13 +5284,13 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodspecSe
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must only be set if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#localhost_profile DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#localhost_profile DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#type DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#type DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#type}
   */
   readonly type: string;
 }
@@ -5412,13 +5412,13 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodspecSe
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#name DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#name DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#value DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#value DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -5559,19 +5559,19 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodspecSe
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#gmsa_credential_spec DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#gmsa_credential_spec DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#gmsa_credential_spec_name DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#gmsa_credential_spec_name DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#run_as_user_name DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#run_as_user_name DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -5725,61 +5725,61 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodspecSe
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#fs_group DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#fs_group DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#fs_group_change_policy DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#fs_group_change_policy DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#run_as_group DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#run_as_group DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#run_as_non_root DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#run_as_non_root DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#run_as_user DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#run_as_user DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#se_linux_options DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#se_linux_options DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodspecSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#seccomp_profile DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#seccomp_profile DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodspecSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID. If unspecified, no groups will be added to any container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#supplemental_groups DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#supplemental_groups DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#sysctls DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#sysctls DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodspecSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#windows_options DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#windows_options DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodspecSecurityContextWindowsOptions;
 }
@@ -6136,127 +6136,127 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodspec {
   /**
   * Optional duration in seconds the pod may be active on the node relative to StartTime before the system will actively try to mark it failed and kill associated containers. Value must be a positive integer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#active_deadline_seconds DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#active_deadline_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#active_deadline_seconds DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#active_deadline_seconds}
   */
   readonly activeDeadlineSeconds?: number;
   /**
   * APIMaticContainerSpec defines the configurations used for the APIMatic CodeGen container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#apimatic_container_spec DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#apimatic_container_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#apimatic_container_spec DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#apimatic_container_spec}
   */
   readonly apimaticContainerSpec: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodspecApimaticContainerSpec;
   /**
   * AutomountServiceAccountToken indicates whether a service account token should be automatically mounted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#automount_service_account_token DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#automount_service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#automount_service_account_token DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#automount_service_account_token}
   */
   readonly automountServiceAccountToken?: boolean | cdktf.IResolvable;
   /**
   * Specifies the DNS parameters of a pod. Parameters specified here will be merged to the generated DNS configuration based on DNSPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#dns_config DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#dns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#dns_config DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#dns_config}
   */
   readonly dnsConfig?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodspecDnsConfig;
   /**
   * Set DNS policy for the pod. Defaults to 'ClusterFirst'. Valid values are 'ClusterFirstWithHostNet', 'ClusterFirst', 'Default' or 'None'. DNS parameters given in DNSConfig will be merged with the policy selected with DNSPolicy. To have DNS options set along with hostNetwork, you have to specify DNS policy explicitly to 'ClusterFirstWithHostNet'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#dns_policy DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#dns_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#dns_policy DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#dns_policy}
   */
   readonly dnsPolicy?: string;
   /**
   * EnableServiceLinks indicates whether information about services should be injected into pod's environment variables, matching the syntax of Docker links. Optional: Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#enable_service_links DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#enable_service_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#enable_service_links DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#enable_service_links}
   */
   readonly enableServiceLinks?: boolean | cdktf.IResolvable;
   /**
   * HostAliases is an optional list of hosts and IPs that will be injected into the pod's hosts file if specified. This is only valid for non-hostNetwork pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#host_aliases DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#host_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#host_aliases DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#host_aliases}
   */
   readonly hostAliases?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodspecHostAliases[] | cdktf.IResolvable;
   /**
   * Use the host's ipc namespace. Optional: Default to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#host_ipc DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#host_ipc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#host_ipc DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#host_ipc}
   */
   readonly hostIpc?: boolean | cdktf.IResolvable;
   /**
   * Host networking requested for this pod. Use the host's network namespace. If this option is set, the ports that will be used must be specified. Default to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#host_network DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#host_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#host_network DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#host_network}
   */
   readonly hostNetwork?: boolean | cdktf.IResolvable;
   /**
   * Use the host's pid namespace. Optional: Default to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#host_pid DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#host_pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#host_pid DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#host_pid}
   */
   readonly hostPid?: boolean | cdktf.IResolvable;
   /**
   * Specifies the hostname of the Pod If not specified, the pod's hostname will be set to a system-defined value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#hostname DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#hostname DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * The priority value. Various system components use this field to find the priority of the pod. When Priority Admission Controller is enabled, it prevents users from setting this field. The admission controller populates this field from PriorityClassName. The higher the value, the higher the priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#priority DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#priority DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#priority}
   */
   readonly priority?: number;
   /**
   * If specified, indicates the pod's priority. 'system-node-critical' and 'system-cluster-critical' are two special keywords which indicate the highest priorities with the former being the highest priority. Any other name must be defined by creating a PriorityClass object with that name. If not specified, the pod priority will be default or zero if there is no default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#priority_class_name DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#priority_class_name DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
   * If specified, all readiness gates will be evaluated for pod readiness. A pod is ready when all its containers are ready AND all conditions specified in the readiness gates have status equal to 'True' More info: https://git.k8s.io/enhancements/keps/sig-network/0007-pod-ready%2B%2B.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#readiness_gates DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#readiness_gates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#readiness_gates DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#readiness_gates}
   */
   readonly readinessGates?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodspecReadinessGates[] | cdktf.IResolvable;
   /**
   * Restart policy for all containers within the pod. One of Always, OnFailure, Never. Default to Always. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#restart-policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#restart_policy DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#restart_policy DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
   * If specified, the pod will be dispatched by specified scheduler. If not specified, the pod will be dispatched by default scheduler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#scheduler_name DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#scheduler_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#scheduler_name DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#scheduler_name}
   */
   readonly schedulerName?: string;
   /**
   * SecurityContext holds pod-level security attributes and common container settings. Optional: Defaults to empty. See type description for default values of each field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#security_context DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#security_context DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#security_context}
   */
   readonly securityContext?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodspecSecurityContext;
   /**
   * ServiceAccountName is the name of the ServiceAccount to use to run this pod. More info: https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#service_account_name DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#service_account_name DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
   * If a pod does not have FQDN, this has no effect. Default to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#set_hostname_as_fqdn DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#set_hostname_as_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#set_hostname_as_fqdn DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#set_hostname_as_fqdn}
   */
   readonly setHostnameAsFqdn?: boolean | cdktf.IResolvable;
   /**
   * If specified, the fully qualified Pod hostname will be '<hostname>.<subdomain>.<pod namespace>.svc.<cluster domain>'. If not specified, the pod will not have a domainname at all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#subdomain DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#subdomain DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully. May be decreased in delete request. Value must be non-negative integer. The value zero indicates delete immediately. If this value is nil, the default grace period will be used instead. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. Defaults to 30 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#termination_grace_period_seconds DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#termination_grace_period_seconds DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
 }
@@ -6929,19 +6929,19 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecServicesp
   /**
   * The name of the APIMatic service port within the service. This must be a DNS_LABEL. Defaults to apimatic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#name DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#name DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * The port on each node on which this service is exposed when type is NodePort or LoadBalancer. Usually assigned by the system. If a value is specified, in-range, and not in use it will be used, otherwise the operation will fail. If not specified, a port will be allocated if this Service requires one. If this field is specified when creating a Service which does not need it, creation will fail. This field will be wiped when updating a Service to no longer need it (e.g. changing type from NodePort to ClusterIP). More info: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#node_port DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#node_port DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#node_port}
   */
   readonly nodePort?: number;
   /**
   * The port that will be exposed by this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#port DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#port DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#port}
   */
   readonly port: number;
 }
@@ -7092,7 +7092,7 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecServicesp
   /**
   * timeoutSeconds specifies the seconds of ClientIP type session sticky time. The value must be >0 && <=86400(for 1 day) if ServiceAffinity == 'ClientIP'. Default value is 10800(for 3 hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#timeout_seconds DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#timeout_seconds DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -7188,7 +7188,7 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecServicesp
   /**
   * clientIP contains the configurations of Client IP based session affinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#client_ip DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#client_ip DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#client_ip}
   */
   readonly clientIp?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecServicespecSessionAffinityConfigClientIp;
 }
@@ -7284,85 +7284,85 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecServicesp
   /**
   * APIMatic Service Port specifies how the APIMatic service is exposed within the pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#apimaticserviceport DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#apimaticserviceport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#apimaticserviceport DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#apimaticserviceport}
   */
   readonly apimaticserviceport: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecServicespecApimaticserviceport;
   /**
   * clusterIP is the IP address of the service and is usually assigned randomly. If an address is specified manually, is in-range (as per system configuration), and is not in use, it will be allocated to the service; otherwise creation of the service will fail. This field may not be changed through updates unless the type field is also being changed to ExternalName (which requires this field to be blank) or the type field is being changed from ExternalName (in which case this field may optionally be specified, as describe above). Valid values are 'None', empty string (''), or a valid IP address. Setting this to 'None' makes a 'headless service' (no virtual IP), which is useful when direct endpoint connections are preferred and proxying is not required. Only applies to types ClusterIP, NodePort, and LoadBalancer. If this field is specified when creating a Service of type ExternalName, creation will fail. This field will be wiped when updating a Service to type ExternalName. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#cluster_ip DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#cluster_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#cluster_ip DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#cluster_ip}
   */
   readonly clusterIp?: string;
   /**
   * externalIPs is a list of IP addresses for which nodes in the cluster will also accept traffic for this service. These IPs are not managed by Kubernetes. The user is responsible for ensuring that traffic arrives at a node with this IP. A common example is external load-balancers that are not part of the Kubernetes system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#external_i_ps DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#external_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#external_i_ps DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#external_i_ps}
   */
   readonly externalIPs?: string[];
   /**
   * externalName is the external reference that discovery mechanisms will return as an alias for this service (e.g. a DNS CNAME record). No proxying will be involved. Must be a lowercase RFC-1123 hostname (https://tools.ietf.org/html/rfc1123) and requires Type to be ExternalName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#external_name DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#external_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#external_name DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#external_name}
   */
   readonly externalName?: string;
   /**
   * externalTrafficPolicy denotes if this Service desires to route external traffic to node-local or cluster-wide endpoints. 'Local' preserves the client source IP and avoids a second hop for LoadBalancer and Nodeport type services, but risks potentially imbalanced traffic spreading. 'Cluster' obscures the client source IP and may cause a second hop to another node, but should have good overall load-spreading. Only set if Type is LoadBalancer or Nodeport. If not defined for LoadBalancer or Nodeport type, defaults to Cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#external_traffic_policy DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#external_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#external_traffic_policy DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#external_traffic_policy}
   */
   readonly externalTrafficPolicy?: string;
   /**
   * healthCheckNodePort specifies the healthcheck nodePort for the service. This only applies when type is set to LoadBalancer and externalTrafficPolicy is set to Local. If a value is specified, is in-range, and is not in use, it will be used. If not specified, a value will be automatically allocated. External systems (e.g. load-balancers) can use this port to determine if a given node holds endpoints for this service or not. If this field is specified when creating a Service which does not need it, creation will fail. This field will be wiped when updating a Service to no longer need it (e.g. changing type).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#health_check_node_port DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#health_check_node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#health_check_node_port DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#health_check_node_port}
   */
   readonly healthCheckNodePort?: number;
   /**
   * IPFamilies is a list of IP families (e.g. IPv4, IPv6) assigned to this service, and is gated by the 'IPv6DualStack' feature gate. This field is usually assigned automatically based on cluster configuration and the ipFamilyPolicy field. If this field is specified manually, the requested family is available in the cluster, and ipFamilyPolicy allows it, it will be used; otherwise creation of the service will fail. This field is conditionally mutable: it allows for adding or removing a secondary IP family, but it does not allow changing the primary IP family of the Service. Valid values are 'IPv4' and 'IPv6'. This field only applies to Services of types ClusterIP, NodePort, and LoadBalancer, and does apply to 'headless' services. This field will be wiped when updating a Service to type ExternalName. This field may hold a maximum of two entries (dual-stack families, in either order). These families must correspond to the values of the clusterIPs field, if specified. Both clusterIPs and ipFamilies are governed by the ipFamilyPolicy field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#ip_families DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#ip_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#ip_families DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#ip_families}
   */
   readonly ipFamilies?: string[];
   /**
   * IPFamilyPolicy represents the dual-stack-ness requested or required by this Service, and is gated by the 'IPv6DualStack' feature gate. If there is no value provided, then this field will be set to SingleStack. Services can be 'SingleStack' (a single IP family), 'PreferDualStack' (two IP families on dual-stack configured clusters or a single IP family on single-stack clusters), or 'RequireDualStack' (two IP families on dual-stack configured clusters, otherwise fail). The ipFamilies and clusterIPs fields depend on the value of this field. This field will be wiped when updating a service to type ExternalName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#ip_family_policy DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#ip_family_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#ip_family_policy DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#ip_family_policy}
   */
   readonly ipFamilyPolicy?: string;
   /**
   * Only applies to Service Type: LoadBalancer LoadBalancer will get created with the IP specified in this field. This feature depends on whether the underlying cloud-provider supports specifying the loadBalancerIP when a load balancer is created. This field will be ignored if the cloud-provider does not support the feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#load_balancer_ip DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#load_balancer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#load_balancer_ip DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#load_balancer_ip}
   */
   readonly loadBalancerIp?: string;
   /**
   * publishNotReadyAddresses indicates that any agent which deals with endpoints for this Service should disregard any indications of ready/not-ready. The primary use case for setting this field is for a StatefulSet's Headless Service to propagate SRV DNS records for its Pods for the purpose of peer discovery. The Kubernetes controllers that generate Endpoints and EndpointSlice resources for Services interpret this to mean that all endpoints are considered 'ready' even if the Pods themselves are not. Agents which consume only Kubernetes generated endpoints through the Endpoints or EndpointSlice resources can safely assume this behavior. Defaults to false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#publish_not_ready_addresses DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#publish_not_ready_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#publish_not_ready_addresses DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#publish_not_ready_addresses}
   */
   readonly publishNotReadyAddresses?: boolean | cdktf.IResolvable;
   /**
   * Type string describes ingress methods for a service. Valid values are ClusterIP, NodePort, LoadBalancer, ExternalName, None. Defaults to ClusterIP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#servicetype DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#servicetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#servicetype DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#servicetype}
   */
   readonly servicetype?: string;
   /**
   * Supports 'ClientIP' and 'None'. Used to maintain session affinity. Enable client IP based session affinity. Must be ClientIP or None. Defaults to None. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#session_affinity DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#session_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#session_affinity DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#session_affinity}
   */
   readonly sessionAffinity?: string;
   /**
   * sessionAffinityConfig contains the configurations of session affinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#session_affinity_config DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#session_affinity_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#session_affinity_config DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#session_affinity_config}
   */
   readonly sessionAffinityConfig?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecServicespecSessionAffinityConfig;
   /**
   * topologyKeys is a preference-order list of topology keys which implementations of services should use to preferentially sort endpoints when accessing this Service, it can not be used at the same time as externalTrafficPolicy=Local. Topology keys must be valid label keys and at most 16 keys may be specified. Endpoints are chosen based on the first topology key with available backends. If this field is specified and all entries have no backends that match the topology of the client, the service has no backends for that client and connections should fail. The special value '*' may be used to mean 'any topology'. This catch-all value, if used, only makes sense as the last value in the list. If this is not specified or empty, no topology constraints will be applied. This field is alpha-level and is only honored by servers that enable the ServiceTopology feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#topology_keys DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#topology_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#topology_keys DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#topology_keys}
   */
   readonly topologyKeys?: string[];
 }
@@ -7832,31 +7832,31 @@ export interface DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpec {
   /**
   * APIMaticVolumeSpec contains configuration for volumes associated with created APIMatic pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#licensespec DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#licensespec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#licensespec DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#licensespec}
   */
   readonly licensespec: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecLicensespec;
   /**
   * APIMaticPodPlacementSpec configures the APIMatic pod scheduling policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#podplacementspec DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#podplacementspec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#podplacementspec DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#podplacementspec}
   */
   readonly podplacementspec?: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodplacementspec;
   /**
   * APIMaticPodSpec contains configuration for created APIMatic pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#podspec DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#podspec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#podspec DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#podspec}
   */
   readonly podspec: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecPodspec;
   /**
   * replicas is the desired number of instances of APIMatic. Minimum is 0. Defaults to 1 if not provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#replicas DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#replicas DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * APIMaticServiceSpec contains configuration for the service that exposes the APIMatic pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#servicespec DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#servicespec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#servicespec DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest#servicespec}
   */
   readonly servicespec: DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecServicespec;
 }
@@ -8057,7 +8057,7 @@ export class DataK8SApicodegenApimaticIoApiMaticV1Beta1ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest k8s_apicodegen_apimatic_io_api_matic_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest k8s_apicodegen_apimatic_io_api_matic_v1beta1_manifest}
 */
 export class DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -8073,7 +8073,7 @@ export class DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8085,7 +8085,7 @@ export class DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest k8s_apicodegen_apimatic_io_api_matic_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apicodegen_apimatic_io_api_matic_v1beta1_manifest k8s_apicodegen_apimatic_io_api_matic_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8096,8 +8096,8 @@ export class DataK8SApicodegenApimaticIoApiMaticV1Beta1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_apicodegen_apimatic_io_api_matic_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

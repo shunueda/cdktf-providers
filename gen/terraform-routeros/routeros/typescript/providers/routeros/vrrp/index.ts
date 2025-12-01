@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface VrrpConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp#___path___ Vrrp#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp#___path___ Vrrp#___path___}
   */
   readonly path?: string;
   /**
@@ -21,55 +21,55 @@ export interface VrrpConfig extends cdktf.TerraformMetaArguments {
   *   * proxy-arp - the router performs proxy ARP on the interface and sends replies to other interfaces
   *   * reply-only - the interface will only reply to requests originated from matching IP address/MAC address combinations which are entered as static entries in the ARP table. No dynamic entries will be automatically stored in the ARP table. Therefore for communications to be successful, a valid static entry must already exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp#arp Vrrp#arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp#arp Vrrp#arp}
   */
   readonly arp?: string;
   /**
   * ARP timeout is time how long ARP record is kept in ARP table after no packets are received from IP. Value auto equals to the value of arp-timeout in IP/Settings, default is 30s. Can use postfix `ms`, `s`, `m`, `h`, `d` for milliseconds, seconds, minutes, hours or days. If no postfix is set then seconds (s) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp#arp_timeout Vrrp#arp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp#arp_timeout Vrrp#arp_timeout}
   */
   readonly arpTimeout?: string;
   /**
   * Authentication method to use for VRRP advertisement packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp#authentication Vrrp#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp#authentication Vrrp#authentication}
   */
   readonly authentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp#comment Vrrp#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp#comment Vrrp#comment}
   */
   readonly comment?: string;
   /**
   * Specifies the mode for connection tracking synchronization. This setting is only relevant when `sync-connection-tracking=yes` is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp#connection_tracking_mode Vrrp#connection_tracking_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp#connection_tracking_mode Vrrp#connection_tracking_mode}
   */
   readonly connectionTrackingMode?: string;
   /**
   * Specifies UDP port for connection tracking synchronization. This setting is only relevant when `sync-connection-tracking=yes` is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp#connection_tracking_port Vrrp#connection_tracking_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp#connection_tracking_port Vrrp#connection_tracking_port}
   */
   readonly connectionTrackingPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp#disabled Vrrp#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp#disabled Vrrp#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Allows combining multiple VRRP interfaces to maintain the same VRRP status within the group. `group_authority` was previously called `group_master`, `group_master` is kept for compatibility with scripts, but if both are set only `group_authority` will be taken into account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp#group_authority Vrrp#group_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp#group_authority Vrrp#group_authority}
   */
   readonly groupAuthority?: string;
   /**
   * Allows combining multiple VRRP interfaces to maintain the same VRRP status within the group. `group_authority` was previously called `group_master`, `group_master` is kept for compatibility with scripts, but if both are set only `group_authority` will be taken into account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp#group_master Vrrp#group_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp#group_master Vrrp#group_master}
   */
   readonly groupMaster?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp#id Vrrp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp#id Vrrp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -78,13 +78,13 @@ export interface VrrpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp#interface Vrrp#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp#interface Vrrp#interface}
   */
   readonly interface: string;
   /**
   * VRRP update interval in seconds. Defines how often master sends advertisement packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp#interval Vrrp#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp#interval Vrrp#interval}
   */
   readonly interval?: string;
   /**
@@ -93,79 +93,79 @@ export interface VrrpConfig extends cdktf.TerraformMetaArguments {
   * 	> Changing the name of the resource outside of a Terraform will result in a loss of control integrity for that resource!
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp#name Vrrp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp#name Vrrp#name}
   */
   readonly name: string;
   /**
   * Script to execute when the node is switched to the backup state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp#on_backup Vrrp#on_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp#on_backup Vrrp#on_backup}
   */
   readonly onBackup?: string;
   /**
   * Script to execute when the node fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp#on_fail Vrrp#on_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp#on_fail Vrrp#on_fail}
   */
   readonly onFail?: string;
   /**
   * Script to execute when the node is switched to master state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp#on_master Vrrp#on_master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp#on_master Vrrp#on_master}
   */
   readonly onMaster?: string;
   /**
   * Password required for authentication. Can be ignored if authentication is not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp#password Vrrp#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp#password Vrrp#password}
   */
   readonly password?: string;
   /**
   * Whether the master node always has the priority. When set to `no` the backup node will not be elected to be a master until the current master fails, even if the backup node has higher priority than the current master. This setting is ignored if the owner router becomes available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp#preemption_mode Vrrp#preemption_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp#preemption_mode Vrrp#preemption_mode}
   */
   readonly preemptionMode?: boolean | cdktf.IResolvable;
   /**
   * Priority of VRRP node used in Master election algorithm. A higher number means higher priority. `255` is reserved for the router that owns VR IP and `0` is reserved for the Master router to indicate that it is releasing responsibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp#priority Vrrp#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp#priority Vrrp#priority}
   */
   readonly priority?: number;
   /**
   * Specifies the remote address of the other VRRP router for syncing connection tracking. If not set, the system autodetects the remote address via VRRP. The remote address is used only if `sync_connection_tracking = true`.Sync connection tracking uses UDP port 8275.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp#remote_address Vrrp#remote_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp#remote_address Vrrp#remote_address}
   */
   readonly remoteAddress?: string;
   /**
   * Synchronize connection tracking entries from Master to Backup device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp#sync_connection_tracking Vrrp#sync_connection_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp#sync_connection_tracking Vrrp#sync_connection_tracking}
   */
   readonly syncConnectionTracking?: boolean | cdktf.IResolvable;
   /**
   * A protocol that will be used by VRRPv3. Valid only if the version is 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp#v3_protocol Vrrp#v3_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp#v3_protocol Vrrp#v3_protocol}
   */
   readonly v3Protocol?: string;
   /**
   * Which VRRP version to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp#version Vrrp#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp#version Vrrp#version}
   */
   readonly version?: number;
   /**
   * Virtual Router identifier. Each Virtual router must have a unique id number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp#vrid Vrrp#vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp#vrid Vrrp#vrid}
   */
   readonly vrid?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp routeros_vrrp}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp routeros_vrrp}
 */
 export class Vrrp extends cdktf.TerraformResource {
 
@@ -181,7 +181,7 @@ export class Vrrp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vrrp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vrrp to import
-  * @param importFromId The id of the existing Vrrp that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vrrp that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vrrp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -193,7 +193,7 @@ export class Vrrp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/vrrp routeros_vrrp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/vrrp routeros_vrrp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -204,8 +204,8 @@ export class Vrrp extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_vrrp',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.94.0',
-        providerVersionConstraint: '1.94.0'
+        providerVersion: '1.95.0',
+        providerVersionConstraint: '1.95.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

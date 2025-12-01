@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface DcdnErConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#description DcdnEr#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#description DcdnEr#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#er_name DcdnEr#er_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#er_name DcdnEr#er_name}
   */
   readonly erName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#id DcdnEr#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#id DcdnEr#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,27 +25,27 @@ export interface DcdnErConfig extends cdktf.TerraformMetaArguments {
   /**
   * env_conf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#env_conf DcdnEr#env_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#env_conf DcdnEr#env_conf}
   */
   readonly envConf?: DcdnErEnvConf;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#timeouts DcdnEr#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#timeouts DcdnEr#timeouts}
   */
   readonly timeouts?: DcdnErTimeouts;
 }
 export interface DcdnErEnvConfPresetCanaryAnhui {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -187,15 +187,15 @@ export class DcdnErEnvConfPresetCanaryAnhuiOutputReference extends cdktf.Complex
 }
 export interface DcdnErEnvConfPresetCanaryBeijing {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -337,15 +337,15 @@ export class DcdnErEnvConfPresetCanaryBeijingOutputReference extends cdktf.Compl
 }
 export interface DcdnErEnvConfPresetCanaryChongqing {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -487,15 +487,15 @@ export class DcdnErEnvConfPresetCanaryChongqingOutputReference extends cdktf.Com
 }
 export interface DcdnErEnvConfPresetCanaryFujian {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -637,15 +637,15 @@ export class DcdnErEnvConfPresetCanaryFujianOutputReference extends cdktf.Comple
 }
 export interface DcdnErEnvConfPresetCanaryGansu {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -787,15 +787,15 @@ export class DcdnErEnvConfPresetCanaryGansuOutputReference extends cdktf.Complex
 }
 export interface DcdnErEnvConfPresetCanaryGuangdong {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -937,15 +937,15 @@ export class DcdnErEnvConfPresetCanaryGuangdongOutputReference extends cdktf.Com
 }
 export interface DcdnErEnvConfPresetCanaryGuangxi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -1087,15 +1087,15 @@ export class DcdnErEnvConfPresetCanaryGuangxiOutputReference extends cdktf.Compl
 }
 export interface DcdnErEnvConfPresetCanaryGuizhou {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -1237,15 +1237,15 @@ export class DcdnErEnvConfPresetCanaryGuizhouOutputReference extends cdktf.Compl
 }
 export interface DcdnErEnvConfPresetCanaryHainan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -1387,15 +1387,15 @@ export class DcdnErEnvConfPresetCanaryHainanOutputReference extends cdktf.Comple
 }
 export interface DcdnErEnvConfPresetCanaryHebei {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -1537,15 +1537,15 @@ export class DcdnErEnvConfPresetCanaryHebeiOutputReference extends cdktf.Complex
 }
 export interface DcdnErEnvConfPresetCanaryHeilongjiang {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -1687,15 +1687,15 @@ export class DcdnErEnvConfPresetCanaryHeilongjiangOutputReference extends cdktf.
 }
 export interface DcdnErEnvConfPresetCanaryHenan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -1837,15 +1837,15 @@ export class DcdnErEnvConfPresetCanaryHenanOutputReference extends cdktf.Complex
 }
 export interface DcdnErEnvConfPresetCanaryHongKong {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -1987,15 +1987,15 @@ export class DcdnErEnvConfPresetCanaryHongKongOutputReference extends cdktf.Comp
 }
 export interface DcdnErEnvConfPresetCanaryHubei {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -2137,15 +2137,15 @@ export class DcdnErEnvConfPresetCanaryHubeiOutputReference extends cdktf.Complex
 }
 export interface DcdnErEnvConfPresetCanaryHunan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -2287,15 +2287,15 @@ export class DcdnErEnvConfPresetCanaryHunanOutputReference extends cdktf.Complex
 }
 export interface DcdnErEnvConfPresetCanaryJiangsu {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -2437,15 +2437,15 @@ export class DcdnErEnvConfPresetCanaryJiangsuOutputReference extends cdktf.Compl
 }
 export interface DcdnErEnvConfPresetCanaryJiangxi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -2587,15 +2587,15 @@ export class DcdnErEnvConfPresetCanaryJiangxiOutputReference extends cdktf.Compl
 }
 export interface DcdnErEnvConfPresetCanaryJilin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -2737,15 +2737,15 @@ export class DcdnErEnvConfPresetCanaryJilinOutputReference extends cdktf.Complex
 }
 export interface DcdnErEnvConfPresetCanaryLiaoning {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -2887,15 +2887,15 @@ export class DcdnErEnvConfPresetCanaryLiaoningOutputReference extends cdktf.Comp
 }
 export interface DcdnErEnvConfPresetCanaryMacau {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -3037,15 +3037,15 @@ export class DcdnErEnvConfPresetCanaryMacauOutputReference extends cdktf.Complex
 }
 export interface DcdnErEnvConfPresetCanaryNeimenggu {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -3187,15 +3187,15 @@ export class DcdnErEnvConfPresetCanaryNeimengguOutputReference extends cdktf.Com
 }
 export interface DcdnErEnvConfPresetCanaryNingxia {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -3337,15 +3337,15 @@ export class DcdnErEnvConfPresetCanaryNingxiaOutputReference extends cdktf.Compl
 }
 export interface DcdnErEnvConfPresetCanaryOverseas {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -3487,15 +3487,15 @@ export class DcdnErEnvConfPresetCanaryOverseasOutputReference extends cdktf.Comp
 }
 export interface DcdnErEnvConfPresetCanaryQinghai {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -3637,15 +3637,15 @@ export class DcdnErEnvConfPresetCanaryQinghaiOutputReference extends cdktf.Compl
 }
 export interface DcdnErEnvConfPresetCanaryShaanxi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -3787,15 +3787,15 @@ export class DcdnErEnvConfPresetCanaryShaanxiOutputReference extends cdktf.Compl
 }
 export interface DcdnErEnvConfPresetCanaryShandong {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -3937,15 +3937,15 @@ export class DcdnErEnvConfPresetCanaryShandongOutputReference extends cdktf.Comp
 }
 export interface DcdnErEnvConfPresetCanaryShanghai {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -4087,15 +4087,15 @@ export class DcdnErEnvConfPresetCanaryShanghaiOutputReference extends cdktf.Comp
 }
 export interface DcdnErEnvConfPresetCanaryShanxi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -4237,15 +4237,15 @@ export class DcdnErEnvConfPresetCanaryShanxiOutputReference extends cdktf.Comple
 }
 export interface DcdnErEnvConfPresetCanarySichuan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -4387,15 +4387,15 @@ export class DcdnErEnvConfPresetCanarySichuanOutputReference extends cdktf.Compl
 }
 export interface DcdnErEnvConfPresetCanaryTaiwan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -4537,15 +4537,15 @@ export class DcdnErEnvConfPresetCanaryTaiwanOutputReference extends cdktf.Comple
 }
 export interface DcdnErEnvConfPresetCanaryTianjin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -4687,15 +4687,15 @@ export class DcdnErEnvConfPresetCanaryTianjinOutputReference extends cdktf.Compl
 }
 export interface DcdnErEnvConfPresetCanaryXinjiang {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -4837,15 +4837,15 @@ export class DcdnErEnvConfPresetCanaryXinjiangOutputReference extends cdktf.Comp
 }
 export interface DcdnErEnvConfPresetCanaryXizang {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -4987,15 +4987,15 @@ export class DcdnErEnvConfPresetCanaryXizangOutputReference extends cdktf.Comple
 }
 export interface DcdnErEnvConfPresetCanaryYunnan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -5137,15 +5137,15 @@ export class DcdnErEnvConfPresetCanaryYunnanOutputReference extends cdktf.Comple
 }
 export interface DcdnErEnvConfPresetCanaryZhejiang {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -5287,15 +5287,15 @@ export class DcdnErEnvConfPresetCanaryZhejiangOutputReference extends cdktf.Comp
 }
 export interface DcdnErEnvConfProduction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -5437,15 +5437,15 @@ export class DcdnErEnvConfProductionOutputReference extends cdktf.ComplexObject 
 }
 export interface DcdnErEnvConfStaging {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#allowed_hosts DcdnEr#allowed_hosts}
   */
   readonly allowedHosts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#code_rev DcdnEr#code_rev}
   */
   readonly codeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#spec_name DcdnEr#spec_name}
   */
   readonly specName?: string;
 }
@@ -5589,223 +5589,223 @@ export interface DcdnErEnvConf {
   /**
   * preset_canary_anhui block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_anhui DcdnEr#preset_canary_anhui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_anhui DcdnEr#preset_canary_anhui}
   */
   readonly presetCanaryAnhui?: DcdnErEnvConfPresetCanaryAnhui;
   /**
   * preset_canary_beijing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_beijing DcdnEr#preset_canary_beijing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_beijing DcdnEr#preset_canary_beijing}
   */
   readonly presetCanaryBeijing?: DcdnErEnvConfPresetCanaryBeijing;
   /**
   * preset_canary_chongqing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_chongqing DcdnEr#preset_canary_chongqing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_chongqing DcdnEr#preset_canary_chongqing}
   */
   readonly presetCanaryChongqing?: DcdnErEnvConfPresetCanaryChongqing;
   /**
   * preset_canary_fujian block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_fujian DcdnEr#preset_canary_fujian}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_fujian DcdnEr#preset_canary_fujian}
   */
   readonly presetCanaryFujian?: DcdnErEnvConfPresetCanaryFujian;
   /**
   * preset_canary_gansu block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_gansu DcdnEr#preset_canary_gansu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_gansu DcdnEr#preset_canary_gansu}
   */
   readonly presetCanaryGansu?: DcdnErEnvConfPresetCanaryGansu;
   /**
   * preset_canary_guangdong block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_guangdong DcdnEr#preset_canary_guangdong}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_guangdong DcdnEr#preset_canary_guangdong}
   */
   readonly presetCanaryGuangdong?: DcdnErEnvConfPresetCanaryGuangdong;
   /**
   * preset_canary_guangxi block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_guangxi DcdnEr#preset_canary_guangxi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_guangxi DcdnEr#preset_canary_guangxi}
   */
   readonly presetCanaryGuangxi?: DcdnErEnvConfPresetCanaryGuangxi;
   /**
   * preset_canary_guizhou block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_guizhou DcdnEr#preset_canary_guizhou}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_guizhou DcdnEr#preset_canary_guizhou}
   */
   readonly presetCanaryGuizhou?: DcdnErEnvConfPresetCanaryGuizhou;
   /**
   * preset_canary_hainan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_hainan DcdnEr#preset_canary_hainan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_hainan DcdnEr#preset_canary_hainan}
   */
   readonly presetCanaryHainan?: DcdnErEnvConfPresetCanaryHainan;
   /**
   * preset_canary_hebei block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_hebei DcdnEr#preset_canary_hebei}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_hebei DcdnEr#preset_canary_hebei}
   */
   readonly presetCanaryHebei?: DcdnErEnvConfPresetCanaryHebei;
   /**
   * preset_canary_heilongjiang block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_heilongjiang DcdnEr#preset_canary_heilongjiang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_heilongjiang DcdnEr#preset_canary_heilongjiang}
   */
   readonly presetCanaryHeilongjiang?: DcdnErEnvConfPresetCanaryHeilongjiang;
   /**
   * preset_canary_henan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_henan DcdnEr#preset_canary_henan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_henan DcdnEr#preset_canary_henan}
   */
   readonly presetCanaryHenan?: DcdnErEnvConfPresetCanaryHenan;
   /**
   * preset_canary_hong_kong block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_hong_kong DcdnEr#preset_canary_hong_kong}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_hong_kong DcdnEr#preset_canary_hong_kong}
   */
   readonly presetCanaryHongKong?: DcdnErEnvConfPresetCanaryHongKong;
   /**
   * preset_canary_hubei block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_hubei DcdnEr#preset_canary_hubei}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_hubei DcdnEr#preset_canary_hubei}
   */
   readonly presetCanaryHubei?: DcdnErEnvConfPresetCanaryHubei;
   /**
   * preset_canary_hunan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_hunan DcdnEr#preset_canary_hunan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_hunan DcdnEr#preset_canary_hunan}
   */
   readonly presetCanaryHunan?: DcdnErEnvConfPresetCanaryHunan;
   /**
   * preset_canary_jiangsu block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_jiangsu DcdnEr#preset_canary_jiangsu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_jiangsu DcdnEr#preset_canary_jiangsu}
   */
   readonly presetCanaryJiangsu?: DcdnErEnvConfPresetCanaryJiangsu;
   /**
   * preset_canary_jiangxi block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_jiangxi DcdnEr#preset_canary_jiangxi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_jiangxi DcdnEr#preset_canary_jiangxi}
   */
   readonly presetCanaryJiangxi?: DcdnErEnvConfPresetCanaryJiangxi;
   /**
   * preset_canary_jilin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_jilin DcdnEr#preset_canary_jilin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_jilin DcdnEr#preset_canary_jilin}
   */
   readonly presetCanaryJilin?: DcdnErEnvConfPresetCanaryJilin;
   /**
   * preset_canary_liaoning block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_liaoning DcdnEr#preset_canary_liaoning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_liaoning DcdnEr#preset_canary_liaoning}
   */
   readonly presetCanaryLiaoning?: DcdnErEnvConfPresetCanaryLiaoning;
   /**
   * preset_canary_macau block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_macau DcdnEr#preset_canary_macau}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_macau DcdnEr#preset_canary_macau}
   */
   readonly presetCanaryMacau?: DcdnErEnvConfPresetCanaryMacau;
   /**
   * preset_canary_neimenggu block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_neimenggu DcdnEr#preset_canary_neimenggu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_neimenggu DcdnEr#preset_canary_neimenggu}
   */
   readonly presetCanaryNeimenggu?: DcdnErEnvConfPresetCanaryNeimenggu;
   /**
   * preset_canary_ningxia block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_ningxia DcdnEr#preset_canary_ningxia}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_ningxia DcdnEr#preset_canary_ningxia}
   */
   readonly presetCanaryNingxia?: DcdnErEnvConfPresetCanaryNingxia;
   /**
   * preset_canary_overseas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_overseas DcdnEr#preset_canary_overseas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_overseas DcdnEr#preset_canary_overseas}
   */
   readonly presetCanaryOverseas?: DcdnErEnvConfPresetCanaryOverseas;
   /**
   * preset_canary_qinghai block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_qinghai DcdnEr#preset_canary_qinghai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_qinghai DcdnEr#preset_canary_qinghai}
   */
   readonly presetCanaryQinghai?: DcdnErEnvConfPresetCanaryQinghai;
   /**
   * preset_canary_shaanxi block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_shaanxi DcdnEr#preset_canary_shaanxi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_shaanxi DcdnEr#preset_canary_shaanxi}
   */
   readonly presetCanaryShaanxi?: DcdnErEnvConfPresetCanaryShaanxi;
   /**
   * preset_canary_shandong block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_shandong DcdnEr#preset_canary_shandong}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_shandong DcdnEr#preset_canary_shandong}
   */
   readonly presetCanaryShandong?: DcdnErEnvConfPresetCanaryShandong;
   /**
   * preset_canary_shanghai block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_shanghai DcdnEr#preset_canary_shanghai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_shanghai DcdnEr#preset_canary_shanghai}
   */
   readonly presetCanaryShanghai?: DcdnErEnvConfPresetCanaryShanghai;
   /**
   * preset_canary_shanxi block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_shanxi DcdnEr#preset_canary_shanxi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_shanxi DcdnEr#preset_canary_shanxi}
   */
   readonly presetCanaryShanxi?: DcdnErEnvConfPresetCanaryShanxi;
   /**
   * preset_canary_sichuan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_sichuan DcdnEr#preset_canary_sichuan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_sichuan DcdnEr#preset_canary_sichuan}
   */
   readonly presetCanarySichuan?: DcdnErEnvConfPresetCanarySichuan;
   /**
   * preset_canary_taiwan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_taiwan DcdnEr#preset_canary_taiwan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_taiwan DcdnEr#preset_canary_taiwan}
   */
   readonly presetCanaryTaiwan?: DcdnErEnvConfPresetCanaryTaiwan;
   /**
   * preset_canary_tianjin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_tianjin DcdnEr#preset_canary_tianjin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_tianjin DcdnEr#preset_canary_tianjin}
   */
   readonly presetCanaryTianjin?: DcdnErEnvConfPresetCanaryTianjin;
   /**
   * preset_canary_xinjiang block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_xinjiang DcdnEr#preset_canary_xinjiang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_xinjiang DcdnEr#preset_canary_xinjiang}
   */
   readonly presetCanaryXinjiang?: DcdnErEnvConfPresetCanaryXinjiang;
   /**
   * preset_canary_xizang block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_xizang DcdnEr#preset_canary_xizang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_xizang DcdnEr#preset_canary_xizang}
   */
   readonly presetCanaryXizang?: DcdnErEnvConfPresetCanaryXizang;
   /**
   * preset_canary_yunnan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_yunnan DcdnEr#preset_canary_yunnan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_yunnan DcdnEr#preset_canary_yunnan}
   */
   readonly presetCanaryYunnan?: DcdnErEnvConfPresetCanaryYunnan;
   /**
   * preset_canary_zhejiang block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#preset_canary_zhejiang DcdnEr#preset_canary_zhejiang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#preset_canary_zhejiang DcdnEr#preset_canary_zhejiang}
   */
   readonly presetCanaryZhejiang?: DcdnErEnvConfPresetCanaryZhejiang;
   /**
   * production block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#production DcdnEr#production}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#production DcdnEr#production}
   */
   readonly production?: DcdnErEnvConfProduction;
   /**
   * staging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#staging DcdnEr#staging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#staging DcdnEr#staging}
   */
   readonly staging?: DcdnErEnvConfStaging;
 }
@@ -6933,15 +6933,15 @@ export class DcdnErEnvConfOutputReference extends cdktf.ComplexObject {
 }
 export interface DcdnErTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#create DcdnEr#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#create DcdnEr#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#delete DcdnEr#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#delete DcdnEr#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#update DcdnEr#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#update DcdnEr#update}
   */
   readonly update?: string;
 }
@@ -7093,7 +7093,7 @@ export class DcdnErTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er alicloud_dcdn_er}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er alicloud_dcdn_er}
 */
 export class DcdnEr extends cdktf.TerraformResource {
 
@@ -7109,7 +7109,7 @@ export class DcdnEr extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DcdnEr resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DcdnEr to import
-  * @param importFromId The id of the existing DcdnEr that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DcdnEr that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DcdnEr to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7121,7 +7121,7 @@ export class DcdnEr extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dcdn_er alicloud_dcdn_er} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dcdn_er alicloud_dcdn_er} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7132,8 +7132,8 @@ export class DcdnEr extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_dcdn_er',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

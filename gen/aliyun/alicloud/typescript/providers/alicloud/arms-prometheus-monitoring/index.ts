@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_prometheus_monitoring
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_prometheus_monitoring
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface ArmsPrometheusMonitoringConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_prometheus_monitoring#cluster_id ArmsPrometheusMonitoring#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_prometheus_monitoring#cluster_id ArmsPrometheusMonitoring#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_prometheus_monitoring#config_yaml ArmsPrometheusMonitoring#config_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_prometheus_monitoring#config_yaml ArmsPrometheusMonitoring#config_yaml}
   */
   readonly configYaml: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_prometheus_monitoring#id ArmsPrometheusMonitoring#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_prometheus_monitoring#id ArmsPrometheusMonitoring#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_prometheus_monitoring#status ArmsPrometheusMonitoring#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_prometheus_monitoring#status ArmsPrometheusMonitoring#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_prometheus_monitoring#type ArmsPrometheusMonitoring#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_prometheus_monitoring#type ArmsPrometheusMonitoring#type}
   */
   readonly type: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_prometheus_monitoring#timeouts ArmsPrometheusMonitoring#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_prometheus_monitoring#timeouts ArmsPrometheusMonitoring#timeouts}
   */
   readonly timeouts?: ArmsPrometheusMonitoringTimeouts;
 }
 export interface ArmsPrometheusMonitoringTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_prometheus_monitoring#create ArmsPrometheusMonitoring#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_prometheus_monitoring#create ArmsPrometheusMonitoring#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_prometheus_monitoring#delete ArmsPrometheusMonitoring#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_prometheus_monitoring#delete ArmsPrometheusMonitoring#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_prometheus_monitoring#update ArmsPrometheusMonitoring#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_prometheus_monitoring#update ArmsPrometheusMonitoring#update}
   */
   readonly update?: string;
 }
@@ -199,7 +199,7 @@ export class ArmsPrometheusMonitoringTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_prometheus_monitoring alicloud_arms_prometheus_monitoring}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_prometheus_monitoring alicloud_arms_prometheus_monitoring}
 */
 export class ArmsPrometheusMonitoring extends cdktf.TerraformResource {
 
@@ -215,7 +215,7 @@ export class ArmsPrometheusMonitoring extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArmsPrometheusMonitoring resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArmsPrometheusMonitoring to import
-  * @param importFromId The id of the existing ArmsPrometheusMonitoring that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_prometheus_monitoring#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArmsPrometheusMonitoring that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_prometheus_monitoring#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArmsPrometheusMonitoring to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class ArmsPrometheusMonitoring extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_prometheus_monitoring alicloud_arms_prometheus_monitoring} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_prometheus_monitoring alicloud_arms_prometheus_monitoring} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class ArmsPrometheusMonitoring extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_arms_prometheus_monitoring',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

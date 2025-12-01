@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestConfig extends cd
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#metadata DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#metadata DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#metadata}
   */
   readonly metadata: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestMetadata;
   /**
   * VirtualServerRouteSpec is the spec of the VirtualServerRoute resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#spec DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#spec DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#spec}
   */
   readonly spec?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#annotations DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#annotations DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#labels DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#labels DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#namespace DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#namespace DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestMetadataOutputReferen
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesActionProxyRequestHeadersSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -366,11 +366,11 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesActionPr
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesActionProxyRequestHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#pass DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#pass DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#pass}
   */
   readonly pass?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#set DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#set DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#set}
   */
   readonly set?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesActionProxyRequestHeadersSet[] | cdktf.IResolvable;
 }
@@ -493,15 +493,15 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesActionPr
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesActionProxyResponseHeadersAdd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#always DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#always}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#always DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#always}
   */
   readonly always?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -675,19 +675,19 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesActionPr
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesActionProxyResponseHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#add DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#add DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#add}
   */
   readonly add?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesActionProxyResponseHeadersAdd[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#hide DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#hide}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#hide DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#hide}
   */
   readonly hide?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#ignore DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#ignore DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#ignore}
   */
   readonly ignore?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#pass DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#pass DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#pass}
   */
   readonly pass?: string[];
 }
@@ -870,21 +870,21 @@ export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesActi
   /**
   * ProxyRequestHeaders defines the request headers manipulation in an ActionProxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#request_headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#request_headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#request_headers}
   */
   readonly requestHeaders?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesActionProxyRequestHeaders;
   /**
   * ProxyResponseHeaders defines the response headers manipulation in an ActionProxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#response_headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#response_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#response_headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#response_headers}
   */
   readonly responseHeaders?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesActionProxyResponseHeaders;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#rewrite_path DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#rewrite_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#rewrite_path DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#rewrite_path}
   */
   readonly rewritePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#upstream DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#upstream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#upstream DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#upstream}
   */
   readonly upstream?: string;
 }
@@ -1065,11 +1065,11 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesActionPr
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesActionRedirect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#code DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#code DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#code}
   */
   readonly code?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#url DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#url DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#url}
   */
   readonly url?: string;
 }
@@ -1192,11 +1192,11 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesActionRe
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesActionReturnHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1341,19 +1341,19 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesActionRe
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesActionReturn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#body DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#body DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#body}
   */
   readonly body?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#code DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#code DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#code}
   */
   readonly code?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#headers}
   */
   readonly headers?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesActionReturnHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#type DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#type DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -1534,25 +1534,25 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesActionRe
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#pass DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#pass DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#pass}
   */
   readonly pass?: string;
   /**
   * ActionProxy defines a proxy in an Action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#proxy DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#proxy DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#proxy}
   */
   readonly proxy?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesActionProxy;
   /**
   * ActionRedirect defines a redirect in an Action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#redirect DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#redirect DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#redirect}
   */
   readonly redirect?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesActionRedirect;
   /**
   * ActionReturn defines a return in an Action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#return DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#return}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#return DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#return}
   */
   readonly return?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesActionReturn;
 }
@@ -1733,11 +1733,11 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesActionOu
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesErrorPagesRedirect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#code DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#code DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#code}
   */
   readonly code?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#url DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#url DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#url}
   */
   readonly url?: string;
 }
@@ -1860,11 +1860,11 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesErrorPag
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesErrorPagesReturnHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2009,19 +2009,19 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesErrorPag
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesErrorPagesReturn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#body DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#body DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#body}
   */
   readonly body?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#code DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#code DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#code}
   */
   readonly code?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#headers}
   */
   readonly headers?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesErrorPagesReturnHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#type DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#type DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -2202,19 +2202,19 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesErrorPag
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesErrorPages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#codes DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#codes DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#codes}
   */
   readonly codes?: string[];
   /**
   * ErrorPageRedirect defines a redirect for an ErrorPage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#redirect DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#redirect DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#redirect}
   */
   readonly redirect?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesErrorPagesRedirect;
   /**
   * ErrorPageReturn defines a return for an ErrorPage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#return DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#return}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#return DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#return}
   */
   readonly return?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesErrorPagesReturn;
 }
@@ -2388,11 +2388,11 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesErrorPag
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesActionProxyRequestHeadersSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2537,11 +2537,11 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesA
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesActionProxyRequestHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#pass DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#pass DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#pass}
   */
   readonly pass?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#set DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#set DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#set}
   */
   readonly set?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesActionProxyRequestHeadersSet[] | cdktf.IResolvable;
 }
@@ -2664,15 +2664,15 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesA
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesActionProxyResponseHeadersAdd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#always DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#always}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#always DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#always}
   */
   readonly always?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2846,19 +2846,19 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesA
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesActionProxyResponseHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#add DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#add DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#add}
   */
   readonly add?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesActionProxyResponseHeadersAdd[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#hide DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#hide}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#hide DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#hide}
   */
   readonly hide?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#ignore DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#ignore DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#ignore}
   */
   readonly ignore?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#pass DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#pass DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#pass}
   */
   readonly pass?: string[];
 }
@@ -3041,21 +3041,21 @@ export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatc
   /**
   * ProxyRequestHeaders defines the request headers manipulation in an ActionProxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#request_headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#request_headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#request_headers}
   */
   readonly requestHeaders?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesActionProxyRequestHeaders;
   /**
   * ProxyResponseHeaders defines the response headers manipulation in an ActionProxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#response_headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#response_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#response_headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#response_headers}
   */
   readonly responseHeaders?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesActionProxyResponseHeaders;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#rewrite_path DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#rewrite_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#rewrite_path DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#rewrite_path}
   */
   readonly rewritePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#upstream DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#upstream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#upstream DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#upstream}
   */
   readonly upstream?: string;
 }
@@ -3236,11 +3236,11 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesA
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesActionRedirect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#code DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#code DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#code}
   */
   readonly code?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#url DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#url DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#url}
   */
   readonly url?: string;
 }
@@ -3363,11 +3363,11 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesA
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesActionReturnHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -3512,19 +3512,19 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesA
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesActionReturn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#body DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#body DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#body}
   */
   readonly body?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#code DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#code DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#code}
   */
   readonly code?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#headers}
   */
   readonly headers?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesActionReturnHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#type DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#type DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -3705,25 +3705,25 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesA
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#pass DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#pass DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#pass}
   */
   readonly pass?: string;
   /**
   * ActionProxy defines a proxy in an Action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#proxy DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#proxy DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#proxy}
   */
   readonly proxy?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesActionProxy;
   /**
   * ActionRedirect defines a redirect in an Action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#redirect DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#redirect DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#redirect}
   */
   readonly redirect?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesActionRedirect;
   /**
   * ActionReturn defines a return in an Action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#return DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#return}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#return DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#return}
   */
   readonly return?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesActionReturn;
 }
@@ -3904,23 +3904,23 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesA
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#argument DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#argument}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#argument DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#argument}
   */
   readonly argument?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#cookie DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#cookie DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#cookie}
   */
   readonly cookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#header DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#header DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#variable DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#variable DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#variable}
   */
   readonly variable?: string;
 }
@@ -4152,11 +4152,11 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesC
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesSplitsActionProxyRequestHeadersSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -4301,11 +4301,11 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesS
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesSplitsActionProxyRequestHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#pass DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#pass DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#pass}
   */
   readonly pass?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#set DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#set DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#set}
   */
   readonly set?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesSplitsActionProxyRequestHeadersSet[] | cdktf.IResolvable;
 }
@@ -4428,15 +4428,15 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesS
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesSplitsActionProxyResponseHeadersAdd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#always DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#always}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#always DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#always}
   */
   readonly always?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -4610,19 +4610,19 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesS
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesSplitsActionProxyResponseHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#add DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#add DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#add}
   */
   readonly add?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesSplitsActionProxyResponseHeadersAdd[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#hide DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#hide}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#hide DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#hide}
   */
   readonly hide?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#ignore DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#ignore DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#ignore}
   */
   readonly ignore?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#pass DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#pass DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#pass}
   */
   readonly pass?: string[];
 }
@@ -4805,21 +4805,21 @@ export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatc
   /**
   * ProxyRequestHeaders defines the request headers manipulation in an ActionProxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#request_headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#request_headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#request_headers}
   */
   readonly requestHeaders?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesSplitsActionProxyRequestHeaders;
   /**
   * ProxyResponseHeaders defines the response headers manipulation in an ActionProxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#response_headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#response_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#response_headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#response_headers}
   */
   readonly responseHeaders?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesSplitsActionProxyResponseHeaders;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#rewrite_path DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#rewrite_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#rewrite_path DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#rewrite_path}
   */
   readonly rewritePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#upstream DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#upstream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#upstream DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#upstream}
   */
   readonly upstream?: string;
 }
@@ -5000,11 +5000,11 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesS
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesSplitsActionRedirect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#code DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#code DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#code}
   */
   readonly code?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#url DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#url DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#url}
   */
   readonly url?: string;
 }
@@ -5127,11 +5127,11 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesS
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesSplitsActionReturnHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -5276,19 +5276,19 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesS
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesSplitsActionReturn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#body DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#body DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#body}
   */
   readonly body?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#code DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#code DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#code}
   */
   readonly code?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#headers}
   */
   readonly headers?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesSplitsActionReturnHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#type DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#type DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -5469,25 +5469,25 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesS
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesSplitsAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#pass DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#pass DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#pass}
   */
   readonly pass?: string;
   /**
   * ActionProxy defines a proxy in an Action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#proxy DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#proxy DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#proxy}
   */
   readonly proxy?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesSplitsActionProxy;
   /**
   * ActionRedirect defines a redirect in an Action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#redirect DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#redirect DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#redirect}
   */
   readonly redirect?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesSplitsActionRedirect;
   /**
   * ActionReturn defines a return in an Action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#return DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#return}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#return DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#return}
   */
   readonly return?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesSplitsActionReturn;
 }
@@ -5670,11 +5670,11 @@ export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatc
   /**
   * Action defines an action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#action DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#action DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#action}
   */
   readonly action?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesSplitsAction;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#weight DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#weight DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -5821,15 +5821,15 @@ export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatc
   /**
   * Action defines an action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#action DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#action DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#action}
   */
   readonly action?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesAction;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#conditions DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#conditions DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#conditions}
   */
   readonly conditions?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesConditions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#splits DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#splits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#splits DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#splits}
   */
   readonly splits?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesSplits[] | cdktf.IResolvable;
 }
@@ -6003,11 +6003,11 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatchesL
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#namespace DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#namespace DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -6152,11 +6152,11 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesPolicies
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesSplitsActionProxyRequestHeadersSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -6301,11 +6301,11 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesSplitsAc
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesSplitsActionProxyRequestHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#pass DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#pass DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#pass}
   */
   readonly pass?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#set DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#set DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#set}
   */
   readonly set?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesSplitsActionProxyRequestHeadersSet[] | cdktf.IResolvable;
 }
@@ -6428,15 +6428,15 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesSplitsAc
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesSplitsActionProxyResponseHeadersAdd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#always DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#always}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#always DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#always}
   */
   readonly always?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -6610,19 +6610,19 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesSplitsAc
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesSplitsActionProxyResponseHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#add DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#add DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#add}
   */
   readonly add?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesSplitsActionProxyResponseHeadersAdd[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#hide DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#hide}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#hide DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#hide}
   */
   readonly hide?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#ignore DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#ignore DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#ignore}
   */
   readonly ignore?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#pass DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#pass DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#pass}
   */
   readonly pass?: string[];
 }
@@ -6805,21 +6805,21 @@ export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesSpli
   /**
   * ProxyRequestHeaders defines the request headers manipulation in an ActionProxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#request_headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#request_headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#request_headers}
   */
   readonly requestHeaders?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesSplitsActionProxyRequestHeaders;
   /**
   * ProxyResponseHeaders defines the response headers manipulation in an ActionProxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#response_headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#response_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#response_headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#response_headers}
   */
   readonly responseHeaders?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesSplitsActionProxyResponseHeaders;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#rewrite_path DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#rewrite_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#rewrite_path DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#rewrite_path}
   */
   readonly rewritePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#upstream DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#upstream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#upstream DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#upstream}
   */
   readonly upstream?: string;
 }
@@ -7000,11 +7000,11 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesSplitsAc
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesSplitsActionRedirect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#code DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#code DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#code}
   */
   readonly code?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#url DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#url DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#url}
   */
   readonly url?: string;
 }
@@ -7127,11 +7127,11 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesSplitsAc
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesSplitsActionReturnHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -7276,19 +7276,19 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesSplitsAc
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesSplitsActionReturn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#body DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#body DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#body}
   */
   readonly body?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#code DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#code DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#code}
   */
   readonly code?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#headers}
   */
   readonly headers?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesSplitsActionReturnHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#type DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#type DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -7469,25 +7469,25 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesSplitsAc
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesSplitsAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#pass DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#pass DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#pass}
   */
   readonly pass?: string;
   /**
   * ActionProxy defines a proxy in an Action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#proxy DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#proxy DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#proxy}
   */
   readonly proxy?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesSplitsActionProxy;
   /**
   * ActionRedirect defines a redirect in an Action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#redirect DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#redirect DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#redirect}
   */
   readonly redirect?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesSplitsActionRedirect;
   /**
   * ActionReturn defines a return in an Action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#return DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#return}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#return DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#return}
   */
   readonly return?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesSplitsActionReturn;
 }
@@ -7670,11 +7670,11 @@ export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesSpli
   /**
   * Action defines an action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#action DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#action DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#action}
   */
   readonly action?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesSplitsAction;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#weight DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#weight DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -7821,39 +7821,39 @@ export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutes {
   /**
   * Action defines an action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#action DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#action DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#action}
   */
   readonly action?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesAction;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#dos DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#dos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#dos DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#dos}
   */
   readonly dos?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#error_pages DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#error_pages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#error_pages DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#error_pages}
   */
   readonly errorPages?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesErrorPages[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#location_snippets DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#location_snippets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#location_snippets DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#location_snippets}
   */
   readonly locationSnippets?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#matches DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#matches DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#matches}
   */
   readonly matches?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesMatches[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#path DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#path DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#policies DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#policies DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#policies}
   */
   readonly policies?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesPolicies[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#route DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#route DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#route}
   */
   readonly route?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#splits DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#splits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#splits DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#splits}
   */
   readonly splits?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesSplits[] | cdktf.IResolvable;
 }
@@ -8201,11 +8201,11 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutesList ext
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecUpstreamsBuffers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#number DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#number DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#number}
   */
   readonly number?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#size DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#size DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#size}
   */
   readonly size?: string;
 }
@@ -8328,11 +8328,11 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecUpstreamsBuffersO
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecUpstreamsHealthCheckHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#value DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -8477,7 +8477,7 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecUpstreamsHealthCh
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecUpstreamsHealthCheckTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#enable DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#enable DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -8571,77 +8571,77 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecUpstreamsHealthCh
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecUpstreamsHealthCheck {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#connect_timeout DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#connect_timeout DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#connect_timeout}
   */
   readonly connectTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#enable DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#enable DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#fails DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#fails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#fails DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#fails}
   */
   readonly fails?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#grpc_service DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#grpc_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#grpc_service DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#grpc_service}
   */
   readonly grpcService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#grpc_status DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#grpc_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#grpc_status DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#grpc_status}
   */
   readonly grpcStatus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#headers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#headers}
   */
   readonly headers?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecUpstreamsHealthCheckHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#interval DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#interval DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#interval}
   */
   readonly interval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#jitter DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#jitter DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#jitter}
   */
   readonly jitter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#keepalive_time DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#keepalive_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#keepalive_time DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#keepalive_time}
   */
   readonly keepaliveTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#mandatory DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#mandatory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#mandatory DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#mandatory}
   */
   readonly mandatory?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#passes DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#passes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#passes DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#passes}
   */
   readonly passes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#path DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#path DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#persistent DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#persistent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#persistent DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#persistent}
   */
   readonly persistent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#port DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#port DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#read_timeout DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#read_timeout DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#read_timeout}
   */
   readonly readTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#send_timeout DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#send_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#send_timeout DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#send_timeout}
   */
   readonly sendTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#status_match DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#status_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#status_match DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#status_match}
   */
   readonly statusMatch?: string;
   /**
   * UpstreamTLS defines a TLS configuration for an Upstream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#tls DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#tls DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#tls}
   */
   readonly tls?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecUpstreamsHealthCheckTls;
 }
@@ -9228,11 +9228,11 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecUpstreamsHealthCh
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecUpstreamsQueue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#size DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#size DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#size}
   */
   readonly size?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#timeout DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#timeout DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -9355,35 +9355,35 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecUpstreamsQueueOut
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecUpstreamsSessionCookie {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#domain DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#domain DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#enable DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#enable DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#expires DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#expires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#expires DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#expires}
   */
   readonly expires?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#http_only DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#http_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#http_only DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#http_only}
   */
   readonly httpOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#path DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#path DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#samesite DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#samesite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#samesite DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#samesite}
   */
   readonly samesite?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#secure DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#secure DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#secure}
   */
   readonly secure?: boolean | cdktf.IResolvable;
 }
@@ -9680,7 +9680,7 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecUpstreamsSessionC
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecUpstreamsTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#enable DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#enable DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -9774,129 +9774,129 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecUpstreamsTlsOutpu
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecUpstreams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#backup DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#backup DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#backup}
   */
   readonly backup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#backup_port DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#backup_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#backup_port DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#backup_port}
   */
   readonly backupPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#buffer_size DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#buffer_size DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#buffer_size}
   */
   readonly bufferSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#buffering DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#buffering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#buffering DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#buffering}
   */
   readonly buffering?: boolean | cdktf.IResolvable;
   /**
   * UpstreamBuffers defines Buffer Configuration for an Upstream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#buffers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#buffers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#buffers DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#buffers}
   */
   readonly buffers?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecUpstreamsBuffers;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#client_max_body_size DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#client_max_body_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#client_max_body_size DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#client_max_body_size}
   */
   readonly clientMaxBodySize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#connect_timeout DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#connect_timeout DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#connect_timeout}
   */
   readonly connectTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#fail_timeout DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#fail_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#fail_timeout DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#fail_timeout}
   */
   readonly failTimeout?: string;
   /**
   * HealthCheck defines the parameters for active Upstream HealthChecks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#health_check DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#health_check DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#health_check}
   */
   readonly healthCheck?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecUpstreamsHealthCheck;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#keepalive DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#keepalive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#keepalive DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#keepalive}
   */
   readonly keepalive?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#lb_method DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#lb_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#lb_method DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#lb_method}
   */
   readonly lbMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#max_conns DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#max_conns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#max_conns DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#max_conns}
   */
   readonly maxConns?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#max_fails DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#max_fails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#max_fails DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#max_fails}
   */
   readonly maxFails?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#next_upstream DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#next_upstream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#next_upstream DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#next_upstream}
   */
   readonly nextUpstream?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#next_upstream_timeout DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#next_upstream_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#next_upstream_timeout DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#next_upstream_timeout}
   */
   readonly nextUpstreamTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#next_upstream_tries DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#next_upstream_tries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#next_upstream_tries DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#next_upstream_tries}
   */
   readonly nextUpstreamTries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#ntlm DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#ntlm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#ntlm DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#ntlm}
   */
   readonly ntlm?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#port DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#port DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#port}
   */
   readonly port?: number;
   /**
   * UpstreamQueue defines Queue Configuration for an Upstream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#queue DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#queue DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#queue}
   */
   readonly queue?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecUpstreamsQueue;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#read_timeout DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#read_timeout DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#read_timeout}
   */
   readonly readTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#send_timeout DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#send_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#send_timeout DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#send_timeout}
   */
   readonly sendTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#service DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#service DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#service}
   */
   readonly service?: string;
   /**
   * SessionCookie defines the parameters for session persistence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#session_cookie DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#session_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#session_cookie DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#session_cookie}
   */
   readonly sessionCookie?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecUpstreamsSessionCookie;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#slow_start DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#slow_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#slow_start DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#slow_start}
   */
   readonly slowStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#subselector DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#subselector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#subselector DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#subselector}
   */
   readonly subselector?: { [key: string]: string };
   /**
   * UpstreamTLS defines a TLS configuration for an Upstream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#tls DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#tls DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#tls}
   */
   readonly tls?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecUpstreamsTls;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#type DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#type DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#use_cluster_ip DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#use_cluster_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#use_cluster_ip DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#use_cluster_ip}
   */
   readonly useClusterIp?: boolean | cdktf.IResolvable;
 }
@@ -10824,19 +10824,19 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecUpstreamsList ext
 }
 export interface DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#host DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#host DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#ingress_class_name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#ingress_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#ingress_class_name DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#ingress_class_name}
   */
   readonly ingressClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#subroutes DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#subroutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#subroutes DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#subroutes}
   */
   readonly subroutes?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecSubroutes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#upstreams DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#upstreams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#upstreams DataK8SK8SNginxOrgVirtualServerRouteV1Manifest#upstreams}
   */
   readonly upstreams?: DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecUpstreams[] | cdktf.IResolvable;
 }
@@ -11017,7 +11017,7 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1ManifestSpecOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest k8s_k8s_nginx_org_virtual_server_route_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest k8s_k8s_nginx_org_virtual_server_route_v1_manifest}
 */
 export class DataK8SK8SNginxOrgVirtualServerRouteV1Manifest extends cdktf.TerraformDataSource {
 
@@ -11033,7 +11033,7 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1Manifest extends cdktf.Terraf
   * Generates CDKTF code for importing a DataK8SK8SNginxOrgVirtualServerRouteV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SK8SNginxOrgVirtualServerRouteV1Manifest to import
-  * @param importFromId The id of the existing DataK8SK8SNginxOrgVirtualServerRouteV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SK8SNginxOrgVirtualServerRouteV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SK8SNginxOrgVirtualServerRouteV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -11045,7 +11045,7 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1Manifest extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest k8s_k8s_nginx_org_virtual_server_route_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/k8s_nginx_org_virtual_server_route_v1_manifest k8s_k8s_nginx_org_virtual_server_route_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -11056,8 +11056,8 @@ export class DataK8SK8SNginxOrgVirtualServerRouteV1Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_k8s_nginx_org_virtual_server_route_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

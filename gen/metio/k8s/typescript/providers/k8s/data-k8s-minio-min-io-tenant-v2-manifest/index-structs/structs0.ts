@@ -3,25 +3,25 @@ export interface DataK8SMinioMinIoTenantV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#annotations DataK8SMinioMinIoTenantV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#annotations DataK8SMinioMinIoTenantV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#labels DataK8SMinioMinIoTenantV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#labels DataK8SMinioMinIoTenantV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#namespace DataK8SMinioMinIoTenantV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#namespace DataK8SMinioMinIoTenantV2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -196,7 +196,7 @@ export class DataK8SMinioMinIoTenantV2ManifestMetadataOutputReference extends cd
 }
 export interface DataK8SMinioMinIoTenantV2ManifestScheduler {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name: string;
 }
@@ -287,31 +287,31 @@ export class DataK8SMinioMinIoTenantV2ManifestSchedulerOutputReference extends c
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#mount_path DataK8SMinioMinIoTenantV2Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#mount_path DataK8SMinioMinIoTenantV2Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#mount_propagation DataK8SMinioMinIoTenantV2Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#mount_propagation DataK8SMinioMinIoTenantV2Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#recursive_read_only DataK8SMinioMinIoTenantV2Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#recursive_read_only DataK8SMinioMinIoTenantV2Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#sub_path DataK8SMinioMinIoTenantV2Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#sub_path DataK8SMinioMinIoTenantV2Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#sub_path_expr DataK8SMinioMinIoTenantV2Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#sub_path_expr DataK8SMinioMinIoTenantV2Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -595,19 +595,19 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumeMountsList ext
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesAwsElasticBlockStore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#partition DataK8SMinioMinIoTenantV2Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#partition DataK8SMinioMinIoTenantV2Manifest#partition}
   */
   readonly partition?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_id DataK8SMinioMinIoTenantV2Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_id DataK8SMinioMinIoTenantV2Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -785,27 +785,27 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesAwsElasticBlo
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesAzureDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#caching_mode DataK8SMinioMinIoTenantV2Manifest#caching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#caching_mode DataK8SMinioMinIoTenantV2Manifest#caching_mode}
   */
   readonly cachingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#disk_name DataK8SMinioMinIoTenantV2Manifest#disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#disk_name DataK8SMinioMinIoTenantV2Manifest#disk_name}
   */
   readonly diskName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#disk_uri DataK8SMinioMinIoTenantV2Manifest#disk_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#disk_uri DataK8SMinioMinIoTenantV2Manifest#disk_uri}
   */
   readonly diskUri: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#kind DataK8SMinioMinIoTenantV2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#kind DataK8SMinioMinIoTenantV2Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -1038,15 +1038,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesAzureDiskOutp
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesAzureFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#secret_name DataK8SMinioMinIoTenantV2Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#secret_name DataK8SMinioMinIoTenantV2Manifest#secret_name}
   */
   readonly secretName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#share_name DataK8SMinioMinIoTenantV2Manifest#share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#share_name DataK8SMinioMinIoTenantV2Manifest#share_name}
   */
   readonly shareName: string;
 }
@@ -1192,7 +1192,7 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesAzureFileOutp
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesCephfsSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name?: string;
 }
@@ -1286,27 +1286,27 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesCephfsSecretR
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesCephfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#monitors DataK8SMinioMinIoTenantV2Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#monitors DataK8SMinioMinIoTenantV2Manifest#monitors}
   */
   readonly monitors: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#secret_file DataK8SMinioMinIoTenantV2Manifest#secret_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#secret_file DataK8SMinioMinIoTenantV2Manifest#secret_file}
   */
   readonly secretFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#secret_ref DataK8SMinioMinIoTenantV2Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#secret_ref DataK8SMinioMinIoTenantV2Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesCephfsSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#user DataK8SMinioMinIoTenantV2Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#user DataK8SMinioMinIoTenantV2Manifest#user}
   */
   readonly user?: string;
 }
@@ -1542,7 +1542,7 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesCephfsOutputR
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesCinderSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name?: string;
 }
@@ -1636,19 +1636,19 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesCinderSecretR
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesCinder {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#secret_ref DataK8SMinioMinIoTenantV2Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#secret_ref DataK8SMinioMinIoTenantV2Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesCinderSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_id DataK8SMinioMinIoTenantV2Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_id DataK8SMinioMinIoTenantV2Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -1826,15 +1826,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesCinderOutputR
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#mode DataK8SMinioMinIoTenantV2Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#mode DataK8SMinioMinIoTenantV2Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
   */
   readonly path: string;
 }
@@ -2002,19 +2002,19 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesConfigMapItem
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#default_mode DataK8SMinioMinIoTenantV2Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#default_mode DataK8SMinioMinIoTenantV2Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#items DataK8SMinioMinIoTenantV2Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#items DataK8SMinioMinIoTenantV2Manifest#items}
   */
   readonly items?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesConfigMapItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#optional DataK8SMinioMinIoTenantV2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#optional DataK8SMinioMinIoTenantV2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2195,7 +2195,7 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesConfigMapOutp
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesCsiNodePublishSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name?: string;
 }
@@ -2289,23 +2289,23 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesCsiNodePublis
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesCsi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#driver DataK8SMinioMinIoTenantV2Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#driver DataK8SMinioMinIoTenantV2Manifest#driver}
   */
   readonly driver: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#node_publish_secret_ref DataK8SMinioMinIoTenantV2Manifest#node_publish_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#node_publish_secret_ref DataK8SMinioMinIoTenantV2Manifest#node_publish_secret_ref}
   */
   readonly nodePublishSecretRef?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesCsiNodePublishSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_attributes DataK8SMinioMinIoTenantV2Manifest#volume_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_attributes DataK8SMinioMinIoTenantV2Manifest#volume_attributes}
   */
   readonly volumeAttributes?: { [key: string]: string };
 }
@@ -2512,11 +2512,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesCsiOutputRefe
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesDownwardApiItemsFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#api_version DataK8SMinioMinIoTenantV2Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#api_version DataK8SMinioMinIoTenantV2Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#field_path DataK8SMinioMinIoTenantV2Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#field_path DataK8SMinioMinIoTenantV2Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -2636,15 +2636,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesDownwardApiIt
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesDownwardApiItemsResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#container_name DataK8SMinioMinIoTenantV2Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#container_name DataK8SMinioMinIoTenantV2Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#divisor DataK8SMinioMinIoTenantV2Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#divisor DataK8SMinioMinIoTenantV2Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#resource DataK8SMinioMinIoTenantV2Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#resource DataK8SMinioMinIoTenantV2Manifest#resource}
   */
   readonly resource: string;
 }
@@ -2793,19 +2793,19 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesDownwardApiIt
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesDownwardApiItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#field_ref DataK8SMinioMinIoTenantV2Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#field_ref DataK8SMinioMinIoTenantV2Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesDownwardApiItemsFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#mode DataK8SMinioMinIoTenantV2Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#mode DataK8SMinioMinIoTenantV2Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#resource_field_ref DataK8SMinioMinIoTenantV2Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#resource_field_ref DataK8SMinioMinIoTenantV2Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesDownwardApiItemsResourceFieldRef;
 }
@@ -3005,11 +3005,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesDownwardApiIt
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesDownwardApi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#default_mode DataK8SMinioMinIoTenantV2Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#default_mode DataK8SMinioMinIoTenantV2Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#items DataK8SMinioMinIoTenantV2Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#items DataK8SMinioMinIoTenantV2Manifest#items}
   */
   readonly items?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -3132,11 +3132,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesDownwardApiOu
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEmptyDir {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#medium DataK8SMinioMinIoTenantV2Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#medium DataK8SMinioMinIoTenantV2Manifest#medium}
   */
   readonly medium?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#size_limit DataK8SMinioMinIoTenantV2Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#size_limit DataK8SMinioMinIoTenantV2Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -3259,23 +3259,23 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEmptyDirOutpu
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEphemeralVolumeClaimTemplateMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#annotations DataK8SMinioMinIoTenantV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#annotations DataK8SMinioMinIoTenantV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#finalizers DataK8SMinioMinIoTenantV2Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#finalizers DataK8SMinioMinIoTenantV2Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#labels DataK8SMinioMinIoTenantV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#labels DataK8SMinioMinIoTenantV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#namespace DataK8SMinioMinIoTenantV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#namespace DataK8SMinioMinIoTenantV2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -3485,15 +3485,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEphemeralVolu
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEphemeralVolumeClaimTemplateSpecDataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#api_group DataK8SMinioMinIoTenantV2Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#api_group DataK8SMinioMinIoTenantV2Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#kind DataK8SMinioMinIoTenantV2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#kind DataK8SMinioMinIoTenantV2Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name: string;
 }
@@ -3639,19 +3639,19 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEphemeralVolu
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEphemeralVolumeClaimTemplateSpecDataSourceRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#api_group DataK8SMinioMinIoTenantV2Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#api_group DataK8SMinioMinIoTenantV2Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#kind DataK8SMinioMinIoTenantV2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#kind DataK8SMinioMinIoTenantV2Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#namespace DataK8SMinioMinIoTenantV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#namespace DataK8SMinioMinIoTenantV2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -3826,11 +3826,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEphemeralVolu
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEphemeralVolumeClaimTemplateSpecResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#limits DataK8SMinioMinIoTenantV2Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#limits DataK8SMinioMinIoTenantV2Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#requests DataK8SMinioMinIoTenantV2Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#requests DataK8SMinioMinIoTenantV2Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -3953,15 +3953,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEphemeralVolu
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#operator DataK8SMinioMinIoTenantV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#operator DataK8SMinioMinIoTenantV2Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#values DataK8SMinioMinIoTenantV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#values DataK8SMinioMinIoTenantV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4129,11 +4129,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEphemeralVolu
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEphemeralVolumeClaimTemplateSpecSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#match_expressions DataK8SMinioMinIoTenantV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#match_expressions DataK8SMinioMinIoTenantV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#match_labels DataK8SMinioMinIoTenantV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#match_labels DataK8SMinioMinIoTenantV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4256,39 +4256,39 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEphemeralVolu
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEphemeralVolumeClaimTemplateSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#access_modes DataK8SMinioMinIoTenantV2Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#access_modes DataK8SMinioMinIoTenantV2Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#data_source DataK8SMinioMinIoTenantV2Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#data_source DataK8SMinioMinIoTenantV2Manifest#data_source}
   */
   readonly dataSource?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEphemeralVolumeClaimTemplateSpecDataSource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#data_source_ref DataK8SMinioMinIoTenantV2Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#data_source_ref DataK8SMinioMinIoTenantV2Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEphemeralVolumeClaimTemplateSpecDataSourceRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#resources DataK8SMinioMinIoTenantV2Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#resources DataK8SMinioMinIoTenantV2Manifest#resources}
   */
   readonly resources?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEphemeralVolumeClaimTemplateSpecResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#selector DataK8SMinioMinIoTenantV2Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#selector DataK8SMinioMinIoTenantV2Manifest#selector}
   */
   readonly selector?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEphemeralVolumeClaimTemplateSpecSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#storage_class_name DataK8SMinioMinIoTenantV2Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#storage_class_name DataK8SMinioMinIoTenantV2Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_attributes_class_name DataK8SMinioMinIoTenantV2Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_attributes_class_name DataK8SMinioMinIoTenantV2Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_mode DataK8SMinioMinIoTenantV2Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_mode DataK8SMinioMinIoTenantV2Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_name DataK8SMinioMinIoTenantV2Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_name DataK8SMinioMinIoTenantV2Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -4614,11 +4614,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEphemeralVolu
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEphemeralVolumeClaimTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#metadata DataK8SMinioMinIoTenantV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#metadata DataK8SMinioMinIoTenantV2Manifest#metadata}
   */
   readonly metadata?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEphemeralVolumeClaimTemplateMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#spec DataK8SMinioMinIoTenantV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#spec DataK8SMinioMinIoTenantV2Manifest#spec}
   */
   readonly spec: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEphemeralVolumeClaimTemplateSpec;
 }
@@ -4738,7 +4738,7 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEphemeralVolu
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEphemeral {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_claim_template DataK8SMinioMinIoTenantV2Manifest#volume_claim_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_claim_template DataK8SMinioMinIoTenantV2Manifest#volume_claim_template}
   */
   readonly volumeClaimTemplate?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEphemeralVolumeClaimTemplate;
 }
@@ -4832,23 +4832,23 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEphemeralOutp
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesFc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#lun DataK8SMinioMinIoTenantV2Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#lun DataK8SMinioMinIoTenantV2Manifest#lun}
   */
   readonly lun?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#target_ww_ns DataK8SMinioMinIoTenantV2Manifest#target_ww_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#target_ww_ns DataK8SMinioMinIoTenantV2Manifest#target_ww_ns}
   */
   readonly targetWwNs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#wwids DataK8SMinioMinIoTenantV2Manifest#wwids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#wwids DataK8SMinioMinIoTenantV2Manifest#wwids}
   */
   readonly wwids?: string[];
 }
@@ -5058,7 +5058,7 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesFcOutputRefer
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesFlexVolumeSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name?: string;
 }
@@ -5152,23 +5152,23 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesFlexVolumeSec
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesFlexVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#driver DataK8SMinioMinIoTenantV2Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#driver DataK8SMinioMinIoTenantV2Manifest#driver}
   */
   readonly driver: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#options DataK8SMinioMinIoTenantV2Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#options DataK8SMinioMinIoTenantV2Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#secret_ref DataK8SMinioMinIoTenantV2Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#secret_ref DataK8SMinioMinIoTenantV2Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesFlexVolumeSecretRef;
 }
@@ -5375,11 +5375,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesFlexVolumeOut
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesFlocker {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#dataset_name DataK8SMinioMinIoTenantV2Manifest#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#dataset_name DataK8SMinioMinIoTenantV2Manifest#dataset_name}
   */
   readonly datasetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#dataset_uuid DataK8SMinioMinIoTenantV2Manifest#dataset_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#dataset_uuid DataK8SMinioMinIoTenantV2Manifest#dataset_uuid}
   */
   readonly datasetUuid?: string;
 }
@@ -5502,19 +5502,19 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesFlockerOutput
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesGcePersistentDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#partition DataK8SMinioMinIoTenantV2Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#partition DataK8SMinioMinIoTenantV2Manifest#partition}
   */
   readonly partition?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#pd_name DataK8SMinioMinIoTenantV2Manifest#pd_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#pd_name DataK8SMinioMinIoTenantV2Manifest#pd_name}
   */
   readonly pdName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -5692,15 +5692,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesGcePersistent
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesGitRepo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#directory DataK8SMinioMinIoTenantV2Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#directory DataK8SMinioMinIoTenantV2Manifest#directory}
   */
   readonly directory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#repository DataK8SMinioMinIoTenantV2Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#repository DataK8SMinioMinIoTenantV2Manifest#repository}
   */
   readonly repository: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#revision DataK8SMinioMinIoTenantV2Manifest#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#revision DataK8SMinioMinIoTenantV2Manifest#revision}
   */
   readonly revision?: string;
 }
@@ -5849,15 +5849,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesGitRepoOutput
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesGlusterfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#endpoints DataK8SMinioMinIoTenantV2Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#endpoints DataK8SMinioMinIoTenantV2Manifest#endpoints}
   */
   readonly endpoints: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -6003,11 +6003,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesGlusterfsOutp
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesHostPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#type DataK8SMinioMinIoTenantV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#type DataK8SMinioMinIoTenantV2Manifest#type}
   */
   readonly type?: string;
 }
@@ -6127,7 +6127,7 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesHostPathOutpu
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesIscsiSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name?: string;
 }
@@ -6221,47 +6221,47 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesIscsiSecretRe
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesIscsi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#chap_auth_discovery DataK8SMinioMinIoTenantV2Manifest#chap_auth_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#chap_auth_discovery DataK8SMinioMinIoTenantV2Manifest#chap_auth_discovery}
   */
   readonly chapAuthDiscovery?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#chap_auth_session DataK8SMinioMinIoTenantV2Manifest#chap_auth_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#chap_auth_session DataK8SMinioMinIoTenantV2Manifest#chap_auth_session}
   */
   readonly chapAuthSession?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#initiator_name DataK8SMinioMinIoTenantV2Manifest#initiator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#initiator_name DataK8SMinioMinIoTenantV2Manifest#initiator_name}
   */
   readonly initiatorName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#iqn DataK8SMinioMinIoTenantV2Manifest#iqn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#iqn DataK8SMinioMinIoTenantV2Manifest#iqn}
   */
   readonly iqn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#iscsi_interface DataK8SMinioMinIoTenantV2Manifest#iscsi_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#iscsi_interface DataK8SMinioMinIoTenantV2Manifest#iscsi_interface}
   */
   readonly iscsiInterface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#lun DataK8SMinioMinIoTenantV2Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#lun DataK8SMinioMinIoTenantV2Manifest#lun}
   */
   readonly lun: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#portals DataK8SMinioMinIoTenantV2Manifest#portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#portals DataK8SMinioMinIoTenantV2Manifest#portals}
   */
   readonly portals?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#secret_ref DataK8SMinioMinIoTenantV2Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#secret_ref DataK8SMinioMinIoTenantV2Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesIscsiSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#target_portal DataK8SMinioMinIoTenantV2Manifest#target_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#target_portal DataK8SMinioMinIoTenantV2Manifest#target_portal}
   */
   readonly targetPortal: string;
 }
@@ -6636,15 +6636,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesIscsiOutputRe
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesNfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#server DataK8SMinioMinIoTenantV2Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#server DataK8SMinioMinIoTenantV2Manifest#server}
   */
   readonly server: string;
 }
@@ -6790,11 +6790,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesNfsOutputRefe
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesPersistentVolumeClaim {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#claim_name DataK8SMinioMinIoTenantV2Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#claim_name DataK8SMinioMinIoTenantV2Manifest#claim_name}
   */
   readonly claimName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -6914,11 +6914,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesPersistentVol
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesPhotonPersistentDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#pd_id DataK8SMinioMinIoTenantV2Manifest#pd_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#pd_id DataK8SMinioMinIoTenantV2Manifest#pd_id}
   */
   readonly pdId: string;
 }
@@ -7038,15 +7038,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesPhotonPersist
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesPortworxVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_id DataK8SMinioMinIoTenantV2Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_id DataK8SMinioMinIoTenantV2Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -7195,15 +7195,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesPortworxVolum
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSourcesClusterTrustBundleLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#operator DataK8SMinioMinIoTenantV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#operator DataK8SMinioMinIoTenantV2Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#values DataK8SMinioMinIoTenantV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#values DataK8SMinioMinIoTenantV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7371,11 +7371,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSour
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSourcesClusterTrustBundleLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#match_expressions DataK8SMinioMinIoTenantV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#match_expressions DataK8SMinioMinIoTenantV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSourcesClusterTrustBundleLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#match_labels DataK8SMinioMinIoTenantV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#match_labels DataK8SMinioMinIoTenantV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -7498,23 +7498,23 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSour
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSourcesClusterTrustBundle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#label_selector DataK8SMinioMinIoTenantV2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#label_selector DataK8SMinioMinIoTenantV2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSourcesClusterTrustBundleLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#optional DataK8SMinioMinIoTenantV2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#optional DataK8SMinioMinIoTenantV2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#signer_name DataK8SMinioMinIoTenantV2Manifest#signer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#signer_name DataK8SMinioMinIoTenantV2Manifest#signer_name}
   */
   readonly signerName?: string;
 }
@@ -7721,15 +7721,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSour
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSourcesConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#mode DataK8SMinioMinIoTenantV2Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#mode DataK8SMinioMinIoTenantV2Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
   */
   readonly path: string;
 }
@@ -7897,15 +7897,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSour
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSourcesConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#items DataK8SMinioMinIoTenantV2Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#items DataK8SMinioMinIoTenantV2Manifest#items}
   */
   readonly items?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSourcesConfigMapItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#optional DataK8SMinioMinIoTenantV2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#optional DataK8SMinioMinIoTenantV2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8057,11 +8057,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSour
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSourcesDownwardApiItemsFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#api_version DataK8SMinioMinIoTenantV2Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#api_version DataK8SMinioMinIoTenantV2Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#field_path DataK8SMinioMinIoTenantV2Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#field_path DataK8SMinioMinIoTenantV2Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -8181,15 +8181,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSour
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSourcesDownwardApiItemsResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#container_name DataK8SMinioMinIoTenantV2Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#container_name DataK8SMinioMinIoTenantV2Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#divisor DataK8SMinioMinIoTenantV2Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#divisor DataK8SMinioMinIoTenantV2Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#resource DataK8SMinioMinIoTenantV2Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#resource DataK8SMinioMinIoTenantV2Manifest#resource}
   */
   readonly resource: string;
 }
@@ -8338,19 +8338,19 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSour
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSourcesDownwardApiItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#field_ref DataK8SMinioMinIoTenantV2Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#field_ref DataK8SMinioMinIoTenantV2Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSourcesDownwardApiItemsFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#mode DataK8SMinioMinIoTenantV2Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#mode DataK8SMinioMinIoTenantV2Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#resource_field_ref DataK8SMinioMinIoTenantV2Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#resource_field_ref DataK8SMinioMinIoTenantV2Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSourcesDownwardApiItemsResourceFieldRef;
 }
@@ -8550,7 +8550,7 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSour
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSourcesDownwardApi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#items DataK8SMinioMinIoTenantV2Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#items DataK8SMinioMinIoTenantV2Manifest#items}
   */
   readonly items?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSourcesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -8644,15 +8644,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSour
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSourcesSecretItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#mode DataK8SMinioMinIoTenantV2Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#mode DataK8SMinioMinIoTenantV2Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
   */
   readonly path: string;
 }
@@ -8820,15 +8820,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSour
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSourcesSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#items DataK8SMinioMinIoTenantV2Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#items DataK8SMinioMinIoTenantV2Manifest#items}
   */
   readonly items?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSourcesSecretItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#optional DataK8SMinioMinIoTenantV2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#optional DataK8SMinioMinIoTenantV2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8980,15 +8980,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSour
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSourcesServiceAccountToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#audience DataK8SMinioMinIoTenantV2Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#audience DataK8SMinioMinIoTenantV2Manifest#audience}
   */
   readonly audience?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#expiration_seconds DataK8SMinioMinIoTenantV2Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#expiration_seconds DataK8SMinioMinIoTenantV2Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
   */
   readonly path: string;
 }
@@ -9137,23 +9137,23 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSour
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#cluster_trust_bundle DataK8SMinioMinIoTenantV2Manifest#cluster_trust_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#cluster_trust_bundle DataK8SMinioMinIoTenantV2Manifest#cluster_trust_bundle}
   */
   readonly clusterTrustBundle?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSourcesClusterTrustBundle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#config_map DataK8SMinioMinIoTenantV2Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#config_map DataK8SMinioMinIoTenantV2Manifest#config_map}
   */
   readonly configMap?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSourcesConfigMap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#downward_api DataK8SMinioMinIoTenantV2Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#downward_api DataK8SMinioMinIoTenantV2Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSourcesDownwardApi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#secret DataK8SMinioMinIoTenantV2Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#secret DataK8SMinioMinIoTenantV2Manifest#secret}
   */
   readonly secret?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSourcesSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#service_account_token DataK8SMinioMinIoTenantV2Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#service_account_token DataK8SMinioMinIoTenantV2Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSourcesServiceAccountToken;
 }
@@ -9385,11 +9385,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSour
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjected {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#default_mode DataK8SMinioMinIoTenantV2Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#default_mode DataK8SMinioMinIoTenantV2Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#sources DataK8SMinioMinIoTenantV2Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#sources DataK8SMinioMinIoTenantV2Manifest#sources}
   */
   readonly sources?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedSources[] | cdktf.IResolvable;
 }
@@ -9512,27 +9512,27 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjectedOutp
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesQuobyte {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#group DataK8SMinioMinIoTenantV2Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#group DataK8SMinioMinIoTenantV2Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#registry DataK8SMinioMinIoTenantV2Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#registry DataK8SMinioMinIoTenantV2Manifest#registry}
   */
   readonly registry: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#tenant DataK8SMinioMinIoTenantV2Manifest#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#tenant DataK8SMinioMinIoTenantV2Manifest#tenant}
   */
   readonly tenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#user DataK8SMinioMinIoTenantV2Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#user DataK8SMinioMinIoTenantV2Manifest#user}
   */
   readonly user?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#volume DataK8SMinioMinIoTenantV2Manifest#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#volume DataK8SMinioMinIoTenantV2Manifest#volume}
   */
   readonly volume: string;
 }
@@ -9765,7 +9765,7 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesQuobyteOutput
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesRbdSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name?: string;
 }
@@ -9859,35 +9859,35 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesRbdSecretRefO
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesRbd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#image DataK8SMinioMinIoTenantV2Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#image DataK8SMinioMinIoTenantV2Manifest#image}
   */
   readonly image: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#keyring DataK8SMinioMinIoTenantV2Manifest#keyring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#keyring DataK8SMinioMinIoTenantV2Manifest#keyring}
   */
   readonly keyring?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#monitors DataK8SMinioMinIoTenantV2Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#monitors DataK8SMinioMinIoTenantV2Manifest#monitors}
   */
   readonly monitors: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#pool DataK8SMinioMinIoTenantV2Manifest#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#pool DataK8SMinioMinIoTenantV2Manifest#pool}
   */
   readonly pool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#secret_ref DataK8SMinioMinIoTenantV2Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#secret_ref DataK8SMinioMinIoTenantV2Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesRbdSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#user DataK8SMinioMinIoTenantV2Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#user DataK8SMinioMinIoTenantV2Manifest#user}
   */
   readonly user?: string;
 }
@@ -10178,7 +10178,7 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesRbdOutputRefe
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesScaleIoSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name?: string;
 }
@@ -10272,43 +10272,43 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesScaleIoSecret
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesScaleIo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#gateway DataK8SMinioMinIoTenantV2Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#gateway DataK8SMinioMinIoTenantV2Manifest#gateway}
   */
   readonly gateway: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#protection_domain DataK8SMinioMinIoTenantV2Manifest#protection_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#protection_domain DataK8SMinioMinIoTenantV2Manifest#protection_domain}
   */
   readonly protectionDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#secret_ref DataK8SMinioMinIoTenantV2Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#secret_ref DataK8SMinioMinIoTenantV2Manifest#secret_ref}
   */
   readonly secretRef: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesScaleIoSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#ssl_enabled DataK8SMinioMinIoTenantV2Manifest#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#ssl_enabled DataK8SMinioMinIoTenantV2Manifest#ssl_enabled}
   */
   readonly sslEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#storage_mode DataK8SMinioMinIoTenantV2Manifest#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#storage_mode DataK8SMinioMinIoTenantV2Manifest#storage_mode}
   */
   readonly storageMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#storage_pool DataK8SMinioMinIoTenantV2Manifest#storage_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#storage_pool DataK8SMinioMinIoTenantV2Manifest#storage_pool}
   */
   readonly storagePool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#system DataK8SMinioMinIoTenantV2Manifest#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#system DataK8SMinioMinIoTenantV2Manifest#system}
   */
   readonly systemAttribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_name DataK8SMinioMinIoTenantV2Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_name DataK8SMinioMinIoTenantV2Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -10654,15 +10654,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesScaleIoOutput
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesSecretItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#mode DataK8SMinioMinIoTenantV2Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#mode DataK8SMinioMinIoTenantV2Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
   */
   readonly path: string;
 }
@@ -10830,19 +10830,19 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesSecretItemsLi
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#default_mode DataK8SMinioMinIoTenantV2Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#default_mode DataK8SMinioMinIoTenantV2Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#items DataK8SMinioMinIoTenantV2Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#items DataK8SMinioMinIoTenantV2Manifest#items}
   */
   readonly items?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesSecretItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#optional DataK8SMinioMinIoTenantV2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#optional DataK8SMinioMinIoTenantV2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#secret_name DataK8SMinioMinIoTenantV2Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#secret_name DataK8SMinioMinIoTenantV2Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -11023,7 +11023,7 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesSecretOutputR
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesStorageosSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name?: string;
 }
@@ -11117,23 +11117,23 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesStorageosSecr
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesStorageos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#secret_ref DataK8SMinioMinIoTenantV2Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#secret_ref DataK8SMinioMinIoTenantV2Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesStorageosSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_name DataK8SMinioMinIoTenantV2Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_name DataK8SMinioMinIoTenantV2Manifest#volume_name}
   */
   readonly volumeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_namespace DataK8SMinioMinIoTenantV2Manifest#volume_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_namespace DataK8SMinioMinIoTenantV2Manifest#volume_namespace}
   */
   readonly volumeNamespace?: string;
 }
@@ -11343,19 +11343,19 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesStorageosOutp
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesVsphereVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#fs_type DataK8SMinioMinIoTenantV2Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#storage_policy_id DataK8SMinioMinIoTenantV2Manifest#storage_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#storage_policy_id DataK8SMinioMinIoTenantV2Manifest#storage_policy_id}
   */
   readonly storagePolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#storage_policy_name DataK8SMinioMinIoTenantV2Manifest#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#storage_policy_name DataK8SMinioMinIoTenantV2Manifest#storage_policy_name}
   */
   readonly storagePolicyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_path DataK8SMinioMinIoTenantV2Manifest#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_path DataK8SMinioMinIoTenantV2Manifest#volume_path}
   */
   readonly volumePath: string;
 }
@@ -11533,123 +11533,123 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesVsphereVolume
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#aws_elastic_block_store DataK8SMinioMinIoTenantV2Manifest#aws_elastic_block_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#aws_elastic_block_store DataK8SMinioMinIoTenantV2Manifest#aws_elastic_block_store}
   */
   readonly awsElasticBlockStore?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesAwsElasticBlockStore;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#azure_disk DataK8SMinioMinIoTenantV2Manifest#azure_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#azure_disk DataK8SMinioMinIoTenantV2Manifest#azure_disk}
   */
   readonly azureDisk?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesAzureDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#azure_file DataK8SMinioMinIoTenantV2Manifest#azure_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#azure_file DataK8SMinioMinIoTenantV2Manifest#azure_file}
   */
   readonly azureFile?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesAzureFile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#cephfs DataK8SMinioMinIoTenantV2Manifest#cephfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#cephfs DataK8SMinioMinIoTenantV2Manifest#cephfs}
   */
   readonly cephfs?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesCephfs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#cinder DataK8SMinioMinIoTenantV2Manifest#cinder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#cinder DataK8SMinioMinIoTenantV2Manifest#cinder}
   */
   readonly cinder?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesCinder;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#config_map DataK8SMinioMinIoTenantV2Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#config_map DataK8SMinioMinIoTenantV2Manifest#config_map}
   */
   readonly configMap?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesConfigMap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#csi DataK8SMinioMinIoTenantV2Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#csi DataK8SMinioMinIoTenantV2Manifest#csi}
   */
   readonly csi?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesCsi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#downward_api DataK8SMinioMinIoTenantV2Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#downward_api DataK8SMinioMinIoTenantV2Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesDownwardApi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#empty_dir DataK8SMinioMinIoTenantV2Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#empty_dir DataK8SMinioMinIoTenantV2Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEmptyDir;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#ephemeral DataK8SMinioMinIoTenantV2Manifest#ephemeral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#ephemeral DataK8SMinioMinIoTenantV2Manifest#ephemeral}
   */
   readonly ephemeral?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesEphemeral;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#fc DataK8SMinioMinIoTenantV2Manifest#fc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#fc DataK8SMinioMinIoTenantV2Manifest#fc}
   */
   readonly fc?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesFc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#flex_volume DataK8SMinioMinIoTenantV2Manifest#flex_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#flex_volume DataK8SMinioMinIoTenantV2Manifest#flex_volume}
   */
   readonly flexVolume?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesFlexVolume;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#flocker DataK8SMinioMinIoTenantV2Manifest#flocker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#flocker DataK8SMinioMinIoTenantV2Manifest#flocker}
   */
   readonly flocker?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesFlocker;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#gce_persistent_disk DataK8SMinioMinIoTenantV2Manifest#gce_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#gce_persistent_disk DataK8SMinioMinIoTenantV2Manifest#gce_persistent_disk}
   */
   readonly gcePersistentDisk?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesGcePersistentDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#git_repo DataK8SMinioMinIoTenantV2Manifest#git_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#git_repo DataK8SMinioMinIoTenantV2Manifest#git_repo}
   */
   readonly gitRepo?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesGitRepo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#glusterfs DataK8SMinioMinIoTenantV2Manifest#glusterfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#glusterfs DataK8SMinioMinIoTenantV2Manifest#glusterfs}
   */
   readonly glusterfs?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesGlusterfs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#host_path DataK8SMinioMinIoTenantV2Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#host_path DataK8SMinioMinIoTenantV2Manifest#host_path}
   */
   readonly hostPath?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesHostPath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#iscsi DataK8SMinioMinIoTenantV2Manifest#iscsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#iscsi DataK8SMinioMinIoTenantV2Manifest#iscsi}
   */
   readonly iscsi?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesIscsi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#nfs DataK8SMinioMinIoTenantV2Manifest#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#nfs DataK8SMinioMinIoTenantV2Manifest#nfs}
   */
   readonly nfs?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesNfs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#persistent_volume_claim DataK8SMinioMinIoTenantV2Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#persistent_volume_claim DataK8SMinioMinIoTenantV2Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesPersistentVolumeClaim;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#photon_persistent_disk DataK8SMinioMinIoTenantV2Manifest#photon_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#photon_persistent_disk DataK8SMinioMinIoTenantV2Manifest#photon_persistent_disk}
   */
   readonly photonPersistentDisk?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesPhotonPersistentDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#portworx_volume DataK8SMinioMinIoTenantV2Manifest#portworx_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#portworx_volume DataK8SMinioMinIoTenantV2Manifest#portworx_volume}
   */
   readonly portworxVolume?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesPortworxVolume;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#projected DataK8SMinioMinIoTenantV2Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#projected DataK8SMinioMinIoTenantV2Manifest#projected}
   */
   readonly projected?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesProjected;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#quobyte DataK8SMinioMinIoTenantV2Manifest#quobyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#quobyte DataK8SMinioMinIoTenantV2Manifest#quobyte}
   */
   readonly quobyte?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesQuobyte;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#rbd DataK8SMinioMinIoTenantV2Manifest#rbd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#rbd DataK8SMinioMinIoTenantV2Manifest#rbd}
   */
   readonly rbd?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesRbd;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#scale_io DataK8SMinioMinIoTenantV2Manifest#scale_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#scale_io DataK8SMinioMinIoTenantV2Manifest#scale_io}
   */
   readonly scaleIo?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesScaleIo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#secret DataK8SMinioMinIoTenantV2Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#secret DataK8SMinioMinIoTenantV2Manifest#secret}
   */
   readonly secret?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#storageos DataK8SMinioMinIoTenantV2Manifest#storageos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#storageos DataK8SMinioMinIoTenantV2Manifest#storageos}
   */
   readonly storageos?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesStorageos;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#vsphere_volume DataK8SMinioMinIoTenantV2Manifest#vsphere_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#vsphere_volume DataK8SMinioMinIoTenantV2Manifest#vsphere_volume}
   */
   readonly vsphereVolume?: DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesVsphereVolume;
 }
@@ -12603,15 +12603,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecAdditionalVolumesList extends 
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecBuckets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#object_lock DataK8SMinioMinIoTenantV2Manifest#object_lock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#object_lock DataK8SMinioMinIoTenantV2Manifest#object_lock}
   */
   readonly objectLock?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#region DataK8SMinioMinIoTenantV2Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#region DataK8SMinioMinIoTenantV2Manifest#region}
   */
   readonly region?: string;
 }
@@ -12785,15 +12785,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecBucketsList extends cdktf.Comp
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecCertConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#common_name DataK8SMinioMinIoTenantV2Manifest#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#common_name DataK8SMinioMinIoTenantV2Manifest#common_name}
   */
   readonly commonName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#dns_names DataK8SMinioMinIoTenantV2Manifest#dns_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#dns_names DataK8SMinioMinIoTenantV2Manifest#dns_names}
   */
   readonly dnsNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#organization_name DataK8SMinioMinIoTenantV2Manifest#organization_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#organization_name DataK8SMinioMinIoTenantV2Manifest#organization_name}
   */
   readonly organizationName?: string[];
 }
@@ -12945,7 +12945,7 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecCertConfigOutputReference exte
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name?: string;
 }
@@ -13039,15 +13039,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecConfigurationOutputReference e
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#optional DataK8SMinioMinIoTenantV2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#optional DataK8SMinioMinIoTenantV2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13196,11 +13196,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecEnvValueFromConfigMapKeyRefOut
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#api_version DataK8SMinioMinIoTenantV2Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#api_version DataK8SMinioMinIoTenantV2Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#field_path DataK8SMinioMinIoTenantV2Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#field_path DataK8SMinioMinIoTenantV2Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -13320,15 +13320,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecEnvValueFromFieldRefOutputRefe
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#container_name DataK8SMinioMinIoTenantV2Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#container_name DataK8SMinioMinIoTenantV2Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#divisor DataK8SMinioMinIoTenantV2Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#divisor DataK8SMinioMinIoTenantV2Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#resource DataK8SMinioMinIoTenantV2Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#resource DataK8SMinioMinIoTenantV2Manifest#resource}
   */
   readonly resource: string;
 }
@@ -13477,15 +13477,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecEnvValueFromResourceFieldRefOu
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#optional DataK8SMinioMinIoTenantV2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#optional DataK8SMinioMinIoTenantV2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13634,19 +13634,19 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecEnvValueFromSecretKeyRefOutput
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#config_map_key_ref DataK8SMinioMinIoTenantV2Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#config_map_key_ref DataK8SMinioMinIoTenantV2Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SMinioMinIoTenantV2ManifestSpecEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#field_ref DataK8SMinioMinIoTenantV2Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#field_ref DataK8SMinioMinIoTenantV2Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SMinioMinIoTenantV2ManifestSpecEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#resource_field_ref DataK8SMinioMinIoTenantV2Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#resource_field_ref DataK8SMinioMinIoTenantV2Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SMinioMinIoTenantV2ManifestSpecEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#secret_key_ref DataK8SMinioMinIoTenantV2Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#secret_key_ref DataK8SMinioMinIoTenantV2Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SMinioMinIoTenantV2ManifestSpecEnvValueFromSecretKeyRef;
 }
@@ -13827,15 +13827,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecEnvValueFromOutputReference ex
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#value DataK8SMinioMinIoTenantV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#value DataK8SMinioMinIoTenantV2Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#value_from DataK8SMinioMinIoTenantV2Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#value_from DataK8SMinioMinIoTenantV2Manifest#value_from}
   */
   readonly valueFrom?: DataK8SMinioMinIoTenantV2ManifestSpecEnvValueFrom;
 }
@@ -14006,11 +14006,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecEnvList extends cdktf.ComplexL
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecExposeServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#console DataK8SMinioMinIoTenantV2Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#console DataK8SMinioMinIoTenantV2Manifest#console}
   */
   readonly console?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#minio DataK8SMinioMinIoTenantV2Manifest#minio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#minio DataK8SMinioMinIoTenantV2Manifest#minio}
   */
   readonly minio?: boolean | cdktf.IResolvable;
 }
@@ -14133,11 +14133,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecExposeServicesOutputReference 
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecExternalCaCertSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#type DataK8SMinioMinIoTenantV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#type DataK8SMinioMinIoTenantV2Manifest#type}
   */
   readonly type?: string;
 }
@@ -14279,11 +14279,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecExternalCaCertSecretList exten
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecExternalCertSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#type DataK8SMinioMinIoTenantV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#type DataK8SMinioMinIoTenantV2Manifest#type}
   */
   readonly type?: string;
 }
@@ -14425,11 +14425,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecExternalCertSecretList extends
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecExternalClientCertSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#type DataK8SMinioMinIoTenantV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#type DataK8SMinioMinIoTenantV2Manifest#type}
   */
   readonly type?: string;
 }
@@ -14549,11 +14549,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecExternalClientCertSecretOutput
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecExternalClientCertSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#type DataK8SMinioMinIoTenantV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#type DataK8SMinioMinIoTenantV2Manifest#type}
   */
   readonly type?: string;
 }
@@ -14695,11 +14695,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecExternalClientCertSecretsList 
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecFeaturesDomains {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#console DataK8SMinioMinIoTenantV2Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#console DataK8SMinioMinIoTenantV2Manifest#console}
   */
   readonly console?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#minio DataK8SMinioMinIoTenantV2Manifest#minio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#minio DataK8SMinioMinIoTenantV2Manifest#minio}
   */
   readonly minio?: string[];
 }
@@ -14822,15 +14822,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecFeaturesDomainsOutputReference
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecFeatures {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#bucket_dns DataK8SMinioMinIoTenantV2Manifest#bucket_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#bucket_dns DataK8SMinioMinIoTenantV2Manifest#bucket_dns}
   */
   readonly bucketDns?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#domains DataK8SMinioMinIoTenantV2Manifest#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#domains DataK8SMinioMinIoTenantV2Manifest#domains}
   */
   readonly domains?: DataK8SMinioMinIoTenantV2ManifestSpecFeaturesDomains;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#enable_sftp DataK8SMinioMinIoTenantV2Manifest#enable_sftp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#enable_sftp DataK8SMinioMinIoTenantV2Manifest#enable_sftp}
   */
   readonly enableSftp?: boolean | cdktf.IResolvable;
 }
@@ -14982,7 +14982,7 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecFeaturesOutputReference extend
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecImagePullSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name?: string;
 }
@@ -15076,15 +15076,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecImagePullSecretOutputReference
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#optional DataK8SMinioMinIoTenantV2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#optional DataK8SMinioMinIoTenantV2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -15233,11 +15233,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersEnvValueFromConf
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#api_version DataK8SMinioMinIoTenantV2Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#api_version DataK8SMinioMinIoTenantV2Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#field_path DataK8SMinioMinIoTenantV2Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#field_path DataK8SMinioMinIoTenantV2Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -15357,15 +15357,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersEnvValueFromFiel
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#container_name DataK8SMinioMinIoTenantV2Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#container_name DataK8SMinioMinIoTenantV2Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#divisor DataK8SMinioMinIoTenantV2Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#divisor DataK8SMinioMinIoTenantV2Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#resource DataK8SMinioMinIoTenantV2Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#resource DataK8SMinioMinIoTenantV2Manifest#resource}
   */
   readonly resource: string;
 }
@@ -15514,15 +15514,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersEnvValueFromReso
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#optional DataK8SMinioMinIoTenantV2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#optional DataK8SMinioMinIoTenantV2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -15671,19 +15671,19 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersEnvValueFromSecr
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#config_map_key_ref DataK8SMinioMinIoTenantV2Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#config_map_key_ref DataK8SMinioMinIoTenantV2Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#field_ref DataK8SMinioMinIoTenantV2Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#field_ref DataK8SMinioMinIoTenantV2Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#resource_field_ref DataK8SMinioMinIoTenantV2Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#resource_field_ref DataK8SMinioMinIoTenantV2Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#secret_key_ref DataK8SMinioMinIoTenantV2Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#secret_key_ref DataK8SMinioMinIoTenantV2Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersEnvValueFromSecretKeyRef;
 }
@@ -15864,15 +15864,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersEnvValueFromOutp
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#value DataK8SMinioMinIoTenantV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#value DataK8SMinioMinIoTenantV2Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#value_from DataK8SMinioMinIoTenantV2Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#value_from DataK8SMinioMinIoTenantV2Manifest#value_from}
   */
   readonly valueFrom?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersEnvValueFrom;
 }
@@ -16043,11 +16043,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersEnvList extends 
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#optional DataK8SMinioMinIoTenantV2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#optional DataK8SMinioMinIoTenantV2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16170,11 +16170,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersEnvFromConfigMap
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#optional DataK8SMinioMinIoTenantV2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#optional DataK8SMinioMinIoTenantV2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16297,15 +16297,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersEnvFromSecretRef
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#config_map_ref DataK8SMinioMinIoTenantV2Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#config_map_ref DataK8SMinioMinIoTenantV2Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#prefix DataK8SMinioMinIoTenantV2Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#prefix DataK8SMinioMinIoTenantV2Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#secret_ref DataK8SMinioMinIoTenantV2Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#secret_ref DataK8SMinioMinIoTenantV2Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersEnvFromSecretRef;
 }
@@ -16479,7 +16479,7 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersEnvFromList exte
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePostStartExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#command DataK8SMinioMinIoTenantV2Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#command DataK8SMinioMinIoTenantV2Manifest#command}
   */
   readonly command?: string[];
 }
@@ -16573,11 +16573,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePostSta
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePostStartHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#value DataK8SMinioMinIoTenantV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#value DataK8SMinioMinIoTenantV2Manifest#value}
   */
   readonly value: string;
 }
@@ -16716,23 +16716,23 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePostSta
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePostStartHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#host DataK8SMinioMinIoTenantV2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#host DataK8SMinioMinIoTenantV2Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#http_headers DataK8SMinioMinIoTenantV2Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#http_headers DataK8SMinioMinIoTenantV2Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#port DataK8SMinioMinIoTenantV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#port DataK8SMinioMinIoTenantV2Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#scheme DataK8SMinioMinIoTenantV2Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#scheme DataK8SMinioMinIoTenantV2Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -16939,7 +16939,7 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePostSta
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePostStartSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#seconds DataK8SMinioMinIoTenantV2Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#seconds DataK8SMinioMinIoTenantV2Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -17030,11 +17030,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePostSta
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePostStartTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#host DataK8SMinioMinIoTenantV2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#host DataK8SMinioMinIoTenantV2Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#port DataK8SMinioMinIoTenantV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#port DataK8SMinioMinIoTenantV2Manifest#port}
   */
   readonly port: string;
 }
@@ -17154,19 +17154,19 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePostSta
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePostStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#exec DataK8SMinioMinIoTenantV2Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#exec DataK8SMinioMinIoTenantV2Manifest#exec}
   */
   readonly exec?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePostStartExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#http_get DataK8SMinioMinIoTenantV2Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#http_get DataK8SMinioMinIoTenantV2Manifest#http_get}
   */
   readonly httpGet?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePostStartHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#sleep DataK8SMinioMinIoTenantV2Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#sleep DataK8SMinioMinIoTenantV2Manifest#sleep}
   */
   readonly sleep?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePostStartSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#tcp_socket DataK8SMinioMinIoTenantV2Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#tcp_socket DataK8SMinioMinIoTenantV2Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePostStartTcpSocket;
 }
@@ -17347,7 +17347,7 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePostSta
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePreStopExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#command DataK8SMinioMinIoTenantV2Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#command DataK8SMinioMinIoTenantV2Manifest#command}
   */
   readonly command?: string[];
 }
@@ -17441,11 +17441,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePreStop
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePreStopHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#value DataK8SMinioMinIoTenantV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#value DataK8SMinioMinIoTenantV2Manifest#value}
   */
   readonly value: string;
 }
@@ -17584,23 +17584,23 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePreStop
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePreStopHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#host DataK8SMinioMinIoTenantV2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#host DataK8SMinioMinIoTenantV2Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#http_headers DataK8SMinioMinIoTenantV2Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#http_headers DataK8SMinioMinIoTenantV2Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#port DataK8SMinioMinIoTenantV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#port DataK8SMinioMinIoTenantV2Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#scheme DataK8SMinioMinIoTenantV2Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#scheme DataK8SMinioMinIoTenantV2Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -17807,7 +17807,7 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePreStop
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePreStopSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#seconds DataK8SMinioMinIoTenantV2Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#seconds DataK8SMinioMinIoTenantV2Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -17898,11 +17898,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePreStop
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePreStopTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#host DataK8SMinioMinIoTenantV2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#host DataK8SMinioMinIoTenantV2Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#port DataK8SMinioMinIoTenantV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#port DataK8SMinioMinIoTenantV2Manifest#port}
   */
   readonly port: string;
 }
@@ -18022,19 +18022,19 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePreStop
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePreStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#exec DataK8SMinioMinIoTenantV2Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#exec DataK8SMinioMinIoTenantV2Manifest#exec}
   */
   readonly exec?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePreStopExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#http_get DataK8SMinioMinIoTenantV2Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#http_get DataK8SMinioMinIoTenantV2Manifest#http_get}
   */
   readonly httpGet?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePreStopHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#sleep DataK8SMinioMinIoTenantV2Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#sleep DataK8SMinioMinIoTenantV2Manifest#sleep}
   */
   readonly sleep?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePreStopSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#tcp_socket DataK8SMinioMinIoTenantV2Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#tcp_socket DataK8SMinioMinIoTenantV2Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePreStopTcpSocket;
 }
@@ -18215,11 +18215,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePreStop
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#post_start DataK8SMinioMinIoTenantV2Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#post_start DataK8SMinioMinIoTenantV2Manifest#post_start}
   */
   readonly postStart?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePostStart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#pre_stop DataK8SMinioMinIoTenantV2Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#pre_stop DataK8SMinioMinIoTenantV2Manifest#pre_stop}
   */
   readonly preStop?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecyclePreStop;
 }
@@ -18342,7 +18342,7 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecycleOutputR
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#command DataK8SMinioMinIoTenantV2Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#command DataK8SMinioMinIoTenantV2Manifest#command}
   */
   readonly command?: string[];
 }
@@ -18436,11 +18436,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLivenessProbeExe
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLivenessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#port DataK8SMinioMinIoTenantV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#port DataK8SMinioMinIoTenantV2Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#service DataK8SMinioMinIoTenantV2Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#service DataK8SMinioMinIoTenantV2Manifest#service}
   */
   readonly service?: string;
 }
@@ -18560,11 +18560,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLivenessProbeGrp
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLivenessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#value DataK8SMinioMinIoTenantV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#value DataK8SMinioMinIoTenantV2Manifest#value}
   */
   readonly value: string;
 }
@@ -18703,23 +18703,23 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLivenessProbeHtt
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#host DataK8SMinioMinIoTenantV2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#host DataK8SMinioMinIoTenantV2Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#http_headers DataK8SMinioMinIoTenantV2Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#http_headers DataK8SMinioMinIoTenantV2Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#port DataK8SMinioMinIoTenantV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#port DataK8SMinioMinIoTenantV2Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#scheme DataK8SMinioMinIoTenantV2Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#scheme DataK8SMinioMinIoTenantV2Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -18926,11 +18926,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLivenessProbeHtt
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#host DataK8SMinioMinIoTenantV2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#host DataK8SMinioMinIoTenantV2Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#port DataK8SMinioMinIoTenantV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#port DataK8SMinioMinIoTenantV2Manifest#port}
   */
   readonly port: string;
 }
@@ -19050,43 +19050,43 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLivenessProbeTcp
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#exec DataK8SMinioMinIoTenantV2Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#exec DataK8SMinioMinIoTenantV2Manifest#exec}
   */
   readonly exec?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLivenessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#failure_threshold DataK8SMinioMinIoTenantV2Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#failure_threshold DataK8SMinioMinIoTenantV2Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#grpc DataK8SMinioMinIoTenantV2Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#grpc DataK8SMinioMinIoTenantV2Manifest#grpc}
   */
   readonly grpc?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLivenessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#http_get DataK8SMinioMinIoTenantV2Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#http_get DataK8SMinioMinIoTenantV2Manifest#http_get}
   */
   readonly httpGet?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLivenessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#initial_delay_seconds DataK8SMinioMinIoTenantV2Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#initial_delay_seconds DataK8SMinioMinIoTenantV2Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#period_seconds DataK8SMinioMinIoTenantV2Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#period_seconds DataK8SMinioMinIoTenantV2Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#success_threshold DataK8SMinioMinIoTenantV2Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#success_threshold DataK8SMinioMinIoTenantV2Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#tcp_socket DataK8SMinioMinIoTenantV2Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#tcp_socket DataK8SMinioMinIoTenantV2Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLivenessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#termination_grace_period_seconds DataK8SMinioMinIoTenantV2Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#termination_grace_period_seconds DataK8SMinioMinIoTenantV2Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#timeout_seconds DataK8SMinioMinIoTenantV2Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#timeout_seconds DataK8SMinioMinIoTenantV2Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -19441,23 +19441,23 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLivenessProbeOut
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#container_port DataK8SMinioMinIoTenantV2Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#container_port DataK8SMinioMinIoTenantV2Manifest#container_port}
   */
   readonly containerPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#host_ip DataK8SMinioMinIoTenantV2Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#host_ip DataK8SMinioMinIoTenantV2Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#host_port DataK8SMinioMinIoTenantV2Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#host_port DataK8SMinioMinIoTenantV2Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#protocol DataK8SMinioMinIoTenantV2Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#protocol DataK8SMinioMinIoTenantV2Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -19686,7 +19686,7 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersPortsList extend
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#command DataK8SMinioMinIoTenantV2Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#command DataK8SMinioMinIoTenantV2Manifest#command}
   */
   readonly command?: string[];
 }
@@ -19780,11 +19780,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersReadinessProbeEx
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersReadinessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#port DataK8SMinioMinIoTenantV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#port DataK8SMinioMinIoTenantV2Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#service DataK8SMinioMinIoTenantV2Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#service DataK8SMinioMinIoTenantV2Manifest#service}
   */
   readonly service?: string;
 }
@@ -19904,11 +19904,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersReadinessProbeGr
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersReadinessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#value DataK8SMinioMinIoTenantV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#value DataK8SMinioMinIoTenantV2Manifest#value}
   */
   readonly value: string;
 }
@@ -20047,23 +20047,23 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersReadinessProbeHt
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#host DataK8SMinioMinIoTenantV2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#host DataK8SMinioMinIoTenantV2Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#http_headers DataK8SMinioMinIoTenantV2Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#http_headers DataK8SMinioMinIoTenantV2Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#port DataK8SMinioMinIoTenantV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#port DataK8SMinioMinIoTenantV2Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#scheme DataK8SMinioMinIoTenantV2Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#scheme DataK8SMinioMinIoTenantV2Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -20270,11 +20270,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersReadinessProbeHt
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#host DataK8SMinioMinIoTenantV2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#host DataK8SMinioMinIoTenantV2Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#port DataK8SMinioMinIoTenantV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#port DataK8SMinioMinIoTenantV2Manifest#port}
   */
   readonly port: string;
 }
@@ -20394,43 +20394,43 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersReadinessProbeTc
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#exec DataK8SMinioMinIoTenantV2Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#exec DataK8SMinioMinIoTenantV2Manifest#exec}
   */
   readonly exec?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersReadinessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#failure_threshold DataK8SMinioMinIoTenantV2Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#failure_threshold DataK8SMinioMinIoTenantV2Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#grpc DataK8SMinioMinIoTenantV2Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#grpc DataK8SMinioMinIoTenantV2Manifest#grpc}
   */
   readonly grpc?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersReadinessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#http_get DataK8SMinioMinIoTenantV2Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#http_get DataK8SMinioMinIoTenantV2Manifest#http_get}
   */
   readonly httpGet?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersReadinessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#initial_delay_seconds DataK8SMinioMinIoTenantV2Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#initial_delay_seconds DataK8SMinioMinIoTenantV2Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#period_seconds DataK8SMinioMinIoTenantV2Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#period_seconds DataK8SMinioMinIoTenantV2Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#success_threshold DataK8SMinioMinIoTenantV2Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#success_threshold DataK8SMinioMinIoTenantV2Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#tcp_socket DataK8SMinioMinIoTenantV2Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#tcp_socket DataK8SMinioMinIoTenantV2Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersReadinessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#termination_grace_period_seconds DataK8SMinioMinIoTenantV2Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#termination_grace_period_seconds DataK8SMinioMinIoTenantV2Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#timeout_seconds DataK8SMinioMinIoTenantV2Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#timeout_seconds DataK8SMinioMinIoTenantV2Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -20785,11 +20785,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersReadinessProbeOu
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersResizePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#resource_name DataK8SMinioMinIoTenantV2Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#resource_name DataK8SMinioMinIoTenantV2Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#restart_policy DataK8SMinioMinIoTenantV2Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#restart_policy DataK8SMinioMinIoTenantV2Manifest#restart_policy}
   */
   readonly restartPolicy: string;
 }
@@ -20928,7 +20928,7 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersResizePolicyList
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersResourcesClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name: string;
 }
@@ -21041,15 +21041,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersResourcesClaimsL
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#claims DataK8SMinioMinIoTenantV2Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#claims DataK8SMinioMinIoTenantV2Manifest#claims}
   */
   readonly claims?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#limits DataK8SMinioMinIoTenantV2Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#limits DataK8SMinioMinIoTenantV2Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#requests DataK8SMinioMinIoTenantV2Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#requests DataK8SMinioMinIoTenantV2Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -21201,11 +21201,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersResourcesOutputR
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersSecurityContextAppArmorProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#localhost_profile DataK8SMinioMinIoTenantV2Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#localhost_profile DataK8SMinioMinIoTenantV2Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#type DataK8SMinioMinIoTenantV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#type DataK8SMinioMinIoTenantV2Manifest#type}
   */
   readonly type: string;
 }
@@ -21325,11 +21325,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersSecurityContextA
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#add DataK8SMinioMinIoTenantV2Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#add DataK8SMinioMinIoTenantV2Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#drop DataK8SMinioMinIoTenantV2Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#drop DataK8SMinioMinIoTenantV2Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -21452,19 +21452,19 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersSecurityContextC
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#level DataK8SMinioMinIoTenantV2Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#level DataK8SMinioMinIoTenantV2Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#role DataK8SMinioMinIoTenantV2Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#role DataK8SMinioMinIoTenantV2Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#type DataK8SMinioMinIoTenantV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#type DataK8SMinioMinIoTenantV2Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#user DataK8SMinioMinIoTenantV2Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#user DataK8SMinioMinIoTenantV2Manifest#user}
   */
   readonly user?: string;
 }
@@ -21645,11 +21645,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersSecurityContextS
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#localhost_profile DataK8SMinioMinIoTenantV2Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#localhost_profile DataK8SMinioMinIoTenantV2Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#type DataK8SMinioMinIoTenantV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#type DataK8SMinioMinIoTenantV2Manifest#type}
   */
   readonly type: string;
 }
@@ -21769,19 +21769,19 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersSecurityContextS
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#gmsa_credential_spec DataK8SMinioMinIoTenantV2Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#gmsa_credential_spec DataK8SMinioMinIoTenantV2Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#gmsa_credential_spec_name DataK8SMinioMinIoTenantV2Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#gmsa_credential_spec_name DataK8SMinioMinIoTenantV2Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#host_process DataK8SMinioMinIoTenantV2Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#host_process DataK8SMinioMinIoTenantV2Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#run_as_user_name DataK8SMinioMinIoTenantV2Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#run_as_user_name DataK8SMinioMinIoTenantV2Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -21962,51 +21962,51 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersSecurityContextW
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#allow_privilege_escalation DataK8SMinioMinIoTenantV2Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#allow_privilege_escalation DataK8SMinioMinIoTenantV2Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#app_armor_profile DataK8SMinioMinIoTenantV2Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#app_armor_profile DataK8SMinioMinIoTenantV2Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersSecurityContextAppArmorProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#capabilities DataK8SMinioMinIoTenantV2Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#capabilities DataK8SMinioMinIoTenantV2Manifest#capabilities}
   */
   readonly capabilities?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#privileged DataK8SMinioMinIoTenantV2Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#privileged DataK8SMinioMinIoTenantV2Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#proc_mount DataK8SMinioMinIoTenantV2Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#proc_mount DataK8SMinioMinIoTenantV2Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only_root_filesystem DataK8SMinioMinIoTenantV2Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only_root_filesystem DataK8SMinioMinIoTenantV2Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#run_as_group DataK8SMinioMinIoTenantV2Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#run_as_group DataK8SMinioMinIoTenantV2Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#run_as_non_root DataK8SMinioMinIoTenantV2Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#run_as_non_root DataK8SMinioMinIoTenantV2Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#run_as_user DataK8SMinioMinIoTenantV2Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#run_as_user DataK8SMinioMinIoTenantV2Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#se_linux_options DataK8SMinioMinIoTenantV2Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#se_linux_options DataK8SMinioMinIoTenantV2Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#seccomp_profile DataK8SMinioMinIoTenantV2Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#seccomp_profile DataK8SMinioMinIoTenantV2Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#windows_options DataK8SMinioMinIoTenantV2Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#windows_options DataK8SMinioMinIoTenantV2Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersSecurityContextWindowsOptions;
 }
@@ -22419,7 +22419,7 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersSecurityContextO
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersStartupProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#command DataK8SMinioMinIoTenantV2Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#command DataK8SMinioMinIoTenantV2Manifest#command}
   */
   readonly command?: string[];
 }
@@ -22513,11 +22513,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersStartupProbeExec
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersStartupProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#port DataK8SMinioMinIoTenantV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#port DataK8SMinioMinIoTenantV2Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#service DataK8SMinioMinIoTenantV2Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#service DataK8SMinioMinIoTenantV2Manifest#service}
   */
   readonly service?: string;
 }
@@ -22637,11 +22637,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersStartupProbeGrpc
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersStartupProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#value DataK8SMinioMinIoTenantV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#value DataK8SMinioMinIoTenantV2Manifest#value}
   */
   readonly value: string;
 }
@@ -22780,23 +22780,23 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersStartupProbeHttp
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersStartupProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#host DataK8SMinioMinIoTenantV2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#host DataK8SMinioMinIoTenantV2Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#http_headers DataK8SMinioMinIoTenantV2Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#http_headers DataK8SMinioMinIoTenantV2Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#path DataK8SMinioMinIoTenantV2Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#port DataK8SMinioMinIoTenantV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#port DataK8SMinioMinIoTenantV2Manifest#port}
   */
   readonly port: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#scheme DataK8SMinioMinIoTenantV2Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#scheme DataK8SMinioMinIoTenantV2Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -23003,11 +23003,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersStartupProbeHttp
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersStartupProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#host DataK8SMinioMinIoTenantV2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#host DataK8SMinioMinIoTenantV2Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#port DataK8SMinioMinIoTenantV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#port DataK8SMinioMinIoTenantV2Manifest#port}
   */
   readonly port: string;
 }
@@ -23127,43 +23127,43 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersStartupProbeTcpS
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersStartupProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#exec DataK8SMinioMinIoTenantV2Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#exec DataK8SMinioMinIoTenantV2Manifest#exec}
   */
   readonly exec?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersStartupProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#failure_threshold DataK8SMinioMinIoTenantV2Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#failure_threshold DataK8SMinioMinIoTenantV2Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#grpc DataK8SMinioMinIoTenantV2Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#grpc DataK8SMinioMinIoTenantV2Manifest#grpc}
   */
   readonly grpc?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersStartupProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#http_get DataK8SMinioMinIoTenantV2Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#http_get DataK8SMinioMinIoTenantV2Manifest#http_get}
   */
   readonly httpGet?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersStartupProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#initial_delay_seconds DataK8SMinioMinIoTenantV2Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#initial_delay_seconds DataK8SMinioMinIoTenantV2Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#period_seconds DataK8SMinioMinIoTenantV2Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#period_seconds DataK8SMinioMinIoTenantV2Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#success_threshold DataK8SMinioMinIoTenantV2Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#success_threshold DataK8SMinioMinIoTenantV2Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#tcp_socket DataK8SMinioMinIoTenantV2Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#tcp_socket DataK8SMinioMinIoTenantV2Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersStartupProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#termination_grace_period_seconds DataK8SMinioMinIoTenantV2Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#termination_grace_period_seconds DataK8SMinioMinIoTenantV2Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#timeout_seconds DataK8SMinioMinIoTenantV2Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#timeout_seconds DataK8SMinioMinIoTenantV2Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -23518,11 +23518,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersStartupProbeOutp
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersVolumeDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#device_path DataK8SMinioMinIoTenantV2Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#device_path DataK8SMinioMinIoTenantV2Manifest#device_path}
   */
   readonly devicePath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name: string;
 }
@@ -23661,31 +23661,31 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersVolumeDevicesLis
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainersVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#mount_path DataK8SMinioMinIoTenantV2Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#mount_path DataK8SMinioMinIoTenantV2Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#mount_propagation DataK8SMinioMinIoTenantV2Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#mount_propagation DataK8SMinioMinIoTenantV2Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#read_only DataK8SMinioMinIoTenantV2Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#recursive_read_only DataK8SMinioMinIoTenantV2Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#recursive_read_only DataK8SMinioMinIoTenantV2Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#sub_path DataK8SMinioMinIoTenantV2Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#sub_path DataK8SMinioMinIoTenantV2Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#sub_path_expr DataK8SMinioMinIoTenantV2Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#sub_path_expr DataK8SMinioMinIoTenantV2Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -23969,99 +23969,99 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersVolumeMountsList
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecInitContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#args DataK8SMinioMinIoTenantV2Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#args DataK8SMinioMinIoTenantV2Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#command DataK8SMinioMinIoTenantV2Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#command DataK8SMinioMinIoTenantV2Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#env DataK8SMinioMinIoTenantV2Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#env DataK8SMinioMinIoTenantV2Manifest#env}
   */
   readonly env?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#env_from DataK8SMinioMinIoTenantV2Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#env_from DataK8SMinioMinIoTenantV2Manifest#env_from}
   */
   readonly envFrom?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#image DataK8SMinioMinIoTenantV2Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#image DataK8SMinioMinIoTenantV2Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#image_pull_policy DataK8SMinioMinIoTenantV2Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#image_pull_policy DataK8SMinioMinIoTenantV2Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#lifecycle DataK8SMinioMinIoTenantV2Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#lifecycle DataK8SMinioMinIoTenantV2Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLifecycle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#liveness_probe DataK8SMinioMinIoTenantV2Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#liveness_probe DataK8SMinioMinIoTenantV2Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#name DataK8SMinioMinIoTenantV2Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#ports DataK8SMinioMinIoTenantV2Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#ports DataK8SMinioMinIoTenantV2Manifest#ports}
   */
   readonly ports?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#readiness_probe DataK8SMinioMinIoTenantV2Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#readiness_probe DataK8SMinioMinIoTenantV2Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersReadinessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#resize_policy DataK8SMinioMinIoTenantV2Manifest#resize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#resize_policy DataK8SMinioMinIoTenantV2Manifest#resize_policy}
   */
   readonly resizePolicy?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersResizePolicy[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#resources DataK8SMinioMinIoTenantV2Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#resources DataK8SMinioMinIoTenantV2Manifest#resources}
   */
   readonly resources?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#restart_policy DataK8SMinioMinIoTenantV2Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#restart_policy DataK8SMinioMinIoTenantV2Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#security_context DataK8SMinioMinIoTenantV2Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#security_context DataK8SMinioMinIoTenantV2Manifest#security_context}
   */
   readonly securityContext?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#startup_probe DataK8SMinioMinIoTenantV2Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#startup_probe DataK8SMinioMinIoTenantV2Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersStartupProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#stdin DataK8SMinioMinIoTenantV2Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#stdin DataK8SMinioMinIoTenantV2Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#stdin_once DataK8SMinioMinIoTenantV2Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#stdin_once DataK8SMinioMinIoTenantV2Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#termination_message_path DataK8SMinioMinIoTenantV2Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#termination_message_path DataK8SMinioMinIoTenantV2Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#termination_message_policy DataK8SMinioMinIoTenantV2Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#termination_message_policy DataK8SMinioMinIoTenantV2Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#tty DataK8SMinioMinIoTenantV2Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#tty DataK8SMinioMinIoTenantV2Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_devices DataK8SMinioMinIoTenantV2Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_devices DataK8SMinioMinIoTenantV2Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersVolumeDevices[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_mounts DataK8SMinioMinIoTenantV2Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#volume_mounts DataK8SMinioMinIoTenantV2Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SMinioMinIoTenantV2ManifestSpecInitContainersVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#working_dir DataK8SMinioMinIoTenantV2Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#working_dir DataK8SMinioMinIoTenantV2Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -24841,15 +24841,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecInitContainersList extends cdk
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#operator DataK8SMinioMinIoTenantV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#operator DataK8SMinioMinIoTenantV2Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#values DataK8SMinioMinIoTenantV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#values DataK8SMinioMinIoTenantV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -25017,15 +25017,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityNodeAffinityPreferr
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#operator DataK8SMinioMinIoTenantV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#operator DataK8SMinioMinIoTenantV2Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#values DataK8SMinioMinIoTenantV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#values DataK8SMinioMinIoTenantV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -25193,11 +25193,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityNodeAffinityPreferr
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#match_expressions DataK8SMinioMinIoTenantV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#match_expressions DataK8SMinioMinIoTenantV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#match_fields DataK8SMinioMinIoTenantV2Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#match_fields DataK8SMinioMinIoTenantV2Manifest#match_fields}
   */
   readonly matchFields?: DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -25320,11 +25320,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityNodeAffinityPreferr
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#preference DataK8SMinioMinIoTenantV2Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#preference DataK8SMinioMinIoTenantV2Manifest#preference}
   */
   readonly preference: DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#weight DataK8SMinioMinIoTenantV2Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#weight DataK8SMinioMinIoTenantV2Manifest#weight}
   */
   readonly weight: number;
 }
@@ -25463,15 +25463,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityNodeAffinityPreferr
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#operator DataK8SMinioMinIoTenantV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#operator DataK8SMinioMinIoTenantV2Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#values DataK8SMinioMinIoTenantV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#values DataK8SMinioMinIoTenantV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -25639,15 +25639,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityNodeAffinityRequire
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#operator DataK8SMinioMinIoTenantV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#operator DataK8SMinioMinIoTenantV2Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#values DataK8SMinioMinIoTenantV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#values DataK8SMinioMinIoTenantV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -25815,11 +25815,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityNodeAffinityRequire
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#match_expressions DataK8SMinioMinIoTenantV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#match_expressions DataK8SMinioMinIoTenantV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#match_fields DataK8SMinioMinIoTenantV2Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#match_fields DataK8SMinioMinIoTenantV2Manifest#match_fields}
   */
   readonly matchFields?: DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -25964,7 +25964,7 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityNodeAffinityRequire
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#node_selector_terms DataK8SMinioMinIoTenantV2Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#node_selector_terms DataK8SMinioMinIoTenantV2Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -26055,11 +26055,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityNodeAffinityRequire
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityNodeAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SMinioMinIoTenantV2Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SMinioMinIoTenantV2Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#required_during_scheduling_ignored_during_execution DataK8SMinioMinIoTenantV2Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#required_during_scheduling_ignored_during_execution DataK8SMinioMinIoTenantV2Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -26182,15 +26182,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityNodeAffinityOutputR
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#operator DataK8SMinioMinIoTenantV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#operator DataK8SMinioMinIoTenantV2Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#values DataK8SMinioMinIoTenantV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#values DataK8SMinioMinIoTenantV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -26358,11 +26358,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityPreferre
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#match_expressions DataK8SMinioMinIoTenantV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#match_expressions DataK8SMinioMinIoTenantV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#match_labels DataK8SMinioMinIoTenantV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#match_labels DataK8SMinioMinIoTenantV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -26485,15 +26485,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityPreferre
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#operator DataK8SMinioMinIoTenantV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#operator DataK8SMinioMinIoTenantV2Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#values DataK8SMinioMinIoTenantV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#values DataK8SMinioMinIoTenantV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -26661,11 +26661,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityPreferre
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#match_expressions DataK8SMinioMinIoTenantV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#match_expressions DataK8SMinioMinIoTenantV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#match_labels DataK8SMinioMinIoTenantV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#match_labels DataK8SMinioMinIoTenantV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -26788,27 +26788,27 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityPreferre
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#label_selector DataK8SMinioMinIoTenantV2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#label_selector DataK8SMinioMinIoTenantV2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#match_label_keys DataK8SMinioMinIoTenantV2Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#match_label_keys DataK8SMinioMinIoTenantV2Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#mismatch_label_keys DataK8SMinioMinIoTenantV2Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#mismatch_label_keys DataK8SMinioMinIoTenantV2Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#namespace_selector DataK8SMinioMinIoTenantV2Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#namespace_selector DataK8SMinioMinIoTenantV2Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#namespaces DataK8SMinioMinIoTenantV2Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#namespaces DataK8SMinioMinIoTenantV2Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#topology_key DataK8SMinioMinIoTenantV2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#topology_key DataK8SMinioMinIoTenantV2Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -27044,11 +27044,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityPreferre
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#pod_affinity_term DataK8SMinioMinIoTenantV2Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#pod_affinity_term DataK8SMinioMinIoTenantV2Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#weight DataK8SMinioMinIoTenantV2Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#weight DataK8SMinioMinIoTenantV2Manifest#weight}
   */
   readonly weight: number;
 }
@@ -27187,15 +27187,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityPreferre
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#operator DataK8SMinioMinIoTenantV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#operator DataK8SMinioMinIoTenantV2Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#values DataK8SMinioMinIoTenantV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#values DataK8SMinioMinIoTenantV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -27363,11 +27363,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityRequired
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#match_expressions DataK8SMinioMinIoTenantV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#match_expressions DataK8SMinioMinIoTenantV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#match_labels DataK8SMinioMinIoTenantV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#match_labels DataK8SMinioMinIoTenantV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -27490,15 +27490,15 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityRequired
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#key DataK8SMinioMinIoTenantV2Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#operator DataK8SMinioMinIoTenantV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#operator DataK8SMinioMinIoTenantV2Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#values DataK8SMinioMinIoTenantV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#values DataK8SMinioMinIoTenantV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -27666,11 +27666,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityRequired
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#match_expressions DataK8SMinioMinIoTenantV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#match_expressions DataK8SMinioMinIoTenantV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#match_labels DataK8SMinioMinIoTenantV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#match_labels DataK8SMinioMinIoTenantV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -27793,27 +27793,27 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityRequired
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#label_selector DataK8SMinioMinIoTenantV2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#label_selector DataK8SMinioMinIoTenantV2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#match_label_keys DataK8SMinioMinIoTenantV2Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#match_label_keys DataK8SMinioMinIoTenantV2Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#mismatch_label_keys DataK8SMinioMinIoTenantV2Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#mismatch_label_keys DataK8SMinioMinIoTenantV2Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#namespace_selector DataK8SMinioMinIoTenantV2Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#namespace_selector DataK8SMinioMinIoTenantV2Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#namespaces DataK8SMinioMinIoTenantV2Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#namespaces DataK8SMinioMinIoTenantV2Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#topology_key DataK8SMinioMinIoTenantV2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#topology_key DataK8SMinioMinIoTenantV2Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -28071,11 +28071,11 @@ export class DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityRequired
 }
 export interface DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SMinioMinIoTenantV2Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SMinioMinIoTenantV2Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/minio_min_io_tenant_v2_manifest#required_during_scheduling_ignored_during_execution DataK8SMinioMinIoTenantV2Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/minio_min_io_tenant_v2_manifest#required_during_scheduling_ignored_during_execution DataK8SMinioMinIoTenantV2Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SMinioMinIoTenantV2ManifestSpecKesAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }

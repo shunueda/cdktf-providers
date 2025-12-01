@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1ManifestConfi
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1ManifestMetadata;
   /**
   * GitOps defines the configurations of GitOps Toolkit and Git repository it links to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#spec DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#spec DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1ManifestMetad
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#annotations DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#annotations DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,37 +219,37 @@ export interface DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1ManifestSpecF
   /**
   * Git branch. Defaults to main.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#branch DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#branch DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#branch}
   */
   readonly branch?: string;
   /**
   * ClusterConfigPath relative to the repository root, when specified the cluster sync will be scoped to this path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#cluster_config_path DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#cluster_config_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#cluster_config_path DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#cluster_config_path}
   */
   readonly clusterConfigPath?: string;
   /**
   * FluxSystemNamespace scope for this operation. Defaults to flux-system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#flux_system_namespace DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#flux_system_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#flux_system_namespace DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#flux_system_namespace}
   */
   readonly fluxSystemNamespace?: string;
   /**
   * Owner is the user or organization name of the Git provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#owner DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#owner DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#owner}
   */
   readonly owner: string;
   /**
   * if true, the owner is assumed to be a Git user; otherwise an org.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#personal DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#personal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#personal DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#personal}
   */
   readonly personal?: boolean | cdktf.IResolvable;
   /**
   * Repository name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#repository DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#repository DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#repository}
   */
   readonly repository: string;
 }
@@ -484,7 +484,7 @@ export interface DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1ManifestSpecF
   /**
   * github is the name of the Git Provider to host the Git repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#github DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#github}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#github DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#github}
   */
   readonly github?: DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1ManifestSpecFluxGithub;
 }
@@ -580,7 +580,7 @@ export interface DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1ManifestSpec 
   /**
   * Flux defines the Git repository options for Flux v2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#flux DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#flux}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#flux DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest#flux}
   */
   readonly flux?: DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1ManifestSpecFlux;
 }
@@ -674,7 +674,7 @@ export class DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1ManifestSpecOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest}
 */
 export class DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -690,7 +690,7 @@ export class DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest extends 
   * Generates CDKTF code for importing a DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -702,7 +702,7 @@ export class DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -713,8 +713,8 @@ export class DataK8SAnywhereEksAmazonawsComGitOpsConfigV1Alpha1Manifest extends 
       terraformResourceType: 'k8s_anywhere_eks_amazonaws_com_git_ops_config_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -45,11 +45,11 @@ dataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecDnsConfigT
 DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecDnsConfigOutputReference } from './structs800'
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersSecurityContextAppArmorProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#localhost_profile DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#localhost_profile DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -172,11 +172,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#add DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#add DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#drop DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#drop DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -299,19 +299,19 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#level DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#level DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#role DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#role DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#user DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#user DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#user}
   */
   readonly user?: string;
 }
@@ -492,11 +492,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#localhost_profile DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#localhost_profile DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -619,19 +619,19 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#gmsa_credential_spec DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#gmsa_credential_spec DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#gmsa_credential_spec_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#gmsa_credential_spec_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host_process DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host_process DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#run_as_user_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#run_as_user_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -812,51 +812,51 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#allow_privilege_escalation DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#allow_privilege_escalation DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#app_armor_profile DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#app_armor_profile DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersSecurityContextAppArmorProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#capabilities DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#capabilities DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#privileged DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#privileged DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#proc_mount DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#proc_mount DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only_root_filesystem DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only_root_filesystem DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#run_as_group DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#run_as_group DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#run_as_non_root DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#run_as_non_root DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#run_as_user DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#run_as_user DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#se_linux_options DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#se_linux_options DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#seccomp_profile DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#seccomp_profile DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#windows_options DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#windows_options DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersSecurityContextWindowsOptions;
 }
@@ -1269,7 +1269,7 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersStartupProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#command DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#command DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -1363,11 +1363,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersStartupProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#service DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#service DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -1490,11 +1490,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersStartupProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#value DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#value DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1639,23 +1639,23 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersStartupProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#http_headers DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#http_headers DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#scheme DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#scheme DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -1865,11 +1865,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersStartupProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
   */
   readonly port?: string;
 }
@@ -1992,43 +1992,43 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersStartupProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#exec DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#exec DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersStartupProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#failure_threshold DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#failure_threshold DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#grpc DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#grpc DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersStartupProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#http_get DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#http_get DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersStartupProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#initial_delay_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#initial_delay_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#period_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#period_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#success_threshold DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#success_threshold DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#tcp_socket DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#tcp_socket DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersStartupProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#termination_grace_period_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#termination_grace_period_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#timeout_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#timeout_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -2383,11 +2383,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersVolumeDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#device_path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#device_path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#device_path}
   */
   readonly devicePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2532,31 +2532,31 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#mount_path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#mount_path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#mount_path}
   */
   readonly mountPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#mount_propagation DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#mount_propagation DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#recursive_read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#recursive_read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#sub_path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#sub_path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#sub_path_expr DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#sub_path_expr DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -2846,103 +2846,103 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#args DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#args DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#command DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#command DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#env DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#env DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#env}
   */
   readonly env?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#env_from DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#env_from DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#env_from}
   */
   readonly envFrom?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#image DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#image DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#image_pull_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#image_pull_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#lifecycle DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#lifecycle DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersLifecycle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#liveness_probe DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#liveness_probe DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#ports DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#ports DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#ports}
   */
   readonly ports?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#readiness_probe DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#readiness_probe DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersReadinessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resize_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resize_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resize_policy}
   */
   readonly resizePolicy?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersResizePolicy[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resources DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resources DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#restart_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#restart_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#security_context DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#security_context DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#security_context}
   */
   readonly securityContext?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#startup_probe DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#startup_probe DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersStartupProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#stdin DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#stdin DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#stdin_once DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#stdin_once DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#target_container_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#target_container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#target_container_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#target_container_name}
   */
   readonly targetContainerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#termination_message_path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#termination_message_path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#termination_message_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#termination_message_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#tty DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#tty DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_devices DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_devices DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersVolumeDevices[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_mounts DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_mounts DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainersVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#working_dir DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#working_dir DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -3754,11 +3754,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecHostAliases {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#hostnames DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#hostnames DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#hostnames}
   */
   readonly hostnames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#ip DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#ip DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#ip}
   */
   readonly ip?: string;
 }
@@ -3903,7 +3903,7 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecImagePullSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4019,15 +4019,15 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersEnvValueFromConfigMapKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#key DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#key DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#optional DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#optional DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4179,11 +4179,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersEnvValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#api_version DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#api_version DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#field_path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#field_path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#field_path}
   */
   readonly fieldPath?: string;
 }
@@ -4306,15 +4306,15 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersEnvValueFromResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#container_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#container_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#divisor DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#divisor DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resource DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resource DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resource}
   */
   readonly resource?: string;
 }
@@ -4466,15 +4466,15 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersEnvValueFromSecretKeyRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#key DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#key DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#optional DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#optional DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4626,19 +4626,19 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersEnvValueFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#config_map_key_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#config_map_key_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersEnvValueFromConfigMapKeyRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#field_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#field_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersEnvValueFromFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resource_field_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resource_field_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersEnvValueFromResourceFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret_key_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret_key_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersEnvValueFromSecretKeyRef;
 }
@@ -4819,15 +4819,15 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersEnv {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#value DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#value DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#value_from DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#value_from DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersEnvValueFrom;
 }
@@ -5001,11 +5001,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersEnvFromConfigMapRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#optional DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#optional DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5128,11 +5128,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersEnvFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#optional DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#optional DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5255,15 +5255,15 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersEnvFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#config_map_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#config_map_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersEnvFromConfigMapRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#prefix DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#prefix DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersEnvFromSecretRef;
 }
@@ -5437,7 +5437,7 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLifecyclePostStartExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#command DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#command DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -5531,11 +5531,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLifecyclePostStartHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#value DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#value DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -5680,23 +5680,23 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLifecyclePostStartHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#http_headers DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#http_headers DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#scheme DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#scheme DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -5906,7 +5906,7 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLifecyclePostStartSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#seconds}
   */
   readonly seconds?: number;
 }
@@ -6000,11 +6000,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLifecyclePostStartTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
   */
   readonly port?: string;
 }
@@ -6127,19 +6127,19 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLifecyclePostStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#exec DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#exec DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLifecyclePostStartExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#http_get DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#http_get DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLifecyclePostStartHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#sleep DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#sleep DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#sleep}
   */
   readonly sleep?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLifecyclePostStartSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#tcp_socket DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#tcp_socket DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLifecyclePostStartTcpSocket;
 }
@@ -6320,7 +6320,7 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLifecyclePreStopExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#command DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#command DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -6414,11 +6414,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLifecyclePreStopHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#value DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#value DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -6563,23 +6563,23 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLifecyclePreStopHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#http_headers DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#http_headers DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#scheme DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#scheme DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -6789,7 +6789,7 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLifecyclePreStopSleep {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#seconds}
   */
   readonly seconds?: number;
 }
@@ -6883,11 +6883,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLifecyclePreStopTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
   */
   readonly port?: string;
 }
@@ -7010,19 +7010,19 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLifecyclePreStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#exec DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#exec DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLifecyclePreStopExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#http_get DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#http_get DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLifecyclePreStopHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#sleep DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#sleep DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#sleep}
   */
   readonly sleep?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLifecyclePreStopSleep;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#tcp_socket DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#tcp_socket DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLifecyclePreStopTcpSocket;
 }
@@ -7203,11 +7203,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLifecycle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#post_start DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#post_start DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#post_start}
   */
   readonly postStart?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLifecyclePostStart;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#pre_stop DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#pre_stop DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLifecyclePreStop;
 }
@@ -7330,7 +7330,7 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#command DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#command DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -7424,11 +7424,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLivenessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#service DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#service DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -7551,11 +7551,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLivenessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#value DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#value DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -7700,23 +7700,23 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#http_headers DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#http_headers DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#scheme DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#scheme DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -7926,11 +7926,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
   */
   readonly port?: string;
 }
@@ -8053,43 +8053,43 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#exec DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#exec DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLivenessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#failure_threshold DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#failure_threshold DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#grpc DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#grpc DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLivenessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#http_get DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#http_get DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLivenessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#initial_delay_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#initial_delay_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#period_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#period_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#success_threshold DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#success_threshold DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#tcp_socket DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#tcp_socket DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLivenessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#termination_grace_period_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#termination_grace_period_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#timeout_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#timeout_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -8444,23 +8444,23 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#container_port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#container_port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#container_port}
   */
   readonly containerPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host_ip DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host_ip DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host_port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host_port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#protocol DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#protocol DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -8692,7 +8692,7 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#command DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#command DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -8786,11 +8786,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersReadinessProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#service DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#service DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -8913,11 +8913,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersReadinessProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#value DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#value DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -9062,23 +9062,23 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#http_headers DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#http_headers DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#scheme DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#scheme DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -9288,11 +9288,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
   */
   readonly port?: string;
 }
@@ -9415,43 +9415,43 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#exec DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#exec DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersReadinessProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#failure_threshold DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#failure_threshold DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#grpc DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#grpc DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersReadinessProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#http_get DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#http_get DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersReadinessProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#initial_delay_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#initial_delay_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#period_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#period_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#success_threshold DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#success_threshold DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#tcp_socket DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#tcp_socket DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersReadinessProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#termination_grace_period_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#termination_grace_period_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#timeout_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#timeout_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -9806,11 +9806,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersResizePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resource_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resource_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resource_name}
   */
   readonly resourceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#restart_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#restart_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
 }
@@ -9955,7 +9955,7 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersResourcesClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -10071,15 +10071,15 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#claims DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#claims DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#claims}
   */
   readonly claims?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#limits DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#limits DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#requests DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#requests DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -10231,11 +10231,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersSecurityContextAppArmorProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#localhost_profile DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#localhost_profile DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -10358,11 +10358,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersSecurityContextCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#add DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#add DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#add}
   */
   readonly add?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#drop DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#drop DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -10485,19 +10485,19 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#level DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#level DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#role DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#role DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#user DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#user DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#user}
   */
   readonly user?: string;
 }
@@ -10678,11 +10678,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#localhost_profile DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#localhost_profile DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -10805,19 +10805,19 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#gmsa_credential_spec DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#gmsa_credential_spec DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#gmsa_credential_spec_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#gmsa_credential_spec_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host_process DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host_process DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#run_as_user_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#run_as_user_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -10998,51 +10998,51 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#allow_privilege_escalation DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#allow_privilege_escalation DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#app_armor_profile DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#app_armor_profile DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersSecurityContextAppArmorProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#capabilities DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#capabilities DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersSecurityContextCapabilities;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#privileged DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#privileged DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#proc_mount DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#proc_mount DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only_root_filesystem DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only_root_filesystem DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#run_as_group DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#run_as_group DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#run_as_non_root DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#run_as_non_root DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#run_as_user DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#run_as_user DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#se_linux_options DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#se_linux_options DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#seccomp_profile DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#seccomp_profile DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#windows_options DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#windows_options DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersSecurityContextWindowsOptions;
 }
@@ -11455,7 +11455,7 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersStartupProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#command DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#command DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -11549,11 +11549,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersStartupProbeGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#service DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#service DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#service}
   */
   readonly service?: string;
 }
@@ -11676,11 +11676,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersStartupProbeHttpGetHttpHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#value DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#value DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -11825,23 +11825,23 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersStartupProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#http_headers DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#http_headers DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#scheme DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#scheme DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -12051,11 +12051,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersStartupProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#port DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#port}
   */
   readonly port?: string;
 }
@@ -12178,43 +12178,43 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersStartupProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#exec DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#exec DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#exec}
   */
   readonly exec?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersStartupProbeExec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#failure_threshold DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#failure_threshold DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#grpc DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#grpc DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#grpc}
   */
   readonly grpc?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersStartupProbeGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#http_get DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#http_get DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#http_get}
   */
   readonly httpGet?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersStartupProbeHttpGet;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#initial_delay_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#initial_delay_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#period_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#period_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#success_threshold DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#success_threshold DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#tcp_socket DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#tcp_socket DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersStartupProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#termination_grace_period_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#termination_grace_period_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#timeout_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#timeout_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -12569,11 +12569,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersVolumeDevices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#device_path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#device_path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#device_path}
   */
   readonly devicePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -12718,31 +12718,31 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#mount_path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#mount_path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#mount_path}
   */
   readonly mountPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#mount_propagation DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#mount_propagation DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#recursive_read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#recursive_read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#sub_path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#sub_path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#sub_path_expr DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#sub_path_expr DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -13032,99 +13032,99 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#args DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#args DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#command DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#command DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#command}
   */
   readonly command?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#env DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#env DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#env}
   */
   readonly env?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersEnv[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#env_from DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#env_from DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#env_from}
   */
   readonly envFrom?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersEnvFrom[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#image DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#image DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#image_pull_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#image_pull_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#lifecycle DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#lifecycle DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLifecycle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#liveness_probe DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#liveness_probe DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersLivenessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#ports DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#ports DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#ports}
   */
   readonly ports?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersPorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#readiness_probe DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#readiness_probe DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersReadinessProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resize_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resize_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resize_policy}
   */
   readonly resizePolicy?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersResizePolicy[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resources DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resources DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#restart_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#restart_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#security_context DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#security_context DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#security_context}
   */
   readonly securityContext?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#startup_probe DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#startup_probe DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersStartupProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#stdin DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#stdin DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#stdin_once DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#stdin_once DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#termination_message_path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#termination_message_path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#termination_message_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#termination_message_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#tty DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#tty DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_devices DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_devices DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersVolumeDevices[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_mounts DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_mounts DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainersVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#working_dir DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#working_dir DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -13907,7 +13907,7 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecOs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -14001,7 +14001,7 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecReadinessGates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#condition_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#condition_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#condition_type}
   */
   readonly conditionType?: string;
 }
@@ -14117,11 +14117,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecResourceClaimsSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resource_claim_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resource_claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resource_claim_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resource_claim_name}
   */
   readonly resourceClaimName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resource_claim_template_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resource_claim_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resource_claim_template_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resource_claim_template_name}
   */
   readonly resourceClaimTemplateName?: string;
 }
@@ -14244,11 +14244,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecResourceClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#source DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#source DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#source}
   */
   readonly source?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecResourceClaimsSource;
 }
@@ -14393,7 +14393,7 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecSchedulingGates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -14509,11 +14509,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecSecurityContextAppArmorProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#localhost_profile DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#localhost_profile DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -14636,19 +14636,19 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecSecurityContextSeLinuxOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#level DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#level DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#role DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#role DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#user DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#user DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#user}
   */
   readonly user?: string;
 }
@@ -14829,11 +14829,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecSecurityContextSeccompProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#localhost_profile DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#localhost_profile DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -14956,11 +14956,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecSecurityContextSysctls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#value DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#value DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -15105,19 +15105,19 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecSecurityContextWindowsOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#gmsa_credential_spec DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#gmsa_credential_spec DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#gmsa_credential_spec_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#gmsa_credential_spec_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host_process DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host_process DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#run_as_user_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#run_as_user_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -15298,47 +15298,47 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#app_armor_profile DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#app_armor_profile DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecSecurityContextAppArmorProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_group DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_group DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_group_change_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_group_change_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#run_as_group DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#run_as_group DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#run_as_non_root DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#run_as_non_root DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#run_as_user DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#run_as_user DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#se_linux_options DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#se_linux_options DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecSecurityContextSeLinuxOptions;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#seccomp_profile DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#seccomp_profile DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecSecurityContextSeccompProfile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#supplemental_groups DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#supplemental_groups DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#sysctls DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#sysctls DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecSecurityContextSysctls[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#windows_options DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#windows_options DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecSecurityContextWindowsOptions;
 }
@@ -15722,23 +15722,23 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#effect DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#effect DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#key DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#key DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#operator DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#operator DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#toleration_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#toleration_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#value DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#value DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -15970,15 +15970,15 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecTopologySpreadConstraintsLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#key DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#key DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#operator DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#operator DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#values DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#values DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -16152,11 +16152,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecTopologySpreadConstraintsLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#match_expressions DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#match_expressions DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#match_labels DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#match_labels DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -16279,35 +16279,35 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecTopologySpreadConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#label_selector DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#label_selector DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecTopologySpreadConstraintsLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#match_label_keys DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#match_label_keys DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#max_skew DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#max_skew DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#max_skew}
   */
   readonly maxSkew?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#min_domains DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#min_domains DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#node_affinity_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#node_affinity_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#node_taints_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#node_taints_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#topology_key DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#topology_key DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#topology_key}
   */
   readonly topologyKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#when_unsatisfiable DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#when_unsatisfiable DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable?: string;
 }
@@ -16626,19 +16626,19 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesAwsElasticBlockStore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#partition DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#partition DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#partition}
   */
   readonly partition?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_id DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_id DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_id}
   */
   readonly volumeId?: string;
 }
@@ -16819,27 +16819,27 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesAzureDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#caching_mode DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#caching_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#caching_mode DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#caching_mode}
   */
   readonly cachingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#disk_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#disk_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#disk_name}
   */
   readonly diskName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#disk_uri DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#disk_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#disk_uri DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#disk_uri}
   */
   readonly diskUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#kind DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#kind DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -17078,15 +17078,15 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesAzureFile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret_name}
   */
   readonly secretName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#share_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#share_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#share_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#share_name}
   */
   readonly shareName?: string;
 }
@@ -17238,7 +17238,7 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesCephfsSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -17332,27 +17332,27 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesCephfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#monitors DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#monitors DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#monitors}
   */
   readonly monitors?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret_file DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret_file DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret_file}
   */
   readonly secretFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesCephfsSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#user DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#user DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#user}
   */
   readonly user?: string;
 }
@@ -17591,7 +17591,7 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesCinderSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -17685,19 +17685,19 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesCinder {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesCinderSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_id DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_id DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_id}
   */
   readonly volumeId?: string;
 }
@@ -17878,15 +17878,15 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#key DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#key DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#mode DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#mode DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
   */
   readonly path?: string;
 }
@@ -18060,19 +18060,19 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#default_mode DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#default_mode DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#items DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#items DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#items}
   */
   readonly items?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesConfigMapItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#optional DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#optional DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18253,7 +18253,7 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesCsiNodePublishSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -18347,23 +18347,23 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesCsi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#driver DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#driver DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#driver}
   */
   readonly driver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#node_publish_secret_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#node_publish_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#node_publish_secret_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#node_publish_secret_ref}
   */
   readonly nodePublishSecretRef?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesCsiNodePublishSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_attributes DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_attributes DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_attributes}
   */
   readonly volumeAttributes?: { [key: string]: string };
 }
@@ -18573,11 +18573,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesDownwardApiItemsFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#api_version DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#api_version DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#field_path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#field_path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#field_path}
   */
   readonly fieldPath?: string;
 }
@@ -18700,15 +18700,15 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesDownwardApiItemsResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#container_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#container_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#divisor DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#divisor DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resource DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resource DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resource}
   */
   readonly resource?: string;
 }
@@ -18860,19 +18860,19 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesDownwardApiItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#field_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#field_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesDownwardApiItemsFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#mode DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#mode DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resource_field_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resource_field_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesDownwardApiItemsResourceFieldRef;
 }
@@ -19075,11 +19075,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesDownwardApi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#default_mode DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#default_mode DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#items DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#items DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#items}
   */
   readonly items?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -19202,11 +19202,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesEmptyDir {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#medium DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#medium DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#medium}
   */
   readonly medium?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#size_limit DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#size_limit DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -19329,31 +19329,31 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesEphemeralVolumeClaimTemplateMetadataManagedFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#api_version DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#api_version DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fields_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fields_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fields_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fields_type}
   */
   readonly fieldsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fields_v1 DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fields_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fields_v1 DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fields_v1}
   */
   readonly fieldsV1?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#manager DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#manager DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#manager}
   */
   readonly manager?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#operation DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#operation DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#operation}
   */
   readonly operation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#subresource DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#subresource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#subresource DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#subresource}
   */
   readonly subresource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#time DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#time DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#time}
   */
   readonly time?: string;
 }
@@ -19643,27 +19643,27 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesEphemeralVolumeClaimTemplateMetadataOwnerReferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#api_version DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#api_version DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#block_owner_deletion DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#block_owner_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#block_owner_deletion DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#block_owner_deletion}
   */
   readonly blockOwnerDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#controller DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#controller DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#controller}
   */
   readonly controller?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#kind DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#kind DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#uid DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#uid DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -19924,63 +19924,63 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesEphemeralVolumeClaimTemplateMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#annotations DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#annotations DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#creation_timestamp DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#creation_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#creation_timestamp DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#creation_timestamp}
   */
   readonly creationTimestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#deletion_grace_period_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#deletion_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#deletion_grace_period_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#deletion_grace_period_seconds}
   */
   readonly deletionGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#deletion_timestamp DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#deletion_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#deletion_timestamp DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#deletion_timestamp}
   */
   readonly deletionTimestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#finalizers DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#finalizers DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#generate_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#generate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#generate_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#generate_name}
   */
   readonly generateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#generation DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#generation DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#generation}
   */
   readonly generation?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#labels DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#labels DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#managed_fields DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#managed_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#managed_fields DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#managed_fields}
   */
   readonly managedFields?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesEphemeralVolumeClaimTemplateMetadataManagedFields[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#namespace DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#namespace DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#owner_references DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#owner_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#owner_references DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#owner_references}
   */
   readonly ownerReferences?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesEphemeralVolumeClaimTemplateMetadataOwnerReferences[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resource_version DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resource_version DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#self_link DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#self_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#self_link DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#self_link}
   */
   readonly selfLink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#uid DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#uid DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -20480,15 +20480,15 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesEphemeralVolumeClaimTemplateSpecDataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#api_group DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#api_group DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#kind DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#kind DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -20640,19 +20640,19 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesEphemeralVolumeClaimTemplateSpecDataSourceRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#api_group DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#api_group DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#kind DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#kind DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#namespace DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#namespace DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -20833,11 +20833,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesEphemeralVolumeClaimTemplateSpecResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#limits DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#limits DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#requests DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#requests DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -20960,15 +20960,15 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#key DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#key DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#operator DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#operator DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#values DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#values DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21142,11 +21142,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesEphemeralVolumeClaimTemplateSpecSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#match_expressions DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#match_expressions DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesEphemeralVolumeClaimTemplateSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#match_labels DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#match_labels DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -21269,39 +21269,39 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesEphemeralVolumeClaimTemplateSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#access_modes DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#access_modes DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#data_source DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#data_source DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#data_source}
   */
   readonly dataSource?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesEphemeralVolumeClaimTemplateSpecDataSource;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#data_source_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#data_source_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesEphemeralVolumeClaimTemplateSpecDataSourceRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resources DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resources DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resources}
   */
   readonly resources?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesEphemeralVolumeClaimTemplateSpecResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#selector DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#selector DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#selector}
   */
   readonly selector?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesEphemeralVolumeClaimTemplateSpecSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#storage_class_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#storage_class_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_attributes_class_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_attributes_class_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_mode DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_mode DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -21627,11 +21627,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesEphemeralVolumeClaimTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#metadata DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#metadata DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesEphemeralVolumeClaimTemplateMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#spec DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#spec DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesEphemeralVolumeClaimTemplateSpec;
 }
@@ -21754,7 +21754,7 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesEphemeral {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_claim_template DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_claim_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_claim_template DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_claim_template}
   */
   readonly volumeClaimTemplate?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesEphemeralVolumeClaimTemplate;
 }
@@ -21848,23 +21848,23 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesFc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#lun DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#lun DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#lun}
   */
   readonly lun?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#target_ww_ns DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#target_ww_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#target_ww_ns DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#target_ww_ns}
   */
   readonly targetWwNs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#wwids DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#wwids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#wwids DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#wwids}
   */
   readonly wwids?: string[];
 }
@@ -22074,7 +22074,7 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesFlexVolumeSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -22168,23 +22168,23 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesFlexVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#driver DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#driver DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#driver}
   */
   readonly driver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#options DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#options DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#options}
   */
   readonly options?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesFlexVolumeSecretRef;
 }
@@ -22394,11 +22394,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesFlocker {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#dataset_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#dataset_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#dataset_name}
   */
   readonly datasetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#dataset_uuid DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#dataset_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#dataset_uuid DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#dataset_uuid}
   */
   readonly datasetUuid?: string;
 }
@@ -22521,19 +22521,19 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesGcePersistentDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#partition DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#partition DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#partition}
   */
   readonly partition?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#pd_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#pd_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#pd_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#pd_name}
   */
   readonly pdName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -22714,15 +22714,15 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesGitRepo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#directory DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#directory DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#directory}
   */
   readonly directory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#repository DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#repository DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#repository}
   */
   readonly repository?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#revision DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#revision DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#revision}
   */
   readonly revision?: string;
 }
@@ -22874,15 +22874,15 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesGlusterfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#endpoints DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#endpoints DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#endpoints}
   */
   readonly endpoints?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -23034,11 +23034,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesHostPath {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -23161,7 +23161,7 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesIscsiSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -23255,47 +23255,47 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesIscsi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#chap_auth_discovery DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#chap_auth_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#chap_auth_discovery DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#chap_auth_discovery}
   */
   readonly chapAuthDiscovery?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#chap_auth_session DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#chap_auth_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#chap_auth_session DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#chap_auth_session}
   */
   readonly chapAuthSession?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#initiator_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#initiator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#initiator_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#initiator_name}
   */
   readonly initiatorName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#iqn DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#iqn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#iqn DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#iqn}
   */
   readonly iqn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#iscsi_interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#iscsi_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#iscsi_interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#iscsi_interface}
   */
   readonly iscsiInterface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#lun DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#lun DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#lun}
   */
   readonly lun?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#portals DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#portals DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#portals}
   */
   readonly portals?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesIscsiSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#target_portal DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#target_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#target_portal DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#target_portal}
   */
   readonly targetPortal?: string;
 }
@@ -23679,15 +23679,15 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesNfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#server DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#server DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#server}
   */
   readonly server?: string;
 }
@@ -23839,11 +23839,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesPersistentVolumeClaim {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#claim_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#claim_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#claim_name}
   */
   readonly claimName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -23966,11 +23966,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesPhotonPersistentDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#pd_id DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#pd_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#pd_id DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#pd_id}
   */
   readonly pdId?: string;
 }
@@ -24093,15 +24093,15 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesPortworxVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_id DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_id DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_id}
   */
   readonly volumeId?: string;
 }
@@ -24253,15 +24253,15 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjectedSourcesClusterTrustBundleLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#key DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#key DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#operator DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#operator DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#values DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#values DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -24435,11 +24435,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjectedSourcesClusterTrustBundleLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#match_expressions DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#match_expressions DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjectedSourcesClusterTrustBundleLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#match_labels DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#match_labels DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -24562,23 +24562,23 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjectedSourcesClusterTrustBundle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#label_selector DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#label_selector DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjectedSourcesClusterTrustBundleLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#optional DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#optional DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#signer_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#signer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#signer_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#signer_name}
   */
   readonly signerName?: string;
 }
@@ -24788,15 +24788,15 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjectedSourcesConfigMapItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#key DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#key DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#mode DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#mode DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
   */
   readonly path?: string;
 }
@@ -24970,15 +24970,15 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjectedSourcesConfigMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#items DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#items DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#items}
   */
   readonly items?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjectedSourcesConfigMapItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#optional DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#optional DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -25130,11 +25130,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjectedSourcesDownwardApiItemsFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#api_version DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#api_version DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#field_path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#field_path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#field_path}
   */
   readonly fieldPath?: string;
 }
@@ -25257,15 +25257,15 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjectedSourcesDownwardApiItemsResourceFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#container_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#container_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#divisor DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#divisor DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resource DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resource DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resource}
   */
   readonly resource?: string;
 }
@@ -25417,19 +25417,19 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjectedSourcesDownwardApiItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#field_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#field_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjectedSourcesDownwardApiItemsFieldRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#mode DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#mode DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resource_field_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resource_field_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjectedSourcesDownwardApiItemsResourceFieldRef;
 }
@@ -25632,7 +25632,7 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjectedSourcesDownwardApi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#items DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#items DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#items}
   */
   readonly items?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjectedSourcesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -25726,15 +25726,15 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjectedSourcesSecretItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#key DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#key DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#mode DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#mode DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
   */
   readonly path?: string;
 }
@@ -25908,15 +25908,15 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjectedSourcesSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#items DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#items DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#items}
   */
   readonly items?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjectedSourcesSecretItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#optional DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#optional DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -26068,15 +26068,15 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjectedSourcesServiceAccountToken {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#audience DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#audience DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#audience}
   */
   readonly audience?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#expiration_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#expiration_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
   */
   readonly path?: string;
 }
@@ -26228,23 +26228,23 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjectedSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#cluster_trust_bundle DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#cluster_trust_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#cluster_trust_bundle DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#cluster_trust_bundle}
   */
   readonly clusterTrustBundle?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjectedSourcesClusterTrustBundle;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#config_map DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#config_map DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjectedSourcesConfigMap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#downward_api DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#downward_api DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjectedSourcesDownwardApi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjectedSourcesSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#service_account_token DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#service_account_token DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjectedSourcesServiceAccountToken;
 }
@@ -26476,11 +26476,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjected {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#default_mode DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#default_mode DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#sources DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#sources DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#sources}
   */
   readonly sources?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjectedSources[] | cdktf.IResolvable;
 }
@@ -26603,27 +26603,27 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesQuobyte {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#group DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#group DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#registry DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#registry DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#registry}
   */
   readonly registry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#tenant DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#tenant DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#tenant}
   */
   readonly tenant?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#user DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#user DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#user}
   */
   readonly user?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume}
   */
   readonly volume?: string;
 }
@@ -26862,7 +26862,7 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesRbdSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -26956,35 +26956,35 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesRbd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#image DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#image DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#keyring DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#keyring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#keyring DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#keyring}
   */
   readonly keyring?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#monitors DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#monitors DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#monitors}
   */
   readonly monitors?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#pool DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#pool DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#pool}
   */
   readonly pool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesRbdSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#user DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#user DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#user}
   */
   readonly user?: string;
 }
@@ -27281,7 +27281,7 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesScaleIoSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -27375,43 +27375,43 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesScaleIo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#gateway DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#gateway DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#protection_domain DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#protection_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#protection_domain DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#protection_domain}
   */
   readonly protectionDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesScaleIoSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#ssl_enabled DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#ssl_enabled DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#ssl_enabled}
   */
   readonly sslEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#storage_mode DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#storage_mode DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#storage_mode}
   */
   readonly storageMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#storage_pool DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#storage_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#storage_pool DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#storage_pool}
   */
   readonly storagePool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#system DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#system DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#system}
   */
   readonly systemAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -27766,15 +27766,15 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesSecretItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#key DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#key DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#mode DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#mode DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#mode}
   */
   readonly mode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#path}
   */
   readonly path?: string;
 }
@@ -27948,19 +27948,19 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesSecret {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#default_mode DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#default_mode DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#items DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#items DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#items}
   */
   readonly items?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesSecretItems[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#optional DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#optional DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -28141,7 +28141,7 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesStorageosSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -28235,23 +28235,23 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesStorageos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#read_only DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret_ref DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesStorageosSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_name}
   */
   readonly volumeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_namespace DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_namespace DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_namespace}
   */
   readonly volumeNamespace?: string;
 }
@@ -28461,19 +28461,19 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesVsphereVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fs_type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#storage_policy_id DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#storage_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#storage_policy_id DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#storage_policy_id}
   */
   readonly storagePolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#storage_policy_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#storage_policy_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#storage_policy_name}
   */
   readonly storagePolicyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volume_path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volume_path}
   */
   readonly volumePath?: string;
 }
@@ -28654,123 +28654,123 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#aws_elastic_block_store DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#aws_elastic_block_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#aws_elastic_block_store DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#aws_elastic_block_store}
   */
   readonly awsElasticBlockStore?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesAwsElasticBlockStore;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#azure_disk DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#azure_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#azure_disk DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#azure_disk}
   */
   readonly azureDisk?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesAzureDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#azure_file DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#azure_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#azure_file DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#azure_file}
   */
   readonly azureFile?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesAzureFile;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#cephfs DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#cephfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#cephfs DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#cephfs}
   */
   readonly cephfs?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesCephfs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#cinder DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#cinder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#cinder DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#cinder}
   */
   readonly cinder?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesCinder;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#config_map DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#config_map DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesConfigMap;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#csi DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#csi DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#csi}
   */
   readonly csi?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesCsi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#downward_api DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#downward_api DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesDownwardApi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#empty_dir DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#empty_dir DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesEmptyDir;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#ephemeral DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#ephemeral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#ephemeral DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#ephemeral}
   */
   readonly ephemeral?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesEphemeral;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fc DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#fc DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#fc}
   */
   readonly fc?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesFc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#flex_volume DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#flex_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#flex_volume DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#flex_volume}
   */
   readonly flexVolume?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesFlexVolume;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#flocker DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#flocker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#flocker DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#flocker}
   */
   readonly flocker?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesFlocker;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#gce_persistent_disk DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#gce_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#gce_persistent_disk DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#gce_persistent_disk}
   */
   readonly gcePersistentDisk?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesGcePersistentDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#git_repo DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#git_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#git_repo DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#git_repo}
   */
   readonly gitRepo?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesGitRepo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#glusterfs DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#glusterfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#glusterfs DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#glusterfs}
   */
   readonly glusterfs?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesGlusterfs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host_path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host_path DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host_path}
   */
   readonly hostPath?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesHostPath;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#iscsi DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#iscsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#iscsi DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#iscsi}
   */
   readonly iscsi?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesIscsi;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#nfs DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#nfs DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#nfs}
   */
   readonly nfs?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesNfs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#persistent_volume_claim DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#persistent_volume_claim DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesPersistentVolumeClaim;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#photon_persistent_disk DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#photon_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#photon_persistent_disk DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#photon_persistent_disk}
   */
   readonly photonPersistentDisk?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesPhotonPersistentDisk;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#portworx_volume DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#portworx_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#portworx_volume DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#portworx_volume}
   */
   readonly portworxVolume?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesPortworxVolume;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#projected DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#projected DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#projected}
   */
   readonly projected?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesProjected;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#quobyte DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#quobyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#quobyte DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#quobyte}
   */
   readonly quobyte?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesQuobyte;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#rbd DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#rbd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#rbd DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#rbd}
   */
   readonly rbd?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesRbd;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#scale_io DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#scale_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#scale_io DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#scale_io}
   */
   readonly scaleIo?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesScaleIo;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#secret DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#storageos DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#storageos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#storageos DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#storageos}
   */
   readonly storageos?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesStorageos;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#vsphere_volume DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#vsphere_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#vsphere_volume DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#vsphere_volume}
   */
   readonly vsphereVolume?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumesVsphereVolume;
 }
@@ -29727,159 +29727,159 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#active_deadline_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#active_deadline_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#active_deadline_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#active_deadline_seconds}
   */
   readonly activeDeadlineSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#affinity DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#affinity DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#affinity}
   */
   readonly affinity?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#automount_service_account_token DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#automount_service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#automount_service_account_token DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#automount_service_account_token}
   */
   readonly automountServiceAccountToken?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#containers DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#containers DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#containers}
   */
   readonly containers?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecContainers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#dns_config DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#dns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#dns_config DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#dns_config}
   */
   readonly dnsConfig?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecDnsConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#dns_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#dns_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#dns_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#dns_policy}
   */
   readonly dnsPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#enable_service_links DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#enable_service_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#enable_service_links DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#enable_service_links}
   */
   readonly enableServiceLinks?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#ephemeral_containers DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#ephemeral_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#ephemeral_containers DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#ephemeral_containers}
   */
   readonly ephemeralContainers?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecEphemeralContainers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host_aliases DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host_aliases DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host_aliases}
   */
   readonly hostAliases?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecHostAliases[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host_ipc DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host_ipc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host_ipc DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host_ipc}
   */
   readonly hostIpc?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host_network DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host_network DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host_network}
   */
   readonly hostNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host_pid DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host_pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host_pid DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host_pid}
   */
   readonly hostPid?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host_users DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#host_users DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#host_users}
   */
   readonly hostUsers?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#hostname DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#hostname DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#image_pull_secrets DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#image_pull_secrets DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#init_containers DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#init_containers DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#init_containers}
   */
   readonly initContainers?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecInitContainers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#node_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#node_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#node_name}
   */
   readonly nodeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#node_selector DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#node_selector DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#os DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#os DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#os}
   */
   readonly os?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecOs;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#overhead DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#overhead}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#overhead DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#overhead}
   */
   readonly overhead?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#preemption_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#preemption_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#preemption_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#preemption_policy}
   */
   readonly preemptionPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#priority DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#priority DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#priority_class_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#priority_class_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#readiness_gates DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#readiness_gates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#readiness_gates DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#readiness_gates}
   */
   readonly readinessGates?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecReadinessGates[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resource_claims DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resource_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#resource_claims DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#resource_claims}
   */
   readonly resourceClaims?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecResourceClaims[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#restart_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#restart_policy DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#runtime_class_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#runtime_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#runtime_class_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#runtime_class_name}
   */
   readonly runtimeClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#scheduler_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#scheduler_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#scheduler_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#scheduler_name}
   */
   readonly schedulerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#scheduling_gates DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#scheduling_gates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#scheduling_gates DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#scheduling_gates}
   */
   readonly schedulingGates?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecSchedulingGates[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#security_context DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#security_context DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#security_context}
   */
   readonly securityContext?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#service_account DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#service_account DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#service_account}
   */
   readonly serviceAccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#service_account_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#service_account_name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#set_hostname_as_fqdn DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#set_hostname_as_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#set_hostname_as_fqdn DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#set_hostname_as_fqdn}
   */
   readonly setHostnameAsFqdn?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#share_process_namespace DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#share_process_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#share_process_namespace DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#share_process_namespace}
   */
   readonly shareProcessNamespace?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#subdomain DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#subdomain DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#subdomain}
   */
   readonly subdomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#termination_grace_period_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#termination_grace_period_seconds DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#tolerations DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#tolerations DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#topology_spread_constraints DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#topology_spread_constraints DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecTopologySpreadConstraints[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volumes DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#volumes DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#volumes}
   */
   readonly volumes?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateSpecVolumes[] | cdktf.IResolvable;
 }
@@ -31075,27 +31075,27 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateStatusConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#last_probe_time DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#last_probe_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#last_probe_time DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#last_probe_time}
   */
   readonly lastProbeTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#last_transition_time DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#last_transition_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#last_transition_time DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#last_transition_time}
   */
   readonly lastTransitionTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#message DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#message DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#reason DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#reason DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#status DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#status DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#type DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -31356,7 +31356,7 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateStatusContainerStatusesLastStateRunning {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#started_at DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#started_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#started_at DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#started_at}
   */
   readonly startedAt?: string;
 }
@@ -31450,31 +31450,31 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateStatusContainerStatusesLastStateTerminated {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#container_id DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#container_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#container_id DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#container_id}
   */
   readonly containerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#exit_code DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#exit_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#exit_code DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#exit_code}
   */
   readonly exitCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#finished_at DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#finished_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#finished_at DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#finished_at}
   */
   readonly finishedAt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#message DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#message DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#reason DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#reason DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#signal DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#signal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#signal DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#signal}
   */
   readonly signal?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#started_at DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#started_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#started_at DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#started_at}
   */
   readonly startedAt?: string;
 }
@@ -31742,11 +31742,11 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateStatusContainerStatusesLastStateWaiting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#message DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#message DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#reason DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#reason DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#reason}
   */
   readonly reason?: string;
 }
@@ -31869,15 +31869,15 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateStatusContainerStatusesLastState {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#running DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#running}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#running DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#running}
   */
   readonly running?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateStatusContainerStatusesLastStateRunning;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#terminated DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#terminated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#terminated DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#terminated}
   */
   readonly terminated?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateStatusContainerStatusesLastStateTerminated;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#waiting DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#waiting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#waiting DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#waiting}
   */
   readonly waiting?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateStatusContainerStatusesLastStateWaiting;
 }
@@ -32029,7 +32029,7 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateStatusContainerStatusesResourcesClaims {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#name DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
 }
@@ -32145,15 +32145,15 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateStatusContainerStatusesResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#claims DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#claims DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#claims}
   */
   readonly claims?: DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateStatusContainerStatusesResourcesClaims[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#limits DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#limits DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#requests DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#requests DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -32305,7 +32305,7 @@ export class DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateS
 }
 export interface DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1ManifestSpecPodTemplateStatusContainerStatusesStateRunning {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#started_at DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#started_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/flink_apache_org_flink_deployment_v1beta1_manifest#started_at DataK8SFlinkApacheOrgFlinkDeploymentV1Beta1Manifest#started_at}
   */
   readonly startedAt?: string;
 }

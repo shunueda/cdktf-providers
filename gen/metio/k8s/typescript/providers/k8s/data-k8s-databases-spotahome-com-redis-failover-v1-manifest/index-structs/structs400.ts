@@ -103,13 +103,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * path of the directory on the host. If the path is a symlink, it will follow the link to the real path. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#path}
   */
   readonly path: string;
   /**
   * type for HostPath Volume Defaults to '' More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -231,7 +231,7 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -327,67 +327,67 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * chapAuthDiscovery defines whether support iSCSI Discovery CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#chap_auth_discovery DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#chap_auth_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#chap_auth_discovery DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#chap_auth_discovery}
   */
   readonly chapAuthDiscovery?: boolean | cdktf.IResolvable;
   /**
   * chapAuthSession defines whether support iSCSI Session CHAP authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#chap_auth_session DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#chap_auth_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#chap_auth_session DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#chap_auth_session}
   */
   readonly chapAuthSession?: boolean | cdktf.IResolvable;
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#iscsi TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#fs_type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#fs_type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * initiatorName is the custom iSCSI Initiator Name. If initiatorName is specified with iscsiInterface simultaneously, new iSCSI interface <target portal>:<volume name> will be created for the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#initiator_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#initiator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#initiator_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#initiator_name}
   */
   readonly initiatorName?: string;
   /**
   * iqn is the target iSCSI Qualified Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#iqn DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#iqn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#iqn DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#iqn}
   */
   readonly iqn: string;
   /**
   * iscsiInterface is the interface Name that uses an iSCSI transport. Defaults to 'default' (tcp).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#iscsi_interface DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#iscsi_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#iscsi_interface DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#iscsi_interface}
   */
   readonly iscsiInterface?: string;
   /**
   * lun represents iSCSI Target Lun number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#lun DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#lun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#lun DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#lun}
   */
   readonly lun: number;
   /**
   * portals is the iSCSI Target Portal List. The portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#portals DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#portals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#portals DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#portals}
   */
   readonly portals?: string[];
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#read_only DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#read_only DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is the CHAP Secret for iSCSI target and initiator authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#secret_ref DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#secret_ref DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesIscsiSecretRef;
   /**
   * targetPortal is iSCSI Target Portal. The Portal is either an IP or ip_addr:port if the port is other than default (typically TCP ports 860 and 3260).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#target_portal DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#target_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#target_portal DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#target_portal}
   */
   readonly targetPortal: string;
 }
@@ -764,19 +764,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * path that is exported by the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#path}
   */
   readonly path: string;
   /**
   * readOnly here will force the NFS export to be mounted with read-only permissions. Defaults to false. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#read_only DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#read_only DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * server is the hostname or IP address of the NFS server. More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#server DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#server DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#server}
   */
   readonly server: string;
 }
@@ -924,13 +924,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * claimName is the name of a PersistentVolumeClaim in the same namespace as the pod using this volume. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#claim_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#claim_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#claim_name}
   */
   readonly claimName: string;
   /**
   * readOnly Will force the ReadOnly setting in VolumeMounts. Default false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#read_only DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#read_only DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -1052,13 +1052,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#fs_type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#fs_type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * pdID is the ID that identifies Photon Controller persistent disk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#pd_id DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#pd_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#pd_id DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#pd_id}
   */
   readonly pdId: string;
 }
@@ -1180,19 +1180,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * fSType represents the filesystem type to mount Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#fs_type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#fs_type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#read_only DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#read_only DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * volumeID uniquely identifies a Portworx volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#volume_id DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#volume_id DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#volume_id}
   */
   readonly volumeId: string;
 }
@@ -1343,19 +1343,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#mode DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#mode DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#path}
   */
   readonly path: string;
 }
@@ -1525,19 +1525,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced ConfigMap will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the ConfigMap, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#items DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#items DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#items}
   */
   readonly items?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesProjectedSourcesConfigMapItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional specify whether the ConfigMap or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#optional DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#optional DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1691,13 +1691,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#api_version DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#api_version DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#field_path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#field_path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -1819,19 +1819,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#container_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#container_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#divisor DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#divisor DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#resource DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#resource DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -1982,25 +1982,25 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * Required: Selects a field of the pod: only annotations, labels, name and namespace are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#field_ref DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#field_ref DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesProjectedSourcesDownwardApiItemsFieldRef;
   /**
   * Optional: mode bits used to set permissions on this file, must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#mode DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#mode DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * Required: Path is the relative path name of the file to be created. Must not be absolute or contain the '..' path. Must be utf-8 encoded. The first item of the relative path must not start with '..'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#path}
   */
   readonly path: string;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, requests.cpu and requests.memory) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#resource_field_ref DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#resource_field_ref DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesProjectedSourcesDownwardApiItemsResourceFieldRef;
 }
@@ -2202,7 +2202,7 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * Items is a list of DownwardAPIVolume file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#items DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#items DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#items}
   */
   readonly items?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesProjectedSourcesDownwardApiItems[] | cdktf.IResolvable;
 }
@@ -2298,19 +2298,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#mode DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#mode DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#path}
   */
   readonly path: string;
 }
@@ -2480,19 +2480,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#items DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#items DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#items}
   */
   readonly items?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesProjectedSourcesSecretItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional field specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#optional DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#optional DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2646,19 +2646,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * audience is the intended audience of the token. A recipient of a token must identify itself with an identifier specified in the audience of the token, and otherwise should reject the token. The audience defaults to the identifier of the apiserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#audience DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#audience DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#audience}
   */
   readonly audience?: string;
   /**
   * expirationSeconds is the requested duration of validity of the service account token. As the token approaches expiration, the kubelet volume plugin will proactively rotate the service account token. The kubelet will start trying to rotate the token if the token is older than 80 percent of its time to live or if the token is older than 24 hours.Defaults to 1 hour and must be at least 10 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#expiration_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#expiration_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
   * path is the path relative to the mount point of the file to project the token into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#path}
   */
   readonly path: string;
 }
@@ -2809,25 +2809,25 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * configMap information about the configMap data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#config_map DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#config_map DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#config_map}
   */
   readonly configMap?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesProjectedSourcesConfigMap;
   /**
   * downwardAPI information about the downwardAPI data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#downward_api DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#downward_api DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesProjectedSourcesDownwardApi;
   /**
   * secret information about the secret data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#secret DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#secret DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#secret}
   */
   readonly secret?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesProjectedSourcesSecret;
   /**
   * serviceAccountToken is information about the serviceAccountToken data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#service_account_token DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#service_account_token DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesProjectedSourcesServiceAccountToken;
 }
@@ -3032,13 +3032,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * defaultMode are the mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#default_mode DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#default_mode DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * sources is the list of volume projections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#sources DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#sources DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#sources}
   */
   readonly sources?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesProjectedSources[] | cdktf.IResolvable;
 }
@@ -3163,37 +3163,37 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * group to map volume access to Default is no group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#group DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#group DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#group}
   */
   readonly group?: string;
   /**
   * readOnly here will force the Quobyte volume to be mounted with read-only permissions. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#read_only DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#read_only DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * registry represents a single or multiple Quobyte Registry services specified as a string as host:port pair (multiple entries are separated with commas) which acts as the central registry for volumes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#registry DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#registry DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#registry}
   */
   readonly registry: string;
   /**
   * tenant owning the given Quobyte volume in the Backend Used with dynamically provisioned Quobyte volumes, value is set by the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#tenant DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#tenant DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#tenant}
   */
   readonly tenant?: string;
   /**
   * user to map volume access to Defaults to serivceaccount user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#user DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#user DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#user}
   */
   readonly user?: string;
   /**
   * volume is a string that references an already created Quobyte volume by name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#volume DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#volume DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#volume}
   */
   readonly volume: string;
 }
@@ -3428,7 +3428,7 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -3524,49 +3524,49 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * fsType is the filesystem type of the volume that you want to mount. Tip: Ensure that the filesystem type is supported by the host operating system. Examples: 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified. More info: https://kubernetes.io/docs/concepts/storage/volumes#rbd TODO: how do we prevent errors in the filesystem from compromising the machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#fs_type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#fs_type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * image is the rados image name. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#image DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#image DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#image}
   */
   readonly image: string;
   /**
   * keyring is the path to key ring for RBDUser. Default is /etc/ceph/keyring. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#keyring DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#keyring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#keyring DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#keyring}
   */
   readonly keyring?: string;
   /**
   * monitors is a collection of Ceph monitors. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#monitors DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#monitors DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#monitors}
   */
   readonly monitors: string[];
   /**
   * pool is the rados pool name. Default is rbd. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#pool DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#pool DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#pool}
   */
   readonly pool?: string;
   /**
   * readOnly here will force the ReadOnly setting in VolumeMounts. Defaults to false. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#read_only DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#read_only DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef is name of the authentication secret for RBDUser. If provided overrides keyring. Default is nil. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#secret_ref DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#secret_ref DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesRbdSecretRef;
   /**
   * user is the rados user name. Default is admin. More info: https://examples.k8s.io/volumes/rbd/README.md#how-to-use-it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#user DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#user DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -3859,7 +3859,7 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -3955,61 +3955,61 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Default is 'xfs'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#fs_type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#fs_type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * gateway is the host address of the ScaleIO API Gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#gateway DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#gateway DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#gateway}
   */
   readonly gateway: string;
   /**
   * protectionDomain is the name of the ScaleIO Protection Domain for the configured storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#protection_domain DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#protection_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#protection_domain DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#protection_domain}
   */
   readonly protectionDomain?: string;
   /**
   * readOnly Defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#read_only DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#read_only DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef references to the secret for ScaleIO user and other sensitive information. If this is not provided, Login operation will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#secret_ref DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#secret_ref DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#secret_ref}
   */
   readonly secretRef: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesScaleIoSecretRef;
   /**
   * sslEnabled Flag enable/disable SSL communication with Gateway, default false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#ssl_enabled DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#ssl_enabled DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#ssl_enabled}
   */
   readonly sslEnabled?: boolean | cdktf.IResolvable;
   /**
   * storageMode indicates whether the storage for a volume should be ThickProvisioned or ThinProvisioned. Default is ThinProvisioned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#storage_mode DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#storage_mode DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#storage_mode}
   */
   readonly storageMode?: string;
   /**
   * storagePool is the ScaleIO Storage Pool associated with the protection domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#storage_pool DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#storage_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#storage_pool DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#storage_pool}
   */
   readonly storagePool?: string;
   /**
   * system is the name of the storage system as configured in ScaleIO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#system DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#system DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#system}
   */
   readonly systemAttribute: string;
   /**
   * volumeName is the name of a volume already created in the ScaleIO system that is associated with this volume source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#volume_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#volume_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -4357,19 +4357,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#mode DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#mode DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#path}
   */
   readonly path: string;
 }
@@ -4539,25 +4539,25 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * defaultMode is Optional: mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Defaults to 0644. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#default_mode DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#default_mode DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * items If unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#items DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#items DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#items}
   */
   readonly items?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesSecretItems[] | cdktf.IResolvable;
   /**
   * optional field specify whether the Secret or its keys must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#optional DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#optional DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
   /**
   * secretName is the name of the secret in the pod's namespace to use. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#secret_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#secret_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -4740,7 +4740,7 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -4836,31 +4836,31 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * fsType is the filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#fs_type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#fs_type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * readOnly defaults to false (read/write). ReadOnly here will force the ReadOnly setting in VolumeMounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#read_only DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#read_only DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * secretRef specifies the secret to use for obtaining the StorageOS API credentials. If not specified, default values will be attempted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#secret_ref DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#secret_ref DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesStorageosSecretRef;
   /**
   * volumeName is the human-readable name of the StorageOS volume. Volume names are only unique within a namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#volume_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#volume_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#volume_name}
   */
   readonly volumeName?: string;
   /**
   * volumeNamespace specifies the scope of the volume within StorageOS. If no namespace is specified then the Pod's namespace will be used. This allows the Kubernetes name scoping to be mirrored within StorageOS for tighter integration. Set VolumeName to any name to override the default behaviour. Set to 'default' if you are not using namespaces within StorageOS. Namespaces that do not pre-exist within StorageOS will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#volume_namespace DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#volume_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#volume_namespace DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#volume_namespace}
   */
   readonly volumeNamespace?: string;
 }
@@ -5072,25 +5072,25 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * fsType is filesystem type to mount. Must be a filesystem type supported by the host operating system. Ex. 'ext4', 'xfs', 'ntfs'. Implicitly inferred to be 'ext4' if unspecified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#fs_type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#fs_type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * storagePolicyID is the storage Policy Based Management (SPBM) profile ID associated with the StoragePolicyName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#storage_policy_id DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#storage_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#storage_policy_id DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#storage_policy_id}
   */
   readonly storagePolicyId?: string;
   /**
   * storagePolicyName is the storage Policy Based Management (SPBM) profile name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#storage_policy_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#storage_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#storage_policy_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#storage_policy_name}
   */
   readonly storagePolicyName?: string;
   /**
   * volumePath is the path that identifies vSphere volume vmdk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#volume_path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#volume_path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#volume_path}
   */
   readonly volumePath: string;
 }
@@ -5270,181 +5270,181 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExt
   /**
   * awsElasticBlockStore represents an AWS Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#awselasticblockstore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#aws_elastic_block_store DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#aws_elastic_block_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#aws_elastic_block_store DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#aws_elastic_block_store}
   */
   readonly awsElasticBlockStore?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesAwsElasticBlockStore;
   /**
   * azureDisk represents an Azure Data Disk mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#azure_disk DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#azure_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#azure_disk DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#azure_disk}
   */
   readonly azureDisk?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesAzureDisk;
   /**
   * azureFile represents an Azure File Service mount on the host and bind mount to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#azure_file DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#azure_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#azure_file DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#azure_file}
   */
   readonly azureFile?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesAzureFile;
   /**
   * cephFS represents a Ceph FS mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#cephfs DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#cephfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#cephfs DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#cephfs}
   */
   readonly cephfs?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesCephfs;
   /**
   * cinder represents a cinder volume attached and mounted on kubelets host machine. More info: https://examples.k8s.io/mysql-cinder-pd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#cinder DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#cinder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#cinder DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#cinder}
   */
   readonly cinder?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesCinder;
   /**
   * configMap represents a configMap that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#config_map DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#config_map DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#config_map}
   */
   readonly configMap?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesConfigMap;
   /**
   * csi (Container Storage Interface) represents ephemeral storage that is handled by certain external CSI drivers (Beta feature).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#csi DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#csi DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#csi}
   */
   readonly csi?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesCsi;
   /**
   * downwardAPI represents downward API about the pod that should populate this volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#downward_api DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#downward_api DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesDownwardApi;
   /**
   * emptyDir represents a temporary directory that shares a pod's lifetime. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#empty_dir DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#empty_dir DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesEmptyDir;
   /**
   * ephemeral represents a volume that is handled by a cluster storage driver. The volume's lifecycle is tied to the pod that defines it - it will be created before the pod starts, and deleted when the pod is removed. Use this if: a) the volume is only needed while the pod runs, b) features of normal volumes like restoring from snapshot or capacity tracking are needed, c) the storage driver is specified through a storage class, and d) the storage driver supports dynamic volume provisioning through a PersistentVolumeClaim (see EphemeralVolumeSource for more information on the connection between this volume type and PersistentVolumeClaim). Use PersistentVolumeClaim or one of the vendor-specific APIs for volumes that persist for longer than the lifecycle of an individual pod. Use CSI for light-weight local ephemeral volumes if the CSI driver is meant to be used that way - see the documentation of the driver for more information. A pod can use both types of ephemeral volumes and persistent volumes at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#ephemeral DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#ephemeral}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#ephemeral DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#ephemeral}
   */
   readonly ephemeral?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesEphemeral;
   /**
   * fc represents a Fibre Channel resource that is attached to a kubelet's host machine and then exposed to the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#fc DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#fc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#fc DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#fc}
   */
   readonly fc?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesFc;
   /**
   * flexVolume represents a generic volume resource that is provisioned/attached using an exec based plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#flex_volume DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#flex_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#flex_volume DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#flex_volume}
   */
   readonly flexVolume?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesFlexVolume;
   /**
   * flocker represents a Flocker volume attached to a kubelet's host machine. This depends on the Flocker control service being running
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#flocker DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#flocker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#flocker DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#flocker}
   */
   readonly flocker?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesFlocker;
   /**
   * gcePersistentDisk represents a GCE Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://kubernetes.io/docs/concepts/storage/volumes#gcepersistentdisk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#gce_persistent_disk DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#gce_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#gce_persistent_disk DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#gce_persistent_disk}
   */
   readonly gcePersistentDisk?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesGcePersistentDisk;
   /**
   * gitRepo represents a git repository at a particular revision. DEPRECATED: GitRepo is deprecated. To provision a container with a git repo, mount an EmptyDir into an InitContainer that clones the repo using git, then mount the EmptyDir into the Pod's container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#git_repo DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#git_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#git_repo DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#git_repo}
   */
   readonly gitRepo?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesGitRepo;
   /**
   * glusterfs represents a Glusterfs mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/glusterfs/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#glusterfs DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#glusterfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#glusterfs DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#glusterfs}
   */
   readonly glusterfs?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesGlusterfs;
   /**
   * hostPath represents a pre-existing file or directory on the host machine that is directly exposed to the container. This is generally used for system agents or other privileged things that are allowed to see the host machine. Most containers will NOT need this. More info: https://kubernetes.io/docs/concepts/storage/volumes#hostpath --- TODO(jonesdl) We need to restrict who can use host directory mounts and who can/can not mount host directories as read/write.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host_path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host_path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host_path}
   */
   readonly hostPath?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesHostPath;
   /**
   * iscsi represents an ISCSI Disk resource that is attached to a kubelet's host machine and then exposed to the pod. More info: https://examples.k8s.io/volumes/iscsi/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#iscsi DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#iscsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#iscsi DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#iscsi}
   */
   readonly iscsi?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesIscsi;
   /**
   * name of the volume. Must be a DNS_LABEL and unique within the pod. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name: string;
   /**
   * nfs represents an NFS mount on the host that shares a pod's lifetime More info: https://kubernetes.io/docs/concepts/storage/volumes#nfs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#nfs DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#nfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#nfs DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#nfs}
   */
   readonly nfs?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesNfs;
   /**
   * persistentVolumeClaimVolumeSource represents a reference to a PersistentVolumeClaim in the same namespace. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#persistent_volume_claim DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#persistent_volume_claim DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesPersistentVolumeClaim;
   /**
   * photonPersistentDisk represents a PhotonController persistent disk attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#photon_persistent_disk DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#photon_persistent_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#photon_persistent_disk DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#photon_persistent_disk}
   */
   readonly photonPersistentDisk?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesPhotonPersistentDisk;
   /**
   * portworxVolume represents a portworx volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#portworx_volume DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#portworx_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#portworx_volume DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#portworx_volume}
   */
   readonly portworxVolume?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesPortworxVolume;
   /**
   * projected items for all in one resources secrets, configmaps, and downward API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#projected DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#projected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#projected DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#projected}
   */
   readonly projected?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesProjected;
   /**
   * quobyte represents a Quobyte mount on the host that shares a pod's lifetime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#quobyte DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#quobyte}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#quobyte DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#quobyte}
   */
   readonly quobyte?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesQuobyte;
   /**
   * rbd represents a Rados Block Device mount on the host that shares a pod's lifetime. More info: https://examples.k8s.io/volumes/rbd/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#rbd DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#rbd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#rbd DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#rbd}
   */
   readonly rbd?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesRbd;
   /**
   * scaleIO represents a ScaleIO persistent volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#scale_io DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#scale_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#scale_io DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#scale_io}
   */
   readonly scaleIo?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesScaleIo;
   /**
   * secret represents a secret that should populate this volume. More info: https://kubernetes.io/docs/concepts/storage/volumes#secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#secret DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#secret DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#secret}
   */
   readonly secret?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesSecret;
   /**
   * storageOS represents a StorageOS volume attached and mounted on Kubernetes nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#storageos DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#storageos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#storageos DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#storageos}
   */
   readonly storageos?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesStorageos;
   /**
   * vsphereVolume represents a vSphere volume attached and mounted on kubelets host machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#vsphere_volume DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#vsphere_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#vsphere_volume DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#vsphere_volume}
   */
   readonly vsphereVolume?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumesVsphereVolume;
 }
@@ -6400,7 +6400,7 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIma
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -6518,19 +6518,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#optional DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#optional DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6681,13 +6681,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#api_version DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#api_version DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#field_path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#field_path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -6809,19 +6809,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#container_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#container_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#divisor DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#divisor DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#resource DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#resource DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -6972,19 +6972,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#optional DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#optional DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7135,25 +7135,25 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#config_map_key_ref DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#config_map_key_ref DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#field_ref DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#field_ref DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#resource_field_ref DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#resource_field_ref DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#secret_key_ref DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#secret_key_ref DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersEnvValueFromSecretKeyRef;
 }
@@ -7336,19 +7336,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#value DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#value DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#value_from DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#value_from DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersEnvValueFrom;
 }
@@ -7521,13 +7521,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#optional DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#optional DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7652,13 +7652,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#optional DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#optional DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7783,19 +7783,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#config_map_ref DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#config_map_ref DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#prefix DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#prefix DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#secret_ref DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#secret_ref DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersEnvFromSecretRef;
 }
@@ -7971,7 +7971,7 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#command DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#command DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -8067,13 +8067,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#value DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#value DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#value}
   */
   readonly value: string;
 }
@@ -8214,31 +8214,31 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#http_headers DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#http_headers DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#scheme DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#scheme DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -8447,13 +8447,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
   */
   readonly port: string;
 }
@@ -8575,19 +8575,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#exec DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#exec DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#exec}
   */
   readonly exec?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersLifecyclePostStartExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#http_get DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#http_get DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersLifecyclePostStartHttpGet;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#tcp_socket DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#tcp_socket DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersLifecyclePostStartTcpSocket;
 }
@@ -8741,7 +8741,7 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#command DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#command DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -8837,13 +8837,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#value DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#value DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#value}
   */
   readonly value: string;
 }
@@ -8984,31 +8984,31 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#http_headers DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#http_headers DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#scheme DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#scheme DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -9217,13 +9217,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
   */
   readonly port: string;
 }
@@ -9345,19 +9345,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#exec DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#exec DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#exec}
   */
   readonly exec?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersLifecyclePreStopExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#http_get DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#http_get DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersLifecyclePreStopHttpGet;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#tcp_socket DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#tcp_socket DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersLifecyclePreStopTcpSocket;
 }
@@ -9511,13 +9511,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * PostStart is called immediately after a container is created. If the handler fails, the container is terminated and restarted according to its restart policy. Other management of the container blocks until the hook completes. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#post_start DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#post_start DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#post_start}
   */
   readonly postStart?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersLifecyclePostStart;
   /**
   * PreStop is called immediately before a container is terminated due to an API request or management event such as liveness/startup probe failure, preemption, resource contention, etc. The handler is not called if the container crashes or exits. The Pod's termination grace period countdown begins before the PreStop hook is executed. Regardless of the outcome of the handler, the container will eventually terminate within the Pod's termination grace period (unless delayed by finalizers). Other management of the container blocks until the hook completes or until the termination grace period is reached. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#pre_stop DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#pre_stop DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#pre_stop}
   */
   readonly preStop?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersLifecyclePreStop;
 }
@@ -9642,7 +9642,7 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#command DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#command DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -9738,13 +9738,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#service DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#service DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -9866,13 +9866,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#value DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#value DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#value}
   */
   readonly value: string;
 }
@@ -10013,31 +10013,31 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#http_headers DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#http_headers DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#scheme DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#scheme DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -10246,13 +10246,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
   */
   readonly port: string;
 }
@@ -10374,61 +10374,61 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#exec DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#exec DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#exec}
   */
   readonly exec?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#failure_threshold DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#failure_threshold DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#grpc DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#grpc DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#grpc}
   */
   readonly grpc?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersLivenessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#http_get DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#http_get DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersLivenessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#initial_delay_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#initial_delay_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#period_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#period_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#success_threshold DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#success_threshold DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#tcp_socket DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#tcp_socket DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersLivenessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#termination_grace_period_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#termination_grace_period_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#timeout_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#timeout_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -10785,31 +10785,31 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Number of port to expose on the pod's IP address. This must be a valid port number, 0 < x < 65536.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#container_port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#container_port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
   * What host IP to bind the external port to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host_ip DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host_ip DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
   * Number of port to expose on the host. If specified, this must be a valid port number, 0 < x < 65536. If HostNetwork is specified, this must match ContainerPort. Most containers do not need this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host_port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host_port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
   * If specified, this must be an IANA_SVC_NAME and unique within the pod. Each named port in a pod must have a unique name. Name for the port that can be referred to by services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Protocol for port. Must be UDP, TCP, or SCTP. Defaults to 'TCP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#protocol DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#protocol DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -11040,7 +11040,7 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#command DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#command DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -11136,13 +11136,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#service DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#service DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -11264,13 +11264,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#value DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#value DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#value}
   */
   readonly value: string;
 }
@@ -11411,31 +11411,31 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#http_headers DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#http_headers DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#scheme DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#scheme DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -11644,13 +11644,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
   */
   readonly port: string;
 }
@@ -11772,61 +11772,61 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#exec DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#exec DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#exec}
   */
   readonly exec?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersReadinessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#failure_threshold DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#failure_threshold DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#grpc DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#grpc DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#grpc}
   */
   readonly grpc?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersReadinessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#http_get DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#http_get DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersReadinessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#initial_delay_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#initial_delay_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#period_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#period_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#success_threshold DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#success_threshold DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#tcp_socket DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#tcp_socket DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersReadinessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#termination_grace_period_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#termination_grace_period_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#timeout_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#timeout_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -12183,13 +12183,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Name of the resource to which this resource resize policy applies. Supported values: cpu, memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#resource_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#resource_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
   * Restart policy to apply when specified resource is resized. If not specified, it defaults to NotRequired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#restart_policy DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#restart_policy DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#restart_policy}
   */
   readonly restartPolicy: string;
 }
@@ -12330,7 +12330,7 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name: string;
 }
@@ -12445,19 +12445,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#claims DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#claims DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#claims}
   */
   readonly claims?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#limits DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#limits DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#requests DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#requests DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -12611,13 +12611,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#add DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#add DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#drop DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#drop DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -12742,25 +12742,25 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#level DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#level DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#role DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#role DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#user DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#user DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -12943,13 +12943,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must only be set if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#localhost_profile DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#localhost_profile DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#type}
   */
   readonly type: string;
 }
@@ -13071,25 +13071,25 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#gmsa_credential_spec DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#gmsa_credential_spec DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#gmsa_credential_spec_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#gmsa_credential_spec_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. This field is alpha-level and will only be honored by components that enable the WindowsHostProcessContainers feature flag. Setting this field without the feature flag will result in errors when validating the Pod. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host_process DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host_process DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_user_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_user_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -13272,67 +13272,67 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#allow_privilege_escalation DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#allow_privilege_escalation DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#capabilities DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#capabilities DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#privileged DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#privileged DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default is DefaultProcMount which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#proc_mount DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#proc_mount DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#read_only_root_filesystem DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#read_only_root_filesystem DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_group DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_group DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_non_root DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_non_root DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_user DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_user DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#se_linux_options DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#se_linux_options DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#seccomp_profile DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#seccomp_profile DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#windows_options DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#windows_options DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersSecurityContextWindowsOptions;
 }
@@ -13718,7 +13718,7 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#command DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#command DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -13814,13 +13814,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#service DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#service DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -13942,13 +13942,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#value DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#value DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#value}
   */
   readonly value: string;
 }
@@ -14089,31 +14089,31 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#http_headers DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#http_headers DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#scheme DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#scheme DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -14322,13 +14322,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
   */
   readonly port: string;
 }
@@ -14450,61 +14450,61 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#exec DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#exec DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#exec}
   */
   readonly exec?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersStartupProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#failure_threshold DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#failure_threshold DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#grpc DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#grpc DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#grpc}
   */
   readonly grpc?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersStartupProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#http_get DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#http_get DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersStartupProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#initial_delay_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#initial_delay_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#period_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#period_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#success_threshold DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#success_threshold DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#tcp_socket DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#tcp_socket DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersStartupProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#termination_grace_period_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#termination_grace_period_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#timeout_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#timeout_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -14861,13 +14861,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * devicePath is the path inside of the container that the device will be mapped to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#device_path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#device_path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#device_path}
   */
   readonly devicePath: string;
   /**
   * name must match the name of a persistentVolumeClaim in the pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name: string;
 }
@@ -15008,37 +15008,37 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#mount_path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#mount_path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#mount_propagation DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#mount_propagation DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#read_only DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#read_only DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#sub_path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#sub_path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#sub_path_expr DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#sub_path_expr DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -15295,139 +15295,139 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisIni
   /**
   * Arguments to the entrypoint. The container image's CMD is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#args DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#args DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Entrypoint array. Not executed within a shell. The container image's ENTRYPOINT is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#command DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#command DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#command}
   */
   readonly command?: string[];
   /**
   * List of environment variables to set in the container. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#env DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#env DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#env}
   */
   readonly env?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersEnv[] | cdktf.IResolvable;
   /**
   * List of sources to populate environment variables in the container. The keys defined within a source must be a C_IDENTIFIER. All invalid keys will be reported as an event when the container is starting. When a key exists in multiple sources, the value associated with the last source will take precedence. Values defined by an Env with a duplicate key will take precedence. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#env_from DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#env_from DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#env_from}
   */
   readonly envFrom?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersEnvFrom[] | cdktf.IResolvable;
   /**
   * Container image name. More info: https://kubernetes.io/docs/concepts/containers/images This field is optional to allow higher level config management to default or override container images in workload controllers like Deployments and StatefulSets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#image DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#image DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#image}
   */
   readonly image?: string;
   /**
   * Image pull policy. One of Always, Never, IfNotPresent. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise. Cannot be updated. More info: https://kubernetes.io/docs/concepts/containers/images#updating-images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#image_pull_policy DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#image_pull_policy DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Actions that the management system should take in response to container lifecycle events. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#lifecycle DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#lifecycle DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersLifecycle;
   /**
   * Periodic probe of container liveness. Container will be restarted if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#liveness_probe DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#liveness_probe DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersLivenessProbe;
   /**
   * Name of the container specified as a DNS_LABEL. Each container in a pod must have a unique name (DNS_LABEL). Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name: string;
   /**
   * List of ports to expose from the container. Not specifying a port here DOES NOT prevent that port from being exposed. Any port which is listening on the default '0.0.0.0' address inside a container will be accessible from the network. Modifying this array with strategic merge patch may corrupt the data. For more information See https://github.com/kubernetes/kubernetes/issues/108255. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#ports DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#ports DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#ports}
   */
   readonly ports?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersPorts[] | cdktf.IResolvable;
   /**
   * Periodic probe of container service readiness. Container will be removed from service endpoints if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#readiness_probe DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#readiness_probe DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersReadinessProbe;
   /**
   * Resources resize policy for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#resize_policy DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#resize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#resize_policy DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#resize_policy}
   */
   readonly resizePolicy?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersResizePolicy[] | cdktf.IResolvable;
   /**
   * Compute Resources required by this container. Cannot be updated. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#resources DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#resources DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#resources}
   */
   readonly resources?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersResources;
   /**
   * SecurityContext defines the security options the container should be run with. If set, the fields of SecurityContext override the equivalent fields of PodSecurityContext. More info: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#security_context DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#security_context DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#security_context}
   */
   readonly securityContext?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersSecurityContext;
   /**
   * StartupProbe indicates that the Pod has successfully initialized. If specified, no other probes are executed until this completes successfully. If this probe fails, the Pod will be restarted, just as if the livenessProbe failed. This can be used to provide different probe parameters at the beginning of a Pod's lifecycle, when it might take a long time to load data or warm a cache, than during steady-state operation. This cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#startup_probe DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#startup_probe DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersStartupProbe;
   /**
   * Whether this container should allocate a buffer for stdin in the container runtime. If this is not set, reads from stdin in the container will always result in EOF. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#stdin DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#stdin DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
   * Whether the container runtime should close the stdin channel after it has been opened by a single attach. When stdin is true the stdin stream will remain open across multiple attach sessions. If stdinOnce is set to true, stdin is opened on container start, is empty until the first client attaches to stdin, and then remains open and accepts data until the client disconnects, at which time stdin is closed and remains closed until the container is restarted. If this flag is false, a container processes that reads from stdin will never receive an EOF. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#stdin_once DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#stdin_once DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
   * Optional: Path at which the file to which the container's termination message will be written is mounted into the container's filesystem. Message written is intended to be brief final status, such as an assertion failure message. Will be truncated by the node if greater than 4096 bytes. The total message length across all containers will be limited to 12kb. Defaults to /dev/termination-log. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#termination_message_path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#termination_message_path DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
   * Indicate how the termination message should be populated. File will use the contents of terminationMessagePath to populate the container status message on both success and failure. FallbackToLogsOnError will use the last chunk of container log output if the termination message file is empty and the container exited with an error. The log output is limited to 2048 bytes or 80 lines, whichever is smaller. Defaults to File. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#termination_message_policy DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#termination_message_policy DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
   * Whether this container should allocate a TTY for itself, also requires 'stdin' to be true. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#tty DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#tty DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
   * volumeDevices is the list of block devices to be used by the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#volume_devices DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#volume_devices DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersVolumeDevices[] | cdktf.IResolvable;
   /**
   * Pod volumes to mount into the container's filesystem. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#volume_mounts DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#volume_mounts DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainersVolumeMounts[] | cdktf.IResolvable;
   /**
   * Container's working directory. If not specified, the container runtime's default will be used, which might be configured in the container image. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#working_dir DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#working_dir DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#working_dir}
   */
   readonly workingDir?: string;
 }
@@ -16180,7 +16180,7 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisRes
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name: string;
 }
@@ -16295,19 +16295,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisRes
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#claims DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#claims DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#claims}
   */
   readonly claims?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#limits DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#limits DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#requests DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#requests DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -16461,25 +16461,25 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisSec
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#level DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#level DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#role DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#role DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#user DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#user DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -16662,13 +16662,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisSec
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must only be set if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#localhost_profile DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#localhost_profile DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#type}
   */
   readonly type: string;
 }
@@ -16790,13 +16790,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisSec
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#value DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#value DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#value}
   */
   readonly value: string;
 }
@@ -16937,25 +16937,25 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisSec
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#gmsa_credential_spec DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#gmsa_credential_spec DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#gmsa_credential_spec_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#gmsa_credential_spec_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. This field is alpha-level and will only be honored by components that enable the WindowsHostProcessContainers feature flag. Setting this field without the feature flag will result in errors when validating the Pod. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host_process DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host_process DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_user_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_user_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -17138,61 +17138,61 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisSec
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#fs_group DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#fs_group DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#fs_group_change_policy DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#fs_group_change_policy DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_group DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_group DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_non_root DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_non_root DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_user DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_user DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#se_linux_options DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#se_linux_options DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#seccomp_profile DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#seccomp_profile DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID, the fsGroup (if specified), and group memberships defined in the container image for the uid of the container process. If unspecified, no additional groups are added to any container. Note that group memberships defined in the container image for the uid of the container process are still effective, even if they are not included in this list. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#supplemental_groups DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#supplemental_groups DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#sysctls DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#sysctls DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#windows_options DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#windows_options DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisSecurityContextWindowsOptions;
 }
@@ -17549,13 +17549,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisSto
   /**
   * medium represents what type of storage medium should back this directory. The default is '' which means to use the node's default medium. Must be an empty string (default) or Memory. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#medium DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#medium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#medium DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#medium}
   */
   readonly medium?: string;
   /**
   * sizeLimit is the total amount of local storage required for this EmptyDir volume. The size limit is also applicable for memory medium. The maximum usage on memory medium EmptyDir would be the minimum value between the SizeLimit specified here and the sum of memory limits of all containers in a pod. The default is nil which means that the limit is undefined. More info: https://kubernetes.io/docs/concepts/storage/volumes#emptydir
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#size_limit DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#size_limit DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -17680,19 +17680,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisSto
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#annotations DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#annotations DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#labels DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#labels DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -17846,19 +17846,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisSto
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#api_group DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#api_group DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#kind DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#kind DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name: string;
 }
@@ -18006,25 +18006,25 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisSto
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#api_group DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#api_group DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#kind DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#kind DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#namespace DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#namespace DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -18201,7 +18201,7 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisSto
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name: string;
 }
@@ -18316,19 +18316,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisSto
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#claims DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#claims DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#claims}
   */
   readonly claims?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisStoragePersistentVolumeClaimSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#limits DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#limits DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#requests DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#requests DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -18482,19 +18482,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisSto
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18664,13 +18664,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisSto
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_expressions DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_expressions DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisStoragePersistentVolumeClaimSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_labels DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_labels DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -18795,49 +18795,49 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisSto
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#access_modes DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#access_modes DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#data_source DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#data_source DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#data_source}
   */
   readonly dataSource?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisStoragePersistentVolumeClaimSpecDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#data_source_ref DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#data_source_ref DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisStoragePersistentVolumeClaimSpecDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#resources DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#resources DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#resources}
   */
   readonly resources?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisStoragePersistentVolumeClaimSpecResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#selector DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#selector DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#selector}
   */
   readonly selector?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisStoragePersistentVolumeClaimSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#storage_class_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#storage_class_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#volume_mode DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#volume_mode DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#volume_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#volume_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -19136,35 +19136,35 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisSto
   /**
   * lastProbeTime is the time we probed the condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#last_probe_time DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#last_probe_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#last_probe_time DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#last_probe_time}
   */
   readonly lastProbeTime?: string;
   /**
   * lastTransitionTime is the time the condition transitioned from one status to another.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#last_transition_time DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#last_transition_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#last_transition_time DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#last_transition_time}
   */
   readonly lastTransitionTime?: string;
   /**
   * message is the human-readable message indicating details about last transition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#message DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#message DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#message}
   */
   readonly message?: string;
   /**
   * reason is a unique, this should be a short, machine understandable string that gives the reason for condition's last transition. If it reports 'ResizeStarted' that means the underlying persistent volume is being resized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#reason DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#reason DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#reason}
   */
   readonly reason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#status DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#status DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#status}
   */
   readonly status: string;
   /**
   * PersistentVolumeClaimConditionType is a valid value of PersistentVolumeClaimCondition.Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#type}
   */
   readonly type: string;
 }
@@ -19421,37 +19421,37 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisSto
   /**
   * accessModes contains the actual access modes the volume backing the PVC has. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#access_modes DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#access_modes DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * allocatedResources is the storage resource within AllocatedResources tracks the capacity allocated to a PVC. It may be larger than the actual capacity when a volume expansion operation is requested. For storage quota, the larger value from allocatedResources and PVC.spec.resources is used. If allocatedResources is not set, PVC.spec.resources alone is used for quota calculation. If a volume expansion capacity request is lowered, allocatedResources is only lowered if there are no expansion operations in progress and if the actual volume capacity is equal or lower than the requested capacity. This is an alpha field and requires enabling RecoverVolumeExpansionFailure feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#allocated_resources DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#allocated_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#allocated_resources DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#allocated_resources}
   */
   readonly allocatedResources?: { [key: string]: string };
   /**
   * capacity represents the actual resources of the underlying volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#capacity DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#capacity DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#capacity}
   */
   readonly capacity?: { [key: string]: string };
   /**
   * conditions is the current Condition of persistent volume claim. If underlying persistent volume is being resized then the Condition will be set to 'ResizeStarted'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#conditions DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#conditions DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#conditions}
   */
   readonly conditions?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisStoragePersistentVolumeClaimStatusConditions[] | cdktf.IResolvable;
   /**
   * phase represents the current phase of PersistentVolumeClaim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#phase DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#phase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#phase DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#phase}
   */
   readonly phase?: string;
   /**
   * resizeStatus stores status of resize operation. ResizeStatus is not set by default but when expansion is complete resizeStatus is set to empty string by resize controller or kubelet. This is an alpha field and requires enabling RecoverVolumeExpansionFailure feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#resize_status DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#resize_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#resize_status DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#resize_status}
   */
   readonly resizeStatus?: string;
 }
@@ -19692,31 +19692,31 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisSto
   /**
   * APIVersion defines the versioned schema of this representation of an object. Servers should convert recognized schemas to the latest internal value, and may reject unrecognized values. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#api_version DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#api_version DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Kind is a string value representing the REST resource this object represents. Servers may infer this from the endpoint the client submits requests to. Cannot be updated. In CamelCase. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#kind DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#kind DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * EmbeddedMetadata contains metadata relevant to an EmbeddedResource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#metadata DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#metadata DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#metadata}
   */
   readonly metadata?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisStoragePersistentVolumeClaimMetadata;
   /**
   * Spec defines the desired characteristics of a volume requested by a pod author. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#spec DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#spec DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#spec}
   */
   readonly spec?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisStoragePersistentVolumeClaimSpec;
   /**
   * Status represents the current information/status of a persistent volume claim. Read-only. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#status DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#status DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#status}
   */
   readonly status?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisStoragePersistentVolumeClaimStatus;
 }
@@ -19928,17 +19928,17 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisSto
   /**
   * Represents an empty directory for a pod. Empty directory volumes support ownership management and SELinux relabeling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#empty_dir DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#empty_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#empty_dir DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#empty_dir}
   */
   readonly emptyDir?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisStorageEmptyDir;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#keep_after_deletion DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#keep_after_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#keep_after_deletion DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#keep_after_deletion}
   */
   readonly keepAfterDeletion?: boolean | cdktf.IResolvable;
   /**
   * EmbeddedPersistentVolumeClaim is an embedded version of k8s.io/api/core/v1.PersistentVolumeClaim. It contains TypeMeta and a reduced ObjectMeta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#persistent_volume_claim DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#persistent_volume_claim DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisStoragePersistentVolumeClaim;
 }
@@ -20092,31 +20092,31 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisTol
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#effect DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#effect DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#toleration_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#toleration_seconds DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#value DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#value DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -20350,19 +20350,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisTop
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20532,13 +20532,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisTop
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_expressions DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_expressions DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_labels DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_labels DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -20663,49 +20663,49 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisTop
   /**
   * LabelSelector is used to find matching pods. Pods that match this label selector are counted to determine the number of pods in their corresponding topology domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#label_selector DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#label_selector DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisTopologySpreadConstraintsLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select the pods over which spreading will be calculated. The keys are used to lookup values from the incoming pod labels, those key-value labels are ANDed with labelSelector to select the group of existing pods over which spreading will be calculated for the incoming pod. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. MatchLabelKeys cannot be set when LabelSelector isn't set. Keys that don't exist in the incoming pod labels will be ignored. A null or empty list means only match against labelSelector. This is a beta field and requires the MatchLabelKeysInPodTopologySpread feature gate to be enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_label_keys DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_label_keys DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MaxSkew describes the degree to which pods may be unevenly distributed. When 'whenUnsatisfiable=DoNotSchedule', it is the maximum permitted difference between the number of matching pods in the target topology and the global minimum. The global minimum is the minimum number of matching pods in an eligible domain or zero if the number of eligible domains is less than MinDomains. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 2/2/1: In this case, the global minimum is 1. | zone1 | zone2 | zone3 | | P P | P P | P | - if MaxSkew is 1, incoming pod can only be scheduled to zone3 to become 2/2/2; scheduling it onto zone1(zone2) would make the ActualSkew(3-1) on zone1(zone2) violate MaxSkew(1). - if MaxSkew is 2, incoming pod can be scheduled onto any zone. When 'whenUnsatisfiable=ScheduleAnyway', it is used to give higher precedence to topologies that satisfy it. It's a required field. Default value is 1 and 0 is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#max_skew DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#max_skew DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
   * MinDomains indicates a minimum number of eligible domains. When the number of eligible domains with matching topology keys is less than minDomains, Pod Topology Spread treats 'global minimum' as 0, and then the calculation of Skew is performed. And when the number of eligible domains with matching topology keys equals or greater than minDomains, this value has no effect on scheduling. As a result, when the number of eligible domains is less than minDomains, scheduler won't schedule more than maxSkew Pods to those domains. If value is nil, the constraint behaves as if MinDomains is equal to 1. Valid values are integers greater than 0. When value is not nil, WhenUnsatisfiable must be DoNotSchedule. For example, in a 3-zone cluster, MaxSkew is set to 2, MinDomains is set to 5 and pods with the same labelSelector spread as 2/2/2: | zone1 | zone2 | zone3 | | P P | P P | P P | The number of domains is less than 5(MinDomains), so 'global minimum' is treated as 0. In this situation, new pod with the same labelSelector cannot be scheduled, because computed skew will be 3(3 - 0) if new Pod is scheduled to any of the three zones, it will violate MaxSkew. This is a beta field and requires the MinDomainsInPodTopologySpread feature gate to be enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#min_domains DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#min_domains DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
   * NodeAffinityPolicy indicates how we will treat Pod's nodeAffinity/nodeSelector when calculating pod topology spread skew. Options are: - Honor: only nodes matching nodeAffinity/nodeSelector are included in the calculations. - Ignore: nodeAffinity/nodeSelector are ignored. All nodes are included in the calculations. If this value is nil, the behavior is equivalent to the Honor policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#node_affinity_policy DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#node_affinity_policy DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
   * NodeTaintsPolicy indicates how we will treat node taints when calculating pod topology spread skew. Options are: - Honor: nodes without taints, along with tainted nodes for which the incoming pod has a toleration, are included. - Ignore: node taints are ignored. All nodes are included. If this value is nil, the behavior is equivalent to the Ignore policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#node_taints_policy DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#node_taints_policy DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
   * TopologyKey is the key of node labels. Nodes that have a label with this key and identical values are considered to be in the same topology. We consider each <key, value> as a 'bucket', and try to put balanced number of pods into each bucket. We define a domain as a particular instance of a topology. Also, we define an eligible domain as a domain whose nodes meet the requirements of nodeAffinityPolicy and nodeTaintsPolicy. e.g. If TopologyKey is 'kubernetes.io/hostname', each Node is a domain of that topology. And, if TopologyKey is 'topology.kubernetes.io/zone', each zone is a domain of that topology. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#topology_key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#topology_key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
   * WhenUnsatisfiable indicates how to deal with a pod if it doesn't satisfy the spread constraint. - DoNotSchedule (default) tells the scheduler not to schedule it. - ScheduleAnyway tells the scheduler to schedule the pod in any location, but giving higher precedence to topologies that would help reduce the skew. A constraint is considered 'Unsatisfiable' for an incoming pod if and only if every possible node assignment for that pod would violate 'MaxSkew' on some topology. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 3/1/1: | zone1 | zone2 | zone3 | | P P P | P | P | If WhenUnsatisfiable is set to DoNotSchedule, incoming pod can only be scheduled to zone2(zone3) to become 3/2/1(3/1/2) as ActualSkew(2-1) on zone2(zone3) satisfies MaxSkew(1). In other words, the cluster can still be imbalanced, but scheduler won't make it *more* imbalanced. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#when_unsatisfiable DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#when_unsatisfiable DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -21017,159 +21017,159 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedis {
   /**
   * Affinity is a group of affinity scheduling rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#affinity DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#affinity DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#affinity}
   */
   readonly affinity?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#command DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#command DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#command}
   */
   readonly command?: string[];
   /**
   * SecurityContext holds security configuration that will be applied to a container. Some fields are present in both SecurityContext and PodSecurityContext. When both are set, the values in SecurityContext take precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#container_security_context DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#container_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#container_security_context DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#container_security_context}
   */
   readonly containerSecurityContext?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisContainerSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#custom_command_renames DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#custom_command_renames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#custom_command_renames DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#custom_command_renames}
   */
   readonly customCommandRenames?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisCustomCommandRenames[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#custom_config DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#custom_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#custom_config DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#custom_config}
   */
   readonly customConfig?: string[];
   /**
   * Probe describes a health check to be performed against a container to determine whether it is alive or ready to receive traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#custom_liveness_probe DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#custom_liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#custom_liveness_probe DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#custom_liveness_probe}
   */
   readonly customLivenessProbe?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisCustomLivenessProbe;
   /**
   * Probe describes a health check to be performed against a container to determine whether it is alive or ready to receive traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#custom_readiness_probe DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#custom_readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#custom_readiness_probe DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#custom_readiness_probe}
   */
   readonly customReadinessProbe?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisCustomReadinessProbe;
   /**
   * Probe describes a health check to be performed against a container to determine whether it is alive or ready to receive traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#custom_startup_probe DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#custom_startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#custom_startup_probe DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#custom_startup_probe}
   */
   readonly customStartupProbe?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisCustomStartupProbe;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#disable_pod_disruption_budget DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#disable_pod_disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#disable_pod_disruption_budget DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#disable_pod_disruption_budget}
   */
   readonly disablePodDisruptionBudget?: boolean | cdktf.IResolvable;
   /**
   * DNSPolicy defines how a pod's DNS will be configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#dns_policy DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#dns_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#dns_policy DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#dns_policy}
   */
   readonly dnsPolicy?: string;
   /**
   * Exporter defines the specification for the redis/sentinel exporter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#exporter DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#exporter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#exporter DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#exporter}
   */
   readonly exporter?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExporter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#extra_containers DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#extra_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#extra_containers DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#extra_containers}
   */
   readonly extraContainers?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraContainers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#extra_volume_mounts DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#extra_volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#extra_volume_mounts DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#extra_volume_mounts}
   */
   readonly extraVolumeMounts?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumeMounts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#extra_volumes DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#extra_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#extra_volumes DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#extra_volumes}
   */
   readonly extraVolumes?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisExtraVolumes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host_network DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host_network DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host_network}
   */
   readonly hostNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#image DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#image DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#image}
   */
   readonly image?: string;
   /**
   * PullPolicy describes a policy for if/when to pull a container image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#image_pull_policy DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#image_pull_policy DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#image_pull_secrets DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#image_pull_secrets DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisImagePullSecrets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#init_containers DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#init_containers DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#init_containers}
   */
   readonly initContainers?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisInitContainers[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#node_selector DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#node_selector DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#pod_annotations DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#pod_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#pod_annotations DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#pod_annotations}
   */
   readonly podAnnotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#priority_class_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#priority_class_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#replicas DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#replicas DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#resources DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#resources DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#resources}
   */
   readonly resources?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisResources;
   /**
   * PodSecurityContext holds pod-level security attributes and common container settings. Some fields are also present in container.securityContext. Field values of container.securityContext take precedence over field values of PodSecurityContext.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#security_context DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#security_context DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#security_context}
   */
   readonly securityContext?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisSecurityContext;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#service_account_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#service_account_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#service_annotations DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#service_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#service_annotations DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#service_annotations}
   */
   readonly serviceAnnotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#shutdown_config_map DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#shutdown_config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#shutdown_config_map DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#shutdown_config_map}
   */
   readonly shutdownConfigMap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#startup_config_map DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#startup_config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#startup_config_map DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#startup_config_map}
   */
   readonly startupConfigMap?: string;
   /**
   * RedisStorage defines the structure used to store the Redis Data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#storage DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#storage DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#storage}
   */
   readonly storage?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisStorage;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#termination_grace_period DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#termination_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#termination_grace_period DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#termination_grace_period}
   */
   readonly terminationGracePeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#tolerations DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#tolerations DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#topology_spread_constraints DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#topology_spread_constraints DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecRedisTopologySpreadConstraints[] | cdktf.IResolvable;
 }
@@ -22222,19 +22222,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -22404,19 +22404,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -22586,13 +22586,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_expressions DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_expressions DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_fields DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_fields DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -22717,13 +22717,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#preference DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#preference DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#preference}
   */
   readonly preference: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#weight DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#weight DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -22864,19 +22864,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -23046,19 +23046,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -23228,13 +23228,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_expressions DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_expressions DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_fields DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_fields DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -23381,7 +23381,7 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#node_selector_terms DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#node_selector_terms DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -23474,13 +23474,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -23605,19 +23605,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -23787,13 +23787,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_expressions DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_expressions DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_labels DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_labels DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -23918,19 +23918,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -24100,13 +24100,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_expressions DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_expressions DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_labels DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_labels DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -24231,25 +24231,25 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#label_selector DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#label_selector DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#namespace_selector DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#namespace_selector DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#namespaces DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#namespaces DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#topology_key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#topology_key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -24429,13 +24429,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#pod_affinity_term DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#pod_affinity_term DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#weight DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#weight DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -24576,19 +24576,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -24758,13 +24758,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_expressions DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_expressions DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_labels DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_labels DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -24889,19 +24889,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -25071,13 +25071,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_expressions DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_expressions DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_labels DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_labels DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -25202,25 +25202,25 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#label_selector DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#label_selector DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#namespace_selector DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#namespace_selector DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#namespaces DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#namespaces DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#topology_key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#topology_key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -25422,13 +25422,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -25553,19 +25553,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -25735,13 +25735,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_expressions DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_expressions DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_labels DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_labels DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -25866,19 +25866,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -26048,13 +26048,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_expressions DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_expressions DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_labels DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_labels DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -26179,25 +26179,25 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#label_selector DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#label_selector DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#namespace_selector DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#namespace_selector DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#namespaces DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#namespaces DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#topology_key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#topology_key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -26377,13 +26377,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#pod_affinity_term DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#pod_affinity_term DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#weight DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#weight DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -26524,19 +26524,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -26706,13 +26706,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_expressions DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_expressions DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_labels DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_labels DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -26837,19 +26837,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#operator DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#values DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -27019,13 +27019,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_expressions DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_expressions DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_labels DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#match_labels DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -27150,25 +27150,25 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#label_selector DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#label_selector DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#namespace_selector DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#namespace_selector DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#namespaces DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#namespaces DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#topology_key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#topology_key DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -27370,13 +27370,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -27501,19 +27501,19 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#node_affinity DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#node_affinity DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#pod_affinity DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#pod_affinity DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#pod_anti_affinity DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#pod_anti_affinity DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelAffinityPodAntiAffinity;
 }
@@ -27667,13 +27667,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#add DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#add DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#drop DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#drop DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -27798,25 +27798,25 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#level DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#level DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#role DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#role DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#user DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#user DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -27999,13 +27999,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must only be set if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#localhost_profile DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#localhost_profile DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#type}
   */
   readonly type: string;
 }
@@ -28127,25 +28127,25 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#gmsa_credential_spec DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#gmsa_credential_spec DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#gmsa_credential_spec_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#gmsa_credential_spec_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. This field is alpha-level and will only be honored by components that enable the WindowsHostProcessContainers feature flag. Setting this field without the feature flag will result in errors when validating the Pod. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host_process DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host_process DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_user_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_user_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -28328,67 +28328,67 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#allow_privilege_escalation DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#allow_privilege_escalation DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#capabilities DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#capabilities DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelConfigCopyContainerSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#privileged DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#privileged DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default is DefaultProcMount which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#proc_mount DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#proc_mount DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#read_only_root_filesystem DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#read_only_root_filesystem DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_group DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_group DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_non_root DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_non_root DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_user DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_user DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#se_linux_options DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#se_linux_options DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelConfigCopyContainerSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#seccomp_profile DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#seccomp_profile DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelConfigCopyContainerSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#windows_options DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#windows_options DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelConfigCopyContainerSecurityContextWindowsOptions;
 }
@@ -28774,7 +28774,7 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * SecurityContext holds security configuration that will be applied to a container. Some fields are present in both SecurityContext and PodSecurityContext. When both are set, the values in SecurityContext take precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#container_security_context DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#container_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#container_security_context DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#container_security_context}
   */
   readonly containerSecurityContext?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelConfigCopyContainerSecurityContext;
 }
@@ -28870,13 +28870,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#add DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#add DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#drop DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#drop DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -29001,25 +29001,25 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#level DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#level DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#role DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#role DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#user DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#user DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -29202,13 +29202,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must only be set if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#localhost_profile DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#localhost_profile DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#type DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#type}
   */
   readonly type: string;
 }
@@ -29330,25 +29330,25 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#gmsa_credential_spec DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#gmsa_credential_spec DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#gmsa_credential_spec_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#gmsa_credential_spec_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. This field is alpha-level and will only be honored by components that enable the WindowsHostProcessContainers feature flag. Setting this field without the feature flag will result in errors when validating the Pod. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host_process DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#host_process DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_user_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_user_name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -29531,67 +29531,67 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#allow_privilege_escalation DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#allow_privilege_escalation DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#capabilities DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#capabilities DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#capabilities}
   */
   readonly capabilities?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelContainerSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#privileged DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#privileged DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default is DefaultProcMount which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#proc_mount DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#proc_mount DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#read_only_root_filesystem DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#read_only_root_filesystem DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_group DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_group DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_non_root DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_non_root DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_user DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#run_as_user DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#se_linux_options DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#se_linux_options DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelContainerSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#seccomp_profile DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#seccomp_profile DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelContainerSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#windows_options DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#windows_options DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinelContainerSecurityContextWindowsOptions;
 }
@@ -29977,7 +29977,7 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#command DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#command DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -30073,13 +30073,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#port DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#service DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#service DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -30201,13 +30201,13 @@ export interface DataK8SDatabasesSpotahomeComRedisFailoverV1ManifestSpecSentinel
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#name DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#value DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/databases_spotahome_com_redis_failover_v1_manifest#value DataK8SDatabasesSpotahomeComRedisFailoverV1Manifest#value}
   */
   readonly value: string;
 }

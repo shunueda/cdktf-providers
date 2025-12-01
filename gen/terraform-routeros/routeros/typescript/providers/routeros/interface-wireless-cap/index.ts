@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_wireless_cap
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_wireless_cap
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface InterfaceWirelessCapConfig extends cdktf.TerraformMetaArguments
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_wireless_cap#___path___ InterfaceWirelessCap#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_wireless_cap#___path___ InterfaceWirelessCap#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_wireless_cap#___skip___ InterfaceWirelessCap#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_wireless_cap#___skip___ InterfaceWirelessCap#___skip___}
   */
   readonly skip?: string;
   /**
   * Bridge interface to add the interface as a bridge port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_wireless_cap#bridge InterfaceWirelessCap#bridge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_wireless_cap#bridge InterfaceWirelessCap#bridge}
   */
   readonly bridge?: string;
   /**
   * List of Manager IP addresses that CAP will attempt to contact during discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_wireless_cap#caps_man_addresses InterfaceWirelessCap#caps_man_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_wireless_cap#caps_man_addresses InterfaceWirelessCap#caps_man_addresses}
   */
   readonly capsManAddresses?: string[];
   /**
   * List of manager certificate common names that CAP will connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_wireless_cap#caps_man_certificate_common_names InterfaceWirelessCap#caps_man_certificate_common_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_wireless_cap#caps_man_certificate_common_names InterfaceWirelessCap#caps_man_certificate_common_names}
   */
   readonly capsManCertificateCommonNames?: string[];
   /**
   * An ordered list of CAPs Manager names that the CAP will connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_wireless_cap#caps_man_names InterfaceWirelessCap#caps_man_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_wireless_cap#caps_man_names InterfaceWirelessCap#caps_man_names}
   */
   readonly capsManNames?: string[];
   /**
   * Certificate to use for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_wireless_cap#certificate InterfaceWirelessCap#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_wireless_cap#certificate InterfaceWirelessCap#certificate}
   */
   readonly certificate?: string;
   /**
   * List of interfaces over which CAP should attempt to discover CAPs Manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_wireless_cap#discovery_interfaces InterfaceWirelessCap#discovery_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_wireless_cap#discovery_interfaces InterfaceWirelessCap#discovery_interfaces}
   */
   readonly discoveryInterfaces?: string[];
   /**
   * Disable or enable the CAP functionality.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_wireless_cap#enabled InterfaceWirelessCap#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_wireless_cap#enabled InterfaceWirelessCap#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_wireless_cap#id InterfaceWirelessCap#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_wireless_cap#id InterfaceWirelessCap#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,25 +71,25 @@ export interface InterfaceWirelessCapConfig extends cdktf.TerraformMetaArguments
   /**
   * List of interfaces managed by CAPs Manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_wireless_cap#interfaces InterfaceWirelessCap#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_wireless_cap#interfaces InterfaceWirelessCap#interfaces}
   */
   readonly interfaces?: string[];
   /**
   * Lock CAP to the first CAPsMAN it connects to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_wireless_cap#lock_to_caps_man InterfaceWirelessCap#lock_to_caps_man}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_wireless_cap#lock_to_caps_man InterfaceWirelessCap#lock_to_caps_man}
   */
   readonly lockToCapsMan?: boolean | cdktf.IResolvable;
   /**
   * An option that creates static virtual interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_wireless_cap#static_virtual InterfaceWirelessCap#static_virtual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_wireless_cap#static_virtual InterfaceWirelessCap#static_virtual}
   */
   readonly staticVirtual?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_wireless_cap routeros_interface_wireless_cap}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_wireless_cap routeros_interface_wireless_cap}
 */
 export class InterfaceWirelessCap extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class InterfaceWirelessCap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceWirelessCap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceWirelessCap to import
-  * @param importFromId The id of the existing InterfaceWirelessCap that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_wireless_cap#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceWirelessCap that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_wireless_cap#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceWirelessCap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class InterfaceWirelessCap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_wireless_cap routeros_interface_wireless_cap} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_wireless_cap routeros_interface_wireless_cap} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class InterfaceWirelessCap extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_interface_wireless_cap',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.94.0',
-        providerVersionConstraint: '1.94.0'
+        providerVersion: '1.95.0',
+        providerVersionConstraint: '1.95.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

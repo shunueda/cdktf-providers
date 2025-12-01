@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_bandwidth_package
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,102 +8,102 @@ import * as cdktf from 'cdktf';
 
 export interface GaBandwidthPackageConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_bandwidth_package#auto_pay GaBandwidthPackage#auto_pay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package#auto_pay GaBandwidthPackage#auto_pay}
   */
   readonly autoPay?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_bandwidth_package#auto_renew_duration GaBandwidthPackage#auto_renew_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package#auto_renew_duration GaBandwidthPackage#auto_renew_duration}
   */
   readonly autoRenewDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_bandwidth_package#auto_use_coupon GaBandwidthPackage#auto_use_coupon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package#auto_use_coupon GaBandwidthPackage#auto_use_coupon}
   */
   readonly autoUseCoupon?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_bandwidth_package#bandwidth GaBandwidthPackage#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package#bandwidth GaBandwidthPackage#bandwidth}
   */
   readonly bandwidth: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_bandwidth_package#bandwidth_package_name GaBandwidthPackage#bandwidth_package_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package#bandwidth_package_name GaBandwidthPackage#bandwidth_package_name}
   */
   readonly bandwidthPackageName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_bandwidth_package#bandwidth_type GaBandwidthPackage#bandwidth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package#bandwidth_type GaBandwidthPackage#bandwidth_type}
   */
   readonly bandwidthType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_bandwidth_package#billing_type GaBandwidthPackage#billing_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package#billing_type GaBandwidthPackage#billing_type}
   */
   readonly billingType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_bandwidth_package#cbn_geographic_region_ida GaBandwidthPackage#cbn_geographic_region_ida}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package#cbn_geographic_region_ida GaBandwidthPackage#cbn_geographic_region_ida}
   */
   readonly cbnGeographicRegionIda?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_bandwidth_package#cbn_geographic_region_idb GaBandwidthPackage#cbn_geographic_region_idb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package#cbn_geographic_region_idb GaBandwidthPackage#cbn_geographic_region_idb}
   */
   readonly cbnGeographicRegionIdb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_bandwidth_package#description GaBandwidthPackage#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package#description GaBandwidthPackage#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_bandwidth_package#duration GaBandwidthPackage#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package#duration GaBandwidthPackage#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_bandwidth_package#id GaBandwidthPackage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package#id GaBandwidthPackage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_bandwidth_package#payment_type GaBandwidthPackage#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package#payment_type GaBandwidthPackage#payment_type}
   */
   readonly paymentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_bandwidth_package#promotion_option_no GaBandwidthPackage#promotion_option_no}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package#promotion_option_no GaBandwidthPackage#promotion_option_no}
   */
   readonly promotionOptionNo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_bandwidth_package#ratio GaBandwidthPackage#ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package#ratio GaBandwidthPackage#ratio}
   */
   readonly ratio?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_bandwidth_package#renewal_status GaBandwidthPackage#renewal_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package#renewal_status GaBandwidthPackage#renewal_status}
   */
   readonly renewalStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_bandwidth_package#resource_group_id GaBandwidthPackage#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package#resource_group_id GaBandwidthPackage#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_bandwidth_package#tags GaBandwidthPackage#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package#tags GaBandwidthPackage#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_bandwidth_package#type GaBandwidthPackage#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package#type GaBandwidthPackage#type}
   */
   readonly type: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_bandwidth_package#timeouts GaBandwidthPackage#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package#timeouts GaBandwidthPackage#timeouts}
   */
   readonly timeouts?: GaBandwidthPackageTimeouts;
 }
 export interface GaBandwidthPackageTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_bandwidth_package#create GaBandwidthPackage#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package#create GaBandwidthPackage#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_bandwidth_package#delete GaBandwidthPackage#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package#delete GaBandwidthPackage#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_bandwidth_package#update GaBandwidthPackage#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package#update GaBandwidthPackage#update}
   */
   readonly update?: string;
 }
@@ -255,7 +255,7 @@ export class GaBandwidthPackageTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_bandwidth_package alicloud_ga_bandwidth_package}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package alicloud_ga_bandwidth_package}
 */
 export class GaBandwidthPackage extends cdktf.TerraformResource {
 
@@ -271,7 +271,7 @@ export class GaBandwidthPackage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GaBandwidthPackage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GaBandwidthPackage to import
-  * @param importFromId The id of the existing GaBandwidthPackage that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_bandwidth_package#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GaBandwidthPackage that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GaBandwidthPackage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -283,7 +283,7 @@ export class GaBandwidthPackage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_bandwidth_package alicloud_ga_bandwidth_package} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_bandwidth_package alicloud_ga_bandwidth_package} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -294,8 +294,8 @@ export class GaBandwidthPackage extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ga_bandwidth_package',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_provisioning
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_provisioning
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface WifiProvisioningConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_provisioning#___path___ WifiProvisioning#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_provisioning#___path___ WifiProvisioning#___path___}
   */
   readonly path?: string;
   /**
   * Provisioning action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_provisioning#action WifiProvisioning#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_provisioning#action WifiProvisioning#action}
   */
   readonly action?: string;
   /**
   * Match CAPs by IPs within configured address ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_provisioning#address_ranges WifiProvisioning#address_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_provisioning#address_ranges WifiProvisioning#address_ranges}
   */
   readonly addressRanges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_provisioning#comment WifiProvisioning#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_provisioning#comment WifiProvisioning#comment}
   */
   readonly comment?: string;
   /**
   * Regular expression to match radios by common name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_provisioning#common_name_regexp WifiProvisioning#common_name_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_provisioning#common_name_regexp WifiProvisioning#common_name_regexp}
   */
   readonly commonNameRegexp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_provisioning#disabled WifiProvisioning#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_provisioning#disabled WifiProvisioning#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_provisioning#id WifiProvisioning#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_provisioning#id WifiProvisioning#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,49 +49,49 @@ export interface WifiProvisioningConfig extends cdktf.TerraformMetaArguments {
   /**
   * Regular expression to match radios by router identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_provisioning#identity_regexp WifiProvisioning#identity_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_provisioning#identity_regexp WifiProvisioning#identity_regexp}
   */
   readonly identityRegexp?: string;
   /**
   * If action specifies to create interfaces, then a new master interface with its configuration set to this configuration profile will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_provisioning#master_configuration WifiProvisioning#master_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_provisioning#master_configuration WifiProvisioning#master_configuration}
   */
   readonly masterConfiguration?: string;
   /**
   * Specify the format of the CAP interface name creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_provisioning#name_format WifiProvisioning#name_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_provisioning#name_format WifiProvisioning#name_format}
   */
   readonly nameFormat?: string;
   /**
   * MAC address of radio to be matched, empty MAC means match all MAC addresses. `00:00:00:00:00:00` is not considered empty MAC-address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_provisioning#radio_mac WifiProvisioning#radio_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_provisioning#radio_mac WifiProvisioning#radio_mac}
   */
   readonly radioMac?: string;
   /**
   * If action specifies to create interfaces, then a new slave interface for each configuration profile in this list is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_provisioning#slave_configurations WifiProvisioning#slave_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_provisioning#slave_configurations WifiProvisioning#slave_configurations}
   */
   readonly slaveConfigurations?: string[];
   /**
   * The name format of the slave CAP interfaces. This option is available in RouterOS starting from version 7.16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_provisioning#slave_name_format WifiProvisioning#slave_name_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_provisioning#slave_name_format WifiProvisioning#slave_name_format}
   */
   readonly slaveNameFormat?: string;
   /**
   * Match CAPs by supported modes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_provisioning#supported_bands WifiProvisioning#supported_bands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_provisioning#supported_bands WifiProvisioning#supported_bands}
   */
   readonly supportedBands?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_provisioning routeros_wifi_provisioning}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_provisioning routeros_wifi_provisioning}
 */
 export class WifiProvisioning extends cdktf.TerraformResource {
 
@@ -107,7 +107,7 @@ export class WifiProvisioning extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WifiProvisioning resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WifiProvisioning to import
-  * @param importFromId The id of the existing WifiProvisioning that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_provisioning#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WifiProvisioning that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_provisioning#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WifiProvisioning to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -119,7 +119,7 @@ export class WifiProvisioning extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_provisioning routeros_wifi_provisioning} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_provisioning routeros_wifi_provisioning} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -130,8 +130,8 @@ export class WifiProvisioning extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_wifi_provisioning',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.94.0',
-        providerVersionConstraint: '1.94.0'
+        providerVersion: '1.95.0',
+        providerVersionConstraint: '1.95.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

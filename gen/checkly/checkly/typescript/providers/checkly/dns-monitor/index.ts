@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor
+// https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface DnsMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Determines whether the monitor will run periodically or not after being deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#activated DnsMonitor#activated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#activated DnsMonitor#activated}
   */
   readonly activated: boolean | cdktf.IResolvable;
   /**
   * The response time in milliseconds where the monitor should be considered degraded. Possible values are between `0` and `5000`. (Default `500`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#degraded_response_time DnsMonitor#degraded_response_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#degraded_response_time DnsMonitor#degraded_response_time}
   */
   readonly degradedResponseTime?: number;
   /**
   * How often the monitor should run in minutes. Possible values are `0`, `1`, `2`, `5`, `10`, `15`, `30`, `60`, `120`, `180`, `360`, `720`, and `1440`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#frequency DnsMonitor#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#frequency DnsMonitor#frequency}
   */
   readonly frequency: number;
   /**
   * To create a high frequency monitor, set `frequency` to `0` and `frequency_offset` to `10`, `20`, or `30`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#frequency_offset DnsMonitor#frequency_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#frequency_offset DnsMonitor#frequency_offset}
   */
   readonly frequencyOffset?: number;
   /**
   * The ID of the check group that this monitor is part of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#group_id DnsMonitor#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#group_id DnsMonitor#group_id}
   */
   readonly groupId?: number;
   /**
   * The position of the monitor in the check group. It determines in what order checks and monitors are run when a group is triggered from the API or from CI/CD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#group_order DnsMonitor#group_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#group_order DnsMonitor#group_order}
   */
   readonly groupOrder?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#id DnsMonitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#id DnsMonitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,73 +53,73 @@ export interface DnsMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * An array of one or more data center locations where to run the this monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#locations DnsMonitor#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#locations DnsMonitor#locations}
   */
   readonly locations?: string[];
   /**
   * The response time in milliseconds where the monitor should be considered failing. Possible values are between `0` and `5000`. (Default `1000`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#max_response_time DnsMonitor#max_response_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#max_response_time DnsMonitor#max_response_time}
   */
   readonly maxResponseTime?: number;
   /**
   * Determines if any notifications will be sent out when the monitor fails and/or recovers. (Default `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#muted DnsMonitor#muted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#muted DnsMonitor#muted}
   */
   readonly muted?: boolean | cdktf.IResolvable;
   /**
   * The name of the monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#name DnsMonitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#name DnsMonitor#name}
   */
   readonly name: string;
   /**
   * Determines whether the monitor should run on all selected locations in parallel or round-robin. (Default `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#run_parallel DnsMonitor#run_parallel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#run_parallel DnsMonitor#run_parallel}
   */
   readonly runParallel?: boolean | cdktf.IResolvable;
   /**
   * A list of tags for organizing and filtering checks and monitors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#tags DnsMonitor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#tags DnsMonitor#tags}
   */
   readonly tags?: string[];
   /**
   * When true, the account level alert settings will be used, not the alert setting defined on this monitor. (Default `true`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#use_global_alert_settings DnsMonitor#use_global_alert_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#use_global_alert_settings DnsMonitor#use_global_alert_settings}
   */
   readonly useGlobalAlertSettings?: boolean | cdktf.IResolvable;
   /**
   * alert_channel_subscription block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#alert_channel_subscription DnsMonitor#alert_channel_subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#alert_channel_subscription DnsMonitor#alert_channel_subscription}
   */
   readonly alertChannelSubscription?: DnsMonitorAlertChannelSubscription[] | cdktf.IResolvable;
   /**
   * alert_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#alert_settings DnsMonitor#alert_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#alert_settings DnsMonitor#alert_settings}
   */
   readonly alertSettings?: DnsMonitorAlertSettings;
   /**
   * request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#request DnsMonitor#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#request DnsMonitor#request}
   */
   readonly request: DnsMonitorRequest;
   /**
   * retry_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#retry_strategy DnsMonitor#retry_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#retry_strategy DnsMonitor#retry_strategy}
   */
   readonly retryStrategy?: DnsMonitorRetryStrategy;
   /**
   * trigger_incident block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#trigger_incident DnsMonitor#trigger_incident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#trigger_incident DnsMonitor#trigger_incident}
   */
   readonly triggerIncident?: DnsMonitorTriggerIncident;
 }
@@ -127,13 +127,13 @@ export interface DnsMonitorAlertChannelSubscription {
   /**
   * Whether an alert should be sent to this channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#activated DnsMonitor#activated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#activated DnsMonitor#activated}
   */
   readonly activated: boolean | cdktf.IResolvable;
   /**
   * The ID of the alert channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#channel_id DnsMonitor#channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#channel_id DnsMonitor#channel_id}
   */
   readonly channelId: number;
 }
@@ -274,13 +274,13 @@ export interface DnsMonitorAlertSettingsParallelRunFailureThreshold {
   /**
   * Whether parallel run failure threshold is enabled. Only applies if the monitor is scheduled for multiple locations in parallel. (Default `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#enabled DnsMonitor#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#enabled DnsMonitor#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Percentage of runs that must fail to trigger alert. Possible values are `10`, `20`, `30`, `40`, `50`, `60`, `70`, `80`, `90`, and `100`. (Default `10`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#percentage DnsMonitor#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#percentage DnsMonitor#percentage}
   */
   readonly percentage?: number;
 }
@@ -427,13 +427,13 @@ export interface DnsMonitorAlertSettingsReminders {
   /**
   * Number of reminder notifications to send. Possible values are `0`, `1`, `2`, `3`, `4`, `5`, and `100000` (`0` to disable, `100000` for unlimited). (Default `0`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#amount DnsMonitor#amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#amount DnsMonitor#amount}
   */
   readonly amount?: number;
   /**
   * Interval between reminder notifications in minutes. Possible values are `5`, `10`, `15`, and `30`. (Default `5`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#interval DnsMonitor#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#interval DnsMonitor#interval}
   */
   readonly interval?: number;
 }
@@ -580,7 +580,7 @@ export interface DnsMonitorAlertSettingsRunBasedEscalation {
   /**
   * Send an alert notification after the given number of consecutive monitor runs have failed. Possible values are between `1` and `5`. (Default `1`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#failed_run_threshold DnsMonitor#failed_run_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#failed_run_threshold DnsMonitor#failed_run_threshold}
   */
   readonly failedRunThreshold?: number;
 }
@@ -698,7 +698,7 @@ export interface DnsMonitorAlertSettingsTimeBasedEscalation {
   /**
   * Send an alert notification after the monitor has been failing for the given amount of time (in minutes). Possible values are `5`, `10`, `15`, and `30`. (Default `5`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#minutes_failing_threshold DnsMonitor#minutes_failing_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#minutes_failing_threshold DnsMonitor#minutes_failing_threshold}
   */
   readonly minutesFailingThreshold?: number;
 }
@@ -816,31 +816,31 @@ export interface DnsMonitorAlertSettings {
   /**
   * Determines the type of escalation to use. Possible values are `RUN_BASED` and `TIME_BASED`. (Default `RUN_BASED`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#escalation_type DnsMonitor#escalation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#escalation_type DnsMonitor#escalation_type}
   */
   readonly escalationType?: string;
   /**
   * parallel_run_failure_threshold block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#parallel_run_failure_threshold DnsMonitor#parallel_run_failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#parallel_run_failure_threshold DnsMonitor#parallel_run_failure_threshold}
   */
   readonly parallelRunFailureThreshold?: DnsMonitorAlertSettingsParallelRunFailureThreshold[] | cdktf.IResolvable;
   /**
   * reminders block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#reminders DnsMonitor#reminders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#reminders DnsMonitor#reminders}
   */
   readonly reminders?: DnsMonitorAlertSettingsReminders[] | cdktf.IResolvable;
   /**
   * run_based_escalation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#run_based_escalation DnsMonitor#run_based_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#run_based_escalation DnsMonitor#run_based_escalation}
   */
   readonly runBasedEscalation?: DnsMonitorAlertSettingsRunBasedEscalation[] | cdktf.IResolvable;
   /**
   * time_based_escalation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#time_based_escalation DnsMonitor#time_based_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#time_based_escalation DnsMonitor#time_based_escalation}
   */
   readonly timeBasedEscalation?: DnsMonitorAlertSettingsTimeBasedEscalation[] | cdktf.IResolvable;
 }
@@ -1042,23 +1042,23 @@ export interface DnsMonitorRequestAssertion {
   /**
   * The type of comparison to be executed between expected and actual value of the assertion. Possible values are `EQUALS`, `NOT_EQUALS`, `GREATER_THAN` and `LESS_THAN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#comparison DnsMonitor#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#comparison DnsMonitor#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#property DnsMonitor#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#property DnsMonitor#property}
   */
   readonly property?: string;
   /**
   * The source of the asserted value. Possible values are `RESPONSE_CODE`, `RESPONSE_TIME`, `TEXT_ANSWER` and `JSON_ANSWER`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#source DnsMonitor#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#source DnsMonitor#source}
   */
   readonly source: string;
   /**
   * The target value. Typically `NOERROR` when the source is `RESPONSE_CODE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#target DnsMonitor#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#target DnsMonitor#target}
   */
   readonly target: string;
 }
@@ -1254,13 +1254,13 @@ export interface DnsMonitorRequestNameServer {
   /**
   * The name server host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#host DnsMonitor#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#host DnsMonitor#host}
   */
   readonly host?: string;
   /**
   * The name server port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#port DnsMonitor#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#port DnsMonitor#port}
   */
   readonly port?: number;
 }
@@ -1375,31 +1375,31 @@ export interface DnsMonitorRequest {
   /**
   * The protocol used to communicate with the name server. Possible values are `UDP` and `TCP`. (Default `UDP`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#protocol DnsMonitor#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#protocol DnsMonitor#protocol}
   */
   readonly protocol?: string;
   /**
   * The DNS record to query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#query DnsMonitor#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#query DnsMonitor#query}
   */
   readonly query: string;
   /**
   * The DNS record type. Possible values are `A`, `AAAA`, `CNAME`, `MX`, `NS`, `TXT` and `SOA`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#record_type DnsMonitor#record_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#record_type DnsMonitor#record_type}
   */
   readonly recordType: string;
   /**
   * assertion block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#assertion DnsMonitor#assertion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#assertion DnsMonitor#assertion}
   */
   readonly assertion?: DnsMonitorRequestAssertion[] | cdktf.IResolvable;
   /**
   * name_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#name_server DnsMonitor#name_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#name_server DnsMonitor#name_server}
   */
   readonly nameServer?: DnsMonitorRequestNameServer;
 }
@@ -1595,7 +1595,7 @@ export interface DnsMonitorRetryStrategyOnlyOn {
   /**
   * When `true`, retry only if the cause of the failure is a network error. (Default `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#network_error DnsMonitor#network_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#network_error DnsMonitor#network_error}
   */
   readonly networkError?: boolean | cdktf.IResolvable;
 }
@@ -1681,37 +1681,37 @@ export interface DnsMonitorRetryStrategy {
   /**
   * The number of seconds to wait before the first retry attempt. (Default `60`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#base_backoff_seconds DnsMonitor#base_backoff_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#base_backoff_seconds DnsMonitor#base_backoff_seconds}
   */
   readonly baseBackoffSeconds?: number;
   /**
   * The total amount of time to continue retrying the check/monitor (maximum 600 seconds). Available when `type` is `FIXED`, `LINEAR`, or `EXPONENTIAL`. (Default `600`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#max_duration_seconds DnsMonitor#max_duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#max_duration_seconds DnsMonitor#max_duration_seconds}
   */
   readonly maxDurationSeconds?: number;
   /**
   * The maximum number of times to retry the check/monitor. Value must be between `1` and `10`. Available when `type` is `FIXED`, `LINEAR`, or `EXPONENTIAL`. (Default `2`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#max_retries DnsMonitor#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#max_retries DnsMonitor#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Whether retries should be run in the same region as the initial check/monitor run. (Default `true`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#same_region DnsMonitor#same_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#same_region DnsMonitor#same_region}
   */
   readonly sameRegion?: boolean | cdktf.IResolvable;
   /**
   * Determines which type of retry strategy to use. Possible values are `FIXED`, `LINEAR`, `EXPONENTIAL`, `SINGLE_RETRY`, and `NO_RETRIES`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#type DnsMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#type DnsMonitor#type}
   */
   readonly type: string;
   /**
   * only_on block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#only_on DnsMonitor#only_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#only_on DnsMonitor#only_on}
   */
   readonly onlyOn?: DnsMonitorRetryStrategyOnlyOn;
 }
@@ -1939,31 +1939,31 @@ export interface DnsMonitorTriggerIncident {
   /**
   * A detailed description of the incident.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#description DnsMonitor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#description DnsMonitor#description}
   */
   readonly description: string;
   /**
   * The name of the incident.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#name DnsMonitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#name DnsMonitor#name}
   */
   readonly name: string;
   /**
   * Whether to notify subscribers when the incident is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#notify_subscribers DnsMonitor#notify_subscribers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#notify_subscribers DnsMonitor#notify_subscribers}
   */
   readonly notifySubscribers: boolean | cdktf.IResolvable;
   /**
   * The status page service that this incident will be associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#service_id DnsMonitor#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#service_id DnsMonitor#service_id}
   */
   readonly serviceId: string;
   /**
   * The severity level of the incident. Possible values are `MINOR`, `MEDIUM`, `MAJOR`, and `CRITICAL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#severity DnsMonitor#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#severity DnsMonitor#severity}
   */
   readonly severity: string;
 }
@@ -2148,7 +2148,7 @@ export class DnsMonitorTriggerIncidentOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor checkly_dns_monitor}
+* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor checkly_dns_monitor}
 */
 export class DnsMonitor extends cdktf.TerraformResource {
 
@@ -2164,7 +2164,7 @@ export class DnsMonitor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsMonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsMonitor to import
-  * @param importFromId The id of the existing DnsMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2176,7 +2176,7 @@ export class DnsMonitor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dns_monitor checkly_dns_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dns_monitor checkly_dns_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2187,8 +2187,8 @@ export class DnsMonitor extends cdktf.TerraformResource {
       terraformResourceType: 'checkly_dns_monitor',
       terraformGeneratorMetadata: {
         providerName: 'checkly',
-        providerVersion: '1.16.0',
-        providerVersionConstraint: '1.16.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

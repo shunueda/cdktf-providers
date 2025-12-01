@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipv6_addresses
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipv6_addresses
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudVpcIpv6AddressesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipv6_addresses#associated_instance_id DataAlicloudVpcIpv6Addresses#associated_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipv6_addresses#associated_instance_id DataAlicloudVpcIpv6Addresses#associated_instance_id}
   */
   readonly associatedInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipv6_addresses#id DataAlicloudVpcIpv6Addresses#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipv6_addresses#id DataAlicloudVpcIpv6Addresses#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipv6_addresses#ids DataAlicloudVpcIpv6Addresses#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipv6_addresses#ids DataAlicloudVpcIpv6Addresses#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipv6_addresses#output_file DataAlicloudVpcIpv6Addresses#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipv6_addresses#output_file DataAlicloudVpcIpv6Addresses#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipv6_addresses#status DataAlicloudVpcIpv6Addresses#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipv6_addresses#status DataAlicloudVpcIpv6Addresses#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipv6_addresses#vpc_id DataAlicloudVpcIpv6Addresses#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipv6_addresses#vpc_id DataAlicloudVpcIpv6Addresses#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipv6_addresses#vswitch_id DataAlicloudVpcIpv6Addresses#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipv6_addresses#vswitch_id DataAlicloudVpcIpv6Addresses#vswitch_id}
   */
   readonly vswitchId?: string;
 }
@@ -171,7 +171,7 @@ export class DataAlicloudVpcIpv6AddressesAddressesList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipv6_addresses alicloud_vpc_ipv6_addresses}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipv6_addresses alicloud_vpc_ipv6_addresses}
 */
 export class DataAlicloudVpcIpv6Addresses extends cdktf.TerraformDataSource {
 
@@ -187,7 +187,7 @@ export class DataAlicloudVpcIpv6Addresses extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudVpcIpv6Addresses resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudVpcIpv6Addresses to import
-  * @param importFromId The id of the existing DataAlicloudVpcIpv6Addresses that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipv6_addresses#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudVpcIpv6Addresses that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipv6_addresses#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudVpcIpv6Addresses to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -199,7 +199,7 @@ export class DataAlicloudVpcIpv6Addresses extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_ipv6_addresses alicloud_vpc_ipv6_addresses} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_ipv6_addresses alicloud_vpc_ipv6_addresses} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -210,8 +210,8 @@ export class DataAlicloudVpcIpv6Addresses extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_vpc_ipv6_addresses',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

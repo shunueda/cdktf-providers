@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SFluentbitFluentIoClusterParserV1Alpha2ManifestConfig ext
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#metadata DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#metadata DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#metadata}
   */
   readonly metadata: DataK8SFluentbitFluentIoClusterParserV1Alpha2ManifestMetadata;
   /**
   * ParserSpec defines the desired state of ClusterParser
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#spec DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#spec DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#spec}
   */
   readonly spec?: DataK8SFluentbitFluentIoClusterParserV1Alpha2ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SFluentbitFluentIoClusterParserV1Alpha2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#annotations DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#annotations DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#labels DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#labels DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#name DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#name DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#name}
   */
   readonly name: string;
 }
@@ -187,13 +187,13 @@ export interface DataK8SFluentbitFluentIoClusterParserV1Alpha2ManifestSpecDecode
   /**
   * If the content can be decoded in a structured message, append that structure message (keys and values) to the original log message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#decode_field DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#decode_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#decode_field DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#decode_field}
   */
   readonly decodeField?: string;
   /**
   * Any content decoded (unstructured or structured) will be replaced in the same key/value, no extra keys are added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#decode_field_as DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#decode_field_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#decode_field_as DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#decode_field_as}
   */
   readonly decodeFieldAs?: string;
 }
@@ -340,19 +340,19 @@ export interface DataK8SFluentbitFluentIoClusterParserV1Alpha2ManifestSpecJson {
   /**
   * Time_Format, eg. %Y-%m-%dT%H:%M:%S %z
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#time_format DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#time_format DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#time_format}
   */
   readonly timeFormat?: string;
   /**
   * Time_Keep
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#time_keep DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#time_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#time_keep DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#time_keep}
   */
   readonly timeKeep?: boolean | cdktf.IResolvable;
   /**
   * Time_Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#time_key DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#time_key DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#time_key}
   */
   readonly timeKey?: string;
 }
@@ -506,23 +506,23 @@ export interface DataK8SFluentbitFluentIoClusterParserV1Alpha2ManifestSpecLtsv {
   /**
   * Time_Format, eg. %Y-%m-%dT%H:%M:%S %z
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#time_format DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#time_format DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#time_format}
   */
   readonly timeFormat?: string;
   /**
   * Time_Keep
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#time_keep DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#time_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#time_keep DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#time_keep}
   */
   readonly timeKeep?: boolean | cdktf.IResolvable;
   /**
   * Time_Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#time_key DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#time_key DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#time_key}
   */
   readonly timeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#types DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#types DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#types}
   */
   readonly types?: string;
 }
@@ -703,35 +703,35 @@ export class DataK8SFluentbitFluentIoClusterParserV1Alpha2ManifestSpecLtsvOutput
 }
 export interface DataK8SFluentbitFluentIoClusterParserV1Alpha2ManifestSpecRegex {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#regex DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#regex DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#regex}
   */
   readonly regex?: string;
   /**
   * Time_Format, eg. %Y-%m-%dT%H:%M:%S %z
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#time_format DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#time_format DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#time_format}
   */
   readonly timeFormat?: string;
   /**
   * Time_Keep
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#time_keep DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#time_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#time_keep DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#time_keep}
   */
   readonly timeKeep?: boolean | cdktf.IResolvable;
   /**
   * Time_Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#time_key DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#time_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#time_key DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#time_key}
   */
   readonly timeKey?: string;
   /**
   * Time_Offset, eg. +0200
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#time_offset DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#time_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#time_offset DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#time_offset}
   */
   readonly timeOffset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#types DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#types DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#types}
   */
   readonly types?: string;
 }
@@ -972,31 +972,31 @@ export interface DataK8SFluentbitFluentIoClusterParserV1Alpha2ManifestSpec {
   /**
   * Decoders are a built-in feature available through the Parsers file, each Parser definition can optionally set one or multiple decoders. There are two type of decoders type: Decode_Field and Decode_Field_As.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#decoders DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#decoders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#decoders DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#decoders}
   */
   readonly decoders?: DataK8SFluentbitFluentIoClusterParserV1Alpha2ManifestSpecDecoders[] | cdktf.IResolvable;
   /**
   * JSON defines json parser configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#json DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#json DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#json}
   */
   readonly json?: DataK8SFluentbitFluentIoClusterParserV1Alpha2ManifestSpecJson;
   /**
   * Logfmt defines logfmt parser configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#logfmt DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#logfmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#logfmt DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#logfmt}
   */
   readonly logfmt?: { [key: string]: string };
   /**
   * LTSV defines ltsv parser configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#ltsv DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#ltsv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#ltsv DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#ltsv}
   */
   readonly ltsv?: DataK8SFluentbitFluentIoClusterParserV1Alpha2ManifestSpecLtsv;
   /**
   * Regex defines regex parser configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#regex DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#regex DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest#regex}
   */
   readonly regex?: DataK8SFluentbitFluentIoClusterParserV1Alpha2ManifestSpecRegex;
 }
@@ -1206,7 +1206,7 @@ export class DataK8SFluentbitFluentIoClusterParserV1Alpha2ManifestSpecOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest k8s_fluentbit_fluent_io_cluster_parser_v1alpha2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest k8s_fluentbit_fluent_io_cluster_parser_v1alpha2_manifest}
 */
 export class DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest extends cdktf.TerraformDataSource {
 
@@ -1222,7 +1222,7 @@ export class DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest extends cdktf
   * Generates CDKTF code for importing a DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest to import
-  * @param importFromId The id of the existing DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1234,7 +1234,7 @@ export class DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest k8s_fluentbit_fluent_io_cluster_parser_v1alpha2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_parser_v1alpha2_manifest k8s_fluentbit_fluent_io_cluster_parser_v1alpha2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1245,8 +1245,8 @@ export class DataK8SFluentbitFluentIoClusterParserV1Alpha2Manifest extends cdktf
       terraformResourceType: 'k8s_fluentbit_fluent_io_cluster_parser_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

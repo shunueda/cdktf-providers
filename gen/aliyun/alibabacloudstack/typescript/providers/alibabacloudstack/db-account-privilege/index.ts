@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_account_privilege
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/db_account_privilege
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DbAccountPrivilegeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_account_privilege#account_name DbAccountPrivilege#account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/db_account_privilege#account_name DbAccountPrivilege#account_name}
   */
   readonly accountName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_account_privilege#data_base_instance_id DbAccountPrivilege#data_base_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/db_account_privilege#data_base_instance_id DbAccountPrivilege#data_base_instance_id}
   */
   readonly dataBaseInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_account_privilege#db_names DbAccountPrivilege#db_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/db_account_privilege#db_names DbAccountPrivilege#db_names}
   */
   readonly dbNames: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_account_privilege#id DbAccountPrivilege#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/db_account_privilege#id DbAccountPrivilege#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_account_privilege#instance_id DbAccountPrivilege#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/db_account_privilege#instance_id DbAccountPrivilege#instance_id}
   */
   readonly instanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_account_privilege#privilege DbAccountPrivilege#privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/db_account_privilege#privilege DbAccountPrivilege#privilege}
   */
   readonly privilege: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_account_privilege alibabacloudstack_db_account_privilege}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/db_account_privilege alibabacloudstack_db_account_privilege}
 */
 export class DbAccountPrivilege extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class DbAccountPrivilege extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbAccountPrivilege resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbAccountPrivilege to import
-  * @param importFromId The id of the existing DbAccountPrivilege that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_account_privilege#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbAccountPrivilege that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/db_account_privilege#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbAccountPrivilege to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class DbAccountPrivilege extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/db_account_privilege alibabacloudstack_db_account_privilege} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/db_account_privilege alibabacloudstack_db_account_privilege} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class DbAccountPrivilege extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_db_account_privilege',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

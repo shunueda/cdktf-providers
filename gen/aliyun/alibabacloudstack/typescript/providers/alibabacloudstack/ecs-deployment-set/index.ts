@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ecs_deployment_set
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_deployment_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface EcsDeploymentSetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ecs_deployment_set#deployment_set_name EcsDeploymentSet#deployment_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_deployment_set#deployment_set_name EcsDeploymentSet#deployment_set_name}
   */
   readonly deploymentSetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ecs_deployment_set#description EcsDeploymentSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_deployment_set#description EcsDeploymentSet#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ecs_deployment_set#domain EcsDeploymentSet#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_deployment_set#domain EcsDeploymentSet#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ecs_deployment_set#granularity EcsDeploymentSet#granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_deployment_set#granularity EcsDeploymentSet#granularity}
   */
   readonly granularity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ecs_deployment_set#id EcsDeploymentSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_deployment_set#id EcsDeploymentSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ecs_deployment_set#on_unable_to_redeploy_failed_instance EcsDeploymentSet#on_unable_to_redeploy_failed_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_deployment_set#on_unable_to_redeploy_failed_instance EcsDeploymentSet#on_unable_to_redeploy_failed_instance}
   */
   readonly onUnableToRedeployFailedInstance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ecs_deployment_set#strategy EcsDeploymentSet#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_deployment_set#strategy EcsDeploymentSet#strategy}
   */
   readonly strategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ecs_deployment_set#tags EcsDeploymentSet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_deployment_set#tags EcsDeploymentSet#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ecs_deployment_set alibabacloudstack_ecs_deployment_set}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_deployment_set alibabacloudstack_ecs_deployment_set}
 */
 export class EcsDeploymentSet extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class EcsDeploymentSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EcsDeploymentSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcsDeploymentSet to import
-  * @param importFromId The id of the existing EcsDeploymentSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ecs_deployment_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcsDeploymentSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_deployment_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcsDeploymentSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class EcsDeploymentSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ecs_deployment_set alibabacloudstack_ecs_deployment_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_deployment_set alibabacloudstack_ecs_deployment_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class EcsDeploymentSet extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_ecs_deployment_set',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

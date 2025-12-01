@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCouchbaseComCouchbaseScopeV2ManifestConfig extends cdktf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#metadata DataK8SCouchbaseComCouchbaseScopeV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#metadata DataK8SCouchbaseComCouchbaseScopeV2Manifest#metadata}
   */
   readonly metadata: DataK8SCouchbaseComCouchbaseScopeV2ManifestMetadata;
   /**
   * Spec defines the desired state of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#spec DataK8SCouchbaseComCouchbaseScopeV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#spec DataK8SCouchbaseComCouchbaseScopeV2Manifest#spec}
   */
   readonly spec?: DataK8SCouchbaseComCouchbaseScopeV2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCouchbaseComCouchbaseScopeV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#annotations DataK8SCouchbaseComCouchbaseScopeV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#annotations DataK8SCouchbaseComCouchbaseScopeV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#labels DataK8SCouchbaseComCouchbaseScopeV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#labels DataK8SCouchbaseComCouchbaseScopeV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#name DataK8SCouchbaseComCouchbaseScopeV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#name DataK8SCouchbaseComCouchbaseScopeV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#namespace DataK8SCouchbaseComCouchbaseScopeV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#namespace DataK8SCouchbaseComCouchbaseScopeV2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SCouchbaseComCouchbaseScopeV2ManifestSpecCollectionsResou
   /**
   * Kind indicates the kind of resource that is being referenced. A scope can only reference 'CouchbaseCollection' and 'CouchbaseCollectionGroup' resource kinds. This field defaults to 'CouchbaseCollection' if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#kind DataK8SCouchbaseComCouchbaseScopeV2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#kind DataK8SCouchbaseComCouchbaseScopeV2Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name is the name of the Kubernetes resource name that is being referenced. Legal collection names have a maximum length of 251 characters and may be composed of any character from 'a-z', 'A-Z', '0-9' and '_-%'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#name DataK8SCouchbaseComCouchbaseScopeV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#name DataK8SCouchbaseComCouchbaseScopeV2Manifest#name}
   */
   readonly name: string;
 }
@@ -369,19 +369,19 @@ export interface DataK8SCouchbaseComCouchbaseScopeV2ManifestSpecCollectionsSelec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#key DataK8SCouchbaseComCouchbaseScopeV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#key DataK8SCouchbaseComCouchbaseScopeV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#operator DataK8SCouchbaseComCouchbaseScopeV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#operator DataK8SCouchbaseComCouchbaseScopeV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#values DataK8SCouchbaseComCouchbaseScopeV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#values DataK8SCouchbaseComCouchbaseScopeV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -551,13 +551,13 @@ export interface DataK8SCouchbaseComCouchbaseScopeV2ManifestSpecCollectionsSelec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseScopeV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseScopeV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCouchbaseComCouchbaseScopeV2ManifestSpecCollectionsSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseScopeV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseScopeV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -682,25 +682,25 @@ export interface DataK8SCouchbaseComCouchbaseScopeV2ManifestSpecCollections {
   /**
   * Managed indicates whether collections within this scope are managed. If not then you can dynamically create and delete collections with the Couchbase UI or SDKs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#managed DataK8SCouchbaseComCouchbaseScopeV2Manifest#managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#managed DataK8SCouchbaseComCouchbaseScopeV2Manifest#managed}
   */
   readonly managed?: boolean | cdktf.IResolvable;
   /**
   * PreserveDefaultCollection indicates whether the Operator should manage the default collection within the default scope. The default collection can be deleted, but can not be recreated by Couchbase Server. By setting this field to 'true', the Operator will implicitly manage the default collection within the default scope. The default collection cannot be modified and will have no document time-to-live (TTL). When set to 'false', the operator will not manage the default collection, which will be deleted and cannot be used or recreated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#preserve_default_collection DataK8SCouchbaseComCouchbaseScopeV2Manifest#preserve_default_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#preserve_default_collection DataK8SCouchbaseComCouchbaseScopeV2Manifest#preserve_default_collection}
   */
   readonly preserveDefaultCollection?: boolean | cdktf.IResolvable;
   /**
   * Resources is an explicit list of named resources that will be considered for inclusion in this scope or scopes. If a resource reference doesn't match a resource, then no error conditions are raised due to undefined resource creation ordering and eventual consistency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#resources DataK8SCouchbaseComCouchbaseScopeV2Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#resources DataK8SCouchbaseComCouchbaseScopeV2Manifest#resources}
   */
   readonly resources?: DataK8SCouchbaseComCouchbaseScopeV2ManifestSpecCollectionsResources[] | cdktf.IResolvable;
   /**
   * Selector allows resources to be implicitly considered for inclusion in this scope or scopes. More info: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#labelselector-v1-meta
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#selector DataK8SCouchbaseComCouchbaseScopeV2Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#selector DataK8SCouchbaseComCouchbaseScopeV2Manifest#selector}
   */
   readonly selector?: DataK8SCouchbaseComCouchbaseScopeV2ManifestSpecCollectionsSelector;
 }
@@ -883,19 +883,19 @@ export interface DataK8SCouchbaseComCouchbaseScopeV2ManifestSpec {
   /**
   * Collections defines how to collate collections included in this scope or scope group. Any of the provided methods may be used to collate a set of collections to manage. Collated collections must have unique names, otherwise it is considered ambiguous, and an error condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#collections DataK8SCouchbaseComCouchbaseScopeV2Manifest#collections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#collections DataK8SCouchbaseComCouchbaseScopeV2Manifest#collections}
   */
   readonly collections?: DataK8SCouchbaseComCouchbaseScopeV2ManifestSpecCollections;
   /**
   * DefaultScope indicates whether this resource represents the default scope for a bucket. When set to 'true', this allows the user to refer to and manage collections within the default scope. When not defined, the Operator will implicitly manage the default scope as the default scope can not be deleted from Couchbase Server. The Operator defined default scope will also have the 'persistDefaultCollection' flag set to 'true'. Only one default scope is permitted to be contained in a bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#default_scope DataK8SCouchbaseComCouchbaseScopeV2Manifest#default_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#default_scope DataK8SCouchbaseComCouchbaseScopeV2Manifest#default_scope}
   */
   readonly defaultScope?: boolean | cdktf.IResolvable;
   /**
   * Name specifies the name of the scope. By default, the metadata.name is used to define the scope name, however, due to the limited character set, this field can be used to override the default and provide the full functionality. Additionally the 'metadata.name' field is a DNS label, and thus limited to 63 characters, this field must be used if the name is longer than this limit. Scope names must be 1-251 characters in length, contain only [a-zA-Z0-9_-%] and not start with either _ or %.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#name DataK8SCouchbaseComCouchbaseScopeV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#name DataK8SCouchbaseComCouchbaseScopeV2Manifest#name}
   */
   readonly name?: string;
 }
@@ -1047,7 +1047,7 @@ export class DataK8SCouchbaseComCouchbaseScopeV2ManifestSpecOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest k8s_couchbase_com_couchbase_scope_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest k8s_couchbase_com_couchbase_scope_v2_manifest}
 */
 export class DataK8SCouchbaseComCouchbaseScopeV2Manifest extends cdktf.TerraformDataSource {
 
@@ -1063,7 +1063,7 @@ export class DataK8SCouchbaseComCouchbaseScopeV2Manifest extends cdktf.Terraform
   * Generates CDKTF code for importing a DataK8SCouchbaseComCouchbaseScopeV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCouchbaseComCouchbaseScopeV2Manifest to import
-  * @param importFromId The id of the existing DataK8SCouchbaseComCouchbaseScopeV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCouchbaseComCouchbaseScopeV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCouchbaseComCouchbaseScopeV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1075,7 +1075,7 @@ export class DataK8SCouchbaseComCouchbaseScopeV2Manifest extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest k8s_couchbase_com_couchbase_scope_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_scope_v2_manifest k8s_couchbase_com_couchbase_scope_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1086,8 +1086,8 @@ export class DataK8SCouchbaseComCouchbaseScopeV2Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_couchbase_com_couchbase_scope_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

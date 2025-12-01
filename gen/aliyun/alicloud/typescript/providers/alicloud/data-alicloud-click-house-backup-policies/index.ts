@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/click_house_backup_policies
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/click_house_backup_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,18 +8,18 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudClickHouseBackupPoliciesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/click_house_backup_policies#db_cluster_id DataAlicloudClickHouseBackupPolicies#db_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/click_house_backup_policies#db_cluster_id DataAlicloudClickHouseBackupPolicies#db_cluster_id}
   */
   readonly dbClusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/click_house_backup_policies#id DataAlicloudClickHouseBackupPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/click_house_backup_policies#id DataAlicloudClickHouseBackupPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/click_house_backup_policies#output_file DataAlicloudClickHouseBackupPolicies#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/click_house_backup_policies#output_file DataAlicloudClickHouseBackupPolicies#output_file}
   */
   readonly outputFile?: string;
 }
@@ -125,7 +125,7 @@ export class DataAlicloudClickHouseBackupPoliciesPoliciesList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/click_house_backup_policies alicloud_click_house_backup_policies}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/click_house_backup_policies alicloud_click_house_backup_policies}
 */
 export class DataAlicloudClickHouseBackupPolicies extends cdktf.TerraformDataSource {
 
@@ -141,7 +141,7 @@ export class DataAlicloudClickHouseBackupPolicies extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataAlicloudClickHouseBackupPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudClickHouseBackupPolicies to import
-  * @param importFromId The id of the existing DataAlicloudClickHouseBackupPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/click_house_backup_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudClickHouseBackupPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/click_house_backup_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudClickHouseBackupPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class DataAlicloudClickHouseBackupPolicies extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/click_house_backup_policies alicloud_click_house_backup_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/click_house_backup_policies alicloud_click_house_backup_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class DataAlicloudClickHouseBackupPolicies extends cdktf.TerraformDataSou
       terraformResourceType: 'alicloud_click_house_backup_policies',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

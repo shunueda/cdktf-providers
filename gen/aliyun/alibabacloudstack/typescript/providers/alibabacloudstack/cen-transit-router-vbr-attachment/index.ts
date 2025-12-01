@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cen_transit_router_vbr_attachment
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_vbr_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface CenTransitRouterVbrAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cen_transit_router_vbr_attachment#cen_id CenTransitRouterVbrAttachment#cen_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_vbr_attachment#cen_id CenTransitRouterVbrAttachment#cen_id}
   */
   readonly cenId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cen_transit_router_vbr_attachment#id CenTransitRouterVbrAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_vbr_attachment#id CenTransitRouterVbrAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cen_transit_router_vbr_attachment#route_table_association_enabled CenTransitRouterVbrAttachment#route_table_association_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_vbr_attachment#route_table_association_enabled CenTransitRouterVbrAttachment#route_table_association_enabled}
   */
   readonly routeTableAssociationEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cen_transit_router_vbr_attachment#route_table_propagation_enabled CenTransitRouterVbrAttachment#route_table_propagation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_vbr_attachment#route_table_propagation_enabled CenTransitRouterVbrAttachment#route_table_propagation_enabled}
   */
   readonly routeTablePropagationEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cen_transit_router_vbr_attachment#transit_router_attachment_description CenTransitRouterVbrAttachment#transit_router_attachment_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_vbr_attachment#transit_router_attachment_description CenTransitRouterVbrAttachment#transit_router_attachment_description}
   */
   readonly transitRouterAttachmentDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cen_transit_router_vbr_attachment#transit_router_attachment_name CenTransitRouterVbrAttachment#transit_router_attachment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_vbr_attachment#transit_router_attachment_name CenTransitRouterVbrAttachment#transit_router_attachment_name}
   */
   readonly transitRouterAttachmentName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cen_transit_router_vbr_attachment#transit_router_id CenTransitRouterVbrAttachment#transit_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_vbr_attachment#transit_router_id CenTransitRouterVbrAttachment#transit_router_id}
   */
   readonly transitRouterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cen_transit_router_vbr_attachment#vbr_id CenTransitRouterVbrAttachment#vbr_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_vbr_attachment#vbr_id CenTransitRouterVbrAttachment#vbr_id}
   */
   readonly vbrId: string;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cen_transit_router_vbr_attachment#tags CenTransitRouterVbrAttachment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_vbr_attachment#tags CenTransitRouterVbrAttachment#tags}
   */
   readonly tags?: CenTransitRouterVbrAttachmentTags[] | cdktf.IResolvable;
 }
 export interface CenTransitRouterVbrAttachmentTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cen_transit_router_vbr_attachment#tag_key CenTransitRouterVbrAttachment#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_vbr_attachment#tag_key CenTransitRouterVbrAttachment#tag_key}
   */
   readonly tagKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cen_transit_router_vbr_attachment#tag_value CenTransitRouterVbrAttachment#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_vbr_attachment#tag_value CenTransitRouterVbrAttachment#tag_value}
   */
   readonly tagValue?: string;
 }
@@ -200,7 +200,7 @@ export class CenTransitRouterVbrAttachmentTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cen_transit_router_vbr_attachment alibabacloudstack_cen_transit_router_vbr_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_vbr_attachment alibabacloudstack_cen_transit_router_vbr_attachment}
 */
 export class CenTransitRouterVbrAttachment extends cdktf.TerraformResource {
 
@@ -216,7 +216,7 @@ export class CenTransitRouterVbrAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CenTransitRouterVbrAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CenTransitRouterVbrAttachment to import
-  * @param importFromId The id of the existing CenTransitRouterVbrAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cen_transit_router_vbr_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CenTransitRouterVbrAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_vbr_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CenTransitRouterVbrAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -228,7 +228,7 @@ export class CenTransitRouterVbrAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cen_transit_router_vbr_attachment alibabacloudstack_cen_transit_router_vbr_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_vbr_attachment alibabacloudstack_cen_transit_router_vbr_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -239,7 +239,8 @@ export class CenTransitRouterVbrAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_cen_transit_router_vbr_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

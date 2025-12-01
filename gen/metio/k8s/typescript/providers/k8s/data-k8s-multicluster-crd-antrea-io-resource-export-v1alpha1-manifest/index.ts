@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestCon
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#metadata DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#metadata DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestMetadata;
   /**
   * ResourceExportSpec defines the desired state of ResourceExport.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#spec DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#spec DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestMet
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#annotations DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#annotations DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export class DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestMetadat
 }
 export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterInfoGatewayInfos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#gateway_ip DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#gateway_ip DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#gateway_ip}
   */
   readonly gatewayIp?: string;
 }
@@ -335,7 +335,7 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * Public key of the WireGuard tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#public_key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#public_key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#public_key}
   */
   readonly publicKey?: string;
 }
@@ -431,31 +431,31 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * ClusterID of the member cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#cluster_id DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#cluster_id DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * GatewayInfos has information of Gateways
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#gateway_infos DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#gateway_infos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#gateway_infos DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#gateway_infos}
   */
   readonly gatewayInfos?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterInfoGatewayInfos[] | cdktf.IResolvable;
   /**
   * PodCIDRs is the Pod IP address CIDRs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#pod_cidrs DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#pod_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#pod_cidrs DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#pod_cidrs}
   */
   readonly podCidrs?: string[];
   /**
   * ServiceCIDR is the IP ranges used by Service ClusterIP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#service_cidr DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#service_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#service_cidr DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#service_cidr}
   */
   readonly serviceCidr?: string;
   /**
   * WireGuardInfo includes information of a WireGuard tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#wire_guard DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#wire_guard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#wire_guard DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#wire_guard}
   */
   readonly wireGuard?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterInfoWireGuard;
 }
@@ -667,19 +667,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -849,13 +849,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyAppliedToExternalEntitySelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -980,19 +980,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1162,13 +1162,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyAppliedToNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1293,19 +1293,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1475,13 +1475,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyAppliedToNodeSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1606,19 +1606,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1788,13 +1788,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyAppliedToPodSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1917,11 +1917,11 @@ export class DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClu
 }
 export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyAppliedToService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2044,11 +2044,11 @@ export class DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClu
 }
 export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyAppliedToServiceAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2173,43 +2173,43 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * Select ExternalEntities from NetworkPolicy's Namespace as workloads in AppliedTo fields. If set with NamespaceSelector, ExternalEntities are matched from Namespaces matched by the NamespaceSelector. Cannot be set with any other selector except NamespaceSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#external_entity_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#external_entity_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#external_entity_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#external_entity_selector}
   */
   readonly externalEntitySelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyAppliedToExternalEntitySelector;
   /**
   * Group is the name of the ClusterGroup which can be set as an AppliedTo in place of a stand-alone selector. A Group cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#group DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#group DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
   * Select all Pods from Namespaces matched by this selector, as workloads in AppliedTo fields. If set with PodSelector, Pods are matched from Namespaces matched by the NamespaceSelector. Cannot be set with any other selector except PodSelector or ExternalEntitySelector. Cannot be set with Namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyAppliedToNamespaceSelector;
   /**
   * Select Nodes in cluster as workloads in AppliedTo fields. Cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#node_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#node_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyAppliedToNodeSelector;
   /**
   * Select Pods from NetworkPolicy's Namespace as workloads in AppliedTo fields. If set with NamespaceSelector, Pods are matched from Namespaces matched by the NamespaceSelector. Cannot be set with any other selector except NamespaceSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#pod_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#pod_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#pod_selector}
   */
   readonly podSelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyAppliedToPodSelector;
   /**
   * Select a certain Service which matches the NamespacedName. A Service can only be set in either policy level AppliedTo field in a policy that only has ingress rules or rule level AppliedTo field in an ingress rule. Only a NodePort Service can be referred by this field. Cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#service DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#service DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#service}
   */
   readonly service?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyAppliedToService;
   /**
   * Select all Pods with the ServiceAccount matched by this field, as workloads in AppliedTo fields. Cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#service_account DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#service_account DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#service_account}
   */
   readonly serviceAccount?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyAppliedToServiceAccount;
 }
@@ -2501,19 +2501,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2683,13 +2683,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressAppliedToExternalEntitySelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2814,19 +2814,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2996,13 +2996,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressAppliedToNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3127,19 +3127,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3309,13 +3309,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressAppliedToNodeSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3440,19 +3440,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3622,13 +3622,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressAppliedToPodSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3751,11 +3751,11 @@ export class DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClu
 }
 export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressAppliedToService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -3878,11 +3878,11 @@ export class DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClu
 }
 export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressAppliedToServiceAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -4007,43 +4007,43 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * Select ExternalEntities from NetworkPolicy's Namespace as workloads in AppliedTo fields. If set with NamespaceSelector, ExternalEntities are matched from Namespaces matched by the NamespaceSelector. Cannot be set with any other selector except NamespaceSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#external_entity_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#external_entity_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#external_entity_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#external_entity_selector}
   */
   readonly externalEntitySelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressAppliedToExternalEntitySelector;
   /**
   * Group is the name of the ClusterGroup which can be set as an AppliedTo in place of a stand-alone selector. A Group cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#group DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#group DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
   * Select all Pods from Namespaces matched by this selector, as workloads in AppliedTo fields. If set with PodSelector, Pods are matched from Namespaces matched by the NamespaceSelector. Cannot be set with any other selector except PodSelector or ExternalEntitySelector. Cannot be set with Namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressAppliedToNamespaceSelector;
   /**
   * Select Nodes in cluster as workloads in AppliedTo fields. Cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#node_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#node_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressAppliedToNodeSelector;
   /**
   * Select Pods from NetworkPolicy's Namespace as workloads in AppliedTo fields. If set with NamespaceSelector, Pods are matched from Namespaces matched by the NamespaceSelector. Cannot be set with any other selector except NamespaceSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#pod_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#pod_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#pod_selector}
   */
   readonly podSelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressAppliedToPodSelector;
   /**
   * Select a certain Service which matches the NamespacedName. A Service can only be set in either policy level AppliedTo field in a policy that only has ingress rules or rule level AppliedTo field in an ingress rule. Only a NodePort Service can be referred by this field. Cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#service DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#service DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#service}
   */
   readonly service?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressAppliedToService;
   /**
   * Select all Pods with the ServiceAccount matched by this field, as workloads in AppliedTo fields. Cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#service_account DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#service_account DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#service_account}
   */
   readonly serviceAccount?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressAppliedToServiceAccount;
 }
@@ -4335,19 +4335,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4517,13 +4517,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressFromExternalEntitySelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4648,13 +4648,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * CIDR is a string representing the IP Block Valid examples are '192.168.1.0/24'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#cidr DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#cidr DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#cidr}
   */
   readonly cidr: string;
   /**
   * except is a slice of CIDRs that should not be included within an IPBlock Valid examples are '192.168.1.0/28' or '2001:db8::/64' Except values will be rejected if they are outside the cidr range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#except DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#except DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#except}
   */
   readonly except?: string[];
 }
@@ -4776,19 +4776,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4958,13 +4958,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressFromNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5089,13 +5089,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * Selects from the same Namespace of the appliedTo workloads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match}
   */
   readonly match?: string;
   /**
   * Selects Namespaces that share the same values for the given set of label keys with the appliedTo Namespace. Namespaces must have all the label keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#same_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#same_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#same_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#same_labels}
   */
   readonly sameLabels?: string[];
 }
@@ -5220,19 +5220,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5402,13 +5402,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressFromNodeSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5533,19 +5533,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5715,13 +5715,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressFromPodSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5844,11 +5844,11 @@ export class DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClu
 }
 export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressFromServiceAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -5973,61 +5973,61 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * Select ExternalEntities from NetworkPolicy's Namespace as workloads in To/From fields. If set with NamespaceSelector, ExternalEntities are matched from Namespaces matched by the NamespaceSelector. Cannot be set with any other selector except NamespaceSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#external_entity_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#external_entity_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#external_entity_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#external_entity_selector}
   */
   readonly externalEntitySelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressFromExternalEntitySelector;
   /**
   * Restrict egress access to the Fully Qualified Domain Names prescribed by name or by wildcard match patterns. This field can only be set for NetworkPolicyPeer of egress rules. Supported formats are: Exact FQDNs such as 'google.com'. Wildcard expressions such as '*wayfair.com'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#fqdn DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#fqdn DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#fqdn}
   */
   readonly fqdn?: string;
   /**
   * Group is the name of the ClusterGroup which can be set within an Ingress or Egress rule in place of a stand-alone selector. A Group cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#group DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#group DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
   * IPBlock describes the IPAddresses/IPBlocks that is matched in to/from. IPBlock cannot be set as part of the AppliedTo field. Cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ip_block DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ip_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ip_block DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ip_block}
   */
   readonly ipBlock?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressFromIpBlock;
   /**
   * Select all Pods from Namespaces matched by this selector, as workloads in To/From fields. If set with PodSelector, Pods are matched from Namespaces matched by the NamespaceSelector. Cannot be set with any other selector except PodSelector or ExternalEntitySelector. Cannot be set with Namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressFromNamespaceSelector;
   /**
   * Select Pod/ExternalEntity from Namespaces matched by specific criteria. Current supported criteria is match: Self, which selects from the same Namespace of the appliedTo workloads. Cannot be set with any other selector except PodSelector or ExternalEntitySelector. This field can only be set when NetworkPolicyPeer is created for ClusterNetworkPolicy ingress/egress rules. Cannot be set with NamespaceSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespaces DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespaces DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressFromNamespaces;
   /**
   * Select certain Nodes which match the label selector. A NodeSelector cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#node_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#node_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressFromNodeSelector;
   /**
   * Select Pods from NetworkPolicy's Namespace as workloads in To/From fields. If set with NamespaceSelector, Pods are matched from Namespaces matched by the NamespaceSelector. Cannot be set with any other selector except NamespaceSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#pod_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#pod_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#pod_selector}
   */
   readonly podSelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressFromPodSelector;
   /**
   * Define scope of the Pod/NamespaceSelector(s) of this peer. Can only be used in ingress NetworkPolicyPeers. Defaults to 'Cluster'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#scope DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#scope DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#scope}
   */
   readonly scope?: string;
   /**
   * Select all Pods with the ServiceAccount matched by this field, as workloads in To/From fields. Cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#service_account DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#service_account DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#service_account}
   */
   readonly serviceAccount?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressFromServiceAccount;
 }
@@ -6406,19 +6406,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * Host represents the hostname present in the URI or the HTTP Host header to match. It does not contain the port associated with the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#host DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#host DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Method represents the HTTP method to match. It could be GET, POST, PUT, HEAD, DELETE, TRACE, OPTIONS, CONNECT and PATCH.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#method DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#method DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * Path represents the URI path to match (Ex. '/index.html', '/admin').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#path DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#path DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#path}
   */
   readonly path?: string;
 }
@@ -6572,7 +6572,7 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * SNI (Server Name Indication) indicates the server domain name in the TLS/SSL hello message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#sni DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#sni DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#sni}
   */
   readonly sni?: string;
 }
@@ -6668,13 +6668,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * HTTPProtocol matches HTTP requests with specific host, method, and path. All fields could be used alone or together. If all fields are not provided, it matches all HTTP requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#http DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#http DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#http}
   */
   readonly http?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressL7ProtocolsHttp;
   /**
   * TLSProtocol matches TLS handshake packets with specific SNI. If the field is not provided, this matches all TLS handshake packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#tls DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#tls DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressL7ProtocolsTls;
 }
@@ -6821,31 +6821,31 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * EndPort defines the end of the port range, inclusive. It can only be specified when a numerical 'port' is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#end_port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#end_port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#end_port}
   */
   readonly endPort?: number;
   /**
   * The port on the given protocol. This can be either a numerical or named port on a Pod. If this field is not provided, this matches all port names and numbers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#port}
   */
   readonly port?: string;
   /**
   * The protocol (TCP, UDP, or SCTP) which traffic must match. If not specified, this field defaults to TCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#protocol DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#protocol DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * SourceEndPort defines the end of the source port range, inclusive. It can only be specified when 'sourcePort' is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#source_end_port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#source_end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#source_end_port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#source_end_port}
   */
   readonly sourceEndPort?: number;
   /**
   * The source port on the given protocol. This can only be a numerical port. If this field is not provided, rule matches all source ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#source_port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#source_port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#source_port}
   */
   readonly sourcePort?: number;
 }
@@ -7077,11 +7077,11 @@ export class DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClu
 }
 export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressProtocolsIcmp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#icmp_code DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#icmp_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#icmp_code DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#icmp_code}
   */
   readonly icmpCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#icmp_type DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#icmp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#icmp_type DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#icmp_type}
   */
   readonly icmpType?: number;
 }
@@ -7204,11 +7204,11 @@ export class DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClu
 }
 export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressProtocolsIgmp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#group_address DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#group_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#group_address DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#group_address}
   */
   readonly groupAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#igmp_type DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#igmp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#igmp_type DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#igmp_type}
   */
   readonly igmpType?: number;
 }
@@ -7333,13 +7333,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * ICMPProtocol matches ICMP traffic with specific ICMPType and/or ICMPCode. All fields could be used alone or together. If all fields are not provided, this matches all ICMP traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#icmp DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#icmp DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#icmp}
   */
   readonly icmp?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressProtocolsIcmp;
   /**
   * IGMPProtocol matches IGMP traffic with IGMPType and GroupAddress. IGMPType must be filled with: IGMPQuery int32 = 0x11 IGMPReportV1 int32 = 0x12 IGMPReportV2 int32 = 0x16 IGMPReportV3 int32 = 0x22 If groupAddress is empty, all groupAddresses will be matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#igmp DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#igmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#igmp DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#igmp}
   */
   readonly igmp?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressProtocolsIgmp;
 }
@@ -7486,19 +7486,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7668,13 +7668,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressToExternalEntitySelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -7799,13 +7799,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * CIDR is a string representing the IP Block Valid examples are '192.168.1.0/24'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#cidr DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#cidr DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#cidr}
   */
   readonly cidr: string;
   /**
   * except is a slice of CIDRs that should not be included within an IPBlock Valid examples are '192.168.1.0/28' or '2001:db8::/64' Except values will be rejected if they are outside the cidr range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#except DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#except DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#except}
   */
   readonly except?: string[];
 }
@@ -7927,19 +7927,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8109,13 +8109,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressToNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -8240,13 +8240,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * Selects from the same Namespace of the appliedTo workloads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match}
   */
   readonly match?: string;
   /**
   * Selects Namespaces that share the same values for the given set of label keys with the appliedTo Namespace. Namespaces must have all the label keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#same_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#same_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#same_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#same_labels}
   */
   readonly sameLabels?: string[];
 }
@@ -8371,19 +8371,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8553,13 +8553,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressToNodeSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -8684,19 +8684,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8866,13 +8866,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressToPodSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -8995,11 +8995,11 @@ export class DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClu
 }
 export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressToServiceAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -9124,61 +9124,61 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * Select ExternalEntities from NetworkPolicy's Namespace as workloads in To/From fields. If set with NamespaceSelector, ExternalEntities are matched from Namespaces matched by the NamespaceSelector. Cannot be set with any other selector except NamespaceSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#external_entity_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#external_entity_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#external_entity_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#external_entity_selector}
   */
   readonly externalEntitySelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressToExternalEntitySelector;
   /**
   * Restrict egress access to the Fully Qualified Domain Names prescribed by name or by wildcard match patterns. This field can only be set for NetworkPolicyPeer of egress rules. Supported formats are: Exact FQDNs such as 'google.com'. Wildcard expressions such as '*wayfair.com'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#fqdn DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#fqdn DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#fqdn}
   */
   readonly fqdn?: string;
   /**
   * Group is the name of the ClusterGroup which can be set within an Ingress or Egress rule in place of a stand-alone selector. A Group cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#group DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#group DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
   * IPBlock describes the IPAddresses/IPBlocks that is matched in to/from. IPBlock cannot be set as part of the AppliedTo field. Cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ip_block DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ip_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ip_block DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ip_block}
   */
   readonly ipBlock?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressToIpBlock;
   /**
   * Select all Pods from Namespaces matched by this selector, as workloads in To/From fields. If set with PodSelector, Pods are matched from Namespaces matched by the NamespaceSelector. Cannot be set with any other selector except PodSelector or ExternalEntitySelector. Cannot be set with Namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressToNamespaceSelector;
   /**
   * Select Pod/ExternalEntity from Namespaces matched by specific criteria. Current supported criteria is match: Self, which selects from the same Namespace of the appliedTo workloads. Cannot be set with any other selector except PodSelector or ExternalEntitySelector. This field can only be set when NetworkPolicyPeer is created for ClusterNetworkPolicy ingress/egress rules. Cannot be set with NamespaceSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespaces DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespaces DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressToNamespaces;
   /**
   * Select certain Nodes which match the label selector. A NodeSelector cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#node_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#node_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressToNodeSelector;
   /**
   * Select Pods from NetworkPolicy's Namespace as workloads in To/From fields. If set with NamespaceSelector, Pods are matched from Namespaces matched by the NamespaceSelector. Cannot be set with any other selector except NamespaceSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#pod_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#pod_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#pod_selector}
   */
   readonly podSelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressToPodSelector;
   /**
   * Define scope of the Pod/NamespaceSelector(s) of this peer. Can only be used in ingress NetworkPolicyPeers. Defaults to 'Cluster'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#scope DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#scope DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#scope}
   */
   readonly scope?: string;
   /**
   * Select all Pods with the ServiceAccount matched by this field, as workloads in To/From fields. Cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#service_account DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#service_account DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#service_account}
   */
   readonly serviceAccount?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressToServiceAccount;
 }
@@ -9555,15 +9555,15 @@ export class DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClu
 }
 export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressToServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#scope DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#scope DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#scope}
   */
   readonly scope?: string;
 }
@@ -9739,67 +9739,67 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * Action specifies the action to be applied on the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#action DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#action DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#action}
   */
   readonly action: string;
   /**
   * Select workloads on which this rule will be applied to. Cannot be set in conjunction with NetworkPolicySpec/ClusterNetworkPolicySpec.AppliedTo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#applied_to DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#applied_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#applied_to DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#applied_to}
   */
   readonly appliedTo?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressAppliedTo[] | cdktf.IResolvable;
   /**
   * EnableLogging is used to indicate if agent should generate logs when rules are matched. Should be default to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#enable_logging DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#enable_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#enable_logging DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#enable_logging}
   */
   readonly enableLogging?: boolean | cdktf.IResolvable;
   /**
   * Rule is matched if traffic originates from workloads selected by this field. If this field is empty, this rule matches all sources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#from DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#from DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressFrom[] | cdktf.IResolvable;
   /**
   * Set of layer 7 protocols matched by the rule. If this field is set, action can only be Allow. When this field is used in a rule, any traffic matching the other layer 3/4 criteria of the rule (typically the 5-tuple) will be forwarded to an application-aware engine for protocol detection and rule enforcement, and the traffic will be allowed if the layer 7 criteria is also matched, otherwise it will be dropped. Therefore, any rules after a layer 7 rule will not be enforced for the traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#l7_protocols DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#l7_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#l7_protocols DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#l7_protocols}
   */
   readonly l7Protocols?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressL7Protocols[] | cdktf.IResolvable;
   /**
   * LogLabel is a user-defined arbitrary string which will be printed in the NetworkPolicy logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#log_label DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#log_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#log_label DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#log_label}
   */
   readonly logLabel?: string;
   /**
   * Name describes the intention of this rule. Name should be unique within the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Set of ports and protocols matched by the rule. If this field and Protocols are unset or empty, this rule matches all ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ports DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ports DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressPorts[] | cdktf.IResolvable;
   /**
   * Set of protocols matched by the rule. If this field and Ports are unset or empty, this rule matches all protocols supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#protocols DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#protocols DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#protocols}
   */
   readonly protocols?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressProtocols[] | cdktf.IResolvable;
   /**
   * Rule is matched if traffic is intended for workloads selected by this field. This field can't be used with ToServices. If this field and ToServices are both empty or missing this rule matches all destinations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#to DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#to DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#to}
   */
   readonly to?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressTo[] | cdktf.IResolvable;
   /**
   * Rule is matched if traffic is intended for a Service listed in this field. Currently, only ClusterIP types Services are supported in this field. When scope is set to ClusterSet, it matches traffic intended for a multi-cluster Service listed in this field. Service name and Namespace provided should match the original exported Service. This field can only be used when AntreaProxy is enabled. This field can't be used with To or Ports. If this field and To are both empty or missing, this rule matches all destinations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#to_services DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#to_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#to_services DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#to_services}
   */
   readonly toServices?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgressToServices[] | cdktf.IResolvable;
 }
@@ -10204,19 +10204,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10386,13 +10386,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressAppliedToExternalEntitySelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -10517,19 +10517,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10699,13 +10699,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressAppliedToNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -10830,19 +10830,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11012,13 +11012,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressAppliedToNodeSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11143,19 +11143,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11325,13 +11325,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressAppliedToPodSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11454,11 +11454,11 @@ export class DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClu
 }
 export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressAppliedToService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -11581,11 +11581,11 @@ export class DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClu
 }
 export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressAppliedToServiceAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -11710,43 +11710,43 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * Select ExternalEntities from NetworkPolicy's Namespace as workloads in AppliedTo fields. If set with NamespaceSelector, ExternalEntities are matched from Namespaces matched by the NamespaceSelector. Cannot be set with any other selector except NamespaceSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#external_entity_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#external_entity_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#external_entity_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#external_entity_selector}
   */
   readonly externalEntitySelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressAppliedToExternalEntitySelector;
   /**
   * Group is the name of the ClusterGroup which can be set as an AppliedTo in place of a stand-alone selector. A Group cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#group DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#group DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
   * Select all Pods from Namespaces matched by this selector, as workloads in AppliedTo fields. If set with PodSelector, Pods are matched from Namespaces matched by the NamespaceSelector. Cannot be set with any other selector except PodSelector or ExternalEntitySelector. Cannot be set with Namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressAppliedToNamespaceSelector;
   /**
   * Select Nodes in cluster as workloads in AppliedTo fields. Cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#node_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#node_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressAppliedToNodeSelector;
   /**
   * Select Pods from NetworkPolicy's Namespace as workloads in AppliedTo fields. If set with NamespaceSelector, Pods are matched from Namespaces matched by the NamespaceSelector. Cannot be set with any other selector except NamespaceSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#pod_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#pod_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#pod_selector}
   */
   readonly podSelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressAppliedToPodSelector;
   /**
   * Select a certain Service which matches the NamespacedName. A Service can only be set in either policy level AppliedTo field in a policy that only has ingress rules or rule level AppliedTo field in an ingress rule. Only a NodePort Service can be referred by this field. Cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#service DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#service DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#service}
   */
   readonly service?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressAppliedToService;
   /**
   * Select all Pods with the ServiceAccount matched by this field, as workloads in AppliedTo fields. Cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#service_account DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#service_account DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#service_account}
   */
   readonly serviceAccount?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressAppliedToServiceAccount;
 }
@@ -12038,19 +12038,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12220,13 +12220,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressFromExternalEntitySelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -12351,13 +12351,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * CIDR is a string representing the IP Block Valid examples are '192.168.1.0/24'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#cidr DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#cidr DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#cidr}
   */
   readonly cidr: string;
   /**
   * except is a slice of CIDRs that should not be included within an IPBlock Valid examples are '192.168.1.0/28' or '2001:db8::/64' Except values will be rejected if they are outside the cidr range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#except DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#except DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#except}
   */
   readonly except?: string[];
 }
@@ -12479,19 +12479,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12661,13 +12661,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressFromNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -12792,13 +12792,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * Selects from the same Namespace of the appliedTo workloads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match}
   */
   readonly match?: string;
   /**
   * Selects Namespaces that share the same values for the given set of label keys with the appliedTo Namespace. Namespaces must have all the label keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#same_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#same_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#same_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#same_labels}
   */
   readonly sameLabels?: string[];
 }
@@ -12923,19 +12923,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13105,13 +13105,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressFromNodeSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -13236,19 +13236,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13418,13 +13418,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressFromPodSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -13547,11 +13547,11 @@ export class DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClu
 }
 export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressFromServiceAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -13676,61 +13676,61 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * Select ExternalEntities from NetworkPolicy's Namespace as workloads in To/From fields. If set with NamespaceSelector, ExternalEntities are matched from Namespaces matched by the NamespaceSelector. Cannot be set with any other selector except NamespaceSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#external_entity_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#external_entity_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#external_entity_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#external_entity_selector}
   */
   readonly externalEntitySelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressFromExternalEntitySelector;
   /**
   * Restrict egress access to the Fully Qualified Domain Names prescribed by name or by wildcard match patterns. This field can only be set for NetworkPolicyPeer of egress rules. Supported formats are: Exact FQDNs such as 'google.com'. Wildcard expressions such as '*wayfair.com'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#fqdn DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#fqdn DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#fqdn}
   */
   readonly fqdn?: string;
   /**
   * Group is the name of the ClusterGroup which can be set within an Ingress or Egress rule in place of a stand-alone selector. A Group cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#group DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#group DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
   * IPBlock describes the IPAddresses/IPBlocks that is matched in to/from. IPBlock cannot be set as part of the AppliedTo field. Cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ip_block DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ip_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ip_block DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ip_block}
   */
   readonly ipBlock?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressFromIpBlock;
   /**
   * Select all Pods from Namespaces matched by this selector, as workloads in To/From fields. If set with PodSelector, Pods are matched from Namespaces matched by the NamespaceSelector. Cannot be set with any other selector except PodSelector or ExternalEntitySelector. Cannot be set with Namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressFromNamespaceSelector;
   /**
   * Select Pod/ExternalEntity from Namespaces matched by specific criteria. Current supported criteria is match: Self, which selects from the same Namespace of the appliedTo workloads. Cannot be set with any other selector except PodSelector or ExternalEntitySelector. This field can only be set when NetworkPolicyPeer is created for ClusterNetworkPolicy ingress/egress rules. Cannot be set with NamespaceSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespaces DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespaces DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressFromNamespaces;
   /**
   * Select certain Nodes which match the label selector. A NodeSelector cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#node_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#node_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressFromNodeSelector;
   /**
   * Select Pods from NetworkPolicy's Namespace as workloads in To/From fields. If set with NamespaceSelector, Pods are matched from Namespaces matched by the NamespaceSelector. Cannot be set with any other selector except NamespaceSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#pod_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#pod_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#pod_selector}
   */
   readonly podSelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressFromPodSelector;
   /**
   * Define scope of the Pod/NamespaceSelector(s) of this peer. Can only be used in ingress NetworkPolicyPeers. Defaults to 'Cluster'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#scope DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#scope DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#scope}
   */
   readonly scope?: string;
   /**
   * Select all Pods with the ServiceAccount matched by this field, as workloads in To/From fields. Cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#service_account DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#service_account DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#service_account}
   */
   readonly serviceAccount?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressFromServiceAccount;
 }
@@ -14109,19 +14109,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * Host represents the hostname present in the URI or the HTTP Host header to match. It does not contain the port associated with the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#host DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#host DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Method represents the HTTP method to match. It could be GET, POST, PUT, HEAD, DELETE, TRACE, OPTIONS, CONNECT and PATCH.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#method DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#method DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * Path represents the URI path to match (Ex. '/index.html', '/admin').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#path DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#path DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#path}
   */
   readonly path?: string;
 }
@@ -14275,7 +14275,7 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * SNI (Server Name Indication) indicates the server domain name in the TLS/SSL hello message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#sni DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#sni DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#sni}
   */
   readonly sni?: string;
 }
@@ -14371,13 +14371,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * HTTPProtocol matches HTTP requests with specific host, method, and path. All fields could be used alone or together. If all fields are not provided, it matches all HTTP requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#http DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#http DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#http}
   */
   readonly http?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressL7ProtocolsHttp;
   /**
   * TLSProtocol matches TLS handshake packets with specific SNI. If the field is not provided, this matches all TLS handshake packets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#tls DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#tls DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressL7ProtocolsTls;
 }
@@ -14524,31 +14524,31 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * EndPort defines the end of the port range, inclusive. It can only be specified when a numerical 'port' is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#end_port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#end_port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#end_port}
   */
   readonly endPort?: number;
   /**
   * The port on the given protocol. This can be either a numerical or named port on a Pod. If this field is not provided, this matches all port names and numbers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#port}
   */
   readonly port?: string;
   /**
   * The protocol (TCP, UDP, or SCTP) which traffic must match. If not specified, this field defaults to TCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#protocol DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#protocol DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * SourceEndPort defines the end of the source port range, inclusive. It can only be specified when 'sourcePort' is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#source_end_port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#source_end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#source_end_port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#source_end_port}
   */
   readonly sourceEndPort?: number;
   /**
   * The source port on the given protocol. This can only be a numerical port. If this field is not provided, rule matches all source ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#source_port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#source_port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#source_port}
   */
   readonly sourcePort?: number;
 }
@@ -14780,11 +14780,11 @@ export class DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClu
 }
 export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressProtocolsIcmp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#icmp_code DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#icmp_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#icmp_code DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#icmp_code}
   */
   readonly icmpCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#icmp_type DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#icmp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#icmp_type DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#icmp_type}
   */
   readonly icmpType?: number;
 }
@@ -14907,11 +14907,11 @@ export class DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClu
 }
 export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressProtocolsIgmp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#group_address DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#group_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#group_address DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#group_address}
   */
   readonly groupAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#igmp_type DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#igmp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#igmp_type DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#igmp_type}
   */
   readonly igmpType?: number;
 }
@@ -15036,13 +15036,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * ICMPProtocol matches ICMP traffic with specific ICMPType and/or ICMPCode. All fields could be used alone or together. If all fields are not provided, this matches all ICMP traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#icmp DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#icmp DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#icmp}
   */
   readonly icmp?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressProtocolsIcmp;
   /**
   * IGMPProtocol matches IGMP traffic with IGMPType and GroupAddress. IGMPType must be filled with: IGMPQuery int32 = 0x11 IGMPReportV1 int32 = 0x12 IGMPReportV2 int32 = 0x16 IGMPReportV3 int32 = 0x22 If groupAddress is empty, all groupAddresses will be matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#igmp DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#igmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#igmp DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#igmp}
   */
   readonly igmp?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressProtocolsIgmp;
 }
@@ -15189,19 +15189,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -15371,13 +15371,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressToExternalEntitySelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -15502,13 +15502,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * CIDR is a string representing the IP Block Valid examples are '192.168.1.0/24'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#cidr DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#cidr DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#cidr}
   */
   readonly cidr: string;
   /**
   * except is a slice of CIDRs that should not be included within an IPBlock Valid examples are '192.168.1.0/28' or '2001:db8::/64' Except values will be rejected if they are outside the cidr range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#except DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#except DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#except}
   */
   readonly except?: string[];
 }
@@ -15630,19 +15630,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -15812,13 +15812,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressToNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -15943,13 +15943,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * Selects from the same Namespace of the appliedTo workloads.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match}
   */
   readonly match?: string;
   /**
   * Selects Namespaces that share the same values for the given set of label keys with the appliedTo Namespace. Namespaces must have all the label keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#same_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#same_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#same_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#same_labels}
   */
   readonly sameLabels?: string[];
 }
@@ -16074,19 +16074,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -16256,13 +16256,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressToNodeSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -16387,19 +16387,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#key DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#operator DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#values DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -16569,13 +16569,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_expressions DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressToPodSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#match_labels DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -16698,11 +16698,11 @@ export class DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClu
 }
 export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressToServiceAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -16827,61 +16827,61 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * Select ExternalEntities from NetworkPolicy's Namespace as workloads in To/From fields. If set with NamespaceSelector, ExternalEntities are matched from Namespaces matched by the NamespaceSelector. Cannot be set with any other selector except NamespaceSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#external_entity_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#external_entity_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#external_entity_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#external_entity_selector}
   */
   readonly externalEntitySelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressToExternalEntitySelector;
   /**
   * Restrict egress access to the Fully Qualified Domain Names prescribed by name or by wildcard match patterns. This field can only be set for NetworkPolicyPeer of egress rules. Supported formats are: Exact FQDNs such as 'google.com'. Wildcard expressions such as '*wayfair.com'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#fqdn DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#fqdn DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#fqdn}
   */
   readonly fqdn?: string;
   /**
   * Group is the name of the ClusterGroup which can be set within an Ingress or Egress rule in place of a stand-alone selector. A Group cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#group DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#group DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#group}
   */
   readonly group?: string;
   /**
   * IPBlock describes the IPAddresses/IPBlocks that is matched in to/from. IPBlock cannot be set as part of the AppliedTo field. Cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ip_block DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ip_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ip_block DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ip_block}
   */
   readonly ipBlock?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressToIpBlock;
   /**
   * Select all Pods from Namespaces matched by this selector, as workloads in To/From fields. If set with PodSelector, Pods are matched from Namespaces matched by the NamespaceSelector. Cannot be set with any other selector except PodSelector or ExternalEntitySelector. Cannot be set with Namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressToNamespaceSelector;
   /**
   * Select Pod/ExternalEntity from Namespaces matched by specific criteria. Current supported criteria is match: Self, which selects from the same Namespace of the appliedTo workloads. Cannot be set with any other selector except PodSelector or ExternalEntitySelector. This field can only be set when NetworkPolicyPeer is created for ClusterNetworkPolicy ingress/egress rules. Cannot be set with NamespaceSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespaces DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespaces DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressToNamespaces;
   /**
   * Select certain Nodes which match the label selector. A NodeSelector cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#node_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#node_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressToNodeSelector;
   /**
   * Select Pods from NetworkPolicy's Namespace as workloads in To/From fields. If set with NamespaceSelector, Pods are matched from Namespaces matched by the NamespaceSelector. Cannot be set with any other selector except NamespaceSelector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#pod_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#pod_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#pod_selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#pod_selector}
   */
   readonly podSelector?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressToPodSelector;
   /**
   * Define scope of the Pod/NamespaceSelector(s) of this peer. Can only be used in ingress NetworkPolicyPeers. Defaults to 'Cluster'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#scope DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#scope DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#scope}
   */
   readonly scope?: string;
   /**
   * Select all Pods with the ServiceAccount matched by this field, as workloads in To/From fields. Cannot be set with any other selector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#service_account DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#service_account DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#service_account}
   */
   readonly serviceAccount?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressToServiceAccount;
 }
@@ -17258,15 +17258,15 @@ export class DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClu
 }
 export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressToServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#scope DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#scope DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#scope}
   */
   readonly scope?: string;
 }
@@ -17442,67 +17442,67 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * Action specifies the action to be applied on the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#action DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#action DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#action}
   */
   readonly action: string;
   /**
   * Select workloads on which this rule will be applied to. Cannot be set in conjunction with NetworkPolicySpec/ClusterNetworkPolicySpec.AppliedTo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#applied_to DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#applied_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#applied_to DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#applied_to}
   */
   readonly appliedTo?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressAppliedTo[] | cdktf.IResolvable;
   /**
   * EnableLogging is used to indicate if agent should generate logs when rules are matched. Should be default to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#enable_logging DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#enable_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#enable_logging DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#enable_logging}
   */
   readonly enableLogging?: boolean | cdktf.IResolvable;
   /**
   * Rule is matched if traffic originates from workloads selected by this field. If this field is empty, this rule matches all sources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#from DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#from DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressFrom[] | cdktf.IResolvable;
   /**
   * Set of layer 7 protocols matched by the rule. If this field is set, action can only be Allow. When this field is used in a rule, any traffic matching the other layer 3/4 criteria of the rule (typically the 5-tuple) will be forwarded to an application-aware engine for protocol detection and rule enforcement, and the traffic will be allowed if the layer 7 criteria is also matched, otherwise it will be dropped. Therefore, any rules after a layer 7 rule will not be enforced for the traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#l7_protocols DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#l7_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#l7_protocols DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#l7_protocols}
   */
   readonly l7Protocols?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressL7Protocols[] | cdktf.IResolvable;
   /**
   * LogLabel is a user-defined arbitrary string which will be printed in the NetworkPolicy logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#log_label DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#log_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#log_label DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#log_label}
   */
   readonly logLabel?: string;
   /**
   * Name describes the intention of this rule. Name should be unique within the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Set of ports and protocols matched by the rule. If this field and Protocols are unset or empty, this rule matches all ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ports DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ports DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressPorts[] | cdktf.IResolvable;
   /**
   * Set of protocols matched by the rule. If this field and Ports are unset or empty, this rule matches all protocols supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#protocols DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#protocols DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#protocols}
   */
   readonly protocols?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressProtocols[] | cdktf.IResolvable;
   /**
   * Rule is matched if traffic is intended for workloads selected by this field. This field can't be used with ToServices. If this field and ToServices are both empty or missing this rule matches all destinations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#to DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#to DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#to}
   */
   readonly to?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressTo[] | cdktf.IResolvable;
   /**
   * Rule is matched if traffic is intended for a Service listed in this field. Currently, only ClusterIP types Services are supported in this field. When scope is set to ClusterSet, it matches traffic intended for a multi-cluster Service listed in this field. Service name and Namespace provided should match the original exported Service. This field can only be used when AntreaProxy is enabled. This field can't be used with To or Ports. If this field and To are both empty or missing, this rule matches all destinations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#to_services DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#to_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#to_services DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#to_services}
   */
   readonly toServices?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngressToServices[] | cdktf.IResolvable;
 }
@@ -17907,31 +17907,31 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * Select workloads on which the rules will be applied to. Cannot be set in conjunction with AppliedTo in each rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#applied_to DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#applied_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#applied_to DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#applied_to}
   */
   readonly appliedTo?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyAppliedTo[] | cdktf.IResolvable;
   /**
   * Set of egress rules evaluated based on the order in which they are set. Currently Egress rule supports setting the 'To' field but not the 'From' field within a Rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#egress DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#egress DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#egress}
   */
   readonly egress?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyEgress[] | cdktf.IResolvable;
   /**
   * Set of ingress rules evaluated based on the order in which they are set. Currently Ingress rule supports setting the 'From' field but not the 'To' field within a Rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ingress DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ingress DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ingress}
   */
   readonly ingress?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicyIngress[] | cdktf.IResolvable;
   /**
   * Priority specfies the order of the ClusterNetworkPolicy relative to other AntreaClusterNetworkPolicies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#priority DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#priority DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#priority}
   */
   readonly priority: number;
   /**
   * Tier specifies the tier to which this ClusterNetworkPolicy belongs to. The ClusterNetworkPolicy order will be determined based on the combination of the Tier's Priority and the ClusterNetworkPolicy's own Priority. If not specified, this policy will be created in the Application Tier right above the K8s NetworkPolicy which resides at the bottom.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#tier DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#tier DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#tier}
   */
   readonly tier?: string;
 }
@@ -18140,43 +18140,43 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#api_version DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#api_version DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#field_path DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#field_path DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#kind DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#kind DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#resource_version DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#resource_version DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#uid DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#uid DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -18446,25 +18446,25 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * The Hostname of this endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#hostname DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#hostname DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * The IP of this endpoint. May not be loopback (127.0.0.0/8 or ::1), link-local (169.254.0.0/16 or fe80::/10), or link-local multicast (224.0.0.0/24 or ff02::/16).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ip DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ip DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ip}
   */
   readonly ip: string;
   /**
   * Optional: Node hosting this endpoint. This can be used to determine endpoints local to a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#node_name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#node_name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#node_name}
   */
   readonly nodeName?: string;
   /**
   * Reference to object providing the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#target_ref DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#target_ref DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#target_ref}
   */
   readonly targetRef?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecEndpointsSubsetsAddressesTargetRef;
 }
@@ -18666,43 +18666,43 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#api_version DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#api_version DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#field_path DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#field_path DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#kind DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#kind DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#resource_version DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#resource_version DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#uid DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#uid DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -18972,25 +18972,25 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * The Hostname of this endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#hostname DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#hostname DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * The IP of this endpoint. May not be loopback (127.0.0.0/8 or ::1), link-local (169.254.0.0/16 or fe80::/10), or link-local multicast (224.0.0.0/24 or ff02::/16).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ip DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ip DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ip}
   */
   readonly ip: string;
   /**
   * Optional: Node hosting this endpoint. This can be used to determine endpoints local to a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#node_name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#node_name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#node_name}
   */
   readonly nodeName?: string;
   /**
   * Reference to object providing the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#target_ref DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#target_ref DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#target_ref}
   */
   readonly targetRef?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecEndpointsSubsetsNotReadyAddressesTargetRef;
 }
@@ -19192,25 +19192,25 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * The application protocol for this port. This is used as a hint for implementations to offer richer behavior for protocols that they understand. This field follows standard Kubernetes label syntax. Valid values are either: * Un-prefixed protocol names - reserved for IANA standard service names (as per RFC-6335 and https://www.iana.org/assignments/service-names). * Kubernetes-defined prefixed names: * 'kubernetes.io/h2c' - HTTP/2 prior knowledge over cleartext as described in https://www.rfc-editor.org/rfc/rfc9113.html#name-starting-http-2-with-prior- * 'kubernetes.io/ws' - WebSocket over cleartext as described in https://www.rfc-editor.org/rfc/rfc6455 * 'kubernetes.io/wss' - WebSocket over TLS as described in https://www.rfc-editor.org/rfc/rfc6455 * Other protocols should use implementation-defined prefixed names such as mycompany.com/my-custom-protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#app_protocol DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#app_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#app_protocol DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#app_protocol}
   */
   readonly appProtocol?: string;
   /**
   * The name of this port. This must match the 'name' field in the corresponding ServicePort. Must be a DNS_LABEL. Optional only if one port is defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * The port number of the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * The IP protocol for this port. Must be UDP, TCP, or SCTP. Default is TCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#protocol DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#protocol DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -19412,19 +19412,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * IP addresses which offer the related ports that are marked as ready. These endpoints should be considered safe for load balancers and clients to utilize.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#addresses DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#addresses DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#addresses}
   */
   readonly addresses?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecEndpointsSubsetsAddresses[] | cdktf.IResolvable;
   /**
   * IP addresses which offer the related ports but are not currently marked as ready because they have not yet finished starting, have recently failed a readiness check, or have recently failed a liveness check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#not_ready_addresses DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#not_ready_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#not_ready_addresses DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#not_ready_addresses}
   */
   readonly notReadyAddresses?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecEndpointsSubsetsNotReadyAddresses[] | cdktf.IResolvable;
   /**
   * Port numbers available on the related IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ports DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ports DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecEndpointsSubsetsPorts[] | cdktf.IResolvable;
 }
@@ -19598,7 +19598,7 @@ export class DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecEnd
 }
 export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecEndpoints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#subsets DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#subsets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#subsets DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#subsets}
   */
   readonly subsets?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecEndpointsSubsets[] | cdktf.IResolvable;
 }
@@ -19694,13 +19694,13 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * IP associated with this endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ip DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ip DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ip}
   */
   readonly ip?: string;
   /**
   * Name identifies this endpoint. Could be the network interface name in case of VMs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -19847,19 +19847,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * Name associated with the Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * The port on the given protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * The protocol (TCP, UDP, or SCTP) which traffic must match. If not specified, this field defaults to TCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#protocol DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#protocol DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -20035,19 +20035,19 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * Endpoints is a list of external endpoints associated with this entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#endpoints DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#endpoints DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#endpoints}
   */
   readonly endpoints?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecExternalEntityExternalEntitySpecEndpoints[] | cdktf.IResolvable;
   /**
   * ExternalNode is the opaque identifier of the agent/controller responsible for additional processing or handling of this external entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#external_node DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#external_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#external_node DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#external_node}
   */
   readonly externalNode?: string;
   /**
   * Ports maintain the list of named ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ports DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ports DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecExternalEntityExternalEntitySpecPorts[] | cdktf.IResolvable;
 }
@@ -20201,7 +20201,7 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * ExternalEntitySpec defines the desired state for ExternalEntity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#external_entity_spec DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#external_entity_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#external_entity_spec DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#external_entity_spec}
   */
   readonly externalEntitySpec?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecExternalEntityExternalEntitySpec;
 }
@@ -20295,7 +20295,7 @@ export class DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecExt
 }
 export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecLabelIdentity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#normalized_label DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#normalized_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#normalized_label DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#normalized_label}
   */
   readonly normalizedLabel?: string;
 }
@@ -20389,7 +20389,7 @@ export class DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecLab
 }
 export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecRaw {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#data DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#data DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#data}
   */
   readonly data?: string;
 }
@@ -20485,37 +20485,37 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * The application protocol for this port. This is used as a hint for implementations to offer richer behavior for protocols that they understand. This field follows standard Kubernetes label syntax. Valid values are either: * Un-prefixed protocol names - reserved for IANA standard service names (as per RFC-6335 and https://www.iana.org/assignments/service-names). * Kubernetes-defined prefixed names: * 'kubernetes.io/h2c' - HTTP/2 prior knowledge over cleartext as described in https://www.rfc-editor.org/rfc/rfc9113.html#name-starting-http-2-with-prior- * 'kubernetes.io/ws' - WebSocket over cleartext as described in https://www.rfc-editor.org/rfc/rfc6455 * 'kubernetes.io/wss' - WebSocket over TLS as described in https://www.rfc-editor.org/rfc/rfc6455 * Other protocols should use implementation-defined prefixed names such as mycompany.com/my-custom-protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#app_protocol DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#app_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#app_protocol DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#app_protocol}
   */
   readonly appProtocol?: string;
   /**
   * The name of this port within the service. This must be a DNS_LABEL. All ports within a ServiceSpec must have unique names. When considering the endpoints for a Service, this must match the 'name' field in the EndpointPort. Optional if only one ServicePort is defined on this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * The port on each node on which this service is exposed when type is NodePort or LoadBalancer. Usually assigned by the system. If a value is specified, in-range, and not in use it will be used, otherwise the operation will fail. If not specified, a port will be allocated if this Service requires one. If this field is specified when creating a Service which does not need it, creation will fail. This field will be wiped when updating a Service to no longer need it (e.g. changing type from NodePort to ClusterIP). More info: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#node_port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#node_port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#node_port}
   */
   readonly nodePort?: number;
   /**
   * The port that will be exposed by this service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * The IP protocol for this port. Supports 'TCP', 'UDP', and 'SCTP'. Default is TCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#protocol DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#protocol DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
   /**
   * Number or name of the port to access on the pods targeted by the service. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME. If this is a string, it will be looked up as a named port in the target Pod's container ports. If this is not specified, the value of the 'port' field is used (an identity map). This field is ignored for services with clusterIP=None, and should be omitted or set equal to the 'port' field. More info: https://kubernetes.io/docs/concepts/services-networking/service/#defining-a-service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#target_port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#target_port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#target_port}
   */
   readonly targetPort?: string;
 }
@@ -20775,7 +20775,7 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * timeoutSeconds specifies the seconds of ClientIP type session sticky time. The value must be >0 && <=86400(for 1 day) if ServiceAffinity == 'ClientIP'. Default value is 10800(for 3 hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#timeout_seconds DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#timeout_seconds DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -20871,7 +20871,7 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * clientIP contains the configurations of Client IP based session affinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#client_ip DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#client_ip DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#client_ip}
   */
   readonly clientIp?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecServiceServiceSpecSessionAffinityConfigClientIp;
 }
@@ -20967,121 +20967,121 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * allocateLoadBalancerNodePorts defines if NodePorts will be automatically allocated for services with type LoadBalancer. Default is 'true'. It may be set to 'false' if the cluster load-balancer does not rely on NodePorts. If the caller requests specific NodePorts (by specifying a value), those requests will be respected, regardless of this field. This field may only be set for services with type LoadBalancer and will be cleared if the type is changed to any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#allocate_load_balancer_node_ports DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#allocate_load_balancer_node_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#allocate_load_balancer_node_ports DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#allocate_load_balancer_node_ports}
   */
   readonly allocateLoadBalancerNodePorts?: boolean | cdktf.IResolvable;
   /**
   * ClusterIPs is a list of IP addresses assigned to this service, and are usually assigned randomly. If an address is specified manually, is in-range (as per system configuration), and is not in use, it will be allocated to the service; otherwise creation of the service will fail. This field may not be changed through updates unless the type field is also being changed to ExternalName (which requires this field to be empty) or the type field is being changed from ExternalName (in which case this field may optionally be specified, as describe above). Valid values are 'None', empty string (''), or a valid IP address. Setting this to 'None' makes a 'headless service' (no virtual IP), which is useful when direct endpoint connections are preferred and proxying is not required. Only applies to types ClusterIP, NodePort, and LoadBalancer. If this field is specified when creating a Service of type ExternalName, creation will fail. This field will be wiped when updating a Service to type ExternalName. If this field is not specified, it will be initialized from the clusterIP field. If this field is specified, clients must ensure that clusterIPs[0] and clusterIP have the same value. This field may hold a maximum of two entries (dual-stack IPs, in either order). These IPs must correspond to the values of the ipFamilies field. Both clusterIPs and ipFamilies are governed by the ipFamilyPolicy field. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#cluster_i_ps DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#cluster_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#cluster_i_ps DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#cluster_i_ps}
   */
   readonly clusterIPs?: string[];
   /**
   * clusterIP is the IP address of the service and is usually assigned randomly. If an address is specified manually, is in-range (as per system configuration), and is not in use, it will be allocated to the service; otherwise creation of the service will fail. This field may not be changed through updates unless the type field is also being changed to ExternalName (which requires this field to be blank) or the type field is being changed from ExternalName (in which case this field may optionally be specified, as describe above). Valid values are 'None', empty string (''), or a valid IP address. Setting this to 'None' makes a 'headless service' (no virtual IP), which is useful when direct endpoint connections are preferred and proxying is not required. Only applies to types ClusterIP, NodePort, and LoadBalancer. If this field is specified when creating a Service of type ExternalName, creation will fail. This field will be wiped when updating a Service to type ExternalName. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#cluster_ip DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#cluster_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#cluster_ip DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#cluster_ip}
   */
   readonly clusterIp?: string;
   /**
   * externalIPs is a list of IP addresses for which nodes in the cluster will also accept traffic for this service. These IPs are not managed by Kubernetes. The user is responsible for ensuring that traffic arrives at a node with this IP. A common example is external load-balancers that are not part of the Kubernetes system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#external_i_ps DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#external_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#external_i_ps DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#external_i_ps}
   */
   readonly externalIPs?: string[];
   /**
   * externalName is the external reference that discovery mechanisms will return as an alias for this service (e.g. a DNS CNAME record). No proxying will be involved. Must be a lowercase RFC-1123 hostname (https://tools.ietf.org/html/rfc1123) and requires 'type' to be 'ExternalName'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#external_name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#external_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#external_name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#external_name}
   */
   readonly externalName?: string;
   /**
   * externalTrafficPolicy describes how nodes distribute service traffic they receive on one of the Service's 'externally-facing' addresses (NodePorts, ExternalIPs, and LoadBalancer IPs). If set to 'Local', the proxy will configure the service in a way that assumes that external load balancers will take care of balancing the service traffic between nodes, and so each node will deliver traffic only to the node-local endpoints of the service, without masquerading the client source IP. (Traffic mistakenly sent to a node with no endpoints will be dropped.) The default value, 'Cluster', uses the standard behavior of routing to all endpoints evenly (possibly modified by topology and other features). Note that traffic sent to an External IP or LoadBalancer IP from within the cluster will always get 'Cluster' semantics, but clients sending to a NodePort from within the cluster may need to take traffic policy into account when picking a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#external_traffic_policy DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#external_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#external_traffic_policy DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#external_traffic_policy}
   */
   readonly externalTrafficPolicy?: string;
   /**
   * healthCheckNodePort specifies the healthcheck nodePort for the service. This only applies when type is set to LoadBalancer and externalTrafficPolicy is set to Local. If a value is specified, is in-range, and is not in use, it will be used. If not specified, a value will be automatically allocated. External systems (e.g. load-balancers) can use this port to determine if a given node holds endpoints for this service or not. If this field is specified when creating a Service which does not need it, creation will fail. This field will be wiped when updating a Service to no longer need it (e.g. changing type). This field cannot be updated once set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#health_check_node_port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#health_check_node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#health_check_node_port DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#health_check_node_port}
   */
   readonly healthCheckNodePort?: number;
   /**
   * InternalTrafficPolicy describes how nodes distribute service traffic they receive on the ClusterIP. If set to 'Local', the proxy will assume that pods only want to talk to endpoints of the service on the same node as the pod, dropping the traffic if there are no local endpoints. The default value, 'Cluster', uses the standard behavior of routing to all endpoints evenly (possibly modified by topology and other features).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#internal_traffic_policy DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#internal_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#internal_traffic_policy DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#internal_traffic_policy}
   */
   readonly internalTrafficPolicy?: string;
   /**
   * IPFamilies is a list of IP families (e.g. IPv4, IPv6) assigned to this service. This field is usually assigned automatically based on cluster configuration and the ipFamilyPolicy field. If this field is specified manually, the requested family is available in the cluster, and ipFamilyPolicy allows it, it will be used; otherwise creation of the service will fail. This field is conditionally mutable: it allows for adding or removing a secondary IP family, but it does not allow changing the primary IP family of the Service. Valid values are 'IPv4' and 'IPv6'. This field only applies to Services of types ClusterIP, NodePort, and LoadBalancer, and does apply to 'headless' services. This field will be wiped when updating a Service to type ExternalName. This field may hold a maximum of two entries (dual-stack families, in either order). These families must correspond to the values of the clusterIPs field, if specified. Both clusterIPs and ipFamilies are governed by the ipFamilyPolicy field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ip_families DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ip_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ip_families DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ip_families}
   */
   readonly ipFamilies?: string[];
   /**
   * IPFamilyPolicy represents the dual-stack-ness requested or required by this Service. If there is no value provided, then this field will be set to SingleStack. Services can be 'SingleStack' (a single IP family), 'PreferDualStack' (two IP families on dual-stack configured clusters or a single IP family on single-stack clusters), or 'RequireDualStack' (two IP families on dual-stack configured clusters, otherwise fail). The ipFamilies and clusterIPs fields depend on the value of this field. This field will be wiped when updating a service to type ExternalName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ip_family_policy DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ip_family_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ip_family_policy DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ip_family_policy}
   */
   readonly ipFamilyPolicy?: string;
   /**
   * loadBalancerClass is the class of the load balancer implementation this Service belongs to. If specified, the value of this field must be a label-style identifier, with an optional prefix, e.g. 'internal-vip' or 'example.com/internal-vip'. Unprefixed names are reserved for end-users. This field can only be set when the Service type is 'LoadBalancer'. If not set, the default load balancer implementation is used, today this is typically done through the cloud provider integration, but should apply for any default implementation. If set, it is assumed that a load balancer implementation is watching for Services with a matching class. Any default load balancer implementation (e.g. cloud providers) should ignore Services that set this field. This field can only be set when creating or updating a Service to type 'LoadBalancer'. Once set, it can not be changed. This field will be wiped when a service is updated to a non 'LoadBalancer' type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#load_balancer_class DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#load_balancer_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#load_balancer_class DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#load_balancer_class}
   */
   readonly loadBalancerClass?: string;
   /**
   * Only applies to Service Type: LoadBalancer. This feature depends on whether the underlying cloud-provider supports specifying the loadBalancerIP when a load balancer is created. This field will be ignored if the cloud-provider does not support the feature. Deprecated: This field was under-specified and its meaning varies across implementations. Using it is non-portable and it may not support dual-stack. Users are encouraged to use implementation-specific annotations when available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#load_balancer_ip DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#load_balancer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#load_balancer_ip DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#load_balancer_ip}
   */
   readonly loadBalancerIp?: string;
   /**
   * If specified and supported by the platform, this will restrict traffic through the cloud-provider load-balancer will be restricted to the specified client IPs. This field will be ignored if the cloud-provider does not support the feature.' More info: https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#load_balancer_source_ranges DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#load_balancer_source_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#load_balancer_source_ranges DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#load_balancer_source_ranges}
   */
   readonly loadBalancerSourceRanges?: string[];
   /**
   * The list of ports that are exposed by this service. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ports DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#ports DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecServiceServiceSpecPorts[] | cdktf.IResolvable;
   /**
   * publishNotReadyAddresses indicates that any agent which deals with endpoints for this Service should disregard any indications of ready/not-ready. The primary use case for setting this field is for a StatefulSet's Headless Service to propagate SRV DNS records for its Pods for the purpose of peer discovery. The Kubernetes controllers that generate Endpoints and EndpointSlice resources for Services interpret this to mean that all endpoints are considered 'ready' even if the Pods themselves are not. Agents which consume only Kubernetes generated endpoints through the Endpoints or EndpointSlice resources can safely assume this behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#publish_not_ready_addresses DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#publish_not_ready_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#publish_not_ready_addresses DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#publish_not_ready_addresses}
   */
   readonly publishNotReadyAddresses?: boolean | cdktf.IResolvable;
   /**
   * Route service traffic to pods with label keys and values matching this selector. If empty or not present, the service is assumed to have an external process managing its endpoints, which Kubernetes will not modify. Only applies to types ClusterIP, NodePort, and LoadBalancer. Ignored if type is ExternalName. More info: https://kubernetes.io/docs/concepts/services-networking/service/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#selector DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#selector}
   */
   readonly selector?: { [key: string]: string };
   /**
   * Supports 'ClientIP' and 'None'. Used to maintain session affinity. Enable client IP based session affinity. Must be ClientIP or None. Defaults to None. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#session_affinity DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#session_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#session_affinity DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#session_affinity}
   */
   readonly sessionAffinity?: string;
   /**
   * sessionAffinityConfig contains the configurations of session affinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#session_affinity_config DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#session_affinity_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#session_affinity_config DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#session_affinity_config}
   */
   readonly sessionAffinityConfig?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecServiceServiceSpecSessionAffinityConfig;
   /**
   * TrafficDistribution offers a way to express preferences for how traffic is distributed to Service endpoints. Implementations can use this field as a hint, but are not required to guarantee strict adherence. If the field is not set, the implementation will apply its default routing strategy. If set to 'PreferClose', implementations should prioritize endpoints that are topologically close (e.g., same zone). This is an alpha field and requires enabling ServiceTrafficDistribution feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#traffic_distribution DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#traffic_distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#traffic_distribution DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#traffic_distribution}
   */
   readonly trafficDistribution?: string;
   /**
   * type determines how the Service is exposed. Defaults to ClusterIP. Valid options are ExternalName, ClusterIP, NodePort, and LoadBalancer. 'ClusterIP' allocates a cluster-internal IP address for load-balancing to endpoints. Endpoints are determined by the selector or if that is not specified, by manual construction of an Endpoints object or EndpointSlice objects. If clusterIP is 'None', no virtual IP is allocated and the endpoints are published as a set of endpoints rather than a virtual IP. 'NodePort' builds on ClusterIP and allocates a port on every node which routes to the same endpoints as the clusterIP. 'LoadBalancer' builds on NodePort and creates an external load-balancer (if supported in the current cloud) which routes to the same endpoints as the clusterIP. 'ExternalName' aliases this service to the specified externalName. Several other fields do not apply to ExternalName services. More info: https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services-service-types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#type DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#type DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -21728,7 +21728,7 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * ServiceSpec describes the attributes that a user creates on a service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#service_spec DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#service_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#service_spec DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#service_spec}
   */
   readonly serviceSpec?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecServiceServiceSpec;
 }
@@ -21824,67 +21824,67 @@ export interface DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpe
   /**
   * ClusterID specifies the member cluster this resource exported from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#cluster_id DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#cluster_id DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * If exported resource is ClusterInfo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#cluster_info DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#cluster_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#cluster_info DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#cluster_info}
   */
   readonly clusterInfo?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterInfo;
   /**
   * If exported resource is AntreaClusterNetworkPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#cluster_network_policy DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#cluster_network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#cluster_network_policy DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#cluster_network_policy}
   */
   readonly clusterNetworkPolicy?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecClusterNetworkPolicy;
   /**
   * If exported resource is Endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#endpoints DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#endpoints DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#endpoints}
   */
   readonly endpoints?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecEndpoints;
   /**
   * If exported resource is ExternalEntity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#external_entity DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#external_entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#external_entity DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#external_entity}
   */
   readonly externalEntity?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecExternalEntity;
   /**
   * Kind of exported resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#kind DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#kind DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * If exported resource is LabelIdentity of a cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#label_identity DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#label_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#label_identity DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#label_identity}
   */
   readonly labelIdentity?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecLabelIdentity;
   /**
   * Name of exported resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#name DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of exported resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#namespace DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * If exported resource kind is unknown.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#raw DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#raw DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#raw}
   */
   readonly raw?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecRaw;
   /**
   * If exported resource is Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#service DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#service DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest#service}
   */
   readonly service?: DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecService;
 }
@@ -22268,7 +22268,7 @@ export class DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1ManifestSpecOut
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest k8s_multicluster_crd_antrea_io_resource_export_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest k8s_multicluster_crd_antrea_io_resource_export_v1alpha1_manifest}
 */
 export class DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -22284,7 +22284,7 @@ export class DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest extend
   * Generates CDKTF code for importing a DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -22296,7 +22296,7 @@ export class DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest k8s_multicluster_crd_antrea_io_resource_export_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/multicluster_crd_antrea_io_resource_export_v1alpha1_manifest k8s_multicluster_crd_antrea_io_resource_export_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -22307,8 +22307,8 @@ export class DataK8SMulticlusterCrdAntreaIoResourceExportV1Alpha1Manifest extend
       terraformResourceType: 'k8s_multicluster_crd_antrea_io_resource_export_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

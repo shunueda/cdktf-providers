@@ -15,19 +15,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestCon
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#metadata DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#metadata DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestMetadata;
   /**
   * AlertmanagerConfigSpec is a specification of the desired behavior of the Alertmanager configuration. By default, the Alertmanager configuration only applies to alerts for which the 'namespace' label is equal to the namespace of the AlertmanagerConfig resource (see the '.spec.alertmanagerConfigMatcherStrategy' field of the Alertmanager CRD).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#spec DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#spec DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpec;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest k8s_monitoring_coreos_com_alertmanager_config_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest k8s_monitoring_coreos_com_alertmanager_config_v1alpha1_manifest}
 */
 export class DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -43,7 +43,7 @@ export class DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest extend
   * Generates CDKTF code for importing a DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -55,7 +55,7 @@ export class DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest k8s_monitoring_coreos_com_alertmanager_config_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest k8s_monitoring_coreos_com_alertmanager_config_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -66,8 +66,8 @@ export class DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest extend
       terraformResourceType: 'k8s_monitoring_coreos_com_alertmanager_config_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

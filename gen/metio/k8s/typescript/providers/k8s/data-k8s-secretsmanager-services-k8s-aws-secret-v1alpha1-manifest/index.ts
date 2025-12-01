@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1ManifestConfig
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#metadata DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#metadata DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1ManifestMetadata;
   /**
   * SecretSpec defines the desired state of Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#spec DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#spec DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1ManifestMetada
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#annotations DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#annotations DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#labels DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#labels DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#name DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#name DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#namespace DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#namespace DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1ManifestMetadataOu
 }
 export interface DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1ManifestSpecReplicaRegions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#kms_key_id DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#kms_key_id DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#region DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#region DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#region}
   */
   readonly region?: string;
 }
@@ -368,19 +368,19 @@ export interface DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1ManifestSpecSe
   /**
   * Key is the key within the secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#key DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#key DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#name DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#name DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#namespace DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#namespace DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -529,11 +529,11 @@ export class DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1ManifestSpecSecret
 }
 export interface DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#key DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#key DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#value DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#value DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -680,43 +680,43 @@ export interface DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1ManifestSpec {
   /**
   * The description of the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#description DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#description DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * Specifies whether to overwrite a secret with the same name in the destination Region. By default, secrets aren't overwritten.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#force_overwrite_replica_secret DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#force_overwrite_replica_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#force_overwrite_replica_secret DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#force_overwrite_replica_secret}
   */
   readonly forceOverwriteReplicaSecret?: boolean | cdktf.IResolvable;
   /**
   * The ARN, key ID, or alias of the KMS key that Secrets Manager uses to encrypt the secret value in the secret. An alias is always prefixed by alias/, for example alias/aws/secretsmanager. For more information, see About aliases (https://docs.aws.amazon.com/kms/latest/developerguide/alias-about.html). To use a KMS key in a different account, use the key ARN or the alias ARN. If you don't specify this value, then Secrets Manager uses the key aws/secretsmanager. If that key doesn't yet exist, then Secrets Manager creates it for you automatically the first time it encrypts the secret value. If the secret is in a different Amazon Web Services account from the credentials calling the API, then you can't use aws/secretsmanager to encrypt the secret, and you must create and use a customer managed KMS key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#kms_key_id DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#kms_key_id DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The name of the new secret. The secret name can contain ASCII letters, numbers, and the following characters: /_+=.@- Do not end your secret name with a hyphen followed by six characters. If you do so, you risk confusion and unexpected results when searching for a secret by partial ARN. Secrets Manager automatically adds a hyphen and six random characters after the secret name at the end of the ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#name DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#name DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * A list of Regions and KMS keys to replicate secrets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#replica_regions DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#replica_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#replica_regions DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#replica_regions}
   */
   readonly replicaRegions?: DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1ManifestSpecReplicaRegions[] | cdktf.IResolvable;
   /**
   * The text data to encrypt and store in this new version of the secret. We recommend you use a JSON structure of key/value pairs for your secret value. Either SecretString or SecretBinary must have a value, but not both. If you create a secret by using the Secrets Manager console then Secrets Manager puts the protected secret text in only the SecretString parameter. The Secrets Manager console stores the information as a JSON structure of key/value pairs that a Lambda rotation function can parse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#secret_string DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#secret_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#secret_string DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#secret_string}
   */
   readonly secretString?: DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1ManifestSpecSecretString;
   /**
   * A list of tags to attach to the secret. Each tag is a key and value pair of strings in a JSON text string, for example: [{'Key':'CostCenter','Value':'12345'},{'Key':'environment','Value':'production'}] Secrets Manager tag key names are case sensitive. A tag with the key 'ABC' is a different tag from one with key 'abc'. If you check tags in permissions policies as part of your security strategy, then adding or removing a tag can change permissions. If the completion of this operation would result in you losing your permissions for this secret, then Secrets Manager blocks the operation and returns an Access Denied error. For more information, see Control access to secrets using tags (https://docs.aws.amazon.com/secretsmanager/latest/userguide/auth-and-access_examples.html#tag-secrets-abac) and Limit access to identities with tags that match secrets' tags (https://docs.aws.amazon.com/secretsmanager/latest/userguide/auth-and-access_examples.html#auth-and-access_tags2). For information about how to format a JSON parameter for the various command line tool environments, see Using JSON for Parameters (https://docs.aws.amazon.com/cli/latest/userguide/cli-using-param.html#cli-using-param-json). If your command-line tool or SDK requires quotation marks around the parameter, you should use single quotes to avoid confusion with the double quotes required in the JSON text. For tag quotas and naming restrictions, see Service quotas for Tagging (https://docs.aws.amazon.com/general/latest/gr/arg.html#taged-reference-quotas) in the Amazon Web Services General Reference guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#tags DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#tags DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
 }
@@ -981,7 +981,7 @@ export class DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1ManifestSpecOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest k8s_secretsmanager_services_k8s_aws_secret_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest k8s_secretsmanager_services_k8s_aws_secret_v1alpha1_manifest}
 */
 export class DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -997,7 +997,7 @@ export class DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest extends c
   * Generates CDKTF code for importing a DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1009,7 +1009,7 @@ export class DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest extends c
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest k8s_secretsmanager_services_k8s_aws_secret_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secretsmanager_services_k8s_aws_secret_v1alpha1_manifest k8s_secretsmanager_services_k8s_aws_secret_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1020,8 +1020,8 @@ export class DataK8SSecretsmanagerServicesK8SAwsSecretV1Alpha1Manifest extends c
       terraformResourceType: 'k8s_secretsmanager_services_k8s_aws_secret_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

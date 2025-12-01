@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storage_k8s_io_csi_node_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storage_k8s_io_csi_node_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SStorageK8SIoCsiNodeV1ManifestConfig extends cdktf.Terraf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storage_k8s_io_csi_node_v1_manifest#metadata DataK8SStorageK8SIoCsiNodeV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storage_k8s_io_csi_node_v1_manifest#metadata DataK8SStorageK8SIoCsiNodeV1Manifest#metadata}
   */
   readonly metadata: DataK8SStorageK8SIoCsiNodeV1ManifestMetadata;
   /**
   * CSINodeSpec holds information about the specification of all CSI drivers installed on a node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storage_k8s_io_csi_node_v1_manifest#spec DataK8SStorageK8SIoCsiNodeV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storage_k8s_io_csi_node_v1_manifest#spec DataK8SStorageK8SIoCsiNodeV1Manifest#spec}
   */
   readonly spec: DataK8SStorageK8SIoCsiNodeV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SStorageK8SIoCsiNodeV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storage_k8s_io_csi_node_v1_manifest#annotations DataK8SStorageK8SIoCsiNodeV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storage_k8s_io_csi_node_v1_manifest#annotations DataK8SStorageK8SIoCsiNodeV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storage_k8s_io_csi_node_v1_manifest#labels DataK8SStorageK8SIoCsiNodeV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storage_k8s_io_csi_node_v1_manifest#labels DataK8SStorageK8SIoCsiNodeV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storage_k8s_io_csi_node_v1_manifest#name DataK8SStorageK8SIoCsiNodeV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storage_k8s_io_csi_node_v1_manifest#name DataK8SStorageK8SIoCsiNodeV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,7 +187,7 @@ export interface DataK8SStorageK8SIoCsiNodeV1ManifestSpecDriversAllocatable {
   /**
   * count indicates the maximum number of unique volumes managed by the CSI driver that can be used on a node. A volume that is both attached and mounted on a node is considered to be used once, not twice. The same rule applies for a unique volume that is shared among multiple pods on the same node. If this field is not specified, then the supported number of volumes on this node is unbounded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storage_k8s_io_csi_node_v1_manifest#count DataK8SStorageK8SIoCsiNodeV1Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storage_k8s_io_csi_node_v1_manifest#count DataK8SStorageK8SIoCsiNodeV1Manifest#count}
   */
   readonly count?: number;
 }
@@ -283,25 +283,25 @@ export interface DataK8SStorageK8SIoCsiNodeV1ManifestSpecDrivers {
   /**
   * VolumeNodeResources is a set of resource limits for scheduling of volumes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storage_k8s_io_csi_node_v1_manifest#allocatable DataK8SStorageK8SIoCsiNodeV1Manifest#allocatable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storage_k8s_io_csi_node_v1_manifest#allocatable DataK8SStorageK8SIoCsiNodeV1Manifest#allocatable}
   */
   readonly allocatable?: DataK8SStorageK8SIoCsiNodeV1ManifestSpecDriversAllocatable;
   /**
   * name represents the name of the CSI driver that this object refers to. This MUST be the same name returned by the CSI GetPluginName() call for that driver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storage_k8s_io_csi_node_v1_manifest#name DataK8SStorageK8SIoCsiNodeV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storage_k8s_io_csi_node_v1_manifest#name DataK8SStorageK8SIoCsiNodeV1Manifest#name}
   */
   readonly name: string;
   /**
   * nodeID of the node from the driver point of view. This field enables Kubernetes to communicate with storage systems that do not share the same nomenclature for nodes. For example, Kubernetes may refer to a given node as 'node1', but the storage system may refer to the same node as 'nodeA'. When Kubernetes issues a command to the storage system to attach a volume to a specific node, it can use this field to refer to the node name using the ID that the storage system will understand, e.g. 'nodeA' instead of 'node1'. This field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storage_k8s_io_csi_node_v1_manifest#node_id DataK8SStorageK8SIoCsiNodeV1Manifest#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storage_k8s_io_csi_node_v1_manifest#node_id DataK8SStorageK8SIoCsiNodeV1Manifest#node_id}
   */
   readonly nodeId: string;
   /**
   * topologyKeys is the list of keys supported by the driver. When a driver is initialized on a cluster, it provides a set of topology keys that it understands (e.g. 'company.com/zone', 'company.com/region'). When a driver is initialized on a node, it provides the same topology keys along with values. Kubelet will expose these topology keys as labels on its own node object. When Kubernetes does topology aware provisioning, it can use this list to determine which labels it should retrieve from the node object and pass back to the driver. It is possible for different nodes to use different topology keys. This can be empty if driver does not support topology.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storage_k8s_io_csi_node_v1_manifest#topology_keys DataK8SStorageK8SIoCsiNodeV1Manifest#topology_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storage_k8s_io_csi_node_v1_manifest#topology_keys DataK8SStorageK8SIoCsiNodeV1Manifest#topology_keys}
   */
   readonly topologyKeys?: string[];
 }
@@ -500,7 +500,7 @@ export interface DataK8SStorageK8SIoCsiNodeV1ManifestSpec {
   /**
   * drivers is a list of information of all CSI Drivers existing on a node. If all drivers in the list are uninstalled, this can become empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storage_k8s_io_csi_node_v1_manifest#drivers DataK8SStorageK8SIoCsiNodeV1Manifest#drivers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storage_k8s_io_csi_node_v1_manifest#drivers DataK8SStorageK8SIoCsiNodeV1Manifest#drivers}
   */
   readonly drivers: DataK8SStorageK8SIoCsiNodeV1ManifestSpecDrivers[] | cdktf.IResolvable;
 }
@@ -591,7 +591,7 @@ export class DataK8SStorageK8SIoCsiNodeV1ManifestSpecOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storage_k8s_io_csi_node_v1_manifest k8s_storage_k8s_io_csi_node_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storage_k8s_io_csi_node_v1_manifest k8s_storage_k8s_io_csi_node_v1_manifest}
 */
 export class DataK8SStorageK8SIoCsiNodeV1Manifest extends cdktf.TerraformDataSource {
 
@@ -607,7 +607,7 @@ export class DataK8SStorageK8SIoCsiNodeV1Manifest extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataK8SStorageK8SIoCsiNodeV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SStorageK8SIoCsiNodeV1Manifest to import
-  * @param importFromId The id of the existing DataK8SStorageK8SIoCsiNodeV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storage_k8s_io_csi_node_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SStorageK8SIoCsiNodeV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storage_k8s_io_csi_node_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SStorageK8SIoCsiNodeV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -619,7 +619,7 @@ export class DataK8SStorageK8SIoCsiNodeV1Manifest extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storage_k8s_io_csi_node_v1_manifest k8s_storage_k8s_io_csi_node_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storage_k8s_io_csi_node_v1_manifest k8s_storage_k8s_io_csi_node_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -630,8 +630,8 @@ export class DataK8SStorageK8SIoCsiNodeV1Manifest extends cdktf.TerraformDataSou
       terraformResourceType: 'k8s_storage_k8s_io_csi_node_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,140 +8,140 @@ import * as cdktf from 'cdktf';
 
 export interface PolardbxInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#cn_node_class PolardbxInstance#cn_node_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#cn_node_class PolardbxInstance#cn_node_class}
   */
   readonly cnNodeClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#cn_node_count PolardbxInstance#cn_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#cn_node_count PolardbxInstance#cn_node_count}
   */
   readonly cnNodeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#cpu_type PolardbxInstance#cpu_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#cpu_type PolardbxInstance#cpu_type}
   */
   readonly cpuType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#description PolardbxInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#description PolardbxInstance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#dn_node_class PolardbxInstance#dn_node_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#dn_node_class PolardbxInstance#dn_node_class}
   */
   readonly dnNodeClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#dn_node_count PolardbxInstance#dn_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#dn_node_count PolardbxInstance#dn_node_count}
   */
   readonly dnNodeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#enable_public_connection PolardbxInstance#enable_public_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#enable_public_connection PolardbxInstance#enable_public_connection}
   */
   readonly enablePublicConnection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#enable_ssl PolardbxInstance#enable_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#enable_ssl PolardbxInstance#enable_ssl}
   */
   readonly enableSsl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#enable_tde PolardbxInstance#enable_tde}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#enable_tde PolardbxInstance#enable_tde}
   */
   readonly enableTde?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#engine_version PolardbxInstance#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#engine_version PolardbxInstance#engine_version}
   */
   readonly engineVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#gms_node_class PolardbxInstance#gms_node_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#gms_node_class PolardbxInstance#gms_node_class}
   */
   readonly gmsNodeClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#id PolardbxInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#id PolardbxInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#polardbx_instance_id PolardbxInstance#polardbx_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#polardbx_instance_id PolardbxInstance#polardbx_instance_id}
   */
   readonly polardbxInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#primary_zone PolardbxInstance#primary_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#primary_zone PolardbxInstance#primary_zone}
   */
   readonly primaryZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#private_connection_port PolardbxInstance#private_connection_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#private_connection_port PolardbxInstance#private_connection_port}
   */
   readonly privateConnectionPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#private_connection_string_prefix PolardbxInstance#private_connection_string_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#private_connection_string_prefix PolardbxInstance#private_connection_string_prefix}
   */
   readonly privateConnectionStringPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#public_connection_port PolardbxInstance#public_connection_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#public_connection_port PolardbxInstance#public_connection_port}
   */
   readonly publicConnectionPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#public_connection_string_prefix PolardbxInstance#public_connection_string_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#public_connection_string_prefix PolardbxInstance#public_connection_string_prefix}
   */
   readonly publicConnectionStringPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#resource_type PolardbxInstance#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#resource_type PolardbxInstance#resource_type}
   */
   readonly resourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#secondary_zone PolardbxInstance#secondary_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#secondary_zone PolardbxInstance#secondary_zone}
   */
   readonly secondaryZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#storage PolardbxInstance#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#storage PolardbxInstance#storage}
   */
   readonly storage: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#tertiary_zone PolardbxInstance#tertiary_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#tertiary_zone PolardbxInstance#tertiary_zone}
   */
   readonly tertiaryZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#topology_type PolardbxInstance#topology_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#topology_type PolardbxInstance#topology_type}
   */
   readonly topologyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#vswitch_id PolardbxInstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#vswitch_id PolardbxInstance#vswitch_id}
   */
   readonly vswitchId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#zone_id PolardbxInstance#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#zone_id PolardbxInstance#zone_id}
   */
   readonly zoneId?: string;
   /**
   * compute_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#compute_parameters PolardbxInstance#compute_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#compute_parameters PolardbxInstance#compute_parameters}
   */
   readonly computeParameters?: PolardbxInstanceComputeParameters[] | cdktf.IResolvable;
   /**
   * security_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#security_groups PolardbxInstance#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#security_groups PolardbxInstance#security_groups}
   */
   readonly securityGroups?: PolardbxInstanceSecurityGroups[] | cdktf.IResolvable;
   /**
   * storage_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#storage_parameters PolardbxInstance#storage_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#storage_parameters PolardbxInstance#storage_parameters}
   */
   readonly storageParameters?: PolardbxInstanceStorageParameters[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#timeouts PolardbxInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#timeouts PolardbxInstance#timeouts}
   */
   readonly timeouts?: PolardbxInstanceTimeouts;
 }
 export interface PolardbxInstanceComputeParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#name PolardbxInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#name PolardbxInstance#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#value PolardbxInstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#value PolardbxInstance#value}
   */
   readonly value: string;
 }
@@ -280,11 +280,11 @@ export class PolardbxInstanceComputeParametersList extends cdktf.ComplexList {
 }
 export interface PolardbxInstanceSecurityGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#group_name PolardbxInstance#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#group_name PolardbxInstance#group_name}
   */
   readonly groupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#ips PolardbxInstance#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#ips PolardbxInstance#ips}
   */
   readonly ips: string;
 }
@@ -423,11 +423,11 @@ export class PolardbxInstanceSecurityGroupsList extends cdktf.ComplexList {
 }
 export interface PolardbxInstanceStorageParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#name PolardbxInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#name PolardbxInstance#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#value PolardbxInstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#value PolardbxInstance#value}
   */
   readonly value: string;
 }
@@ -566,15 +566,15 @@ export class PolardbxInstanceStorageParametersList extends cdktf.ComplexList {
 }
 export interface PolardbxInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#create PolardbxInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#create PolardbxInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#delete PolardbxInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#delete PolardbxInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#update PolardbxInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#update PolardbxInstance#update}
   */
   readonly update?: string;
 }
@@ -726,7 +726,7 @@ export class PolardbxInstanceTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance alibabacloudstack_polardbx_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance alibabacloudstack_polardbx_instance}
 */
 export class PolardbxInstance extends cdktf.TerraformResource {
 
@@ -742,7 +742,7 @@ export class PolardbxInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolardbxInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolardbxInstance to import
-  * @param importFromId The id of the existing PolardbxInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolardbxInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolardbxInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -754,7 +754,7 @@ export class PolardbxInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_instance alibabacloudstack_polardbx_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_instance alibabacloudstack_polardbx_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -765,7 +765,8 @@ export class PolardbxInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_polardbx_instance',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

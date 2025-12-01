@@ -21,7 +21,7 @@ dataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1ManifestSpecK8SResourceOverlay
 DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1ManifestSpecK8SResourceOverlaysList } from './structs0'
 export interface DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1ManifestSpecServiceSessionAffinityConfigClientIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#timeout_seconds DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#timeout_seconds DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -115,7 +115,7 @@ export class DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1ManifestSpecServi
 }
 export interface DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1ManifestSpecServiceSessionAffinityConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#client_ip DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#client_ip DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#client_ip}
   */
   readonly clientIp?: DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1ManifestSpecServiceSessionAffinityConfigClientIp;
 }
@@ -209,63 +209,63 @@ export class DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1ManifestSpecServi
 }
 export interface DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1ManifestSpecService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#cluster_ip DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#cluster_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#cluster_ip DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#cluster_ip}
   */
   readonly clusterIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#external_i_ps DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#external_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#external_i_ps DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#external_i_ps}
   */
   readonly externalIPs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#external_name DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#external_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#external_name DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#external_name}
   */
   readonly externalName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#external_traffic_policy DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#external_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#external_traffic_policy DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#external_traffic_policy}
   */
   readonly externalTrafficPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#health_check_node_port DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#health_check_node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#health_check_node_port DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#health_check_node_port}
   */
   readonly healthCheckNodePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#ip_family DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#ip_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#ip_family DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#ip_family}
   */
   readonly ipFamily?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#load_balancer_ip DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#load_balancer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#load_balancer_ip DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#load_balancer_ip}
   */
   readonly loadBalancerIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#load_balancer_source_ranges DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#load_balancer_source_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#load_balancer_source_ranges DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#load_balancer_source_ranges}
   */
   readonly loadBalancerSourceRanges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#metadata DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#metadata DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#metadata}
   */
   readonly metadata?: DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1ManifestSpecServiceMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#ports DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#ports DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#ports}
   */
   readonly ports: DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1ManifestSpecServicePorts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#publish_not_ready_addresses DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#publish_not_ready_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#publish_not_ready_addresses DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#publish_not_ready_addresses}
   */
   readonly publishNotReadyAddresses?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#selector DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#selector DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#selector}
   */
   readonly selector?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#session_affinity DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#session_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#session_affinity DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#session_affinity}
   */
   readonly sessionAffinity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#session_affinity_config DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#session_affinity_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#session_affinity_config DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#session_affinity_config}
   */
   readonly sessionAffinityConfig?: DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1ManifestSpecServiceSessionAffinityConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#type DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#type DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -759,27 +759,27 @@ export class DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1ManifestSpecServi
 }
 export interface DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#deployment DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#deployment DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#deployment}
   */
   readonly deployment?: DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1ManifestSpecDeployment;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#istio_control_plane DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#istio_control_plane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#istio_control_plane DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#istio_control_plane}
   */
   readonly istioControlPlane: DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1ManifestSpecIstioControlPlane;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#k8s_resource_overlays DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#k8s_resource_overlays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#k8s_resource_overlays DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#k8s_resource_overlays}
   */
   readonly k8SResourceOverlays?: DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1ManifestSpecK8SResourceOverlays[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#run_as_root DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#run_as_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#run_as_root DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#run_as_root}
   */
   readonly runAsRoot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#service DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#service DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#service}
   */
   readonly service: DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1ManifestSpecService;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#type DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/servicemesh_cisco_com_istio_mesh_gateway_v1alpha1_manifest#type DataK8SServicemeshCiscoComIstioMeshGatewayV1Alpha1Manifest#type}
   */
   readonly type: string;
 }

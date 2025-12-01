@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SApisixApacheOrgApisixConsumerV2ManifestConfig extends cd
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#metadata DataK8SApisixApacheOrgApisixConsumerV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#metadata DataK8SApisixApacheOrgApisixConsumerV2Manifest#metadata}
   */
   readonly metadata: DataK8SApisixApacheOrgApisixConsumerV2ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#spec DataK8SApisixApacheOrgApisixConsumerV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#spec DataK8SApisixApacheOrgApisixConsumerV2Manifest#spec}
   */
   readonly spec?: DataK8SApisixApacheOrgApisixConsumerV2ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SApisixApacheOrgApisixConsumerV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#annotations DataK8SApisixApacheOrgApisixConsumerV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#annotations DataK8SApisixApacheOrgApisixConsumerV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#labels DataK8SApisixApacheOrgApisixConsumerV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#labels DataK8SApisixApacheOrgApisixConsumerV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#name DataK8SApisixApacheOrgApisixConsumerV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#name DataK8SApisixApacheOrgApisixConsumerV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#namespace DataK8SApisixApacheOrgApisixConsumerV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#namespace DataK8SApisixApacheOrgApisixConsumerV2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,7 +215,7 @@ export class DataK8SApisixApacheOrgApisixConsumerV2ManifestMetadataOutputReferen
 }
 export interface DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterBasicAuthSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#name DataK8SApisixApacheOrgApisixConsumerV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#name DataK8SApisixApacheOrgApisixConsumerV2Manifest#name}
   */
   readonly name: string;
 }
@@ -306,11 +306,11 @@ export class DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterBasi
 }
 export interface DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterBasicAuthValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#password DataK8SApisixApacheOrgApisixConsumerV2Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#password DataK8SApisixApacheOrgApisixConsumerV2Manifest#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#username DataK8SApisixApacheOrgApisixConsumerV2Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#username DataK8SApisixApacheOrgApisixConsumerV2Manifest#username}
   */
   readonly username: string;
 }
@@ -427,11 +427,11 @@ export class DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterBasi
 }
 export interface DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterBasicAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#secret_ref DataK8SApisixApacheOrgApisixConsumerV2Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#secret_ref DataK8SApisixApacheOrgApisixConsumerV2Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterBasicAuthSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#value DataK8SApisixApacheOrgApisixConsumerV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#value DataK8SApisixApacheOrgApisixConsumerV2Manifest#value}
   */
   readonly value?: DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterBasicAuthValue;
 }
@@ -554,7 +554,7 @@ export class DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterBasi
 }
 export interface DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterHmacAuthSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#name DataK8SApisixApacheOrgApisixConsumerV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#name DataK8SApisixApacheOrgApisixConsumerV2Manifest#name}
   */
   readonly name: string;
 }
@@ -645,39 +645,39 @@ export class DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterHmac
 }
 export interface DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterHmacAuthValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#access_key DataK8SApisixApacheOrgApisixConsumerV2Manifest#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#access_key DataK8SApisixApacheOrgApisixConsumerV2Manifest#access_key}
   */
   readonly accessKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#algorithm DataK8SApisixApacheOrgApisixConsumerV2Manifest#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#algorithm DataK8SApisixApacheOrgApisixConsumerV2Manifest#algorithm}
   */
   readonly algorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#clock_skew DataK8SApisixApacheOrgApisixConsumerV2Manifest#clock_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#clock_skew DataK8SApisixApacheOrgApisixConsumerV2Manifest#clock_skew}
   */
   readonly clockSkew?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#encode_uri_params DataK8SApisixApacheOrgApisixConsumerV2Manifest#encode_uri_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#encode_uri_params DataK8SApisixApacheOrgApisixConsumerV2Manifest#encode_uri_params}
   */
   readonly encodeUriParams?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#keep_headers DataK8SApisixApacheOrgApisixConsumerV2Manifest#keep_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#keep_headers DataK8SApisixApacheOrgApisixConsumerV2Manifest#keep_headers}
   */
   readonly keepHeaders?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#max_req_body DataK8SApisixApacheOrgApisixConsumerV2Manifest#max_req_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#max_req_body DataK8SApisixApacheOrgApisixConsumerV2Manifest#max_req_body}
   */
   readonly maxReqBody?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#secret_key DataK8SApisixApacheOrgApisixConsumerV2Manifest#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#secret_key DataK8SApisixApacheOrgApisixConsumerV2Manifest#secret_key}
   */
   readonly secretKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#signed_headers DataK8SApisixApacheOrgApisixConsumerV2Manifest#signed_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#signed_headers DataK8SApisixApacheOrgApisixConsumerV2Manifest#signed_headers}
   */
   readonly signedHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#validate_request_body DataK8SApisixApacheOrgApisixConsumerV2Manifest#validate_request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#validate_request_body DataK8SApisixApacheOrgApisixConsumerV2Manifest#validate_request_body}
   */
   readonly validateRequestBody?: boolean | cdktf.IResolvable;
 }
@@ -997,11 +997,11 @@ export class DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterHmac
 }
 export interface DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterHmacAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#secret_ref DataK8SApisixApacheOrgApisixConsumerV2Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#secret_ref DataK8SApisixApacheOrgApisixConsumerV2Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterHmacAuthSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#value DataK8SApisixApacheOrgApisixConsumerV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#value DataK8SApisixApacheOrgApisixConsumerV2Manifest#value}
   */
   readonly value?: DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterHmacAuthValue;
 }
@@ -1124,7 +1124,7 @@ export class DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterHmac
 }
 export interface DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterJwtAuthSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#name DataK8SApisixApacheOrgApisixConsumerV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#name DataK8SApisixApacheOrgApisixConsumerV2Manifest#name}
   */
   readonly name: string;
 }
@@ -1215,31 +1215,31 @@ export class DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterJwtA
 }
 export interface DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterJwtAuthValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#algorithm DataK8SApisixApacheOrgApisixConsumerV2Manifest#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#algorithm DataK8SApisixApacheOrgApisixConsumerV2Manifest#algorithm}
   */
   readonly algorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#base64_secret DataK8SApisixApacheOrgApisixConsumerV2Manifest#base64_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#base64_secret DataK8SApisixApacheOrgApisixConsumerV2Manifest#base64_secret}
   */
   readonly base64Secret?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#exp DataK8SApisixApacheOrgApisixConsumerV2Manifest#exp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#exp DataK8SApisixApacheOrgApisixConsumerV2Manifest#exp}
   */
   readonly exp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#key DataK8SApisixApacheOrgApisixConsumerV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#key DataK8SApisixApacheOrgApisixConsumerV2Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#lifetime_grace_period DataK8SApisixApacheOrgApisixConsumerV2Manifest#lifetime_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#lifetime_grace_period DataK8SApisixApacheOrgApisixConsumerV2Manifest#lifetime_grace_period}
   */
   readonly lifetimeGracePeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#public_key DataK8SApisixApacheOrgApisixConsumerV2Manifest#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#public_key DataK8SApisixApacheOrgApisixConsumerV2Manifest#public_key}
   */
   readonly publicKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#secret DataK8SApisixApacheOrgApisixConsumerV2Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#secret DataK8SApisixApacheOrgApisixConsumerV2Manifest#secret}
   */
   readonly secret?: string;
 }
@@ -1504,11 +1504,11 @@ export class DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterJwtA
 }
 export interface DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterJwtAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#secret_ref DataK8SApisixApacheOrgApisixConsumerV2Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#secret_ref DataK8SApisixApacheOrgApisixConsumerV2Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterJwtAuthSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#value DataK8SApisixApacheOrgApisixConsumerV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#value DataK8SApisixApacheOrgApisixConsumerV2Manifest#value}
   */
   readonly value?: DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterJwtAuthValue;
 }
@@ -1631,7 +1631,7 @@ export class DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterJwtA
 }
 export interface DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterKeyAuthSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#name DataK8SApisixApacheOrgApisixConsumerV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#name DataK8SApisixApacheOrgApisixConsumerV2Manifest#name}
   */
   readonly name: string;
 }
@@ -1722,7 +1722,7 @@ export class DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterKeyA
 }
 export interface DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterKeyAuthValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#key DataK8SApisixApacheOrgApisixConsumerV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#key DataK8SApisixApacheOrgApisixConsumerV2Manifest#key}
   */
   readonly key: string;
 }
@@ -1813,11 +1813,11 @@ export class DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterKeyA
 }
 export interface DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterKeyAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#secret_ref DataK8SApisixApacheOrgApisixConsumerV2Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#secret_ref DataK8SApisixApacheOrgApisixConsumerV2Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterKeyAuthSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#value DataK8SApisixApacheOrgApisixConsumerV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#value DataK8SApisixApacheOrgApisixConsumerV2Manifest#value}
   */
   readonly value?: DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterKeyAuthValue;
 }
@@ -1940,7 +1940,7 @@ export class DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterKeyA
 }
 export interface DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterLdapAuthSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#name DataK8SApisixApacheOrgApisixConsumerV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#name DataK8SApisixApacheOrgApisixConsumerV2Manifest#name}
   */
   readonly name: string;
 }
@@ -2031,7 +2031,7 @@ export class DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterLdap
 }
 export interface DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterLdapAuthValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#user_dn DataK8SApisixApacheOrgApisixConsumerV2Manifest#user_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#user_dn DataK8SApisixApacheOrgApisixConsumerV2Manifest#user_dn}
   */
   readonly userDn: string;
 }
@@ -2122,11 +2122,11 @@ export class DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterLdap
 }
 export interface DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterLdapAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#secret_ref DataK8SApisixApacheOrgApisixConsumerV2Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#secret_ref DataK8SApisixApacheOrgApisixConsumerV2Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterLdapAuthSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#value DataK8SApisixApacheOrgApisixConsumerV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#value DataK8SApisixApacheOrgApisixConsumerV2Manifest#value}
   */
   readonly value?: DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterLdapAuthValue;
 }
@@ -2249,7 +2249,7 @@ export class DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterLdap
 }
 export interface DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterWolfRbacSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#name DataK8SApisixApacheOrgApisixConsumerV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#name DataK8SApisixApacheOrgApisixConsumerV2Manifest#name}
   */
   readonly name: string;
 }
@@ -2340,15 +2340,15 @@ export class DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterWolf
 }
 export interface DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterWolfRbacValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#appid DataK8SApisixApacheOrgApisixConsumerV2Manifest#appid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#appid DataK8SApisixApacheOrgApisixConsumerV2Manifest#appid}
   */
   readonly appid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#header_prefix DataK8SApisixApacheOrgApisixConsumerV2Manifest#header_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#header_prefix DataK8SApisixApacheOrgApisixConsumerV2Manifest#header_prefix}
   */
   readonly headerPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#server DataK8SApisixApacheOrgApisixConsumerV2Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#server DataK8SApisixApacheOrgApisixConsumerV2Manifest#server}
   */
   readonly server?: string;
 }
@@ -2500,11 +2500,11 @@ export class DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterWolf
 }
 export interface DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterWolfRbac {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#secret_ref DataK8SApisixApacheOrgApisixConsumerV2Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#secret_ref DataK8SApisixApacheOrgApisixConsumerV2Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterWolfRbacSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#value DataK8SApisixApacheOrgApisixConsumerV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#value DataK8SApisixApacheOrgApisixConsumerV2Manifest#value}
   */
   readonly value?: DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterWolfRbacValue;
 }
@@ -2627,27 +2627,27 @@ export class DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterWolf
 }
 export interface DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#basic_auth DataK8SApisixApacheOrgApisixConsumerV2Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#basic_auth DataK8SApisixApacheOrgApisixConsumerV2Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterBasicAuth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#hmac_auth DataK8SApisixApacheOrgApisixConsumerV2Manifest#hmac_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#hmac_auth DataK8SApisixApacheOrgApisixConsumerV2Manifest#hmac_auth}
   */
   readonly hmacAuth?: DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterHmacAuth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#jwt_auth DataK8SApisixApacheOrgApisixConsumerV2Manifest#jwt_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#jwt_auth DataK8SApisixApacheOrgApisixConsumerV2Manifest#jwt_auth}
   */
   readonly jwtAuth?: DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterJwtAuth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#key_auth DataK8SApisixApacheOrgApisixConsumerV2Manifest#key_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#key_auth DataK8SApisixApacheOrgApisixConsumerV2Manifest#key_auth}
   */
   readonly keyAuth?: DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterKeyAuth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#ldap_auth DataK8SApisixApacheOrgApisixConsumerV2Manifest#ldap_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#ldap_auth DataK8SApisixApacheOrgApisixConsumerV2Manifest#ldap_auth}
   */
   readonly ldapAuth?: DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterLdapAuth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#wolf_rbac DataK8SApisixApacheOrgApisixConsumerV2Manifest#wolf_rbac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#wolf_rbac DataK8SApisixApacheOrgApisixConsumerV2Manifest#wolf_rbac}
   */
   readonly wolfRbac?: DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterWolfRbac;
 }
@@ -2886,11 +2886,11 @@ export class DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameterOutp
 }
 export interface DataK8SApisixApacheOrgApisixConsumerV2ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#auth_parameter DataK8SApisixApacheOrgApisixConsumerV2Manifest#auth_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#auth_parameter DataK8SApisixApacheOrgApisixConsumerV2Manifest#auth_parameter}
   */
   readonly authParameter: DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecAuthParameter;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#ingress_class_name DataK8SApisixApacheOrgApisixConsumerV2Manifest#ingress_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#ingress_class_name DataK8SApisixApacheOrgApisixConsumerV2Manifest#ingress_class_name}
   */
   readonly ingressClassName?: string;
 }
@@ -3010,7 +3010,7 @@ export class DataK8SApisixApacheOrgApisixConsumerV2ManifestSpecOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest k8s_apisix_apache_org_apisix_consumer_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest k8s_apisix_apache_org_apisix_consumer_v2_manifest}
 */
 export class DataK8SApisixApacheOrgApisixConsumerV2Manifest extends cdktf.TerraformDataSource {
 
@@ -3026,7 +3026,7 @@ export class DataK8SApisixApacheOrgApisixConsumerV2Manifest extends cdktf.Terraf
   * Generates CDKTF code for importing a DataK8SApisixApacheOrgApisixConsumerV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SApisixApacheOrgApisixConsumerV2Manifest to import
-  * @param importFromId The id of the existing DataK8SApisixApacheOrgApisixConsumerV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SApisixApacheOrgApisixConsumerV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SApisixApacheOrgApisixConsumerV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3038,7 +3038,7 @@ export class DataK8SApisixApacheOrgApisixConsumerV2Manifest extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest k8s_apisix_apache_org_apisix_consumer_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apisix_apache_org_apisix_consumer_v2_manifest k8s_apisix_apache_org_apisix_consumer_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3049,8 +3049,8 @@ export class DataK8SApisixApacheOrgApisixConsumerV2Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_apisix_apache_org_apisix_consumer_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

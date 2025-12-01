@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSecretsHashicorpComVaultAuthV1Beta1ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#metadata DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#metadata DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SSecretsHashicorpComVaultAuthV1Beta1ManifestMetadata;
   /**
   * VaultAuthSpec defines the desired state of VaultAuth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#spec DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#spec DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SSecretsHashicorpComVaultAuthV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSecretsHashicorpComVaultAuthV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#annotations DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#annotations DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#labels DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#labels DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#namespace DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#namespace DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SSecretsHashicorpComVaultAuthV1Beta1ManifestSpecAppRole {
   /**
   * RoleID of the AppRole Role to use for authenticating to Vault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#role_id DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#role_id DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#role_id}
   */
   readonly roleId?: string;
   /**
   * SecretRef is the name of a Kubernetes secret in the consumer's (VDS/VSS/PKI) namespace which provides the AppRole Role's SecretID. The secret must have a key named 'id' which holds the AppRole Role's secretID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#secret_ref DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#secret_ref DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: string;
 }
@@ -350,49 +350,49 @@ export interface DataK8SSecretsHashicorpComVaultAuthV1Beta1ManifestSpecAws {
   /**
   * The Vault header value to include in the STS signing request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#header_value DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#header_value DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#header_value}
   */
   readonly headerValue?: string;
   /**
   * The IAM endpoint to use; if not set will use the default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#iam_endpoint DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#iam_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#iam_endpoint DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#iam_endpoint}
   */
   readonly iamEndpoint?: string;
   /**
   * IRSAServiceAccount name to use with IAM Roles for Service Accounts (IRSA), and should be annotated with 'eks.amazonaws.com/role-arn'. This ServiceAccount will be checked for other EKS annotations: eks.amazonaws.com/audience and eks.amazonaws.com/token-expiration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#irsa_service_account DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#irsa_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#irsa_service_account DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#irsa_service_account}
   */
   readonly irsaServiceAccount?: string;
   /**
   * AWS Region to use for signing the authentication request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#region DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#region DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#region}
   */
   readonly region?: string;
   /**
   * Vault role to use for authenticating
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#role DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#role DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#role}
   */
   readonly role?: string;
   /**
   * SecretRef is the name of a Kubernetes Secret in the consumer's (VDS/VSS/PKI) namespace which holds credentials for AWS. Expected keys include 'access_key_id', 'secret_access_key', 'session_token'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#secret_ref DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#secret_ref DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: string;
   /**
   * The role session name to use when creating a webidentity provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#session_name DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#session_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#session_name DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#session_name}
   */
   readonly sessionName?: string;
   /**
   * The STS endpoint to use; if not set will use the default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#sts_endpoint DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#sts_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#sts_endpoint DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#sts_endpoint}
   */
   readonly stsEndpoint?: string;
 }
@@ -691,31 +691,31 @@ export interface DataK8SSecretsHashicorpComVaultAuthV1Beta1ManifestSpecGcp {
   /**
   * GKE cluster name. Defaults to the cluster-name returned from the operator pod's local metadata server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#cluster_name DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#cluster_name DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * GCP project ID. Defaults to the project-id returned from the operator pod's local metadata server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#project_id DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#project_id DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#project_id}
   */
   readonly projectId?: string;
   /**
   * GCP Region of the GKE cluster's identity provider. Defaults to the region returned from the operator pod's local metadata server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#region DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#region DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#region}
   */
   readonly region?: string;
   /**
   * Vault role to use for authenticating
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#role DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#role DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#role}
   */
   readonly role?: string;
   /**
   * WorkloadIdentityServiceAccount is the name of a Kubernetes service account (in the same Kubernetes namespace as the Vault*Secret referencing this resource) which has been configured for workload identity in GKE. Should be annotated with 'iam.gke.io/gcp-service-account'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#workload_identity_service_account DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#workload_identity_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#workload_identity_service_account DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#workload_identity_service_account}
   */
   readonly workloadIdentityServiceAccount?: string;
 }
@@ -927,31 +927,31 @@ export interface DataK8SSecretsHashicorpComVaultAuthV1Beta1ManifestSpecJwt {
   /**
   * TokenAudiences to include in the ServiceAccount token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#audiences DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#audiences DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#audiences}
   */
   readonly audiences?: string[];
   /**
   * Role to use for authenticating to Vault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#role DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#role DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#role}
   */
   readonly role?: string;
   /**
   * SecretRef is the name of a Kubernetes secret in the consumer's (VDS/VSS/PKI) namespace which provides the JWT token to authenticate to Vault's JWT authentication backend. The secret must have a key named 'jwt' which holds the JWT token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#secret_ref DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#secret_ref DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#secret_ref}
   */
   readonly secretRef?: string;
   /**
   * ServiceAccount to use when creating a ServiceAccount token to authenticate to Vault's JWT authentication backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#service_account DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#service_account DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * TokenExpirationSeconds to set the ServiceAccount token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#token_expiration_seconds DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#token_expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#token_expiration_seconds DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#token_expiration_seconds}
   */
   readonly tokenExpirationSeconds?: number;
 }
@@ -1163,25 +1163,25 @@ export interface DataK8SSecretsHashicorpComVaultAuthV1Beta1ManifestSpecKubernete
   /**
   * TokenAudiences to include in the ServiceAccount token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#audiences DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#audiences DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#audiences}
   */
   readonly audiences?: string[];
   /**
   * Role to use for authenticating to Vault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#role DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#role DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#role}
   */
   readonly role?: string;
   /**
   * ServiceAccount to use when authenticating to Vault's authentication backend. This must reside in the consuming secret's (VDS/VSS/PKI) namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#service_account DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#service_account DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * TokenExpirationSeconds to set the ServiceAccount token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#token_expiration_seconds DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#token_expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#token_expiration_seconds DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#token_expiration_seconds}
   */
   readonly tokenExpirationSeconds?: number;
 }
@@ -1364,13 +1364,13 @@ export interface DataK8SSecretsHashicorpComVaultAuthV1Beta1ManifestSpecStorageEn
   /**
   * KeyName to use for encrypt/decrypt operations via Vault Transit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#key_name DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#key_name DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#key_name}
   */
   readonly keyName: string;
   /**
   * Mount path of the Transit engine in Vault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#mount DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#mount DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#mount}
   */
   readonly mount: string;
 }
@@ -1489,13 +1489,13 @@ export interface DataK8SSecretsHashicorpComVaultAuthV1Beta1ManifestSpecVaultAuth
   /**
   * Headers configures the merge strategy for HTTP headers that are included in all Vault requests. Choices are 'union', 'replace', or 'none'. If 'union' is set, the headers from the VaultAuthGlobal and VaultAuth resources are merged. The headers from the VaultAuth always take precedence. If 'replace' is set, the first set of non-empty headers taken in order from: VaultAuth, VaultAuthGlobal auth method, VaultGlobal default headers. If 'none' is set, the headers from the VaultAuthGlobal resource are ignored and only the headers from the VaultAuth resource are used. The default is 'none'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#headers DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#headers DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#headers}
   */
   readonly headers?: string;
   /**
   * Params configures the merge strategy for HTTP parameters that are included in all Vault requests. Choices are 'union', 'replace', or 'none'. If 'union' is set, the parameters from the VaultAuthGlobal and VaultAuth resources are merged. The parameters from the VaultAuth always take precedence. If 'replace' is set, the first set of non-empty parameters taken in order from: VaultAuth, VaultAuthGlobal auth method, VaultGlobal default parameters. If 'none' is set, the parameters from the VaultAuthGlobal resource are ignored and only the parameters from the VaultAuth resource are used. The default is 'none'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#params DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#params DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#params}
   */
   readonly params?: string;
 }
@@ -1620,25 +1620,25 @@ export interface DataK8SSecretsHashicorpComVaultAuthV1Beta1ManifestSpecVaultAuth
   /**
   * AllowDefault when set to true will use the default VaultAuthGlobal resource as the default if Name is not set. The 'allow-default-globals' option must be set on the operator's '-global-vault-auth-options' flag The default VaultAuthGlobal search is conditional. When a ref Namespace is set, the search for the default VaultAuthGlobal resource is constrained to that namespace. Otherwise, the search order is: 1. The default VaultAuthGlobal resource in the referring VaultAuth resource's namespace. 2. The default VaultAuthGlobal resource in the Operator's namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#allow_default DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#allow_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#allow_default DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#allow_default}
   */
   readonly allowDefault?: boolean | cdktf.IResolvable;
   /**
   * MergeStrategy configures the merge strategy for HTTP headers and parameters that are included in all Vault authentication requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#merge_strategy DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#merge_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#merge_strategy DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#merge_strategy}
   */
   readonly mergeStrategy?: DataK8SSecretsHashicorpComVaultAuthV1Beta1ManifestSpecVaultAuthGlobalRefMergeStrategy;
   /**
   * Name of the VaultAuthGlobal resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the VaultAuthGlobal resource. If not provided, the namespace of the referring VaultAuth resource is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#namespace DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#namespace DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1821,85 +1821,85 @@ export interface DataK8SSecretsHashicorpComVaultAuthV1Beta1ManifestSpec {
   /**
   * AllowedNamespaces Kubernetes Namespaces which are allow-listed for use with this AuthMethod. This field allows administrators to customize which Kubernetes namespaces are authorized to use with this AuthMethod. While Vault will still enforce its own rules, this has the added configurability of restricting which VaultAuthMethods can be used by which namespaces. Accepted values: []{'*'} - wildcard, all namespaces. []{'a', 'b'} - list of namespaces. unset - disallow all namespaces except the Operator's the VaultAuthMethod's namespace, this is the default behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#allowed_namespaces DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#allowed_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#allowed_namespaces DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#allowed_namespaces}
   */
   readonly allowedNamespaces?: string[];
   /**
   * AppRole specific auth configuration, requires that the Method be set to 'appRole'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#app_role DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#app_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#app_role DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#app_role}
   */
   readonly appRole?: DataK8SSecretsHashicorpComVaultAuthV1Beta1ManifestSpecAppRole;
   /**
   * AWS specific auth configuration, requires that Method be set to 'aws'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#aws DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#aws DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#aws}
   */
   readonly aws?: DataK8SSecretsHashicorpComVaultAuthV1Beta1ManifestSpecAws;
   /**
   * GCP specific auth configuration, requires that Method be set to 'gcp'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#gcp DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#gcp DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#gcp}
   */
   readonly gcp?: DataK8SSecretsHashicorpComVaultAuthV1Beta1ManifestSpecGcp;
   /**
   * Headers to be included in all Vault requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#headers DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#headers DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * JWT specific auth configuration, requires that the Method be set to 'jwt'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#jwt DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#jwt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#jwt DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#jwt}
   */
   readonly jwt?: DataK8SSecretsHashicorpComVaultAuthV1Beta1ManifestSpecJwt;
   /**
   * Kubernetes specific auth configuration, requires that the Method be set to 'kubernetes'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#kubernetes DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#kubernetes DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#kubernetes}
   */
   readonly kubernetes?: DataK8SSecretsHashicorpComVaultAuthV1Beta1ManifestSpecKubernetes;
   /**
   * Method to use when authenticating to Vault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#method DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#method DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#method}
   */
   readonly method?: string;
   /**
   * Mount to use when authenticating to auth method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#mount DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#mount DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#mount}
   */
   readonly mount?: string;
   /**
   * Namespace to auth to in Vault
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#namespace DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#namespace DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Params to use when authenticating to Vault
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#params DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#params DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#params}
   */
   readonly params?: { [key: string]: string };
   /**
   * StorageEncryption provides the necessary configuration to encrypt the client storage cache. This should only be configured when client cache persistence with encryption is enabled. This is done by passing setting the manager's commandline argument --client-cache-persistence-model=direct-encrypted. Typically, there should only ever be one VaultAuth configured with StorageEncryption in the Cluster, and it should have the label: cacheStorageEncryption=true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#storage_encryption DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#storage_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#storage_encryption DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#storage_encryption}
   */
   readonly storageEncryption?: DataK8SSecretsHashicorpComVaultAuthV1Beta1ManifestSpecStorageEncryption;
   /**
   * VaultAuthGlobalRef.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#vault_auth_global_ref DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#vault_auth_global_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#vault_auth_global_ref DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#vault_auth_global_ref}
   */
   readonly vaultAuthGlobalRef?: DataK8SSecretsHashicorpComVaultAuthV1Beta1ManifestSpecVaultAuthGlobalRef;
   /**
   * VaultConnectionRef to the VaultConnection resource, can be prefixed with a namespace, eg: 'namespaceA/vaultConnectionRefB'. If no namespace prefix is provided it will default to the namespace of the VaultConnection CR. If no value is specified for VaultConnectionRef the Operator will default to the 'default' VaultConnection, configured in the operator's namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#vault_connection_ref DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#vault_connection_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#vault_connection_ref DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest#vault_connection_ref}
   */
   readonly vaultConnectionRef?: string;
 }
@@ -2370,7 +2370,7 @@ export class DataK8SSecretsHashicorpComVaultAuthV1Beta1ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest k8s_secrets_hashicorp_com_vault_auth_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest k8s_secrets_hashicorp_com_vault_auth_v1beta1_manifest}
 */
 export class DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -2386,7 +2386,7 @@ export class DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2398,7 +2398,7 @@ export class DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest k8s_secrets_hashicorp_com_vault_auth_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_auth_v1beta1_manifest k8s_secrets_hashicorp_com_vault_auth_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2409,8 +2409,8 @@ export class DataK8SSecretsHashicorpComVaultAuthV1Beta1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_secrets_hashicorp_com_vault_auth_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

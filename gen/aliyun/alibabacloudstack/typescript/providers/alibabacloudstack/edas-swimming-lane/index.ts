@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface EdasSwimmingLaneConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane#apps EdasSwimmingLane#apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane#apps EdasSwimmingLane#apps}
   */
   readonly apps: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane#condition EdasSwimmingLane#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane#condition EdasSwimmingLane#condition}
   */
   readonly condition: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane#enabled EdasSwimmingLane#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane#enabled EdasSwimmingLane#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane#group_id EdasSwimmingLane#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane#group_id EdasSwimmingLane#group_id}
   */
   readonly groupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane#id EdasSwimmingLane#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane#id EdasSwimmingLane#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane#logical_region_id EdasSwimmingLane#logical_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane#logical_region_id EdasSwimmingLane#logical_region_id}
   */
   readonly logicalRegionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane#name EdasSwimmingLane#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane#name EdasSwimmingLane#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane#path EdasSwimmingLane#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane#path EdasSwimmingLane#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane#priority EdasSwimmingLane#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane#priority EdasSwimmingLane#priority}
   */
   readonly priority: number;
   /**
   * rest_items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane#rest_items EdasSwimmingLane#rest_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane#rest_items EdasSwimmingLane#rest_items}
   */
   readonly restItems: EdasSwimmingLaneRestItems[] | cdktf.IResolvable;
 }
 export interface EdasSwimmingLaneRestItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane#cond EdasSwimmingLane#cond}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane#cond EdasSwimmingLane#cond}
   */
   readonly cond: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane#name EdasSwimmingLane#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane#name EdasSwimmingLane#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane#operator EdasSwimmingLane#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane#operator EdasSwimmingLane#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane#type EdasSwimmingLane#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane#type EdasSwimmingLane#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane#value EdasSwimmingLane#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane#value EdasSwimmingLane#value}
   */
   readonly value: string;
 }
@@ -291,7 +291,7 @@ export class EdasSwimmingLaneRestItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane alibabacloudstack_edas_swimming_lane}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane alibabacloudstack_edas_swimming_lane}
 */
 export class EdasSwimmingLane extends cdktf.TerraformResource {
 
@@ -307,7 +307,7 @@ export class EdasSwimmingLane extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdasSwimmingLane resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdasSwimmingLane to import
-  * @param importFromId The id of the existing EdasSwimmingLane that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdasSwimmingLane that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdasSwimmingLane to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -319,7 +319,7 @@ export class EdasSwimmingLane extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane alibabacloudstack_edas_swimming_lane} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane alibabacloudstack_edas_swimming_lane} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,7 +330,8 @@ export class EdasSwimmingLane extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_edas_swimming_lane',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestConfig exte
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#metadata DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#metadata DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestMetadata;
   /**
   * MachineDeploymentSpec defines the desired state of MachineDeployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#spec DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#spec DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#annotations DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#annotations DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#labels DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#labels DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#name DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#name DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#namespace DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#namespace DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestSpecSelecto
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#key DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#key DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#operator DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#operator DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#values DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#values DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -401,13 +401,13 @@ export interface DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestSpecSelecto
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#match_expressions DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#match_expressions DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#match_labels DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#match_labels DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -532,7 +532,7 @@ export interface DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestSpecStrateg
   /**
   * MaxInFlight determines how many in flight remediations should happen at the same time. Remediation only happens on the MachineSet with the most current revision, while older MachineSets (usually present during rollout operations) aren't allowed to remediate. Note: In general (independent of remediations), unhealthy machines are always prioritized during scale down operations over healthy ones. MaxInFlight can be set to a fixed number or a percentage. Example: when this is set to 20%, the MachineSet controller deletes at most 20% of the desired replicas. If not set, remediation is limited to all machines (bounded by replicas) under the active MachineSet's management.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#max_in_flight DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#max_in_flight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#max_in_flight DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#max_in_flight}
   */
   readonly maxInFlight?: string;
 }
@@ -628,19 +628,19 @@ export interface DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestSpecStrateg
   /**
   * DeletePolicy defines the policy used by the MachineDeployment to identify nodes to delete when downscaling. Valid values are 'Random, 'Newest', 'Oldest' When no value is supplied, the default DeletePolicy of MachineSet is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#delete_policy DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#delete_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#delete_policy DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#delete_policy}
   */
   readonly deletePolicy?: string;
   /**
   * The maximum number of machines that can be scheduled above the desired number of machines. Value can be an absolute number (ex: 5) or a percentage of desired machines (ex: 10%). This can not be 0 if MaxUnavailable is 0. Absolute number is calculated from percentage by rounding up. Defaults to 1. Example: when this is set to 30%, the new MachineSet can be scaled up immediately when the rolling update starts, such that the total number of old and new machines do not exceed 130% of desired machines. Once old machines have been killed, new MachineSet can be scaled up further, ensuring that total number of machines running at any time during the update is at most 130% of desired machines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#max_surge DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#max_surge DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#max_surge}
   */
   readonly maxSurge?: string;
   /**
   * The maximum number of machines that can be unavailable during the update. Value can be an absolute number (ex: 5) or a percentage of desired machines (ex: 10%). Absolute number is calculated from percentage by rounding down. This can not be 0 if MaxSurge is 0. Defaults to 0. Example: when this is set to 30%, the old MachineSet can be scaled down to 70% of desired machines immediately when the rolling update starts. Once new machines are ready, old MachineSet can be scaled down further, followed by scaling up the new MachineSet, ensuring that the total number of machines available at all times during the update is at least 70% of desired machines.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#max_unavailable DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#max_unavailable DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: string;
 }
@@ -794,19 +794,19 @@ export interface DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestSpecStrateg
   /**
   * Remediation controls the strategy of remediating unhealthy machines and how remediating operations should occur during the lifecycle of the dependant MachineSets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#remediation DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#remediation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#remediation DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#remediation}
   */
   readonly remediation?: DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestSpecStrategyRemediation;
   /**
   * Rolling update config params. Present only if MachineDeploymentStrategyType = RollingUpdate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#rolling_update DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#rolling_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#rolling_update DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#rolling_update}
   */
   readonly rollingUpdate?: DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestSpecStrategyRollingUpdate;
   /**
   * Type of deployment. Allowed values are RollingUpdate and OnDelete. The default is RollingUpdate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#type DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#type DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -960,13 +960,13 @@ export interface DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestSpecTemplat
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#annotations DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#annotations DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#labels DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#labels DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -1091,43 +1091,43 @@ export interface DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestSpecTemplat
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#api_version DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#api_version DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#field_path DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#field_path DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#kind DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#kind DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#name DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#name DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#namespace DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#namespace DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#resource_version DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#resource_version DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#uid DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#uid DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -1397,13 +1397,13 @@ export interface DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestSpecTemplat
   /**
   * ConfigRef is a reference to a bootstrap provider-specific resource that holds configuration details. The reference is optional to allow users/operators to specify Bootstrap.DataSecretName without the need of a controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#config_ref DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#config_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#config_ref DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#config_ref}
   */
   readonly configRef?: DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestSpecTemplateSpecBootstrapConfigRef;
   /**
   * DataSecretName is the name of the secret that stores the bootstrap data script. If nil, the Machine should remain in the Pending state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#data_secret_name DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#data_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#data_secret_name DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#data_secret_name}
   */
   readonly dataSecretName?: string;
 }
@@ -1528,43 +1528,43 @@ export interface DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestSpecTemplat
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#api_version DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#api_version DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#field_path DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#field_path DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#kind DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#kind DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#name DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#name DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#namespace DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#namespace DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#resource_version DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#resource_version DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#uid DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#uid DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -1834,7 +1834,7 @@ export interface DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestSpecTemplat
   /**
   * conditionType refers to a positive polarity condition (status true means good) with matching type in the Machine's condition list. If the conditions doesn't exist, it will be treated as unknown. Note: Both Cluster API conditions or conditions added by 3rd party controllers can be used as readiness gates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#condition_type DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#condition_type DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#condition_type}
   */
   readonly conditionType: string;
 }
@@ -1949,61 +1949,61 @@ export interface DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestSpecTemplat
   /**
   * Bootstrap is a reference to a local struct which encapsulates fields to configure the Machine’s bootstrapping mechanism.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#bootstrap DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#bootstrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#bootstrap DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#bootstrap}
   */
   readonly bootstrap: DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestSpecTemplateSpecBootstrap;
   /**
   * ClusterName is the name of the Cluster this object belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#cluster_name DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#cluster_name DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#cluster_name}
   */
   readonly clusterName: string;
   /**
   * FailureDomain is the failure domain the machine will be created in. Must match a key in the FailureDomains map stored on the cluster object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#failure_domain DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#failure_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#failure_domain DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#failure_domain}
   */
   readonly failureDomain?: string;
   /**
   * InfrastructureRef is a required reference to a custom resource offered by an infrastructure provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#infrastructure_ref DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#infrastructure_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#infrastructure_ref DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#infrastructure_ref}
   */
   readonly infrastructureRef: DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestSpecTemplateSpecInfrastructureRef;
   /**
   * NodeDeletionTimeout defines how long the controller will attempt to delete the Node that the Machine hosts after the Machine is marked for deletion. A duration of 0 will retry deletion indefinitely. Defaults to 10 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#node_deletion_timeout DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#node_deletion_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#node_deletion_timeout DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#node_deletion_timeout}
   */
   readonly nodeDeletionTimeout?: string;
   /**
   * NodeDrainTimeout is the total amount of time that the controller will spend on draining a node. The default value is 0, meaning that the node can be drained without any time limitations. NOTE: NodeDrainTimeout is different from 'kubectl drain --timeout'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#node_drain_timeout DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#node_drain_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#node_drain_timeout DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#node_drain_timeout}
   */
   readonly nodeDrainTimeout?: string;
   /**
   * NodeVolumeDetachTimeout is the total amount of time that the controller will spend on waiting for all volumes to be detached. The default value is 0, meaning that the volumes can be detached without any time limitations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#node_volume_detach_timeout DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#node_volume_detach_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#node_volume_detach_timeout DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#node_volume_detach_timeout}
   */
   readonly nodeVolumeDetachTimeout?: string;
   /**
   * ProviderID is the identification ID of the machine provided by the provider. This field must match the provider ID as seen on the node object corresponding to this machine. This field is required by higher level consumers of cluster-api. Example use case is cluster autoscaler with cluster-api as provider. Clean-up logic in the autoscaler compares machines to nodes to find out machines at provider which could not get registered as Kubernetes nodes. With cluster-api as a generic out-of-tree provider for autoscaler, this field is required by autoscaler to be able to have a provider view of the list of machines. Another list of nodes is queried from the k8s apiserver and then a comparison is done to find out unregistered machines and are marked for delete. This field will be set by the actuators and consumed by higher level entities like autoscaler that will be interfacing with cluster-api as generic provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#provider_id DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#provider_id DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#provider_id}
   */
   readonly providerId?: string;
   /**
   * readinessGates specifies additional conditions to include when evaluating Machine Ready condition. This field can be used e.g. by Cluster API control plane providers to extend the semantic of the Ready condition for the Machine they control, like the kubeadm control provider adding ReadinessGates for the APIServerPodHealthy, SchedulerPodHealthy conditions, etc. Another example are external controllers, e.g. responsible to install special software/hardware on the Machines; they can include the status of those components with a new condition and add this condition to ReadinessGates. NOTE: this field is considered only for computing v1beta2 conditions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#readiness_gates DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#readiness_gates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#readiness_gates DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#readiness_gates}
   */
   readonly readinessGates?: DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestSpecTemplateSpecReadinessGates[] | cdktf.IResolvable;
   /**
   * Version defines the desired Kubernetes version. This field is meant to be optionally used by bootstrap providers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#version DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#version DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#version}
   */
   readonly version?: string;
 }
@@ -2351,13 +2351,13 @@ export interface DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestSpecTemplat
   /**
   * Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#metadata DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#metadata DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#metadata}
   */
   readonly metadata?: DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestSpecTemplateMetadata;
   /**
   * Specification of the desired behavior of the machine. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#spec-and-status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#spec DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#spec DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestSpecTemplateSpec;
 }
@@ -2482,61 +2482,61 @@ export interface DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestSpec {
   /**
   * ClusterName is the name of the Cluster this object belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#cluster_name DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#cluster_name DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#cluster_name}
   */
   readonly clusterName: string;
   /**
   * MinReadySeconds is the minimum number of seconds for which a Node for a newly created machine should be ready before considering the replica available. Defaults to 0 (machine will be considered available as soon as the Node is ready)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#min_ready_seconds DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#min_ready_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#min_ready_seconds DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#min_ready_seconds}
   */
   readonly minReadySeconds?: number;
   /**
   * Indicates that the deployment is paused.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#paused DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#paused DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#paused}
   */
   readonly paused?: boolean | cdktf.IResolvable;
   /**
   * The maximum time in seconds for a deployment to make progress before it is considered to be failed. The deployment controller will continue to process failed deployments and a condition with a ProgressDeadlineExceeded reason will be surfaced in the deployment status. Note that progress will not be estimated during the time a deployment is paused. Defaults to 600s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#progress_deadline_seconds DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#progress_deadline_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#progress_deadline_seconds DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#progress_deadline_seconds}
   */
   readonly progressDeadlineSeconds?: number;
   /**
   * Number of desired machines. This is a pointer to distinguish between explicit zero and not specified. Defaults to: * if the Kubernetes autoscaler min size and max size annotations are set: - if it's a new MachineDeployment, use min size - if the replicas field of the old MachineDeployment is < min size, use min size - if the replicas field of the old MachineDeployment is > max size, use max size - if the replicas field of the old MachineDeployment is in the (min size, max size) range, keep the value from the oldMD * otherwise use 1 Note: Defaulting will be run whenever the replicas field is not set: * A new MachineDeployment is created with replicas not set. * On an existing MachineDeployment the replicas field was first set and is now unset. Those cases are especially relevant for the following Kubernetes autoscaler use cases: * A new MachineDeployment is created and replicas should be managed by the autoscaler * An existing MachineDeployment which initially wasn't controlled by the autoscaler should be later controlled by the autoscaler
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#replicas DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#replicas DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * The number of old MachineSets to retain to allow rollback. This is a pointer to distinguish between explicit zero and not specified. Defaults to 1. Deprecated: This field is deprecated and is going to be removed in the next apiVersion. Please see https://github.com/kubernetes-sigs/cluster-api/issues/10479 for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#revision_history_limit DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#revision_history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#revision_history_limit DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#revision_history_limit}
   */
   readonly revisionHistoryLimit?: number;
   /**
   * RolloutAfter is a field to indicate a rollout should be performed after the specified time even if no changes have been made to the MachineDeployment. Example: In the YAML the time can be specified in the RFC3339 format. To specify the rolloutAfter target as March 9, 2023, at 9 am UTC use '2023-03-09T09:00:00Z'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#rollout_after DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#rollout_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#rollout_after DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#rollout_after}
   */
   readonly rolloutAfter?: string;
   /**
   * Label selector for machines. Existing MachineSets whose machines are selected by this will be the ones affected by this deployment. It must match the machine template's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#selector DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#selector DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#selector}
   */
   readonly selector: DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestSpecSelector;
   /**
   * The deployment strategy to use to replace existing machines with new ones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#strategy DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#strategy DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#strategy}
   */
   readonly strategy?: DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestSpecStrategy;
   /**
   * Template describes the machines that will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#template DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#template DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest#template}
   */
   readonly template: DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestSpecTemplate;
 }
@@ -2882,7 +2882,7 @@ export class DataK8SClusterXK8SIoMachineDeploymentV1Beta1ManifestSpecOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest k8s_cluster_x_k8s_io_machine_deployment_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest k8s_cluster_x_k8s_io_machine_deployment_v1beta1_manifest}
 */
 export class DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -2898,7 +2898,7 @@ export class DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest extends cdktf.
   * Generates CDKTF code for importing a DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2910,7 +2910,7 @@ export class DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest k8s_cluster_x_k8s_io_machine_deployment_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_x_k8s_io_machine_deployment_v1beta1_manifest k8s_cluster_x_k8s_io_machine_deployment_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2921,8 +2921,8 @@ export class DataK8SClusterXK8SIoMachineDeploymentV1Beta1Manifest extends cdktf.
       terraformResourceType: 'k8s_cluster_x_k8s_io_machine_deployment_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

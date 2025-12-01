@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSriovnetworkOpenshiftIoOvsNetworkV1ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#metadata DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#metadata DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#metadata}
   */
   readonly metadata: DataK8SSriovnetworkOpenshiftIoOvsNetworkV1ManifestMetadata;
   /**
   * OVSNetworkSpec defines the desired state of OVSNetwork
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#spec DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#spec DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#spec}
   */
   readonly spec?: DataK8SSriovnetworkOpenshiftIoOvsNetworkV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSriovnetworkOpenshiftIoOvsNetworkV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#annotations DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#annotations DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#labels DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#labels DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#name DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#name DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#namespace DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#namespace DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,18 +217,18 @@ export class DataK8SSriovnetworkOpenshiftIoOvsNetworkV1ManifestMetadataOutputRef
 }
 export interface DataK8SSriovnetworkOpenshiftIoOvsNetworkV1ManifestSpecTrunk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#id DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#id DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#max_id DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#max_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#max_id DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#max_id}
   */
   readonly maxId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#min_id DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#min_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#min_id DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#min_id}
   */
   readonly minId?: number;
 }
@@ -404,61 +404,61 @@ export interface DataK8SSriovnetworkOpenshiftIoOvsNetworkV1ManifestSpec {
   /**
   * name of the OVS bridge, if not set OVS will automatically select bridge based on VF PCI address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#bridge DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#bridge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#bridge DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#bridge}
   */
   readonly bridge?: string;
   /**
   * Capabilities to be configured for this network. Capabilities supported: (mac|ips), e.g. '{'mac': true}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#capabilities DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#capabilities DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#capabilities}
   */
   readonly capabilities?: string;
   /**
   * The type of interface on ovs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#interface_type DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#interface_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#interface_type DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#interface_type}
   */
   readonly interfaceType?: string;
   /**
   * IPAM configuration to be used for this network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#ipam DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#ipam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#ipam DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#ipam}
   */
   readonly ipam?: string;
   /**
   * MetaPluginsConfig configuration to be used in order to chain metaplugins
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#meta_plugins DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#meta_plugins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#meta_plugins DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#meta_plugins}
   */
   readonly metaPlugins?: string;
   /**
   * Mtu for the OVS port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#mtu DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#mtu DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#mtu}
   */
   readonly mtu?: number;
   /**
   * Namespace of the NetworkAttachmentDefinition custom resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#network_namespace DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#network_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#network_namespace DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#network_namespace}
   */
   readonly networkNamespace?: string;
   /**
   * OVS Network device plugin endpoint resource name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#resource_name DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#resource_name DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
   * Trunk configuration for the OVS port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#trunk DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#trunk DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#trunk}
   */
   readonly trunk?: DataK8SSriovnetworkOpenshiftIoOvsNetworkV1ManifestSpecTrunk[] | cdktf.IResolvable;
   /**
   * Vlan to assign for the OVS port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#vlan DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#vlan DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest#vlan}
   */
   readonly vlan?: number;
 }
@@ -810,7 +810,7 @@ export class DataK8SSriovnetworkOpenshiftIoOvsNetworkV1ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest k8s_sriovnetwork_openshift_io_ovs_network_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest k8s_sriovnetwork_openshift_io_ovs_network_v1_manifest}
 */
 export class DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest extends cdktf.TerraformDataSource {
 
@@ -826,7 +826,7 @@ export class DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest to import
-  * @param importFromId The id of the existing DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -838,7 +838,7 @@ export class DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest k8s_sriovnetwork_openshift_io_ovs_network_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_ovs_network_v1_manifest k8s_sriovnetwork_openshift_io_ovs_network_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -849,8 +849,8 @@ export class DataK8SSriovnetworkOpenshiftIoOvsNetworkV1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_sriovnetwork_openshift_io_ovs_network_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline
+// https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,127 +10,127 @@ export interface PipelineConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether rebuilds are allowed for this pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#allow_rebuilds Pipeline#allow_rebuilds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#allow_rebuilds Pipeline#allow_rebuilds}
   */
   readonly allowRebuilds?: boolean | cdktf.IResolvable;
   /**
   * Configure the pipeline to only build on this branch conditional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#branch_configuration Pipeline#branch_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#branch_configuration Pipeline#branch_configuration}
   */
   readonly branchConfiguration?: string;
   /**
   * Whether to cancel builds when a new commit is pushed to a matching branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#cancel_intermediate_builds Pipeline#cancel_intermediate_builds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#cancel_intermediate_builds Pipeline#cancel_intermediate_builds}
   */
   readonly cancelIntermediateBuilds?: boolean | cdktf.IResolvable;
   /**
   * Filter the `cancel_intermediate_builds` setting based on this branch condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#cancel_intermediate_builds_branch_filter Pipeline#cancel_intermediate_builds_branch_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#cancel_intermediate_builds_branch_filter Pipeline#cancel_intermediate_builds_branch_filter}
   */
   readonly cancelIntermediateBuildsBranchFilter?: string;
   /**
   * Attach this pipeline to the given cluster GraphQL ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#cluster_id Pipeline#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#cluster_id Pipeline#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * A color hex code to represent this pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#color Pipeline#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#color Pipeline#color}
   */
   readonly color?: string;
   /**
   * Default branch of the pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#default_branch Pipeline#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#default_branch Pipeline#default_branch}
   */
   readonly defaultBranch?: string;
   /**
   * The GraphQL ID of a team to initially assign to the pipeline. This is required by the Buildkite API when creating a new pipeline. The team assigned here will be given 'Manage Build and Read' access. Further team associations can be managed with the `buildkite_pipeline_team` resource after the pipeline is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#default_team_id Pipeline#default_team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#default_team_id Pipeline#default_team_id}
   */
   readonly defaultTeamId?: string;
   /**
   * Set pipeline wide timeout for command steps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#default_timeout_in_minutes Pipeline#default_timeout_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#default_timeout_in_minutes Pipeline#default_timeout_in_minutes}
   */
   readonly defaultTimeoutInMinutes?: number;
   /**
   * Description for the pipeline. Can include emoji 🙌.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#description Pipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#description Pipeline#description}
   */
   readonly description?: string;
   /**
   * An emoji that represents this pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#emoji Pipeline#emoji}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#emoji Pipeline#emoji}
   */
   readonly emoji?: string;
   /**
   * Set pipeline wide maximum timeout for command steps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#maximum_timeout_in_minutes Pipeline#maximum_timeout_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#maximum_timeout_in_minutes Pipeline#maximum_timeout_in_minutes}
   */
   readonly maximumTimeoutInMinutes?: number;
   /**
   * Name to give the pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#name Pipeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#name Pipeline#name}
   */
   readonly name: string;
   /**
   * The GraphQL ID of the pipeline template applied to this pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#pipeline_template_id Pipeline#pipeline_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#pipeline_template_id Pipeline#pipeline_template_id}
   */
   readonly pipelineTemplateId?: string;
   /**
   * Control settings depending on the VCS provider used in `repository`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#provider_settings Pipeline#provider_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#provider_settings Pipeline#provider_settings}
   */
   readonly providerSettings?: PipelineProviderSettings;
   /**
   * URL to the repository this pipeline is configured for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#repository Pipeline#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#repository Pipeline#repository}
   */
   readonly repository: string;
   /**
   * Whether to skip queued builds if a new commit is pushed to a matching branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#skip_intermediate_builds Pipeline#skip_intermediate_builds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#skip_intermediate_builds Pipeline#skip_intermediate_builds}
   */
   readonly skipIntermediateBuilds?: boolean | cdktf.IResolvable;
   /**
   * Filter the `skip_intermediate_builds` setting based on this branch condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#skip_intermediate_builds_branch_filter Pipeline#skip_intermediate_builds_branch_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#skip_intermediate_builds_branch_filter Pipeline#skip_intermediate_builds_branch_filter}
   */
   readonly skipIntermediateBuildsBranchFilter?: string;
   /**
   * A custom identifier for the pipeline. If provided, this slug will be used as the pipeline's URL path instead of automatically converting the pipeline name. If not provided, the slug will be [derived](https://buildkite.com/docs/apis/graphql/cookbooks/pipelines#create-a-pipeline-deriving-a-pipeline-slug-from-the-pipelines-name) from the pipeline `name`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#slug Pipeline#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#slug Pipeline#slug}
   */
   readonly slug?: string;
   /**
   * The YAML steps to configure for the pipeline. Can also accept the `steps` attribute from the [`buildkite_signed_pipeline_steps`](/docs/data-sources/signed_pipeline_steps) data source to enable a signed pipeline. Defaults to `buildkite-agent pipeline upload`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#steps Pipeline#steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#steps Pipeline#steps}
   */
   readonly steps?: string;
   /**
   * Tags to attribute to the pipeline. Useful for searching by in the UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#tags Pipeline#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#tags Pipeline#tags}
   */
   readonly tags?: string[];
 }
@@ -138,133 +138,133 @@ export interface PipelineProviderSettings {
   /**
   * Whether to create builds when branches are pushed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#build_branches Pipeline#build_branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#build_branches Pipeline#build_branches}
   */
   readonly buildBranches?: boolean | cdktf.IResolvable;
   /**
   * Whether to create merge queue builds for a merge queue enabled GitHub repository with required status checks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#build_merge_group_checks_requested Pipeline#build_merge_group_checks_requested}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#build_merge_group_checks_requested Pipeline#build_merge_group_checks_requested}
   */
   readonly buildMergeGroupChecksRequested?: boolean | cdktf.IResolvable;
   /**
   * Whether to create builds for pull requests when its base branch changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#build_pull_request_base_branch_changed Pipeline#build_pull_request_base_branch_changed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#build_pull_request_base_branch_changed Pipeline#build_pull_request_base_branch_changed}
   */
   readonly buildPullRequestBaseBranchChanged?: boolean | cdktf.IResolvable;
   /**
   * Whether to create builds for pull requests from third-party forks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#build_pull_request_forks Pipeline#build_pull_request_forks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#build_pull_request_forks Pipeline#build_pull_request_forks}
   */
   readonly buildPullRequestForks?: boolean | cdktf.IResolvable;
   /**
   * Whether to create builds for pull requests when labels are added or removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#build_pull_request_labels_changed Pipeline#build_pull_request_labels_changed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#build_pull_request_labels_changed Pipeline#build_pull_request_labels_changed}
   */
   readonly buildPullRequestLabelsChanged?: boolean | cdktf.IResolvable;
   /**
   * Whether to create a build when a pull request changes to "Ready for review".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#build_pull_request_ready_for_review Pipeline#build_pull_request_ready_for_review}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#build_pull_request_ready_for_review Pipeline#build_pull_request_ready_for_review}
   */
   readonly buildPullRequestReadyForReview?: boolean | cdktf.IResolvable;
   /**
   * Whether to create builds for commits that are part of a pull request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#build_pull_requests Pipeline#build_pull_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#build_pull_requests Pipeline#build_pull_requests}
   */
   readonly buildPullRequests?: boolean | cdktf.IResolvable;
   /**
   * Whether to create builds when tags are pushed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#build_tags Pipeline#build_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#build_tags Pipeline#build_tags}
   */
   readonly buildTags?: boolean | cdktf.IResolvable;
   /**
   * Automatically cancel running builds for a branch if the branch is deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#cancel_deleted_branch_builds Pipeline#cancel_deleted_branch_builds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#cancel_deleted_branch_builds Pipeline#cancel_deleted_branch_builds}
   */
   readonly cancelDeletedBranchBuilds?: boolean | cdktf.IResolvable;
   /**
   * Whether to cancel any running builds belonging to a removed merge group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#cancel_when_merge_group_destroyed Pipeline#cancel_when_merge_group_destroyed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#cancel_when_merge_group_destroyed Pipeline#cancel_when_merge_group_destroyed}
   */
   readonly cancelWhenMergeGroupDestroyed?: boolean | cdktf.IResolvable;
   /**
   * The condition to evaluate when deciding if a build should run. This is only valid when `trigger_mode` is `code`. More details available in [the documentation](https://buildkite.com/docs/pipelines/conditionals#conditionals-in-pipelines).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#filter_condition Pipeline#filter_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#filter_condition Pipeline#filter_condition}
   */
   readonly filterCondition?: string;
   /**
   * Whether to filter builds to only run when the condition in `filter_condition` is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#filter_enabled Pipeline#filter_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#filter_enabled Pipeline#filter_enabled}
   */
   readonly filterEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether to prevent caching pull requests with the source branch matching the default branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#ignore_default_branch_pull_requests Pipeline#ignore_default_branch_pull_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#ignore_default_branch_pull_requests Pipeline#ignore_default_branch_pull_requests}
   */
   readonly ignoreDefaultBranchPullRequests?: boolean | cdktf.IResolvable;
   /**
   * Prefix branch names for third-party fork builds to ensure they don't trigger branch conditions. For example, the main branch from some-user will become some-user:main.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#prefix_pull_request_fork_branch_names Pipeline#prefix_pull_request_fork_branch_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#prefix_pull_request_fork_branch_names Pipeline#prefix_pull_request_fork_branch_names}
   */
   readonly prefixPullRequestForkBranchNames?: boolean | cdktf.IResolvable;
   /**
   * The status to use for blocked builds. Pending can be used with [required status checks](https://help.github.com/en/articles/enabling-required-status-checks) to prevent merging pull requests with blocked builds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#publish_blocked_as_pending Pipeline#publish_blocked_as_pending}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#publish_blocked_as_pending Pipeline#publish_blocked_as_pending}
   */
   readonly publishBlockedAsPending?: boolean | cdktf.IResolvable;
   /**
   * Whether to update the status of commits in Bitbucket, GitHub, or GitLab.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#publish_commit_status Pipeline#publish_commit_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#publish_commit_status Pipeline#publish_commit_status}
   */
   readonly publishCommitStatus?: boolean | cdktf.IResolvable;
   /**
   * Whether to create a separate status for each job in a build, allowing you to see the status of each job directly in Bitbucket or GitHub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#publish_commit_status_per_step Pipeline#publish_commit_status_per_step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#publish_commit_status_per_step Pipeline#publish_commit_status_per_step}
   */
   readonly publishCommitStatusPerStep?: boolean | cdktf.IResolvable;
   /**
   * Filter pull requests builds by the branch filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#pull_request_branch_filter_configuration Pipeline#pull_request_branch_filter_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#pull_request_branch_filter_configuration Pipeline#pull_request_branch_filter_configuration}
   */
   readonly pullRequestBranchFilterConfiguration?: string;
   /**
   * Filter pull request builds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#pull_request_branch_filter_enabled Pipeline#pull_request_branch_filter_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#pull_request_branch_filter_enabled Pipeline#pull_request_branch_filter_enabled}
   */
   readonly pullRequestBranchFilterEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether to create a separate status for pull request builds, allowing you to require a passing pull request build in your [required status checks](https://help.github.com/en/articles/enabling-required-status-checks) in GitHub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#separate_pull_request_statuses Pipeline#separate_pull_request_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#separate_pull_request_statuses Pipeline#separate_pull_request_statuses}
   */
   readonly separatePullRequestStatuses?: boolean | cdktf.IResolvable;
   /**
   * Whether to skip creating a new build if an existing build for the commit and branch already exists. This option is only valid if the pipeline uses a GitHub repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#skip_builds_for_existing_commits Pipeline#skip_builds_for_existing_commits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#skip_builds_for_existing_commits Pipeline#skip_builds_for_existing_commits}
   */
   readonly skipBuildsForExistingCommits?: boolean | cdktf.IResolvable;
   /**
   * Whether to skip creating a new build for a pull request if an existing build for the commit and branch already exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#skip_pull_request_builds_for_existing_commits Pipeline#skip_pull_request_builds_for_existing_commits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#skip_pull_request_builds_for_existing_commits Pipeline#skip_pull_request_builds_for_existing_commits}
   */
   readonly skipPullRequestBuildsForExistingCommits?: boolean | cdktf.IResolvable;
   /**
@@ -278,13 +278,13 @@ export interface PipelineProviderSettings {
   * 	-> If not set, the default value is `code` and other provider settings defaults are applied.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#trigger_mode Pipeline#trigger_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#trigger_mode Pipeline#trigger_mode}
   */
   readonly triggerMode?: string;
   /**
   * When enabled, agents performing a git diff to determine steps to upload based on [`if_changed`](https://buildkite.com/docs/pipelines/configure/step-types/command-step#agent-applied-attributes)comparisons will use the base commit that points to the previous merge group rather than the base branch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#use_merge_group_base_commit_for_git_diff_base Pipeline#use_merge_group_base_commit_for_git_diff_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#use_merge_group_base_commit_for_git_diff_base Pipeline#use_merge_group_base_commit_for_git_diff_base}
   */
   readonly useMergeGroupBaseCommitForGitDiffBase?: boolean | cdktf.IResolvable;
 }
@@ -1045,7 +1045,7 @@ export class PipelineProviderSettingsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline buildkite_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline buildkite_pipeline}
 */
 export class Pipeline extends cdktf.TerraformResource {
 
@@ -1061,7 +1061,7 @@ export class Pipeline extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Pipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Pipeline to import
-  * @param importFromId The id of the existing Pipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Pipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Pipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1073,7 +1073,7 @@ export class Pipeline extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/pipeline buildkite_pipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/pipeline buildkite_pipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1084,8 +1084,8 @@ export class Pipeline extends cdktf.TerraformResource {
       terraformResourceType: 'buildkite_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.27.0',
-        providerVersionConstraint: '1.27.0'
+        providerVersion: '1.27.1',
+        providerVersionConstraint: '1.27.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

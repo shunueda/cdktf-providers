@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_migration_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface DtsMigrationInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_instance#compute_unit DtsMigrationInstance#compute_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_migration_instance#compute_unit DtsMigrationInstance#compute_unit}
   */
   readonly computeUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_instance#database_count DtsMigrationInstance#database_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_migration_instance#database_count DtsMigrationInstance#database_count}
   */
   readonly databaseCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_instance#destination_endpoint_engine_name DtsMigrationInstance#destination_endpoint_engine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_migration_instance#destination_endpoint_engine_name DtsMigrationInstance#destination_endpoint_engine_name}
   */
   readonly destinationEndpointEngineName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_instance#destination_endpoint_region DtsMigrationInstance#destination_endpoint_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_migration_instance#destination_endpoint_region DtsMigrationInstance#destination_endpoint_region}
   */
   readonly destinationEndpointRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_instance#id DtsMigrationInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_migration_instance#id DtsMigrationInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_instance#instance_class DtsMigrationInstance#instance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_migration_instance#instance_class DtsMigrationInstance#instance_class}
   */
   readonly instanceClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_instance#payment_type DtsMigrationInstance#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_migration_instance#payment_type DtsMigrationInstance#payment_type}
   */
   readonly paymentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_instance#source_endpoint_engine_name DtsMigrationInstance#source_endpoint_engine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_migration_instance#source_endpoint_engine_name DtsMigrationInstance#source_endpoint_engine_name}
   */
   readonly sourceEndpointEngineName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_instance#source_endpoint_region DtsMigrationInstance#source_endpoint_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_migration_instance#source_endpoint_region DtsMigrationInstance#source_endpoint_region}
   */
   readonly sourceEndpointRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_instance#sync_architecture DtsMigrationInstance#sync_architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_migration_instance#sync_architecture DtsMigrationInstance#sync_architecture}
   */
   readonly syncArchitecture?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_instance#tags DtsMigrationInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_migration_instance#tags DtsMigrationInstance#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_instance alicloud_dts_migration_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_migration_instance alicloud_dts_migration_instance}
 */
 export class DtsMigrationInstance extends cdktf.TerraformResource {
 
@@ -73,7 +73,7 @@ export class DtsMigrationInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DtsMigrationInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DtsMigrationInstance to import
-  * @param importFromId The id of the existing DtsMigrationInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DtsMigrationInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_migration_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DtsMigrationInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -85,7 +85,7 @@ export class DtsMigrationInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_migration_instance alicloud_dts_migration_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_migration_instance alicloud_dts_migration_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -96,8 +96,8 @@ export class DtsMigrationInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_dts_migration_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

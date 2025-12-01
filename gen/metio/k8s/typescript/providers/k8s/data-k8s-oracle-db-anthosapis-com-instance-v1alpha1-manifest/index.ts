@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestConfig exte
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#metadata DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#metadata DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestMetadata;
   /**
   * InstanceSpec defines the desired state of Instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#spec DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#spec DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#annotations DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#annotations DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#labels DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#labels DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#namespace DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#namespace DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecAdminUs
   /**
   * ForceResetPassword defines the flag needed to reset admin user password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#force_reset_password DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#force_reset_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#force_reset_password DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#force_reset_password}
   */
   readonly forceResetPassword?: boolean | cdktf.IResolvable;
   /**
   * RequestTime is a date-time to avoid triggering of a password reset repeatedly. If at least one password reset operation has occurred, any further reset operation that have RequestTime same or earlier than CreateTime will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#request_time DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#request_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#request_time DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#request_time}
   */
   readonly requestTime?: string;
 }
@@ -350,13 +350,13 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecDatabas
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#limits DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#limits DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#requests DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#requests DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -481,13 +481,13 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecDbLoadB
   /**
   * LoadBalancerIP is a static IP address, see https://cloud.google.com/compute/docs/ip-addresses/reserve-static-external-ip-address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#load_balancer_ip DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#load_balancer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#load_balancer_ip DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#load_balancer_ip}
   */
   readonly loadBalancerIp?: string;
   /**
   * A LoadBalancer can be internal or external. See https://kubernetes.io/docs/concepts/services-networking/service/#internal-load-balancer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#load_balancer_type DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#load_balancer_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#load_balancer_type DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#load_balancer_type}
   */
   readonly loadBalancerType?: string;
 }
@@ -612,7 +612,7 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecDbLoadB
   /**
   * GCP contains Google Cloud specific attributes for the Kubernetes LoadBalancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#gcp DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#gcp DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#gcp}
   */
   readonly gcp?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecDbLoadBalancerOptionsGcp;
 }
@@ -708,19 +708,19 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecDisksSe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#values DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#values DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -890,13 +890,13 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecDisksSe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_expressions DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_expressions DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecDisksSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_labels DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_labels DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1021,43 +1021,43 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecDisks {
   /**
   * AccessModes contains the desired access modes the volume should have.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#access_modes DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#access_modes DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * A map of string keys and values to be stored in the annotations of the PVC. These can be read and write by external tools through Kubernetes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#annotations DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#annotations DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Name of a disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * A label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#selector DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#selector DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecDisksSelector;
   /**
   * Disk size. If not specified, the defaults are: DataDisk:'100Gi', LogDisk:'150Gi',BackupDisk:'100Gi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#size DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#size DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#size}
   */
   readonly size?: string;
   /**
   * StorageClass points to a particular CSI driver and is used for disk provisioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#storage_class DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#storage_class DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#storage_class}
   */
   readonly storageClass?: string;
   /**
   * VolumeName is the binding reference to the PersistentVolume tied to this disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#volume_name DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#volume_name DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -1346,13 +1346,13 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecMainten
   /**
   * Duration of the maintenance window
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#duration DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#duration DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * Start time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#start DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#start DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#start}
   */
   readonly start?: string;
 }
@@ -1499,7 +1499,7 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecMainten
   /**
   * Maintenance time ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#time_ranges DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#time_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#time_ranges DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#time_ranges}
   */
   readonly timeRanges?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecMaintenanceWindowTimeRanges[] | cdktf.IResolvable;
 }
@@ -1595,19 +1595,19 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#values DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#values DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1777,19 +1777,19 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#values DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#values DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1959,13 +1959,13 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_expressions DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_expressions DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_fields DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_fields DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -2090,13 +2090,13 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#preference DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#preference DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#weight DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#weight DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2237,19 +2237,19 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#values DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#values DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2419,19 +2419,19 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#values DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#values DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2601,13 +2601,13 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_expressions DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_expressions DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_fields DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_fields DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -2754,7 +2754,7 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#node_selector_terms DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#node_selector_terms DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -2847,13 +2847,13 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -2978,19 +2978,19 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#values DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#values DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3160,13 +3160,13 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_expressions DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_expressions DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_labels DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_labels DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3291,19 +3291,19 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#values DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#values DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3473,13 +3473,13 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_expressions DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_expressions DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_labels DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_labels DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3604,25 +3604,25 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#label_selector DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#label_selector DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#namespace_selector DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#namespace_selector DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#namespaces DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#namespaces DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#topology_key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#topology_key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3802,13 +3802,13 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#pod_affinity_term DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#pod_affinity_term DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#weight DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#weight DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -3949,19 +3949,19 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#values DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#values DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4131,13 +4131,13 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_expressions DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_expressions DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_labels DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_labels DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4262,19 +4262,19 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#values DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#values DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4444,13 +4444,13 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_expressions DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_expressions DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_labels DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_labels DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4575,25 +4575,25 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#label_selector DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#label_selector DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#namespace_selector DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#namespace_selector DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#namespaces DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#namespaces DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#topology_key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#topology_key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4795,13 +4795,13 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -4926,19 +4926,19 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#values DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#values DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5108,13 +5108,13 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_expressions DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_expressions DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_labels DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_labels DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5239,19 +5239,19 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#values DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#values DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5421,13 +5421,13 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_expressions DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_expressions DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_labels DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_labels DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5552,25 +5552,25 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#label_selector DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#label_selector DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#namespace_selector DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#namespace_selector DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#namespaces DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#namespaces DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#topology_key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#topology_key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5750,13 +5750,13 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#pod_affinity_term DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#pod_affinity_term DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#weight DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#weight DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -5897,19 +5897,19 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#values DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#values DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6079,13 +6079,13 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_expressions DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_expressions DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_labels DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_labels DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6210,19 +6210,19 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#values DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#values DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6392,13 +6392,13 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_expressions DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_expressions DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_labels DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#match_labels DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6523,25 +6523,25 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#label_selector DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#label_selector DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#namespace_selector DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#namespace_selector DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#namespaces DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#namespaces DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#topology_key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#topology_key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -6743,13 +6743,13 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -6874,19 +6874,19 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#node_affinity DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#node_affinity DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#pod_affinity DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#pod_affinity DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#pod_anti_affinity DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#pod_anti_affinity DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinityPodAntiAffinity;
 }
@@ -7040,31 +7040,31 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#effect DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#effect DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#key DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#operator DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#toleration_seconds DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#toleration_seconds DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#value DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#value DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -7298,13 +7298,13 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec
   /**
   * Affinity for Instance Pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#affinity DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#affinity DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecAffinity;
   /**
   * Tolerations granting control to schedule/not schedule an instance on a node with a corresponding taint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#tolerations DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#tolerations DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpecTolerations[] | cdktf.IResolvable;
 }
@@ -7429,19 +7429,19 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecReplica
   /**
   * ProjectId identifies the project where the secret resource is.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#project_id DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#project_id DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#project_id}
   */
   readonly projectId?: string;
   /**
   * SecretId identifies the secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#secret_id DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#secret_id DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#secret_id}
   */
   readonly secretId?: string;
   /**
   * Version is the version of the secret. If 'latest' is specified, underlying the latest SecretId is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#version DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#version DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -7595,13 +7595,13 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecReplica
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#namespace DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#namespace DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -7726,25 +7726,25 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecReplica
   /**
   * A reference to a GSM secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#gsm_secret_ref DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#gsm_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#gsm_secret_ref DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#gsm_secret_ref}
   */
   readonly gsmSecretRef?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecReplicationSettingsPrimaryUserGsmSecretRef;
   /**
   * Name of the User.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Plaintext password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#password DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#password DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#password}
   */
   readonly password?: string;
   /**
   * A reference to a k8s secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#secret_ref DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#secret_ref DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecReplicationSettingsPrimaryUserSecretRef;
 }
@@ -7927,37 +7927,37 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecReplica
   /**
   * BackupURI is the URI to a copy of the primary's RMAN backup. Standby will be created from this backup when provided. Currently only gs:// (GCS) schemes are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#backup_uri DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#backup_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#backup_uri DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#backup_uri}
   */
   readonly backupUri?: string;
   /**
   * PasswordFileURI is the URI to a copy of the primary's password file for establishing an active dataguard connection. Currently only gs:// (GCS) schemes are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#password_file_uri DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#password_file_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#password_file_uri DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#password_file_uri}
   */
   readonly passwordFileUri: string;
   /**
   * PrimaryHost is the hostname of the primary's listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#primary_host DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#primary_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#primary_host DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#primary_host}
   */
   readonly primaryHost: string;
   /**
   * PrimaryPort is the port of the primary's listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#primary_port DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#primary_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#primary_port DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#primary_port}
   */
   readonly primaryPort: number;
   /**
   * PrimaryServiceName is the service name of the primary database on the listener at PrimaryHost:PrimaryPort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#primary_service_name DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#primary_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#primary_service_name DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#primary_service_name}
   */
   readonly primaryServiceName: string;
   /**
   * PrimaryUser specifies the user name and credential to authenticate to the primary database as.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#primary_user DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#primary_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#primary_user DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#primary_user}
   */
   readonly primaryUser: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecReplicationSettingsPrimaryUser;
 }
@@ -8183,13 +8183,13 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecRestore
   /**
   * 'name' is the name of the backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * 'namespace' is the namespace in which the backup object is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#namespace DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#namespace DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -8314,13 +8314,13 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecRestore
   /**
   * 'name' is the name of the PITR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#name DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * 'namespace' is the namespace in which the PITR object is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#namespace DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#namespace DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -8445,25 +8445,25 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecRestore
   /**
   * Incarnation number to restore to. This is optional, default to current incarnation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#incarnation DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#incarnation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#incarnation DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#incarnation}
   */
   readonly incarnation?: string;
   /**
   * PITRRef specifies the PITR object from which to read backup data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#pitr_ref DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#pitr_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#pitr_ref DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#pitr_ref}
   */
   readonly pitrRef?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecRestorePitrRestorePitrRef;
   /**
   * SCN to restore to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#scn DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#scn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#scn DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#scn}
   */
   readonly scn?: string;
   /**
   * Timestamp to restore to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#timestamp DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#timestamp DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#timestamp}
   */
   readonly timestamp?: string;
 }
@@ -8646,49 +8646,49 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecRestore
   /**
   * Backup ID to restore from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#backup_id DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#backup_id DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#backup_id}
   */
   readonly backupId?: string;
   /**
   * Backup reference to restore from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#backup_ref DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#backup_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#backup_ref DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#backup_ref}
   */
   readonly backupRef?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecRestoreBackupRef;
   /**
   * Backup type to restore from. Oracle only supports: Snapshot or Physical.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#backup_type DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#backup_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#backup_type DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#backup_type}
   */
   readonly backupType?: string;
   /**
   * Similar to a (physical) backup, optionally indicate a degree of parallelism, also known as DOP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#dop DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#dop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#dop DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#dop}
   */
   readonly dop?: number;
   /**
   * To overwrite an existing, up and running instance, an explicit athorization is required. This is safeguard to avoid accidentally destroying a perfectly healthy (status=Ready) instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#force DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#force DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
   * Point In Time Recovery restore spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#pitr_restore DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#pitr_restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#pitr_restore DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#pitr_restore}
   */
   readonly pitrRestore?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecRestorePitrRestore;
   /**
   * Request version as a date-time to avoid accidental triggering of a restore operation when reapplying an older version of a resource file. If at least one restore operation has occurred, any further restore operation that have the same RequestTime or earlier than the last Restore operation will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#request_time DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#request_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#request_time DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#request_time}
   */
   readonly requestTime: string;
   /**
   * Restore time limit. Optional field defaulting to three times the backup time limit. Don't include the unit (minutes), just the integer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#time_limit_minutes DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#time_limit_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#time_limit_minutes DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#time_limit_minutes}
   */
   readonly timeLimitMinutes?: number;
 }
@@ -8984,181 +8984,181 @@ export interface DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpec {
   /**
   * AdminUser represents the admin user specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#admin_user DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#admin_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#admin_user DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#admin_user}
   */
   readonly adminUser?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecAdminUser;
   /**
   * CDBName is the intended name of the CDB attribute. If the CDBName is different from the original name (with which the CDB was created) the CDB will be renamed. The CDBName should meet Oracle SID requirements: uppercase, alphanumeric, max 8 characters, and not start with a number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#cdb_name DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#cdb_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#cdb_name DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#cdb_name}
   */
   readonly cdbName?: string;
   /**
   * CharacterSet used to create a database (the default is AL32UTF8).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#character_set DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#character_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#character_set DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#character_set}
   */
   readonly characterSet?: string;
   /**
   * CloudProvider is only relevant if the hosting type is Cloud, MultiCloud, Hybrid or Bare Metal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#cloud_provider DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#cloud_provider DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#cloud_provider}
   */
   readonly cloudProvider?: string;
   /**
   * DatabaseGID represents an OS group ID of a user running a database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#database_gid DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#database_gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#database_gid DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#database_gid}
   */
   readonly databaseGid?: number;
   /**
   * Max threshold for database patching. This timeout is used independently for sts patching and OPatch/datapatch execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#database_patching_timeout DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#database_patching_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#database_patching_timeout DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#database_patching_timeout}
   */
   readonly databasePatchingTimeout?: string;
   /**
   * Resource specification for the database container. If not specified, a default of 4.0Gi memory request will be used to safeguard the db container without crashes due to memory pressure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#database_resources DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#database_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#database_resources DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#database_resources}
   */
   readonly databaseResources?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecDatabaseResources;
   /**
   * DatabaseUID represents an OS UID of a user running a database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#database_uid DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#database_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#database_uid DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#database_uid}
   */
   readonly databaseUid?: number;
   /**
   * DBDomain is an optional attribute to set a database domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#db_domain DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#db_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#db_domain DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#db_domain}
   */
   readonly dbDomain?: string;
   /**
   * DBNetworkServiceOptions allows to override some details of kubernetes Service created to expose a connection to database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#db_load_balancer_options DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#db_load_balancer_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#db_load_balancer_options DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#db_load_balancer_options}
   */
   readonly dbLoadBalancerOptions?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecDbLoadBalancerOptions;
   /**
   * DBUniqueName represents a unique database name that would be set for a database (if not provided, as a default, the [_generic|_<zone name>] will be appended to a DatabaseName).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#db_unique_name DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#db_unique_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#db_unique_name DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#db_unique_name}
   */
   readonly dbUniqueName?: string;
   /**
   * DeploymentType reflects a fully managed (DBaaS) vs. semi-managed database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#deployment_type DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#deployment_type DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#deployment_type}
   */
   readonly deploymentType?: string;
   /**
   * Disks slice describes at minimum two disks: data and log (archive log), and optionally a backup disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#disks DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#disks DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#disks}
   */
   readonly disks?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecDisks[] | cdktf.IResolvable;
   /**
   * Edition of a database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#edition DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#edition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#edition DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#edition}
   */
   readonly edition?: string;
   /**
   * EnableDnfs enables configuration of Oracle's dNFS functionality.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#enable_dnfs DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#enable_dnfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#enable_dnfs DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#enable_dnfs}
   */
   readonly enableDnfs?: boolean | cdktf.IResolvable;
   /**
   * HostingType conveys whether an Instance is meant to be hosted on a cloud (single or multiple), on-prem, on Bare Metal, etc. It is meant to be used as a filter and aggregation dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#hosting_type DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#hosting_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#hosting_type DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#hosting_type}
   */
   readonly hostingType?: string;
   /**
   * Service agent and other data plane GCR images. This is an optional map that allows a customer to specify GCR images different from those chosen/provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#images DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#images DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#images}
   */
   readonly images?: { [key: string]: string };
   /**
   * IsStopped is true if an instance is stopped, false otherwise
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#is_stopped DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#is_stopped}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#is_stopped DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#is_stopped}
   */
   readonly isStopped?: boolean | cdktf.IResolvable;
   /**
   * MaintenanceWindow specifies the time windows during which database downtimes are allowed for maintenance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#maintenance_window DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#maintenance_window DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#maintenance_window}
   */
   readonly maintenanceWindow?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecMaintenanceWindow;
   /**
   * MemoryPercent represents the percentage of memory that should be allocated for Oracle SGA (default is 25%).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#memory_percent DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#memory_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#memory_percent DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#memory_percent}
   */
   readonly memoryPercent?: number;
   /**
   * Mode specifies how this instance will be managed by the operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#mode DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#mode DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#mode}
   */
   readonly mode?: string;
   /**
   * Parameters contains the database flags in the map format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#parameters DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#parameters DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#parameters}
   */
   readonly parameters?: { [key: string]: string };
   /**
   * Spec Configurations for pods of an instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#pod_spec DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#pod_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#pod_spec DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#pod_spec}
   */
   readonly podSpec?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecPodSpec;
   /**
   * ReplicationSettings provides configuration for initializing an instance as a standby for the specified primary instance. These settings can only be used when initializing an instance, adding them to an already created instance is an error. Once a standby is created with these settings you may promote the standby to its own independent instance by removing these settings. DBUniqueName must be set when initializing a standby instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#replication_settings DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#replication_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#replication_settings DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#replication_settings}
   */
   readonly replicationSettings?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecReplicationSettings;
   /**
   * Restore and recovery request details. This section should normally be commented out unless an actual restore/recovery is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#restore DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#restore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#restore DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#restore}
   */
   readonly restore?: DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecRestore;
   /**
   * RetainDisksAfterInstanceDeletion should be set to true if Persistent Volumes and underlying disks should be retained after the Instance is deleted. The Default value is false, meaning disks are deleted with the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#retain_disks_after_instance_deletion DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#retain_disks_after_instance_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#retain_disks_after_instance_deletion DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#retain_disks_after_instance_deletion}
   */
   readonly retainDisksAfterInstanceDeletion?: boolean | cdktf.IResolvable;
   /**
   * Services list the optional semi-managed services that the customers can choose from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#services DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#services DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#services}
   */
   readonly services?: { [key: string]: string };
   /**
   * Source IP CIDR ranges allowed for a client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#source_cidr_ranges DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#source_cidr_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#source_cidr_ranges DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#source_cidr_ranges}
   */
   readonly sourceCidrRanges?: string[];
   /**
   * Type of a database engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#type DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#type DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * Version of a database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#version DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#version DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -10093,7 +10093,7 @@ export class DataK8SOracleDbAnthosapisComInstanceV1Alpha1ManifestSpecOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest k8s_oracle_db_anthosapis_com_instance_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest k8s_oracle_db_anthosapis_com_instance_v1alpha1_manifest}
 */
 export class DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -10109,7 +10109,7 @@ export class DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest extends cdktf.
   * Generates CDKTF code for importing a DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -10121,7 +10121,7 @@ export class DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest k8s_oracle_db_anthosapis_com_instance_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/oracle_db_anthosapis_com_instance_v1alpha1_manifest k8s_oracle_db_anthosapis_com_instance_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -10132,8 +10132,8 @@ export class DataK8SOracleDbAnthosapisComInstanceV1Alpha1Manifest extends cdktf.
       terraformResourceType: 'k8s_oracle_db_anthosapis_com_instance_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

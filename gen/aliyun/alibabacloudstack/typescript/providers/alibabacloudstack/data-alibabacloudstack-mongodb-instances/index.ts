@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/mongodb_instances
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/mongodb_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,45 +8,45 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackMongodbInstancesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/mongodb_instances#availability_zone DataAlibabacloudstackMongodbInstances#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/mongodb_instances#availability_zone DataAlibabacloudstackMongodbInstances#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/mongodb_instances#id DataAlibabacloudstackMongodbInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/mongodb_instances#id DataAlibabacloudstackMongodbInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/mongodb_instances#ids DataAlibabacloudstackMongodbInstances#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/mongodb_instances#ids DataAlibabacloudstackMongodbInstances#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/mongodb_instances#instance_class DataAlibabacloudstackMongodbInstances#instance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/mongodb_instances#instance_class DataAlibabacloudstackMongodbInstances#instance_class}
   */
   readonly instanceClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/mongodb_instances#instance_type DataAlibabacloudstackMongodbInstances#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/mongodb_instances#instance_type DataAlibabacloudstackMongodbInstances#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/mongodb_instances#name_regex DataAlibabacloudstackMongodbInstances#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/mongodb_instances#name_regex DataAlibabacloudstackMongodbInstances#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/mongodb_instances#output_file DataAlibabacloudstackMongodbInstances#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/mongodb_instances#output_file DataAlibabacloudstackMongodbInstances#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/mongodb_instances#tags DataAlibabacloudstackMongodbInstances#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/mongodb_instances#tags DataAlibabacloudstackMongodbInstances#tags}
   */
   readonly tags?: { [key: string]: string };
 }
-export interface DataAlibabacloudstackMongodbInstancesInstancesMongos {
+export interface DataAlibabacloudstackMongodbInstancesInstancesConfigserverListStruct {
 }
 
-export function dataAlibabacloudstackMongodbInstancesInstancesMongosToTerraform(struct?: DataAlibabacloudstackMongodbInstancesInstancesMongos): any {
+export function dataAlibabacloudstackMongodbInstancesInstancesConfigserverListStructToTerraform(struct?: DataAlibabacloudstackMongodbInstancesInstancesConfigserverListStruct): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -56,7 +56,7 @@ export function dataAlibabacloudstackMongodbInstancesInstancesMongosToTerraform(
 }
 
 
-export function dataAlibabacloudstackMongodbInstancesInstancesMongosToHclTerraform(struct?: DataAlibabacloudstackMongodbInstancesInstancesMongos): any {
+export function dataAlibabacloudstackMongodbInstancesInstancesConfigserverListStructToHclTerraform(struct?: DataAlibabacloudstackMongodbInstancesInstancesConfigserverListStruct): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -66,7 +66,7 @@ export function dataAlibabacloudstackMongodbInstancesInstancesMongosToHclTerrafo
   return attrs;
 }
 
-export class DataAlibabacloudstackMongodbInstancesInstancesMongosOutputReference extends cdktf.ComplexObject {
+export class DataAlibabacloudstackMongodbInstancesInstancesConfigserverListStructOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -79,13 +79,13 @@ export class DataAlibabacloudstackMongodbInstancesInstancesMongosOutputReference
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataAlibabacloudstackMongodbInstancesInstancesMongos | undefined {
+  public get internalValue(): DataAlibabacloudstackMongodbInstancesInstancesConfigserverListStruct | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataAlibabacloudstackMongodbInstancesInstancesMongos | undefined) {
+  public set internalValue(value: DataAlibabacloudstackMongodbInstancesInstancesConfigserverListStruct | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -94,23 +94,28 @@ export class DataAlibabacloudstackMongodbInstancesInstancesMongosOutputReference
     }
   }
 
-  // class - computed: true, optional: false, required: false
-  public get class() {
-    return this.getStringAttribute('class');
-  }
-
   // description - computed: true, optional: false, required: false
   public get description() {
     return this.getStringAttribute('description');
+  }
+
+  // node_class - computed: true, optional: false, required: false
+  public get nodeClass() {
+    return this.getStringAttribute('node_class');
   }
 
   // node_id - computed: true, optional: false, required: false
   public get nodeId() {
     return this.getStringAttribute('node_id');
   }
+
+  // node_storage - computed: true, optional: false, required: false
+  public get nodeStorage() {
+    return this.getNumberAttribute('node_storage');
+  }
 }
 
-export class DataAlibabacloudstackMongodbInstancesInstancesMongosList extends cdktf.ComplexList {
+export class DataAlibabacloudstackMongodbInstancesInstancesConfigserverListStructList extends cdktf.ComplexList {
 
   /**
   * @param terraformResource The parent resource
@@ -124,14 +129,14 @@ export class DataAlibabacloudstackMongodbInstancesInstancesMongosList extends cd
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): DataAlibabacloudstackMongodbInstancesInstancesMongosOutputReference {
-    return new DataAlibabacloudstackMongodbInstancesInstancesMongosOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): DataAlibabacloudstackMongodbInstancesInstancesConfigserverListStructOutputReference {
+    return new DataAlibabacloudstackMongodbInstancesInstancesConfigserverListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
-export interface DataAlibabacloudstackMongodbInstancesInstancesShards {
+export interface DataAlibabacloudstackMongodbInstancesInstancesMongoListStruct {
 }
 
-export function dataAlibabacloudstackMongodbInstancesInstancesShardsToTerraform(struct?: DataAlibabacloudstackMongodbInstancesInstancesShards): any {
+export function dataAlibabacloudstackMongodbInstancesInstancesMongoListStructToTerraform(struct?: DataAlibabacloudstackMongodbInstancesInstancesMongoListStruct): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -141,7 +146,7 @@ export function dataAlibabacloudstackMongodbInstancesInstancesShardsToTerraform(
 }
 
 
-export function dataAlibabacloudstackMongodbInstancesInstancesShardsToHclTerraform(struct?: DataAlibabacloudstackMongodbInstancesInstancesShards): any {
+export function dataAlibabacloudstackMongodbInstancesInstancesMongoListStructToHclTerraform(struct?: DataAlibabacloudstackMongodbInstancesInstancesMongoListStruct): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -151,7 +156,7 @@ export function dataAlibabacloudstackMongodbInstancesInstancesShardsToHclTerrafo
   return attrs;
 }
 
-export class DataAlibabacloudstackMongodbInstancesInstancesShardsOutputReference extends cdktf.ComplexObject {
+export class DataAlibabacloudstackMongodbInstancesInstancesMongoListStructOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -164,13 +169,13 @@ export class DataAlibabacloudstackMongodbInstancesInstancesShardsOutputReference
     super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): DataAlibabacloudstackMongodbInstancesInstancesShards | undefined {
+  public get internalValue(): DataAlibabacloudstackMongodbInstancesInstancesMongoListStruct | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataAlibabacloudstackMongodbInstancesInstancesShards | undefined) {
+  public set internalValue(value: DataAlibabacloudstackMongodbInstancesInstancesMongoListStruct | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -179,28 +184,23 @@ export class DataAlibabacloudstackMongodbInstancesInstancesShardsOutputReference
     }
   }
 
-  // class - computed: true, optional: false, required: false
-  public get class() {
-    return this.getStringAttribute('class');
-  }
-
   // description - computed: true, optional: false, required: false
   public get description() {
     return this.getStringAttribute('description');
+  }
+
+  // node_class - computed: true, optional: false, required: false
+  public get nodeClass() {
+    return this.getStringAttribute('node_class');
   }
 
   // node_id - computed: true, optional: false, required: false
   public get nodeId() {
     return this.getStringAttribute('node_id');
   }
-
-  // storage - computed: true, optional: false, required: false
-  public get storage() {
-    return this.getNumberAttribute('storage');
-  }
 }
 
-export class DataAlibabacloudstackMongodbInstancesInstancesShardsList extends cdktf.ComplexList {
+export class DataAlibabacloudstackMongodbInstancesInstancesMongoListStructList extends cdktf.ComplexList {
 
   /**
   * @param terraformResource The parent resource
@@ -214,8 +214,98 @@ export class DataAlibabacloudstackMongodbInstancesInstancesShardsList extends cd
   /**
   * @param index the index of the item to return
   */
-  public get(index: number): DataAlibabacloudstackMongodbInstancesInstancesShardsOutputReference {
-    return new DataAlibabacloudstackMongodbInstancesInstancesShardsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  public get(index: number): DataAlibabacloudstackMongodbInstancesInstancesMongoListStructOutputReference {
+    return new DataAlibabacloudstackMongodbInstancesInstancesMongoListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAlibabacloudstackMongodbInstancesInstancesShardListStruct {
+}
+
+export function dataAlibabacloudstackMongodbInstancesInstancesShardListStructToTerraform(struct?: DataAlibabacloudstackMongodbInstancesInstancesShardListStruct): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAlibabacloudstackMongodbInstancesInstancesShardListStructToHclTerraform(struct?: DataAlibabacloudstackMongodbInstancesInstancesShardListStruct): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAlibabacloudstackMongodbInstancesInstancesShardListStructOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAlibabacloudstackMongodbInstancesInstancesShardListStruct | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAlibabacloudstackMongodbInstancesInstancesShardListStruct | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // description - computed: true, optional: false, required: false
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+
+  // node_class - computed: true, optional: false, required: false
+  public get nodeClass() {
+    return this.getStringAttribute('node_class');
+  }
+
+  // node_id - computed: true, optional: false, required: false
+  public get nodeId() {
+    return this.getStringAttribute('node_id');
+  }
+
+  // node_storage - computed: true, optional: false, required: false
+  public get nodeStorage() {
+    return this.getNumberAttribute('node_storage');
+  }
+}
+
+export class DataAlibabacloudstackMongodbInstancesInstancesShardListStructList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAlibabacloudstackMongodbInstancesInstancesShardListStructOutputReference {
+    return new DataAlibabacloudstackMongodbInstancesInstancesShardListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataAlibabacloudstackMongodbInstancesInstances {
@@ -279,6 +369,12 @@ export class DataAlibabacloudstackMongodbInstancesInstancesOutputReference exten
     return this.getStringAttribute('charge_type');
   }
 
+  // configserver_list - computed: true, optional: false, required: false
+  private _configserverList = new DataAlibabacloudstackMongodbInstancesInstancesConfigserverListStructList(this, "configserver_list", false);
+  public get configserverList() {
+    return this._configserverList;
+  }
+
   // creation_time - computed: true, optional: false, required: false
   public get creationTime() {
     return this.getStringAttribute('creation_time');
@@ -319,10 +415,10 @@ export class DataAlibabacloudstackMongodbInstancesInstancesOutputReference exten
     return this.getStringAttribute('lock_mode');
   }
 
-  // mongos - computed: true, optional: false, required: false
-  private _mongos = new DataAlibabacloudstackMongodbInstancesInstancesMongosList(this, "mongos", false);
-  public get mongos() {
-    return this._mongos;
+  // mongo_list - computed: true, optional: false, required: false
+  private _mongoList = new DataAlibabacloudstackMongodbInstancesInstancesMongoListStructList(this, "mongo_list", false);
+  public get mongoList() {
+    return this._mongoList;
   }
 
   // name - computed: true, optional: false, required: false
@@ -345,10 +441,10 @@ export class DataAlibabacloudstackMongodbInstancesInstancesOutputReference exten
     return this.getStringAttribute('replication');
   }
 
-  // shards - computed: true, optional: false, required: false
-  private _shards = new DataAlibabacloudstackMongodbInstancesInstancesShardsList(this, "shards", false);
-  public get shards() {
-    return this._shards;
+  // shard_list - computed: true, optional: false, required: false
+  private _shardList = new DataAlibabacloudstackMongodbInstancesInstancesShardListStructList(this, "shard_list", false);
+  public get shardList() {
+    return this._shardList;
   }
 
   // status - computed: true, optional: false, required: false
@@ -388,7 +484,7 @@ export class DataAlibabacloudstackMongodbInstancesInstancesList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/mongodb_instances alibabacloudstack_mongodb_instances}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/mongodb_instances alibabacloudstack_mongodb_instances}
 */
 export class DataAlibabacloudstackMongodbInstances extends cdktf.TerraformDataSource {
 
@@ -404,7 +500,7 @@ export class DataAlibabacloudstackMongodbInstances extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataAlibabacloudstackMongodbInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackMongodbInstances to import
-  * @param importFromId The id of the existing DataAlibabacloudstackMongodbInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/mongodb_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackMongodbInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/mongodb_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackMongodbInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -416,7 +512,7 @@ export class DataAlibabacloudstackMongodbInstances extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/mongodb_instances alibabacloudstack_mongodb_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/mongodb_instances alibabacloudstack_mongodb_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -427,8 +523,8 @@ export class DataAlibabacloudstackMongodbInstances extends cdktf.TerraformDataSo
       terraformResourceType: 'alibabacloudstack_mongodb_instances',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

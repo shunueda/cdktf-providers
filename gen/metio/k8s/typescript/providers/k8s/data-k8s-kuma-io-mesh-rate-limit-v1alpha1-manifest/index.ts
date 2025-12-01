@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestConfig extends cdktf.
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#metadata DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#metadata DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SKumaIoMeshRateLimitV1Alpha1ManifestMetadata;
   /**
   * Spec is the specification of the Kuma MeshRateLimit resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#spec DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#spec DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#annotations DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#annotations DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#labels DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#labels DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#name DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#name DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#namespace DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#namespace DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SKumaIoMeshRateLimitV1Alpha1ManifestMetadataOutputReference e
 }
 export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecFromDefaultLocalHttpOnRateLimitHeadersAdd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#name DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#name DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#value DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#value DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -360,11 +360,11 @@ export class DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecFromDefaultLocalHttpO
 }
 export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecFromDefaultLocalHttpOnRateLimitHeadersSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#name DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#name DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#value DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#value DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -503,11 +503,11 @@ export class DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecFromDefaultLocalHttpO
 }
 export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecFromDefaultLocalHttpOnRateLimitHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#add DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#add DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#add}
   */
   readonly add?: DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecFromDefaultLocalHttpOnRateLimitHeadersAdd[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#set DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#set DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#set}
   */
   readonly set?: DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecFromDefaultLocalHttpOnRateLimitHeadersSet[] | cdktf.IResolvable;
 }
@@ -632,13 +632,13 @@ export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecFromDefaultLocalH
   /**
   * The Headers to be added to the HTTP response on a rate limit event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#headers DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#headers DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#headers}
   */
   readonly headers?: DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecFromDefaultLocalHttpOnRateLimitHeaders;
   /**
   * The HTTP status code to be set on a rate limit event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#status DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#status DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#status}
   */
   readonly status?: number;
 }
@@ -763,13 +763,13 @@ export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecFromDefaultLocalH
   /**
   * The interval the number of units is accounted for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#interval DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#interval DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#interval}
   */
   readonly interval: string;
   /**
   * Number of units per interval (depending on usage it can be a number of requests, or a number of connections).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#num DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#num DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#num}
   */
   readonly num: number;
 }
@@ -888,19 +888,19 @@ export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecFromDefaultLocalH
   /**
   * Define if rate limiting should be disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#disabled DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#disabled DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Describes the actions to take on a rate limit event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#on_rate_limit DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#on_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#on_rate_limit DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#on_rate_limit}
   */
   readonly onRateLimit?: DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecFromDefaultLocalHttpOnRateLimit;
   /**
   * Defines how many requests are allowed per interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#request_rate DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#request_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#request_rate DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#request_rate}
   */
   readonly requestRate?: DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecFromDefaultLocalHttpRequestRate;
 }
@@ -1054,13 +1054,13 @@ export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecFromDefaultLocalT
   /**
   * The interval the number of units is accounted for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#interval DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#interval DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#interval}
   */
   readonly interval: string;
   /**
   * Number of units per interval (depending on usage it can be a number of requests, or a number of connections).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#num DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#num DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#num}
   */
   readonly num: number;
 }
@@ -1179,13 +1179,13 @@ export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecFromDefaultLocalT
   /**
   * Defines how many connections are allowed per interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#connection_rate DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#connection_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#connection_rate DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#connection_rate}
   */
   readonly connectionRate?: DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecFromDefaultLocalTcpConnectionRate;
   /**
   * Define if rate limiting should be disabled. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#disabled DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#disabled DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
 }
@@ -1310,13 +1310,13 @@ export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecFromDefaultLocal 
   /**
   * LocalHTTP defines configuration of local HTTP rate limiting https://www.envoyproxy.io/docs/envoy/latest/configuration/http/http_filters/local_rate_limit_filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#http DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#http DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#http}
   */
   readonly http?: DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecFromDefaultLocalHttp;
   /**
   * LocalTCP defines confguration of local TCP rate limiting https://www.envoyproxy.io/docs/envoy/latest/configuration/listeners/network_filters/local_rate_limit_filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#tcp DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#tcp DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#tcp}
   */
   readonly tcp?: DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecFromDefaultLocalTcp;
 }
@@ -1441,7 +1441,7 @@ export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecFromDefault {
   /**
   * LocalConf defines local http or/and tcp rate limit configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#local DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#local DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#local}
   */
   readonly local?: DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecFromDefaultLocal;
 }
@@ -1537,49 +1537,49 @@ export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecFromTargetRef {
   /**
   * Kind of the referenced resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#kind DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#kind DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Labels are used to select group of MeshServices that match labels. Either Labels or Name and Namespace can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#labels DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#labels DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Mesh is reserved for future use to identify cross mesh resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#mesh DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#mesh DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#mesh}
   */
   readonly mesh?: string;
   /**
   * Name of the referenced resource. Can only be used with kinds: 'MeshService', 'MeshServiceSubset' and 'MeshGatewayRoute'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#name DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#name DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies the namespace of target resource. If empty only resources in policy namespace will be targeted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#namespace DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#namespace DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * ProxyTypes specifies the data plane types that are subject to the policy. When not specified, all data plane types are targeted by the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#proxy_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#proxy_types}
   */
   readonly proxyTypes?: string[];
   /**
   * SectionName is used to target specific section of resource. For example, you can target port from MeshService.ports[] by its name. Only traffic to this port will be affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#section_name DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#section_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#section_name DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#section_name}
   */
   readonly sectionName?: string;
   /**
   * Tags used to select a subset of proxies by tags. Can only be used with kinds 'MeshSubset' and 'MeshServiceSubset'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#tags DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#tags DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -1878,13 +1878,13 @@ export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecFrom {
   /**
   * Default is a configuration specific to the group of clients referenced in 'targetRef'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#default DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#default DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#default}
   */
   readonly default?: DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecFromDefault;
   /**
   * TargetRef is a reference to the resource that represents a group of clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#target_ref DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#target_ref DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#target_ref}
   */
   readonly targetRef: DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecFromTargetRef;
 }
@@ -2028,49 +2028,49 @@ export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecTargetRef {
   /**
   * Kind of the referenced resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#kind DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#kind DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Labels are used to select group of MeshServices that match labels. Either Labels or Name and Namespace can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#labels DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#labels DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Mesh is reserved for future use to identify cross mesh resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#mesh DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#mesh DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#mesh}
   */
   readonly mesh?: string;
   /**
   * Name of the referenced resource. Can only be used with kinds: 'MeshService', 'MeshServiceSubset' and 'MeshGatewayRoute'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#name DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#name DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies the namespace of target resource. If empty only resources in policy namespace will be targeted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#namespace DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#namespace DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * ProxyTypes specifies the data plane types that are subject to the policy. When not specified, all data plane types are targeted by the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#proxy_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#proxy_types}
   */
   readonly proxyTypes?: string[];
   /**
   * SectionName is used to target specific section of resource. For example, you can target port from MeshService.ports[] by its name. Only traffic to this port will be affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#section_name DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#section_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#section_name DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#section_name}
   */
   readonly sectionName?: string;
   /**
   * Tags used to select a subset of proxies by tags. Can only be used with kinds 'MeshSubset' and 'MeshServiceSubset'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#tags DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#tags DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -2367,11 +2367,11 @@ export class DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecTargetRefOutputRefere
 }
 export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecToDefaultLocalHttpOnRateLimitHeadersAdd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#name DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#name DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#value DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#value DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -2510,11 +2510,11 @@ export class DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecToDefaultLocalHttpOnR
 }
 export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecToDefaultLocalHttpOnRateLimitHeadersSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#name DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#name DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#value DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#value DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -2653,11 +2653,11 @@ export class DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecToDefaultLocalHttpOnR
 }
 export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecToDefaultLocalHttpOnRateLimitHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#add DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#add DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#add}
   */
   readonly add?: DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecToDefaultLocalHttpOnRateLimitHeadersAdd[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#set DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#set DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#set}
   */
   readonly set?: DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecToDefaultLocalHttpOnRateLimitHeadersSet[] | cdktf.IResolvable;
 }
@@ -2782,13 +2782,13 @@ export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecToDefaultLocalHtt
   /**
   * The Headers to be added to the HTTP response on a rate limit event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#headers DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#headers DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#headers}
   */
   readonly headers?: DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecToDefaultLocalHttpOnRateLimitHeaders;
   /**
   * The HTTP status code to be set on a rate limit event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#status DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#status DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#status}
   */
   readonly status?: number;
 }
@@ -2913,13 +2913,13 @@ export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecToDefaultLocalHtt
   /**
   * The interval the number of units is accounted for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#interval DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#interval DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#interval}
   */
   readonly interval: string;
   /**
   * Number of units per interval (depending on usage it can be a number of requests, or a number of connections).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#num DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#num DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#num}
   */
   readonly num: number;
 }
@@ -3038,19 +3038,19 @@ export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecToDefaultLocalHtt
   /**
   * Define if rate limiting should be disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#disabled DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#disabled DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Describes the actions to take on a rate limit event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#on_rate_limit DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#on_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#on_rate_limit DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#on_rate_limit}
   */
   readonly onRateLimit?: DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecToDefaultLocalHttpOnRateLimit;
   /**
   * Defines how many requests are allowed per interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#request_rate DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#request_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#request_rate DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#request_rate}
   */
   readonly requestRate?: DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecToDefaultLocalHttpRequestRate;
 }
@@ -3204,13 +3204,13 @@ export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecToDefaultLocalTcp
   /**
   * The interval the number of units is accounted for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#interval DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#interval DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#interval}
   */
   readonly interval: string;
   /**
   * Number of units per interval (depending on usage it can be a number of requests, or a number of connections).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#num DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#num DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#num}
   */
   readonly num: number;
 }
@@ -3329,13 +3329,13 @@ export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecToDefaultLocalTcp
   /**
   * Defines how many connections are allowed per interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#connection_rate DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#connection_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#connection_rate DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#connection_rate}
   */
   readonly connectionRate?: DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecToDefaultLocalTcpConnectionRate;
   /**
   * Define if rate limiting should be disabled. Default: false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#disabled DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#disabled DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
 }
@@ -3460,13 +3460,13 @@ export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecToDefaultLocal {
   /**
   * LocalHTTP defines configuration of local HTTP rate limiting https://www.envoyproxy.io/docs/envoy/latest/configuration/http/http_filters/local_rate_limit_filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#http DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#http DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#http}
   */
   readonly http?: DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecToDefaultLocalHttp;
   /**
   * LocalTCP defines confguration of local TCP rate limiting https://www.envoyproxy.io/docs/envoy/latest/configuration/listeners/network_filters/local_rate_limit_filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#tcp DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#tcp DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#tcp}
   */
   readonly tcp?: DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecToDefaultLocalTcp;
 }
@@ -3591,7 +3591,7 @@ export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecToDefault {
   /**
   * LocalConf defines local http or/and tcp rate limit configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#local DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#local DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#local}
   */
   readonly local?: DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecToDefaultLocal;
 }
@@ -3687,49 +3687,49 @@ export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecToTargetRef {
   /**
   * Kind of the referenced resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#kind DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#kind DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Labels are used to select group of MeshServices that match labels. Either Labels or Name and Namespace can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#labels DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#labels DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Mesh is reserved for future use to identify cross mesh resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#mesh DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#mesh DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#mesh}
   */
   readonly mesh?: string;
   /**
   * Name of the referenced resource. Can only be used with kinds: 'MeshService', 'MeshServiceSubset' and 'MeshGatewayRoute'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#name DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#name DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies the namespace of target resource. If empty only resources in policy namespace will be targeted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#namespace DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#namespace DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * ProxyTypes specifies the data plane types that are subject to the policy. When not specified, all data plane types are targeted by the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#proxy_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#proxy_types}
   */
   readonly proxyTypes?: string[];
   /**
   * SectionName is used to target specific section of resource. For example, you can target port from MeshService.ports[] by its name. Only traffic to this port will be affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#section_name DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#section_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#section_name DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#section_name}
   */
   readonly sectionName?: string;
   /**
   * Tags used to select a subset of proxies by tags. Can only be used with kinds 'MeshSubset' and 'MeshServiceSubset'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#tags DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#tags DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -4028,13 +4028,13 @@ export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecTo {
   /**
   * Default is a configuration specific to the group of clients referenced in 'targetRef'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#default DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#default DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#default}
   */
   readonly default?: DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecToDefault;
   /**
   * TargetRef is a reference to the resource that represents a group of clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#target_ref DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#target_ref DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#target_ref}
   */
   readonly targetRef: DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecToTargetRef;
 }
@@ -4178,19 +4178,19 @@ export interface DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpec {
   /**
   * From list makes a match between clients and corresponding configurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#from DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#from DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecFrom[] | cdktf.IResolvable;
   /**
   * TargetRef is a reference to the resource the policy takes an effect on. The resource could be either a real store object or virtual resource defined inplace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#target_ref DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#target_ref DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#target_ref}
   */
   readonly targetRef?: DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecTargetRef;
   /**
   * To list makes a match between clients and corresponding configurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#to DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#to DataK8SKumaIoMeshRateLimitV1Alpha1Manifest#to}
   */
   readonly to?: DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecTo[] | cdktf.IResolvable;
 }
@@ -4342,7 +4342,7 @@ export class DataK8SKumaIoMeshRateLimitV1Alpha1ManifestSpecOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest k8s_kuma_io_mesh_rate_limit_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest k8s_kuma_io_mesh_rate_limit_v1alpha1_manifest}
 */
 export class DataK8SKumaIoMeshRateLimitV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -4358,7 +4358,7 @@ export class DataK8SKumaIoMeshRateLimitV1Alpha1Manifest extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataK8SKumaIoMeshRateLimitV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKumaIoMeshRateLimitV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SKumaIoMeshRateLimitV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKumaIoMeshRateLimitV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKumaIoMeshRateLimitV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4370,7 +4370,7 @@ export class DataK8SKumaIoMeshRateLimitV1Alpha1Manifest extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest k8s_kuma_io_mesh_rate_limit_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_rate_limit_v1alpha1_manifest k8s_kuma_io_mesh_rate_limit_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4381,8 +4381,8 @@ export class DataK8SKumaIoMeshRateLimitV1Alpha1Manifest extends cdktf.TerraformD
       terraformResourceType: 'k8s_kuma_io_mesh_rate_limit_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

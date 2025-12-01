@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_public_ip_address_pools
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_public_ip_address_pools
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudVpcPublicIpAddressPoolsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_public_ip_address_pools#id DataAlicloudVpcPublicIpAddressPools#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_public_ip_address_pools#id DataAlicloudVpcPublicIpAddressPools#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_public_ip_address_pools#ids DataAlicloudVpcPublicIpAddressPools#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_public_ip_address_pools#ids DataAlicloudVpcPublicIpAddressPools#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_public_ip_address_pools#isp DataAlicloudVpcPublicIpAddressPools#isp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_public_ip_address_pools#isp DataAlicloudVpcPublicIpAddressPools#isp}
   */
   readonly isp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_public_ip_address_pools#name_regex DataAlicloudVpcPublicIpAddressPools#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_public_ip_address_pools#name_regex DataAlicloudVpcPublicIpAddressPools#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_public_ip_address_pools#output_file DataAlicloudVpcPublicIpAddressPools#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_public_ip_address_pools#output_file DataAlicloudVpcPublicIpAddressPools#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_public_ip_address_pools#public_ip_address_pool_ids DataAlicloudVpcPublicIpAddressPools#public_ip_address_pool_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_public_ip_address_pools#public_ip_address_pool_ids DataAlicloudVpcPublicIpAddressPools#public_ip_address_pool_ids}
   */
   readonly publicIpAddressPoolIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_public_ip_address_pools#public_ip_address_pool_name DataAlicloudVpcPublicIpAddressPools#public_ip_address_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_public_ip_address_pools#public_ip_address_pool_name DataAlicloudVpcPublicIpAddressPools#public_ip_address_pool_name}
   */
   readonly publicIpAddressPoolName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_public_ip_address_pools#status DataAlicloudVpcPublicIpAddressPools#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_public_ip_address_pools#status DataAlicloudVpcPublicIpAddressPools#status}
   */
   readonly status?: string;
 }
@@ -175,7 +175,7 @@ export class DataAlicloudVpcPublicIpAddressPoolsPoolsList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_public_ip_address_pools alicloud_vpc_public_ip_address_pools}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_public_ip_address_pools alicloud_vpc_public_ip_address_pools}
 */
 export class DataAlicloudVpcPublicIpAddressPools extends cdktf.TerraformDataSource {
 
@@ -191,7 +191,7 @@ export class DataAlicloudVpcPublicIpAddressPools extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataAlicloudVpcPublicIpAddressPools resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudVpcPublicIpAddressPools to import
-  * @param importFromId The id of the existing DataAlicloudVpcPublicIpAddressPools that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_public_ip_address_pools#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudVpcPublicIpAddressPools that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_public_ip_address_pools#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudVpcPublicIpAddressPools to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -203,7 +203,7 @@ export class DataAlicloudVpcPublicIpAddressPools extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_public_ip_address_pools alicloud_vpc_public_ip_address_pools} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_public_ip_address_pools alicloud_vpc_public_ip_address_pools} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -214,8 +214,8 @@ export class DataAlicloudVpcPublicIpAddressPools extends cdktf.TerraformDataSour
       terraformResourceType: 'alicloud_vpc_public_ip_address_pools',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

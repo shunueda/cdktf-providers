@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/account
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/account
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataAlicloudAccountConfig extends cdktf.TerraformMetaArguments 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/account alicloud_account}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/account alicloud_account}
 */
 export class DataAlicloudAccount extends cdktf.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataAlicloudAccount extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudAccount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudAccount to import
-  * @param importFromId The id of the existing DataAlicloudAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/account#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudAccount that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/account#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudAccount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataAlicloudAccount extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/account alicloud_account} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/account alicloud_account} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,8 +49,8 @@ export class DataAlicloudAccount extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_account',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

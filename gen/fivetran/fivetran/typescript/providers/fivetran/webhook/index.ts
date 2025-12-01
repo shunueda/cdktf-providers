@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/webhook
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface WebhookConfig extends cdktf.TerraformMetaArguments {
   /**
   * Boolean, if set to true, webhooks are immediately sent in response to events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/webhook#active Webhook#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/webhook#active Webhook#active}
   */
   readonly active: boolean | cdktf.IResolvable;
   /**
   * The array of event types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/webhook#events Webhook#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/webhook#events Webhook#events}
   */
   readonly events: string[];
   /**
   * The group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/webhook#group_id Webhook#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/webhook#group_id Webhook#group_id}
   */
   readonly groupId?: string;
   /**
   * Specifies whether the setup tests should be run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/webhook#run_tests Webhook#run_tests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/webhook#run_tests Webhook#run_tests}
   */
   readonly runTests?: boolean | cdktf.IResolvable;
   /**
   * The secret string used for payload signing and masked in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/webhook#secret Webhook#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/webhook#secret Webhook#secret}
   */
   readonly secret: string;
   /**
   * The webhook type (group, account)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/webhook#type Webhook#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/webhook#type Webhook#type}
   */
   readonly type: string;
   /**
   * Your webhooks URL endpoint for your application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/webhook#url Webhook#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/webhook#url Webhook#url}
   */
   readonly url: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/webhook fivetran_webhook}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/webhook fivetran_webhook}
 */
 export class Webhook extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class Webhook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Webhook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Webhook to import
-  * @param importFromId The id of the existing Webhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Webhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Webhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class Webhook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/webhook fivetran_webhook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/webhook fivetran_webhook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class Webhook extends cdktf.TerraformResource {
       terraformResourceType: 'fivetran_webhook',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.15',
-        providerVersionConstraint: '1.9.15'
+        providerVersion: '1.9.16',
+        providerVersionConstraint: '1.9.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

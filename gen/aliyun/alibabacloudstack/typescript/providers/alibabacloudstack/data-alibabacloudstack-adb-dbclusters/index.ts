@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/adb_dbclusters
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/adb_dbclusters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackAdbDbclustersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/adb_dbclusters#description DataAlibabacloudstackAdbDbclusters#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/adb_dbclusters#description DataAlibabacloudstackAdbDbclusters#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/adb_dbclusters#description_regex DataAlibabacloudstackAdbDbclusters#description_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/adb_dbclusters#description_regex DataAlibabacloudstackAdbDbclusters#description_regex}
   */
   readonly descriptionRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/adb_dbclusters#enable_details DataAlibabacloudstackAdbDbclusters#enable_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/adb_dbclusters#enable_details DataAlibabacloudstackAdbDbclusters#enable_details}
   */
   readonly enableDetails?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/adb_dbclusters#id DataAlibabacloudstackAdbDbclusters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/adb_dbclusters#id DataAlibabacloudstackAdbDbclusters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/adb_dbclusters#ids DataAlibabacloudstackAdbDbclusters#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/adb_dbclusters#ids DataAlibabacloudstackAdbDbclusters#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/adb_dbclusters#output_file DataAlibabacloudstackAdbDbclusters#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/adb_dbclusters#output_file DataAlibabacloudstackAdbDbclusters#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/adb_dbclusters#resource_group_id DataAlibabacloudstackAdbDbclusters#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/adb_dbclusters#resource_group_id DataAlibabacloudstackAdbDbclusters#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/adb_dbclusters#status DataAlibabacloudstackAdbDbclusters#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/adb_dbclusters#status DataAlibabacloudstackAdbDbclusters#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/adb_dbclusters#tags DataAlibabacloudstackAdbDbclusters#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/adb_dbclusters#tags DataAlibabacloudstackAdbDbclusters#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -305,7 +305,7 @@ export class DataAlibabacloudstackAdbDbclustersClustersList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/adb_dbclusters alibabacloudstack_adb_dbclusters}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/adb_dbclusters alibabacloudstack_adb_dbclusters}
 */
 export class DataAlibabacloudstackAdbDbclusters extends cdktf.TerraformDataSource {
 
@@ -321,7 +321,7 @@ export class DataAlibabacloudstackAdbDbclusters extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataAlibabacloudstackAdbDbclusters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackAdbDbclusters to import
-  * @param importFromId The id of the existing DataAlibabacloudstackAdbDbclusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/adb_dbclusters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackAdbDbclusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/adb_dbclusters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackAdbDbclusters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -333,7 +333,7 @@ export class DataAlibabacloudstackAdbDbclusters extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/adb_dbclusters alibabacloudstack_adb_dbclusters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/adb_dbclusters alibabacloudstack_adb_dbclusters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -344,8 +344,8 @@ export class DataAlibabacloudstackAdbDbclusters extends cdktf.TerraformDataSourc
       terraformResourceType: 'alibabacloudstack_adb_dbclusters',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,194 +8,194 @@ import * as cdktf from 'cdktf';
 
 export interface GpdbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#availability_zone GpdbInstance#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#availability_zone GpdbInstance#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#create_sample_data GpdbInstance#create_sample_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#create_sample_data GpdbInstance#create_sample_data}
   */
   readonly createSampleData?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#data_share_status GpdbInstance#data_share_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#data_share_status GpdbInstance#data_share_status}
   */
   readonly dataShareStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#db_instance_category GpdbInstance#db_instance_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#db_instance_category GpdbInstance#db_instance_category}
   */
   readonly dbInstanceCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#db_instance_class GpdbInstance#db_instance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#db_instance_class GpdbInstance#db_instance_class}
   */
   readonly dbInstanceClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#db_instance_mode GpdbInstance#db_instance_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#db_instance_mode GpdbInstance#db_instance_mode}
   */
   readonly dbInstanceMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#description GpdbInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#description GpdbInstance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#encryption_key GpdbInstance#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#encryption_key GpdbInstance#encryption_key}
   */
   readonly encryptionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#encryption_type GpdbInstance#encryption_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#encryption_type GpdbInstance#encryption_type}
   */
   readonly encryptionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#engine GpdbInstance#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#engine GpdbInstance#engine}
   */
   readonly engine: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#engine_version GpdbInstance#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#engine_version GpdbInstance#engine_version}
   */
   readonly engineVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#id GpdbInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#id GpdbInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#instance_charge_type GpdbInstance#instance_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#instance_charge_type GpdbInstance#instance_charge_type}
   */
   readonly instanceChargeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#instance_group_count GpdbInstance#instance_group_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#instance_group_count GpdbInstance#instance_group_count}
   */
   readonly instanceGroupCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#instance_network_type GpdbInstance#instance_network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#instance_network_type GpdbInstance#instance_network_type}
   */
   readonly instanceNetworkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#instance_spec GpdbInstance#instance_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#instance_spec GpdbInstance#instance_spec}
   */
   readonly instanceSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#maintain_end_time GpdbInstance#maintain_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#maintain_end_time GpdbInstance#maintain_end_time}
   */
   readonly maintainEndTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#maintain_start_time GpdbInstance#maintain_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#maintain_start_time GpdbInstance#maintain_start_time}
   */
   readonly maintainStartTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#master_cu GpdbInstance#master_cu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#master_cu GpdbInstance#master_cu}
   */
   readonly masterCu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#master_node_num GpdbInstance#master_node_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#master_node_num GpdbInstance#master_node_num}
   */
   readonly masterNodeNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#payment_type GpdbInstance#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#payment_type GpdbInstance#payment_type}
   */
   readonly paymentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#period GpdbInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#period GpdbInstance#period}
   */
   readonly period?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#private_ip_address GpdbInstance#private_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#private_ip_address GpdbInstance#private_ip_address}
   */
   readonly privateIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#prod_type GpdbInstance#prod_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#prod_type GpdbInstance#prod_type}
   */
   readonly prodType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#resource_group_id GpdbInstance#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#resource_group_id GpdbInstance#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#resource_management_mode GpdbInstance#resource_management_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#resource_management_mode GpdbInstance#resource_management_mode}
   */
   readonly resourceManagementMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#security_ip_list GpdbInstance#security_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#security_ip_list GpdbInstance#security_ip_list}
   */
   readonly securityIpList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#seg_disk_performance_level GpdbInstance#seg_disk_performance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#seg_disk_performance_level GpdbInstance#seg_disk_performance_level}
   */
   readonly segDiskPerformanceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#seg_node_num GpdbInstance#seg_node_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#seg_node_num GpdbInstance#seg_node_num}
   */
   readonly segNodeNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#seg_storage_type GpdbInstance#seg_storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#seg_storage_type GpdbInstance#seg_storage_type}
   */
   readonly segStorageType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#serverless_mode GpdbInstance#serverless_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#serverless_mode GpdbInstance#serverless_mode}
   */
   readonly serverlessMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#ssl_enabled GpdbInstance#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#ssl_enabled GpdbInstance#ssl_enabled}
   */
   readonly sslEnabled?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#storage_size GpdbInstance#storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#storage_size GpdbInstance#storage_size}
   */
   readonly storageSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#tags GpdbInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#tags GpdbInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#used_time GpdbInstance#used_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#used_time GpdbInstance#used_time}
   */
   readonly usedTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#vector_configuration_status GpdbInstance#vector_configuration_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#vector_configuration_status GpdbInstance#vector_configuration_status}
   */
   readonly vectorConfigurationStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#vpc_id GpdbInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#vpc_id GpdbInstance#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#vswitch_id GpdbInstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#vswitch_id GpdbInstance#vswitch_id}
   */
   readonly vswitchId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#zone_id GpdbInstance#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#zone_id GpdbInstance#zone_id}
   */
   readonly zoneId?: string;
   /**
   * ip_whitelist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#ip_whitelist GpdbInstance#ip_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#ip_whitelist GpdbInstance#ip_whitelist}
   */
   readonly ipWhitelist?: GpdbInstanceIpWhitelistStruct[] | cdktf.IResolvable;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#parameters GpdbInstance#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#parameters GpdbInstance#parameters}
   */
   readonly parameters?: GpdbInstanceParameters[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#timeouts GpdbInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#timeouts GpdbInstance#timeouts}
   */
   readonly timeouts?: GpdbInstanceTimeouts;
 }
 export interface GpdbInstanceIpWhitelistStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#ip_group_attribute GpdbInstance#ip_group_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#ip_group_attribute GpdbInstance#ip_group_attribute}
   */
   readonly ipGroupAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#ip_group_name GpdbInstance#ip_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#ip_group_name GpdbInstance#ip_group_name}
   */
   readonly ipGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#security_ip_list GpdbInstance#security_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#security_ip_list GpdbInstance#security_ip_list}
   */
   readonly securityIpList?: string;
 }
@@ -369,11 +369,11 @@ export class GpdbInstanceIpWhitelistStructList extends cdktf.ComplexList {
 }
 export interface GpdbInstanceParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#name GpdbInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#name GpdbInstance#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#value GpdbInstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#value GpdbInstance#value}
   */
   readonly value: string;
 }
@@ -537,15 +537,15 @@ export class GpdbInstanceParametersList extends cdktf.ComplexList {
 }
 export interface GpdbInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#create GpdbInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#create GpdbInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#delete GpdbInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#delete GpdbInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#update GpdbInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#update GpdbInstance#update}
   */
   readonly update?: string;
 }
@@ -697,7 +697,7 @@ export class GpdbInstanceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance alicloud_gpdb_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance alicloud_gpdb_instance}
 */
 export class GpdbInstance extends cdktf.TerraformResource {
 
@@ -713,7 +713,7 @@ export class GpdbInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GpdbInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GpdbInstance to import
-  * @param importFromId The id of the existing GpdbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GpdbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GpdbInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -725,7 +725,7 @@ export class GpdbInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/gpdb_instance alicloud_gpdb_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/gpdb_instance alicloud_gpdb_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -736,8 +736,8 @@ export class GpdbInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_gpdb_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

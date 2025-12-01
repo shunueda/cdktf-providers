@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket
+// https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface S3BucketConfig extends cdktf.TerraformMetaArguments {
   /**
   * Bucket's Access Control List (default: private)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket#acl S3Bucket#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket#acl S3Bucket#acl}
   */
   readonly acl?: string;
   /**
   * Name of the bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket#bucket S3Bucket#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket#bucket S3Bucket#bucket}
   */
   readonly bucket?: string;
   /**
   * Prefix of the bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket#bucket_prefix S3Bucket#bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket#bucket_prefix S3Bucket#bucket_prefix}
   */
   readonly bucketPrefix?: string;
   /**
   * Force destroy the bucket (default: false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket#force_destroy S3Bucket#force_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket#force_destroy S3Bucket#force_destroy}
   */
   readonly forceDestroy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket#id S3Bucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket#id S3Bucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,19 +41,19 @@ export interface S3BucketConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable object locking for the bucket (default: false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket#object_locking S3Bucket#object_locking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket#object_locking S3Bucket#object_locking}
   */
   readonly objectLocking?: boolean | cdktf.IResolvable;
   /**
   * Quota of the bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket#quota S3Bucket#quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket#quota S3Bucket#quota}
   */
   readonly quota?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket minio_s3_bucket}
+* Represents a {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket minio_s3_bucket}
 */
 export class S3Bucket extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class S3Bucket extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a S3Bucket resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3Bucket to import
-  * @param importFromId The id of the existing S3Bucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3Bucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3Bucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class S3Bucket extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket minio_s3_bucket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket minio_s3_bucket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class S3Bucket extends cdktf.TerraformResource {
       terraformResourceType: 'minio_s3_bucket',
       terraformGeneratorMetadata: {
         providerName: 'minio',
-        providerVersion: '3.11.4',
-        providerVersionConstraint: '3.11.4'
+        providerVersion: '3.11.5',
+        providerVersionConstraint: '3.11.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

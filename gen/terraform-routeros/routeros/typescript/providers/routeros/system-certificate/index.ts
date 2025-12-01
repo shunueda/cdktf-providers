@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,112 +10,112 @@ export interface SystemCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#___path___ SystemCertificate#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#___path___ SystemCertificate#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#___skip___ SystemCertificate#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#___skip___ SystemCertificate#___skip___}
   */
   readonly skip?: string;
   /**
   * Common Name (e.g. server FQDN or YOUR name).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#common_name SystemCertificate#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#common_name SystemCertificate#common_name}
   */
   readonly commonName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#copy_from SystemCertificate#copy_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#copy_from SystemCertificate#copy_from}
   */
   readonly copyFrom?: string;
   /**
   * Country Name (2 letter code).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#country SystemCertificate#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#country SystemCertificate#country}
   */
   readonly country?: string;
   /**
   * Certificate lifetime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#days_valid SystemCertificate#days_valid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#days_valid SystemCertificate#days_valid}
   */
   readonly daysValid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#id SystemCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#id SystemCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#key_size SystemCertificate#key_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#key_size SystemCertificate#key_size}
   */
   readonly keySize?: string;
   /**
   * Detailed key usage descriptions can be found in RFC 5280.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#key_usage SystemCertificate#key_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#key_usage SystemCertificate#key_usage}
   */
   readonly keyUsage?: string[];
   /**
   * Locality Name (eg, city).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#locality SystemCertificate#locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#locality SystemCertificate#locality}
   */
   readonly locality?: string;
   /**
   * Name of the certificate. Name can be edited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#name SystemCertificate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#name SystemCertificate#name}
   */
   readonly name: string;
   /**
   * Organizational Unit Name (eg, section)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#organization SystemCertificate#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#organization SystemCertificate#organization}
   */
   readonly organization?: string;
   /**
   * State or Province Name (full name).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#state SystemCertificate#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#state SystemCertificate#state}
   */
   readonly state?: string;
   /**
   * SANs (subject alternative names).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#subject_alt_name SystemCertificate#subject_alt_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#subject_alt_name SystemCertificate#subject_alt_name}
   */
   readonly subjectAltName?: string;
   /**
   * If set to yes certificate is included 'in trusted certificate chain'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#trusted SystemCertificate#trusted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#trusted SystemCertificate#trusted}
   */
   readonly trusted?: boolean | cdktf.IResolvable;
   /**
   * Organizational Unit Name (eg, section).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#unit SystemCertificate#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#unit SystemCertificate#unit}
   */
   readonly unit?: string;
   /**
   * import block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#import SystemCertificate#import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#import SystemCertificate#import}
   */
   readonly import?: SystemCertificateImport;
   /**
   * sign block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#sign SystemCertificate#sign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#sign SystemCertificate#sign}
   */
   readonly sign?: SystemCertificateSign[] | cdktf.IResolvable;
   /**
   * sign_via_scep block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#sign_via_scep SystemCertificate#sign_via_scep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#sign_via_scep SystemCertificate#sign_via_scep}
   */
   readonly signViaScep?: SystemCertificateSignViaScep[] | cdktf.IResolvable;
 }
@@ -123,31 +123,31 @@ export interface SystemCertificateImport {
   /**
   * Certificate in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#cert_file_content SystemCertificate#cert_file_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#cert_file_content SystemCertificate#cert_file_content}
   */
   readonly certFileContent?: string;
   /**
   * Certificate file name that will be imported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#cert_file_name SystemCertificate#cert_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#cert_file_name SystemCertificate#cert_file_name}
   */
   readonly certFileName?: string;
   /**
   * Key in PEM format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#key_file_content SystemCertificate#key_file_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#key_file_content SystemCertificate#key_file_content}
   */
   readonly keyFileContent?: string;
   /**
   * Key file name that will be imported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#key_file_name SystemCertificate#key_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#key_file_name SystemCertificate#key_file_name}
   */
   readonly keyFileName?: string;
   /**
   * File passphrase if there is such.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#passphrase SystemCertificate#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#passphrase SystemCertificate#passphrase}
   */
   readonly passphrase?: string;
 }
@@ -349,13 +349,13 @@ export interface SystemCertificateSign {
   /**
   * Which CA to use if signing issued certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#ca SystemCertificate#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#ca SystemCertificate#ca}
   */
   readonly ca?: string;
   /**
   * CRL host if issuing CA certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#ca_crl_host SystemCertificate#ca_crl_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#ca_crl_host SystemCertificate#ca_crl_host}
   */
   readonly caCrlHost?: string;
 }
@@ -502,31 +502,31 @@ export interface SystemCertificateSignViaScep {
   /**
   * SCEP CA identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#ca_identity SystemCertificate#ca_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#ca_identity SystemCertificate#ca_identity}
   */
   readonly caIdentity?: string;
   /**
   * A challenge password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#challenge_password SystemCertificate#challenge_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#challenge_password SystemCertificate#challenge_password}
   */
   readonly challengePassword?: string;
   /**
   * Whether to store a private key on smart card if hardware supports it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#on_smart_card SystemCertificate#on_smart_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#on_smart_card SystemCertificate#on_smart_card}
   */
   readonly onSmartCard?: boolean | cdktf.IResolvable;
   /**
   * Check certificate expiration and refresh it if expired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#refresh SystemCertificate#refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#refresh SystemCertificate#refresh}
   */
   readonly refresh?: boolean | cdktf.IResolvable;
   /**
   * HTTP URL to the SCEP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#scep_url SystemCertificate#scep_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#scep_url SystemCertificate#scep_url}
   */
   readonly scepUrl: string;
 }
@@ -755,7 +755,7 @@ export class SystemCertificateSignViaScepList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate routeros_system_certificate}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate routeros_system_certificate}
 */
 export class SystemCertificate extends cdktf.TerraformResource {
 
@@ -771,7 +771,7 @@ export class SystemCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemCertificate to import
-  * @param importFromId The id of the existing SystemCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -783,7 +783,7 @@ export class SystemCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_certificate routeros_system_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_certificate routeros_system_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -794,8 +794,8 @@ export class SystemCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_system_certificate',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.94.0',
-        providerVersionConstraint: '1.94.0'
+        providerVersion: '1.95.0',
+        providerVersionConstraint: '1.95.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

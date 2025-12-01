@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestConfig extends cdktf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#metadata DataK8SAcmeCertManagerIoChallengeV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#metadata DataK8SAcmeCertManagerIoChallengeV1Manifest#metadata}
   */
   readonly metadata: DataK8SAcmeCertManagerIoChallengeV1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#spec DataK8SAcmeCertManagerIoChallengeV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#spec DataK8SAcmeCertManagerIoChallengeV1Manifest#spec}
   */
   readonly spec: DataK8SAcmeCertManagerIoChallengeV1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#annotations DataK8SAcmeCertManagerIoChallengeV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#annotations DataK8SAcmeCertManagerIoChallengeV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#labels DataK8SAcmeCertManagerIoChallengeV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#labels DataK8SAcmeCertManagerIoChallengeV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespace DataK8SAcmeCertManagerIoChallengeV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespace DataK8SAcmeCertManagerIoChallengeV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,19 +217,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecIssuerRef {
   /**
   * Group of the resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#group DataK8SAcmeCertManagerIoChallengeV1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#group DataK8SAcmeCertManagerIoChallengeV1Manifest#group}
   */
   readonly group?: string;
   /**
   * Kind of the resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#kind DataK8SAcmeCertManagerIoChallengeV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#kind DataK8SAcmeCertManagerIoChallengeV1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
   */
   readonly name: string;
 }
@@ -380,13 +380,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01AcmeD
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the resource being referred to. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
   */
   readonly name: string;
 }
@@ -508,11 +508,11 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01AcmeD
   /**
   * A reference to a specific 'key' within a Secret resource. In some instances, 'key' is a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#account_secret_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#account_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#account_secret_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#account_secret_ref}
   */
   readonly accountSecretRef: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01AcmeDnsAccountSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#host DataK8SAcmeCertManagerIoChallengeV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#host DataK8SAcmeCertManagerIoChallengeV1Manifest#host}
   */
   readonly host: string;
 }
@@ -631,13 +631,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Akama
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the resource being referred to. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
   */
   readonly name: string;
 }
@@ -759,13 +759,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Akama
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the resource being referred to. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
   */
   readonly name: string;
 }
@@ -887,13 +887,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Akama
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the resource being referred to. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
   */
   readonly name: string;
 }
@@ -1015,23 +1015,23 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Akama
   /**
   * A reference to a specific 'key' within a Secret resource. In some instances, 'key' is a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#access_token_secret_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#access_token_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#access_token_secret_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#access_token_secret_ref}
   */
   readonly accessTokenSecretRef: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01AkamaiAccessTokenSecretRef;
   /**
   * A reference to a specific 'key' within a Secret resource. In some instances, 'key' is a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#client_secret_secret_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#client_secret_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#client_secret_secret_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#client_secret_secret_ref}
   */
   readonly clientSecretSecretRef: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01AkamaiClientSecretSecretRef;
   /**
   * A reference to a specific 'key' within a Secret resource. In some instances, 'key' is a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#client_token_secret_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#client_token_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#client_token_secret_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#client_token_secret_ref}
   */
   readonly clientTokenSecretRef: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01AkamaiClientTokenSecretRef;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#service_consumer_domain DataK8SAcmeCertManagerIoChallengeV1Manifest#service_consumer_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#service_consumer_domain DataK8SAcmeCertManagerIoChallengeV1Manifest#service_consumer_domain}
   */
   readonly serviceConsumerDomain: string;
 }
@@ -1202,13 +1202,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Azure
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the resource being referred to. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
   */
   readonly name: string;
 }
@@ -1330,13 +1330,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Azure
   /**
   * client ID of the managed identity, can not be used at the same time as resourceID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#client_id DataK8SAcmeCertManagerIoChallengeV1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#client_id DataK8SAcmeCertManagerIoChallengeV1Manifest#client_id}
   */
   readonly clientId?: string;
   /**
   * resource ID of the managed identity, can not be used at the same time as clientID Cannot be used for Azure Managed Service Identity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#resource_id DataK8SAcmeCertManagerIoChallengeV1Manifest#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#resource_id DataK8SAcmeCertManagerIoChallengeV1Manifest#resource_id}
   */
   readonly resourceId?: string;
 }
@@ -1461,49 +1461,49 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Azure
   /**
   * Auth: Azure Service Principal: The ClientID of the Azure Service Principal used to authenticate with Azure DNS. If set, ClientSecret and TenantID must also be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#client_id DataK8SAcmeCertManagerIoChallengeV1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#client_id DataK8SAcmeCertManagerIoChallengeV1Manifest#client_id}
   */
   readonly clientId?: string;
   /**
   * Auth: Azure Service Principal: A reference to a Secret containing the password associated with the Service Principal. If set, ClientID and TenantID must also be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#client_secret_secret_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#client_secret_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#client_secret_secret_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#client_secret_secret_ref}
   */
   readonly clientSecretSecretRef?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01AzureDnsClientSecretSecretRef;
   /**
   * name of the Azure environment (default AzurePublicCloud)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#environment DataK8SAcmeCertManagerIoChallengeV1Manifest#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#environment DataK8SAcmeCertManagerIoChallengeV1Manifest#environment}
   */
   readonly environment?: string;
   /**
   * name of the DNS zone that should be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#hosted_zone_name DataK8SAcmeCertManagerIoChallengeV1Manifest#hosted_zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#hosted_zone_name DataK8SAcmeCertManagerIoChallengeV1Manifest#hosted_zone_name}
   */
   readonly hostedZoneName?: string;
   /**
   * Auth: Azure Workload Identity or Azure Managed Service Identity: Settings to enable Azure Workload Identity or Azure Managed Service Identity If set, ClientID, ClientSecret and TenantID must not be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#managed_identity DataK8SAcmeCertManagerIoChallengeV1Manifest#managed_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#managed_identity DataK8SAcmeCertManagerIoChallengeV1Manifest#managed_identity}
   */
   readonly managedIdentity?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01AzureDnsManagedIdentity;
   /**
   * resource group the DNS zone is located in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#resource_group_name DataK8SAcmeCertManagerIoChallengeV1Manifest#resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#resource_group_name DataK8SAcmeCertManagerIoChallengeV1Manifest#resource_group_name}
   */
   readonly resourceGroupName: string;
   /**
   * ID of the Azure subscription
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#subscription_id DataK8SAcmeCertManagerIoChallengeV1Manifest#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#subscription_id DataK8SAcmeCertManagerIoChallengeV1Manifest#subscription_id}
   */
   readonly subscriptionId: string;
   /**
   * Auth: Azure Service Principal: The TenantID of the Azure Service Principal used to authenticate with Azure DNS. If set, ClientID and ClientSecret must also be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#tenant_id DataK8SAcmeCertManagerIoChallengeV1Manifest#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#tenant_id DataK8SAcmeCertManagerIoChallengeV1Manifest#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -1796,13 +1796,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Cloud
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the resource being referred to. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
   */
   readonly name: string;
 }
@@ -1924,17 +1924,17 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Cloud
   /**
   * HostedZoneName is an optional field that tells cert-manager in which Cloud DNS zone the challenge record has to be created. If left empty cert-manager will automatically choose a zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#hosted_zone_name DataK8SAcmeCertManagerIoChallengeV1Manifest#hosted_zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#hosted_zone_name DataK8SAcmeCertManagerIoChallengeV1Manifest#hosted_zone_name}
   */
   readonly hostedZoneName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#project DataK8SAcmeCertManagerIoChallengeV1Manifest#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#project DataK8SAcmeCertManagerIoChallengeV1Manifest#project}
   */
   readonly project: string;
   /**
   * A reference to a specific 'key' within a Secret resource. In some instances, 'key' is a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#service_account_secret_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#service_account_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#service_account_secret_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#service_account_secret_ref}
   */
   readonly serviceAccountSecretRef?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01CloudDnsServiceAccountSecretRef;
 }
@@ -2085,13 +2085,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Cloud
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the resource being referred to. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2213,13 +2213,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Cloud
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the resource being referred to. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2341,19 +2341,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Cloud
   /**
   * API key to use to authenticate with Cloudflare. Note: using an API token to authenticate is now the recommended method as it allows greater control of permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#api_key_secret_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#api_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#api_key_secret_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#api_key_secret_ref}
   */
   readonly apiKeySecretRef?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01CloudflareApiKeySecretRef;
   /**
   * API token used to authenticate with Cloudflare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#api_token_secret_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#api_token_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#api_token_secret_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#api_token_secret_ref}
   */
   readonly apiTokenSecretRef?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01CloudflareApiTokenSecretRef;
   /**
   * Email of the account, only required when using API key based authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#email DataK8SAcmeCertManagerIoChallengeV1Manifest#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#email DataK8SAcmeCertManagerIoChallengeV1Manifest#email}
   */
   readonly email?: string;
 }
@@ -2507,13 +2507,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Digit
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the resource being referred to. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2635,7 +2635,7 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Digit
   /**
   * A reference to a specific 'key' within a Secret resource. In some instances, 'key' is a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#token_secret_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#token_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#token_secret_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#token_secret_ref}
   */
   readonly tokenSecretRef: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01DigitaloceanTokenSecretRef;
 }
@@ -2728,13 +2728,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Rfc21
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the resource being referred to. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2856,25 +2856,25 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Rfc21
   /**
   * The IP address or hostname of an authoritative DNS server supporting RFC2136 in the form host:port. If the host is an IPv6 address it must be enclosed in square brackets (e.g [2001:db8::1]) ; port is optional. This field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#nameserver DataK8SAcmeCertManagerIoChallengeV1Manifest#nameserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#nameserver DataK8SAcmeCertManagerIoChallengeV1Manifest#nameserver}
   */
   readonly nameserver: string;
   /**
   * The TSIG Algorithm configured in the DNS supporting RFC2136. Used only when ''tsigSecretSecretRef'' and ''tsigKeyName'' are defined. Supported values are (case-insensitive): ''HMACMD5'' (default), ''HMACSHA1'', ''HMACSHA256'' or ''HMACSHA512''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#tsig_algorithm DataK8SAcmeCertManagerIoChallengeV1Manifest#tsig_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#tsig_algorithm DataK8SAcmeCertManagerIoChallengeV1Manifest#tsig_algorithm}
   */
   readonly tsigAlgorithm?: string;
   /**
   * The TSIG Key name configured in the DNS. If ''tsigSecretSecretRef'' is defined, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#tsig_key_name DataK8SAcmeCertManagerIoChallengeV1Manifest#tsig_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#tsig_key_name DataK8SAcmeCertManagerIoChallengeV1Manifest#tsig_key_name}
   */
   readonly tsigKeyName?: string;
   /**
   * The name of the secret containing the TSIG value. If ''tsigKeyName'' is defined, this field is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#tsig_secret_secret_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#tsig_secret_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#tsig_secret_secret_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#tsig_secret_secret_ref}
   */
   readonly tsigSecretSecretRef?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Rfc2136TsigSecretSecretRef;
 }
@@ -3054,13 +3054,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Route
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the resource being referred to. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
   */
   readonly name: string;
 }
@@ -3182,13 +3182,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Route
   /**
   * TokenAudiences is an optional list of audiences to include in the token passed to AWS. The default token consisting of the issuer's namespace and name is always included. If unset the audience defaults to 'sts.amazonaws.com'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#audiences DataK8SAcmeCertManagerIoChallengeV1Manifest#audiences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#audiences DataK8SAcmeCertManagerIoChallengeV1Manifest#audiences}
   */
   readonly audiences?: string[];
   /**
   * Name of the ServiceAccount used to request a token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
   */
   readonly name: string;
 }
@@ -3310,7 +3310,7 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Route
   /**
   * A reference to a service account that will be used to request a bound token (also known as 'projected token'). To use this field, you must configure an RBAC rule to let cert-manager request a token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#service_account_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#service_account_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#service_account_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#service_account_ref}
   */
   readonly serviceAccountRef: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Route53AuthKubernetesServiceAccountRef;
 }
@@ -3403,7 +3403,7 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Route
   /**
   * Kubernetes authenticates with Route53 using AssumeRoleWithWebIdentity by passing a bound ServiceAccount token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#kubernetes DataK8SAcmeCertManagerIoChallengeV1Manifest#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#kubernetes DataK8SAcmeCertManagerIoChallengeV1Manifest#kubernetes}
   */
   readonly kubernetes: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Route53AuthKubernetes;
 }
@@ -3496,13 +3496,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Route
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the resource being referred to. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
   */
   readonly name: string;
 }
@@ -3624,43 +3624,43 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Route
   /**
   * The AccessKeyID is used for authentication. Cannot be set when SecretAccessKeyID is set. If neither the Access Key nor Key ID are set, we fall-back to using env vars, shared credentials file or AWS Instance metadata, see: https://docs.aws.amazon.com/sdk-for-go/v1/developer-guide/configuring-sdk.html#specifying-credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#access_key_id DataK8SAcmeCertManagerIoChallengeV1Manifest#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#access_key_id DataK8SAcmeCertManagerIoChallengeV1Manifest#access_key_id}
   */
   readonly accessKeyId?: string;
   /**
   * The SecretAccessKey is used for authentication. If set, pull the AWS access key ID from a key within a Kubernetes Secret. Cannot be set when AccessKeyID is set. If neither the Access Key nor Key ID are set, we fall-back to using env vars, shared credentials file or AWS Instance metadata, see: https://docs.aws.amazon.com/sdk-for-go/v1/developer-guide/configuring-sdk.html#specifying-credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#access_key_id_secret_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#access_key_id_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#access_key_id_secret_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#access_key_id_secret_ref}
   */
   readonly accessKeyIdSecretRef?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Route53AccessKeyIdSecretRef;
   /**
   * Auth configures how cert-manager authenticates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#auth DataK8SAcmeCertManagerIoChallengeV1Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#auth DataK8SAcmeCertManagerIoChallengeV1Manifest#auth}
   */
   readonly auth?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Route53Auth;
   /**
   * If set, the provider will manage only this zone in Route53 and will not do a lookup using the route53:ListHostedZonesByName api call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#hosted_zone_id DataK8SAcmeCertManagerIoChallengeV1Manifest#hosted_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#hosted_zone_id DataK8SAcmeCertManagerIoChallengeV1Manifest#hosted_zone_id}
   */
   readonly hostedZoneId?: string;
   /**
   * Override the AWS region. Route53 is a global service and does not have regional endpoints but the region specified here (or via environment variables) is used as a hint to help compute the correct AWS credential scope and partition when it connects to Route53. See: - [Amazon Route 53 endpoints and quotas](https://docs.aws.amazon.com/general/latest/gr/r53.html) - [Global services](https://docs.aws.amazon.com/whitepapers/latest/aws-fault-isolation-boundaries/global-services.html) If you omit this region field, cert-manager will use the region from AWS_REGION and AWS_DEFAULT_REGION environment variables, if they are set in the cert-manager controller Pod. The 'region' field is not needed if you use [IAM Roles for Service Accounts (IRSA)](https://docs.aws.amazon.com/eks/latest/userguide/iam-roles-for-service-accounts.html). Instead an AWS_REGION environment variable is added to the cert-manager controller Pod by: [Amazon EKS Pod Identity Webhook](https://github.com/aws/amazon-eks-pod-identity-webhook). In this case this 'region' field value is ignored. The 'region' field is not needed if you use [EKS Pod Identities](https://docs.aws.amazon.com/eks/latest/userguide/pod-identities.html). Instead an AWS_REGION environment variable is added to the cert-manager controller Pod by: [Amazon EKS Pod Identity Agent](https://github.com/aws/eks-pod-identity-agent), In this case this 'region' field value is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#region DataK8SAcmeCertManagerIoChallengeV1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#region DataK8SAcmeCertManagerIoChallengeV1Manifest#region}
   */
   readonly region?: string;
   /**
   * Role is a Role ARN which the Route53 provider will assume using either the explicit credentials AccessKeyID/SecretAccessKey or the inferred credentials from environment variables, shared credentials file or AWS Instance metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#role DataK8SAcmeCertManagerIoChallengeV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#role DataK8SAcmeCertManagerIoChallengeV1Manifest#role}
   */
   readonly role?: string;
   /**
   * The SecretAccessKey is used for authentication. If neither the Access Key nor Key ID are set, we fall-back to using env vars, shared credentials file or AWS Instance metadata, see: https://docs.aws.amazon.com/sdk-for-go/v1/developer-guide/configuring-sdk.html#specifying-credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#secret_access_key_secret_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#secret_access_key_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#secret_access_key_secret_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#secret_access_key_secret_ref}
   */
   readonly secretAccessKeySecretRef?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Route53SecretAccessKeySecretRef;
 }
@@ -3930,19 +3930,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Webho
   /**
   * Additional configuration that should be passed to the webhook apiserver when challenges are processed. This can contain arbitrary JSON data. Secret values should not be specified in this stanza. If secret values are needed (e.g. credentials for a DNS service), you should use a SecretKeySelector to reference a Secret resource. For details on the schema of this field, consult the webhook provider implementation's documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#config DataK8SAcmeCertManagerIoChallengeV1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#config DataK8SAcmeCertManagerIoChallengeV1Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
   * The API group name that should be used when POSTing ChallengePayload resources to the webhook apiserver. This should be the same as the GroupName specified in the webhook provider implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#group_name DataK8SAcmeCertManagerIoChallengeV1Manifest#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#group_name DataK8SAcmeCertManagerIoChallengeV1Manifest#group_name}
   */
   readonly groupName: string;
   /**
   * The name of the solver to use, as defined in the webhook provider implementation. This will typically be the name of the provider, e.g. 'cloudflare'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#solver_name DataK8SAcmeCertManagerIoChallengeV1Manifest#solver_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#solver_name DataK8SAcmeCertManagerIoChallengeV1Manifest#solver_name}
   */
   readonly solverName: string;
 }
@@ -4090,61 +4090,61 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01 {
   /**
   * Use the 'ACME DNS' (https://github.com/joohoi/acme-dns) API to manage DNS01 challenge records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#acme_dns DataK8SAcmeCertManagerIoChallengeV1Manifest#acme_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#acme_dns DataK8SAcmeCertManagerIoChallengeV1Manifest#acme_dns}
   */
   readonly acmeDns?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01AcmeDns;
   /**
   * Use the Akamai DNS zone management API to manage DNS01 challenge records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#akamai DataK8SAcmeCertManagerIoChallengeV1Manifest#akamai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#akamai DataK8SAcmeCertManagerIoChallengeV1Manifest#akamai}
   */
   readonly akamai?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Akamai;
   /**
   * Use the Microsoft Azure DNS API to manage DNS01 challenge records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#azure_dns DataK8SAcmeCertManagerIoChallengeV1Manifest#azure_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#azure_dns DataK8SAcmeCertManagerIoChallengeV1Manifest#azure_dns}
   */
   readonly azureDns?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01AzureDns;
   /**
   * Use the Google Cloud DNS API to manage DNS01 challenge records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#cloud_dns DataK8SAcmeCertManagerIoChallengeV1Manifest#cloud_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#cloud_dns DataK8SAcmeCertManagerIoChallengeV1Manifest#cloud_dns}
   */
   readonly cloudDns?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01CloudDns;
   /**
   * Use the Cloudflare API to manage DNS01 challenge records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#cloudflare DataK8SAcmeCertManagerIoChallengeV1Manifest#cloudflare}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#cloudflare DataK8SAcmeCertManagerIoChallengeV1Manifest#cloudflare}
   */
   readonly cloudflare?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Cloudflare;
   /**
   * CNAMEStrategy configures how the DNS01 provider should handle CNAME records when found in DNS zones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#cname_strategy DataK8SAcmeCertManagerIoChallengeV1Manifest#cname_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#cname_strategy DataK8SAcmeCertManagerIoChallengeV1Manifest#cname_strategy}
   */
   readonly cnameStrategy?: string;
   /**
   * Use the DigitalOcean DNS API to manage DNS01 challenge records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#digitalocean DataK8SAcmeCertManagerIoChallengeV1Manifest#digitalocean}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#digitalocean DataK8SAcmeCertManagerIoChallengeV1Manifest#digitalocean}
   */
   readonly digitalocean?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Digitalocean;
   /**
   * Use RFC2136 ('Dynamic Updates in the Domain Name System') (https://datatracker.ietf.org/doc/rfc2136/) to manage DNS01 challenge records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#rfc2136 DataK8SAcmeCertManagerIoChallengeV1Manifest#rfc2136}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#rfc2136 DataK8SAcmeCertManagerIoChallengeV1Manifest#rfc2136}
   */
   readonly rfc2136?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Rfc2136;
   /**
   * Use the AWS Route53 API to manage DNS01 challenge records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#route53 DataK8SAcmeCertManagerIoChallengeV1Manifest#route53}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#route53 DataK8SAcmeCertManagerIoChallengeV1Manifest#route53}
   */
   readonly route53?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Route53;
   /**
   * Configure an external webhook based DNS01 challenge solver to manage DNS01 challenge records.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#webhook DataK8SAcmeCertManagerIoChallengeV1Manifest#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#webhook DataK8SAcmeCertManagerIoChallengeV1Manifest#webhook}
   */
   readonly webhook?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01Webhook;
 }
@@ -4501,37 +4501,37 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * Group is the group of the referent. When unspecified, 'gateway.networking.k8s.io' is inferred. To set the core API group (such as for a 'Service' kind referent), Group must be explicitly set to '' (empty string). Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#group DataK8SAcmeCertManagerIoChallengeV1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#group DataK8SAcmeCertManagerIoChallengeV1Manifest#group}
   */
   readonly group?: string;
   /**
   * Kind is kind of the referent. There are two kinds of parent resources with 'Core' support: * Gateway (Gateway conformance profile) * Service (Mesh conformance profile, ClusterIP Services only) Support for other resources is Implementation-Specific.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#kind DataK8SAcmeCertManagerIoChallengeV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#kind DataK8SAcmeCertManagerIoChallengeV1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name is the name of the referent. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of the referent. When unspecified, this refers to the local namespace of the Route. Note that there are specific rules for ParentRefs which cross namespace boundaries. Cross-namespace references are only valid if they are explicitly allowed by something in the namespace they are referring to. For example: Gateway has the AllowedRoutes field, and ReferenceGrant provides a generic way to enable any other kind of cross-namespace reference. <gateway:experimental:description> ParentRefs from a Route to a Service in the same namespace are 'producer' routes, which apply default routing rules to inbound connections from any namespace to the Service. ParentRefs from a Route to a Service in a different namespace are 'consumer' routes, and these routing rules are only applied to outbound connections originating from the same namespace as the Route, for which the intended destination of the connections are a Service targeted as a ParentRef of the Route. </gateway:experimental:description> Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespace DataK8SAcmeCertManagerIoChallengeV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespace DataK8SAcmeCertManagerIoChallengeV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Port is the network port this Route targets. It can be interpreted differently based on the type of parent resource. When the parent resource is a Gateway, this targets all listeners listening on the specified port that also support this kind of Route(and select this Route). It's not recommended to set 'Port' unless the networking behaviors specified in a Route must apply to a specific port as opposed to a listener(s) whose port(s) may be changed. When both Port and SectionName are specified, the name and port of the selected listener must match both specified values. <gateway:experimental:description> When the parent resource is a Service, this targets a specific port in the Service spec. When both Port (experimental) and SectionName are specified, the name and port of the selected port must match both specified values. </gateway:experimental:description> Implementations MAY choose to support other parent resources. Implementations supporting other types of parent resources MUST clearly document how/if Port is interpreted. For the purpose of status, an attachment is considered successful as long as the parent resource accepts it partially. For example, Gateway listeners can restrict which Routes can attach to them by Route kind, namespace, or hostname. If 1 of 2 Gateway listeners accept attachment from the referencing Route, the Route MUST be considered successfully attached. If no Gateway listeners accept attachment from this Route, the Route MUST be considered detached from the Gateway. Support: Extended
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#port DataK8SAcmeCertManagerIoChallengeV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#port DataK8SAcmeCertManagerIoChallengeV1Manifest#port}
   */
   readonly port?: number;
   /**
   * SectionName is the name of a section within the target resource. In the following resources, SectionName is interpreted as the following: * Gateway: Listener name. When both Port (experimental) and SectionName are specified, the name and port of the selected listener must match both specified values. * Service: Port name. When both Port (experimental) and SectionName are specified, the name and port of the selected listener must match both specified values. Implementations MAY choose to support attaching Routes to other resources. If that is the case, they MUST clearly document how SectionName is interpreted. When unspecified (empty string), this will reference the entire resource. For the purpose of status, an attachment is considered successful if at least one section in the parent resource accepts it. For example, Gateway listeners can restrict which Routes can attach to them by Route kind, namespace, or hostname. If 1 of 2 Gateway listeners accept attachment from the referencing Route, the Route MUST be considered successfully attached. If no Gateway listeners accept attachment from this Route, the Route MUST be considered detached from the Gateway. Support: Core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#section_name DataK8SAcmeCertManagerIoChallengeV1Manifest#section_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#section_name DataK8SAcmeCertManagerIoChallengeV1Manifest#section_name}
   */
   readonly sectionName?: string;
 }
@@ -4791,13 +4791,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * Annotations that should be added to the created ACME HTTP01 solver pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#annotations DataK8SAcmeCertManagerIoChallengeV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#annotations DataK8SAcmeCertManagerIoChallengeV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels that should be added to the created ACME HTTP01 solver pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#labels DataK8SAcmeCertManagerIoChallengeV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#labels DataK8SAcmeCertManagerIoChallengeV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -4922,19 +4922,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5104,19 +5104,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5286,13 +5286,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_fields DataK8SAcmeCertManagerIoChallengeV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_fields DataK8SAcmeCertManagerIoChallengeV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -5417,13 +5417,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#preference DataK8SAcmeCertManagerIoChallengeV1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#preference DataK8SAcmeCertManagerIoChallengeV1Manifest#preference}
   */
   readonly preference: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#weight DataK8SAcmeCertManagerIoChallengeV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#weight DataK8SAcmeCertManagerIoChallengeV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -5564,19 +5564,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5746,19 +5746,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5928,13 +5928,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_fields DataK8SAcmeCertManagerIoChallengeV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_fields DataK8SAcmeCertManagerIoChallengeV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -6081,7 +6081,7 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#node_selector_terms DataK8SAcmeCertManagerIoChallengeV1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#node_selector_terms DataK8SAcmeCertManagerIoChallengeV1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -6174,13 +6174,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAcmeCertManagerIoChallengeV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAcmeCertManagerIoChallengeV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SAcmeCertManagerIoChallengeV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SAcmeCertManagerIoChallengeV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -6305,19 +6305,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6487,13 +6487,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6618,19 +6618,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6800,13 +6800,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6931,37 +6931,37 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#label_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#label_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#mismatch_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#mismatch_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespace_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespace_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespaces DataK8SAcmeCertManagerIoChallengeV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespaces DataK8SAcmeCertManagerIoChallengeV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#topology_key DataK8SAcmeCertManagerIoChallengeV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#topology_key DataK8SAcmeCertManagerIoChallengeV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -7199,13 +7199,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#pod_affinity_term DataK8SAcmeCertManagerIoChallengeV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#pod_affinity_term DataK8SAcmeCertManagerIoChallengeV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#weight DataK8SAcmeCertManagerIoChallengeV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#weight DataK8SAcmeCertManagerIoChallengeV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -7346,19 +7346,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7528,13 +7528,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -7659,19 +7659,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7841,13 +7841,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -7972,37 +7972,37 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#label_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#label_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#mismatch_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#mismatch_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespace_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespace_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespaces DataK8SAcmeCertManagerIoChallengeV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespaces DataK8SAcmeCertManagerIoChallengeV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#topology_key DataK8SAcmeCertManagerIoChallengeV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#topology_key DataK8SAcmeCertManagerIoChallengeV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -8262,13 +8262,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAcmeCertManagerIoChallengeV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAcmeCertManagerIoChallengeV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SAcmeCertManagerIoChallengeV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SAcmeCertManagerIoChallengeV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -8393,19 +8393,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8575,13 +8575,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -8706,19 +8706,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8888,13 +8888,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -9019,37 +9019,37 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#label_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#label_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#mismatch_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#mismatch_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespace_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespace_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespaces DataK8SAcmeCertManagerIoChallengeV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespaces DataK8SAcmeCertManagerIoChallengeV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#topology_key DataK8SAcmeCertManagerIoChallengeV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#topology_key DataK8SAcmeCertManagerIoChallengeV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -9287,13 +9287,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#pod_affinity_term DataK8SAcmeCertManagerIoChallengeV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#pod_affinity_term DataK8SAcmeCertManagerIoChallengeV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#weight DataK8SAcmeCertManagerIoChallengeV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#weight DataK8SAcmeCertManagerIoChallengeV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -9434,19 +9434,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9616,13 +9616,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -9747,19 +9747,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9929,13 +9929,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -10060,37 +10060,37 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#label_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#label_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#mismatch_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#mismatch_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespace_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespace_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespaces DataK8SAcmeCertManagerIoChallengeV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespaces DataK8SAcmeCertManagerIoChallengeV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#topology_key DataK8SAcmeCertManagerIoChallengeV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#topology_key DataK8SAcmeCertManagerIoChallengeV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -10350,13 +10350,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAcmeCertManagerIoChallengeV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAcmeCertManagerIoChallengeV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SAcmeCertManagerIoChallengeV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SAcmeCertManagerIoChallengeV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -10481,19 +10481,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#node_affinity DataK8SAcmeCertManagerIoChallengeV1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#node_affinity DataK8SAcmeCertManagerIoChallengeV1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#pod_affinity DataK8SAcmeCertManagerIoChallengeV1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#pod_affinity DataK8SAcmeCertManagerIoChallengeV1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#pod_anti_affinity DataK8SAcmeCertManagerIoChallengeV1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#pod_anti_affinity DataK8SAcmeCertManagerIoChallengeV1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinityPodAntiAffinity;
 }
@@ -10647,7 +10647,7 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -10765,25 +10765,25 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#level DataK8SAcmeCertManagerIoChallengeV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#level DataK8SAcmeCertManagerIoChallengeV1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#role DataK8SAcmeCertManagerIoChallengeV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#role DataK8SAcmeCertManagerIoChallengeV1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#type DataK8SAcmeCertManagerIoChallengeV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#type DataK8SAcmeCertManagerIoChallengeV1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#user DataK8SAcmeCertManagerIoChallengeV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#user DataK8SAcmeCertManagerIoChallengeV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -10966,13 +10966,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#localhost_profile DataK8SAcmeCertManagerIoChallengeV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#localhost_profile DataK8SAcmeCertManagerIoChallengeV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#type DataK8SAcmeCertManagerIoChallengeV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#type DataK8SAcmeCertManagerIoChallengeV1Manifest#type}
   */
   readonly type: string;
 }
@@ -11094,13 +11094,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#value DataK8SAcmeCertManagerIoChallengeV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#value DataK8SAcmeCertManagerIoChallengeV1Manifest#value}
   */
   readonly value: string;
 }
@@ -11241,55 +11241,55 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#fs_group DataK8SAcmeCertManagerIoChallengeV1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#fs_group DataK8SAcmeCertManagerIoChallengeV1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#fs_group_change_policy DataK8SAcmeCertManagerIoChallengeV1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#fs_group_change_policy DataK8SAcmeCertManagerIoChallengeV1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#run_as_group DataK8SAcmeCertManagerIoChallengeV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#run_as_group DataK8SAcmeCertManagerIoChallengeV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#run_as_non_root DataK8SAcmeCertManagerIoChallengeV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#run_as_non_root DataK8SAcmeCertManagerIoChallengeV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#run_as_user DataK8SAcmeCertManagerIoChallengeV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#run_as_user DataK8SAcmeCertManagerIoChallengeV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#se_linux_options DataK8SAcmeCertManagerIoChallengeV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#se_linux_options DataK8SAcmeCertManagerIoChallengeV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#seccomp_profile DataK8SAcmeCertManagerIoChallengeV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#seccomp_profile DataK8SAcmeCertManagerIoChallengeV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID, the fsGroup (if specified), and group memberships defined in the container image for the uid of the container process. If unspecified, no additional groups are added to any container. Note that group memberships defined in the container image for the uid of the container process are still effective, even if they are not included in this list. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#supplemental_groups DataK8SAcmeCertManagerIoChallengeV1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#supplemental_groups DataK8SAcmeCertManagerIoChallengeV1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#sysctls DataK8SAcmeCertManagerIoChallengeV1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#sysctls DataK8SAcmeCertManagerIoChallengeV1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecSecurityContextSysctls[] | cdktf.IResolvable;
 }
@@ -11617,31 +11617,31 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#effect DataK8SAcmeCertManagerIoChallengeV1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#effect DataK8SAcmeCertManagerIoChallengeV1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#toleration_seconds DataK8SAcmeCertManagerIoChallengeV1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#toleration_seconds DataK8SAcmeCertManagerIoChallengeV1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#value DataK8SAcmeCertManagerIoChallengeV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#value DataK8SAcmeCertManagerIoChallengeV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -11875,43 +11875,43 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * If specified, the pod's scheduling constraints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#affinity DataK8SAcmeCertManagerIoChallengeV1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#affinity DataK8SAcmeCertManagerIoChallengeV1Manifest#affinity}
   */
   readonly affinity?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecAffinity;
   /**
   * If specified, the pod's imagePullSecrets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#image_pull_secrets DataK8SAcmeCertManagerIoChallengeV1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#image_pull_secrets DataK8SAcmeCertManagerIoChallengeV1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
   * NodeSelector is a selector which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. More info: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#node_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#node_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * If specified, the pod's priorityClassName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#priority_class_name DataK8SAcmeCertManagerIoChallengeV1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#priority_class_name DataK8SAcmeCertManagerIoChallengeV1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
   * If specified, the pod's security context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#security_context DataK8SAcmeCertManagerIoChallengeV1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#security_context DataK8SAcmeCertManagerIoChallengeV1Manifest#security_context}
   */
   readonly securityContext?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecSecurityContext;
   /**
   * If specified, the pod's service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#service_account_name DataK8SAcmeCertManagerIoChallengeV1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#service_account_name DataK8SAcmeCertManagerIoChallengeV1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#tolerations DataK8SAcmeCertManagerIoChallengeV1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#tolerations DataK8SAcmeCertManagerIoChallengeV1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpecTolerations[] | cdktf.IResolvable;
 }
@@ -12181,13 +12181,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * ObjectMeta overrides for the pod used to solve HTTP01 challenges. Only the 'labels' and 'annotations' fields may be set. If labels or annotations overlap with in-built values, the values here will override the in-built values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#metadata DataK8SAcmeCertManagerIoChallengeV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#metadata DataK8SAcmeCertManagerIoChallengeV1Manifest#metadata}
   */
   readonly metadata?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateMetadata;
   /**
   * PodSpec defines overrides for the HTTP01 challenge solver pod. Check ACMEChallengeSolverHTTP01IngressPodSpec to find out currently supported fields. All other fields will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#spec DataK8SAcmeCertManagerIoChallengeV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#spec DataK8SAcmeCertManagerIoChallengeV1Manifest#spec}
   */
   readonly spec?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplateSpec;
 }
@@ -12312,25 +12312,25 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Gate
   /**
   * Custom labels that will be applied to HTTPRoutes created by cert-manager while solving HTTP-01 challenges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#labels DataK8SAcmeCertManagerIoChallengeV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#labels DataK8SAcmeCertManagerIoChallengeV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * When solving an HTTP-01 challenge, cert-manager creates an HTTPRoute. cert-manager needs to know which parentRefs should be used when creating the HTTPRoute. Usually, the parentRef references a Gateway. See: https://gateway-api.sigs.k8s.io/api-types/httproute/#attaching-to-gateways
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#parent_refs DataK8SAcmeCertManagerIoChallengeV1Manifest#parent_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#parent_refs DataK8SAcmeCertManagerIoChallengeV1Manifest#parent_refs}
   */
   readonly parentRefs?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRouteParentRefs[] | cdktf.IResolvable;
   /**
   * Optional pod template used to configure the ACME challenge solver pods used for HTTP01 challenges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#pod_template DataK8SAcmeCertManagerIoChallengeV1Manifest#pod_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#pod_template DataK8SAcmeCertManagerIoChallengeV1Manifest#pod_template}
   */
   readonly podTemplate?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoutePodTemplate;
   /**
   * Optional service type for Kubernetes solver service. Supported values are NodePort or ClusterIP. If unset, defaults to NodePort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#service_type DataK8SAcmeCertManagerIoChallengeV1Manifest#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#service_type DataK8SAcmeCertManagerIoChallengeV1Manifest#service_type}
   */
   readonly serviceType?: string;
 }
@@ -12513,13 +12513,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * Annotations that should be added to the created ACME HTTP01 solver ingress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#annotations DataK8SAcmeCertManagerIoChallengeV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#annotations DataK8SAcmeCertManagerIoChallengeV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels that should be added to the created ACME HTTP01 solver ingress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#labels DataK8SAcmeCertManagerIoChallengeV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#labels DataK8SAcmeCertManagerIoChallengeV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -12644,7 +12644,7 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * ObjectMeta overrides for the ingress used to solve HTTP01 challenges. Only the 'labels' and 'annotations' fields may be set. If labels or annotations overlap with in-built values, the values here will override the in-built values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#metadata DataK8SAcmeCertManagerIoChallengeV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#metadata DataK8SAcmeCertManagerIoChallengeV1Manifest#metadata}
   */
   readonly metadata?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressIngressTemplateMetadata;
 }
@@ -12740,13 +12740,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * Annotations that should be added to the created ACME HTTP01 solver pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#annotations DataK8SAcmeCertManagerIoChallengeV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#annotations DataK8SAcmeCertManagerIoChallengeV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels that should be added to the created ACME HTTP01 solver pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#labels DataK8SAcmeCertManagerIoChallengeV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#labels DataK8SAcmeCertManagerIoChallengeV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -12871,19 +12871,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13053,19 +13053,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13235,13 +13235,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_fields DataK8SAcmeCertManagerIoChallengeV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_fields DataK8SAcmeCertManagerIoChallengeV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -13366,13 +13366,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#preference DataK8SAcmeCertManagerIoChallengeV1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#preference DataK8SAcmeCertManagerIoChallengeV1Manifest#preference}
   */
   readonly preference: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#weight DataK8SAcmeCertManagerIoChallengeV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#weight DataK8SAcmeCertManagerIoChallengeV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -13513,19 +13513,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13695,19 +13695,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13877,13 +13877,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_fields DataK8SAcmeCertManagerIoChallengeV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_fields DataK8SAcmeCertManagerIoChallengeV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -14030,7 +14030,7 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#node_selector_terms DataK8SAcmeCertManagerIoChallengeV1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#node_selector_terms DataK8SAcmeCertManagerIoChallengeV1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -14123,13 +14123,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAcmeCertManagerIoChallengeV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAcmeCertManagerIoChallengeV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SAcmeCertManagerIoChallengeV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SAcmeCertManagerIoChallengeV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -14254,19 +14254,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -14436,13 +14436,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -14567,19 +14567,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -14749,13 +14749,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -14880,37 +14880,37 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#label_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#label_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#mismatch_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#mismatch_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespace_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespace_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespaces DataK8SAcmeCertManagerIoChallengeV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespaces DataK8SAcmeCertManagerIoChallengeV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#topology_key DataK8SAcmeCertManagerIoChallengeV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#topology_key DataK8SAcmeCertManagerIoChallengeV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -15148,13 +15148,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#pod_affinity_term DataK8SAcmeCertManagerIoChallengeV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#pod_affinity_term DataK8SAcmeCertManagerIoChallengeV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#weight DataK8SAcmeCertManagerIoChallengeV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#weight DataK8SAcmeCertManagerIoChallengeV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -15295,19 +15295,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -15477,13 +15477,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -15608,19 +15608,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -15790,13 +15790,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -15921,37 +15921,37 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#label_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#label_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#mismatch_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#mismatch_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespace_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespace_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespaces DataK8SAcmeCertManagerIoChallengeV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespaces DataK8SAcmeCertManagerIoChallengeV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#topology_key DataK8SAcmeCertManagerIoChallengeV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#topology_key DataK8SAcmeCertManagerIoChallengeV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -16211,13 +16211,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAcmeCertManagerIoChallengeV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAcmeCertManagerIoChallengeV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SAcmeCertManagerIoChallengeV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SAcmeCertManagerIoChallengeV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -16342,19 +16342,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -16524,13 +16524,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -16655,19 +16655,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -16837,13 +16837,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -16968,37 +16968,37 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#label_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#label_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#mismatch_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#mismatch_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespace_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespace_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespaces DataK8SAcmeCertManagerIoChallengeV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespaces DataK8SAcmeCertManagerIoChallengeV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#topology_key DataK8SAcmeCertManagerIoChallengeV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#topology_key DataK8SAcmeCertManagerIoChallengeV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -17236,13 +17236,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#pod_affinity_term DataK8SAcmeCertManagerIoChallengeV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#pod_affinity_term DataK8SAcmeCertManagerIoChallengeV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#weight DataK8SAcmeCertManagerIoChallengeV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#weight DataK8SAcmeCertManagerIoChallengeV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -17383,19 +17383,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -17565,13 +17565,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -17696,19 +17696,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#values DataK8SAcmeCertManagerIoChallengeV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -17878,13 +17878,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_expressions DataK8SAcmeCertManagerIoChallengeV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -18009,37 +18009,37 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#label_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#label_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is a beta field and requires enabling MatchLabelKeysInPodAffinity feature gate (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#mismatch_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#mismatch_label_keys DataK8SAcmeCertManagerIoChallengeV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespace_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespace_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespaces DataK8SAcmeCertManagerIoChallengeV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#namespaces DataK8SAcmeCertManagerIoChallengeV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#topology_key DataK8SAcmeCertManagerIoChallengeV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#topology_key DataK8SAcmeCertManagerIoChallengeV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -18299,13 +18299,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAcmeCertManagerIoChallengeV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SAcmeCertManagerIoChallengeV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SAcmeCertManagerIoChallengeV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SAcmeCertManagerIoChallengeV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -18430,19 +18430,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#node_affinity DataK8SAcmeCertManagerIoChallengeV1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#node_affinity DataK8SAcmeCertManagerIoChallengeV1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#pod_affinity DataK8SAcmeCertManagerIoChallengeV1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#pod_affinity DataK8SAcmeCertManagerIoChallengeV1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#pod_anti_affinity DataK8SAcmeCertManagerIoChallengeV1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#pod_anti_affinity DataK8SAcmeCertManagerIoChallengeV1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinityPodAntiAffinity;
 }
@@ -18596,7 +18596,7 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -18714,25 +18714,25 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#level DataK8SAcmeCertManagerIoChallengeV1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#level DataK8SAcmeCertManagerIoChallengeV1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#role DataK8SAcmeCertManagerIoChallengeV1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#role DataK8SAcmeCertManagerIoChallengeV1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#type DataK8SAcmeCertManagerIoChallengeV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#type DataK8SAcmeCertManagerIoChallengeV1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#user DataK8SAcmeCertManagerIoChallengeV1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#user DataK8SAcmeCertManagerIoChallengeV1Manifest#user}
   */
   readonly user?: string;
 }
@@ -18915,13 +18915,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#localhost_profile DataK8SAcmeCertManagerIoChallengeV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#localhost_profile DataK8SAcmeCertManagerIoChallengeV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#type DataK8SAcmeCertManagerIoChallengeV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#type DataK8SAcmeCertManagerIoChallengeV1Manifest#type}
   */
   readonly type: string;
 }
@@ -19043,13 +19043,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#value DataK8SAcmeCertManagerIoChallengeV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#value DataK8SAcmeCertManagerIoChallengeV1Manifest#value}
   */
   readonly value: string;
 }
@@ -19190,55 +19190,55 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#fs_group DataK8SAcmeCertManagerIoChallengeV1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#fs_group DataK8SAcmeCertManagerIoChallengeV1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#fs_group_change_policy DataK8SAcmeCertManagerIoChallengeV1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#fs_group_change_policy DataK8SAcmeCertManagerIoChallengeV1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#run_as_group DataK8SAcmeCertManagerIoChallengeV1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#run_as_group DataK8SAcmeCertManagerIoChallengeV1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#run_as_non_root DataK8SAcmeCertManagerIoChallengeV1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#run_as_non_root DataK8SAcmeCertManagerIoChallengeV1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#run_as_user DataK8SAcmeCertManagerIoChallengeV1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#run_as_user DataK8SAcmeCertManagerIoChallengeV1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#se_linux_options DataK8SAcmeCertManagerIoChallengeV1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#se_linux_options DataK8SAcmeCertManagerIoChallengeV1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#seccomp_profile DataK8SAcmeCertManagerIoChallengeV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#seccomp_profile DataK8SAcmeCertManagerIoChallengeV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID, the fsGroup (if specified), and group memberships defined in the container image for the uid of the container process. If unspecified, no additional groups are added to any container. Note that group memberships defined in the container image for the uid of the container process are still effective, even if they are not included in this list. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#supplemental_groups DataK8SAcmeCertManagerIoChallengeV1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#supplemental_groups DataK8SAcmeCertManagerIoChallengeV1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#sysctls DataK8SAcmeCertManagerIoChallengeV1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#sysctls DataK8SAcmeCertManagerIoChallengeV1Manifest#sysctls}
   */
   readonly sysctls?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecSecurityContextSysctls[] | cdktf.IResolvable;
 }
@@ -19566,31 +19566,31 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#effect DataK8SAcmeCertManagerIoChallengeV1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#effect DataK8SAcmeCertManagerIoChallengeV1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#operator DataK8SAcmeCertManagerIoChallengeV1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#toleration_seconds DataK8SAcmeCertManagerIoChallengeV1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#toleration_seconds DataK8SAcmeCertManagerIoChallengeV1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#value DataK8SAcmeCertManagerIoChallengeV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#value DataK8SAcmeCertManagerIoChallengeV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -19824,43 +19824,43 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * If specified, the pod's scheduling constraints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#affinity DataK8SAcmeCertManagerIoChallengeV1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#affinity DataK8SAcmeCertManagerIoChallengeV1Manifest#affinity}
   */
   readonly affinity?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecAffinity;
   /**
   * If specified, the pod's imagePullSecrets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#image_pull_secrets DataK8SAcmeCertManagerIoChallengeV1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#image_pull_secrets DataK8SAcmeCertManagerIoChallengeV1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
   * NodeSelector is a selector which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. More info: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#node_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#node_selector DataK8SAcmeCertManagerIoChallengeV1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * If specified, the pod's priorityClassName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#priority_class_name DataK8SAcmeCertManagerIoChallengeV1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#priority_class_name DataK8SAcmeCertManagerIoChallengeV1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
   * If specified, the pod's security context
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#security_context DataK8SAcmeCertManagerIoChallengeV1Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#security_context DataK8SAcmeCertManagerIoChallengeV1Manifest#security_context}
   */
   readonly securityContext?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecSecurityContext;
   /**
   * If specified, the pod's service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#service_account_name DataK8SAcmeCertManagerIoChallengeV1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#service_account_name DataK8SAcmeCertManagerIoChallengeV1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#tolerations DataK8SAcmeCertManagerIoChallengeV1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#tolerations DataK8SAcmeCertManagerIoChallengeV1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpecTolerations[] | cdktf.IResolvable;
 }
@@ -20130,13 +20130,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * ObjectMeta overrides for the pod used to solve HTTP01 challenges. Only the 'labels' and 'annotations' fields may be set. If labels or annotations overlap with in-built values, the values here will override the in-built values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#metadata DataK8SAcmeCertManagerIoChallengeV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#metadata DataK8SAcmeCertManagerIoChallengeV1Manifest#metadata}
   */
   readonly metadata?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateMetadata;
   /**
   * PodSpec defines overrides for the HTTP01 challenge solver pod. Check ACMEChallengeSolverHTTP01IngressPodSpec to find out currently supported fields. All other fields will be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#spec DataK8SAcmeCertManagerIoChallengeV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#spec DataK8SAcmeCertManagerIoChallengeV1Manifest#spec}
   */
   readonly spec?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplateSpec;
 }
@@ -20261,37 +20261,37 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingr
   /**
   * This field configures the annotation 'kubernetes.io/ingress.class' when creating Ingress resources to solve ACME challenges that use this challenge solver. Only one of 'class', 'name' or 'ingressClassName' may be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#class DataK8SAcmeCertManagerIoChallengeV1Manifest#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#class DataK8SAcmeCertManagerIoChallengeV1Manifest#class}
   */
   readonly class?: string;
   /**
   * This field configures the field 'ingressClassName' on the created Ingress resources used to solve ACME challenges that use this challenge solver. This is the recommended way of configuring the ingress class. Only one of 'class', 'name' or 'ingressClassName' may be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#ingress_class_name DataK8SAcmeCertManagerIoChallengeV1Manifest#ingress_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#ingress_class_name DataK8SAcmeCertManagerIoChallengeV1Manifest#ingress_class_name}
   */
   readonly ingressClassName?: string;
   /**
   * Optional ingress template used to configure the ACME challenge solver ingress used for HTTP01 challenges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#ingress_template DataK8SAcmeCertManagerIoChallengeV1Manifest#ingress_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#ingress_template DataK8SAcmeCertManagerIoChallengeV1Manifest#ingress_template}
   */
   readonly ingressTemplate?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressIngressTemplate;
   /**
   * The name of the ingress resource that should have ACME challenge solving routes inserted into it in order to solve HTTP01 challenges. This is typically used in conjunction with ingress controllers like ingress-gce, which maintains a 1:1 mapping between external IPs and ingress resources. Only one of 'class', 'name' or 'ingressClassName' may be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#name DataK8SAcmeCertManagerIoChallengeV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Optional pod template used to configure the ACME challenge solver pods used for HTTP01 challenges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#pod_template DataK8SAcmeCertManagerIoChallengeV1Manifest#pod_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#pod_template DataK8SAcmeCertManagerIoChallengeV1Manifest#pod_template}
   */
   readonly podTemplate?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01IngressPodTemplate;
   /**
   * Optional service type for Kubernetes solver service. Supported values are NodePort or ClusterIP. If unset, defaults to NodePort.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#service_type DataK8SAcmeCertManagerIoChallengeV1Manifest#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#service_type DataK8SAcmeCertManagerIoChallengeV1Manifest#service_type}
   */
   readonly serviceType?: string;
 }
@@ -20532,13 +20532,13 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01 {
   /**
   * The Gateway API is a sig-network community API that models service networking in Kubernetes (https://gateway-api.sigs.k8s.io/). The Gateway solver will create HTTPRoutes with the specified labels in the same namespace as the challenge. This solver is experimental, and fields / behaviour may change in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#gateway_http_route DataK8SAcmeCertManagerIoChallengeV1Manifest#gateway_http_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#gateway_http_route DataK8SAcmeCertManagerIoChallengeV1Manifest#gateway_http_route}
   */
   readonly gatewayHttpRoute?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01GatewayHttpRoute;
   /**
   * The ingress based HTTP01 challenge solver will solve challenges by creating or modifying Ingress resources in order to route requests for '/.well-known/acme-challenge/XYZ' to 'challenge solver' pods that are provisioned by cert-manager for each Challenge to be completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#ingress DataK8SAcmeCertManagerIoChallengeV1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#ingress DataK8SAcmeCertManagerIoChallengeV1Manifest#ingress}
   */
   readonly ingress?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01Ingress;
 }
@@ -20663,19 +20663,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverSelector {
   /**
   * List of DNSNames that this solver will be used to solve. If specified and a match is found, a dnsNames selector will take precedence over a dnsZones selector. If multiple solvers match with the same dnsNames value, the solver with the most matching labels in matchLabels will be selected. If neither has more matches, the solver defined earlier in the list will be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#dns_names DataK8SAcmeCertManagerIoChallengeV1Manifest#dns_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#dns_names DataK8SAcmeCertManagerIoChallengeV1Manifest#dns_names}
   */
   readonly dnsNames?: string[];
   /**
   * List of DNSZones that this solver will be used to solve. The most specific DNS zone match specified here will take precedence over other DNS zone matches, so a solver specifying sys.example.com will be selected over one specifying example.com for the domain www.sys.example.com. If multiple solvers match with the same dnsZones value, the solver with the most matching labels in matchLabels will be selected. If neither has more matches, the solver defined earlier in the list will be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#dns_zones DataK8SAcmeCertManagerIoChallengeV1Manifest#dns_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#dns_zones DataK8SAcmeCertManagerIoChallengeV1Manifest#dns_zones}
   */
   readonly dnsZones?: string[];
   /**
   * A label selector that is used to refine the set of certificate's that this challenge solver will apply to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#match_labels DataK8SAcmeCertManagerIoChallengeV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -20829,19 +20829,19 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolver {
   /**
   * Configures cert-manager to attempt to complete authorizations by performing the DNS01 challenge flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#dns01 DataK8SAcmeCertManagerIoChallengeV1Manifest#dns01}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#dns01 DataK8SAcmeCertManagerIoChallengeV1Manifest#dns01}
   */
   readonly dns01?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverDns01;
   /**
   * Configures cert-manager to attempt to complete authorizations by performing the HTTP01 challenge flow. It is not possible to obtain certificates for wildcard domain names (e.g. '*.example.com') using the HTTP01 challenge mechanism.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#http01 DataK8SAcmeCertManagerIoChallengeV1Manifest#http01}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#http01 DataK8SAcmeCertManagerIoChallengeV1Manifest#http01}
   */
   readonly http01?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverHttp01;
   /**
   * Selector selects a set of DNSNames on the Certificate resource that should be solved using this challenge solver. If not specified, the solver will be treated as the 'default' solver with the lowest priority, i.e. if any other solver has a more specific match, it will be used instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#selector DataK8SAcmeCertManagerIoChallengeV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#selector DataK8SAcmeCertManagerIoChallengeV1Manifest#selector}
   */
   readonly selector?: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolverSelector;
 }
@@ -20995,55 +20995,55 @@ export interface DataK8SAcmeCertManagerIoChallengeV1ManifestSpec {
   /**
   * The URL to the ACME Authorization resource that this challenge is a part of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#authorization_url DataK8SAcmeCertManagerIoChallengeV1Manifest#authorization_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#authorization_url DataK8SAcmeCertManagerIoChallengeV1Manifest#authorization_url}
   */
   readonly authorizationUrl: string;
   /**
   * dnsName is the identifier that this challenge is for, e.g. example.com. If the requested DNSName is a 'wildcard', this field MUST be set to the non-wildcard domain, e.g. for '*.example.com', it must be 'example.com'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#dns_name DataK8SAcmeCertManagerIoChallengeV1Manifest#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#dns_name DataK8SAcmeCertManagerIoChallengeV1Manifest#dns_name}
   */
   readonly dnsName: string;
   /**
   * References a properly configured ACME-type Issuer which should be used to create this Challenge. If the Issuer does not exist, processing will be retried. If the Issuer is not an 'ACME' Issuer, an error will be returned and the Challenge will be marked as failed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#issuer_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#issuer_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#issuer_ref DataK8SAcmeCertManagerIoChallengeV1Manifest#issuer_ref}
   */
   readonly issuerRef: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecIssuerRef;
   /**
   * The ACME challenge key for this challenge For HTTP01 challenges, this is the value that must be responded with to complete the HTTP01 challenge in the format: '<private key JWK thumbprint>.<key from acme server for challenge>'. For DNS01 challenges, this is the base64 encoded SHA256 sum of the '<private key JWK thumbprint>.<key from acme server for challenge>' text that must be set as the TXT record content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#key DataK8SAcmeCertManagerIoChallengeV1Manifest#key}
   */
   readonly key: string;
   /**
   * Contains the domain solving configuration that should be used to solve this challenge resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#solver DataK8SAcmeCertManagerIoChallengeV1Manifest#solver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#solver DataK8SAcmeCertManagerIoChallengeV1Manifest#solver}
   */
   readonly solver: DataK8SAcmeCertManagerIoChallengeV1ManifestSpecSolver;
   /**
   * The ACME challenge token for this challenge. This is the raw value returned from the ACME server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#token DataK8SAcmeCertManagerIoChallengeV1Manifest#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#token DataK8SAcmeCertManagerIoChallengeV1Manifest#token}
   */
   readonly token: string;
   /**
   * The type of ACME challenge this resource represents. One of 'HTTP-01' or 'DNS-01'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#type DataK8SAcmeCertManagerIoChallengeV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#type DataK8SAcmeCertManagerIoChallengeV1Manifest#type}
   */
   readonly type: string;
   /**
   * The URL of the ACME Challenge resource for this challenge. This can be used to lookup details about the status of this challenge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#url DataK8SAcmeCertManagerIoChallengeV1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#url DataK8SAcmeCertManagerIoChallengeV1Manifest#url}
   */
   readonly url: string;
   /**
   * wildcard will be true if this challenge is for a wildcard identifier, for example '*.example.com'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#wildcard DataK8SAcmeCertManagerIoChallengeV1Manifest#wildcard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#wildcard DataK8SAcmeCertManagerIoChallengeV1Manifest#wildcard}
   */
   readonly wildcard?: boolean | cdktf.IResolvable;
 }
@@ -21345,7 +21345,7 @@ export class DataK8SAcmeCertManagerIoChallengeV1ManifestSpecOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest k8s_acme_cert_manager_io_challenge_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest k8s_acme_cert_manager_io_challenge_v1_manifest}
 */
 export class DataK8SAcmeCertManagerIoChallengeV1Manifest extends cdktf.TerraformDataSource {
 
@@ -21361,7 +21361,7 @@ export class DataK8SAcmeCertManagerIoChallengeV1Manifest extends cdktf.Terraform
   * Generates CDKTF code for importing a DataK8SAcmeCertManagerIoChallengeV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAcmeCertManagerIoChallengeV1Manifest to import
-  * @param importFromId The id of the existing DataK8SAcmeCertManagerIoChallengeV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAcmeCertManagerIoChallengeV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAcmeCertManagerIoChallengeV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -21373,7 +21373,7 @@ export class DataK8SAcmeCertManagerIoChallengeV1Manifest extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest k8s_acme_cert_manager_io_challenge_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acme_cert_manager_io_challenge_v1_manifest k8s_acme_cert_manager_io_challenge_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -21384,8 +21384,8 @@ export class DataK8SAcmeCertManagerIoChallengeV1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_acme_cert_manager_io_challenge_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

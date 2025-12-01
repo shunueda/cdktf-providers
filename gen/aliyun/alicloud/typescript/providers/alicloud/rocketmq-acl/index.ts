@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rocketmq_acl
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rocketmq_acl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface RocketmqAclConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rocketmq_acl#actions RocketmqAcl#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rocketmq_acl#actions RocketmqAcl#actions}
   */
   readonly actions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rocketmq_acl#decision RocketmqAcl#decision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rocketmq_acl#decision RocketmqAcl#decision}
   */
   readonly decision: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rocketmq_acl#id RocketmqAcl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rocketmq_acl#id RocketmqAcl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rocketmq_acl#instance_id RocketmqAcl#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rocketmq_acl#instance_id RocketmqAcl#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rocketmq_acl#ip_whitelists RocketmqAcl#ip_whitelists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rocketmq_acl#ip_whitelists RocketmqAcl#ip_whitelists}
   */
   readonly ipWhitelists?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rocketmq_acl#resource_name RocketmqAcl#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rocketmq_acl#resource_name RocketmqAcl#resource_name}
   */
   readonly resourceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rocketmq_acl#resource_type RocketmqAcl#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rocketmq_acl#resource_type RocketmqAcl#resource_type}
   */
   readonly resourceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rocketmq_acl#username RocketmqAcl#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rocketmq_acl#username RocketmqAcl#username}
   */
   readonly username: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rocketmq_acl#timeouts RocketmqAcl#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rocketmq_acl#timeouts RocketmqAcl#timeouts}
   */
   readonly timeouts?: RocketmqAclTimeouts;
 }
 export interface RocketmqAclTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rocketmq_acl#create RocketmqAcl#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rocketmq_acl#create RocketmqAcl#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rocketmq_acl#delete RocketmqAcl#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rocketmq_acl#delete RocketmqAcl#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rocketmq_acl#update RocketmqAcl#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rocketmq_acl#update RocketmqAcl#update}
   */
   readonly update?: string;
 }
@@ -211,7 +211,7 @@ export class RocketmqAclTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rocketmq_acl alicloud_rocketmq_acl}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rocketmq_acl alicloud_rocketmq_acl}
 */
 export class RocketmqAcl extends cdktf.TerraformResource {
 
@@ -227,7 +227,7 @@ export class RocketmqAcl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RocketmqAcl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RocketmqAcl to import
-  * @param importFromId The id of the existing RocketmqAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rocketmq_acl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RocketmqAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rocketmq_acl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RocketmqAcl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -239,7 +239,7 @@ export class RocketmqAcl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rocketmq_acl alicloud_rocketmq_acl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rocketmq_acl alicloud_rocketmq_acl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,8 +250,8 @@ export class RocketmqAcl extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_rocketmq_acl',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

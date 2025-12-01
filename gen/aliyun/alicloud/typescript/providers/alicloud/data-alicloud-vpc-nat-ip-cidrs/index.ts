@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_nat_ip_cidrs
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_nat_ip_cidrs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudVpcNatIpCidrsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_nat_ip_cidrs#id DataAlicloudVpcNatIpCidrs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_nat_ip_cidrs#id DataAlicloudVpcNatIpCidrs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_nat_ip_cidrs#ids DataAlicloudVpcNatIpCidrs#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_nat_ip_cidrs#ids DataAlicloudVpcNatIpCidrs#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_nat_ip_cidrs#name_regex DataAlicloudVpcNatIpCidrs#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_nat_ip_cidrs#name_regex DataAlicloudVpcNatIpCidrs#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_nat_ip_cidrs#nat_gateway_id DataAlicloudVpcNatIpCidrs#nat_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_nat_ip_cidrs#nat_gateway_id DataAlicloudVpcNatIpCidrs#nat_gateway_id}
   */
   readonly natGatewayId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_nat_ip_cidrs#nat_ip_cidr_name DataAlicloudVpcNatIpCidrs#nat_ip_cidr_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_nat_ip_cidrs#nat_ip_cidr_name DataAlicloudVpcNatIpCidrs#nat_ip_cidr_name}
   */
   readonly natIpCidrName?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_nat_ip_cidrs#nat_ip_cidrs DataAlicloudVpcNatIpCidrs#nat_ip_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_nat_ip_cidrs#nat_ip_cidrs DataAlicloudVpcNatIpCidrs#nat_ip_cidrs}
   */
   readonly natIpCidrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_nat_ip_cidrs#output_file DataAlicloudVpcNatIpCidrs#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_nat_ip_cidrs#output_file DataAlicloudVpcNatIpCidrs#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_nat_ip_cidrs#status DataAlicloudVpcNatIpCidrs#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_nat_ip_cidrs#status DataAlicloudVpcNatIpCidrs#status}
   */
   readonly status?: string;
 }
@@ -160,7 +160,7 @@ export class DataAlicloudVpcNatIpCidrsCidrsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_nat_ip_cidrs alicloud_vpc_nat_ip_cidrs}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_nat_ip_cidrs alicloud_vpc_nat_ip_cidrs}
 */
 export class DataAlicloudVpcNatIpCidrs extends cdktf.TerraformDataSource {
 
@@ -176,7 +176,7 @@ export class DataAlicloudVpcNatIpCidrs extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudVpcNatIpCidrs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudVpcNatIpCidrs to import
-  * @param importFromId The id of the existing DataAlicloudVpcNatIpCidrs that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_nat_ip_cidrs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudVpcNatIpCidrs that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_nat_ip_cidrs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudVpcNatIpCidrs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -188,7 +188,7 @@ export class DataAlicloudVpcNatIpCidrs extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/vpc_nat_ip_cidrs alicloud_vpc_nat_ip_cidrs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/vpc_nat_ip_cidrs alicloud_vpc_nat_ip_cidrs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -199,8 +199,8 @@ export class DataAlicloudVpcNatIpCidrs extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_vpc_nat_ip_cidrs',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

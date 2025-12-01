@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/fcv3_triggers
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/fcv3_triggers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudFcv3TriggersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/fcv3_triggers#function_name DataAlicloudFcv3Triggers#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/fcv3_triggers#function_name DataAlicloudFcv3Triggers#function_name}
   */
   readonly functionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/fcv3_triggers#id DataAlicloudFcv3Triggers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/fcv3_triggers#id DataAlicloudFcv3Triggers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/fcv3_triggers#ids DataAlicloudFcv3Triggers#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/fcv3_triggers#ids DataAlicloudFcv3Triggers#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/fcv3_triggers#name_regex DataAlicloudFcv3Triggers#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/fcv3_triggers#name_regex DataAlicloudFcv3Triggers#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/fcv3_triggers#output_file DataAlicloudFcv3Triggers#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/fcv3_triggers#output_file DataAlicloudFcv3Triggers#output_file}
   */
   readonly outputFile?: string;
 }
@@ -254,7 +254,7 @@ export class DataAlicloudFcv3TriggersTriggersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/fcv3_triggers alicloud_fcv3_triggers}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/fcv3_triggers alicloud_fcv3_triggers}
 */
 export class DataAlicloudFcv3Triggers extends cdktf.TerraformDataSource {
 
@@ -270,7 +270,7 @@ export class DataAlicloudFcv3Triggers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudFcv3Triggers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudFcv3Triggers to import
-  * @param importFromId The id of the existing DataAlicloudFcv3Triggers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/fcv3_triggers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudFcv3Triggers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/fcv3_triggers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudFcv3Triggers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -282,7 +282,7 @@ export class DataAlicloudFcv3Triggers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/fcv3_triggers alicloud_fcv3_triggers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/fcv3_triggers alicloud_fcv3_triggers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -293,8 +293,8 @@ export class DataAlicloudFcv3Triggers extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_fcv3_triggers',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

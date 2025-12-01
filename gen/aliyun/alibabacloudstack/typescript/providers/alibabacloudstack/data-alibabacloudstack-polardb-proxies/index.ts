@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/polardb_proxies
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/polardb_proxies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,18 +8,18 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackPolardbProxiesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/polardb_proxies#db_instance_id DataAlibabacloudstackPolardbProxies#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/polardb_proxies#db_instance_id DataAlibabacloudstackPolardbProxies#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/polardb_proxies#id DataAlibabacloudstackPolardbProxies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/polardb_proxies#id DataAlibabacloudstackPolardbProxies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/polardb_proxies#ids DataAlibabacloudstackPolardbProxies#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/polardb_proxies#ids DataAlibabacloudstackPolardbProxies#ids}
   */
   readonly ids?: string[];
 }
@@ -342,7 +342,7 @@ export class DataAlibabacloudstackPolardbProxiesDbProxiesList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/polardb_proxies alibabacloudstack_polardb_proxies}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/polardb_proxies alibabacloudstack_polardb_proxies}
 */
 export class DataAlibabacloudstackPolardbProxies extends cdktf.TerraformDataSource {
 
@@ -358,7 +358,7 @@ export class DataAlibabacloudstackPolardbProxies extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataAlibabacloudstackPolardbProxies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackPolardbProxies to import
-  * @param importFromId The id of the existing DataAlibabacloudstackPolardbProxies that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/polardb_proxies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackPolardbProxies that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/polardb_proxies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackPolardbProxies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -370,7 +370,7 @@ export class DataAlibabacloudstackPolardbProxies extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/polardb_proxies alibabacloudstack_polardb_proxies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/polardb_proxies alibabacloudstack_polardb_proxies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -381,7 +381,8 @@ export class DataAlibabacloudstackPolardbProxies extends cdktf.TerraformDataSour
       terraformResourceType: 'alibabacloudstack_polardb_proxies',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cms_metric_metalist
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cms_metric_metalist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,16 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackCmsMetricMetalistConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cms_metric_metalist#id DataAlibabacloudstackCmsMetricMetalist#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cms_metric_metalist#id DataAlibabacloudstackCmsMetricMetalist#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cms_metric_metalist#namespace DataAlibabacloudstackCmsMetricMetalist#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cms_metric_metalist#namespace DataAlibabacloudstackCmsMetricMetalist#namespace}
   */
   readonly namespace: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cms_metric_metalist#output_file DataAlibabacloudstackCmsMetricMetalist#output_file}
+  */
+  readonly outputFile?: string;
 }
 export interface DataAlibabacloudstackCmsMetricMetalistResources {
 }
@@ -131,7 +135,7 @@ export class DataAlibabacloudstackCmsMetricMetalistResourcesList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cms_metric_metalist alibabacloudstack_cms_metric_metalist}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cms_metric_metalist alibabacloudstack_cms_metric_metalist}
 */
 export class DataAlibabacloudstackCmsMetricMetalist extends cdktf.TerraformDataSource {
 
@@ -147,7 +151,7 @@ export class DataAlibabacloudstackCmsMetricMetalist extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataAlibabacloudstackCmsMetricMetalist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackCmsMetricMetalist to import
-  * @param importFromId The id of the existing DataAlibabacloudstackCmsMetricMetalist that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cms_metric_metalist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackCmsMetricMetalist that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cms_metric_metalist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackCmsMetricMetalist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -159,7 +163,7 @@ export class DataAlibabacloudstackCmsMetricMetalist extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cms_metric_metalist alibabacloudstack_cms_metric_metalist} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cms_metric_metalist alibabacloudstack_cms_metric_metalist} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -170,8 +174,8 @@ export class DataAlibabacloudstackCmsMetricMetalist extends cdktf.TerraformDataS
       terraformResourceType: 'alibabacloudstack_cms_metric_metalist',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -183,6 +187,7 @@ export class DataAlibabacloudstackCmsMetricMetalist extends cdktf.TerraformDataS
     });
     this._id = config.id;
     this._namespace = config.namespace;
+    this._outputFile = config.outputFile;
   }
 
   // ==========
@@ -218,6 +223,22 @@ export class DataAlibabacloudstackCmsMetricMetalist extends cdktf.TerraformDataS
     return this._namespace;
   }
 
+  // output_file - computed: false, optional: true, required: false
+  private _outputFile?: string; 
+  public get outputFile() {
+    return this.getStringAttribute('output_file');
+  }
+  public set outputFile(value: string) {
+    this._outputFile = value;
+  }
+  public resetOutputFile() {
+    this._outputFile = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get outputFileInput() {
+    return this._outputFile;
+  }
+
   // resources - computed: true, optional: false, required: false
   private _resources = new DataAlibabacloudstackCmsMetricMetalistResourcesList(this, "resources", false);
   public get resources() {
@@ -232,6 +253,7 @@ export class DataAlibabacloudstackCmsMetricMetalist extends cdktf.TerraformDataS
     return {
       id: cdktf.stringToTerraform(this._id),
       namespace: cdktf.stringToTerraform(this._namespace),
+      output_file: cdktf.stringToTerraform(this._outputFile),
     };
   }
 
@@ -245,6 +267,12 @@ export class DataAlibabacloudstackCmsMetricMetalist extends cdktf.TerraformDataS
       },
       namespace: {
         value: cdktf.stringToHclTerraform(this._namespace),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      output_file: {
+        value: cdktf.stringToHclTerraform(this._outputFile),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

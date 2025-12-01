@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbr_backup_jobs
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/hbr_backup_jobs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudHbrBackupJobsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbr_backup_jobs#id DataAlicloudHbrBackupJobs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/hbr_backup_jobs#id DataAlicloudHbrBackupJobs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbr_backup_jobs#ids DataAlicloudHbrBackupJobs#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/hbr_backup_jobs#ids DataAlicloudHbrBackupJobs#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbr_backup_jobs#output_file DataAlicloudHbrBackupJobs#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/hbr_backup_jobs#output_file DataAlicloudHbrBackupJobs#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbr_backup_jobs#sort_direction DataAlicloudHbrBackupJobs#sort_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/hbr_backup_jobs#sort_direction DataAlicloudHbrBackupJobs#sort_direction}
   */
   readonly sortDirection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbr_backup_jobs#source_type DataAlicloudHbrBackupJobs#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/hbr_backup_jobs#source_type DataAlicloudHbrBackupJobs#source_type}
   */
   readonly sourceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbr_backup_jobs#status DataAlicloudHbrBackupJobs#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/hbr_backup_jobs#status DataAlicloudHbrBackupJobs#status}
   */
   readonly status?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbr_backup_jobs#filter DataAlicloudHbrBackupJobs#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/hbr_backup_jobs#filter DataAlicloudHbrBackupJobs#filter}
   */
   readonly filter?: DataAlicloudHbrBackupJobsFilter[] | cdktf.IResolvable;
 }
@@ -349,15 +349,15 @@ export class DataAlicloudHbrBackupJobsJobsList extends cdktf.ComplexList {
 }
 export interface DataAlicloudHbrBackupJobsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbr_backup_jobs#key DataAlicloudHbrBackupJobs#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/hbr_backup_jobs#key DataAlicloudHbrBackupJobs#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbr_backup_jobs#operator DataAlicloudHbrBackupJobs#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/hbr_backup_jobs#operator DataAlicloudHbrBackupJobs#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbr_backup_jobs#values DataAlicloudHbrBackupJobs#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/hbr_backup_jobs#values DataAlicloudHbrBackupJobs#values}
   */
   readonly values?: string[];
 }
@@ -531,7 +531,7 @@ export class DataAlicloudHbrBackupJobsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbr_backup_jobs alicloud_hbr_backup_jobs}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/hbr_backup_jobs alicloud_hbr_backup_jobs}
 */
 export class DataAlicloudHbrBackupJobs extends cdktf.TerraformDataSource {
 
@@ -547,7 +547,7 @@ export class DataAlicloudHbrBackupJobs extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudHbrBackupJobs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudHbrBackupJobs to import
-  * @param importFromId The id of the existing DataAlicloudHbrBackupJobs that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbr_backup_jobs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudHbrBackupJobs that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/hbr_backup_jobs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudHbrBackupJobs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -559,7 +559,7 @@ export class DataAlicloudHbrBackupJobs extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/hbr_backup_jobs alicloud_hbr_backup_jobs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/hbr_backup_jobs alicloud_hbr_backup_jobs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -570,8 +570,8 @@ export class DataAlicloudHbrBackupJobs extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_hbr_backup_jobs',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

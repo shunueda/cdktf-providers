@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_server_group_attachment
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ess_server_group_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface EssServerGroupAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_server_group_attachment#force_attach EssServerGroupAttachment#force_attach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ess_server_group_attachment#force_attach EssServerGroupAttachment#force_attach}
   */
   readonly forceAttach?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_server_group_attachment#id EssServerGroupAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ess_server_group_attachment#id EssServerGroupAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_server_group_attachment#port EssServerGroupAttachment#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ess_server_group_attachment#port EssServerGroupAttachment#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_server_group_attachment#scaling_group_id EssServerGroupAttachment#scaling_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ess_server_group_attachment#scaling_group_id EssServerGroupAttachment#scaling_group_id}
   */
   readonly scalingGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_server_group_attachment#server_group_id EssServerGroupAttachment#server_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ess_server_group_attachment#server_group_id EssServerGroupAttachment#server_group_id}
   */
   readonly serverGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_server_group_attachment#type EssServerGroupAttachment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ess_server_group_attachment#type EssServerGroupAttachment#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_server_group_attachment#weight EssServerGroupAttachment#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ess_server_group_attachment#weight EssServerGroupAttachment#weight}
   */
   readonly weight: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_server_group_attachment#timeouts EssServerGroupAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ess_server_group_attachment#timeouts EssServerGroupAttachment#timeouts}
   */
   readonly timeouts?: EssServerGroupAttachmentTimeouts;
 }
 export interface EssServerGroupAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_server_group_attachment#create EssServerGroupAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ess_server_group_attachment#create EssServerGroupAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_server_group_attachment#delete EssServerGroupAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ess_server_group_attachment#delete EssServerGroupAttachment#delete}
   */
   readonly delete?: string;
 }
@@ -174,7 +174,7 @@ export class EssServerGroupAttachmentTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_server_group_attachment alicloud_ess_server_group_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ess_server_group_attachment alicloud_ess_server_group_attachment}
 */
 export class EssServerGroupAttachment extends cdktf.TerraformResource {
 
@@ -190,7 +190,7 @@ export class EssServerGroupAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EssServerGroupAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EssServerGroupAttachment to import
-  * @param importFromId The id of the existing EssServerGroupAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_server_group_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EssServerGroupAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ess_server_group_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EssServerGroupAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class EssServerGroupAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ess_server_group_attachment alicloud_ess_server_group_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ess_server_group_attachment alicloud_ess_server_group_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,8 +213,8 @@ export class EssServerGroupAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ess_server_group_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

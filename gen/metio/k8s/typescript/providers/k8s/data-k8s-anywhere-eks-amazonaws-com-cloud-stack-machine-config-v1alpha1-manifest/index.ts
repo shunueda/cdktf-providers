@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Ma
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1ManifestMetadata;
   /**
   * CloudStackMachineConfigSpec defines the desired state of CloudStackMachineConfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#spec DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#spec DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Ma
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#annotations DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#annotations DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Ma
   /**
   * Id of a resource in the CloudStack environment. Mutually exclusive with Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#id DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#id DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -228,7 +228,7 @@ export interface DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Ma
   /**
   * Name of a resource in the CloudStack environment. Mutually exclusive with Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -353,25 +353,25 @@ export interface DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Ma
   /**
   * disk size in GB, > 0 for customized disk offering; = 0 for non-customized disk offering
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#custom_size_in_gb DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#custom_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#custom_size_in_gb DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#custom_size_in_gb}
   */
   readonly customSizeInGb?: number;
   /**
   * device name of the disk offering in VM, shows up in lsblk command
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#device DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#device DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#device}
   */
   readonly device: string;
   /**
   * filesystem used to mkfs in disk offering partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#filesystem DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#filesystem DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#filesystem}
   */
   readonly filesystem: string;
   /**
   * Id of a resource in the CloudStack environment. Mutually exclusive with Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#id DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#id DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -380,19 +380,19 @@ export interface DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Ma
   /**
   * disk label used to label disk partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#label DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#label DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#label}
   */
   readonly label: string;
   /**
   * path the filesystem will use to mount in VM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#mount_path DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#mount_path DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * Name of a resource in the CloudStack environment. Mutually exclusive with Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -650,7 +650,7 @@ export interface DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Ma
   /**
   * Id of a resource in the CloudStack environment. Mutually exclusive with Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#id DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#id DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -659,7 +659,7 @@ export interface DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Ma
   /**
   * Name of a resource in the CloudStack environment. Mutually exclusive with Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -782,11 +782,11 @@ export class DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manife
 }
 export interface DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1ManifestSpecUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#ssh_authorized_keys DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#ssh_authorized_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#ssh_authorized_keys DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#ssh_authorized_keys}
   */
   readonly sshAuthorizedKeys: string[];
 }
@@ -927,49 +927,49 @@ export interface DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Ma
   /**
   * Defaults to 'no'. Can be 'pro' or 'anti'. If set to 'pro' or 'anti', will create an affinity group per machine set of the corresponding type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#affinity DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#affinity DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#affinity}
   */
   readonly affinity?: string;
   /**
   * AffinityGroupIds allows users to pass in a list of UUIDs for previously-created Affinity Groups. Any VM’s created with this spec will be added to the affinity group, which will dictate which physical host(s) they can be placed on. Affinity groups can be type “affinity” or “anti-affinity” in CloudStack. If they are type “anti-affinity”, all VM’s in the group must be on separate physical hosts for high availability. If they are type “affinity”, all VM’s in the group must be on the same physical host for improved performance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#affinity_group_ids DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#affinity_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#affinity_group_ids DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#affinity_group_ids}
   */
   readonly affinityGroupIds?: string[];
   /**
   * ComputeOffering refers to a compute offering which has been previously registered in CloudStack. It represents a VM’s instance size including number of CPU’s, memory, and CPU speed. It can either be specified as a UUID or name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#compute_offering DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#compute_offering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#compute_offering DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#compute_offering}
   */
   readonly computeOffering: DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1ManifestSpecComputeOffering;
   /**
   * DiskOffering refers to a disk offering which has been previously registered in CloudStack. It represents a disk offering with pre-defined size or custom specified disk size. It can either be specified as a UUID or name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#disk_offering DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#disk_offering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#disk_offering DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#disk_offering}
   */
   readonly diskOffering?: DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1ManifestSpecDiskOffering;
   /**
   * Symlinks create soft symbolic links folders. One use case is to use data disk to store logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#symlinks DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#symlinks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#symlinks DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#symlinks}
   */
   readonly symlinks?: { [key: string]: string };
   /**
   * Template refers to a VM image template which has been previously registered in CloudStack. It can either be specified as a UUID or name. When using a template name it must include the Kubernetes version(s). For example, a template used for Kubernetes 1.27 could be ubuntu-2204-1.27.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#template DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#template DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#template}
   */
   readonly template: DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1ManifestSpecTemplate;
   /**
   * UserCustomDetails allows users to pass in non-standard key value inputs, outside those defined [here](https://github.com/shapeblue/cloudstack/blob/main/api/src/main/java/com/cloud/vm/VmDetailConstants.java)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#user_custom_details DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#user_custom_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#user_custom_details DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#user_custom_details}
   */
   readonly userCustomDetails?: { [key: string]: string };
   /**
   * Users consists of an array of objects containing the username, as well as a list of their public keys. These users will be authorized to ssh into the machines
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#users DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#users DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest#users}
   */
   readonly users?: DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1ManifestSpecUsers[] | cdktf.IResolvable;
 }
@@ -1260,7 +1260,7 @@ export class DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manife
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest}
 */
 export class DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1276,7 +1276,7 @@ export class DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manife
   * Generates CDKTF code for importing a DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1288,7 +1288,7 @@ export class DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manife
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1299,8 +1299,8 @@ export class DataK8SAnywhereEksAmazonawsComCloudStackMachineConfigV1Alpha1Manife
       terraformResourceType: 'k8s_anywhere_eks_amazonaws_com_cloud_stack_machine_config_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

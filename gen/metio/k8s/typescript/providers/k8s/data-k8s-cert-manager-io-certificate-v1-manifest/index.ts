@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCertManagerIoCertificateV1ManifestConfig extends cdktf.T
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#metadata DataK8SCertManagerIoCertificateV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#metadata DataK8SCertManagerIoCertificateV1Manifest#metadata}
   */
   readonly metadata: DataK8SCertManagerIoCertificateV1ManifestMetadata;
   /**
   * Specification of the desired state of the Certificate resource. https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#spec-and-status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#spec DataK8SCertManagerIoCertificateV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#spec DataK8SCertManagerIoCertificateV1Manifest#spec}
   */
   readonly spec?: DataK8SCertManagerIoCertificateV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCertManagerIoCertificateV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#annotations DataK8SCertManagerIoCertificateV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#annotations DataK8SCertManagerIoCertificateV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#labels DataK8SCertManagerIoCertificateV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#labels DataK8SCertManagerIoCertificateV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#name DataK8SCertManagerIoCertificateV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#name DataK8SCertManagerIoCertificateV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#namespace DataK8SCertManagerIoCertificateV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#namespace DataK8SCertManagerIoCertificateV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SCertManagerIoCertificateV1ManifestSpecAdditionalOutputFo
   /**
   * Type is the name of the format type that should be written to the Certificate's target Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#type DataK8SCertManagerIoCertificateV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#type DataK8SCertManagerIoCertificateV1Manifest#type}
   */
   readonly type: string;
 }
@@ -334,19 +334,19 @@ export interface DataK8SCertManagerIoCertificateV1ManifestSpecIssuerRef {
   /**
   * Group of the resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#group DataK8SCertManagerIoCertificateV1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#group DataK8SCertManagerIoCertificateV1Manifest#group}
   */
   readonly group?: string;
   /**
   * Kind of the resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#kind DataK8SCertManagerIoCertificateV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#kind DataK8SCertManagerIoCertificateV1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the resource being referred to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#name DataK8SCertManagerIoCertificateV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#name DataK8SCertManagerIoCertificateV1Manifest#name}
   */
   readonly name: string;
 }
@@ -497,13 +497,13 @@ export interface DataK8SCertManagerIoCertificateV1ManifestSpecKeystoresJksPasswo
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#key DataK8SCertManagerIoCertificateV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#key DataK8SCertManagerIoCertificateV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the resource being referred to. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#name DataK8SCertManagerIoCertificateV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#name DataK8SCertManagerIoCertificateV1Manifest#name}
   */
   readonly name: string;
 }
@@ -625,19 +625,19 @@ export interface DataK8SCertManagerIoCertificateV1ManifestSpecKeystoresJks {
   /**
   * Alias specifies the alias of the key in the keystore, required by the JKS format. If not provided, the default alias 'certificate' will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#alias DataK8SCertManagerIoCertificateV1Manifest#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#alias DataK8SCertManagerIoCertificateV1Manifest#alias}
   */
   readonly alias?: string;
   /**
   * Create enables JKS keystore creation for the Certificate. If true, a file named 'keystore.jks' will be created in the target Secret resource, encrypted using the password stored in 'passwordSecretRef'. The keystore file will be updated immediately. If the issuer provided a CA certificate, a file named 'truststore.jks' will also be created in the target Secret resource, encrypted using the password stored in 'passwordSecretRef' containing the issuing Certificate Authority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#create DataK8SCertManagerIoCertificateV1Manifest#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#create DataK8SCertManagerIoCertificateV1Manifest#create}
   */
   readonly create: boolean | cdktf.IResolvable;
   /**
   * PasswordSecretRef is a reference to a key in a Secret resource containing the password used to encrypt the JKS keystore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#password_secret_ref DataK8SCertManagerIoCertificateV1Manifest#password_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#password_secret_ref DataK8SCertManagerIoCertificateV1Manifest#password_secret_ref}
   */
   readonly passwordSecretRef: DataK8SCertManagerIoCertificateV1ManifestSpecKeystoresJksPasswordSecretRef;
 }
@@ -785,13 +785,13 @@ export interface DataK8SCertManagerIoCertificateV1ManifestSpecKeystoresPkcs12Pas
   /**
   * The key of the entry in the Secret resource's 'data' field to be used. Some instances of this field may be defaulted, in others it may be required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#key DataK8SCertManagerIoCertificateV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#key DataK8SCertManagerIoCertificateV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Name of the resource being referred to. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#name DataK8SCertManagerIoCertificateV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#name DataK8SCertManagerIoCertificateV1Manifest#name}
   */
   readonly name: string;
 }
@@ -913,19 +913,19 @@ export interface DataK8SCertManagerIoCertificateV1ManifestSpecKeystoresPkcs12 {
   /**
   * Create enables PKCS12 keystore creation for the Certificate. If true, a file named 'keystore.p12' will be created in the target Secret resource, encrypted using the password stored in 'passwordSecretRef'. The keystore file will be updated immediately. If the issuer provided a CA certificate, a file named 'truststore.p12' will also be created in the target Secret resource, encrypted using the password stored in 'passwordSecretRef' containing the issuing Certificate Authority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#create DataK8SCertManagerIoCertificateV1Manifest#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#create DataK8SCertManagerIoCertificateV1Manifest#create}
   */
   readonly create: boolean | cdktf.IResolvable;
   /**
   * PasswordSecretRef is a reference to a key in a Secret resource containing the password used to encrypt the PKCS12 keystore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#password_secret_ref DataK8SCertManagerIoCertificateV1Manifest#password_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#password_secret_ref DataK8SCertManagerIoCertificateV1Manifest#password_secret_ref}
   */
   readonly passwordSecretRef: DataK8SCertManagerIoCertificateV1ManifestSpecKeystoresPkcs12PasswordSecretRef;
   /**
   * Profile specifies the key and certificate encryption algorithms and the HMAC algorithm used to create the PKCS12 keystore. Default value is 'LegacyRC2' for backward compatibility. If provided, allowed values are: 'LegacyRC2': Deprecated. Not supported by default in OpenSSL 3 or Java 20. 'LegacyDES': Less secure algorithm. Use this option for maximal compatibility. 'Modern2023': Secure algorithm. Use this option in case you have to always use secure algorithms (eg. because of company policy). Please note that the security of the algorithm is not that important in reality, because the unencrypted certificate and private key are also stored in the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#profile DataK8SCertManagerIoCertificateV1Manifest#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#profile DataK8SCertManagerIoCertificateV1Manifest#profile}
   */
   readonly profile?: string;
 }
@@ -1073,13 +1073,13 @@ export interface DataK8SCertManagerIoCertificateV1ManifestSpecKeystores {
   /**
   * JKS configures options for storing a JKS keystore in the 'spec.secretName' Secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#jks DataK8SCertManagerIoCertificateV1Manifest#jks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#jks DataK8SCertManagerIoCertificateV1Manifest#jks}
   */
   readonly jks?: DataK8SCertManagerIoCertificateV1ManifestSpecKeystoresJks;
   /**
   * PKCS12 configures options for storing a PKCS12 keystore in the 'spec.secretName' Secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#pkcs12 DataK8SCertManagerIoCertificateV1Manifest#pkcs12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#pkcs12 DataK8SCertManagerIoCertificateV1Manifest#pkcs12}
   */
   readonly pkcs12?: DataK8SCertManagerIoCertificateV1ManifestSpecKeystoresPkcs12;
 }
@@ -1204,25 +1204,25 @@ export interface DataK8SCertManagerIoCertificateV1ManifestSpecNameConstraintsExc
   /**
   * DNSDomains is a list of DNS domains that are permitted or excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#dns_domains DataK8SCertManagerIoCertificateV1Manifest#dns_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#dns_domains DataK8SCertManagerIoCertificateV1Manifest#dns_domains}
   */
   readonly dnsDomains?: string[];
   /**
   * EmailAddresses is a list of Email Addresses that are permitted or excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#email_addresses DataK8SCertManagerIoCertificateV1Manifest#email_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#email_addresses DataK8SCertManagerIoCertificateV1Manifest#email_addresses}
   */
   readonly emailAddresses?: string[];
   /**
   * IPRanges is a list of IP Ranges that are permitted or excluded. This should be a valid CIDR notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#ip_ranges DataK8SCertManagerIoCertificateV1Manifest#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#ip_ranges DataK8SCertManagerIoCertificateV1Manifest#ip_ranges}
   */
   readonly ipRanges?: string[];
   /**
   * URIDomains is a list of URI domains that are permitted or excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#uri_domains DataK8SCertManagerIoCertificateV1Manifest#uri_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#uri_domains DataK8SCertManagerIoCertificateV1Manifest#uri_domains}
   */
   readonly uriDomains?: string[];
 }
@@ -1405,25 +1405,25 @@ export interface DataK8SCertManagerIoCertificateV1ManifestSpecNameConstraintsPer
   /**
   * DNSDomains is a list of DNS domains that are permitted or excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#dns_domains DataK8SCertManagerIoCertificateV1Manifest#dns_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#dns_domains DataK8SCertManagerIoCertificateV1Manifest#dns_domains}
   */
   readonly dnsDomains?: string[];
   /**
   * EmailAddresses is a list of Email Addresses that are permitted or excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#email_addresses DataK8SCertManagerIoCertificateV1Manifest#email_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#email_addresses DataK8SCertManagerIoCertificateV1Manifest#email_addresses}
   */
   readonly emailAddresses?: string[];
   /**
   * IPRanges is a list of IP Ranges that are permitted or excluded. This should be a valid CIDR notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#ip_ranges DataK8SCertManagerIoCertificateV1Manifest#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#ip_ranges DataK8SCertManagerIoCertificateV1Manifest#ip_ranges}
   */
   readonly ipRanges?: string[];
   /**
   * URIDomains is a list of URI domains that are permitted or excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#uri_domains DataK8SCertManagerIoCertificateV1Manifest#uri_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#uri_domains DataK8SCertManagerIoCertificateV1Manifest#uri_domains}
   */
   readonly uriDomains?: string[];
 }
@@ -1606,19 +1606,19 @@ export interface DataK8SCertManagerIoCertificateV1ManifestSpecNameConstraints {
   /**
   * if true then the name constraints are marked critical.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#critical DataK8SCertManagerIoCertificateV1Manifest#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#critical DataK8SCertManagerIoCertificateV1Manifest#critical}
   */
   readonly critical?: boolean | cdktf.IResolvable;
   /**
   * Excluded contains the constraints which must be disallowed. Any name matching a restriction in the excluded field is invalid regardless of information appearing in the permitted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#excluded DataK8SCertManagerIoCertificateV1Manifest#excluded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#excluded DataK8SCertManagerIoCertificateV1Manifest#excluded}
   */
   readonly excluded?: DataK8SCertManagerIoCertificateV1ManifestSpecNameConstraintsExcluded;
   /**
   * Permitted contains the constraints in which the names must be located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#permitted DataK8SCertManagerIoCertificateV1Manifest#permitted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#permitted DataK8SCertManagerIoCertificateV1Manifest#permitted}
   */
   readonly permitted?: DataK8SCertManagerIoCertificateV1ManifestSpecNameConstraintsPermitted;
 }
@@ -1772,13 +1772,13 @@ export interface DataK8SCertManagerIoCertificateV1ManifestSpecOtherNames {
   /**
   * OID is the object identifier for the otherName SAN. The object identifier must be expressed as a dotted string, for example, '1.2.840.113556.1.4.221'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#oid DataK8SCertManagerIoCertificateV1Manifest#oid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#oid DataK8SCertManagerIoCertificateV1Manifest#oid}
   */
   readonly oid?: string;
   /**
   * utf8Value is the string value of the otherName SAN. The utf8Value accepts any valid UTF8 string to set as value for the otherName SAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#utf8_value DataK8SCertManagerIoCertificateV1Manifest#utf8_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#utf8_value DataK8SCertManagerIoCertificateV1Manifest#utf8_value}
   */
   readonly utf8Value?: string;
 }
@@ -1925,25 +1925,25 @@ export interface DataK8SCertManagerIoCertificateV1ManifestSpecPrivateKey {
   /**
   * Algorithm is the private key algorithm of the corresponding private key for this certificate. If provided, allowed values are either 'RSA', 'ECDSA' or 'Ed25519'. If 'algorithm' is specified and 'size' is not provided, key size of 2048 will be used for 'RSA' key algorithm and key size of 256 will be used for 'ECDSA' key algorithm. key size is ignored when using the 'Ed25519' key algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#algorithm DataK8SCertManagerIoCertificateV1Manifest#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#algorithm DataK8SCertManagerIoCertificateV1Manifest#algorithm}
   */
   readonly algorithm?: string;
   /**
   * The private key cryptography standards (PKCS) encoding for this certificate's private key to be encoded in. If provided, allowed values are 'PKCS1' and 'PKCS8' standing for PKCS#1 and PKCS#8, respectively. Defaults to 'PKCS1' if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#encoding DataK8SCertManagerIoCertificateV1Manifest#encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#encoding DataK8SCertManagerIoCertificateV1Manifest#encoding}
   */
   readonly encoding?: string;
   /**
   * RotationPolicy controls how private keys should be regenerated when a re-issuance is being processed. If set to 'Never', a private key will only be generated if one does not already exist in the target 'spec.secretName'. If one does exist but it does not have the correct algorithm or size, a warning will be raised to await user intervention. If set to 'Always', a private key matching the specified requirements will be generated whenever a re-issuance occurs. Default is 'Never' for backward compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#rotation_policy DataK8SCertManagerIoCertificateV1Manifest#rotation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#rotation_policy DataK8SCertManagerIoCertificateV1Manifest#rotation_policy}
   */
   readonly rotationPolicy?: string;
   /**
   * Size is the key bit size of the corresponding private key for this certificate. If 'algorithm' is set to 'RSA', valid values are '2048', '4096' or '8192', and will default to '2048' if not specified. If 'algorithm' is set to 'ECDSA', valid values are '256', '384' or '521', and will default to '256' if not specified. If 'algorithm' is set to 'Ed25519', Size is ignored. No other values are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#size DataK8SCertManagerIoCertificateV1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#size DataK8SCertManagerIoCertificateV1Manifest#size}
   */
   readonly size?: number;
 }
@@ -2126,13 +2126,13 @@ export interface DataK8SCertManagerIoCertificateV1ManifestSpecSecretTemplate {
   /**
   * Annotations is a key value map to be copied to the target Kubernetes Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#annotations DataK8SCertManagerIoCertificateV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#annotations DataK8SCertManagerIoCertificateV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels is a key value map to be copied to the target Kubernetes Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#labels DataK8SCertManagerIoCertificateV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#labels DataK8SCertManagerIoCertificateV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -2257,49 +2257,49 @@ export interface DataK8SCertManagerIoCertificateV1ManifestSpecSubject {
   /**
   * Countries to be used on the Certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#countries DataK8SCertManagerIoCertificateV1Manifest#countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#countries DataK8SCertManagerIoCertificateV1Manifest#countries}
   */
   readonly countries?: string[];
   /**
   * Cities to be used on the Certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#localities DataK8SCertManagerIoCertificateV1Manifest#localities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#localities DataK8SCertManagerIoCertificateV1Manifest#localities}
   */
   readonly localities?: string[];
   /**
   * Organizational Units to be used on the Certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#organizational_units DataK8SCertManagerIoCertificateV1Manifest#organizational_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#organizational_units DataK8SCertManagerIoCertificateV1Manifest#organizational_units}
   */
   readonly organizationalUnits?: string[];
   /**
   * Organizations to be used on the Certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#organizations DataK8SCertManagerIoCertificateV1Manifest#organizations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#organizations DataK8SCertManagerIoCertificateV1Manifest#organizations}
   */
   readonly organizations?: string[];
   /**
   * Postal codes to be used on the Certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#postal_codes DataK8SCertManagerIoCertificateV1Manifest#postal_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#postal_codes DataK8SCertManagerIoCertificateV1Manifest#postal_codes}
   */
   readonly postalCodes?: string[];
   /**
   * State/Provinces to be used on the Certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#provinces DataK8SCertManagerIoCertificateV1Manifest#provinces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#provinces DataK8SCertManagerIoCertificateV1Manifest#provinces}
   */
   readonly provinces?: string[];
   /**
   * Serial number to be used on the Certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#serial_number DataK8SCertManagerIoCertificateV1Manifest#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#serial_number DataK8SCertManagerIoCertificateV1Manifest#serial_number}
   */
   readonly serialNumber?: string;
   /**
   * Street addresses to be used on the Certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#street_addresses DataK8SCertManagerIoCertificateV1Manifest#street_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#street_addresses DataK8SCertManagerIoCertificateV1Manifest#street_addresses}
   */
   readonly streetAddresses?: string[];
 }
@@ -2598,133 +2598,133 @@ export interface DataK8SCertManagerIoCertificateV1ManifestSpec {
   /**
   * Defines extra output formats of the private key and signed certificate chain to be written to this Certificate's target Secret. This is a Beta Feature enabled by default. It can be disabled with the '--feature-gates=AdditionalCertificateOutputFormats=false' option set on both the controller and webhook components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#additional_output_formats DataK8SCertManagerIoCertificateV1Manifest#additional_output_formats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#additional_output_formats DataK8SCertManagerIoCertificateV1Manifest#additional_output_formats}
   */
   readonly additionalOutputFormats?: DataK8SCertManagerIoCertificateV1ManifestSpecAdditionalOutputFormats[] | cdktf.IResolvable;
   /**
   * Requested common name X509 certificate subject attribute. More info: https://datatracker.ietf.org/doc/html/rfc5280#section-4.1.2.6 NOTE: TLS clients will ignore this value when any subject alternative name is set (see https://tools.ietf.org/html/rfc6125#section-6.4.4). Should have a length of 64 characters or fewer to avoid generating invalid CSRs. Cannot be set if the 'literalSubject' field is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#common_name DataK8SCertManagerIoCertificateV1Manifest#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#common_name DataK8SCertManagerIoCertificateV1Manifest#common_name}
   */
   readonly commonName?: string;
   /**
   * Requested DNS subject alternative names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#dns_names DataK8SCertManagerIoCertificateV1Manifest#dns_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#dns_names DataK8SCertManagerIoCertificateV1Manifest#dns_names}
   */
   readonly dnsNames?: string[];
   /**
   * Requested 'duration' (i.e. lifetime) of the Certificate. Note that the issuer may choose to ignore the requested duration, just like any other requested attribute. If unset, this defaults to 90 days. Minimum accepted duration is 1 hour. Value must be in units accepted by Go time.ParseDuration https://golang.org/pkg/time/#ParseDuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#duration DataK8SCertManagerIoCertificateV1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#duration DataK8SCertManagerIoCertificateV1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * Requested email subject alternative names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#email_addresses DataK8SCertManagerIoCertificateV1Manifest#email_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#email_addresses DataK8SCertManagerIoCertificateV1Manifest#email_addresses}
   */
   readonly emailAddresses?: string[];
   /**
   * Whether the KeyUsage and ExtKeyUsage extensions should be set in the encoded CSR. This option defaults to true, and should only be disabled if the target issuer does not support CSRs with these X509 KeyUsage/ ExtKeyUsage extensions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#encode_usages_in_request DataK8SCertManagerIoCertificateV1Manifest#encode_usages_in_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#encode_usages_in_request DataK8SCertManagerIoCertificateV1Manifest#encode_usages_in_request}
   */
   readonly encodeUsagesInRequest?: boolean | cdktf.IResolvable;
   /**
   * Requested IP address subject alternative names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#ip_addresses DataK8SCertManagerIoCertificateV1Manifest#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#ip_addresses DataK8SCertManagerIoCertificateV1Manifest#ip_addresses}
   */
   readonly ipAddresses?: string[];
   /**
   * Requested basic constraints isCA value. The isCA value is used to set the 'isCA' field on the created CertificateRequest resources. Note that the issuer may choose to ignore the requested isCA value, just like any other requested attribute. If true, this will automatically add the 'cert sign' usage to the list of requested 'usages'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#is_ca DataK8SCertManagerIoCertificateV1Manifest#is_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#is_ca DataK8SCertManagerIoCertificateV1Manifest#is_ca}
   */
   readonly isCa?: boolean | cdktf.IResolvable;
   /**
   * Reference to the issuer responsible for issuing the certificate. If the issuer is namespace-scoped, it must be in the same namespace as the Certificate. If the issuer is cluster-scoped, it can be used from any namespace. The 'name' field of the reference must always be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#issuer_ref DataK8SCertManagerIoCertificateV1Manifest#issuer_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#issuer_ref DataK8SCertManagerIoCertificateV1Manifest#issuer_ref}
   */
   readonly issuerRef: DataK8SCertManagerIoCertificateV1ManifestSpecIssuerRef;
   /**
   * Additional keystore output formats to be stored in the Certificate's Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#keystores DataK8SCertManagerIoCertificateV1Manifest#keystores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#keystores DataK8SCertManagerIoCertificateV1Manifest#keystores}
   */
   readonly keystores?: DataK8SCertManagerIoCertificateV1ManifestSpecKeystores;
   /**
   * Requested X.509 certificate subject, represented using the LDAP 'String Representation of a Distinguished Name' [1]. Important: the LDAP string format also specifies the order of the attributes in the subject, this is important when issuing certs for LDAP authentication. Example: 'CN=foo,DC=corp,DC=example,DC=com' More info [1]: https://datatracker.ietf.org/doc/html/rfc4514 More info: https://github.com/cert-manager/cert-manager/issues/3203 More info: https://github.com/cert-manager/cert-manager/issues/4424 Cannot be set if the 'subject' or 'commonName' field is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#literal_subject DataK8SCertManagerIoCertificateV1Manifest#literal_subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#literal_subject DataK8SCertManagerIoCertificateV1Manifest#literal_subject}
   */
   readonly literalSubject?: string;
   /**
   * x.509 certificate NameConstraint extension which MUST NOT be used in a non-CA certificate. More Info: https://datatracker.ietf.org/doc/html/rfc5280#section-4.2.1.10 This is an Alpha Feature and is only enabled with the '--feature-gates=NameConstraints=true' option set on both the controller and webhook components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#name_constraints DataK8SCertManagerIoCertificateV1Manifest#name_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#name_constraints DataK8SCertManagerIoCertificateV1Manifest#name_constraints}
   */
   readonly nameConstraints?: DataK8SCertManagerIoCertificateV1ManifestSpecNameConstraints;
   /**
   * 'otherNames' is an escape hatch for SAN that allows any type. We currently restrict the support to string like otherNames, cf RFC 5280 p 37 Any UTF8 String valued otherName can be passed with by setting the keys oid: x.x.x.x and UTF8Value: somevalue for 'otherName'. Most commonly this would be UPN set with oid: 1.3.6.1.4.1.311.20.2.3 You should ensure that any OID passed is valid for the UTF8String type as we do not explicitly validate this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#other_names DataK8SCertManagerIoCertificateV1Manifest#other_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#other_names DataK8SCertManagerIoCertificateV1Manifest#other_names}
   */
   readonly otherNames?: DataK8SCertManagerIoCertificateV1ManifestSpecOtherNames[] | cdktf.IResolvable;
   /**
   * Private key options. These include the key algorithm and size, the used encoding and the rotation policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#private_key DataK8SCertManagerIoCertificateV1Manifest#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#private_key DataK8SCertManagerIoCertificateV1Manifest#private_key}
   */
   readonly privateKey?: DataK8SCertManagerIoCertificateV1ManifestSpecPrivateKey;
   /**
   * How long before the currently issued certificate's expiry cert-manager should renew the certificate. For example, if a certificate is valid for 60 minutes, and 'renewBefore=10m', cert-manager will begin to attempt to renew the certificate 50 minutes after it was issued (i.e. when there are 10 minutes remaining until the certificate is no longer valid). NOTE: The actual lifetime of the issued certificate is used to determine the renewal time. If an issuer returns a certificate with a different lifetime than the one requested, cert-manager will use the lifetime of the issued certificate. If unset, this defaults to 1/3 of the issued certificate's lifetime. Minimum accepted value is 5 minutes. Value must be in units accepted by Go time.ParseDuration https://golang.org/pkg/time/#ParseDuration. Cannot be set if the 'renewBeforePercentage' field is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#renew_before DataK8SCertManagerIoCertificateV1Manifest#renew_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#renew_before DataK8SCertManagerIoCertificateV1Manifest#renew_before}
   */
   readonly renewBefore?: string;
   /**
   * 'renewBeforePercentage' is like 'renewBefore', except it is a relative percentage rather than an absolute duration. For example, if a certificate is valid for 60 minutes, and 'renewBeforePercentage=25', cert-manager will begin to attempt to renew the certificate 45 minutes after it was issued (i.e. when there are 15 minutes (25%) remaining until the certificate is no longer valid). NOTE: The actual lifetime of the issued certificate is used to determine the renewal time. If an issuer returns a certificate with a different lifetime than the one requested, cert-manager will use the lifetime of the issued certificate. Value must be an integer in the range (0,100). The minimum effective 'renewBefore' derived from the 'renewBeforePercentage' and 'duration' fields is 5 minutes. Cannot be set if the 'renewBefore' field is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#renew_before_percentage DataK8SCertManagerIoCertificateV1Manifest#renew_before_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#renew_before_percentage DataK8SCertManagerIoCertificateV1Manifest#renew_before_percentage}
   */
   readonly renewBeforePercentage?: number;
   /**
   * The maximum number of CertificateRequest revisions that are maintained in the Certificate's history. Each revision represents a single 'CertificateRequest' created by this Certificate, either when it was created, renewed, or Spec was changed. Revisions will be removed by oldest first if the number of revisions exceeds this number. If set, revisionHistoryLimit must be a value of '1' or greater. If unset ('nil'), revisions will not be garbage collected. Default value is 'nil'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#revision_history_limit DataK8SCertManagerIoCertificateV1Manifest#revision_history_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#revision_history_limit DataK8SCertManagerIoCertificateV1Manifest#revision_history_limit}
   */
   readonly revisionHistoryLimit?: number;
   /**
   * Name of the Secret resource that will be automatically created and managed by this Certificate resource. It will be populated with a private key and certificate, signed by the denoted issuer. The Secret resource lives in the same namespace as the Certificate resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#secret_name DataK8SCertManagerIoCertificateV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#secret_name DataK8SCertManagerIoCertificateV1Manifest#secret_name}
   */
   readonly secretName: string;
   /**
   * Defines annotations and labels to be copied to the Certificate's Secret. Labels and annotations on the Secret will be changed as they appear on the SecretTemplate when added or removed. SecretTemplate annotations are added in conjunction with, and cannot overwrite, the base set of annotations cert-manager sets on the Certificate's Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#secret_template DataK8SCertManagerIoCertificateV1Manifest#secret_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#secret_template DataK8SCertManagerIoCertificateV1Manifest#secret_template}
   */
   readonly secretTemplate?: DataK8SCertManagerIoCertificateV1ManifestSpecSecretTemplate;
   /**
   * Requested set of X509 certificate subject attributes. More info: https://datatracker.ietf.org/doc/html/rfc5280#section-4.1.2.6 The common name attribute is specified separately in the 'commonName' field. Cannot be set if the 'literalSubject' field is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#subject DataK8SCertManagerIoCertificateV1Manifest#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#subject DataK8SCertManagerIoCertificateV1Manifest#subject}
   */
   readonly subject?: DataK8SCertManagerIoCertificateV1ManifestSpecSubject;
   /**
   * Requested URI subject alternative names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#uris DataK8SCertManagerIoCertificateV1Manifest#uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#uris DataK8SCertManagerIoCertificateV1Manifest#uris}
   */
   readonly uris?: string[];
   /**
   * Requested key usages and extended key usages. These usages are used to set the 'usages' field on the created CertificateRequest resources. If 'encodeUsagesInRequest' is unset or set to 'true', the usages will additionally be encoded in the 'request' field which contains the CSR blob. If unset, defaults to 'digital signature' and 'key encipherment'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#usages DataK8SCertManagerIoCertificateV1Manifest#usages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#usages DataK8SCertManagerIoCertificateV1Manifest#usages}
   */
   readonly usages?: string[];
 }
@@ -3421,7 +3421,7 @@ export class DataK8SCertManagerIoCertificateV1ManifestSpecOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest k8s_cert_manager_io_certificate_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest k8s_cert_manager_io_certificate_v1_manifest}
 */
 export class DataK8SCertManagerIoCertificateV1Manifest extends cdktf.TerraformDataSource {
 
@@ -3437,7 +3437,7 @@ export class DataK8SCertManagerIoCertificateV1Manifest extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataK8SCertManagerIoCertificateV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCertManagerIoCertificateV1Manifest to import
-  * @param importFromId The id of the existing DataK8SCertManagerIoCertificateV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCertManagerIoCertificateV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCertManagerIoCertificateV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3449,7 +3449,7 @@ export class DataK8SCertManagerIoCertificateV1Manifest extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cert_manager_io_certificate_v1_manifest k8s_cert_manager_io_certificate_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cert_manager_io_certificate_v1_manifest k8s_cert_manager_io_certificate_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3460,8 +3460,8 @@ export class DataK8SCertManagerIoCertificateV1Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_cert_manager_io_certificate_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/nas_file_systems
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/nas_file_systems
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudNasFileSystemsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/nas_file_systems#description_regex DataAlicloudNasFileSystems#description_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/nas_file_systems#description_regex DataAlicloudNasFileSystems#description_regex}
   */
   readonly descriptionRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/nas_file_systems#id DataAlicloudNasFileSystems#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/nas_file_systems#id DataAlicloudNasFileSystems#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/nas_file_systems#ids DataAlicloudNasFileSystems#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/nas_file_systems#ids DataAlicloudNasFileSystems#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/nas_file_systems#output_file DataAlicloudNasFileSystems#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/nas_file_systems#output_file DataAlicloudNasFileSystems#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/nas_file_systems#protocol_type DataAlicloudNasFileSystems#protocol_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/nas_file_systems#protocol_type DataAlicloudNasFileSystems#protocol_type}
   */
   readonly protocolType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/nas_file_systems#storage_type DataAlicloudNasFileSystems#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/nas_file_systems#storage_type DataAlicloudNasFileSystems#storage_type}
   */
   readonly storageType?: string;
 }
@@ -167,7 +167,7 @@ export class DataAlicloudNasFileSystemsSystemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/nas_file_systems alicloud_nas_file_systems}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/nas_file_systems alicloud_nas_file_systems}
 */
 export class DataAlicloudNasFileSystems extends cdktf.TerraformDataSource {
 
@@ -183,7 +183,7 @@ export class DataAlicloudNasFileSystems extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudNasFileSystems resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudNasFileSystems to import
-  * @param importFromId The id of the existing DataAlicloudNasFileSystems that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/nas_file_systems#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudNasFileSystems that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/nas_file_systems#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudNasFileSystems to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -195,7 +195,7 @@ export class DataAlicloudNasFileSystems extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/nas_file_systems alicloud_nas_file_systems} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/nas_file_systems alicloud_nas_file_systems} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -206,8 +206,8 @@ export class DataAlicloudNasFileSystems extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_nas_file_systems',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

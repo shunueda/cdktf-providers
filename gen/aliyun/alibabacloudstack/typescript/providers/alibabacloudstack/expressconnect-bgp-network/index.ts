@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_bgp_network
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_bgp_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface ExpressconnectBgpNetworkConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_bgp_network#dst_cidr_block ExpressconnectBgpNetwork#dst_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_bgp_network#dst_cidr_block ExpressconnectBgpNetwork#dst_cidr_block}
   */
   readonly dstCidrBlock: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_bgp_network#id ExpressconnectBgpNetwork#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_bgp_network#id ExpressconnectBgpNetwork#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_bgp_network#router_id ExpressconnectBgpNetwork#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_bgp_network#router_id ExpressconnectBgpNetwork#router_id}
   */
   readonly routerId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_bgp_network alibabacloudstack_expressconnect_bgp_network}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_bgp_network alibabacloudstack_expressconnect_bgp_network}
 */
 export class ExpressconnectBgpNetwork extends cdktf.TerraformResource {
 
@@ -41,7 +41,7 @@ export class ExpressconnectBgpNetwork extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExpressconnectBgpNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExpressconnectBgpNetwork to import
-  * @param importFromId The id of the existing ExpressconnectBgpNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_bgp_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExpressconnectBgpNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_bgp_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExpressconnectBgpNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class ExpressconnectBgpNetwork extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_bgp_network alibabacloudstack_expressconnect_bgp_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_bgp_network alibabacloudstack_expressconnect_bgp_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,7 +64,8 @@ export class ExpressconnectBgpNetwork extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_expressconnect_bgp_network',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,88 +8,88 @@ import * as cdktf from 'cdktf';
 
 export interface ConfigRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_rule#config_rule_trigger_types ConfigRule#config_rule_trigger_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_rule#config_rule_trigger_types ConfigRule#config_rule_trigger_types}
   */
   readonly configRuleTriggerTypes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_rule#description ConfigRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_rule#description ConfigRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_rule#exclude_resource_ids_scope ConfigRule#exclude_resource_ids_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_rule#exclude_resource_ids_scope ConfigRule#exclude_resource_ids_scope}
   */
   readonly excludeResourceIdsScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_rule#id ConfigRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_rule#id ConfigRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_rule#input_parameters ConfigRule#input_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_rule#input_parameters ConfigRule#input_parameters}
   */
   readonly inputParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_rule#maximum_execution_frequency ConfigRule#maximum_execution_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_rule#maximum_execution_frequency ConfigRule#maximum_execution_frequency}
   */
   readonly maximumExecutionFrequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_rule#region_ids_scope ConfigRule#region_ids_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_rule#region_ids_scope ConfigRule#region_ids_scope}
   */
   readonly regionIdsScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_rule#resource_group_ids_scope ConfigRule#resource_group_ids_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_rule#resource_group_ids_scope ConfigRule#resource_group_ids_scope}
   */
   readonly resourceGroupIdsScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_rule#resource_types_scope ConfigRule#resource_types_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_rule#resource_types_scope ConfigRule#resource_types_scope}
   */
   readonly resourceTypesScope?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_rule#risk_level ConfigRule#risk_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_rule#risk_level ConfigRule#risk_level}
   */
   readonly riskLevel: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_rule#rule_name ConfigRule#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_rule#rule_name ConfigRule#rule_name}
   */
   readonly ruleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_rule#scope_compliance_resource_types ConfigRule#scope_compliance_resource_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_rule#scope_compliance_resource_types ConfigRule#scope_compliance_resource_types}
   */
   readonly scopeComplianceResourceTypes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_rule#source_detail_message_type ConfigRule#source_detail_message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_rule#source_detail_message_type ConfigRule#source_detail_message_type}
   */
   readonly sourceDetailMessageType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_rule#source_identifier ConfigRule#source_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_rule#source_identifier ConfigRule#source_identifier}
   */
   readonly sourceIdentifier: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_rule#source_maximum_execution_frequency ConfigRule#source_maximum_execution_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_rule#source_maximum_execution_frequency ConfigRule#source_maximum_execution_frequency}
   */
   readonly sourceMaximumExecutionFrequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_rule#source_owner ConfigRule#source_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_rule#source_owner ConfigRule#source_owner}
   */
   readonly sourceOwner: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_rule#status ConfigRule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_rule#status ConfigRule#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_rule#tag_key_scope ConfigRule#tag_key_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_rule#tag_key_scope ConfigRule#tag_key_scope}
   */
   readonly tagKeyScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_rule#tag_value_scope ConfigRule#tag_value_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_rule#tag_value_scope ConfigRule#tag_value_scope}
   */
   readonly tagValueScope?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_rule#timeouts ConfigRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_rule#timeouts ConfigRule#timeouts}
   */
   readonly timeouts?: ConfigRuleTimeouts;
 }
@@ -175,15 +175,15 @@ export class ConfigRuleComplianceList extends cdktf.ComplexList {
 }
 export interface ConfigRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_rule#create ConfigRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_rule#create ConfigRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_rule#delete ConfigRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_rule#delete ConfigRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_rule#update ConfigRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_rule#update ConfigRule#update}
   */
   readonly update?: string;
 }
@@ -335,7 +335,7 @@ export class ConfigRuleTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_rule alicloud_config_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_rule alicloud_config_rule}
 */
 export class ConfigRule extends cdktf.TerraformResource {
 
@@ -351,7 +351,7 @@ export class ConfigRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConfigRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConfigRule to import
-  * @param importFromId The id of the existing ConfigRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConfigRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConfigRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -363,7 +363,7 @@ export class ConfigRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_rule alicloud_config_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_rule alicloud_config_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -374,8 +374,8 @@ export class ConfigRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_config_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

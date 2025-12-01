@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_security_policies
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_security_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudAlbSecurityPoliciesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_security_policies#id DataAlicloudAlbSecurityPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_security_policies#id DataAlicloudAlbSecurityPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_security_policies#ids DataAlicloudAlbSecurityPolicies#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_security_policies#ids DataAlicloudAlbSecurityPolicies#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_security_policies#name_regex DataAlicloudAlbSecurityPolicies#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_security_policies#name_regex DataAlicloudAlbSecurityPolicies#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_security_policies#output_file DataAlicloudAlbSecurityPolicies#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_security_policies#output_file DataAlicloudAlbSecurityPolicies#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_security_policies#resource_group_id DataAlicloudAlbSecurityPolicies#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_security_policies#resource_group_id DataAlicloudAlbSecurityPolicies#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_security_policies#security_policy_ids DataAlicloudAlbSecurityPolicies#security_policy_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_security_policies#security_policy_ids DataAlicloudAlbSecurityPolicies#security_policy_ids}
   */
   readonly securityPolicyIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_security_policies#security_policy_name DataAlicloudAlbSecurityPolicies#security_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_security_policies#security_policy_name DataAlicloudAlbSecurityPolicies#security_policy_name}
   */
   readonly securityPolicyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_security_policies#status DataAlicloudAlbSecurityPolicies#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_security_policies#status DataAlicloudAlbSecurityPolicies#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_security_policies#tags DataAlicloudAlbSecurityPolicies#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_security_policies#tags DataAlicloudAlbSecurityPolicies#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -154,7 +154,7 @@ export class DataAlicloudAlbSecurityPoliciesPoliciesList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_security_policies alicloud_alb_security_policies}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_security_policies alicloud_alb_security_policies}
 */
 export class DataAlicloudAlbSecurityPolicies extends cdktf.TerraformDataSource {
 
@@ -170,7 +170,7 @@ export class DataAlicloudAlbSecurityPolicies extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudAlbSecurityPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudAlbSecurityPolicies to import
-  * @param importFromId The id of the existing DataAlicloudAlbSecurityPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_security_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudAlbSecurityPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_security_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudAlbSecurityPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -182,7 +182,7 @@ export class DataAlicloudAlbSecurityPolicies extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_security_policies alicloud_alb_security_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_security_policies alicloud_alb_security_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -193,8 +193,8 @@ export class DataAlicloudAlbSecurityPolicies extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_alb_security_policies',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

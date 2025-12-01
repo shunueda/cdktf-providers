@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,186 +8,186 @@ import * as cdktf from 'cdktf';
 
 export interface CsEdgeKubernetesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#availability_zone CsEdgeKubernetes#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#availability_zone CsEdgeKubernetes#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#client_cert CsEdgeKubernetes#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#client_cert CsEdgeKubernetes#client_cert}
   */
   readonly clientCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#client_key CsEdgeKubernetes#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#client_key CsEdgeKubernetes#client_key}
   */
   readonly clientKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#cluster_ca_cert CsEdgeKubernetes#cluster_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#cluster_ca_cert CsEdgeKubernetes#cluster_ca_cert}
   */
   readonly clusterCaCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#cluster_spec CsEdgeKubernetes#cluster_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#cluster_spec CsEdgeKubernetes#cluster_spec}
   */
   readonly clusterSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#deletion_protection CsEdgeKubernetes#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#deletion_protection CsEdgeKubernetes#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#force_update CsEdgeKubernetes#force_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#force_update CsEdgeKubernetes#force_update}
   */
   readonly forceUpdate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#id CsEdgeKubernetes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#id CsEdgeKubernetes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#install_cloud_monitor CsEdgeKubernetes#install_cloud_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#install_cloud_monitor CsEdgeKubernetes#install_cloud_monitor}
   */
   readonly installCloudMonitor?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#is_enterprise_security_group CsEdgeKubernetes#is_enterprise_security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#is_enterprise_security_group CsEdgeKubernetes#is_enterprise_security_group}
   */
   readonly isEnterpriseSecurityGroup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#key_name CsEdgeKubernetes#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#key_name CsEdgeKubernetes#key_name}
   */
   readonly keyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#kube_config CsEdgeKubernetes#kube_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#kube_config CsEdgeKubernetes#kube_config}
   */
   readonly kubeConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#load_balancer_spec CsEdgeKubernetes#load_balancer_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#load_balancer_spec CsEdgeKubernetes#load_balancer_spec}
   */
   readonly loadBalancerSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#name CsEdgeKubernetes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#name CsEdgeKubernetes#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#name_prefix CsEdgeKubernetes#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#name_prefix CsEdgeKubernetes#name_prefix}
   */
   readonly namePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#new_nat_gateway CsEdgeKubernetes#new_nat_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#new_nat_gateway CsEdgeKubernetes#new_nat_gateway}
   */
   readonly newNatGateway?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#node_cidr_mask CsEdgeKubernetes#node_cidr_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#node_cidr_mask CsEdgeKubernetes#node_cidr_mask}
   */
   readonly nodeCidrMask?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#password CsEdgeKubernetes#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#password CsEdgeKubernetes#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#pod_cidr CsEdgeKubernetes#pod_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#pod_cidr CsEdgeKubernetes#pod_cidr}
   */
   readonly podCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#proxy_mode CsEdgeKubernetes#proxy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#proxy_mode CsEdgeKubernetes#proxy_mode}
   */
   readonly proxyMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#rds_instances CsEdgeKubernetes#rds_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#rds_instances CsEdgeKubernetes#rds_instances}
   */
   readonly rdsInstances?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#resource_group_id CsEdgeKubernetes#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#resource_group_id CsEdgeKubernetes#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#retain_resources CsEdgeKubernetes#retain_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#retain_resources CsEdgeKubernetes#retain_resources}
   */
   readonly retainResources?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#runtime CsEdgeKubernetes#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#runtime CsEdgeKubernetes#runtime}
   */
   readonly runtime?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#security_group_id CsEdgeKubernetes#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#security_group_id CsEdgeKubernetes#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#service_cidr CsEdgeKubernetes#service_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#service_cidr CsEdgeKubernetes#service_cidr}
   */
   readonly serviceCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#skip_set_certificate_authority CsEdgeKubernetes#skip_set_certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#skip_set_certificate_authority CsEdgeKubernetes#skip_set_certificate_authority}
   */
   readonly skipSetCertificateAuthority?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#slb_internet_enabled CsEdgeKubernetes#slb_internet_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#slb_internet_enabled CsEdgeKubernetes#slb_internet_enabled}
   */
   readonly slbInternetEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#tags CsEdgeKubernetes#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#tags CsEdgeKubernetes#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#user_data CsEdgeKubernetes#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#user_data CsEdgeKubernetes#user_data}
   */
   readonly userData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#version CsEdgeKubernetes#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#version CsEdgeKubernetes#version}
   */
   readonly version?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#worker_disk_category CsEdgeKubernetes#worker_disk_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#worker_disk_category CsEdgeKubernetes#worker_disk_category}
   */
   readonly workerDiskCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#worker_disk_performance_level CsEdgeKubernetes#worker_disk_performance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#worker_disk_performance_level CsEdgeKubernetes#worker_disk_performance_level}
   */
   readonly workerDiskPerformanceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#worker_disk_size CsEdgeKubernetes#worker_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#worker_disk_size CsEdgeKubernetes#worker_disk_size}
   */
   readonly workerDiskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#worker_disk_snapshot_policy_id CsEdgeKubernetes#worker_disk_snapshot_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#worker_disk_snapshot_policy_id CsEdgeKubernetes#worker_disk_snapshot_policy_id}
   */
   readonly workerDiskSnapshotPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#worker_instance_charge_type CsEdgeKubernetes#worker_instance_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#worker_instance_charge_type CsEdgeKubernetes#worker_instance_charge_type}
   */
   readonly workerInstanceChargeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#worker_instance_types CsEdgeKubernetes#worker_instance_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#worker_instance_types CsEdgeKubernetes#worker_instance_types}
   */
   readonly workerInstanceTypes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#worker_number CsEdgeKubernetes#worker_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#worker_number CsEdgeKubernetes#worker_number}
   */
   readonly workerNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#worker_vswitch_ids CsEdgeKubernetes#worker_vswitch_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#worker_vswitch_ids CsEdgeKubernetes#worker_vswitch_ids}
   */
   readonly workerVswitchIds: string[];
   /**
   * addons block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#addons CsEdgeKubernetes#addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#addons CsEdgeKubernetes#addons}
   */
   readonly addons?: CsEdgeKubernetesAddons[] | cdktf.IResolvable;
   /**
   * log_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#log_config CsEdgeKubernetes#log_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#log_config CsEdgeKubernetes#log_config}
   */
   readonly logConfig?: CsEdgeKubernetesLogConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#timeouts CsEdgeKubernetes#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#timeouts CsEdgeKubernetes#timeouts}
   */
   readonly timeouts?: CsEdgeKubernetesTimeouts;
   /**
   * worker_data_disks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#worker_data_disks CsEdgeKubernetes#worker_data_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#worker_data_disks CsEdgeKubernetes#worker_data_disks}
   */
   readonly workerDataDisks?: CsEdgeKubernetesWorkerDataDisks[] | cdktf.IResolvable;
 }
@@ -278,19 +278,19 @@ export class CsEdgeKubernetesWorkerNodesList extends cdktf.ComplexList {
 }
 export interface CsEdgeKubernetesAddons {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#config CsEdgeKubernetes#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#config CsEdgeKubernetes#config}
   */
   readonly config?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#disabled CsEdgeKubernetes#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#disabled CsEdgeKubernetes#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#name CsEdgeKubernetes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#name CsEdgeKubernetes#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#version CsEdgeKubernetes#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#version CsEdgeKubernetes#version}
   */
   readonly version?: string;
 }
@@ -493,11 +493,11 @@ export class CsEdgeKubernetesAddonsList extends cdktf.ComplexList {
 }
 export interface CsEdgeKubernetesLogConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#project CsEdgeKubernetes#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#project CsEdgeKubernetes#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#type CsEdgeKubernetes#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#type CsEdgeKubernetes#type}
   */
   readonly type: string;
 }
@@ -607,15 +607,15 @@ export class CsEdgeKubernetesLogConfigOutputReference extends cdktf.ComplexObjec
 }
 export interface CsEdgeKubernetesTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#create CsEdgeKubernetes#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#create CsEdgeKubernetes#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#delete CsEdgeKubernetes#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#delete CsEdgeKubernetes#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#update CsEdgeKubernetes#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#update CsEdgeKubernetes#update}
   */
   readonly update?: string;
 }
@@ -767,39 +767,39 @@ export class CsEdgeKubernetesTimeoutsOutputReference extends cdktf.ComplexObject
 }
 export interface CsEdgeKubernetesWorkerDataDisks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#auto_snapshot_policy_id CsEdgeKubernetes#auto_snapshot_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#auto_snapshot_policy_id CsEdgeKubernetes#auto_snapshot_policy_id}
   */
   readonly autoSnapshotPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#category CsEdgeKubernetes#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#category CsEdgeKubernetes#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#device CsEdgeKubernetes#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#device CsEdgeKubernetes#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#encrypted CsEdgeKubernetes#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#encrypted CsEdgeKubernetes#encrypted}
   */
   readonly encrypted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#kms_key_id CsEdgeKubernetes#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#kms_key_id CsEdgeKubernetes#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#name CsEdgeKubernetes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#name CsEdgeKubernetes#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#performance_level CsEdgeKubernetes#performance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#performance_level CsEdgeKubernetes#performance_level}
   */
   readonly performanceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#size CsEdgeKubernetes#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#size CsEdgeKubernetes#size}
   */
   readonly size?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#snapshot_id CsEdgeKubernetes#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#snapshot_id CsEdgeKubernetes#snapshot_id}
   */
   readonly snapshotId?: string;
 }
@@ -1147,7 +1147,7 @@ export class CsEdgeKubernetesWorkerDataDisksList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes alicloud_cs_edge_kubernetes}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes alicloud_cs_edge_kubernetes}
 */
 export class CsEdgeKubernetes extends cdktf.TerraformResource {
 
@@ -1163,7 +1163,7 @@ export class CsEdgeKubernetes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CsEdgeKubernetes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CsEdgeKubernetes to import
-  * @param importFromId The id of the existing CsEdgeKubernetes that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CsEdgeKubernetes that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CsEdgeKubernetes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1175,7 +1175,7 @@ export class CsEdgeKubernetes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_edge_kubernetes alicloud_cs_edge_kubernetes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_edge_kubernetes alicloud_cs_edge_kubernetes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1186,8 +1186,8 @@ export class CsEdgeKubernetes extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cs_edge_kubernetes',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

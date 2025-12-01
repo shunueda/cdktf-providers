@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mse_nacos_config
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mse_nacos_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface MseNacosConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mse_nacos_config#accept_language MseNacosConfig#accept_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mse_nacos_config#accept_language MseNacosConfig#accept_language}
   */
   readonly acceptLanguage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mse_nacos_config#app_name MseNacosConfig#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mse_nacos_config#app_name MseNacosConfig#app_name}
   */
   readonly appName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mse_nacos_config#beta_ips MseNacosConfig#beta_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mse_nacos_config#beta_ips MseNacosConfig#beta_ips}
   */
   readonly betaIps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mse_nacos_config#content MseNacosConfig#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mse_nacos_config#content MseNacosConfig#content}
   */
   readonly content: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mse_nacos_config#data_id MseNacosConfig#data_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mse_nacos_config#data_id MseNacosConfig#data_id}
   */
   readonly dataId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mse_nacos_config#desc MseNacosConfig#desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mse_nacos_config#desc MseNacosConfig#desc}
   */
   readonly desc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mse_nacos_config#group MseNacosConfig#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mse_nacos_config#group MseNacosConfig#group}
   */
   readonly group: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mse_nacos_config#id MseNacosConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mse_nacos_config#id MseNacosConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mse_nacos_config#instance_id MseNacosConfig#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mse_nacos_config#instance_id MseNacosConfig#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mse_nacos_config#namespace_id MseNacosConfig#namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mse_nacos_config#namespace_id MseNacosConfig#namespace_id}
   */
   readonly namespaceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mse_nacos_config#tags MseNacosConfig#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mse_nacos_config#tags MseNacosConfig#tags}
   */
   readonly tags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mse_nacos_config#type MseNacosConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mse_nacos_config#type MseNacosConfig#type}
   */
   readonly type?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mse_nacos_config#timeouts MseNacosConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mse_nacos_config#timeouts MseNacosConfig#timeouts}
   */
   readonly timeouts?: MseNacosConfigTimeouts;
 }
 export interface MseNacosConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mse_nacos_config#create MseNacosConfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mse_nacos_config#create MseNacosConfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mse_nacos_config#delete MseNacosConfig#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mse_nacos_config#delete MseNacosConfig#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mse_nacos_config#update MseNacosConfig#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mse_nacos_config#update MseNacosConfig#update}
   */
   readonly update?: string;
 }
@@ -227,7 +227,7 @@ export class MseNacosConfigTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mse_nacos_config alicloud_mse_nacos_config}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mse_nacos_config alicloud_mse_nacos_config}
 */
 export class MseNacosConfig extends cdktf.TerraformResource {
 
@@ -243,7 +243,7 @@ export class MseNacosConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MseNacosConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MseNacosConfig to import
-  * @param importFromId The id of the existing MseNacosConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mse_nacos_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MseNacosConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mse_nacos_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MseNacosConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -255,7 +255,7 @@ export class MseNacosConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/mse_nacos_config alicloud_mse_nacos_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/mse_nacos_config alicloud_mse_nacos_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -266,8 +266,8 @@ export class MseNacosConfig extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_mse_nacos_config',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

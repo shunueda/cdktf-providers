@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceMeshServiceMeshConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#cluster_ids ServiceMeshServiceMesh#cluster_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#cluster_ids ServiceMeshServiceMesh#cluster_ids}
   */
   readonly clusterIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#cluster_spec ServiceMeshServiceMesh#cluster_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#cluster_spec ServiceMeshServiceMesh#cluster_spec}
   */
   readonly clusterSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#customized_prometheus ServiceMeshServiceMesh#customized_prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#customized_prometheus ServiceMeshServiceMesh#customized_prometheus}
   */
   readonly customizedPrometheus?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#edition ServiceMeshServiceMesh#edition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#edition ServiceMeshServiceMesh#edition}
   */
   readonly edition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#force ServiceMeshServiceMesh#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#force ServiceMeshServiceMesh#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#id ServiceMeshServiceMesh#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#id ServiceMeshServiceMesh#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#prometheus_url ServiceMeshServiceMesh#prometheus_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#prometheus_url ServiceMeshServiceMesh#prometheus_url}
   */
   readonly prometheusUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#service_mesh_name ServiceMeshServiceMesh#service_mesh_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#service_mesh_name ServiceMeshServiceMesh#service_mesh_name}
   */
   readonly serviceMeshName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#tags ServiceMeshServiceMesh#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#tags ServiceMeshServiceMesh#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#version ServiceMeshServiceMesh#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#version ServiceMeshServiceMesh#version}
   */
   readonly version?: string;
   /**
   * extra_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#extra_configuration ServiceMeshServiceMesh#extra_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#extra_configuration ServiceMeshServiceMesh#extra_configuration}
   */
   readonly extraConfiguration?: ServiceMeshServiceMeshExtraConfiguration;
   /**
   * load_balancer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#load_balancer ServiceMeshServiceMesh#load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#load_balancer ServiceMeshServiceMesh#load_balancer}
   */
   readonly loadBalancer?: ServiceMeshServiceMeshLoadBalancer;
   /**
   * mesh_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#mesh_config ServiceMeshServiceMesh#mesh_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#mesh_config ServiceMeshServiceMesh#mesh_config}
   */
   readonly meshConfig?: ServiceMeshServiceMeshMeshConfig;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#network ServiceMeshServiceMesh#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#network ServiceMeshServiceMesh#network}
   */
   readonly network: ServiceMeshServiceMeshNetwork;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#timeouts ServiceMeshServiceMesh#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#timeouts ServiceMeshServiceMesh#timeouts}
   */
   readonly timeouts?: ServiceMeshServiceMeshTimeouts;
 }
 export interface ServiceMeshServiceMeshExtraConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#cr_aggregation_enabled ServiceMeshServiceMesh#cr_aggregation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#cr_aggregation_enabled ServiceMeshServiceMesh#cr_aggregation_enabled}
   */
   readonly crAggregationEnabled?: boolean | cdktf.IResolvable;
 }
@@ -167,15 +167,15 @@ export class ServiceMeshServiceMeshExtraConfigurationOutputReference extends cdk
 }
 export interface ServiceMeshServiceMeshLoadBalancer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#api_server_public_eip ServiceMeshServiceMesh#api_server_public_eip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#api_server_public_eip ServiceMeshServiceMesh#api_server_public_eip}
   */
   readonly apiServerPublicEip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#pilot_public_eip ServiceMeshServiceMesh#pilot_public_eip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#pilot_public_eip ServiceMeshServiceMesh#pilot_public_eip}
   */
   readonly pilotPublicEip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#pilot_public_eip_id ServiceMeshServiceMesh#pilot_public_eip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#pilot_public_eip_id ServiceMeshServiceMesh#pilot_public_eip_id}
   */
   readonly pilotPublicEipId?: string;
 }
@@ -407,27 +407,27 @@ export class ServiceMeshServiceMeshMeshConfigPrometheusList extends cdktf.Comple
 }
 export interface ServiceMeshServiceMeshMeshConfigAccessLog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#enabled ServiceMeshServiceMesh#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#enabled ServiceMeshServiceMesh#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#gateway_enabled ServiceMeshServiceMesh#gateway_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#gateway_enabled ServiceMeshServiceMesh#gateway_enabled}
   */
   readonly gatewayEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#gateway_lifecycle ServiceMeshServiceMesh#gateway_lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#gateway_lifecycle ServiceMeshServiceMesh#gateway_lifecycle}
   */
   readonly gatewayLifecycle?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#project ServiceMeshServiceMesh#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#project ServiceMeshServiceMesh#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#sidecar_enabled ServiceMeshServiceMesh#sidecar_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#sidecar_enabled ServiceMeshServiceMesh#sidecar_enabled}
   */
   readonly sidecarEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#sidecar_lifecycle ServiceMeshServiceMesh#sidecar_lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#sidecar_lifecycle ServiceMeshServiceMesh#sidecar_lifecycle}
   */
   readonly sidecarLifecycle?: number;
 }
@@ -656,11 +656,11 @@ export class ServiceMeshServiceMeshMeshConfigAccessLogOutputReference extends cd
 }
 export interface ServiceMeshServiceMeshMeshConfigAudit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#enabled ServiceMeshServiceMesh#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#enabled ServiceMeshServiceMesh#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#project ServiceMeshServiceMesh#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#project ServiceMeshServiceMesh#project}
   */
   readonly project?: string;
 }
@@ -773,15 +773,15 @@ export class ServiceMeshServiceMeshMeshConfigAuditOutputReference extends cdktf.
 }
 export interface ServiceMeshServiceMeshMeshConfigControlPlaneLog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#enabled ServiceMeshServiceMesh#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#enabled ServiceMeshServiceMesh#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#log_ttl_in_day ServiceMeshServiceMesh#log_ttl_in_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#log_ttl_in_day ServiceMeshServiceMesh#log_ttl_in_day}
   */
   readonly logTtlInDay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#project ServiceMeshServiceMesh#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#project ServiceMeshServiceMesh#project}
   */
   readonly project?: string;
 }
@@ -920,19 +920,19 @@ export class ServiceMeshServiceMeshMeshConfigControlPlaneLogOutputReference exte
 }
 export interface ServiceMeshServiceMeshMeshConfigKialiOpenIdConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#client_id ServiceMeshServiceMesh#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#client_id ServiceMeshServiceMesh#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#client_secret ServiceMeshServiceMesh#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#client_secret ServiceMeshServiceMesh#client_secret}
   */
   readonly clientSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#issuer_uri ServiceMeshServiceMesh#issuer_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#issuer_uri ServiceMeshServiceMesh#issuer_uri}
   */
   readonly issuerUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#scopes ServiceMeshServiceMesh#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#scopes ServiceMeshServiceMesh#scopes}
   */
   readonly scopes?: string[];
 }
@@ -1103,7 +1103,7 @@ export class ServiceMeshServiceMeshMeshConfigKialiOpenIdConfigOutputReference ex
 }
 export interface ServiceMeshServiceMeshMeshConfigKialiRamOauthConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#redirect_uris ServiceMeshServiceMesh#redirect_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#redirect_uris ServiceMeshServiceMesh#redirect_uris}
   */
   readonly redirectUris?: string;
 }
@@ -1187,19 +1187,19 @@ export class ServiceMeshServiceMeshMeshConfigKialiRamOauthConfigOutputReference 
 }
 export interface ServiceMeshServiceMeshMeshConfigKialiServerConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#web_fqdn ServiceMeshServiceMesh#web_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#web_fqdn ServiceMeshServiceMesh#web_fqdn}
   */
   readonly webFqdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#web_port ServiceMeshServiceMesh#web_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#web_port ServiceMeshServiceMesh#web_port}
   */
   readonly webPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#web_root ServiceMeshServiceMesh#web_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#web_root ServiceMeshServiceMesh#web_root}
   */
   readonly webRoot?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#web_schema ServiceMeshServiceMesh#web_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#web_schema ServiceMeshServiceMesh#web_schema}
   */
   readonly webSchema?: string;
 }
@@ -1370,45 +1370,45 @@ export class ServiceMeshServiceMeshMeshConfigKialiServerConfigOutputReference ex
 }
 export interface ServiceMeshServiceMeshMeshConfigKiali {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#auth_strategy ServiceMeshServiceMesh#auth_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#auth_strategy ServiceMeshServiceMesh#auth_strategy}
   */
   readonly authStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#custom_prometheus_url ServiceMeshServiceMesh#custom_prometheus_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#custom_prometheus_url ServiceMeshServiceMesh#custom_prometheus_url}
   */
   readonly customPrometheusUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#enabled ServiceMeshServiceMesh#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#enabled ServiceMeshServiceMesh#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#integrate_clb ServiceMeshServiceMesh#integrate_clb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#integrate_clb ServiceMeshServiceMesh#integrate_clb}
   */
   readonly integrateClb?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#kiali_arms_auth_tokens ServiceMeshServiceMesh#kiali_arms_auth_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#kiali_arms_auth_tokens ServiceMeshServiceMesh#kiali_arms_auth_tokens}
   */
   readonly kialiArmsAuthTokens?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#kiali_service_annotations ServiceMeshServiceMesh#kiali_service_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#kiali_service_annotations ServiceMeshServiceMesh#kiali_service_annotations}
   */
   readonly kialiServiceAnnotations?: string;
   /**
   * open_id_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#open_id_config ServiceMeshServiceMesh#open_id_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#open_id_config ServiceMeshServiceMesh#open_id_config}
   */
   readonly openIdConfig?: ServiceMeshServiceMeshMeshConfigKialiOpenIdConfig;
   /**
   * ram_oauth_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#ram_oauth_config ServiceMeshServiceMesh#ram_oauth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#ram_oauth_config ServiceMeshServiceMesh#ram_oauth_config}
   */
   readonly ramOauthConfig?: ServiceMeshServiceMeshMeshConfigKialiRamOauthConfig;
   /**
   * server_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#server_config ServiceMeshServiceMesh#server_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#server_config ServiceMeshServiceMesh#server_config}
   */
   readonly serverConfig?: ServiceMeshServiceMeshMeshConfigKialiServerConfig;
 }
@@ -1749,27 +1749,27 @@ export class ServiceMeshServiceMeshMeshConfigKialiOutputReference extends cdktf.
 }
 export interface ServiceMeshServiceMeshMeshConfigOpa {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#enabled ServiceMeshServiceMesh#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#enabled ServiceMeshServiceMesh#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#limit_cpu ServiceMeshServiceMesh#limit_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#limit_cpu ServiceMeshServiceMesh#limit_cpu}
   */
   readonly limitCpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#limit_memory ServiceMeshServiceMesh#limit_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#limit_memory ServiceMeshServiceMesh#limit_memory}
   */
   readonly limitMemory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#log_level ServiceMeshServiceMesh#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#log_level ServiceMeshServiceMesh#log_level}
   */
   readonly logLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#request_cpu ServiceMeshServiceMesh#request_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#request_cpu ServiceMeshServiceMesh#request_cpu}
   */
   readonly requestCpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#request_memory ServiceMeshServiceMesh#request_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#request_memory ServiceMeshServiceMesh#request_memory}
   */
   readonly requestMemory?: string;
 }
@@ -1998,11 +1998,11 @@ export class ServiceMeshServiceMeshMeshConfigOpaOutputReference extends cdktf.Co
 }
 export interface ServiceMeshServiceMeshMeshConfigPilot {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#http10_enabled ServiceMeshServiceMesh#http10_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#http10_enabled ServiceMeshServiceMesh#http10_enabled}
   */
   readonly http10Enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#trace_sampling ServiceMeshServiceMesh#trace_sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#trace_sampling ServiceMeshServiceMesh#trace_sampling}
   */
   readonly traceSampling?: number;
 }
@@ -2115,23 +2115,23 @@ export class ServiceMeshServiceMeshMeshConfigPilotOutputReference extends cdktf.
 }
 export interface ServiceMeshServiceMeshMeshConfigProxy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#cluster_domain ServiceMeshServiceMesh#cluster_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#cluster_domain ServiceMeshServiceMesh#cluster_domain}
   */
   readonly clusterDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#limit_cpu ServiceMeshServiceMesh#limit_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#limit_cpu ServiceMeshServiceMesh#limit_cpu}
   */
   readonly limitCpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#limit_memory ServiceMeshServiceMesh#limit_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#limit_memory ServiceMeshServiceMesh#limit_memory}
   */
   readonly limitMemory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#request_cpu ServiceMeshServiceMesh#request_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#request_cpu ServiceMeshServiceMesh#request_cpu}
   */
   readonly requestCpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#request_memory ServiceMeshServiceMesh#request_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#request_memory ServiceMeshServiceMesh#request_memory}
   */
   readonly requestMemory?: string;
 }
@@ -2331,11 +2331,11 @@ export class ServiceMeshServiceMeshMeshConfigProxyOutputReference extends cdktf.
 }
 export interface ServiceMeshServiceMeshMeshConfigSidecarInjectorInitCniConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#enabled ServiceMeshServiceMesh#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#enabled ServiceMeshServiceMesh#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#exclude_namespaces ServiceMeshServiceMesh#exclude_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#exclude_namespaces ServiceMeshServiceMesh#exclude_namespaces}
   */
   readonly excludeNamespaces?: string;
 }
@@ -2448,33 +2448,33 @@ export class ServiceMeshServiceMeshMeshConfigSidecarInjectorInitCniConfiguration
 }
 export interface ServiceMeshServiceMeshMeshConfigSidecarInjector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#auto_injection_policy_enabled ServiceMeshServiceMesh#auto_injection_policy_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#auto_injection_policy_enabled ServiceMeshServiceMesh#auto_injection_policy_enabled}
   */
   readonly autoInjectionPolicyEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#enable_namespaces_by_default ServiceMeshServiceMesh#enable_namespaces_by_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#enable_namespaces_by_default ServiceMeshServiceMesh#enable_namespaces_by_default}
   */
   readonly enableNamespacesByDefault?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#limit_cpu ServiceMeshServiceMesh#limit_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#limit_cpu ServiceMeshServiceMesh#limit_cpu}
   */
   readonly limitCpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#limit_memory ServiceMeshServiceMesh#limit_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#limit_memory ServiceMeshServiceMesh#limit_memory}
   */
   readonly limitMemory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#request_cpu ServiceMeshServiceMesh#request_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#request_cpu ServiceMeshServiceMesh#request_cpu}
   */
   readonly requestCpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#request_memory ServiceMeshServiceMesh#request_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#request_memory ServiceMeshServiceMesh#request_memory}
   */
   readonly requestMemory?: string;
   /**
   * init_cni_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#init_cni_configuration ServiceMeshServiceMesh#init_cni_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#init_cni_configuration ServiceMeshServiceMesh#init_cni_configuration}
   */
   readonly initCniConfiguration?: ServiceMeshServiceMeshMeshConfigSidecarInjectorInitCniConfiguration;
 }
@@ -2737,75 +2737,75 @@ export class ServiceMeshServiceMeshMeshConfigSidecarInjectorOutputReference exte
 }
 export interface ServiceMeshServiceMeshMeshConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#customized_zipkin ServiceMeshServiceMesh#customized_zipkin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#customized_zipkin ServiceMeshServiceMesh#customized_zipkin}
   */
   readonly customizedZipkin?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#enable_locality_lb ServiceMeshServiceMesh#enable_locality_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#enable_locality_lb ServiceMeshServiceMesh#enable_locality_lb}
   */
   readonly enableLocalityLb?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#include_ip_ranges ServiceMeshServiceMesh#include_ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#include_ip_ranges ServiceMeshServiceMesh#include_ip_ranges}
   */
   readonly includeIpRanges?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#outbound_traffic_policy ServiceMeshServiceMesh#outbound_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#outbound_traffic_policy ServiceMeshServiceMesh#outbound_traffic_policy}
   */
   readonly outboundTrafficPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#telemetry ServiceMeshServiceMesh#telemetry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#telemetry ServiceMeshServiceMesh#telemetry}
   */
   readonly telemetry?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#tracing ServiceMeshServiceMesh#tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#tracing ServiceMeshServiceMesh#tracing}
   */
   readonly tracing?: boolean | cdktf.IResolvable;
   /**
   * access_log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#access_log ServiceMeshServiceMesh#access_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#access_log ServiceMeshServiceMesh#access_log}
   */
   readonly accessLog?: ServiceMeshServiceMeshMeshConfigAccessLog;
   /**
   * audit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#audit ServiceMeshServiceMesh#audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#audit ServiceMeshServiceMesh#audit}
   */
   readonly audit?: ServiceMeshServiceMeshMeshConfigAudit;
   /**
   * control_plane_log block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#control_plane_log ServiceMeshServiceMesh#control_plane_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#control_plane_log ServiceMeshServiceMesh#control_plane_log}
   */
   readonly controlPlaneLog?: ServiceMeshServiceMeshMeshConfigControlPlaneLog;
   /**
   * kiali block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#kiali ServiceMeshServiceMesh#kiali}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#kiali ServiceMeshServiceMesh#kiali}
   */
   readonly kiali?: ServiceMeshServiceMeshMeshConfigKiali;
   /**
   * opa block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#opa ServiceMeshServiceMesh#opa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#opa ServiceMeshServiceMesh#opa}
   */
   readonly opa?: ServiceMeshServiceMeshMeshConfigOpa;
   /**
   * pilot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#pilot ServiceMeshServiceMesh#pilot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#pilot ServiceMeshServiceMesh#pilot}
   */
   readonly pilot?: ServiceMeshServiceMeshMeshConfigPilot;
   /**
   * proxy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#proxy ServiceMeshServiceMesh#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#proxy ServiceMeshServiceMesh#proxy}
   */
   readonly proxy?: ServiceMeshServiceMeshMeshConfigProxy;
   /**
   * sidecar_injector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#sidecar_injector ServiceMeshServiceMesh#sidecar_injector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#sidecar_injector ServiceMeshServiceMesh#sidecar_injector}
   */
   readonly sidecarInjector?: ServiceMeshServiceMeshMeshConfigSidecarInjector;
 }
@@ -3272,11 +3272,11 @@ export class ServiceMeshServiceMeshMeshConfigOutputReference extends cdktf.Compl
 }
 export interface ServiceMeshServiceMeshNetwork {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#vpc_id ServiceMeshServiceMesh#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#vpc_id ServiceMeshServiceMesh#vpc_id}
   */
   readonly vpcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#vswitche_list ServiceMeshServiceMesh#vswitche_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#vswitche_list ServiceMeshServiceMesh#vswitche_list}
   */
   readonly vswitcheList: string[];
 }
@@ -3388,15 +3388,15 @@ export class ServiceMeshServiceMeshNetworkOutputReference extends cdktf.ComplexO
 }
 export interface ServiceMeshServiceMeshTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#create ServiceMeshServiceMesh#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#create ServiceMeshServiceMesh#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#delete ServiceMeshServiceMesh#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#delete ServiceMeshServiceMesh#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#update ServiceMeshServiceMesh#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#update ServiceMeshServiceMesh#update}
   */
   readonly update?: string;
 }
@@ -3548,7 +3548,7 @@ export class ServiceMeshServiceMeshTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh alicloud_service_mesh_service_mesh}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh alicloud_service_mesh_service_mesh}
 */
 export class ServiceMeshServiceMesh extends cdktf.TerraformResource {
 
@@ -3564,7 +3564,7 @@ export class ServiceMeshServiceMesh extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceMeshServiceMesh resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceMeshServiceMesh to import
-  * @param importFromId The id of the existing ServiceMeshServiceMesh that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceMeshServiceMesh that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceMeshServiceMesh to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3576,7 +3576,7 @@ export class ServiceMeshServiceMesh extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/service_mesh_service_mesh alicloud_service_mesh_service_mesh} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/service_mesh_service_mesh alicloud_service_mesh_service_mesh} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3587,8 +3587,8 @@ export class ServiceMeshServiceMesh extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_service_mesh_service_mesh',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

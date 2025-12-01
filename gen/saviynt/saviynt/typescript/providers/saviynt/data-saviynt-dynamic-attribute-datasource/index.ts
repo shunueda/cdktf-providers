@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/dynamic_attribute_datasource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/data-sources/dynamic_attribute_datasource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DataSaviyntDynamicAttributeDatasourceConfig extends cdktf.Terra
   /**
   * If false, do not store connection_attributes in state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/dynamic_attribute_datasource#authenticate DataSaviyntDynamicAttributeDatasource#authenticate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/data-sources/dynamic_attribute_datasource#authenticate DataSaviyntDynamicAttributeDatasource#authenticate}
   */
   readonly authenticate: boolean | cdktf.IResolvable;
   /**
   * Dynamic Attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/dynamic_attribute_datasource#dynamic_attributes DataSaviyntDynamicAttributeDatasource#dynamic_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/data-sources/dynamic_attribute_datasource#dynamic_attributes DataSaviyntDynamicAttributeDatasource#dynamic_attributes}
   */
   readonly dynamicAttributes?: string[];
   /**
   * Endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/dynamic_attribute_datasource#endpoint DataSaviyntDynamicAttributeDatasource#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/data-sources/dynamic_attribute_datasource#endpoint DataSaviyntDynamicAttributeDatasource#endpoint}
   */
   readonly endpoint?: string[];
   /**
   * Logged In User
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/dynamic_attribute_datasource#loggedinuser DataSaviyntDynamicAttributeDatasource#loggedinuser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/data-sources/dynamic_attribute_datasource#loggedinuser DataSaviyntDynamicAttributeDatasource#loggedinuser}
   */
   readonly loggedinuser?: string;
   /**
   * Max
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/dynamic_attribute_datasource#max DataSaviyntDynamicAttributeDatasource#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/data-sources/dynamic_attribute_datasource#max DataSaviyntDynamicAttributeDatasource#max}
   */
   readonly max?: string;
   /**
   * Offset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/dynamic_attribute_datasource#offset DataSaviyntDynamicAttributeDatasource#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/data-sources/dynamic_attribute_datasource#offset DataSaviyntDynamicAttributeDatasource#offset}
   */
   readonly offset?: string;
   /**
   * Request Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/dynamic_attribute_datasource#requesttype DataSaviyntDynamicAttributeDatasource#requesttype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/data-sources/dynamic_attribute_datasource#requesttype DataSaviyntDynamicAttributeDatasource#requesttype}
   */
   readonly requesttype?: string[];
   /**
   * Security System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/dynamic_attribute_datasource#securitysystem DataSaviyntDynamicAttributeDatasource#securitysystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/data-sources/dynamic_attribute_datasource#securitysystem DataSaviyntDynamicAttributeDatasource#securitysystem}
   */
   readonly securitysystem?: string[];
 }
@@ -228,7 +228,7 @@ export class DataSaviyntDynamicAttributeDatasourceDynamicAttributesListStructLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/dynamic_attribute_datasource saviynt_dynamic_attribute_datasource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/data-sources/dynamic_attribute_datasource saviynt_dynamic_attribute_datasource}
 */
 export class DataSaviyntDynamicAttributeDatasource extends cdktf.TerraformDataSource {
 
@@ -244,7 +244,7 @@ export class DataSaviyntDynamicAttributeDatasource extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataSaviyntDynamicAttributeDatasource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSaviyntDynamicAttributeDatasource to import
-  * @param importFromId The id of the existing DataSaviyntDynamicAttributeDatasource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/dynamic_attribute_datasource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSaviyntDynamicAttributeDatasource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/data-sources/dynamic_attribute_datasource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSaviyntDynamicAttributeDatasource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -256,7 +256,7 @@ export class DataSaviyntDynamicAttributeDatasource extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/dynamic_attribute_datasource saviynt_dynamic_attribute_datasource} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/data-sources/dynamic_attribute_datasource saviynt_dynamic_attribute_datasource} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -267,8 +267,8 @@ export class DataSaviyntDynamicAttributeDatasource extends cdktf.TerraformDataSo
       terraformResourceType: 'saviynt_dynamic_attribute_datasource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.3.1',
-        providerVersionConstraint: '0.3.1'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

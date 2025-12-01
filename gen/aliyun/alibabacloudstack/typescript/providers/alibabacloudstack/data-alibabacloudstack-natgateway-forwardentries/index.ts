@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/natgateway_forwardentries
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/natgateway_forwardentries
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackNatgatewayForwardentriesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/natgateway_forwardentries#external_ip DataAlibabacloudstackNatgatewayForwardentries#external_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/natgateway_forwardentries#external_ip DataAlibabacloudstackNatgatewayForwardentries#external_ip}
   */
   readonly externalIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/natgateway_forwardentries#forward_table_id DataAlibabacloudstackNatgatewayForwardentries#forward_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/natgateway_forwardentries#forward_table_id DataAlibabacloudstackNatgatewayForwardentries#forward_table_id}
   */
   readonly forwardTableId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/natgateway_forwardentries#id DataAlibabacloudstackNatgatewayForwardentries#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/natgateway_forwardentries#id DataAlibabacloudstackNatgatewayForwardentries#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/natgateway_forwardentries#ids DataAlibabacloudstackNatgatewayForwardentries#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/natgateway_forwardentries#ids DataAlibabacloudstackNatgatewayForwardentries#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/natgateway_forwardentries#internal_ip DataAlibabacloudstackNatgatewayForwardentries#internal_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/natgateway_forwardentries#internal_ip DataAlibabacloudstackNatgatewayForwardentries#internal_ip}
   */
   readonly internalIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/natgateway_forwardentries#name_regex DataAlibabacloudstackNatgatewayForwardentries#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/natgateway_forwardentries#name_regex DataAlibabacloudstackNatgatewayForwardentries#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/natgateway_forwardentries#output_file DataAlibabacloudstackNatgatewayForwardentries#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/natgateway_forwardentries#output_file DataAlibabacloudstackNatgatewayForwardentries#output_file}
   */
   readonly outputFile?: string;
 }
@@ -146,7 +146,7 @@ export class DataAlibabacloudstackNatgatewayForwardentriesEntriesList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/natgateway_forwardentries alibabacloudstack_natgateway_forwardentries}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/natgateway_forwardentries alibabacloudstack_natgateway_forwardentries}
 */
 export class DataAlibabacloudstackNatgatewayForwardentries extends cdktf.TerraformDataSource {
 
@@ -162,7 +162,7 @@ export class DataAlibabacloudstackNatgatewayForwardentries extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataAlibabacloudstackNatgatewayForwardentries resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackNatgatewayForwardentries to import
-  * @param importFromId The id of the existing DataAlibabacloudstackNatgatewayForwardentries that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/natgateway_forwardentries#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackNatgatewayForwardentries that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/natgateway_forwardentries#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackNatgatewayForwardentries to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -174,7 +174,7 @@ export class DataAlibabacloudstackNatgatewayForwardentries extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/natgateway_forwardentries alibabacloudstack_natgateway_forwardentries} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/natgateway_forwardentries alibabacloudstack_natgateway_forwardentries} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -185,8 +185,8 @@ export class DataAlibabacloudstackNatgatewayForwardentries extends cdktf.Terrafo
       terraformResourceType: 'alibabacloudstack_natgateway_forwardentries',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

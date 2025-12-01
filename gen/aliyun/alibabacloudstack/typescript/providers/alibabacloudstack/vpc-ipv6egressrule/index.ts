@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_ipv6egressrule
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_ipv6egressrule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface VpcIpv6EgressruleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_ipv6egressrule#description VpcIpv6Egressrule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_ipv6egressrule#description VpcIpv6Egressrule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_ipv6egressrule#id VpcIpv6Egressrule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_ipv6egressrule#id VpcIpv6Egressrule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_ipv6egressrule#instance_id VpcIpv6Egressrule#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_ipv6egressrule#instance_id VpcIpv6Egressrule#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_ipv6egressrule#instance_type VpcIpv6Egressrule#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_ipv6egressrule#instance_type VpcIpv6Egressrule#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_ipv6egressrule#ipv6_egress_rule_name VpcIpv6Egressrule#ipv6_egress_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_ipv6egressrule#ipv6_egress_rule_name VpcIpv6Egressrule#ipv6_egress_rule_name}
   */
   readonly ipv6EgressRuleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_ipv6egressrule#ipv6_gateway_id VpcIpv6Egressrule#ipv6_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_ipv6egressrule#ipv6_gateway_id VpcIpv6Egressrule#ipv6_gateway_id}
   */
   readonly ipv6GatewayId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_ipv6egressrule#timeouts VpcIpv6Egressrule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_ipv6egressrule#timeouts VpcIpv6Egressrule#timeouts}
   */
   readonly timeouts?: VpcIpv6EgressruleTimeouts;
 }
 export interface VpcIpv6EgressruleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_ipv6egressrule#create VpcIpv6Egressrule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_ipv6egressrule#create VpcIpv6Egressrule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_ipv6egressrule#delete VpcIpv6Egressrule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_ipv6egressrule#delete VpcIpv6Egressrule#delete}
   */
   readonly delete?: string;
 }
@@ -170,7 +170,7 @@ export class VpcIpv6EgressruleTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_ipv6egressrule alibabacloudstack_vpc_ipv6egressrule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_ipv6egressrule alibabacloudstack_vpc_ipv6egressrule}
 */
 export class VpcIpv6Egressrule extends cdktf.TerraformResource {
 
@@ -186,7 +186,7 @@ export class VpcIpv6Egressrule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcIpv6Egressrule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcIpv6Egressrule to import
-  * @param importFromId The id of the existing VpcIpv6Egressrule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_ipv6egressrule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcIpv6Egressrule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_ipv6egressrule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcIpv6Egressrule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -198,7 +198,7 @@ export class VpcIpv6Egressrule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_ipv6egressrule alibabacloudstack_vpc_ipv6egressrule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_ipv6egressrule alibabacloudstack_vpc_ipv6egressrule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -209,8 +209,8 @@ export class VpcIpv6Egressrule extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_vpc_ipv6egressrule',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

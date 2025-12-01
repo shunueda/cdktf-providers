@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,276 +8,276 @@ import * as cdktf from 'cdktf';
 
 export interface LaunchTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#auto_release_time LaunchTemplate#auto_release_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#auto_release_time LaunchTemplate#auto_release_time}
   */
   readonly autoReleaseTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#auto_renew LaunchTemplate#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#auto_renew LaunchTemplate#auto_renew}
   */
   readonly autoRenew?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#auto_renew_period LaunchTemplate#auto_renew_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#auto_renew_period LaunchTemplate#auto_renew_period}
   */
   readonly autoRenewPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#default_version_number LaunchTemplate#default_version_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#default_version_number LaunchTemplate#default_version_number}
   */
   readonly defaultVersionNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#deployment_set_id LaunchTemplate#deployment_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#deployment_set_id LaunchTemplate#deployment_set_id}
   */
   readonly deploymentSetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#description LaunchTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#description LaunchTemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#enable_vm_os_config LaunchTemplate#enable_vm_os_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#enable_vm_os_config LaunchTemplate#enable_vm_os_config}
   */
   readonly enableVmOsConfig?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#host_name LaunchTemplate#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#host_name LaunchTemplate#host_name}
   */
   readonly hostName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#http_endpoint LaunchTemplate#http_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#http_endpoint LaunchTemplate#http_endpoint}
   */
   readonly httpEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#http_put_response_hop_limit LaunchTemplate#http_put_response_hop_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#http_put_response_hop_limit LaunchTemplate#http_put_response_hop_limit}
   */
   readonly httpPutResponseHopLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#http_tokens LaunchTemplate#http_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#http_tokens LaunchTemplate#http_tokens}
   */
   readonly httpTokens?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#id LaunchTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#id LaunchTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#image_id LaunchTemplate#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#image_id LaunchTemplate#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#image_owner_alias LaunchTemplate#image_owner_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#image_owner_alias LaunchTemplate#image_owner_alias}
   */
   readonly imageOwnerAlias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#instance_charge_type LaunchTemplate#instance_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#instance_charge_type LaunchTemplate#instance_charge_type}
   */
   readonly instanceChargeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#instance_name LaunchTemplate#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#instance_name LaunchTemplate#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#instance_type LaunchTemplate#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#instance_type LaunchTemplate#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#internet_charge_type LaunchTemplate#internet_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#internet_charge_type LaunchTemplate#internet_charge_type}
   */
   readonly internetChargeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#internet_max_bandwidth_in LaunchTemplate#internet_max_bandwidth_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#internet_max_bandwidth_in LaunchTemplate#internet_max_bandwidth_in}
   */
   readonly internetMaxBandwidthIn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#internet_max_bandwidth_out LaunchTemplate#internet_max_bandwidth_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#internet_max_bandwidth_out LaunchTemplate#internet_max_bandwidth_out}
   */
   readonly internetMaxBandwidthOut?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#io_optimized LaunchTemplate#io_optimized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#io_optimized LaunchTemplate#io_optimized}
   */
   readonly ioOptimized?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#key_pair_name LaunchTemplate#key_pair_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#key_pair_name LaunchTemplate#key_pair_name}
   */
   readonly keyPairName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#launch_template_name LaunchTemplate#launch_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#launch_template_name LaunchTemplate#launch_template_name}
   */
   readonly launchTemplateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#name LaunchTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#name LaunchTemplate#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#network_type LaunchTemplate#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#network_type LaunchTemplate#network_type}
   */
   readonly networkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#password_inherit LaunchTemplate#password_inherit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#password_inherit LaunchTemplate#password_inherit}
   */
   readonly passwordInherit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#period LaunchTemplate#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#period LaunchTemplate#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#period_unit LaunchTemplate#period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#period_unit LaunchTemplate#period_unit}
   */
   readonly periodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#private_ip_address LaunchTemplate#private_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#private_ip_address LaunchTemplate#private_ip_address}
   */
   readonly privateIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#ram_role_name LaunchTemplate#ram_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#ram_role_name LaunchTemplate#ram_role_name}
   */
   readonly ramRoleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#resource_group_id LaunchTemplate#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#resource_group_id LaunchTemplate#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#security_enhancement_strategy LaunchTemplate#security_enhancement_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#security_enhancement_strategy LaunchTemplate#security_enhancement_strategy}
   */
   readonly securityEnhancementStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#security_group_id LaunchTemplate#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#security_group_id LaunchTemplate#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#security_group_ids LaunchTemplate#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#security_group_ids LaunchTemplate#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#spot_duration LaunchTemplate#spot_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#spot_duration LaunchTemplate#spot_duration}
   */
   readonly spotDuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#spot_price_limit LaunchTemplate#spot_price_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#spot_price_limit LaunchTemplate#spot_price_limit}
   */
   readonly spotPriceLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#spot_strategy LaunchTemplate#spot_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#spot_strategy LaunchTemplate#spot_strategy}
   */
   readonly spotStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#system_disk_category LaunchTemplate#system_disk_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#system_disk_category LaunchTemplate#system_disk_category}
   */
   readonly systemDiskCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#system_disk_description LaunchTemplate#system_disk_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#system_disk_description LaunchTemplate#system_disk_description}
   */
   readonly systemDiskDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#system_disk_name LaunchTemplate#system_disk_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#system_disk_name LaunchTemplate#system_disk_name}
   */
   readonly systemDiskName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#system_disk_size LaunchTemplate#system_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#system_disk_size LaunchTemplate#system_disk_size}
   */
   readonly systemDiskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#tags LaunchTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#tags LaunchTemplate#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#template_resource_group_id LaunchTemplate#template_resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#template_resource_group_id LaunchTemplate#template_resource_group_id}
   */
   readonly templateResourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#template_tags LaunchTemplate#template_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#template_tags LaunchTemplate#template_tags}
   */
   readonly templateTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#update_default_version_number LaunchTemplate#update_default_version_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#update_default_version_number LaunchTemplate#update_default_version_number}
   */
   readonly updateDefaultVersionNumber?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#user_data LaunchTemplate#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#user_data LaunchTemplate#user_data}
   */
   readonly userData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#userdata LaunchTemplate#userdata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#userdata LaunchTemplate#userdata}
   */
   readonly userdata?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#version_description LaunchTemplate#version_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#version_description LaunchTemplate#version_description}
   */
   readonly versionDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#vpc_id LaunchTemplate#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#vpc_id LaunchTemplate#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#vswitch_id LaunchTemplate#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#vswitch_id LaunchTemplate#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#zone_id LaunchTemplate#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#zone_id LaunchTemplate#zone_id}
   */
   readonly zoneId?: string;
   /**
   * data_disks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#data_disks LaunchTemplate#data_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#data_disks LaunchTemplate#data_disks}
   */
   readonly dataDisks?: LaunchTemplateDataDisks[] | cdktf.IResolvable;
   /**
   * image_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#image_options LaunchTemplate#image_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#image_options LaunchTemplate#image_options}
   */
   readonly imageOptions?: LaunchTemplateImageOptions;
   /**
   * network_interfaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#network_interfaces LaunchTemplate#network_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#network_interfaces LaunchTemplate#network_interfaces}
   */
   readonly networkInterfaces?: LaunchTemplateNetworkInterfaces;
   /**
   * system_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#system_disk LaunchTemplate#system_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#system_disk LaunchTemplate#system_disk}
   */
   readonly systemDisk?: LaunchTemplateSystemDisk;
 }
 export interface LaunchTemplateDataDisks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#category LaunchTemplate#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#category LaunchTemplate#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#delete_with_instance LaunchTemplate#delete_with_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#delete_with_instance LaunchTemplate#delete_with_instance}
   */
   readonly deleteWithInstance?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#description LaunchTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#description LaunchTemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#device LaunchTemplate#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#device LaunchTemplate#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#encrypted LaunchTemplate#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#encrypted LaunchTemplate#encrypted}
   */
   readonly encrypted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#kms_key_id LaunchTemplate#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#kms_key_id LaunchTemplate#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#name LaunchTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#name LaunchTemplate#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#performance_level LaunchTemplate#performance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#performance_level LaunchTemplate#performance_level}
   */
   readonly performanceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#size LaunchTemplate#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#size LaunchTemplate#size}
   */
   readonly size?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#snapshot_id LaunchTemplate#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#snapshot_id LaunchTemplate#snapshot_id}
   */
   readonly snapshotId?: string;
 }
@@ -654,7 +654,7 @@ export class LaunchTemplateDataDisksList extends cdktf.ComplexList {
 }
 export interface LaunchTemplateImageOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#login_as_non_root LaunchTemplate#login_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#login_as_non_root LaunchTemplate#login_as_non_root}
   */
   readonly loginAsNonRoot?: boolean | cdktf.IResolvable;
 }
@@ -738,27 +738,27 @@ export class LaunchTemplateImageOptionsOutputReference extends cdktf.ComplexObje
 }
 export interface LaunchTemplateNetworkInterfaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#delete_on_release LaunchTemplate#delete_on_release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#delete_on_release LaunchTemplate#delete_on_release}
   */
   readonly deleteOnRelease?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#description LaunchTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#description LaunchTemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#name LaunchTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#name LaunchTemplate#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#primary_ip LaunchTemplate#primary_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#primary_ip LaunchTemplate#primary_ip}
   */
   readonly primaryIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#security_group_id LaunchTemplate#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#security_group_id LaunchTemplate#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#vswitch_id LaunchTemplate#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#vswitch_id LaunchTemplate#vswitch_id}
   */
   readonly vswitchId?: string;
 }
@@ -987,39 +987,39 @@ export class LaunchTemplateNetworkInterfacesOutputReference extends cdktf.Comple
 }
 export interface LaunchTemplateSystemDisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#category LaunchTemplate#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#category LaunchTemplate#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#delete_with_instance LaunchTemplate#delete_with_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#delete_with_instance LaunchTemplate#delete_with_instance}
   */
   readonly deleteWithInstance?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#description LaunchTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#description LaunchTemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#encrypted LaunchTemplate#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#encrypted LaunchTemplate#encrypted}
   */
   readonly encrypted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#iops LaunchTemplate#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#iops LaunchTemplate#iops}
   */
   readonly iops?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#kms_key_id LaunchTemplate#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#kms_key_id LaunchTemplate#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#name LaunchTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#name LaunchTemplate#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#performance_level LaunchTemplate#performance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#performance_level LaunchTemplate#performance_level}
   */
   readonly performanceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#size LaunchTemplate#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#size LaunchTemplate#size}
   */
   readonly size?: number;
 }
@@ -1335,7 +1335,7 @@ export class LaunchTemplateSystemDiskOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template alicloud_launch_template}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template alicloud_launch_template}
 */
 export class LaunchTemplate extends cdktf.TerraformResource {
 
@@ -1351,7 +1351,7 @@ export class LaunchTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LaunchTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LaunchTemplate to import
-  * @param importFromId The id of the existing LaunchTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LaunchTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LaunchTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1363,7 +1363,7 @@ export class LaunchTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/launch_template alicloud_launch_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/launch_template alicloud_launch_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1374,8 +1374,8 @@ export class LaunchTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_launch_template',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

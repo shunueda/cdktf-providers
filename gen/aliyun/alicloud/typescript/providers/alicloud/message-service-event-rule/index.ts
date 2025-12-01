@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_event_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_event_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface MessageServiceEventRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_event_rule#delivery_mode MessageServiceEventRule#delivery_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_event_rule#delivery_mode MessageServiceEventRule#delivery_mode}
   */
   readonly deliveryMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_event_rule#event_types MessageServiceEventRule#event_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_event_rule#event_types MessageServiceEventRule#event_types}
   */
   readonly eventTypes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_event_rule#id MessageServiceEventRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_event_rule#id MessageServiceEventRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_event_rule#match_rules MessageServiceEventRule#match_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_event_rule#match_rules MessageServiceEventRule#match_rules}
   */
   readonly matchRules?: MessageServiceEventRuleMatchRulesList[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_event_rule#rule_name MessageServiceEventRule#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_event_rule#rule_name MessageServiceEventRule#rule_name}
   */
   readonly ruleName: string;
   /**
   * endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_event_rule#endpoint MessageServiceEventRule#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_event_rule#endpoint MessageServiceEventRule#endpoint}
   */
   readonly endpoint?: MessageServiceEventRuleEndpoint;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_event_rule#timeouts MessageServiceEventRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_event_rule#timeouts MessageServiceEventRule#timeouts}
   */
   readonly timeouts?: MessageServiceEventRuleTimeouts;
 }
 export interface MessageServiceEventRuleMatchRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_event_rule#match_state MessageServiceEventRule#match_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_event_rule#match_state MessageServiceEventRule#match_state}
   */
   readonly matchState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_event_rule#name MessageServiceEventRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_event_rule#name MessageServiceEventRule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_event_rule#prefix MessageServiceEventRule#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_event_rule#prefix MessageServiceEventRule#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_event_rule#suffix MessageServiceEventRule#suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_event_rule#suffix MessageServiceEventRule#suffix}
   */
   readonly suffix?: string;
 }
@@ -280,11 +280,11 @@ export class MessageServiceEventRuleMatchRulesList extends cdktf.ComplexList {
 }
 export interface MessageServiceEventRuleEndpoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_event_rule#endpoint_type MessageServiceEventRule#endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_event_rule#endpoint_type MessageServiceEventRule#endpoint_type}
   */
   readonly endpointType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_event_rule#endpoint_value MessageServiceEventRule#endpoint_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_event_rule#endpoint_value MessageServiceEventRule#endpoint_value}
   */
   readonly endpointValue?: string;
 }
@@ -397,11 +397,11 @@ export class MessageServiceEventRuleEndpointOutputReference extends cdktf.Comple
 }
 export interface MessageServiceEventRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_event_rule#create MessageServiceEventRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_event_rule#create MessageServiceEventRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_event_rule#delete MessageServiceEventRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_event_rule#delete MessageServiceEventRule#delete}
   */
   readonly delete?: string;
 }
@@ -524,7 +524,7 @@ export class MessageServiceEventRuleTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_event_rule alicloud_message_service_event_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_event_rule alicloud_message_service_event_rule}
 */
 export class MessageServiceEventRule extends cdktf.TerraformResource {
 
@@ -540,7 +540,7 @@ export class MessageServiceEventRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MessageServiceEventRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MessageServiceEventRule to import
-  * @param importFromId The id of the existing MessageServiceEventRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_event_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MessageServiceEventRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_event_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MessageServiceEventRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -552,7 +552,7 @@ export class MessageServiceEventRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_event_rule alicloud_message_service_event_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_event_rule alicloud_message_service_event_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -563,8 +563,8 @@ export class MessageServiceEventRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_message_service_event_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

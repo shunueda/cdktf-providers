@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SChaosMeshOrgAwsChaosV1Alpha1ManifestConfig extends cdktf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#metadata DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#metadata DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SChaosMeshOrgAwsChaosV1Alpha1ManifestMetadata;
   /**
   * AWSChaosSpec is the content of the specification for an AWSChaos
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#spec DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#spec DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SChaosMeshOrgAwsChaosV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SChaosMeshOrgAwsChaosV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#annotations DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#annotations DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#labels DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#labels DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#name DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#name DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#namespace DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#namespace DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,55 +219,55 @@ export interface DataK8SChaosMeshOrgAwsChaosV1Alpha1ManifestSpec {
   /**
   * Action defines the specific aws chaos action. Supported action: ec2-stop / ec2-restart / detach-volume Default action: ec2-stop
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#action DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#action DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#action}
   */
   readonly action: string;
   /**
   * AWSRegion defines the region of aws.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#aws_region DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#aws_region DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#aws_region}
   */
   readonly awsRegion: string;
   /**
   * DeviceName indicates the name of the device. Needed in detach-volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#device_name DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#device_name DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#device_name}
   */
   readonly deviceName?: string;
   /**
   * Duration represents the duration of the chaos action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#duration DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#duration DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
   * Ec2Instance indicates the ID of the ec2 instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#ec2_instance DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#ec2_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#ec2_instance DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#ec2_instance}
   */
   readonly ec2Instance: string;
   /**
   * Endpoint indicates the endpoint of the aws server. Just used it in test now.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#endpoint DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#endpoint DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#endpoint}
   */
   readonly endpoint?: string;
   /**
   * RemoteCluster represents the remote cluster where the chaos will be deployed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#remote_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#remote_cluster DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#remote_cluster}
   */
   readonly remoteCluster?: string;
   /**
   * SecretName defines the name of kubernetes secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#secret_name DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#secret_name DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
   /**
   * EbsVolume indicates the ID of the EBS volume. Needed in detach-volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#volume_id DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#volume_id DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest#volume_id}
   */
   readonly volumeId?: string;
 }
@@ -584,7 +584,7 @@ export class DataK8SChaosMeshOrgAwsChaosV1Alpha1ManifestSpecOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest k8s_chaos_mesh_org_aws_chaos_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest k8s_chaos_mesh_org_aws_chaos_v1alpha1_manifest}
 */
 export class DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -600,7 +600,7 @@ export class DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest extends cdktf.Terraform
   * Generates CDKTF code for importing a DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -612,7 +612,7 @@ export class DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest k8s_chaos_mesh_org_aws_chaos_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/chaos_mesh_org_aws_chaos_v1alpha1_manifest k8s_chaos_mesh_org_aws_chaos_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -623,8 +623,8 @@ export class DataK8SChaosMeshOrgAwsChaosV1Alpha1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_chaos_mesh_org_aws_chaos_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

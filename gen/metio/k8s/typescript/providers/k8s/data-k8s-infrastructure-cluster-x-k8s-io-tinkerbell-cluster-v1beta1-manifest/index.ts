@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manif
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#metadata DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#metadata DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1ManifestMetadata;
   /**
   * TinkerbellClusterSpec defines the desired state of TinkerbellCluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#spec DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#spec DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manif
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#annotations DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#annotations DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#labels DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#labels DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#name DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#name DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#namespace DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#namespace DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manif
   /**
   * The hostname on which the API server is serving.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#host DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#host DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest#host}
   */
   readonly host: string;
   /**
   * The port on which the API server is serving.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#port DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#port DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest#port}
   */
   readonly port: number;
 }
@@ -344,31 +344,31 @@ export interface DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manif
   /**
   * ControlPlaneEndpoint is a required field by ClusterAPI v1beta1. See https://cluster-api.sigs.k8s.io/developer/architecture/controllers/cluster.html for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#control_plane_endpoint DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest#control_plane_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#control_plane_endpoint DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest#control_plane_endpoint}
   */
   readonly controlPlaneEndpoint?: DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1ManifestSpecControlPlaneEndpoint;
   /**
   * ImageLookupBaseRegistry is the base Registry URL that is used for pulling images, if not set, the default will be to use ghcr.io/tinkerbell/cluster-api-provider-tinkerbell.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#image_lookup_base_registry DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest#image_lookup_base_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#image_lookup_base_registry DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest#image_lookup_base_registry}
   */
   readonly imageLookupBaseRegistry?: string;
   /**
   * ImageLookupFormat is the URL naming format to use for machine images when a machine does not specify. When set, this will be used for all cluster machines unless a machine specifies a different ImageLookupFormat. Supports substitutions for {{.BaseRegistry}}, {{.OSDistro}}, {{.OSVersion}} and {{.KubernetesVersion}} with the basse URL, OS distribution, OS version, and kubernetes version, respectively. BaseRegistry will be the value in ImageLookupBaseRegistry or ghcr.io/tinkerbell/cluster-api-provider-tinkerbell (the default), OSDistro will be the value in ImageLookupOSDistro or ubuntu (the default), OSVersion will be the value in ImageLookupOSVersion or default based on the OSDistro (if known), and the kubernetes version as defined by the packages produced by kubernetes/release: v1.13.0, v1.12.5-mybuild.1, or v1.17.3. For example, the default image format of {{.BaseRegistry}}/{{.OSDistro}}-{{.OSVersion}}:{{.KubernetesVersion}}.gz will attempt to pull the image from that location. See also: https://golang.org/pkg/text/template/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#image_lookup_format DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest#image_lookup_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#image_lookup_format DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest#image_lookup_format}
   */
   readonly imageLookupFormat?: string;
   /**
   * ImageLookupOSDistro is the name of the OS distro to use when fetching machine images, if not set it will default to ubuntu.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#image_lookup_os_distro DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest#image_lookup_os_distro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#image_lookup_os_distro DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest#image_lookup_os_distro}
   */
   readonly imageLookupOsDistro?: string;
   /**
   * ImageLookupOSVersion is the version of the OS distribution to use when fetching machine images. If not set it will default based on ImageLookupOSDistro.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#image_lookup_os_version DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest#image_lookup_os_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#image_lookup_os_version DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest#image_lookup_os_version}
   */
   readonly imageLookupOsVersion?: string;
 }
@@ -578,7 +578,7 @@ export class DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1ManifestS
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest k8s_infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest k8s_infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest}
 */
 export class DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -594,7 +594,7 @@ export class DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest 
   * Generates CDKTF code for importing a DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -606,7 +606,7 @@ export class DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest k8s_infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest k8s_infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -617,8 +617,8 @@ export class DataK8SInfrastructureClusterXK8SIoTinkerbellClusterV1Beta1Manifest 
       terraformResourceType: 'k8s_infrastructure_cluster_x_k8s_io_tinkerbell_cluster_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

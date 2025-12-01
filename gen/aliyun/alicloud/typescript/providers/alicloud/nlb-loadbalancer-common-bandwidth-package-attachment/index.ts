@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_loadbalancer_common_bandwidth_package_attachment
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nlb_loadbalancer_common_bandwidth_package_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface NlbLoadbalancerCommonBandwidthPackageAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_loadbalancer_common_bandwidth_package_attachment#bandwidth_package_id NlbLoadbalancerCommonBandwidthPackageAttachment#bandwidth_package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nlb_loadbalancer_common_bandwidth_package_attachment#bandwidth_package_id NlbLoadbalancerCommonBandwidthPackageAttachment#bandwidth_package_id}
   */
   readonly bandwidthPackageId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_loadbalancer_common_bandwidth_package_attachment#id NlbLoadbalancerCommonBandwidthPackageAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nlb_loadbalancer_common_bandwidth_package_attachment#id NlbLoadbalancerCommonBandwidthPackageAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_loadbalancer_common_bandwidth_package_attachment#load_balancer_id NlbLoadbalancerCommonBandwidthPackageAttachment#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nlb_loadbalancer_common_bandwidth_package_attachment#load_balancer_id NlbLoadbalancerCommonBandwidthPackageAttachment#load_balancer_id}
   */
   readonly loadBalancerId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_loadbalancer_common_bandwidth_package_attachment#timeouts NlbLoadbalancerCommonBandwidthPackageAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nlb_loadbalancer_common_bandwidth_package_attachment#timeouts NlbLoadbalancerCommonBandwidthPackageAttachment#timeouts}
   */
   readonly timeouts?: NlbLoadbalancerCommonBandwidthPackageAttachmentTimeouts;
 }
 export interface NlbLoadbalancerCommonBandwidthPackageAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_loadbalancer_common_bandwidth_package_attachment#create NlbLoadbalancerCommonBandwidthPackageAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nlb_loadbalancer_common_bandwidth_package_attachment#create NlbLoadbalancerCommonBandwidthPackageAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_loadbalancer_common_bandwidth_package_attachment#delete NlbLoadbalancerCommonBandwidthPackageAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nlb_loadbalancer_common_bandwidth_package_attachment#delete NlbLoadbalancerCommonBandwidthPackageAttachment#delete}
   */
   readonly delete?: string;
 }
@@ -158,7 +158,7 @@ export class NlbLoadbalancerCommonBandwidthPackageAttachmentTimeoutsOutputRefere
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_loadbalancer_common_bandwidth_package_attachment alicloud_nlb_loadbalancer_common_bandwidth_package_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nlb_loadbalancer_common_bandwidth_package_attachment alicloud_nlb_loadbalancer_common_bandwidth_package_attachment}
 */
 export class NlbLoadbalancerCommonBandwidthPackageAttachment extends cdktf.TerraformResource {
 
@@ -174,7 +174,7 @@ export class NlbLoadbalancerCommonBandwidthPackageAttachment extends cdktf.Terra
   * Generates CDKTF code for importing a NlbLoadbalancerCommonBandwidthPackageAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NlbLoadbalancerCommonBandwidthPackageAttachment to import
-  * @param importFromId The id of the existing NlbLoadbalancerCommonBandwidthPackageAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_loadbalancer_common_bandwidth_package_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NlbLoadbalancerCommonBandwidthPackageAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nlb_loadbalancer_common_bandwidth_package_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NlbLoadbalancerCommonBandwidthPackageAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -186,7 +186,7 @@ export class NlbLoadbalancerCommonBandwidthPackageAttachment extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/nlb_loadbalancer_common_bandwidth_package_attachment alicloud_nlb_loadbalancer_common_bandwidth_package_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/nlb_loadbalancer_common_bandwidth_package_attachment alicloud_nlb_loadbalancer_common_bandwidth_package_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -197,8 +197,8 @@ export class NlbLoadbalancerCommonBandwidthPackageAttachment extends cdktf.Terra
       terraformResourceType: 'alicloud_nlb_loadbalancer_common_bandwidth_package_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

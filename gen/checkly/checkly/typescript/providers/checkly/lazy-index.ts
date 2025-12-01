@@ -9,6 +9,8 @@ Object.defineProperty(exports, 'environmentVariable', { get: function () { retur
 Object.defineProperty(exports, 'heartbeat', { get: function () { return require('./heartbeat'); } });
 Object.defineProperty(exports, 'heartbeatMonitor', { get: function () { return require('./heartbeat-monitor'); } });
 Object.defineProperty(exports, 'maintenanceWindows', { get: function () { return require('./maintenance-windows'); } });
+Object.defineProperty(exports, 'playwrightCheckSuite', { get: function () { return require('./playwright-check-suite'); } });
+Object.defineProperty(exports, 'playwrightCodeBundle', { get: function () { return require('./playwright-code-bundle'); } });
 Object.defineProperty(exports, 'privateLocation', { get: function () { return require('./private-location'); } });
 Object.defineProperty(exports, 'snippet', { get: function () { return require('./snippet'); } });
 Object.defineProperty(exports, 'statusPage', { get: function () { return require('./status-page'); } });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#metadata DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#metadata DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#spec DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#spec DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpec;
 }
@@ -22,19 +22,19 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#annotations DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#annotations DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#labels DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#labels DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#name DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#name DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -185,13 +185,13 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecLocalDisk
   /**
   * device is a path to the device where the desired filesystem should be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#device DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#device DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#device}
   */
   readonly device?: string;
   /**
   * type is a desired filesystem type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#type DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#type DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -338,19 +338,19 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecLocalDisk
   /**
   * imagePath specifies path on host where backing image file for loop device should be located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#image_path DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#image_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#image_path DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#image_path}
   */
   readonly imagePath?: string;
   /**
   * name specifies the name of the symlink that will point to actual loop device, created under '/dev/loops/'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#name DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#name DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * size specifies the size of the loop device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#size DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#size DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#size}
   */
   readonly size?: string;
 }
@@ -526,25 +526,25 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecLocalDisk
   /**
   * device is path to a device that should be mounted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#device DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#device DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#device}
   */
   readonly device?: string;
   /**
   * fsType specifies the filesystem on the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#fs_type DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#fs_type DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#fs_type}
   */
   readonly fsType?: string;
   /**
   * mountPoint is a path where the device should be mounted at. If the mountPoint is a symlink, the mount will be set up for the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#mount_point DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#mount_point DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#mount_point}
   */
   readonly mountPoint?: string;
   /**
   * unsupportedOptions is a list of mount options used during device mounting. unsupported in this field name means that we won't support all the available options passed down using this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#unsupported_options DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#unsupported_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#unsupported_options DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#unsupported_options}
   */
   readonly unsupportedOptions?: string[];
 }
@@ -749,13 +749,13 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecLocalDisk
   /**
   * modelRegex is a regular expression filtering devices by their model name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#model_regex DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#model_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#model_regex DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#model_regex}
   */
   readonly modelRegex?: string;
   /**
   * nameRegex is a regular expression filtering devices by their name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#name_regex DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#name_regex DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#name_regex}
   */
   readonly nameRegex?: string;
 }
@@ -880,7 +880,7 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecLocalDisk
   /**
   * devices defines which devices constitute the raid array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#devices DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#devices DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#devices}
   */
   readonly devices?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecLocalDiskSetupRaidsRaid0Devices;
 }
@@ -976,19 +976,19 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecLocalDisk
   /**
   * name specifies the name of the raid device to be created under in '/dev/md/'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#name DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#name DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * RAID0 specifies RAID0 options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#raid0 DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#raid0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#raid0 DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#raid0}
   */
   readonly raid0?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecLocalDiskSetupRaidsRaid0;
   /**
   * type is a type of raid array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#type DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#type DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -1164,25 +1164,25 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecLocalDisk
   /**
   * filesystems is a list of filesystem configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#filesystems DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#filesystems}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#filesystems DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#filesystems}
   */
   readonly filesystems?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecLocalDiskSetupFilesystems[] | cdktf.IResolvable;
   /**
   * loops is a list of loop device configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#loop_devices DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#loop_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#loop_devices DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#loop_devices}
   */
   readonly loopDevices?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecLocalDiskSetupLoopDevices[] | cdktf.IResolvable;
   /**
   * mounts is a list of mount configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#mounts DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#mounts DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#mounts}
   */
   readonly mounts?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecLocalDiskSetupMounts[] | cdktf.IResolvable;
   /**
   * raids is a list of raid configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#raids DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#raids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#raids DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#raids}
   */
   readonly raids?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecLocalDiskSetupRaids[] | cdktf.IResolvable;
 }
@@ -1365,19 +1365,19 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#operator DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#operator DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#values DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#values DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1547,19 +1547,19 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#operator DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#operator DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#values DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#values DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1729,13 +1729,13 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_expressions DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_expressions DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_fields DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_fields DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -1860,13 +1860,13 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#preference DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#preference DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#weight DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#weight DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2007,19 +2007,19 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#operator DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#operator DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#values DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#values DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2189,19 +2189,19 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#operator DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#operator DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#values DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#values DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2371,13 +2371,13 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_expressions DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_expressions DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_fields DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_fields DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -2524,7 +2524,7 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#node_selector_terms DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#node_selector_terms DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -2617,13 +2617,13 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -2748,19 +2748,19 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#operator DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#operator DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#values DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#values DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2930,13 +2930,13 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_expressions DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_expressions DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_labels DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_labels DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3061,19 +3061,19 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#operator DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#operator DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#values DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#values DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3243,13 +3243,13 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_expressions DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_expressions DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_labels DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_labels DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3374,37 +3374,37 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#label_selector DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#label_selector DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_label_keys DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_label_keys DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#mismatch_label_keys DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#mismatch_label_keys DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#namespace_selector DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#namespace_selector DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#namespaces DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#namespaces DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#topology_key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#topology_key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3642,13 +3642,13 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#pod_affinity_term DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#pod_affinity_term DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#weight DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#weight DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -3789,19 +3789,19 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#operator DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#operator DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#values DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#values DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3971,13 +3971,13 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_expressions DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_expressions DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_labels DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_labels DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4102,19 +4102,19 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#operator DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#operator DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#values DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#values DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4284,13 +4284,13 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_expressions DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_expressions DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_labels DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_labels DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4415,37 +4415,37 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#label_selector DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#label_selector DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_label_keys DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_label_keys DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#mismatch_label_keys DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#mismatch_label_keys DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#namespace_selector DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#namespace_selector DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#namespaces DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#namespaces DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#topology_key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#topology_key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4705,13 +4705,13 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -4836,19 +4836,19 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#operator DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#operator DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#values DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#values DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5018,13 +5018,13 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_expressions DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_expressions DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_labels DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_labels DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5149,19 +5149,19 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#operator DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#operator DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#values DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#values DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5331,13 +5331,13 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_expressions DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_expressions DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_labels DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_labels DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5462,37 +5462,37 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#label_selector DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#label_selector DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_label_keys DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_label_keys DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#mismatch_label_keys DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#mismatch_label_keys DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#namespace_selector DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#namespace_selector DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#namespaces DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#namespaces DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#topology_key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#topology_key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5730,13 +5730,13 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#pod_affinity_term DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#pod_affinity_term DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#weight DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#weight DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -5877,19 +5877,19 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#operator DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#operator DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#values DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#values DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6059,13 +6059,13 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_expressions DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_expressions DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_labels DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_labels DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6190,19 +6190,19 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#operator DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#operator DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#values DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#values DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6372,13 +6372,13 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_expressions DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_expressions DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_labels DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_labels DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6503,37 +6503,37 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#label_selector DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#label_selector DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_label_keys DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#match_label_keys DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#mismatch_label_keys DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#mismatch_label_keys DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#namespace_selector DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#namespace_selector DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#namespaces DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#namespaces DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#topology_key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#topology_key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -6793,13 +6793,13 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -6924,19 +6924,19 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#node_affinity DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#node_affinity DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#pod_affinity DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#pod_affinity DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#pod_anti_affinity DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#pod_anti_affinity DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinityPodAntiAffinity;
 }
@@ -7090,31 +7090,31 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#effect DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#effect DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#key DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#operator DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#operator DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#toleration_seconds DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#toleration_seconds DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#value DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#value DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -7348,19 +7348,19 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement
   /**
   * affinity is a group of affinity scheduling rules for NodeConfig Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#affinity DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#affinity DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementAffinity;
   /**
   * nodeSelector is a selector which must be true for the NodeConfig Pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#node_selector DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#node_selector DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector: { [key: string]: string };
   /**
   * tolerations is a group of tolerations NodeConfig Pods are going to have.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#tolerations DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#tolerations DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacementTolerations[] | cdktf.IResolvable;
 }
@@ -7511,19 +7511,19 @@ export interface DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpec {
   /**
   * disableOptimizations controls if nodes matching placement requirements are going to be optimized. Turning off optimizations on already optimized Nodes does not revert changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#disable_optimizations DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#disable_optimizations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#disable_optimizations DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#disable_optimizations}
   */
   readonly disableOptimizations?: boolean | cdktf.IResolvable;
   /**
   * localDiskSetup contains options of automatic local disk setup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#local_disk_setup DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#local_disk_setup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#local_disk_setup DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#local_disk_setup}
   */
   readonly localDiskSetup?: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecLocalDiskSetup;
   /**
   * placement contains scheduling rules for NodeConfig Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#placement DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#placement DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest#placement}
   */
   readonly placement: DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecPlacement;
 }
@@ -7672,7 +7672,7 @@ export class DataK8SScyllaScylladbComNodeConfigV1Alpha1ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest k8s_scylla_scylladb_com_node_config_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest k8s_scylla_scylladb_com_node_config_v1alpha1_manifest}
 */
 export class DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -7688,7 +7688,7 @@ export class DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7700,7 +7700,7 @@ export class DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest k8s_scylla_scylladb_com_node_config_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scylla_scylladb_com_node_config_v1alpha1_manifest k8s_scylla_scylladb_com_node_config_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7711,8 +7711,8 @@ export class DataK8SScyllaScylladbComNodeConfigV1Alpha1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_scylla_scylladb_com_node_config_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

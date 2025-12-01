@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_zone_record
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_zone_record
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface PvtzZoneRecordConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_zone_record#id PvtzZoneRecord#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_zone_record#id PvtzZoneRecord#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_zone_record#lang PvtzZoneRecord#lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_zone_record#lang PvtzZoneRecord#lang}
   */
   readonly lang?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_zone_record#priority PvtzZoneRecord#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_zone_record#priority PvtzZoneRecord#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_zone_record#remark PvtzZoneRecord#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_zone_record#remark PvtzZoneRecord#remark}
   */
   readonly remark?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_zone_record#resource_record PvtzZoneRecord#resource_record}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_zone_record#resource_record PvtzZoneRecord#resource_record}
   */
   readonly resourceRecord?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_zone_record#rr PvtzZoneRecord#rr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_zone_record#rr PvtzZoneRecord#rr}
   */
   readonly rr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_zone_record#status PvtzZoneRecord#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_zone_record#status PvtzZoneRecord#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_zone_record#ttl PvtzZoneRecord#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_zone_record#ttl PvtzZoneRecord#ttl}
   */
   readonly ttl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_zone_record#type PvtzZoneRecord#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_zone_record#type PvtzZoneRecord#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_zone_record#user_client_ip PvtzZoneRecord#user_client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_zone_record#user_client_ip PvtzZoneRecord#user_client_ip}
   */
   readonly userClientIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_zone_record#value PvtzZoneRecord#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_zone_record#value PvtzZoneRecord#value}
   */
   readonly value: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_zone_record#zone_id PvtzZoneRecord#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_zone_record#zone_id PvtzZoneRecord#zone_id}
   */
   readonly zoneId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_zone_record#timeouts PvtzZoneRecord#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_zone_record#timeouts PvtzZoneRecord#timeouts}
   */
   readonly timeouts?: PvtzZoneRecordTimeouts;
 }
 export interface PvtzZoneRecordTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_zone_record#create PvtzZoneRecord#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_zone_record#create PvtzZoneRecord#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_zone_record#delete PvtzZoneRecord#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_zone_record#delete PvtzZoneRecord#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_zone_record#update PvtzZoneRecord#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_zone_record#update PvtzZoneRecord#update}
   */
   readonly update?: string;
 }
@@ -227,7 +227,7 @@ export class PvtzZoneRecordTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_zone_record alicloud_pvtz_zone_record}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_zone_record alicloud_pvtz_zone_record}
 */
 export class PvtzZoneRecord extends cdktf.TerraformResource {
 
@@ -243,7 +243,7 @@ export class PvtzZoneRecord extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PvtzZoneRecord resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PvtzZoneRecord to import
-  * @param importFromId The id of the existing PvtzZoneRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_zone_record#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PvtzZoneRecord that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_zone_record#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PvtzZoneRecord to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -255,7 +255,7 @@ export class PvtzZoneRecord extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_zone_record alicloud_pvtz_zone_record} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_zone_record alicloud_pvtz_zone_record} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -266,8 +266,8 @@ export class PvtzZoneRecord extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_pvtz_zone_record',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

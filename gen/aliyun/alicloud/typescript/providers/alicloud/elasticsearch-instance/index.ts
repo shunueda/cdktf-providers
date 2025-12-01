@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,190 +8,190 @@ import * as cdktf from 'cdktf';
 
 export interface ElasticsearchInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#auto_renew_duration ElasticsearchInstance#auto_renew_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#auto_renew_duration ElasticsearchInstance#auto_renew_duration}
   */
   readonly autoRenewDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#client_node_amount ElasticsearchInstance#client_node_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#client_node_amount ElasticsearchInstance#client_node_amount}
   */
   readonly clientNodeAmount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#client_node_spec ElasticsearchInstance#client_node_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#client_node_spec ElasticsearchInstance#client_node_spec}
   */
   readonly clientNodeSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#data_node_amount ElasticsearchInstance#data_node_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#data_node_amount ElasticsearchInstance#data_node_amount}
   */
   readonly dataNodeAmount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#data_node_disk_encrypted ElasticsearchInstance#data_node_disk_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#data_node_disk_encrypted ElasticsearchInstance#data_node_disk_encrypted}
   */
   readonly dataNodeDiskEncrypted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#data_node_disk_performance_level ElasticsearchInstance#data_node_disk_performance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#data_node_disk_performance_level ElasticsearchInstance#data_node_disk_performance_level}
   */
   readonly dataNodeDiskPerformanceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#data_node_disk_size ElasticsearchInstance#data_node_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#data_node_disk_size ElasticsearchInstance#data_node_disk_size}
   */
   readonly dataNodeDiskSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#data_node_disk_type ElasticsearchInstance#data_node_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#data_node_disk_type ElasticsearchInstance#data_node_disk_type}
   */
   readonly dataNodeDiskType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#data_node_spec ElasticsearchInstance#data_node_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#data_node_spec ElasticsearchInstance#data_node_spec}
   */
   readonly dataNodeSpec: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#description ElasticsearchInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#description ElasticsearchInstance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#enable_kibana_private_network ElasticsearchInstance#enable_kibana_private_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#enable_kibana_private_network ElasticsearchInstance#enable_kibana_private_network}
   */
   readonly enableKibanaPrivateNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#enable_kibana_public_network ElasticsearchInstance#enable_kibana_public_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#enable_kibana_public_network ElasticsearchInstance#enable_kibana_public_network}
   */
   readonly enableKibanaPublicNetwork?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#enable_public ElasticsearchInstance#enable_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#enable_public ElasticsearchInstance#enable_public}
   */
   readonly enablePublic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#id ElasticsearchInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#id ElasticsearchInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#instance_charge_type ElasticsearchInstance#instance_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#instance_charge_type ElasticsearchInstance#instance_charge_type}
   */
   readonly instanceChargeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#kibana_node_spec ElasticsearchInstance#kibana_node_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#kibana_node_spec ElasticsearchInstance#kibana_node_spec}
   */
   readonly kibanaNodeSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#kibana_private_security_group_id ElasticsearchInstance#kibana_private_security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#kibana_private_security_group_id ElasticsearchInstance#kibana_private_security_group_id}
   */
   readonly kibanaPrivateSecurityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#kibana_private_whitelist ElasticsearchInstance#kibana_private_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#kibana_private_whitelist ElasticsearchInstance#kibana_private_whitelist}
   */
   readonly kibanaPrivateWhitelist?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#kibana_whitelist ElasticsearchInstance#kibana_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#kibana_whitelist ElasticsearchInstance#kibana_whitelist}
   */
   readonly kibanaWhitelist?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#kms_encrypted_password ElasticsearchInstance#kms_encrypted_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#kms_encrypted_password ElasticsearchInstance#kms_encrypted_password}
   */
   readonly kmsEncryptedPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#kms_encryption_context ElasticsearchInstance#kms_encryption_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#kms_encryption_context ElasticsearchInstance#kms_encryption_context}
   */
   readonly kmsEncryptionContext?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#master_node_disk_type ElasticsearchInstance#master_node_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#master_node_disk_type ElasticsearchInstance#master_node_disk_type}
   */
   readonly masterNodeDiskType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#master_node_spec ElasticsearchInstance#master_node_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#master_node_spec ElasticsearchInstance#master_node_spec}
   */
   readonly masterNodeSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#password ElasticsearchInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#password ElasticsearchInstance#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#period ElasticsearchInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#period ElasticsearchInstance#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#private_whitelist ElasticsearchInstance#private_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#private_whitelist ElasticsearchInstance#private_whitelist}
   */
   readonly privateWhitelist?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#protocol ElasticsearchInstance#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#protocol ElasticsearchInstance#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#public_whitelist ElasticsearchInstance#public_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#public_whitelist ElasticsearchInstance#public_whitelist}
   */
   readonly publicWhitelist?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#renew_status ElasticsearchInstance#renew_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#renew_status ElasticsearchInstance#renew_status}
   */
   readonly renewStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#renewal_duration_unit ElasticsearchInstance#renewal_duration_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#renewal_duration_unit ElasticsearchInstance#renewal_duration_unit}
   */
   readonly renewalDurationUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#resource_group_id ElasticsearchInstance#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#resource_group_id ElasticsearchInstance#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#setting_config ElasticsearchInstance#setting_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#setting_config ElasticsearchInstance#setting_config}
   */
   readonly settingConfig?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#tags ElasticsearchInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#tags ElasticsearchInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#version ElasticsearchInstance#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#version ElasticsearchInstance#version}
   */
   readonly version: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#vswitch_id ElasticsearchInstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#vswitch_id ElasticsearchInstance#vswitch_id}
   */
   readonly vswitchId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#warm_node_amount ElasticsearchInstance#warm_node_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#warm_node_amount ElasticsearchInstance#warm_node_amount}
   */
   readonly warmNodeAmount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#warm_node_disk_encrypted ElasticsearchInstance#warm_node_disk_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#warm_node_disk_encrypted ElasticsearchInstance#warm_node_disk_encrypted}
   */
   readonly warmNodeDiskEncrypted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#warm_node_disk_size ElasticsearchInstance#warm_node_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#warm_node_disk_size ElasticsearchInstance#warm_node_disk_size}
   */
   readonly warmNodeDiskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#warm_node_disk_type ElasticsearchInstance#warm_node_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#warm_node_disk_type ElasticsearchInstance#warm_node_disk_type}
   */
   readonly warmNodeDiskType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#warm_node_spec ElasticsearchInstance#warm_node_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#warm_node_spec ElasticsearchInstance#warm_node_spec}
   */
   readonly warmNodeSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#zone_count ElasticsearchInstance#zone_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#zone_count ElasticsearchInstance#zone_count}
   */
   readonly zoneCount?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#timeouts ElasticsearchInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#timeouts ElasticsearchInstance#timeouts}
   */
   readonly timeouts?: ElasticsearchInstanceTimeouts;
 }
 export interface ElasticsearchInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#create ElasticsearchInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#create ElasticsearchInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#delete ElasticsearchInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#delete ElasticsearchInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#update ElasticsearchInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#update ElasticsearchInstance#update}
   */
   readonly update?: string;
 }
@@ -343,7 +343,7 @@ export class ElasticsearchInstanceTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance alicloud_elasticsearch_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance alicloud_elasticsearch_instance}
 */
 export class ElasticsearchInstance extends cdktf.TerraformResource {
 
@@ -359,7 +359,7 @@ export class ElasticsearchInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElasticsearchInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchInstance to import
-  * @param importFromId The id of the existing ElasticsearchInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -371,7 +371,7 @@ export class ElasticsearchInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/elasticsearch_instance alicloud_elasticsearch_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/elasticsearch_instance alicloud_elasticsearch_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -382,8 +382,8 @@ export class ElasticsearchInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_elasticsearch_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

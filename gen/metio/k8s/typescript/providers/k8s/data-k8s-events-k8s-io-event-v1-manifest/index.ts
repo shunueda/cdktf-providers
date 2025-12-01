@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface DataK8SEventsK8SIoEventV1ManifestConfig extends cdktf.Terraform
   /**
   * action is what action was taken/failed regarding to the regarding object. It is machine-readable. This field cannot be empty for new Events and it can have at most 128 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#action DataK8SEventsK8SIoEventV1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#action DataK8SEventsK8SIoEventV1Manifest#action}
   */
   readonly action?: string;
   /**
   * deprecatedCount is the deprecated field assuring backward compatibility with core.v1 Event type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#deprecated_count DataK8SEventsK8SIoEventV1Manifest#deprecated_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#deprecated_count DataK8SEventsK8SIoEventV1Manifest#deprecated_count}
   */
   readonly deprecatedCount?: number;
   /**
   * Time is a wrapper around time.Time which supports correct marshaling to YAML and JSON. Wrappers are provided for many of the factory methods that the time package offers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#deprecated_first_timestamp DataK8SEventsK8SIoEventV1Manifest#deprecated_first_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#deprecated_first_timestamp DataK8SEventsK8SIoEventV1Manifest#deprecated_first_timestamp}
   */
   readonly deprecatedFirstTimestamp?: string;
   /**
   * Time is a wrapper around time.Time which supports correct marshaling to YAML and JSON. Wrappers are provided for many of the factory methods that the time package offers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#deprecated_last_timestamp DataK8SEventsK8SIoEventV1Manifest#deprecated_last_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#deprecated_last_timestamp DataK8SEventsK8SIoEventV1Manifest#deprecated_last_timestamp}
   */
   readonly deprecatedLastTimestamp?: string;
   /**
   * EventSource contains information for an event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#deprecated_source DataK8SEventsK8SIoEventV1Manifest#deprecated_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#deprecated_source DataK8SEventsK8SIoEventV1Manifest#deprecated_source}
   */
   readonly deprecatedSource?: DataK8SEventsK8SIoEventV1ManifestDeprecatedSource;
   /**
   * MicroTime is version of Time with microsecond level precision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#event_time DataK8SEventsK8SIoEventV1Manifest#event_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#event_time DataK8SEventsK8SIoEventV1Manifest#event_time}
   */
   readonly eventTime: string;
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#metadata DataK8SEventsK8SIoEventV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#metadata DataK8SEventsK8SIoEventV1Manifest#metadata}
   */
   readonly metadata: DataK8SEventsK8SIoEventV1ManifestMetadata;
   /**
   * note is a human-readable description of the status of this operation. Maximal length of the note is 1kB, but libraries should be prepared to handle values up to 64kB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#note DataK8SEventsK8SIoEventV1Manifest#note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#note DataK8SEventsK8SIoEventV1Manifest#note}
   */
   readonly note?: string;
   /**
   * reason is why the action was taken. It is human-readable. This field cannot be empty for new Events and it can have at most 128 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#reason DataK8SEventsK8SIoEventV1Manifest#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#reason DataK8SEventsK8SIoEventV1Manifest#reason}
   */
   readonly reason?: string;
   /**
   * ObjectReference contains enough information to let you inspect or modify the referred object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#regarding DataK8SEventsK8SIoEventV1Manifest#regarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#regarding DataK8SEventsK8SIoEventV1Manifest#regarding}
   */
   readonly regarding?: DataK8SEventsK8SIoEventV1ManifestRegarding;
   /**
   * ObjectReference contains enough information to let you inspect or modify the referred object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#related DataK8SEventsK8SIoEventV1Manifest#related}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#related DataK8SEventsK8SIoEventV1Manifest#related}
   */
   readonly related?: DataK8SEventsK8SIoEventV1ManifestRelated;
   /**
   * reportingController is the name of the controller that emitted this Event, e.g. 'kubernetes.io/kubelet'. This field cannot be empty for new Events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#reporting_controller DataK8SEventsK8SIoEventV1Manifest#reporting_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#reporting_controller DataK8SEventsK8SIoEventV1Manifest#reporting_controller}
   */
   readonly reportingController?: string;
   /**
   * reportingInstance is the ID of the controller instance, e.g. 'kubelet-xyzf'. This field cannot be empty for new Events and it can have at most 128 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#reporting_instance DataK8SEventsK8SIoEventV1Manifest#reporting_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#reporting_instance DataK8SEventsK8SIoEventV1Manifest#reporting_instance}
   */
   readonly reportingInstance?: string;
   /**
   * EventSeries contain information on series of events, i.e. thing that was/is happening continuously for some time. How often to update the EventSeries is up to the event reporters. The default event reporter in 'k8s.io/client-go/tools/events/event_broadcaster.go' shows how this struct is updated on heartbeats and can guide customized reporter implementations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#series DataK8SEventsK8SIoEventV1Manifest#series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#series DataK8SEventsK8SIoEventV1Manifest#series}
   */
   readonly series?: DataK8SEventsK8SIoEventV1ManifestSeries;
   /**
   * type is the type of this event (Normal, Warning), new types could be added in the future. It is machine-readable. This field cannot be empty for new Events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#type DataK8SEventsK8SIoEventV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#type DataK8SEventsK8SIoEventV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -102,13 +102,13 @@ export interface DataK8SEventsK8SIoEventV1ManifestDeprecatedSource {
   /**
   * Component from which the event is generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#component DataK8SEventsK8SIoEventV1Manifest#component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#component DataK8SEventsK8SIoEventV1Manifest#component}
   */
   readonly component?: string;
   /**
   * Node name on which the event is generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#host DataK8SEventsK8SIoEventV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#host DataK8SEventsK8SIoEventV1Manifest#host}
   */
   readonly host?: string;
 }
@@ -233,25 +233,25 @@ export interface DataK8SEventsK8SIoEventV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#annotations DataK8SEventsK8SIoEventV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#annotations DataK8SEventsK8SIoEventV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#labels DataK8SEventsK8SIoEventV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#labels DataK8SEventsK8SIoEventV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#name DataK8SEventsK8SIoEventV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#name DataK8SEventsK8SIoEventV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#namespace DataK8SEventsK8SIoEventV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#namespace DataK8SEventsK8SIoEventV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -428,43 +428,43 @@ export interface DataK8SEventsK8SIoEventV1ManifestRegarding {
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#api_version DataK8SEventsK8SIoEventV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#api_version DataK8SEventsK8SIoEventV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#field_path DataK8SEventsK8SIoEventV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#field_path DataK8SEventsK8SIoEventV1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#kind DataK8SEventsK8SIoEventV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#kind DataK8SEventsK8SIoEventV1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#name DataK8SEventsK8SIoEventV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#name DataK8SEventsK8SIoEventV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#namespace DataK8SEventsK8SIoEventV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#namespace DataK8SEventsK8SIoEventV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#resource_version DataK8SEventsK8SIoEventV1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#resource_version DataK8SEventsK8SIoEventV1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#uid DataK8SEventsK8SIoEventV1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#uid DataK8SEventsK8SIoEventV1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -734,43 +734,43 @@ export interface DataK8SEventsK8SIoEventV1ManifestRelated {
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#api_version DataK8SEventsK8SIoEventV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#api_version DataK8SEventsK8SIoEventV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#field_path DataK8SEventsK8SIoEventV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#field_path DataK8SEventsK8SIoEventV1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#kind DataK8SEventsK8SIoEventV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#kind DataK8SEventsK8SIoEventV1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#name DataK8SEventsK8SIoEventV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#name DataK8SEventsK8SIoEventV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#namespace DataK8SEventsK8SIoEventV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#namespace DataK8SEventsK8SIoEventV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#resource_version DataK8SEventsK8SIoEventV1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#resource_version DataK8SEventsK8SIoEventV1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#uid DataK8SEventsK8SIoEventV1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#uid DataK8SEventsK8SIoEventV1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -1040,13 +1040,13 @@ export interface DataK8SEventsK8SIoEventV1ManifestSeries {
   /**
   * count is the number of occurrences in this series up to the last heartbeat time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#count DataK8SEventsK8SIoEventV1Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#count DataK8SEventsK8SIoEventV1Manifest#count}
   */
   readonly count: number;
   /**
   * MicroTime is version of Time with microsecond level precision.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#last_observed_time DataK8SEventsK8SIoEventV1Manifest#last_observed_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#last_observed_time DataK8SEventsK8SIoEventV1Manifest#last_observed_time}
   */
   readonly lastObservedTime: string;
 }
@@ -1163,7 +1163,7 @@ export class DataK8SEventsK8SIoEventV1ManifestSeriesOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest k8s_events_k8s_io_event_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest k8s_events_k8s_io_event_v1_manifest}
 */
 export class DataK8SEventsK8SIoEventV1Manifest extends cdktf.TerraformDataSource {
 
@@ -1179,7 +1179,7 @@ export class DataK8SEventsK8SIoEventV1Manifest extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataK8SEventsK8SIoEventV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SEventsK8SIoEventV1Manifest to import
-  * @param importFromId The id of the existing DataK8SEventsK8SIoEventV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SEventsK8SIoEventV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SEventsK8SIoEventV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1191,7 +1191,7 @@ export class DataK8SEventsK8SIoEventV1Manifest extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/events_k8s_io_event_v1_manifest k8s_events_k8s_io_event_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/events_k8s_io_event_v1_manifest k8s_events_k8s_io_event_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1202,8 +1202,8 @@ export class DataK8SEventsK8SIoEventV1Manifest extends cdktf.TerraformDataSource
       terraformResourceType: 'k8s_events_k8s_io_event_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

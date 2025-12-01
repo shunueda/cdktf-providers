@@ -47,13 +47,13 @@ export interface DataK8SKuadrantIoAuthPolicyV1Beta2ManifestSpecRulesResponseUnau
   /**
   * Simple path selector to fetch content from the authorization JSON (e.g. 'request.method') or a string template with variables that resolve to patterns (e.g. 'Hello, {auth.identity.name}!'). Any pattern supported by https://pkg.go.dev/github.com/tidwall/gjson can be used. The following Authorino custom modifiers are supported: @extract:{sep:' ',pos:0}, @replace{old:'',new:''}, @case:upper|lower, @base64:encode|decode and @strip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#selector DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#selector DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#selector}
   */
   readonly selector?: string;
   /**
   * Static value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#value DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#value DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -178,25 +178,25 @@ export interface DataK8SKuadrantIoAuthPolicyV1Beta2ManifestSpecRulesResponseUnau
   /**
   * HTTP response body to override the default denial body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#body DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#body DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#body}
   */
   readonly body?: DataK8SKuadrantIoAuthPolicyV1Beta2ManifestSpecRulesResponseUnauthorizedBody;
   /**
   * HTTP status code to override the default denial status code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#code DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#code DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#code}
   */
   readonly code?: number;
   /**
   * HTTP response headers to override the default denial headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#headers DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#headers DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#headers}
   */
   readonly headers?: DataK8SKuadrantIoAuthPolicyV1Beta2ManifestSpecRulesResponseUnauthorizedHeaders;
   /**
   * HTTP message to override the default denial message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#message DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#message DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#message}
   */
   readonly message?: DataK8SKuadrantIoAuthPolicyV1Beta2ManifestSpecRulesResponseUnauthorizedMessage;
 }
@@ -379,19 +379,19 @@ export interface DataK8SKuadrantIoAuthPolicyV1Beta2ManifestSpecRulesResponse {
   /**
   * Response items to be included in the auth response when the request is authenticated and authorized. For integration of Authorino via proxy, the proxy must use these settings to propagate dynamic metadata and/or inject data in the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#success DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#success}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#success DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#success}
   */
   readonly success?: DataK8SKuadrantIoAuthPolicyV1Beta2ManifestSpecRulesResponseSuccess;
   /**
   * Customizations on the denial status attributes when the request is unauthenticated. For integration of Authorino via proxy, the proxy must honour the response status attributes specified in this config. Default: 401 Unauthorized
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#unauthenticated DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#unauthenticated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#unauthenticated DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#unauthenticated}
   */
   readonly unauthenticated?: DataK8SKuadrantIoAuthPolicyV1Beta2ManifestSpecRulesResponseUnauthenticated;
   /**
   * Customizations on the denial status attributes when the request is unauthorized. For integration of Authorino via proxy, the proxy must honour the response status attributes specified in this config. Default: 403 Forbidden
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#unauthorized DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#unauthorized DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#unauthorized}
   */
   readonly unauthorized?: DataK8SKuadrantIoAuthPolicyV1Beta2ManifestSpecRulesResponseUnauthorized;
 }
@@ -545,31 +545,31 @@ export interface DataK8SKuadrantIoAuthPolicyV1Beta2ManifestSpecRules {
   /**
   * Authentication configs. At least one config MUST evaluate to a valid identity object for the auth request to be successful.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#authentication DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#authentication DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#authentication}
   */
   readonly authentication?: DataK8SKuadrantIoAuthPolicyV1Beta2ManifestSpecRulesAuthentication;
   /**
   * Authorization policies. All policies MUST evaluate to 'allowed = true' for the auth request be successful.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#authorization DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#authorization DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#authorization}
   */
   readonly authorization?: DataK8SKuadrantIoAuthPolicyV1Beta2ManifestSpecRulesAuthorization;
   /**
   * Callback functions. Authorino sends callbacks at the end of the auth pipeline to the endpoints specified in this config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#callbacks DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#callbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#callbacks DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#callbacks}
   */
   readonly callbacks?: DataK8SKuadrantIoAuthPolicyV1Beta2ManifestSpecRulesCallbacks;
   /**
   * Metadata sources. Authorino fetches auth metadata as JSON from sources specified in this config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#metadata DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#metadata DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#metadata}
   */
   readonly metadata?: DataK8SKuadrantIoAuthPolicyV1Beta2ManifestSpecRulesMetadata;
   /**
   * Response items. Authorino builds custom responses to the client of the auth request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#response DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#response DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#response}
   */
   readonly response?: DataK8SKuadrantIoAuthPolicyV1Beta2ManifestSpecRulesResponse;
 }
@@ -781,19 +781,19 @@ export interface DataK8SKuadrantIoAuthPolicyV1Beta2ManifestSpecTargetRef {
   /**
   * Group is the group of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#group DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#group DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#group}
   */
   readonly group: string;
   /**
   * Kind is kind of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#kind DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#kind DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#name DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#name DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#name}
   */
   readonly name: string;
 }
@@ -938,37 +938,37 @@ export interface DataK8SKuadrantIoAuthPolicyV1Beta2ManifestSpecWhen {
   /**
   * A list of pattern expressions to be evaluated as a logical AND.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#all DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#all DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#all}
   */
   readonly all?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * A list of pattern expressions to be evaluated as a logical OR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#any DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#any DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#any}
   */
   readonly any?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * The binary operator to be applied to the content fetched from the authorization JSON, for comparison with 'value'. Possible values are: 'eq' (equal to), 'neq' (not equal to), 'incl' (includes; for arrays), 'excl' (excludes; for arrays), 'matches' (regex)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#operator DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#operator DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
   * Reference to a named set of pattern expressions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#pattern_ref DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#pattern_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#pattern_ref DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#pattern_ref}
   */
   readonly patternRef?: string;
   /**
   * Path selector to fetch content from the authorization JSON (e.g. 'request.method'). Any pattern supported by https://pkg.go.dev/github.com/tidwall/gjson can be used. Authorino custom JSON path modifiers are also supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#selector DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#selector DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#selector}
   */
   readonly selector?: string;
   /**
   * The value of reference for the comparison with the content fetched from the authorization JSON. If used with the 'matches' operator, the value must compile to a valid Golang regex.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#value DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#value DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#value}
   */
   readonly value?: string;
 }
@@ -1231,43 +1231,43 @@ export interface DataK8SKuadrantIoAuthPolicyV1Beta2ManifestSpec {
   /**
   * Defaults define explicit default values for this policy and for policies inheriting this policy. Defaults are mutually exclusive with implicit defaults defined by AuthPolicyCommonSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#defaults DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#defaults DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#defaults}
   */
   readonly defaults?: DataK8SKuadrantIoAuthPolicyV1Beta2ManifestSpecDefaults;
   /**
   * Overrides define explicit override values for this policy. Overrides are mutually exclusive with explicit and implicit defaults defined by AuthPolicyCommonSpec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#overrides DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#overrides DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#overrides}
   */
   readonly overrides?: DataK8SKuadrantIoAuthPolicyV1Beta2ManifestSpecOverrides;
   /**
   * Named sets of patterns that can be referred in 'when' conditions and in pattern-matching authorization policy rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#patterns DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#patterns DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#patterns}
   */
   readonly patterns?: { [key: string]: string };
   /**
   * Top-level route selectors. If present, the elements will be used to select HTTPRoute rules that, when activated, trigger the external authorization service. At least one selected HTTPRoute rule must match to trigger the AuthPolicy. If no route selectors are specified, the AuthPolicy will be enforced at all requests to the protected routes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#route_selectors DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#route_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#route_selectors DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#route_selectors}
   */
   readonly routeSelectors?: DataK8SKuadrantIoAuthPolicyV1Beta2ManifestSpecRouteSelectors[] | cdktf.IResolvable;
   /**
   * The auth rules of the policy. See Authorino's AuthConfig CRD for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#rules DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#rules DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#rules}
   */
   readonly rules?: DataK8SKuadrantIoAuthPolicyV1Beta2ManifestSpecRules;
   /**
   * TargetRef identifies an API object to apply policy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#target_ref DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#target_ref DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#target_ref}
   */
   readonly targetRef: DataK8SKuadrantIoAuthPolicyV1Beta2ManifestSpecTargetRef;
   /**
   * Overall conditions for the AuthPolicy to be enforced. If omitted, the AuthPolicy will be enforced at all requests to the protected routes. If present, all conditions must match for the AuthPolicy to be enforced; otherwise, the authorization service skips the AuthPolicy and returns to the auth request with status OK.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#when DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#when}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuadrant_io_auth_policy_v1beta2_manifest#when DataK8SKuadrantIoAuthPolicyV1Beta2Manifest#when}
   */
   readonly when?: DataK8SKuadrantIoAuthPolicyV1Beta2ManifestSpecWhen[] | cdktf.IResolvable;
 }

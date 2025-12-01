@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAutomationKubensyncComManagedResourceV1Alpha1ManifestCon
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#metadata DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#metadata DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAutomationKubensyncComManagedResourceV1Alpha1ManifestMetadata;
   /**
   * ManagedResourceSpec defines the desired state of ManagedResource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#spec DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#spec DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAutomationKubensyncComManagedResourceV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SAutomationKubensyncComManagedResourceV1Alpha1ManifestMet
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#annotations DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#annotations DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#labels DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#labels DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#name DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#name DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,19 +187,19 @@ export interface DataK8SAutomationKubensyncComManagedResourceV1Alpha1ManifestSpe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#key DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#key DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#operator DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#operator DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#values DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#values DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -369,13 +369,13 @@ export interface DataK8SAutomationKubensyncComManagedResourceV1Alpha1ManifestSpe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#match_expressions DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#match_expressions DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAutomationKubensyncComManagedResourceV1Alpha1ManifestSpecNamespaceSelectorLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#match_labels DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#match_labels DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -500,13 +500,13 @@ export interface DataK8SAutomationKubensyncComManagedResourceV1Alpha1ManifestSpe
   /**
   * Labels that the namespace must have to be selected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#label_selector DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#label_selector DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SAutomationKubensyncComManagedResourceV1Alpha1ManifestSpecNamespaceSelectorLabelSelector;
   /**
   * Regex that the namespace name must match to be selected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#regex DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#regex DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -631,13 +631,13 @@ export interface DataK8SAutomationKubensyncComManagedResourceV1Alpha1ManifestSpe
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#name DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#name DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#namespace DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#namespace DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -762,19 +762,19 @@ export interface DataK8SAutomationKubensyncComManagedResourceV1Alpha1ManifestSpe
   /**
   * Name of the key where the contents will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#name DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#name DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Defines the reference to the resource that should be imported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#ref DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#ref DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#ref}
   */
   readonly ref?: DataK8SAutomationKubensyncComManagedResourceV1Alpha1ManifestSpecTemplateDataRef;
   /**
   * Defines the kind of resource the ref is pointing to. Could be 'Secret' or 'ConfigMap'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#type DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#type DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -950,13 +950,13 @@ export interface DataK8SAutomationKubensyncComManagedResourceV1Alpha1ManifestSpe
   /**
   * Data defines a set of refences to secrets or configmaps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#data DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#data DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#data}
   */
   readonly data?: DataK8SAutomationKubensyncComManagedResourceV1Alpha1ManifestSpecTemplateData[] | cdktf.IResolvable;
   /**
   * Literal defines a go template to be renderized for each namespace matching the selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#literal DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#literal DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#literal}
   */
   readonly literal?: string;
 }
@@ -1081,19 +1081,19 @@ export interface DataK8SAutomationKubensyncComManagedResourceV1Alpha1ManifestSpe
   /**
   * AvoidResourceUpdate defines if the created resources should be updated if they already exists. Default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#avoid_resource_update DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#avoid_resource_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#avoid_resource_update DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#avoid_resource_update}
   */
   readonly avoidResourceUpdate?: boolean | cdktf.IResolvable;
   /**
   * ManagedResourceSpecNamespaceSelector defines the selector used to specify which namespaces are affected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#namespace_selector DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#namespace_selector DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SAutomationKubensyncComManagedResourceV1Alpha1ManifestSpecNamespaceSelector;
   /**
   * ManagedResourceSpecTemplate defines the resources to be created when a namespace matches the selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#template DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#template DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest#template}
   */
   readonly template?: DataK8SAutomationKubensyncComManagedResourceV1Alpha1ManifestSpecTemplate;
 }
@@ -1245,7 +1245,7 @@ export class DataK8SAutomationKubensyncComManagedResourceV1Alpha1ManifestSpecOut
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest k8s_automation_kubensync_com_managed_resource_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest k8s_automation_kubensync_com_managed_resource_v1alpha1_manifest}
 */
 export class DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1261,7 +1261,7 @@ export class DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest extend
   * Generates CDKTF code for importing a DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1273,7 +1273,7 @@ export class DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest k8s_automation_kubensync_com_managed_resource_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/automation_kubensync_com_managed_resource_v1alpha1_manifest k8s_automation_kubensync_com_managed_resource_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1284,8 +1284,8 @@ export class DataK8SAutomationKubensyncComManagedResourceV1Alpha1Manifest extend
       terraformResourceType: 'k8s_automation_kubensync_com_managed_resource_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_certificates_service_pca_certificate
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_certificates_service_pca_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface SslCertificatesServicePcaCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_certificates_service_pca_certificate#algorithm SslCertificatesServicePcaCertificate#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_certificates_service_pca_certificate#algorithm SslCertificatesServicePcaCertificate#algorithm}
   */
   readonly algorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_certificates_service_pca_certificate#common_name SslCertificatesServicePcaCertificate#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_certificates_service_pca_certificate#common_name SslCertificatesServicePcaCertificate#common_name}
   */
   readonly commonName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_certificates_service_pca_certificate#country_code SslCertificatesServicePcaCertificate#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_certificates_service_pca_certificate#country_code SslCertificatesServicePcaCertificate#country_code}
   */
   readonly countryCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_certificates_service_pca_certificate#id SslCertificatesServicePcaCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_certificates_service_pca_certificate#id SslCertificatesServicePcaCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_certificates_service_pca_certificate#locality SslCertificatesServicePcaCertificate#locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_certificates_service_pca_certificate#locality SslCertificatesServicePcaCertificate#locality}
   */
   readonly locality: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_certificates_service_pca_certificate#organization SslCertificatesServicePcaCertificate#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_certificates_service_pca_certificate#organization SslCertificatesServicePcaCertificate#organization}
   */
   readonly organization: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_certificates_service_pca_certificate#organization_unit SslCertificatesServicePcaCertificate#organization_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_certificates_service_pca_certificate#organization_unit SslCertificatesServicePcaCertificate#organization_unit}
   */
   readonly organizationUnit: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_certificates_service_pca_certificate#state SslCertificatesServicePcaCertificate#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_certificates_service_pca_certificate#state SslCertificatesServicePcaCertificate#state}
   */
   readonly state: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_certificates_service_pca_certificate#years SslCertificatesServicePcaCertificate#years}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_certificates_service_pca_certificate#years SslCertificatesServicePcaCertificate#years}
   */
   readonly years: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_certificates_service_pca_certificate#timeouts SslCertificatesServicePcaCertificate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_certificates_service_pca_certificate#timeouts SslCertificatesServicePcaCertificate#timeouts}
   */
   readonly timeouts?: SslCertificatesServicePcaCertificateTimeouts;
 }
 export interface SslCertificatesServicePcaCertificateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_certificates_service_pca_certificate#create SslCertificatesServicePcaCertificate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_certificates_service_pca_certificate#create SslCertificatesServicePcaCertificate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_certificates_service_pca_certificate#delete SslCertificatesServicePcaCertificate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_certificates_service_pca_certificate#delete SslCertificatesServicePcaCertificate#delete}
   */
   readonly delete?: string;
 }
@@ -182,7 +182,7 @@ export class SslCertificatesServicePcaCertificateTimeoutsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_certificates_service_pca_certificate alicloud_ssl_certificates_service_pca_certificate}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_certificates_service_pca_certificate alicloud_ssl_certificates_service_pca_certificate}
 */
 export class SslCertificatesServicePcaCertificate extends cdktf.TerraformResource {
 
@@ -198,7 +198,7 @@ export class SslCertificatesServicePcaCertificate extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a SslCertificatesServicePcaCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SslCertificatesServicePcaCertificate to import
-  * @param importFromId The id of the existing SslCertificatesServicePcaCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_certificates_service_pca_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SslCertificatesServicePcaCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_certificates_service_pca_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SslCertificatesServicePcaCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -210,7 +210,7 @@ export class SslCertificatesServicePcaCertificate extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ssl_certificates_service_pca_certificate alicloud_ssl_certificates_service_pca_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ssl_certificates_service_pca_certificate alicloud_ssl_certificates_service_pca_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -221,8 +221,8 @@ export class SslCertificatesServicePcaCertificate extends cdktf.TerraformResourc
       terraformResourceType: 'alicloud_ssl_certificates_service_pca_certificate',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/github_rest_connection_resource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/github_rest_connection_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface GithubRestConnectionResourceConfig extends cdktf.TerraformMetaA
   /**
   * Property for ACCESS_TOKENS. For setting access_tokens either this field or access_tokens_wo need to be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/github_rest_connection_resource#access_tokens GithubRestConnectionResource#access_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/github_rest_connection_resource#access_tokens GithubRestConnectionResource#access_tokens}
   */
   readonly accessTokens?: string;
   /**
   * Property for ACCESS_TOKENS (write-only). For setting access_tokens either this field or access_tokens_wo need to be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/github_rest_connection_resource#access_tokens_wo GithubRestConnectionResource#access_tokens_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/github_rest_connection_resource#access_tokens_wo GithubRestConnectionResource#access_tokens_wo}
   */
   readonly accessTokensWo?: string;
   /**
   * Property for ConnectionJSON. For setting connection_json either this field or connection_json_wo need to be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/github_rest_connection_resource#connection_json GithubRestConnectionResource#connection_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/github_rest_connection_resource#connection_json GithubRestConnectionResource#connection_json}
   */
   readonly connectionJson?: string;
   /**
   * Property for ConnectionJSON (write-only). For setting connection_json either this field or connection_json_wo need to be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/github_rest_connection_resource#connection_json_wo GithubRestConnectionResource#connection_json_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/github_rest_connection_resource#connection_json_wo GithubRestConnectionResource#connection_json_wo}
   */
   readonly connectionJsonWo?: string;
   /**
   * Name of the connection. Example: "Active Directory_Doc"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/github_rest_connection_resource#connection_name GithubRestConnectionResource#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/github_rest_connection_resource#connection_name GithubRestConnectionResource#connection_name}
   */
   readonly connectionName: string;
   /**
   * Default SAV roles for managing the connection. Example: "ROLE_ORG"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/github_rest_connection_resource#defaultsavroles GithubRestConnectionResource#defaultsavroles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/github_rest_connection_resource#defaultsavroles GithubRestConnectionResource#defaultsavroles}
   */
   readonly defaultsavroles?: string;
   /**
   * Description for the connection. Example: "ORG_AD"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/github_rest_connection_resource#description GithubRestConnectionResource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/github_rest_connection_resource#description GithubRestConnectionResource#description}
   */
   readonly description?: string;
   /**
   * Email template for notifications. Example: "New Account Task Creation"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/github_rest_connection_resource#email_template GithubRestConnectionResource#email_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/github_rest_connection_resource#email_template GithubRestConnectionResource#email_template}
   */
   readonly emailTemplate?: string;
   /**
   * Property for ImportAccountEntJSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/github_rest_connection_resource#import_account_ent_json GithubRestConnectionResource#import_account_ent_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/github_rest_connection_resource#import_account_ent_json GithubRestConnectionResource#import_account_ent_json}
   */
   readonly importAccountEntJson?: string;
   /**
   * Property for ORGANIZATION_LIST
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/github_rest_connection_resource#organization_list GithubRestConnectionResource#organization_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/github_rest_connection_resource#organization_list GithubRestConnectionResource#organization_list}
   */
   readonly organizationList?: string;
   /**
   * Flag indicating whether the encrypted attribute should be saved in the configured vault. Example: "false"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/github_rest_connection_resource#save_in_vault GithubRestConnectionResource#save_in_vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/github_rest_connection_resource#save_in_vault GithubRestConnectionResource#save_in_vault}
   */
   readonly saveInVault?: string;
   /**
   * Property for STATUS_THRESHOLD_CONFIG
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/github_rest_connection_resource#status_threshold_config GithubRestConnectionResource#status_threshold_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/github_rest_connection_resource#status_threshold_config GithubRestConnectionResource#status_threshold_config}
   */
   readonly statusThresholdConfig?: string;
   /**
   * JSON string specifying vault configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/github_rest_connection_resource#vault_configuration GithubRestConnectionResource#vault_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/github_rest_connection_resource#vault_configuration GithubRestConnectionResource#vault_configuration}
   */
   readonly vaultConfiguration?: string;
   /**
   * Specifies the type of vault connection being used (e.g., 'Hashicorp'). Example: "Hashicorp"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/github_rest_connection_resource#vault_connection GithubRestConnectionResource#vault_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/github_rest_connection_resource#vault_connection GithubRestConnectionResource#vault_connection}
   */
   readonly vaultConnection?: string;
   /**
   * Add/change the value of this attribute to update the writeonly attributes like username, password etc in connection resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/github_rest_connection_resource#wo_version GithubRestConnectionResource#wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/github_rest_connection_resource#wo_version GithubRestConnectionResource#wo_version}
   */
   readonly woVersion?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/github_rest_connection_resource saviynt_github_rest_connection_resource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/github_rest_connection_resource saviynt_github_rest_connection_resource}
 */
 export class GithubRestConnectionResource extends cdktf.TerraformResource {
 
@@ -116,7 +116,7 @@ export class GithubRestConnectionResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GithubRestConnectionResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GithubRestConnectionResource to import
-  * @param importFromId The id of the existing GithubRestConnectionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/github_rest_connection_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GithubRestConnectionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/github_rest_connection_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GithubRestConnectionResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -128,7 +128,7 @@ export class GithubRestConnectionResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/github_rest_connection_resource saviynt_github_rest_connection_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/github_rest_connection_resource saviynt_github_rest_connection_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -139,8 +139,8 @@ export class GithubRestConnectionResource extends cdktf.TerraformResource {
       terraformResourceType: 'saviynt_github_rest_connection_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.3.1',
-        providerVersionConstraint: '0.3.1'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

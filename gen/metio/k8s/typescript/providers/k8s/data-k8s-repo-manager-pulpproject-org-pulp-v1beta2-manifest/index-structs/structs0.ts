@@ -3,25 +3,25 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#annotations DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#annotations DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespace DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespace DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -198,19 +198,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecAdminPas
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#optional DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#optional DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -361,13 +361,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecAdminPas
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#api_version DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#api_version DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#field_path DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#field_path DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -489,19 +489,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecAdminPas
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#container_name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#container_name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#divisor DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#divisor DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#resource DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#resource DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#resource}
   */
   readonly resource: string;
 }
@@ -652,19 +652,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecAdminPas
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#optional DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#optional DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -815,25 +815,25 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecAdminPas
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#config_map_key_ref DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#config_map_key_ref DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecAdminPasswordJobContainerEnvVarsValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#field_ref DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#field_ref DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecAdminPasswordJobContainerEnvVarsValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#resource_field_ref DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#resource_field_ref DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecAdminPasswordJobContainerEnvVarsValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#secret_key_ref DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#secret_key_ref DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecAdminPasswordJobContainerEnvVarsValueFromSecretKeyRef;
 }
@@ -1016,19 +1016,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecAdminPas
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#value DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#value DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#value_from DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#value_from DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#value_from}
   */
   readonly valueFrom?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecAdminPasswordJobContainerEnvVarsValueFrom;
 }
@@ -1201,7 +1201,7 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecAdminPas
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
   */
   readonly name: string;
 }
@@ -1316,19 +1316,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecAdminPas
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#claims DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#claims DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#claims}
   */
   readonly claims?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecAdminPasswordJobContainerResourceRequirementsClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#limits DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#limits DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#requests DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#requests DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1482,19 +1482,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecAdminPas
   /**
   * Environment variables to add to the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#env_vars DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#env_vars DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#env_vars}
   */
   readonly envVars?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecAdminPasswordJobContainerEnvVars[] | cdktf.IResolvable;
   /**
   * The image name for the container. By default, if not provided, it will use the same image from .Spec.Image. WARN: defining a different image than the one used by API pods can cause unexpected behaviors!
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#image DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#image DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#image}
   */
   readonly image?: string;
   /**
   * Resource requirements for pulpcore aux container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#resource_requirements DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#resource_requirements DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#resource_requirements}
   */
   readonly resourceRequirements?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecAdminPasswordJobContainerResourceRequirements;
 }
@@ -1648,7 +1648,7 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecAdminPas
   /**
   * PulpContainer defines configuration of the 'auxiliary' containers that run in pulpcore pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#container DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#container DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#container}
   */
   readonly container?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecAdminPasswordJobContainer;
 }
@@ -1744,19 +1744,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1926,19 +1926,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2108,13 +2108,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_fields DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_fields DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_fields}
   */
   readonly matchFields?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -2239,13 +2239,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#preference DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#preference DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#preference}
   */
   readonly preference: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#weight DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#weight DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2386,19 +2386,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2568,19 +2568,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2750,13 +2750,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_fields DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_fields DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_fields}
   */
   readonly matchFields?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -2903,7 +2903,7 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#node_selector_terms DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#node_selector_terms DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -2996,13 +2996,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#required_during_scheduling_ignored_during_execution DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#required_during_scheduling_ignored_during_execution DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -3127,19 +3127,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3309,13 +3309,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3440,19 +3440,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3622,13 +3622,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3753,37 +3753,37 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#label_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#label_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#mismatch_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#mismatch_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespace_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespace_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespaces DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespaces DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#topology_key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#topology_key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4021,13 +4021,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#pod_affinity_term DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#pod_affinity_term DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#weight DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#weight DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#weight}
   */
   readonly weight: number;
 }
@@ -4168,19 +4168,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4350,13 +4350,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4481,19 +4481,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4663,13 +4663,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4794,37 +4794,37 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#label_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#label_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#mismatch_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#mismatch_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespace_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespace_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespaces DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespaces DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#topology_key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#topology_key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5084,13 +5084,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#required_during_scheduling_ignored_during_execution DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#required_during_scheduling_ignored_during_execution DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -5215,19 +5215,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5397,13 +5397,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5528,19 +5528,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5710,13 +5710,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5841,37 +5841,37 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#label_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#label_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#mismatch_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#mismatch_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespace_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespace_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespaces DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespaces DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#topology_key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#topology_key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -6109,13 +6109,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#pod_affinity_term DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#pod_affinity_term DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#weight DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#weight DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#weight}
   */
   readonly weight: number;
 }
@@ -6256,19 +6256,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6438,13 +6438,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6569,19 +6569,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6751,13 +6751,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6882,37 +6882,37 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#label_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#label_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#mismatch_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#mismatch_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespace_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespace_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespaces DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespaces DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#topology_key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#topology_key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -7172,13 +7172,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#required_during_scheduling_ignored_during_execution DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#required_during_scheduling_ignored_during_execution DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -7303,19 +7303,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffin
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#node_affinity DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#node_affinity DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#pod_affinity DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#pod_affinity DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#pod_anti_affinity DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#pod_anti_affinity DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinityPodAntiAffinity;
 }
@@ -7469,19 +7469,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiEnvVa
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#optional DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#optional DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7632,13 +7632,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiEnvVa
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#api_version DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#api_version DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#field_path DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#field_path DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -7760,19 +7760,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiEnvVa
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#container_name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#container_name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#divisor DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#divisor DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#resource DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#resource DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#resource}
   */
   readonly resource: string;
 }
@@ -7923,19 +7923,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiEnvVa
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#optional DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#optional DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8086,25 +8086,25 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiEnvVa
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#config_map_key_ref DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#config_map_key_ref DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiEnvVarsValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#field_ref DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#field_ref DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiEnvVarsValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#resource_field_ref DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#resource_field_ref DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiEnvVarsValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#secret_key_ref DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#secret_key_ref DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiEnvVarsValueFromSecretKeyRef;
 }
@@ -8287,19 +8287,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiEnvVa
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#value DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#value DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#value_from DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#value_from DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#value_from}
   */
   readonly valueFrom?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiEnvVarsValueFrom;
 }
@@ -8472,19 +8472,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiInitC
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#optional DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#optional DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8635,13 +8635,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiInitC
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#api_version DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#api_version DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#field_path DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#field_path DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -8763,19 +8763,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiInitC
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#container_name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#container_name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#divisor DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#divisor DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#resource DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#resource DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#resource}
   */
   readonly resource: string;
 }
@@ -8926,19 +8926,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiInitC
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#optional DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#optional DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9089,25 +9089,25 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiInitC
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#config_map_key_ref DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#config_map_key_ref DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiInitContainerEnvVarsValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#field_ref DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#field_ref DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiInitContainerEnvVarsValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#resource_field_ref DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#resource_field_ref DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiInitContainerEnvVarsValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#secret_key_ref DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#secret_key_ref DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiInitContainerEnvVarsValueFromSecretKeyRef;
 }
@@ -9290,19 +9290,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiInitC
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#value DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#value DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#value_from DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#value_from DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#value_from}
   */
   readonly valueFrom?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiInitContainerEnvVarsValueFrom;
 }
@@ -9475,7 +9475,7 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiInitC
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
   */
   readonly name: string;
 }
@@ -9590,19 +9590,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiInitC
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#claims DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#claims DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#claims}
   */
   readonly claims?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiInitContainerResourceRequirementsClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#limits DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#limits DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#requests DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#requests DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -9756,19 +9756,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiInitC
   /**
   * Environment variables to add to the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#env_vars DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#env_vars DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#env_vars}
   */
   readonly envVars?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiInitContainerEnvVars[] | cdktf.IResolvable;
   /**
   * The image name for the container. By default, if not provided, it will use the same image from .Spec.Image. WARN: defining a different image than the one used by API pods can cause unexpected behaviors!
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#image DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#image DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#image}
   */
   readonly image?: string;
   /**
   * Resource requirements for pulpcore aux container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#resource_requirements DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#resource_requirements DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#resource_requirements}
   */
   readonly resourceRequirements?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiInitContainerResourceRequirements;
 }
@@ -9922,7 +9922,7 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiLiven
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#command DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#command DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#command}
   */
   readonly command?: string[];
 }
@@ -10018,13 +10018,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiLiven
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#port DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#port DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#service DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#service DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#service}
   */
   readonly service?: string;
 }
@@ -10146,13 +10146,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiLiven
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#value DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#value DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#value}
   */
   readonly value: string;
 }
@@ -10293,31 +10293,31 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiLiven
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#host DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#host DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#http_headers DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#http_headers DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#path DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#path DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#port DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#port DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#scheme DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#scheme DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -10526,13 +10526,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiLiven
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#host DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#host DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#port DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#port DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#port}
   */
   readonly port: string;
 }
@@ -10654,61 +10654,61 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiLiven
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#exec DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#exec DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#exec}
   */
   readonly exec?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#failure_threshold DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#failure_threshold DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#grpc DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#grpc DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#grpc}
   */
   readonly grpc?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiLivenessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#http_get DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#http_get DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#http_get}
   */
   readonly httpGet?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiLivenessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#initial_delay_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#initial_delay_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#period_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#period_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#success_threshold DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#success_threshold DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#tcp_socket DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#tcp_socket DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiLivenessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#termination_grace_period_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#termination_grace_period_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#timeout_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#timeout_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -11065,19 +11065,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiPdbSe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11247,13 +11247,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiPdbSe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiPdbSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11378,25 +11378,25 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiPdb {
   /**
   * An eviction is allowed if at most 'maxUnavailable' pods selected by 'selector' are unavailable after the eviction, i.e. even in absence of the evicted pod. For example, one can prevent all voluntary evictions by specifying 0. This is a mutually exclusive setting with 'minAvailable'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#max_unavailable DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#max_unavailable DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#max_unavailable}
   */
   readonly maxUnavailable?: string;
   /**
   * An eviction is allowed if at least 'minAvailable' pods selected by 'selector' will still be available after the eviction, i.e. even in the absence of the evicted pod. So for example you can prevent all voluntary evictions by specifying '100%'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#min_available DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#min_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#min_available DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#min_available}
   */
   readonly minAvailable?: string;
   /**
   * Label query over pods whose evictions are managed by the disruption budget. A null selector will match no pods, while an empty ({}) selector will select all pods within the namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#selector}
   */
   readonly selector?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiPdbSelector;
   /**
   * UnhealthyPodEvictionPolicy defines the criteria for when unhealthy pods should be considered for eviction. Current implementation considers healthy pods, as pods that have status.conditions item with type='Ready',status='True'. Valid policies are IfHealthyBudget and AlwaysAllow. If no policy is specified, the default behavior will be used, which corresponds to the IfHealthyBudget policy. IfHealthyBudget policy means that running pods (status.phase='Running'), but not yet healthy can be evicted only if the guarded application is not disrupted (status.currentHealthy is at least equal to status.desiredHealthy). Healthy pods will be subject to the PDB for eviction. AlwaysAllow policy means that all running pods (status.phase='Running'), but not yet healthy are considered disrupted and can be evicted regardless of whether the criteria in a PDB is met. This means perspective running pods of a disrupted application might not get a chance to become healthy. Healthy pods will be subject to the PDB for eviction. Additional policies may be added in the future. Clients making eviction decisions should disallow eviction of unhealthy pods if they encounter an unrecognized policy in this field. This field is beta-level. The eviction API uses this field when the feature gate PDBUnhealthyPodEvictionPolicy is enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#unhealthy_pod_eviction_policy DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#unhealthy_pod_eviction_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#unhealthy_pod_eviction_policy DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#unhealthy_pod_eviction_policy}
   */
   readonly unhealthyPodEvictionPolicy?: string;
 }
@@ -11579,7 +11579,7 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiReadi
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#command DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#command DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#command}
   */
   readonly command?: string[];
 }
@@ -11675,13 +11675,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiReadi
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#port DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#port DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#service DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#service DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#service}
   */
   readonly service?: string;
 }
@@ -11803,13 +11803,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiReadi
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#value DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#value DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#value}
   */
   readonly value: string;
 }
@@ -11950,31 +11950,31 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiReadi
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#host DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#host DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#http_headers DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#http_headers DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#path DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#path DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#port DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#port DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#scheme DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#scheme DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -12183,13 +12183,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiReadi
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#host DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#host DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#port DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#port DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#port}
   */
   readonly port: string;
 }
@@ -12311,61 +12311,61 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiReadi
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#exec DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#exec DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#exec}
   */
   readonly exec?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiReadinessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#failure_threshold DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#failure_threshold DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#grpc DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#grpc DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#grpc}
   */
   readonly grpc?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiReadinessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#http_get DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#http_get DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#http_get}
   */
   readonly httpGet?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiReadinessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#initial_delay_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#initial_delay_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#period_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#period_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#success_threshold DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#success_threshold DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#tcp_socket DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#tcp_socket DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiReadinessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#termination_grace_period_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#termination_grace_period_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#timeout_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#timeout_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -12722,7 +12722,7 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiResou
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
   */
   readonly name: string;
 }
@@ -12837,19 +12837,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiResou
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#claims DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#claims DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#claims}
   */
   readonly claims?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiResourceRequirementsClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#limits DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#limits DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#requests DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#requests DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -13003,13 +13003,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiStrat
   /**
   * The maximum number of pods that can be scheduled above the desired number of pods. Value can be an absolute number (ex: 5) or a percentage of desired pods (ex: 10%). This can not be 0 if MaxUnavailable is 0. Absolute number is calculated from percentage by rounding up. Defaults to 25%. Example: when this is set to 30%, the new ReplicaSet can be scaled up immediately when the rolling update starts, such that the total number of old and new pods do not exceed 130% of desired pods. Once old pods have been killed, new ReplicaSet can be scaled up further, ensuring that total number of pods running at any time during the update is at most 130% of desired pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#max_surge DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#max_surge DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#max_surge}
   */
   readonly maxSurge?: string;
   /**
   * The maximum number of pods that can be unavailable during the update. Value can be an absolute number (ex: 5) or a percentage of desired pods (ex: 10%). Absolute number is calculated from percentage by rounding down. This can not be 0 if MaxSurge is 0. Defaults to 25%. Example: when this is set to 30%, the old ReplicaSet can be scaled down to 70% of desired pods immediately when the rolling update starts. Once new pods are ready, old ReplicaSet can be scaled down further, followed by scaling up the new ReplicaSet, ensuring that the total number of pods available at all times during the update is at least 70% of desired pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#max_unavailable DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#max_unavailable DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#max_unavailable}
   */
   readonly maxUnavailable?: string;
 }
@@ -13134,13 +13134,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiStrat
   /**
   * Rolling update config params. Present only if DeploymentStrategyType = RollingUpdate. --- TODO: Update this to follow our convention for oneOf, whatever we decide it to be.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#rolling_update DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#rolling_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#rolling_update DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#rolling_update}
   */
   readonly rollingUpdate?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiStrategyRollingUpdate;
   /**
   * Type of deployment. Can be 'Recreate' or 'RollingUpdate'. Default is RollingUpdate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#type DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#type DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#type}
   */
   readonly type?: string;
 }
@@ -13265,31 +13265,31 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiToler
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#effect DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#effect DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#toleration_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#toleration_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#value DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#value DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#value}
   */
   readonly value?: string;
 }
@@ -13523,19 +13523,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiTopol
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13705,13 +13705,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiTopol
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -13836,49 +13836,49 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiTopol
   /**
   * LabelSelector is used to find matching pods. Pods that match this label selector are counted to determine the number of pods in their corresponding topology domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#label_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#label_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiTopologySpreadConstraintsLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select the pods over which spreading will be calculated. The keys are used to lookup values from the incoming pod labels, those key-value labels are ANDed with labelSelector to select the group of existing pods over which spreading will be calculated for the incoming pod. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. MatchLabelKeys cannot be set when LabelSelector isn't set. Keys that don't exist in the incoming pod labels will be ignored. A null or empty list means only match against labelSelector. This is a beta field and requires the MatchLabelKeysInPodTopologySpread feature gate to be enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MaxSkew describes the degree to which pods may be unevenly distributed. When 'whenUnsatisfiable=DoNotSchedule', it is the maximum permitted difference between the number of matching pods in the target topology and the global minimum. The global minimum is the minimum number of matching pods in an eligible domain or zero if the number of eligible domains is less than MinDomains. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 2/2/1: In this case, the global minimum is 1. | zone1 | zone2 | zone3 | | P P | P P | P | - if MaxSkew is 1, incoming pod can only be scheduled to zone3 to become 2/2/2; scheduling it onto zone1(zone2) would make the ActualSkew(3-1) on zone1(zone2) violate MaxSkew(1). - if MaxSkew is 2, incoming pod can be scheduled onto any zone. When 'whenUnsatisfiable=ScheduleAnyway', it is used to give higher precedence to topologies that satisfy it. It's a required field. Default value is 1 and 0 is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#max_skew DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#max_skew DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
   * MinDomains indicates a minimum number of eligible domains. When the number of eligible domains with matching topology keys is less than minDomains, Pod Topology Spread treats 'global minimum' as 0, and then the calculation of Skew is performed. And when the number of eligible domains with matching topology keys equals or greater than minDomains, this value has no effect on scheduling. As a result, when the number of eligible domains is less than minDomains, scheduler won't schedule more than maxSkew Pods to those domains. If value is nil, the constraint behaves as if MinDomains is equal to 1. Valid values are integers greater than 0. When value is not nil, WhenUnsatisfiable must be DoNotSchedule. For example, in a 3-zone cluster, MaxSkew is set to 2, MinDomains is set to 5 and pods with the same labelSelector spread as 2/2/2: | zone1 | zone2 | zone3 | | P P | P P | P P | The number of domains is less than 5(MinDomains), so 'global minimum' is treated as 0. In this situation, new pod with the same labelSelector cannot be scheduled, because computed skew will be 3(3 - 0) if new Pod is scheduled to any of the three zones, it will violate MaxSkew.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#min_domains DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#min_domains DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
   * NodeAffinityPolicy indicates how we will treat Pod's nodeAffinity/nodeSelector when calculating pod topology spread skew. Options are: - Honor: only nodes matching nodeAffinity/nodeSelector are included in the calculations. - Ignore: nodeAffinity/nodeSelector are ignored. All nodes are included in the calculations. If this value is nil, the behavior is equivalent to the Honor policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#node_affinity_policy DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#node_affinity_policy DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
   * NodeTaintsPolicy indicates how we will treat node taints when calculating pod topology spread skew. Options are: - Honor: nodes without taints, along with tainted nodes for which the incoming pod has a toleration, are included. - Ignore: node taints are ignored. All nodes are included. If this value is nil, the behavior is equivalent to the Ignore policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#node_taints_policy DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#node_taints_policy DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
   * TopologyKey is the key of node labels. Nodes that have a label with this key and identical values are considered to be in the same topology. We consider each <key, value> as a 'bucket', and try to put balanced number of pods into each bucket. We define a domain as a particular instance of a topology. Also, we define an eligible domain as a domain whose nodes meet the requirements of nodeAffinityPolicy and nodeTaintsPolicy. e.g. If TopologyKey is 'kubernetes.io/hostname', each Node is a domain of that topology. And, if TopologyKey is 'topology.kubernetes.io/zone', each zone is a domain of that topology. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#topology_key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#topology_key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
   * WhenUnsatisfiable indicates how to deal with a pod if it doesn't satisfy the spread constraint. - DoNotSchedule (default) tells the scheduler not to schedule it. - ScheduleAnyway tells the scheduler to schedule the pod in any location, but giving higher precedence to topologies that would help reduce the skew. A constraint is considered 'Unsatisfiable' for an incoming pod if and only if every possible node assignment for that pod would violate 'MaxSkew' on some topology. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 3/1/1: | zone1 | zone2 | zone3 | | P P P | P | P | If WhenUnsatisfiable is set to DoNotSchedule, incoming pod can only be scheduled to zone2(zone3) to become 3/2/1(3/1/2) as ActualSkew(2-1) on zone2(zone3) satisfies MaxSkew(1). In other words, the cluster can still be imbalanced, but scheduler won't make it *more* imbalanced. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#when_unsatisfiable DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#when_unsatisfiable DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -14190,91 +14190,91 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApi {
   /**
   * Affinity is a group of affinity scheduling rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#affinity DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#affinity DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#affinity}
   */
   readonly affinity?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiAffinity;
   /**
   * Annotations for the api deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#deployment_annotations DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#deployment_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#deployment_annotations DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#deployment_annotations}
   */
   readonly deploymentAnnotations?: { [key: string]: string };
   /**
   * Environment variables to add to pulpcore-api container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#env_vars DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#env_vars DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#env_vars}
   */
   readonly envVars?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiEnvVars[] | cdktf.IResolvable;
   /**
   * The timeout for the gunicorn process. Default: 90
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#gunicorn_timeout DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#gunicorn_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#gunicorn_timeout DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#gunicorn_timeout}
   */
   readonly gunicornTimeout?: number;
   /**
   * The number of gunicorn workers to use for the api. Default: 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#gunicorn_workers DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#gunicorn_workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#gunicorn_workers DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#gunicorn_workers}
   */
   readonly gunicornWorkers?: number;
   /**
   * InitContainer defines configuration of the init-containers that run in pulpcore pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#init_container DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#init_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#init_container DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#init_container}
   */
   readonly initContainer?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiInitContainer;
   /**
   * Periodic probe of container liveness. Container will be restarted if the probe fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#liveness_probe DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#liveness_probe DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiLivenessProbe;
   /**
   * NodeSelector for the Pulp pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#node_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#node_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * PodDisruptionBudget is an object to define the max disruption that can be caused to a collection of pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#pdb DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#pdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#pdb DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#pdb}
   */
   readonly pdb?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiPdb;
   /**
   * Periodic probe of container service readiness. Container will be removed from service endpoints if the probe fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#readiness_probe DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#readiness_probe DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiReadinessProbe;
   /**
   * Size is the size of number of pulp-api replicas. Default: 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#replicas DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#replicas DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Resource requirements for the pulp api container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#resource_requirements DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#resource_requirements DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#resource_requirements}
   */
   readonly resourceRequirements?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiResourceRequirements;
   /**
   * The deployment strategy to use to replace existing pods with new ones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#strategy DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#strategy DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#strategy}
   */
   readonly strategy?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiStrategy;
   /**
   * Node tolerations for the Pulp pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#tolerations DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#tolerations DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#tolerations}
   */
   readonly tolerations?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiTolerations[] | cdktf.IResolvable;
   /**
   * Topology rule(s) for the pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#topology_spread_constraints DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#topology_spread_constraints DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecApiTopologySpreadConstraints[] | cdktf.IResolvable;
 }
@@ -14776,19 +14776,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -14958,19 +14958,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -15140,13 +15140,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_fields DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_fields DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_fields}
   */
   readonly matchFields?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -15271,13 +15271,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#preference DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#preference DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#preference}
   */
   readonly preference: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#weight DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#weight DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#weight}
   */
   readonly weight: number;
 }
@@ -15418,19 +15418,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -15600,19 +15600,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -15782,13 +15782,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_fields DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_fields DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_fields}
   */
   readonly matchFields?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -15935,7 +15935,7 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#node_selector_terms DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#node_selector_terms DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -16028,13 +16028,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#required_during_scheduling_ignored_during_execution DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#required_during_scheduling_ignored_during_execution DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -16159,19 +16159,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -16341,13 +16341,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -16472,19 +16472,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -16654,13 +16654,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -16785,37 +16785,37 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#label_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#label_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#mismatch_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#mismatch_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespace_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespace_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespaces DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespaces DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#topology_key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#topology_key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -17053,13 +17053,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#pod_affinity_term DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#pod_affinity_term DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#weight DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#weight DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#weight}
   */
   readonly weight: number;
 }
@@ -17200,19 +17200,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -17382,13 +17382,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -17513,19 +17513,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -17695,13 +17695,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -17826,37 +17826,37 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#label_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#label_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#mismatch_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#mismatch_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespace_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespace_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespaces DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespaces DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#topology_key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#topology_key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -18116,13 +18116,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#required_during_scheduling_ignored_during_execution DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#required_during_scheduling_ignored_during_execution DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -18247,19 +18247,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18429,13 +18429,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -18560,19 +18560,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18742,13 +18742,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -18873,37 +18873,37 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#label_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#label_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#mismatch_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#mismatch_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespace_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespace_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespaces DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespaces DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#topology_key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#topology_key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -19141,13 +19141,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#pod_affinity_term DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#pod_affinity_term DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#weight DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#weight DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#weight}
   */
   readonly weight: number;
 }
@@ -19288,19 +19288,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19470,13 +19470,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -19601,19 +19601,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19783,13 +19783,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_labels DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -19914,37 +19914,37 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#label_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#label_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#mismatch_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#mismatch_label_keys DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespace_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespace_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespaces DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#namespaces DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#topology_key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#topology_key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -20204,13 +20204,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#required_during_scheduling_ignored_during_execution DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#required_during_scheduling_ignored_during_execution DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -20335,19 +20335,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAff
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#node_affinity DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#node_affinity DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#pod_affinity DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#pod_affinity DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#pod_anti_affinity DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#pod_anti_affinity DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinityPodAntiAffinity;
 }
@@ -20501,7 +20501,7 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheLiv
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#command DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#command DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#command}
   */
   readonly command?: string[];
 }
@@ -20597,13 +20597,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheLiv
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#port DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#port DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#service DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#service DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#service}
   */
   readonly service?: string;
 }
@@ -20725,13 +20725,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheLiv
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#value DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#value DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#value}
   */
   readonly value: string;
 }
@@ -20872,31 +20872,31 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheLiv
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#host DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#host DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#http_headers DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#http_headers DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#path DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#path DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#port DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#port DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#scheme DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#scheme DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -21105,13 +21105,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheLiv
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#host DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#host DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#port DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#port DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#port}
   */
   readonly port: string;
 }
@@ -21233,61 +21233,61 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheLiv
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#exec DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#exec DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#exec}
   */
   readonly exec?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#failure_threshold DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#failure_threshold DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#grpc DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#grpc DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#grpc}
   */
   readonly grpc?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheLivenessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#http_get DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#http_get DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#http_get}
   */
   readonly httpGet?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheLivenessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#initial_delay_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#initial_delay_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#period_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#period_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#success_threshold DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#success_threshold DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#tcp_socket DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#tcp_socket DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheLivenessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#termination_grace_period_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#termination_grace_period_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#timeout_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#timeout_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -21644,7 +21644,7 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheRea
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#command DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#command DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#command}
   */
   readonly command?: string[];
 }
@@ -21740,13 +21740,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheRea
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#port DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#port DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#service DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#service DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#service}
   */
   readonly service?: string;
 }
@@ -21868,13 +21868,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheRea
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#value DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#value DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#value}
   */
   readonly value: string;
 }
@@ -22015,31 +22015,31 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheRea
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#host DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#host DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#http_headers DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#http_headers DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#path DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#path DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#port DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#port DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#scheme DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#scheme DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -22248,13 +22248,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheRea
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#host DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#host DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#port DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#port DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#port}
   */
   readonly port: string;
 }
@@ -22376,61 +22376,61 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheRea
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#exec DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#exec DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#exec}
   */
   readonly exec?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheReadinessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#failure_threshold DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#failure_threshold DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#grpc DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#grpc DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#grpc}
   */
   readonly grpc?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheReadinessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#http_get DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#http_get DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#http_get}
   */
   readonly httpGet?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheReadinessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#initial_delay_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#initial_delay_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#period_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#period_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#success_threshold DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#success_threshold DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#tcp_socket DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#tcp_socket DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheReadinessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#termination_grace_period_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#termination_grace_period_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#timeout_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#timeout_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -22787,7 +22787,7 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheRed
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#name DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#name}
   */
   readonly name: string;
 }
@@ -22902,19 +22902,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheRed
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#claims DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#claims DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#claims}
   */
   readonly claims?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheRedisResourceRequirementsClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#limits DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#limits DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#requests DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#requests DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -23068,13 +23068,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheStr
   /**
   * The maximum number of pods that can be scheduled above the desired number of pods. Value can be an absolute number (ex: 5) or a percentage of desired pods (ex: 10%). This can not be 0 if MaxUnavailable is 0. Absolute number is calculated from percentage by rounding up. Defaults to 25%. Example: when this is set to 30%, the new ReplicaSet can be scaled up immediately when the rolling update starts, such that the total number of old and new pods do not exceed 130% of desired pods. Once old pods have been killed, new ReplicaSet can be scaled up further, ensuring that total number of pods running at any time during the update is at most 130% of desired pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#max_surge DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#max_surge DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#max_surge}
   */
   readonly maxSurge?: string;
   /**
   * The maximum number of pods that can be unavailable during the update. Value can be an absolute number (ex: 5) or a percentage of desired pods (ex: 10%). Absolute number is calculated from percentage by rounding down. This can not be 0 if MaxSurge is 0. Defaults to 25%. Example: when this is set to 30%, the old ReplicaSet can be scaled down to 70% of desired pods immediately when the rolling update starts. Once new pods are ready, old ReplicaSet can be scaled down further, followed by scaling up the new ReplicaSet, ensuring that the total number of pods available at all times during the update is at least 70% of desired pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#max_unavailable DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#max_unavailable DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#max_unavailable}
   */
   readonly maxUnavailable?: string;
 }
@@ -23199,13 +23199,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheStr
   /**
   * Rolling update config params. Present only if DeploymentStrategyType = RollingUpdate. --- TODO: Update this to follow our convention for oneOf, whatever we decide it to be.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#rolling_update DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#rolling_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#rolling_update DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#rolling_update}
   */
   readonly rollingUpdate?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheStrategyRollingUpdate;
   /**
   * Type of deployment. Can be 'Recreate' or 'RollingUpdate'. Default is RollingUpdate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#type DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#type DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#type}
   */
   readonly type?: string;
 }
@@ -23330,31 +23330,31 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheTol
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#effect DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#effect DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#toleration_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#toleration_seconds DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#value DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#value DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#value}
   */
   readonly value?: string;
 }
@@ -23588,85 +23588,85 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCache {
   /**
   * Affinity is a group of affinity scheduling rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#affinity DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#affinity DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#affinity}
   */
   readonly affinity?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheAffinity;
   /**
   * Annotations for the cache deployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#deployment_annotations DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#deployment_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#deployment_annotations DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#deployment_annotations}
   */
   readonly deploymentAnnotations?: { [key: string]: string };
   /**
   * Defines if cache should be enabled. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#enabled DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#enabled DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Name of the secret with the parameters to connect to an external Redis cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#external_cache_secret DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#external_cache_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#external_cache_secret DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#external_cache_secret}
   */
   readonly externalCacheSecret?: string;
   /**
   * Periodic probe of container liveness. Container will be restarted if the probe fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#liveness_probe DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#liveness_probe DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheLivenessProbe;
   /**
   * NodeSelector for the Pulp pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#node_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#node_selector DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * PersistenVolumeClaim name that will be used by Redis pods If defined, the PVC must be provisioned by the user and the operator will only configure the deployment to use it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#pvc DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#pvc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#pvc DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#pvc}
   */
   readonly pvc?: string;
   /**
   * Periodic probe of container service readiness. Container will be removed from service endpoints if the probe fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#readiness_probe DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#readiness_probe DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheReadinessProbe;
   /**
   * The image name for the redis image. Default: 'redis:latest'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#redis_image DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#redis_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#redis_image DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#redis_image}
   */
   readonly redisImage?: string;
   /**
   * The port that will be exposed by Redis Service. [default: 6379]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#redis_port DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#redis_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#redis_port DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#redis_port}
   */
   readonly redisPort?: number;
   /**
   * Resource requirements for the Redis container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#redis_resource_requirements DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#redis_resource_requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#redis_resource_requirements DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#redis_resource_requirements}
   */
   readonly redisResourceRequirements?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheRedisResourceRequirements;
   /**
   * Storage class to use for the Redis PVC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#redis_storage_class DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#redis_storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#redis_storage_class DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#redis_storage_class}
   */
   readonly redisStorageClass?: string;
   /**
   * The deployment strategy to use to replace existing pods with new ones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#strategy DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#strategy DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#strategy}
   */
   readonly strategy?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheStrategy;
   /**
   * Node tolerations for the Pulp pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#tolerations DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#tolerations DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#tolerations}
   */
   readonly tolerations?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecCacheTolerations[] | cdktf.IResolvable;
 }
@@ -24139,19 +24139,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecContentA
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -24321,19 +24321,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecContentA
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -24503,13 +24503,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecContentA
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_expressions DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecContentAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_fields DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#match_fields DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#match_fields}
   */
   readonly matchFields?: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecContentAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -24634,13 +24634,13 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecContentA
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#preference DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#preference DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#preference}
   */
   readonly preference: DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecContentAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#weight DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#weight DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#weight}
   */
   readonly weight: number;
 }
@@ -24781,19 +24781,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecContentA
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -24963,19 +24963,19 @@ export interface DataK8SRepoManagerPulpprojectOrgPulpV1Beta2ManifestSpecContentA
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#key DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#operator DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/repo_manager_pulpproject_org_pulp_v1beta2_manifest#values DataK8SRepoManagerPulpprojectOrgPulpV1Beta2Manifest#values}
   */
   readonly values?: string[];
 }

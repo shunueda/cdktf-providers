@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1ManifestConfi
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#metadata DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1ManifestMetadata;
   /**
   * AWSIamConfigSpec defines the desired state of AWSIamConfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#spec DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#spec DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1ManifestMetad
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#annotations DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#annotations DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#labels DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#name DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#namespace DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,15 +217,15 @@ export class DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1ManifestMetadataO
 }
 export interface DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1ManifestSpecMapRoles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#groups DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#groups DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#groups}
   */
   readonly groups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#role_arn DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#role_arn DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#role_arn}
   */
   readonly roleArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#username DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#username DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#username}
   */
   readonly username: string;
 }
@@ -393,15 +393,15 @@ export class DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1ManifestSpecMapRo
 }
 export interface DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1ManifestSpecMapUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#groups DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#groups DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#groups}
   */
   readonly groups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#user_arn DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#user_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#user_arn DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#user_arn}
   */
   readonly userArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#username DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#username DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#username}
   */
   readonly username: string;
 }
@@ -571,27 +571,27 @@ export interface DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1ManifestSpec 
   /**
   * AWSRegion defines a region in an AWS partition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#aws_region DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#aws_region DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#aws_region}
   */
   readonly awsRegion: string;
   /**
   * BackendMode defines multiple backends for aws-iam-authenticator server The server searches for mappings in order
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#backend_mode DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#backend_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#backend_mode DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#backend_mode}
   */
   readonly backendMode: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#map_roles DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#map_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#map_roles DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#map_roles}
   */
   readonly mapRoles?: DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1ManifestSpecMapRoles[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#map_users DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#map_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#map_users DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#map_users}
   */
   readonly mapUsers?: DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1ManifestSpecMapUsers[] | cdktf.IResolvable;
   /**
   * Partition defines the AWS partition on which the IAM roles exist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#partition DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#partition DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest#partition}
   */
   readonly partition?: string;
 }
@@ -795,7 +795,7 @@ export class DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1ManifestSpecOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest}
 */
 export class DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -811,7 +811,7 @@ export class DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest extends 
   * Generates CDKTF code for importing a DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -823,7 +823,7 @@ export class DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest k8s_anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -834,8 +834,8 @@ export class DataK8SAnywhereEksAmazonawsComAwsIamConfigV1Alpha1Manifest extends 
       terraformResourceType: 'k8s_anywhere_eks_amazonaws_com_aws_iam_config_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_dhcp_server
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_dhcp_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,25 @@ export interface Ipv6DhcpServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_dhcp_server#___path___ Ipv6DhcpServer#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_dhcp_server#___path___ Ipv6DhcpServer#___path___}
   */
   readonly path?: string;
   /**
-  * IPv6 pool, from which to take IPv6 prefix for the clients.
+  * Firewall address lists to which the allocated addresses and prefixes will be added if the lease is bound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_dhcp_server#address_pool Ipv6DhcpServer#address_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_dhcp_server#address_lists Ipv6DhcpServer#address_lists}
   */
-  readonly addressPool: string;
+  readonly addressLists?: string[];
+  /**
+  * IPv6 pool, from which to take IPv6 address for the clients. The prefix length of the pool must be 128.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_dhcp_server#address_pool Ipv6DhcpServer#address_pool}
+  */
+  readonly addressPool?: string;
   /**
   * Creates a single simple queue entry for both IPv4 and IPv6 addresses, and uses the MAC address and DUID for identification. Requires IPv6 DHCP Server to have this option enabled as well to work properly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_dhcp_server#allow_dual_stack_queue Ipv6DhcpServer#allow_dual_stack_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_dhcp_server#allow_dual_stack_queue Ipv6DhcpServer#allow_dual_stack_queue}
   */
   readonly allowDualStackQueue?: boolean | cdktf.IResolvable;
   /**
@@ -33,25 +39,25 @@ export interface Ipv6DhcpServerConfig extends cdktf.TerraformMetaArguments {
   *     - bindingAddress - active address
   *     - bindingPrefix - active prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_dhcp_server#binding_script Ipv6DhcpServer#binding_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_dhcp_server#binding_script Ipv6DhcpServer#binding_script}
   */
   readonly bindingScript?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_dhcp_server#comment Ipv6DhcpServer#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_dhcp_server#comment Ipv6DhcpServer#comment}
   */
   readonly comment?: string;
   /**
   * Add additional DHCP options from option list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_dhcp_server#dhcp_option Ipv6DhcpServer#dhcp_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_dhcp_server#dhcp_option Ipv6DhcpServer#dhcp_option}
   */
   readonly dhcpOption?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_dhcp_server#disabled Ipv6DhcpServer#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_dhcp_server#disabled Ipv6DhcpServer#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_dhcp_server#id Ipv6DhcpServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_dhcp_server#id Ipv6DhcpServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -60,63 +66,75 @@ export interface Ipv6DhcpServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Do not reply to DHCPv6 address requests and process only prefixes. Without this setting even if server does not have address-pool configured, it has to respond to client that there is no address available for the client. That can lead up to the situation when DHCPv6 client requests address and prefix in a loop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_dhcp_server#ignore_ia_na_bindings Ipv6DhcpServer#ignore_ia_na_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_dhcp_server#ignore_ia_na_bindings Ipv6DhcpServer#ignore_ia_na_bindings}
   */
   readonly ignoreIaNaBindings?: boolean | cdktf.IResolvable;
   /**
   * Specify where to place dynamic simple queue entries for static DCHP leases with a rate-limit parameter set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_dhcp_server#insert_queue_before Ipv6DhcpServer#insert_queue_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_dhcp_server#insert_queue_before Ipv6DhcpServer#insert_queue_before}
   */
   readonly insertQueueBefore?: string;
   /**
   * The interface on which server will be running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_dhcp_server#interface Ipv6DhcpServer#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_dhcp_server#interface Ipv6DhcpServer#interface}
   */
   readonly interface: string;
   /**
   * The time that a client may use the assigned address. The client will try to renew this address after half of this time and will request a new address after the time limit expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_dhcp_server#lease_time Ipv6DhcpServer#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_dhcp_server#lease_time Ipv6DhcpServer#lease_time}
   */
   readonly leaseTime?: string;
   /**
   * Reference name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_dhcp_server#name Ipv6DhcpServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_dhcp_server#name Ipv6DhcpServer#name}
   */
   readonly name: string;
   /**
   * A dynamically created queue for this lease will be configured as a child queue of the specified parent queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_dhcp_server#parent_queue Ipv6DhcpServer#parent_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_dhcp_server#parent_queue Ipv6DhcpServer#parent_queue}
   */
   readonly parentQueue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_dhcp_server#preference Ipv6DhcpServer#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_dhcp_server#preference Ipv6DhcpServer#preference}
   */
   readonly preference?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_dhcp_server#rapid_commit Ipv6DhcpServer#rapid_commit}
+  * IPv6 pool, from which to take IPv6 prefix for the clients.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_dhcp_server#prefix_pool Ipv6DhcpServer#prefix_pool}
+  */
+  readonly prefixPool?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_dhcp_server#rapid_commit Ipv6DhcpServer#rapid_commit}
   */
   readonly rapidCommit?: boolean | cdktf.IResolvable;
   /**
   * Distance of the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_dhcp_server#route_distance Ipv6DhcpServer#route_distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_dhcp_server#route_distance Ipv6DhcpServer#route_distance}
   */
   readonly routeDistance?: number;
   /**
   * Whether to use RADIUS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_dhcp_server#use_radius Ipv6DhcpServer#use_radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_dhcp_server#use_radius Ipv6DhcpServer#use_radius}
   */
   readonly useRadius?: boolean | cdktf.IResolvable;
+  /**
+  * Allow the server to send Reconfigure messages to clients.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_dhcp_server#use_reconfigure Ipv6DhcpServer#use_reconfigure}
+  */
+  readonly useReconfigure?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_dhcp_server routeros_ipv6_dhcp_server}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_dhcp_server routeros_ipv6_dhcp_server}
 */
 export class Ipv6DhcpServer extends cdktf.TerraformResource {
 
@@ -132,7 +150,7 @@ export class Ipv6DhcpServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ipv6DhcpServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ipv6DhcpServer to import
-  * @param importFromId The id of the existing Ipv6DhcpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_dhcp_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ipv6DhcpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_dhcp_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ipv6DhcpServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -144,7 +162,7 @@ export class Ipv6DhcpServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_dhcp_server routeros_ipv6_dhcp_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_dhcp_server routeros_ipv6_dhcp_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -155,8 +173,8 @@ export class Ipv6DhcpServer extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ipv6_dhcp_server',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.94.0',
-        providerVersionConstraint: '1.94.0'
+        providerVersion: '1.95.0',
+        providerVersionConstraint: '1.95.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -167,6 +185,7 @@ export class Ipv6DhcpServer extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._path = config.path;
+    this._addressLists = config.addressLists;
     this._addressPool = config.addressPool;
     this._allowDualStackQueue = config.allowDualStackQueue;
     this._bindingScript = config.bindingScript;
@@ -181,9 +200,11 @@ export class Ipv6DhcpServer extends cdktf.TerraformResource {
     this._name = config.name;
     this._parentQueue = config.parentQueue;
     this._preference = config.preference;
+    this._prefixPool = config.prefixPool;
     this._rapidCommit = config.rapidCommit;
     this._routeDistance = config.routeDistance;
     this._useRadius = config.useRadius;
+    this._useReconfigure = config.useReconfigure;
   }
 
   // ==========
@@ -206,13 +227,32 @@ export class Ipv6DhcpServer extends cdktf.TerraformResource {
     return this._path;
   }
 
-  // address_pool - computed: false, optional: false, required: true
+  // address_lists - computed: false, optional: true, required: false
+  private _addressLists?: string[]; 
+  public get addressLists() {
+    return cdktf.Fn.tolist(this.getListAttribute('address_lists'));
+  }
+  public set addressLists(value: string[]) {
+    this._addressLists = value;
+  }
+  public resetAddressLists() {
+    this._addressLists = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addressListsInput() {
+    return this._addressLists;
+  }
+
+  // address_pool - computed: false, optional: true, required: false
   private _addressPool?: string; 
   public get addressPool() {
     return this.getStringAttribute('address_pool');
   }
   public set addressPool(value: string) {
     this._addressPool = value;
+  }
+  public resetAddressPool() {
+    this._addressPool = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get addressPoolInput() {
@@ -436,6 +476,22 @@ export class Ipv6DhcpServer extends cdktf.TerraformResource {
     return this._preference;
   }
 
+  // prefix_pool - computed: false, optional: true, required: false
+  private _prefixPool?: string; 
+  public get prefixPool() {
+    return this.getStringAttribute('prefix_pool');
+  }
+  public set prefixPool(value: string) {
+    this._prefixPool = value;
+  }
+  public resetPrefixPool() {
+    this._prefixPool = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get prefixPoolInput() {
+    return this._prefixPool;
+  }
+
   // rapid_commit - computed: false, optional: true, required: false
   private _rapidCommit?: boolean | cdktf.IResolvable; 
   public get rapidCommit() {
@@ -484,6 +540,22 @@ export class Ipv6DhcpServer extends cdktf.TerraformResource {
     return this._useRadius;
   }
 
+  // use_reconfigure - computed: false, optional: true, required: false
+  private _useReconfigure?: boolean | cdktf.IResolvable; 
+  public get useReconfigure() {
+    return this.getBooleanAttribute('use_reconfigure');
+  }
+  public set useReconfigure(value: boolean | cdktf.IResolvable) {
+    this._useReconfigure = value;
+  }
+  public resetUseReconfigure() {
+    this._useReconfigure = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get useReconfigureInput() {
+    return this._useReconfigure;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -491,6 +563,7 @@ export class Ipv6DhcpServer extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       ___path___: cdktf.stringToTerraform(this._path),
+      address_lists: cdktf.listMapper(cdktf.stringToTerraform, false)(this._addressLists),
       address_pool: cdktf.stringToTerraform(this._addressPool),
       allow_dual_stack_queue: cdktf.booleanToTerraform(this._allowDualStackQueue),
       binding_script: cdktf.stringToTerraform(this._bindingScript),
@@ -505,9 +578,11 @@ export class Ipv6DhcpServer extends cdktf.TerraformResource {
       name: cdktf.stringToTerraform(this._name),
       parent_queue: cdktf.stringToTerraform(this._parentQueue),
       preference: cdktf.numberToTerraform(this._preference),
+      prefix_pool: cdktf.stringToTerraform(this._prefixPool),
       rapid_commit: cdktf.booleanToTerraform(this._rapidCommit),
       route_distance: cdktf.numberToTerraform(this._routeDistance),
       use_radius: cdktf.booleanToTerraform(this._useRadius),
+      use_reconfigure: cdktf.booleanToTerraform(this._useReconfigure),
     };
   }
 
@@ -518,6 +593,12 @@ export class Ipv6DhcpServer extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      address_lists: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._addressLists),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
       },
       address_pool: {
         value: cdktf.stringToHclTerraform(this._addressPool),
@@ -603,6 +684,12 @@ export class Ipv6DhcpServer extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      prefix_pool: {
+        value: cdktf.stringToHclTerraform(this._prefixPool),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       rapid_commit: {
         value: cdktf.booleanToHclTerraform(this._rapidCommit),
         isBlock: false,
@@ -617,6 +704,12 @@ export class Ipv6DhcpServer extends cdktf.TerraformResource {
       },
       use_radius: {
         value: cdktf.booleanToHclTerraform(this._useRadius),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      use_reconfigure: {
+        value: cdktf.booleanToHclTerraform(this._useReconfigure),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",

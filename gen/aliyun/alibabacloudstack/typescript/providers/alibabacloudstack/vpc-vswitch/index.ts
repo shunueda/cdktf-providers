@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_vswitch
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_vswitch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface VpcVswitchConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_vswitch#availability_zone VpcVswitch#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_vswitch#availability_zone VpcVswitch#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_vswitch#cidr_block VpcVswitch#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_vswitch#cidr_block VpcVswitch#cidr_block}
   */
   readonly cidrBlock?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_vswitch#description VpcVswitch#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_vswitch#description VpcVswitch#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_vswitch#enable_ipv6 VpcVswitch#enable_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_vswitch#enable_ipv6 VpcVswitch#enable_ipv6}
   */
   readonly enableIpv6?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_vswitch#id VpcVswitch#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_vswitch#id VpcVswitch#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_vswitch#name VpcVswitch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_vswitch#name VpcVswitch#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_vswitch#tags VpcVswitch#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_vswitch#tags VpcVswitch#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_vswitch#vpc_id VpcVswitch#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_vswitch#vpc_id VpcVswitch#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_vswitch#vswitch_name VpcVswitch#vswitch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_vswitch#vswitch_name VpcVswitch#vswitch_name}
   */
   readonly vswitchName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_vswitch#zone_id VpcVswitch#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_vswitch#zone_id VpcVswitch#zone_id}
   */
   readonly zoneId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_vswitch#timeouts VpcVswitch#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_vswitch#timeouts VpcVswitch#timeouts}
   */
   readonly timeouts?: VpcVswitchTimeouts;
 }
 export interface VpcVswitchTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_vswitch#create VpcVswitch#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_vswitch#create VpcVswitch#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_vswitch#delete VpcVswitch#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_vswitch#delete VpcVswitch#delete}
   */
   readonly delete?: string;
 }
@@ -186,7 +186,7 @@ export class VpcVswitchTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_vswitch alibabacloudstack_vpc_vswitch}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_vswitch alibabacloudstack_vpc_vswitch}
 */
 export class VpcVswitch extends cdktf.TerraformResource {
 
@@ -202,7 +202,7 @@ export class VpcVswitch extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcVswitch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcVswitch to import
-  * @param importFromId The id of the existing VpcVswitch that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_vswitch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcVswitch that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_vswitch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcVswitch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -214,7 +214,7 @@ export class VpcVswitch extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/vpc_vswitch alibabacloudstack_vpc_vswitch} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpc_vswitch alibabacloudstack_vpc_vswitch} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,8 +225,8 @@ export class VpcVswitch extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_vpc_vswitch',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

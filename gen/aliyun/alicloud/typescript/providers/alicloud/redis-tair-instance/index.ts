@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,202 +8,202 @@ import * as cdktf from 'cdktf';
 
 export interface RedisTairInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#auto_renew RedisTairInstance#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#auto_renew RedisTairInstance#auto_renew}
   */
   readonly autoRenew?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#auto_renew_period RedisTairInstance#auto_renew_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#auto_renew_period RedisTairInstance#auto_renew_period}
   */
   readonly autoRenewPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#backup_id RedisTairInstance#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#backup_id RedisTairInstance#backup_id}
   */
   readonly backupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#cluster_backup_id RedisTairInstance#cluster_backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#cluster_backup_id RedisTairInstance#cluster_backup_id}
   */
   readonly clusterBackupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#connection_string_prefix RedisTairInstance#connection_string_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#connection_string_prefix RedisTairInstance#connection_string_prefix}
   */
   readonly connectionStringPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#effective_time RedisTairInstance#effective_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#effective_time RedisTairInstance#effective_time}
   */
   readonly effectiveTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#engine_version RedisTairInstance#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#engine_version RedisTairInstance#engine_version}
   */
   readonly engineVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#force_upgrade RedisTairInstance#force_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#force_upgrade RedisTairInstance#force_upgrade}
   */
   readonly forceUpgrade?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#global_instance_id RedisTairInstance#global_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#global_instance_id RedisTairInstance#global_instance_id}
   */
   readonly globalInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#id RedisTairInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#id RedisTairInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#instance_class RedisTairInstance#instance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#instance_class RedisTairInstance#instance_class}
   */
   readonly instanceClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#instance_type RedisTairInstance#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#instance_type RedisTairInstance#instance_type}
   */
   readonly instanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#intranet_bandwidth RedisTairInstance#intranet_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#intranet_bandwidth RedisTairInstance#intranet_bandwidth}
   */
   readonly intranetBandwidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#modify_mode RedisTairInstance#modify_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#modify_mode RedisTairInstance#modify_mode}
   */
   readonly modifyMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#node_type RedisTairInstance#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#node_type RedisTairInstance#node_type}
   */
   readonly nodeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#param_no_loose_sentinel_enabled RedisTairInstance#param_no_loose_sentinel_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#param_no_loose_sentinel_enabled RedisTairInstance#param_no_loose_sentinel_enabled}
   */
   readonly paramNoLooseSentinelEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#param_no_loose_sentinel_password_free_access RedisTairInstance#param_no_loose_sentinel_password_free_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#param_no_loose_sentinel_password_free_access RedisTairInstance#param_no_loose_sentinel_password_free_access}
   */
   readonly paramNoLooseSentinelPasswordFreeAccess?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#param_no_loose_sentinel_password_free_commands RedisTairInstance#param_no_loose_sentinel_password_free_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#param_no_loose_sentinel_password_free_commands RedisTairInstance#param_no_loose_sentinel_password_free_commands}
   */
   readonly paramNoLooseSentinelPasswordFreeCommands?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#param_repl_mode RedisTairInstance#param_repl_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#param_repl_mode RedisTairInstance#param_repl_mode}
   */
   readonly paramReplMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#param_semisync_repl_timeout RedisTairInstance#param_semisync_repl_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#param_semisync_repl_timeout RedisTairInstance#param_semisync_repl_timeout}
   */
   readonly paramSemisyncReplTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#param_sentinel_compat_enable RedisTairInstance#param_sentinel_compat_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#param_sentinel_compat_enable RedisTairInstance#param_sentinel_compat_enable}
   */
   readonly paramSentinelCompatEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#password RedisTairInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#password RedisTairInstance#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#payment_type RedisTairInstance#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#payment_type RedisTairInstance#payment_type}
   */
   readonly paymentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#period RedisTairInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#period RedisTairInstance#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#port RedisTairInstance#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#port RedisTairInstance#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#read_only_count RedisTairInstance#read_only_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#read_only_count RedisTairInstance#read_only_count}
   */
   readonly readOnlyCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#recover_config_mode RedisTairInstance#recover_config_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#recover_config_mode RedisTairInstance#recover_config_mode}
   */
   readonly recoverConfigMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#resource_group_id RedisTairInstance#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#resource_group_id RedisTairInstance#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#secondary_zone_id RedisTairInstance#secondary_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#secondary_zone_id RedisTairInstance#secondary_zone_id}
   */
   readonly secondaryZoneId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#security_group_id RedisTairInstance#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#security_group_id RedisTairInstance#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#security_ip_group_name RedisTairInstance#security_ip_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#security_ip_group_name RedisTairInstance#security_ip_group_name}
   */
   readonly securityIpGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#security_ips RedisTairInstance#security_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#security_ips RedisTairInstance#security_ips}
   */
   readonly securityIps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#shard_count RedisTairInstance#shard_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#shard_count RedisTairInstance#shard_count}
   */
   readonly shardCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#slave_read_only_count RedisTairInstance#slave_read_only_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#slave_read_only_count RedisTairInstance#slave_read_only_count}
   */
   readonly slaveReadOnlyCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#src_db_instance_id RedisTairInstance#src_db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#src_db_instance_id RedisTairInstance#src_db_instance_id}
   */
   readonly srcDbInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#ssl_enabled RedisTairInstance#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#ssl_enabled RedisTairInstance#ssl_enabled}
   */
   readonly sslEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#storage_performance_level RedisTairInstance#storage_performance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#storage_performance_level RedisTairInstance#storage_performance_level}
   */
   readonly storagePerformanceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#storage_size_gb RedisTairInstance#storage_size_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#storage_size_gb RedisTairInstance#storage_size_gb}
   */
   readonly storageSizeGb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#tags RedisTairInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#tags RedisTairInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#tair_instance_name RedisTairInstance#tair_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#tair_instance_name RedisTairInstance#tair_instance_name}
   */
   readonly tairInstanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#vpc_auth_mode RedisTairInstance#vpc_auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#vpc_auth_mode RedisTairInstance#vpc_auth_mode}
   */
   readonly vpcAuthMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#vpc_id RedisTairInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#vpc_id RedisTairInstance#vpc_id}
   */
   readonly vpcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#vswitch_id RedisTairInstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#vswitch_id RedisTairInstance#vswitch_id}
   */
   readonly vswitchId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#zone_id RedisTairInstance#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#zone_id RedisTairInstance#zone_id}
   */
   readonly zoneId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#timeouts RedisTairInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#timeouts RedisTairInstance#timeouts}
   */
   readonly timeouts?: RedisTairInstanceTimeouts;
 }
 export interface RedisTairInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#create RedisTairInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#create RedisTairInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#delete RedisTairInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#delete RedisTairInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#update RedisTairInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#update RedisTairInstance#update}
   */
   readonly update?: string;
 }
@@ -355,7 +355,7 @@ export class RedisTairInstanceTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance alicloud_redis_tair_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance alicloud_redis_tair_instance}
 */
 export class RedisTairInstance extends cdktf.TerraformResource {
 
@@ -371,7 +371,7 @@ export class RedisTairInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RedisTairInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedisTairInstance to import
-  * @param importFromId The id of the existing RedisTairInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedisTairInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedisTairInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -383,7 +383,7 @@ export class RedisTairInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/redis_tair_instance alicloud_redis_tair_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/redis_tair_instance alicloud_redis_tair_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -394,8 +394,8 @@ export class RedisTairInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_redis_tair_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

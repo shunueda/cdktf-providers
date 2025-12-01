@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_phone_policy
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface CloudPhonePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_phone_policy#camera_redirect CloudPhonePolicy#camera_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_policy#camera_redirect CloudPhonePolicy#camera_redirect}
   */
   readonly cameraRedirect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_phone_policy#clipboard CloudPhonePolicy#clipboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_policy#clipboard CloudPhonePolicy#clipboard}
   */
   readonly clipboard?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_phone_policy#id CloudPhonePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_policy#id CloudPhonePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_phone_policy#lock_resolution CloudPhonePolicy#lock_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_policy#lock_resolution CloudPhonePolicy#lock_resolution}
   */
   readonly lockResolution?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_phone_policy#policy_group_name CloudPhonePolicy#policy_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_policy#policy_group_name CloudPhonePolicy#policy_group_name}
   */
   readonly policyGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_phone_policy#resolution_height CloudPhonePolicy#resolution_height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_policy#resolution_height CloudPhonePolicy#resolution_height}
   */
   readonly resolutionHeight?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_phone_policy#resolution_width CloudPhonePolicy#resolution_width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_policy#resolution_width CloudPhonePolicy#resolution_width}
   */
   readonly resolutionWidth?: number;
   /**
   * net_redirect_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_phone_policy#net_redirect_policy CloudPhonePolicy#net_redirect_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_policy#net_redirect_policy CloudPhonePolicy#net_redirect_policy}
   */
   readonly netRedirectPolicy?: CloudPhonePolicyNetRedirectPolicy;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_phone_policy#timeouts CloudPhonePolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_policy#timeouts CloudPhonePolicy#timeouts}
   */
   readonly timeouts?: CloudPhonePolicyTimeouts;
 }
 export interface CloudPhonePolicyNetRedirectPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_phone_policy#custom_proxy CloudPhonePolicy#custom_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_policy#custom_proxy CloudPhonePolicy#custom_proxy}
   */
   readonly customProxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_phone_policy#host_addr CloudPhonePolicy#host_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_policy#host_addr CloudPhonePolicy#host_addr}
   */
   readonly hostAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_phone_policy#net_redirect CloudPhonePolicy#net_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_policy#net_redirect CloudPhonePolicy#net_redirect}
   */
   readonly netRedirect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_phone_policy#port CloudPhonePolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_policy#port CloudPhonePolicy#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_phone_policy#proxy_password CloudPhonePolicy#proxy_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_policy#proxy_password CloudPhonePolicy#proxy_password}
   */
   readonly proxyPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_phone_policy#proxy_type CloudPhonePolicy#proxy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_policy#proxy_type CloudPhonePolicy#proxy_type}
   */
   readonly proxyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_phone_policy#proxy_user_name CloudPhonePolicy#proxy_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_policy#proxy_user_name CloudPhonePolicy#proxy_user_name}
   */
   readonly proxyUserName?: string;
 }
@@ -335,15 +335,15 @@ export class CloudPhonePolicyNetRedirectPolicyOutputReference extends cdktf.Comp
 }
 export interface CloudPhonePolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_phone_policy#create CloudPhonePolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_policy#create CloudPhonePolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_phone_policy#delete CloudPhonePolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_policy#delete CloudPhonePolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_phone_policy#update CloudPhonePolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_policy#update CloudPhonePolicy#update}
   */
   readonly update?: string;
 }
@@ -495,7 +495,7 @@ export class CloudPhonePolicyTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_phone_policy alicloud_cloud_phone_policy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_policy alicloud_cloud_phone_policy}
 */
 export class CloudPhonePolicy extends cdktf.TerraformResource {
 
@@ -511,7 +511,7 @@ export class CloudPhonePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudPhonePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudPhonePolicy to import
-  * @param importFromId The id of the existing CloudPhonePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_phone_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudPhonePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudPhonePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -523,7 +523,7 @@ export class CloudPhonePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_phone_policy alicloud_cloud_phone_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_phone_policy alicloud_cloud_phone_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -534,8 +534,8 @@ export class CloudPhonePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cloud_phone_policy',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

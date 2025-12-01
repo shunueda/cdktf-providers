@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_dhcp_options_set
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_dhcp_options_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface VpcDhcpOptionsSetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_dhcp_options_set#dhcp_options_set_description VpcDhcpOptionsSet#dhcp_options_set_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_dhcp_options_set#dhcp_options_set_description VpcDhcpOptionsSet#dhcp_options_set_description}
   */
   readonly dhcpOptionsSetDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_dhcp_options_set#dhcp_options_set_name VpcDhcpOptionsSet#dhcp_options_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_dhcp_options_set#dhcp_options_set_name VpcDhcpOptionsSet#dhcp_options_set_name}
   */
   readonly dhcpOptionsSetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_dhcp_options_set#domain_name VpcDhcpOptionsSet#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_dhcp_options_set#domain_name VpcDhcpOptionsSet#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_dhcp_options_set#domain_name_servers VpcDhcpOptionsSet#domain_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_dhcp_options_set#domain_name_servers VpcDhcpOptionsSet#domain_name_servers}
   */
   readonly domainNameServers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_dhcp_options_set#dry_run VpcDhcpOptionsSet#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_dhcp_options_set#dry_run VpcDhcpOptionsSet#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_dhcp_options_set#id VpcDhcpOptionsSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_dhcp_options_set#id VpcDhcpOptionsSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_dhcp_options_set#ipv6_lease_time VpcDhcpOptionsSet#ipv6_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_dhcp_options_set#ipv6_lease_time VpcDhcpOptionsSet#ipv6_lease_time}
   */
   readonly ipv6LeaseTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_dhcp_options_set#lease_time VpcDhcpOptionsSet#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_dhcp_options_set#lease_time VpcDhcpOptionsSet#lease_time}
   */
   readonly leaseTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_dhcp_options_set#resource_group_id VpcDhcpOptionsSet#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_dhcp_options_set#resource_group_id VpcDhcpOptionsSet#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_dhcp_options_set#tags VpcDhcpOptionsSet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_dhcp_options_set#tags VpcDhcpOptionsSet#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * associate_vpcs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_dhcp_options_set#associate_vpcs VpcDhcpOptionsSet#associate_vpcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_dhcp_options_set#associate_vpcs VpcDhcpOptionsSet#associate_vpcs}
   */
   readonly associateVpcs?: VpcDhcpOptionsSetAssociateVpcs[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_dhcp_options_set#timeouts VpcDhcpOptionsSet#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_dhcp_options_set#timeouts VpcDhcpOptionsSet#timeouts}
   */
   readonly timeouts?: VpcDhcpOptionsSetTimeouts;
 }
 export interface VpcDhcpOptionsSetAssociateVpcs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_dhcp_options_set#vpc_id VpcDhcpOptionsSet#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_dhcp_options_set#vpc_id VpcDhcpOptionsSet#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -183,15 +183,15 @@ export class VpcDhcpOptionsSetAssociateVpcsList extends cdktf.ComplexList {
 }
 export interface VpcDhcpOptionsSetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_dhcp_options_set#create VpcDhcpOptionsSet#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_dhcp_options_set#create VpcDhcpOptionsSet#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_dhcp_options_set#delete VpcDhcpOptionsSet#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_dhcp_options_set#delete VpcDhcpOptionsSet#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_dhcp_options_set#update VpcDhcpOptionsSet#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_dhcp_options_set#update VpcDhcpOptionsSet#update}
   */
   readonly update?: string;
 }
@@ -343,7 +343,7 @@ export class VpcDhcpOptionsSetTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_dhcp_options_set alicloud_vpc_dhcp_options_set}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_dhcp_options_set alicloud_vpc_dhcp_options_set}
 */
 export class VpcDhcpOptionsSet extends cdktf.TerraformResource {
 
@@ -359,7 +359,7 @@ export class VpcDhcpOptionsSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcDhcpOptionsSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcDhcpOptionsSet to import
-  * @param importFromId The id of the existing VpcDhcpOptionsSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_dhcp_options_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcDhcpOptionsSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_dhcp_options_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcDhcpOptionsSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -371,7 +371,7 @@ export class VpcDhcpOptionsSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_dhcp_options_set alicloud_vpc_dhcp_options_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_dhcp_options_set alicloud_vpc_dhcp_options_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -382,8 +382,8 @@ export class VpcDhcpOptionsSet extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_vpc_dhcp_options_set',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

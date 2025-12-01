@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_proxy
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_proxy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,92 +8,92 @@ import * as cdktf from 'cdktf';
 
 export interface PolardbProxyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_proxy#causal_consist_read PolardbProxy#causal_consist_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_proxy#causal_consist_read PolardbProxy#causal_consist_read}
   */
   readonly causalConsistRead?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_proxy#connection_persist PolardbProxy#connection_persist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_proxy#connection_persist PolardbProxy#connection_persist}
   */
   readonly connectionPersist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_proxy#db_instance_id PolardbProxy#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_proxy#db_instance_id PolardbProxy#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_proxy#db_proxy_connect_string PolardbProxy#db_proxy_connect_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_proxy#db_proxy_connect_string PolardbProxy#db_proxy_connect_string}
   */
   readonly dbProxyConnectString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_proxy#db_proxy_connect_string_port PolardbProxy#db_proxy_connect_string_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_proxy#db_proxy_connect_string_port PolardbProxy#db_proxy_connect_string_port}
   */
   readonly dbProxyConnectStringPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_proxy#db_proxy_endpoint_aliases PolardbProxy#db_proxy_endpoint_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_proxy#db_proxy_endpoint_aliases PolardbProxy#db_proxy_endpoint_aliases}
   */
   readonly dbProxyEndpointAliases?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_proxy#db_proxy_endpoint_name PolardbProxy#db_proxy_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_proxy#db_proxy_endpoint_name PolardbProxy#db_proxy_endpoint_name}
   */
   readonly dbProxyEndpointName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_proxy#db_proxy_endpoint_type PolardbProxy#db_proxy_endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_proxy#db_proxy_endpoint_type PolardbProxy#db_proxy_endpoint_type}
   */
   readonly dbProxyEndpointType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_proxy#db_proxy_instance_num PolardbProxy#db_proxy_instance_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_proxy#db_proxy_instance_num PolardbProxy#db_proxy_instance_num}
   */
   readonly dbProxyInstanceNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_proxy#db_proxy_instance_status PolardbProxy#db_proxy_instance_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_proxy#db_proxy_instance_status PolardbProxy#db_proxy_instance_status}
   */
   readonly dbProxyInstanceStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_proxy#db_proxy_read_write_mode PolardbProxy#db_proxy_read_write_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_proxy#db_proxy_read_write_mode PolardbProxy#db_proxy_read_write_mode}
   */
   readonly dbProxyReadWriteMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_proxy#effective_specific_time PolardbProxy#effective_specific_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_proxy#effective_specific_time PolardbProxy#effective_specific_time}
   */
   readonly effectiveSpecificTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_proxy#effective_time PolardbProxy#effective_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_proxy#effective_time PolardbProxy#effective_time}
   */
   readonly effectiveTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_proxy#id PolardbProxy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_proxy#id PolardbProxy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_proxy#read_only_instance_max_delay_time PolardbProxy#read_only_instance_max_delay_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_proxy#read_only_instance_max_delay_time PolardbProxy#read_only_instance_max_delay_time}
   */
   readonly readOnlyInstanceMaxDelayTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_proxy#read_write_spliting PolardbProxy#read_write_spliting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_proxy#read_write_spliting PolardbProxy#read_write_spliting}
   */
   readonly readWriteSpliting?: string;
   /**
   * read_only_instance_weight block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_proxy#read_only_instance_weight PolardbProxy#read_only_instance_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_proxy#read_only_instance_weight PolardbProxy#read_only_instance_weight}
   */
   readonly readOnlyInstanceWeight?: PolardbProxyReadOnlyInstanceWeight[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_proxy#timeouts PolardbProxy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_proxy#timeouts PolardbProxy#timeouts}
   */
   readonly timeouts?: PolardbProxyTimeouts;
 }
 export interface PolardbProxyReadOnlyInstanceWeight {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_proxy#db_instance_id PolardbProxy#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_proxy#db_instance_id PolardbProxy#db_instance_id}
   */
   readonly dbInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_proxy#weight PolardbProxy#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_proxy#weight PolardbProxy#weight}
   */
   readonly weight?: number;
 }
@@ -238,15 +238,15 @@ export class PolardbProxyReadOnlyInstanceWeightList extends cdktf.ComplexList {
 }
 export interface PolardbProxyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_proxy#create PolardbProxy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_proxy#create PolardbProxy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_proxy#delete PolardbProxy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_proxy#delete PolardbProxy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_proxy#update PolardbProxy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_proxy#update PolardbProxy#update}
   */
   readonly update?: string;
 }
@@ -398,7 +398,7 @@ export class PolardbProxyTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_proxy alibabacloudstack_polardb_proxy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_proxy alibabacloudstack_polardb_proxy}
 */
 export class PolardbProxy extends cdktf.TerraformResource {
 
@@ -414,7 +414,7 @@ export class PolardbProxy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolardbProxy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolardbProxy to import
-  * @param importFromId The id of the existing PolardbProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_proxy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolardbProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_proxy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolardbProxy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -426,7 +426,7 @@ export class PolardbProxy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_proxy alibabacloudstack_polardb_proxy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_proxy alibabacloudstack_polardb_proxy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -437,7 +437,8 @@ export class PolardbProxy extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_polardb_proxy',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

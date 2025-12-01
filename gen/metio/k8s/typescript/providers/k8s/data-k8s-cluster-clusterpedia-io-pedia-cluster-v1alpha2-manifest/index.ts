@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SClusterClusterpediaIoPediaClusterV1Alpha2ManifestConfig 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#metadata DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#metadata DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#metadata}
   */
   readonly metadata: DataK8SClusterClusterpediaIoPediaClusterV1Alpha2ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#spec DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#spec DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#spec}
   */
   readonly spec?: DataK8SClusterClusterpediaIoPediaClusterV1Alpha2ManifestSpec;
 }
@@ -22,19 +22,19 @@ export interface DataK8SClusterClusterpediaIoPediaClusterV1Alpha2ManifestMetadat
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#annotations DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#annotations DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#labels DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#labels DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#name DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#name DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#name}
   */
   readonly name: string;
 }
@@ -183,15 +183,15 @@ export class DataK8SClusterClusterpediaIoPediaClusterV1Alpha2ManifestMetadataOut
 }
 export interface DataK8SClusterClusterpediaIoPediaClusterV1Alpha2ManifestSpecSyncResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#group DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#group DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#group}
   */
   readonly group: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#resources DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#resources DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#resources}
   */
   readonly resources: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#versions DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#versions DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#versions}
   */
   readonly versions?: string[];
 }
@@ -359,43 +359,43 @@ export class DataK8SClusterClusterpediaIoPediaClusterV1Alpha2ManifestSpecSyncRes
 }
 export interface DataK8SClusterClusterpediaIoPediaClusterV1Alpha2ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#apiserver DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#apiserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#apiserver DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#apiserver}
   */
   readonly apiserver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#ca_data DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#ca_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#ca_data DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#ca_data}
   */
   readonly caData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#cert_data DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#cert_data DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#cert_data}
   */
   readonly certData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#key_data DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#key_data DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#key_data}
   */
   readonly keyData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#kubeconfig DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#kubeconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#kubeconfig DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#kubeconfig}
   */
   readonly kubeconfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#sharding_name DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#sharding_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#sharding_name DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#sharding_name}
   */
   readonly shardingName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#sync_all_custom_resources DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#sync_all_custom_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#sync_all_custom_resources DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#sync_all_custom_resources}
   */
   readonly syncAllCustomResources?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#sync_resources DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#sync_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#sync_resources DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#sync_resources}
   */
   readonly syncResources: DataK8SClusterClusterpediaIoPediaClusterV1Alpha2ManifestSpecSyncResources[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#sync_resources_ref_name DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#sync_resources_ref_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#sync_resources_ref_name DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#sync_resources_ref_name}
   */
   readonly syncResourcesRefName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#token_data DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#token_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#token_data DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest#token_data}
   */
   readonly tokenData?: string;
 }
@@ -747,7 +747,7 @@ export class DataK8SClusterClusterpediaIoPediaClusterV1Alpha2ManifestSpecOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest k8s_cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest k8s_cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest}
 */
 export class DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest extends cdktf.TerraformDataSource {
 
@@ -763,7 +763,7 @@ export class DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest extends cd
   * Generates CDKTF code for importing a DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest to import
-  * @param importFromId The id of the existing DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -775,7 +775,7 @@ export class DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest k8s_cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest k8s_cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -786,8 +786,8 @@ export class DataK8SClusterClusterpediaIoPediaClusterV1Alpha2Manifest extends cd
       terraformResourceType: 'k8s_cluster_clusterpedia_io_pedia_cluster_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `data_k8s_machine_deletion_remediation_medik8s_io_machine_deletion_remediation_v1alpha1_manifest`
 
-Refer to the Terraform Registry for docs: [`data_k8s_machine_deletion_remediation_medik8s_io_machine_deletion_remediation_v1alpha1_manifest`](https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/machine_deletion_remediation_medik8s_io_machine_deletion_remediation_v1alpha1_manifest).
+Refer to the Terraform Registry for docs: [`data_k8s_machine_deletion_remediation_medik8s_io_machine_deletion_remediation_v1alpha1_manifest`](https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/machine_deletion_remediation_medik8s_io_machine_deletion_remediation_v1alpha1_manifest).

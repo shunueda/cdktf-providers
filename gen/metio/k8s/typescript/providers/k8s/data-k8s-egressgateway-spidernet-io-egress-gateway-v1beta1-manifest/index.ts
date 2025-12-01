@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1ManifestConf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#metadata DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#metadata DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#spec DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#spec DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1ManifestSpec;
 }
@@ -22,19 +22,19 @@ export interface DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1ManifestMeta
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#annotations DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#annotations DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#labels DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#labels DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#name DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#name DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -183,19 +183,19 @@ export class DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1ManifestMetadata
 }
 export interface DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1ManifestSpecIppools {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#ipv4 DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#ipv4 DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#ipv4}
   */
   readonly ipv4?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#ipv4_default_eip DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#ipv4_default_eip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#ipv4_default_eip DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#ipv4_default_eip}
   */
   readonly ipv4DefaultEip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#ipv6 DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#ipv6 DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#ipv6}
   */
   readonly ipv6?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#ipv6_default_eip DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#ipv6_default_eip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#ipv6_default_eip DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#ipv6_default_eip}
   */
   readonly ipv6DefaultEip?: string;
 }
@@ -378,19 +378,19 @@ export interface DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1ManifestSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#key DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#key DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#operator DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#operator DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#values DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#values DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -560,13 +560,13 @@ export interface DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1ManifestSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#match_expressions DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#match_expressions DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1ManifestSpecNodeSelectorSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#match_labels DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#match_labels DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -689,13 +689,13 @@ export class DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1ManifestSpecNode
 }
 export interface DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1ManifestSpecNodeSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#policy DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#policy DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#policy}
   */
   readonly policy?: string;
   /**
   * A label selector is a label query over a set of resources. The result of matchLabels and matchExpressions are ANDed. An empty label selector matches all objects. A null label selector matches no objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#selector DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#selector DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#selector}
   */
   readonly selector?: DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1ManifestSpecNodeSelectorSelector;
 }
@@ -818,15 +818,15 @@ export class DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1ManifestSpecNode
 }
 export interface DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#cluster_default DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#cluster_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#cluster_default DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#cluster_default}
   */
   readonly clusterDefault?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#ippools DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#ippools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#ippools DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#ippools}
   */
   readonly ippools?: DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1ManifestSpecIppools;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#node_selector DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#node_selector DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest#node_selector}
   */
   readonly nodeSelector?: DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1ManifestSpecNodeSelector;
 }
@@ -978,7 +978,7 @@ export class DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1ManifestSpecOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest k8s_egressgateway_spidernet_io_egress_gateway_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest k8s_egressgateway_spidernet_io_egress_gateway_v1beta1_manifest}
 */
 export class DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -994,7 +994,7 @@ export class DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest extends
   * Generates CDKTF code for importing a DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1006,7 +1006,7 @@ export class DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest k8s_egressgateway_spidernet_io_egress_gateway_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/egressgateway_spidernet_io_egress_gateway_v1beta1_manifest k8s_egressgateway_spidernet_io_egress_gateway_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1017,8 +1017,8 @@ export class DataK8SEgressgatewaySpidernetIoEgressGatewayV1Beta1Manifest extends
       terraformResourceType: 'k8s_egressgateway_spidernet_io_egress_gateway_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

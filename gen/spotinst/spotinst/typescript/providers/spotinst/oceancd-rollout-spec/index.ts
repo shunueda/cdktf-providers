@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec
+// https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface OceancdRolloutSpecConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#id OceancdRolloutSpec#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#id OceancdRolloutSpec#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#rollout_spec_name OceancdRolloutSpec#rollout_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#rollout_spec_name OceancdRolloutSpec#rollout_spec_name}
   */
   readonly rolloutSpecName: string;
   /**
   * failure_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#failure_policy OceancdRolloutSpec#failure_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#failure_policy OceancdRolloutSpec#failure_policy}
   */
   readonly failurePolicy?: OceancdRolloutSpecFailurePolicy;
   /**
   * spot_deployment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#spot_deployment OceancdRolloutSpec#spot_deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#spot_deployment OceancdRolloutSpec#spot_deployment}
   */
   readonly spotDeployment?: OceancdRolloutSpecSpotDeployment;
   /**
   * spot_deployments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#spot_deployments OceancdRolloutSpec#spot_deployments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#spot_deployments OceancdRolloutSpec#spot_deployments}
   */
   readonly spotDeployments?: OceancdRolloutSpecSpotDeployments[] | cdktf.IResolvable;
   /**
   * strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#strategy OceancdRolloutSpec#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#strategy OceancdRolloutSpec#strategy}
   */
   readonly strategy: OceancdRolloutSpecStrategy;
   /**
   * traffic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#traffic OceancdRolloutSpec#traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#traffic OceancdRolloutSpec#traffic}
   */
   readonly traffic?: OceancdRolloutSpecTraffic;
 }
 export interface OceancdRolloutSpecFailurePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#action OceancdRolloutSpec#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#action OceancdRolloutSpec#action}
   */
   readonly action: string;
 }
@@ -132,15 +132,15 @@ export class OceancdRolloutSpecFailurePolicyOutputReference extends cdktf.Comple
 }
 export interface OceancdRolloutSpecSpotDeployment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#spot_deployment_cluster_id OceancdRolloutSpec#spot_deployment_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#spot_deployment_cluster_id OceancdRolloutSpec#spot_deployment_cluster_id}
   */
   readonly spotDeploymentClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#spot_deployment_name OceancdRolloutSpec#spot_deployment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#spot_deployment_name OceancdRolloutSpec#spot_deployment_name}
   */
   readonly spotDeploymentName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#spot_deployment_namespace OceancdRolloutSpec#spot_deployment_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#spot_deployment_namespace OceancdRolloutSpec#spot_deployment_namespace}
   */
   readonly spotDeploymentNamespace?: string;
 }
@@ -282,15 +282,15 @@ export class OceancdRolloutSpecSpotDeploymentOutputReference extends cdktf.Compl
 }
 export interface OceancdRolloutSpecSpotDeployments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#spot_deployments_cluster_id OceancdRolloutSpec#spot_deployments_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#spot_deployments_cluster_id OceancdRolloutSpec#spot_deployments_cluster_id}
   */
   readonly spotDeploymentsClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#spot_deployments_name OceancdRolloutSpec#spot_deployments_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#spot_deployments_name OceancdRolloutSpec#spot_deployments_name}
   */
   readonly spotDeploymentsName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#spot_deployments_namespace OceancdRolloutSpec#spot_deployments_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#spot_deployments_namespace OceancdRolloutSpec#spot_deployments_namespace}
   */
   readonly spotDeploymentsNamespace?: string;
 }
@@ -464,7 +464,7 @@ export class OceancdRolloutSpecSpotDeploymentsList extends cdktf.ComplexList {
 }
 export interface OceancdRolloutSpecStrategyArgsValueFromFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#field_path OceancdRolloutSpec#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#field_path OceancdRolloutSpec#field_path}
   */
   readonly fieldPath: string;
 }
@@ -547,7 +547,7 @@ export interface OceancdRolloutSpecStrategyArgsValueFrom {
   /**
   * field_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#field_ref OceancdRolloutSpec#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#field_ref OceancdRolloutSpec#field_ref}
   */
   readonly fieldRef: OceancdRolloutSpecStrategyArgsValueFromFieldRef;
 }
@@ -628,17 +628,17 @@ export class OceancdRolloutSpecStrategyArgsValueFromOutputReference extends cdkt
 }
 export interface OceancdRolloutSpecStrategyArgs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#arg_name OceancdRolloutSpec#arg_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#arg_name OceancdRolloutSpec#arg_name}
   */
   readonly argName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#arg_value OceancdRolloutSpec#arg_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#arg_value OceancdRolloutSpec#arg_value}
   */
   readonly argValue?: string;
   /**
   * value_from block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#value_from OceancdRolloutSpec#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#value_from OceancdRolloutSpec#value_from}
   */
   readonly valueFrom?: OceancdRolloutSpecStrategyArgsValueFrom;
 }
@@ -809,13 +809,13 @@ export class OceancdRolloutSpecStrategyArgsList extends cdktf.ComplexList {
 }
 export interface OceancdRolloutSpecStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#strategy_name OceancdRolloutSpec#strategy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#strategy_name OceancdRolloutSpec#strategy_name}
   */
   readonly strategyName: string;
   /**
   * args block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#args OceancdRolloutSpec#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#args OceancdRolloutSpec#args}
   */
   readonly args?: OceancdRolloutSpecStrategyArgs[] | cdktf.IResolvable;
 }
@@ -925,11 +925,11 @@ export class OceancdRolloutSpecStrategyOutputReference extends cdktf.ComplexObje
 }
 export interface OceancdRolloutSpecTrafficAlbStickinessConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#duration_seconds OceancdRolloutSpec#duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#duration_seconds OceancdRolloutSpec#duration_seconds}
   */
   readonly durationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#enabled OceancdRolloutSpec#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#enabled OceancdRolloutSpec#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1042,25 +1042,25 @@ export class OceancdRolloutSpecTrafficAlbStickinessConfigOutputReference extends
 }
 export interface OceancdRolloutSpecTrafficAlb {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#alb_annotation_prefix OceancdRolloutSpec#alb_annotation_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#alb_annotation_prefix OceancdRolloutSpec#alb_annotation_prefix}
   */
   readonly albAnnotationPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#alb_ingress OceancdRolloutSpec#alb_ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#alb_ingress OceancdRolloutSpec#alb_ingress}
   */
   readonly albIngress: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#alb_root_service OceancdRolloutSpec#alb_root_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#alb_root_service OceancdRolloutSpec#alb_root_service}
   */
   readonly albRootService: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#service_port OceancdRolloutSpec#service_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#service_port OceancdRolloutSpec#service_port}
   */
   readonly servicePort: number;
   /**
   * stickiness_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#stickiness_config OceancdRolloutSpec#stickiness_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#stickiness_config OceancdRolloutSpec#stickiness_config}
   */
   readonly stickinessConfig?: OceancdRolloutSpecTrafficAlbStickinessConfig;
 }
@@ -1251,7 +1251,7 @@ export class OceancdRolloutSpecTrafficAlbOutputReference extends cdktf.ComplexOb
 }
 export interface OceancdRolloutSpecTrafficAmbassador {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#mappings OceancdRolloutSpec#mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#mappings OceancdRolloutSpec#mappings}
   */
   readonly mappings: string[];
 }
@@ -1332,15 +1332,15 @@ export class OceancdRolloutSpecTrafficAmbassadorOutputReference extends cdktf.Co
 }
 export interface OceancdRolloutSpecTrafficIstioDestinationRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#canary_subset_name OceancdRolloutSpec#canary_subset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#canary_subset_name OceancdRolloutSpec#canary_subset_name}
   */
   readonly canarySubsetName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#destination_rule_name OceancdRolloutSpec#destination_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#destination_rule_name OceancdRolloutSpec#destination_rule_name}
   */
   readonly destinationRuleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#stable_subset_name OceancdRolloutSpec#stable_subset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#stable_subset_name OceancdRolloutSpec#stable_subset_name}
   */
   readonly stableSubsetName: string;
 }
@@ -1473,11 +1473,11 @@ export class OceancdRolloutSpecTrafficIstioDestinationRuleOutputReference extend
 }
 export interface OceancdRolloutSpecTrafficIstioVirtualServicesTlsRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#port OceancdRolloutSpec#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#port OceancdRolloutSpec#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#sni_hosts OceancdRolloutSpec#sni_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#sni_hosts OceancdRolloutSpec#sni_hosts}
   */
   readonly sniHosts?: string[];
 }
@@ -1622,17 +1622,17 @@ export class OceancdRolloutSpecTrafficIstioVirtualServicesTlsRoutesList extends 
 }
 export interface OceancdRolloutSpecTrafficIstioVirtualServices {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#virtual_service_name OceancdRolloutSpec#virtual_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#virtual_service_name OceancdRolloutSpec#virtual_service_name}
   */
   readonly virtualServiceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#virtual_service_routes OceancdRolloutSpec#virtual_service_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#virtual_service_routes OceancdRolloutSpec#virtual_service_routes}
   */
   readonly virtualServiceRoutes?: string[];
   /**
   * tls_routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#tls_routes OceancdRolloutSpec#tls_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#tls_routes OceancdRolloutSpec#tls_routes}
   */
   readonly tlsRoutes?: OceancdRolloutSpecTrafficIstioVirtualServicesTlsRoutes[] | cdktf.IResolvable;
 }
@@ -1805,13 +1805,13 @@ export interface OceancdRolloutSpecTrafficIstio {
   /**
   * destination_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#destination_rule OceancdRolloutSpec#destination_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#destination_rule OceancdRolloutSpec#destination_rule}
   */
   readonly destinationRule?: OceancdRolloutSpecTrafficIstioDestinationRule;
   /**
   * virtual_services block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#virtual_services OceancdRolloutSpec#virtual_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#virtual_services OceancdRolloutSpec#virtual_services}
   */
   readonly virtualServices: OceancdRolloutSpecTrafficIstioVirtualServices[] | cdktf.IResolvable;
 }
@@ -1921,11 +1921,11 @@ export class OceancdRolloutSpecTrafficIstioOutputReference extends cdktf.Complex
 }
 export interface OceancdRolloutSpecTrafficNginxAdditionalIngressAnnotation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#canary_by_header OceancdRolloutSpec#canary_by_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#canary_by_header OceancdRolloutSpec#canary_by_header}
   */
   readonly canaryByHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#key1 OceancdRolloutSpec#key1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#key1 OceancdRolloutSpec#key1}
   */
   readonly key1?: string;
 }
@@ -2038,17 +2038,17 @@ export class OceancdRolloutSpecTrafficNginxAdditionalIngressAnnotationOutputRefe
 }
 export interface OceancdRolloutSpecTrafficNginx {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#nginx_annotation_prefix OceancdRolloutSpec#nginx_annotation_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#nginx_annotation_prefix OceancdRolloutSpec#nginx_annotation_prefix}
   */
   readonly nginxAnnotationPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#stable_ingress OceancdRolloutSpec#stable_ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#stable_ingress OceancdRolloutSpec#stable_ingress}
   */
   readonly stableIngress: string;
   /**
   * additional_ingress_annotation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#additional_ingress_annotation OceancdRolloutSpec#additional_ingress_annotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#additional_ingress_annotation OceancdRolloutSpec#additional_ingress_annotation}
   */
   readonly additionalIngressAnnotation?: OceancdRolloutSpecTrafficNginxAdditionalIngressAnnotation;
 }
@@ -2187,11 +2187,11 @@ export class OceancdRolloutSpecTrafficNginxOutputReference extends cdktf.Complex
 }
 export interface OceancdRolloutSpecTrafficPingPong {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#ping_service OceancdRolloutSpec#ping_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#ping_service OceancdRolloutSpec#ping_service}
   */
   readonly pingService: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#pong_service OceancdRolloutSpec#pong_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#pong_service OceancdRolloutSpec#pong_service}
   */
   readonly pongService: string;
 }
@@ -2298,11 +2298,11 @@ export class OceancdRolloutSpecTrafficPingPongOutputReference extends cdktf.Comp
 }
 export interface OceancdRolloutSpecTrafficSmi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#smi_root_service OceancdRolloutSpec#smi_root_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#smi_root_service OceancdRolloutSpec#smi_root_service}
   */
   readonly smiRootService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#traffic_split_name OceancdRolloutSpec#traffic_split_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#traffic_split_name OceancdRolloutSpec#traffic_split_name}
   */
   readonly trafficSplitName?: string;
 }
@@ -2415,47 +2415,47 @@ export class OceancdRolloutSpecTrafficSmiOutputReference extends cdktf.ComplexOb
 }
 export interface OceancdRolloutSpecTraffic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#canary_service OceancdRolloutSpec#canary_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#canary_service OceancdRolloutSpec#canary_service}
   */
   readonly canaryService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#stable_service OceancdRolloutSpec#stable_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#stable_service OceancdRolloutSpec#stable_service}
   */
   readonly stableService?: string;
   /**
   * alb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#alb OceancdRolloutSpec#alb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#alb OceancdRolloutSpec#alb}
   */
   readonly alb?: OceancdRolloutSpecTrafficAlb;
   /**
   * ambassador block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#ambassador OceancdRolloutSpec#ambassador}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#ambassador OceancdRolloutSpec#ambassador}
   */
   readonly ambassador?: OceancdRolloutSpecTrafficAmbassador;
   /**
   * istio block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#istio OceancdRolloutSpec#istio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#istio OceancdRolloutSpec#istio}
   */
   readonly istio?: OceancdRolloutSpecTrafficIstio;
   /**
   * nginx block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#nginx OceancdRolloutSpec#nginx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#nginx OceancdRolloutSpec#nginx}
   */
   readonly nginx?: OceancdRolloutSpecTrafficNginx;
   /**
   * ping_pong block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#ping_pong OceancdRolloutSpec#ping_pong}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#ping_pong OceancdRolloutSpec#ping_pong}
   */
   readonly pingPong?: OceancdRolloutSpecTrafficPingPong;
   /**
   * smi block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#smi OceancdRolloutSpec#smi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#smi OceancdRolloutSpec#smi}
   */
   readonly smi?: OceancdRolloutSpecTrafficSmi;
 }
@@ -2742,7 +2742,7 @@ export class OceancdRolloutSpecTrafficOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec spotinst_oceancd_rollout_spec}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec spotinst_oceancd_rollout_spec}
 */
 export class OceancdRolloutSpec extends cdktf.TerraformResource {
 
@@ -2758,7 +2758,7 @@ export class OceancdRolloutSpec extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OceancdRolloutSpec resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OceancdRolloutSpec to import
-  * @param importFromId The id of the existing OceancdRolloutSpec that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OceancdRolloutSpec that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OceancdRolloutSpec to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2770,7 +2770,7 @@ export class OceancdRolloutSpec extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_rollout_spec spotinst_oceancd_rollout_spec} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_rollout_spec spotinst_oceancd_rollout_spec} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2781,8 +2781,8 @@ export class OceancdRolloutSpec extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_oceancd_rollout_spec',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.230.0',
-        providerVersionConstraint: '1.230.0'
+        providerVersion: '1.231.0',
+        providerVersionConstraint: '1.231.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

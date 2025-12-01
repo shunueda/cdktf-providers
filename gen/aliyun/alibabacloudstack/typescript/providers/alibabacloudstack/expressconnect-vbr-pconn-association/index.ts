@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_vbr_pconn_association
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_vbr_pconn_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface ExpressconnectVbrPconnAssociationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_vbr_pconn_association#enable_ipv6 ExpressconnectVbrPconnAssociation#enable_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_vbr_pconn_association#enable_ipv6 ExpressconnectVbrPconnAssociation#enable_ipv6}
   */
   readonly enableIpv6?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_vbr_pconn_association#id ExpressconnectVbrPconnAssociation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_vbr_pconn_association#id ExpressconnectVbrPconnAssociation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_vbr_pconn_association#local_gateway_ip ExpressconnectVbrPconnAssociation#local_gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_vbr_pconn_association#local_gateway_ip ExpressconnectVbrPconnAssociation#local_gateway_ip}
   */
   readonly localGatewayIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_vbr_pconn_association#local_ipv6_gateway_ip ExpressconnectVbrPconnAssociation#local_ipv6_gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_vbr_pconn_association#local_ipv6_gateway_ip ExpressconnectVbrPconnAssociation#local_ipv6_gateway_ip}
   */
   readonly localIpv6GatewayIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_vbr_pconn_association#peer_gateway_ip ExpressconnectVbrPconnAssociation#peer_gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_vbr_pconn_association#peer_gateway_ip ExpressconnectVbrPconnAssociation#peer_gateway_ip}
   */
   readonly peerGatewayIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_vbr_pconn_association#peer_ipv6_gateway_ip ExpressconnectVbrPconnAssociation#peer_ipv6_gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_vbr_pconn_association#peer_ipv6_gateway_ip ExpressconnectVbrPconnAssociation#peer_ipv6_gateway_ip}
   */
   readonly peerIpv6GatewayIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_vbr_pconn_association#peering_ipv6_subnet_mask ExpressconnectVbrPconnAssociation#peering_ipv6_subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_vbr_pconn_association#peering_ipv6_subnet_mask ExpressconnectVbrPconnAssociation#peering_ipv6_subnet_mask}
   */
   readonly peeringIpv6SubnetMask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_vbr_pconn_association#peering_subnet_mask ExpressconnectVbrPconnAssociation#peering_subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_vbr_pconn_association#peering_subnet_mask ExpressconnectVbrPconnAssociation#peering_subnet_mask}
   */
   readonly peeringSubnetMask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_vbr_pconn_association#physical_connection_id ExpressconnectVbrPconnAssociation#physical_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_vbr_pconn_association#physical_connection_id ExpressconnectVbrPconnAssociation#physical_connection_id}
   */
   readonly physicalConnectionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_vbr_pconn_association#vbr_id ExpressconnectVbrPconnAssociation#vbr_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_vbr_pconn_association#vbr_id ExpressconnectVbrPconnAssociation#vbr_id}
   */
   readonly vbrId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_vbr_pconn_association#vlan_id ExpressconnectVbrPconnAssociation#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_vbr_pconn_association#vlan_id ExpressconnectVbrPconnAssociation#vlan_id}
   */
   readonly vlanId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_vbr_pconn_association alibabacloudstack_expressconnect_vbr_pconn_association}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_vbr_pconn_association alibabacloudstack_expressconnect_vbr_pconn_association}
 */
 export class ExpressconnectVbrPconnAssociation extends cdktf.TerraformResource {
 
@@ -73,7 +73,7 @@ export class ExpressconnectVbrPconnAssociation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExpressconnectVbrPconnAssociation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExpressconnectVbrPconnAssociation to import
-  * @param importFromId The id of the existing ExpressconnectVbrPconnAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_vbr_pconn_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExpressconnectVbrPconnAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_vbr_pconn_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExpressconnectVbrPconnAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -85,7 +85,7 @@ export class ExpressconnectVbrPconnAssociation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_vbr_pconn_association alibabacloudstack_expressconnect_vbr_pconn_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_vbr_pconn_association alibabacloudstack_expressconnect_vbr_pconn_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -96,7 +96,8 @@ export class ExpressconnectVbrPconnAssociation extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_expressconnect_vbr_pconn_association',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

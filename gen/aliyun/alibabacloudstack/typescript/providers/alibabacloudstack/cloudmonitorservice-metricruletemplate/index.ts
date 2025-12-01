@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktf from 'cdktf';
 
 export interface CloudmonitorserviceMetricruletemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#apply_mode CloudmonitorserviceMetricruletemplate#apply_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#apply_mode CloudmonitorserviceMetricruletemplate#apply_mode}
   */
   readonly applyMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#description CloudmonitorserviceMetricruletemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#description CloudmonitorserviceMetricruletemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#enable CloudmonitorserviceMetricruletemplate#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#enable CloudmonitorserviceMetricruletemplate#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#enable_end_time CloudmonitorserviceMetricruletemplate#enable_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#enable_end_time CloudmonitorserviceMetricruletemplate#enable_end_time}
   */
   readonly enableEndTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#enable_start_time CloudmonitorserviceMetricruletemplate#enable_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#enable_start_time CloudmonitorserviceMetricruletemplate#enable_start_time}
   */
   readonly enableStartTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#group_id CloudmonitorserviceMetricruletemplate#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#group_id CloudmonitorserviceMetricruletemplate#group_id}
   */
   readonly groupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#id CloudmonitorserviceMetricruletemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#id CloudmonitorserviceMetricruletemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#metric_rule_template_name CloudmonitorserviceMetricruletemplate#metric_rule_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#metric_rule_template_name CloudmonitorserviceMetricruletemplate#metric_rule_template_name}
   */
   readonly metricRuleTemplateName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#notify_level CloudmonitorserviceMetricruletemplate#notify_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#notify_level CloudmonitorserviceMetricruletemplate#notify_level}
   */
   readonly notifyLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#overwrite CloudmonitorserviceMetricruletemplate#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#overwrite CloudmonitorserviceMetricruletemplate#overwrite}
   */
   readonly overwrite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#rest_version CloudmonitorserviceMetricruletemplate#rest_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#rest_version CloudmonitorserviceMetricruletemplate#rest_version}
   */
   readonly restVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#silence_time CloudmonitorserviceMetricruletemplate#silence_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#silence_time CloudmonitorserviceMetricruletemplate#silence_time}
   */
   readonly silenceTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#webhook CloudmonitorserviceMetricruletemplate#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#webhook CloudmonitorserviceMetricruletemplate#webhook}
   */
   readonly webhook?: string;
   /**
   * alert_templates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#alert_templates CloudmonitorserviceMetricruletemplate#alert_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#alert_templates CloudmonitorserviceMetricruletemplate#alert_templates}
   */
   readonly alertTemplates?: CloudmonitorserviceMetricruletemplateAlertTemplates[] | cdktf.IResolvable;
 }
 export interface CloudmonitorserviceMetricruletemplateAlertTemplatesEscalationsCritical {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#comparison_operator CloudmonitorserviceMetricruletemplate#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#comparison_operator CloudmonitorserviceMetricruletemplate#comparison_operator}
   */
   readonly comparisonOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#statistics CloudmonitorserviceMetricruletemplate#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#statistics CloudmonitorserviceMetricruletemplate#statistics}
   */
   readonly statistics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#threshold CloudmonitorserviceMetricruletemplate#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#threshold CloudmonitorserviceMetricruletemplate#threshold}
   */
   readonly threshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#times CloudmonitorserviceMetricruletemplate#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#times CloudmonitorserviceMetricruletemplate#times}
   */
   readonly times?: string;
 }
@@ -254,19 +254,19 @@ export class CloudmonitorserviceMetricruletemplateAlertTemplatesEscalationsCriti
 }
 export interface CloudmonitorserviceMetricruletemplateAlertTemplatesEscalationsInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#comparison_operator CloudmonitorserviceMetricruletemplate#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#comparison_operator CloudmonitorserviceMetricruletemplate#comparison_operator}
   */
   readonly comparisonOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#statistics CloudmonitorserviceMetricruletemplate#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#statistics CloudmonitorserviceMetricruletemplate#statistics}
   */
   readonly statistics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#threshold CloudmonitorserviceMetricruletemplate#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#threshold CloudmonitorserviceMetricruletemplate#threshold}
   */
   readonly threshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#times CloudmonitorserviceMetricruletemplate#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#times CloudmonitorserviceMetricruletemplate#times}
   */
   readonly times?: string;
 }
@@ -437,19 +437,19 @@ export class CloudmonitorserviceMetricruletemplateAlertTemplatesEscalationsInfoO
 }
 export interface CloudmonitorserviceMetricruletemplateAlertTemplatesEscalationsWarn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#comparison_operator CloudmonitorserviceMetricruletemplate#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#comparison_operator CloudmonitorserviceMetricruletemplate#comparison_operator}
   */
   readonly comparisonOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#statistics CloudmonitorserviceMetricruletemplate#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#statistics CloudmonitorserviceMetricruletemplate#statistics}
   */
   readonly statistics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#threshold CloudmonitorserviceMetricruletemplate#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#threshold CloudmonitorserviceMetricruletemplate#threshold}
   */
   readonly threshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#times CloudmonitorserviceMetricruletemplate#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#times CloudmonitorserviceMetricruletemplate#times}
   */
   readonly times?: string;
 }
@@ -622,19 +622,19 @@ export interface CloudmonitorserviceMetricruletemplateAlertTemplatesEscalations 
   /**
   * critical block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#critical CloudmonitorserviceMetricruletemplate#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#critical CloudmonitorserviceMetricruletemplate#critical}
   */
   readonly critical?: CloudmonitorserviceMetricruletemplateAlertTemplatesEscalationsCritical;
   /**
   * info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#info CloudmonitorserviceMetricruletemplate#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#info CloudmonitorserviceMetricruletemplate#info}
   */
   readonly info?: CloudmonitorserviceMetricruletemplateAlertTemplatesEscalationsInfo;
   /**
   * warn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#warn CloudmonitorserviceMetricruletemplate#warn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#warn CloudmonitorserviceMetricruletemplate#warn}
   */
   readonly warn?: CloudmonitorserviceMetricruletemplateAlertTemplatesEscalationsWarn;
 }
@@ -776,29 +776,29 @@ export class CloudmonitorserviceMetricruletemplateAlertTemplatesEscalationsOutpu
 }
 export interface CloudmonitorserviceMetricruletemplateAlertTemplates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#category CloudmonitorserviceMetricruletemplate#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#category CloudmonitorserviceMetricruletemplate#category}
   */
   readonly category: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#metric_name CloudmonitorserviceMetricruletemplate#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#metric_name CloudmonitorserviceMetricruletemplate#metric_name}
   */
   readonly metricName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#namespace CloudmonitorserviceMetricruletemplate#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#namespace CloudmonitorserviceMetricruletemplate#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#rule_name CloudmonitorserviceMetricruletemplate#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#rule_name CloudmonitorserviceMetricruletemplate#rule_name}
   */
   readonly ruleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#webhook CloudmonitorserviceMetricruletemplate#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#webhook CloudmonitorserviceMetricruletemplate#webhook}
   */
   readonly webhook?: string;
   /**
   * escalations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#escalations CloudmonitorserviceMetricruletemplate#escalations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#escalations CloudmonitorserviceMetricruletemplate#escalations}
   */
   readonly escalations?: CloudmonitorserviceMetricruletemplateAlertTemplatesEscalations;
 }
@@ -1047,7 +1047,7 @@ export class CloudmonitorserviceMetricruletemplateAlertTemplatesList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate alibabacloudstack_cloudmonitorservice_metricruletemplate}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate alibabacloudstack_cloudmonitorservice_metricruletemplate}
 */
 export class CloudmonitorserviceMetricruletemplate extends cdktf.TerraformResource {
 
@@ -1063,7 +1063,7 @@ export class CloudmonitorserviceMetricruletemplate extends cdktf.TerraformResour
   * Generates CDKTF code for importing a CloudmonitorserviceMetricruletemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudmonitorserviceMetricruletemplate to import
-  * @param importFromId The id of the existing CloudmonitorserviceMetricruletemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudmonitorserviceMetricruletemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudmonitorserviceMetricruletemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1075,7 +1075,7 @@ export class CloudmonitorserviceMetricruletemplate extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cloudmonitorservice_metricruletemplate alibabacloudstack_cloudmonitorservice_metricruletemplate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cloudmonitorservice_metricruletemplate alibabacloudstack_cloudmonitorservice_metricruletemplate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1086,8 +1086,8 @@ export class CloudmonitorserviceMetricruletemplate extends cdktf.TerraformResour
       terraformResourceType: 'alibabacloudstack_cloudmonitorservice_metricruletemplate',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

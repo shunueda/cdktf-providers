@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard
+// https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface DashboardConfig extends cdktf.TerraformMetaArguments {
   /**
   * Determines how many checks to show per page. Possible values are between 1 and 20. (Default `15`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard#checks_per_page Dashboard#checks_per_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard#checks_per_page Dashboard#checks_per_page}
   */
   readonly checksPerPage?: number;
   /**
   * Custom CSS to be applied to the dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard#custom_css Dashboard#custom_css}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard#custom_css Dashboard#custom_css}
   */
   readonly customCss?: string;
   /**
   * A custom user domain, e.g. 'status.example.com'. See the docs on updating your DNS and SSL usage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard#custom_domain Dashboard#custom_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard#custom_domain Dashboard#custom_domain}
   */
   readonly customDomain?: string;
   /**
   * A subdomain name under 'checklyhq.com'. Needs to be unique across all users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard#custom_url Dashboard#custom_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard#custom_url Dashboard#custom_url}
   */
   readonly customUrl: string;
   /**
   * HTML <meta> description for the dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard#description Dashboard#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard#description Dashboard#description}
   */
   readonly description?: string;
   /**
   * Enable incident support for the dashboard. (Default `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard#enable_incidents Dashboard#enable_incidents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard#enable_incidents Dashboard#enable_incidents}
   */
   readonly enableIncidents?: boolean | cdktf.IResolvable;
   /**
   * Expand or collapse checks on the dashboard. (Default `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard#expand_checks Dashboard#expand_checks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard#expand_checks Dashboard#expand_checks}
   */
   readonly expandChecks?: boolean | cdktf.IResolvable;
   /**
   * A URL pointing to an image file to use as browser favicon.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard#favicon Dashboard#favicon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard#favicon Dashboard#favicon}
   */
   readonly favicon?: string;
   /**
   * A piece of text displayed at the top of your dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard#header Dashboard#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard#header Dashboard#header}
   */
   readonly header: string;
   /**
   * Show or hide the tags on the dashboard. (Default `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard#hide_tags Dashboard#hide_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard#hide_tags Dashboard#hide_tags}
   */
   readonly hideTags?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard#id Dashboard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard#id Dashboard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,85 +77,85 @@ export interface DashboardConfig extends cdktf.TerraformMetaArguments {
   /**
   * Set your dashboard as private and generate key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard#is_private Dashboard#is_private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard#is_private Dashboard#is_private}
   */
   readonly isPrivate?: boolean | cdktf.IResolvable;
   /**
   * A link to for the dashboard logo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard#link Dashboard#link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard#link Dashboard#link}
   */
   readonly link?: string;
   /**
   * A URL pointing to an image file to use for the dashboard logo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard#logo Dashboard#logo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard#logo Dashboard#logo}
   */
   readonly logo?: string;
   /**
   * Determines if pagination is on or off. (Default `true`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard#paginate Dashboard#paginate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard#paginate Dashboard#paginate}
   */
   readonly paginate?: boolean | cdktf.IResolvable;
   /**
   * How often to trigger pagination in seconds. Possible values `30`, `60` and `300`. (Default `60`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard#pagination_rate Dashboard#pagination_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard#pagination_rate Dashboard#pagination_rate}
   */
   readonly paginationRate?: number;
   /**
   * How often to refresh the dashboard in seconds. Possible values `60`, '300' and `600`. (Default `60`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard#refresh_rate Dashboard#refresh_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard#refresh_rate Dashboard#refresh_rate}
   */
   readonly refreshRate?: number;
   /**
   * Show or hide check run links on the dashboard. (Default `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard#show_check_run_links Dashboard#show_check_run_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard#show_check_run_links Dashboard#show_check_run_links}
   */
   readonly showCheckRunLinks?: boolean | cdktf.IResolvable;
   /**
   * Show or hide header and description on the dashboard. (Default `true`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard#show_header Dashboard#show_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard#show_header Dashboard#show_header}
   */
   readonly showHeader?: boolean | cdktf.IResolvable;
   /**
   * Show or hide the P95 stats on the dashboard. (Default `true`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard#show_p95 Dashboard#show_p95}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard#show_p95 Dashboard#show_p95}
   */
   readonly showP95?: boolean | cdktf.IResolvable;
   /**
   * Show or hide the P99 stats on the dashboard. (Default `true`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard#show_p99 Dashboard#show_p99}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard#show_p99 Dashboard#show_p99}
   */
   readonly showP99?: boolean | cdktf.IResolvable;
   /**
   * A list of one or more tags that filter which checks to display on the dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard#tags Dashboard#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard#tags Dashboard#tags}
   */
   readonly tags?: string[];
   /**
   * Set when to use AND operator for fetching dashboard tags. (Default `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard#use_tags_and_operator Dashboard#use_tags_and_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard#use_tags_and_operator Dashboard#use_tags_and_operator}
   */
   readonly useTagsAndOperator?: boolean | cdktf.IResolvable;
   /**
   * Determines whether to use the full screen or focus in the center. Possible values are `FULL` and `960PX`. (Default `FULL`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard#width Dashboard#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard#width Dashboard#width}
   */
   readonly width?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard checkly_dashboard}
+* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard checkly_dashboard}
 */
 export class Dashboard extends cdktf.TerraformResource {
 
@@ -171,7 +171,7 @@ export class Dashboard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Dashboard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Dashboard to import
-  * @param importFromId The id of the existing Dashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Dashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Dashboard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -183,7 +183,7 @@ export class Dashboard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/dashboard checkly_dashboard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/dashboard checkly_dashboard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -194,8 +194,8 @@ export class Dashboard extends cdktf.TerraformResource {
       terraformResourceType: 'checkly_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'checkly',
-        providerVersion: '1.16.0',
-        providerVersionConstraint: '1.16.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

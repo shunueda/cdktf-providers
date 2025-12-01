@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/group_users
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/group_users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface GroupUsersConfig extends cdktf.TerraformMetaArguments {
   /**
   * The unique identifier for the Group within the Fivetran system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/group_users#group_id GroupUsers#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/group_users#group_id GroupUsers#group_id}
   */
   readonly groupId: string;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/group_users#user GroupUsers#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/group_users#user GroupUsers#user}
   */
   readonly user?: GroupUsersUser[] | cdktf.IResolvable;
 }
@@ -24,13 +24,13 @@ export interface GroupUsersUser {
   /**
   * The email address that the user has associated with their user profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/group_users#email GroupUsers#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/group_users#email GroupUsers#email}
   */
   readonly email: string;
   /**
   * The group role that you would like to assign this new user to. Supported group roles: ‘Destination Administrator‘, ‘Destination Reviewer‘, ‘Destination Analyst‘, ‘Connector Creator‘, or a custom destination role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/group_users#role GroupUsers#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/group_users#role GroupUsers#role}
   */
   readonly role: string;
 }
@@ -174,7 +174,7 @@ export class GroupUsersUserList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/group_users fivetran_group_users}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/group_users fivetran_group_users}
 */
 export class GroupUsers extends cdktf.TerraformResource {
 
@@ -190,7 +190,7 @@ export class GroupUsers extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GroupUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GroupUsers to import
-  * @param importFromId The id of the existing GroupUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/group_users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GroupUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/group_users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GroupUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class GroupUsers extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/group_users fivetran_group_users} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/group_users fivetran_group_users} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,8 +213,8 @@ export class GroupUsers extends cdktf.TerraformResource {
       terraformResourceType: 'fivetran_group_users',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.15',
-        providerVersionConstraint: '1.9.15'
+        providerVersion: '1.9.16',
+        providerVersionConstraint: '1.9.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

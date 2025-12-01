@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/db_instance_class_infos
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/db_instance_class_infos
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudDbInstanceClassInfosConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/db_instance_class_infos#commodity_code DataAlicloudDbInstanceClassInfos#commodity_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/db_instance_class_infos#commodity_code DataAlicloudDbInstanceClassInfos#commodity_code}
   */
   readonly commodityCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/db_instance_class_infos#db_instance_id DataAlicloudDbInstanceClassInfos#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/db_instance_class_infos#db_instance_id DataAlicloudDbInstanceClassInfos#db_instance_id}
   */
   readonly dbInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/db_instance_class_infos#id DataAlicloudDbInstanceClassInfos#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/db_instance_class_infos#id DataAlicloudDbInstanceClassInfos#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/db_instance_class_infos#order_type DataAlicloudDbInstanceClassInfos#order_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/db_instance_class_infos#order_type DataAlicloudDbInstanceClassInfos#order_type}
   */
   readonly orderType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/db_instance_class_infos#output_file DataAlicloudDbInstanceClassInfos#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/db_instance_class_infos#output_file DataAlicloudDbInstanceClassInfos#output_file}
   */
   readonly outputFile?: string;
   /**
   * infos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/db_instance_class_infos#infos DataAlicloudDbInstanceClassInfos#infos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/db_instance_class_infos#infos DataAlicloudDbInstanceClassInfos#infos}
   */
   readonly infos?: DataAlicloudDbInstanceClassInfosInfos[] | cdktf.IResolvable;
 }
 export interface DataAlicloudDbInstanceClassInfosInfos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/db_instance_class_infos#class_code DataAlicloudDbInstanceClassInfos#class_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/db_instance_class_infos#class_code DataAlicloudDbInstanceClassInfos#class_code}
   */
   readonly classCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/db_instance_class_infos#class_group DataAlicloudDbInstanceClassInfos#class_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/db_instance_class_infos#class_group DataAlicloudDbInstanceClassInfos#class_group}
   */
   readonly classGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/db_instance_class_infos#cpu DataAlicloudDbInstanceClassInfos#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/db_instance_class_infos#cpu DataAlicloudDbInstanceClassInfos#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/db_instance_class_infos#instruction_set_arch DataAlicloudDbInstanceClassInfos#instruction_set_arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/db_instance_class_infos#instruction_set_arch DataAlicloudDbInstanceClassInfos#instruction_set_arch}
   */
   readonly instructionSetArch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/db_instance_class_infos#max_connections DataAlicloudDbInstanceClassInfos#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/db_instance_class_infos#max_connections DataAlicloudDbInstanceClassInfos#max_connections}
   */
   readonly maxConnections?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/db_instance_class_infos#max_iombps DataAlicloudDbInstanceClassInfos#max_iombps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/db_instance_class_infos#max_iombps DataAlicloudDbInstanceClassInfos#max_iombps}
   */
   readonly maxIombps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/db_instance_class_infos#max_iops DataAlicloudDbInstanceClassInfos#max_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/db_instance_class_infos#max_iops DataAlicloudDbInstanceClassInfos#max_iops}
   */
   readonly maxIops?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/db_instance_class_infos#memory_class DataAlicloudDbInstanceClassInfos#memory_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/db_instance_class_infos#memory_class DataAlicloudDbInstanceClassInfos#memory_class}
   */
   readonly memoryClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/db_instance_class_infos#reference_price DataAlicloudDbInstanceClassInfos#reference_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/db_instance_class_infos#reference_price DataAlicloudDbInstanceClassInfos#reference_price}
   */
   readonly referencePrice?: string;
 }
@@ -419,7 +419,7 @@ export class DataAlicloudDbInstanceClassInfosInfosList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/db_instance_class_infos alicloud_db_instance_class_infos}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/db_instance_class_infos alicloud_db_instance_class_infos}
 */
 export class DataAlicloudDbInstanceClassInfos extends cdktf.TerraformDataSource {
 
@@ -435,7 +435,7 @@ export class DataAlicloudDbInstanceClassInfos extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataAlicloudDbInstanceClassInfos resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudDbInstanceClassInfos to import
-  * @param importFromId The id of the existing DataAlicloudDbInstanceClassInfos that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/db_instance_class_infos#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudDbInstanceClassInfos that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/db_instance_class_infos#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudDbInstanceClassInfos to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -447,7 +447,7 @@ export class DataAlicloudDbInstanceClassInfos extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/db_instance_class_infos alicloud_db_instance_class_infos} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/db_instance_class_infos alicloud_db_instance_class_infos} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -458,8 +458,8 @@ export class DataAlicloudDbInstanceClassInfos extends cdktf.TerraformDataSource 
       terraformResourceType: 'alicloud_db_instance_class_infos',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

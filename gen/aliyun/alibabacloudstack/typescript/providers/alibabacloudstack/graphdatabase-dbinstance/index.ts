@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/graphdatabase_dbinstance
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/graphdatabase_dbinstance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface GraphdatabaseDbinstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/graphdatabase_dbinstance#db_instance_category GraphdatabaseDbinstance#db_instance_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/graphdatabase_dbinstance#db_instance_category GraphdatabaseDbinstance#db_instance_category}
   */
   readonly dbInstanceCategory: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/graphdatabase_dbinstance#db_instance_description GraphdatabaseDbinstance#db_instance_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/graphdatabase_dbinstance#db_instance_description GraphdatabaseDbinstance#db_instance_description}
   */
   readonly dbInstanceDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/graphdatabase_dbinstance#db_instance_network_type GraphdatabaseDbinstance#db_instance_network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/graphdatabase_dbinstance#db_instance_network_type GraphdatabaseDbinstance#db_instance_network_type}
   */
   readonly dbInstanceNetworkType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/graphdatabase_dbinstance#db_instance_storage_type GraphdatabaseDbinstance#db_instance_storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/graphdatabase_dbinstance#db_instance_storage_type GraphdatabaseDbinstance#db_instance_storage_type}
   */
   readonly dbInstanceStorageType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/graphdatabase_dbinstance#db_node_class GraphdatabaseDbinstance#db_node_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/graphdatabase_dbinstance#db_node_class GraphdatabaseDbinstance#db_node_class}
   */
   readonly dbNodeClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/graphdatabase_dbinstance#db_node_storage GraphdatabaseDbinstance#db_node_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/graphdatabase_dbinstance#db_node_storage GraphdatabaseDbinstance#db_node_storage}
   */
   readonly dbNodeStorage: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/graphdatabase_dbinstance#db_version GraphdatabaseDbinstance#db_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/graphdatabase_dbinstance#db_version GraphdatabaseDbinstance#db_version}
   */
   readonly dbVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/graphdatabase_dbinstance#id GraphdatabaseDbinstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/graphdatabase_dbinstance#id GraphdatabaseDbinstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/graphdatabase_dbinstance#payment_type GraphdatabaseDbinstance#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/graphdatabase_dbinstance#payment_type GraphdatabaseDbinstance#payment_type}
   */
   readonly paymentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/graphdatabase_dbinstance#vpc_id GraphdatabaseDbinstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/graphdatabase_dbinstance#vpc_id GraphdatabaseDbinstance#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/graphdatabase_dbinstance#vswitch_id GraphdatabaseDbinstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/graphdatabase_dbinstance#vswitch_id GraphdatabaseDbinstance#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/graphdatabase_dbinstance#zone_id GraphdatabaseDbinstance#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/graphdatabase_dbinstance#zone_id GraphdatabaseDbinstance#zone_id}
   */
   readonly zoneId?: string;
   /**
   * db_instance_ip_array block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/graphdatabase_dbinstance#db_instance_ip_array GraphdatabaseDbinstance#db_instance_ip_array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/graphdatabase_dbinstance#db_instance_ip_array GraphdatabaseDbinstance#db_instance_ip_array}
   */
   readonly dbInstanceIpArray?: GraphdatabaseDbinstanceDbInstanceIpArray[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/graphdatabase_dbinstance#timeouts GraphdatabaseDbinstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/graphdatabase_dbinstance#timeouts GraphdatabaseDbinstance#timeouts}
   */
   readonly timeouts?: GraphdatabaseDbinstanceTimeouts;
 }
 export interface GraphdatabaseDbinstanceDbInstanceIpArray {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/graphdatabase_dbinstance#db_instance_ip_array_attribute GraphdatabaseDbinstance#db_instance_ip_array_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/graphdatabase_dbinstance#db_instance_ip_array_attribute GraphdatabaseDbinstance#db_instance_ip_array_attribute}
   */
   readonly dbInstanceIpArrayAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/graphdatabase_dbinstance#db_instance_ip_array_name GraphdatabaseDbinstance#db_instance_ip_array_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/graphdatabase_dbinstance#db_instance_ip_array_name GraphdatabaseDbinstance#db_instance_ip_array_name}
   */
   readonly dbInstanceIpArrayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/graphdatabase_dbinstance#security_ips GraphdatabaseDbinstance#security_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/graphdatabase_dbinstance#security_ips GraphdatabaseDbinstance#security_ips}
   */
   readonly securityIps?: string;
 }
@@ -255,15 +255,15 @@ export class GraphdatabaseDbinstanceDbInstanceIpArrayList extends cdktf.ComplexL
 }
 export interface GraphdatabaseDbinstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/graphdatabase_dbinstance#create GraphdatabaseDbinstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/graphdatabase_dbinstance#create GraphdatabaseDbinstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/graphdatabase_dbinstance#delete GraphdatabaseDbinstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/graphdatabase_dbinstance#delete GraphdatabaseDbinstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/graphdatabase_dbinstance#update GraphdatabaseDbinstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/graphdatabase_dbinstance#update GraphdatabaseDbinstance#update}
   */
   readonly update?: string;
 }
@@ -415,7 +415,7 @@ export class GraphdatabaseDbinstanceTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/graphdatabase_dbinstance alibabacloudstack_graphdatabase_dbinstance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/graphdatabase_dbinstance alibabacloudstack_graphdatabase_dbinstance}
 */
 export class GraphdatabaseDbinstance extends cdktf.TerraformResource {
 
@@ -431,7 +431,7 @@ export class GraphdatabaseDbinstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GraphdatabaseDbinstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GraphdatabaseDbinstance to import
-  * @param importFromId The id of the existing GraphdatabaseDbinstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/graphdatabase_dbinstance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GraphdatabaseDbinstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/graphdatabase_dbinstance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GraphdatabaseDbinstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -443,7 +443,7 @@ export class GraphdatabaseDbinstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/graphdatabase_dbinstance alibabacloudstack_graphdatabase_dbinstance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/graphdatabase_dbinstance alibabacloudstack_graphdatabase_dbinstance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -454,8 +454,8 @@ export class GraphdatabaseDbinstance extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_graphdatabase_dbinstance',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

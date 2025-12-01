@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCephRookIoCephBucketTopicV1ManifestConfig extends cdktf.
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#metadata DataK8SCephRookIoCephBucketTopicV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#metadata DataK8SCephRookIoCephBucketTopicV1Manifest#metadata}
   */
   readonly metadata: DataK8SCephRookIoCephBucketTopicV1ManifestMetadata;
   /**
   * BucketTopicSpec represent the spec of a Bucket Topic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#spec DataK8SCephRookIoCephBucketTopicV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#spec DataK8SCephRookIoCephBucketTopicV1Manifest#spec}
   */
   readonly spec: DataK8SCephRookIoCephBucketTopicV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SCephRookIoCephBucketTopicV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#annotations DataK8SCephRookIoCephBucketTopicV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#annotations DataK8SCephRookIoCephBucketTopicV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#labels DataK8SCephRookIoCephBucketTopicV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#labels DataK8SCephRookIoCephBucketTopicV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#name DataK8SCephRookIoCephBucketTopicV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#name DataK8SCephRookIoCephBucketTopicV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#namespace DataK8SCephRookIoCephBucketTopicV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#namespace DataK8SCephRookIoCephBucketTopicV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,25 +219,25 @@ export interface DataK8SCephRookIoCephBucketTopicV1ManifestSpecEndpointAmqp {
   /**
   * The ack level required for this topic (none/broker/routeable)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#ack_level DataK8SCephRookIoCephBucketTopicV1Manifest#ack_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#ack_level DataK8SCephRookIoCephBucketTopicV1Manifest#ack_level}
   */
   readonly ackLevel?: string;
   /**
   * Indicate whether the server certificate is validated by the client or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#disable_verify_ssl DataK8SCephRookIoCephBucketTopicV1Manifest#disable_verify_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#disable_verify_ssl DataK8SCephRookIoCephBucketTopicV1Manifest#disable_verify_ssl}
   */
   readonly disableVerifySsl?: boolean | cdktf.IResolvable;
   /**
   * Name of the exchange that is used to route messages based on topics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#exchange DataK8SCephRookIoCephBucketTopicV1Manifest#exchange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#exchange DataK8SCephRookIoCephBucketTopicV1Manifest#exchange}
   */
   readonly exchange: string;
   /**
   * The URI of the AMQP endpoint to push notification to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#uri DataK8SCephRookIoCephBucketTopicV1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#uri DataK8SCephRookIoCephBucketTopicV1Manifest#uri}
   */
   readonly uri: string;
 }
@@ -414,19 +414,19 @@ export interface DataK8SCephRookIoCephBucketTopicV1ManifestSpecEndpointHttp {
   /**
   * Indicate whether the server certificate is validated by the client or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#disable_verify_ssl DataK8SCephRookIoCephBucketTopicV1Manifest#disable_verify_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#disable_verify_ssl DataK8SCephRookIoCephBucketTopicV1Manifest#disable_verify_ssl}
   */
   readonly disableVerifySsl?: boolean | cdktf.IResolvable;
   /**
   * Send the notifications with the CloudEvents header: https://github.com/cloudevents/spec/blob/main/cloudevents/adapters/aws-s3.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#send_cloud_events DataK8SCephRookIoCephBucketTopicV1Manifest#send_cloud_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#send_cloud_events DataK8SCephRookIoCephBucketTopicV1Manifest#send_cloud_events}
   */
   readonly sendCloudEvents?: boolean | cdktf.IResolvable;
   /**
   * The URI of the HTTP endpoint to push notification to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#uri DataK8SCephRookIoCephBucketTopicV1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#uri DataK8SCephRookIoCephBucketTopicV1Manifest#uri}
   */
   readonly uri: string;
 }
@@ -577,25 +577,25 @@ export interface DataK8SCephRookIoCephBucketTopicV1ManifestSpecEndpointKafka {
   /**
   * The ack level required for this topic (none/broker)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#ack_level DataK8SCephRookIoCephBucketTopicV1Manifest#ack_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#ack_level DataK8SCephRookIoCephBucketTopicV1Manifest#ack_level}
   */
   readonly ackLevel?: string;
   /**
   * Indicate whether the server certificate is validated by the client or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#disable_verify_ssl DataK8SCephRookIoCephBucketTopicV1Manifest#disable_verify_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#disable_verify_ssl DataK8SCephRookIoCephBucketTopicV1Manifest#disable_verify_ssl}
   */
   readonly disableVerifySsl?: boolean | cdktf.IResolvable;
   /**
   * The URI of the Kafka endpoint to push notification to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#uri DataK8SCephRookIoCephBucketTopicV1Manifest#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#uri DataK8SCephRookIoCephBucketTopicV1Manifest#uri}
   */
   readonly uri: string;
   /**
   * Indicate whether to use SSL when communicating with the broker
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#use_ssl DataK8SCephRookIoCephBucketTopicV1Manifest#use_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#use_ssl DataK8SCephRookIoCephBucketTopicV1Manifest#use_ssl}
   */
   readonly useSsl?: boolean | cdktf.IResolvable;
 }
@@ -775,19 +775,19 @@ export interface DataK8SCephRookIoCephBucketTopicV1ManifestSpecEndpoint {
   /**
   * Spec of AMQP endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#amqp DataK8SCephRookIoCephBucketTopicV1Manifest#amqp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#amqp DataK8SCephRookIoCephBucketTopicV1Manifest#amqp}
   */
   readonly amqp?: DataK8SCephRookIoCephBucketTopicV1ManifestSpecEndpointAmqp;
   /**
   * Spec of HTTP endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#http DataK8SCephRookIoCephBucketTopicV1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#http DataK8SCephRookIoCephBucketTopicV1Manifest#http}
   */
   readonly http?: DataK8SCephRookIoCephBucketTopicV1ManifestSpecEndpointHttp;
   /**
   * Spec of Kafka endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#kafka DataK8SCephRookIoCephBucketTopicV1Manifest#kafka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#kafka DataK8SCephRookIoCephBucketTopicV1Manifest#kafka}
   */
   readonly kafka?: DataK8SCephRookIoCephBucketTopicV1ManifestSpecEndpointKafka;
 }
@@ -941,31 +941,31 @@ export interface DataK8SCephRookIoCephBucketTopicV1ManifestSpec {
   /**
   * Contains the endpoint spec of the topic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#endpoint DataK8SCephRookIoCephBucketTopicV1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#endpoint DataK8SCephRookIoCephBucketTopicV1Manifest#endpoint}
   */
   readonly endpoint: DataK8SCephRookIoCephBucketTopicV1ManifestSpecEndpoint;
   /**
   * The name of the object store on which to define the topic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#object_store_name DataK8SCephRookIoCephBucketTopicV1Manifest#object_store_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#object_store_name DataK8SCephRookIoCephBucketTopicV1Manifest#object_store_name}
   */
   readonly objectStoreName: string;
   /**
   * The namespace of the object store on which to define the topic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#object_store_namespace DataK8SCephRookIoCephBucketTopicV1Manifest#object_store_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#object_store_namespace DataK8SCephRookIoCephBucketTopicV1Manifest#object_store_namespace}
   */
   readonly objectStoreNamespace: string;
   /**
   * Data which is sent in each event
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#opaque_data DataK8SCephRookIoCephBucketTopicV1Manifest#opaque_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#opaque_data DataK8SCephRookIoCephBucketTopicV1Manifest#opaque_data}
   */
   readonly opaqueData?: string;
   /**
   * Indication whether notifications to this endpoint are persistent or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#persistent DataK8SCephRookIoCephBucketTopicV1Manifest#persistent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#persistent DataK8SCephRookIoCephBucketTopicV1Manifest#persistent}
   */
   readonly persistent?: boolean | cdktf.IResolvable;
 }
@@ -1166,7 +1166,7 @@ export class DataK8SCephRookIoCephBucketTopicV1ManifestSpecOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest k8s_ceph_rook_io_ceph_bucket_topic_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest k8s_ceph_rook_io_ceph_bucket_topic_v1_manifest}
 */
 export class DataK8SCephRookIoCephBucketTopicV1Manifest extends cdktf.TerraformDataSource {
 
@@ -1182,7 +1182,7 @@ export class DataK8SCephRookIoCephBucketTopicV1Manifest extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataK8SCephRookIoCephBucketTopicV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCephRookIoCephBucketTopicV1Manifest to import
-  * @param importFromId The id of the existing DataK8SCephRookIoCephBucketTopicV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCephRookIoCephBucketTopicV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCephRookIoCephBucketTopicV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1194,7 +1194,7 @@ export class DataK8SCephRookIoCephBucketTopicV1Manifest extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest k8s_ceph_rook_io_ceph_bucket_topic_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_bucket_topic_v1_manifest k8s_ceph_rook_io_ceph_bucket_topic_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1205,8 +1205,8 @@ export class DataK8SCephRookIoCephBucketTopicV1Manifest extends cdktf.TerraformD
       terraformResourceType: 'k8s_ceph_rook_io_ceph_bucket_topic_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

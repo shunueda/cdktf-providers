@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface Fcv3CustomDomainConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#custom_domain_name Fcv3CustomDomain#custom_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#custom_domain_name Fcv3CustomDomain#custom_domain_name}
   */
   readonly customDomainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#id Fcv3CustomDomain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#id Fcv3CustomDomain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#protocol Fcv3CustomDomain#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#protocol Fcv3CustomDomain#protocol}
   */
   readonly protocol?: string;
   /**
   * auth_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#auth_config Fcv3CustomDomain#auth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#auth_config Fcv3CustomDomain#auth_config}
   */
   readonly authConfig?: Fcv3CustomDomainAuthConfig;
   /**
   * cert_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#cert_config Fcv3CustomDomain#cert_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#cert_config Fcv3CustomDomain#cert_config}
   */
   readonly certConfig?: Fcv3CustomDomainCertConfig;
   /**
   * route_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#route_config Fcv3CustomDomain#route_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#route_config Fcv3CustomDomain#route_config}
   */
   readonly routeConfig?: Fcv3CustomDomainRouteConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#timeouts Fcv3CustomDomain#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#timeouts Fcv3CustomDomain#timeouts}
   */
   readonly timeouts?: Fcv3CustomDomainTimeouts;
   /**
   * tls_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#tls_config Fcv3CustomDomain#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#tls_config Fcv3CustomDomain#tls_config}
   */
   readonly tlsConfig?: Fcv3CustomDomainTlsConfig;
   /**
   * waf_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#waf_config Fcv3CustomDomain#waf_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#waf_config Fcv3CustomDomain#waf_config}
   */
   readonly wafConfig?: Fcv3CustomDomainWafConfig;
 }
 export interface Fcv3CustomDomainAuthConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#auth_info Fcv3CustomDomain#auth_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#auth_info Fcv3CustomDomain#auth_info}
   */
   readonly authInfo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#auth_type Fcv3CustomDomain#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#auth_type Fcv3CustomDomain#auth_type}
   */
   readonly authType?: string;
 }
@@ -178,15 +178,15 @@ export class Fcv3CustomDomainAuthConfigOutputReference extends cdktf.ComplexObje
 }
 export interface Fcv3CustomDomainCertConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#cert_name Fcv3CustomDomain#cert_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#cert_name Fcv3CustomDomain#cert_name}
   */
   readonly certName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#certificate Fcv3CustomDomain#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#certificate Fcv3CustomDomain#certificate}
   */
   readonly certificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#private_key Fcv3CustomDomain#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#private_key Fcv3CustomDomain#private_key}
   */
   readonly privateKey?: string;
 }
@@ -328,11 +328,11 @@ export class Fcv3CustomDomainCertConfigOutputReference extends cdktf.ComplexObje
 }
 export interface Fcv3CustomDomainRouteConfigRoutesRewriteConfigEqualRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#match Fcv3CustomDomain#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#match Fcv3CustomDomain#match}
   */
   readonly match?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#replacement Fcv3CustomDomain#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#replacement Fcv3CustomDomain#replacement}
   */
   readonly replacement?: string;
 }
@@ -477,11 +477,11 @@ export class Fcv3CustomDomainRouteConfigRoutesRewriteConfigEqualRulesList extend
 }
 export interface Fcv3CustomDomainRouteConfigRoutesRewriteConfigRegexRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#match Fcv3CustomDomain#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#match Fcv3CustomDomain#match}
   */
   readonly match?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#replacement Fcv3CustomDomain#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#replacement Fcv3CustomDomain#replacement}
   */
   readonly replacement?: string;
 }
@@ -626,11 +626,11 @@ export class Fcv3CustomDomainRouteConfigRoutesRewriteConfigRegexRulesList extend
 }
 export interface Fcv3CustomDomainRouteConfigRoutesRewriteConfigWildcardRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#match Fcv3CustomDomain#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#match Fcv3CustomDomain#match}
   */
   readonly match?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#replacement Fcv3CustomDomain#replacement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#replacement Fcv3CustomDomain#replacement}
   */
   readonly replacement?: string;
 }
@@ -777,19 +777,19 @@ export interface Fcv3CustomDomainRouteConfigRoutesRewriteConfig {
   /**
   * equal_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#equal_rules Fcv3CustomDomain#equal_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#equal_rules Fcv3CustomDomain#equal_rules}
   */
   readonly equalRules?: Fcv3CustomDomainRouteConfigRoutesRewriteConfigEqualRules[] | cdktf.IResolvable;
   /**
   * regex_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#regex_rules Fcv3CustomDomain#regex_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#regex_rules Fcv3CustomDomain#regex_rules}
   */
   readonly regexRules?: Fcv3CustomDomainRouteConfigRoutesRewriteConfigRegexRules[] | cdktf.IResolvable;
   /**
   * wildcard_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#wildcard_rules Fcv3CustomDomain#wildcard_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#wildcard_rules Fcv3CustomDomain#wildcard_rules}
   */
   readonly wildcardRules?: Fcv3CustomDomainRouteConfigRoutesRewriteConfigWildcardRules[] | cdktf.IResolvable;
 }
@@ -931,25 +931,25 @@ export class Fcv3CustomDomainRouteConfigRoutesRewriteConfigOutputReference exten
 }
 export interface Fcv3CustomDomainRouteConfigRoutes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#function_name Fcv3CustomDomain#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#function_name Fcv3CustomDomain#function_name}
   */
   readonly functionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#methods Fcv3CustomDomain#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#methods Fcv3CustomDomain#methods}
   */
   readonly methods?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#path Fcv3CustomDomain#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#path Fcv3CustomDomain#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#qualifier Fcv3CustomDomain#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#qualifier Fcv3CustomDomain#qualifier}
   */
   readonly qualifier?: string;
   /**
   * rewrite_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#rewrite_config Fcv3CustomDomain#rewrite_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#rewrite_config Fcv3CustomDomain#rewrite_config}
   */
   readonly rewriteConfig?: Fcv3CustomDomainRouteConfigRoutesRewriteConfig;
 }
@@ -1183,7 +1183,7 @@ export interface Fcv3CustomDomainRouteConfig {
   /**
   * routes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#routes Fcv3CustomDomain#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#routes Fcv3CustomDomain#routes}
   */
   readonly routes?: Fcv3CustomDomainRouteConfigRoutes[] | cdktf.IResolvable;
 }
@@ -1267,15 +1267,15 @@ export class Fcv3CustomDomainRouteConfigOutputReference extends cdktf.ComplexObj
 }
 export interface Fcv3CustomDomainTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#create Fcv3CustomDomain#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#create Fcv3CustomDomain#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#delete Fcv3CustomDomain#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#delete Fcv3CustomDomain#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#update Fcv3CustomDomain#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#update Fcv3CustomDomain#update}
   */
   readonly update?: string;
 }
@@ -1427,15 +1427,15 @@ export class Fcv3CustomDomainTimeoutsOutputReference extends cdktf.ComplexObject
 }
 export interface Fcv3CustomDomainTlsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#cipher_suites Fcv3CustomDomain#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#cipher_suites Fcv3CustomDomain#cipher_suites}
   */
   readonly cipherSuites?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#max_version Fcv3CustomDomain#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#max_version Fcv3CustomDomain#max_version}
   */
   readonly maxVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#min_version Fcv3CustomDomain#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#min_version Fcv3CustomDomain#min_version}
   */
   readonly minVersion?: string;
 }
@@ -1577,7 +1577,7 @@ export class Fcv3CustomDomainTlsConfigOutputReference extends cdktf.ComplexObjec
 }
 export interface Fcv3CustomDomainWafConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#enable_waf Fcv3CustomDomain#enable_waf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#enable_waf Fcv3CustomDomain#enable_waf}
   */
   readonly enableWaf?: boolean | cdktf.IResolvable;
 }
@@ -1661,7 +1661,7 @@ export class Fcv3CustomDomainWafConfigOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain alicloud_fcv3_custom_domain}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain alicloud_fcv3_custom_domain}
 */
 export class Fcv3CustomDomain extends cdktf.TerraformResource {
 
@@ -1677,7 +1677,7 @@ export class Fcv3CustomDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Fcv3CustomDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Fcv3CustomDomain to import
-  * @param importFromId The id of the existing Fcv3CustomDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Fcv3CustomDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Fcv3CustomDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1689,7 +1689,7 @@ export class Fcv3CustomDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_custom_domain alicloud_fcv3_custom_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_custom_domain alicloud_fcv3_custom_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1700,8 +1700,8 @@ export class Fcv3CustomDomain extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_fcv3_custom_domain',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

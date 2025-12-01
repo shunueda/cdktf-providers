@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,397 +10,397 @@ export interface EntitlementTypeResourceConfig extends cdktf.TerraformMetaArgume
   /**
   * Allow user to remove all entitlements in one request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#allow_remove_all_entitlement_in_request EntitlementTypeResource#allow_remove_all_entitlement_in_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#allow_remove_all_entitlement_in_request EntitlementTypeResource#allow_remove_all_entitlement_in_request}
   */
   readonly allowRemoveAllEntitlementInRequest?: string;
   /**
   * Query used to determine requestable entitlements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#ars_requestable_entitlement_query EntitlementTypeResource#ars_requestable_entitlement_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#ars_requestable_entitlement_query EntitlementTypeResource#ars_requestable_entitlement_query}
   */
   readonly arsRequestableEntitlementQuery?: string;
   /**
   * Query used to determine selected entitlements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#ars_selected_entitlement_query EntitlementTypeResource#ars_selected_entitlement_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#ars_selected_entitlement_query EntitlementTypeResource#ars_selected_entitlement_query}
   */
   readonly arsSelectedEntitlementQuery?: string;
   /**
   * Query to fetch available service accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#available_query_service_account EntitlementTypeResource#available_query_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#available_query_service_account EntitlementTypeResource#available_query_service_account}
   */
   readonly availableQueryServiceAccount?: string;
   /**
   * Indicates if the entitlement is certifiable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#certifiable EntitlementTypeResource#certifiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#certifiable EntitlementTypeResource#certifiable}
   */
   readonly certifiable?: boolean | cdktf.IResolvable;
   /**
   * Action(s) to be performed when a task is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#create_task_action EntitlementTypeResource#create_task_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#create_task_action EntitlementTypeResource#create_task_action}
   */
   readonly createTaskAction?: string[];
   /**
   * Custom property 1 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property1 EntitlementTypeResource#custom_property1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property1 EntitlementTypeResource#custom_property1}
   */
   readonly customProperty1?: string;
   /**
   * Custom property 10 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property10 EntitlementTypeResource#custom_property10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property10 EntitlementTypeResource#custom_property10}
   */
   readonly customProperty10?: string;
   /**
   * Custom property 11 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property11 EntitlementTypeResource#custom_property11}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property11 EntitlementTypeResource#custom_property11}
   */
   readonly customProperty11?: string;
   /**
   * Custom property 12 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property12 EntitlementTypeResource#custom_property12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property12 EntitlementTypeResource#custom_property12}
   */
   readonly customProperty12?: string;
   /**
   * Custom property 13 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property13 EntitlementTypeResource#custom_property13}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property13 EntitlementTypeResource#custom_property13}
   */
   readonly customProperty13?: string;
   /**
   * Custom property 14 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property14 EntitlementTypeResource#custom_property14}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property14 EntitlementTypeResource#custom_property14}
   */
   readonly customProperty14?: string;
   /**
   * Custom property 15 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property15 EntitlementTypeResource#custom_property15}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property15 EntitlementTypeResource#custom_property15}
   */
   readonly customProperty15?: string;
   /**
   * Custom property 16 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property16 EntitlementTypeResource#custom_property16}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property16 EntitlementTypeResource#custom_property16}
   */
   readonly customProperty16?: string;
   /**
   * Custom property 17 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property17 EntitlementTypeResource#custom_property17}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property17 EntitlementTypeResource#custom_property17}
   */
   readonly customProperty17?: string;
   /**
   * Custom property 18 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property18 EntitlementTypeResource#custom_property18}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property18 EntitlementTypeResource#custom_property18}
   */
   readonly customProperty18?: string;
   /**
   * Custom property 19 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property19 EntitlementTypeResource#custom_property19}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property19 EntitlementTypeResource#custom_property19}
   */
   readonly customProperty19?: string;
   /**
   * Custom property 2 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property2 EntitlementTypeResource#custom_property2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property2 EntitlementTypeResource#custom_property2}
   */
   readonly customProperty2?: string;
   /**
   * Custom property 20 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property20 EntitlementTypeResource#custom_property20}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property20 EntitlementTypeResource#custom_property20}
   */
   readonly customProperty20?: string;
   /**
   * Custom property 21 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property21 EntitlementTypeResource#custom_property21}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property21 EntitlementTypeResource#custom_property21}
   */
   readonly customProperty21?: string;
   /**
   * Custom property 22 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property22 EntitlementTypeResource#custom_property22}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property22 EntitlementTypeResource#custom_property22}
   */
   readonly customProperty22?: string;
   /**
   * Custom property 23 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property23 EntitlementTypeResource#custom_property23}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property23 EntitlementTypeResource#custom_property23}
   */
   readonly customProperty23?: string;
   /**
   * Custom property 24 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property24 EntitlementTypeResource#custom_property24}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property24 EntitlementTypeResource#custom_property24}
   */
   readonly customProperty24?: string;
   /**
   * Custom property 25 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property25 EntitlementTypeResource#custom_property25}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property25 EntitlementTypeResource#custom_property25}
   */
   readonly customProperty25?: string;
   /**
   * Custom property 26 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property26 EntitlementTypeResource#custom_property26}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property26 EntitlementTypeResource#custom_property26}
   */
   readonly customProperty26?: string;
   /**
   * Custom property 27 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property27 EntitlementTypeResource#custom_property27}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property27 EntitlementTypeResource#custom_property27}
   */
   readonly customProperty27?: string;
   /**
   * Custom property 28 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property28 EntitlementTypeResource#custom_property28}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property28 EntitlementTypeResource#custom_property28}
   */
   readonly customProperty28?: string;
   /**
   * Custom property 29 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property29 EntitlementTypeResource#custom_property29}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property29 EntitlementTypeResource#custom_property29}
   */
   readonly customProperty29?: string;
   /**
   * Custom property 3 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property3 EntitlementTypeResource#custom_property3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property3 EntitlementTypeResource#custom_property3}
   */
   readonly customProperty3?: string;
   /**
   * Custom property 30 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property30 EntitlementTypeResource#custom_property30}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property30 EntitlementTypeResource#custom_property30}
   */
   readonly customProperty30?: string;
   /**
   * Custom property 31 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property31 EntitlementTypeResource#custom_property31}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property31 EntitlementTypeResource#custom_property31}
   */
   readonly customProperty31?: string;
   /**
   * Custom property 32 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property32 EntitlementTypeResource#custom_property32}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property32 EntitlementTypeResource#custom_property32}
   */
   readonly customProperty32?: string;
   /**
   * Custom property 33 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property33 EntitlementTypeResource#custom_property33}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property33 EntitlementTypeResource#custom_property33}
   */
   readonly customProperty33?: string;
   /**
   * Custom property 34 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property34 EntitlementTypeResource#custom_property34}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property34 EntitlementTypeResource#custom_property34}
   */
   readonly customProperty34?: string;
   /**
   * Custom property 35 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property35 EntitlementTypeResource#custom_property35}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property35 EntitlementTypeResource#custom_property35}
   */
   readonly customProperty35?: string;
   /**
   * Custom property 36 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property36 EntitlementTypeResource#custom_property36}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property36 EntitlementTypeResource#custom_property36}
   */
   readonly customProperty36?: string;
   /**
   * Custom property 37 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property37 EntitlementTypeResource#custom_property37}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property37 EntitlementTypeResource#custom_property37}
   */
   readonly customProperty37?: string;
   /**
   * Custom property 38 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property38 EntitlementTypeResource#custom_property38}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property38 EntitlementTypeResource#custom_property38}
   */
   readonly customProperty38?: string;
   /**
   * Custom property 39 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property39 EntitlementTypeResource#custom_property39}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property39 EntitlementTypeResource#custom_property39}
   */
   readonly customProperty39?: string;
   /**
   * Custom property 4 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property4 EntitlementTypeResource#custom_property4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property4 EntitlementTypeResource#custom_property4}
   */
   readonly customProperty4?: string;
   /**
   * Custom property 40 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property40 EntitlementTypeResource#custom_property40}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property40 EntitlementTypeResource#custom_property40}
   */
   readonly customProperty40?: string;
   /**
   * Custom property 5 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property5 EntitlementTypeResource#custom_property5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property5 EntitlementTypeResource#custom_property5}
   */
   readonly customProperty5?: string;
   /**
   * Custom property 6 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property6 EntitlementTypeResource#custom_property6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property6 EntitlementTypeResource#custom_property6}
   */
   readonly customProperty6?: string;
   /**
   * Custom property 7 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property7 EntitlementTypeResource#custom_property7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property7 EntitlementTypeResource#custom_property7}
   */
   readonly customProperty7?: string;
   /**
   * Custom property 8 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property8 EntitlementTypeResource#custom_property8}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property8 EntitlementTypeResource#custom_property8}
   */
   readonly customProperty8?: string;
   /**
   * Custom property 9 associated with the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#custom_property9 EntitlementTypeResource#custom_property9}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#custom_property9 EntitlementTypeResource#custom_property9}
   */
   readonly customProperty9?: string;
   /**
   * Display name for the entitlement type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#display_name EntitlementTypeResource#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#display_name EntitlementTypeResource#display_name}
   */
   readonly displayName?: string;
   /**
   * Enable entitlement to role sync. Can only be set to true when workflow is also specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#enable_entitlement_to_role_sync EntitlementTypeResource#enable_entitlement_to_role_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#enable_entitlement_to_role_sync EntitlementTypeResource#enable_entitlement_to_role_sync}
   */
   readonly enableEntitlementToRoleSync?: boolean | cdktf.IResolvable;
   /**
   * Enable provisioning priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#enable_provisioning_priority EntitlementTypeResource#enable_provisioning_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#enable_provisioning_priority EntitlementTypeResource#enable_provisioning_priority}
   */
   readonly enableProvisioningPriority?: boolean | cdktf.IResolvable;
   /**
   * Name of the endpoint with which the entitlement type is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#endpoint_name EntitlementTypeResource#endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#endpoint_name EntitlementTypeResource#endpoint_name}
   */
   readonly endpointName: string;
   /**
   * Description for the entitlement type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#entitlement_description EntitlementTypeResource#entitlement_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#entitlement_description EntitlementTypeResource#entitlement_description}
   */
   readonly entitlementDescription?: string;
   /**
   * Name of the entitlement type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#entitlement_name EntitlementTypeResource#entitlement_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#entitlement_name EntitlementTypeResource#entitlement_name}
   */
   readonly entitlementName: string;
   /**
   * Exclude Entitlements Assigned via Rule while Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#exclude_rule_assgn_ents_in_req EntitlementTypeResource#exclude_rule_assgn_ents_in_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#exclude_rule_assgn_ents_in_req EntitlementTypeResource#exclude_rule_assgn_ents_in_req}
   */
   readonly excludeRuleAssgnEntsInReq?: boolean | cdktf.IResolvable;
   /**
   * Flag indicating if a hierarchy is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#hierarchy_required EntitlementTypeResource#hierarchy_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#hierarchy_required EntitlementTypeResource#hierarchy_required}
   */
   readonly hierarchyRequired?: string;
   /**
   * Index to determine the order of processing or display.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#order_index EntitlementTypeResource#order_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#order_index EntitlementTypeResource#order_index}
   */
   readonly orderIndex?: number;
   /**
   * Recon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#recon EntitlementTypeResource#recon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#recon EntitlementTypeResource#recon}
   */
   readonly recon?: boolean | cdktf.IResolvable;
   /**
   * Configuration in JSON for handling request dates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#request_dates_conf_json EntitlementTypeResource#request_dates_conf_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#request_dates_conf_json EntitlementTypeResource#request_dates_conf_json}
   */
   readonly requestDatesConfJson?: string;
   /**
   * Defines how the entitlement should be presented or requested.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#request_option EntitlementTypeResource#request_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#request_option EntitlementTypeResource#request_option}
   */
   readonly requestOption?: string;
   /**
   * Flag indicating if this field is required in the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#required_in_request EntitlementTypeResource#required_in_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#required_in_request EntitlementTypeResource#required_in_request}
   */
   readonly requiredInRequest?: boolean | cdktf.IResolvable;
   /**
   * Flag indicating if this field is required in service request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#required_in_service_request EntitlementTypeResource#required_in_service_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#required_in_service_request EntitlementTypeResource#required_in_service_request}
   */
   readonly requiredInServiceRequest?: boolean | cdktf.IResolvable;
   /**
   * Query to fetch selected service accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#selected_query_service_account EntitlementTypeResource#selected_query_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#selected_query_service_account EntitlementTypeResource#selected_query_service_account}
   */
   readonly selectedQueryServiceAccount?: string;
   /**
   * Show entitlement type on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#show_ent_type_on EntitlementTypeResource#show_ent_type_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#show_ent_type_on EntitlementTypeResource#show_ent_type_on}
   */
   readonly showEntTypeOn?: string;
   /**
   * Include start date in revoke requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#start_date_in_revoke_request EntitlementTypeResource#start_date_in_revoke_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#start_date_in_revoke_request EntitlementTypeResource#start_date_in_revoke_request}
   */
   readonly startDateInRevokeRequest?: string;
   /**
   * Include both start and end dates in the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#start_end_date_in_request EntitlementTypeResource#start_end_date_in_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#start_end_date_in_request EntitlementTypeResource#start_end_date_in_request}
   */
   readonly startEndDateInRequest?: string;
   /**
   * Workflow associated with the entitlement type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#workflow EntitlementTypeResource#workflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#workflow EntitlementTypeResource#workflow}
   */
   readonly workflow?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource saviynt_entitlement_type_resource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource saviynt_entitlement_type_resource}
 */
 export class EntitlementTypeResource extends cdktf.TerraformResource {
 
@@ -416,7 +416,7 @@ export class EntitlementTypeResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EntitlementTypeResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EntitlementTypeResource to import
-  * @param importFromId The id of the existing EntitlementTypeResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EntitlementTypeResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EntitlementTypeResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -428,7 +428,7 @@ export class EntitlementTypeResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/entitlement_type_resource saviynt_entitlement_type_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/entitlement_type_resource saviynt_entitlement_type_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -439,8 +439,8 @@ export class EntitlementTypeResource extends cdktf.TerraformResource {
       terraformResourceType: 'saviynt_entitlement_type_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.3.1',
-        providerVersionConstraint: '0.3.1'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

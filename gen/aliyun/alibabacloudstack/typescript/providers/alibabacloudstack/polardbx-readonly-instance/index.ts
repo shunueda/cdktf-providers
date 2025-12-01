@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,144 +8,144 @@ import * as cdktf from 'cdktf';
 
 export interface PolardbxReadonlyInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#cn_node_class PolardbxReadonlyInstance#cn_node_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#cn_node_class PolardbxReadonlyInstance#cn_node_class}
   */
   readonly cnNodeClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#cn_node_count PolardbxReadonlyInstance#cn_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#cn_node_count PolardbxReadonlyInstance#cn_node_count}
   */
   readonly cnNodeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#cpu_type PolardbxReadonlyInstance#cpu_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#cpu_type PolardbxReadonlyInstance#cpu_type}
   */
   readonly cpuType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#description PolardbxReadonlyInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#description PolardbxReadonlyInstance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#dn_node_class PolardbxReadonlyInstance#dn_node_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#dn_node_class PolardbxReadonlyInstance#dn_node_class}
   */
   readonly dnNodeClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#dn_node_count PolardbxReadonlyInstance#dn_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#dn_node_count PolardbxReadonlyInstance#dn_node_count}
   */
   readonly dnNodeCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#enable_public_connection PolardbxReadonlyInstance#enable_public_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#enable_public_connection PolardbxReadonlyInstance#enable_public_connection}
   */
   readonly enablePublicConnection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#enable_ssl PolardbxReadonlyInstance#enable_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#enable_ssl PolardbxReadonlyInstance#enable_ssl}
   */
   readonly enableSsl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#enable_tde PolardbxReadonlyInstance#enable_tde}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#enable_tde PolardbxReadonlyInstance#enable_tde}
   */
   readonly enableTde?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#engine_version PolardbxReadonlyInstance#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#engine_version PolardbxReadonlyInstance#engine_version}
   */
   readonly engineVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#gms_node_class PolardbxReadonlyInstance#gms_node_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#gms_node_class PolardbxReadonlyInstance#gms_node_class}
   */
   readonly gmsNodeClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#id PolardbxReadonlyInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#id PolardbxReadonlyInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#polardbx_instance_id PolardbxReadonlyInstance#polardbx_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#polardbx_instance_id PolardbxReadonlyInstance#polardbx_instance_id}
   */
   readonly polardbxInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#primary_db_instance_id PolardbxReadonlyInstance#primary_db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#primary_db_instance_id PolardbxReadonlyInstance#primary_db_instance_id}
   */
   readonly primaryDbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#primary_zone PolardbxReadonlyInstance#primary_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#primary_zone PolardbxReadonlyInstance#primary_zone}
   */
   readonly primaryZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#private_connection_port PolardbxReadonlyInstance#private_connection_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#private_connection_port PolardbxReadonlyInstance#private_connection_port}
   */
   readonly privateConnectionPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#private_connection_string_prefix PolardbxReadonlyInstance#private_connection_string_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#private_connection_string_prefix PolardbxReadonlyInstance#private_connection_string_prefix}
   */
   readonly privateConnectionStringPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#public_connection_port PolardbxReadonlyInstance#public_connection_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#public_connection_port PolardbxReadonlyInstance#public_connection_port}
   */
   readonly publicConnectionPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#public_connection_string_prefix PolardbxReadonlyInstance#public_connection_string_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#public_connection_string_prefix PolardbxReadonlyInstance#public_connection_string_prefix}
   */
   readonly publicConnectionStringPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#resource_type PolardbxReadonlyInstance#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#resource_type PolardbxReadonlyInstance#resource_type}
   */
   readonly resourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#secondary_zone PolardbxReadonlyInstance#secondary_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#secondary_zone PolardbxReadonlyInstance#secondary_zone}
   */
   readonly secondaryZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#storage PolardbxReadonlyInstance#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#storage PolardbxReadonlyInstance#storage}
   */
   readonly storage: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#tertiary_zone PolardbxReadonlyInstance#tertiary_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#tertiary_zone PolardbxReadonlyInstance#tertiary_zone}
   */
   readonly tertiaryZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#topology_type PolardbxReadonlyInstance#topology_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#topology_type PolardbxReadonlyInstance#topology_type}
   */
   readonly topologyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#vswitch_id PolardbxReadonlyInstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#vswitch_id PolardbxReadonlyInstance#vswitch_id}
   */
   readonly vswitchId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#zone_id PolardbxReadonlyInstance#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#zone_id PolardbxReadonlyInstance#zone_id}
   */
   readonly zoneId?: string;
   /**
   * compute_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#compute_parameters PolardbxReadonlyInstance#compute_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#compute_parameters PolardbxReadonlyInstance#compute_parameters}
   */
   readonly computeParameters?: PolardbxReadonlyInstanceComputeParameters[] | cdktf.IResolvable;
   /**
   * security_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#security_groups PolardbxReadonlyInstance#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#security_groups PolardbxReadonlyInstance#security_groups}
   */
   readonly securityGroups?: PolardbxReadonlyInstanceSecurityGroups[] | cdktf.IResolvable;
   /**
   * storage_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#storage_parameters PolardbxReadonlyInstance#storage_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#storage_parameters PolardbxReadonlyInstance#storage_parameters}
   */
   readonly storageParameters?: PolardbxReadonlyInstanceStorageParameters[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#timeouts PolardbxReadonlyInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#timeouts PolardbxReadonlyInstance#timeouts}
   */
   readonly timeouts?: PolardbxReadonlyInstanceTimeouts;
 }
 export interface PolardbxReadonlyInstanceComputeParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#name PolardbxReadonlyInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#name PolardbxReadonlyInstance#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#value PolardbxReadonlyInstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#value PolardbxReadonlyInstance#value}
   */
   readonly value: string;
 }
@@ -284,11 +284,11 @@ export class PolardbxReadonlyInstanceComputeParametersList extends cdktf.Complex
 }
 export interface PolardbxReadonlyInstanceSecurityGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#group_name PolardbxReadonlyInstance#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#group_name PolardbxReadonlyInstance#group_name}
   */
   readonly groupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#ips PolardbxReadonlyInstance#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#ips PolardbxReadonlyInstance#ips}
   */
   readonly ips: string;
 }
@@ -427,11 +427,11 @@ export class PolardbxReadonlyInstanceSecurityGroupsList extends cdktf.ComplexLis
 }
 export interface PolardbxReadonlyInstanceStorageParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#name PolardbxReadonlyInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#name PolardbxReadonlyInstance#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#value PolardbxReadonlyInstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#value PolardbxReadonlyInstance#value}
   */
   readonly value: string;
 }
@@ -570,15 +570,15 @@ export class PolardbxReadonlyInstanceStorageParametersList extends cdktf.Complex
 }
 export interface PolardbxReadonlyInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#create PolardbxReadonlyInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#create PolardbxReadonlyInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#delete PolardbxReadonlyInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#delete PolardbxReadonlyInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#update PolardbxReadonlyInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#update PolardbxReadonlyInstance#update}
   */
   readonly update?: string;
 }
@@ -730,7 +730,7 @@ export class PolardbxReadonlyInstanceTimeoutsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance alibabacloudstack_polardbx_readonly_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance alibabacloudstack_polardbx_readonly_instance}
 */
 export class PolardbxReadonlyInstance extends cdktf.TerraformResource {
 
@@ -746,7 +746,7 @@ export class PolardbxReadonlyInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolardbxReadonlyInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolardbxReadonlyInstance to import
-  * @param importFromId The id of the existing PolardbxReadonlyInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolardbxReadonlyInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolardbxReadonlyInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -758,7 +758,7 @@ export class PolardbxReadonlyInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_readonly_instance alibabacloudstack_polardbx_readonly_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_readonly_instance alibabacloudstack_polardbx_readonly_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -769,7 +769,8 @@ export class PolardbxReadonlyInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_polardbx_readonly_instance',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

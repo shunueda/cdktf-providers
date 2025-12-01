@@ -1,3 +1,3 @@
 # `alicloud_kms_secret`
 
-Refer to the Terraform Registry for docs: [`alicloud_kms_secret`](https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/kms_secret).
+Refer to the Terraform Registry for docs: [`alicloud_kms_secret`](https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/kms_secret).

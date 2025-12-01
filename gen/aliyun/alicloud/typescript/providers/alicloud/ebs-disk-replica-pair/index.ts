@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_disk_replica_pair
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_disk_replica_pair
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,98 +8,98 @@ import * as cdktf from 'cdktf';
 
 export interface EbsDiskReplicaPairConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_disk_replica_pair#bandwidth EbsDiskReplicaPair#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_disk_replica_pair#bandwidth EbsDiskReplicaPair#bandwidth}
   */
   readonly bandwidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_disk_replica_pair#description EbsDiskReplicaPair#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_disk_replica_pair#description EbsDiskReplicaPair#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_disk_replica_pair#destination_disk_id EbsDiskReplicaPair#destination_disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_disk_replica_pair#destination_disk_id EbsDiskReplicaPair#destination_disk_id}
   */
   readonly destinationDiskId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_disk_replica_pair#destination_region_id EbsDiskReplicaPair#destination_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_disk_replica_pair#destination_region_id EbsDiskReplicaPair#destination_region_id}
   */
   readonly destinationRegionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_disk_replica_pair#destination_zone_id EbsDiskReplicaPair#destination_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_disk_replica_pair#destination_zone_id EbsDiskReplicaPair#destination_zone_id}
   */
   readonly destinationZoneId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_disk_replica_pair#disk_id EbsDiskReplicaPair#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_disk_replica_pair#disk_id EbsDiskReplicaPair#disk_id}
   */
   readonly diskId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_disk_replica_pair#disk_replica_pair_name EbsDiskReplicaPair#disk_replica_pair_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_disk_replica_pair#disk_replica_pair_name EbsDiskReplicaPair#disk_replica_pair_name}
   */
   readonly diskReplicaPairName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_disk_replica_pair#id EbsDiskReplicaPair#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_disk_replica_pair#id EbsDiskReplicaPair#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_disk_replica_pair#one_shot EbsDiskReplicaPair#one_shot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_disk_replica_pair#one_shot EbsDiskReplicaPair#one_shot}
   */
   readonly oneShot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_disk_replica_pair#pair_name EbsDiskReplicaPair#pair_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_disk_replica_pair#pair_name EbsDiskReplicaPair#pair_name}
   */
   readonly pairName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_disk_replica_pair#payment_type EbsDiskReplicaPair#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_disk_replica_pair#payment_type EbsDiskReplicaPair#payment_type}
   */
   readonly paymentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_disk_replica_pair#period EbsDiskReplicaPair#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_disk_replica_pair#period EbsDiskReplicaPair#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_disk_replica_pair#period_unit EbsDiskReplicaPair#period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_disk_replica_pair#period_unit EbsDiskReplicaPair#period_unit}
   */
   readonly periodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_disk_replica_pair#resource_group_id EbsDiskReplicaPair#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_disk_replica_pair#resource_group_id EbsDiskReplicaPair#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_disk_replica_pair#reverse_replicate EbsDiskReplicaPair#reverse_replicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_disk_replica_pair#reverse_replicate EbsDiskReplicaPair#reverse_replicate}
   */
   readonly reverseReplicate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_disk_replica_pair#rpo EbsDiskReplicaPair#rpo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_disk_replica_pair#rpo EbsDiskReplicaPair#rpo}
   */
   readonly rpo?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_disk_replica_pair#source_zone_id EbsDiskReplicaPair#source_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_disk_replica_pair#source_zone_id EbsDiskReplicaPair#source_zone_id}
   */
   readonly sourceZoneId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_disk_replica_pair#tags EbsDiskReplicaPair#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_disk_replica_pair#tags EbsDiskReplicaPair#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_disk_replica_pair#timeouts EbsDiskReplicaPair#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_disk_replica_pair#timeouts EbsDiskReplicaPair#timeouts}
   */
   readonly timeouts?: EbsDiskReplicaPairTimeouts;
 }
 export interface EbsDiskReplicaPairTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_disk_replica_pair#create EbsDiskReplicaPair#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_disk_replica_pair#create EbsDiskReplicaPair#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_disk_replica_pair#delete EbsDiskReplicaPair#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_disk_replica_pair#delete EbsDiskReplicaPair#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_disk_replica_pair#update EbsDiskReplicaPair#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_disk_replica_pair#update EbsDiskReplicaPair#update}
   */
   readonly update?: string;
 }
@@ -251,7 +251,7 @@ export class EbsDiskReplicaPairTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_disk_replica_pair alicloud_ebs_disk_replica_pair}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_disk_replica_pair alicloud_ebs_disk_replica_pair}
 */
 export class EbsDiskReplicaPair extends cdktf.TerraformResource {
 
@@ -267,7 +267,7 @@ export class EbsDiskReplicaPair extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EbsDiskReplicaPair resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EbsDiskReplicaPair to import
-  * @param importFromId The id of the existing EbsDiskReplicaPair that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_disk_replica_pair#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EbsDiskReplicaPair that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_disk_replica_pair#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EbsDiskReplicaPair to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -279,7 +279,7 @@ export class EbsDiskReplicaPair extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ebs_disk_replica_pair alicloud_ebs_disk_replica_pair} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ebs_disk_replica_pair alicloud_ebs_disk_replica_pair} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -290,8 +290,8 @@ export class EbsDiskReplicaPair extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ebs_disk_replica_pair',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

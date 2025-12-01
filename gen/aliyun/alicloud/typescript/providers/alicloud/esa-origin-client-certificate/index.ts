@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_origin_client_certificate
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_client_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface EsaOriginClientCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_origin_client_certificate#certificate EsaOriginClientCertificate#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_client_certificate#certificate EsaOriginClientCertificate#certificate}
   */
   readonly certificate: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_origin_client_certificate#hostnames EsaOriginClientCertificate#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_client_certificate#hostnames EsaOriginClientCertificate#hostnames}
   */
   readonly hostnames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_origin_client_certificate#id EsaOriginClientCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_client_certificate#id EsaOriginClientCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_origin_client_certificate#origin_client_certificate_name EsaOriginClientCertificate#origin_client_certificate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_client_certificate#origin_client_certificate_name EsaOriginClientCertificate#origin_client_certificate_name}
   */
   readonly originClientCertificateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_origin_client_certificate#private_key EsaOriginClientCertificate#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_client_certificate#private_key EsaOriginClientCertificate#private_key}
   */
   readonly privateKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_origin_client_certificate#site_id EsaOriginClientCertificate#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_client_certificate#site_id EsaOriginClientCertificate#site_id}
   */
   readonly siteId: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_origin_client_certificate#timeouts EsaOriginClientCertificate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_client_certificate#timeouts EsaOriginClientCertificate#timeouts}
   */
   readonly timeouts?: EsaOriginClientCertificateTimeouts;
 }
 export interface EsaOriginClientCertificateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_origin_client_certificate#create EsaOriginClientCertificate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_client_certificate#create EsaOriginClientCertificate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_origin_client_certificate#delete EsaOriginClientCertificate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_client_certificate#delete EsaOriginClientCertificate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_origin_client_certificate#update EsaOriginClientCertificate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_client_certificate#update EsaOriginClientCertificate#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class EsaOriginClientCertificateTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_origin_client_certificate alicloud_esa_origin_client_certificate}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_client_certificate alicloud_esa_origin_client_certificate}
 */
 export class EsaOriginClientCertificate extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class EsaOriginClientCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EsaOriginClientCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EsaOriginClientCertificate to import
-  * @param importFromId The id of the existing EsaOriginClientCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_origin_client_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EsaOriginClientCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_client_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EsaOriginClientCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class EsaOriginClientCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_origin_client_certificate alicloud_esa_origin_client_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_origin_client_certificate alicloud_esa_origin_client_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class EsaOriginClientCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_esa_origin_client_certificate',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

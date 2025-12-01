@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/autoscaling_lifecyclehooks
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/autoscaling_lifecyclehooks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackAutoscalingLifecyclehooksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/autoscaling_lifecyclehooks#id DataAlibabacloudstackAutoscalingLifecyclehooks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/autoscaling_lifecyclehooks#id DataAlibabacloudstackAutoscalingLifecyclehooks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/autoscaling_lifecyclehooks#ids DataAlibabacloudstackAutoscalingLifecyclehooks#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/autoscaling_lifecyclehooks#ids DataAlibabacloudstackAutoscalingLifecyclehooks#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/autoscaling_lifecyclehooks#name_regex DataAlibabacloudstackAutoscalingLifecyclehooks#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/autoscaling_lifecyclehooks#name_regex DataAlibabacloudstackAutoscalingLifecyclehooks#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/autoscaling_lifecyclehooks#output_file DataAlibabacloudstackAutoscalingLifecyclehooks#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/autoscaling_lifecyclehooks#output_file DataAlibabacloudstackAutoscalingLifecyclehooks#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/autoscaling_lifecyclehooks#scaling_group_id DataAlibabacloudstackAutoscalingLifecyclehooks#scaling_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/autoscaling_lifecyclehooks#scaling_group_id DataAlibabacloudstackAutoscalingLifecyclehooks#scaling_group_id}
   */
   readonly scalingGroupId?: string;
 }
@@ -143,7 +143,7 @@ export class DataAlibabacloudstackAutoscalingLifecyclehooksHooksList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/autoscaling_lifecyclehooks alibabacloudstack_autoscaling_lifecyclehooks}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/autoscaling_lifecyclehooks alibabacloudstack_autoscaling_lifecyclehooks}
 */
 export class DataAlibabacloudstackAutoscalingLifecyclehooks extends cdktf.TerraformDataSource {
 
@@ -159,7 +159,7 @@ export class DataAlibabacloudstackAutoscalingLifecyclehooks extends cdktf.Terraf
   * Generates CDKTF code for importing a DataAlibabacloudstackAutoscalingLifecyclehooks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackAutoscalingLifecyclehooks to import
-  * @param importFromId The id of the existing DataAlibabacloudstackAutoscalingLifecyclehooks that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/autoscaling_lifecyclehooks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackAutoscalingLifecyclehooks that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/autoscaling_lifecyclehooks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackAutoscalingLifecyclehooks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -171,7 +171,7 @@ export class DataAlibabacloudstackAutoscalingLifecyclehooks extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/autoscaling_lifecyclehooks alibabacloudstack_autoscaling_lifecyclehooks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/autoscaling_lifecyclehooks alibabacloudstack_autoscaling_lifecyclehooks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -182,8 +182,8 @@ export class DataAlibabacloudstackAutoscalingLifecyclehooks extends cdktf.Terraf
       terraformResourceType: 'alibabacloudstack_autoscaling_lifecyclehooks',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

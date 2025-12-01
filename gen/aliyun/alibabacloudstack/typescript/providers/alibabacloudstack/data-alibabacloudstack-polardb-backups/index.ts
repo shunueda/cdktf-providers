@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/polardb_backups
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/polardb_backups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackPolardbBackupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/polardb_backups#db_instance_id DataAlibabacloudstackPolardbBackups#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/polardb_backups#db_instance_id DataAlibabacloudstackPolardbBackups#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/polardb_backups#end_time DataAlibabacloudstackPolardbBackups#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/polardb_backups#end_time DataAlibabacloudstackPolardbBackups#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/polardb_backups#id DataAlibabacloudstackPolardbBackups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/polardb_backups#id DataAlibabacloudstackPolardbBackups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/polardb_backups#ids DataAlibabacloudstackPolardbBackups#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/polardb_backups#ids DataAlibabacloudstackPolardbBackups#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/polardb_backups#start_time DataAlibabacloudstackPolardbBackups#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/polardb_backups#start_time DataAlibabacloudstackPolardbBackups#start_time}
   */
   readonly startTime?: string;
 }
@@ -193,7 +193,7 @@ export class DataAlibabacloudstackPolardbBackupsBackupsList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/polardb_backups alibabacloudstack_polardb_backups}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/polardb_backups alibabacloudstack_polardb_backups}
 */
 export class DataAlibabacloudstackPolardbBackups extends cdktf.TerraformDataSource {
 
@@ -209,7 +209,7 @@ export class DataAlibabacloudstackPolardbBackups extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataAlibabacloudstackPolardbBackups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackPolardbBackups to import
-  * @param importFromId The id of the existing DataAlibabacloudstackPolardbBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/polardb_backups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackPolardbBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/polardb_backups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackPolardbBackups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -221,7 +221,7 @@ export class DataAlibabacloudstackPolardbBackups extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/polardb_backups alibabacloudstack_polardb_backups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/polardb_backups alibabacloudstack_polardb_backups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -232,7 +232,8 @@ export class DataAlibabacloudstackPolardbBackups extends cdktf.TerraformDataSour
       terraformResourceType: 'alibabacloudstack_polardb_backups',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

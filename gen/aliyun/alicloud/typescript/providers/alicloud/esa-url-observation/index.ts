@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_url_observation
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_url_observation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface EsaUrlObservationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_url_observation#id EsaUrlObservation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_url_observation#id EsaUrlObservation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_url_observation#sdk_type EsaUrlObservation#sdk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_url_observation#sdk_type EsaUrlObservation#sdk_type}
   */
   readonly sdkType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_url_observation#site_id EsaUrlObservation#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_url_observation#site_id EsaUrlObservation#site_id}
   */
-  readonly siteId: number;
+  readonly siteId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_url_observation#url EsaUrlObservation#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_url_observation#url EsaUrlObservation#url}
   */
   readonly url: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_url_observation#timeouts EsaUrlObservation#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_url_observation#timeouts EsaUrlObservation#timeouts}
   */
   readonly timeouts?: EsaUrlObservationTimeouts;
 }
 export interface EsaUrlObservationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_url_observation#create EsaUrlObservation#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_url_observation#create EsaUrlObservation#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_url_observation#delete EsaUrlObservation#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_url_observation#delete EsaUrlObservation#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_url_observation#update EsaUrlObservation#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_url_observation#update EsaUrlObservation#update}
   */
   readonly update?: string;
 }
@@ -195,7 +195,7 @@ export class EsaUrlObservationTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_url_observation alicloud_esa_url_observation}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_url_observation alicloud_esa_url_observation}
 */
 export class EsaUrlObservation extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class EsaUrlObservation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EsaUrlObservation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EsaUrlObservation to import
-  * @param importFromId The id of the existing EsaUrlObservation that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_url_observation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EsaUrlObservation that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_url_observation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EsaUrlObservation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class EsaUrlObservation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_url_observation alicloud_esa_url_observation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_url_observation alicloud_esa_url_observation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class EsaUrlObservation extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_esa_url_observation',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -291,11 +291,11 @@ export class EsaUrlObservation extends cdktf.TerraformResource {
   }
 
   // site_id - computed: false, optional: false, required: true
-  private _siteId?: number; 
+  private _siteId?: string; 
   public get siteId() {
-    return this.getNumberAttribute('site_id');
+    return this.getStringAttribute('site_id');
   }
-  public set siteId(value: number) {
+  public set siteId(value: string) {
     this._siteId = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -340,7 +340,7 @@ export class EsaUrlObservation extends cdktf.TerraformResource {
     return {
       id: cdktf.stringToTerraform(this._id),
       sdk_type: cdktf.stringToTerraform(this._sdkType),
-      site_id: cdktf.numberToTerraform(this._siteId),
+      site_id: cdktf.stringToTerraform(this._siteId),
       url: cdktf.stringToTerraform(this._url),
       timeouts: esaUrlObservationTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -361,10 +361,10 @@ export class EsaUrlObservation extends cdktf.TerraformResource {
         storageClassType: "string",
       },
       site_id: {
-        value: cdktf.numberToHclTerraform(this._siteId),
+        value: cdktf.stringToHclTerraform(this._siteId),
         isBlock: false,
         type: "simple",
-        storageClassType: "number",
+        storageClassType: "string",
       },
       url: {
         value: cdktf.stringToHclTerraform(this._url),

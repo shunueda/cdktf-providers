@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregate_compliance_pack
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_compliance_pack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface ConfigAggregateCompliancePackConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregate_compliance_pack#aggregate_compliance_pack_name ConfigAggregateCompliancePack#aggregate_compliance_pack_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_compliance_pack#aggregate_compliance_pack_name ConfigAggregateCompliancePack#aggregate_compliance_pack_name}
   */
   readonly aggregateCompliancePackName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregate_compliance_pack#aggregator_id ConfigAggregateCompliancePack#aggregator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_compliance_pack#aggregator_id ConfigAggregateCompliancePack#aggregator_id}
   */
   readonly aggregatorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregate_compliance_pack#compliance_pack_template_id ConfigAggregateCompliancePack#compliance_pack_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_compliance_pack#compliance_pack_template_id ConfigAggregateCompliancePack#compliance_pack_template_id}
   */
   readonly compliancePackTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregate_compliance_pack#description ConfigAggregateCompliancePack#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_compliance_pack#description ConfigAggregateCompliancePack#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregate_compliance_pack#id ConfigAggregateCompliancePack#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_compliance_pack#id ConfigAggregateCompliancePack#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregate_compliance_pack#risk_level ConfigAggregateCompliancePack#risk_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_compliance_pack#risk_level ConfigAggregateCompliancePack#risk_level}
   */
   readonly riskLevel: number;
   /**
   * config_rule_ids block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregate_compliance_pack#config_rule_ids ConfigAggregateCompliancePack#config_rule_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_compliance_pack#config_rule_ids ConfigAggregateCompliancePack#config_rule_ids}
   */
   readonly configRuleIds?: ConfigAggregateCompliancePackConfigRuleIds[] | cdktf.IResolvable;
   /**
   * config_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregate_compliance_pack#config_rules ConfigAggregateCompliancePack#config_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_compliance_pack#config_rules ConfigAggregateCompliancePack#config_rules}
   */
   readonly configRules?: ConfigAggregateCompliancePackConfigRules[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregate_compliance_pack#timeouts ConfigAggregateCompliancePack#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_compliance_pack#timeouts ConfigAggregateCompliancePack#timeouts}
   */
   readonly timeouts?: ConfigAggregateCompliancePackTimeouts;
 }
 export interface ConfigAggregateCompliancePackConfigRuleIds {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregate_compliance_pack#config_rule_id ConfigAggregateCompliancePack#config_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_compliance_pack#config_rule_id ConfigAggregateCompliancePack#config_rule_id}
   */
   readonly configRuleId?: string;
 }
@@ -171,11 +171,11 @@ export class ConfigAggregateCompliancePackConfigRuleIdsList extends cdktf.Comple
 }
 export interface ConfigAggregateCompliancePackConfigRulesConfigRuleParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregate_compliance_pack#parameter_name ConfigAggregateCompliancePack#parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_compliance_pack#parameter_name ConfigAggregateCompliancePack#parameter_name}
   */
   readonly parameterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregate_compliance_pack#parameter_value ConfigAggregateCompliancePack#parameter_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_compliance_pack#parameter_value ConfigAggregateCompliancePack#parameter_value}
   */
   readonly parameterValue?: string;
 }
@@ -320,13 +320,13 @@ export class ConfigAggregateCompliancePackConfigRulesConfigRuleParametersList ex
 }
 export interface ConfigAggregateCompliancePackConfigRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregate_compliance_pack#managed_rule_identifier ConfigAggregateCompliancePack#managed_rule_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_compliance_pack#managed_rule_identifier ConfigAggregateCompliancePack#managed_rule_identifier}
   */
   readonly managedRuleIdentifier: string;
   /**
   * config_rule_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregate_compliance_pack#config_rule_parameters ConfigAggregateCompliancePack#config_rule_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_compliance_pack#config_rule_parameters ConfigAggregateCompliancePack#config_rule_parameters}
   */
   readonly configRuleParameters?: ConfigAggregateCompliancePackConfigRulesConfigRuleParameters[] | cdktf.IResolvable;
 }
@@ -468,15 +468,15 @@ export class ConfigAggregateCompliancePackConfigRulesList extends cdktf.ComplexL
 }
 export interface ConfigAggregateCompliancePackTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregate_compliance_pack#create ConfigAggregateCompliancePack#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_compliance_pack#create ConfigAggregateCompliancePack#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregate_compliance_pack#delete ConfigAggregateCompliancePack#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_compliance_pack#delete ConfigAggregateCompliancePack#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregate_compliance_pack#update ConfigAggregateCompliancePack#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_compliance_pack#update ConfigAggregateCompliancePack#update}
   */
   readonly update?: string;
 }
@@ -628,7 +628,7 @@ export class ConfigAggregateCompliancePackTimeoutsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregate_compliance_pack alicloud_config_aggregate_compliance_pack}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_compliance_pack alicloud_config_aggregate_compliance_pack}
 */
 export class ConfigAggregateCompliancePack extends cdktf.TerraformResource {
 
@@ -644,7 +644,7 @@ export class ConfigAggregateCompliancePack extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConfigAggregateCompliancePack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConfigAggregateCompliancePack to import
-  * @param importFromId The id of the existing ConfigAggregateCompliancePack that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregate_compliance_pack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConfigAggregateCompliancePack that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_compliance_pack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConfigAggregateCompliancePack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -656,7 +656,7 @@ export class ConfigAggregateCompliancePack extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/config_aggregate_compliance_pack alicloud_config_aggregate_compliance_pack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/config_aggregate_compliance_pack alicloud_config_aggregate_compliance_pack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -667,8 +667,8 @@ export class ConfigAggregateCompliancePack extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_config_aggregate_compliance_pack',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

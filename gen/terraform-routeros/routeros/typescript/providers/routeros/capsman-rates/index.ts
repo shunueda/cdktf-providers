@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_rates
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_rates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,33 +10,33 @@ export interface CapsmanRatesConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_rates#___path___ CapsmanRates#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_rates#___path___ CapsmanRates#___path___}
   */
   readonly path?: string;
   /**
   * List of basic rates. Client will connect to AP only if it supports all basic rates announced by the AP. AP will establish WDS link only if it supports all basic rates of the other AP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_rates#basic CapsmanRates#basic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_rates#basic CapsmanRates#basic}
   */
   readonly basic?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_rates#comment CapsmanRates#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_rates#comment CapsmanRates#comment}
   */
   readonly comment?: string;
   /**
   * Modulation and Coding Schemes that every connecting client must support. Refer to 802.11n for MCS specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_rates#ht_basic_mcs CapsmanRates#ht_basic_mcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_rates#ht_basic_mcs CapsmanRates#ht_basic_mcs}
   */
   readonly htBasicMcs?: string[];
   /**
   * Modulation and Coding Schemes that this device advertises as supported. Refer to 802.11n for MCS specification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_rates#ht_supported_mcs CapsmanRates#ht_supported_mcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_rates#ht_supported_mcs CapsmanRates#ht_supported_mcs}
   */
   readonly htSupportedMcs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_rates#id CapsmanRates#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_rates#id CapsmanRates#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,13 +48,13 @@ export interface CapsmanRatesConfig extends cdktf.TerraformMetaArguments {
   * 	> Changing the name of the resource outside of a Terraform will result in a loss of control integrity for that resource!
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_rates#name CapsmanRates#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_rates#name CapsmanRates#name}
   */
   readonly name: string;
   /**
   * List of supported rates. Two devices will communicate only using rates that are supported by both devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_rates#supported CapsmanRates#supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_rates#supported CapsmanRates#supported}
   */
   readonly supported?: string[];
   /**
@@ -64,7 +64,7 @@ export interface CapsmanRatesConfig extends cdktf.TerraformMetaArguments {
   *   * MCS 0-8 - client must support MCS-0 to MCS-8
   *   * MCS 0-9 - client must support MCS-0 to MCS-9
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_rates#vht_basic_mcs CapsmanRates#vht_basic_mcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_rates#vht_basic_mcs CapsmanRates#vht_basic_mcs}
   */
   readonly vhtBasicMcs?: string;
   /**
@@ -74,13 +74,13 @@ export interface CapsmanRatesConfig extends cdktf.TerraformMetaArguments {
   *   * MCS 0-8 - devices will advertise as supported MCS-0 to MCS-8
   *   * MCS 0-9 - devices will advertise as supported MCS-0 to MCS-9
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_rates#vht_supported_mcs CapsmanRates#vht_supported_mcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_rates#vht_supported_mcs CapsmanRates#vht_supported_mcs}
   */
   readonly vhtSupportedMcs?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_rates routeros_capsman_rates}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_rates routeros_capsman_rates}
 */
 export class CapsmanRates extends cdktf.TerraformResource {
 
@@ -96,7 +96,7 @@ export class CapsmanRates extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CapsmanRates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CapsmanRates to import
-  * @param importFromId The id of the existing CapsmanRates that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_rates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CapsmanRates that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_rates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CapsmanRates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -108,7 +108,7 @@ export class CapsmanRates extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_rates routeros_capsman_rates} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_rates routeros_capsman_rates} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -119,8 +119,8 @@ export class CapsmanRates extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_capsman_rates',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.94.0',
-        providerVersionConstraint: '1.94.0'
+        providerVersion: '1.95.0',
+        providerVersionConstraint: '1.95.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

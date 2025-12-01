@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manif
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#metadata DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#metadata DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1ManifestMetadata;
   /**
   * SeccompProfileSpec defines the desired state of SeccompProfile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#spec DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#spec DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manif
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#annotations DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#annotations DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#labels DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#labels DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#name DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#name DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#namespace DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#namespace DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,25 +219,25 @@ export interface DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manif
   /**
   * the index for syscall arguments in seccomp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#index DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#index DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#index}
   */
   readonly index: number;
   /**
   * the operator for syscall arguments in seccomp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#op DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#op DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#op}
   */
   readonly op: string;
   /**
   * the value for syscall arguments in seccomp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#value DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#value DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#value}
   */
   readonly value?: number;
   /**
   * the value for syscall arguments in seccomp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#value_two DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#value_two}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#value_two DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#value_two}
   */
   readonly valueTwo?: number;
 }
@@ -436,25 +436,25 @@ export interface DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manif
   /**
   * the action for seccomp rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#action DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#action DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#action}
   */
   readonly action: string;
   /**
   * the specific syscall in seccomp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#args DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#args DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#args}
   */
   readonly args?: DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1ManifestSpecSyscallsArgs[] | cdktf.IResolvable;
   /**
   * the errno return code to use. Some actions like SCMP_ACT_ERRNO and SCMP_ACT_TRACE allow to specify the errno code to return
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#errno_ret DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#errno_ret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#errno_ret DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#errno_ret}
   */
   readonly errnoRet?: number;
   /**
   * the names of the syscalls
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#names DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#names DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#names}
   */
   readonly names: string[];
 }
@@ -653,49 +653,49 @@ export interface DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manif
   /**
   * the architecture used for system calls
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#architectures DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#architectures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#architectures DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#architectures}
   */
   readonly architectures?: string[];
   /**
   * BaseProfileName is the name of base profile (in the same namespace) that will be unioned into this profile. Base profiles can be references as remote OCI artifacts as well when prefixed with 'oci://'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#base_profile_name DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#base_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#base_profile_name DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#base_profile_name}
   */
   readonly baseProfileName?: string;
   /**
   * the default action for seccomp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#default_action DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#default_action DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#default_action}
   */
   readonly defaultAction: string;
   /**
   * Whether the profile is disabled and should be skipped during reconciliation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#disabled DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#disabled DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * list of flags to use with seccomp(2)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#flags DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#flags DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#flags}
   */
   readonly flags?: string[];
   /**
   * opaque data to pass to the seccomp agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#listener_metadata DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#listener_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#listener_metadata DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#listener_metadata}
   */
   readonly listenerMetadata?: string;
   /**
   * path of UNIX domain socket to contact a seccomp agent for SCMP_ACT_NOTIFY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#listener_path DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#listener_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#listener_path DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#listener_path}
   */
   readonly listenerPath?: string;
   /**
   * match a syscall in seccomp. While this property is OPTIONAL, some values of defaultAction are not useful without syscalls entries. For example, if defaultAction is SCMP_ACT_KILL and syscalls is empty or unset, the kernel will kill the container process on its first syscall
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#syscalls DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#syscalls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#syscalls DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest#syscalls}
   */
   readonly syscalls?: DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1ManifestSpecSyscalls[] | cdktf.IResolvable;
 }
@@ -989,7 +989,7 @@ export class DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1ManifestS
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest k8s_security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest k8s_security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest}
 */
 export class DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -1005,7 +1005,7 @@ export class DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest 
   * Generates CDKTF code for importing a DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1017,7 +1017,7 @@ export class DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest k8s_security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest k8s_security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1028,8 +1028,8 @@ export class DataK8SSecurityProfilesOperatorXK8SIoSeccompProfileV1Beta1Manifest 
       terraformResourceType: 'k8s_security_profiles_operator_x_k8s_io_seccomp_profile_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/bp_studio_application
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/bp_studio_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,63 +8,63 @@ import * as cdktf from 'cdktf';
 
 export interface BpStudioApplicationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/bp_studio_application#application_name BpStudioApplication#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/bp_studio_application#application_name BpStudioApplication#application_name}
   */
   readonly applicationName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/bp_studio_application#area_id BpStudioApplication#area_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/bp_studio_application#area_id BpStudioApplication#area_id}
   */
   readonly areaId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/bp_studio_application#configuration BpStudioApplication#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/bp_studio_application#configuration BpStudioApplication#configuration}
   */
   readonly configuration?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/bp_studio_application#id BpStudioApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/bp_studio_application#id BpStudioApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/bp_studio_application#resource_group_id BpStudioApplication#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/bp_studio_application#resource_group_id BpStudioApplication#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/bp_studio_application#template_id BpStudioApplication#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/bp_studio_application#template_id BpStudioApplication#template_id}
   */
   readonly templateId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/bp_studio_application#variables BpStudioApplication#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/bp_studio_application#variables BpStudioApplication#variables}
   */
   readonly variables?: { [key: string]: string };
   /**
   * instances block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/bp_studio_application#instances BpStudioApplication#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/bp_studio_application#instances BpStudioApplication#instances}
   */
   readonly instances?: BpStudioApplicationInstances[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/bp_studio_application#timeouts BpStudioApplication#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/bp_studio_application#timeouts BpStudioApplication#timeouts}
   */
   readonly timeouts?: BpStudioApplicationTimeouts;
 }
 export interface BpStudioApplicationInstances {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/bp_studio_application#id BpStudioApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/bp_studio_application#id BpStudioApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/bp_studio_application#node_name BpStudioApplication#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/bp_studio_application#node_name BpStudioApplication#node_name}
   */
   readonly nodeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/bp_studio_application#node_type BpStudioApplication#node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/bp_studio_application#node_type BpStudioApplication#node_type}
   */
   readonly nodeType?: string;
 }
@@ -238,11 +238,11 @@ export class BpStudioApplicationInstancesList extends cdktf.ComplexList {
 }
 export interface BpStudioApplicationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/bp_studio_application#create BpStudioApplication#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/bp_studio_application#create BpStudioApplication#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/bp_studio_application#delete BpStudioApplication#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/bp_studio_application#delete BpStudioApplication#delete}
   */
   readonly delete?: string;
 }
@@ -365,7 +365,7 @@ export class BpStudioApplicationTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/bp_studio_application alicloud_bp_studio_application}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/bp_studio_application alicloud_bp_studio_application}
 */
 export class BpStudioApplication extends cdktf.TerraformResource {
 
@@ -381,7 +381,7 @@ export class BpStudioApplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BpStudioApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BpStudioApplication to import
-  * @param importFromId The id of the existing BpStudioApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/bp_studio_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BpStudioApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/bp_studio_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BpStudioApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -393,7 +393,7 @@ export class BpStudioApplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/bp_studio_application alicloud_bp_studio_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/bp_studio_application alicloud_bp_studio_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -404,8 +404,8 @@ export class BpStudioApplication extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_bp_studio_application',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

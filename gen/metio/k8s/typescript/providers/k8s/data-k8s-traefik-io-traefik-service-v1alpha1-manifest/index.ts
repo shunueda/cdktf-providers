@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8STraefikIoTraefikServiceV1Alpha1ManifestConfig extends cd
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#metadata DataK8STraefikIoTraefikServiceV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#metadata DataK8STraefikIoTraefikServiceV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8STraefikIoTraefikServiceV1Alpha1ManifestMetadata;
   /**
   * TraefikServiceSpec defines the desired state of a TraefikService.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#spec DataK8STraefikIoTraefikServiceV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#spec DataK8STraefikIoTraefikServiceV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8STraefikIoTraefikServiceV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#annotations DataK8STraefikIoTraefikServiceV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#annotations DataK8STraefikIoTraefikServiceV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#labels DataK8STraefikIoTraefikServiceV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#labels DataK8STraefikIoTraefikServiceV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#name DataK8STraefikIoTraefikServiceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#name DataK8STraefikIoTraefikServiceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#namespace DataK8STraefikIoTraefikServiceV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#namespace DataK8STraefikIoTraefikServiceV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,67 +219,67 @@ export interface DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecMirroringHeal
   /**
   * FollowRedirects defines whether redirects should be followed during the health check calls. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#follow_redirects DataK8STraefikIoTraefikServiceV1Alpha1Manifest#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#follow_redirects DataK8STraefikIoTraefikServiceV1Alpha1Manifest#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * Headers defines custom headers to be sent to the health check endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#headers DataK8STraefikIoTraefikServiceV1Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#headers DataK8STraefikIoTraefikServiceV1Alpha1Manifest#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Hostname defines the value of hostname in the Host header of the health check request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#hostname DataK8STraefikIoTraefikServiceV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#hostname DataK8STraefikIoTraefikServiceV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * Interval defines the frequency of the health check calls. Default: 30s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#interval DataK8STraefikIoTraefikServiceV1Alpha1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#interval DataK8STraefikIoTraefikServiceV1Alpha1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Method defines the healthcheck method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#method DataK8STraefikIoTraefikServiceV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#method DataK8STraefikIoTraefikServiceV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * Mode defines the health check mode. If defined to grpc, will use the gRPC health check protocol to probe the server. Default: http
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#mode DataK8STraefikIoTraefikServiceV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#mode DataK8STraefikIoTraefikServiceV1Alpha1Manifest#mode}
   */
   readonly mode?: string;
   /**
   * Path defines the server URL path for the health check endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#path DataK8STraefikIoTraefikServiceV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#path DataK8STraefikIoTraefikServiceV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Port defines the server URL port for the health check endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#port DataK8STraefikIoTraefikServiceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#port DataK8STraefikIoTraefikServiceV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Scheme replaces the server URL scheme for the health check endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#scheme DataK8STraefikIoTraefikServiceV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#scheme DataK8STraefikIoTraefikServiceV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
   /**
   * Status defines the expected HTTP status code of the response to the health check request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#status DataK8STraefikIoTraefikServiceV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#status DataK8STraefikIoTraefikServiceV1Alpha1Manifest#status}
   */
   readonly status?: number;
   /**
   * Timeout defines the maximum duration Traefik will wait for a health check request before considering the server unhealthy. Default: 5s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#timeout DataK8STraefikIoTraefikServiceV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#timeout DataK8STraefikIoTraefikServiceV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -665,67 +665,67 @@ export interface DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecMirroringMirr
   /**
   * FollowRedirects defines whether redirects should be followed during the health check calls. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#follow_redirects DataK8STraefikIoTraefikServiceV1Alpha1Manifest#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#follow_redirects DataK8STraefikIoTraefikServiceV1Alpha1Manifest#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * Headers defines custom headers to be sent to the health check endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#headers DataK8STraefikIoTraefikServiceV1Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#headers DataK8STraefikIoTraefikServiceV1Alpha1Manifest#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Hostname defines the value of hostname in the Host header of the health check request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#hostname DataK8STraefikIoTraefikServiceV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#hostname DataK8STraefikIoTraefikServiceV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * Interval defines the frequency of the health check calls. Default: 30s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#interval DataK8STraefikIoTraefikServiceV1Alpha1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#interval DataK8STraefikIoTraefikServiceV1Alpha1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Method defines the healthcheck method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#method DataK8STraefikIoTraefikServiceV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#method DataK8STraefikIoTraefikServiceV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * Mode defines the health check mode. If defined to grpc, will use the gRPC health check protocol to probe the server. Default: http
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#mode DataK8STraefikIoTraefikServiceV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#mode DataK8STraefikIoTraefikServiceV1Alpha1Manifest#mode}
   */
   readonly mode?: string;
   /**
   * Path defines the server URL path for the health check endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#path DataK8STraefikIoTraefikServiceV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#path DataK8STraefikIoTraefikServiceV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Port defines the server URL port for the health check endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#port DataK8STraefikIoTraefikServiceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#port DataK8STraefikIoTraefikServiceV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Scheme replaces the server URL scheme for the health check endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#scheme DataK8STraefikIoTraefikServiceV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#scheme DataK8STraefikIoTraefikServiceV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
   /**
   * Status defines the expected HTTP status code of the response to the health check request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#status DataK8STraefikIoTraefikServiceV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#status DataK8STraefikIoTraefikServiceV1Alpha1Manifest#status}
   */
   readonly status?: number;
   /**
   * Timeout defines the maximum duration Traefik will wait for a health check request before considering the server unhealthy. Default: 5s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#timeout DataK8STraefikIoTraefikServiceV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#timeout DataK8STraefikIoTraefikServiceV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -1111,7 +1111,7 @@ export interface DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecMirroringMirr
   /**
   * FlushInterval defines the interval, in milliseconds, in between flushes to the client while copying the response body. A negative value means to flush immediately after each write to the client. This configuration is ignored when ReverseProxy recognizes a response as a streaming response; for such responses, writes are flushed to the client immediately. Default: 100ms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#flush_interval DataK8STraefikIoTraefikServiceV1Alpha1Manifest#flush_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#flush_interval DataK8STraefikIoTraefikServiceV1Alpha1Manifest#flush_interval}
   */
   readonly flushInterval?: string;
 }
@@ -1207,31 +1207,31 @@ export interface DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecMirroringMirr
   /**
   * HTTPOnly defines whether the cookie can be accessed by client-side APIs, such as JavaScript.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#http_only DataK8STraefikIoTraefikServiceV1Alpha1Manifest#http_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#http_only DataK8STraefikIoTraefikServiceV1Alpha1Manifest#http_only}
   */
   readonly httpOnly?: boolean | cdktf.IResolvable;
   /**
   * MaxAge indicates the number of seconds until the cookie expires. When set to a negative number, the cookie expires immediately. When set to zero, the cookie never expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#max_age DataK8STraefikIoTraefikServiceV1Alpha1Manifest#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#max_age DataK8STraefikIoTraefikServiceV1Alpha1Manifest#max_age}
   */
   readonly maxAge?: number;
   /**
   * Name defines the Cookie name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#name DataK8STraefikIoTraefikServiceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#name DataK8STraefikIoTraefikServiceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * SameSite defines the same site policy. More info: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie/SameSite
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#same_site DataK8STraefikIoTraefikServiceV1Alpha1Manifest#same_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#same_site DataK8STraefikIoTraefikServiceV1Alpha1Manifest#same_site}
   */
   readonly sameSite?: string;
   /**
   * Secure defines whether the cookie can only be transmitted over an encrypted connection (i.e. HTTPS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#secure DataK8STraefikIoTraefikServiceV1Alpha1Manifest#secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#secure DataK8STraefikIoTraefikServiceV1Alpha1Manifest#secure}
   */
   readonly secure?: boolean | cdktf.IResolvable;
 }
@@ -1443,7 +1443,7 @@ export interface DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecMirroringMirr
   /**
   * Cookie defines the sticky cookie configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#cookie DataK8STraefikIoTraefikServiceV1Alpha1Manifest#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#cookie DataK8STraefikIoTraefikServiceV1Alpha1Manifest#cookie}
   */
   readonly cookie?: DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecMirroringMirrorsStickyCookie;
 }
@@ -1539,91 +1539,91 @@ export interface DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecMirroringMirr
   /**
   * Healthcheck defines health checks for ExternalName services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#health_check DataK8STraefikIoTraefikServiceV1Alpha1Manifest#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#health_check DataK8STraefikIoTraefikServiceV1Alpha1Manifest#health_check}
   */
   readonly healthCheck?: DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecMirroringMirrorsHealthCheck;
   /**
   * Kind defines the kind of the Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#kind DataK8STraefikIoTraefikServiceV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#kind DataK8STraefikIoTraefikServiceV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name defines the name of the referenced Kubernetes Service or TraefikService. The differentiation between the two is specified in the Kind field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#name DataK8STraefikIoTraefikServiceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#name DataK8STraefikIoTraefikServiceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace defines the namespace of the referenced Kubernetes Service or TraefikService.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#namespace DataK8STraefikIoTraefikServiceV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#namespace DataK8STraefikIoTraefikServiceV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * NativeLB controls, when creating the load-balancer, whether the LB's children are directly the pods IPs or if the only child is the Kubernetes Service clusterIP. The Kubernetes Service itself does load-balance to the pods. By default, NativeLB is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#native_lb DataK8STraefikIoTraefikServiceV1Alpha1Manifest#native_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#native_lb DataK8STraefikIoTraefikServiceV1Alpha1Manifest#native_lb}
   */
   readonly nativeLb?: boolean | cdktf.IResolvable;
   /**
   * NodePortLB controls, when creating the load-balancer, whether the LB's children are directly the nodes internal IPs using the nodePort when the service type is NodePort. It allows services to be reachable when Traefik runs externally from the Kubernetes cluster but within the same network of the nodes. By default, NodePortLB is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#node_port_lb DataK8STraefikIoTraefikServiceV1Alpha1Manifest#node_port_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#node_port_lb DataK8STraefikIoTraefikServiceV1Alpha1Manifest#node_port_lb}
   */
   readonly nodePortLb?: boolean | cdktf.IResolvable;
   /**
   * PassHostHeader defines whether the client Host header is forwarded to the upstream Kubernetes Service. By default, passHostHeader is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#pass_host_header DataK8STraefikIoTraefikServiceV1Alpha1Manifest#pass_host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#pass_host_header DataK8STraefikIoTraefikServiceV1Alpha1Manifest#pass_host_header}
   */
   readonly passHostHeader?: boolean | cdktf.IResolvable;
   /**
   * Percent defines the part of the traffic to mirror. Supported values: 0 to 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#percent DataK8STraefikIoTraefikServiceV1Alpha1Manifest#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#percent DataK8STraefikIoTraefikServiceV1Alpha1Manifest#percent}
   */
   readonly percent?: number;
   /**
   * Port defines the port of a Kubernetes Service. This can be a reference to a named port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#port DataK8STraefikIoTraefikServiceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#port DataK8STraefikIoTraefikServiceV1Alpha1Manifest#port}
   */
   readonly port?: string;
   /**
   * ResponseForwarding defines how Traefik forwards the response from the upstream Kubernetes Service to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#response_forwarding DataK8STraefikIoTraefikServiceV1Alpha1Manifest#response_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#response_forwarding DataK8STraefikIoTraefikServiceV1Alpha1Manifest#response_forwarding}
   */
   readonly responseForwarding?: DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecMirroringMirrorsResponseForwarding;
   /**
   * Scheme defines the scheme to use for the request to the upstream Kubernetes Service. It defaults to https when Kubernetes Service port is 443, http otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#scheme DataK8STraefikIoTraefikServiceV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#scheme DataK8STraefikIoTraefikServiceV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
   /**
   * ServersTransport defines the name of ServersTransport resource to use. It allows to configure the transport between Traefik and your servers. Can only be used on a Kubernetes Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#servers_transport DataK8STraefikIoTraefikServiceV1Alpha1Manifest#servers_transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#servers_transport DataK8STraefikIoTraefikServiceV1Alpha1Manifest#servers_transport}
   */
   readonly serversTransport?: string;
   /**
   * Sticky defines the sticky sessions configuration. More info: https://doc.traefik.io/traefik/v3.2/routing/services/#sticky-sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#sticky DataK8STraefikIoTraefikServiceV1Alpha1Manifest#sticky}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#sticky DataK8STraefikIoTraefikServiceV1Alpha1Manifest#sticky}
   */
   readonly sticky?: DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecMirroringMirrorsSticky;
   /**
   * Strategy defines the load balancing strategy between the servers. RoundRobin is the only supported value at the moment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#strategy DataK8STraefikIoTraefikServiceV1Alpha1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#strategy DataK8STraefikIoTraefikServiceV1Alpha1Manifest#strategy}
   */
   readonly strategy?: string;
   /**
   * Weight defines the weight and should only be specified when Name references a TraefikService object (and to be precise, one that embeds a Weighted Round Robin).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#weight DataK8STraefikIoTraefikServiceV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#weight DataK8STraefikIoTraefikServiceV1Alpha1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -2144,7 +2144,7 @@ export interface DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecMirroringResp
   /**
   * FlushInterval defines the interval, in milliseconds, in between flushes to the client while copying the response body. A negative value means to flush immediately after each write to the client. This configuration is ignored when ReverseProxy recognizes a response as a streaming response; for such responses, writes are flushed to the client immediately. Default: 100ms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#flush_interval DataK8STraefikIoTraefikServiceV1Alpha1Manifest#flush_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#flush_interval DataK8STraefikIoTraefikServiceV1Alpha1Manifest#flush_interval}
   */
   readonly flushInterval?: string;
 }
@@ -2240,31 +2240,31 @@ export interface DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecMirroringStic
   /**
   * HTTPOnly defines whether the cookie can be accessed by client-side APIs, such as JavaScript.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#http_only DataK8STraefikIoTraefikServiceV1Alpha1Manifest#http_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#http_only DataK8STraefikIoTraefikServiceV1Alpha1Manifest#http_only}
   */
   readonly httpOnly?: boolean | cdktf.IResolvable;
   /**
   * MaxAge indicates the number of seconds until the cookie expires. When set to a negative number, the cookie expires immediately. When set to zero, the cookie never expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#max_age DataK8STraefikIoTraefikServiceV1Alpha1Manifest#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#max_age DataK8STraefikIoTraefikServiceV1Alpha1Manifest#max_age}
   */
   readonly maxAge?: number;
   /**
   * Name defines the Cookie name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#name DataK8STraefikIoTraefikServiceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#name DataK8STraefikIoTraefikServiceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * SameSite defines the same site policy. More info: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie/SameSite
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#same_site DataK8STraefikIoTraefikServiceV1Alpha1Manifest#same_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#same_site DataK8STraefikIoTraefikServiceV1Alpha1Manifest#same_site}
   */
   readonly sameSite?: string;
   /**
   * Secure defines whether the cookie can only be transmitted over an encrypted connection (i.e. HTTPS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#secure DataK8STraefikIoTraefikServiceV1Alpha1Manifest#secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#secure DataK8STraefikIoTraefikServiceV1Alpha1Manifest#secure}
   */
   readonly secure?: boolean | cdktf.IResolvable;
 }
@@ -2476,7 +2476,7 @@ export interface DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecMirroringStic
   /**
   * Cookie defines the sticky cookie configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#cookie DataK8STraefikIoTraefikServiceV1Alpha1Manifest#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#cookie DataK8STraefikIoTraefikServiceV1Alpha1Manifest#cookie}
   */
   readonly cookie?: DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecMirroringStickyCookie;
 }
@@ -2572,103 +2572,103 @@ export interface DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecMirroring {
   /**
   * Healthcheck defines health checks for ExternalName services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#health_check DataK8STraefikIoTraefikServiceV1Alpha1Manifest#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#health_check DataK8STraefikIoTraefikServiceV1Alpha1Manifest#health_check}
   */
   readonly healthCheck?: DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecMirroringHealthCheck;
   /**
   * Kind defines the kind of the Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#kind DataK8STraefikIoTraefikServiceV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#kind DataK8STraefikIoTraefikServiceV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * MaxBodySize defines the maximum size allowed for the body of the request. If the body is larger, the request is not mirrored. Default value is -1, which means unlimited size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#max_body_size DataK8STraefikIoTraefikServiceV1Alpha1Manifest#max_body_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#max_body_size DataK8STraefikIoTraefikServiceV1Alpha1Manifest#max_body_size}
   */
   readonly maxBodySize?: number;
   /**
   * MirrorBody defines whether the body of the request should be mirrored. Default value is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#mirror_body DataK8STraefikIoTraefikServiceV1Alpha1Manifest#mirror_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#mirror_body DataK8STraefikIoTraefikServiceV1Alpha1Manifest#mirror_body}
   */
   readonly mirrorBody?: boolean | cdktf.IResolvable;
   /**
   * Mirrors defines the list of mirrors where Traefik will duplicate the traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#mirrors DataK8STraefikIoTraefikServiceV1Alpha1Manifest#mirrors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#mirrors DataK8STraefikIoTraefikServiceV1Alpha1Manifest#mirrors}
   */
   readonly mirrors?: DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecMirroringMirrors[] | cdktf.IResolvable;
   /**
   * Name defines the name of the referenced Kubernetes Service or TraefikService. The differentiation between the two is specified in the Kind field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#name DataK8STraefikIoTraefikServiceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#name DataK8STraefikIoTraefikServiceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace defines the namespace of the referenced Kubernetes Service or TraefikService.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#namespace DataK8STraefikIoTraefikServiceV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#namespace DataK8STraefikIoTraefikServiceV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * NativeLB controls, when creating the load-balancer, whether the LB's children are directly the pods IPs or if the only child is the Kubernetes Service clusterIP. The Kubernetes Service itself does load-balance to the pods. By default, NativeLB is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#native_lb DataK8STraefikIoTraefikServiceV1Alpha1Manifest#native_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#native_lb DataK8STraefikIoTraefikServiceV1Alpha1Manifest#native_lb}
   */
   readonly nativeLb?: boolean | cdktf.IResolvable;
   /**
   * NodePortLB controls, when creating the load-balancer, whether the LB's children are directly the nodes internal IPs using the nodePort when the service type is NodePort. It allows services to be reachable when Traefik runs externally from the Kubernetes cluster but within the same network of the nodes. By default, NodePortLB is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#node_port_lb DataK8STraefikIoTraefikServiceV1Alpha1Manifest#node_port_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#node_port_lb DataK8STraefikIoTraefikServiceV1Alpha1Manifest#node_port_lb}
   */
   readonly nodePortLb?: boolean | cdktf.IResolvable;
   /**
   * PassHostHeader defines whether the client Host header is forwarded to the upstream Kubernetes Service. By default, passHostHeader is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#pass_host_header DataK8STraefikIoTraefikServiceV1Alpha1Manifest#pass_host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#pass_host_header DataK8STraefikIoTraefikServiceV1Alpha1Manifest#pass_host_header}
   */
   readonly passHostHeader?: boolean | cdktf.IResolvable;
   /**
   * Port defines the port of a Kubernetes Service. This can be a reference to a named port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#port DataK8STraefikIoTraefikServiceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#port DataK8STraefikIoTraefikServiceV1Alpha1Manifest#port}
   */
   readonly port?: string;
   /**
   * ResponseForwarding defines how Traefik forwards the response from the upstream Kubernetes Service to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#response_forwarding DataK8STraefikIoTraefikServiceV1Alpha1Manifest#response_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#response_forwarding DataK8STraefikIoTraefikServiceV1Alpha1Manifest#response_forwarding}
   */
   readonly responseForwarding?: DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecMirroringResponseForwarding;
   /**
   * Scheme defines the scheme to use for the request to the upstream Kubernetes Service. It defaults to https when Kubernetes Service port is 443, http otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#scheme DataK8STraefikIoTraefikServiceV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#scheme DataK8STraefikIoTraefikServiceV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
   /**
   * ServersTransport defines the name of ServersTransport resource to use. It allows to configure the transport between Traefik and your servers. Can only be used on a Kubernetes Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#servers_transport DataK8STraefikIoTraefikServiceV1Alpha1Manifest#servers_transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#servers_transport DataK8STraefikIoTraefikServiceV1Alpha1Manifest#servers_transport}
   */
   readonly serversTransport?: string;
   /**
   * Sticky defines the sticky sessions configuration. More info: https://doc.traefik.io/traefik/v3.2/routing/services/#sticky-sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#sticky DataK8STraefikIoTraefikServiceV1Alpha1Manifest#sticky}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#sticky DataK8STraefikIoTraefikServiceV1Alpha1Manifest#sticky}
   */
   readonly sticky?: DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecMirroringSticky;
   /**
   * Strategy defines the load balancing strategy between the servers. RoundRobin is the only supported value at the moment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#strategy DataK8STraefikIoTraefikServiceV1Alpha1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#strategy DataK8STraefikIoTraefikServiceV1Alpha1Manifest#strategy}
   */
   readonly strategy?: string;
   /**
   * Weight defines the weight and should only be specified when Name references a TraefikService object (and to be precise, one that embeds a Weighted Round Robin).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#weight DataK8STraefikIoTraefikServiceV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#weight DataK8STraefikIoTraefikServiceV1Alpha1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -3225,67 +3225,67 @@ export interface DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecWeightedServi
   /**
   * FollowRedirects defines whether redirects should be followed during the health check calls. Default: true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#follow_redirects DataK8STraefikIoTraefikServiceV1Alpha1Manifest#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#follow_redirects DataK8STraefikIoTraefikServiceV1Alpha1Manifest#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * Headers defines custom headers to be sent to the health check endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#headers DataK8STraefikIoTraefikServiceV1Alpha1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#headers DataK8STraefikIoTraefikServiceV1Alpha1Manifest#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Hostname defines the value of hostname in the Host header of the health check request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#hostname DataK8STraefikIoTraefikServiceV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#hostname DataK8STraefikIoTraefikServiceV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * Interval defines the frequency of the health check calls. Default: 30s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#interval DataK8STraefikIoTraefikServiceV1Alpha1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#interval DataK8STraefikIoTraefikServiceV1Alpha1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Method defines the healthcheck method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#method DataK8STraefikIoTraefikServiceV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#method DataK8STraefikIoTraefikServiceV1Alpha1Manifest#method}
   */
   readonly method?: string;
   /**
   * Mode defines the health check mode. If defined to grpc, will use the gRPC health check protocol to probe the server. Default: http
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#mode DataK8STraefikIoTraefikServiceV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#mode DataK8STraefikIoTraefikServiceV1Alpha1Manifest#mode}
   */
   readonly mode?: string;
   /**
   * Path defines the server URL path for the health check endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#path DataK8STraefikIoTraefikServiceV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#path DataK8STraefikIoTraefikServiceV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Port defines the server URL port for the health check endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#port DataK8STraefikIoTraefikServiceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#port DataK8STraefikIoTraefikServiceV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Scheme replaces the server URL scheme for the health check endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#scheme DataK8STraefikIoTraefikServiceV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#scheme DataK8STraefikIoTraefikServiceV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
   /**
   * Status defines the expected HTTP status code of the response to the health check request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#status DataK8STraefikIoTraefikServiceV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#status DataK8STraefikIoTraefikServiceV1Alpha1Manifest#status}
   */
   readonly status?: number;
   /**
   * Timeout defines the maximum duration Traefik will wait for a health check request before considering the server unhealthy. Default: 5s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#timeout DataK8STraefikIoTraefikServiceV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#timeout DataK8STraefikIoTraefikServiceV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -3671,7 +3671,7 @@ export interface DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecWeightedServi
   /**
   * FlushInterval defines the interval, in milliseconds, in between flushes to the client while copying the response body. A negative value means to flush immediately after each write to the client. This configuration is ignored when ReverseProxy recognizes a response as a streaming response; for such responses, writes are flushed to the client immediately. Default: 100ms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#flush_interval DataK8STraefikIoTraefikServiceV1Alpha1Manifest#flush_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#flush_interval DataK8STraefikIoTraefikServiceV1Alpha1Manifest#flush_interval}
   */
   readonly flushInterval?: string;
 }
@@ -3767,31 +3767,31 @@ export interface DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecWeightedServi
   /**
   * HTTPOnly defines whether the cookie can be accessed by client-side APIs, such as JavaScript.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#http_only DataK8STraefikIoTraefikServiceV1Alpha1Manifest#http_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#http_only DataK8STraefikIoTraefikServiceV1Alpha1Manifest#http_only}
   */
   readonly httpOnly?: boolean | cdktf.IResolvable;
   /**
   * MaxAge indicates the number of seconds until the cookie expires. When set to a negative number, the cookie expires immediately. When set to zero, the cookie never expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#max_age DataK8STraefikIoTraefikServiceV1Alpha1Manifest#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#max_age DataK8STraefikIoTraefikServiceV1Alpha1Manifest#max_age}
   */
   readonly maxAge?: number;
   /**
   * Name defines the Cookie name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#name DataK8STraefikIoTraefikServiceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#name DataK8STraefikIoTraefikServiceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * SameSite defines the same site policy. More info: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie/SameSite
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#same_site DataK8STraefikIoTraefikServiceV1Alpha1Manifest#same_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#same_site DataK8STraefikIoTraefikServiceV1Alpha1Manifest#same_site}
   */
   readonly sameSite?: string;
   /**
   * Secure defines whether the cookie can only be transmitted over an encrypted connection (i.e. HTTPS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#secure DataK8STraefikIoTraefikServiceV1Alpha1Manifest#secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#secure DataK8STraefikIoTraefikServiceV1Alpha1Manifest#secure}
   */
   readonly secure?: boolean | cdktf.IResolvable;
 }
@@ -4003,7 +4003,7 @@ export interface DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecWeightedServi
   /**
   * Cookie defines the sticky cookie configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#cookie DataK8STraefikIoTraefikServiceV1Alpha1Manifest#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#cookie DataK8STraefikIoTraefikServiceV1Alpha1Manifest#cookie}
   */
   readonly cookie?: DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecWeightedServicesStickyCookie;
 }
@@ -4099,85 +4099,85 @@ export interface DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecWeightedServi
   /**
   * Healthcheck defines health checks for ExternalName services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#health_check DataK8STraefikIoTraefikServiceV1Alpha1Manifest#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#health_check DataK8STraefikIoTraefikServiceV1Alpha1Manifest#health_check}
   */
   readonly healthCheck?: DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecWeightedServicesHealthCheck;
   /**
   * Kind defines the kind of the Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#kind DataK8STraefikIoTraefikServiceV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#kind DataK8STraefikIoTraefikServiceV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name defines the name of the referenced Kubernetes Service or TraefikService. The differentiation between the two is specified in the Kind field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#name DataK8STraefikIoTraefikServiceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#name DataK8STraefikIoTraefikServiceV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace defines the namespace of the referenced Kubernetes Service or TraefikService.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#namespace DataK8STraefikIoTraefikServiceV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#namespace DataK8STraefikIoTraefikServiceV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * NativeLB controls, when creating the load-balancer, whether the LB's children are directly the pods IPs or if the only child is the Kubernetes Service clusterIP. The Kubernetes Service itself does load-balance to the pods. By default, NativeLB is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#native_lb DataK8STraefikIoTraefikServiceV1Alpha1Manifest#native_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#native_lb DataK8STraefikIoTraefikServiceV1Alpha1Manifest#native_lb}
   */
   readonly nativeLb?: boolean | cdktf.IResolvable;
   /**
   * NodePortLB controls, when creating the load-balancer, whether the LB's children are directly the nodes internal IPs using the nodePort when the service type is NodePort. It allows services to be reachable when Traefik runs externally from the Kubernetes cluster but within the same network of the nodes. By default, NodePortLB is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#node_port_lb DataK8STraefikIoTraefikServiceV1Alpha1Manifest#node_port_lb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#node_port_lb DataK8STraefikIoTraefikServiceV1Alpha1Manifest#node_port_lb}
   */
   readonly nodePortLb?: boolean | cdktf.IResolvable;
   /**
   * PassHostHeader defines whether the client Host header is forwarded to the upstream Kubernetes Service. By default, passHostHeader is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#pass_host_header DataK8STraefikIoTraefikServiceV1Alpha1Manifest#pass_host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#pass_host_header DataK8STraefikIoTraefikServiceV1Alpha1Manifest#pass_host_header}
   */
   readonly passHostHeader?: boolean | cdktf.IResolvable;
   /**
   * Port defines the port of a Kubernetes Service. This can be a reference to a named port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#port DataK8STraefikIoTraefikServiceV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#port DataK8STraefikIoTraefikServiceV1Alpha1Manifest#port}
   */
   readonly port?: string;
   /**
   * ResponseForwarding defines how Traefik forwards the response from the upstream Kubernetes Service to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#response_forwarding DataK8STraefikIoTraefikServiceV1Alpha1Manifest#response_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#response_forwarding DataK8STraefikIoTraefikServiceV1Alpha1Manifest#response_forwarding}
   */
   readonly responseForwarding?: DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecWeightedServicesResponseForwarding;
   /**
   * Scheme defines the scheme to use for the request to the upstream Kubernetes Service. It defaults to https when Kubernetes Service port is 443, http otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#scheme DataK8STraefikIoTraefikServiceV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#scheme DataK8STraefikIoTraefikServiceV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
   /**
   * ServersTransport defines the name of ServersTransport resource to use. It allows to configure the transport between Traefik and your servers. Can only be used on a Kubernetes Service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#servers_transport DataK8STraefikIoTraefikServiceV1Alpha1Manifest#servers_transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#servers_transport DataK8STraefikIoTraefikServiceV1Alpha1Manifest#servers_transport}
   */
   readonly serversTransport?: string;
   /**
   * Sticky defines the sticky sessions configuration. More info: https://doc.traefik.io/traefik/v3.2/routing/services/#sticky-sessions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#sticky DataK8STraefikIoTraefikServiceV1Alpha1Manifest#sticky}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#sticky DataK8STraefikIoTraefikServiceV1Alpha1Manifest#sticky}
   */
   readonly sticky?: DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecWeightedServicesSticky;
   /**
   * Strategy defines the load balancing strategy between the servers. RoundRobin is the only supported value at the moment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#strategy DataK8STraefikIoTraefikServiceV1Alpha1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#strategy DataK8STraefikIoTraefikServiceV1Alpha1Manifest#strategy}
   */
   readonly strategy?: string;
   /**
   * Weight defines the weight and should only be specified when Name references a TraefikService object (and to be precise, one that embeds a Weighted Round Robin).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#weight DataK8STraefikIoTraefikServiceV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#weight DataK8STraefikIoTraefikServiceV1Alpha1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -4669,31 +4669,31 @@ export interface DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecWeightedStick
   /**
   * HTTPOnly defines whether the cookie can be accessed by client-side APIs, such as JavaScript.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#http_only DataK8STraefikIoTraefikServiceV1Alpha1Manifest#http_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#http_only DataK8STraefikIoTraefikServiceV1Alpha1Manifest#http_only}
   */
   readonly httpOnly?: boolean | cdktf.IResolvable;
   /**
   * MaxAge indicates the number of seconds until the cookie expires. When set to a negative number, the cookie expires immediately. When set to zero, the cookie never expires.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#max_age DataK8STraefikIoTraefikServiceV1Alpha1Manifest#max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#max_age DataK8STraefikIoTraefikServiceV1Alpha1Manifest#max_age}
   */
   readonly maxAge?: number;
   /**
   * Name defines the Cookie name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#name DataK8STraefikIoTraefikServiceV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#name DataK8STraefikIoTraefikServiceV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * SameSite defines the same site policy. More info: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie/SameSite
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#same_site DataK8STraefikIoTraefikServiceV1Alpha1Manifest#same_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#same_site DataK8STraefikIoTraefikServiceV1Alpha1Manifest#same_site}
   */
   readonly sameSite?: string;
   /**
   * Secure defines whether the cookie can only be transmitted over an encrypted connection (i.e. HTTPS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#secure DataK8STraefikIoTraefikServiceV1Alpha1Manifest#secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#secure DataK8STraefikIoTraefikServiceV1Alpha1Manifest#secure}
   */
   readonly secure?: boolean | cdktf.IResolvable;
 }
@@ -4905,7 +4905,7 @@ export interface DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecWeightedStick
   /**
   * Cookie defines the sticky cookie configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#cookie DataK8STraefikIoTraefikServiceV1Alpha1Manifest#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#cookie DataK8STraefikIoTraefikServiceV1Alpha1Manifest#cookie}
   */
   readonly cookie?: DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecWeightedStickyCookie;
 }
@@ -5001,13 +5001,13 @@ export interface DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecWeighted {
   /**
   * Services defines the list of Kubernetes Service and/or TraefikService to load-balance, with weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#services DataK8STraefikIoTraefikServiceV1Alpha1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#services DataK8STraefikIoTraefikServiceV1Alpha1Manifest#services}
   */
   readonly services?: DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecWeightedServices[] | cdktf.IResolvable;
   /**
   * Sticky defines whether sticky sessions are enabled. More info: https://doc.traefik.io/traefik/v3.2/routing/providers/kubernetes-crd/#stickiness-and-load-balancing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#sticky DataK8STraefikIoTraefikServiceV1Alpha1Manifest#sticky}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#sticky DataK8STraefikIoTraefikServiceV1Alpha1Manifest#sticky}
   */
   readonly sticky?: DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecWeightedSticky;
 }
@@ -5132,13 +5132,13 @@ export interface DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpec {
   /**
   * Mirroring defines the Mirroring service configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#mirroring DataK8STraefikIoTraefikServiceV1Alpha1Manifest#mirroring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#mirroring DataK8STraefikIoTraefikServiceV1Alpha1Manifest#mirroring}
   */
   readonly mirroring?: DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecMirroring;
   /**
   * Weighted defines the Weighted Round Robin configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#weighted DataK8STraefikIoTraefikServiceV1Alpha1Manifest#weighted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#weighted DataK8STraefikIoTraefikServiceV1Alpha1Manifest#weighted}
   */
   readonly weighted?: DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecWeighted;
 }
@@ -5261,7 +5261,7 @@ export class DataK8STraefikIoTraefikServiceV1Alpha1ManifestSpecOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest k8s_traefik_io_traefik_service_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest k8s_traefik_io_traefik_service_v1alpha1_manifest}
 */
 export class DataK8STraefikIoTraefikServiceV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -5277,7 +5277,7 @@ export class DataK8STraefikIoTraefikServiceV1Alpha1Manifest extends cdktf.Terraf
   * Generates CDKTF code for importing a DataK8STraefikIoTraefikServiceV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STraefikIoTraefikServiceV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8STraefikIoTraefikServiceV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STraefikIoTraefikServiceV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STraefikIoTraefikServiceV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5289,7 +5289,7 @@ export class DataK8STraefikIoTraefikServiceV1Alpha1Manifest extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest k8s_traefik_io_traefik_service_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/traefik_io_traefik_service_v1alpha1_manifest k8s_traefik_io_traefik_service_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5300,8 +5300,8 @@ export class DataK8STraefikIoTraefikServiceV1Alpha1Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_traefik_io_traefik_service_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

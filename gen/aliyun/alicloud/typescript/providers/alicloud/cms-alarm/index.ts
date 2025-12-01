@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,150 +8,150 @@ import * as cdktf from 'cdktf';
 
 export interface CmsAlarmConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#contact_groups CmsAlarm#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#contact_groups CmsAlarm#contact_groups}
   */
   readonly contactGroups: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#dimensions CmsAlarm#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#dimensions CmsAlarm#dimensions}
   */
   readonly dimensions?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#effective_interval CmsAlarm#effective_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#effective_interval CmsAlarm#effective_interval}
   */
   readonly effectiveInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#enabled CmsAlarm#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#enabled CmsAlarm#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#end_time CmsAlarm#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#end_time CmsAlarm#end_time}
   */
   readonly endTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#id CmsAlarm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#id CmsAlarm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#metric CmsAlarm#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#metric CmsAlarm#metric}
   */
   readonly metric: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#metric_dimensions CmsAlarm#metric_dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#metric_dimensions CmsAlarm#metric_dimensions}
   */
   readonly metricDimensions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#name CmsAlarm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#name CmsAlarm#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#notify_type CmsAlarm#notify_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#notify_type CmsAlarm#notify_type}
   */
   readonly notifyType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#operator CmsAlarm#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#operator CmsAlarm#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#period CmsAlarm#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#period CmsAlarm#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#project CmsAlarm#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#project CmsAlarm#project}
   */
   readonly project: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#silence_time CmsAlarm#silence_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#silence_time CmsAlarm#silence_time}
   */
   readonly silenceTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#start_time CmsAlarm#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#start_time CmsAlarm#start_time}
   */
   readonly startTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#statistics CmsAlarm#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#statistics CmsAlarm#statistics}
   */
   readonly statistics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#tags CmsAlarm#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#tags CmsAlarm#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#threshold CmsAlarm#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#threshold CmsAlarm#threshold}
   */
   readonly threshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#triggered_count CmsAlarm#triggered_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#triggered_count CmsAlarm#triggered_count}
   */
   readonly triggeredCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#webhook CmsAlarm#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#webhook CmsAlarm#webhook}
   */
   readonly webhook?: string;
   /**
   * composite_expression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#composite_expression CmsAlarm#composite_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#composite_expression CmsAlarm#composite_expression}
   */
   readonly compositeExpression?: CmsAlarmCompositeExpression;
   /**
   * escalations_critical block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#escalations_critical CmsAlarm#escalations_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#escalations_critical CmsAlarm#escalations_critical}
   */
   readonly escalationsCritical?: CmsAlarmEscalationsCritical;
   /**
   * escalations_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#escalations_info CmsAlarm#escalations_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#escalations_info CmsAlarm#escalations_info}
   */
   readonly escalationsInfo?: CmsAlarmEscalationsInfo;
   /**
   * escalations_warn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#escalations_warn CmsAlarm#escalations_warn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#escalations_warn CmsAlarm#escalations_warn}
   */
   readonly escalationsWarn?: CmsAlarmEscalationsWarn;
   /**
   * prometheus block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#prometheus CmsAlarm#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#prometheus CmsAlarm#prometheus}
   */
   readonly prometheus?: CmsAlarmPrometheus[] | cdktf.IResolvable;
   /**
   * targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#targets CmsAlarm#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#targets CmsAlarm#targets}
   */
   readonly targets?: CmsAlarmTargets[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#timeouts CmsAlarm#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#timeouts CmsAlarm#timeouts}
   */
   readonly timeouts?: CmsAlarmTimeouts;
 }
 export interface CmsAlarmCompositeExpressionExpressionListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#comparison_operator CmsAlarm#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#comparison_operator CmsAlarm#comparison_operator}
   */
   readonly comparisonOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#metric_name CmsAlarm#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#metric_name CmsAlarm#metric_name}
   */
   readonly metricName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#period CmsAlarm#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#period CmsAlarm#period}
   */
   readonly period?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#statistics CmsAlarm#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#statistics CmsAlarm#statistics}
   */
   readonly statistics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#threshold CmsAlarm#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#threshold CmsAlarm#threshold}
   */
   readonly threshold?: string;
 }
@@ -383,25 +383,25 @@ export class CmsAlarmCompositeExpressionExpressionListStructList extends cdktf.C
 }
 export interface CmsAlarmCompositeExpression {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#expression_list_join CmsAlarm#expression_list_join}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#expression_list_join CmsAlarm#expression_list_join}
   */
   readonly expressionListJoin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#expression_raw CmsAlarm#expression_raw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#expression_raw CmsAlarm#expression_raw}
   */
   readonly expressionRaw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#level CmsAlarm#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#level CmsAlarm#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#times CmsAlarm#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#times CmsAlarm#times}
   */
   readonly times?: number;
   /**
   * expression_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#expression_list CmsAlarm#expression_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#expression_list CmsAlarm#expression_list}
   */
   readonly expressionList?: CmsAlarmCompositeExpressionExpressionListStruct[] | cdktf.IResolvable;
 }
@@ -601,19 +601,19 @@ export class CmsAlarmCompositeExpressionOutputReference extends cdktf.ComplexObj
 }
 export interface CmsAlarmEscalationsCritical {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#comparison_operator CmsAlarm#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#comparison_operator CmsAlarm#comparison_operator}
   */
   readonly comparisonOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#statistics CmsAlarm#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#statistics CmsAlarm#statistics}
   */
   readonly statistics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#threshold CmsAlarm#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#threshold CmsAlarm#threshold}
   */
   readonly threshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#times CmsAlarm#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#times CmsAlarm#times}
   */
   readonly times?: number;
 }
@@ -784,19 +784,19 @@ export class CmsAlarmEscalationsCriticalOutputReference extends cdktf.ComplexObj
 }
 export interface CmsAlarmEscalationsInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#comparison_operator CmsAlarm#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#comparison_operator CmsAlarm#comparison_operator}
   */
   readonly comparisonOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#statistics CmsAlarm#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#statistics CmsAlarm#statistics}
   */
   readonly statistics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#threshold CmsAlarm#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#threshold CmsAlarm#threshold}
   */
   readonly threshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#times CmsAlarm#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#times CmsAlarm#times}
   */
   readonly times?: number;
 }
@@ -967,19 +967,19 @@ export class CmsAlarmEscalationsInfoOutputReference extends cdktf.ComplexObject 
 }
 export interface CmsAlarmEscalationsWarn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#comparison_operator CmsAlarm#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#comparison_operator CmsAlarm#comparison_operator}
   */
   readonly comparisonOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#statistics CmsAlarm#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#statistics CmsAlarm#statistics}
   */
   readonly statistics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#threshold CmsAlarm#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#threshold CmsAlarm#threshold}
   */
   readonly threshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#times CmsAlarm#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#times CmsAlarm#times}
   */
   readonly times?: number;
 }
@@ -1150,19 +1150,19 @@ export class CmsAlarmEscalationsWarnOutputReference extends cdktf.ComplexObject 
 }
 export interface CmsAlarmPrometheus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#annotations CmsAlarm#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#annotations CmsAlarm#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#level CmsAlarm#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#level CmsAlarm#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#prom_ql CmsAlarm#prom_ql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#prom_ql CmsAlarm#prom_ql}
   */
   readonly promQl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#times CmsAlarm#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#times CmsAlarm#times}
   */
   readonly times?: number;
 }
@@ -1365,19 +1365,19 @@ export class CmsAlarmPrometheusList extends cdktf.ComplexList {
 }
 export interface CmsAlarmTargets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#arn CmsAlarm#arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#arn CmsAlarm#arn}
   */
   readonly arn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#json_params CmsAlarm#json_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#json_params CmsAlarm#json_params}
   */
   readonly jsonParams?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#level CmsAlarm#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#level CmsAlarm#level}
   */
   readonly level?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#target_id CmsAlarm#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#target_id CmsAlarm#target_id}
   */
   readonly targetId?: string;
 }
@@ -1580,15 +1580,15 @@ export class CmsAlarmTargetsList extends cdktf.ComplexList {
 }
 export interface CmsAlarmTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#create CmsAlarm#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#create CmsAlarm#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#delete CmsAlarm#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#delete CmsAlarm#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#update CmsAlarm#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#update CmsAlarm#update}
   */
   readonly update?: string;
 }
@@ -1740,7 +1740,7 @@ export class CmsAlarmTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm alicloud_cms_alarm}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm alicloud_cms_alarm}
 */
 export class CmsAlarm extends cdktf.TerraformResource {
 
@@ -1756,7 +1756,7 @@ export class CmsAlarm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CmsAlarm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CmsAlarm to import
-  * @param importFromId The id of the existing CmsAlarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CmsAlarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CmsAlarm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1768,7 +1768,7 @@ export class CmsAlarm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_alarm alicloud_cms_alarm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_alarm alicloud_cms_alarm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1779,8 +1779,8 @@ export class CmsAlarm extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cms_alarm',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

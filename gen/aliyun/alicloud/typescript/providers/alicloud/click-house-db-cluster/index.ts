@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,130 +8,130 @@ import * as cdktf from 'cdktf';
 
 export interface ClickHouseDbClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#allocate_public_connection ClickHouseDbCluster#allocate_public_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#allocate_public_connection ClickHouseDbCluster#allocate_public_connection}
   */
   readonly allocatePublicConnection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#category ClickHouseDbCluster#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#category ClickHouseDbCluster#category}
   */
   readonly category: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#cold_storage ClickHouseDbCluster#cold_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#cold_storage ClickHouseDbCluster#cold_storage}
   */
   readonly coldStorage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#db_cluster_class ClickHouseDbCluster#db_cluster_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#db_cluster_class ClickHouseDbCluster#db_cluster_class}
   */
   readonly dbClusterClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#db_cluster_description ClickHouseDbCluster#db_cluster_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#db_cluster_description ClickHouseDbCluster#db_cluster_description}
   */
   readonly dbClusterDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#db_cluster_network_type ClickHouseDbCluster#db_cluster_network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#db_cluster_network_type ClickHouseDbCluster#db_cluster_network_type}
   */
   readonly dbClusterNetworkType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#db_cluster_version ClickHouseDbCluster#db_cluster_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#db_cluster_version ClickHouseDbCluster#db_cluster_version}
   */
   readonly dbClusterVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#db_node_group_count ClickHouseDbCluster#db_node_group_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#db_node_group_count ClickHouseDbCluster#db_node_group_count}
   */
   readonly dbNodeGroupCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#db_node_storage ClickHouseDbCluster#db_node_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#db_node_storage ClickHouseDbCluster#db_node_storage}
   */
   readonly dbNodeStorage: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#encryption_key ClickHouseDbCluster#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#encryption_key ClickHouseDbCluster#encryption_key}
   */
   readonly encryptionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#encryption_type ClickHouseDbCluster#encryption_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#encryption_type ClickHouseDbCluster#encryption_type}
   */
   readonly encryptionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#id ClickHouseDbCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#id ClickHouseDbCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#maintain_time ClickHouseDbCluster#maintain_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#maintain_time ClickHouseDbCluster#maintain_time}
   */
   readonly maintainTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#payment_type ClickHouseDbCluster#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#payment_type ClickHouseDbCluster#payment_type}
   */
   readonly paymentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#period ClickHouseDbCluster#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#period ClickHouseDbCluster#period}
   */
   readonly period?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#renewal_status ClickHouseDbCluster#renewal_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#renewal_status ClickHouseDbCluster#renewal_status}
   */
   readonly renewalStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#resource_group_id ClickHouseDbCluster#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#resource_group_id ClickHouseDbCluster#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#status ClickHouseDbCluster#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#status ClickHouseDbCluster#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#storage_type ClickHouseDbCluster#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#storage_type ClickHouseDbCluster#storage_type}
   */
   readonly storageType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#used_time ClickHouseDbCluster#used_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#used_time ClickHouseDbCluster#used_time}
   */
   readonly usedTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#vpc_id ClickHouseDbCluster#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#vpc_id ClickHouseDbCluster#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#vswitch_id ClickHouseDbCluster#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#vswitch_id ClickHouseDbCluster#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#zone_id ClickHouseDbCluster#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#zone_id ClickHouseDbCluster#zone_id}
   */
   readonly zoneId?: string;
   /**
   * db_cluster_access_white_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#db_cluster_access_white_list ClickHouseDbCluster#db_cluster_access_white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#db_cluster_access_white_list ClickHouseDbCluster#db_cluster_access_white_list}
   */
   readonly dbClusterAccessWhiteList?: ClickHouseDbClusterDbClusterAccessWhiteListStruct[] | cdktf.IResolvable;
   /**
   * multi_zone_vswitch_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#multi_zone_vswitch_list ClickHouseDbCluster#multi_zone_vswitch_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#multi_zone_vswitch_list ClickHouseDbCluster#multi_zone_vswitch_list}
   */
   readonly multiZoneVswitchList?: ClickHouseDbClusterMultiZoneVswitchListStruct[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#timeouts ClickHouseDbCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#timeouts ClickHouseDbCluster#timeouts}
   */
   readonly timeouts?: ClickHouseDbClusterTimeouts;
 }
 export interface ClickHouseDbClusterDbClusterAccessWhiteListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#db_cluster_ip_array_attribute ClickHouseDbCluster#db_cluster_ip_array_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#db_cluster_ip_array_attribute ClickHouseDbCluster#db_cluster_ip_array_attribute}
   */
   readonly dbClusterIpArrayAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#db_cluster_ip_array_name ClickHouseDbCluster#db_cluster_ip_array_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#db_cluster_ip_array_name ClickHouseDbCluster#db_cluster_ip_array_name}
   */
   readonly dbClusterIpArrayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#security_ip_list ClickHouseDbCluster#security_ip_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#security_ip_list ClickHouseDbCluster#security_ip_list}
   */
   readonly securityIpList?: string;
 }
@@ -305,11 +305,11 @@ export class ClickHouseDbClusterDbClusterAccessWhiteListStructList extends cdktf
 }
 export interface ClickHouseDbClusterMultiZoneVswitchListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#vswitch_id ClickHouseDbCluster#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#vswitch_id ClickHouseDbCluster#vswitch_id}
   */
   readonly vswitchId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#zone_id ClickHouseDbCluster#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#zone_id ClickHouseDbCluster#zone_id}
   */
   readonly zoneId?: string;
 }
@@ -451,11 +451,11 @@ export class ClickHouseDbClusterMultiZoneVswitchListStructList extends cdktf.Com
 }
 export interface ClickHouseDbClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#create ClickHouseDbCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#create ClickHouseDbCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#update ClickHouseDbCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#update ClickHouseDbCluster#update}
   */
   readonly update?: string;
 }
@@ -578,7 +578,7 @@ export class ClickHouseDbClusterTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster alicloud_click_house_db_cluster}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster alicloud_click_house_db_cluster}
 */
 export class ClickHouseDbCluster extends cdktf.TerraformResource {
 
@@ -594,7 +594,7 @@ export class ClickHouseDbCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClickHouseDbCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClickHouseDbCluster to import
-  * @param importFromId The id of the existing ClickHouseDbCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClickHouseDbCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClickHouseDbCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -606,7 +606,7 @@ export class ClickHouseDbCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_db_cluster alicloud_click_house_db_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_db_cluster alicloud_click_house_db_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -617,8 +617,8 @@ export class ClickHouseDbCluster extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_click_house_db_cluster',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

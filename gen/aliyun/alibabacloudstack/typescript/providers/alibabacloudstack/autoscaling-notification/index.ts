@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_notification
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/autoscaling_notification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface AutoscalingNotificationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_notification#id AutoscalingNotification#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/autoscaling_notification#id AutoscalingNotification#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_notification#notification_arn AutoscalingNotification#notification_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/autoscaling_notification#notification_arn AutoscalingNotification#notification_arn}
   */
   readonly notificationArn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_notification#notification_types AutoscalingNotification#notification_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/autoscaling_notification#notification_types AutoscalingNotification#notification_types}
   */
   readonly notificationTypes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_notification#scaling_group_id AutoscalingNotification#scaling_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/autoscaling_notification#scaling_group_id AutoscalingNotification#scaling_group_id}
   */
   readonly scalingGroupId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_notification alibabacloudstack_autoscaling_notification}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/autoscaling_notification alibabacloudstack_autoscaling_notification}
 */
 export class AutoscalingNotification extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class AutoscalingNotification extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutoscalingNotification resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutoscalingNotification to import
-  * @param importFromId The id of the existing AutoscalingNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_notification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutoscalingNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/autoscaling_notification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutoscalingNotification to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class AutoscalingNotification extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/autoscaling_notification alibabacloudstack_autoscaling_notification} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/autoscaling_notification alibabacloudstack_autoscaling_notification} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class AutoscalingNotification extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_autoscaling_notification',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,114 +8,114 @@ import * as cdktf from 'cdktf';
 
 export interface CdnDomainConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#block_ips CdnDomain#block_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#block_ips CdnDomain#block_ips}
   */
   readonly blockIps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#cdn_type CdnDomain#cdn_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#cdn_type CdnDomain#cdn_type}
   */
   readonly cdnType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#domain_name CdnDomain#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#domain_name CdnDomain#domain_name}
   */
   readonly domainName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#id CdnDomain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#id CdnDomain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#optimize_enable CdnDomain#optimize_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#optimize_enable CdnDomain#optimize_enable}
   */
   readonly optimizeEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#page_compress_enable CdnDomain#page_compress_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#page_compress_enable CdnDomain#page_compress_enable}
   */
   readonly pageCompressEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#range_enable CdnDomain#range_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#range_enable CdnDomain#range_enable}
   */
   readonly rangeEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#scope CdnDomain#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#scope CdnDomain#scope}
   */
   readonly scope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#source_port CdnDomain#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#source_port CdnDomain#source_port}
   */
   readonly sourcePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#source_type CdnDomain#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#source_type CdnDomain#source_type}
   */
   readonly sourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#sources CdnDomain#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#sources CdnDomain#sources}
   */
   readonly sources?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#video_seek_enable CdnDomain#video_seek_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#video_seek_enable CdnDomain#video_seek_enable}
   */
   readonly videoSeekEnable?: string;
   /**
   * auth_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#auth_config CdnDomain#auth_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#auth_config CdnDomain#auth_config}
   */
   readonly authConfig?: CdnDomainAuthConfig;
   /**
   * cache_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#cache_config CdnDomain#cache_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#cache_config CdnDomain#cache_config}
   */
   readonly cacheConfig?: CdnDomainCacheConfig[] | cdktf.IResolvable;
   /**
   * certificate_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#certificate_config CdnDomain#certificate_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#certificate_config CdnDomain#certificate_config}
   */
   readonly certificateConfig?: CdnDomainCertificateConfig;
   /**
   * http_header_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#http_header_config CdnDomain#http_header_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#http_header_config CdnDomain#http_header_config}
   */
   readonly httpHeaderConfig?: CdnDomainHttpHeaderConfig[] | cdktf.IResolvable;
   /**
   * page_404_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#page_404_config CdnDomain#page_404_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#page_404_config CdnDomain#page_404_config}
   */
   readonly page404Config?: CdnDomainPage404Config;
   /**
   * parameter_filter_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#parameter_filter_config CdnDomain#parameter_filter_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#parameter_filter_config CdnDomain#parameter_filter_config}
   */
   readonly parameterFilterConfig?: CdnDomainParameterFilterConfig;
   /**
   * refer_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#refer_config CdnDomain#refer_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#refer_config CdnDomain#refer_config}
   */
   readonly referConfig?: CdnDomainReferConfig;
 }
 export interface CdnDomainAuthConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#auth_type CdnDomain#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#auth_type CdnDomain#auth_type}
   */
   readonly authType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#master_key CdnDomain#master_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#master_key CdnDomain#master_key}
   */
   readonly masterKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#slave_key CdnDomain#slave_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#slave_key CdnDomain#slave_key}
   */
   readonly slaveKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#timeout CdnDomain#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#timeout CdnDomain#timeout}
   */
   readonly timeout?: number;
 }
@@ -286,19 +286,19 @@ export class CdnDomainAuthConfigOutputReference extends cdktf.ComplexObject {
 }
 export interface CdnDomainCacheConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#cache_content CdnDomain#cache_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#cache_content CdnDomain#cache_content}
   */
   readonly cacheContent: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#cache_type CdnDomain#cache_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#cache_type CdnDomain#cache_type}
   */
   readonly cacheType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#ttl CdnDomain#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#ttl CdnDomain#ttl}
   */
   readonly ttl: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#weight CdnDomain#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#weight CdnDomain#weight}
   */
   readonly weight?: number;
 }
@@ -497,15 +497,15 @@ export class CdnDomainCacheConfigList extends cdktf.ComplexList {
 }
 export interface CdnDomainCertificateConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#private_key CdnDomain#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#private_key CdnDomain#private_key}
   */
   readonly privateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#server_certificate CdnDomain#server_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#server_certificate CdnDomain#server_certificate}
   */
   readonly serverCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#server_certificate_status CdnDomain#server_certificate_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#server_certificate_status CdnDomain#server_certificate_status}
   */
   readonly serverCertificateStatus?: string;
 }
@@ -647,11 +647,11 @@ export class CdnDomainCertificateConfigOutputReference extends cdktf.ComplexObje
 }
 export interface CdnDomainHttpHeaderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#header_key CdnDomain#header_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#header_key CdnDomain#header_key}
   */
   readonly headerKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#header_value CdnDomain#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#header_value CdnDomain#header_value}
   */
   readonly headerValue: string;
 }
@@ -795,11 +795,11 @@ export class CdnDomainHttpHeaderConfigList extends cdktf.ComplexList {
 }
 export interface CdnDomainPage404Config {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#custom_page_url CdnDomain#custom_page_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#custom_page_url CdnDomain#custom_page_url}
   */
   readonly customPageUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#page_type CdnDomain#page_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#page_type CdnDomain#page_type}
   */
   readonly pageType?: string;
 }
@@ -917,11 +917,11 @@ export class CdnDomainPage404ConfigOutputReference extends cdktf.ComplexObject {
 }
 export interface CdnDomainParameterFilterConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#enable CdnDomain#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#enable CdnDomain#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#hash_key_args CdnDomain#hash_key_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#hash_key_args CdnDomain#hash_key_args}
   */
   readonly hashKeyArgs?: string[];
 }
@@ -1034,15 +1034,15 @@ export class CdnDomainParameterFilterConfigOutputReference extends cdktf.Complex
 }
 export interface CdnDomainReferConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#allow_empty CdnDomain#allow_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#allow_empty CdnDomain#allow_empty}
   */
   readonly allowEmpty?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#refer_list CdnDomain#refer_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#refer_list CdnDomain#refer_list}
   */
   readonly referList: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#refer_type CdnDomain#refer_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#refer_type CdnDomain#refer_type}
   */
   readonly referType?: string;
 }
@@ -1181,7 +1181,7 @@ export class CdnDomainReferConfigOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain alicloud_cdn_domain}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain alicloud_cdn_domain}
 */
 export class CdnDomain extends cdktf.TerraformResource {
 
@@ -1197,7 +1197,7 @@ export class CdnDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdnDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdnDomain to import
-  * @param importFromId The id of the existing CdnDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdnDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdnDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1209,7 +1209,7 @@ export class CdnDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cdn_domain alicloud_cdn_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cdn_domain alicloud_cdn_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1220,8 +1220,8 @@ export class CdnDomain extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cdn_domain',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

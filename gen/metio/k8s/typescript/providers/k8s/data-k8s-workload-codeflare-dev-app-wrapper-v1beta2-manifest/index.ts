@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SWorkloadCodeflareDevAppWrapperV1Beta2ManifestConfig exte
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#metadata DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#metadata DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#metadata}
   */
   readonly metadata: DataK8SWorkloadCodeflareDevAppWrapperV1Beta2ManifestMetadata;
   /**
   * AppWrapperSpec defines the desired state of the AppWrapper
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#spec DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#spec DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#spec}
   */
   readonly spec?: DataK8SWorkloadCodeflareDevAppWrapperV1Beta2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SWorkloadCodeflareDevAppWrapperV1Beta2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#annotations DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#annotations DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#labels DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#labels DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#name DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#name DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#namespace DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#namespace DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,31 +219,31 @@ export interface DataK8SWorkloadCodeflareDevAppWrapperV1Beta2ManifestSpecCompone
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#effect DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#effect DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#key DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#key DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#operator DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#operator DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#toleration_seconds DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#toleration_seconds DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#value DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#value DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#value}
   */
   readonly value?: string;
 }
@@ -477,25 +477,25 @@ export interface DataK8SWorkloadCodeflareDevAppWrapperV1Beta2ManifestSpecCompone
   /**
   * Annotations to be added to the PodSpecTemplate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#annotations DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#annotations DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Labels to be added to the PodSepcTemplate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#labels DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#labels DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * NodeSelectors to be added to the PodSpecTemplate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#node_selector DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#node_selector DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Tolerations to be added to the PodSpecTemplate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#tolerations DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#tolerations DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#tolerations}
   */
   readonly tolerations?: DataK8SWorkloadCodeflareDevAppWrapperV1Beta2ManifestSpecComponentsPodSetInfosTolerations[] | cdktf.IResolvable;
 }
@@ -700,13 +700,13 @@ export interface DataK8SWorkloadCodeflareDevAppWrapperV1Beta2ManifestSpecCompone
   /**
   * Path is the path Component.Template to the PodTemplateSpec for this PodSet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#path DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#path DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#path}
   */
   readonly path: string;
   /**
   * Replicas is the number of pods in this PodSet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#replicas DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#replicas DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#replicas}
   */
   readonly replicas?: number;
 }
@@ -850,25 +850,25 @@ export interface DataK8SWorkloadCodeflareDevAppWrapperV1Beta2ManifestSpecCompone
   /**
   * Annotations is an unstructured key value map that may be used to store and retrieve arbitrary metadata about the Component to customize its treatment by the AppWrapper controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#annotations DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#annotations DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * PodSetInfos assigned to the Component's PodSets by Kueue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#pod_set_infos DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#pod_set_infos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#pod_set_infos DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#pod_set_infos}
   */
   readonly podSetInfos?: DataK8SWorkloadCodeflareDevAppWrapperV1Beta2ManifestSpecComponentsPodSetInfos[] | cdktf.IResolvable;
   /**
   * DeclaredPodSets for the Component (optional for known PodCreating GVKs)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#pod_sets DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#pod_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#pod_sets DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#pod_sets}
   */
   readonly podSets?: DataK8SWorkloadCodeflareDevAppWrapperV1Beta2ManifestSpecComponentsPodSets[] | cdktf.IResolvable;
   /**
   * Template defines the Kubernetes resource for the Component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#template DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#template DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#template}
   */
   readonly template: { [key: string]: string };
 }
@@ -1070,19 +1070,19 @@ export interface DataK8SWorkloadCodeflareDevAppWrapperV1Beta2ManifestSpec {
   /**
   * Components lists the components contained in the AppWrapper
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#components DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#components}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#components DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#components}
   */
   readonly components: DataK8SWorkloadCodeflareDevAppWrapperV1Beta2ManifestSpecComponents[] | cdktf.IResolvable;
   /**
   * ManagedBy is used to indicate the controller or entity that manages the AppWrapper.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#managed_by DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#managed_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#managed_by DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#managed_by}
   */
   readonly managedBy?: string;
   /**
   * Suspend suspends the AppWrapper when set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#suspend DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#suspend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#suspend DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest#suspend}
   */
   readonly suspend?: boolean | cdktf.IResolvable;
 }
@@ -1231,7 +1231,7 @@ export class DataK8SWorkloadCodeflareDevAppWrapperV1Beta2ManifestSpecOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest k8s_workload_codeflare_dev_app_wrapper_v1beta2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest k8s_workload_codeflare_dev_app_wrapper_v1beta2_manifest}
 */
 export class DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest extends cdktf.TerraformDataSource {
 
@@ -1247,7 +1247,7 @@ export class DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest extends cdktf.
   * Generates CDKTF code for importing a DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest to import
-  * @param importFromId The id of the existing DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1259,7 +1259,7 @@ export class DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest k8s_workload_codeflare_dev_app_wrapper_v1beta2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_app_wrapper_v1beta2_manifest k8s_workload_codeflare_dev_app_wrapper_v1beta2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1270,8 +1270,8 @@ export class DataK8SWorkloadCodeflareDevAppWrapperV1Beta2Manifest extends cdktf.
       terraformResourceType: 'k8s_workload_codeflare_dev_app_wrapper_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

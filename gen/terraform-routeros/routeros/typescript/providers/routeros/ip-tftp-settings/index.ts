@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_tftp_settings
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_tftp_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface IpTftpSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_tftp_settings#___path___ IpTftpSettings#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_tftp_settings#___path___ IpTftpSettings#___path___}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_tftp_settings#id IpTftpSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_tftp_settings#id IpTftpSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface IpTftpSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Maximum accepted block size value. During transfer negotiation phase, RouterOS device will not negotiate larger value than this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_tftp_settings#max_block_size IpTftpSettings#max_block_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_tftp_settings#max_block_size IpTftpSettings#max_block_size}
   */
   readonly maxBlockSize?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_tftp_settings routeros_ip_tftp_settings}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_tftp_settings routeros_ip_tftp_settings}
 */
 export class IpTftpSettings extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class IpTftpSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpTftpSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpTftpSettings to import
-  * @param importFromId The id of the existing IpTftpSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_tftp_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpTftpSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_tftp_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpTftpSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class IpTftpSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_tftp_settings routeros_ip_tftp_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_tftp_settings routeros_ip_tftp_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class IpTftpSettings extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_tftp_settings',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.94.0',
-        providerVersionConstraint: '1.94.0'
+        providerVersion: '1.95.0',
+        providerVersionConstraint: '1.95.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

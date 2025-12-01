@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/data-sources/errors_application
+// https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/data-sources/errors_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,108 @@ export interface DataLogtailErrorsApplicationConfig extends cdktf.TerraformMetaA
   /**
   * Application name. Must be unique within your team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/data-sources/errors_application#name DataLogtailErrorsApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/data-sources/errors_application#name DataLogtailErrorsApplication#name}
   */
   readonly name: string;
 }
+export interface DataLogtailErrorsApplicationCustomBucket {
+}
+
+export function dataLogtailErrorsApplicationCustomBucketToTerraform(struct?: DataLogtailErrorsApplicationCustomBucket): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataLogtailErrorsApplicationCustomBucketToHclTerraform(struct?: DataLogtailErrorsApplicationCustomBucket): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataLogtailErrorsApplicationCustomBucketOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataLogtailErrorsApplicationCustomBucket | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataLogtailErrorsApplicationCustomBucket | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // access_key_id - computed: true, optional: false, required: false
+  public get accessKeyId() {
+    return this.getStringAttribute('access_key_id');
+  }
+
+  // endpoint - computed: true, optional: false, required: false
+  public get endpoint() {
+    return this.getStringAttribute('endpoint');
+  }
+
+  // keep_data_after_retention - computed: true, optional: false, required: false
+  public get keepDataAfterRetention() {
+    return this.getBooleanAttribute('keep_data_after_retention');
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // secret_access_key - computed: true, optional: false, required: false
+  public get secretAccessKey() {
+    return this.getStringAttribute('secret_access_key');
+  }
+}
+
+export class DataLogtailErrorsApplicationCustomBucketList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataLogtailErrorsApplicationCustomBucketOutputReference {
+    return new DataLogtailErrorsApplicationCustomBucketOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/data-sources/errors_application logtail_errors_application}
+* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/data-sources/errors_application logtail_errors_application}
 */
 export class DataLogtailErrorsApplication extends cdktf.TerraformDataSource {
 
@@ -32,7 +127,7 @@ export class DataLogtailErrorsApplication extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLogtailErrorsApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLogtailErrorsApplication to import
-  * @param importFromId The id of the existing DataLogtailErrorsApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/data-sources/errors_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLogtailErrorsApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/data-sources/errors_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLogtailErrorsApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +139,7 @@ export class DataLogtailErrorsApplication extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/data-sources/errors_application logtail_errors_application} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/data-sources/errors_application logtail_errors_application} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +150,8 @@ export class DataLogtailErrorsApplication extends cdktf.TerraformDataSource {
       terraformResourceType: 'logtail_errors_application',
       terraformGeneratorMetadata: {
         providerName: 'logtail',
-        providerVersion: '0.7.1',
-        providerVersionConstraint: '0.7.1'
+        providerVersion: '0.7.2',
+        providerVersionConstraint: '0.7.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -81,6 +176,12 @@ export class DataLogtailErrorsApplication extends cdktf.TerraformDataSource {
   // created_at - computed: true, optional: false, required: false
   public get createdAt() {
     return this.getStringAttribute('created_at');
+  }
+
+  // custom_bucket - computed: true, optional: false, required: false
+  private _customBucket = new DataLogtailErrorsApplicationCustomBucketList(this, "custom_bucket", false);
+  public get customBucket() {
+    return this._customBucket;
   }
 
   // data_region - computed: true, optional: false, required: false

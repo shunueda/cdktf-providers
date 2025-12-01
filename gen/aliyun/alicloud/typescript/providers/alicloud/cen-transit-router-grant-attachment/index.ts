@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_grant_attachment
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_transit_router_grant_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface CenTransitRouterGrantAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_grant_attachment#cen_id CenTransitRouterGrantAttachment#cen_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_transit_router_grant_attachment#cen_id CenTransitRouterGrantAttachment#cen_id}
   */
   readonly cenId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_grant_attachment#cen_owner_id CenTransitRouterGrantAttachment#cen_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_transit_router_grant_attachment#cen_owner_id CenTransitRouterGrantAttachment#cen_owner_id}
   */
   readonly cenOwnerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_grant_attachment#id CenTransitRouterGrantAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_transit_router_grant_attachment#id CenTransitRouterGrantAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_grant_attachment#instance_id CenTransitRouterGrantAttachment#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_transit_router_grant_attachment#instance_id CenTransitRouterGrantAttachment#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_grant_attachment#instance_type CenTransitRouterGrantAttachment#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_transit_router_grant_attachment#instance_type CenTransitRouterGrantAttachment#instance_type}
   */
   readonly instanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_grant_attachment#order_type CenTransitRouterGrantAttachment#order_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_transit_router_grant_attachment#order_type CenTransitRouterGrantAttachment#order_type}
   */
   readonly orderType?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_grant_attachment#timeouts CenTransitRouterGrantAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_transit_router_grant_attachment#timeouts CenTransitRouterGrantAttachment#timeouts}
   */
   readonly timeouts?: CenTransitRouterGrantAttachmentTimeouts;
 }
 export interface CenTransitRouterGrantAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_grant_attachment#create CenTransitRouterGrantAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_transit_router_grant_attachment#create CenTransitRouterGrantAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_grant_attachment#delete CenTransitRouterGrantAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_transit_router_grant_attachment#delete CenTransitRouterGrantAttachment#delete}
   */
   readonly delete?: string;
 }
@@ -170,7 +170,7 @@ export class CenTransitRouterGrantAttachmentTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_grant_attachment alicloud_cen_transit_router_grant_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_transit_router_grant_attachment alicloud_cen_transit_router_grant_attachment}
 */
 export class CenTransitRouterGrantAttachment extends cdktf.TerraformResource {
 
@@ -186,7 +186,7 @@ export class CenTransitRouterGrantAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CenTransitRouterGrantAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CenTransitRouterGrantAttachment to import
-  * @param importFromId The id of the existing CenTransitRouterGrantAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_grant_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CenTransitRouterGrantAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_transit_router_grant_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CenTransitRouterGrantAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -198,7 +198,7 @@ export class CenTransitRouterGrantAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cen_transit_router_grant_attachment alicloud_cen_transit_router_grant_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cen_transit_router_grant_attachment alicloud_cen_transit_router_grant_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -209,8 +209,8 @@ export class CenTransitRouterGrantAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cen_transit_router_grant_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAppsKubeblocksIoComponentVersionV1ManifestConfig extends
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#metadata DataK8SAppsKubeblocksIoComponentVersionV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#metadata DataK8SAppsKubeblocksIoComponentVersionV1Manifest#metadata}
   */
   readonly metadata: DataK8SAppsKubeblocksIoComponentVersionV1ManifestMetadata;
   /**
   * ComponentVersionSpec defines the desired state of ComponentVersion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#spec DataK8SAppsKubeblocksIoComponentVersionV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#spec DataK8SAppsKubeblocksIoComponentVersionV1Manifest#spec}
   */
   readonly spec?: DataK8SAppsKubeblocksIoComponentVersionV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SAppsKubeblocksIoComponentVersionV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#annotations DataK8SAppsKubeblocksIoComponentVersionV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#annotations DataK8SAppsKubeblocksIoComponentVersionV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#labels DataK8SAppsKubeblocksIoComponentVersionV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#labels DataK8SAppsKubeblocksIoComponentVersionV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#name DataK8SAppsKubeblocksIoComponentVersionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#name DataK8SAppsKubeblocksIoComponentVersionV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,13 +187,13 @@ export interface DataK8SAppsKubeblocksIoComponentVersionV1ManifestSpecCompatibil
   /**
   * CompDefs specifies names for the component definitions associated with this ComponentVersion. Each name in the list can represent an exact name, a name prefix, or a regular expression pattern. For example: - 'mysql-8.0.30-v1alpha1': Matches the exact name 'mysql-8.0.30-v1alpha1' - 'mysql-8.0.30': Matches all names starting with 'mysql-8.0.30' - '^mysql-8.0.d{1,2}$': Matches all names starting with 'mysql-8.0.' followed by one or two digits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#comp_defs DataK8SAppsKubeblocksIoComponentVersionV1Manifest#comp_defs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#comp_defs DataK8SAppsKubeblocksIoComponentVersionV1Manifest#comp_defs}
   */
   readonly compDefs: string[];
   /**
   * Releases is a list of identifiers for the releases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#releases DataK8SAppsKubeblocksIoComponentVersionV1Manifest#releases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#releases DataK8SAppsKubeblocksIoComponentVersionV1Manifest#releases}
   */
   readonly releases: string[];
 }
@@ -334,25 +334,25 @@ export interface DataK8SAppsKubeblocksIoComponentVersionV1ManifestSpecReleases {
   /**
   * Changes provides information about the changes made in this release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#changes DataK8SAppsKubeblocksIoComponentVersionV1Manifest#changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#changes DataK8SAppsKubeblocksIoComponentVersionV1Manifest#changes}
   */
   readonly changes?: string;
   /**
   * Images define the new images for containers, actions or external applications within the release. If an image is specified for a lifecycle action, the key should be the field name (case-insensitive) of the action in the LifecycleActions struct.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#images DataK8SAppsKubeblocksIoComponentVersionV1Manifest#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#images DataK8SAppsKubeblocksIoComponentVersionV1Manifest#images}
   */
   readonly images: { [key: string]: string };
   /**
   * Name is a unique identifier for this release. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#name DataK8SAppsKubeblocksIoComponentVersionV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#name DataK8SAppsKubeblocksIoComponentVersionV1Manifest#name}
   */
   readonly name: string;
   /**
   * ServiceVersion defines the version of the well-known service that the component provides. The version should follow the syntax and semantics of the 'Semantic Versioning' specification (http://semver.org/). If the release is used, it will serve as the service version for component instances, overriding the one defined in the component definition. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#service_version DataK8SAppsKubeblocksIoComponentVersionV1Manifest#service_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#service_version DataK8SAppsKubeblocksIoComponentVersionV1Manifest#service_version}
   */
   readonly serviceVersion: string;
 }
@@ -548,13 +548,13 @@ export interface DataK8SAppsKubeblocksIoComponentVersionV1ManifestSpec {
   /**
   * CompatibilityRules defines compatibility rules between sets of component definitions and releases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#compatibility_rules DataK8SAppsKubeblocksIoComponentVersionV1Manifest#compatibility_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#compatibility_rules DataK8SAppsKubeblocksIoComponentVersionV1Manifest#compatibility_rules}
   */
   readonly compatibilityRules: DataK8SAppsKubeblocksIoComponentVersionV1ManifestSpecCompatibilityRules[] | cdktf.IResolvable;
   /**
   * Releases represents different releases of component instances within this ComponentVersion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#releases DataK8SAppsKubeblocksIoComponentVersionV1Manifest#releases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#releases DataK8SAppsKubeblocksIoComponentVersionV1Manifest#releases}
   */
   readonly releases: DataK8SAppsKubeblocksIoComponentVersionV1ManifestSpecReleases[] | cdktf.IResolvable;
 }
@@ -671,7 +671,7 @@ export class DataK8SAppsKubeblocksIoComponentVersionV1ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest k8s_apps_kubeblocks_io_component_version_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest k8s_apps_kubeblocks_io_component_version_v1_manifest}
 */
 export class DataK8SAppsKubeblocksIoComponentVersionV1Manifest extends cdktf.TerraformDataSource {
 
@@ -687,7 +687,7 @@ export class DataK8SAppsKubeblocksIoComponentVersionV1Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SAppsKubeblocksIoComponentVersionV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppsKubeblocksIoComponentVersionV1Manifest to import
-  * @param importFromId The id of the existing DataK8SAppsKubeblocksIoComponentVersionV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppsKubeblocksIoComponentVersionV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppsKubeblocksIoComponentVersionV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -699,7 +699,7 @@ export class DataK8SAppsKubeblocksIoComponentVersionV1Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest k8s_apps_kubeblocks_io_component_version_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_kubeblocks_io_component_version_v1_manifest k8s_apps_kubeblocks_io_component_version_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -710,8 +710,8 @@ export class DataK8SAppsKubeblocksIoComponentVersionV1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_apps_kubeblocks_io_component_version_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

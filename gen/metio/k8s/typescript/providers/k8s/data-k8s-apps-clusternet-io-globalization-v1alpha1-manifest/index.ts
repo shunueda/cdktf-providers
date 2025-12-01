@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAppsClusternetIoGlobalizationV1Alpha1ManifestConfig exte
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#metadata DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#metadata DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAppsClusternetIoGlobalizationV1Alpha1ManifestMetadata;
   /**
   * GlobalizationSpec defines the desired state of Globalization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#spec DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#spec DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SAppsClusternetIoGlobalizationV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SAppsClusternetIoGlobalizationV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#annotations DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#annotations DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#labels DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#labels DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#name DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#name DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,19 +187,19 @@ export interface DataK8SAppsClusternetIoGlobalizationV1Alpha1ManifestSpecCluster
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#key DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#key DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#operator DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#operator DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#values DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#values DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -369,13 +369,13 @@ export interface DataK8SAppsClusternetIoGlobalizationV1Alpha1ManifestSpecCluster
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#match_expressions DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SAppsClusternetIoGlobalizationV1Alpha1ManifestSpecClusterAffinityMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#match_labels DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#match_labels DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -500,25 +500,25 @@ export interface DataK8SAppsClusternetIoGlobalizationV1Alpha1ManifestSpecFeed {
   /**
   * APIVersion defines the versioned schema of this representation of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#api_version DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#api_version DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * Kind is a string value representing the REST resource this object represents. In CamelCase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#kind DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#kind DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#name DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#name DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#namespace DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#namespace DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -692,25 +692,25 @@ export interface DataK8SAppsClusternetIoGlobalizationV1Alpha1ManifestSpecOverrid
   /**
   * Name indicate the OverrideConfig name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#name DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#name DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * OverrideChart indicates whether the override value for the HelmChart CR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#override_chart DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#override_chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#override_chart DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#override_chart}
   */
   readonly overrideChart?: boolean | cdktf.IResolvable;
   /**
   * Type specifies the override type for override value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#type DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#type DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#type}
   */
   readonly type: string;
   /**
   * Value represents override value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#value DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#value DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -909,31 +909,31 @@ export interface DataK8SAppsClusternetIoGlobalizationV1Alpha1ManifestSpec {
   /**
   * ClusterAffinity is a label query over managed clusters by labels. If no labels are specified, all clusters will be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#cluster_affinity DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#cluster_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#cluster_affinity DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#cluster_affinity}
   */
   readonly clusterAffinity?: DataK8SAppsClusternetIoGlobalizationV1Alpha1ManifestSpecClusterAffinity;
   /**
   * Feed holds references to the objects the Globalization applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#feed DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#feed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#feed DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#feed}
   */
   readonly feed?: DataK8SAppsClusternetIoGlobalizationV1Alpha1ManifestSpecFeed;
   /**
   * OverridePolicy specifies the override policy for this Globalization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#override_policy DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#override_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#override_policy DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#override_policy}
   */
   readonly overridePolicy?: string;
   /**
   * Overrides holds all the OverrideConfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#overrides DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#overrides DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#overrides}
   */
   readonly overrides?: DataK8SAppsClusternetIoGlobalizationV1Alpha1ManifestSpecOverrides[] | cdktf.IResolvable;
   /**
   * Priority is an integer defining the relative importance of this Globalization compared to others. Lower numbers are considered lower priority. And these Globalization(s) will be applied by order from lower priority to higher. That means override values in lower Globalization will be overridden by those in higher Globalization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#priority DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#priority DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest#priority}
   */
   readonly priority?: number;
 }
@@ -1143,7 +1143,7 @@ export class DataK8SAppsClusternetIoGlobalizationV1Alpha1ManifestSpecOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest k8s_apps_clusternet_io_globalization_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest k8s_apps_clusternet_io_globalization_v1alpha1_manifest}
 */
 export class DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1159,7 +1159,7 @@ export class DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest extends cdktf.
   * Generates CDKTF code for importing a DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1171,7 +1171,7 @@ export class DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest k8s_apps_clusternet_io_globalization_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_clusternet_io_globalization_v1alpha1_manifest k8s_apps_clusternet_io_globalization_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1182,8 +1182,8 @@ export class DataK8SAppsClusternetIoGlobalizationV1Alpha1Manifest extends cdktf.
       terraformResourceType: 'k8s_apps_clusternet_io_globalization_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

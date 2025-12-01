@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_scheduled_preload_execution
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_scheduled_preload_execution
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface EsaScheduledPreloadExecutionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_scheduled_preload_execution#end_time EsaScheduledPreloadExecution#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_scheduled_preload_execution#end_time EsaScheduledPreloadExecution#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_scheduled_preload_execution#id EsaScheduledPreloadExecution#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_scheduled_preload_execution#id EsaScheduledPreloadExecution#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_scheduled_preload_execution#interval EsaScheduledPreloadExecution#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_scheduled_preload_execution#interval EsaScheduledPreloadExecution#interval}
   */
   readonly interval: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_scheduled_preload_execution#scheduled_preload_job_id EsaScheduledPreloadExecution#scheduled_preload_job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_scheduled_preload_execution#scheduled_preload_job_id EsaScheduledPreloadExecution#scheduled_preload_job_id}
   */
   readonly scheduledPreloadJobId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_scheduled_preload_execution#slice_len EsaScheduledPreloadExecution#slice_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_scheduled_preload_execution#slice_len EsaScheduledPreloadExecution#slice_len}
   */
   readonly sliceLen: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_scheduled_preload_execution#start_time EsaScheduledPreloadExecution#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_scheduled_preload_execution#start_time EsaScheduledPreloadExecution#start_time}
   */
   readonly startTime?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_scheduled_preload_execution#timeouts EsaScheduledPreloadExecution#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_scheduled_preload_execution#timeouts EsaScheduledPreloadExecution#timeouts}
   */
   readonly timeouts?: EsaScheduledPreloadExecutionTimeouts;
 }
 export interface EsaScheduledPreloadExecutionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_scheduled_preload_execution#create EsaScheduledPreloadExecution#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_scheduled_preload_execution#create EsaScheduledPreloadExecution#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_scheduled_preload_execution#delete EsaScheduledPreloadExecution#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_scheduled_preload_execution#delete EsaScheduledPreloadExecution#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_scheduled_preload_execution#update EsaScheduledPreloadExecution#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_scheduled_preload_execution#update EsaScheduledPreloadExecution#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class EsaScheduledPreloadExecutionTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_scheduled_preload_execution alicloud_esa_scheduled_preload_execution}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_scheduled_preload_execution alicloud_esa_scheduled_preload_execution}
 */
 export class EsaScheduledPreloadExecution extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class EsaScheduledPreloadExecution extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EsaScheduledPreloadExecution resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EsaScheduledPreloadExecution to import
-  * @param importFromId The id of the existing EsaScheduledPreloadExecution that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_scheduled_preload_execution#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EsaScheduledPreloadExecution that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_scheduled_preload_execution#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EsaScheduledPreloadExecution to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class EsaScheduledPreloadExecution extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_scheduled_preload_execution alicloud_esa_scheduled_preload_execution} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_scheduled_preload_execution alicloud_esa_scheduled_preload_execution} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class EsaScheduledPreloadExecution extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_esa_scheduled_preload_execution',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

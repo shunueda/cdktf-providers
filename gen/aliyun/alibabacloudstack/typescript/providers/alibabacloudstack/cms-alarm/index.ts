@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,102 +8,102 @@ import * as cdktf from 'cdktf';
 
 export interface CmsAlarmConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#contact_groups CmsAlarm#contact_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#contact_groups CmsAlarm#contact_groups}
   */
   readonly contactGroups: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#dimensions CmsAlarm#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#dimensions CmsAlarm#dimensions}
   */
   readonly dimensions?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#effective_interval CmsAlarm#effective_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#effective_interval CmsAlarm#effective_interval}
   */
   readonly effectiveInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#enabled CmsAlarm#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#enabled CmsAlarm#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#id CmsAlarm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#id CmsAlarm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#metric CmsAlarm#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#metric CmsAlarm#metric}
   */
   readonly metric?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#metric_name CmsAlarm#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#metric_name CmsAlarm#metric_name}
   */
   readonly metricName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#name CmsAlarm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#name CmsAlarm#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#namespace CmsAlarm#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#namespace CmsAlarm#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#period CmsAlarm#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#period CmsAlarm#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#project CmsAlarm#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#project CmsAlarm#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#resources CmsAlarm#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#resources CmsAlarm#resources}
   */
   readonly resources?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#rule_name CmsAlarm#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#rule_name CmsAlarm#rule_name}
   */
   readonly ruleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#silence_time CmsAlarm#silence_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#silence_time CmsAlarm#silence_time}
   */
   readonly silenceTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#webhook CmsAlarm#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#webhook CmsAlarm#webhook}
   */
   readonly webhook?: string;
   /**
   * escalations_critical block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#escalations_critical CmsAlarm#escalations_critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#escalations_critical CmsAlarm#escalations_critical}
   */
   readonly escalationsCritical?: CmsAlarmEscalationsCritical;
   /**
   * escalations_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#escalations_info CmsAlarm#escalations_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#escalations_info CmsAlarm#escalations_info}
   */
   readonly escalationsInfo?: CmsAlarmEscalationsInfo;
   /**
   * escalations_warn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#escalations_warn CmsAlarm#escalations_warn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#escalations_warn CmsAlarm#escalations_warn}
   */
   readonly escalationsWarn?: CmsAlarmEscalationsWarn;
 }
 export interface CmsAlarmEscalationsCritical {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#comparison_operator CmsAlarm#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#comparison_operator CmsAlarm#comparison_operator}
   */
   readonly comparisonOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#statistics CmsAlarm#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#statistics CmsAlarm#statistics}
   */
   readonly statistics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#threshold CmsAlarm#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#threshold CmsAlarm#threshold}
   */
   readonly threshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#times CmsAlarm#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#times CmsAlarm#times}
   */
   readonly times?: number;
 }
@@ -274,19 +274,19 @@ export class CmsAlarmEscalationsCriticalOutputReference extends cdktf.ComplexObj
 }
 export interface CmsAlarmEscalationsInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#comparison_operator CmsAlarm#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#comparison_operator CmsAlarm#comparison_operator}
   */
   readonly comparisonOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#statistics CmsAlarm#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#statistics CmsAlarm#statistics}
   */
   readonly statistics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#threshold CmsAlarm#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#threshold CmsAlarm#threshold}
   */
   readonly threshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#times CmsAlarm#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#times CmsAlarm#times}
   */
   readonly times?: number;
 }
@@ -457,19 +457,19 @@ export class CmsAlarmEscalationsInfoOutputReference extends cdktf.ComplexObject 
 }
 export interface CmsAlarmEscalationsWarn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#comparison_operator CmsAlarm#comparison_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#comparison_operator CmsAlarm#comparison_operator}
   */
   readonly comparisonOperator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#statistics CmsAlarm#statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#statistics CmsAlarm#statistics}
   */
   readonly statistics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#threshold CmsAlarm#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#threshold CmsAlarm#threshold}
   */
   readonly threshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#times CmsAlarm#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#times CmsAlarm#times}
   */
   readonly times?: number;
 }
@@ -640,7 +640,7 @@ export class CmsAlarmEscalationsWarnOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm alibabacloudstack_cms_alarm}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm alibabacloudstack_cms_alarm}
 */
 export class CmsAlarm extends cdktf.TerraformResource {
 
@@ -656,7 +656,7 @@ export class CmsAlarm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CmsAlarm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CmsAlarm to import
-  * @param importFromId The id of the existing CmsAlarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CmsAlarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CmsAlarm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -668,7 +668,7 @@ export class CmsAlarm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/cms_alarm alibabacloudstack_cms_alarm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cms_alarm alibabacloudstack_cms_alarm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -679,8 +679,8 @@ export class CmsAlarm extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_cms_alarm',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -727,7 +727,7 @@ export class CmsAlarm extends cdktf.TerraformResource {
     return this._contactGroups;
   }
 
-  // dimensions - computed: false, optional: true, required: false
+  // dimensions - computed: true, optional: true, required: false
   private _dimensions?: { [key: string]: string }; 
   public get dimensions() {
     return this.getStringMapAttribute('dimensions');
@@ -887,7 +887,7 @@ export class CmsAlarm extends cdktf.TerraformResource {
     return this._project;
   }
 
-  // resources - computed: false, optional: true, required: false
+  // resources - computed: true, optional: true, required: false
   private _resources?: { [key: string]: string }; 
   public get resources() {
     return this.getStringMapAttribute('resources');

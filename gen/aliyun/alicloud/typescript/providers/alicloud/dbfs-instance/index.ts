@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbfs_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,92 +8,92 @@ import * as cdktf from 'cdktf';
 
 export interface DbfsInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbfs_instance#advanced_features DbfsInstance#advanced_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_instance#advanced_features DbfsInstance#advanced_features}
   */
   readonly advancedFeatures?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbfs_instance#category DbfsInstance#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_instance#category DbfsInstance#category}
   */
   readonly category: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbfs_instance#delete_snapshot DbfsInstance#delete_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_instance#delete_snapshot DbfsInstance#delete_snapshot}
   */
   readonly deleteSnapshot?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbfs_instance#enable_raid DbfsInstance#enable_raid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_instance#enable_raid DbfsInstance#enable_raid}
   */
   readonly enableRaid?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbfs_instance#encryption DbfsInstance#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_instance#encryption DbfsInstance#encryption}
   */
   readonly encryption?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbfs_instance#fs_name DbfsInstance#fs_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_instance#fs_name DbfsInstance#fs_name}
   */
   readonly fsName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbfs_instance#id DbfsInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_instance#id DbfsInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbfs_instance#instance_name DbfsInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_instance#instance_name DbfsInstance#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbfs_instance#instance_type DbfsInstance#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_instance#instance_type DbfsInstance#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbfs_instance#kms_key_id DbfsInstance#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_instance#kms_key_id DbfsInstance#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbfs_instance#performance_level DbfsInstance#performance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_instance#performance_level DbfsInstance#performance_level}
   */
   readonly performanceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbfs_instance#raid_stripe_unit_number DbfsInstance#raid_stripe_unit_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_instance#raid_stripe_unit_number DbfsInstance#raid_stripe_unit_number}
   */
   readonly raidStripeUnitNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbfs_instance#size DbfsInstance#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_instance#size DbfsInstance#size}
   */
   readonly size: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbfs_instance#snapshot_id DbfsInstance#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_instance#snapshot_id DbfsInstance#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbfs_instance#tags DbfsInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_instance#tags DbfsInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbfs_instance#used_scene DbfsInstance#used_scene}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_instance#used_scene DbfsInstance#used_scene}
   */
   readonly usedScene?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbfs_instance#zone_id DbfsInstance#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_instance#zone_id DbfsInstance#zone_id}
   */
   readonly zoneId: string;
   /**
   * ecs_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbfs_instance#ecs_list DbfsInstance#ecs_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_instance#ecs_list DbfsInstance#ecs_list}
   */
   readonly ecsList?: DbfsInstanceEcsListStruct[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbfs_instance#timeouts DbfsInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_instance#timeouts DbfsInstance#timeouts}
   */
   readonly timeouts?: DbfsInstanceTimeouts;
 }
 export interface DbfsInstanceEcsListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbfs_instance#ecs_id DbfsInstance#ecs_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_instance#ecs_id DbfsInstance#ecs_id}
   */
   readonly ecsId?: string;
 }
@@ -209,15 +209,15 @@ export class DbfsInstanceEcsListStructList extends cdktf.ComplexList {
 }
 export interface DbfsInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbfs_instance#create DbfsInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_instance#create DbfsInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbfs_instance#delete DbfsInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_instance#delete DbfsInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbfs_instance#update DbfsInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_instance#update DbfsInstance#update}
   */
   readonly update?: string;
 }
@@ -369,7 +369,7 @@ export class DbfsInstanceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbfs_instance alicloud_dbfs_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_instance alicloud_dbfs_instance}
 */
 export class DbfsInstance extends cdktf.TerraformResource {
 
@@ -385,7 +385,7 @@ export class DbfsInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbfsInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbfsInstance to import
-  * @param importFromId The id of the existing DbfsInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbfs_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbfsInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbfsInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -397,7 +397,7 @@ export class DbfsInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dbfs_instance alicloud_dbfs_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dbfs_instance alicloud_dbfs_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -408,8 +408,8 @@ export class DbfsInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_dbfs_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

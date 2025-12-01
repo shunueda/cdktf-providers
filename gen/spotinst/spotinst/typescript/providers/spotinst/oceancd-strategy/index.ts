@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy
+// https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface OceancdStrategyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#id OceancdStrategy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#id OceancdStrategy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#strategy_name OceancdStrategy#strategy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#strategy_name OceancdStrategy#strategy_name}
   */
   readonly strategyName: string;
   /**
   * canary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#canary OceancdStrategy#canary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#canary OceancdStrategy#canary}
   */
   readonly canary?: OceancdStrategyCanary;
   /**
   * rolling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#rolling OceancdStrategy#rolling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#rolling OceancdStrategy#rolling}
   */
   readonly rolling?: OceancdStrategyRolling;
 }
 export interface OceancdStrategyCanaryBackgroundVerification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#template_names OceancdStrategy#template_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#template_names OceancdStrategy#template_names}
   */
   readonly templateNames: string[];
 }
@@ -114,7 +114,7 @@ export class OceancdStrategyCanaryBackgroundVerificationOutputReference extends 
 }
 export interface OceancdStrategyCanaryStepsPause {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#duration OceancdStrategy#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#duration OceancdStrategy#duration}
   */
   readonly duration?: string;
 }
@@ -198,15 +198,15 @@ export class OceancdStrategyCanaryStepsPauseOutputReference extends cdktf.Comple
 }
 export interface OceancdStrategyCanaryStepsSetCanaryScale {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#match_traffic_weight OceancdStrategy#match_traffic_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#match_traffic_weight OceancdStrategy#match_traffic_weight}
   */
   readonly matchTrafficWeight?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#replicas OceancdStrategy#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#replicas OceancdStrategy#replicas}
   */
   readonly replicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#weight OceancdStrategy#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#weight OceancdStrategy#weight}
   */
   readonly weight?: number;
 }
@@ -348,15 +348,15 @@ export class OceancdStrategyCanaryStepsSetCanaryScaleOutputReference extends cdk
 }
 export interface OceancdStrategyCanaryStepsSetHeaderRouteMatchHeaderValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#exact OceancdStrategy#exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#exact OceancdStrategy#exact}
   */
   readonly exact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#prefix OceancdStrategy#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#prefix OceancdStrategy#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#regex OceancdStrategy#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#regex OceancdStrategy#regex}
   */
   readonly regex?: string;
 }
@@ -498,13 +498,13 @@ export class OceancdStrategyCanaryStepsSetHeaderRouteMatchHeaderValueOutputRefer
 }
 export interface OceancdStrategyCanaryStepsSetHeaderRouteMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#header_name OceancdStrategy#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#header_name OceancdStrategy#header_name}
   */
   readonly headerName: string;
   /**
   * header_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#header_value OceancdStrategy#header_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#header_value OceancdStrategy#header_value}
   */
   readonly headerValue: OceancdStrategyCanaryStepsSetHeaderRouteMatchHeaderValue;
 }
@@ -643,13 +643,13 @@ export class OceancdStrategyCanaryStepsSetHeaderRouteMatchList extends cdktf.Com
 }
 export interface OceancdStrategyCanaryStepsSetHeaderRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#header_route_name OceancdStrategy#header_route_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#header_route_name OceancdStrategy#header_route_name}
   */
   readonly headerRouteName: string;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#match OceancdStrategy#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#match OceancdStrategy#match}
   */
   readonly match: OceancdStrategyCanaryStepsSetHeaderRouteMatch[] | cdktf.IResolvable;
 }
@@ -756,7 +756,7 @@ export class OceancdStrategyCanaryStepsSetHeaderRouteOutputReference extends cdk
 }
 export interface OceancdStrategyCanaryStepsVerification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#template_names OceancdStrategy#template_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#template_names OceancdStrategy#template_names}
   */
   readonly templateNames: string[];
 }
@@ -837,35 +837,35 @@ export class OceancdStrategyCanaryStepsVerificationOutputReference extends cdktf
 }
 export interface OceancdStrategyCanarySteps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#set_weight OceancdStrategy#set_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#set_weight OceancdStrategy#set_weight}
   */
   readonly setWeight?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#step_name OceancdStrategy#step_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#step_name OceancdStrategy#step_name}
   */
   readonly stepName?: string;
   /**
   * pause block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#pause OceancdStrategy#pause}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#pause OceancdStrategy#pause}
   */
   readonly pause?: OceancdStrategyCanaryStepsPause;
   /**
   * set_canary_scale block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#set_canary_scale OceancdStrategy#set_canary_scale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#set_canary_scale OceancdStrategy#set_canary_scale}
   */
   readonly setCanaryScale?: OceancdStrategyCanaryStepsSetCanaryScale;
   /**
   * set_header_route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#set_header_route OceancdStrategy#set_header_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#set_header_route OceancdStrategy#set_header_route}
   */
   readonly setHeaderRoute?: OceancdStrategyCanaryStepsSetHeaderRoute;
   /**
   * verification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#verification OceancdStrategy#verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#verification OceancdStrategy#verification}
   */
   readonly verification?: OceancdStrategyCanaryStepsVerification;
 }
@@ -1128,13 +1128,13 @@ export interface OceancdStrategyCanary {
   /**
   * background_verification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#background_verification OceancdStrategy#background_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#background_verification OceancdStrategy#background_verification}
   */
   readonly backgroundVerification?: OceancdStrategyCanaryBackgroundVerification;
   /**
   * steps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#steps OceancdStrategy#steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#steps OceancdStrategy#steps}
   */
   readonly steps: OceancdStrategyCanarySteps[] | cdktf.IResolvable;
 }
@@ -1244,7 +1244,7 @@ export class OceancdStrategyCanaryOutputReference extends cdktf.ComplexObject {
 }
 export interface OceancdStrategyRollingStepsPause {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#duration OceancdStrategy#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#duration OceancdStrategy#duration}
   */
   readonly duration?: string;
 }
@@ -1328,7 +1328,7 @@ export class OceancdStrategyRollingStepsPauseOutputReference extends cdktf.Compl
 }
 export interface OceancdStrategyRollingStepsVerification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#template_names OceancdStrategy#template_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#template_names OceancdStrategy#template_names}
   */
   readonly templateNames: string[];
 }
@@ -1409,19 +1409,19 @@ export class OceancdStrategyRollingStepsVerificationOutputReference extends cdkt
 }
 export interface OceancdStrategyRollingSteps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#steps_name OceancdStrategy#steps_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#steps_name OceancdStrategy#steps_name}
   */
   readonly stepsName?: string;
   /**
   * pause block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#pause OceancdStrategy#pause}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#pause OceancdStrategy#pause}
   */
   readonly pause?: OceancdStrategyRollingStepsPause;
   /**
   * verification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#verification OceancdStrategy#verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#verification OceancdStrategy#verification}
   */
   readonly verification?: OceancdStrategyRollingStepsVerification;
 }
@@ -1597,7 +1597,7 @@ export interface OceancdStrategyRolling {
   /**
   * steps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#steps OceancdStrategy#steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#steps OceancdStrategy#steps}
   */
   readonly steps: OceancdStrategyRollingSteps[] | cdktf.IResolvable;
 }
@@ -1678,7 +1678,7 @@ export class OceancdStrategyRollingOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy spotinst_oceancd_strategy}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy spotinst_oceancd_strategy}
 */
 export class OceancdStrategy extends cdktf.TerraformResource {
 
@@ -1694,7 +1694,7 @@ export class OceancdStrategy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OceancdStrategy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OceancdStrategy to import
-  * @param importFromId The id of the existing OceancdStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OceancdStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OceancdStrategy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1706,7 +1706,7 @@ export class OceancdStrategy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_strategy spotinst_oceancd_strategy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_strategy spotinst_oceancd_strategy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1717,8 +1717,8 @@ export class OceancdStrategy extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_oceancd_strategy',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.230.0',
-        providerVersionConstraint: '1.230.0'
+        providerVersion: '1.231.0',
+        providerVersionConstraint: '1.231.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

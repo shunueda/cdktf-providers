@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,178 +8,178 @@ import * as cdktf from 'cdktf';
 
 export interface DtsSubscriptionJobConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#checkpoint DtsSubscriptionJob#checkpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#checkpoint DtsSubscriptionJob#checkpoint}
   */
   readonly checkpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#compute_unit DtsSubscriptionJob#compute_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#compute_unit DtsSubscriptionJob#compute_unit}
   */
   readonly computeUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#database_count DtsSubscriptionJob#database_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#database_count DtsSubscriptionJob#database_count}
   */
   readonly databaseCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#db_list DtsSubscriptionJob#db_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#db_list DtsSubscriptionJob#db_list}
   */
   readonly dbList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#delay_notice DtsSubscriptionJob#delay_notice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#delay_notice DtsSubscriptionJob#delay_notice}
   */
   readonly delayNotice?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#delay_phone DtsSubscriptionJob#delay_phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#delay_phone DtsSubscriptionJob#delay_phone}
   */
   readonly delayPhone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#delay_rule_time DtsSubscriptionJob#delay_rule_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#delay_rule_time DtsSubscriptionJob#delay_rule_time}
   */
   readonly delayRuleTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#destination_endpoint_engine_name DtsSubscriptionJob#destination_endpoint_engine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#destination_endpoint_engine_name DtsSubscriptionJob#destination_endpoint_engine_name}
   */
   readonly destinationEndpointEngineName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#destination_region DtsSubscriptionJob#destination_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#destination_region DtsSubscriptionJob#destination_region}
   */
   readonly destinationRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#dts_instance_id DtsSubscriptionJob#dts_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#dts_instance_id DtsSubscriptionJob#dts_instance_id}
   */
   readonly dtsInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#dts_job_name DtsSubscriptionJob#dts_job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#dts_job_name DtsSubscriptionJob#dts_job_name}
   */
   readonly dtsJobName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#error_notice DtsSubscriptionJob#error_notice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#error_notice DtsSubscriptionJob#error_notice}
   */
   readonly errorNotice?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#error_phone DtsSubscriptionJob#error_phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#error_phone DtsSubscriptionJob#error_phone}
   */
   readonly errorPhone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#id DtsSubscriptionJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#id DtsSubscriptionJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#instance_class DtsSubscriptionJob#instance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#instance_class DtsSubscriptionJob#instance_class}
   */
   readonly instanceClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#payment_duration DtsSubscriptionJob#payment_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#payment_duration DtsSubscriptionJob#payment_duration}
   */
   readonly paymentDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#payment_duration_unit DtsSubscriptionJob#payment_duration_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#payment_duration_unit DtsSubscriptionJob#payment_duration_unit}
   */
   readonly paymentDurationUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#payment_type DtsSubscriptionJob#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#payment_type DtsSubscriptionJob#payment_type}
   */
   readonly paymentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#reserve DtsSubscriptionJob#reserve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#reserve DtsSubscriptionJob#reserve}
   */
   readonly reserve?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#source_endpoint_database_name DtsSubscriptionJob#source_endpoint_database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#source_endpoint_database_name DtsSubscriptionJob#source_endpoint_database_name}
   */
   readonly sourceEndpointDatabaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#source_endpoint_engine_name DtsSubscriptionJob#source_endpoint_engine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#source_endpoint_engine_name DtsSubscriptionJob#source_endpoint_engine_name}
   */
   readonly sourceEndpointEngineName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#source_endpoint_instance_id DtsSubscriptionJob#source_endpoint_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#source_endpoint_instance_id DtsSubscriptionJob#source_endpoint_instance_id}
   */
   readonly sourceEndpointInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#source_endpoint_instance_type DtsSubscriptionJob#source_endpoint_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#source_endpoint_instance_type DtsSubscriptionJob#source_endpoint_instance_type}
   */
   readonly sourceEndpointInstanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#source_endpoint_ip DtsSubscriptionJob#source_endpoint_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#source_endpoint_ip DtsSubscriptionJob#source_endpoint_ip}
   */
   readonly sourceEndpointIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#source_endpoint_oracle_sid DtsSubscriptionJob#source_endpoint_oracle_sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#source_endpoint_oracle_sid DtsSubscriptionJob#source_endpoint_oracle_sid}
   */
   readonly sourceEndpointOracleSid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#source_endpoint_owner_id DtsSubscriptionJob#source_endpoint_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#source_endpoint_owner_id DtsSubscriptionJob#source_endpoint_owner_id}
   */
   readonly sourceEndpointOwnerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#source_endpoint_password DtsSubscriptionJob#source_endpoint_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#source_endpoint_password DtsSubscriptionJob#source_endpoint_password}
   */
   readonly sourceEndpointPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#source_endpoint_port DtsSubscriptionJob#source_endpoint_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#source_endpoint_port DtsSubscriptionJob#source_endpoint_port}
   */
   readonly sourceEndpointPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#source_endpoint_region DtsSubscriptionJob#source_endpoint_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#source_endpoint_region DtsSubscriptionJob#source_endpoint_region}
   */
   readonly sourceEndpointRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#source_endpoint_role DtsSubscriptionJob#source_endpoint_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#source_endpoint_role DtsSubscriptionJob#source_endpoint_role}
   */
   readonly sourceEndpointRole?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#source_endpoint_user_name DtsSubscriptionJob#source_endpoint_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#source_endpoint_user_name DtsSubscriptionJob#source_endpoint_user_name}
   */
   readonly sourceEndpointUserName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#status DtsSubscriptionJob#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#status DtsSubscriptionJob#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#subscription_data_type_ddl DtsSubscriptionJob#subscription_data_type_ddl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#subscription_data_type_ddl DtsSubscriptionJob#subscription_data_type_ddl}
   */
   readonly subscriptionDataTypeDdl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#subscription_data_type_dml DtsSubscriptionJob#subscription_data_type_dml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#subscription_data_type_dml DtsSubscriptionJob#subscription_data_type_dml}
   */
   readonly subscriptionDataTypeDml?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#subscription_instance_network_type DtsSubscriptionJob#subscription_instance_network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#subscription_instance_network_type DtsSubscriptionJob#subscription_instance_network_type}
   */
   readonly subscriptionInstanceNetworkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#subscription_instance_vpc_id DtsSubscriptionJob#subscription_instance_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#subscription_instance_vpc_id DtsSubscriptionJob#subscription_instance_vpc_id}
   */
   readonly subscriptionInstanceVpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#subscription_instance_vswitch_id DtsSubscriptionJob#subscription_instance_vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#subscription_instance_vswitch_id DtsSubscriptionJob#subscription_instance_vswitch_id}
   */
   readonly subscriptionInstanceVswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#sync_architecture DtsSubscriptionJob#sync_architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#sync_architecture DtsSubscriptionJob#sync_architecture}
   */
   readonly syncArchitecture?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#synchronization_direction DtsSubscriptionJob#synchronization_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#synchronization_direction DtsSubscriptionJob#synchronization_direction}
   */
   readonly synchronizationDirection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#tags DtsSubscriptionJob#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#tags DtsSubscriptionJob#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#timeouts DtsSubscriptionJob#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#timeouts DtsSubscriptionJob#timeouts}
   */
   readonly timeouts?: DtsSubscriptionJobTimeouts;
 }
 export interface DtsSubscriptionJobTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#update DtsSubscriptionJob#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#update DtsSubscriptionJob#update}
   */
   readonly update?: string;
 }
@@ -273,7 +273,7 @@ export class DtsSubscriptionJobTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job alicloud_dts_subscription_job}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job alicloud_dts_subscription_job}
 */
 export class DtsSubscriptionJob extends cdktf.TerraformResource {
 
@@ -289,7 +289,7 @@ export class DtsSubscriptionJob extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DtsSubscriptionJob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DtsSubscriptionJob to import
-  * @param importFromId The id of the existing DtsSubscriptionJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DtsSubscriptionJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DtsSubscriptionJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -301,7 +301,7 @@ export class DtsSubscriptionJob extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dts_subscription_job alicloud_dts_subscription_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dts_subscription_job alicloud_dts_subscription_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -312,8 +312,8 @@ export class DtsSubscriptionJob extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_dts_subscription_job',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

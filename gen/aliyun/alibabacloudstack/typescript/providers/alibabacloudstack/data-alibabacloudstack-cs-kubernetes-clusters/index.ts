@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cs_kubernetes_clusters
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cs_kubernetes_clusters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackCsKubernetesClustersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cs_kubernetes_clusters#enable_details DataAlibabacloudstackCsKubernetesClusters#enable_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cs_kubernetes_clusters#enable_details DataAlibabacloudstackCsKubernetesClusters#enable_details}
   */
   readonly enableDetails?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cs_kubernetes_clusters#id DataAlibabacloudstackCsKubernetesClusters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cs_kubernetes_clusters#id DataAlibabacloudstackCsKubernetesClusters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cs_kubernetes_clusters#ids DataAlibabacloudstackCsKubernetesClusters#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cs_kubernetes_clusters#ids DataAlibabacloudstackCsKubernetesClusters#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cs_kubernetes_clusters#kube_config DataAlibabacloudstackCsKubernetesClusters#kube_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cs_kubernetes_clusters#kube_config DataAlibabacloudstackCsKubernetesClusters#kube_config}
   */
   readonly kubeConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cs_kubernetes_clusters#name_regex DataAlibabacloudstackCsKubernetesClusters#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cs_kubernetes_clusters#name_regex DataAlibabacloudstackCsKubernetesClusters#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cs_kubernetes_clusters#output_file DataAlibabacloudstackCsKubernetesClusters#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cs_kubernetes_clusters#output_file DataAlibabacloudstackCsKubernetesClusters#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cs_kubernetes_clusters#state DataAlibabacloudstackCsKubernetesClusters#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cs_kubernetes_clusters#state DataAlibabacloudstackCsKubernetesClusters#state}
   */
   readonly state?: string;
 }
@@ -575,7 +575,7 @@ export class DataAlibabacloudstackCsKubernetesClustersClustersList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cs_kubernetes_clusters alibabacloudstack_cs_kubernetes_clusters}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cs_kubernetes_clusters alibabacloudstack_cs_kubernetes_clusters}
 */
 export class DataAlibabacloudstackCsKubernetesClusters extends cdktf.TerraformDataSource {
 
@@ -591,7 +591,7 @@ export class DataAlibabacloudstackCsKubernetesClusters extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataAlibabacloudstackCsKubernetesClusters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackCsKubernetesClusters to import
-  * @param importFromId The id of the existing DataAlibabacloudstackCsKubernetesClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cs_kubernetes_clusters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackCsKubernetesClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cs_kubernetes_clusters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackCsKubernetesClusters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -603,7 +603,7 @@ export class DataAlibabacloudstackCsKubernetesClusters extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cs_kubernetes_clusters alibabacloudstack_cs_kubernetes_clusters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cs_kubernetes_clusters alibabacloudstack_cs_kubernetes_clusters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -614,8 +614,8 @@ export class DataAlibabacloudstackCsKubernetesClusters extends cdktf.TerraformDa
       terraformResourceType: 'alibabacloudstack_cs_kubernetes_clusters',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

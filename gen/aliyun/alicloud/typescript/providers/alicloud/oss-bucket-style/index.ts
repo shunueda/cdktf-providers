@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_style
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_style
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface OssBucketStyleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_style#bucket OssBucketStyle#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_style#bucket OssBucketStyle#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_style#category OssBucketStyle#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_style#category OssBucketStyle#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_style#content OssBucketStyle#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_style#content OssBucketStyle#content}
   */
   readonly content: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_style#id OssBucketStyle#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_style#id OssBucketStyle#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_style#style_name OssBucketStyle#style_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_style#style_name OssBucketStyle#style_name}
   */
   readonly styleName: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_style#timeouts OssBucketStyle#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_style#timeouts OssBucketStyle#timeouts}
   */
   readonly timeouts?: OssBucketStyleTimeouts;
 }
 export interface OssBucketStyleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_style#create OssBucketStyle#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_style#create OssBucketStyle#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_style#delete OssBucketStyle#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_style#delete OssBucketStyle#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_style#update OssBucketStyle#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_style#update OssBucketStyle#update}
   */
   readonly update?: string;
 }
@@ -199,7 +199,7 @@ export class OssBucketStyleTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_style alicloud_oss_bucket_style}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_style alicloud_oss_bucket_style}
 */
 export class OssBucketStyle extends cdktf.TerraformResource {
 
@@ -215,7 +215,7 @@ export class OssBucketStyle extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OssBucketStyle resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OssBucketStyle to import
-  * @param importFromId The id of the existing OssBucketStyle that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_style#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OssBucketStyle that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_style#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OssBucketStyle to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class OssBucketStyle extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket_style alicloud_oss_bucket_style} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket_style alicloud_oss_bucket_style} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class OssBucketStyle extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_oss_bucket_style',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

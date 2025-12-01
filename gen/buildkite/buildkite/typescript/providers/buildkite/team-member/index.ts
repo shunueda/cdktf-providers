@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/team_member
+// https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/team_member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface TeamMemberConfig extends cdktf.TerraformMetaArguments {
   /**
   * The role for the user. Either `MEMBER` or `MAINTAINER`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/team_member#role TeamMember#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/team_member#role TeamMember#role}
   */
   readonly role: string;
   /**
   * The GraphQL ID of the team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/team_member#team_id TeamMember#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/team_member#team_id TeamMember#team_id}
   */
   readonly teamId: string;
   /**
   * The GraphQL ID of the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/team_member#user_id TeamMember#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/team_member#user_id TeamMember#user_id}
   */
   readonly userId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/team_member buildkite_team_member}
+* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/team_member buildkite_team_member}
 */
 export class TeamMember extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class TeamMember extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeamMember resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeamMember to import
-  * @param importFromId The id of the existing TeamMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/team_member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeamMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/team_member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeamMember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class TeamMember extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/team_member buildkite_team_member} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/team_member buildkite_team_member} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class TeamMember extends cdktf.TerraformResource {
       terraformResourceType: 'buildkite_team_member',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.27.0',
-        providerVersionConstraint: '1.27.0'
+        providerVersion: '1.27.1',
+        providerVersionConstraint: '1.27.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

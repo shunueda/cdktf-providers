@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SMetal3IoHardwareDataV1Alpha1ManifestConfig extends cdktf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#metadata DataK8SMetal3IoHardwareDataV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#metadata DataK8SMetal3IoHardwareDataV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SMetal3IoHardwareDataV1Alpha1ManifestMetadata;
   /**
   * HardwareDataSpec defines the desired state of HardwareData.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#spec DataK8SMetal3IoHardwareDataV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#spec DataK8SMetal3IoHardwareDataV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SMetal3IoHardwareDataV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SMetal3IoHardwareDataV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#annotations DataK8SMetal3IoHardwareDataV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#annotations DataK8SMetal3IoHardwareDataV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#labels DataK8SMetal3IoHardwareDataV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#labels DataK8SMetal3IoHardwareDataV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#name DataK8SMetal3IoHardwareDataV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#name DataK8SMetal3IoHardwareDataV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#namespace DataK8SMetal3IoHardwareDataV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#namespace DataK8SMetal3IoHardwareDataV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,25 +217,25 @@ export class DataK8SMetal3IoHardwareDataV1Alpha1ManifestMetadataOutputReference 
 }
 export interface DataK8SMetal3IoHardwareDataV1Alpha1ManifestSpecHardwareCpu {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#arch DataK8SMetal3IoHardwareDataV1Alpha1Manifest#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#arch DataK8SMetal3IoHardwareDataV1Alpha1Manifest#arch}
   */
   readonly arch?: string;
   /**
   * ClockSpeed is a clock speed in MHz
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#clock_megahertz DataK8SMetal3IoHardwareDataV1Alpha1Manifest#clock_megahertz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#clock_megahertz DataK8SMetal3IoHardwareDataV1Alpha1Manifest#clock_megahertz}
   */
   readonly clockMegahertz?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#count DataK8SMetal3IoHardwareDataV1Alpha1Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#count DataK8SMetal3IoHardwareDataV1Alpha1Manifest#count}
   */
   readonly count?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#flags DataK8SMetal3IoHardwareDataV1Alpha1Manifest#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#flags DataK8SMetal3IoHardwareDataV1Alpha1Manifest#flags}
   */
   readonly flags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#model DataK8SMetal3IoHardwareDataV1Alpha1Manifest#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#model DataK8SMetal3IoHardwareDataV1Alpha1Manifest#model}
   */
   readonly model?: string;
 }
@@ -447,19 +447,19 @@ export interface DataK8SMetal3IoHardwareDataV1Alpha1ManifestSpecHardwareFirmware
   /**
   * The release/build date for this BIOS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#date DataK8SMetal3IoHardwareDataV1Alpha1Manifest#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#date DataK8SMetal3IoHardwareDataV1Alpha1Manifest#date}
   */
   readonly date?: string;
   /**
   * The vendor name for this BIOS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#vendor DataK8SMetal3IoHardwareDataV1Alpha1Manifest#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#vendor DataK8SMetal3IoHardwareDataV1Alpha1Manifest#vendor}
   */
   readonly vendor?: string;
   /**
   * The version of the BIOS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#version DataK8SMetal3IoHardwareDataV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#version DataK8SMetal3IoHardwareDataV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -613,7 +613,7 @@ export interface DataK8SMetal3IoHardwareDataV1Alpha1ManifestSpecHardwareFirmware
   /**
   * The BIOS for this firmware
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#bios DataK8SMetal3IoHardwareDataV1Alpha1Manifest#bios}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#bios DataK8SMetal3IoHardwareDataV1Alpha1Manifest#bios}
   */
   readonly bios?: DataK8SMetal3IoHardwareDataV1Alpha1ManifestSpecHardwareFirmwareBios;
 }
@@ -709,14 +709,14 @@ export interface DataK8SMetal3IoHardwareDataV1Alpha1ManifestSpecHardwareNicsVlan
   /**
   * VLANID is a 12-bit 802.1Q VLAN identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#id DataK8SMetal3IoHardwareDataV1Alpha1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#id DataK8SMetal3IoHardwareDataV1Alpha1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#name DataK8SMetal3IoHardwareDataV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#name DataK8SMetal3IoHardwareDataV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -863,49 +863,49 @@ export interface DataK8SMetal3IoHardwareDataV1Alpha1ManifestSpecHardwareNics {
   /**
   * The IP address of the interface. This will be an IPv4 or IPv6 address if one is present. If both IPv4 and IPv6 addresses are present in a dual-stack environment, two nics will be output, one with each IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#ip DataK8SMetal3IoHardwareDataV1Alpha1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#ip DataK8SMetal3IoHardwareDataV1Alpha1Manifest#ip}
   */
   readonly ip?: string;
   /**
   * The device MAC address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#mac DataK8SMetal3IoHardwareDataV1Alpha1Manifest#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#mac DataK8SMetal3IoHardwareDataV1Alpha1Manifest#mac}
   */
   readonly mac?: string;
   /**
   * The vendor and product IDs of the NIC, e.g. '0x8086 0x1572'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#model DataK8SMetal3IoHardwareDataV1Alpha1Manifest#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#model DataK8SMetal3IoHardwareDataV1Alpha1Manifest#model}
   */
   readonly model?: string;
   /**
   * The name of the network interface, e.g. 'en0'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#name DataK8SMetal3IoHardwareDataV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#name DataK8SMetal3IoHardwareDataV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Whether the NIC is PXE Bootable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#pxe DataK8SMetal3IoHardwareDataV1Alpha1Manifest#pxe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#pxe DataK8SMetal3IoHardwareDataV1Alpha1Manifest#pxe}
   */
   readonly pxe?: boolean | cdktf.IResolvable;
   /**
   * The speed of the device in Gigabits per second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#speed_gbps DataK8SMetal3IoHardwareDataV1Alpha1Manifest#speed_gbps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#speed_gbps DataK8SMetal3IoHardwareDataV1Alpha1Manifest#speed_gbps}
   */
   readonly speedGbps?: number;
   /**
   * The untagged VLAN ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#vlan_id DataK8SMetal3IoHardwareDataV1Alpha1Manifest#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#vlan_id DataK8SMetal3IoHardwareDataV1Alpha1Manifest#vlan_id}
   */
   readonly vlanId?: number;
   /**
   * The VLANs available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#vlans DataK8SMetal3IoHardwareDataV1Alpha1Manifest#vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#vlans DataK8SMetal3IoHardwareDataV1Alpha1Manifest#vlans}
   */
   readonly vlans?: DataK8SMetal3IoHardwareDataV1Alpha1ManifestSpecHardwareNicsVlans[] | cdktf.IResolvable;
 }
@@ -1226,73 +1226,73 @@ export interface DataK8SMetal3IoHardwareDataV1Alpha1ManifestSpecHardwareStorage 
   /**
   * A list of alternate Linux device names of the disk, e.g. '/dev/sda'. Note that this list is not exhaustive, and names may not be stable across reboots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#alternate_names DataK8SMetal3IoHardwareDataV1Alpha1Manifest#alternate_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#alternate_names DataK8SMetal3IoHardwareDataV1Alpha1Manifest#alternate_names}
   */
   readonly alternateNames?: string[];
   /**
   * The SCSI location of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#hctl DataK8SMetal3IoHardwareDataV1Alpha1Manifest#hctl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#hctl DataK8SMetal3IoHardwareDataV1Alpha1Manifest#hctl}
   */
   readonly hctl?: string;
   /**
   * Hardware model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#model DataK8SMetal3IoHardwareDataV1Alpha1Manifest#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#model DataK8SMetal3IoHardwareDataV1Alpha1Manifest#model}
   */
   readonly model?: string;
   /**
   * A Linux device name of the disk, e.g. '/dev/disk/by-path/pci-0000:01:00.0-scsi-0:2:0:0'. This will be a name that is stable across reboots if one is available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#name DataK8SMetal3IoHardwareDataV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#name DataK8SMetal3IoHardwareDataV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Whether this disk represents rotational storage. This field is not recommended for usage, please prefer using 'Type' field instead, this field will be deprecated eventually.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#rotational DataK8SMetal3IoHardwareDataV1Alpha1Manifest#rotational}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#rotational DataK8SMetal3IoHardwareDataV1Alpha1Manifest#rotational}
   */
   readonly rotational?: boolean | cdktf.IResolvable;
   /**
   * The serial number of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#serial_number DataK8SMetal3IoHardwareDataV1Alpha1Manifest#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#serial_number DataK8SMetal3IoHardwareDataV1Alpha1Manifest#serial_number}
   */
   readonly serialNumber?: string;
   /**
   * The size of the disk in Bytes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#size_bytes DataK8SMetal3IoHardwareDataV1Alpha1Manifest#size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#size_bytes DataK8SMetal3IoHardwareDataV1Alpha1Manifest#size_bytes}
   */
   readonly sizeBytes?: number;
   /**
   * Device type, one of: HDD, SSD, NVME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#type DataK8SMetal3IoHardwareDataV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#type DataK8SMetal3IoHardwareDataV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * The name of the vendor of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#vendor DataK8SMetal3IoHardwareDataV1Alpha1Manifest#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#vendor DataK8SMetal3IoHardwareDataV1Alpha1Manifest#vendor}
   */
   readonly vendor?: string;
   /**
   * The WWN of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#wwn DataK8SMetal3IoHardwareDataV1Alpha1Manifest#wwn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#wwn DataK8SMetal3IoHardwareDataV1Alpha1Manifest#wwn}
   */
   readonly wwn?: string;
   /**
   * The WWN Vendor extension of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#wwn_vendor_extension DataK8SMetal3IoHardwareDataV1Alpha1Manifest#wwn_vendor_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#wwn_vendor_extension DataK8SMetal3IoHardwareDataV1Alpha1Manifest#wwn_vendor_extension}
   */
   readonly wwnVendorExtension?: string;
   /**
   * The WWN with the extension
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#wwn_with_extension DataK8SMetal3IoHardwareDataV1Alpha1Manifest#wwn_with_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#wwn_with_extension DataK8SMetal3IoHardwareDataV1Alpha1Manifest#wwn_with_extension}
   */
   readonly wwnWithExtension?: string;
 }
@@ -1727,15 +1727,15 @@ export class DataK8SMetal3IoHardwareDataV1Alpha1ManifestSpecHardwareStorageList 
 }
 export interface DataK8SMetal3IoHardwareDataV1Alpha1ManifestSpecHardwareSystemVendor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#manufacturer DataK8SMetal3IoHardwareDataV1Alpha1Manifest#manufacturer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#manufacturer DataK8SMetal3IoHardwareDataV1Alpha1Manifest#manufacturer}
   */
   readonly manufacturer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#product_name DataK8SMetal3IoHardwareDataV1Alpha1Manifest#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#product_name DataK8SMetal3IoHardwareDataV1Alpha1Manifest#product_name}
   */
   readonly productName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#serial_number DataK8SMetal3IoHardwareDataV1Alpha1Manifest#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#serial_number DataK8SMetal3IoHardwareDataV1Alpha1Manifest#serial_number}
   */
   readonly serialNumber?: string;
 }
@@ -1889,41 +1889,41 @@ export interface DataK8SMetal3IoHardwareDataV1Alpha1ManifestSpecHardware {
   /**
   * Details of the CPU(s) in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#cpu DataK8SMetal3IoHardwareDataV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#cpu DataK8SMetal3IoHardwareDataV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SMetal3IoHardwareDataV1Alpha1ManifestSpecHardwareCpu;
   /**
   * System firmware information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#firmware DataK8SMetal3IoHardwareDataV1Alpha1Manifest#firmware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#firmware DataK8SMetal3IoHardwareDataV1Alpha1Manifest#firmware}
   */
   readonly firmware?: DataK8SMetal3IoHardwareDataV1Alpha1ManifestSpecHardwareFirmware;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#hostname DataK8SMetal3IoHardwareDataV1Alpha1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#hostname DataK8SMetal3IoHardwareDataV1Alpha1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * List of network interfaces for the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#nics DataK8SMetal3IoHardwareDataV1Alpha1Manifest#nics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#nics DataK8SMetal3IoHardwareDataV1Alpha1Manifest#nics}
   */
   readonly nics?: DataK8SMetal3IoHardwareDataV1Alpha1ManifestSpecHardwareNics[] | cdktf.IResolvable;
   /**
   * The host's amount of memory in Mebibytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#ram_mebibytes DataK8SMetal3IoHardwareDataV1Alpha1Manifest#ram_mebibytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#ram_mebibytes DataK8SMetal3IoHardwareDataV1Alpha1Manifest#ram_mebibytes}
   */
   readonly ramMebibytes?: number;
   /**
   * List of storage (disk, SSD, etc.) available to the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#storage DataK8SMetal3IoHardwareDataV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#storage DataK8SMetal3IoHardwareDataV1Alpha1Manifest#storage}
   */
   readonly storage?: DataK8SMetal3IoHardwareDataV1Alpha1ManifestSpecHardwareStorage[] | cdktf.IResolvable;
   /**
   * System vendor information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#system_vendor DataK8SMetal3IoHardwareDataV1Alpha1Manifest#system_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#system_vendor DataK8SMetal3IoHardwareDataV1Alpha1Manifest#system_vendor}
   */
   readonly systemVendor?: DataK8SMetal3IoHardwareDataV1Alpha1ManifestSpecHardwareSystemVendor;
 }
@@ -2193,7 +2193,7 @@ export interface DataK8SMetal3IoHardwareDataV1Alpha1ManifestSpec {
   /**
   * The hardware discovered on the host during its inspection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#hardware DataK8SMetal3IoHardwareDataV1Alpha1Manifest#hardware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#hardware DataK8SMetal3IoHardwareDataV1Alpha1Manifest#hardware}
   */
   readonly hardware?: DataK8SMetal3IoHardwareDataV1Alpha1ManifestSpecHardware;
 }
@@ -2287,7 +2287,7 @@ export class DataK8SMetal3IoHardwareDataV1Alpha1ManifestSpecOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest k8s_metal3_io_hardware_data_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest k8s_metal3_io_hardware_data_v1alpha1_manifest}
 */
 export class DataK8SMetal3IoHardwareDataV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2303,7 +2303,7 @@ export class DataK8SMetal3IoHardwareDataV1Alpha1Manifest extends cdktf.Terraform
   * Generates CDKTF code for importing a DataK8SMetal3IoHardwareDataV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SMetal3IoHardwareDataV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SMetal3IoHardwareDataV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SMetal3IoHardwareDataV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SMetal3IoHardwareDataV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2315,7 +2315,7 @@ export class DataK8SMetal3IoHardwareDataV1Alpha1Manifest extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest k8s_metal3_io_hardware_data_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_hardware_data_v1alpha1_manifest k8s_metal3_io_hardware_data_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2326,8 +2326,8 @@ export class DataK8SMetal3IoHardwareDataV1Alpha1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_metal3_io_hardware_data_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

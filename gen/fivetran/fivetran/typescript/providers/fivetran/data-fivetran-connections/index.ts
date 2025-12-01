@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/connections
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/connections
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataFivetranConnectionsConfig extends cdktf.TerraformMetaArgume
   /**
   * The ID of the group (destination) to filter connections by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/connections#group_id DataFivetranConnections#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/connections#group_id DataFivetranConnections#group_id}
   */
   readonly groupId?: string;
   /**
   * The name used both as the connection's name within the Fivetran system and as the source schema's name within your destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/connections#schema_name DataFivetranConnections#schema_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/connections#schema_name DataFivetranConnections#schema_name}
   */
   readonly schemaName?: string;
   /**
   * connections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/connections#connections DataFivetranConnections#connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/connections#connections DataFivetranConnections#connections}
   */
   readonly connections?: DataFivetranConnectionsConnections[] | cdktf.IResolvable;
 }
@@ -209,7 +209,7 @@ export class DataFivetranConnectionsConnectionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/connections fivetran_connections}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/connections fivetran_connections}
 */
 export class DataFivetranConnections extends cdktf.TerraformDataSource {
 
@@ -225,7 +225,7 @@ export class DataFivetranConnections extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFivetranConnections resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFivetranConnections to import
-  * @param importFromId The id of the existing DataFivetranConnections that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/connections#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFivetranConnections that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/connections#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFivetranConnections to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -237,7 +237,7 @@ export class DataFivetranConnections extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/connections fivetran_connections} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/connections fivetran_connections} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -248,8 +248,8 @@ export class DataFivetranConnections extends cdktf.TerraformDataSource {
       terraformResourceType: 'fivetran_connections',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.15',
-        providerVersionConstraint: '1.9.15'
+        providerVersion: '1.9.16',
+        providerVersionConstraint: '1.9.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

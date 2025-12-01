@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/export_transport_package_resource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/export_transport_package_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,133 +10,133 @@ export interface ExportTransportPackageResourceConfig extends cdktf.TerraformMet
   /**
   * List of analytics v1 to export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/export_transport_package_resource#analytics_v1 ExportTransportPackageResource#analytics_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/export_transport_package_resource#analytics_v1 ExportTransportPackageResource#analytics_v1}
   */
   readonly analyticsV1?: string[];
   /**
   * List of analytics v2 to export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/export_transport_package_resource#analytics_v2 ExportTransportPackageResource#analytics_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/export_transport_package_resource#analytics_v2 ExportTransportPackageResource#analytics_v2}
   */
   readonly analyticsV2?: string[];
   /**
   * List of app onboarding configurations to export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/export_transport_package_resource#app_onboarding ExportTransportPackageResource#app_onboarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/export_transport_package_resource#app_onboarding ExportTransportPackageResource#app_onboarding}
   */
   readonly appOnboarding?: string[];
   /**
   * Business justification for the export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/export_transport_package_resource#business_justification ExportTransportPackageResource#business_justification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/export_transport_package_resource#business_justification ExportTransportPackageResource#business_justification}
   */
   readonly businessJustification?: string;
   /**
   * List of connections to export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/export_transport_package_resource#connections ExportTransportPackageResource#connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/export_transport_package_resource#connections ExportTransportPackageResource#connections}
   */
   readonly connections?: string[];
   /**
   * List of email templates to export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/export_transport_package_resource#email_template ExportTransportPackageResource#email_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/export_transport_package_resource#email_template ExportTransportPackageResource#email_template}
   */
   readonly emailTemplate?: string[];
   /**
   * Name of the environment (required if export_online is true).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/export_transport_package_resource#environment_name ExportTransportPackageResource#environment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/export_transport_package_resource#environment_name ExportTransportPackageResource#environment_name}
   */
   readonly environmentName?: string;
   /**
   * Determines if package needs to be exported online (true/false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/export_transport_package_resource#export_online ExportTransportPackageResource#export_online}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/export_transport_package_resource#export_online ExportTransportPackageResource#export_online}
   */
   readonly exportOnline: string;
   /**
   * Version identifier for the export package. Change this value to trigger re-export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/export_transport_package_resource#export_package_version ExportTransportPackageResource#export_package_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/export_transport_package_resource#export_package_version ExportTransportPackageResource#export_package_version}
   */
   readonly exportPackageVersion?: string;
   /**
   * Local path where export package will be generated (required if export_online is false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/export_transport_package_resource#export_path ExportTransportPackageResource#export_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/export_transport_package_resource#export_path ExportTransportPackageResource#export_path}
   */
   readonly exportPath: string;
   /**
   * List of global configurations to export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/export_transport_package_resource#global_config ExportTransportPackageResource#global_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/export_transport_package_resource#global_config ExportTransportPackageResource#global_config}
   */
   readonly globalConfig?: string[];
   /**
   * List of organizations to export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/export_transport_package_resource#organizations ExportTransportPackageResource#organizations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/export_transport_package_resource#organizations ExportTransportPackageResource#organizations}
   */
   readonly organizations?: string[];
   /**
   * List of roles to export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/export_transport_package_resource#roles ExportTransportPackageResource#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/export_transport_package_resource#roles ExportTransportPackageResource#roles}
   */
   readonly roles?: string[];
   /**
   * List of SAV roles to export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/export_transport_package_resource#sav_roles ExportTransportPackageResource#sav_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/export_transport_package_resource#sav_roles ExportTransportPackageResource#sav_roles}
   */
   readonly savRoles?: string[];
   /**
   * List of scan rules to export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/export_transport_package_resource#scan_rules ExportTransportPackageResource#scan_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/export_transport_package_resource#scan_rules ExportTransportPackageResource#scan_rules}
   */
   readonly scanRules?: string[];
   /**
   * List of security systems to export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/export_transport_package_resource#security_systems ExportTransportPackageResource#security_systems}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/export_transport_package_resource#security_systems ExportTransportPackageResource#security_systems}
   */
   readonly securitySystems?: string[];
   /**
   * Option to transport members for selected objects such as SAV role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/export_transport_package_resource#transport_members ExportTransportPackageResource#transport_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/export_transport_package_resource#transport_members ExportTransportPackageResource#transport_members}
   */
   readonly transportMembers?: string;
   /**
   * Option to transport owners for selected objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/export_transport_package_resource#transport_owner ExportTransportPackageResource#transport_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/export_transport_package_resource#transport_owner ExportTransportPackageResource#transport_owner}
   */
   readonly transportOwner?: string;
   /**
   * Username of the user exporting the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/export_transport_package_resource#update_user ExportTransportPackageResource#update_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/export_transport_package_resource#update_user ExportTransportPackageResource#update_user}
   */
   readonly updateUser?: string;
   /**
   * List of user groups to export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/export_transport_package_resource#user_groups ExportTransportPackageResource#user_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/export_transport_package_resource#user_groups ExportTransportPackageResource#user_groups}
   */
   readonly userGroups?: string[];
   /**
   * List of workflows to export.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/export_transport_package_resource#workflows ExportTransportPackageResource#workflows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/export_transport_package_resource#workflows ExportTransportPackageResource#workflows}
   */
   readonly workflows?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/export_transport_package_resource saviynt_export_transport_package_resource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/export_transport_package_resource saviynt_export_transport_package_resource}
 */
 export class ExportTransportPackageResource extends cdktf.TerraformResource {
 
@@ -152,7 +152,7 @@ export class ExportTransportPackageResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExportTransportPackageResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExportTransportPackageResource to import
-  * @param importFromId The id of the existing ExportTransportPackageResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/export_transport_package_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExportTransportPackageResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/export_transport_package_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExportTransportPackageResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -164,7 +164,7 @@ export class ExportTransportPackageResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/export_transport_package_resource saviynt_export_transport_package_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/export_transport_package_resource saviynt_export_transport_package_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -175,8 +175,8 @@ export class ExportTransportPackageResource extends cdktf.TerraformResource {
       terraformResourceType: 'saviynt_export_transport_package_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.3.1',
-        providerVersionConstraint: '0.3.1'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

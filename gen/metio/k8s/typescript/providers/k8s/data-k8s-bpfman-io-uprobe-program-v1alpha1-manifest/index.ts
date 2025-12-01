@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SBpfmanIoUprobeProgramV1Alpha1ManifestConfig extends cdkt
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#metadata DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#metadata DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SBpfmanIoUprobeProgramV1Alpha1ManifestMetadata;
   /**
   * UprobeProgramSpec defines the desired state of UprobeProgram
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#spec DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#spec DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SBpfmanIoUprobeProgramV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SBpfmanIoUprobeProgramV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#annotations DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#annotations DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#labels DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#labels DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#name DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#name DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,13 +187,13 @@ export interface DataK8SBpfmanIoUprobeProgramV1Alpha1ManifestSpecBytecodeImageIm
   /**
   * Name of the secret which contains the credentials to access the image repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#name DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#name DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the secret which contains the credentials to access the image repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#namespace DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#namespace DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -312,19 +312,19 @@ export interface DataK8SBpfmanIoUprobeProgramV1Alpha1ManifestSpecBytecodeImage {
   /**
   * PullPolicy describes a policy for if/when to pull a bytecode image. Defaults to IfNotPresent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#imagepullpolicy DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#imagepullpolicy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#imagepullpolicy DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#imagepullpolicy}
   */
   readonly imagepullpolicy?: string;
   /**
   * ImagePullSecret is the name of the secret bpfman should use to get remote image repository secrets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#imagepullsecret DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#imagepullsecret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#imagepullsecret DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#imagepullsecret}
   */
   readonly imagepullsecret?: DataK8SBpfmanIoUprobeProgramV1Alpha1ManifestSpecBytecodeImageImagepullsecret;
   /**
   * Valid container image URL used to reference a remote bytecode image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#url DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#url DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#url}
   */
   readonly url: string;
 }
@@ -475,13 +475,13 @@ export interface DataK8SBpfmanIoUprobeProgramV1Alpha1ManifestSpecBytecode {
   /**
   * Image used to specify a bytecode container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#image DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#image DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#image}
   */
   readonly image?: DataK8SBpfmanIoUprobeProgramV1Alpha1ManifestSpecBytecodeImage;
   /**
   * Path is used to specify a bytecode object via filepath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#path DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#path DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#path}
   */
   readonly path?: string;
 }
@@ -606,19 +606,19 @@ export interface DataK8SBpfmanIoUprobeProgramV1Alpha1ManifestSpecContainersPodsM
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#key DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#key DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#operator DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#operator DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#values DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#values DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -788,13 +788,13 @@ export interface DataK8SBpfmanIoUprobeProgramV1Alpha1ManifestSpecContainersPods 
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#match_expressions DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#match_expressions DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SBpfmanIoUprobeProgramV1Alpha1ManifestSpecContainersPodsMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#match_labels DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#match_labels DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -919,19 +919,19 @@ export interface DataK8SBpfmanIoUprobeProgramV1Alpha1ManifestSpecContainers {
   /**
   * Name(s) of container(s). If none are specified, all containers in the pod are selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#containernames DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#containernames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#containernames DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#containernames}
   */
   readonly containernames?: string[];
   /**
   * Target namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#namespace DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#namespace DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Target pods. This field must be specified, to select all pods use standard metav1.LabelSelector semantics and make it empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#pods DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#pods DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#pods}
   */
   readonly pods: DataK8SBpfmanIoUprobeProgramV1Alpha1ManifestSpecContainersPods;
 }
@@ -1082,19 +1082,19 @@ export interface DataK8SBpfmanIoUprobeProgramV1Alpha1ManifestSpecMapownerselecto
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#key DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#key DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#operator DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#operator DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#values DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#values DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1264,13 +1264,13 @@ export interface DataK8SBpfmanIoUprobeProgramV1Alpha1ManifestSpecMapownerselecto
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#match_expressions DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#match_expressions DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SBpfmanIoUprobeProgramV1Alpha1ManifestSpecMapownerselectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#match_labels DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#match_labels DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1395,19 +1395,19 @@ export interface DataK8SBpfmanIoUprobeProgramV1Alpha1ManifestSpecNodeselectorMat
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#key DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#key DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#operator DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#operator DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#values DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#values DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1577,13 +1577,13 @@ export interface DataK8SBpfmanIoUprobeProgramV1Alpha1ManifestSpecNodeselector {
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#match_expressions DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#match_expressions DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SBpfmanIoUprobeProgramV1Alpha1ManifestSpecNodeselectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#match_labels DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#match_labels DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1708,67 +1708,67 @@ export interface DataK8SBpfmanIoUprobeProgramV1Alpha1ManifestSpec {
   /**
   * BpfFunctionName is the name of the function that is the entry point for the BPF program
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#bpffunctionname DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#bpffunctionname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#bpffunctionname DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#bpffunctionname}
   */
   readonly bpffunctionname: string;
   /**
   * Bytecode configures where the bpf program's bytecode should be loaded from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#bytecode DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#bytecode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#bytecode DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#bytecode}
   */
   readonly bytecode: DataK8SBpfmanIoUprobeProgramV1Alpha1ManifestSpecBytecode;
   /**
   * Containers identifes the set of containers in which to attach the uprobe. If Containers is not specified, the uprobe will be attached in the bpfman-agent container. The ContainerSelector is very flexible and even allows the selection of all containers in a cluster. If an attempt is made to attach uprobes to too many containers, it can have a negative impact on on the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#containers DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#containers DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SBpfmanIoUprobeProgramV1Alpha1ManifestSpecContainers;
   /**
   * Function to attach the uprobe to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#func_name DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#func_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#func_name DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#func_name}
   */
   readonly funcName?: string;
   /**
   * GlobalData allows the user to to set global variables when the program is loaded with an array of raw bytes. This is a very low level primitive. The caller is responsible for formatting the byte string appropriately considering such things as size, endianness, alignment and packing of data structures.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#globaldata DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#globaldata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#globaldata DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#globaldata}
   */
   readonly globaldata?: { [key: string]: string };
   /**
   * MapOwnerSelector is used to select the loaded eBPF program this eBPF program will share a map with. The value is a label applied to the BpfProgram to select. The selector must resolve to exactly one instance of a BpfProgram on a given node or the eBPF program will not load.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#mapownerselector DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#mapownerselector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#mapownerselector DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#mapownerselector}
   */
   readonly mapownerselector?: DataK8SBpfmanIoUprobeProgramV1Alpha1ManifestSpecMapownerselector;
   /**
   * NodeSelector allows the user to specify which nodes to deploy the bpf program to. This field must be specified, to select all nodes use standard metav1.LabelSelector semantics and make it empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#nodeselector DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#nodeselector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#nodeselector DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#nodeselector}
   */
   readonly nodeselector: DataK8SBpfmanIoUprobeProgramV1Alpha1ManifestSpecNodeselector;
   /**
   * Offset added to the address of the function for uprobe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#offset DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#offset DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#offset}
   */
   readonly offset?: number;
   /**
   * Only execute uprobe for given process identification number (PID). If PID is not provided, uprobe executes for all PIDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#pid DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#pid DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#pid}
   */
   readonly pid?: number;
   /**
   * Whether the program is a uretprobe. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#retprobe DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#retprobe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#retprobe DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#retprobe}
   */
   readonly retprobe?: boolean | cdktf.IResolvable;
   /**
   * Library name or the absolute path to a binary or library.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#target DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#target DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest#target}
   */
   readonly target: string;
 }
@@ -2140,7 +2140,7 @@ export class DataK8SBpfmanIoUprobeProgramV1Alpha1ManifestSpecOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest k8s_bpfman_io_uprobe_program_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest k8s_bpfman_io_uprobe_program_v1alpha1_manifest}
 */
 export class DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2156,7 +2156,7 @@ export class DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2168,7 +2168,7 @@ export class DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest k8s_bpfman_io_uprobe_program_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/bpfman_io_uprobe_program_v1alpha1_manifest k8s_bpfman_io_uprobe_program_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2179,8 +2179,8 @@ export class DataK8SBpfmanIoUprobeProgramV1Alpha1Manifest extends cdktf.Terrafor
       terraformResourceType: 'k8s_bpfman_io_uprobe_program_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

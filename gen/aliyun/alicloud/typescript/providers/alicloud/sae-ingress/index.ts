@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_ingress
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_ingress
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface SaeIngressConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_ingress#cert_id SaeIngress#cert_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_ingress#cert_id SaeIngress#cert_id}
   */
   readonly certId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_ingress#cert_ids SaeIngress#cert_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_ingress#cert_ids SaeIngress#cert_ids}
   */
   readonly certIds?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_ingress#description SaeIngress#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_ingress#description SaeIngress#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_ingress#id SaeIngress#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_ingress#id SaeIngress#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_ingress#listener_port SaeIngress#listener_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_ingress#listener_port SaeIngress#listener_port}
   */
   readonly listenerPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_ingress#listener_protocol SaeIngress#listener_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_ingress#listener_protocol SaeIngress#listener_protocol}
   */
   readonly listenerProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_ingress#load_balance_type SaeIngress#load_balance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_ingress#load_balance_type SaeIngress#load_balance_type}
   */
   readonly loadBalanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_ingress#namespace_id SaeIngress#namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_ingress#namespace_id SaeIngress#namespace_id}
   */
   readonly namespaceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_ingress#slb_id SaeIngress#slb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_ingress#slb_id SaeIngress#slb_id}
   */
   readonly slbId: string;
   /**
   * default_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_ingress#default_rule SaeIngress#default_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_ingress#default_rule SaeIngress#default_rule}
   */
   readonly defaultRule?: SaeIngressDefaultRule;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_ingress#rules SaeIngress#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_ingress#rules SaeIngress#rules}
   */
   readonly rules: SaeIngressRules[] | cdktf.IResolvable;
 }
 export interface SaeIngressDefaultRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_ingress#app_id SaeIngress#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_ingress#app_id SaeIngress#app_id}
   */
   readonly appId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_ingress#app_name SaeIngress#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_ingress#app_name SaeIngress#app_name}
   */
   readonly appName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_ingress#container_port SaeIngress#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_ingress#container_port SaeIngress#container_port}
   */
   readonly containerPort?: number;
 }
@@ -211,31 +211,31 @@ export class SaeIngressDefaultRuleOutputReference extends cdktf.ComplexObject {
 }
 export interface SaeIngressRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_ingress#app_id SaeIngress#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_ingress#app_id SaeIngress#app_id}
   */
   readonly appId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_ingress#app_name SaeIngress#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_ingress#app_name SaeIngress#app_name}
   */
   readonly appName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_ingress#backend_protocol SaeIngress#backend_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_ingress#backend_protocol SaeIngress#backend_protocol}
   */
   readonly backendProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_ingress#container_port SaeIngress#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_ingress#container_port SaeIngress#container_port}
   */
   readonly containerPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_ingress#domain SaeIngress#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_ingress#domain SaeIngress#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_ingress#path SaeIngress#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_ingress#path SaeIngress#path}
   */
   readonly path: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_ingress#rewrite_path SaeIngress#rewrite_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_ingress#rewrite_path SaeIngress#rewrite_path}
   */
   readonly rewritePath?: string;
 }
@@ -510,7 +510,7 @@ export class SaeIngressRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_ingress alicloud_sae_ingress}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_ingress alicloud_sae_ingress}
 */
 export class SaeIngress extends cdktf.TerraformResource {
 
@@ -526,7 +526,7 @@ export class SaeIngress extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SaeIngress resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SaeIngress to import
-  * @param importFromId The id of the existing SaeIngress that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_ingress#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SaeIngress that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_ingress#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SaeIngress to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -538,7 +538,7 @@ export class SaeIngress extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_ingress alicloud_sae_ingress} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_ingress alicloud_sae_ingress} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -549,8 +549,8 @@ export class SaeIngress extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_sae_ingress',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

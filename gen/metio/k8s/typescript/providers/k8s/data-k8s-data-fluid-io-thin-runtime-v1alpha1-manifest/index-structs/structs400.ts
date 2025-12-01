@@ -47,13 +47,13 @@ export interface DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerLiveness
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#host DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#host DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#port DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#port DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -175,61 +175,61 @@ export interface DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerLiveness
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#exec DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#exec DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#failure_threshold DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#failure_threshold DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#grpc DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#grpc DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerLivenessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#http_get DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#http_get DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerLivenessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#initial_delay_seconds DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#initial_delay_seconds DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#period_seconds DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#period_seconds DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#success_threshold DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#success_threshold DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#tcp_socket DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#tcp_socket DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerLivenessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#termination_grace_period_seconds DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#termination_grace_period_seconds DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#timeout_seconds DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#timeout_seconds DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -586,31 +586,31 @@ export interface DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerPorts {
   /**
   * Number of port to expose on the pod's IP address. This must be a valid port number, 0 < x < 65536.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#container_port DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#container_port DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#container_port}
   */
   readonly containerPort: number;
   /**
   * What host IP to bind the external port to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#host_ip DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#host_ip DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
   * Number of port to expose on the host. If specified, this must be a valid port number, 0 < x < 65536. If HostNetwork is specified, this must match ContainerPort. Most containers do not need this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#host_port DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#host_port DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
   * If specified, this must be an IANA_SVC_NAME and unique within the pod. Each named port in a pod must have a unique name. Name for the port that can be referred to by services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#name DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#name DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Protocol for port. Must be UDP, TCP, or SCTP. Defaults to 'TCP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#protocol DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#protocol DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -841,7 +841,7 @@ export interface DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerReadines
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#command DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#command DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -937,13 +937,13 @@ export interface DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerReadines
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#port DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#port DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#service DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#service DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#service}
   */
   readonly service?: string;
 }
@@ -1065,13 +1065,13 @@ export interface DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerReadines
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#name DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#name DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#value DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#value DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -1212,31 +1212,31 @@ export interface DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerReadines
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#host DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#host DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#http_headers DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#http_headers DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#path DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#path DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#port DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#port DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#scheme DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#scheme DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -1445,13 +1445,13 @@ export interface DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerReadines
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#host DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#host DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#port DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#port DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#port}
   */
   readonly port: string;
 }
@@ -1573,61 +1573,61 @@ export interface DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerReadines
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#exec DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#exec DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#exec}
   */
   readonly exec?: DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerReadinessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#failure_threshold DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#failure_threshold DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#grpc DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#grpc DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerReadinessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#http_get DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#http_get DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#http_get}
   */
   readonly httpGet?: DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerReadinessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#initial_delay_seconds DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#initial_delay_seconds DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#period_seconds DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#period_seconds DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#success_threshold DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#success_threshold DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#tcp_socket DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#tcp_socket DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerReadinessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#termination_grace_period_seconds DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#termination_grace_period_seconds DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#timeout_seconds DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#timeout_seconds DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -1984,7 +1984,7 @@ export interface DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerResource
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#name DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#name DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -2099,19 +2099,19 @@ export interface DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerResource
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#claims DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#claims DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#limits DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#limits DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#requests DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#requests DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2265,37 +2265,37 @@ export interface DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerVolumeMo
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#mount_path DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#mount_path DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#mount_propagation DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#mount_propagation DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#name DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#name DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#read_only DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#sub_path DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#sub_path DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#sub_path_expr DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#sub_path_expr DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -2552,85 +2552,85 @@ export interface DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorker {
   /**
   * Enabled or Disabled for the components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#enabled DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#enabled DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Environment variables that will be used by thinRuntime component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#env DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#env DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerEnv[] | cdktf.IResolvable;
   /**
   * Image for thinRuntime fuse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#image DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#image DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * One of the three policies: 'Always', 'IfNotPresent', 'Never'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#image_pull_policy DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#image_pull_policy DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * ImagePullSecrets that will be used to pull images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#image_pull_secrets DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#image_pull_secrets DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Image for thinRuntime fuse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#image_tag DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#image_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#image_tag DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#image_tag}
   */
   readonly imageTag?: string;
   /**
   * livenessProbe of thin fuse pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#liveness_probe DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#liveness_probe DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerLivenessProbe;
   /**
   * Whether to use hostnetwork or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#network_mode DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#network_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#network_mode DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#network_mode}
   */
   readonly networkMode?: string;
   /**
   * NodeSelector is a selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#node_selector DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#node_selector DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Ports used thinRuntime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#ports DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#ports DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#ports}
   */
   readonly ports?: DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerPorts[] | cdktf.IResolvable;
   /**
   * readinessProbe of thin fuse pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#readiness_probe DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#readiness_probe DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerReadinessProbe;
   /**
   * Replicas is the desired number of replicas of the given template. If unspecified, defaults to 1. replicas is the min replicas of dataset in the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#replicas DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#replicas DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Resources that will be requested by thinRuntime component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#resources DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#resources DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerResources;
   /**
   * VolumeMounts specifies the volumes listed in '.spec.volumes' to mount into runtime component's filesystem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#volume_mounts DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#volume_mounts DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorkerVolumeMounts[] | cdktf.IResolvable;
 }
@@ -3103,61 +3103,61 @@ export interface DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpec {
   /**
   * Disable monitoring for Runtime Prometheus is enabled by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#disable_prometheus DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#disable_prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#disable_prometheus DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#disable_prometheus}
   */
   readonly disablePrometheus?: boolean | cdktf.IResolvable;
   /**
   * The component spec of thinRuntime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#fuse DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#fuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#fuse DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#fuse}
   */
   readonly fuse?: DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecFuse;
   /**
   * ImagePullSecrets that will be used to pull images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#image_pull_secrets DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#image_pull_secrets DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
   * RuntimeManagement defines policies when managing the runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#management DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#management DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#management}
   */
   readonly management?: DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecManagement;
   /**
   * The specific runtime profile name, empty value is used for handling datasets which mount another dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#profile_name DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#profile_name DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#profile_name}
   */
   readonly profileName?: string;
   /**
   * The replicas of the worker, need to be specified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#replicas DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#replicas DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Manage the user to run Runtime
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#run_as DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#run_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#run_as DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#run_as}
   */
   readonly runAs?: DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecRunAs;
   /**
   * Tiered storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#tieredstore DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#tieredstore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#tieredstore DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#tieredstore}
   */
   readonly tieredstore?: DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecTieredstore;
   /**
   * Volumes is the list of Kubernetes volumes that can be mounted by runtime components and/or fuses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#volumes DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#volumes DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#volumes}
   */
   readonly volumes?: DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecVolumes[] | cdktf.IResolvable;
   /**
   * The component spec of worker
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#worker DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#worker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/data_fluid_io_thin_runtime_v1alpha1_manifest#worker DataK8SDataFluidIoThinRuntimeV1Alpha1Manifest#worker}
   */
   readonly worker?: DataK8SDataFluidIoThinRuntimeV1Alpha1ManifestSpecWorker;
 }

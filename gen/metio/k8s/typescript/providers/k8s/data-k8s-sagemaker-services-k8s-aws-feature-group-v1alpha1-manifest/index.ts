@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestConfi
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#metadata DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#metadata DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestMetadata;
   /**
   * FeatureGroupSpec defines the desired state of FeatureGroup. Amazon SageMaker Feature Store stores features in a collection called Feature Group. A Feature Group can be visualized as a table which has rows, with a unique identifier for each row where each column in the table is a feature. In principle, a Feature Group is composed of features and values per features.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#spec DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#spec DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestMetad
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#annotations DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#annotations DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#labels DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#labels DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#namespace DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#namespace DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export class DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestMetadataO
 }
 export interface DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecFeatureDefinitionsCollectionConfigVectorConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#dimension DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#dimension DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#dimension}
   */
   readonly dimension?: number;
 }
@@ -313,7 +313,7 @@ export interface DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecF
   /**
   * Configuration for your vector collection type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#vector_config DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#vector_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#vector_config DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#vector_config}
   */
   readonly vectorConfig?: DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecFeatureDefinitionsCollectionConfigVectorConfig;
 }
@@ -409,19 +409,19 @@ export interface DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecF
   /**
   * Configuration for your collection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#collection_config DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#collection_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#collection_config DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#collection_config}
   */
   readonly collectionConfig?: DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecFeatureDefinitionsCollectionConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#collection_type DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#collection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#collection_type DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#collection_type}
   */
   readonly collectionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#feature_name DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#feature_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#feature_name DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#feature_name}
   */
   readonly featureName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#feature_type DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#feature_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#feature_type DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#feature_type}
   */
   readonly featureType?: string;
 }
@@ -624,15 +624,15 @@ export class DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecFeatu
 }
 export interface DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecOfflineStoreConfigDataCatalogConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#catalog DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#catalog DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#catalog}
   */
   readonly catalog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#database DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#database DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#database}
   */
   readonly database?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#table_name DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#table_name DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#table_name}
   */
   readonly tableName?: string;
 }
@@ -784,15 +784,15 @@ export class DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecOffli
 }
 export interface DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecOfflineStoreConfigS3StorageConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#resolved_output_s3_uri DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#resolved_output_s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#resolved_output_s3_uri DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#resolved_output_s3_uri}
   */
   readonly resolvedOutputS3Uri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -946,17 +946,17 @@ export interface DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecO
   /**
   * The meta data of the Glue table which serves as data catalog for the OfflineStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#data_catalog_config DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#data_catalog_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#data_catalog_config DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#data_catalog_config}
   */
   readonly dataCatalogConfig?: DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecOfflineStoreConfigDataCatalogConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#disable_glue_table_creation DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#disable_glue_table_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#disable_glue_table_creation DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#disable_glue_table_creation}
   */
   readonly disableGlueTableCreation?: boolean | cdktf.IResolvable;
   /**
   * The Amazon Simple Storage (Amazon S3) location and and security configuration for OfflineStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#s3_storage_config DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#s3_storage_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#s3_storage_config DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#s3_storage_config}
   */
   readonly s3StorageConfig?: DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecOfflineStoreConfigS3StorageConfig;
 }
@@ -1108,7 +1108,7 @@ export class DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecOffli
 }
 export interface DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecOnlineStoreConfigSecurityConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#kms_key_id}
   */
   readonly kmsKeyId?: string;
 }
@@ -1202,11 +1202,11 @@ export class DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecOnlin
 }
 export interface DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecOnlineStoreConfigTtlDuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#unit DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#unit DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#unit}
   */
   readonly unit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#value}
   */
   readonly value?: number;
 }
@@ -1329,23 +1329,23 @@ export class DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecOnlin
 }
 export interface DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecOnlineStoreConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#enable_online_store DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#enable_online_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#enable_online_store DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#enable_online_store}
   */
   readonly enableOnlineStore?: boolean | cdktf.IResolvable;
   /**
   * The security configuration for OnlineStore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#security_config DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#security_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#security_config DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#security_config}
   */
   readonly securityConfig?: DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecOnlineStoreConfigSecurityConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#storage_type DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#storage_type DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#storage_type}
   */
   readonly storageType?: string;
   /**
   * Time to live duration, where the record is hard deleted after the expiration time is reached; ExpiresAt = EventTime + TtlDuration. For information on HardDelete, see the DeleteRecord (https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_feature_store_DeleteRecord.html) API in the Amazon SageMaker API Reference guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#ttl_duration DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#ttl_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#ttl_duration DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#ttl_duration}
   */
   readonly ttlDuration?: DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecOnlineStoreConfigTtlDuration;
 }
@@ -1526,11 +1526,11 @@ export class DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecOnlin
 }
 export interface DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#key DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#key DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1675,15 +1675,15 @@ export class DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecTagsL
 }
 export interface DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecThroughputConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#provisioned_read_capacity_units DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#provisioned_read_capacity_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#provisioned_read_capacity_units DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#provisioned_read_capacity_units}
   */
   readonly provisionedReadCapacityUnits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#provisioned_write_capacity_units DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#provisioned_write_capacity_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#provisioned_write_capacity_units DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#provisioned_write_capacity_units}
   */
   readonly provisionedWriteCapacityUnits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#throughput_mode DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#throughput_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#throughput_mode DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#throughput_mode}
   */
   readonly throughputMode?: string;
 }
@@ -1837,61 +1837,61 @@ export interface DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpec 
   /**
   * A free-form description of a FeatureGroup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#description DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#description DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * The name of the feature that stores the EventTime of a Record in a FeatureGroup. An EventTime is a point in time when a new event occurs that corresponds to the creation or update of a Record in a FeatureGroup. All Records in the FeatureGroup must have a corresponding EventTime. An EventTime can be a String or Fractional. * Fractional: EventTime feature values must be a Unix timestamp in seconds. * String: EventTime feature values must be an ISO-8601 string in the format. The following formats are supported yyyy-MM-dd'T'HH:mm:ssZ and yyyy-MM-dd'T'HH:mm:ss.SSSZ where yyyy, MM, and dd represent the year, month, and day respectively and HH, mm, ss, and if applicable, SSS represent the hour, month, second and milliseconds respsectively. 'T' and Z are constants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#event_time_feature_name DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#event_time_feature_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#event_time_feature_name DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#event_time_feature_name}
   */
   readonly eventTimeFeatureName: string;
   /**
   * A list of Feature names and types. Name and Type is compulsory per Feature. Valid feature FeatureTypes are Integral, Fractional and String. FeatureNames cannot be any of the following: is_deleted, write_time, api_invocation_time You can create up to 2,500 FeatureDefinitions per FeatureGroup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#feature_definitions DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#feature_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#feature_definitions DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#feature_definitions}
   */
   readonly featureDefinitions: DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecFeatureDefinitions[] | cdktf.IResolvable;
   /**
   * The name of the FeatureGroup. The name must be unique within an Amazon Web Services Region in an Amazon Web Services account. The name: * Must start and end with an alphanumeric character. * Can only contain alphanumeric character and hyphens. Spaces are not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#feature_group_name DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#feature_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#feature_group_name DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#feature_group_name}
   */
   readonly featureGroupName: string;
   /**
   * Use this to configure an OfflineFeatureStore. This parameter allows you to specify: * The Amazon Simple Storage Service (Amazon S3) location of an OfflineStore. * A configuration for an Amazon Web Services Glue or Amazon Web Services Hive data catalog. * An KMS encryption key to encrypt the Amazon S3 location used for OfflineStore. If KMS encryption key is not specified, by default we encrypt all data at rest using Amazon Web Services KMS key. By defining your bucket-level key (https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucket-key.html) for SSE, you can reduce Amazon Web Services KMS requests costs by up to 99 percent. * Format for the offline store table. Supported formats are Glue (Default) and Apache Iceberg (https://iceberg.apache.org/). To learn more about this parameter, see OfflineStoreConfig (https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_OfflineStoreConfig.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#offline_store_config DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#offline_store_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#offline_store_config DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#offline_store_config}
   */
   readonly offlineStoreConfig?: DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecOfflineStoreConfig;
   /**
   * You can turn the OnlineStore on or off by specifying True for the EnableOnlineStore flag in OnlineStoreConfig. You can also include an Amazon Web Services KMS key ID (KMSKeyId) for at-rest encryption of the OnlineStore. The default value is False.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#online_store_config DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#online_store_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#online_store_config DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#online_store_config}
   */
   readonly onlineStoreConfig?: DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecOnlineStoreConfig;
   /**
   * The name of the Feature whose value uniquely identifies a Record defined in the FeatureStore. Only the latest record per identifier value will be stored in the OnlineStore. RecordIdentifierFeatureName must be one of feature definitions' names. You use the RecordIdentifierFeatureName to access data in a FeatureStore. This name: * Must start and end with an alphanumeric character. * Can only contains alphanumeric characters, hyphens, underscores. Spaces are not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#record_identifier_feature_name DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#record_identifier_feature_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#record_identifier_feature_name DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#record_identifier_feature_name}
   */
   readonly recordIdentifierFeatureName: string;
   /**
   * The Amazon Resource Name (ARN) of the IAM execution role used to persist data into the OfflineStore if an OfflineStoreConfig is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#role_arn DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#role_arn DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#role_arn}
   */
   readonly roleArn?: string;
   /**
   * Tags used to identify Features in each FeatureGroup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#tags DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#tags DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
   /**
   * Used to set feature group throughput configuration. There are two modes: ON_DEMAND and PROVISIONED. With on-demand mode, you are charged for data reads and writes that your application performs on your feature group. You do not need to specify read and write throughput because Feature Store accommodates your workloads as they ramp up and down. You can switch a feature group to on-demand only once in a 24 hour period. With provisioned throughput mode, you specify the read and write capacity per second that you expect your application to require, and you are billed based on those limits. Exceeding provisioned throughput will result in your requests being throttled. Note: PROVISIONED throughput mode is supported only for feature groups that are offline-only, or use the Standard (https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_OnlineStoreConfig.html#sagemaker-Type-OnlineStoreConfig-StorageType) tier online store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#throughput_config DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#throughput_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#throughput_config DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest#throughput_config}
   */
   readonly throughputConfig?: DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecThroughputConfig;
 }
@@ -2234,7 +2234,7 @@ export class DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1ManifestSpecOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest}
 */
 export class DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2250,7 +2250,7 @@ export class DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest extends 
   * Generates CDKTF code for importing a DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2262,7 +2262,7 @@ export class DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2273,8 +2273,8 @@ export class DataK8SSagemakerServicesK8SAwsFeatureGroupV1Alpha1Manifest extends 
       terraformResourceType: 'k8s_sagemaker_services_k8s_aws_feature_group_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

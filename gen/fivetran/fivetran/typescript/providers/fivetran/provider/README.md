@@ -1,3 +1,3 @@
 # `provider`
 
-Refer to the Terraform Registry for docs: [`fivetran`](https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs).
+Refer to the Terraform Registry for docs: [`fivetran`](https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs).

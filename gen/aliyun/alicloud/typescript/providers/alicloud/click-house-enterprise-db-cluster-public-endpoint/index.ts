@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_enterprise_db_cluster_public_endpoint
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_enterprise_db_cluster_public_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface ClickHouseEnterpriseDbClusterPublicEndpointConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_enterprise_db_cluster_public_endpoint#connection_string_prefix ClickHouseEnterpriseDbClusterPublicEndpoint#connection_string_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_enterprise_db_cluster_public_endpoint#connection_string_prefix ClickHouseEnterpriseDbClusterPublicEndpoint#connection_string_prefix}
   */
   readonly connectionStringPrefix: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_enterprise_db_cluster_public_endpoint#db_instance_id ClickHouseEnterpriseDbClusterPublicEndpoint#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_enterprise_db_cluster_public_endpoint#db_instance_id ClickHouseEnterpriseDbClusterPublicEndpoint#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_enterprise_db_cluster_public_endpoint#id ClickHouseEnterpriseDbClusterPublicEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_enterprise_db_cluster_public_endpoint#id ClickHouseEnterpriseDbClusterPublicEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_enterprise_db_cluster_public_endpoint#net_type ClickHouseEnterpriseDbClusterPublicEndpoint#net_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_enterprise_db_cluster_public_endpoint#net_type ClickHouseEnterpriseDbClusterPublicEndpoint#net_type}
   */
   readonly netType: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_enterprise_db_cluster_public_endpoint#timeouts ClickHouseEnterpriseDbClusterPublicEndpoint#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_enterprise_db_cluster_public_endpoint#timeouts ClickHouseEnterpriseDbClusterPublicEndpoint#timeouts}
   */
   readonly timeouts?: ClickHouseEnterpriseDbClusterPublicEndpointTimeouts;
 }
 export interface ClickHouseEnterpriseDbClusterPublicEndpointTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_enterprise_db_cluster_public_endpoint#create ClickHouseEnterpriseDbClusterPublicEndpoint#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_enterprise_db_cluster_public_endpoint#create ClickHouseEnterpriseDbClusterPublicEndpoint#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_enterprise_db_cluster_public_endpoint#delete ClickHouseEnterpriseDbClusterPublicEndpoint#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_enterprise_db_cluster_public_endpoint#delete ClickHouseEnterpriseDbClusterPublicEndpoint#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_enterprise_db_cluster_public_endpoint#update ClickHouseEnterpriseDbClusterPublicEndpoint#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_enterprise_db_cluster_public_endpoint#update ClickHouseEnterpriseDbClusterPublicEndpoint#update}
   */
   readonly update?: string;
 }
@@ -195,7 +195,7 @@ export class ClickHouseEnterpriseDbClusterPublicEndpointTimeoutsOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_enterprise_db_cluster_public_endpoint alicloud_click_house_enterprise_db_cluster_public_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_enterprise_db_cluster_public_endpoint alicloud_click_house_enterprise_db_cluster_public_endpoint}
 */
 export class ClickHouseEnterpriseDbClusterPublicEndpoint extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class ClickHouseEnterpriseDbClusterPublicEndpoint extends cdktf.Terraform
   * Generates CDKTF code for importing a ClickHouseEnterpriseDbClusterPublicEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClickHouseEnterpriseDbClusterPublicEndpoint to import
-  * @param importFromId The id of the existing ClickHouseEnterpriseDbClusterPublicEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_enterprise_db_cluster_public_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClickHouseEnterpriseDbClusterPublicEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_enterprise_db_cluster_public_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClickHouseEnterpriseDbClusterPublicEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class ClickHouseEnterpriseDbClusterPublicEndpoint extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/click_house_enterprise_db_cluster_public_endpoint alicloud_click_house_enterprise_db_cluster_public_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/click_house_enterprise_db_cluster_public_endpoint alicloud_click_house_enterprise_db_cluster_public_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class ClickHouseEnterpriseDbClusterPublicEndpoint extends cdktf.Terraform
       terraformResourceType: 'alicloud_click_house_enterprise_db_cluster_public_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

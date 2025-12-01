@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,56 +10,56 @@ export interface InterfaceL2TpClientConfig extends cdktf.TerraformMetaArguments 
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#___path___ InterfaceL2TpClient#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#___path___ InterfaceL2TpClient#___path___}
   */
   readonly path?: string;
   /**
   * Whether to add L2TP remote address as a default route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#add_default_route InterfaceL2TpClient#add_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#add_default_route InterfaceL2TpClient#add_default_route}
   */
   readonly addDefaultRoute?: boolean | cdktf.IResolvable;
   /**
   * Allowed authentication methods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#allow InterfaceL2TpClient#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#allow InterfaceL2TpClient#allow}
   */
   readonly allow?: string[];
   /**
   * Whether to allow FastPath processing. Must be disabled if IPsec tunneling is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#allow_fast_path InterfaceL2TpClient#allow_fast_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#allow_fast_path InterfaceL2TpClient#allow_fast_path}
   */
   readonly allowFastPath?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#comment InterfaceL2TpClient#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#comment InterfaceL2TpClient#comment}
   */
   readonly comment?: string;
   /**
   * Remote address of L2TP server (if the address is in VRF table, VRF should be specified) `/interface l2tp-client`
   * `add connect-to=192.168.88.1@vrf1 name=l2tp-out1 user=l2tp-client`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#connect_to InterfaceL2TpClient#connect_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#connect_to InterfaceL2TpClient#connect_to}
   */
   readonly connectTo?: string;
   /**
   * Since v6.2, sets distance value applied to auto created default route, if add-default-route is also selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#default_route_distance InterfaceL2TpClient#default_route_distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#default_route_distance InterfaceL2TpClient#default_route_distance}
   */
   readonly defaultRouteDistance?: number;
   /**
   * Connects only when outbound traffic is generated. If selected, then route with gateway address from `10.112.112.0/24` network will be added while connection is not established.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#dial_on_demand InterfaceL2TpClient#dial_on_demand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#dial_on_demand InterfaceL2TpClient#dial_on_demand}
   */
   readonly dialOnDemand?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#disabled InterfaceL2TpClient#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#disabled InterfaceL2TpClient#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#id InterfaceL2TpClient#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#id InterfaceL2TpClient#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -68,107 +68,107 @@ export interface InterfaceL2TpClientConfig extends cdktf.TerraformMetaArguments 
   /**
   * Preshared key used when use-ipsec is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#ipsec_secret InterfaceL2TpClient#ipsec_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#ipsec_secret InterfaceL2TpClient#ipsec_secret}
   */
   readonly ipsecSecret?: string;
   /**
   * Since v6.0rc13, tunnel keepalive timeout in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#keepalive_timeout InterfaceL2TpClient#keepalive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#keepalive_timeout InterfaceL2TpClient#keepalive_timeout}
   */
   readonly keepaliveTimeout?: number;
   /**
   * Specify protocol version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#l2tp_proto_version InterfaceL2TpClient#l2tp_proto_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#l2tp_proto_version InterfaceL2TpClient#l2tp_proto_version}
   */
   readonly l2TpProtoVersion?: string;
   /**
   * Set the virtual circuit identifier to bind the one end of the L2TPv3 control channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#l2tpv3_circuit_id InterfaceL2TpClient#l2tpv3_circuit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#l2tpv3_circuit_id InterfaceL2TpClient#l2tpv3_circuit_id}
   */
   readonly l2Tpv3CircuitId?: string;
   /**
   * Configures an L2TPv3 pseudowire static session cookie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#l2tpv3_cookie_length InterfaceL2TpClient#l2tpv3_cookie_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#l2tpv3_cookie_length InterfaceL2TpClient#l2tpv3_cookie_length}
   */
   readonly l2Tpv3CookieLength?: number;
   /**
   * Specifies which hash function to be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#l2tpv3_digest_hash InterfaceL2TpClient#l2tpv3_digest_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#l2tpv3_digest_hash InterfaceL2TpClient#l2tpv3_digest_hash}
   */
   readonly l2Tpv3DigestHash?: string;
   /**
   * Maximum Receive Unit. Max packet size that L2TP interface will be able to receive without packet fragmentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#max_mru InterfaceL2TpClient#max_mru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#max_mru InterfaceL2TpClient#max_mru}
   */
   readonly maxMru?: number;
   /**
   * Maximum Transmission Unit. Max packet size that L2TP interface will be able to send without packet fragmentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#max_mtu InterfaceL2TpClient#max_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#max_mtu InterfaceL2TpClient#max_mtu}
   */
   readonly maxMtu?: number;
   /**
   * Maximum packet size that can be received on the link. If a packet is bigger than tunnel MTU, it will be split into multiple packets, allowing full size IP or Ethernet packets to be sent over the tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#mrru InterfaceL2TpClient#mrru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#mrru InterfaceL2TpClient#mrru}
   */
   readonly mrru?: string;
   /**
   * Descriptive name of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#name InterfaceL2TpClient#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#name InterfaceL2TpClient#name}
   */
   readonly name: string;
   /**
   * Password used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#password InterfaceL2TpClient#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#password InterfaceL2TpClient#password}
   */
   readonly password?: string;
   /**
   * Specifies which PPP profile configuration will be used when establishing the tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#profile InterfaceL2TpClient#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#profile InterfaceL2TpClient#profile}
   */
   readonly profile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#random_source_port InterfaceL2TpClient#random_source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#random_source_port InterfaceL2TpClient#random_source_port}
   */
   readonly randomSourcePort?: boolean | cdktf.IResolvable;
   /**
   * Specify source address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#src_address InterfaceL2TpClient#src_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#src_address InterfaceL2TpClient#src_address}
   */
   readonly srcAddress?: string;
   /**
   * When this option is enabled, dynamic IPSec peer configuration and policy (transport mode) is added to encapsulate L2TP connection into IPSec tunnel. Multiple L2tp/ipsec clients behind the same NAT will not work in this mode. To achieve such scenario, disable use-ipsec and set static policies for clients with enabled `tunnel=yes`, `level=unique` settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#use_ipsec InterfaceL2TpClient#use_ipsec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#use_ipsec InterfaceL2TpClient#use_ipsec}
   */
   readonly useIpsec?: boolean | cdktf.IResolvable;
   /**
   * To use peer dns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#use_peer_dns InterfaceL2TpClient#use_peer_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#use_peer_dns InterfaceL2TpClient#use_peer_dns}
   */
   readonly usePeerDns?: string;
   /**
   * User name used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#user InterfaceL2TpClient#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#user InterfaceL2TpClient#user}
   */
   readonly user?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client routeros_interface_l2tp_client}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client routeros_interface_l2tp_client}
 */
 export class InterfaceL2TpClient extends cdktf.TerraformResource {
 
@@ -184,7 +184,7 @@ export class InterfaceL2TpClient extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceL2TpClient resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceL2TpClient to import
-  * @param importFromId The id of the existing InterfaceL2TpClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceL2TpClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceL2TpClient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -196,7 +196,7 @@ export class InterfaceL2TpClient extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_l2tp_client routeros_interface_l2tp_client} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_l2tp_client routeros_interface_l2tp_client} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -207,8 +207,8 @@ export class InterfaceL2TpClient extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_interface_l2tp_client',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.94.0',
-        providerVersionConstraint: '1.94.0'
+        providerVersion: '1.95.0',
+        providerVersionConstraint: '1.95.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

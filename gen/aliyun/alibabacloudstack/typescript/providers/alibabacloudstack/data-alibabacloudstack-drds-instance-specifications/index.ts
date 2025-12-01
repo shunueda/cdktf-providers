@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/drds_instance_specifications
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/drds_instance_specifications
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackDrdsInstanceSpecificationsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/drds_instance_specifications#cpu DataAlibabacloudstackDrdsInstanceSpecifications#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/drds_instance_specifications#cpu DataAlibabacloudstackDrdsInstanceSpecifications#cpu}
   */
   readonly cpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/drds_instance_specifications#id DataAlibabacloudstackDrdsInstanceSpecifications#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/drds_instance_specifications#id DataAlibabacloudstackDrdsInstanceSpecifications#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/drds_instance_specifications#ids DataAlibabacloudstackDrdsInstanceSpecifications#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/drds_instance_specifications#ids DataAlibabacloudstackDrdsInstanceSpecifications#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/drds_instance_specifications#memory DataAlibabacloudstackDrdsInstanceSpecifications#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/drds_instance_specifications#memory DataAlibabacloudstackDrdsInstanceSpecifications#memory}
   */
   readonly memory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/drds_instance_specifications#names DataAlibabacloudstackDrdsInstanceSpecifications#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/drds_instance_specifications#names DataAlibabacloudstackDrdsInstanceSpecifications#names}
   */
   readonly names?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/drds_instance_specifications#series DataAlibabacloudstackDrdsInstanceSpecifications#series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/drds_instance_specifications#series DataAlibabacloudstackDrdsInstanceSpecifications#series}
   */
   readonly series?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/drds_instance_specifications#sorted_by DataAlibabacloudstackDrdsInstanceSpecifications#sorted_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/drds_instance_specifications#sorted_by DataAlibabacloudstackDrdsInstanceSpecifications#sorted_by}
   */
   readonly sortedBy?: string;
 }
@@ -136,7 +136,7 @@ export class DataAlibabacloudstackDrdsInstanceSpecificationsSpecificationsList e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/drds_instance_specifications alibabacloudstack_drds_instance_specifications}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/drds_instance_specifications alibabacloudstack_drds_instance_specifications}
 */
 export class DataAlibabacloudstackDrdsInstanceSpecifications extends cdktf.TerraformDataSource {
 
@@ -152,7 +152,7 @@ export class DataAlibabacloudstackDrdsInstanceSpecifications extends cdktf.Terra
   * Generates CDKTF code for importing a DataAlibabacloudstackDrdsInstanceSpecifications resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackDrdsInstanceSpecifications to import
-  * @param importFromId The id of the existing DataAlibabacloudstackDrdsInstanceSpecifications that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/drds_instance_specifications#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackDrdsInstanceSpecifications that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/drds_instance_specifications#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackDrdsInstanceSpecifications to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -164,7 +164,7 @@ export class DataAlibabacloudstackDrdsInstanceSpecifications extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/drds_instance_specifications alibabacloudstack_drds_instance_specifications} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/drds_instance_specifications alibabacloudstack_drds_instance_specifications} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -175,7 +175,8 @@ export class DataAlibabacloudstackDrdsInstanceSpecifications extends cdktf.Terra
       terraformResourceType: 'alibabacloudstack_drds_instance_specifications',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

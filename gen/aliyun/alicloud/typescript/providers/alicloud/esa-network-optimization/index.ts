@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_network_optimization
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_network_optimization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface EsaNetworkOptimizationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_network_optimization#grpc EsaNetworkOptimization#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_network_optimization#grpc EsaNetworkOptimization#grpc}
   */
   readonly grpc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_network_optimization#http2_origin EsaNetworkOptimization#http2_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_network_optimization#http2_origin EsaNetworkOptimization#http2_origin}
   */
   readonly http2Origin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_network_optimization#id EsaNetworkOptimization#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_network_optimization#id EsaNetworkOptimization#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_network_optimization#rule EsaNetworkOptimization#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_network_optimization#rule EsaNetworkOptimization#rule}
   */
   readonly rule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_network_optimization#rule_enable EsaNetworkOptimization#rule_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_network_optimization#rule_enable EsaNetworkOptimization#rule_enable}
   */
   readonly ruleEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_network_optimization#rule_name EsaNetworkOptimization#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_network_optimization#rule_name EsaNetworkOptimization#rule_name}
   */
   readonly ruleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_network_optimization#sequence EsaNetworkOptimization#sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_network_optimization#sequence EsaNetworkOptimization#sequence}
   */
   readonly sequence?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_network_optimization#site_id EsaNetworkOptimization#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_network_optimization#site_id EsaNetworkOptimization#site_id}
   */
   readonly siteId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_network_optimization#site_version EsaNetworkOptimization#site_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_network_optimization#site_version EsaNetworkOptimization#site_version}
   */
   readonly siteVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_network_optimization#smart_routing EsaNetworkOptimization#smart_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_network_optimization#smart_routing EsaNetworkOptimization#smart_routing}
   */
   readonly smartRouting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_network_optimization#upload_max_filesize EsaNetworkOptimization#upload_max_filesize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_network_optimization#upload_max_filesize EsaNetworkOptimization#upload_max_filesize}
   */
   readonly uploadMaxFilesize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_network_optimization#websocket EsaNetworkOptimization#websocket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_network_optimization#websocket EsaNetworkOptimization#websocket}
   */
   readonly websocket?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_network_optimization#timeouts EsaNetworkOptimization#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_network_optimization#timeouts EsaNetworkOptimization#timeouts}
   */
   readonly timeouts?: EsaNetworkOptimizationTimeouts;
 }
 export interface EsaNetworkOptimizationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_network_optimization#create EsaNetworkOptimization#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_network_optimization#create EsaNetworkOptimization#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_network_optimization#delete EsaNetworkOptimization#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_network_optimization#delete EsaNetworkOptimization#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_network_optimization#update EsaNetworkOptimization#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_network_optimization#update EsaNetworkOptimization#update}
   */
   readonly update?: string;
 }
@@ -227,7 +227,7 @@ export class EsaNetworkOptimizationTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_network_optimization alicloud_esa_network_optimization}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_network_optimization alicloud_esa_network_optimization}
 */
 export class EsaNetworkOptimization extends cdktf.TerraformResource {
 
@@ -243,7 +243,7 @@ export class EsaNetworkOptimization extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EsaNetworkOptimization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EsaNetworkOptimization to import
-  * @param importFromId The id of the existing EsaNetworkOptimization that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_network_optimization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EsaNetworkOptimization that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_network_optimization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EsaNetworkOptimization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -255,7 +255,7 @@ export class EsaNetworkOptimization extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_network_optimization alicloud_esa_network_optimization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_network_optimization alicloud_esa_network_optimization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -266,8 +266,8 @@ export class EsaNetworkOptimization extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_esa_network_optimization',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestConfig extends 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#metadata DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#metadata DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestMetadata;
   /**
   * TempoStackSpec defines the desired state of TempoStack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#spec DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#spec DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#annotations DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#annotations DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#labels DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#labels DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#namespace DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#namespace DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecExtraConfig
   /**
   * Tempo defines any extra Tempo configuration, which will be merged with the operator's generated Tempo configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tempo DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tempo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tempo DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tempo}
   */
   readonly tempo?: { [key: string]: string };
 }
@@ -315,7 +315,7 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecHashRingMem
   /**
   * EnableIPv6 enables IPv6 support for the memberlist based hash ring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#enable_i_pv6 DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#enable_i_pv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#enable_i_pv6 DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#enable_i_pv6}
   */
   readonly enableIPv6?: boolean | cdktf.IResolvable;
 }
@@ -411,7 +411,7 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecHashRing {
   /**
   * MemberList configuration spec
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#memberlist DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#memberlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#memberlist DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#memberlist}
   */
   readonly memberlist?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecHashRingMemberlistStruct;
 }
@@ -507,37 +507,37 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecImages {
   /**
   * JaegerQuery defines the tempo-query container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#jaeger_query DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#jaeger_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#jaeger_query DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#jaeger_query}
   */
   readonly jaegerQuery?: string;
   /**
   * OauthProxy defines the oauth proxy image used to protect the jaegerUI on single tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#oauth_proxy DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#oauth_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#oauth_proxy DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#oauth_proxy}
   */
   readonly oauthProxy?: string;
   /**
   * Tempo defines the tempo container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tempo DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tempo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tempo DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tempo}
   */
   readonly tempo?: string;
   /**
   * TempoGateway defines the tempo-gateway container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tempo_gateway DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tempo_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tempo_gateway DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tempo_gateway}
   */
   readonly tempoGateway?: string;
   /**
   * TempoGatewayOpa defines the OPA sidecar container for TempoGateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tempo_gateway_opa DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tempo_gateway_opa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tempo_gateway_opa DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tempo_gateway_opa}
   */
   readonly tempoGatewayOpa?: string;
   /**
   * TempoQuery defines the tempo-query container image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tempo_query DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tempo_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tempo_query DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tempo_query}
   */
   readonly tempoQuery?: string;
 }
@@ -778,25 +778,25 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecLimitsGloba
   /**
   * IngestionBurstSizeBytes defines the burst size (bytes) used in ingestion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#ingestion_burst_size_bytes DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#ingestion_burst_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#ingestion_burst_size_bytes DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#ingestion_burst_size_bytes}
   */
   readonly ingestionBurstSizeBytes?: number;
   /**
   * IngestionRateLimitBytes defines the Per-user ingestion rate limit (bytes) used in ingestion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#ingestion_rate_limit_bytes DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#ingestion_rate_limit_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#ingestion_rate_limit_bytes DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#ingestion_rate_limit_bytes}
   */
   readonly ingestionRateLimitBytes?: number;
   /**
   * MaxBytesPerTrace defines the maximum number of bytes of an acceptable trace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#max_bytes_per_trace DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#max_bytes_per_trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#max_bytes_per_trace DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#max_bytes_per_trace}
   */
   readonly maxBytesPerTrace?: number;
   /**
   * MaxTracesPerUser defines the maximum number of traces a user can send.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#max_traces_per_user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#max_traces_per_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#max_traces_per_user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#max_traces_per_user}
   */
   readonly maxTracesPerUser?: number;
 }
@@ -979,19 +979,19 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecLimitsGloba
   /**
   * MaxBytesPerTagValues defines the maximum size in bytes of a tag-values query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#max_bytes_per_tag_values DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#max_bytes_per_tag_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#max_bytes_per_tag_values DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#max_bytes_per_tag_values}
   */
   readonly maxBytesPerTagValues?: number;
   /**
   * DEPRECATED. MaxSearchBytesPerTrace defines the maximum size of search data for a single trace in bytes. default: '0' to disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#max_search_bytes_per_trace DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#max_search_bytes_per_trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#max_search_bytes_per_trace DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#max_search_bytes_per_trace}
   */
   readonly maxSearchBytesPerTrace?: number;
   /**
   * MaxSearchDuration defines the maximum allowed time range for a search. If this value is not set, then spec.search.maxDuration is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#max_search_duration DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#max_search_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#max_search_duration DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#max_search_duration}
   */
   readonly maxSearchDuration?: string;
 }
@@ -1145,13 +1145,13 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecLimitsGloba
   /**
   * Ingestion is used to define ingestion rate limits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#ingestion DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#ingestion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#ingestion DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#ingestion}
   */
   readonly ingestion?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecLimitsGlobalIngestion;
   /**
   * Query is used to define query rate limits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#query DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#query DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#query}
   */
   readonly query?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecLimitsGlobalQuery;
 }
@@ -1276,25 +1276,25 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecLimitsPerTe
   /**
   * IngestionBurstSizeBytes defines the burst size (bytes) used in ingestion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#ingestion_burst_size_bytes DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#ingestion_burst_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#ingestion_burst_size_bytes DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#ingestion_burst_size_bytes}
   */
   readonly ingestionBurstSizeBytes?: number;
   /**
   * IngestionRateLimitBytes defines the Per-user ingestion rate limit (bytes) used in ingestion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#ingestion_rate_limit_bytes DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#ingestion_rate_limit_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#ingestion_rate_limit_bytes DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#ingestion_rate_limit_bytes}
   */
   readonly ingestionRateLimitBytes?: number;
   /**
   * MaxBytesPerTrace defines the maximum number of bytes of an acceptable trace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#max_bytes_per_trace DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#max_bytes_per_trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#max_bytes_per_trace DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#max_bytes_per_trace}
   */
   readonly maxBytesPerTrace?: number;
   /**
   * MaxTracesPerUser defines the maximum number of traces a user can send.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#max_traces_per_user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#max_traces_per_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#max_traces_per_user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#max_traces_per_user}
   */
   readonly maxTracesPerUser?: number;
 }
@@ -1477,19 +1477,19 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecLimitsPerTe
   /**
   * MaxBytesPerTagValues defines the maximum size in bytes of a tag-values query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#max_bytes_per_tag_values DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#max_bytes_per_tag_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#max_bytes_per_tag_values DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#max_bytes_per_tag_values}
   */
   readonly maxBytesPerTagValues?: number;
   /**
   * DEPRECATED. MaxSearchBytesPerTrace defines the maximum size of search data for a single trace in bytes. default: '0' to disable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#max_search_bytes_per_trace DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#max_search_bytes_per_trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#max_search_bytes_per_trace DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#max_search_bytes_per_trace}
   */
   readonly maxSearchBytesPerTrace?: number;
   /**
   * MaxSearchDuration defines the maximum allowed time range for a search. If this value is not set, then spec.search.maxDuration is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#max_search_duration DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#max_search_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#max_search_duration DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#max_search_duration}
   */
   readonly maxSearchDuration?: string;
 }
@@ -1643,13 +1643,13 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecLimitsPerTe
   /**
   * Ingestion is used to define ingestion rate limits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#ingestion DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#ingestion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#ingestion DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#ingestion}
   */
   readonly ingestion?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecLimitsPerTenantIngestion;
   /**
   * Query is used to define query rate limits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#query DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#query DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#query}
   */
   readonly query?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecLimitsPerTenantQuery;
 }
@@ -1774,13 +1774,13 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecLimits {
   /**
   * Global is used to define global rate limits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#global DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#global DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#global}
   */
   readonly global?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecLimitsGlobal;
   /**
   * PerTenant is used to define rate limits per tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#per_tenant DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#per_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#per_tenant DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#per_tenant}
   */
   readonly perTenant?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecLimitsPerTenant;
 }
@@ -1905,19 +1905,19 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecObservabili
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#key DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#key DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#values DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#values DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2087,13 +2087,13 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecObservabili
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#match_expressions DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#match_expressions DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecObservabilityGrafanaInstanceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#match_labels DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#match_labels DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2218,13 +2218,13 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecObservabili
   /**
   * CreateDatasource specifies if a Grafana Datasource should be created for Tempo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#create_datasource DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#create_datasource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#create_datasource DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#create_datasource}
   */
   readonly createDatasource?: boolean | cdktf.IResolvable;
   /**
   * InstanceSelector specifies the Grafana instance where the datasource should be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#instance_selector DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#instance_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#instance_selector DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#instance_selector}
   */
   readonly instanceSelector?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecObservabilityGrafanaInstanceSelector;
 }
@@ -2349,13 +2349,13 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecObservabili
   /**
   * CreatePrometheusRules specifies if Prometheus rules for alerts should be created for Tempo components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#create_prometheus_rules DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#create_prometheus_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#create_prometheus_rules DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#create_prometheus_rules}
   */
   readonly createPrometheusRules?: boolean | cdktf.IResolvable;
   /**
   * CreateServiceMonitors specifies if ServiceMonitors should be created for Tempo components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#create_service_monitors DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#create_service_monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#create_service_monitors DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#create_service_monitors}
   */
   readonly createServiceMonitors?: boolean | cdktf.IResolvable;
 }
@@ -2480,13 +2480,13 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecObservabili
   /**
   * JaegerAgentEndpoint defines the jaeger endpoint data gets send to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#jaeger_agent_endpoint DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#jaeger_agent_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#jaeger_agent_endpoint DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#jaeger_agent_endpoint}
   */
   readonly jaegerAgentEndpoint?: string;
   /**
   * SamplingFraction defines the sampling ratio. Valid values are 0 to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#sampling_fraction DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#sampling_fraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#sampling_fraction DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#sampling_fraction}
   */
   readonly samplingFraction?: string;
 }
@@ -2611,19 +2611,19 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecObservabili
   /**
   * Grafana defines the Grafana configuration for operands.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#grafana DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#grafana}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#grafana DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#grafana}
   */
   readonly grafana?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecObservabilityGrafana;
   /**
   * Metrics defines the metrics configuration for operands.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#metrics DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#metrics DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#metrics}
   */
   readonly metrics?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecObservabilityMetrics;
   /**
   * Tracing defines a config for operands.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tracing DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tracing DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tracing}
   */
   readonly tracing?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecObservabilityTracing;
 }
@@ -2777,7 +2777,7 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecResourcesTo
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -2892,19 +2892,19 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecResourcesTo
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecResourcesTotalClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -3058,7 +3058,7 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecResources {
   /**
   * The total amount of resources for Tempo instance. The operator autonomously splits resources between deployed Tempo components. Only limits are supported, the operator calculates requests automatically. See http://github.com/grafana/tempo/issues/1540.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#total DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#total DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#total}
   */
   readonly total?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecResourcesTotal;
 }
@@ -3154,7 +3154,7 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecRetentionGl
   /**
   * Traces defines retention period. Supported parameter suffixes are 's', 'm' and 'h'. example: 336h default: value is 48h.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#traces DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#traces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#traces DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#traces}
   */
   readonly traces?: string;
 }
@@ -3250,7 +3250,7 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecRetentionPe
   /**
   * Traces defines retention period. Supported parameter suffixes are 's', 'm' and 'h'. example: 336h default: value is 48h.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#traces DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#traces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#traces DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#traces}
   */
   readonly traces?: string;
 }
@@ -3346,13 +3346,13 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecRetention {
   /**
   * Global is used to configure global retention.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#global DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#global DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#global}
   */
   readonly global?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecRetentionGlobal;
   /**
   * PerTenant is used to configure retention per tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#per_tenant DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#per_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#per_tenant DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#per_tenant}
   */
   readonly perTenant?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecRetentionPerTenant;
 }
@@ -3477,19 +3477,19 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecSearch {
   /**
   * Limit used for search requests if none is set by the caller (default: 20)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#default_result_limit DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#default_result_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#default_result_limit DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#default_result_limit}
   */
   readonly defaultResultLimit?: number;
   /**
   * The maximum allowed time range for a search, default: 0s which means unlimited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#max_duration DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#max_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#max_duration DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#max_duration}
   */
   readonly maxDuration?: string;
   /**
   * The maximum allowed value of the limit parameter on search requests. If the search request limit parameter exceeds the value configured here it will be set to the value configured here. The default value of 0 disables this limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#max_result_limit DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#max_result_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#max_result_limit DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#max_result_limit}
   */
   readonly maxResultLimit?: number;
 }
@@ -3643,13 +3643,13 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecStorageSecr
   /**
   * Name of a secret in the namespace configured for object storage secrets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Type of object storage that should be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -3768,25 +3768,25 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecStorageTls 
   /**
   * CA is the name of a ConfigMap containing a CA certificate (service-ca.crt). It needs to be in the same namespace as the Tempo custom resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#ca_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#ca_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#ca_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#ca_name}
   */
   readonly caName?: string;
   /**
   * Cert is the name of a Secret containing a certificate (tls.crt) and private key (tls.key). It needs to be in the same namespace as the Tempo custom resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#cert_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#cert_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#cert_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#cert_name}
   */
   readonly certName?: string;
   /**
   * Enabled defines if TLS is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * MinVersion defines the minimum acceptable TLS version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#min_version DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#min_version DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
 }
@@ -3969,13 +3969,13 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecStorage {
   /**
   * Secret for object storage authentication. Name of a secret in the same namespace as the TempoStack custom resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#secret DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#secret DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#secret}
   */
   readonly secret: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecStorageSecret;
   /**
   * TLS configuration for reaching the object storage endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tls DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tls DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecStorageTls;
 }
@@ -4097,25 +4097,25 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateCom
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#level DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#level DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#role DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#role DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -4298,13 +4298,13 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateCom
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#localhost_profile DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#localhost_profile DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -4426,13 +4426,13 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateCom
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#value DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#value DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -4573,25 +4573,25 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateCom
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#gmsa_credential_spec DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#gmsa_credential_spec DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#gmsa_credential_spec_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#gmsa_credential_spec_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#host_process DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#host_process DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_user_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_user_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -4774,61 +4774,61 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateCom
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#fs_group DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#fs_group DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#fs_group_change_policy DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#fs_group_change_policy DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_group DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_group DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_non_root DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_non_root DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#se_linux_options DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#se_linux_options DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateCompactorPodSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#seccomp_profile DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#seccomp_profile DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateCompactorPodSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID, the fsGroup (if specified), and group memberships defined in the container image for the uid of the container process. If unspecified, no additional groups are added to any container. Note that group memberships defined in the container image for the uid of the container process are still effective, even if they are not included in this list. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#supplemental_groups DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#supplemental_groups DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#sysctls DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#sysctls DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#sysctls}
   */
   readonly sysctls?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateCompactorPodSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#windows_options DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#windows_options DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateCompactorPodSecurityContextWindowsOptions;
 }
@@ -5185,7 +5185,7 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateCom
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -5300,19 +5300,19 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateCom
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateCompactorResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -5466,31 +5466,31 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateCom
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#effect DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#effect DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#key DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#key DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#toleration_seconds DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#toleration_seconds DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#value DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#value DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -5724,31 +5724,31 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateCom
   /**
   * NodeSelector defines the simple form of the node-selection constraint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#node_selector DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#node_selector DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * PodSecurityContext defines security context will be applied to all pods of this component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#pod_security_context DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#pod_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#pod_security_context DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#pod_security_context}
   */
   readonly podSecurityContext?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateCompactorPodSecurityContext;
   /**
   * Replicas defines the number of replicas to be created for this component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#replicas DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#replicas DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Resources defines resources for this component, this will override the calculated resources derived from total
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateCompactorResources;
   /**
   * Tolerations defines component-specific pod tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tolerations DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tolerations DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateCompactorTolerations[] | cdktf.IResolvable;
 }
@@ -5960,25 +5960,25 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateDis
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#level DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#level DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#role DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#role DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -6161,13 +6161,13 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateDis
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#localhost_profile DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#localhost_profile DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -6289,13 +6289,13 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateDis
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#value DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#value DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -6436,25 +6436,25 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateDis
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#gmsa_credential_spec DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#gmsa_credential_spec DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#gmsa_credential_spec_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#gmsa_credential_spec_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#host_process DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#host_process DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_user_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_user_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -6637,61 +6637,61 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateDis
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#fs_group DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#fs_group DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#fs_group_change_policy DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#fs_group_change_policy DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_group DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_group DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_non_root DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_non_root DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#se_linux_options DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#se_linux_options DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateDistributorComponentPodSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#seccomp_profile DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#seccomp_profile DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateDistributorComponentPodSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID, the fsGroup (if specified), and group memberships defined in the container image for the uid of the container process. If unspecified, no additional groups are added to any container. Note that group memberships defined in the container image for the uid of the container process are still effective, even if they are not included in this list. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#supplemental_groups DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#supplemental_groups DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#sysctls DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#sysctls DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#sysctls}
   */
   readonly sysctls?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateDistributorComponentPodSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#windows_options DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#windows_options DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateDistributorComponentPodSecurityContextWindowsOptions;
 }
@@ -7048,7 +7048,7 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateDis
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -7163,19 +7163,19 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateDis
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateDistributorComponentResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -7329,31 +7329,31 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateDis
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#effect DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#effect DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#key DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#key DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#toleration_seconds DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#toleration_seconds DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#value DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#value DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -7587,31 +7587,31 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateDis
   /**
   * NodeSelector defines the simple form of the node-selection constraint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#node_selector DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#node_selector DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * PodSecurityContext defines security context will be applied to all pods of this component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#pod_security_context DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#pod_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#pod_security_context DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#pod_security_context}
   */
   readonly podSecurityContext?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateDistributorComponentPodSecurityContext;
   /**
   * Replicas defines the number of replicas to be created for this component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#replicas DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#replicas DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Resources defines resources for this component, this will override the calculated resources derived from total
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateDistributorComponentResources;
   /**
   * Tolerations defines component-specific pod tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tolerations DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tolerations DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateDistributorComponentTolerations[] | cdktf.IResolvable;
 }
@@ -7823,25 +7823,25 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateDis
   /**
   * CA is the name of a ConfigMap containing a CA certificate (service-ca.crt). It needs to be in the same namespace as the Tempo custom resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#ca_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#ca_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#ca_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#ca_name}
   */
   readonly caName?: string;
   /**
   * Cert is the name of a Secret containing a certificate (tls.crt) and private key (tls.key). It needs to be in the same namespace as the Tempo custom resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#cert_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#cert_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#cert_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#cert_name}
   */
   readonly certName?: string;
   /**
   * Enabled defines if TLS is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * MinVersion defines the minimum acceptable TLS version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#min_version DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#min_version DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
 }
@@ -8024,13 +8024,13 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateDis
   /**
   * TempoComponentSpec is embedded to extend this definition with further options. Currently, there is no way to inline this field. See: https://github.com/golang/go/issues/6213
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#component DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#component DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#component}
   */
   readonly component?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateDistributorComponent;
   /**
   * TLS defines TLS configuration for distributor receivers If openshift feature flag 'servingCertsService' is enabled and TLS is enabled but no certName or caName is specified, OpenShift service serving certificates will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tls DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tls DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateDistributorTls;
 }
@@ -8155,25 +8155,25 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateGat
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#level DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#level DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#role DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#role DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -8356,13 +8356,13 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateGat
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#localhost_profile DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#localhost_profile DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -8484,13 +8484,13 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateGat
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#value DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#value DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -8631,25 +8631,25 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateGat
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#gmsa_credential_spec DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#gmsa_credential_spec DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#gmsa_credential_spec_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#gmsa_credential_spec_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#host_process DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#host_process DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_user_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_user_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -8832,61 +8832,61 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateGat
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#fs_group DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#fs_group DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#fs_group_change_policy DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#fs_group_change_policy DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_group DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_group DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_non_root DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_non_root DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#se_linux_options DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#se_linux_options DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateGatewayComponentPodSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#seccomp_profile DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#seccomp_profile DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateGatewayComponentPodSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID, the fsGroup (if specified), and group memberships defined in the container image for the uid of the container process. If unspecified, no additional groups are added to any container. Note that group memberships defined in the container image for the uid of the container process are still effective, even if they are not included in this list. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#supplemental_groups DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#supplemental_groups DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#sysctls DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#sysctls DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#sysctls}
   */
   readonly sysctls?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateGatewayComponentPodSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#windows_options DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#windows_options DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateGatewayComponentPodSecurityContextWindowsOptions;
 }
@@ -9243,7 +9243,7 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateGat
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -9358,19 +9358,19 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateGat
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateGatewayComponentResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -9524,31 +9524,31 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateGat
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#effect DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#effect DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#key DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#key DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#toleration_seconds DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#toleration_seconds DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#value DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#value DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -9782,31 +9782,31 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateGat
   /**
   * NodeSelector defines the simple form of the node-selection constraint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#node_selector DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#node_selector DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * PodSecurityContext defines security context will be applied to all pods of this component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#pod_security_context DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#pod_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#pod_security_context DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#pod_security_context}
   */
   readonly podSecurityContext?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateGatewayComponentPodSecurityContext;
   /**
   * Replicas defines the number of replicas to be created for this component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#replicas DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#replicas DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Resources defines resources for this component, this will override the calculated resources derived from total
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateGatewayComponentResources;
   /**
   * Tolerations defines component-specific pod tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tolerations DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tolerations DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateGatewayComponentTolerations[] | cdktf.IResolvable;
 }
@@ -10018,7 +10018,7 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateGat
   /**
   * Termination defines the termination type. The default is 'edge'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#termination DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#termination DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#termination}
   */
   readonly termination?: string;
 }
@@ -10114,31 +10114,31 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateGat
   /**
   * Annotations defines the annotations of the Ingress object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#annotations DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#annotations DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Host defines the hostname of the Ingress object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#host DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#host DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * IngressClassName defines the name of an IngressClass cluster resource. Defines which ingress controller serves this ingress resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#ingress_class_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#ingress_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#ingress_class_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#ingress_class_name}
   */
   readonly ingressClassName?: string;
   /**
   * Route defines the options for the OpenShift route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#route DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#route DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#route}
   */
   readonly route?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateGatewayIngressRoute;
   /**
   * Type defines the type of Ingress for the Jaeger Query UI. Currently ingress, route and none are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -10350,17 +10350,17 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateGat
   /**
   * TempoComponentSpec is embedded to extend this definition with further options. Currently there is no way to inline this field. See: https://github.com/golang/go/issues/6213
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#component DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#component DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#component}
   */
   readonly component?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateGatewayComponent;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Ingress defines gateway Ingress options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#ingress DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#ingress DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#ingress}
   */
   readonly ingress?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateGatewayIngress;
 }
@@ -10511,25 +10511,25 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateIng
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#level DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#level DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#role DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#role DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -10712,13 +10712,13 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateIng
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#localhost_profile DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#localhost_profile DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -10840,13 +10840,13 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateIng
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#value DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#value DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -10987,25 +10987,25 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateIng
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#gmsa_credential_spec DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#gmsa_credential_spec DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#gmsa_credential_spec_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#gmsa_credential_spec_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#host_process DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#host_process DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_user_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_user_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -11188,61 +11188,61 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateIng
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#fs_group DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#fs_group DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#fs_group_change_policy DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#fs_group_change_policy DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_group DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_group DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_non_root DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_non_root DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#se_linux_options DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#se_linux_options DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateIngesterPodSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#seccomp_profile DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#seccomp_profile DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateIngesterPodSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID, the fsGroup (if specified), and group memberships defined in the container image for the uid of the container process. If unspecified, no additional groups are added to any container. Note that group memberships defined in the container image for the uid of the container process are still effective, even if they are not included in this list. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#supplemental_groups DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#supplemental_groups DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#sysctls DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#sysctls DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#sysctls}
   */
   readonly sysctls?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateIngesterPodSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#windows_options DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#windows_options DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateIngesterPodSecurityContextWindowsOptions;
 }
@@ -11599,7 +11599,7 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateIng
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -11714,19 +11714,19 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateIng
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateIngesterResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -11880,31 +11880,31 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateIng
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#effect DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#effect DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#key DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#key DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#toleration_seconds DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#toleration_seconds DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#value DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#value DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -12138,31 +12138,31 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateIng
   /**
   * NodeSelector defines the simple form of the node-selection constraint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#node_selector DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#node_selector DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * PodSecurityContext defines security context will be applied to all pods of this component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#pod_security_context DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#pod_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#pod_security_context DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#pod_security_context}
   */
   readonly podSecurityContext?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateIngesterPodSecurityContext;
   /**
   * Replicas defines the number of replicas to be created for this component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#replicas DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#replicas DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Resources defines resources for this component, this will override the calculated resources derived from total
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateIngesterResources;
   /**
   * Tolerations defines component-specific pod tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tolerations DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tolerations DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateIngesterTolerations[] | cdktf.IResolvable;
 }
@@ -12374,25 +12374,25 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#level DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#level DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#role DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#role DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -12575,13 +12575,13 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#localhost_profile DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#localhost_profile DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -12703,13 +12703,13 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#value DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#value DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -12850,25 +12850,25 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#gmsa_credential_spec DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#gmsa_credential_spec DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#gmsa_credential_spec_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#gmsa_credential_spec_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#host_process DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#host_process DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_user_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_user_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -13051,61 +13051,61 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#fs_group DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#fs_group DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#fs_group_change_policy DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#fs_group_change_policy DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_group DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_group DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_non_root DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_non_root DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#se_linux_options DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#se_linux_options DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQuerierPodSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#seccomp_profile DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#seccomp_profile DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQuerierPodSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID, the fsGroup (if specified), and group memberships defined in the container image for the uid of the container process. If unspecified, no additional groups are added to any container. Note that group memberships defined in the container image for the uid of the container process are still effective, even if they are not included in this list. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#supplemental_groups DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#supplemental_groups DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#sysctls DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#sysctls DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#sysctls}
   */
   readonly sysctls?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQuerierPodSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#windows_options DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#windows_options DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQuerierPodSecurityContextWindowsOptions;
 }
@@ -13462,7 +13462,7 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -13577,19 +13577,19 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQuerierResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -13743,31 +13743,31 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#effect DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#effect DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#key DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#key DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#toleration_seconds DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#toleration_seconds DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#value DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#value DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -14001,31 +14001,31 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * NodeSelector defines the simple form of the node-selection constraint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#node_selector DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#node_selector DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * PodSecurityContext defines security context will be applied to all pods of this component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#pod_security_context DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#pod_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#pod_security_context DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#pod_security_context}
   */
   readonly podSecurityContext?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQuerierPodSecurityContext;
   /**
   * Replicas defines the number of replicas to be created for this component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#replicas DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#replicas DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Resources defines resources for this component, this will override the calculated resources derived from total
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQuerierResources;
   /**
   * Tolerations defines component-specific pod tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tolerations DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tolerations DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQuerierTolerations[] | cdktf.IResolvable;
 }
@@ -14237,25 +14237,25 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#level DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#level DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#role DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#role DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#user}
   */
   readonly user?: string;
 }
@@ -14438,13 +14438,13 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#localhost_profile DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#localhost_profile DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -14566,13 +14566,13 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#value DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#value DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -14713,25 +14713,25 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#gmsa_credential_spec DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#gmsa_credential_spec DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#gmsa_credential_spec_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#gmsa_credential_spec_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#host_process DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#host_process DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_user_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_user_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -14914,61 +14914,61 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#fs_group DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#fs_group DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#fs_group_change_policy DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#fs_group_change_policy DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_group DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_group DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_non_root DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_non_root DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#run_as_user DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#se_linux_options DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#se_linux_options DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQueryFrontendComponentPodSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#seccomp_profile DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#seccomp_profile DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQueryFrontendComponentPodSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID, the fsGroup (if specified), and group memberships defined in the container image for the uid of the container process. If unspecified, no additional groups are added to any container. Note that group memberships defined in the container image for the uid of the container process are still effective, even if they are not included in this list. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#supplemental_groups DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#supplemental_groups DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#sysctls DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#sysctls DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#sysctls}
   */
   readonly sysctls?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQueryFrontendComponentPodSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#windows_options DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#windows_options DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQueryFrontendComponentPodSecurityContextWindowsOptions;
 }
@@ -15325,7 +15325,7 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -15440,19 +15440,19 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQueryFrontendComponentResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -15606,31 +15606,31 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#effect DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#effect DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#key DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#key DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#operator DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#toleration_seconds DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#toleration_seconds DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#value DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#value DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -15864,31 +15864,31 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * NodeSelector defines the simple form of the node-selection constraint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#node_selector DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#node_selector DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * PodSecurityContext defines security context will be applied to all pods of this component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#pod_security_context DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#pod_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#pod_security_context DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#pod_security_context}
   */
   readonly podSecurityContext?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQueryFrontendComponentPodSecurityContext;
   /**
   * Replicas defines the number of replicas to be created for this component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#replicas DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#replicas DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * Resources defines resources for this component, this will override the calculated resources derived from total
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQueryFrontendComponentResources;
   /**
   * Tolerations defines component-specific pod tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tolerations DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tolerations DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQueryFrontendComponentTolerations[] | cdktf.IResolvable;
 }
@@ -16100,7 +16100,7 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -16215,19 +16215,19 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQueryFrontendJaegerQueryAuthenticationResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -16381,19 +16381,19 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * Defines if the authentication will be enabled for jaeger UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Resources defines the compute resource requirements of the OAuth Proxy container. The OAuth Proxy performs authentication and authorization of incoming requests to Jaeger UI when multi-tenancy is disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQueryFrontendJaegerQueryAuthenticationResources;
   /**
   * SAR defines the SAR to be used in the oauth-proxy default is '{'namespace': '<tempo_stack_namespace>', 'resource': 'pods', 'verb': 'get'}
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#sar DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#sar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#sar DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#sar}
   */
   readonly sar?: string;
 }
@@ -16547,7 +16547,7 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * Termination defines the termination type. The default is 'edge'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#termination DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#termination DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#termination}
   */
   readonly termination?: string;
 }
@@ -16643,31 +16643,31 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * Annotations defines the annotations of the Ingress object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#annotations DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#annotations DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Host defines the hostname of the Ingress object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#host DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#host DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * IngressClassName defines the name of an IngressClass cluster resource. Defines which ingress controller serves this ingress resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#ingress_class_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#ingress_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#ingress_class_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#ingress_class_name}
   */
   readonly ingressClassName?: string;
   /**
   * Route defines the options for the OpenShift route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#route DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#route DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#route}
   */
   readonly route?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQueryFrontendJaegerQueryIngressRoute;
   /**
   * Type defines the type of Ingress for the Jaeger Query UI. Currently ingress, route and none are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#type DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -16879,13 +16879,13 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * Enabled enables the monitor tab in the Jaeger console. The PrometheusEndpoint must be configured to enable this feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * PrometheusEndpoint defines the endpoint to the Prometheus instance that contains the span rate, error, and duration (RED) metrics. For instance on OpenShift this is set to https://thanos-querier.openshift-monitoring.svc.cluster.local:9091
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#prometheus_endpoint DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#prometheus_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#prometheus_endpoint DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#prometheus_endpoint}
   */
   readonly prometheusEndpoint?: string;
 }
@@ -17010,7 +17010,7 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -17125,19 +17125,19 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQueryFrontendJaegerQueryResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -17291,7 +17291,7 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -17406,19 +17406,19 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#claims DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQueryFrontendJaegerQueryTempoQueryResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#requests DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -17572,7 +17572,7 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * Resources defines resources for this component, this will override the calculated resources derived from total
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQueryFrontendJaegerQueryTempoQueryResources;
 }
@@ -17668,49 +17668,49 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * Authentication defines the options for the oauth proxy used to protect jaeger UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#authentication DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#authentication DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#authentication}
   */
   readonly authentication?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQueryFrontendJaegerQueryAuthentication;
   /**
   * Enabled defines if the Jaeger Query component should be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#enabled DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * FindTracesConcurrentRequests defines how many concurrent request a single trace search can submit (defaults querier.replicas*2). The search for traces in Jaeger submits limit+1 requests. First requests finds trace IDs and then it fetches entire traces by ID. This property allows Jaeger to fetch traces in parallel. Note that by default a single Tempo querier can process 20 concurrent search jobs. Increasing this property might require scaling up querier instances, especially on error 'job queue full' See also Tempo's extraConfig: querier.max_concurrent_queries (20 default) query_frontend.max_outstanding_per_tenant: (2000 default). Increase if the query-frontend returns 429
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#find_traces_concurrent_requests DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#find_traces_concurrent_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#find_traces_concurrent_requests DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#find_traces_concurrent_requests}
   */
   readonly findTracesConcurrentRequests?: number;
   /**
   * Ingress defines the options for the Jaeger Query ingress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#ingress DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#ingress DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#ingress}
   */
   readonly ingress?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQueryFrontendJaegerQueryIngress;
   /**
   * MonitorTab defines the monitor tab configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#monitor_tab DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#monitor_tab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#monitor_tab DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#monitor_tab}
   */
   readonly monitorTab?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQueryFrontendJaegerQueryMonitorTab;
   /**
   * Resources defines resources for this component, this will override the calculated resources derived from total
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQueryFrontendJaegerQueryResources;
   /**
   * ServicesQueryDuration defines how long the services will be available in the services list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#services_query_duration DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#services_query_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#services_query_duration DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#services_query_duration}
   */
   readonly servicesQueryDuration?: string;
   /**
   * TempoQuery defines options specific to the Tempoo Query component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tempo_query DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tempo_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tempo_query DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tempo_query}
   */
   readonly tempoQuery?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQueryFrontendJaegerQueryTempoQuery;
 }
@@ -18009,13 +18009,13 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQue
   /**
   * TempoComponentSpec is embedded to extend this definition with further options. Currently there is no way to inline this field. See: https://github.com/golang/go/issues/6213
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#component DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#component DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#component}
   */
   readonly component?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQueryFrontendComponent;
   /**
   * JaegerQuery defines options specific to the Jaeger Query component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#jaeger_query DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#jaeger_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#jaeger_query DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#jaeger_query}
   */
   readonly jaegerQuery?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQueryFrontendJaegerQuery;
 }
@@ -18140,37 +18140,37 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplate {
   /**
   * Compactor defines the tempo compactor component spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#compactor DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#compactor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#compactor DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#compactor}
   */
   readonly compactor?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateCompactor;
   /**
   * Distributor defines the distributor component spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#distributor DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#distributor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#distributor DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#distributor}
   */
   readonly distributor?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateDistributor;
   /**
   * Gateway defines the tempo gateway spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#gateway DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#gateway DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#gateway}
   */
   readonly gateway?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateGateway;
   /**
   * Ingester defines the ingester component spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#ingester DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#ingester}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#ingester DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#ingester}
   */
   readonly ingester?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateIngester;
   /**
   * Querier defines the querier component spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#querier DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#querier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#querier DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#querier}
   */
   readonly querier?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQuerier;
   /**
   * TempoQueryFrontendSpec defines the query frontend spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#query_frontend DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#query_frontend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#query_frontend DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#query_frontend}
   */
   readonly queryFrontend?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplateQueryFrontend;
 }
@@ -18411,7 +18411,7 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTenantsAuth
   /**
   * Name of a secret in the namespace configured for tenant secrets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -18507,31 +18507,31 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTenantsAuth
   /**
   * Group claim field from ID Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#group_claim DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#group_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#group_claim DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#group_claim}
   */
   readonly groupClaim?: string;
   /**
   * IssuerURL defines the URL for issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#issuer_url DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#issuer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#issuer_url DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#issuer_url}
   */
   readonly issuerUrl?: string;
   /**
   * RedirectURL defines the URL for redirect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#redirect_url DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#redirect_url DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#redirect_url}
   */
   readonly redirectUrl?: string;
   /**
   * Secret defines the spec for the clientID, clientSecret and issuerCAPath for tenant's authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#secret DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#secret DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTenantsAuthenticationOidcSecret;
   /**
   * User claim field from ID Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#username_claim DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#username_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#username_claim DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#username_claim}
   */
   readonly usernameClaim?: string;
 }
@@ -18743,19 +18743,19 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTenantsAuth
   /**
   * OIDC defines the spec for the OIDC tenant's authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#oidc DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#oidc DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#oidc}
   */
   readonly oidc?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTenantsAuthenticationOidc;
   /**
   * TenantID defines a universally unique identifier of the tenant. Unlike the tenantName, which must be unique at a given time, the tenantId must be unique over the entire lifetime of the Tempo deployment. Tempo uses this ID to prefix objects in the object storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tenant_id DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tenant_id DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tenant_id}
   */
   readonly tenantId: string;
   /**
   * TenantName defines a human readable, unique name of the tenant. The value of this field must be specified in the X-Scope-OrgID header and in the resources field of a ClusterRole to identify the tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tenant_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tenant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tenant_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tenant_name}
   */
   readonly tenantName: string;
 }
@@ -18925,11 +18925,11 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTenantsAuth
   /**
   * SubjectKind is a kind of Tempo Gateway RBAC subject.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#kind DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#kind DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -19068,15 +19068,15 @@ export class DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTenantsAuthoriz
 }
 export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTenantsAuthorizationRoleBindings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#roles DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#roles DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#roles}
   */
   readonly roles: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#subjects DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#subjects DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#subjects}
   */
   readonly subjects: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTenantsAuthorizationRoleBindingsSubjects[] | cdktf.IResolvable;
 }
@@ -19241,19 +19241,19 @@ export class DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTenantsAuthoriz
 }
 export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTenantsAuthorizationRoles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#permissions DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#permissions DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#permissions}
   */
   readonly permissions: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#resources}
   */
   readonly resources: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tenants DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tenants DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tenants}
   */
   readonly tenants: string[];
 }
@@ -19446,13 +19446,13 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTenantsAuth
   /**
   * RoleBindings defines configuration to bind a set of roles to a set of subjects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#role_bindings DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#role_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#role_bindings DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#role_bindings}
   */
   readonly roleBindings?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTenantsAuthorizationRoleBindings[] | cdktf.IResolvable;
   /**
   * Roles defines a set of permissions to interact with a tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#roles DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#roles DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#roles}
   */
   readonly roles?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTenantsAuthorizationRoles[] | cdktf.IResolvable;
 }
@@ -19577,19 +19577,19 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTenants {
   /**
   * Authentication defines the tempo-gateway component authentication configuration spec per tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#authentication DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#authentication DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#authentication}
   */
   readonly authentication?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTenantsAuthentication[] | cdktf.IResolvable;
   /**
   * Authorization defines the tempo-gateway component authorization configuration spec per tenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#authorization DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#authorization DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#authorization}
   */
   readonly authorization?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTenantsAuthorization;
   /**
   * Mode defines the multitenancy mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#mode DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#mode DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#mode}
   */
   readonly mode: string;
 }
@@ -19740,103 +19740,103 @@ export interface DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpec {
   /**
   * ExtraConfigSpec defines extra configurations for tempo that will be merged with the operator generated, configurations defined here has precedence and could override generated config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#extra_config DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#extra_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#extra_config DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#extra_config}
   */
   readonly extraConfig?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecExtraConfig;
   /**
   * HashRing defines the spec for the distributed hash ring configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#hash_ring DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#hash_ring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#hash_ring DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#hash_ring}
   */
   readonly hashRing?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecHashRing;
   /**
   * Images defines the image for each container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#images DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#images DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#images}
   */
   readonly images?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecImages;
   /**
   * LimitSpec is used to limit ingestion and querying rates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#limits DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#limits}
   */
   readonly limits?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecLimits;
   /**
   * ManagementState defines if the CR should be managed by the operator or not. Default is managed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#management_state DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#management_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#management_state DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#management_state}
   */
   readonly managementState?: string;
   /**
   * ObservabilitySpec defines how telemetry data gets handled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#observability DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#observability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#observability DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#observability}
   */
   readonly observability?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecObservability;
   /**
   * The replication factor is a configuration setting that determines how many ingesters need to acknowledge the data from the distributors before accepting a span.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#replication_factor DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#replication_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#replication_factor DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#replication_factor}
   */
   readonly replicationFactor?: number;
   /**
   * Resources defines resources configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#resources DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecResources;
   /**
   * Retention period defined by dataset. User can specify how long data should be stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#retention DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#retention DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#retention}
   */
   readonly retention?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecRetention;
   /**
   * SearchSpec control the configuration for the search capabilities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#search DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#search DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#search}
   */
   readonly search?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecSearch;
   /**
   * ServiceAccount defines the service account to use for all tempo components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#service_account DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#service_account DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * Storage defines the spec for the object storage endpoint to store traces. User is required to create secret and supply it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#storage DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#storage DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#storage}
   */
   readonly storage: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecStorage;
   /**
   * StorageClassName for PVCs used by ingester. Defaults to nil (default storage class in the cluster).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#storage_class_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#storage_class_name DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * StorageSize for PVCs used by ingester. Defaults to 10Gi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#storage_size DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#storage_size DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#storage_size}
   */
   readonly storageSize?: string;
   /**
   * Template defines requirements for a set of tempo components.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#template DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#template DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#template}
   */
   readonly template?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTemplate;
   /**
   * Tenants defines the per-tenant authentication and authorization spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tenants DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#tenants DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#tenants}
   */
   readonly tenants?: DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecTenants;
   /**
   * Timeout configures the same timeout on all components starting at ingress down to the ingestor/querier. Timeout configuration on a specific component has a higher precedence. Defaults to 30 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#timeout DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#timeout DataK8STempoGrafanaComTempoStackV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -20391,7 +20391,7 @@ export class DataK8STempoGrafanaComTempoStackV1Alpha1ManifestSpecOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest k8s_tempo_grafana_com_tempo_stack_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest k8s_tempo_grafana_com_tempo_stack_v1alpha1_manifest}
 */
 export class DataK8STempoGrafanaComTempoStackV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -20407,7 +20407,7 @@ export class DataK8STempoGrafanaComTempoStackV1Alpha1Manifest extends cdktf.Terr
   * Generates CDKTF code for importing a DataK8STempoGrafanaComTempoStackV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STempoGrafanaComTempoStackV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8STempoGrafanaComTempoStackV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STempoGrafanaComTempoStackV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STempoGrafanaComTempoStackV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -20419,7 +20419,7 @@ export class DataK8STempoGrafanaComTempoStackV1Alpha1Manifest extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest k8s_tempo_grafana_com_tempo_stack_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tempo_grafana_com_tempo_stack_v1alpha1_manifest k8s_tempo_grafana_com_tempo_stack_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -20430,8 +20430,8 @@ export class DataK8STempoGrafanaComTempoStackV1Alpha1Manifest extends cdktf.Terr
       terraformResourceType: 'k8s_tempo_grafana_com_tempo_stack_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

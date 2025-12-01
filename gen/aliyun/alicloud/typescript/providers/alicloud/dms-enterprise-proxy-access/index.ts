@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dms_enterprise_proxy_access
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_proxy_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DmsEnterpriseProxyAccessConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dms_enterprise_proxy_access#id DmsEnterpriseProxyAccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_proxy_access#id DmsEnterpriseProxyAccess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dms_enterprise_proxy_access#indep_account DmsEnterpriseProxyAccess#indep_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_proxy_access#indep_account DmsEnterpriseProxyAccess#indep_account}
   */
   readonly indepAccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dms_enterprise_proxy_access#indep_password DmsEnterpriseProxyAccess#indep_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_proxy_access#indep_password DmsEnterpriseProxyAccess#indep_password}
   */
   readonly indepPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dms_enterprise_proxy_access#proxy_access_id DmsEnterpriseProxyAccess#proxy_access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_proxy_access#proxy_access_id DmsEnterpriseProxyAccess#proxy_access_id}
   */
   readonly proxyAccessId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dms_enterprise_proxy_access#proxy_id DmsEnterpriseProxyAccess#proxy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_proxy_access#proxy_id DmsEnterpriseProxyAccess#proxy_id}
   */
   readonly proxyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dms_enterprise_proxy_access#user_id DmsEnterpriseProxyAccess#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_proxy_access#user_id DmsEnterpriseProxyAccess#user_id}
   */
   readonly userId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dms_enterprise_proxy_access alicloud_dms_enterprise_proxy_access}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_proxy_access alicloud_dms_enterprise_proxy_access}
 */
 export class DmsEnterpriseProxyAccess extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class DmsEnterpriseProxyAccess extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DmsEnterpriseProxyAccess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DmsEnterpriseProxyAccess to import
-  * @param importFromId The id of the existing DmsEnterpriseProxyAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dms_enterprise_proxy_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DmsEnterpriseProxyAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_proxy_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DmsEnterpriseProxyAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class DmsEnterpriseProxyAccess extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dms_enterprise_proxy_access alicloud_dms_enterprise_proxy_access} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_proxy_access alicloud_dms_enterprise_proxy_access} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class DmsEnterpriseProxyAccess extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_dms_enterprise_proxy_access',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/autoscaling_scalingrules
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/autoscaling_scalingrules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackAutoscalingScalingrulesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/autoscaling_scalingrules#id DataAlibabacloudstackAutoscalingScalingrules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/autoscaling_scalingrules#id DataAlibabacloudstackAutoscalingScalingrules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/autoscaling_scalingrules#ids DataAlibabacloudstackAutoscalingScalingrules#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/autoscaling_scalingrules#ids DataAlibabacloudstackAutoscalingScalingrules#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/autoscaling_scalingrules#name_regex DataAlibabacloudstackAutoscalingScalingrules#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/autoscaling_scalingrules#name_regex DataAlibabacloudstackAutoscalingScalingrules#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/autoscaling_scalingrules#output_file DataAlibabacloudstackAutoscalingScalingrules#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/autoscaling_scalingrules#output_file DataAlibabacloudstackAutoscalingScalingrules#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/autoscaling_scalingrules#scaling_group_id DataAlibabacloudstackAutoscalingScalingrules#scaling_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/autoscaling_scalingrules#scaling_group_id DataAlibabacloudstackAutoscalingScalingrules#scaling_group_id}
   */
   readonly scalingGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/autoscaling_scalingrules#type DataAlibabacloudstackAutoscalingScalingrules#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/autoscaling_scalingrules#type DataAlibabacloudstackAutoscalingScalingrules#type}
   */
   readonly type?: string;
 }
@@ -147,7 +147,7 @@ export class DataAlibabacloudstackAutoscalingScalingrulesRulesList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/autoscaling_scalingrules alibabacloudstack_autoscaling_scalingrules}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/autoscaling_scalingrules alibabacloudstack_autoscaling_scalingrules}
 */
 export class DataAlibabacloudstackAutoscalingScalingrules extends cdktf.TerraformDataSource {
 
@@ -163,7 +163,7 @@ export class DataAlibabacloudstackAutoscalingScalingrules extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataAlibabacloudstackAutoscalingScalingrules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackAutoscalingScalingrules to import
-  * @param importFromId The id of the existing DataAlibabacloudstackAutoscalingScalingrules that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/autoscaling_scalingrules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackAutoscalingScalingrules that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/autoscaling_scalingrules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackAutoscalingScalingrules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -175,7 +175,7 @@ export class DataAlibabacloudstackAutoscalingScalingrules extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/autoscaling_scalingrules alibabacloudstack_autoscaling_scalingrules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/autoscaling_scalingrules alibabacloudstack_autoscaling_scalingrules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -186,8 +186,8 @@ export class DataAlibabacloudstackAutoscalingScalingrules extends cdktf.Terrafor
       terraformResourceType: 'alibabacloudstack_autoscaling_scalingrules',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

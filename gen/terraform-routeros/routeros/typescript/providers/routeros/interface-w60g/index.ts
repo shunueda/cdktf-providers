@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_w60g
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_w60g
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface InterfaceW60GConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_w60g#___path___ InterfaceW60G#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_w60g#___path___ InterfaceW60G#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_w60g#___skip___ InterfaceW60G#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_w60g#___skip___ InterfaceW60G#___skip___}
   */
   readonly skip?: string;
   /**
@@ -27,31 +27,31 @@ export interface InterfaceW60GConfig extends cdktf.TerraformMetaArguments {
   *   * proxy-arp - the router performs proxy ARP on the interface and sends replies to other interfaces
   *   * reply-only - the interface will only reply to requests originated from matching IP address/MAC address combinations which are entered as static entries in the ARP table. No dynamic entries will be automatically stored in the ARP table. Therefore for communications to be successful, a valid static entry must already exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_w60g#arp InterfaceW60G#arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_w60g#arp InterfaceW60G#arp}
   */
   readonly arp?: string;
   /**
   * ARP timeout is time how long ARP record is kept in ARP table after no packets are received from IP. Value auto equals to the value of arp-timeout in IP/Settings, default is 30s. Can use postfix `ms`, `s`, `m`, `h`, `d` for milliseconds, seconds, minutes, hours or days. If no postfix is set then seconds (s) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_w60g#arp_timeout InterfaceW60G#arp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_w60g#arp_timeout InterfaceW60G#arp_timeout}
   */
   readonly arpTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_w60g#comment InterfaceW60G#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_w60g#comment InterfaceW60G#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_w60g#disabled InterfaceW60G#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_w60g#disabled InterfaceW60G#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Frequency used in communication (Only active on bridge device).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_w60g#frequency InterfaceW60G#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_w60g#frequency InterfaceW60G#frequency}
   */
   readonly frequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_w60g#id InterfaceW60G#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_w60g#id InterfaceW60G#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -60,85 +60,85 @@ export interface InterfaceW60GConfig extends cdktf.TerraformMetaArguments {
   /**
   * Don't allow communication between connected clients (from RouterOS 6.41).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_w60g#isolate_stations InterfaceW60G#isolate_stations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_w60g#isolate_stations InterfaceW60G#isolate_stations}
   */
   readonly isolateStations?: boolean | cdktf.IResolvable;
   /**
   * Layer2 Maximum transmission unit. [See](https://wiki.mikrotik.com/wiki/Maximum_Transmission_Unit_on_RouterBoards).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_w60g#l2mtu InterfaceW60G#l2mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_w60g#l2mtu InterfaceW60G#l2mtu}
   */
   readonly l2Mtu?: number;
   /**
   * MAC address of the radio interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_w60g#mac_address InterfaceW60G#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_w60g#mac_address InterfaceW60G#mac_address}
   */
   readonly macAddress?: string;
   /**
   * Experimental feature working only on wAP60Gx3 devices, providing better point to multi point stability in some cases.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_w60g#mdmg_fix InterfaceW60G#mdmg_fix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_w60g#mdmg_fix InterfaceW60G#mdmg_fix}
   */
   readonly mdmgFix?: boolean | cdktf.IResolvable;
   /**
   * Operation mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_w60g#mode InterfaceW60G#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_w60g#mode InterfaceW60G#mode}
   */
   readonly mode?: string;
   /**
   * Layer3 Maximum transmission unit ('auto', 0 .. 65535). Look for the exact minimum value in the MikroTik documentation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_w60g#mtu InterfaceW60G#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_w60g#mtu InterfaceW60G#mtu}
   */
   readonly mtu?: string;
   /**
   * Name of the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_w60g#name InterfaceW60G#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_w60g#name InterfaceW60G#name}
   */
   readonly name: string;
   /**
   * Password used for AES encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_w60g#password InterfaceW60G#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_w60g#password InterfaceW60G#password}
   */
   readonly password?: string;
   /**
   * Put newly created station device interfaces in this bridge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_w60g#put_stations_in_bridge InterfaceW60G#put_stations_in_bridge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_w60g#put_stations_in_bridge InterfaceW60G#put_stations_in_bridge}
   */
   readonly putStationsInBridge?: string;
   /**
   * Parameter to limit frequency use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_w60g#region InterfaceW60G#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_w60g#region InterfaceW60G#region}
   */
   readonly region?: string;
   /**
   * Scan list to limit connectivity over frequencies in station mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_w60g#scan_list InterfaceW60G#scan_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_w60g#scan_list InterfaceW60G#scan_list}
   */
   readonly scanList?: string[];
   /**
   * SSID (service set identifier) is a name that identifies wireless network (0..32 char).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_w60g#ssid InterfaceW60G#ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_w60g#ssid InterfaceW60G#ssid}
   */
   readonly ssid?: string;
   /**
   * Disables beamforming and locks to selected radiation pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_w60g#tx_sector InterfaceW60G#tx_sector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_w60g#tx_sector InterfaceW60G#tx_sector}
   */
   readonly txSector?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_w60g routeros_interface_w60g}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_w60g routeros_interface_w60g}
 */
 export class InterfaceW60G extends cdktf.TerraformResource {
 
@@ -154,7 +154,7 @@ export class InterfaceW60G extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceW60G resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceW60G to import
-  * @param importFromId The id of the existing InterfaceW60G that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_w60g#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceW60G that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_w60g#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceW60G to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -166,7 +166,7 @@ export class InterfaceW60G extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_w60g routeros_interface_w60g} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_w60g routeros_interface_w60g} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -177,8 +177,8 @@ export class InterfaceW60G extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_interface_w60g',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.94.0',
-        providerVersionConstraint: '1.94.0'
+        providerVersion: '1.95.0',
+        providerVersionConstraint: '1.95.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

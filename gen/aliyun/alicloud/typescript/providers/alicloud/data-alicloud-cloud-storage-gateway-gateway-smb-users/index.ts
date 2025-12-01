@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cloud_storage_gateway_gateway_smb_users
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_storage_gateway_gateway_smb_users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudCloudStorageGatewayGatewaySmbUsersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cloud_storage_gateway_gateway_smb_users#gateway_id DataAlicloudCloudStorageGatewayGatewaySmbUsers#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_storage_gateway_gateway_smb_users#gateway_id DataAlicloudCloudStorageGatewayGatewaySmbUsers#gateway_id}
   */
   readonly gatewayId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cloud_storage_gateway_gateway_smb_users#id DataAlicloudCloudStorageGatewayGatewaySmbUsers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_storage_gateway_gateway_smb_users#id DataAlicloudCloudStorageGatewayGatewaySmbUsers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cloud_storage_gateway_gateway_smb_users#ids DataAlicloudCloudStorageGatewayGatewaySmbUsers#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_storage_gateway_gateway_smb_users#ids DataAlicloudCloudStorageGatewayGatewaySmbUsers#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cloud_storage_gateway_gateway_smb_users#name_regex DataAlicloudCloudStorageGatewayGatewaySmbUsers#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_storage_gateway_gateway_smb_users#name_regex DataAlicloudCloudStorageGatewayGatewaySmbUsers#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cloud_storage_gateway_gateway_smb_users#output_file DataAlicloudCloudStorageGatewayGatewaySmbUsers#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_storage_gateway_gateway_smb_users#output_file DataAlicloudCloudStorageGatewayGatewaySmbUsers#output_file}
   */
   readonly outputFile?: string;
 }
@@ -118,7 +118,7 @@ export class DataAlicloudCloudStorageGatewayGatewaySmbUsersUsersList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cloud_storage_gateway_gateway_smb_users alicloud_cloud_storage_gateway_gateway_smb_users}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_storage_gateway_gateway_smb_users alicloud_cloud_storage_gateway_gateway_smb_users}
 */
 export class DataAlicloudCloudStorageGatewayGatewaySmbUsers extends cdktf.TerraformDataSource {
 
@@ -134,7 +134,7 @@ export class DataAlicloudCloudStorageGatewayGatewaySmbUsers extends cdktf.Terraf
   * Generates CDKTF code for importing a DataAlicloudCloudStorageGatewayGatewaySmbUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudCloudStorageGatewayGatewaySmbUsers to import
-  * @param importFromId The id of the existing DataAlicloudCloudStorageGatewayGatewaySmbUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cloud_storage_gateway_gateway_smb_users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudCloudStorageGatewayGatewaySmbUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_storage_gateway_gateway_smb_users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudCloudStorageGatewayGatewaySmbUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -146,7 +146,7 @@ export class DataAlicloudCloudStorageGatewayGatewaySmbUsers extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cloud_storage_gateway_gateway_smb_users alicloud_cloud_storage_gateway_gateway_smb_users} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cloud_storage_gateway_gateway_smb_users alicloud_cloud_storage_gateway_gateway_smb_users} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -157,8 +157,8 @@ export class DataAlicloudCloudStorageGatewayGatewaySmbUsers extends cdktf.Terraf
       terraformResourceType: 'alicloud_cloud_storage_gateway_gateway_smb_users',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

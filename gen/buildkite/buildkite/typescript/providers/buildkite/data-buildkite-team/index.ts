@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/team
+// https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/team
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataBuildkiteTeamConfig extends cdktf.TerraformMetaArguments {
   /**
   * The GraphQL ID of the team to find.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/team#id DataBuildkiteTeam#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/team#id DataBuildkiteTeam#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataBuildkiteTeamConfig extends cdktf.TerraformMetaArguments {
   /**
   * The slug of the team to find.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/team#slug DataBuildkiteTeam#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/team#slug DataBuildkiteTeam#slug}
   */
   readonly slug?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/team buildkite_team}
+* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/team buildkite_team}
 */
 export class DataBuildkiteTeam extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataBuildkiteTeam extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataBuildkiteTeam resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBuildkiteTeam to import
-  * @param importFromId The id of the existing DataBuildkiteTeam that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/team#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBuildkiteTeam that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/team#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBuildkiteTeam to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataBuildkiteTeam extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/team buildkite_team} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/team buildkite_team} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataBuildkiteTeam extends cdktf.TerraformDataSource {
       terraformResourceType: 'buildkite_team',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.27.0',
-        providerVersionConstraint: '1.27.0'
+        providerVersion: '1.27.1',
+        providerVersionConstraint: '1.27.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

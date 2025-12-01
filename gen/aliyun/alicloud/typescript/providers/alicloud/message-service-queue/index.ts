@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_queue
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_queue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface MessageServiceQueueConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_queue#delay_seconds MessageServiceQueue#delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_queue#delay_seconds MessageServiceQueue#delay_seconds}
   */
   readonly delaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_queue#id MessageServiceQueue#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_queue#id MessageServiceQueue#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_queue#logging_enabled MessageServiceQueue#logging_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_queue#logging_enabled MessageServiceQueue#logging_enabled}
   */
   readonly loggingEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_queue#maximum_message_size MessageServiceQueue#maximum_message_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_queue#maximum_message_size MessageServiceQueue#maximum_message_size}
   */
   readonly maximumMessageSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_queue#message_retention_period MessageServiceQueue#message_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_queue#message_retention_period MessageServiceQueue#message_retention_period}
   */
   readonly messageRetentionPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_queue#polling_wait_seconds MessageServiceQueue#polling_wait_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_queue#polling_wait_seconds MessageServiceQueue#polling_wait_seconds}
   */
   readonly pollingWaitSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_queue#queue_name MessageServiceQueue#queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_queue#queue_name MessageServiceQueue#queue_name}
   */
   readonly queueName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_queue#tags MessageServiceQueue#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_queue#tags MessageServiceQueue#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_queue#visibility_timeout MessageServiceQueue#visibility_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_queue#visibility_timeout MessageServiceQueue#visibility_timeout}
   */
   readonly visibilityTimeout?: number;
   /**
   * dlq_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_queue#dlq_policy MessageServiceQueue#dlq_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_queue#dlq_policy MessageServiceQueue#dlq_policy}
   */
   readonly dlqPolicy?: MessageServiceQueueDlqPolicy;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_queue#timeouts MessageServiceQueue#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_queue#timeouts MessageServiceQueue#timeouts}
   */
   readonly timeouts?: MessageServiceQueueTimeouts;
 }
 export interface MessageServiceQueueDlqPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_queue#dead_letter_target_queue MessageServiceQueue#dead_letter_target_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_queue#dead_letter_target_queue MessageServiceQueue#dead_letter_target_queue}
   */
   readonly deadLetterTargetQueue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_queue#enabled MessageServiceQueue#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_queue#enabled MessageServiceQueue#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_queue#max_receive_count MessageServiceQueue#max_receive_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_queue#max_receive_count MessageServiceQueue#max_receive_count}
   */
   readonly maxReceiveCount?: number;
 }
@@ -211,15 +211,15 @@ export class MessageServiceQueueDlqPolicyOutputReference extends cdktf.ComplexOb
 }
 export interface MessageServiceQueueTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_queue#create MessageServiceQueue#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_queue#create MessageServiceQueue#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_queue#delete MessageServiceQueue#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_queue#delete MessageServiceQueue#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_queue#update MessageServiceQueue#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_queue#update MessageServiceQueue#update}
   */
   readonly update?: string;
 }
@@ -371,7 +371,7 @@ export class MessageServiceQueueTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_queue alicloud_message_service_queue}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_queue alicloud_message_service_queue}
 */
 export class MessageServiceQueue extends cdktf.TerraformResource {
 
@@ -387,7 +387,7 @@ export class MessageServiceQueue extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MessageServiceQueue resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MessageServiceQueue to import
-  * @param importFromId The id of the existing MessageServiceQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_queue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MessageServiceQueue that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_queue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MessageServiceQueue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -399,7 +399,7 @@ export class MessageServiceQueue extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/message_service_queue alicloud_message_service_queue} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/message_service_queue alicloud_message_service_queue} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -410,8 +410,8 @@ export class MessageServiceQueue extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_message_service_queue',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

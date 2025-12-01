@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs
+// https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,168 +8,168 @@ import * as cdktf from 'cdktf';
 
 export interface OceanEcsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#associate_public_ip_address OceanEcs#associate_public_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#associate_public_ip_address OceanEcs#associate_public_ip_address}
   */
   readonly associatePublicIpAddress?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#blacklist OceanEcs#blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#blacklist OceanEcs#blacklist}
   */
   readonly blacklist?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#cluster_name OceanEcs#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#cluster_name OceanEcs#cluster_name}
   */
   readonly clusterName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#desired_capacity OceanEcs#desired_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#desired_capacity OceanEcs#desired_capacity}
   */
   readonly desiredCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#draining_timeout OceanEcs#draining_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#draining_timeout OceanEcs#draining_timeout}
   */
   readonly drainingTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#ebs_optimized OceanEcs#ebs_optimized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#ebs_optimized OceanEcs#ebs_optimized}
   */
   readonly ebsOptimized?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#fallback_to_ondemand OceanEcs#fallback_to_ondemand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#fallback_to_ondemand OceanEcs#fallback_to_ondemand}
   */
   readonly fallbackToOndemand?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#iam_instance_profile OceanEcs#iam_instance_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#iam_instance_profile OceanEcs#iam_instance_profile}
   */
   readonly iamInstanceProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#id OceanEcs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#id OceanEcs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#image_id OceanEcs#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#image_id OceanEcs#image_id}
   */
   readonly imageId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#key_pair OceanEcs#key_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#key_pair OceanEcs#key_pair}
   */
   readonly keyPair?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#max_size OceanEcs#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#max_size OceanEcs#max_size}
   */
   readonly maxSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#min_size OceanEcs#min_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#min_size OceanEcs#min_size}
   */
   readonly minSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#monitoring OceanEcs#monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#monitoring OceanEcs#monitoring}
   */
   readonly monitoring?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#name OceanEcs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#name OceanEcs#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#region OceanEcs#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#region OceanEcs#region}
   */
   readonly region: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#security_group_ids OceanEcs#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#security_group_ids OceanEcs#security_group_ids}
   */
   readonly securityGroupIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#spot_percentage OceanEcs#spot_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#spot_percentage OceanEcs#spot_percentage}
   */
   readonly spotPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#subnet_ids OceanEcs#subnet_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#subnet_ids OceanEcs#subnet_ids}
   */
   readonly subnetIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#use_as_template_only OceanEcs#use_as_template_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#use_as_template_only OceanEcs#use_as_template_only}
   */
   readonly useAsTemplateOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#user_data OceanEcs#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#user_data OceanEcs#user_data}
   */
   readonly userData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#utilize_commitments OceanEcs#utilize_commitments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#utilize_commitments OceanEcs#utilize_commitments}
   */
   readonly utilizeCommitments?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#utilize_reserved_instances OceanEcs#utilize_reserved_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#utilize_reserved_instances OceanEcs#utilize_reserved_instances}
   */
   readonly utilizeReservedInstances?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#whitelist OceanEcs#whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#whitelist OceanEcs#whitelist}
   */
   readonly whitelist?: string[];
   /**
   * autoscaler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#autoscaler OceanEcs#autoscaler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#autoscaler OceanEcs#autoscaler}
   */
   readonly autoscaler?: OceanEcsAutoscaler;
   /**
   * block_device_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#block_device_mappings OceanEcs#block_device_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#block_device_mappings OceanEcs#block_device_mappings}
   */
   readonly blockDeviceMappings?: OceanEcsBlockDeviceMappings[] | cdktf.IResolvable;
   /**
   * cluster_orientation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#cluster_orientation OceanEcs#cluster_orientation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#cluster_orientation OceanEcs#cluster_orientation}
   */
   readonly clusterOrientation?: OceanEcsClusterOrientation[] | cdktf.IResolvable;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#filters OceanEcs#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#filters OceanEcs#filters}
   */
   readonly filters?: OceanEcsFilters;
   /**
   * instance_metadata_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#instance_metadata_options OceanEcs#instance_metadata_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#instance_metadata_options OceanEcs#instance_metadata_options}
   */
   readonly instanceMetadataOptions?: OceanEcsInstanceMetadataOptions;
   /**
   * logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#logging OceanEcs#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#logging OceanEcs#logging}
   */
   readonly logging?: OceanEcsLogging;
   /**
   * optimize_images block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#optimize_images OceanEcs#optimize_images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#optimize_images OceanEcs#optimize_images}
   */
   readonly optimizeImages?: OceanEcsOptimizeImages;
   /**
   * scheduled_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#scheduled_task OceanEcs#scheduled_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#scheduled_task OceanEcs#scheduled_task}
   */
   readonly scheduledTask?: OceanEcsScheduledTask[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#tags OceanEcs#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#tags OceanEcs#tags}
   */
   readonly tags?: OceanEcsTags[] | cdktf.IResolvable;
   /**
   * update_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#update_policy OceanEcs#update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#update_policy OceanEcs#update_policy}
   */
   readonly updatePolicy?: OceanEcsUpdatePolicy;
 }
 export interface OceanEcsAutoscalerDown {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#max_scale_down_percentage OceanEcs#max_scale_down_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#max_scale_down_percentage OceanEcs#max_scale_down_percentage}
   */
   readonly maxScaleDownPercentage?: number;
 }
@@ -253,15 +253,15 @@ export class OceanEcsAutoscalerDownOutputReference extends cdktf.ComplexObject {
 }
 export interface OceanEcsAutoscalerHeadroom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#cpu_per_unit OceanEcs#cpu_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#cpu_per_unit OceanEcs#cpu_per_unit}
   */
   readonly cpuPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#memory_per_unit OceanEcs#memory_per_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#memory_per_unit OceanEcs#memory_per_unit}
   */
   readonly memoryPerUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#num_of_units OceanEcs#num_of_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#num_of_units OceanEcs#num_of_units}
   */
   readonly numOfUnits?: number;
 }
@@ -403,11 +403,11 @@ export class OceanEcsAutoscalerHeadroomOutputReference extends cdktf.ComplexObje
 }
 export interface OceanEcsAutoscalerResourceLimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#max_memory_gib OceanEcs#max_memory_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#max_memory_gib OceanEcs#max_memory_gib}
   */
   readonly maxMemoryGib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#max_vcpu OceanEcs#max_vcpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#max_vcpu OceanEcs#max_vcpu}
   */
   readonly maxVcpu?: number;
 }
@@ -520,45 +520,45 @@ export class OceanEcsAutoscalerResourceLimitsOutputReference extends cdktf.Compl
 }
 export interface OceanEcsAutoscaler {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#auto_headroom_percentage OceanEcs#auto_headroom_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#auto_headroom_percentage OceanEcs#auto_headroom_percentage}
   */
   readonly autoHeadroomPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#cooldown OceanEcs#cooldown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#cooldown OceanEcs#cooldown}
   */
   readonly cooldown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#enable_automatic_and_manual_headroom OceanEcs#enable_automatic_and_manual_headroom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#enable_automatic_and_manual_headroom OceanEcs#enable_automatic_and_manual_headroom}
   */
   readonly enableAutomaticAndManualHeadroom?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#is_auto_config OceanEcs#is_auto_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#is_auto_config OceanEcs#is_auto_config}
   */
   readonly isAutoConfig?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#is_enabled OceanEcs#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#is_enabled OceanEcs#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#should_scale_down_non_service_tasks OceanEcs#should_scale_down_non_service_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#should_scale_down_non_service_tasks OceanEcs#should_scale_down_non_service_tasks}
   */
   readonly shouldScaleDownNonServiceTasks?: boolean | cdktf.IResolvable;
   /**
   * down block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#down OceanEcs#down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#down OceanEcs#down}
   */
   readonly down?: OceanEcsAutoscalerDown;
   /**
   * headroom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#headroom OceanEcs#headroom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#headroom OceanEcs#headroom}
   */
   readonly headroom?: OceanEcsAutoscalerHeadroom;
   /**
   * resource_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#resource_limits OceanEcs#resource_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#resource_limits OceanEcs#resource_limits}
   */
   readonly resourceLimits?: OceanEcsAutoscalerResourceLimits;
 }
@@ -874,15 +874,15 @@ export class OceanEcsAutoscalerOutputReference extends cdktf.ComplexObject {
 }
 export interface OceanEcsBlockDeviceMappingsEbsDynamicVolumeSize {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#base_size OceanEcs#base_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#base_size OceanEcs#base_size}
   */
   readonly baseSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#resource OceanEcs#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#resource OceanEcs#resource}
   */
   readonly resource: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#size_per_resource_unit OceanEcs#size_per_resource_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#size_per_resource_unit OceanEcs#size_per_resource_unit}
   */
   readonly sizePerResourceUnit: number;
 }
@@ -1015,41 +1015,41 @@ export class OceanEcsBlockDeviceMappingsEbsDynamicVolumeSizeOutputReference exte
 }
 export interface OceanEcsBlockDeviceMappingsEbs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#delete_on_termination OceanEcs#delete_on_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#delete_on_termination OceanEcs#delete_on_termination}
   */
   readonly deleteOnTermination?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#encrypted OceanEcs#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#encrypted OceanEcs#encrypted}
   */
   readonly encrypted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#iops OceanEcs#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#iops OceanEcs#iops}
   */
   readonly iops?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#kms_key_id OceanEcs#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#kms_key_id OceanEcs#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#snapshot_id OceanEcs#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#snapshot_id OceanEcs#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#throughput OceanEcs#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#throughput OceanEcs#throughput}
   */
   readonly throughput?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#volume_size OceanEcs#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#volume_size OceanEcs#volume_size}
   */
   readonly volumeSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#volume_type OceanEcs#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#volume_type OceanEcs#volume_type}
   */
   readonly volumeType?: string;
   /**
   * dynamic_volume_size block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#dynamic_volume_size OceanEcs#dynamic_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#dynamic_volume_size OceanEcs#dynamic_volume_size}
   */
   readonly dynamicVolumeSize?: OceanEcsBlockDeviceMappingsEbsDynamicVolumeSize;
 }
@@ -1365,21 +1365,21 @@ export class OceanEcsBlockDeviceMappingsEbsOutputReference extends cdktf.Complex
 }
 export interface OceanEcsBlockDeviceMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#device_name OceanEcs#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#device_name OceanEcs#device_name}
   */
   readonly deviceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#no_device OceanEcs#no_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#no_device OceanEcs#no_device}
   */
   readonly noDevice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#virtual_name OceanEcs#virtual_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#virtual_name OceanEcs#virtual_name}
   */
   readonly virtualName?: string;
   /**
   * ebs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#ebs OceanEcs#ebs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#ebs OceanEcs#ebs}
   */
   readonly ebs?: OceanEcsBlockDeviceMappingsEbs;
 }
@@ -1579,7 +1579,7 @@ export class OceanEcsBlockDeviceMappingsList extends cdktf.ComplexList {
 }
 export interface OceanEcsClusterOrientation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#availability_vs_cost OceanEcs#availability_vs_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#availability_vs_cost OceanEcs#availability_vs_cost}
   */
   readonly availabilityVsCost?: string;
 }
@@ -1695,79 +1695,79 @@ export class OceanEcsClusterOrientationList extends cdktf.ComplexList {
 }
 export interface OceanEcsFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#architectures OceanEcs#architectures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#architectures OceanEcs#architectures}
   */
   readonly architectures?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#categories OceanEcs#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#categories OceanEcs#categories}
   */
   readonly categories?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#disk_types OceanEcs#disk_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#disk_types OceanEcs#disk_types}
   */
   readonly diskTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#exclude_families OceanEcs#exclude_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#exclude_families OceanEcs#exclude_families}
   */
   readonly excludeFamilies?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#exclude_metal OceanEcs#exclude_metal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#exclude_metal OceanEcs#exclude_metal}
   */
   readonly excludeMetal?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#hypervisor OceanEcs#hypervisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#hypervisor OceanEcs#hypervisor}
   */
   readonly hypervisor?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#include_families OceanEcs#include_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#include_families OceanEcs#include_families}
   */
   readonly includeFamilies?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#is_ena_supported OceanEcs#is_ena_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#is_ena_supported OceanEcs#is_ena_supported}
   */
   readonly isEnaSupported?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#max_gpu OceanEcs#max_gpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#max_gpu OceanEcs#max_gpu}
   */
   readonly maxGpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#max_memory_gib OceanEcs#max_memory_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#max_memory_gib OceanEcs#max_memory_gib}
   */
   readonly maxMemoryGib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#max_network_performance OceanEcs#max_network_performance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#max_network_performance OceanEcs#max_network_performance}
   */
   readonly maxNetworkPerformance?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#max_vcpu OceanEcs#max_vcpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#max_vcpu OceanEcs#max_vcpu}
   */
   readonly maxVcpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#min_enis OceanEcs#min_enis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#min_enis OceanEcs#min_enis}
   */
   readonly minEnis?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#min_gpu OceanEcs#min_gpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#min_gpu OceanEcs#min_gpu}
   */
   readonly minGpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#min_memory_gib OceanEcs#min_memory_gib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#min_memory_gib OceanEcs#min_memory_gib}
   */
   readonly minMemoryGib?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#min_network_performance OceanEcs#min_network_performance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#min_network_performance OceanEcs#min_network_performance}
   */
   readonly minNetworkPerformance?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#min_vcpu OceanEcs#min_vcpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#min_vcpu OceanEcs#min_vcpu}
   */
   readonly minVcpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#root_device_types OceanEcs#root_device_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#root_device_types OceanEcs#root_device_types}
   */
   readonly rootDeviceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#virtualization_types OceanEcs#virtualization_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#virtualization_types OceanEcs#virtualization_types}
   */
   readonly virtualizationTypes?: string[];
 }
@@ -2373,11 +2373,11 @@ export class OceanEcsFiltersOutputReference extends cdktf.ComplexObject {
 }
 export interface OceanEcsInstanceMetadataOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#http_put_response_hop_limit OceanEcs#http_put_response_hop_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#http_put_response_hop_limit OceanEcs#http_put_response_hop_limit}
   */
   readonly httpPutResponseHopLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#http_tokens OceanEcs#http_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#http_tokens OceanEcs#http_tokens}
   */
   readonly httpTokens: string;
 }
@@ -2487,7 +2487,7 @@ export class OceanEcsInstanceMetadataOptionsOutputReference extends cdktf.Comple
 }
 export interface OceanEcsLoggingExportS3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#id OceanEcs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#id OceanEcs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2605,7 +2605,7 @@ export interface OceanEcsLoggingExport {
   /**
   * s3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#s3 OceanEcs#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#s3 OceanEcs#s3}
   */
   readonly s3?: OceanEcsLoggingExportS3[] | cdktf.IResolvable;
 }
@@ -2691,7 +2691,7 @@ export interface OceanEcsLogging {
   /**
   * export block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#export OceanEcs#export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#export OceanEcs#export}
   */
   readonly export?: OceanEcsLoggingExport;
 }
@@ -2775,15 +2775,15 @@ export class OceanEcsLoggingOutputReference extends cdktf.ComplexObject {
 }
 export interface OceanEcsOptimizeImages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#perform_at OceanEcs#perform_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#perform_at OceanEcs#perform_at}
   */
   readonly performAt: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#should_optimize_ecs_ami OceanEcs#should_optimize_ecs_ami}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#should_optimize_ecs_ami OceanEcs#should_optimize_ecs_ami}
   */
   readonly shouldOptimizeEcsAmi: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#time_windows OceanEcs#time_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#time_windows OceanEcs#time_windows}
   */
   readonly timeWindows?: string[];
 }
@@ -2919,11 +2919,11 @@ export class OceanEcsOptimizeImagesOutputReference extends cdktf.ComplexObject {
 }
 export interface OceanEcsScheduledTaskShutdownHours {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#is_enabled OceanEcs#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#is_enabled OceanEcs#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#time_windows OceanEcs#time_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#time_windows OceanEcs#time_windows}
   */
   readonly timeWindows: string[];
 }
@@ -3033,15 +3033,15 @@ export class OceanEcsScheduledTaskShutdownHoursOutputReference extends cdktf.Com
 }
 export interface OceanEcsScheduledTaskTasks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#cron_expression OceanEcs#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#cron_expression OceanEcs#cron_expression}
   */
   readonly cronExpression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#is_enabled OceanEcs#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#is_enabled OceanEcs#is_enabled}
   */
   readonly isEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#task_type OceanEcs#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#task_type OceanEcs#task_type}
   */
   readonly taskType: string;
 }
@@ -3208,13 +3208,13 @@ export interface OceanEcsScheduledTask {
   /**
   * shutdown_hours block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#shutdown_hours OceanEcs#shutdown_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#shutdown_hours OceanEcs#shutdown_hours}
   */
   readonly shutdownHours?: OceanEcsScheduledTaskShutdownHours;
   /**
   * tasks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#tasks OceanEcs#tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#tasks OceanEcs#tasks}
   */
   readonly tasks?: OceanEcsScheduledTaskTasks[] | cdktf.IResolvable;
 }
@@ -3359,11 +3359,11 @@ export class OceanEcsScheduledTaskList extends cdktf.ComplexList {
 }
 export interface OceanEcsTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#key OceanEcs#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#key OceanEcs#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#value OceanEcs#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#value OceanEcs#value}
   */
   readonly value: string;
 }
@@ -3502,11 +3502,11 @@ export class OceanEcsTagsList extends cdktf.ComplexList {
 }
 export interface OceanEcsUpdatePolicyRollConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#batch_min_healthy_percentage OceanEcs#batch_min_healthy_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#batch_min_healthy_percentage OceanEcs#batch_min_healthy_percentage}
   */
   readonly batchMinHealthyPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#batch_size_percentage OceanEcs#batch_size_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#batch_size_percentage OceanEcs#batch_size_percentage}
   */
   readonly batchSizePercentage: number;
 }
@@ -3616,21 +3616,21 @@ export class OceanEcsUpdatePolicyRollConfigOutputReference extends cdktf.Complex
 }
 export interface OceanEcsUpdatePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#auto_apply_tags OceanEcs#auto_apply_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#auto_apply_tags OceanEcs#auto_apply_tags}
   */
   readonly autoApplyTags?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#conditioned_roll OceanEcs#conditioned_roll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#conditioned_roll OceanEcs#conditioned_roll}
   */
   readonly conditionedRoll?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#should_roll OceanEcs#should_roll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#should_roll OceanEcs#should_roll}
   */
   readonly shouldRoll: boolean | cdktf.IResolvable;
   /**
   * roll_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#roll_config OceanEcs#roll_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#roll_config OceanEcs#roll_config}
   */
   readonly rollConfig?: OceanEcsUpdatePolicyRollConfig;
 }
@@ -3798,7 +3798,7 @@ export class OceanEcsUpdatePolicyOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs spotinst_ocean_ecs}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs spotinst_ocean_ecs}
 */
 export class OceanEcs extends cdktf.TerraformResource {
 
@@ -3814,7 +3814,7 @@ export class OceanEcs extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OceanEcs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OceanEcs to import
-  * @param importFromId The id of the existing OceanEcs that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OceanEcs that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OceanEcs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3826,7 +3826,7 @@ export class OceanEcs extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_ecs spotinst_ocean_ecs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_ecs spotinst_ocean_ecs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3837,8 +3837,8 @@ export class OceanEcs extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_ecs',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.230.0',
-        providerVersionConstraint: '1.230.0'
+        providerVersion: '1.231.0',
+        providerVersionConstraint: '1.231.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

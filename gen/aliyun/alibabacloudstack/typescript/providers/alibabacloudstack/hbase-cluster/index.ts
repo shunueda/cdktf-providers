@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,108 +8,108 @@ import * as cdktf from 'cdktf';
 
 export interface HbaseClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#account HbaseCluster#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#account HbaseCluster#account}
   */
   readonly account?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#auto_renew HbaseCluster#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#auto_renew HbaseCluster#auto_renew}
   */
   readonly autoRenew?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#cold_storage_size HbaseCluster#cold_storage_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#cold_storage_size HbaseCluster#cold_storage_size}
   */
   readonly coldStorageSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#core_disk_size HbaseCluster#core_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#core_disk_size HbaseCluster#core_disk_size}
   */
   readonly coreDiskSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#core_disk_type HbaseCluster#core_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#core_disk_type HbaseCluster#core_disk_type}
   */
   readonly coreDiskType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#core_instance_quantity HbaseCluster#core_instance_quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#core_instance_quantity HbaseCluster#core_instance_quantity}
   */
   readonly coreInstanceQuantity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#core_instance_type HbaseCluster#core_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#core_instance_type HbaseCluster#core_instance_type}
   */
   readonly coreInstanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#deletion_protection HbaseCluster#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#deletion_protection HbaseCluster#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#duration HbaseCluster#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#duration HbaseCluster#duration}
   */
   readonly duration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#engine HbaseCluster#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#engine HbaseCluster#engine}
   */
   readonly engine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#engine_version HbaseCluster#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#engine_version HbaseCluster#engine_version}
   */
   readonly engineVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#id HbaseCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#id HbaseCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#immediate_delete_flag HbaseCluster#immediate_delete_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#immediate_delete_flag HbaseCluster#immediate_delete_flag}
   */
   readonly immediateDeleteFlag?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#ip_white HbaseCluster#ip_white}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#ip_white HbaseCluster#ip_white}
   */
   readonly ipWhite?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#maintain_end_time HbaseCluster#maintain_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#maintain_end_time HbaseCluster#maintain_end_time}
   */
   readonly maintainEndTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#maintain_start_time HbaseCluster#maintain_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#maintain_start_time HbaseCluster#maintain_start_time}
   */
   readonly maintainStartTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#master_instance_type HbaseCluster#master_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#master_instance_type HbaseCluster#master_instance_type}
   */
   readonly masterInstanceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#name HbaseCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#name HbaseCluster#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#password HbaseCluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#password HbaseCluster#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#pay_type HbaseCluster#pay_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#pay_type HbaseCluster#pay_type}
   */
   readonly payType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#security_groups HbaseCluster#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#security_groups HbaseCluster#security_groups}
   */
   readonly securityGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#tags HbaseCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#tags HbaseCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#vswitch_id HbaseCluster#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#vswitch_id HbaseCluster#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#zone_id HbaseCluster#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#zone_id HbaseCluster#zone_id}
   */
   readonly zoneId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#timeouts HbaseCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#timeouts HbaseCluster#timeouts}
   */
   readonly timeouts?: HbaseClusterTimeouts;
 }
@@ -370,15 +370,15 @@ export class HbaseClusterZkConnAddrsList extends cdktf.ComplexList {
 }
 export interface HbaseClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#create HbaseCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#create HbaseCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#delete HbaseCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#delete HbaseCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#update HbaseCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#update HbaseCluster#update}
   */
   readonly update?: string;
 }
@@ -530,7 +530,7 @@ export class HbaseClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster alibabacloudstack_hbase_cluster}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster alibabacloudstack_hbase_cluster}
 */
 export class HbaseCluster extends cdktf.TerraformResource {
 
@@ -546,7 +546,7 @@ export class HbaseCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HbaseCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HbaseCluster to import
-  * @param importFromId The id of the existing HbaseCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HbaseCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HbaseCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -558,7 +558,7 @@ export class HbaseCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/hbase_cluster alibabacloudstack_hbase_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hbase_cluster alibabacloudstack_hbase_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -569,8 +569,8 @@ export class HbaseCluster extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_hbase_cluster',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

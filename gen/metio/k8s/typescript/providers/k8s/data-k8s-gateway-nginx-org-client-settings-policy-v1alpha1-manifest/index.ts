@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1ManifestConfi
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#metadata DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#metadata DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1ManifestMetadata;
   /**
   * Spec defines the desired state of the ClientSettingsPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#spec DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#spec DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1ManifestMetad
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#annotations DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#annotations DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#labels DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#labels DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#name DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#name DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#namespace DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#namespace DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1ManifestSpecB
   /**
   * MaxSize sets the maximum allowed size of the client request body. If the size in a request exceeds the configured value, the 413 (Request Entity Too Large) error is returned to the client. Setting size to 0 disables checking of client request body size. Default: https://nginx.org/en/docs/http/ngx_http_core_module.html#client_max_body_size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#max_size DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#max_size DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#max_size}
   */
   readonly maxSize?: string;
   /**
   * Timeout defines a timeout for reading client request body. The timeout is set only for a period between two successive read operations, not for the transmission of the whole request body. If a client does not transmit anything within this time, the request is terminated with the 408 (Request Time-out) error. Default: https://nginx.org/en/docs/http/ngx_http_core_module.html#client_body_timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#timeout DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#timeout DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -350,13 +350,13 @@ export interface DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1ManifestSpecK
   /**
   * Header sets the timeout in the 'Keep-Alive: timeout=time' response header field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#header DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#header DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#header}
   */
   readonly header?: string;
   /**
   * Server sets the timeout during which a keep-alive client connection will stay open on the server side. Setting this value to 0 disables keep-alive client connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#server DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#server DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#server}
   */
   readonly server?: string;
 }
@@ -481,19 +481,19 @@ export interface DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1ManifestSpecK
   /**
   * Requests sets the maximum number of requests that can be served through one keep-alive connection. After the maximum number of requests are made, the connection is closed. Closing connections periodically is necessary to free per-connection memory allocations. Therefore, using too high maximum number of requests is not recommended as it can lead to excessive memory usage. Default: https://nginx.org/en/docs/http/ngx_http_core_module.html#keepalive_requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#requests DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#requests DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#requests}
   */
   readonly requests?: number;
   /**
   * Time defines the maximum time during which requests can be processed through one keep-alive connection. After this time is reached, the connection is closed following the subsequent request processing. Default: https://nginx.org/en/docs/http/ngx_http_core_module.html#keepalive_time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#time DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#time DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#time}
   */
   readonly time?: string;
   /**
   * Timeout defines the keep-alive timeouts for clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#timeout DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#timeout DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#timeout}
   */
   readonly timeout?: DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1ManifestSpecKeepAliveTimeout;
 }
@@ -647,19 +647,19 @@ export interface DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1ManifestSpecT
   /**
   * Group is the group of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#group DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#group DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#group}
   */
   readonly group: string;
   /**
   * Kind is kind of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#kind DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#kind DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#name DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#name DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -804,19 +804,19 @@ export interface DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1ManifestSpec 
   /**
   * Body defines the client request body settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#body DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#body DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#body}
   */
   readonly body?: DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1ManifestSpecBody;
   /**
   * KeepAlive defines the keep-alive settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#keep_alive DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#keep_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#keep_alive DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#keep_alive}
   */
   readonly keepAlive?: DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1ManifestSpecKeepAlive;
   /**
   * TargetRef identifies an API object to apply the policy to. Object must be in the same namespace as the policy. Support: Gateway, HTTPRoute, GRPCRoute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#target_ref DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#target_ref DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest#target_ref}
   */
   readonly targetRef: DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1ManifestSpecTargetRef;
 }
@@ -965,7 +965,7 @@ export class DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1ManifestSpecOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest k8s_gateway_nginx_org_client_settings_policy_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest k8s_gateway_nginx_org_client_settings_policy_v1alpha1_manifest}
 */
 export class DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -981,7 +981,7 @@ export class DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest extends 
   * Generates CDKTF code for importing a DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -993,7 +993,7 @@ export class DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest k8s_gateway_nginx_org_client_settings_policy_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/gateway_nginx_org_client_settings_policy_v1alpha1_manifest k8s_gateway_nginx_org_client_settings_policy_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1004,8 +1004,8 @@ export class DataK8SGatewayNginxOrgClientSettingsPolicyV1Alpha1Manifest extends 
       terraformResourceType: 'k8s_gateway_nginx_org_client_settings_policy_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

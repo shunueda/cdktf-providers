@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_ipsec_policy
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ipsec_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface IpIpsecPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_ipsec_policy#___path___ IpIpsecPolicy#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ipsec_policy#___path___ IpIpsecPolicy#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_ipsec_policy#___skip___ IpIpsecPolicy#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ipsec_policy#___skip___ IpIpsecPolicy#___skip___}
   */
   readonly skip?: string;
   /**
   * Specifies what to do with the packet matched by the policy.none - pass the packet unchanged.discard - drop the packet.encrypt - apply transformations specified in this policy and it's SA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_ipsec_policy#action IpIpsecPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ipsec_policy#action IpIpsecPolicy#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_ipsec_policy#comment IpIpsecPolicy#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ipsec_policy#comment IpIpsecPolicy#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_ipsec_policy#disabled IpIpsecPolicy#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ipsec_policy#disabled IpIpsecPolicy#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Destination address to be matched in packets. Applicable when tunnel mode (`tunnel=yes`) or template (`template=yes`) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_ipsec_policy#dst_address IpIpsecPolicy#dst_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ipsec_policy#dst_address IpIpsecPolicy#dst_address}
   */
   readonly dstAddress?: string;
   /**
   * Destination port to be matched in packets. If set to any all ports will be matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_ipsec_policy#dst_port IpIpsecPolicy#dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ipsec_policy#dst_port IpIpsecPolicy#dst_port}
   */
   readonly dstPort?: string;
   /**
   * Name of the policy group to which this **template** is assigned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_ipsec_policy#group IpIpsecPolicy#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ipsec_policy#group IpIpsecPolicy#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_ipsec_policy#id IpIpsecPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ipsec_policy#id IpIpsecPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,7 +61,7 @@ export interface IpIpsecPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies what combination of Authentication Header and Encapsulating Security Payload protocols you want to apply to matched traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_ipsec_policy#ipsec_protocols IpIpsecPolicy#ipsec_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ipsec_policy#ipsec_protocols IpIpsecPolicy#ipsec_protocols}
   */
   readonly ipsecProtocols?: string;
   /**
@@ -70,37 +70,37 @@ export interface IpIpsecPolicyConfig extends cdktf.TerraformMetaArguments {
   *   * require - drop the packet and acquire SA;
   *   * unique - drop the packet and acquire a unique SA that is only used with this particular policy. It is used in setups where multiple clients can sit behind one public IP address (clients behind NAT).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_ipsec_policy#level IpIpsecPolicy#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ipsec_policy#level IpIpsecPolicy#level}
   */
   readonly level?: string;
   /**
   * Name of the peer on which the policy applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_ipsec_policy#peer IpIpsecPolicy#peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ipsec_policy#peer IpIpsecPolicy#peer}
   */
   readonly peer?: string;
   /**
   * Name of the proposal template that will be sent by IKE daemon to establish SAs for this policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_ipsec_policy#proposal IpIpsecPolicy#proposal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ipsec_policy#proposal IpIpsecPolicy#proposal}
   */
   readonly proposal?: string;
   /**
   * IP packet protocol to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_ipsec_policy#protocol IpIpsecPolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ipsec_policy#protocol IpIpsecPolicy#protocol}
   */
   readonly protocol?: string;
   /**
   * Source address to be matched in packets. Applicable when tunnel mode (`tunnel=yes`) or template (`template=yes`) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_ipsec_policy#src_address IpIpsecPolicy#src_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ipsec_policy#src_address IpIpsecPolicy#src_address}
   */
   readonly srcAddress?: string;
   /**
   * Source port to be matched in packets. If set to any all ports will be matched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_ipsec_policy#src_port IpIpsecPolicy#src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ipsec_policy#src_port IpIpsecPolicy#src_port}
   */
   readonly srcPort?: string;
   /**
@@ -112,19 +112,19 @@ export interface IpIpsecPolicyConfig extends cdktf.TerraformMetaArguments {
   *   * proposal - SA parameters used for this template;
   *   * level - useful when unique is required in setups with multiple clients behind NAT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_ipsec_policy#template IpIpsecPolicy#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ipsec_policy#template IpIpsecPolicy#template}
   */
   readonly template?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether to use tunnel mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_ipsec_policy#tunnel IpIpsecPolicy#tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ipsec_policy#tunnel IpIpsecPolicy#tunnel}
   */
   readonly tunnel?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_ipsec_policy routeros_ip_ipsec_policy}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ipsec_policy routeros_ip_ipsec_policy}
 */
 export class IpIpsecPolicy extends cdktf.TerraformResource {
 
@@ -140,7 +140,7 @@ export class IpIpsecPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IpIpsecPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IpIpsecPolicy to import
-  * @param importFromId The id of the existing IpIpsecPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_ipsec_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IpIpsecPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ipsec_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IpIpsecPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -152,7 +152,7 @@ export class IpIpsecPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ip_ipsec_policy routeros_ip_ipsec_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ip_ipsec_policy routeros_ip_ipsec_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -163,8 +163,8 @@ export class IpIpsecPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ip_ipsec_policy',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.94.0',
-        providerVersionConstraint: '1.94.0'
+        providerVersion: '1.95.0',
+        providerVersionConstraint: '1.95.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

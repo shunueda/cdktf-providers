@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sddp_rules
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/sddp_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudSddpRulesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sddp_rules#category DataAlicloudSddpRules#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/sddp_rules#category DataAlicloudSddpRules#category}
   */
   readonly category?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sddp_rules#content_category DataAlicloudSddpRules#content_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/sddp_rules#content_category DataAlicloudSddpRules#content_category}
   */
   readonly contentCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sddp_rules#custom_type DataAlicloudSddpRules#custom_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/sddp_rules#custom_type DataAlicloudSddpRules#custom_type}
   */
   readonly customType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sddp_rules#enable_details DataAlicloudSddpRules#enable_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/sddp_rules#enable_details DataAlicloudSddpRules#enable_details}
   */
   readonly enableDetails?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sddp_rules#id DataAlicloudSddpRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/sddp_rules#id DataAlicloudSddpRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sddp_rules#ids DataAlicloudSddpRules#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/sddp_rules#ids DataAlicloudSddpRules#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sddp_rules#name DataAlicloudSddpRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/sddp_rules#name DataAlicloudSddpRules#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sddp_rules#name_regex DataAlicloudSddpRules#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/sddp_rules#name_regex DataAlicloudSddpRules#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sddp_rules#output_file DataAlicloudSddpRules#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/sddp_rules#output_file DataAlicloudSddpRules#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sddp_rules#product_id DataAlicloudSddpRules#product_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/sddp_rules#product_id DataAlicloudSddpRules#product_id}
   */
   readonly productId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sddp_rules#risk_level_id DataAlicloudSddpRules#risk_level_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/sddp_rules#risk_level_id DataAlicloudSddpRules#risk_level_id}
   */
   readonly riskLevelId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sddp_rules#rule_type DataAlicloudSddpRules#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/sddp_rules#rule_type DataAlicloudSddpRules#rule_type}
   */
   readonly ruleType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sddp_rules#status DataAlicloudSddpRules#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/sddp_rules#status DataAlicloudSddpRules#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sddp_rules#warn_level DataAlicloudSddpRules#warn_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/sddp_rules#warn_level DataAlicloudSddpRules#warn_level}
   */
   readonly warnLevel?: number;
 }
@@ -254,7 +254,7 @@ export class DataAlicloudSddpRulesRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sddp_rules alicloud_sddp_rules}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/sddp_rules alicloud_sddp_rules}
 */
 export class DataAlicloudSddpRules extends cdktf.TerraformDataSource {
 
@@ -270,7 +270,7 @@ export class DataAlicloudSddpRules extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudSddpRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudSddpRules to import
-  * @param importFromId The id of the existing DataAlicloudSddpRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sddp_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudSddpRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/sddp_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudSddpRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -282,7 +282,7 @@ export class DataAlicloudSddpRules extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/sddp_rules alicloud_sddp_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/sddp_rules alicloud_sddp_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -293,8 +293,8 @@ export class DataAlicloudSddpRules extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_sddp_rules',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_log_engine
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_log_engine
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface PolardbxLogEngineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_log_engine#cdc_node_class PolardbxLogEngine#cdc_node_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_log_engine#cdc_node_class PolardbxLogEngine#cdc_node_class}
   */
   readonly cdcNodeClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_log_engine#cdc_node_count PolardbxLogEngine#cdc_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_log_engine#cdc_node_count PolardbxLogEngine#cdc_node_count}
   */
   readonly cdcNodeCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_log_engine#id PolardbxLogEngine#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_log_engine#id PolardbxLogEngine#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_log_engine#instance_id PolardbxLogEngine#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_log_engine#instance_id PolardbxLogEngine#instance_id}
   */
   readonly instanceId: string;
   /**
   * multi_stream block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_log_engine#multi_stream PolardbxLogEngine#multi_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_log_engine#multi_stream PolardbxLogEngine#multi_stream}
   */
   readonly multiStream?: PolardbxLogEngineMultiStream[] | cdktf.IResolvable;
 }
 export interface PolardbxLogEngineMultiStream {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_log_engine#comment PolardbxLogEngine#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_log_engine#comment PolardbxLogEngine#comment}
   */
   readonly comment: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_log_engine#group_name PolardbxLogEngine#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_log_engine#group_name PolardbxLogEngine#group_name}
   */
   readonly groupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_log_engine#hash_level PolardbxLogEngine#hash_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_log_engine#hash_level PolardbxLogEngine#hash_level}
   */
   readonly hashLevel: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_log_engine#node_class PolardbxLogEngine#node_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_log_engine#node_class PolardbxLogEngine#node_class}
   */
   readonly nodeClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_log_engine#node_count PolardbxLogEngine#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_log_engine#node_count PolardbxLogEngine#node_count}
   */
   readonly nodeCount: number;
 }
@@ -273,7 +273,7 @@ export class PolardbxLogEngineMultiStreamList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_log_engine alibabacloudstack_polardbx_log_engine}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_log_engine alibabacloudstack_polardbx_log_engine}
 */
 export class PolardbxLogEngine extends cdktf.TerraformResource {
 
@@ -289,7 +289,7 @@ export class PolardbxLogEngine extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolardbxLogEngine resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolardbxLogEngine to import
-  * @param importFromId The id of the existing PolardbxLogEngine that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_log_engine#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolardbxLogEngine that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_log_engine#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolardbxLogEngine to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -301,7 +301,7 @@ export class PolardbxLogEngine extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardbx_log_engine alibabacloudstack_polardbx_log_engine} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardbx_log_engine alibabacloudstack_polardbx_log_engine} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -312,7 +312,8 @@ export class PolardbxLogEngine extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_polardbx_log_engine',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

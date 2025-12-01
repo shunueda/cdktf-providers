@@ -181,6 +181,7 @@ Object.defineProperty(exports, 'cloudFirewallIpsConfig', { get: function () { re
 Object.defineProperty(exports, 'cloudFirewallNatFirewall', { get: function () { return require('./cloud-firewall-nat-firewall'); } });
 Object.defineProperty(exports, 'cloudFirewallNatFirewallControlPolicy', { get: function () { return require('./cloud-firewall-nat-firewall-control-policy'); } });
 Object.defineProperty(exports, 'cloudFirewallPolicyAdvancedConfig', { get: function () { return require('./cloud-firewall-policy-advanced-config'); } });
+Object.defineProperty(exports, 'cloudFirewallPrivateDns', { get: function () { return require('./cloud-firewall-private-dns'); } });
 Object.defineProperty(exports, 'cloudFirewallThreatIntelligenceSwitch', { get: function () { return require('./cloud-firewall-threat-intelligence-switch'); } });
 Object.defineProperty(exports, 'cloudFirewallVpcCenTrFirewall', { get: function () { return require('./cloud-firewall-vpc-cen-tr-firewall'); } });
 Object.defineProperty(exports, 'cloudFirewallVpcFirewall', { get: function () { return require('./cloud-firewall-vpc-firewall'); } });
@@ -424,6 +425,7 @@ Object.defineProperty(exports, 'efloCluster', { get: function () { return requir
 Object.defineProperty(exports, 'efloEr', { get: function () { return require('./eflo-er'); } });
 Object.defineProperty(exports, 'efloExperimentPlan', { get: function () { return require('./eflo-experiment-plan'); } });
 Object.defineProperty(exports, 'efloExperimentPlanTemplate', { get: function () { return require('./eflo-experiment-plan-template'); } });
+Object.defineProperty(exports, 'efloHyperNode', { get: function () { return require('./eflo-hyper-node'); } });
 Object.defineProperty(exports, 'efloInvocation', { get: function () { return require('./eflo-invocation'); } });
 Object.defineProperty(exports, 'efloNode', { get: function () { return require('./eflo-node'); } });
 Object.defineProperty(exports, 'efloNodeGroup', { get: function () { return require('./eflo-node-group'); } });
@@ -695,6 +697,7 @@ Object.defineProperty(exports, 'messageServiceSubscription', { get: function () 
 Object.defineProperty(exports, 'messageServiceTopic', { get: function () { return require('./message-service-topic'); } });
 Object.defineProperty(exports, 'mhubApp', { get: function () { return require('./mhub-app'); } });
 Object.defineProperty(exports, 'mhubProduct', { get: function () { return require('./mhub-product'); } });
+Object.defineProperty(exports, 'milvusInstance', { get: function () { return require('./milvus-instance'); } });
 Object.defineProperty(exports, 'mnsQueue', { get: function () { return require('./mns-queue'); } });
 Object.defineProperty(exports, 'mnsTopic', { get: function () { return require('./mns-topic'); } });
 Object.defineProperty(exports, 'mnsTopicSubscription', { get: function () { return require('./mns-topic-subscription'); } });
@@ -802,6 +805,7 @@ Object.defineProperty(exports, 'paiWorkspaceModelVersion', { get: function () { 
 Object.defineProperty(exports, 'paiWorkspaceRun', { get: function () { return require('./pai-workspace-run'); } });
 Object.defineProperty(exports, 'paiWorkspaceUserConfig', { get: function () { return require('./pai-workspace-user-config'); } });
 Object.defineProperty(exports, 'paiWorkspaceWorkspace', { get: function () { return require('./pai-workspace-workspace'); } });
+Object.defineProperty(exports, 'polarDbExtension', { get: function () { return require('./polar-db-extension'); } });
 Object.defineProperty(exports, 'polardbAccount', { get: function () { return require('./polardb-account'); } });
 Object.defineProperty(exports, 'polardbAccountPrivilege', { get: function () { return require('./polardb-account-privilege'); } });
 Object.defineProperty(exports, 'polardbBackupPolicy', { get: function () { return require('./polardb-backup-policy'); } });
@@ -1452,6 +1456,7 @@ Object.defineProperty(exports, 'dataAlicloudFcService', { get: function () { ret
 Object.defineProperty(exports, 'dataAlicloudFcServices', { get: function () { return require('./data-alicloud-fc-services'); } });
 Object.defineProperty(exports, 'dataAlicloudFcTriggers', { get: function () { return require('./data-alicloud-fc-triggers'); } });
 Object.defineProperty(exports, 'dataAlicloudFcZones', { get: function () { return require('./data-alicloud-fc-zones'); } });
+Object.defineProperty(exports, 'dataAlicloudFcv3Functions', { get: function () { return require('./data-alicloud-fcv3-functions'); } });
 Object.defineProperty(exports, 'dataAlicloudFcv3Triggers', { get: function () { return require('./data-alicloud-fcv3-triggers'); } });
 Object.defineProperty(exports, 'dataAlicloudFileCrc64Checksum', { get: function () { return require('./data-alicloud-file-crc64-checksum'); } });
 Object.defineProperty(exports, 'dataAlicloudFnfExecutions', { get: function () { return require('./data-alicloud-fnf-executions'); } });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_logtail_config
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_logtail_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface SlsLogtailConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_logtail_config#create_time SlsLogtailConfig#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_logtail_config#create_time SlsLogtailConfig#create_time}
   */
   readonly createTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_logtail_config#id SlsLogtailConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_logtail_config#id SlsLogtailConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_logtail_config#input_detail SlsLogtailConfig#input_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_logtail_config#input_detail SlsLogtailConfig#input_detail}
   */
   readonly inputDetail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_logtail_config#input_type SlsLogtailConfig#input_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_logtail_config#input_type SlsLogtailConfig#input_type}
   */
   readonly inputType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_logtail_config#last_modify_time SlsLogtailConfig#last_modify_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_logtail_config#last_modify_time SlsLogtailConfig#last_modify_time}
   */
   readonly lastModifyTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_logtail_config#log_sample SlsLogtailConfig#log_sample}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_logtail_config#log_sample SlsLogtailConfig#log_sample}
   */
   readonly logSample?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_logtail_config#logtail_config_name SlsLogtailConfig#logtail_config_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_logtail_config#logtail_config_name SlsLogtailConfig#logtail_config_name}
   */
   readonly logtailConfigName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_logtail_config#output_type SlsLogtailConfig#output_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_logtail_config#output_type SlsLogtailConfig#output_type}
   */
   readonly outputType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_logtail_config#project_name SlsLogtailConfig#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_logtail_config#project_name SlsLogtailConfig#project_name}
   */
   readonly projectName: string;
   /**
   * output_detail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_logtail_config#output_detail SlsLogtailConfig#output_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_logtail_config#output_detail SlsLogtailConfig#output_detail}
   */
   readonly outputDetail?: SlsLogtailConfigOutputDetail;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_logtail_config#timeouts SlsLogtailConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_logtail_config#timeouts SlsLogtailConfig#timeouts}
   */
   readonly timeouts?: SlsLogtailConfigTimeouts;
 }
 export interface SlsLogtailConfigOutputDetail {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_logtail_config#endpoint SlsLogtailConfig#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_logtail_config#endpoint SlsLogtailConfig#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_logtail_config#logstore_name SlsLogtailConfig#logstore_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_logtail_config#logstore_name SlsLogtailConfig#logstore_name}
   */
   readonly logstoreName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_logtail_config#region SlsLogtailConfig#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_logtail_config#region SlsLogtailConfig#region}
   */
   readonly region?: string;
 }
@@ -211,11 +211,11 @@ export class SlsLogtailConfigOutputDetailOutputReference extends cdktf.ComplexOb
 }
 export interface SlsLogtailConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_logtail_config#create SlsLogtailConfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_logtail_config#create SlsLogtailConfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_logtail_config#delete SlsLogtailConfig#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_logtail_config#delete SlsLogtailConfig#delete}
   */
   readonly delete?: string;
 }
@@ -338,7 +338,7 @@ export class SlsLogtailConfigTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_logtail_config alicloud_sls_logtail_config}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_logtail_config alicloud_sls_logtail_config}
 */
 export class SlsLogtailConfig extends cdktf.TerraformResource {
 
@@ -354,7 +354,7 @@ export class SlsLogtailConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlsLogtailConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlsLogtailConfig to import
-  * @param importFromId The id of the existing SlsLogtailConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_logtail_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlsLogtailConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_logtail_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlsLogtailConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -366,7 +366,7 @@ export class SlsLogtailConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sls_logtail_config alicloud_sls_logtail_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sls_logtail_config alicloud_sls_logtail_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -377,8 +377,8 @@ export class SlsLogtailConfig extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_sls_logtail_config',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

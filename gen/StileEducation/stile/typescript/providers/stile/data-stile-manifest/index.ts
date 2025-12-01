@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/stileeducation/stile/0.0.24/docs/data-sources/manifest
+// https://registry.terraform.io/providers/stileeducation/stile/0.0.25/docs/data-sources/manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataStileManifestConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stileeducation/stile/0.0.24/docs/data-sources/manifest#architecture DataStileManifest#architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stileeducation/stile/0.0.25/docs/data-sources/manifest#architecture DataStileManifest#architecture}
   */
   readonly architecture?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stileeducation/stile/0.0.24/docs/data-sources/manifest#bfp_build_number DataStileManifest#bfp_build_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stileeducation/stile/0.0.25/docs/data-sources/manifest#bfp_build_number DataStileManifest#bfp_build_number}
   */
   readonly bfpBuildNumber: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stileeducation/stile/0.0.24/docs/data-sources/manifest#fallback_manifest DataStileManifest#fallback_manifest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stileeducation/stile/0.0.25/docs/data-sources/manifest#fallback_manifest DataStileManifest#fallback_manifest}
   */
   readonly fallbackManifest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stileeducation/stile/0.0.24/docs/data-sources/manifest#id DataStileManifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stileeducation/stile/0.0.25/docs/data-sources/manifest#id DataStileManifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stileeducation/stile/0.0.24/docs/data-sources/manifest#manifest_name DataStileManifest#manifest_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stileeducation/stile/0.0.25/docs/data-sources/manifest#manifest_name DataStileManifest#manifest_name}
   */
   readonly manifestName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/stileeducation/stile/0.0.24/docs/data-sources/manifest stile_manifest}
+* Represents a {@link https://registry.terraform.io/providers/stileeducation/stile/0.0.25/docs/data-sources/manifest stile_manifest}
 */
 export class DataStileManifest extends cdktf.TerraformDataSource {
 
@@ -49,7 +49,7 @@ export class DataStileManifest extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataStileManifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataStileManifest to import
-  * @param importFromId The id of the existing DataStileManifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/stileeducation/stile/0.0.24/docs/data-sources/manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataStileManifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/stileeducation/stile/0.0.25/docs/data-sources/manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataStileManifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class DataStileManifest extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/stileeducation/stile/0.0.24/docs/data-sources/manifest stile_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/stileeducation/stile/0.0.25/docs/data-sources/manifest stile_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class DataStileManifest extends cdktf.TerraformDataSource {
       terraformResourceType: 'stile_manifest',
       terraformGeneratorMetadata: {
         providerName: 'stile',
-        providerVersion: '0.0.24',
-        providerVersionConstraint: '0.0.24'
+        providerVersion: '0.0.25',
+        providerVersionConstraint: '0.0.25'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

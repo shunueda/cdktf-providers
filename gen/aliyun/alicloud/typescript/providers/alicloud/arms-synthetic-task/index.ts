@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,92 +8,92 @@ import * as cdktf from 'cdktf';
 
 export interface ArmsSyntheticTaskConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#frequency ArmsSyntheticTask#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#frequency ArmsSyntheticTask#frequency}
   */
   readonly frequency: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#id ArmsSyntheticTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#id ArmsSyntheticTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#monitor_category ArmsSyntheticTask#monitor_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#monitor_category ArmsSyntheticTask#monitor_category}
   */
   readonly monitorCategory: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#resource_group_id ArmsSyntheticTask#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#resource_group_id ArmsSyntheticTask#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#status ArmsSyntheticTask#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#status ArmsSyntheticTask#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#synthetic_task_name ArmsSyntheticTask#synthetic_task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#synthetic_task_name ArmsSyntheticTask#synthetic_task_name}
   */
   readonly syntheticTaskName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#tags ArmsSyntheticTask#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#tags ArmsSyntheticTask#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#task_type ArmsSyntheticTask#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#task_type ArmsSyntheticTask#task_type}
   */
   readonly taskType: number;
   /**
   * available_assertions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#available_assertions ArmsSyntheticTask#available_assertions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#available_assertions ArmsSyntheticTask#available_assertions}
   */
   readonly availableAssertions?: ArmsSyntheticTaskAvailableAssertions[] | cdktf.IResolvable;
   /**
   * common_setting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#common_setting ArmsSyntheticTask#common_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#common_setting ArmsSyntheticTask#common_setting}
   */
   readonly commonSetting?: ArmsSyntheticTaskCommonSetting;
   /**
   * custom_period block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#custom_period ArmsSyntheticTask#custom_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#custom_period ArmsSyntheticTask#custom_period}
   */
   readonly customPeriod?: ArmsSyntheticTaskCustomPeriod;
   /**
   * monitor_conf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#monitor_conf ArmsSyntheticTask#monitor_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#monitor_conf ArmsSyntheticTask#monitor_conf}
   */
   readonly monitorConf: ArmsSyntheticTaskMonitorConf;
   /**
   * monitors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#monitors ArmsSyntheticTask#monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#monitors ArmsSyntheticTask#monitors}
   */
   readonly monitors: ArmsSyntheticTaskMonitors[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#timeouts ArmsSyntheticTask#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#timeouts ArmsSyntheticTask#timeouts}
   */
   readonly timeouts?: ArmsSyntheticTaskTimeouts;
 }
 export interface ArmsSyntheticTaskAvailableAssertions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#expect ArmsSyntheticTask#expect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#expect ArmsSyntheticTask#expect}
   */
   readonly expect: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#operator ArmsSyntheticTask#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#operator ArmsSyntheticTask#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#target ArmsSyntheticTask#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#target ArmsSyntheticTask#target}
   */
   readonly target?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#type ArmsSyntheticTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#type ArmsSyntheticTask#type}
   */
   readonly type: string;
 }
@@ -287,15 +287,15 @@ export class ArmsSyntheticTaskAvailableAssertionsList extends cdktf.ComplexList 
 }
 export interface ArmsSyntheticTaskCommonSettingCustomHostHosts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#domain ArmsSyntheticTask#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#domain ArmsSyntheticTask#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#ip_type ArmsSyntheticTask#ip_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#ip_type ArmsSyntheticTask#ip_type}
   */
   readonly ipType: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#ips ArmsSyntheticTask#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#ips ArmsSyntheticTask#ips}
   */
   readonly ips: string[];
 }
@@ -460,13 +460,13 @@ export class ArmsSyntheticTaskCommonSettingCustomHostHostsList extends cdktf.Com
 }
 export interface ArmsSyntheticTaskCommonSettingCustomHost {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#select_type ArmsSyntheticTask#select_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#select_type ArmsSyntheticTask#select_type}
   */
   readonly selectType: number;
   /**
   * hosts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#hosts ArmsSyntheticTask#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#hosts ArmsSyntheticTask#hosts}
   */
   readonly hosts: ArmsSyntheticTaskCommonSettingCustomHostHosts[] | cdktf.IResolvable;
 }
@@ -573,29 +573,29 @@ export class ArmsSyntheticTaskCommonSettingCustomHostOutputReference extends cdk
 }
 export interface ArmsSyntheticTaskCommonSetting {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#ip_type ArmsSyntheticTask#ip_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#ip_type ArmsSyntheticTask#ip_type}
   */
   readonly ipType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#is_open_trace ArmsSyntheticTask#is_open_trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#is_open_trace ArmsSyntheticTask#is_open_trace}
   */
   readonly isOpenTrace?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#monitor_samples ArmsSyntheticTask#monitor_samples}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#monitor_samples ArmsSyntheticTask#monitor_samples}
   */
   readonly monitorSamples?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#trace_client_type ArmsSyntheticTask#trace_client_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#trace_client_type ArmsSyntheticTask#trace_client_type}
   */
   readonly traceClientType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#xtrace_region ArmsSyntheticTask#xtrace_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#xtrace_region ArmsSyntheticTask#xtrace_region}
   */
   readonly xtraceRegion?: string;
   /**
   * custom_host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#custom_host ArmsSyntheticTask#custom_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#custom_host ArmsSyntheticTask#custom_host}
   */
   readonly customHost?: ArmsSyntheticTaskCommonSettingCustomHost;
 }
@@ -824,11 +824,11 @@ export class ArmsSyntheticTaskCommonSettingOutputReference extends cdktf.Complex
 }
 export interface ArmsSyntheticTaskCustomPeriod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#end_hour ArmsSyntheticTask#end_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#end_hour ArmsSyntheticTask#end_hour}
   */
   readonly endHour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#start_hour ArmsSyntheticTask#start_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#start_hour ArmsSyntheticTask#start_hour}
   */
   readonly startHour?: number;
 }
@@ -941,11 +941,11 @@ export class ArmsSyntheticTaskCustomPeriodOutputReference extends cdktf.ComplexO
 }
 export interface ArmsSyntheticTaskMonitorConfApiHttpRequestBody {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#content ArmsSyntheticTask#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#content ArmsSyntheticTask#content}
   */
   readonly content?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#type ArmsSyntheticTask#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#type ArmsSyntheticTask#type}
   */
   readonly type?: string;
 }
@@ -1058,29 +1058,29 @@ export class ArmsSyntheticTaskMonitorConfApiHttpRequestBodyOutputReference exten
 }
 export interface ArmsSyntheticTaskMonitorConfApiHttp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#connect_timeout ArmsSyntheticTask#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#connect_timeout ArmsSyntheticTask#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#method ArmsSyntheticTask#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#method ArmsSyntheticTask#method}
   */
   readonly method?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#request_headers ArmsSyntheticTask#request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#request_headers ArmsSyntheticTask#request_headers}
   */
   readonly requestHeaders?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#target_url ArmsSyntheticTask#target_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#target_url ArmsSyntheticTask#target_url}
   */
   readonly targetUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#timeout ArmsSyntheticTask#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#timeout ArmsSyntheticTask#timeout}
   */
   readonly timeout?: number;
   /**
   * request_body block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#request_body ArmsSyntheticTask#request_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#request_body ArmsSyntheticTask#request_body}
   */
   readonly requestBody?: ArmsSyntheticTaskMonitorConfApiHttpRequestBody;
 }
@@ -1306,75 +1306,75 @@ export class ArmsSyntheticTaskMonitorConfApiHttpOutputReference extends cdktf.Co
 }
 export interface ArmsSyntheticTaskMonitorConfFileDownload {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#connection_timeout ArmsSyntheticTask#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#connection_timeout ArmsSyntheticTask#connection_timeout}
   */
   readonly connectionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#custom_header_content ArmsSyntheticTask#custom_header_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#custom_header_content ArmsSyntheticTask#custom_header_content}
   */
   readonly customHeaderContent?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#download_kernel ArmsSyntheticTask#download_kernel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#download_kernel ArmsSyntheticTask#download_kernel}
   */
   readonly downloadKernel?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#ignore_certificate_auth_error ArmsSyntheticTask#ignore_certificate_auth_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#ignore_certificate_auth_error ArmsSyntheticTask#ignore_certificate_auth_error}
   */
   readonly ignoreCertificateAuthError?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#ignore_certificate_canceled_error ArmsSyntheticTask#ignore_certificate_canceled_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#ignore_certificate_canceled_error ArmsSyntheticTask#ignore_certificate_canceled_error}
   */
   readonly ignoreCertificateCanceledError?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#ignore_certificate_out_of_date_error ArmsSyntheticTask#ignore_certificate_out_of_date_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#ignore_certificate_out_of_date_error ArmsSyntheticTask#ignore_certificate_out_of_date_error}
   */
   readonly ignoreCertificateOutOfDateError?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#ignore_certificate_status_error ArmsSyntheticTask#ignore_certificate_status_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#ignore_certificate_status_error ArmsSyntheticTask#ignore_certificate_status_error}
   */
   readonly ignoreCertificateStatusError?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#ignore_certificate_untrustworthy_error ArmsSyntheticTask#ignore_certificate_untrustworthy_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#ignore_certificate_untrustworthy_error ArmsSyntheticTask#ignore_certificate_untrustworthy_error}
   */
   readonly ignoreCertificateUntrustworthyError?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#ignore_certificate_using_error ArmsSyntheticTask#ignore_certificate_using_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#ignore_certificate_using_error ArmsSyntheticTask#ignore_certificate_using_error}
   */
   readonly ignoreCertificateUsingError?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#ignore_invalid_host_error ArmsSyntheticTask#ignore_invalid_host_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#ignore_invalid_host_error ArmsSyntheticTask#ignore_invalid_host_error}
   */
   readonly ignoreInvalidHostError?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#monitor_timeout ArmsSyntheticTask#monitor_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#monitor_timeout ArmsSyntheticTask#monitor_timeout}
   */
   readonly monitorTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#quick_protocol ArmsSyntheticTask#quick_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#quick_protocol ArmsSyntheticTask#quick_protocol}
   */
   readonly quickProtocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#redirection ArmsSyntheticTask#redirection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#redirection ArmsSyntheticTask#redirection}
   */
   readonly redirection?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#target_url ArmsSyntheticTask#target_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#target_url ArmsSyntheticTask#target_url}
   */
   readonly targetUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#transmission_size ArmsSyntheticTask#transmission_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#transmission_size ArmsSyntheticTask#transmission_size}
   */
   readonly transmissionSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#validate_keywords ArmsSyntheticTask#validate_keywords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#validate_keywords ArmsSyntheticTask#validate_keywords}
   */
   readonly validateKeywords?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#verify_way ArmsSyntheticTask#verify_way}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#verify_way ArmsSyntheticTask#verify_way}
   */
   readonly verifyWay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#white_list ArmsSyntheticTask#white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#white_list ArmsSyntheticTask#white_list}
   */
   readonly whiteList?: string;
 }
@@ -1948,23 +1948,23 @@ export class ArmsSyntheticTaskMonitorConfFileDownloadOutputReference extends cdk
 }
 export interface ArmsSyntheticTaskMonitorConfNetDns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#dns_server_ip_type ArmsSyntheticTask#dns_server_ip_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#dns_server_ip_type ArmsSyntheticTask#dns_server_ip_type}
   */
   readonly dnsServerIpType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#ns_server ArmsSyntheticTask#ns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#ns_server ArmsSyntheticTask#ns_server}
   */
   readonly nsServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#query_method ArmsSyntheticTask#query_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#query_method ArmsSyntheticTask#query_method}
   */
   readonly queryMethod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#target_url ArmsSyntheticTask#target_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#target_url ArmsSyntheticTask#target_url}
   */
   readonly targetUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#timeout ArmsSyntheticTask#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#timeout ArmsSyntheticTask#timeout}
   */
   readonly timeout?: number;
 }
@@ -2161,39 +2161,39 @@ export class ArmsSyntheticTaskMonitorConfNetDnsOutputReference extends cdktf.Com
 }
 export interface ArmsSyntheticTaskMonitorConfNetIcmp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#interval ArmsSyntheticTask#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#interval ArmsSyntheticTask#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#package_num ArmsSyntheticTask#package_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#package_num ArmsSyntheticTask#package_num}
   */
   readonly packageNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#package_size ArmsSyntheticTask#package_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#package_size ArmsSyntheticTask#package_size}
   */
   readonly packageSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#split_package ArmsSyntheticTask#split_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#split_package ArmsSyntheticTask#split_package}
   */
   readonly splitPackage?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#target_url ArmsSyntheticTask#target_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#target_url ArmsSyntheticTask#target_url}
   */
   readonly targetUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#timeout ArmsSyntheticTask#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#timeout ArmsSyntheticTask#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#tracert_enable ArmsSyntheticTask#tracert_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#tracert_enable ArmsSyntheticTask#tracert_enable}
   */
   readonly tracertEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#tracert_num_max ArmsSyntheticTask#tracert_num_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#tracert_num_max ArmsSyntheticTask#tracert_num_max}
   */
   readonly tracertNumMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#tracert_timeout ArmsSyntheticTask#tracert_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#tracert_timeout ArmsSyntheticTask#tracert_timeout}
   */
   readonly tracertTimeout?: number;
 }
@@ -2506,31 +2506,31 @@ export class ArmsSyntheticTaskMonitorConfNetIcmpOutputReference extends cdktf.Co
 }
 export interface ArmsSyntheticTaskMonitorConfNetTcp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#connect_times ArmsSyntheticTask#connect_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#connect_times ArmsSyntheticTask#connect_times}
   */
   readonly connectTimes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#interval ArmsSyntheticTask#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#interval ArmsSyntheticTask#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#target_url ArmsSyntheticTask#target_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#target_url ArmsSyntheticTask#target_url}
   */
   readonly targetUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#timeout ArmsSyntheticTask#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#timeout ArmsSyntheticTask#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#tracert_enable ArmsSyntheticTask#tracert_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#tracert_enable ArmsSyntheticTask#tracert_enable}
   */
   readonly tracertEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#tracert_num_max ArmsSyntheticTask#tracert_num_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#tracert_num_max ArmsSyntheticTask#tracert_num_max}
   */
   readonly tracertNumMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#tracert_timeout ArmsSyntheticTask#tracert_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#tracert_timeout ArmsSyntheticTask#tracert_timeout}
   */
   readonly tracertTimeout?: number;
 }
@@ -2785,31 +2785,31 @@ export class ArmsSyntheticTaskMonitorConfNetTcpOutputReference extends cdktf.Com
 }
 export interface ArmsSyntheticTaskMonitorConfStream {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#custom_header_content ArmsSyntheticTask#custom_header_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#custom_header_content ArmsSyntheticTask#custom_header_content}
   */
   readonly customHeaderContent?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#player_type ArmsSyntheticTask#player_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#player_type ArmsSyntheticTask#player_type}
   */
   readonly playerType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#stream_address_type ArmsSyntheticTask#stream_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#stream_address_type ArmsSyntheticTask#stream_address_type}
   */
   readonly streamAddressType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#stream_monitor_timeout ArmsSyntheticTask#stream_monitor_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#stream_monitor_timeout ArmsSyntheticTask#stream_monitor_timeout}
   */
   readonly streamMonitorTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#stream_type ArmsSyntheticTask#stream_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#stream_type ArmsSyntheticTask#stream_type}
   */
   readonly streamType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#target_url ArmsSyntheticTask#target_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#target_url ArmsSyntheticTask#target_url}
   */
   readonly targetUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#white_list ArmsSyntheticTask#white_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#white_list ArmsSyntheticTask#white_list}
   */
   readonly whiteList?: string;
 }
@@ -3067,79 +3067,79 @@ export class ArmsSyntheticTaskMonitorConfStreamOutputReference extends cdktf.Com
 }
 export interface ArmsSyntheticTaskMonitorConfWebsite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#automatic_scrolling ArmsSyntheticTask#automatic_scrolling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#automatic_scrolling ArmsSyntheticTask#automatic_scrolling}
   */
   readonly automaticScrolling?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#custom_header ArmsSyntheticTask#custom_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#custom_header ArmsSyntheticTask#custom_header}
   */
   readonly customHeader?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#custom_header_content ArmsSyntheticTask#custom_header_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#custom_header_content ArmsSyntheticTask#custom_header_content}
   */
   readonly customHeaderContent?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#disable_cache ArmsSyntheticTask#disable_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#disable_cache ArmsSyntheticTask#disable_cache}
   */
   readonly disableCache?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#disable_compression ArmsSyntheticTask#disable_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#disable_compression ArmsSyntheticTask#disable_compression}
   */
   readonly disableCompression?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#dns_hijack_whitelist ArmsSyntheticTask#dns_hijack_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#dns_hijack_whitelist ArmsSyntheticTask#dns_hijack_whitelist}
   */
   readonly dnsHijackWhitelist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#element_blacklist ArmsSyntheticTask#element_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#element_blacklist ArmsSyntheticTask#element_blacklist}
   */
   readonly elementBlacklist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#filter_invalid_ip ArmsSyntheticTask#filter_invalid_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#filter_invalid_ip ArmsSyntheticTask#filter_invalid_ip}
   */
   readonly filterInvalidIp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#flow_hijack_jump_times ArmsSyntheticTask#flow_hijack_jump_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#flow_hijack_jump_times ArmsSyntheticTask#flow_hijack_jump_times}
   */
   readonly flowHijackJumpTimes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#flow_hijack_logo ArmsSyntheticTask#flow_hijack_logo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#flow_hijack_logo ArmsSyntheticTask#flow_hijack_logo}
   */
   readonly flowHijackLogo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#ignore_certificate_error ArmsSyntheticTask#ignore_certificate_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#ignore_certificate_error ArmsSyntheticTask#ignore_certificate_error}
   */
   readonly ignoreCertificateError?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#monitor_timeout ArmsSyntheticTask#monitor_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#monitor_timeout ArmsSyntheticTask#monitor_timeout}
   */
   readonly monitorTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#page_tamper ArmsSyntheticTask#page_tamper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#page_tamper ArmsSyntheticTask#page_tamper}
   */
   readonly pageTamper?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#redirection ArmsSyntheticTask#redirection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#redirection ArmsSyntheticTask#redirection}
   */
   readonly redirection?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#slow_element_threshold ArmsSyntheticTask#slow_element_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#slow_element_threshold ArmsSyntheticTask#slow_element_threshold}
   */
   readonly slowElementThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#target_url ArmsSyntheticTask#target_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#target_url ArmsSyntheticTask#target_url}
   */
   readonly targetUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#verify_string_blacklist ArmsSyntheticTask#verify_string_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#verify_string_blacklist ArmsSyntheticTask#verify_string_blacklist}
   */
   readonly verifyStringBlacklist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#verify_string_whitelist ArmsSyntheticTask#verify_string_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#verify_string_whitelist ArmsSyntheticTask#verify_string_whitelist}
   */
   readonly verifyStringWhitelist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#wait_completion_time ArmsSyntheticTask#wait_completion_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#wait_completion_time ArmsSyntheticTask#wait_completion_time}
   */
   readonly waitCompletionTime?: number;
 }
@@ -3744,43 +3744,43 @@ export interface ArmsSyntheticTaskMonitorConf {
   /**
   * api_http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#api_http ArmsSyntheticTask#api_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#api_http ArmsSyntheticTask#api_http}
   */
   readonly apiHttp?: ArmsSyntheticTaskMonitorConfApiHttp;
   /**
   * file_download block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#file_download ArmsSyntheticTask#file_download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#file_download ArmsSyntheticTask#file_download}
   */
   readonly fileDownload?: ArmsSyntheticTaskMonitorConfFileDownload;
   /**
   * net_dns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#net_dns ArmsSyntheticTask#net_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#net_dns ArmsSyntheticTask#net_dns}
   */
   readonly netDns?: ArmsSyntheticTaskMonitorConfNetDns;
   /**
   * net_icmp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#net_icmp ArmsSyntheticTask#net_icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#net_icmp ArmsSyntheticTask#net_icmp}
   */
   readonly netIcmp?: ArmsSyntheticTaskMonitorConfNetIcmp;
   /**
   * net_tcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#net_tcp ArmsSyntheticTask#net_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#net_tcp ArmsSyntheticTask#net_tcp}
   */
   readonly netTcp?: ArmsSyntheticTaskMonitorConfNetTcp;
   /**
   * stream block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#stream ArmsSyntheticTask#stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#stream ArmsSyntheticTask#stream}
   */
   readonly stream?: ArmsSyntheticTaskMonitorConfStream;
   /**
   * website block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#website ArmsSyntheticTask#website}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#website ArmsSyntheticTask#website}
   */
   readonly website?: ArmsSyntheticTaskMonitorConfWebsite;
 }
@@ -4038,15 +4038,15 @@ export class ArmsSyntheticTaskMonitorConfOutputReference extends cdktf.ComplexOb
 }
 export interface ArmsSyntheticTaskMonitors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#city_code ArmsSyntheticTask#city_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#city_code ArmsSyntheticTask#city_code}
   */
   readonly cityCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#client_type ArmsSyntheticTask#client_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#client_type ArmsSyntheticTask#client_type}
   */
   readonly clientType: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#operator_code ArmsSyntheticTask#operator_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#operator_code ArmsSyntheticTask#operator_code}
   */
   readonly operatorCode: string;
 }
@@ -4211,15 +4211,15 @@ export class ArmsSyntheticTaskMonitorsList extends cdktf.ComplexList {
 }
 export interface ArmsSyntheticTaskTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#create ArmsSyntheticTask#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#create ArmsSyntheticTask#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#delete ArmsSyntheticTask#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#delete ArmsSyntheticTask#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#update ArmsSyntheticTask#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#update ArmsSyntheticTask#update}
   */
   readonly update?: string;
 }
@@ -4371,7 +4371,7 @@ export class ArmsSyntheticTaskTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task alicloud_arms_synthetic_task}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task alicloud_arms_synthetic_task}
 */
 export class ArmsSyntheticTask extends cdktf.TerraformResource {
 
@@ -4387,7 +4387,7 @@ export class ArmsSyntheticTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArmsSyntheticTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArmsSyntheticTask to import
-  * @param importFromId The id of the existing ArmsSyntheticTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArmsSyntheticTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArmsSyntheticTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4399,7 +4399,7 @@ export class ArmsSyntheticTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_synthetic_task alicloud_arms_synthetic_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_synthetic_task alicloud_arms_synthetic_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4410,8 +4410,8 @@ export class ArmsSyntheticTask extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_arms_synthetic_task',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

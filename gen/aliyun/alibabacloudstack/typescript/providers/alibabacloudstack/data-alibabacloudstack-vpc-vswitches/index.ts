@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpc_vswitches
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpc_vswitches
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackVpcVswitchesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpc_vswitches#cidr_block DataAlibabacloudstackVpcVswitches#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpc_vswitches#cidr_block DataAlibabacloudstackVpcVswitches#cidr_block}
   */
   readonly cidrBlock?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpc_vswitches#id DataAlibabacloudstackVpcVswitches#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpc_vswitches#id DataAlibabacloudstackVpcVswitches#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpc_vswitches#ids DataAlibabacloudstackVpcVswitches#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpc_vswitches#ids DataAlibabacloudstackVpcVswitches#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpc_vswitches#is_default DataAlibabacloudstackVpcVswitches#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpc_vswitches#is_default DataAlibabacloudstackVpcVswitches#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpc_vswitches#name_regex DataAlibabacloudstackVpcVswitches#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpc_vswitches#name_regex DataAlibabacloudstackVpcVswitches#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpc_vswitches#output_file DataAlibabacloudstackVpcVswitches#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpc_vswitches#output_file DataAlibabacloudstackVpcVswitches#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpc_vswitches#vpc_id DataAlibabacloudstackVpcVswitches#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpc_vswitches#vpc_id DataAlibabacloudstackVpcVswitches#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpc_vswitches#zone_id DataAlibabacloudstackVpcVswitches#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpc_vswitches#zone_id DataAlibabacloudstackVpcVswitches#zone_id}
   */
   readonly zoneId?: string;
 }
@@ -170,7 +170,7 @@ export class DataAlibabacloudstackVpcVswitchesVswitchesList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpc_vswitches alibabacloudstack_vpc_vswitches}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpc_vswitches alibabacloudstack_vpc_vswitches}
 */
 export class DataAlibabacloudstackVpcVswitches extends cdktf.TerraformDataSource {
 
@@ -186,7 +186,7 @@ export class DataAlibabacloudstackVpcVswitches extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataAlibabacloudstackVpcVswitches resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackVpcVswitches to import
-  * @param importFromId The id of the existing DataAlibabacloudstackVpcVswitches that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpc_vswitches#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackVpcVswitches that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpc_vswitches#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackVpcVswitches to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -198,7 +198,7 @@ export class DataAlibabacloudstackVpcVswitches extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/vpc_vswitches alibabacloudstack_vpc_vswitches} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpc_vswitches alibabacloudstack_vpc_vswitches} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -209,8 +209,8 @@ export class DataAlibabacloudstackVpcVswitches extends cdktf.TerraformDataSource
       terraformResourceType: 'alibabacloudstack_vpc_vswitches',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ecs_securitygroup
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_securitygroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface EcsSecuritygroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ecs_securitygroup#description EcsSecuritygroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_securitygroup#description EcsSecuritygroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ecs_securitygroup#id EcsSecuritygroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_securitygroup#id EcsSecuritygroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ecs_securitygroup#inner_access_policy EcsSecuritygroup#inner_access_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_securitygroup#inner_access_policy EcsSecuritygroup#inner_access_policy}
   */
   readonly innerAccessPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ecs_securitygroup#name EcsSecuritygroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_securitygroup#name EcsSecuritygroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ecs_securitygroup#tags EcsSecuritygroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_securitygroup#tags EcsSecuritygroup#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ecs_securitygroup#type EcsSecuritygroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_securitygroup#type EcsSecuritygroup#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ecs_securitygroup#vpc_id EcsSecuritygroup#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_securitygroup#vpc_id EcsSecuritygroup#vpc_id}
   */
   readonly vpcId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ecs_securitygroup alibabacloudstack_ecs_securitygroup}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_securitygroup alibabacloudstack_ecs_securitygroup}
 */
 export class EcsSecuritygroup extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class EcsSecuritygroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EcsSecuritygroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcsSecuritygroup to import
-  * @param importFromId The id of the existing EcsSecuritygroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ecs_securitygroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcsSecuritygroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_securitygroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcsSecuritygroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class EcsSecuritygroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/ecs_securitygroup alibabacloudstack_ecs_securitygroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_securitygroup alibabacloudstack_ecs_securitygroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class EcsSecuritygroup extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_ecs_securitygroup',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

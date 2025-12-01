@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/external_logs
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/external_logs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataFivetranExternalLogsConfig extends cdktf.TerraformMetaArgum
   /**
   * logs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/external_logs#logs DataFivetranExternalLogs#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/external_logs#logs DataFivetranExternalLogs#logs}
   */
   readonly logs?: DataFivetranExternalLogsLogs[] | cdktf.IResolvable;
 }
@@ -112,7 +112,7 @@ export class DataFivetranExternalLogsLogsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/external_logs fivetran_external_logs}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/external_logs fivetran_external_logs}
 */
 export class DataFivetranExternalLogs extends cdktf.TerraformDataSource {
 
@@ -128,7 +128,7 @@ export class DataFivetranExternalLogs extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFivetranExternalLogs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFivetranExternalLogs to import
-  * @param importFromId The id of the existing DataFivetranExternalLogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/external_logs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFivetranExternalLogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/external_logs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFivetranExternalLogs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -140,7 +140,7 @@ export class DataFivetranExternalLogs extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/data-sources/external_logs fivetran_external_logs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/data-sources/external_logs fivetran_external_logs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -151,8 +151,8 @@ export class DataFivetranExternalLogs extends cdktf.TerraformDataSource {
       terraformResourceType: 'fivetran_external_logs',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.15',
-        providerVersionConstraint: '1.9.15'
+        providerVersion: '1.9.16',
+        providerVersionConstraint: '1.9.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

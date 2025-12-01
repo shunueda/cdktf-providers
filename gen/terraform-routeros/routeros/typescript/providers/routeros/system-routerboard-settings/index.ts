@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_settings
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_routerboard_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,77 +10,77 @@ export interface SystemRouterboardSettingsConfig extends cdktf.TerraformMetaArgu
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_settings#___path___ SystemRouterboardSettings#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_routerboard_settings#___path___ SystemRouterboardSettings#___path___}
   */
   readonly path?: string;
   /**
   * An option to enable firmware upgrade automatically after the RouterOS upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_settings#auto_upgrade SystemRouterboardSettings#auto_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_routerboard_settings#auto_upgrade SystemRouterboardSettings#auto_upgrade}
   */
   readonly autoUpgrade?: boolean | cdktf.IResolvable;
   /**
   * An option to choose the onboard RS232 speed in bits per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_settings#baud_rate SystemRouterboardSettings#baud_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_routerboard_settings#baud_rate SystemRouterboardSettings#baud_rate}
   */
   readonly baudRate?: number;
   /**
   * A delay for a keystroke while booting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_settings#boot_delay SystemRouterboardSettings#boot_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_routerboard_settings#boot_delay SystemRouterboardSettings#boot_delay}
   */
   readonly bootDelay?: string;
   /**
   * An option to choose the way RouterBOOT loads the operating system. Possible values: `ethernet`, `flash-boot`, `flash-boot-once-then-nand`, `nand-if-fail-then-ethernet`, `nand-only`, `try-ethernet-once-then-nand`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_settings#boot_device SystemRouterboardSettings#boot_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_routerboard_settings#boot_device SystemRouterboardSettings#boot_device}
   */
   readonly bootDevice?: string;
   /**
   * An option to choose the booting operating system for CRS3xx series switches. Possible values: `router-os`, `swos`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_settings#boot_os SystemRouterboardSettings#boot_os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_routerboard_settings#boot_os SystemRouterboardSettings#boot_os}
   */
   readonly bootOs?: string;
   /**
   * Boot protocol to use. Possible values: `bootp`, `dhcp`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_settings#boot_protocol SystemRouterboardSettings#boot_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_routerboard_settings#boot_protocol SystemRouterboardSettings#boot_protocol}
   */
   readonly bootProtocol?: string;
   /**
   * An option to change the CPU frequency of the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_settings#cpu_frequency SystemRouterboardSettings#cpu_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_routerboard_settings#cpu_frequency SystemRouterboardSettings#cpu_frequency}
   */
   readonly cpuFrequency?: string;
   /**
   * An option whether to enter CPU suspend mode in HTL instruction. Possible values: `power-save`, `regular`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_settings#cpu_mode SystemRouterboardSettings#cpu_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_routerboard_settings#cpu_mode SystemRouterboardSettings#cpu_mode}
   */
   readonly cpuMode?: string;
   /**
   * An option to enable reset via the onboard jumper.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_settings#enable_jumper_reset SystemRouterboardSettings#enable_jumper_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_routerboard_settings#enable_jumper_reset SystemRouterboardSettings#enable_jumper_reset}
   */
   readonly enableJumperReset?: boolean | cdktf.IResolvable;
   /**
   * An option to set which key will cause the BIOS to enter configuration mode during boot delay. Possible values: `any-key`, `delete-key`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_settings#enter_setup_on SystemRouterboardSettings#enter_setup_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_routerboard_settings#enter_setup_on SystemRouterboardSettings#enter_setup_on}
   */
   readonly enterSetupOn?: string;
   /**
   * An option to use the backup RouterBOOT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_settings#force_backup_booter SystemRouterboardSettings#force_backup_booter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_routerboard_settings#force_backup_booter SystemRouterboardSettings#force_backup_booter}
   */
   readonly forceBackupBooter?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_settings#id SystemRouterboardSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_routerboard_settings#id SystemRouterboardSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -89,67 +89,67 @@ export interface SystemRouterboardSettingsConfig extends cdktf.TerraformMetaArgu
   /**
   * An option to set a delay before the USB port is initialized. Used for mPCIe modems with RB9xx series devices only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_settings#init_delay SystemRouterboardSettings#init_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_routerboard_settings#init_delay SystemRouterboardSettings#init_delay}
   */
   readonly initDelay?: string;
   /**
   * An option to change the memory data rate of the device. Values depend on the model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_settings#memory_data_rate SystemRouterboardSettings#memory_data_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_routerboard_settings#memory_data_rate SystemRouterboardSettings#memory_data_rate}
   */
   readonly memoryDataRate?: string;
   /**
   * An option to change the memory frequency of the device. Values depend on the model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_settings#memory_frequency SystemRouterboardSettings#memory_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_routerboard_settings#memory_frequency SystemRouterboardSettings#memory_frequency}
   */
   readonly memoryFrequency?: string;
   /**
   * An option to enable preboot `etherboot`, which runs before the regular boot device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_settings#preboot_etherboot SystemRouterboardSettings#preboot_etherboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_routerboard_settings#preboot_etherboot SystemRouterboardSettings#preboot_etherboot}
   */
   readonly prebootEtherboot?: string;
   /**
   * An option to instruct `preboot-etherboot` to accept only from the specified Netinstall server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_settings#preboot_etherboot_server SystemRouterboardSettings#preboot_etherboot_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_routerboard_settings#preboot_etherboot_server SystemRouterboardSettings#preboot_etherboot_server}
   */
   readonly prebootEtherbootServer?: string;
   /**
   * An option to disable any access to the RouterBOOT configuration settings over a console cable and disables the operation of the reset button to change the boot mode (Netinstall will be disabled). Possible values: `disabled`, `enabled`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_settings#protected_routerboot SystemRouterboardSettings#protected_routerboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_routerboard_settings#protected_routerboot SystemRouterboardSettings#protected_routerboot}
   */
   readonly protectedRouterboot?: string;
   /**
   * An option to enable resetting everything by pressing the button at power-on for longer than the specified time but less than `reformat_hold_button_max.`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_settings#reformat_hold_button SystemRouterboardSettings#reformat_hold_button}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_routerboard_settings#reformat_hold_button SystemRouterboardSettings#reformat_hold_button}
   */
   readonly reformatHoldButton?: string;
   /**
   * See `reformat_hold_button`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_settings#reformat_hold_button_max SystemRouterboardSettings#reformat_hold_button_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_routerboard_settings#reformat_hold_button_max SystemRouterboardSettings#reformat_hold_button_max}
   */
   readonly reformatHoldButtonMax?: string;
   /**
   * An option to enable extra-low TX power for high antenna gain devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_settings#regulatory_domain_ce SystemRouterboardSettings#regulatory_domain_ce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_routerboard_settings#regulatory_domain_ce SystemRouterboardSettings#regulatory_domain_ce}
   */
   readonly regulatoryDomainCe?: boolean | cdktf.IResolvable;
   /**
   * An option to turn off output on the serial console and beeping sounds during booting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_settings#silent_boot SystemRouterboardSettings#silent_boot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_routerboard_settings#silent_boot SystemRouterboardSettings#silent_boot}
   */
   readonly silentBoot?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_settings routeros_system_routerboard_settings}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_routerboard_settings routeros_system_routerboard_settings}
 */
 export class SystemRouterboardSettings extends cdktf.TerraformResource {
 
@@ -165,7 +165,7 @@ export class SystemRouterboardSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemRouterboardSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemRouterboardSettings to import
-  * @param importFromId The id of the existing SystemRouterboardSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemRouterboardSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_routerboard_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemRouterboardSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -177,7 +177,7 @@ export class SystemRouterboardSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_routerboard_settings routeros_system_routerboard_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_routerboard_settings routeros_system_routerboard_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -188,8 +188,8 @@ export class SystemRouterboardSettings extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_system_routerboard_settings',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.94.0',
-        providerVersionConstraint: '1.94.0'
+        providerVersion: '1.95.0',
+        providerVersionConstraint: '1.95.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

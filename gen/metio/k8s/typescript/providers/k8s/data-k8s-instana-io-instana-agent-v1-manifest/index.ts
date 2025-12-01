@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestConfig extends cdktf.Terr
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#metadata DataK8SInstanaIoInstanaAgentV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#metadata DataK8SInstanaIoInstanaAgentV1Manifest#metadata}
   */
   readonly metadata: DataK8SInstanaIoInstanaAgentV1ManifestMetadata;
   /**
   * InstanaAgentSpec defines the desired state of the Instana Agent
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#spec DataK8SInstanaIoInstanaAgentV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#spec DataK8SInstanaIoInstanaAgentV1Manifest#spec}
   */
   readonly spec?: DataK8SInstanaIoInstanaAgentV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#annotations DataK8SInstanaIoInstanaAgentV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#annotations DataK8SInstanaIoInstanaAgentV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#labels DataK8SInstanaIoInstanaAgentV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#labels DataK8SInstanaIoInstanaAgentV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#name DataK8SInstanaIoInstanaAgentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#name DataK8SInstanaIoInstanaAgentV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#namespace DataK8SInstanaIoInstanaAgentV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#namespace DataK8SInstanaIoInstanaAgentV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,15 +217,15 @@ export class DataK8SInstanaIoInstanaAgentV1ManifestMetadataOutputReference exten
 }
 export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentAdditionalBackends {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#endpoint_host DataK8SInstanaIoInstanaAgentV1Manifest#endpoint_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#endpoint_host DataK8SInstanaIoInstanaAgentV1Manifest#endpoint_host}
   */
   readonly endpointHost: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#endpoint_port DataK8SInstanaIoInstanaAgentV1Manifest#endpoint_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#endpoint_port DataK8SInstanaIoInstanaAgentV1Manifest#endpoint_port}
   */
   readonly endpointPort: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
   */
   readonly key: string;
 }
@@ -392,7 +392,7 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentConfiguration {
   /**
   * When setting this to true, the Helm chart will automatically look up the entries of the default instana-agent ConfigMap, and mount as agent configuration files under /opt/instana/agent/etc/instana all entries with keys that match the 'configuration-*.yaml' scheme
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#auto_mount_config_entries DataK8SInstanaIoInstanaAgentV1Manifest#auto_mount_config_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#auto_mount_config_entries DataK8SInstanaIoInstanaAgentV1Manifest#auto_mount_config_entries}
   */
   readonly autoMountConfigEntries?: boolean | cdktf.IResolvable;
 }
@@ -486,7 +486,7 @@ export class DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentConfigurationOutputR
 }
 export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentHost {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#repository DataK8SInstanaIoInstanaAgentV1Manifest#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#repository DataK8SInstanaIoInstanaAgentV1Manifest#repository}
   */
   readonly repository?: string;
 }
@@ -580,7 +580,7 @@ export class DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentHostOutputReference 
 }
 export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentImagePullSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#name DataK8SInstanaIoInstanaAgentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#name DataK8SInstanaIoInstanaAgentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -698,31 +698,31 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentImage {
   /**
   * Digest (a.k.a. Image ID) of the agent container image. If specified, it has priority over 'agent.image.tag', which will then be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#digest DataK8SInstanaIoInstanaAgentV1Manifest#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#digest DataK8SInstanaIoInstanaAgentV1Manifest#digest}
   */
   readonly digest?: string;
   /**
   * Name is the name of the container image of the Instana agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#name DataK8SInstanaIoInstanaAgentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#name DataK8SInstanaIoInstanaAgentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * PullPolicy specifies when to pull the image container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#pull_policy DataK8SInstanaIoInstanaAgentV1Manifest#pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#pull_policy DataK8SInstanaIoInstanaAgentV1Manifest#pull_policy}
   */
   readonly pullPolicy?: string;
   /**
   * PullSecrets allows you to override the default pull secret that is created when 'agent.image.name' starts with 'containers.instana.io'. Setting 'agent.image.pullSecrets' prevents the creation of the default 'containers-instana-io' secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#pull_secrets DataK8SInstanaIoInstanaAgentV1Manifest#pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#pull_secrets DataK8SInstanaIoInstanaAgentV1Manifest#pull_secrets}
   */
   readonly pullSecrets?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Tag is the name of the agent container image; if 'agent.image.digest' is specified, this property is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#tag DataK8SInstanaIoInstanaAgentV1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#tag DataK8SInstanaIoInstanaAgentV1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -934,19 +934,19 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityNodeA
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#operator DataK8SInstanaIoInstanaAgentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#operator DataK8SInstanaIoInstanaAgentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#values DataK8SInstanaIoInstanaAgentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#values DataK8SInstanaIoInstanaAgentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1116,19 +1116,19 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityNodeA
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#operator DataK8SInstanaIoInstanaAgentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#operator DataK8SInstanaIoInstanaAgentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#values DataK8SInstanaIoInstanaAgentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#values DataK8SInstanaIoInstanaAgentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1298,13 +1298,13 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityNodeA
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#match_expressions DataK8SInstanaIoInstanaAgentV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#match_expressions DataK8SInstanaIoInstanaAgentV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#match_fields DataK8SInstanaIoInstanaAgentV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#match_fields DataK8SInstanaIoInstanaAgentV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -1429,13 +1429,13 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityNodeA
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#preference DataK8SInstanaIoInstanaAgentV1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#preference DataK8SInstanaIoInstanaAgentV1Manifest#preference}
   */
   readonly preference: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#weight DataK8SInstanaIoInstanaAgentV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#weight DataK8SInstanaIoInstanaAgentV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -1576,19 +1576,19 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityNodeA
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#operator DataK8SInstanaIoInstanaAgentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#operator DataK8SInstanaIoInstanaAgentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#values DataK8SInstanaIoInstanaAgentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#values DataK8SInstanaIoInstanaAgentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1758,19 +1758,19 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityNodeA
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#operator DataK8SInstanaIoInstanaAgentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#operator DataK8SInstanaIoInstanaAgentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#values DataK8SInstanaIoInstanaAgentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#values DataK8SInstanaIoInstanaAgentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1940,13 +1940,13 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityNodeA
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#match_expressions DataK8SInstanaIoInstanaAgentV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#match_expressions DataK8SInstanaIoInstanaAgentV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#match_fields DataK8SInstanaIoInstanaAgentV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#match_fields DataK8SInstanaIoInstanaAgentV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -2093,7 +2093,7 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityNodeA
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#node_selector_terms DataK8SInstanaIoInstanaAgentV1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#node_selector_terms DataK8SInstanaIoInstanaAgentV1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -2186,13 +2186,13 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityNodeA
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SInstanaIoInstanaAgentV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SInstanaIoInstanaAgentV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SInstanaIoInstanaAgentV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SInstanaIoInstanaAgentV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -2317,19 +2317,19 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAf
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#operator DataK8SInstanaIoInstanaAgentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#operator DataK8SInstanaIoInstanaAgentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#values DataK8SInstanaIoInstanaAgentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#values DataK8SInstanaIoInstanaAgentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2499,13 +2499,13 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAf
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#match_expressions DataK8SInstanaIoInstanaAgentV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#match_expressions DataK8SInstanaIoInstanaAgentV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#match_labels DataK8SInstanaIoInstanaAgentV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#match_labels DataK8SInstanaIoInstanaAgentV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2630,19 +2630,19 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAf
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#operator DataK8SInstanaIoInstanaAgentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#operator DataK8SInstanaIoInstanaAgentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#values DataK8SInstanaIoInstanaAgentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#values DataK8SInstanaIoInstanaAgentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2812,13 +2812,13 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAf
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#match_expressions DataK8SInstanaIoInstanaAgentV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#match_expressions DataK8SInstanaIoInstanaAgentV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#match_labels DataK8SInstanaIoInstanaAgentV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#match_labels DataK8SInstanaIoInstanaAgentV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2943,25 +2943,25 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAf
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#label_selector DataK8SInstanaIoInstanaAgentV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#label_selector DataK8SInstanaIoInstanaAgentV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces. This field is beta-level and is only honored when PodAffinityNamespaceSelector feature is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#namespace_selector DataK8SInstanaIoInstanaAgentV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#namespace_selector DataK8SInstanaIoInstanaAgentV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#namespaces DataK8SInstanaIoInstanaAgentV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#namespaces DataK8SInstanaIoInstanaAgentV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#topology_key DataK8SInstanaIoInstanaAgentV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#topology_key DataK8SInstanaIoInstanaAgentV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3141,13 +3141,13 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAf
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#pod_affinity_term DataK8SInstanaIoInstanaAgentV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#pod_affinity_term DataK8SInstanaIoInstanaAgentV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#weight DataK8SInstanaIoInstanaAgentV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#weight DataK8SInstanaIoInstanaAgentV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -3288,19 +3288,19 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAf
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#operator DataK8SInstanaIoInstanaAgentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#operator DataK8SInstanaIoInstanaAgentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#values DataK8SInstanaIoInstanaAgentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#values DataK8SInstanaIoInstanaAgentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3470,13 +3470,13 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAf
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#match_expressions DataK8SInstanaIoInstanaAgentV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#match_expressions DataK8SInstanaIoInstanaAgentV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#match_labels DataK8SInstanaIoInstanaAgentV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#match_labels DataK8SInstanaIoInstanaAgentV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3601,19 +3601,19 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAf
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#operator DataK8SInstanaIoInstanaAgentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#operator DataK8SInstanaIoInstanaAgentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#values DataK8SInstanaIoInstanaAgentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#values DataK8SInstanaIoInstanaAgentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3783,13 +3783,13 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAf
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#match_expressions DataK8SInstanaIoInstanaAgentV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#match_expressions DataK8SInstanaIoInstanaAgentV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#match_labels DataK8SInstanaIoInstanaAgentV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#match_labels DataK8SInstanaIoInstanaAgentV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3914,25 +3914,25 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAf
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#label_selector DataK8SInstanaIoInstanaAgentV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#label_selector DataK8SInstanaIoInstanaAgentV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces. This field is beta-level and is only honored when PodAffinityNamespaceSelector feature is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#namespace_selector DataK8SInstanaIoInstanaAgentV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#namespace_selector DataK8SInstanaIoInstanaAgentV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#namespaces DataK8SInstanaIoInstanaAgentV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#namespaces DataK8SInstanaIoInstanaAgentV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#topology_key DataK8SInstanaIoInstanaAgentV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#topology_key DataK8SInstanaIoInstanaAgentV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4134,13 +4134,13 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAf
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SInstanaIoInstanaAgentV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SInstanaIoInstanaAgentV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SInstanaIoInstanaAgentV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SInstanaIoInstanaAgentV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -4265,19 +4265,19 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAn
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#operator DataK8SInstanaIoInstanaAgentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#operator DataK8SInstanaIoInstanaAgentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#values DataK8SInstanaIoInstanaAgentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#values DataK8SInstanaIoInstanaAgentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4447,13 +4447,13 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAn
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#match_expressions DataK8SInstanaIoInstanaAgentV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#match_expressions DataK8SInstanaIoInstanaAgentV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#match_labels DataK8SInstanaIoInstanaAgentV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#match_labels DataK8SInstanaIoInstanaAgentV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4578,19 +4578,19 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAn
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#operator DataK8SInstanaIoInstanaAgentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#operator DataK8SInstanaIoInstanaAgentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#values DataK8SInstanaIoInstanaAgentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#values DataK8SInstanaIoInstanaAgentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4760,13 +4760,13 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAn
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#match_expressions DataK8SInstanaIoInstanaAgentV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#match_expressions DataK8SInstanaIoInstanaAgentV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#match_labels DataK8SInstanaIoInstanaAgentV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#match_labels DataK8SInstanaIoInstanaAgentV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4891,25 +4891,25 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAn
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#label_selector DataK8SInstanaIoInstanaAgentV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#label_selector DataK8SInstanaIoInstanaAgentV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces. This field is beta-level and is only honored when PodAffinityNamespaceSelector feature is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#namespace_selector DataK8SInstanaIoInstanaAgentV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#namespace_selector DataK8SInstanaIoInstanaAgentV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#namespaces DataK8SInstanaIoInstanaAgentV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#namespaces DataK8SInstanaIoInstanaAgentV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#topology_key DataK8SInstanaIoInstanaAgentV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#topology_key DataK8SInstanaIoInstanaAgentV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5089,13 +5089,13 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAn
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#pod_affinity_term DataK8SInstanaIoInstanaAgentV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#pod_affinity_term DataK8SInstanaIoInstanaAgentV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#weight DataK8SInstanaIoInstanaAgentV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#weight DataK8SInstanaIoInstanaAgentV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -5236,19 +5236,19 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAn
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#operator DataK8SInstanaIoInstanaAgentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#operator DataK8SInstanaIoInstanaAgentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#values DataK8SInstanaIoInstanaAgentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#values DataK8SInstanaIoInstanaAgentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5418,13 +5418,13 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAn
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#match_expressions DataK8SInstanaIoInstanaAgentV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#match_expressions DataK8SInstanaIoInstanaAgentV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#match_labels DataK8SInstanaIoInstanaAgentV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#match_labels DataK8SInstanaIoInstanaAgentV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5549,19 +5549,19 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAn
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#operator DataK8SInstanaIoInstanaAgentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#operator DataK8SInstanaIoInstanaAgentV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#values DataK8SInstanaIoInstanaAgentV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#values DataK8SInstanaIoInstanaAgentV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5731,13 +5731,13 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAn
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#match_expressions DataK8SInstanaIoInstanaAgentV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#match_expressions DataK8SInstanaIoInstanaAgentV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#match_labels DataK8SInstanaIoInstanaAgentV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#match_labels DataK8SInstanaIoInstanaAgentV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5862,25 +5862,25 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAn
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#label_selector DataK8SInstanaIoInstanaAgentV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#label_selector DataK8SInstanaIoInstanaAgentV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces. This field is beta-level and is only honored when PodAffinityNamespaceSelector feature is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#namespace_selector DataK8SInstanaIoInstanaAgentV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#namespace_selector DataK8SInstanaIoInstanaAgentV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#namespaces DataK8SInstanaIoInstanaAgentV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#namespaces DataK8SInstanaIoInstanaAgentV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#topology_key DataK8SInstanaIoInstanaAgentV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#topology_key DataK8SInstanaIoInstanaAgentV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -6082,13 +6082,13 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAn
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SInstanaIoInstanaAgentV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SInstanaIoInstanaAgentV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SInstanaIoInstanaAgentV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SInstanaIoInstanaAgentV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -6213,19 +6213,19 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinity {
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#node_affinity DataK8SInstanaIoInstanaAgentV1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#node_affinity DataK8SInstanaIoInstanaAgentV1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#pod_affinity DataK8SInstanaIoInstanaAgentV1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#pod_affinity DataK8SInstanaIoInstanaAgentV1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#pod_anti_affinity DataK8SInstanaIoInstanaAgentV1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#pod_anti_affinity DataK8SInstanaIoInstanaAgentV1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinityPodAntiAffinity;
 }
@@ -6379,31 +6379,31 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodTolerations {
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#effect DataK8SInstanaIoInstanaAgentV1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#effect DataK8SInstanaIoInstanaAgentV1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#operator DataK8SInstanaIoInstanaAgentV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#operator DataK8SInstanaIoInstanaAgentV1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#toleration_seconds DataK8SInstanaIoInstanaAgentV1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#toleration_seconds DataK8SInstanaIoInstanaAgentV1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#value DataK8SInstanaIoInstanaAgentV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#value DataK8SInstanaIoInstanaAgentV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -6637,43 +6637,43 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPod {
   /**
   * agent.pod.affinity are affinities to influence agent pod assignment. https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#affinity DataK8SInstanaIoInstanaAgentV1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#affinity DataK8SInstanaIoInstanaAgentV1Manifest#affinity}
   */
   readonly affinity?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodAffinity;
   /**
   * agent.pod.annotations are additional annotations to be added to the agent pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#annotations DataK8SInstanaIoInstanaAgentV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#annotations DataK8SInstanaIoInstanaAgentV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * agent.pod.labels are additional labels to be added to the agent pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#labels DataK8SInstanaIoInstanaAgentV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#labels DataK8SInstanaIoInstanaAgentV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#limits DataK8SInstanaIoInstanaAgentV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#limits DataK8SInstanaIoInstanaAgentV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * agent.pod.priorityClassName is the name of an existing PriorityClass that should be set on the agent pods https://kubernetes.io/docs/concepts/configuration/pod-priority-preemption/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#priority_class_name DataK8SInstanaIoInstanaAgentV1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#priority_class_name DataK8SInstanaIoInstanaAgentV1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#requests DataK8SInstanaIoInstanaAgentV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#requests DataK8SInstanaIoInstanaAgentV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
   /**
   * agent.pod.tolerations are tolerations to influence agent pod assignment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#tolerations DataK8SInstanaIoInstanaAgentV1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#tolerations DataK8SInstanaIoInstanaAgentV1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPodTolerations[] | cdktf.IResolvable;
 }
@@ -6943,19 +6943,19 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentTls {
   /**
   * certificate (together with key) is the alternative to an existing Secret. Must be base64 encoded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#certificate DataK8SInstanaIoInstanaAgentV1Manifest#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#certificate DataK8SInstanaIoInstanaAgentV1Manifest#certificate}
   */
   readonly certificate?: string;
   /**
   * key (together with certificate) is the alternative to an existing Secret. Must be base64 encoded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
   */
   readonly key?: string;
   /**
   * secretName is the name of the secret that has the relevant files.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#secret_name DataK8SInstanaIoInstanaAgentV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#secret_name DataK8SInstanaIoInstanaAgentV1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -7109,13 +7109,13 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentUpdateStrategyRo
   /**
   * The maximum number of nodes with an existing available DaemonSet pod that can have an updated DaemonSet pod during during an update. Value can be an absolute number (ex: 5) or a percentage of desired pods (ex: 10%). This can not be 0 if MaxUnavailable is 0. Absolute number is calculated from percentage by rounding up to a minimum of 1. Default value is 0. Example: when this is set to 30%, at most 30% of the total number of nodes that should be running the daemon pod (i.e. status.desiredNumberScheduled) can have their a new pod created before the old pod is marked as deleted. The update starts by launching new pods on 30% of nodes. Once an updated pod is available (Ready for at least minReadySeconds) the old DaemonSet pod on that node is marked deleted. If the old pod becomes unavailable for any reason (Ready transitions to false, is evicted, or is drained) an updated pod is immediatedly created on that node without considering surge limits. Allowing surge implies the possibility that the resources consumed by the daemonset on any given node can double if the readiness check fails, and so resource intensive daemonsets should take into account that they may cause evictions during disruption. This is beta field and enabled/disabled by DaemonSetUpdateSurge feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#max_surge DataK8SInstanaIoInstanaAgentV1Manifest#max_surge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#max_surge DataK8SInstanaIoInstanaAgentV1Manifest#max_surge}
   */
   readonly maxSurge?: string;
   /**
   * The maximum number of DaemonSet pods that can be unavailable during the update. Value can be an absolute number (ex: 5) or a percentage of total number of DaemonSet pods at the start of the update (ex: 10%). Absolute number is calculated from percentage by rounding up. This cannot be 0 if MaxSurge is 0 Default value is 1. Example: when this is set to 30%, at most 30% of the total number of nodes that should be running the daemon pod (i.e. status.desiredNumberScheduled) can have their pods stopped for an update at any given time. The update starts by stopping at most 30% of those DaemonSet pods and then brings up new DaemonSet pods in their place. Once the new pods are available, it then proceeds onto other DaemonSet pods, thus ensuring that at least 70% of original number of DaemonSet pods are available at all times during the update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#max_unavailable DataK8SInstanaIoInstanaAgentV1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#max_unavailable DataK8SInstanaIoInstanaAgentV1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: string;
 }
@@ -7240,13 +7240,13 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentUpdateStrategy {
   /**
   * Rolling update config params. Present only if type = 'RollingUpdate'. --- TODO: Update this to follow our convention for oneOf, whatever we decide it to be. Same as Deployment 'strategy.rollingUpdate'. See https://github.com/kubernetes/kubernetes/issues/35345
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#rolling_update DataK8SInstanaIoInstanaAgentV1Manifest#rolling_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#rolling_update DataK8SInstanaIoInstanaAgentV1Manifest#rolling_update}
   */
   readonly rollingUpdate?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentUpdateStrategyRollingUpdate;
   /**
   * Type of daemon set update. Can be 'RollingUpdate' or 'OnDelete'. Default is RollingUpdate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#type DataK8SInstanaIoInstanaAgentV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#type DataK8SInstanaIoInstanaAgentV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -7371,157 +7371,157 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecAgent {
   /**
   * These are additional backends the Instana agent will report to besides the one configured via the 'agent.endpointHost', 'agent.endpointPort' and 'agent.key' setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#additional_backends DataK8SInstanaIoInstanaAgentV1Manifest#additional_backends}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#additional_backends DataK8SInstanaIoInstanaAgentV1Manifest#additional_backends}
   */
   readonly additionalBackends?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentAdditionalBackends[] | cdktf.IResolvable;
   /**
   * Custom agent charts url.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#charts_url DataK8SInstanaIoInstanaAgentV1Manifest#charts_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#charts_url DataK8SInstanaIoInstanaAgentV1Manifest#charts_url}
   */
   readonly chartsUrl?: string;
   /**
   * Mount in a ConfigMap with Agent configuration. Alternative to the 'configuration_yaml' field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#configuration DataK8SInstanaIoInstanaAgentV1Manifest#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#configuration DataK8SInstanaIoInstanaAgentV1Manifest#configuration}
   */
   readonly configuration?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentConfiguration;
   /**
   * Supply Agent configuration e.g. for configuring certain Sensors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#configuration_yaml DataK8SInstanaIoInstanaAgentV1Manifest#configuration_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#configuration_yaml DataK8SInstanaIoInstanaAgentV1Manifest#configuration_yaml}
   */
   readonly configurationYaml?: string;
   /**
   * The DownloadKey, sometimes known as 'sales key', that allows you to download software from Instana. It might be needed to specify this in addition to the Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#download_key DataK8SInstanaIoInstanaAgentV1Manifest#download_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#download_key DataK8SInstanaIoInstanaAgentV1Manifest#download_key}
   */
   readonly downloadKey?: string;
   /**
   * EndpointHost is the hostname of the Instana server your agents will connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#endpoint_host DataK8SInstanaIoInstanaAgentV1Manifest#endpoint_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#endpoint_host DataK8SInstanaIoInstanaAgentV1Manifest#endpoint_host}
   */
   readonly endpointHost: string;
   /**
   * EndpointPort is the port number (as a String) of the Instana server your agents will connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#endpoint_port DataK8SInstanaIoInstanaAgentV1Manifest#endpoint_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#endpoint_port DataK8SInstanaIoInstanaAgentV1Manifest#endpoint_port}
   */
   readonly endpointPort: string;
   /**
   * Use the 'env' field to set additional environment variables for the Instana Agent, for example: env: INSTANA_AGENT_TAGS: dev
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#env DataK8SInstanaIoInstanaAgentV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#env DataK8SInstanaIoInstanaAgentV1Manifest#env}
   */
   readonly env?: { [key: string]: string };
   /**
   * Host sets a host path to be mounted as the Agent Maven repository (mainly for debugging or development purposes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#host DataK8SInstanaIoInstanaAgentV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#host DataK8SInstanaIoInstanaAgentV1Manifest#host}
   */
   readonly host?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentHost;
   /**
   * Override the container image used for the Instana Agent pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#image DataK8SInstanaIoInstanaAgentV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#image DataK8SInstanaIoInstanaAgentV1Manifest#image}
   */
   readonly image?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentImage;
   /**
   * Override for the Maven repository URL when the Agent needs to connect to a locally provided Maven repository 'proxy' Alternative to 'Host' for referencing a different Maven repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#instana_mvn_repo_url DataK8SInstanaIoInstanaAgentV1Manifest#instana_mvn_repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#instana_mvn_repo_url DataK8SInstanaIoInstanaAgentV1Manifest#instana_mvn_repo_url}
   */
   readonly instanaMvnRepoUrl?: string;
   /**
   * Key is the secret token which your agent uses to authenticate to Instana's servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#key DataK8SInstanaIoInstanaAgentV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Rather than specifying the Key and optionally the DownloadKey, you can 'bring your own secret' creating it in the namespace in which you install the 'instana-agent' and specify its name in the 'KeysSecret' field. The secret you create must contain a field called 'key' and optionally one called 'downloadKey', which contain, respectively, the values you'd otherwise set in '.agent.key' and 'agent.downloadKey'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#keys_secret DataK8SInstanaIoInstanaAgentV1Manifest#keys_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#keys_secret DataK8SInstanaIoInstanaAgentV1Manifest#keys_secret}
   */
   readonly keysSecret?: string;
   /**
   * ListenAddress is the IP addresses the Agent HTTP server will listen on. Normally this will just be localhost ('127.0.0.1'), the pod public IP and any container runtime bridge interfaces. Set 'listenAddress: *' for making the Agent listen on all network interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#listen_address DataK8SInstanaIoInstanaAgentV1Manifest#listen_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#listen_address DataK8SInstanaIoInstanaAgentV1Manifest#listen_address}
   */
   readonly listenAddress?: string;
   /**
   * The minimum number of seconds for which a newly created Pod should be ready without any of its containers crashing, for it to be considered available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#min_ready_seconds DataK8SInstanaIoInstanaAgentV1Manifest#min_ready_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#min_ready_seconds DataK8SInstanaIoInstanaAgentV1Manifest#min_ready_seconds}
   */
   readonly minReadySeconds?: number;
   /**
   * Set agent mode, possible options are APM, INFRASTRUCTURE or AWS. KUBERNETES should not be used but instead enabled via 'kubernetes.deployment.enabled: true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#mode DataK8SInstanaIoInstanaAgentV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#mode DataK8SInstanaIoInstanaAgentV1Manifest#mode}
   */
   readonly mode?: string;
   /**
   * Override Agent Pod specific settings such as annotations, labels and resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#pod DataK8SInstanaIoInstanaAgentV1Manifest#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#pod DataK8SInstanaIoInstanaAgentV1Manifest#pod}
   */
   readonly pod?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentPod;
   /**
   * proxyHost sets the INSTANA_AGENT_PROXY_HOST environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#proxy_host DataK8SInstanaIoInstanaAgentV1Manifest#proxy_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#proxy_host DataK8SInstanaIoInstanaAgentV1Manifest#proxy_host}
   */
   readonly proxyHost?: string;
   /**
   * proxyPassword sets the INSTANA_AGENT_PROXY_PASSWORD environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#proxy_password DataK8SInstanaIoInstanaAgentV1Manifest#proxy_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#proxy_password DataK8SInstanaIoInstanaAgentV1Manifest#proxy_password}
   */
   readonly proxyPassword?: string;
   /**
   * proxyPort sets the INSTANA_AGENT_PROXY_PORT environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#proxy_port DataK8SInstanaIoInstanaAgentV1Manifest#proxy_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#proxy_port DataK8SInstanaIoInstanaAgentV1Manifest#proxy_port}
   */
   readonly proxyPort?: string;
   /**
   * proxyProtocol sets the INSTANA_AGENT_PROXY_PROTOCOL environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#proxy_protocol DataK8SInstanaIoInstanaAgentV1Manifest#proxy_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#proxy_protocol DataK8SInstanaIoInstanaAgentV1Manifest#proxy_protocol}
   */
   readonly proxyProtocol?: string;
   /**
   * proxyUseDNS sets the INSTANA_AGENT_PROXY_USE_DNS environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#proxy_use_dns DataK8SInstanaIoInstanaAgentV1Manifest#proxy_use_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#proxy_use_dns DataK8SInstanaIoInstanaAgentV1Manifest#proxy_use_dns}
   */
   readonly proxyUseDns?: boolean | cdktf.IResolvable;
   /**
   * proxyUser sets the INSTANA_AGENT_PROXY_USER environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#proxy_user DataK8SInstanaIoInstanaAgentV1Manifest#proxy_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#proxy_user DataK8SInstanaIoInstanaAgentV1Manifest#proxy_user}
   */
   readonly proxyUser?: string;
   /**
   * RedactKubernetesSecrets sets the INSTANA_KUBERNETES_REDACT_SECRETS environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#redact_kubernetes_secrets DataK8SInstanaIoInstanaAgentV1Manifest#redact_kubernetes_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#redact_kubernetes_secrets DataK8SInstanaIoInstanaAgentV1Manifest#redact_kubernetes_secrets}
   */
   readonly redactKubernetesSecrets?: string;
   /**
   * TLS for end-to-end encryption between the Instana Agent and clients accessing the Agent. The Instana Agent does not yet allow enforcing TLS encryption, enabling makes it possible for clients to 'opt-in'. So TLS is only enabled on a connection when requested by the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#tls DataK8SInstanaIoInstanaAgentV1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#tls DataK8SInstanaIoInstanaAgentV1Manifest#tls}
   */
   readonly tls?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentTls;
   /**
   * Control how to update the Agent DaemonSet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#update_strategy DataK8SInstanaIoInstanaAgentV1Manifest#update_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#update_strategy DataK8SInstanaIoInstanaAgentV1Manifest#update_strategy}
   */
   readonly updateStrategy?: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentUpdateStrategy;
 }
@@ -8334,7 +8334,7 @@ export class DataK8SInstanaIoInstanaAgentV1ManifestSpecAgentOutputReference exte
 }
 export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecCluster {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#name DataK8SInstanaIoInstanaAgentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#name DataK8SInstanaIoInstanaAgentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -8430,13 +8430,13 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecK8SSensorDeploymentPo
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#limits DataK8SInstanaIoInstanaAgentV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#limits DataK8SInstanaIoInstanaAgentV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#requests DataK8SInstanaIoInstanaAgentV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#requests DataK8SInstanaIoInstanaAgentV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -8559,25 +8559,25 @@ export class DataK8SInstanaIoInstanaAgentV1ManifestSpecK8SSensorDeploymentPodOut
 }
 export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecK8SSensorDeployment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#enabled DataK8SInstanaIoInstanaAgentV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#enabled DataK8SInstanaIoInstanaAgentV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The minimum number of seconds for which a newly created Pod should be ready without any of its containers crashing, for it to be considered available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#min_ready_seconds DataK8SInstanaIoInstanaAgentV1Manifest#min_ready_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#min_ready_seconds DataK8SInstanaIoInstanaAgentV1Manifest#min_ready_seconds}
   */
   readonly minReadySeconds?: number;
   /**
   * Override pod resource requirements for the Kubernetes Sensor pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#pod DataK8SInstanaIoInstanaAgentV1Manifest#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#pod DataK8SInstanaIoInstanaAgentV1Manifest#pod}
   */
   readonly pod?: DataK8SInstanaIoInstanaAgentV1ManifestSpecK8SSensorDeploymentPod;
   /**
   * Specify the number of replicas for the Kubernetes Sensor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#replicas DataK8SInstanaIoInstanaAgentV1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#replicas DataK8SInstanaIoInstanaAgentV1Manifest#replicas}
   */
   readonly replicas?: number;
 }
@@ -8758,7 +8758,7 @@ export class DataK8SInstanaIoInstanaAgentV1ManifestSpecK8SSensorDeploymentOutput
 }
 export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecK8SSensorImagePullSecrets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#name DataK8SInstanaIoInstanaAgentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#name DataK8SInstanaIoInstanaAgentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -8876,31 +8876,31 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecK8SSensorImage {
   /**
   * Digest (a.k.a. Image ID) of the agent container image. If specified, it has priority over 'agent.image.tag', which will then be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#digest DataK8SInstanaIoInstanaAgentV1Manifest#digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#digest DataK8SInstanaIoInstanaAgentV1Manifest#digest}
   */
   readonly digest?: string;
   /**
   * Name is the name of the container image of the Instana agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#name DataK8SInstanaIoInstanaAgentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#name DataK8SInstanaIoInstanaAgentV1Manifest#name}
   */
   readonly name?: string;
   /**
   * PullPolicy specifies when to pull the image container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#pull_policy DataK8SInstanaIoInstanaAgentV1Manifest#pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#pull_policy DataK8SInstanaIoInstanaAgentV1Manifest#pull_policy}
   */
   readonly pullPolicy?: string;
   /**
   * PullSecrets allows you to override the default pull secret that is created when 'agent.image.name' starts with 'containers.instana.io'. Setting 'agent.image.pullSecrets' prevents the creation of the default 'containers-instana-io' secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#pull_secrets DataK8SInstanaIoInstanaAgentV1Manifest#pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#pull_secrets DataK8SInstanaIoInstanaAgentV1Manifest#pull_secrets}
   */
   readonly pullSecrets?: DataK8SInstanaIoInstanaAgentV1ManifestSpecK8SSensorImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Tag is the name of the agent container image; if 'agent.image.digest' is specified, this property is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#tag DataK8SInstanaIoInstanaAgentV1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#tag DataK8SInstanaIoInstanaAgentV1Manifest#tag}
   */
   readonly tag?: string;
 }
@@ -9110,11 +9110,11 @@ export class DataK8SInstanaIoInstanaAgentV1ManifestSpecK8SSensorImageOutputRefer
 }
 export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecK8SSensor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#deployment DataK8SInstanaIoInstanaAgentV1Manifest#deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#deployment DataK8SInstanaIoInstanaAgentV1Manifest#deployment}
   */
   readonly deployment?: DataK8SInstanaIoInstanaAgentV1ManifestSpecK8SSensorDeployment;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#image DataK8SInstanaIoInstanaAgentV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#image DataK8SInstanaIoInstanaAgentV1Manifest#image}
   */
   readonly image?: DataK8SInstanaIoInstanaAgentV1ManifestSpecK8SSensorImage;
 }
@@ -9239,13 +9239,13 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecKubernetesDeploymentP
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#limits DataK8SInstanaIoInstanaAgentV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#limits DataK8SInstanaIoInstanaAgentV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#requests DataK8SInstanaIoInstanaAgentV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#requests DataK8SInstanaIoInstanaAgentV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -9368,25 +9368,25 @@ export class DataK8SInstanaIoInstanaAgentV1ManifestSpecKubernetesDeploymentPodOu
 }
 export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecKubernetesDeployment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#enabled DataK8SInstanaIoInstanaAgentV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#enabled DataK8SInstanaIoInstanaAgentV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The minimum number of seconds for which a newly created Pod should be ready without any of its containers crashing, for it to be considered available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#min_ready_seconds DataK8SInstanaIoInstanaAgentV1Manifest#min_ready_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#min_ready_seconds DataK8SInstanaIoInstanaAgentV1Manifest#min_ready_seconds}
   */
   readonly minReadySeconds?: number;
   /**
   * Override pod resource requirements for the Kubernetes Sensor pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#pod DataK8SInstanaIoInstanaAgentV1Manifest#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#pod DataK8SInstanaIoInstanaAgentV1Manifest#pod}
   */
   readonly pod?: DataK8SInstanaIoInstanaAgentV1ManifestSpecKubernetesDeploymentPod;
   /**
   * Specify the number of replicas for the Kubernetes Sensor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#replicas DataK8SInstanaIoInstanaAgentV1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#replicas DataK8SInstanaIoInstanaAgentV1Manifest#replicas}
   */
   readonly replicas?: number;
 }
@@ -9567,7 +9567,7 @@ export class DataK8SInstanaIoInstanaAgentV1ManifestSpecKubernetesDeploymentOutpu
 }
 export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecKubernetes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#deployment DataK8SInstanaIoInstanaAgentV1Manifest#deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#deployment DataK8SInstanaIoInstanaAgentV1Manifest#deployment}
   */
   readonly deployment?: DataK8SInstanaIoInstanaAgentV1ManifestSpecKubernetesDeployment;
 }
@@ -9661,7 +9661,7 @@ export class DataK8SInstanaIoInstanaAgentV1ManifestSpecKubernetesOutputReference
 }
 export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecOpentelemetryGrpc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#enabled DataK8SInstanaIoInstanaAgentV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#enabled DataK8SInstanaIoInstanaAgentV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -9755,7 +9755,7 @@ export class DataK8SInstanaIoInstanaAgentV1ManifestSpecOpentelemetryGrpcOutputRe
 }
 export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecOpentelemetryHttp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#enabled DataK8SInstanaIoInstanaAgentV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#enabled DataK8SInstanaIoInstanaAgentV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -9849,15 +9849,15 @@ export class DataK8SInstanaIoInstanaAgentV1ManifestSpecOpentelemetryHttpOutputRe
 }
 export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecOpentelemetry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#enabled DataK8SInstanaIoInstanaAgentV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#enabled DataK8SInstanaIoInstanaAgentV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#grpc DataK8SInstanaIoInstanaAgentV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#grpc DataK8SInstanaIoInstanaAgentV1Manifest#grpc}
   */
   readonly grpc?: DataK8SInstanaIoInstanaAgentV1ManifestSpecOpentelemetryGrpc;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#http DataK8SInstanaIoInstanaAgentV1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#http DataK8SInstanaIoInstanaAgentV1Manifest#http}
   */
   readonly http?: DataK8SInstanaIoInstanaAgentV1ManifestSpecOpentelemetryHttp;
 }
@@ -10009,11 +10009,11 @@ export class DataK8SInstanaIoInstanaAgentV1ManifestSpecOpentelemetryOutputRefere
 }
 export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecPodSecurityPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#enabled DataK8SInstanaIoInstanaAgentV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#enabled DataK8SInstanaIoInstanaAgentV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#name DataK8SInstanaIoInstanaAgentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#name DataK8SInstanaIoInstanaAgentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -10136,7 +10136,7 @@ export class DataK8SInstanaIoInstanaAgentV1ManifestSpecPodSecurityPolicyOutputRe
 }
 export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecPrometheusRemoteWrite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#enabled DataK8SInstanaIoInstanaAgentV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#enabled DataK8SInstanaIoInstanaAgentV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -10230,7 +10230,7 @@ export class DataK8SInstanaIoInstanaAgentV1ManifestSpecPrometheusRemoteWriteOutp
 }
 export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecPrometheus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#remote_write DataK8SInstanaIoInstanaAgentV1Manifest#remote_write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#remote_write DataK8SInstanaIoInstanaAgentV1Manifest#remote_write}
   */
   readonly remoteWrite?: DataK8SInstanaIoInstanaAgentV1ManifestSpecPrometheusRemoteWrite;
 }
@@ -10324,7 +10324,7 @@ export class DataK8SInstanaIoInstanaAgentV1ManifestSpecPrometheusOutputReference
 }
 export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecRbac {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#create DataK8SInstanaIoInstanaAgentV1Manifest#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#create DataK8SInstanaIoInstanaAgentV1Manifest#create}
   */
   readonly create?: boolean | cdktf.IResolvable;
 }
@@ -10418,7 +10418,7 @@ export class DataK8SInstanaIoInstanaAgentV1ManifestSpecRbacOutputReference exten
 }
 export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#create DataK8SInstanaIoInstanaAgentV1Manifest#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#create DataK8SInstanaIoInstanaAgentV1Manifest#create}
   */
   readonly create?: boolean | cdktf.IResolvable;
 }
@@ -10512,11 +10512,11 @@ export class DataK8SInstanaIoInstanaAgentV1ManifestSpecServiceOutputReference ex
 }
 export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecServiceAccount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#create DataK8SInstanaIoInstanaAgentV1Manifest#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#create DataK8SInstanaIoInstanaAgentV1Manifest#create}
   */
   readonly create?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#name DataK8SInstanaIoInstanaAgentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#name DataK8SInstanaIoInstanaAgentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -10639,7 +10639,7 @@ export class DataK8SInstanaIoInstanaAgentV1ManifestSpecServiceAccountOutputRefer
 }
 export interface DataK8SInstanaIoInstanaAgentV1ManifestSpecZone {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#name DataK8SInstanaIoInstanaAgentV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#name DataK8SInstanaIoInstanaAgentV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -10735,181 +10735,181 @@ export interface DataK8SInstanaIoInstanaAgentV1ManifestSpec {
   /**
   * Agent deployment specific fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#agent DataK8SInstanaIoInstanaAgentV1Manifest#agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#agent DataK8SInstanaIoInstanaAgentV1Manifest#agent}
   */
   readonly agent: DataK8SInstanaIoInstanaAgentV1ManifestSpecAgent;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_cluster_role_binding_name DataK8SInstanaIoInstanaAgentV1Manifest#agent_cluster_role_binding_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_cluster_role_binding_name DataK8SInstanaIoInstanaAgentV1Manifest#agent_cluster_role_binding_name}
   */
   readonly agentClusterRoleBindingName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_cluster_role_name DataK8SInstanaIoInstanaAgentV1Manifest#agent_cluster_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_cluster_role_name DataK8SInstanaIoInstanaAgentV1Manifest#agent_cluster_role_name}
   */
   readonly agentClusterRoleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_config_map_name DataK8SInstanaIoInstanaAgentV1Manifest#agent_config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_config_map_name DataK8SInstanaIoInstanaAgentV1Manifest#agent_config_map_name}
   */
   readonly agentConfigMapName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_cpu_limit DataK8SInstanaIoInstanaAgentV1Manifest#agent_cpu_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_cpu_limit DataK8SInstanaIoInstanaAgentV1Manifest#agent_cpu_limit}
   */
   readonly agentCpuLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_cpu_req DataK8SInstanaIoInstanaAgentV1Manifest#agent_cpu_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_cpu_req DataK8SInstanaIoInstanaAgentV1Manifest#agent_cpu_req}
   */
   readonly agentCpuReq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_daemon_set_name DataK8SInstanaIoInstanaAgentV1Manifest#agent_daemon_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_daemon_set_name DataK8SInstanaIoInstanaAgentV1Manifest#agent_daemon_set_name}
   */
   readonly agentDaemonSetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_download_key DataK8SInstanaIoInstanaAgentV1Manifest#agent_download_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_download_key DataK8SInstanaIoInstanaAgentV1Manifest#agent_download_key}
   */
   readonly agentDownloadKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_endpoint_host DataK8SInstanaIoInstanaAgentV1Manifest#agent_endpoint_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_endpoint_host DataK8SInstanaIoInstanaAgentV1Manifest#agent_endpoint_host}
   */
   readonly agentEndpointHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_endpoint_port DataK8SInstanaIoInstanaAgentV1Manifest#agent_endpoint_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_endpoint_port DataK8SInstanaIoInstanaAgentV1Manifest#agent_endpoint_port}
   */
   readonly agentEndpointPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_env DataK8SInstanaIoInstanaAgentV1Manifest#agent_env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_env DataK8SInstanaIoInstanaAgentV1Manifest#agent_env}
   */
   readonly agentEnv?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_host_repository DataK8SInstanaIoInstanaAgentV1Manifest#agent_host_repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_host_repository DataK8SInstanaIoInstanaAgentV1Manifest#agent_host_repository}
   */
   readonly agentHostRepository?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_image DataK8SInstanaIoInstanaAgentV1Manifest#agent_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_image DataK8SInstanaIoInstanaAgentV1Manifest#agent_image}
   */
   readonly agentImage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_image_pull_policy DataK8SInstanaIoInstanaAgentV1Manifest#agent_image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_image_pull_policy DataK8SInstanaIoInstanaAgentV1Manifest#agent_image_pull_policy}
   */
   readonly agentImagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_key DataK8SInstanaIoInstanaAgentV1Manifest#agent_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_key DataK8SInstanaIoInstanaAgentV1Manifest#agent_key}
   */
   readonly agentKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_mem_limit DataK8SInstanaIoInstanaAgentV1Manifest#agent_mem_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_mem_limit DataK8SInstanaIoInstanaAgentV1Manifest#agent_mem_limit}
   */
   readonly agentMemLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_mem_req DataK8SInstanaIoInstanaAgentV1Manifest#agent_mem_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_mem_req DataK8SInstanaIoInstanaAgentV1Manifest#agent_mem_req}
   */
   readonly agentMemReq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_rbac_create DataK8SInstanaIoInstanaAgentV1Manifest#agent_rbac_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_rbac_create DataK8SInstanaIoInstanaAgentV1Manifest#agent_rbac_create}
   */
   readonly agentRbacCreate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_secret_name DataK8SInstanaIoInstanaAgentV1Manifest#agent_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_secret_name DataK8SInstanaIoInstanaAgentV1Manifest#agent_secret_name}
   */
   readonly agentSecretName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_service_account_name DataK8SInstanaIoInstanaAgentV1Manifest#agent_service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_service_account_name DataK8SInstanaIoInstanaAgentV1Manifest#agent_service_account_name}
   */
   readonly agentServiceAccountName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_tls_certificate DataK8SInstanaIoInstanaAgentV1Manifest#agent_tls_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_tls_certificate DataK8SInstanaIoInstanaAgentV1Manifest#agent_tls_certificate}
   */
   readonly agentTlsCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_tls_key DataK8SInstanaIoInstanaAgentV1Manifest#agent_tls_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_tls_key DataK8SInstanaIoInstanaAgentV1Manifest#agent_tls_key}
   */
   readonly agentTlsKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_tls_secret_name DataK8SInstanaIoInstanaAgentV1Manifest#agent_tls_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_tls_secret_name DataK8SInstanaIoInstanaAgentV1Manifest#agent_tls_secret_name}
   */
   readonly agentTlsSecretName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_zone_name DataK8SInstanaIoInstanaAgentV1Manifest#agent_zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#agent_zone_name DataK8SInstanaIoInstanaAgentV1Manifest#agent_zone_name}
   */
   readonly agentZoneName?: string;
   /**
   * Name of the cluster, that will be assigned to this cluster in Instana. Either specifying the 'cluster.name' or 'zone.name' is mandatory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#cluster DataK8SInstanaIoInstanaAgentV1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#cluster DataK8SInstanaIoInstanaAgentV1Manifest#cluster}
   */
   readonly cluster?: DataK8SInstanaIoInstanaAgentV1ManifestSpecCluster;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#cluster_name DataK8SInstanaIoInstanaAgentV1Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#cluster_name DataK8SInstanaIoInstanaAgentV1Manifest#cluster_name}
   */
   readonly clusterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#config_files DataK8SInstanaIoInstanaAgentV1Manifest#config_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#config_files DataK8SInstanaIoInstanaAgentV1Manifest#config_files}
   */
   readonly configFiles?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#k8s_sensor DataK8SInstanaIoInstanaAgentV1Manifest#k8s_sensor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#k8s_sensor DataK8SInstanaIoInstanaAgentV1Manifest#k8s_sensor}
   */
   readonly k8SSensor?: DataK8SInstanaIoInstanaAgentV1ManifestSpecK8SSensor;
   /**
   * Allows for installment of the Kubernetes Sensor as separate pod. Which allows for better tailored resource settings (mainly memory) both for the Agent pods and the Kubernetes Sensor pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#kubernetes DataK8SInstanaIoInstanaAgentV1Manifest#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#kubernetes DataK8SInstanaIoInstanaAgentV1Manifest#kubernetes}
   */
   readonly kubernetes?: DataK8SInstanaIoInstanaAgentV1ManifestSpecKubernetes;
   /**
   * Set to 'True' to indicate the Operator is being deployed in a OpenShift cluster. Provides a hint so that RBAC etc is configured correctly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#openshift DataK8SInstanaIoInstanaAgentV1Manifest#openshift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#openshift DataK8SInstanaIoInstanaAgentV1Manifest#openshift}
   */
   readonly openshift?: boolean | cdktf.IResolvable;
   /**
   * Enables the OpenTelemetry gRPC endpoint on the Agent. If true, it will also apply 'service.create: true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#opentelemetry DataK8SInstanaIoInstanaAgentV1Manifest#opentelemetry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#opentelemetry DataK8SInstanaIoInstanaAgentV1Manifest#opentelemetry}
   */
   readonly opentelemetry?: DataK8SInstanaIoInstanaAgentV1ManifestSpecOpentelemetry;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#opentelemetry_enabled DataK8SInstanaIoInstanaAgentV1Manifest#opentelemetry_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#opentelemetry_enabled DataK8SInstanaIoInstanaAgentV1Manifest#opentelemetry_enabled}
   */
   readonly opentelemetryEnabled?: boolean | cdktf.IResolvable;
   /**
   * Specifying the PinnedChartVersion allows for 'pinning' the Helm Chart used by the Operator for installing the Agent DaemonSet. Normally the Operator will always install and update to the latest Helm Chart version. The Operator will check and make sure no 'unsupported' Chart versions can be selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#pinned_chart_version DataK8SInstanaIoInstanaAgentV1Manifest#pinned_chart_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#pinned_chart_version DataK8SInstanaIoInstanaAgentV1Manifest#pinned_chart_version}
   */
   readonly pinnedChartVersion?: string;
   /**
   * Specify a PodSecurityPolicy for the Instana Agent Pods. If enabled requires 'rbac.create: true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#pod_security_policy DataK8SInstanaIoInstanaAgentV1Manifest#pod_security_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#pod_security_policy DataK8SInstanaIoInstanaAgentV1Manifest#pod_security_policy}
   */
   readonly podSecurityPolicy?: DataK8SInstanaIoInstanaAgentV1ManifestSpecPodSecurityPolicy;
   /**
   * Enables the Prometheus endpoint on the Agent. If true, it will also apply 'service.create: true'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#prometheus DataK8SInstanaIoInstanaAgentV1Manifest#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#prometheus DataK8SInstanaIoInstanaAgentV1Manifest#prometheus}
   */
   readonly prometheus?: DataK8SInstanaIoInstanaAgentV1ManifestSpecPrometheus;
   /**
   * Specifies whether RBAC resources should be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#rbac DataK8SInstanaIoInstanaAgentV1Manifest#rbac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#rbac DataK8SInstanaIoInstanaAgentV1Manifest#rbac}
   */
   readonly rbac?: DataK8SInstanaIoInstanaAgentV1ManifestSpecRbac;
   /**
   * Specifies whether to create the instana-agent 'Service' to expose within the cluster. The Service can then be used e.g. for the Prometheus remote-write, OpenTelemetry GRCP endpoint and other APIs. Note: Requires Kubernetes 1.17+, as it uses topologyKeys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#service DataK8SInstanaIoInstanaAgentV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#service DataK8SInstanaIoInstanaAgentV1Manifest#service}
   */
   readonly service?: DataK8SInstanaIoInstanaAgentV1ManifestSpecService;
   /**
   * Specifies whether a ServiceAccount should be created (default 'true'), and possibly the name to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#service_account DataK8SInstanaIoInstanaAgentV1Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#service_account DataK8SInstanaIoInstanaAgentV1Manifest#service_account}
   */
   readonly serviceAccount?: DataK8SInstanaIoInstanaAgentV1ManifestSpecServiceAccount;
   /**
   * Name of the zone in which the host(s) will be displayed on the map. Optional, but then 'cluster.name' must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#zone DataK8SInstanaIoInstanaAgentV1Manifest#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#zone DataK8SInstanaIoInstanaAgentV1Manifest#zone}
   */
   readonly zone?: DataK8SInstanaIoInstanaAgentV1ManifestSpecZone;
 }
@@ -12102,7 +12102,7 @@ export class DataK8SInstanaIoInstanaAgentV1ManifestSpecOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest k8s_instana_io_instana_agent_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest k8s_instana_io_instana_agent_v1_manifest}
 */
 export class DataK8SInstanaIoInstanaAgentV1Manifest extends cdktf.TerraformDataSource {
 
@@ -12118,7 +12118,7 @@ export class DataK8SInstanaIoInstanaAgentV1Manifest extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataK8SInstanaIoInstanaAgentV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SInstanaIoInstanaAgentV1Manifest to import
-  * @param importFromId The id of the existing DataK8SInstanaIoInstanaAgentV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SInstanaIoInstanaAgentV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SInstanaIoInstanaAgentV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -12130,7 +12130,7 @@ export class DataK8SInstanaIoInstanaAgentV1Manifest extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/instana_io_instana_agent_v1_manifest k8s_instana_io_instana_agent_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/instana_io_instana_agent_v1_manifest k8s_instana_io_instana_agent_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -12141,8 +12141,8 @@ export class DataK8SInstanaIoInstanaAgentV1Manifest extends cdktf.TerraformDataS
       terraformResourceType: 'k8s_instana_io_instana_agent_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

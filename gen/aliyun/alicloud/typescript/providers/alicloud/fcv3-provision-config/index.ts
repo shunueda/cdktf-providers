@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface Fcv3ProvisionConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config#always_allocate_cpu Fcv3ProvisionConfig#always_allocate_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config#always_allocate_cpu Fcv3ProvisionConfig#always_allocate_cpu}
   */
   readonly alwaysAllocateCpu?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config#always_allocate_gpu Fcv3ProvisionConfig#always_allocate_gpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config#always_allocate_gpu Fcv3ProvisionConfig#always_allocate_gpu}
   */
   readonly alwaysAllocateGpu?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config#function_name Fcv3ProvisionConfig#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config#function_name Fcv3ProvisionConfig#function_name}
   */
   readonly functionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config#id Fcv3ProvisionConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config#id Fcv3ProvisionConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config#qualifier Fcv3ProvisionConfig#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config#qualifier Fcv3ProvisionConfig#qualifier}
   */
   readonly qualifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config#target Fcv3ProvisionConfig#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config#target Fcv3ProvisionConfig#target}
   */
   readonly target?: number;
   /**
   * scheduled_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config#scheduled_actions Fcv3ProvisionConfig#scheduled_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config#scheduled_actions Fcv3ProvisionConfig#scheduled_actions}
   */
   readonly scheduledActions?: Fcv3ProvisionConfigScheduledActions[] | cdktf.IResolvable;
   /**
   * target_tracking_policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config#target_tracking_policies Fcv3ProvisionConfig#target_tracking_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config#target_tracking_policies Fcv3ProvisionConfig#target_tracking_policies}
   */
   readonly targetTrackingPolicies?: Fcv3ProvisionConfigTargetTrackingPolicies[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config#timeouts Fcv3ProvisionConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config#timeouts Fcv3ProvisionConfig#timeouts}
   */
   readonly timeouts?: Fcv3ProvisionConfigTimeouts;
 }
 export interface Fcv3ProvisionConfigScheduledActions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config#end_time Fcv3ProvisionConfig#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config#end_time Fcv3ProvisionConfig#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config#name Fcv3ProvisionConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config#name Fcv3ProvisionConfig#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config#schedule_expression Fcv3ProvisionConfig#schedule_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config#schedule_expression Fcv3ProvisionConfig#schedule_expression}
   */
   readonly scheduleExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config#start_time Fcv3ProvisionConfig#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config#start_time Fcv3ProvisionConfig#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config#target Fcv3ProvisionConfig#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config#target Fcv3ProvisionConfig#target}
   */
   readonly target?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config#time_zone Fcv3ProvisionConfig#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config#time_zone Fcv3ProvisionConfig#time_zone}
   */
   readonly timeZone?: string;
 }
@@ -336,35 +336,35 @@ export class Fcv3ProvisionConfigScheduledActionsList extends cdktf.ComplexList {
 }
 export interface Fcv3ProvisionConfigTargetTrackingPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config#end_time Fcv3ProvisionConfig#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config#end_time Fcv3ProvisionConfig#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config#max_capacity Fcv3ProvisionConfig#max_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config#max_capacity Fcv3ProvisionConfig#max_capacity}
   */
   readonly maxCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config#metric_target Fcv3ProvisionConfig#metric_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config#metric_target Fcv3ProvisionConfig#metric_target}
   */
   readonly metricTarget?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config#metric_type Fcv3ProvisionConfig#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config#metric_type Fcv3ProvisionConfig#metric_type}
   */
   readonly metricType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config#min_capacity Fcv3ProvisionConfig#min_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config#min_capacity Fcv3ProvisionConfig#min_capacity}
   */
   readonly minCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config#name Fcv3ProvisionConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config#name Fcv3ProvisionConfig#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config#start_time Fcv3ProvisionConfig#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config#start_time Fcv3ProvisionConfig#start_time}
   */
   readonly startTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config#time_zone Fcv3ProvisionConfig#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config#time_zone Fcv3ProvisionConfig#time_zone}
   */
   readonly timeZone?: string;
 }
@@ -683,15 +683,15 @@ export class Fcv3ProvisionConfigTargetTrackingPoliciesList extends cdktf.Complex
 }
 export interface Fcv3ProvisionConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config#create Fcv3ProvisionConfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config#create Fcv3ProvisionConfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config#delete Fcv3ProvisionConfig#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config#delete Fcv3ProvisionConfig#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config#update Fcv3ProvisionConfig#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config#update Fcv3ProvisionConfig#update}
   */
   readonly update?: string;
 }
@@ -843,7 +843,7 @@ export class Fcv3ProvisionConfigTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config alicloud_fcv3_provision_config}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config alicloud_fcv3_provision_config}
 */
 export class Fcv3ProvisionConfig extends cdktf.TerraformResource {
 
@@ -859,7 +859,7 @@ export class Fcv3ProvisionConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Fcv3ProvisionConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Fcv3ProvisionConfig to import
-  * @param importFromId The id of the existing Fcv3ProvisionConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Fcv3ProvisionConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Fcv3ProvisionConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -871,7 +871,7 @@ export class Fcv3ProvisionConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_provision_config alicloud_fcv3_provision_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_provision_config alicloud_fcv3_provision_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -882,8 +882,8 @@ export class Fcv3ProvisionConfig extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_fcv3_provision_config',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

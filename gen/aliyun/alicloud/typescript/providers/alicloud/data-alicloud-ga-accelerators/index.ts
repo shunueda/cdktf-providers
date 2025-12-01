@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ga_accelerators
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_accelerators
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudGaAcceleratorsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ga_accelerators#bandwidth_billing_type DataAlicloudGaAccelerators#bandwidth_billing_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_accelerators#bandwidth_billing_type DataAlicloudGaAccelerators#bandwidth_billing_type}
   */
   readonly bandwidthBillingType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ga_accelerators#id DataAlicloudGaAccelerators#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_accelerators#id DataAlicloudGaAccelerators#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ga_accelerators#ids DataAlicloudGaAccelerators#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_accelerators#ids DataAlicloudGaAccelerators#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ga_accelerators#name_regex DataAlicloudGaAccelerators#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_accelerators#name_regex DataAlicloudGaAccelerators#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ga_accelerators#output_file DataAlicloudGaAccelerators#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_accelerators#output_file DataAlicloudGaAccelerators#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ga_accelerators#status DataAlicloudGaAccelerators#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_accelerators#status DataAlicloudGaAccelerators#status}
   */
   readonly status?: string;
 }
@@ -344,7 +344,7 @@ export class DataAlicloudGaAcceleratorsAcceleratorsList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ga_accelerators alicloud_ga_accelerators}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_accelerators alicloud_ga_accelerators}
 */
 export class DataAlicloudGaAccelerators extends cdktf.TerraformDataSource {
 
@@ -360,7 +360,7 @@ export class DataAlicloudGaAccelerators extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudGaAccelerators resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudGaAccelerators to import
-  * @param importFromId The id of the existing DataAlicloudGaAccelerators that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ga_accelerators#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudGaAccelerators that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_accelerators#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudGaAccelerators to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -372,7 +372,7 @@ export class DataAlicloudGaAccelerators extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/ga_accelerators alicloud_ga_accelerators} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/ga_accelerators alicloud_ga_accelerators} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -383,8 +383,8 @@ export class DataAlicloudGaAccelerators extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_ga_accelerators',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

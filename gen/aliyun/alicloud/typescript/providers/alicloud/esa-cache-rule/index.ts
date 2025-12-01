@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,134 +8,134 @@ import * as cdktf from 'cdktf';
 
 export interface EsaCacheRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#additional_cacheable_ports EsaCacheRule#additional_cacheable_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#additional_cacheable_ports EsaCacheRule#additional_cacheable_ports}
   */
   readonly additionalCacheablePorts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#browser_cache_mode EsaCacheRule#browser_cache_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#browser_cache_mode EsaCacheRule#browser_cache_mode}
   */
   readonly browserCacheMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#browser_cache_ttl EsaCacheRule#browser_cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#browser_cache_ttl EsaCacheRule#browser_cache_ttl}
   */
   readonly browserCacheTtl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#bypass_cache EsaCacheRule#bypass_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#bypass_cache EsaCacheRule#bypass_cache}
   */
   readonly bypassCache?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#cache_deception_armor EsaCacheRule#cache_deception_armor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#cache_deception_armor EsaCacheRule#cache_deception_armor}
   */
   readonly cacheDeceptionArmor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#cache_reserve_eligibility EsaCacheRule#cache_reserve_eligibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#cache_reserve_eligibility EsaCacheRule#cache_reserve_eligibility}
   */
   readonly cacheReserveEligibility?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#check_presence_cookie EsaCacheRule#check_presence_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#check_presence_cookie EsaCacheRule#check_presence_cookie}
   */
   readonly checkPresenceCookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#check_presence_header EsaCacheRule#check_presence_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#check_presence_header EsaCacheRule#check_presence_header}
   */
   readonly checkPresenceHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#edge_cache_mode EsaCacheRule#edge_cache_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#edge_cache_mode EsaCacheRule#edge_cache_mode}
   */
   readonly edgeCacheMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#edge_cache_ttl EsaCacheRule#edge_cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#edge_cache_ttl EsaCacheRule#edge_cache_ttl}
   */
   readonly edgeCacheTtl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#edge_status_code_cache_ttl EsaCacheRule#edge_status_code_cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#edge_status_code_cache_ttl EsaCacheRule#edge_status_code_cache_ttl}
   */
   readonly edgeStatusCodeCacheTtl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#id EsaCacheRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#id EsaCacheRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#include_cookie EsaCacheRule#include_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#include_cookie EsaCacheRule#include_cookie}
   */
   readonly includeCookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#include_header EsaCacheRule#include_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#include_header EsaCacheRule#include_header}
   */
   readonly includeHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#query_string EsaCacheRule#query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#query_string EsaCacheRule#query_string}
   */
   readonly queryString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#query_string_mode EsaCacheRule#query_string_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#query_string_mode EsaCacheRule#query_string_mode}
   */
   readonly queryStringMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#rule EsaCacheRule#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#rule EsaCacheRule#rule}
   */
   readonly rule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#rule_enable EsaCacheRule#rule_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#rule_enable EsaCacheRule#rule_enable}
   */
   readonly ruleEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#rule_name EsaCacheRule#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#rule_name EsaCacheRule#rule_name}
   */
   readonly ruleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#sequence EsaCacheRule#sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#sequence EsaCacheRule#sequence}
   */
   readonly sequence?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#serve_stale EsaCacheRule#serve_stale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#serve_stale EsaCacheRule#serve_stale}
   */
   readonly serveStale?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#site_id EsaCacheRule#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#site_id EsaCacheRule#site_id}
   */
   readonly siteId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#site_version EsaCacheRule#site_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#site_version EsaCacheRule#site_version}
   */
   readonly siteVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#sort_query_string_for_cache EsaCacheRule#sort_query_string_for_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#sort_query_string_for_cache EsaCacheRule#sort_query_string_for_cache}
   */
   readonly sortQueryStringForCache?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#user_device_type EsaCacheRule#user_device_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#user_device_type EsaCacheRule#user_device_type}
   */
   readonly userDeviceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#user_geo EsaCacheRule#user_geo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#user_geo EsaCacheRule#user_geo}
   */
   readonly userGeo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#user_language EsaCacheRule#user_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#user_language EsaCacheRule#user_language}
   */
   readonly userLanguage?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#timeouts EsaCacheRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#timeouts EsaCacheRule#timeouts}
   */
   readonly timeouts?: EsaCacheRuleTimeouts;
 }
 export interface EsaCacheRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#create EsaCacheRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#create EsaCacheRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#delete EsaCacheRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#delete EsaCacheRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#update EsaCacheRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#update EsaCacheRule#update}
   */
   readonly update?: string;
 }
@@ -287,7 +287,7 @@ export class EsaCacheRuleTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule alicloud_esa_cache_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule alicloud_esa_cache_rule}
 */
 export class EsaCacheRule extends cdktf.TerraformResource {
 
@@ -303,7 +303,7 @@ export class EsaCacheRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EsaCacheRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EsaCacheRule to import
-  * @param importFromId The id of the existing EsaCacheRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EsaCacheRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EsaCacheRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -315,7 +315,7 @@ export class EsaCacheRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_cache_rule alicloud_esa_cache_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_cache_rule alicloud_esa_cache_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -326,8 +326,8 @@ export class EsaCacheRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_esa_cache_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

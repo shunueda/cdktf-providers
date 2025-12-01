@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncSetV1ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#metadata DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#metadata DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#metadata}
   */
   readonly metadata: DataK8SHiveOpenshiftIoSelectorSyncSetV1ManifestMetadata;
   /**
   * SelectorSyncSetSpec defines the SyncSetCommonSpec resources and patches to sync along with a ClusterDeploymentSelector indicating which clusters the SelectorSyncSet applies to in any namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#spec DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#spec DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#spec}
   */
   readonly spec?: DataK8SHiveOpenshiftIoSelectorSyncSetV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncSetV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#annotations DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#annotations DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#labels DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#labels DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,19 +187,19 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncSetV1ManifestSpecClusterDeplo
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#key DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#key DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#operator DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#operator DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#values DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#values DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -369,13 +369,13 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncSetV1ManifestSpecClusterDeplo
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#match_expressions DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#match_expressions DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SHiveOpenshiftIoSelectorSyncSetV1ManifestSpecClusterDeploymentSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#match_labels DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#match_labels DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -500,37 +500,37 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncSetV1ManifestSpecPatches {
   /**
   * APIVersion is the Group and Version of the object to be patched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#api_version DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#api_version DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#api_version}
   */
   readonly apiVersion: string;
   /**
   * Kind is the Kind of the object to be patched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#kind DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#kind DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of the object to be patched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the Namespace in which the object to patch exists. Defaults to the SyncSet's Namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#namespace DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#namespace DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Patch is the patch to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#patch DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#patch DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#patch}
   */
   readonly patch: string;
   /**
   * PatchType indicates the PatchType as 'strategic' (default), 'json', or 'merge'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#patch_type DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#patch_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#patch_type DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#patch_type}
   */
   readonly patchType?: string;
 }
@@ -781,13 +781,13 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncSetV1ManifestSpecSecretMappin
   /**
   * Name is the name of the secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace where the secret lives. If not present for the source secret reference, it is assumed to be the same namespace as the syncset with the reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#namespace DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#namespace DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -909,13 +909,13 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncSetV1ManifestSpecSecretMappin
   /**
   * Name is the name of the secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#name DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace where the secret lives. If not present for the source secret reference, it is assumed to be the same namespace as the syncset with the reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#namespace DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#namespace DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1037,13 +1037,13 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncSetV1ManifestSpecSecretMappin
   /**
   * SourceRef specifies the name and namespace of a secret on the management cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#source_ref DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#source_ref DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#source_ref}
   */
   readonly sourceRef: DataK8SHiveOpenshiftIoSelectorSyncSetV1ManifestSpecSecretMappingsSourceRef;
   /**
   * TargetRef specifies the target name and namespace of the secret on the target cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#target_ref DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#target_ref DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#target_ref}
   */
   readonly targetRef: DataK8SHiveOpenshiftIoSelectorSyncSetV1ManifestSpecSecretMappingsTargetRef;
 }
@@ -1184,43 +1184,43 @@ export interface DataK8SHiveOpenshiftIoSelectorSyncSetV1ManifestSpec {
   /**
   * ApplyBehavior indicates how resources in this syncset will be applied to the target cluster. The default value of 'Apply' indicates that resources should be applied using the 'oc apply' command. If no value is set, 'Apply' is assumed. A value of 'CreateOnly' indicates that the resource will only be created if it does not already exist in the target cluster. Otherwise, it will be left alone. A value of 'CreateOrUpdate' indicates that the resource will be created/updated without the use of the 'oc apply' command, allowing larger resources to be synced, but losing some functionality of the 'oc apply' command such as the ability to remove annotations, labels, and other map entries in general.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#apply_behavior DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#apply_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#apply_behavior DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#apply_behavior}
   */
   readonly applyBehavior?: string;
   /**
   * ClusterDeploymentSelector is a LabelSelector indicating which clusters the SelectorSyncSet applies to in any namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#cluster_deployment_selector DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#cluster_deployment_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#cluster_deployment_selector DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#cluster_deployment_selector}
   */
   readonly clusterDeploymentSelector?: DataK8SHiveOpenshiftIoSelectorSyncSetV1ManifestSpecClusterDeploymentSelector;
   /**
   * EnableResourceTemplates, if True, causes hive to honor golang text/templates in Resources. While the standard syntax is supported, it won't do you a whole lot of good as the parser does not pass a data object (i.e. there is no 'dot' for you to use). This currently exists to expose a single function: {{ fromCDLabel 'some.label/key' }} will be substituted with the string value of ClusterDeployment.Labels['some.label/key']. The empty string is interpolated if there are no labels, or if the indicated key does not exist. Note that this only works in values (not e.g. map keys) that are of type string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#enable_resource_templates DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#enable_resource_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#enable_resource_templates DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#enable_resource_templates}
   */
   readonly enableResourceTemplates?: boolean | cdktf.IResolvable;
   /**
   * Patches is the list of patches to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#patches DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#patches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#patches DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#patches}
   */
   readonly patches?: DataK8SHiveOpenshiftIoSelectorSyncSetV1ManifestSpecPatches[] | cdktf.IResolvable;
   /**
   * ResourceApplyMode indicates if the Resource apply mode is 'Upsert' (default) or 'Sync'. ApplyMode 'Upsert' indicates create and update. ApplyMode 'Sync' indicates create, update and delete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#resource_apply_mode DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#resource_apply_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#resource_apply_mode DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#resource_apply_mode}
   */
   readonly resourceApplyMode?: string;
   /**
   * Resources is the list of objects to sync from RawExtension definitions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#resources DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#resources DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#resources}
   */
   readonly resources?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * Secrets is the list of secrets to sync along with their respective destinations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#secret_mappings DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#secret_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#secret_mappings DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest#secret_mappings}
   */
   readonly secretMappings?: DataK8SHiveOpenshiftIoSelectorSyncSetV1ManifestSpecSecretMappings[] | cdktf.IResolvable;
 }
@@ -1488,7 +1488,7 @@ export class DataK8SHiveOpenshiftIoSelectorSyncSetV1ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest k8s_hive_openshift_io_selector_sync_set_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest k8s_hive_openshift_io_selector_sync_set_v1_manifest}
 */
 export class DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest extends cdktf.TerraformDataSource {
 
@@ -1504,7 +1504,7 @@ export class DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest to import
-  * @param importFromId The id of the existing DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1516,7 +1516,7 @@ export class DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest k8s_hive_openshift_io_selector_sync_set_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/hive_openshift_io_selector_sync_set_v1_manifest k8s_hive_openshift_io_selector_sync_set_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1527,8 +1527,8 @@ export class DataK8SHiveOpenshiftIoSelectorSyncSetV1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_hive_openshift_io_selector_sync_set_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

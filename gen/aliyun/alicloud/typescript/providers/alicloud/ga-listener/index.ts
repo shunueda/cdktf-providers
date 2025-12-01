@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface GaListenerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#accelerator_id GaListener#accelerator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#accelerator_id GaListener#accelerator_id}
   */
   readonly acceleratorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#client_affinity GaListener#client_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#client_affinity GaListener#client_affinity}
   */
   readonly clientAffinity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#description GaListener#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#description GaListener#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#http_version GaListener#http_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#http_version GaListener#http_version}
   */
   readonly httpVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#id GaListener#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#id GaListener#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#idle_timeout GaListener#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#idle_timeout GaListener#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#listener_type GaListener#listener_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#listener_type GaListener#listener_type}
   */
   readonly listenerType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#name GaListener#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#name GaListener#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#protocol GaListener#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#protocol GaListener#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#proxy_protocol GaListener#proxy_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#proxy_protocol GaListener#proxy_protocol}
   */
   readonly proxyProtocol?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#request_timeout GaListener#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#request_timeout GaListener#request_timeout}
   */
   readonly requestTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#security_policy_id GaListener#security_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#security_policy_id GaListener#security_policy_id}
   */
   readonly securityPolicyId?: string;
   /**
   * certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#certificates GaListener#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#certificates GaListener#certificates}
   */
   readonly certificates?: GaListenerCertificates[] | cdktf.IResolvable;
   /**
   * forwarded_for_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#forwarded_for_config GaListener#forwarded_for_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#forwarded_for_config GaListener#forwarded_for_config}
   */
   readonly forwardedForConfig?: GaListenerForwardedForConfig;
   /**
   * port_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#port_ranges GaListener#port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#port_ranges GaListener#port_ranges}
   */
   readonly portRanges: GaListenerPortRanges[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#timeouts GaListener#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#timeouts GaListener#timeouts}
   */
   readonly timeouts?: GaListenerTimeouts;
 }
 export interface GaListenerCertificates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#id GaListener#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#id GaListener#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -204,23 +204,23 @@ export class GaListenerCertificatesList extends cdktf.ComplexList {
 }
 export interface GaListenerForwardedForConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#forwarded_for_ga_ap_enabled GaListener#forwarded_for_ga_ap_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#forwarded_for_ga_ap_enabled GaListener#forwarded_for_ga_ap_enabled}
   */
   readonly forwardedForGaApEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#forwarded_for_ga_id_enabled GaListener#forwarded_for_ga_id_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#forwarded_for_ga_id_enabled GaListener#forwarded_for_ga_id_enabled}
   */
   readonly forwardedForGaIdEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#forwarded_for_port_enabled GaListener#forwarded_for_port_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#forwarded_for_port_enabled GaListener#forwarded_for_port_enabled}
   */
   readonly forwardedForPortEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#forwarded_for_proto_enabled GaListener#forwarded_for_proto_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#forwarded_for_proto_enabled GaListener#forwarded_for_proto_enabled}
   */
   readonly forwardedForProtoEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#real_ip_enabled GaListener#real_ip_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#real_ip_enabled GaListener#real_ip_enabled}
   */
   readonly realIpEnabled?: boolean | cdktf.IResolvable;
 }
@@ -420,11 +420,11 @@ export class GaListenerForwardedForConfigOutputReference extends cdktf.ComplexOb
 }
 export interface GaListenerPortRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#from_port GaListener#from_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#from_port GaListener#from_port}
   */
   readonly fromPort: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#to_port GaListener#to_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#to_port GaListener#to_port}
   */
   readonly toPort: number;
 }
@@ -563,15 +563,15 @@ export class GaListenerPortRangesList extends cdktf.ComplexList {
 }
 export interface GaListenerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#create GaListener#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#create GaListener#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#delete GaListener#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#delete GaListener#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#update GaListener#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#update GaListener#update}
   */
   readonly update?: string;
 }
@@ -723,7 +723,7 @@ export class GaListenerTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener alicloud_ga_listener}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener alicloud_ga_listener}
 */
 export class GaListener extends cdktf.TerraformResource {
 
@@ -739,7 +739,7 @@ export class GaListener extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GaListener resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GaListener to import
-  * @param importFromId The id of the existing GaListener that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GaListener that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GaListener to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -751,7 +751,7 @@ export class GaListener extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ga_listener alicloud_ga_listener} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ga_listener alicloud_ga_listener} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -762,8 +762,8 @@ export class GaListener extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ga_listener',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

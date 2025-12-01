@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface PvtzRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_rule#endpoint_id PvtzRule#endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_rule#endpoint_id PvtzRule#endpoint_id}
   */
   readonly endpointId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_rule#id PvtzRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_rule#id PvtzRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_rule#rule_name PvtzRule#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_rule#rule_name PvtzRule#rule_name}
   */
   readonly ruleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_rule#type PvtzRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_rule#type PvtzRule#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_rule#zone_name PvtzRule#zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_rule#zone_name PvtzRule#zone_name}
   */
   readonly zoneName: string;
   /**
   * forward_ips block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_rule#forward_ips PvtzRule#forward_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_rule#forward_ips PvtzRule#forward_ips}
   */
   readonly forwardIps: PvtzRuleForwardIps[] | cdktf.IResolvable;
 }
 export interface PvtzRuleForwardIps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_rule#ip PvtzRule#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_rule#ip PvtzRule#ip}
   */
   readonly ip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_rule#port PvtzRule#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_rule#port PvtzRule#port}
   */
   readonly port: number;
 }
@@ -182,7 +182,7 @@ export class PvtzRuleForwardIpsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_rule alicloud_pvtz_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_rule alicloud_pvtz_rule}
 */
 export class PvtzRule extends cdktf.TerraformResource {
 
@@ -198,7 +198,7 @@ export class PvtzRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PvtzRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PvtzRule to import
-  * @param importFromId The id of the existing PvtzRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PvtzRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PvtzRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -210,7 +210,7 @@ export class PvtzRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_rule alicloud_pvtz_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_rule alicloud_pvtz_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -221,8 +221,8 @@ export class PvtzRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_pvtz_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

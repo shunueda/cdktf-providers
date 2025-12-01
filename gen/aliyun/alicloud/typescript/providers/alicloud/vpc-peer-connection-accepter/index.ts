@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_peer_connection_accepter
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_peer_connection_accepter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface VpcPeerConnectionAccepterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_peer_connection_accepter#bandwidth VpcPeerConnectionAccepter#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_peer_connection_accepter#bandwidth VpcPeerConnectionAccepter#bandwidth}
   */
   readonly bandwidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_peer_connection_accepter#description VpcPeerConnectionAccepter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_peer_connection_accepter#description VpcPeerConnectionAccepter#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_peer_connection_accepter#dry_run VpcPeerConnectionAccepter#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_peer_connection_accepter#dry_run VpcPeerConnectionAccepter#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_peer_connection_accepter#force_delete VpcPeerConnectionAccepter#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_peer_connection_accepter#force_delete VpcPeerConnectionAccepter#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_peer_connection_accepter#id VpcPeerConnectionAccepter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_peer_connection_accepter#id VpcPeerConnectionAccepter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_peer_connection_accepter#instance_id VpcPeerConnectionAccepter#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_peer_connection_accepter#instance_id VpcPeerConnectionAccepter#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_peer_connection_accepter#link_type VpcPeerConnectionAccepter#link_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_peer_connection_accepter#link_type VpcPeerConnectionAccepter#link_type}
   */
   readonly linkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_peer_connection_accepter#peer_connection_accepter_name VpcPeerConnectionAccepter#peer_connection_accepter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_peer_connection_accepter#peer_connection_accepter_name VpcPeerConnectionAccepter#peer_connection_accepter_name}
   */
   readonly peerConnectionAccepterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_peer_connection_accepter#resource_group_id VpcPeerConnectionAccepter#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_peer_connection_accepter#resource_group_id VpcPeerConnectionAccepter#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_peer_connection_accepter#timeouts VpcPeerConnectionAccepter#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_peer_connection_accepter#timeouts VpcPeerConnectionAccepter#timeouts}
   */
   readonly timeouts?: VpcPeerConnectionAccepterTimeouts;
 }
 export interface VpcPeerConnectionAccepterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_peer_connection_accepter#create VpcPeerConnectionAccepter#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_peer_connection_accepter#create VpcPeerConnectionAccepter#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_peer_connection_accepter#delete VpcPeerConnectionAccepter#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_peer_connection_accepter#delete VpcPeerConnectionAccepter#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_peer_connection_accepter#update VpcPeerConnectionAccepter#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_peer_connection_accepter#update VpcPeerConnectionAccepter#update}
   */
   readonly update?: string;
 }
@@ -215,7 +215,7 @@ export class VpcPeerConnectionAccepterTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_peer_connection_accepter alicloud_vpc_peer_connection_accepter}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_peer_connection_accepter alicloud_vpc_peer_connection_accepter}
 */
 export class VpcPeerConnectionAccepter extends cdktf.TerraformResource {
 
@@ -231,7 +231,7 @@ export class VpcPeerConnectionAccepter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpcPeerConnectionAccepter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpcPeerConnectionAccepter to import
-  * @param importFromId The id of the existing VpcPeerConnectionAccepter that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_peer_connection_accepter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpcPeerConnectionAccepter that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_peer_connection_accepter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpcPeerConnectionAccepter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -243,7 +243,7 @@ export class VpcPeerConnectionAccepter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/vpc_peer_connection_accepter alicloud_vpc_peer_connection_accepter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/vpc_peer_connection_accepter alicloud_vpc_peer_connection_accepter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -254,8 +254,8 @@ export class VpcPeerConnectionAccepter extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_vpc_peer_connection_accepter',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

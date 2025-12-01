@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1ManifestConfig 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#metadata DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#metadata DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#spec DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#spec DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1ManifestMetadat
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#annotations DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#annotations DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#labels DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#labels DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#name DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#name DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#namespace DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#namespace DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -215,15 +215,15 @@ export class DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1ManifestMetadataOut
 }
 export interface DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1ManifestSpecDispatchDuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#expected DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#expected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#expected DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#expected}
   */
   readonly expected?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#limit DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#limit DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#limit}
   */
   readonly limit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#overrun DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#overrun}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#overrun DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#overrun}
   */
   readonly overrun?: boolean | cdktf.IResolvable;
 }
@@ -377,37 +377,37 @@ export interface DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1ManifestSpecReq
   /**
   * Growth strategy to increase the waiting time between requeuing checks. The values available are 'exponential', 'linear', or 'none'. For example, 'exponential' growth would double the 'timeInSeconds' value every time a requeuing event is triggered. If the string value is misspelled or not one of the possible options, the growth behavior is defaulted to 'none'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#growth_type DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#growth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#growth_type DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#growth_type}
   */
   readonly growthType?: string;
   /**
   * Value to keep track of the initial wait time. Users cannot set this as it is taken from 'timeInSeconds'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#initial_time_in_seconds DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#initial_time_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#initial_time_in_seconds DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#initial_time_in_seconds}
   */
   readonly initialTimeInSeconds?: number;
   /**
   * Maximum number of requeuing events allowed. Once this value is reached (e.g., 'numRequeuings = maxNumRequeuings', no more requeuing checks are performed and the generic items are stopped and removed from the cluster (AppWrapper remains deployed).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#max_num_requeuings DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#max_num_requeuings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#max_num_requeuings DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#max_num_requeuings}
   */
   readonly maxNumRequeuings?: number;
   /**
   * Maximum waiting time for requeuing checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#max_time_in_seconds DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#max_time_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#max_time_in_seconds DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#max_time_in_seconds}
   */
   readonly maxTimeInSeconds?: number;
   /**
   * Field to keep track of how many times a requeuing event has been triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#num_requeuings DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#num_requeuings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#num_requeuings DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#num_requeuings}
   */
   readonly numRequeuings?: number;
   /**
   * Initial waiting time before requeuing conditions are checked. This value is specified by the user, but it may grow as requeuing events happen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#time_in_seconds DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#time_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#time_in_seconds DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#time_in_seconds}
   */
   readonly timeInSeconds?: number;
 }
@@ -648,23 +648,23 @@ export interface DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1ManifestSpec {
   /**
   * Wall clock duration time of appwrapper in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#dispatch_duration DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#dispatch_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#dispatch_duration DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#dispatch_duration}
   */
   readonly dispatchDuration?: DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1ManifestSpecDispatchDuration;
   /**
   * Expected number of pods in running and/or completed state. Requeuing is triggered when the number of running/completed pods is not equal to this value. When not specified, requeuing is disabled and no check is performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#min_available DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#min_available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#min_available DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#min_available}
   */
   readonly minAvailable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#node_selector DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#node_selector DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Specification of the requeuing strategy based on waiting time. Values in this field control how often the pod check should happen, and if requeuing has reached its maximum number of times.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#requeuing DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#requeuing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#requeuing DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest#requeuing}
   */
   readonly requeuing?: DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1ManifestSpecRequeuing;
 }
@@ -845,7 +845,7 @@ export class DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1ManifestSpecOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest k8s_workload_codeflare_dev_scheduling_spec_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest k8s_workload_codeflare_dev_scheduling_spec_v1beta1_manifest}
 */
 export class DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -861,7 +861,7 @@ export class DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest extends cd
   * Generates CDKTF code for importing a DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -873,7 +873,7 @@ export class DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest k8s_workload_codeflare_dev_scheduling_spec_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/workload_codeflare_dev_scheduling_spec_v1beta1_manifest k8s_workload_codeflare_dev_scheduling_spec_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -884,8 +884,8 @@ export class DataK8SWorkloadCodeflareDevSchedulingSpecV1Beta1Manifest extends cd
       terraformResourceType: 'k8s_workload_codeflare_dev_scheduling_spec_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

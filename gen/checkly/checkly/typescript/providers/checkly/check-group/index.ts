@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group
+// https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface CheckGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Determines if the checks in the group are running or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#activated CheckGroup#activated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#activated CheckGroup#activated}
   */
   readonly activated: boolean | cdktf.IResolvable;
   /**
   * Determines how many checks are run concurrently when triggering a check group from CI/CD or through the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#concurrency CheckGroup#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#concurrency CheckGroup#concurrency}
   */
   readonly concurrency: number;
   /**
   * Setting this to `true` will trigger a retry when a check fails from the failing region and another, randomly selected region before marking the check as failed. (Default `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#double_check CheckGroup#double_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#double_check CheckGroup#double_check}
   */
   readonly doubleCheck?: boolean | cdktf.IResolvable;
   /**
   * Key/value pairs for setting environment variables during check execution. These are only relevant for browser checks. Use global environment variables whenever possible.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#environment_variables CheckGroup#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#environment_variables CheckGroup#environment_variables}
   */
   readonly environmentVariables?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#id CheckGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#id CheckGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,113 +41,113 @@ export interface CheckGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * A valid piece of Node.js code to run in the setup phase of an API check in this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#local_setup_script CheckGroup#local_setup_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#local_setup_script CheckGroup#local_setup_script}
   */
   readonly localSetupScript?: string;
   /**
   * A valid piece of Node.js code to run in the teardown phase of an API check in this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#local_teardown_script CheckGroup#local_teardown_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#local_teardown_script CheckGroup#local_teardown_script}
   */
   readonly localTeardownScript?: string;
   /**
   * An array of one or more data center locations where to run the checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#locations CheckGroup#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#locations CheckGroup#locations}
   */
   readonly locations?: string[];
   /**
   * Determines if any notifications will be sent out when a check in this group fails and/or recovers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#muted CheckGroup#muted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#muted CheckGroup#muted}
   */
   readonly muted?: boolean | cdktf.IResolvable;
   /**
   * The name of the check group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#name CheckGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#name CheckGroup#name}
   */
   readonly name: string;
   /**
   * An array of one or more private locations slugs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#private_locations CheckGroup#private_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#private_locations CheckGroup#private_locations}
   */
   readonly privateLocations?: string[];
   /**
   * Determines if the checks in the group should run in all selected locations in parallel or round-robin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#run_parallel CheckGroup#run_parallel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#run_parallel CheckGroup#run_parallel}
   */
   readonly runParallel?: boolean | cdktf.IResolvable;
   /**
   * The id of the runtime to use for this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#runtime_id CheckGroup#runtime_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#runtime_id CheckGroup#runtime_id}
   */
   readonly runtimeId?: string;
   /**
   * An ID reference to a snippet to use in the setup phase of an API check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#setup_snippet_id CheckGroup#setup_snippet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#setup_snippet_id CheckGroup#setup_snippet_id}
   */
   readonly setupSnippetId?: number;
   /**
   * Tags for organizing and filtering checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#tags CheckGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#tags CheckGroup#tags}
   */
   readonly tags?: string[];
   /**
   * An ID reference to a snippet to use in the teardown phase of an API check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#teardown_snippet_id CheckGroup#teardown_snippet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#teardown_snippet_id CheckGroup#teardown_snippet_id}
   */
   readonly teardownSnippetId?: number;
   /**
   * When true, the account level alert settings will be used, not the alert setting defined on this check group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#use_global_alert_settings CheckGroup#use_global_alert_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#use_global_alert_settings CheckGroup#use_global_alert_settings}
   */
   readonly useGlobalAlertSettings?: boolean | cdktf.IResolvable;
   /**
   * alert_channel_subscription block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#alert_channel_subscription CheckGroup#alert_channel_subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#alert_channel_subscription CheckGroup#alert_channel_subscription}
   */
   readonly alertChannelSubscription?: CheckGroupAlertChannelSubscription[] | cdktf.IResolvable;
   /**
   * alert_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#alert_settings CheckGroup#alert_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#alert_settings CheckGroup#alert_settings}
   */
   readonly alertSettings?: CheckGroupAlertSettings;
   /**
   * api_check_defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#api_check_defaults CheckGroup#api_check_defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#api_check_defaults CheckGroup#api_check_defaults}
   */
   readonly apiCheckDefaults?: CheckGroupApiCheckDefaults;
   /**
   * environment_variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#environment_variable CheckGroup#environment_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#environment_variable CheckGroup#environment_variable}
   */
   readonly environmentVariable?: CheckGroupEnvironmentVariable[] | cdktf.IResolvable;
   /**
   * retry_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#retry_strategy CheckGroup#retry_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#retry_strategy CheckGroup#retry_strategy}
   */
   readonly retryStrategy?: CheckGroupRetryStrategy;
 }
 export interface CheckGroupAlertChannelSubscription {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#activated CheckGroup#activated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#activated CheckGroup#activated}
   */
   readonly activated: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#channel_id CheckGroup#channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#channel_id CheckGroup#channel_id}
   */
   readonly channelId: number;
 }
@@ -288,13 +288,13 @@ export interface CheckGroupAlertSettingsParallelRunFailureThreshold {
   /**
   * Whether parallel run failure threshold is enabled. Only applies if the check is scheduled for multiple locations in parallel. (Default `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#enabled CheckGroup#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#enabled CheckGroup#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Percentage of runs that must fail to trigger alert. Possible values are `10`, `20`, `30`, `40`, `50`, `60`, `70`, `80`, `90`, and `100`. (Default `10`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#percentage CheckGroup#percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#percentage CheckGroup#percentage}
   */
   readonly percentage?: number;
 }
@@ -441,13 +441,13 @@ export interface CheckGroupAlertSettingsReminders {
   /**
   * Number of reminder notifications to send. Possible values are `0`, `1`, `2`, `3`, `4`, `5`, and `100000` (`0` to disable, `100000` for unlimited). (Default `0`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#amount CheckGroup#amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#amount CheckGroup#amount}
   */
   readonly amount?: number;
   /**
   * Interval between reminder notifications in minutes. Possible values are `5`, `10`, `15`, and `30`. (Default `5`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#interval CheckGroup#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#interval CheckGroup#interval}
   */
   readonly interval?: number;
 }
@@ -594,7 +594,7 @@ export interface CheckGroupAlertSettingsRunBasedEscalation {
   /**
   * Send an alert notification after the given number of consecutive check runs have failed. Possible values are between `1` and `5`. (Default `1`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#failed_run_threshold CheckGroup#failed_run_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#failed_run_threshold CheckGroup#failed_run_threshold}
   */
   readonly failedRunThreshold?: number;
 }
@@ -712,13 +712,13 @@ export interface CheckGroupAlertSettingsSslCertificates {
   /**
   * No longer available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#alert_threshold CheckGroup#alert_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#alert_threshold CheckGroup#alert_threshold}
   */
   readonly alertThreshold?: number;
   /**
   * No longer available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#enabled CheckGroup#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#enabled CheckGroup#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -865,7 +865,7 @@ export interface CheckGroupAlertSettingsTimeBasedEscalation {
   /**
   * Send an alert notification after the check has been failing for the given amount of time (in minutes). Possible values are `5`, `10`, `15`, and `30`. (Default `5`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#minutes_failing_threshold CheckGroup#minutes_failing_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#minutes_failing_threshold CheckGroup#minutes_failing_threshold}
   */
   readonly minutesFailingThreshold?: number;
 }
@@ -983,37 +983,37 @@ export interface CheckGroupAlertSettings {
   /**
   * Determines the type of escalation to use. Possible values are `RUN_BASED` and `TIME_BASED`. (Default `RUN_BASED`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#escalation_type CheckGroup#escalation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#escalation_type CheckGroup#escalation_type}
   */
   readonly escalationType?: string;
   /**
   * parallel_run_failure_threshold block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#parallel_run_failure_threshold CheckGroup#parallel_run_failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#parallel_run_failure_threshold CheckGroup#parallel_run_failure_threshold}
   */
   readonly parallelRunFailureThreshold?: CheckGroupAlertSettingsParallelRunFailureThreshold[] | cdktf.IResolvable;
   /**
   * reminders block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#reminders CheckGroup#reminders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#reminders CheckGroup#reminders}
   */
   readonly reminders?: CheckGroupAlertSettingsReminders[] | cdktf.IResolvable;
   /**
   * run_based_escalation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#run_based_escalation CheckGroup#run_based_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#run_based_escalation CheckGroup#run_based_escalation}
   */
   readonly runBasedEscalation?: CheckGroupAlertSettingsRunBasedEscalation[] | cdktf.IResolvable;
   /**
   * ssl_certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#ssl_certificates CheckGroup#ssl_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#ssl_certificates CheckGroup#ssl_certificates}
   */
   readonly sslCertificates?: CheckGroupAlertSettingsSslCertificates[] | cdktf.IResolvable;
   /**
   * time_based_escalation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#time_based_escalation CheckGroup#time_based_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#time_based_escalation CheckGroup#time_based_escalation}
   */
   readonly timeBasedEscalation?: CheckGroupAlertSettingsTimeBasedEscalation[] | cdktf.IResolvable;
 }
@@ -1244,21 +1244,21 @@ export interface CheckGroupApiCheckDefaultsAssertion {
   /**
   * The type of comparison to be executed between expected and actual value of the assertion. Possible values `EQUALS`, `NOT_EQUALS`, `HAS_KEY`, `NOT_HAS_KEY`, `HAS_VALUE`, `NOT_HAS_VALUE`, `IS_EMPTY`, `NOT_EMPTY`, `GREATER_THAN`, `LESS_THAN`, `CONTAINS`, `NOT_CONTAINS`, `IS_NULL`, and `NOT_NULL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#comparison CheckGroup#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#comparison CheckGroup#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#property CheckGroup#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#property CheckGroup#property}
   */
   readonly property?: string;
   /**
   * The source of the asserted value. Possible values `STATUS_CODE`, `JSON_BODY`, `HEADERS`, `TEXT_BODY`, and `RESPONSE_TIME`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#source CheckGroup#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#source CheckGroup#source}
   */
   readonly source: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#target CheckGroup#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#target CheckGroup#target}
   */
   readonly target: string;
 }
@@ -1452,11 +1452,11 @@ export class CheckGroupApiCheckDefaultsAssertionList extends cdktf.ComplexList {
 }
 export interface CheckGroupApiCheckDefaultsBasicAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#password CheckGroup#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#password CheckGroup#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#username CheckGroup#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#username CheckGroup#username}
   */
   readonly username: string;
 }
@@ -1563,29 +1563,29 @@ export class CheckGroupApiCheckDefaultsBasicAuthOutputReference extends cdktf.Co
 }
 export interface CheckGroupApiCheckDefaults {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#headers CheckGroup#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#headers CheckGroup#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#query_parameters CheckGroup#query_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#query_parameters CheckGroup#query_parameters}
   */
   readonly queryParameters?: { [key: string]: string };
   /**
   * The base url for this group which you can reference with the `GROUP_BASE_URL` variable in all group checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#url CheckGroup#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#url CheckGroup#url}
   */
   readonly url: string;
   /**
   * assertion block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#assertion CheckGroup#assertion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#assertion CheckGroup#assertion}
   */
   readonly assertion?: CheckGroupApiCheckDefaultsAssertion[] | cdktf.IResolvable;
   /**
   * basic_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#basic_auth CheckGroup#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#basic_auth CheckGroup#basic_auth}
   */
   readonly basicAuth?: CheckGroupApiCheckDefaultsBasicAuth;
 }
@@ -1782,19 +1782,19 @@ export class CheckGroupApiCheckDefaultsOutputReference extends cdktf.ComplexObje
 }
 export interface CheckGroupEnvironmentVariable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#key CheckGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#key CheckGroup#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#locked CheckGroup#locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#locked CheckGroup#locked}
   */
   readonly locked?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#secret CheckGroup#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#secret CheckGroup#secret}
   */
   readonly secret?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#value CheckGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#value CheckGroup#value}
   */
   readonly value: string;
 }
@@ -1993,7 +1993,7 @@ export interface CheckGroupRetryStrategyOnlyOn {
   /**
   * When `true`, retry only if the cause of the failure is a network error. (Default `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#network_error CheckGroup#network_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#network_error CheckGroup#network_error}
   */
   readonly networkError?: boolean | cdktf.IResolvable;
 }
@@ -2079,37 +2079,37 @@ export interface CheckGroupRetryStrategy {
   /**
   * The number of seconds to wait before the first retry attempt. (Default `60`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#base_backoff_seconds CheckGroup#base_backoff_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#base_backoff_seconds CheckGroup#base_backoff_seconds}
   */
   readonly baseBackoffSeconds?: number;
   /**
   * The total amount of time to continue retrying the check/monitor (maximum 600 seconds). Available when `type` is `FIXED`, `LINEAR`, or `EXPONENTIAL`. (Default `600`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#max_duration_seconds CheckGroup#max_duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#max_duration_seconds CheckGroup#max_duration_seconds}
   */
   readonly maxDurationSeconds?: number;
   /**
   * The maximum number of times to retry the check/monitor. Value must be between `1` and `10`. Available when `type` is `FIXED`, `LINEAR`, or `EXPONENTIAL`. (Default `2`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#max_retries CheckGroup#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#max_retries CheckGroup#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Whether retries should be run in the same region as the initial check/monitor run. (Default `true`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#same_region CheckGroup#same_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#same_region CheckGroup#same_region}
   */
   readonly sameRegion?: boolean | cdktf.IResolvable;
   /**
   * Determines which type of retry strategy to use. Possible values are `FIXED`, `LINEAR`, `EXPONENTIAL`, `SINGLE_RETRY`, and `NO_RETRIES`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#type CheckGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#type CheckGroup#type}
   */
   readonly type: string;
   /**
   * only_on block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#only_on CheckGroup#only_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#only_on CheckGroup#only_on}
   */
   readonly onlyOn?: CheckGroupRetryStrategyOnlyOn;
 }
@@ -2335,7 +2335,7 @@ export class CheckGroupRetryStrategyOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group checkly_check_group}
+* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group checkly_check_group}
 */
 export class CheckGroup extends cdktf.TerraformResource {
 
@@ -2351,7 +2351,7 @@ export class CheckGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckGroup to import
-  * @param importFromId The id of the existing CheckGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2363,7 +2363,7 @@ export class CheckGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/check_group checkly_check_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/check_group checkly_check_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2374,8 +2374,8 @@ export class CheckGroup extends cdktf.TerraformResource {
       terraformResourceType: 'checkly_check_group',
       terraformGeneratorMetadata: {
         providerName: 'checkly',
-        providerVersion: '1.16.0',
-        providerVersionConstraint: '1.16.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

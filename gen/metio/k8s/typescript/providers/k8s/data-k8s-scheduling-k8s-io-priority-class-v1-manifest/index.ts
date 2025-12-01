@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_k8s_io_priority_class_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_k8s_io_priority_class_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataK8SSchedulingK8SIoPriorityClassV1ManifestConfig extends cdk
   /**
   * description is an arbitrary string that usually provides guidelines on when this priority class should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_k8s_io_priority_class_v1_manifest#description DataK8SSchedulingK8SIoPriorityClassV1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_k8s_io_priority_class_v1_manifest#description DataK8SSchedulingK8SIoPriorityClassV1Manifest#description}
   */
   readonly description?: string;
   /**
   * globalDefault specifies whether this PriorityClass should be considered as the default priority for pods that do not have any priority class. Only one PriorityClass can be marked as 'globalDefault'. However, if more than one PriorityClasses exists with their 'globalDefault' field set to true, the smallest value of such global default PriorityClasses will be used as the default priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_k8s_io_priority_class_v1_manifest#global_default DataK8SSchedulingK8SIoPriorityClassV1Manifest#global_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_k8s_io_priority_class_v1_manifest#global_default DataK8SSchedulingK8SIoPriorityClassV1Manifest#global_default}
   */
   readonly globalDefault?: boolean | cdktf.IResolvable;
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_k8s_io_priority_class_v1_manifest#metadata DataK8SSchedulingK8SIoPriorityClassV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_k8s_io_priority_class_v1_manifest#metadata DataK8SSchedulingK8SIoPriorityClassV1Manifest#metadata}
   */
   readonly metadata: DataK8SSchedulingK8SIoPriorityClassV1ManifestMetadata;
   /**
   * preemptionPolicy is the Policy for preempting pods with lower priority. One of Never, PreemptLowerPriority. Defaults to PreemptLowerPriority if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_k8s_io_priority_class_v1_manifest#preemption_policy DataK8SSchedulingK8SIoPriorityClassV1Manifest#preemption_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_k8s_io_priority_class_v1_manifest#preemption_policy DataK8SSchedulingK8SIoPriorityClassV1Manifest#preemption_policy}
   */
   readonly preemptionPolicy?: string;
   /**
   * value represents the integer value of this priority class. This is the actual priority that pods receive when they have the name of this class in their pod spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_k8s_io_priority_class_v1_manifest#value DataK8SSchedulingK8SIoPriorityClassV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_k8s_io_priority_class_v1_manifest#value DataK8SSchedulingK8SIoPriorityClassV1Manifest#value}
   */
   readonly value: number;
 }
@@ -42,19 +42,19 @@ export interface DataK8SSchedulingK8SIoPriorityClassV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_k8s_io_priority_class_v1_manifest#annotations DataK8SSchedulingK8SIoPriorityClassV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_k8s_io_priority_class_v1_manifest#annotations DataK8SSchedulingK8SIoPriorityClassV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_k8s_io_priority_class_v1_manifest#labels DataK8SSchedulingK8SIoPriorityClassV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_k8s_io_priority_class_v1_manifest#labels DataK8SSchedulingK8SIoPriorityClassV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_k8s_io_priority_class_v1_manifest#name DataK8SSchedulingK8SIoPriorityClassV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_k8s_io_priority_class_v1_manifest#name DataK8SSchedulingK8SIoPriorityClassV1Manifest#name}
   */
   readonly name: string;
 }
@@ -203,7 +203,7 @@ export class DataK8SSchedulingK8SIoPriorityClassV1ManifestMetadataOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_k8s_io_priority_class_v1_manifest k8s_scheduling_k8s_io_priority_class_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_k8s_io_priority_class_v1_manifest k8s_scheduling_k8s_io_priority_class_v1_manifest}
 */
 export class DataK8SSchedulingK8SIoPriorityClassV1Manifest extends cdktf.TerraformDataSource {
 
@@ -219,7 +219,7 @@ export class DataK8SSchedulingK8SIoPriorityClassV1Manifest extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataK8SSchedulingK8SIoPriorityClassV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSchedulingK8SIoPriorityClassV1Manifest to import
-  * @param importFromId The id of the existing DataK8SSchedulingK8SIoPriorityClassV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_k8s_io_priority_class_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSchedulingK8SIoPriorityClassV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_k8s_io_priority_class_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSchedulingK8SIoPriorityClassV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class DataK8SSchedulingK8SIoPriorityClassV1Manifest extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_k8s_io_priority_class_v1_manifest k8s_scheduling_k8s_io_priority_class_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_k8s_io_priority_class_v1_manifest k8s_scheduling_k8s_io_priority_class_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class DataK8SSchedulingK8SIoPriorityClassV1Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_scheduling_k8s_io_priority_class_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

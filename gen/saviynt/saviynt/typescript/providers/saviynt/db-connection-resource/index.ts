@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,271 +10,271 @@ export interface DbConnectionResourceConfig extends cdktf.TerraformMetaArguments
   /**
   * JSON to specify the query used to check whether an account exists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#account_exists_json DbConnectionResource#account_exists_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#account_exists_json DbConnectionResource#account_exists_json}
   */
   readonly accountExistsJson?: string;
   /**
   * Accounts Import XML file content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#accounts_import DbConnectionResource#accounts_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#accounts_import DbConnectionResource#accounts_import}
   */
   readonly accountsImport?: string;
   /**
   * JSON to specify the queries/stored procedures used to change a password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#change_pass_json DbConnectionResource#change_pass_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#change_pass_json DbConnectionResource#change_pass_json}
   */
   readonly changePassJson?: string;
   /**
   * JSON to specify the queries/stored procedures used to change a password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#change_pass_json_wo DbConnectionResource#change_pass_json_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#change_pass_json_wo DbConnectionResource#change_pass_json_wo}
   */
   readonly changePassJsonWo?: string;
   /**
   * JSON to specify commands executable on the target server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#cli_command_json DbConnectionResource#cli_command_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#cli_command_json DbConnectionResource#cli_command_json}
   */
   readonly cliCommandJson?: string;
   /**
   * Name of the connection. Example: "Active Directory_Doc"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#connection_name DbConnectionResource#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#connection_name DbConnectionResource#connection_name}
   */
   readonly connectionName: string;
   /**
   * Properties that need to be added when connecting to the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#connection_properties DbConnectionResource#connection_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#connection_properties DbConnectionResource#connection_properties}
   */
   readonly connectionProperties?: string;
   /**
   * JSON to specify the queries/stored procedures used to create a new account (e.g., randomPassword, task, user, accountName, role, endpoint, etc.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#create_account_json DbConnectionResource#create_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#create_account_json DbConnectionResource#create_account_json}
   */
   readonly createAccountJson?: string;
   /**
   *  JSON to specify the Queries/stored procedures which will be used to Create the New Entitlements. Objects Exposed - (entitlementMgmtObj, task, user, endpoint and all the objects defined in Dynamic Attributes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#create_entitlement_json DbConnectionResource#create_entitlement_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#create_entitlement_json DbConnectionResource#create_entitlement_json}
   */
   readonly createEntitlementJson?: string;
   /**
   * Default SAV roles for managing the connection. Example: "ROLE_ORG"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#defaultsavroles DbConnectionResource#defaultsavroles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#defaultsavroles DbConnectionResource#defaultsavroles}
   */
   readonly defaultsavroles?: string;
   /**
   * JSON to specify the queries/stored procedures used to delete an account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#delete_account_json DbConnectionResource#delete_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#delete_account_json DbConnectionResource#delete_account_json}
   */
   readonly deleteAccountJson?: string;
   /**
   *  JSON to specify the Queries/stored procedures which will be used to Delete the Entitlements. Objects Exposed - (entitlementMgmtObj, task, user, endpoint and all the objects defined in Dynamic Attributes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#delete_entitlement_json DbConnectionResource#delete_entitlement_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#delete_entitlement_json DbConnectionResource#delete_entitlement_json}
   */
   readonly deleteEntitlementJson?: string;
   /**
   * Description for the connection. Example: "ORG_AD"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#description DbConnectionResource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#description DbConnectionResource#description}
   */
   readonly description?: string;
   /**
   * JSON to specify the queries/stored procedures used to disable an account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#disable_account_json DbConnectionResource#disable_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#disable_account_json DbConnectionResource#disable_account_json}
   */
   readonly disableAccountJson?: string;
   /**
   * Driver name for the connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#driver_name DbConnectionResource#driver_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#driver_name DbConnectionResource#driver_name}
   */
   readonly driverName: string;
   /**
   * Email template for notifications. Example: "New Account Task Creation"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#email_template DbConnectionResource#email_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#email_template DbConnectionResource#email_template}
   */
   readonly emailTemplate?: string;
   /**
   * JSON to specify the queries/stored procedures used to enable an account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#enable_account_json DbConnectionResource#enable_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#enable_account_json DbConnectionResource#enable_account_json}
   */
   readonly enableAccountJson?: string;
   /**
   * JSON to specify the Query which will be used to check whether an entitlement exists. Objects Exposed - (entitlementMgmtObj, task, user, endpoint and all the objects defined in Dynamic Attributes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#entitlement_exist_json DbConnectionResource#entitlement_exist_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#entitlement_exist_json DbConnectionResource#entitlement_exist_json}
   */
   readonly entitlementExistJson?: string;
   /**
   * Entitlement Value Import XML file content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#entitlement_value_import DbConnectionResource#entitlement_value_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#entitlement_value_import DbConnectionResource#entitlement_value_import}
   */
   readonly entitlementValueImport?: string;
   /**
   * JSON to specify the queries/stored procedures used to provide access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#grant_access_json DbConnectionResource#grant_access_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#grant_access_json DbConnectionResource#grant_access_json}
   */
   readonly grantAccessJson?: string;
   /**
   * Defines the maximum number of records to be processed per page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#max_pagination_size DbConnectionResource#max_pagination_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#max_pagination_size DbConnectionResource#max_pagination_size}
   */
   readonly maxPaginationSize?: string;
   /**
   * Property for MODIFYUSERDATAJSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#modify_user_data_json DbConnectionResource#modify_user_data_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#modify_user_data_json DbConnectionResource#modify_user_data_json}
   */
   readonly modifyUserDataJson?: string;
   /**
   * Set the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#password DbConnectionResource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#password DbConnectionResource#password}
   */
   readonly password?: string;
   /**
   * Specify the maximum length for the random password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#password_max_length DbConnectionResource#password_max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#password_max_length DbConnectionResource#password_max_length}
   */
   readonly passwordMaxLength?: string;
   /**
   * Specify the minimum length for the random password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#password_min_length DbConnectionResource#password_min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#password_min_length DbConnectionResource#password_min_length}
   */
   readonly passwordMinLength?: string;
   /**
   * Specify the number of uppercase alphabets required for the random password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#password_no_of_caps_alpha DbConnectionResource#password_no_of_caps_alpha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#password_no_of_caps_alpha DbConnectionResource#password_no_of_caps_alpha}
   */
   readonly passwordNoOfCapsAlpha?: string;
   /**
   * Specify the number of digits required for the random password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#password_no_of_digits DbConnectionResource#password_no_of_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#password_no_of_digits DbConnectionResource#password_no_of_digits}
   */
   readonly passwordNoOfDigits?: string;
   /**
   * Specify the number of special characters required for the random password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#password_no_of_spl_chars DbConnectionResource#password_no_of_spl_chars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#password_no_of_spl_chars DbConnectionResource#password_no_of_spl_chars}
   */
   readonly passwordNoOfSplChars?: string;
   /**
   * Set the password_wo (write-only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#password_wo DbConnectionResource#password_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#password_wo DbConnectionResource#password_wo}
   */
   readonly passwordWo?: string;
   /**
   * JSON to specify the queries/stored procedures used to revoke access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#revoke_access_json DbConnectionResource#revoke_access_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#revoke_access_json DbConnectionResource#revoke_access_json}
   */
   readonly revokeAccessJson?: string;
   /**
   * Role Owner Import XML file content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#role_owner_import DbConnectionResource#role_owner_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#role_owner_import DbConnectionResource#role_owner_import}
   */
   readonly roleOwnerImport?: string;
   /**
   * Roles Import XML file content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#roles_import DbConnectionResource#roles_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#roles_import DbConnectionResource#roles_import}
   */
   readonly rolesImport?: string;
   /**
   * Flag indicating whether the encrypted attribute should be saved in the configured vault. Example: "false"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#save_in_vault DbConnectionResource#save_in_vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#save_in_vault DbConnectionResource#save_in_vault}
   */
   readonly saveInVault?: string;
   /**
   * Configuration for status and threshold (e.g., statusColumn, activeStatus, accountThresholdValue, etc.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#status_threshold_config DbConnectionResource#status_threshold_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#status_threshold_config DbConnectionResource#status_threshold_config}
   */
   readonly statusThresholdConfig?: string;
   /**
   * System Import XML file content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#system_import DbConnectionResource#system_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#system_import DbConnectionResource#system_import}
   */
   readonly systemImport?: string;
   /**
   * JSON to specify the queries/stored procedures used to update an existing account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#update_account_json DbConnectionResource#update_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#update_account_json DbConnectionResource#update_account_json}
   */
   readonly updateAccountJson?: string;
   /**
   *  JSON to specify the Queries/stored procedures which will be used to Update the Entitlements. Objects Exposed - (entitlementMgmtObj, task, user, endpoint and all the objects defined in Dynamic Attributes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#update_entitlement_json DbConnectionResource#update_entitlement_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#update_entitlement_json DbConnectionResource#update_entitlement_json}
   */
   readonly updateEntitlementJson?: string;
   /**
   * JSON to specify the queries/stored procedures used to update user information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#update_user_json DbConnectionResource#update_user_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#update_user_json DbConnectionResource#update_user_json}
   */
   readonly updateUserJson?: string;
   /**
   * Host Name for connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#url DbConnectionResource#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#url DbConnectionResource#url}
   */
   readonly url: string;
   /**
   * User Import XML file content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#user_import DbConnectionResource#user_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#user_import DbConnectionResource#user_import}
   */
   readonly userImport?: string;
   /**
   * Username for connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#username DbConnectionResource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#username DbConnectionResource#username}
   */
   readonly username: string;
   /**
   * JSON string specifying vault configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#vault_configuration DbConnectionResource#vault_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#vault_configuration DbConnectionResource#vault_configuration}
   */
   readonly vaultConfiguration?: string;
   /**
   * Specifies the type of vault connection being used (e.g., 'Hashicorp'). Example: "Hashicorp"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#vault_connection DbConnectionResource#vault_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#vault_connection DbConnectionResource#vault_connection}
   */
   readonly vaultConnection?: string;
   /**
   * Add/change the value of this attribute to update the writeonly attributes like username, password etc in connection resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#wo_version DbConnectionResource#wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#wo_version DbConnectionResource#wo_version}
   */
   readonly woVersion?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource saviynt_db_connection_resource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource saviynt_db_connection_resource}
 */
 export class DbConnectionResource extends cdktf.TerraformResource {
 
@@ -290,7 +290,7 @@ export class DbConnectionResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbConnectionResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbConnectionResource to import
-  * @param importFromId The id of the existing DbConnectionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbConnectionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbConnectionResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -302,7 +302,7 @@ export class DbConnectionResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/db_connection_resource saviynt_db_connection_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/db_connection_resource saviynt_db_connection_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -313,8 +313,8 @@ export class DbConnectionResource extends cdktf.TerraformResource {
       terraformResourceType: 'saviynt_db_connection_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.3.1',
-        providerVersionConstraint: '0.3.1'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

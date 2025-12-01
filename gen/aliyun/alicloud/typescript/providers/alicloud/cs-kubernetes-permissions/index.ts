@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_kubernetes_permissions
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_kubernetes_permissions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface CsKubernetesPermissionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_kubernetes_permissions#id CsKubernetesPermissions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_kubernetes_permissions#id CsKubernetesPermissions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_kubernetes_permissions#uid CsKubernetesPermissions#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_kubernetes_permissions#uid CsKubernetesPermissions#uid}
   */
   readonly uid: string;
   /**
   * permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_kubernetes_permissions#permissions CsKubernetesPermissions#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_kubernetes_permissions#permissions CsKubernetesPermissions#permissions}
   */
   readonly permissions?: CsKubernetesPermissionsPermissions[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_kubernetes_permissions#timeouts CsKubernetesPermissions#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_kubernetes_permissions#timeouts CsKubernetesPermissions#timeouts}
   */
   readonly timeouts?: CsKubernetesPermissionsTimeouts;
 }
 export interface CsKubernetesPermissionsPermissions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_kubernetes_permissions#cluster CsKubernetesPermissions#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_kubernetes_permissions#cluster CsKubernetesPermissions#cluster}
   */
   readonly cluster: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_kubernetes_permissions#is_custom CsKubernetesPermissions#is_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_kubernetes_permissions#is_custom CsKubernetesPermissions#is_custom}
   */
   readonly isCustom?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_kubernetes_permissions#is_ram_role CsKubernetesPermissions#is_ram_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_kubernetes_permissions#is_ram_role CsKubernetesPermissions#is_ram_role}
   */
   readonly isRamRole?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_kubernetes_permissions#namespace CsKubernetesPermissions#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_kubernetes_permissions#namespace CsKubernetesPermissions#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_kubernetes_permissions#role_name CsKubernetesPermissions#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_kubernetes_permissions#role_name CsKubernetesPermissions#role_name}
   */
   readonly roleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_kubernetes_permissions#role_type CsKubernetesPermissions#role_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_kubernetes_permissions#role_type CsKubernetesPermissions#role_type}
   */
   readonly roleType: string;
 }
@@ -305,15 +305,15 @@ export class CsKubernetesPermissionsPermissionsList extends cdktf.ComplexList {
 }
 export interface CsKubernetesPermissionsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_kubernetes_permissions#create CsKubernetesPermissions#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_kubernetes_permissions#create CsKubernetesPermissions#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_kubernetes_permissions#delete CsKubernetesPermissions#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_kubernetes_permissions#delete CsKubernetesPermissions#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_kubernetes_permissions#update CsKubernetesPermissions#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_kubernetes_permissions#update CsKubernetesPermissions#update}
   */
   readonly update?: string;
 }
@@ -465,7 +465,7 @@ export class CsKubernetesPermissionsTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_kubernetes_permissions alicloud_cs_kubernetes_permissions}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_kubernetes_permissions alicloud_cs_kubernetes_permissions}
 */
 export class CsKubernetesPermissions extends cdktf.TerraformResource {
 
@@ -481,7 +481,7 @@ export class CsKubernetesPermissions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CsKubernetesPermissions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CsKubernetesPermissions to import
-  * @param importFromId The id of the existing CsKubernetesPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_kubernetes_permissions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CsKubernetesPermissions that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_kubernetes_permissions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CsKubernetesPermissions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -493,7 +493,7 @@ export class CsKubernetesPermissions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_kubernetes_permissions alicloud_cs_kubernetes_permissions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_kubernetes_permissions alicloud_cs_kubernetes_permissions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -504,8 +504,8 @@ export class CsKubernetesPermissions extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cs_kubernetes_permissions',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

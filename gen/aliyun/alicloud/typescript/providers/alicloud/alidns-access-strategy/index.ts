@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,98 +8,98 @@ import * as cdktf from 'cdktf';
 
 export interface AlidnsAccessStrategyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy#access_mode AlidnsAccessStrategy#access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy#access_mode AlidnsAccessStrategy#access_mode}
   */
   readonly accessMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy#default_addr_pool_type AlidnsAccessStrategy#default_addr_pool_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy#default_addr_pool_type AlidnsAccessStrategy#default_addr_pool_type}
   */
   readonly defaultAddrPoolType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy#default_latency_optimization AlidnsAccessStrategy#default_latency_optimization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy#default_latency_optimization AlidnsAccessStrategy#default_latency_optimization}
   */
   readonly defaultLatencyOptimization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy#default_lba_strategy AlidnsAccessStrategy#default_lba_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy#default_lba_strategy AlidnsAccessStrategy#default_lba_strategy}
   */
   readonly defaultLbaStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy#default_max_return_addr_num AlidnsAccessStrategy#default_max_return_addr_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy#default_max_return_addr_num AlidnsAccessStrategy#default_max_return_addr_num}
   */
   readonly defaultMaxReturnAddrNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy#default_min_available_addr_num AlidnsAccessStrategy#default_min_available_addr_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy#default_min_available_addr_num AlidnsAccessStrategy#default_min_available_addr_num}
   */
   readonly defaultMinAvailableAddrNum: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy#failover_addr_pool_type AlidnsAccessStrategy#failover_addr_pool_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy#failover_addr_pool_type AlidnsAccessStrategy#failover_addr_pool_type}
   */
   readonly failoverAddrPoolType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy#failover_latency_optimization AlidnsAccessStrategy#failover_latency_optimization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy#failover_latency_optimization AlidnsAccessStrategy#failover_latency_optimization}
   */
   readonly failoverLatencyOptimization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy#failover_lba_strategy AlidnsAccessStrategy#failover_lba_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy#failover_lba_strategy AlidnsAccessStrategy#failover_lba_strategy}
   */
   readonly failoverLbaStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy#failover_max_return_addr_num AlidnsAccessStrategy#failover_max_return_addr_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy#failover_max_return_addr_num AlidnsAccessStrategy#failover_max_return_addr_num}
   */
   readonly failoverMaxReturnAddrNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy#failover_min_available_addr_num AlidnsAccessStrategy#failover_min_available_addr_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy#failover_min_available_addr_num AlidnsAccessStrategy#failover_min_available_addr_num}
   */
   readonly failoverMinAvailableAddrNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy#id AlidnsAccessStrategy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy#id AlidnsAccessStrategy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy#instance_id AlidnsAccessStrategy#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy#instance_id AlidnsAccessStrategy#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy#lang AlidnsAccessStrategy#lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy#lang AlidnsAccessStrategy#lang}
   */
   readonly lang?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy#strategy_mode AlidnsAccessStrategy#strategy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy#strategy_mode AlidnsAccessStrategy#strategy_mode}
   */
   readonly strategyMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy#strategy_name AlidnsAccessStrategy#strategy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy#strategy_name AlidnsAccessStrategy#strategy_name}
   */
   readonly strategyName: string;
   /**
   * default_addr_pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy#default_addr_pools AlidnsAccessStrategy#default_addr_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy#default_addr_pools AlidnsAccessStrategy#default_addr_pools}
   */
   readonly defaultAddrPools: AlidnsAccessStrategyDefaultAddrPools[] | cdktf.IResolvable;
   /**
   * failover_addr_pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy#failover_addr_pools AlidnsAccessStrategy#failover_addr_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy#failover_addr_pools AlidnsAccessStrategy#failover_addr_pools}
   */
   readonly failoverAddrPools?: AlidnsAccessStrategyFailoverAddrPools[] | cdktf.IResolvable;
   /**
   * lines block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy#lines AlidnsAccessStrategy#lines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy#lines AlidnsAccessStrategy#lines}
   */
   readonly lines?: AlidnsAccessStrategyLines[] | cdktf.IResolvable;
 }
 export interface AlidnsAccessStrategyDefaultAddrPools {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy#addr_pool_id AlidnsAccessStrategy#addr_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy#addr_pool_id AlidnsAccessStrategy#addr_pool_id}
   */
   readonly addrPoolId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy#lba_weight AlidnsAccessStrategy#lba_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy#lba_weight AlidnsAccessStrategy#lba_weight}
   */
   readonly lbaWeight?: number;
 }
@@ -241,11 +241,11 @@ export class AlidnsAccessStrategyDefaultAddrPoolsList extends cdktf.ComplexList 
 }
 export interface AlidnsAccessStrategyFailoverAddrPools {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy#addr_pool_id AlidnsAccessStrategy#addr_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy#addr_pool_id AlidnsAccessStrategy#addr_pool_id}
   */
   readonly addrPoolId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy#lba_weight AlidnsAccessStrategy#lba_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy#lba_weight AlidnsAccessStrategy#lba_weight}
   */
   readonly lbaWeight?: number;
 }
@@ -390,7 +390,7 @@ export class AlidnsAccessStrategyFailoverAddrPoolsList extends cdktf.ComplexList
 }
 export interface AlidnsAccessStrategyLines {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy#line_code AlidnsAccessStrategy#line_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy#line_code AlidnsAccessStrategy#line_code}
   */
   readonly lineCode?: string;
 }
@@ -506,7 +506,7 @@ export class AlidnsAccessStrategyLinesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy alicloud_alidns_access_strategy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy alicloud_alidns_access_strategy}
 */
 export class AlidnsAccessStrategy extends cdktf.TerraformResource {
 
@@ -522,7 +522,7 @@ export class AlidnsAccessStrategy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlidnsAccessStrategy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlidnsAccessStrategy to import
-  * @param importFromId The id of the existing AlidnsAccessStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlidnsAccessStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlidnsAccessStrategy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -534,7 +534,7 @@ export class AlidnsAccessStrategy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_access_strategy alicloud_alidns_access_strategy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_access_strategy alicloud_alidns_access_strategy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -545,8 +545,8 @@ export class AlidnsAccessStrategy extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_alidns_access_strategy',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

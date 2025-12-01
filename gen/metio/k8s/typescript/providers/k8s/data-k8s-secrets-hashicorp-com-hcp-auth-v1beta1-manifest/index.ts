@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSecretsHashicorpComHcpAuthV1Beta1ManifestConfig extends 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest#metadata DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest#metadata DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SSecretsHashicorpComHcpAuthV1Beta1ManifestMetadata;
   /**
   * HCPAuthSpec defines the desired state of HCPAuth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest#spec DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest#spec DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SSecretsHashicorpComHcpAuthV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSecretsHashicorpComHcpAuthV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest#annotations DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest#annotations DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest#labels DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest#labels DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest#name DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest#name DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest#namespace DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest#namespace DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SSecretsHashicorpComHcpAuthV1Beta1ManifestSpecServicePrin
   /**
   * SecretRef is the name of a Kubernetes secret in the consumer's (VDS/VSS/PKI/HCP) namespace which provides the HCP ServicePrincipal clientID, and clientSecret. The secret data must have the following structure { 'clientID': 'clientID', 'clientSecret': 'clientSecret', }
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest#secret_ref DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest#secret_ref DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest#secret_ref}
   */
   readonly secretRef: string;
 }
@@ -312,31 +312,31 @@ export interface DataK8SSecretsHashicorpComHcpAuthV1Beta1ManifestSpec {
   /**
   * AllowedNamespaces Kubernetes Namespaces which are allow-listed for use with this AuthMethod. This field allows administrators to customize which Kubernetes namespaces are authorized to use with this AuthMethod. While Vault will still enforce its own rules, this has the added configurability of restricting which HCPAuthMethods can be used by which namespaces. Accepted values: []{'*'} - wildcard, all namespaces. []{'a', 'b'} - list of namespaces. unset - disallow all namespaces except the Operator's the HCPAuthMethod's namespace, this is the default behavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest#allowed_namespaces DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest#allowed_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest#allowed_namespaces DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest#allowed_namespaces}
   */
   readonly allowedNamespaces?: string[];
   /**
   * Method to use when authenticating to Vault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest#method DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest#method DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest#method}
   */
   readonly method?: string;
   /**
   * OrganizationID of the HCP organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest#organization_id DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest#organization_id DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest#organization_id}
   */
   readonly organizationId: string;
   /**
   * ProjectID of the HCP project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest#project_id DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest#project_id DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest#project_id}
   */
   readonly projectId: string;
   /**
   * ServicePrincipal provides the necessary configuration for authenticating to HCP using a service principal. For security reasons, only project-level service principals should ever be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest#service_principal DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest#service_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest#service_principal DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest#service_principal}
   */
   readonly servicePrincipal?: DataK8SSecretsHashicorpComHcpAuthV1Beta1ManifestSpecServicePrincipal;
 }
@@ -540,7 +540,7 @@ export class DataK8SSecretsHashicorpComHcpAuthV1Beta1ManifestSpecOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest k8s_secrets_hashicorp_com_hcp_auth_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest k8s_secrets_hashicorp_com_hcp_auth_v1beta1_manifest}
 */
 export class DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -556,7 +556,7 @@ export class DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest extends cdktf.Terr
   * Generates CDKTF code for importing a DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -568,7 +568,7 @@ export class DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest k8s_secrets_hashicorp_com_hcp_auth_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_hcp_auth_v1beta1_manifest k8s_secrets_hashicorp_com_hcp_auth_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -579,8 +579,8 @@ export class DataK8SSecretsHashicorpComHcpAuthV1Beta1Manifest extends cdktf.Terr
       terraformResourceType: 'k8s_secrets_hashicorp_com_hcp_auth_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

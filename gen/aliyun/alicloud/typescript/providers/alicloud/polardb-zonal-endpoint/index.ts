@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_zonal_endpoint
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_zonal_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface PolardbZonalEndpointConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_zonal_endpoint#auto_add_new_nodes PolardbZonalEndpoint#auto_add_new_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_zonal_endpoint#auto_add_new_nodes PolardbZonalEndpoint#auto_add_new_nodes}
   */
   readonly autoAddNewNodes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_zonal_endpoint#db_cluster_id PolardbZonalEndpoint#db_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_zonal_endpoint#db_cluster_id PolardbZonalEndpoint#db_cluster_id}
   */
   readonly dbClusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_zonal_endpoint#db_cluster_nodes_ids PolardbZonalEndpoint#db_cluster_nodes_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_zonal_endpoint#db_cluster_nodes_ids PolardbZonalEndpoint#db_cluster_nodes_ids}
   */
   readonly dbClusterNodesIds: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_zonal_endpoint#db_endpoint_description PolardbZonalEndpoint#db_endpoint_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_zonal_endpoint#db_endpoint_description PolardbZonalEndpoint#db_endpoint_description}
   */
   readonly dbEndpointDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_zonal_endpoint#endpoint_config PolardbZonalEndpoint#endpoint_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_zonal_endpoint#endpoint_config PolardbZonalEndpoint#endpoint_config}
   */
   readonly endpointConfig?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_zonal_endpoint#endpoint_type PolardbZonalEndpoint#endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_zonal_endpoint#endpoint_type PolardbZonalEndpoint#endpoint_type}
   */
   readonly endpointType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_zonal_endpoint#id PolardbZonalEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_zonal_endpoint#id PolardbZonalEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_zonal_endpoint#net_type PolardbZonalEndpoint#net_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_zonal_endpoint#net_type PolardbZonalEndpoint#net_type}
   */
   readonly netType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_zonal_endpoint#nodes_key PolardbZonalEndpoint#nodes_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_zonal_endpoint#nodes_key PolardbZonalEndpoint#nodes_key}
   */
   readonly nodesKey?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_zonal_endpoint#read_write_mode PolardbZonalEndpoint#read_write_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_zonal_endpoint#read_write_mode PolardbZonalEndpoint#read_write_mode}
   */
   readonly readWriteMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_zonal_endpoint#vpc_id PolardbZonalEndpoint#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_zonal_endpoint#vpc_id PolardbZonalEndpoint#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_zonal_endpoint#vswitch_id PolardbZonalEndpoint#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_zonal_endpoint#vswitch_id PolardbZonalEndpoint#vswitch_id}
   */
   readonly vswitchId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_zonal_endpoint alicloud_polardb_zonal_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_zonal_endpoint alicloud_polardb_zonal_endpoint}
 */
 export class PolardbZonalEndpoint extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class PolardbZonalEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolardbZonalEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolardbZonalEndpoint to import
-  * @param importFromId The id of the existing PolardbZonalEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_zonal_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolardbZonalEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_zonal_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolardbZonalEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class PolardbZonalEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_zonal_endpoint alicloud_polardb_zonal_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_zonal_endpoint alicloud_polardb_zonal_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class PolardbZonalEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_polardb_zonal_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

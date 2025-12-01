@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,110 +8,110 @@ import * as cdktf from 'cdktf';
 
 export interface OssBucketConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#acl OssBucket#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#acl OssBucket#acl}
   */
   readonly acl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#bucket OssBucket#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#bucket OssBucket#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#force_destroy OssBucket#force_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#force_destroy OssBucket#force_destroy}
   */
   readonly forceDestroy?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#id OssBucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#id OssBucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#lifecycle_rule_allow_same_action_overlap OssBucket#lifecycle_rule_allow_same_action_overlap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#lifecycle_rule_allow_same_action_overlap OssBucket#lifecycle_rule_allow_same_action_overlap}
   */
   readonly lifecycleRuleAllowSameActionOverlap?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#logging_isenable OssBucket#logging_isenable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#logging_isenable OssBucket#logging_isenable}
   */
   readonly loggingIsenable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#policy OssBucket#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#policy OssBucket#policy}
   */
   readonly policy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#redundancy_type OssBucket#redundancy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#redundancy_type OssBucket#redundancy_type}
   */
   readonly redundancyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#resource_group_id OssBucket#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#resource_group_id OssBucket#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#storage_class OssBucket#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#storage_class OssBucket#storage_class}
   */
   readonly storageClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#tags OssBucket#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#tags OssBucket#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * access_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#access_monitor OssBucket#access_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#access_monitor OssBucket#access_monitor}
   */
   readonly accessMonitor?: OssBucketAccessMonitor;
   /**
   * cors_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#cors_rule OssBucket#cors_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#cors_rule OssBucket#cors_rule}
   */
   readonly corsRule?: OssBucketCorsRule[] | cdktf.IResolvable;
   /**
   * lifecycle_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#lifecycle_rule OssBucket#lifecycle_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#lifecycle_rule OssBucket#lifecycle_rule}
   */
   readonly lifecycleRule?: OssBucketLifecycleRule[] | cdktf.IResolvable;
   /**
   * logging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#logging OssBucket#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#logging OssBucket#logging}
   */
   readonly logging?: OssBucketLogging;
   /**
   * referer_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#referer_config OssBucket#referer_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#referer_config OssBucket#referer_config}
   */
   readonly refererConfig?: OssBucketRefererConfig;
   /**
   * server_side_encryption_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#server_side_encryption_rule OssBucket#server_side_encryption_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#server_side_encryption_rule OssBucket#server_side_encryption_rule}
   */
   readonly serverSideEncryptionRule?: OssBucketServerSideEncryptionRule;
   /**
   * transfer_acceleration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#transfer_acceleration OssBucket#transfer_acceleration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#transfer_acceleration OssBucket#transfer_acceleration}
   */
   readonly transferAcceleration?: OssBucketTransferAcceleration;
   /**
   * versioning block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#versioning OssBucket#versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#versioning OssBucket#versioning}
   */
   readonly versioning?: OssBucketVersioning;
   /**
   * website block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#website OssBucket#website}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#website OssBucket#website}
   */
   readonly website?: OssBucketWebsite;
 }
 export interface OssBucketAccessMonitor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#status OssBucket#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#status OssBucket#status}
   */
   readonly status?: string;
 }
@@ -195,23 +195,23 @@ export class OssBucketAccessMonitorOutputReference extends cdktf.ComplexObject {
 }
 export interface OssBucketCorsRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#allowed_headers OssBucket#allowed_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#allowed_headers OssBucket#allowed_headers}
   */
   readonly allowedHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#allowed_methods OssBucket#allowed_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#allowed_methods OssBucket#allowed_methods}
   */
   readonly allowedMethods: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#allowed_origins OssBucket#allowed_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#allowed_origins OssBucket#allowed_origins}
   */
   readonly allowedOrigins: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#expose_headers OssBucket#expose_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#expose_headers OssBucket#expose_headers}
   */
   readonly exposeHeaders?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#max_age_seconds OssBucket#max_age_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#max_age_seconds OssBucket#max_age_seconds}
   */
   readonly maxAgeSeconds?: number;
 }
@@ -437,11 +437,11 @@ export class OssBucketCorsRuleList extends cdktf.ComplexList {
 }
 export interface OssBucketLifecycleRuleAbortMultipartUpload {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#created_before_date OssBucket#created_before_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#created_before_date OssBucket#created_before_date}
   */
   readonly createdBeforeDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#days OssBucket#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#days OssBucket#days}
   */
   readonly days?: number;
 }
@@ -586,19 +586,19 @@ export class OssBucketLifecycleRuleAbortMultipartUploadList extends cdktf.Comple
 }
 export interface OssBucketLifecycleRuleExpiration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#created_before_date OssBucket#created_before_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#created_before_date OssBucket#created_before_date}
   */
   readonly createdBeforeDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#date OssBucket#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#date OssBucket#date}
   */
   readonly date?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#days OssBucket#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#days OssBucket#days}
   */
   readonly days?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#expired_object_delete_marker OssBucket#expired_object_delete_marker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#expired_object_delete_marker OssBucket#expired_object_delete_marker}
   */
   readonly expiredObjectDeleteMarker?: boolean | cdktf.IResolvable;
 }
@@ -801,11 +801,11 @@ export class OssBucketLifecycleRuleExpirationList extends cdktf.ComplexList {
 }
 export interface OssBucketLifecycleRuleFilterNotTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#key OssBucket#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#key OssBucket#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#value OssBucket#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#value OssBucket#value}
   */
   readonly value: string;
 }
@@ -912,13 +912,13 @@ export class OssBucketLifecycleRuleFilterNotTagOutputReference extends cdktf.Com
 }
 export interface OssBucketLifecycleRuleFilterNot {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#prefix OssBucket#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#prefix OssBucket#prefix}
   */
   readonly prefix?: string;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#tag OssBucket#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#tag OssBucket#tag}
   */
   readonly tag?: OssBucketLifecycleRuleFilterNotTag;
 }
@@ -1031,17 +1031,17 @@ export class OssBucketLifecycleRuleFilterNotOutputReference extends cdktf.Comple
 }
 export interface OssBucketLifecycleRuleFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#object_size_greater_than OssBucket#object_size_greater_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#object_size_greater_than OssBucket#object_size_greater_than}
   */
   readonly objectSizeGreaterThan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#object_size_less_than OssBucket#object_size_less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#object_size_less_than OssBucket#object_size_less_than}
   */
   readonly objectSizeLessThan?: number;
   /**
   * not block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#not OssBucket#not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#not OssBucket#not}
   */
   readonly not?: OssBucketLifecycleRuleFilterNot;
 }
@@ -1183,7 +1183,7 @@ export class OssBucketLifecycleRuleFilterOutputReference extends cdktf.ComplexOb
 }
 export interface OssBucketLifecycleRuleNoncurrentVersionExpiration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#days OssBucket#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#days OssBucket#days}
   */
   readonly days: number;
 }
@@ -1296,19 +1296,19 @@ export class OssBucketLifecycleRuleNoncurrentVersionExpirationList extends cdktf
 }
 export interface OssBucketLifecycleRuleNoncurrentVersionTransition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#days OssBucket#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#days OssBucket#days}
   */
   readonly days: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#is_access_time OssBucket#is_access_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#is_access_time OssBucket#is_access_time}
   */
   readonly isAccessTime?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#return_to_std_when_visit OssBucket#return_to_std_when_visit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#return_to_std_when_visit OssBucket#return_to_std_when_visit}
   */
   readonly returnToStdWhenVisit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#storage_class OssBucket#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#storage_class OssBucket#storage_class}
   */
   readonly storageClass: string;
 }
@@ -1505,23 +1505,23 @@ export class OssBucketLifecycleRuleNoncurrentVersionTransitionList extends cdktf
 }
 export interface OssBucketLifecycleRuleTransitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#created_before_date OssBucket#created_before_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#created_before_date OssBucket#created_before_date}
   */
   readonly createdBeforeDate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#days OssBucket#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#days OssBucket#days}
   */
   readonly days?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#is_access_time OssBucket#is_access_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#is_access_time OssBucket#is_access_time}
   */
   readonly isAccessTime?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#return_to_std_when_visit OssBucket#return_to_std_when_visit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#return_to_std_when_visit OssBucket#return_to_std_when_visit}
   */
   readonly returnToStdWhenVisit?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#storage_class OssBucket#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#storage_class OssBucket#storage_class}
   */
   readonly storageClass: string;
 }
@@ -1750,58 +1750,58 @@ export class OssBucketLifecycleRuleTransitionsList extends cdktf.ComplexList {
 }
 export interface OssBucketLifecycleRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#enabled OssBucket#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#enabled OssBucket#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#id OssBucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#id OssBucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#prefix OssBucket#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#prefix OssBucket#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#tags OssBucket#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#tags OssBucket#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * abort_multipart_upload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#abort_multipart_upload OssBucket#abort_multipart_upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#abort_multipart_upload OssBucket#abort_multipart_upload}
   */
   readonly abortMultipartUpload?: OssBucketLifecycleRuleAbortMultipartUpload[] | cdktf.IResolvable;
   /**
   * expiration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#expiration OssBucket#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#expiration OssBucket#expiration}
   */
   readonly expiration?: OssBucketLifecycleRuleExpiration[] | cdktf.IResolvable;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#filter OssBucket#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#filter OssBucket#filter}
   */
   readonly filter?: OssBucketLifecycleRuleFilter;
   /**
   * noncurrent_version_expiration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#noncurrent_version_expiration OssBucket#noncurrent_version_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#noncurrent_version_expiration OssBucket#noncurrent_version_expiration}
   */
   readonly noncurrentVersionExpiration?: OssBucketLifecycleRuleNoncurrentVersionExpiration[] | cdktf.IResolvable;
   /**
   * noncurrent_version_transition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#noncurrent_version_transition OssBucket#noncurrent_version_transition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#noncurrent_version_transition OssBucket#noncurrent_version_transition}
   */
   readonly noncurrentVersionTransition?: OssBucketLifecycleRuleNoncurrentVersionTransition[] | cdktf.IResolvable;
   /**
   * transitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#transitions OssBucket#transitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#transitions OssBucket#transitions}
   */
   readonly transitions?: OssBucketLifecycleRuleTransitions[] | cdktf.IResolvable;
 }
@@ -2175,11 +2175,11 @@ export class OssBucketLifecycleRuleList extends cdktf.ComplexList {
 }
 export interface OssBucketLogging {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#target_bucket OssBucket#target_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#target_bucket OssBucket#target_bucket}
   */
   readonly targetBucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#target_prefix OssBucket#target_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#target_prefix OssBucket#target_prefix}
   */
   readonly targetPrefix?: string;
 }
@@ -2289,11 +2289,11 @@ export class OssBucketLoggingOutputReference extends cdktf.ComplexObject {
 }
 export interface OssBucketRefererConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#allow_empty OssBucket#allow_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#allow_empty OssBucket#allow_empty}
   */
   readonly allowEmpty?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#referers OssBucket#referers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#referers OssBucket#referers}
   */
   readonly referers: string[];
 }
@@ -2403,15 +2403,15 @@ export class OssBucketRefererConfigOutputReference extends cdktf.ComplexObject {
 }
 export interface OssBucketServerSideEncryptionRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#kms_data_encryption OssBucket#kms_data_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#kms_data_encryption OssBucket#kms_data_encryption}
   */
   readonly kmsDataEncryption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#kms_master_key_id OssBucket#kms_master_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#kms_master_key_id OssBucket#kms_master_key_id}
   */
   readonly kmsMasterKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#sse_algorithm OssBucket#sse_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#sse_algorithm OssBucket#sse_algorithm}
   */
   readonly sseAlgorithm: string;
 }
@@ -2550,7 +2550,7 @@ export class OssBucketServerSideEncryptionRuleOutputReference extends cdktf.Comp
 }
 export interface OssBucketTransferAcceleration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#enabled OssBucket#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#enabled OssBucket#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -2631,7 +2631,7 @@ export class OssBucketTransferAccelerationOutputReference extends cdktf.ComplexO
 }
 export interface OssBucketVersioning {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#status OssBucket#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#status OssBucket#status}
   */
   readonly status: string;
 }
@@ -2712,11 +2712,11 @@ export class OssBucketVersioningOutputReference extends cdktf.ComplexObject {
 }
 export interface OssBucketWebsite {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#error_document OssBucket#error_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#error_document OssBucket#error_document}
   */
   readonly errorDocument?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#index_document OssBucket#index_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#index_document OssBucket#index_document}
   */
   readonly indexDocument: string;
 }
@@ -2826,7 +2826,7 @@ export class OssBucketWebsiteOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket alicloud_oss_bucket}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket alicloud_oss_bucket}
 */
 export class OssBucket extends cdktf.TerraformResource {
 
@@ -2842,7 +2842,7 @@ export class OssBucket extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OssBucket resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OssBucket to import
-  * @param importFromId The id of the existing OssBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OssBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OssBucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2854,7 +2854,7 @@ export class OssBucket extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oss_bucket alicloud_oss_bucket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oss_bucket alicloud_oss_bucket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2865,8 +2865,8 @@ export class OssBucket extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_oss_bucket',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

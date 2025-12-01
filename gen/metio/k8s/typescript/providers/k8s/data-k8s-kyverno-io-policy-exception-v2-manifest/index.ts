@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKyvernoIoPolicyExceptionV2ManifestConfig extends cdktf.T
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#metadata DataK8SKyvernoIoPolicyExceptionV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#metadata DataK8SKyvernoIoPolicyExceptionV2Manifest#metadata}
   */
   readonly metadata: DataK8SKyvernoIoPolicyExceptionV2ManifestMetadata;
   /**
   * Spec declares policy exception behaviors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#spec DataK8SKyvernoIoPolicyExceptionV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#spec DataK8SKyvernoIoPolicyExceptionV2Manifest#spec}
   */
   readonly spec: DataK8SKyvernoIoPolicyExceptionV2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKyvernoIoPolicyExceptionV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#annotations DataK8SKyvernoIoPolicyExceptionV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#annotations DataK8SKyvernoIoPolicyExceptionV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#labels DataK8SKyvernoIoPolicyExceptionV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#labels DataK8SKyvernoIoPolicyExceptionV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#name DataK8SKyvernoIoPolicyExceptionV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#name DataK8SKyvernoIoPolicyExceptionV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#namespace DataK8SKyvernoIoPolicyExceptionV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#namespace DataK8SKyvernoIoPolicyExceptionV2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,25 +219,25 @@ export interface DataK8SKyvernoIoPolicyExceptionV2ManifestSpecConditionsAll {
   /**
   * Key is the context entry (using JMESPath) for conditional rule evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#key DataK8SKyvernoIoPolicyExceptionV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#key DataK8SKyvernoIoPolicyExceptionV2Manifest#key}
   */
   readonly key?: { [key: string]: string };
   /**
   * Message is an optional display message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#message DataK8SKyvernoIoPolicyExceptionV2Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#message DataK8SKyvernoIoPolicyExceptionV2Manifest#message}
   */
   readonly message?: string;
   /**
   * Operator is the conditional operation to perform. Valid operators are: Equals, NotEquals, In, AnyIn, AllIn, NotIn, AnyNotIn, AllNotIn, GreaterThanOrEquals, GreaterThan, LessThanOrEquals, LessThan, DurationGreaterThanOrEquals, DurationGreaterThan, DurationLessThanOrEquals, DurationLessThan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#operator DataK8SKyvernoIoPolicyExceptionV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#operator DataK8SKyvernoIoPolicyExceptionV2Manifest#operator}
   */
   readonly operator?: string;
   /**
   * Value is the conditional value, or set of values. The values can be fixed set or can be variables declared using JMESPath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#value DataK8SKyvernoIoPolicyExceptionV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#value DataK8SKyvernoIoPolicyExceptionV2Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -442,25 +442,25 @@ export interface DataK8SKyvernoIoPolicyExceptionV2ManifestSpecConditionsAny {
   /**
   * Key is the context entry (using JMESPath) for conditional rule evaluation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#key DataK8SKyvernoIoPolicyExceptionV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#key DataK8SKyvernoIoPolicyExceptionV2Manifest#key}
   */
   readonly key?: { [key: string]: string };
   /**
   * Message is an optional display message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#message DataK8SKyvernoIoPolicyExceptionV2Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#message DataK8SKyvernoIoPolicyExceptionV2Manifest#message}
   */
   readonly message?: string;
   /**
   * Operator is the conditional operation to perform. Valid operators are: Equals, NotEquals, In, AnyIn, AllIn, NotIn, AnyNotIn, AllNotIn, GreaterThanOrEquals, GreaterThan, LessThanOrEquals, LessThan, DurationGreaterThanOrEquals, DurationGreaterThan, DurationLessThanOrEquals, DurationLessThan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#operator DataK8SKyvernoIoPolicyExceptionV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#operator DataK8SKyvernoIoPolicyExceptionV2Manifest#operator}
   */
   readonly operator?: string;
   /**
   * Value is the conditional value, or set of values. The values can be fixed set or can be variables declared using JMESPath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#value DataK8SKyvernoIoPolicyExceptionV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#value DataK8SKyvernoIoPolicyExceptionV2Manifest#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -665,13 +665,13 @@ export interface DataK8SKyvernoIoPolicyExceptionV2ManifestSpecConditions {
   /**
   * AllConditions enable variable-based conditional rule execution. This is useful for finer control of when an rule is applied. A condition can reference object data using JMESPath notation. Here, all of the conditions need to pass.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#all DataK8SKyvernoIoPolicyExceptionV2Manifest#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#all DataK8SKyvernoIoPolicyExceptionV2Manifest#all}
   */
   readonly all?: DataK8SKyvernoIoPolicyExceptionV2ManifestSpecConditionsAll[] | cdktf.IResolvable;
   /**
   * AnyConditions enable variable-based conditional rule execution. This is useful for finer control of when an rule is applied. A condition can reference object data using JMESPath notation. Here, at least one of the conditions need to pass.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#any DataK8SKyvernoIoPolicyExceptionV2Manifest#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#any DataK8SKyvernoIoPolicyExceptionV2Manifest#any}
   */
   readonly any?: DataK8SKyvernoIoPolicyExceptionV2ManifestSpecConditionsAny[] | cdktf.IResolvable;
 }
@@ -796,13 +796,13 @@ export interface DataK8SKyvernoIoPolicyExceptionV2ManifestSpecExceptions {
   /**
   * PolicyName identifies the policy to which the exception is applied. The policy name uses the format <namespace>/<name> unless it references a ClusterPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#policy_name DataK8SKyvernoIoPolicyExceptionV2Manifest#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#policy_name DataK8SKyvernoIoPolicyExceptionV2Manifest#policy_name}
   */
   readonly policyName: string;
   /**
   * RuleNames identifies the rules to which the exception is applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#rule_names DataK8SKyvernoIoPolicyExceptionV2Manifest#rule_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#rule_names DataK8SKyvernoIoPolicyExceptionV2Manifest#rule_names}
   */
   readonly ruleNames: string[];
 }
@@ -943,19 +943,19 @@ export interface DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAllResourcesN
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#key DataK8SKyvernoIoPolicyExceptionV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#key DataK8SKyvernoIoPolicyExceptionV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#operator DataK8SKyvernoIoPolicyExceptionV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#operator DataK8SKyvernoIoPolicyExceptionV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#values DataK8SKyvernoIoPolicyExceptionV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#values DataK8SKyvernoIoPolicyExceptionV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1125,13 +1125,13 @@ export interface DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAllResourcesN
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#match_expressions DataK8SKyvernoIoPolicyExceptionV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#match_expressions DataK8SKyvernoIoPolicyExceptionV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAllResourcesNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#match_labels DataK8SKyvernoIoPolicyExceptionV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#match_labels DataK8SKyvernoIoPolicyExceptionV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1256,19 +1256,19 @@ export interface DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAllResourcesS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#key DataK8SKyvernoIoPolicyExceptionV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#key DataK8SKyvernoIoPolicyExceptionV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#operator DataK8SKyvernoIoPolicyExceptionV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#operator DataK8SKyvernoIoPolicyExceptionV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#values DataK8SKyvernoIoPolicyExceptionV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#values DataK8SKyvernoIoPolicyExceptionV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1438,13 +1438,13 @@ export interface DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAllResourcesS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#match_expressions DataK8SKyvernoIoPolicyExceptionV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#match_expressions DataK8SKyvernoIoPolicyExceptionV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAllResourcesSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#match_labels DataK8SKyvernoIoPolicyExceptionV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#match_labels DataK8SKyvernoIoPolicyExceptionV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1569,49 +1569,49 @@ export interface DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAllResources 
   /**
   * Annotations is a map of annotations (key-value pairs of type string). Annotation keys and values support the wildcard characters '*' (matches zero or many characters) and '?' (matches at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#annotations DataK8SKyvernoIoPolicyExceptionV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#annotations DataK8SKyvernoIoPolicyExceptionV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Kinds is a list of resource kinds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#kinds DataK8SKyvernoIoPolicyExceptionV2Manifest#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#kinds DataK8SKyvernoIoPolicyExceptionV2Manifest#kinds}
   */
   readonly kinds?: string[];
   /**
   * Name is the name of the resource. The name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character). NOTE: 'Name' is being deprecated in favor of 'Names'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#name DataK8SKyvernoIoPolicyExceptionV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#name DataK8SKyvernoIoPolicyExceptionV2Manifest#name}
   */
   readonly name?: string;
   /**
   * Names are the names of the resources. Each name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#names DataK8SKyvernoIoPolicyExceptionV2Manifest#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#names DataK8SKyvernoIoPolicyExceptionV2Manifest#names}
   */
   readonly names?: string[];
   /**
   * NamespaceSelector is a label selector for the resource namespace. Label keys and values in 'matchLabels' support the wildcard characters '*' (matches zero or many characters) and '?' (matches one character).Wildcards allows writing label selectors like ['storage.k8s.io/*': '*']. Note that using ['*' : '*'] matches any key and value but does not match an empty label set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#namespace_selector DataK8SKyvernoIoPolicyExceptionV2Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#namespace_selector DataK8SKyvernoIoPolicyExceptionV2Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAllResourcesNamespaceSelector;
   /**
   * Namespaces is a list of namespaces names. Each name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#namespaces DataK8SKyvernoIoPolicyExceptionV2Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#namespaces DataK8SKyvernoIoPolicyExceptionV2Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Operations can contain values ['CREATE, 'UPDATE', 'CONNECT', 'DELETE'], which are used to match a specific action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#operations DataK8SKyvernoIoPolicyExceptionV2Manifest#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#operations DataK8SKyvernoIoPolicyExceptionV2Manifest#operations}
   */
   readonly operations?: string[];
   /**
   * Selector is a label selector. Label keys and values in 'matchLabels' support the wildcard characters '*' (matches zero or many characters) and '?' (matches one character). Wildcards allows writing label selectors like ['storage.k8s.io/*': '*']. Note that using ['*' : '*'] matches any key and value but does not match an empty label set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#selector DataK8SKyvernoIoPolicyExceptionV2Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#selector DataK8SKyvernoIoPolicyExceptionV2Manifest#selector}
   */
   readonly selector?: DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAllResourcesSelector;
 }
@@ -1910,25 +1910,25 @@ export interface DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAllSubjects {
   /**
   * APIGroup holds the API group of the referenced subject. Defaults to '' for ServiceAccount subjects. Defaults to 'rbac.authorization.k8s.io' for User and Group subjects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#api_group DataK8SKyvernoIoPolicyExceptionV2Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#api_group DataK8SKyvernoIoPolicyExceptionV2Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind of object being referenced. Values defined by this API group are 'User', 'Group', and 'ServiceAccount'. If the Authorizer does not recognized the kind value, the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#kind DataK8SKyvernoIoPolicyExceptionV2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#kind DataK8SKyvernoIoPolicyExceptionV2Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the object being referenced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#name DataK8SKyvernoIoPolicyExceptionV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#name DataK8SKyvernoIoPolicyExceptionV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the referenced object. If the object kind is non-namespace, such as 'User' or 'Group', and this value is not empty the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#namespace DataK8SKyvernoIoPolicyExceptionV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#namespace DataK8SKyvernoIoPolicyExceptionV2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2127,25 +2127,25 @@ export interface DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAll {
   /**
   * ClusterRoles is the list of cluster-wide role names for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#cluster_roles DataK8SKyvernoIoPolicyExceptionV2Manifest#cluster_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#cluster_roles DataK8SKyvernoIoPolicyExceptionV2Manifest#cluster_roles}
   */
   readonly clusterRoles?: string[];
   /**
   * ResourceDescription contains information about the resource being created or modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#resources DataK8SKyvernoIoPolicyExceptionV2Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#resources DataK8SKyvernoIoPolicyExceptionV2Manifest#resources}
   */
   readonly resources?: DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAllResources;
   /**
   * Roles is the list of namespaced role names for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#roles DataK8SKyvernoIoPolicyExceptionV2Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#roles DataK8SKyvernoIoPolicyExceptionV2Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * Subjects is the list of subject names like users, user groups, and service accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#subjects DataK8SKyvernoIoPolicyExceptionV2Manifest#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#subjects DataK8SKyvernoIoPolicyExceptionV2Manifest#subjects}
   */
   readonly subjects?: DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAllSubjects[] | cdktf.IResolvable;
 }
@@ -2350,19 +2350,19 @@ export interface DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAnyResourcesN
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#key DataK8SKyvernoIoPolicyExceptionV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#key DataK8SKyvernoIoPolicyExceptionV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#operator DataK8SKyvernoIoPolicyExceptionV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#operator DataK8SKyvernoIoPolicyExceptionV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#values DataK8SKyvernoIoPolicyExceptionV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#values DataK8SKyvernoIoPolicyExceptionV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2532,13 +2532,13 @@ export interface DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAnyResourcesN
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#match_expressions DataK8SKyvernoIoPolicyExceptionV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#match_expressions DataK8SKyvernoIoPolicyExceptionV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAnyResourcesNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#match_labels DataK8SKyvernoIoPolicyExceptionV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#match_labels DataK8SKyvernoIoPolicyExceptionV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2663,19 +2663,19 @@ export interface DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAnyResourcesS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#key DataK8SKyvernoIoPolicyExceptionV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#key DataK8SKyvernoIoPolicyExceptionV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#operator DataK8SKyvernoIoPolicyExceptionV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#operator DataK8SKyvernoIoPolicyExceptionV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#values DataK8SKyvernoIoPolicyExceptionV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#values DataK8SKyvernoIoPolicyExceptionV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2845,13 +2845,13 @@ export interface DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAnyResourcesS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#match_expressions DataK8SKyvernoIoPolicyExceptionV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#match_expressions DataK8SKyvernoIoPolicyExceptionV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAnyResourcesSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#match_labels DataK8SKyvernoIoPolicyExceptionV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#match_labels DataK8SKyvernoIoPolicyExceptionV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2976,49 +2976,49 @@ export interface DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAnyResources 
   /**
   * Annotations is a map of annotations (key-value pairs of type string). Annotation keys and values support the wildcard characters '*' (matches zero or many characters) and '?' (matches at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#annotations DataK8SKyvernoIoPolicyExceptionV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#annotations DataK8SKyvernoIoPolicyExceptionV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Kinds is a list of resource kinds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#kinds DataK8SKyvernoIoPolicyExceptionV2Manifest#kinds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#kinds DataK8SKyvernoIoPolicyExceptionV2Manifest#kinds}
   */
   readonly kinds?: string[];
   /**
   * Name is the name of the resource. The name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character). NOTE: 'Name' is being deprecated in favor of 'Names'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#name DataK8SKyvernoIoPolicyExceptionV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#name DataK8SKyvernoIoPolicyExceptionV2Manifest#name}
   */
   readonly name?: string;
   /**
   * Names are the names of the resources. Each name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#names DataK8SKyvernoIoPolicyExceptionV2Manifest#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#names DataK8SKyvernoIoPolicyExceptionV2Manifest#names}
   */
   readonly names?: string[];
   /**
   * NamespaceSelector is a label selector for the resource namespace. Label keys and values in 'matchLabels' support the wildcard characters '*' (matches zero or many characters) and '?' (matches one character).Wildcards allows writing label selectors like ['storage.k8s.io/*': '*']. Note that using ['*' : '*'] matches any key and value but does not match an empty label set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#namespace_selector DataK8SKyvernoIoPolicyExceptionV2Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#namespace_selector DataK8SKyvernoIoPolicyExceptionV2Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAnyResourcesNamespaceSelector;
   /**
   * Namespaces is a list of namespaces names. Each name supports wildcard characters '*' (matches zero or many characters) and '?' (at least one character).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#namespaces DataK8SKyvernoIoPolicyExceptionV2Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#namespaces DataK8SKyvernoIoPolicyExceptionV2Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Operations can contain values ['CREATE, 'UPDATE', 'CONNECT', 'DELETE'], which are used to match a specific action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#operations DataK8SKyvernoIoPolicyExceptionV2Manifest#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#operations DataK8SKyvernoIoPolicyExceptionV2Manifest#operations}
   */
   readonly operations?: string[];
   /**
   * Selector is a label selector. Label keys and values in 'matchLabels' support the wildcard characters '*' (matches zero or many characters) and '?' (matches one character). Wildcards allows writing label selectors like ['storage.k8s.io/*': '*']. Note that using ['*' : '*'] matches any key and value but does not match an empty label set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#selector DataK8SKyvernoIoPolicyExceptionV2Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#selector DataK8SKyvernoIoPolicyExceptionV2Manifest#selector}
   */
   readonly selector?: DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAnyResourcesSelector;
 }
@@ -3317,25 +3317,25 @@ export interface DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAnySubjects {
   /**
   * APIGroup holds the API group of the referenced subject. Defaults to '' for ServiceAccount subjects. Defaults to 'rbac.authorization.k8s.io' for User and Group subjects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#api_group DataK8SKyvernoIoPolicyExceptionV2Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#api_group DataK8SKyvernoIoPolicyExceptionV2Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind of object being referenced. Values defined by this API group are 'User', 'Group', and 'ServiceAccount'. If the Authorizer does not recognized the kind value, the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#kind DataK8SKyvernoIoPolicyExceptionV2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#kind DataK8SKyvernoIoPolicyExceptionV2Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name of the object being referenced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#name DataK8SKyvernoIoPolicyExceptionV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#name DataK8SKyvernoIoPolicyExceptionV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the referenced object. If the object kind is non-namespace, such as 'User' or 'Group', and this value is not empty the Authorizer should report an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#namespace DataK8SKyvernoIoPolicyExceptionV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#namespace DataK8SKyvernoIoPolicyExceptionV2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -3534,25 +3534,25 @@ export interface DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAny {
   /**
   * ClusterRoles is the list of cluster-wide role names for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#cluster_roles DataK8SKyvernoIoPolicyExceptionV2Manifest#cluster_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#cluster_roles DataK8SKyvernoIoPolicyExceptionV2Manifest#cluster_roles}
   */
   readonly clusterRoles?: string[];
   /**
   * ResourceDescription contains information about the resource being created or modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#resources DataK8SKyvernoIoPolicyExceptionV2Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#resources DataK8SKyvernoIoPolicyExceptionV2Manifest#resources}
   */
   readonly resources?: DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAnyResources;
   /**
   * Roles is the list of namespaced role names for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#roles DataK8SKyvernoIoPolicyExceptionV2Manifest#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#roles DataK8SKyvernoIoPolicyExceptionV2Manifest#roles}
   */
   readonly roles?: string[];
   /**
   * Subjects is the list of subject names like users, user groups, and service accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#subjects DataK8SKyvernoIoPolicyExceptionV2Manifest#subjects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#subjects DataK8SKyvernoIoPolicyExceptionV2Manifest#subjects}
   */
   readonly subjects?: DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAnySubjects[] | cdktf.IResolvable;
 }
@@ -3757,13 +3757,13 @@ export interface DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatch {
   /**
   * All allows specifying resources which will be ANDed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#all DataK8SKyvernoIoPolicyExceptionV2Manifest#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#all DataK8SKyvernoIoPolicyExceptionV2Manifest#all}
   */
   readonly all?: DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAll[] | cdktf.IResolvable;
   /**
   * Any allows specifying resources which will be ORed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#any DataK8SKyvernoIoPolicyExceptionV2Manifest#any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#any DataK8SKyvernoIoPolicyExceptionV2Manifest#any}
   */
   readonly any?: DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatchAny[] | cdktf.IResolvable;
 }
@@ -3888,25 +3888,25 @@ export interface DataK8SKyvernoIoPolicyExceptionV2ManifestSpecPodSecurity {
   /**
   * ControlName specifies the name of the Pod Security Standard control. See: https://kubernetes.io/docs/concepts/security/pod-security-standards/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#control_name DataK8SKyvernoIoPolicyExceptionV2Manifest#control_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#control_name DataK8SKyvernoIoPolicyExceptionV2Manifest#control_name}
   */
   readonly controlName: string;
   /**
   * Images selects matching containers and applies the container level PSS. Each image is the image name consisting of the registry address, repository, image, and tag. Empty list matches no containers, PSS checks are applied at the pod level only. Wildcards ('*' and '?') are allowed. See: https://kubernetes.io/docs/concepts/containers/images.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#images DataK8SKyvernoIoPolicyExceptionV2Manifest#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#images DataK8SKyvernoIoPolicyExceptionV2Manifest#images}
   */
   readonly images?: string[];
   /**
   * RestrictedField selects the field for the given Pod Security Standard control. When not set, all restricted fields for the control are selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#restricted_field DataK8SKyvernoIoPolicyExceptionV2Manifest#restricted_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#restricted_field DataK8SKyvernoIoPolicyExceptionV2Manifest#restricted_field}
   */
   readonly restrictedField?: string;
   /**
   * Values defines the allowed values that can be excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#values DataK8SKyvernoIoPolicyExceptionV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#values DataK8SKyvernoIoPolicyExceptionV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4108,31 +4108,31 @@ export interface DataK8SKyvernoIoPolicyExceptionV2ManifestSpec {
   /**
   * Background controls if exceptions are applied to existing policies during a background scan. Optional. Default value is 'true'. The value must be set to 'false' if the policy rule uses variables that are only available in the admission review request (e.g. user name).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#background DataK8SKyvernoIoPolicyExceptionV2Manifest#background}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#background DataK8SKyvernoIoPolicyExceptionV2Manifest#background}
   */
   readonly background?: boolean | cdktf.IResolvable;
   /**
   * Conditions are used to determine if a resource applies to the exception by evaluating a set of conditions. The declaration can contain nested 'any' or 'all' statements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#conditions DataK8SKyvernoIoPolicyExceptionV2Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#conditions DataK8SKyvernoIoPolicyExceptionV2Manifest#conditions}
   */
   readonly conditions?: DataK8SKyvernoIoPolicyExceptionV2ManifestSpecConditions;
   /**
   * Exceptions is a list policy/rules to be excluded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#exceptions DataK8SKyvernoIoPolicyExceptionV2Manifest#exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#exceptions DataK8SKyvernoIoPolicyExceptionV2Manifest#exceptions}
   */
   readonly exceptions: DataK8SKyvernoIoPolicyExceptionV2ManifestSpecExceptions[] | cdktf.IResolvable;
   /**
   * Match defines match clause used to check if a resource applies to the exception
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#match DataK8SKyvernoIoPolicyExceptionV2Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#match DataK8SKyvernoIoPolicyExceptionV2Manifest#match}
   */
   readonly match: DataK8SKyvernoIoPolicyExceptionV2ManifestSpecMatch;
   /**
   * PodSecurity specifies the Pod Security Standard controls to be excluded. Applicable only to policies that have validate.podSecurity subrule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#pod_security DataK8SKyvernoIoPolicyExceptionV2Manifest#pod_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#pod_security DataK8SKyvernoIoPolicyExceptionV2Manifest#pod_security}
   */
   readonly podSecurity?: DataK8SKyvernoIoPolicyExceptionV2ManifestSpecPodSecurity[] | cdktf.IResolvable;
 }
@@ -4336,7 +4336,7 @@ export class DataK8SKyvernoIoPolicyExceptionV2ManifestSpecOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest k8s_kyverno_io_policy_exception_v2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest k8s_kyverno_io_policy_exception_v2_manifest}
 */
 export class DataK8SKyvernoIoPolicyExceptionV2Manifest extends cdktf.TerraformDataSource {
 
@@ -4352,7 +4352,7 @@ export class DataK8SKyvernoIoPolicyExceptionV2Manifest extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataK8SKyvernoIoPolicyExceptionV2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKyvernoIoPolicyExceptionV2Manifest to import
-  * @param importFromId The id of the existing DataK8SKyvernoIoPolicyExceptionV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKyvernoIoPolicyExceptionV2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKyvernoIoPolicyExceptionV2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4364,7 +4364,7 @@ export class DataK8SKyvernoIoPolicyExceptionV2Manifest extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kyverno_io_policy_exception_v2_manifest k8s_kyverno_io_policy_exception_v2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kyverno_io_policy_exception_v2_manifest k8s_kyverno_io_policy_exception_v2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4375,8 +4375,8 @@ export class DataK8SKyvernoIoPolicyExceptionV2Manifest extends cdktf.TerraformDa
       terraformResourceType: 'k8s_kyverno_io_policy_exception_v2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

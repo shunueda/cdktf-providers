@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ack_one_membership_attachment
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ack_one_membership_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AckOneMembershipAttachmentConfig extends cdktf.TerraformMetaArg
   /**
   * ID of the ACK One fleet cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ack_one_membership_attachment#cluster_id AckOneMembershipAttachment#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ack_one_membership_attachment#cluster_id AckOneMembershipAttachment#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ack_one_membership_attachment#id AckOneMembershipAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ack_one_membership_attachment#id AckOneMembershipAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,23 +23,23 @@ export interface AckOneMembershipAttachmentConfig extends cdktf.TerraformMetaArg
   /**
   * ID of the ACK cluster that needs to be managed by ACK One fleet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ack_one_membership_attachment#sub_cluster_id AckOneMembershipAttachment#sub_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ack_one_membership_attachment#sub_cluster_id AckOneMembershipAttachment#sub_cluster_id}
   */
   readonly subClusterId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ack_one_membership_attachment#timeouts AckOneMembershipAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ack_one_membership_attachment#timeouts AckOneMembershipAttachment#timeouts}
   */
   readonly timeouts?: AckOneMembershipAttachmentTimeouts;
 }
 export interface AckOneMembershipAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ack_one_membership_attachment#create AckOneMembershipAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ack_one_membership_attachment#create AckOneMembershipAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ack_one_membership_attachment#delete AckOneMembershipAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ack_one_membership_attachment#delete AckOneMembershipAttachment#delete}
   */
   readonly delete?: string;
 }
@@ -162,7 +162,7 @@ export class AckOneMembershipAttachmentTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ack_one_membership_attachment alicloud_ack_one_membership_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ack_one_membership_attachment alicloud_ack_one_membership_attachment}
 */
 export class AckOneMembershipAttachment extends cdktf.TerraformResource {
 
@@ -178,7 +178,7 @@ export class AckOneMembershipAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AckOneMembershipAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AckOneMembershipAttachment to import
-  * @param importFromId The id of the existing AckOneMembershipAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ack_one_membership_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AckOneMembershipAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ack_one_membership_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AckOneMembershipAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -190,7 +190,7 @@ export class AckOneMembershipAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ack_one_membership_attachment alicloud_ack_one_membership_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ack_one_membership_attachment alicloud_ack_one_membership_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,8 +201,8 @@ export class AckOneMembershipAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ack_one_membership_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

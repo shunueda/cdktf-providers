@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manif
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#metadata DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#metadata DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1ManifestMetadata;
   /**
   * ClusterColocationProfileSpec is a description of a ClusterColocationProfile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#spec DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#spec DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manif
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#annotations DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#annotations DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#labels DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#labels DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#name DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#name DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,19 +187,19 @@ export interface DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manif
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#key DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#key DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#operator DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#operator DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#values DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#values DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -369,13 +369,13 @@ export interface DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manif
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#match_expressions DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#match_expressions DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1ManifestSpecNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#match_labels DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#match_labels DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -500,19 +500,19 @@ export interface DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manif
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#key DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#key DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#operator DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#operator DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#values DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#values DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -682,13 +682,13 @@ export interface DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manif
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#match_expressions DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#match_expressions DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1ManifestSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#match_labels DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#match_labels DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -813,73 +813,73 @@ export interface DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manif
   /**
   * AnnotationKeysMapping describes the annotations that needs to inject into Pod.Annotations with the same values. It sets the Pod.Annotations[AnnotationsToAnnotations[k]] = Pod.Annotations[k] for each key k.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#annotation_keys_mapping DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#annotation_keys_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#annotation_keys_mapping DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#annotation_keys_mapping}
   */
   readonly annotationKeysMapping?: { [key: string]: string };
   /**
   * Annotations describes the k/v pair that needs to inject into Pod.Annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#annotations DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#annotations DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * KoordinatorPriority defines the Pod sub-priority in Koordinator. The priority value will be injected into Pod as label koordinator.sh/priority. Various Koordinator components determine the priority of the Pod in the Koordinator through KoordinatorPriority and the priority value in PriorityClassName. The higher the value, the higher the priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#koordinator_priority DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#koordinator_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#koordinator_priority DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#koordinator_priority}
   */
   readonly koordinatorPriority?: number;
   /**
   * LabelKeysMapping describes the labels that needs to inject into Pod.Labels with the same values. It sets the Pod.Labels[LabelsToLabels[k]] = Pod.Labels[k] for each key k.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#label_keys_mapping DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#label_keys_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#label_keys_mapping DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#label_keys_mapping}
   */
   readonly labelKeysMapping?: { [key: string]: string };
   /**
   * Labels describes the k/v pair that needs to inject into Pod.Labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#labels DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#labels DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * NamespaceSelector decides whether to mutate/validate Pods if the namespace matches the selector. Default to the empty LabelSelector, which matches everything.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#namespace_selector DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#namespace_selector DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1ManifestSpecNamespaceSelector;
   /**
   * Patch indicates patching podTemplate that will be injected to the Pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#patch DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#patch DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#patch}
   */
   readonly patch?: { [key: string]: string };
   /**
   * If specified, the priorityClassName and the priority value defined in PriorityClass will be injected into the Pod. The PriorityClassName, priority value in PriorityClassName and KoordinatorPriority will affect the scheduling, preemption and other behaviors of Koordinator system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#priority_class_name DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#priority_class_name DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
   * Probability indicates profile will make effect with a probability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#probability DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#probability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#probability DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#probability}
   */
   readonly probability?: string;
   /**
   * QoSClass describes the type of Koordinator QoS that the Pod is running. The value will be injected into Pod as label koordinator.sh/qosClass. Options are LSE/LSR/LS/BE/SYSTEM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#qos_class DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#qos_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#qos_class DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#qos_class}
   */
   readonly qosClass?: string;
   /**
   * If specified, the pod will be dispatched by specified scheduler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#scheduler_name DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#scheduler_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#scheduler_name DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#scheduler_name}
   */
   readonly schedulerName?: string;
   /**
   * Selector decides whether to mutate/validate Pods if the Pod matches the selector. Default to the empty LabelSelector, which matches everything.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#selector DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#selector DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest#selector}
   */
   readonly selector?: DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1ManifestSpecSelector;
 }
@@ -1292,7 +1292,7 @@ export class DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1ManifestS
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest k8s_config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest k8s_config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest}
 */
 export class DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1308,7 +1308,7 @@ export class DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest 
   * Generates CDKTF code for importing a DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1320,7 +1320,7 @@ export class DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest k8s_config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest k8s_config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1331,8 +1331,8 @@ export class DataK8SConfigKoordinatorShClusterColocationProfileV1Alpha1Manifest 
       terraformResourceType: 'k8s_config_koordinator_sh_cluster_colocation_profile_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

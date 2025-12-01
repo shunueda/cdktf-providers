@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_user_aaa
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_user_aaa
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface SystemUserAaaConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_user_aaa#___path___ SystemUserAaa#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_user_aaa#___path___ SystemUserAaa#___path___}
   */
   readonly path?: string;
   /**
   * An option that enables accounting for users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_user_aaa#accounting SystemUserAaa#accounting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_user_aaa#accounting SystemUserAaa#accounting}
   */
   readonly accounting?: boolean | cdktf.IResolvable;
   /**
   * The user group that is used by default for users authenticated via a RADIUS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_user_aaa#default_group SystemUserAaa#default_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_user_aaa#default_group SystemUserAaa#default_group}
   */
   readonly defaultGroup?: string;
   /**
   * A set of groups that are not allowed for users authenticated by RADIUS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_user_aaa#exclude_groups SystemUserAaa#exclude_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_user_aaa#exclude_groups SystemUserAaa#exclude_groups}
   */
   readonly excludeGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_user_aaa#id SystemUserAaa#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_user_aaa#id SystemUserAaa#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,19 +41,19 @@ export interface SystemUserAaaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Interval between scheduled RADIUS Interim-Update messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_user_aaa#interim_update SystemUserAaa#interim_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_user_aaa#interim_update SystemUserAaa#interim_update}
   */
   readonly interimUpdate?: string;
   /**
   * An option whether to use RADIUS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_user_aaa#use_radius SystemUserAaa#use_radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_user_aaa#use_radius SystemUserAaa#use_radius}
   */
   readonly useRadius?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_user_aaa routeros_system_user_aaa}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_user_aaa routeros_system_user_aaa}
 */
 export class SystemUserAaa extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class SystemUserAaa extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemUserAaa resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemUserAaa to import
-  * @param importFromId The id of the existing SystemUserAaa that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_user_aaa#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemUserAaa that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_user_aaa#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemUserAaa to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class SystemUserAaa extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_user_aaa routeros_system_user_aaa} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_user_aaa routeros_system_user_aaa} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class SystemUserAaa extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_system_user_aaa',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.94.0',
-        providerVersionConstraint: '1.94.0'
+        providerVersion: '1.95.0',
+        providerVersionConstraint: '1.95.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

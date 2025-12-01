@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/maxcompute_user
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/maxcompute_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface MaxcomputeUserConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/maxcompute_user#description MaxcomputeUser#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/maxcompute_user#description MaxcomputeUser#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/maxcompute_user#organization_id MaxcomputeUser#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/maxcompute_user#id MaxcomputeUser#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
-  readonly organizationId?: number;
+  readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/maxcompute_user#user_name MaxcomputeUser#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/maxcompute_user#user_name MaxcomputeUser#user_name}
   */
   readonly userName: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/maxcompute_user#timeouts MaxcomputeUser#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/maxcompute_user#timeouts MaxcomputeUser#timeouts}
   */
   readonly timeouts?: MaxcomputeUserTimeouts;
 }
 export interface MaxcomputeUserTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/maxcompute_user#delete MaxcomputeUser#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/maxcompute_user#delete MaxcomputeUser#delete}
   */
   readonly delete?: string;
 }
@@ -122,7 +125,7 @@ export class MaxcomputeUserTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/maxcompute_user alibabacloudstack_maxcompute_user}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/maxcompute_user alibabacloudstack_maxcompute_user}
 */
 export class MaxcomputeUser extends cdktf.TerraformResource {
 
@@ -138,7 +141,7 @@ export class MaxcomputeUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MaxcomputeUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MaxcomputeUser to import
-  * @param importFromId The id of the existing MaxcomputeUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/maxcompute_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MaxcomputeUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/maxcompute_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MaxcomputeUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -150,7 +153,7 @@ export class MaxcomputeUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/maxcompute_user alibabacloudstack_maxcompute_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/maxcompute_user alibabacloudstack_maxcompute_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -161,8 +164,8 @@ export class MaxcomputeUser extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_maxcompute_user',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -173,7 +176,7 @@ export class MaxcomputeUser extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._description = config.description;
-    this._organizationId = config.organizationId;
+    this._id = config.id;
     this._userName = config.userName;
     this._timeouts.internalValue = config.timeouts;
   }
@@ -181,6 +184,11 @@ export class MaxcomputeUser extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // account_id - computed: true, optional: false, required: false
+  public get accountId() {
+    return this.getNumberAttribute('account_id');
+  }
 
   // description - computed: false, optional: false, required: true
   private _description?: string; 
@@ -195,30 +203,20 @@ export class MaxcomputeUser extends cdktf.TerraformResource {
     return this._description;
   }
 
-  // id - computed: true, optional: false, required: false
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
   public get id() {
     return this.getStringAttribute('id');
   }
-
-  // organization_id - computed: false, optional: true, required: false
-  private _organizationId?: number; 
-  public get organizationId() {
-    return this.getNumberAttribute('organization_id');
+  public set id(value: string) {
+    this._id = value;
   }
-  public set organizationId(value: number) {
-    this._organizationId = value;
-  }
-  public resetOrganizationId() {
-    this._organizationId = undefined;
+  public resetId() {
+    this._id = undefined;
   }
   // Temporarily expose input value. Use with caution.
-  public get organizationIdInput() {
-    return this._organizationId;
-  }
-
-  // organization_name - computed: true, optional: false, required: false
-  public get organizationName() {
-    return this.getStringAttribute('organization_name');
+  public get idInput() {
+    return this._id;
   }
 
   // user_id - computed: true, optional: false, required: false
@@ -272,7 +270,7 @@ export class MaxcomputeUser extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       description: cdktf.stringToTerraform(this._description),
-      organization_id: cdktf.numberToTerraform(this._organizationId),
+      id: cdktf.stringToTerraform(this._id),
       user_name: cdktf.stringToTerraform(this._userName),
       timeouts: maxcomputeUserTimeoutsToTerraform(this._timeouts.internalValue),
     };
@@ -286,11 +284,11 @@ export class MaxcomputeUser extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
-      organization_id: {
-        value: cdktf.numberToHclTerraform(this._organizationId),
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
-        storageClassType: "number",
+        storageClassType: "string",
       },
       user_name: {
         value: cdktf.stringToHclTerraform(this._userName),

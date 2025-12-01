@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oos_state_configuration
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_state_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface OosStateConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oos_state_configuration#configure_mode OosStateConfiguration#configure_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_state_configuration#configure_mode OosStateConfiguration#configure_mode}
   */
   readonly configureMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oos_state_configuration#description OosStateConfiguration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_state_configuration#description OosStateConfiguration#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oos_state_configuration#id OosStateConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_state_configuration#id OosStateConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oos_state_configuration#parameters OosStateConfiguration#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_state_configuration#parameters OosStateConfiguration#parameters}
   */
   readonly parameters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oos_state_configuration#resource_group_id OosStateConfiguration#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_state_configuration#resource_group_id OosStateConfiguration#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oos_state_configuration#schedule_expression OosStateConfiguration#schedule_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_state_configuration#schedule_expression OosStateConfiguration#schedule_expression}
   */
   readonly scheduleExpression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oos_state_configuration#schedule_type OosStateConfiguration#schedule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_state_configuration#schedule_type OosStateConfiguration#schedule_type}
   */
   readonly scheduleType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oos_state_configuration#tags OosStateConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_state_configuration#tags OosStateConfiguration#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oos_state_configuration#targets OosStateConfiguration#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_state_configuration#targets OosStateConfiguration#targets}
   */
   readonly targets: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oos_state_configuration#template_name OosStateConfiguration#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_state_configuration#template_name OosStateConfiguration#template_name}
   */
   readonly templateName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oos_state_configuration#template_version OosStateConfiguration#template_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_state_configuration#template_version OosStateConfiguration#template_version}
   */
   readonly templateVersion?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oos_state_configuration alicloud_oos_state_configuration}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_state_configuration alicloud_oos_state_configuration}
 */
 export class OosStateConfiguration extends cdktf.TerraformResource {
 
@@ -73,7 +73,7 @@ export class OosStateConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OosStateConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OosStateConfiguration to import
-  * @param importFromId The id of the existing OosStateConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oos_state_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OosStateConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_state_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OosStateConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -85,7 +85,7 @@ export class OosStateConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/oos_state_configuration alicloud_oos_state_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/oos_state_configuration alicloud_oos_state_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -96,8 +96,8 @@ export class OosStateConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_oos_state_configuration',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

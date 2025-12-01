@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_tr_association
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_tr_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface ExpressConnectRouterTrAssociationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_tr_association#allowed_prefixes ExpressConnectRouterTrAssociation#allowed_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_tr_association#allowed_prefixes ExpressConnectRouterTrAssociation#allowed_prefixes}
   */
   readonly allowedPrefixes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_tr_association#association_region_id ExpressConnectRouterTrAssociation#association_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_tr_association#association_region_id ExpressConnectRouterTrAssociation#association_region_id}
   */
   readonly associationRegionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_tr_association#cen_id ExpressConnectRouterTrAssociation#cen_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_tr_association#cen_id ExpressConnectRouterTrAssociation#cen_id}
   */
   readonly cenId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_tr_association#ecr_id ExpressConnectRouterTrAssociation#ecr_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_tr_association#ecr_id ExpressConnectRouterTrAssociation#ecr_id}
   */
   readonly ecrId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_tr_association#id ExpressConnectRouterTrAssociation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_tr_association#id ExpressConnectRouterTrAssociation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_tr_association#transit_router_id ExpressConnectRouterTrAssociation#transit_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_tr_association#transit_router_id ExpressConnectRouterTrAssociation#transit_router_id}
   */
   readonly transitRouterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_tr_association#transit_router_owner_id ExpressConnectRouterTrAssociation#transit_router_owner_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_tr_association#transit_router_owner_id ExpressConnectRouterTrAssociation#transit_router_owner_id}
   */
   readonly transitRouterOwnerId?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_tr_association#timeouts ExpressConnectRouterTrAssociation#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_tr_association#timeouts ExpressConnectRouterTrAssociation#timeouts}
   */
   readonly timeouts?: ExpressConnectRouterTrAssociationTimeouts;
 }
 export interface ExpressConnectRouterTrAssociationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_tr_association#create ExpressConnectRouterTrAssociation#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_tr_association#create ExpressConnectRouterTrAssociation#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_tr_association#delete ExpressConnectRouterTrAssociation#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_tr_association#delete ExpressConnectRouterTrAssociation#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_tr_association#update ExpressConnectRouterTrAssociation#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_tr_association#update ExpressConnectRouterTrAssociation#update}
   */
   readonly update?: string;
 }
@@ -207,7 +207,7 @@ export class ExpressConnectRouterTrAssociationTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_tr_association alicloud_express_connect_router_tr_association}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_tr_association alicloud_express_connect_router_tr_association}
 */
 export class ExpressConnectRouterTrAssociation extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class ExpressConnectRouterTrAssociation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExpressConnectRouterTrAssociation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExpressConnectRouterTrAssociation to import
-  * @param importFromId The id of the existing ExpressConnectRouterTrAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_tr_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExpressConnectRouterTrAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_tr_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExpressConnectRouterTrAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class ExpressConnectRouterTrAssociation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/express_connect_router_tr_association alicloud_express_connect_router_tr_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/express_connect_router_tr_association alicloud_express_connect_router_tr_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class ExpressConnectRouterTrAssociation extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_express_connect_router_tr_association',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

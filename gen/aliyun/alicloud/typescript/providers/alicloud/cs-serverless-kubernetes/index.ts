@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,160 +8,160 @@ import * as cdktf from 'cdktf';
 
 export interface CsServerlessKubernetesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#client_cert CsServerlessKubernetes#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#client_cert CsServerlessKubernetes#client_cert}
   */
   readonly clientCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#client_key CsServerlessKubernetes#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#client_key CsServerlessKubernetes#client_key}
   */
   readonly clientKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#cluster_ca_cert CsServerlessKubernetes#cluster_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#cluster_ca_cert CsServerlessKubernetes#cluster_ca_cert}
   */
   readonly clusterCaCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#cluster_spec CsServerlessKubernetes#cluster_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#cluster_spec CsServerlessKubernetes#cluster_spec}
   */
   readonly clusterSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#create_v2_cluster CsServerlessKubernetes#create_v2_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#create_v2_cluster CsServerlessKubernetes#create_v2_cluster}
   */
   readonly createV2Cluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#custom_san CsServerlessKubernetes#custom_san}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#custom_san CsServerlessKubernetes#custom_san}
   */
   readonly customSan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#deletion_protection CsServerlessKubernetes#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#deletion_protection CsServerlessKubernetes#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#enable_rrsa CsServerlessKubernetes#enable_rrsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#enable_rrsa CsServerlessKubernetes#enable_rrsa}
   */
   readonly enableRrsa?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#endpoint_public_access_enabled CsServerlessKubernetes#endpoint_public_access_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#endpoint_public_access_enabled CsServerlessKubernetes#endpoint_public_access_enabled}
   */
   readonly endpointPublicAccessEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#force_update CsServerlessKubernetes#force_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#force_update CsServerlessKubernetes#force_update}
   */
   readonly forceUpdate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#id CsServerlessKubernetes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#id CsServerlessKubernetes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#kube_config CsServerlessKubernetes#kube_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#kube_config CsServerlessKubernetes#kube_config}
   */
   readonly kubeConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#load_balancer_spec CsServerlessKubernetes#load_balancer_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#load_balancer_spec CsServerlessKubernetes#load_balancer_spec}
   */
   readonly loadBalancerSpec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#logging_type CsServerlessKubernetes#logging_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#logging_type CsServerlessKubernetes#logging_type}
   */
   readonly loggingType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#name CsServerlessKubernetes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#name CsServerlessKubernetes#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#name_prefix CsServerlessKubernetes#name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#name_prefix CsServerlessKubernetes#name_prefix}
   */
   readonly namePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#new_nat_gateway CsServerlessKubernetes#new_nat_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#new_nat_gateway CsServerlessKubernetes#new_nat_gateway}
   */
   readonly newNatGateway?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#private_zone CsServerlessKubernetes#private_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#private_zone CsServerlessKubernetes#private_zone}
   */
   readonly privateZone?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#resource_group_id CsServerlessKubernetes#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#resource_group_id CsServerlessKubernetes#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#retain_resources CsServerlessKubernetes#retain_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#retain_resources CsServerlessKubernetes#retain_resources}
   */
   readonly retainResources?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#security_group_id CsServerlessKubernetes#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#security_group_id CsServerlessKubernetes#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#service_cidr CsServerlessKubernetes#service_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#service_cidr CsServerlessKubernetes#service_cidr}
   */
   readonly serviceCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#service_discovery_types CsServerlessKubernetes#service_discovery_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#service_discovery_types CsServerlessKubernetes#service_discovery_types}
   */
   readonly serviceDiscoveryTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#sls_project_name CsServerlessKubernetes#sls_project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#sls_project_name CsServerlessKubernetes#sls_project_name}
   */
   readonly slsProjectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#tags CsServerlessKubernetes#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#tags CsServerlessKubernetes#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#time_zone CsServerlessKubernetes#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#time_zone CsServerlessKubernetes#time_zone}
   */
   readonly timeZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#version CsServerlessKubernetes#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#version CsServerlessKubernetes#version}
   */
   readonly version?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#vpc_id CsServerlessKubernetes#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#vpc_id CsServerlessKubernetes#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#vswitch_id CsServerlessKubernetes#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#vswitch_id CsServerlessKubernetes#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#vswitch_ids CsServerlessKubernetes#vswitch_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#vswitch_ids CsServerlessKubernetes#vswitch_ids}
   */
   readonly vswitchIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#zone_id CsServerlessKubernetes#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#zone_id CsServerlessKubernetes#zone_id}
   */
   readonly zoneId?: string;
   /**
   * addons block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#addons CsServerlessKubernetes#addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#addons CsServerlessKubernetes#addons}
   */
   readonly addons?: CsServerlessKubernetesAddons[] | cdktf.IResolvable;
   /**
   * delete_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#delete_options CsServerlessKubernetes#delete_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#delete_options CsServerlessKubernetes#delete_options}
   */
   readonly deleteOptions?: CsServerlessKubernetesDeleteOptions[] | cdktf.IResolvable;
   /**
   * maintenance_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#maintenance_window CsServerlessKubernetes#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#maintenance_window CsServerlessKubernetes#maintenance_window}
   */
   readonly maintenanceWindow?: CsServerlessKubernetesMaintenanceWindow;
   /**
   * operation_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#operation_policy CsServerlessKubernetes#operation_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#operation_policy CsServerlessKubernetes#operation_policy}
   */
   readonly operationPolicy?: CsServerlessKubernetesOperationPolicy;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#timeouts CsServerlessKubernetes#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#timeouts CsServerlessKubernetes#timeouts}
   */
   readonly timeouts?: CsServerlessKubernetesTimeouts;
 }
@@ -257,19 +257,19 @@ export class CsServerlessKubernetesRrsaMetadataList extends cdktf.ComplexList {
 }
 export interface CsServerlessKubernetesAddons {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#config CsServerlessKubernetes#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#config CsServerlessKubernetes#config}
   */
   readonly config?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#disabled CsServerlessKubernetes#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#disabled CsServerlessKubernetes#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#name CsServerlessKubernetes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#name CsServerlessKubernetes#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#version CsServerlessKubernetes#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#version CsServerlessKubernetes#version}
   */
   readonly version?: string;
 }
@@ -472,11 +472,11 @@ export class CsServerlessKubernetesAddonsList extends cdktf.ComplexList {
 }
 export interface CsServerlessKubernetesDeleteOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#delete_mode CsServerlessKubernetes#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#delete_mode CsServerlessKubernetes#delete_mode}
   */
   readonly deleteMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#resource_type CsServerlessKubernetes#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#resource_type CsServerlessKubernetes#resource_type}
   */
   readonly resourceType?: string;
 }
@@ -621,19 +621,19 @@ export class CsServerlessKubernetesDeleteOptionsList extends cdktf.ComplexList {
 }
 export interface CsServerlessKubernetesMaintenanceWindow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#duration CsServerlessKubernetes#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#duration CsServerlessKubernetes#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#enable CsServerlessKubernetes#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#enable CsServerlessKubernetes#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#maintenance_time CsServerlessKubernetes#maintenance_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#maintenance_time CsServerlessKubernetes#maintenance_time}
   */
   readonly maintenanceTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#weekly_period CsServerlessKubernetes#weekly_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#weekly_period CsServerlessKubernetes#weekly_period}
   */
   readonly weeklyPeriod?: string;
 }
@@ -804,11 +804,11 @@ export class CsServerlessKubernetesMaintenanceWindowOutputReference extends cdkt
 }
 export interface CsServerlessKubernetesOperationPolicyClusterAutoUpgrade {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#channel CsServerlessKubernetes#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#channel CsServerlessKubernetes#channel}
   */
   readonly channel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#enabled CsServerlessKubernetes#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#enabled CsServerlessKubernetes#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -923,7 +923,7 @@ export interface CsServerlessKubernetesOperationPolicy {
   /**
   * cluster_auto_upgrade block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#cluster_auto_upgrade CsServerlessKubernetes#cluster_auto_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#cluster_auto_upgrade CsServerlessKubernetes#cluster_auto_upgrade}
   */
   readonly clusterAutoUpgrade?: CsServerlessKubernetesOperationPolicyClusterAutoUpgrade;
 }
@@ -1007,11 +1007,11 @@ export class CsServerlessKubernetesOperationPolicyOutputReference extends cdktf.
 }
 export interface CsServerlessKubernetesTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#create CsServerlessKubernetes#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#create CsServerlessKubernetes#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#delete CsServerlessKubernetes#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#delete CsServerlessKubernetes#delete}
   */
   readonly delete?: string;
 }
@@ -1134,7 +1134,7 @@ export class CsServerlessKubernetesTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes alicloud_cs_serverless_kubernetes}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes alicloud_cs_serverless_kubernetes}
 */
 export class CsServerlessKubernetes extends cdktf.TerraformResource {
 
@@ -1150,7 +1150,7 @@ export class CsServerlessKubernetes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CsServerlessKubernetes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CsServerlessKubernetes to import
-  * @param importFromId The id of the existing CsServerlessKubernetes that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CsServerlessKubernetes that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CsServerlessKubernetes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1162,7 +1162,7 @@ export class CsServerlessKubernetes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cs_serverless_kubernetes alicloud_cs_serverless_kubernetes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cs_serverless_kubernetes alicloud_cs_serverless_kubernetes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1173,8 +1173,8 @@ export class CsServerlessKubernetes extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cs_serverless_kubernetes',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

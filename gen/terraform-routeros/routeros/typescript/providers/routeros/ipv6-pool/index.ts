@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_pool
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface Ipv6PoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_pool#___path___ Ipv6Pool#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_pool#___path___ Ipv6Pool#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_pool#___skip___ Ipv6Pool#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_pool#___skip___ Ipv6Pool#___skip___}
   */
   readonly skip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_pool#id Ipv6Pool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_pool#id Ipv6Pool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface Ipv6PoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Descriptive name of the pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_pool#name Ipv6Pool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_pool#name Ipv6Pool#name}
   */
   readonly name: string;
   /**
   * Ipv6 address prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_pool#prefix Ipv6Pool#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_pool#prefix Ipv6Pool#prefix}
   */
   readonly prefix?: string;
   /**
   * The option represents the prefix size that will be given out to the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_pool#prefix_length Ipv6Pool#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_pool#prefix_length Ipv6Pool#prefix_length}
   */
   readonly prefixLength: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_pool routeros_ipv6_pool}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_pool routeros_ipv6_pool}
 */
 export class Ipv6Pool extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class Ipv6Pool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ipv6Pool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ipv6Pool to import
-  * @param importFromId The id of the existing Ipv6Pool that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ipv6Pool that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ipv6Pool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class Ipv6Pool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/ipv6_pool routeros_ipv6_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/ipv6_pool routeros_ipv6_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class Ipv6Pool extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_ipv6_pool',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.94.0',
-        providerVersionConstraint: '1.94.0'
+        providerVersion: '1.95.0',
+        providerVersionConstraint: '1.95.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/expressconnect_physicalconnection
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_physicalconnection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface ExpressconnectPhysicalconnectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/expressconnect_physicalconnection#access_point_id ExpressconnectPhysicalconnection#access_point_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_physicalconnection#access_point_id ExpressconnectPhysicalconnection#access_point_id}
   */
   readonly accessPointId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/expressconnect_physicalconnection#bandwidth ExpressconnectPhysicalconnection#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_physicalconnection#bandwidth ExpressconnectPhysicalconnection#bandwidth}
   */
   readonly bandwidth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/expressconnect_physicalconnection#circuit_code ExpressconnectPhysicalconnection#circuit_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_physicalconnection#circuit_code ExpressconnectPhysicalconnection#circuit_code}
   */
   readonly circuitCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/expressconnect_physicalconnection#description ExpressconnectPhysicalconnection#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_physicalconnection#description ExpressconnectPhysicalconnection#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/expressconnect_physicalconnection#device_name ExpressconnectPhysicalconnection#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_physicalconnection#device_name ExpressconnectPhysicalconnection#device_name}
   */
   readonly deviceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/expressconnect_physicalconnection#id ExpressconnectPhysicalconnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_physicalconnection#id ExpressconnectPhysicalconnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/expressconnect_physicalconnection#line_operator ExpressconnectPhysicalconnection#line_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_physicalconnection#line_operator ExpressconnectPhysicalconnection#line_operator}
   */
   readonly lineOperator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/expressconnect_physicalconnection#peer_location ExpressconnectPhysicalconnection#peer_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_physicalconnection#peer_location ExpressconnectPhysicalconnection#peer_location}
   */
   readonly peerLocation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/expressconnect_physicalconnection#physical_connection_name ExpressconnectPhysicalconnection#physical_connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_physicalconnection#physical_connection_name ExpressconnectPhysicalconnection#physical_connection_name}
   */
   readonly physicalConnectionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/expressconnect_physicalconnection#port_type ExpressconnectPhysicalconnection#port_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_physicalconnection#port_type ExpressconnectPhysicalconnection#port_type}
   */
   readonly portType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/expressconnect_physicalconnection#redundant_physical_connection_id ExpressconnectPhysicalconnection#redundant_physical_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_physicalconnection#redundant_physical_connection_id ExpressconnectPhysicalconnection#redundant_physical_connection_id}
   */
   readonly redundantPhysicalConnectionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/expressconnect_physicalconnection#status ExpressconnectPhysicalconnection#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_physicalconnection#status ExpressconnectPhysicalconnection#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/expressconnect_physicalconnection#type ExpressconnectPhysicalconnection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_physicalconnection#type ExpressconnectPhysicalconnection#type}
   */
   readonly type?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/expressconnect_physicalconnection#timeouts ExpressconnectPhysicalconnection#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_physicalconnection#timeouts ExpressconnectPhysicalconnection#timeouts}
   */
   readonly timeouts?: ExpressconnectPhysicalconnectionTimeouts;
 }
 export interface ExpressconnectPhysicalconnectionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/expressconnect_physicalconnection#create ExpressconnectPhysicalconnection#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_physicalconnection#create ExpressconnectPhysicalconnection#create}
   */
   readonly create?: string;
 }
@@ -165,7 +165,7 @@ export class ExpressconnectPhysicalconnectionTimeoutsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/expressconnect_physicalconnection alibabacloudstack_expressconnect_physicalconnection}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_physicalconnection alibabacloudstack_expressconnect_physicalconnection}
 */
 export class ExpressconnectPhysicalconnection extends cdktf.TerraformResource {
 
@@ -181,7 +181,7 @@ export class ExpressconnectPhysicalconnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExpressconnectPhysicalconnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExpressconnectPhysicalconnection to import
-  * @param importFromId The id of the existing ExpressconnectPhysicalconnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/expressconnect_physicalconnection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExpressconnectPhysicalconnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_physicalconnection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExpressconnectPhysicalconnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -193,7 +193,7 @@ export class ExpressconnectPhysicalconnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/expressconnect_physicalconnection alibabacloudstack_expressconnect_physicalconnection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_physicalconnection alibabacloudstack_expressconnect_physicalconnection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -204,8 +204,8 @@ export class ExpressconnectPhysicalconnection extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_expressconnect_physicalconnection',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

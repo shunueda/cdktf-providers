@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/slb_server_certificate
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface SlbServerCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/slb_server_certificate#alicloud_certifacte_id SlbServerCertificate#alicloud_certifacte_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_certificate#alicloud_certifacte_id SlbServerCertificate#alicloud_certifacte_id}
   */
   readonly alicloudCertifacteId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/slb_server_certificate#alicloud_certifacte_name SlbServerCertificate#alicloud_certifacte_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_certificate#alicloud_certifacte_name SlbServerCertificate#alicloud_certifacte_name}
   */
   readonly alicloudCertifacteName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/slb_server_certificate#alicloud_certificate_id SlbServerCertificate#alicloud_certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_certificate#alicloud_certificate_id SlbServerCertificate#alicloud_certificate_id}
   */
   readonly alicloudCertificateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/slb_server_certificate#alicloud_certificate_name SlbServerCertificate#alicloud_certificate_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_certificate#alicloud_certificate_name SlbServerCertificate#alicloud_certificate_name}
   */
   readonly alicloudCertificateName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/slb_server_certificate#alicloud_certificate_region_id SlbServerCertificate#alicloud_certificate_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_certificate#alicloud_certificate_region_id SlbServerCertificate#alicloud_certificate_region_id}
   */
   readonly alicloudCertificateRegionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/slb_server_certificate#id SlbServerCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_certificate#id SlbServerCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/slb_server_certificate#name SlbServerCertificate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_certificate#name SlbServerCertificate#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/slb_server_certificate#private_key SlbServerCertificate#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_certificate#private_key SlbServerCertificate#private_key}
   */
   readonly privateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/slb_server_certificate#resource_group_id SlbServerCertificate#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_certificate#resource_group_id SlbServerCertificate#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/slb_server_certificate#server_certificate SlbServerCertificate#server_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_certificate#server_certificate SlbServerCertificate#server_certificate}
   */
   readonly serverCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/slb_server_certificate#tags SlbServerCertificate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_certificate#tags SlbServerCertificate#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/slb_server_certificate alicloud_slb_server_certificate}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_certificate alicloud_slb_server_certificate}
 */
 export class SlbServerCertificate extends cdktf.TerraformResource {
 
@@ -73,7 +73,7 @@ export class SlbServerCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SlbServerCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SlbServerCertificate to import
-  * @param importFromId The id of the existing SlbServerCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/slb_server_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SlbServerCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SlbServerCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -85,7 +85,7 @@ export class SlbServerCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/slb_server_certificate alicloud_slb_server_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/slb_server_certificate alicloud_slb_server_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -96,8 +96,8 @@ export class SlbServerCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_slb_server_certificate',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

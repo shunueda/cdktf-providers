@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/data_works_data_source_shared_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_data_source_shared_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface DataWorksDataSourceSharedRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/data_works_data_source_shared_rule#data_source_id DataWorksDataSourceSharedRule#data_source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_data_source_shared_rule#data_source_id DataWorksDataSourceSharedRule#data_source_id}
   */
   readonly dataSourceId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/data_works_data_source_shared_rule#env_type DataWorksDataSourceSharedRule#env_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_data_source_shared_rule#env_type DataWorksDataSourceSharedRule#env_type}
   */
   readonly envType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/data_works_data_source_shared_rule#id DataWorksDataSourceSharedRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_data_source_shared_rule#id DataWorksDataSourceSharedRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/data_works_data_source_shared_rule#shared_user DataWorksDataSourceSharedRule#shared_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_data_source_shared_rule#shared_user DataWorksDataSourceSharedRule#shared_user}
   */
   readonly sharedUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/data_works_data_source_shared_rule#target_project_id DataWorksDataSourceSharedRule#target_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_data_source_shared_rule#target_project_id DataWorksDataSourceSharedRule#target_project_id}
   */
   readonly targetProjectId: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/data_works_data_source_shared_rule#timeouts DataWorksDataSourceSharedRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_data_source_shared_rule#timeouts DataWorksDataSourceSharedRule#timeouts}
   */
   readonly timeouts?: DataWorksDataSourceSharedRuleTimeouts;
 }
 export interface DataWorksDataSourceSharedRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/data_works_data_source_shared_rule#create DataWorksDataSourceSharedRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_data_source_shared_rule#create DataWorksDataSourceSharedRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/data_works_data_source_shared_rule#delete DataWorksDataSourceSharedRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_data_source_shared_rule#delete DataWorksDataSourceSharedRule#delete}
   */
   readonly delete?: string;
 }
@@ -166,7 +166,7 @@ export class DataWorksDataSourceSharedRuleTimeoutsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/data_works_data_source_shared_rule alicloud_data_works_data_source_shared_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_data_source_shared_rule alicloud_data_works_data_source_shared_rule}
 */
 export class DataWorksDataSourceSharedRule extends cdktf.TerraformResource {
 
@@ -182,7 +182,7 @@ export class DataWorksDataSourceSharedRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DataWorksDataSourceSharedRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataWorksDataSourceSharedRule to import
-  * @param importFromId The id of the existing DataWorksDataSourceSharedRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/data_works_data_source_shared_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataWorksDataSourceSharedRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_data_source_shared_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataWorksDataSourceSharedRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -194,7 +194,7 @@ export class DataWorksDataSourceSharedRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/data_works_data_source_shared_rule alicloud_data_works_data_source_shared_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/data_works_data_source_shared_rule alicloud_data_works_data_source_shared_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -205,8 +205,8 @@ export class DataWorksDataSourceSharedRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_data_works_data_source_shared_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_datapath
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_datapath
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,45 +10,45 @@ export interface CapsmanDatapathConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_datapath#___path___ CapsmanDatapath#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_datapath#___path___ CapsmanDatapath#___path___}
   */
   readonly path?: string;
   /**
   * ARP mode. See [docs](https://wiki.mikrotik.com/wiki/Manual:IP/ARP#ARP_Modes) for info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_datapath#arp CapsmanDatapath#arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_datapath#arp CapsmanDatapath#arp}
   */
   readonly arp?: string;
   /**
   * Bridge to which particular interface should be automatically added as port. Required only when local-forwarding is not used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_datapath#bridge CapsmanDatapath#bridge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_datapath#bridge CapsmanDatapath#bridge}
   */
   readonly bridge?: string;
   /**
   * Bridge port cost to use when adding as bridge port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_datapath#bridge_cost CapsmanDatapath#bridge_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_datapath#bridge_cost CapsmanDatapath#bridge_cost}
   */
   readonly bridgeCost?: number;
   /**
   * Bridge horizon to use when adding as bridge port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_datapath#bridge_horizon CapsmanDatapath#bridge_horizon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_datapath#bridge_horizon CapsmanDatapath#bridge_horizon}
   */
   readonly bridgeHorizon?: number;
   /**
   * Controls if client-to-client forwarding between wireless clients connected to interface should be allowed, in local forwarding mode this function is performed by CAP, otherwise it is performed by CAPsMAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_datapath#client_to_client_forwarding CapsmanDatapath#client_to_client_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_datapath#client_to_client_forwarding CapsmanDatapath#client_to_client_forwarding}
   */
   readonly clientToClientForwarding?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_datapath#comment CapsmanDatapath#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_datapath#comment CapsmanDatapath#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_datapath#id CapsmanDatapath#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_datapath#id CapsmanDatapath#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,25 +57,25 @@ export interface CapsmanDatapathConfig extends cdktf.TerraformMetaArguments {
   /**
   * Interface list name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_datapath#interface_list CapsmanDatapath#interface_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_datapath#interface_list CapsmanDatapath#interface_list}
   */
   readonly interfaceList?: string;
   /**
   * Layer2 MTU size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_datapath#l2mtu CapsmanDatapath#l2mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_datapath#l2mtu CapsmanDatapath#l2mtu}
   */
   readonly l2Mtu?: number;
   /**
   * Controls forwarding mode. If disabled, all L2 and L3 data will be forwarded to CAPsMAN, and further forwarding decisions will be made only then. See [docs](https://wiki.mikrotik.com/wiki/Manual:CAPsMAN#Local_Forwarding_Mode) for info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_datapath#local_forwarding CapsmanDatapath#local_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_datapath#local_forwarding CapsmanDatapath#local_forwarding}
   */
   readonly localForwarding?: boolean | cdktf.IResolvable;
   /**
   * MTU size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_datapath#mtu CapsmanDatapath#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_datapath#mtu CapsmanDatapath#mtu}
   */
   readonly mtu?: number;
   /**
@@ -84,31 +84,31 @@ export interface CapsmanDatapathConfig extends cdktf.TerraformMetaArguments {
   * 	> Changing the name of the resource outside of a Terraform will result in a loss of control integrity for that resource!
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_datapath#name CapsmanDatapath#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_datapath#name CapsmanDatapath#name}
   */
   readonly name: string;
   /**
   * OpenFlow switch to add interface to, as port when enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_datapath#openflow_switch CapsmanDatapath#openflow_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_datapath#openflow_switch CapsmanDatapath#openflow_switch}
   */
   readonly openflowSwitch?: string;
   /**
   * VLAN ID to assign to interface if vlan-mode enables use of VLAN tagging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_datapath#vlan_id CapsmanDatapath#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_datapath#vlan_id CapsmanDatapath#vlan_id}
   */
   readonly vlanId?: number;
   /**
   * VLAN tagging mode specifies if VLAN tag should be assigned to interface (causes all received data to get tagged with VLAN tag and allows interface to only send out data tagged with given tag)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_datapath#vlan_mode CapsmanDatapath#vlan_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_datapath#vlan_mode CapsmanDatapath#vlan_mode}
   */
   readonly vlanMode?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_datapath routeros_capsman_datapath}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_datapath routeros_capsman_datapath}
 */
 export class CapsmanDatapath extends cdktf.TerraformResource {
 
@@ -124,7 +124,7 @@ export class CapsmanDatapath extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CapsmanDatapath resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CapsmanDatapath to import
-  * @param importFromId The id of the existing CapsmanDatapath that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_datapath#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CapsmanDatapath that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_datapath#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CapsmanDatapath to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -136,7 +136,7 @@ export class CapsmanDatapath extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/capsman_datapath routeros_capsman_datapath} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/capsman_datapath routeros_capsman_datapath} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -147,8 +147,8 @@ export class CapsmanDatapath extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_capsman_datapath',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.94.0',
-        providerVersionConstraint: '1.94.0'
+        providerVersion: '1.95.0',
+        providerVersionConstraint: '1.95.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

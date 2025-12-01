@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestConfig extends cdkt
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#metadata DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#metadata DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestMetadata;
   /**
   * Spec is the specification of the Kuma MeshHealthCheck resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#spec DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#spec DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#annotations DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#annotations DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#labels DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#labels DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#name DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#name DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#namespace DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#namespace DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,49 +219,49 @@ export interface DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestSpecTargetRef {
   /**
   * Kind of the referenced resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#kind DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#kind DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Labels are used to select group of MeshServices that match labels. Either Labels or Name and Namespace can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#labels DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#labels DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Mesh is reserved for future use to identify cross mesh resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#mesh DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#mesh DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#mesh}
   */
   readonly mesh?: string;
   /**
   * Name of the referenced resource. Can only be used with kinds: 'MeshService', 'MeshServiceSubset' and 'MeshGatewayRoute'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#name DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#name DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies the namespace of target resource. If empty only resources in policy namespace will be targeted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#namespace DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#namespace DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * ProxyTypes specifies the data plane types that are subject to the policy. When not specified, all data plane types are targeted by the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#proxy_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#proxy_types}
   */
   readonly proxyTypes?: string[];
   /**
   * SectionName is used to target specific section of resource. For example, you can target port from MeshService.ports[] by its name. Only traffic to this port will be affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#section_name DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#section_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#section_name DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#section_name}
   */
   readonly sectionName?: string;
   /**
   * Tags used to select a subset of proxies by tags. Can only be used with kinds 'MeshSubset' and 'MeshServiceSubset'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#tags DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#tags DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -560,19 +560,19 @@ export interface DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestSpecToDefaultGrpc {
   /**
   * The value of the :authority header in the gRPC health check request, by default name of the cluster this health check is associated with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#authority DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#authority DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#authority}
   */
   readonly authority?: string;
   /**
   * If true the GrpcHealthCheck is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#disabled DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#disabled DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Service name parameter which will be sent to gRPC service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#service_name DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#service_name DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#service_name}
   */
   readonly serviceName?: string;
 }
@@ -724,11 +724,11 @@ export class DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestSpecToDefaultGrpcOutput
 }
 export interface DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestSpecToDefaultHttpRequestHeadersToAddAdd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#name DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#name DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#value DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#value DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -867,11 +867,11 @@ export class DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestSpecToDefaultHttpReques
 }
 export interface DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestSpecToDefaultHttpRequestHeadersToAddSet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#name DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#name DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#value DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#value DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -1010,11 +1010,11 @@ export class DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestSpecToDefaultHttpReques
 }
 export interface DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestSpecToDefaultHttpRequestHeadersToAdd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#add DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#add DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#add}
   */
   readonly add?: DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestSpecToDefaultHttpRequestHeadersToAddAdd[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#set DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#set DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#set}
   */
   readonly set?: DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestSpecToDefaultHttpRequestHeadersToAddSet[] | cdktf.IResolvable;
 }
@@ -1139,25 +1139,25 @@ export interface DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestSpecToDefaultHttp {
   /**
   * If true the HttpHealthCheck is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#disabled DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#disabled DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * List of HTTP response statuses which are considered healthy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#expected_statuses DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#expected_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#expected_statuses DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#expected_statuses}
   */
   readonly expectedStatuses?: string[];
   /**
   * The HTTP path which will be requested during the health check (ie. /health)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#path DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#path DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#path}
   */
   readonly path?: string;
   /**
   * The list of HTTP headers which should be added to each health check request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#request_headers_to_add DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#request_headers_to_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#request_headers_to_add DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#request_headers_to_add}
   */
   readonly requestHeadersToAdd?: DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestSpecToDefaultHttpRequestHeadersToAdd;
 }
@@ -1340,19 +1340,19 @@ export interface DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestSpecToDefaultTcp {
   /**
   * If true the TcpHealthCheck is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#disabled DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#disabled DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * List of Base64 encoded blocks of strings expected as a response. When checking the response, 'fuzzy' matching is performed such that each block must be found, and in the order specified, but not necessarily contiguous. If not provided or empty, checks will be performed as 'connect only' and be marked as successful when TCP connection is successfully established.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#receive DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#receive DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#receive}
   */
   readonly receive?: string[];
   /**
   * Base64 encoded content of the message which will be sent during the health check to the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#send DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#send DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#send}
   */
   readonly send?: string;
 }
@@ -1506,97 +1506,97 @@ export interface DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestSpecToDefault {
   /**
   * If set to true, health check failure events will always be logged. If set to false, only the initial health check failure event will be logged. The default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#always_log_health_check_failures DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#always_log_health_check_failures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#always_log_health_check_failures DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#always_log_health_check_failures}
   */
   readonly alwaysLogHealthCheckFailures?: boolean | cdktf.IResolvable;
   /**
   * Specifies the path to the file where Envoy can log health check events. If empty, no event log will be written.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#event_log_path DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#event_log_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#event_log_path DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#event_log_path}
   */
   readonly eventLogPath?: string;
   /**
   * If set to true, Envoy will not consider any hosts when the cluster is in 'panic mode'. Instead, the cluster will fail all requests as if all hosts are unhealthy. This can help avoid potentially overwhelming a failing service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#fail_traffic_on_panic DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#fail_traffic_on_panic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#fail_traffic_on_panic DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#fail_traffic_on_panic}
   */
   readonly failTrafficOnPanic?: boolean | cdktf.IResolvable;
   /**
   * GrpcHealthCheck defines gRPC configuration which will instruct the service the health check will be made for is a gRPC service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#grpc DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#grpc DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#grpc}
   */
   readonly grpc?: DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestSpecToDefaultGrpc;
   /**
   * Allows to configure panic threshold for Envoy cluster. If not specified, the default is 50%. To disable panic mode, set to 0%. Either int or decimal represented as string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#healthy_panic_threshold DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#healthy_panic_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#healthy_panic_threshold DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#healthy_panic_threshold}
   */
   readonly healthyPanicThreshold?: string;
   /**
   * Number of consecutive healthy checks before considering a host healthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#healthy_threshold DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#healthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#healthy_threshold DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#healthy_threshold}
   */
   readonly healthyThreshold?: number;
   /**
   * HttpHealthCheck defines HTTP configuration which will instruct the service the health check will be made for is an HTTP service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#http DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#http DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#http}
   */
   readonly http?: DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestSpecToDefaultHttp;
   /**
   * If specified, Envoy will start health checking after a random time in ms between 0 and initialJitter. This only applies to the first health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#initial_jitter DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#initial_jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#initial_jitter DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#initial_jitter}
   */
   readonly initialJitter?: string;
   /**
   * Interval between consecutive health checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#interval DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#interval DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * If specified, during every interval Envoy will add IntervalJitter to the wait time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#interval_jitter DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#interval_jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#interval_jitter DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#interval_jitter}
   */
   readonly intervalJitter?: string;
   /**
   * If specified, during every interval Envoy will add IntervalJitter * IntervalJitterPercent / 100 to the wait time. If IntervalJitter and IntervalJitterPercent are both set, both of them will be used to increase the wait time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#interval_jitter_percent DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#interval_jitter_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#interval_jitter_percent DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#interval_jitter_percent}
   */
   readonly intervalJitterPercent?: number;
   /**
   * The 'no traffic interval' is a special health check interval that is used when a cluster has never had traffic routed to it. This lower interval allows cluster information to be kept up to date, without sending a potentially large amount of active health checking traffic for no reason. Once a cluster has been used for traffic routing, Envoy will shift back to using the standard health check interval that is defined. Note that this interval takes precedence over any other. The default value for 'no traffic interval' is 60 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#no_traffic_interval DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#no_traffic_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#no_traffic_interval DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#no_traffic_interval}
   */
   readonly noTrafficInterval?: string;
   /**
   * Reuse health check connection between health checks. Default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#reuse_connection DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#reuse_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#reuse_connection DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#reuse_connection}
   */
   readonly reuseConnection?: boolean | cdktf.IResolvable;
   /**
   * TcpHealthCheck defines configuration for specifying bytes to send and expected response during the health check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#tcp DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#tcp DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#tcp}
   */
   readonly tcp?: DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestSpecToDefaultTcp;
   /**
   * Maximum time to wait for a health check response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#timeout DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#timeout DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * Number of consecutive unhealthy checks before considering a host unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#unhealthy_threshold DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#unhealthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#unhealthy_threshold DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#unhealthy_threshold}
   */
   readonly unhealthyThreshold?: number;
 }
@@ -2127,49 +2127,49 @@ export interface DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestSpecToTargetRef {
   /**
   * Kind of the referenced resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#kind DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#kind DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Labels are used to select group of MeshServices that match labels. Either Labels or Name and Namespace can be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#labels DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#labels DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Mesh is reserved for future use to identify cross mesh resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#mesh DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#mesh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#mesh DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#mesh}
   */
   readonly mesh?: string;
   /**
   * Name of the referenced resource. Can only be used with kinds: 'MeshService', 'MeshServiceSubset' and 'MeshGatewayRoute'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#name DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#name DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace specifies the namespace of target resource. If empty only resources in policy namespace will be targeted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#namespace DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#namespace DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * ProxyTypes specifies the data plane types that are subject to the policy. When not specified, all data plane types are targeted by the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#proxy_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#proxy_types DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#proxy_types}
   */
   readonly proxyTypes?: string[];
   /**
   * SectionName is used to target specific section of resource. For example, you can target port from MeshService.ports[] by its name. Only traffic to this port will be affected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#section_name DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#section_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#section_name DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#section_name}
   */
   readonly sectionName?: string;
   /**
   * Tags used to select a subset of proxies by tags. Can only be used with kinds 'MeshSubset' and 'MeshServiceSubset'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#tags DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#tags DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -2468,13 +2468,13 @@ export interface DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestSpecTo {
   /**
   * Default is a configuration specific to the group of destinations referenced in 'targetRef'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#default DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#default DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#default}
   */
   readonly default?: DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestSpecToDefault;
   /**
   * TargetRef is a reference to the resource that represents a group of destinations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#target_ref DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#target_ref DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#target_ref}
   */
   readonly targetRef: DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestSpecToTargetRef;
 }
@@ -2618,13 +2618,13 @@ export interface DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestSpec {
   /**
   * TargetRef is a reference to the resource the policy takes an effect on. The resource could be either a real store object or virtual resource defined inplace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#target_ref DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#target_ref DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#target_ref}
   */
   readonly targetRef?: DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestSpecTargetRef;
   /**
   * To list makes a match between the consumed services and corresponding configurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#to DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#to DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest#to}
   */
   readonly to?: DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestSpecTo[] | cdktf.IResolvable;
 }
@@ -2747,7 +2747,7 @@ export class DataK8SKumaIoMeshHealthCheckV1Alpha1ManifestSpecOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest k8s_kuma_io_mesh_health_check_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest k8s_kuma_io_mesh_health_check_v1alpha1_manifest}
 */
 export class DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2763,7 +2763,7 @@ export class DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2775,7 +2775,7 @@ export class DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest k8s_kuma_io_mesh_health_check_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/kuma_io_mesh_health_check_v1alpha1_manifest k8s_kuma_io_mesh_health_check_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2786,8 +2786,8 @@ export class DataK8SKumaIoMeshHealthCheckV1Alpha1Manifest extends cdktf.Terrafor
       terraformResourceType: 'k8s_kuma_io_mesh_health_check_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

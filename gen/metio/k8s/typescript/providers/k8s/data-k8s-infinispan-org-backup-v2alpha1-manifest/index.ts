@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SInfinispanOrgBackupV2Alpha1ManifestConfig extends cdktf.
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#metadata DataK8SInfinispanOrgBackupV2Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#metadata DataK8SInfinispanOrgBackupV2Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SInfinispanOrgBackupV2Alpha1ManifestMetadata;
   /**
   * BackupSpec defines the desired state of Backup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#spec DataK8SInfinispanOrgBackupV2Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#spec DataK8SInfinispanOrgBackupV2Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SInfinispanOrgBackupV2Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SInfinispanOrgBackupV2Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#annotations DataK8SInfinispanOrgBackupV2Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#annotations DataK8SInfinispanOrgBackupV2Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#labels DataK8SInfinispanOrgBackupV2Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#labels DataK8SInfinispanOrgBackupV2Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#name DataK8SInfinispanOrgBackupV2Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#name DataK8SInfinispanOrgBackupV2Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#namespace DataK8SInfinispanOrgBackupV2Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#namespace DataK8SInfinispanOrgBackupV2Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,23 +217,23 @@ export class DataK8SInfinispanOrgBackupV2Alpha1ManifestMetadataOutputReference e
 }
 export interface DataK8SInfinispanOrgBackupV2Alpha1ManifestSpecContainer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#cli_extra_jvm_opts DataK8SInfinispanOrgBackupV2Alpha1Manifest#cli_extra_jvm_opts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#cli_extra_jvm_opts DataK8SInfinispanOrgBackupV2Alpha1Manifest#cli_extra_jvm_opts}
   */
   readonly cliExtraJvmOpts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#cpu DataK8SInfinispanOrgBackupV2Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#cpu DataK8SInfinispanOrgBackupV2Alpha1Manifest#cpu}
   */
   readonly cpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#extra_jvm_opts DataK8SInfinispanOrgBackupV2Alpha1Manifest#extra_jvm_opts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#extra_jvm_opts DataK8SInfinispanOrgBackupV2Alpha1Manifest#extra_jvm_opts}
   */
   readonly extraJvmOpts?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#memory DataK8SInfinispanOrgBackupV2Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#memory DataK8SInfinispanOrgBackupV2Alpha1Manifest#memory}
   */
   readonly memory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#router_extra_jvm_opts DataK8SInfinispanOrgBackupV2Alpha1Manifest#router_extra_jvm_opts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#router_extra_jvm_opts DataK8SInfinispanOrgBackupV2Alpha1Manifest#router_extra_jvm_opts}
   */
   readonly routerExtraJvmOpts?: string;
 }
@@ -445,33 +445,33 @@ export interface DataK8SInfinispanOrgBackupV2Alpha1ManifestSpecResources {
   /**
   * Deprecated and to be removed on subsequent release. Use .Templates instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#cache_configs DataK8SInfinispanOrgBackupV2Alpha1Manifest#cache_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#cache_configs DataK8SInfinispanOrgBackupV2Alpha1Manifest#cache_configs}
   */
   readonly cacheConfigs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#caches DataK8SInfinispanOrgBackupV2Alpha1Manifest#caches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#caches DataK8SInfinispanOrgBackupV2Alpha1Manifest#caches}
   */
   readonly caches?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#counters DataK8SInfinispanOrgBackupV2Alpha1Manifest#counters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#counters DataK8SInfinispanOrgBackupV2Alpha1Manifest#counters}
   */
   readonly counters?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#proto_schemas DataK8SInfinispanOrgBackupV2Alpha1Manifest#proto_schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#proto_schemas DataK8SInfinispanOrgBackupV2Alpha1Manifest#proto_schemas}
   */
   readonly protoSchemas?: string[];
   /**
   * Deprecated and to be removed on subsequent release. Use .Tasks instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#scripts DataK8SInfinispanOrgBackupV2Alpha1Manifest#scripts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#scripts DataK8SInfinispanOrgBackupV2Alpha1Manifest#scripts}
   */
   readonly scripts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#tasks DataK8SInfinispanOrgBackupV2Alpha1Manifest#tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#tasks DataK8SInfinispanOrgBackupV2Alpha1Manifest#tasks}
   */
   readonly tasks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#templates DataK8SInfinispanOrgBackupV2Alpha1Manifest#templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#templates DataK8SInfinispanOrgBackupV2Alpha1Manifest#templates}
   */
   readonly templates?: string[];
 }
@@ -739,13 +739,13 @@ export class DataK8SInfinispanOrgBackupV2Alpha1ManifestSpecResourcesOutputRefere
 }
 export interface DataK8SInfinispanOrgBackupV2Alpha1ManifestSpecVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#storage DataK8SInfinispanOrgBackupV2Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#storage DataK8SInfinispanOrgBackupV2Alpha1Manifest#storage}
   */
   readonly storage?: string;
   /**
   * Names the storage class object for persistent volume claims.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#storage_class_name DataK8SInfinispanOrgBackupV2Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#storage_class_name DataK8SInfinispanOrgBackupV2Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
 }
@@ -870,21 +870,21 @@ export interface DataK8SInfinispanOrgBackupV2Alpha1ManifestSpec {
   /**
   * Infinispan cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#cluster DataK8SInfinispanOrgBackupV2Alpha1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#cluster DataK8SInfinispanOrgBackupV2Alpha1Manifest#cluster}
   */
   readonly cluster: string;
   /**
   * InfinispanContainerSpec specify resource requirements per container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#container DataK8SInfinispanOrgBackupV2Alpha1Manifest#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#container DataK8SInfinispanOrgBackupV2Alpha1Manifest#container}
   */
   readonly container?: DataK8SInfinispanOrgBackupV2Alpha1ManifestSpecContainer;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#resources DataK8SInfinispanOrgBackupV2Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#resources DataK8SInfinispanOrgBackupV2Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SInfinispanOrgBackupV2Alpha1ManifestSpecResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#volume DataK8SInfinispanOrgBackupV2Alpha1Manifest#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#volume DataK8SInfinispanOrgBackupV2Alpha1Manifest#volume}
   */
   readonly volume?: DataK8SInfinispanOrgBackupV2Alpha1ManifestSpecVolume;
 }
@@ -1062,7 +1062,7 @@ export class DataK8SInfinispanOrgBackupV2Alpha1ManifestSpecOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest k8s_infinispan_org_backup_v2alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest k8s_infinispan_org_backup_v2alpha1_manifest}
 */
 export class DataK8SInfinispanOrgBackupV2Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1078,7 +1078,7 @@ export class DataK8SInfinispanOrgBackupV2Alpha1Manifest extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataK8SInfinispanOrgBackupV2Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SInfinispanOrgBackupV2Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SInfinispanOrgBackupV2Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SInfinispanOrgBackupV2Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SInfinispanOrgBackupV2Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1090,7 +1090,7 @@ export class DataK8SInfinispanOrgBackupV2Alpha1Manifest extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infinispan_org_backup_v2alpha1_manifest k8s_infinispan_org_backup_v2alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infinispan_org_backup_v2alpha1_manifest k8s_infinispan_org_backup_v2alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1101,8 +1101,8 @@ export class DataK8SInfinispanOrgBackupV2Alpha1Manifest extends cdktf.TerraformD
       terraformResourceType: 'k8s_infinispan_org_backup_v2alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

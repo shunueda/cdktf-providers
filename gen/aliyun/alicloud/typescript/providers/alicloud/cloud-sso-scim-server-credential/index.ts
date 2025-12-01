@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_sso_scim_server_credential
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_scim_server_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface CloudSsoScimServerCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_sso_scim_server_credential#credential_secret_file CloudSsoScimServerCredential#credential_secret_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_scim_server_credential#credential_secret_file CloudSsoScimServerCredential#credential_secret_file}
   */
   readonly credentialSecretFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_sso_scim_server_credential#directory_id CloudSsoScimServerCredential#directory_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_scim_server_credential#directory_id CloudSsoScimServerCredential#directory_id}
   */
   readonly directoryId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_sso_scim_server_credential#id CloudSsoScimServerCredential#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_scim_server_credential#id CloudSsoScimServerCredential#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_sso_scim_server_credential#status CloudSsoScimServerCredential#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_scim_server_credential#status CloudSsoScimServerCredential#status}
   */
   readonly status?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_sso_scim_server_credential alicloud_cloud_sso_scim_server_credential}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_scim_server_credential alicloud_cloud_sso_scim_server_credential}
 */
 export class CloudSsoScimServerCredential extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class CloudSsoScimServerCredential extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudSsoScimServerCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudSsoScimServerCredential to import
-  * @param importFromId The id of the existing CloudSsoScimServerCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_sso_scim_server_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudSsoScimServerCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_scim_server_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudSsoScimServerCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class CloudSsoScimServerCredential extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cloud_sso_scim_server_credential alicloud_cloud_sso_scim_server_credential} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cloud_sso_scim_server_credential alicloud_cloud_sso_scim_server_credential} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class CloudSsoScimServerCredential extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cloud_sso_scim_server_credential',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

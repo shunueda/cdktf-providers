@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_remote_write
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_remote_write
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface ArmsRemoteWriteConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_remote_write#cluster_id ArmsRemoteWrite#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_remote_write#cluster_id ArmsRemoteWrite#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_remote_write#id ArmsRemoteWrite#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_remote_write#id ArmsRemoteWrite#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_remote_write#remote_write_yaml ArmsRemoteWrite#remote_write_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_remote_write#remote_write_yaml ArmsRemoteWrite#remote_write_yaml}
   */
   readonly remoteWriteYaml: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_remote_write#timeouts ArmsRemoteWrite#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_remote_write#timeouts ArmsRemoteWrite#timeouts}
   */
   readonly timeouts?: ArmsRemoteWriteTimeouts;
 }
 export interface ArmsRemoteWriteTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_remote_write#create ArmsRemoteWrite#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_remote_write#create ArmsRemoteWrite#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_remote_write#delete ArmsRemoteWrite#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_remote_write#delete ArmsRemoteWrite#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_remote_write#update ArmsRemoteWrite#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_remote_write#update ArmsRemoteWrite#update}
   */
   readonly update?: string;
 }
@@ -191,7 +191,7 @@ export class ArmsRemoteWriteTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_remote_write alicloud_arms_remote_write}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_remote_write alicloud_arms_remote_write}
 */
 export class ArmsRemoteWrite extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class ArmsRemoteWrite extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArmsRemoteWrite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArmsRemoteWrite to import
-  * @param importFromId The id of the existing ArmsRemoteWrite that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_remote_write#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArmsRemoteWrite that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_remote_write#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArmsRemoteWrite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class ArmsRemoteWrite extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/arms_remote_write alicloud_arms_remote_write} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/arms_remote_write alicloud_arms_remote_write} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class ArmsRemoteWrite extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_arms_remote_write',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

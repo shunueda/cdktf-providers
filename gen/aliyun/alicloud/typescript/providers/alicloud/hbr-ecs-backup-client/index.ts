@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_ecs_backup_client
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface HbrEcsBackupClientConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_ecs_backup_client#data_network_type HbrEcsBackupClient#data_network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_client#data_network_type HbrEcsBackupClient#data_network_type}
   */
   readonly dataNetworkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_ecs_backup_client#data_proxy_setting HbrEcsBackupClient#data_proxy_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_client#data_proxy_setting HbrEcsBackupClient#data_proxy_setting}
   */
   readonly dataProxySetting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_ecs_backup_client#id HbrEcsBackupClient#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_client#id HbrEcsBackupClient#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_ecs_backup_client#instance_id HbrEcsBackupClient#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_client#instance_id HbrEcsBackupClient#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_ecs_backup_client#max_cpu_core HbrEcsBackupClient#max_cpu_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_client#max_cpu_core HbrEcsBackupClient#max_cpu_core}
   */
   readonly maxCpuCore?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_ecs_backup_client#max_worker HbrEcsBackupClient#max_worker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_client#max_worker HbrEcsBackupClient#max_worker}
   */
   readonly maxWorker?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_ecs_backup_client#proxy_host HbrEcsBackupClient#proxy_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_client#proxy_host HbrEcsBackupClient#proxy_host}
   */
   readonly proxyHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_ecs_backup_client#proxy_password HbrEcsBackupClient#proxy_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_client#proxy_password HbrEcsBackupClient#proxy_password}
   */
   readonly proxyPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_ecs_backup_client#proxy_port HbrEcsBackupClient#proxy_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_client#proxy_port HbrEcsBackupClient#proxy_port}
   */
   readonly proxyPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_ecs_backup_client#proxy_user HbrEcsBackupClient#proxy_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_client#proxy_user HbrEcsBackupClient#proxy_user}
   */
   readonly proxyUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_ecs_backup_client#status HbrEcsBackupClient#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_client#status HbrEcsBackupClient#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_ecs_backup_client#use_https HbrEcsBackupClient#use_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_client#use_https HbrEcsBackupClient#use_https}
   */
   readonly useHttps?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_ecs_backup_client#timeouts HbrEcsBackupClient#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_client#timeouts HbrEcsBackupClient#timeouts}
   */
   readonly timeouts?: HbrEcsBackupClientTimeouts;
 }
 export interface HbrEcsBackupClientTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_ecs_backup_client#create HbrEcsBackupClient#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_client#create HbrEcsBackupClient#create}
   */
   readonly create?: string;
 }
@@ -161,7 +161,7 @@ export class HbrEcsBackupClientTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_ecs_backup_client alicloud_hbr_ecs_backup_client}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_client alicloud_hbr_ecs_backup_client}
 */
 export class HbrEcsBackupClient extends cdktf.TerraformResource {
 
@@ -177,7 +177,7 @@ export class HbrEcsBackupClient extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HbrEcsBackupClient resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HbrEcsBackupClient to import
-  * @param importFromId The id of the existing HbrEcsBackupClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_ecs_backup_client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HbrEcsBackupClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HbrEcsBackupClient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -189,7 +189,7 @@ export class HbrEcsBackupClient extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_ecs_backup_client alicloud_hbr_ecs_backup_client} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_ecs_backup_client alicloud_hbr_ecs_backup_client} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -200,8 +200,8 @@ export class HbrEcsBackupClient extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_hbr_ecs_backup_client',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

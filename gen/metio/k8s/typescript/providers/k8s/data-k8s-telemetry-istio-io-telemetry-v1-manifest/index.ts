@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8STelemetryIstioIoTelemetryV1ManifestConfig extends cdktf.
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#metadata DataK8STelemetryIstioIoTelemetryV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#metadata DataK8STelemetryIstioIoTelemetryV1Manifest#metadata}
   */
   readonly metadata: DataK8STelemetryIstioIoTelemetryV1ManifestMetadata;
   /**
   * Telemetry configuration for workloads. See more details at: https://istio.io/docs/reference/config/telemetry.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#spec DataK8STelemetryIstioIoTelemetryV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#spec DataK8STelemetryIstioIoTelemetryV1Manifest#spec}
   */
   readonly spec?: DataK8STelemetryIstioIoTelemetryV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8STelemetryIstioIoTelemetryV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#annotations DataK8STelemetryIstioIoTelemetryV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#annotations DataK8STelemetryIstioIoTelemetryV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#labels DataK8STelemetryIstioIoTelemetryV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#labels DataK8STelemetryIstioIoTelemetryV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#name DataK8STelemetryIstioIoTelemetryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#name DataK8STelemetryIstioIoTelemetryV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#namespace DataK8STelemetryIstioIoTelemetryV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#namespace DataK8STelemetryIstioIoTelemetryV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8STelemetryIstioIoTelemetryV1ManifestSpecAccessLoggingFilt
   /**
   * CEL expression for selecting when requests/connections should be logged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#expression DataK8STelemetryIstioIoTelemetryV1Manifest#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#expression DataK8STelemetryIstioIoTelemetryV1Manifest#expression}
   */
   readonly expression?: string;
 }
@@ -315,7 +315,7 @@ export interface DataK8STelemetryIstioIoTelemetryV1ManifestSpecAccessLoggingMatc
   /**
   * This determines whether or not to apply the access logging configuration based on the direction of traffic relative to the proxied workload. Valid Options: CLIENT_AND_SERVER, CLIENT, SERVER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#mode DataK8STelemetryIstioIoTelemetryV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#mode DataK8STelemetryIstioIoTelemetryV1Manifest#mode}
   */
   readonly mode?: string;
 }
@@ -411,7 +411,7 @@ export interface DataK8STelemetryIstioIoTelemetryV1ManifestSpecAccessLoggingProv
   /**
   * Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#name DataK8STelemetryIstioIoTelemetryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#name DataK8STelemetryIstioIoTelemetryV1Manifest#name}
   */
   readonly name: string;
 }
@@ -526,25 +526,25 @@ export interface DataK8STelemetryIstioIoTelemetryV1ManifestSpecAccessLogging {
   /**
   * Controls logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#disabled DataK8STelemetryIstioIoTelemetryV1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#disabled DataK8STelemetryIstioIoTelemetryV1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#filter DataK8STelemetryIstioIoTelemetryV1Manifest#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#filter DataK8STelemetryIstioIoTelemetryV1Manifest#filter}
   */
   readonly filter?: DataK8STelemetryIstioIoTelemetryV1ManifestSpecAccessLoggingFilter;
   /**
   * Allows tailoring of logging behavior to specific conditions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#match DataK8STelemetryIstioIoTelemetryV1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#match DataK8STelemetryIstioIoTelemetryV1Manifest#match}
   */
   readonly match?: DataK8STelemetryIstioIoTelemetryV1ManifestSpecAccessLoggingMatch;
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#providers DataK8STelemetryIstioIoTelemetryV1Manifest#providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#providers DataK8STelemetryIstioIoTelemetryV1Manifest#providers}
   */
   readonly providers?: DataK8STelemetryIstioIoTelemetryV1ManifestSpecAccessLoggingProviders[] | cdktf.IResolvable;
 }
@@ -749,19 +749,19 @@ export interface DataK8STelemetryIstioIoTelemetryV1ManifestSpecMetricsOverridesM
   /**
   * Allows free-form specification of a metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#custom_metric DataK8STelemetryIstioIoTelemetryV1Manifest#custom_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#custom_metric DataK8STelemetryIstioIoTelemetryV1Manifest#custom_metric}
   */
   readonly customMetric?: string;
   /**
   * One of the well-known [Istio Standard Metrics](https://istio.io/latest/docs/reference/config/metrics/). Valid Options: ALL_METRICS, REQUEST_COUNT, REQUEST_DURATION, REQUEST_SIZE, RESPONSE_SIZE, TCP_OPENED_CONNECTIONS, TCP_CLOSED_CONNECTIONS, TCP_SENT_BYTES, TCP_RECEIVED_BYTES, GRPC_REQUEST_MESSAGES, GRPC_RESPONSE_MESSAGES
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#metric DataK8STelemetryIstioIoTelemetryV1Manifest#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#metric DataK8STelemetryIstioIoTelemetryV1Manifest#metric}
   */
   readonly metric?: string;
   /**
   * Controls which mode of metrics generation is selected: 'CLIENT', 'SERVER', or 'CLIENT_AND_SERVER'. Valid Options: CLIENT_AND_SERVER, CLIENT, SERVER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#mode DataK8STelemetryIstioIoTelemetryV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#mode DataK8STelemetryIstioIoTelemetryV1Manifest#mode}
   */
   readonly mode?: string;
 }
@@ -915,13 +915,13 @@ export interface DataK8STelemetryIstioIoTelemetryV1ManifestSpecMetricsOverridesT
   /**
   * Operation controls whether or not to update/add a tag, or to remove it. Valid Options: UPSERT, REMOVE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#operation DataK8STelemetryIstioIoTelemetryV1Manifest#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#operation DataK8STelemetryIstioIoTelemetryV1Manifest#operation}
   */
   readonly operation?: string;
   /**
   * Value is only considered if the operation is 'UPSERT'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#value DataK8STelemetryIstioIoTelemetryV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#value DataK8STelemetryIstioIoTelemetryV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1046,19 +1046,19 @@ export interface DataK8STelemetryIstioIoTelemetryV1ManifestSpecMetricsOverrides 
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#disabled DataK8STelemetryIstioIoTelemetryV1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#disabled DataK8STelemetryIstioIoTelemetryV1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Match allows providing the scope of the override.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#match DataK8STelemetryIstioIoTelemetryV1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#match DataK8STelemetryIstioIoTelemetryV1Manifest#match}
   */
   readonly match?: DataK8STelemetryIstioIoTelemetryV1ManifestSpecMetricsOverridesMatch;
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#tag_overrides DataK8STelemetryIstioIoTelemetryV1Manifest#tag_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#tag_overrides DataK8STelemetryIstioIoTelemetryV1Manifest#tag_overrides}
   */
   readonly tagOverrides?: DataK8STelemetryIstioIoTelemetryV1ManifestSpecMetricsOverridesTagOverrides;
 }
@@ -1234,7 +1234,7 @@ export interface DataK8STelemetryIstioIoTelemetryV1ManifestSpecMetricsProviders 
   /**
   * Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#name DataK8STelemetryIstioIoTelemetryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#name DataK8STelemetryIstioIoTelemetryV1Manifest#name}
   */
   readonly name: string;
 }
@@ -1349,19 +1349,19 @@ export interface DataK8STelemetryIstioIoTelemetryV1ManifestSpecMetrics {
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#overrides DataK8STelemetryIstioIoTelemetryV1Manifest#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#overrides DataK8STelemetryIstioIoTelemetryV1Manifest#overrides}
   */
   readonly overrides?: DataK8STelemetryIstioIoTelemetryV1ManifestSpecMetricsOverrides[] | cdktf.IResolvable;
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#providers DataK8STelemetryIstioIoTelemetryV1Manifest#providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#providers DataK8STelemetryIstioIoTelemetryV1Manifest#providers}
   */
   readonly providers?: DataK8STelemetryIstioIoTelemetryV1ManifestSpecMetricsProviders[] | cdktf.IResolvable;
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#reporting_interval DataK8STelemetryIstioIoTelemetryV1Manifest#reporting_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#reporting_interval DataK8STelemetryIstioIoTelemetryV1Manifest#reporting_interval}
   */
   readonly reportingInterval?: string;
 }
@@ -1537,7 +1537,7 @@ export interface DataK8STelemetryIstioIoTelemetryV1ManifestSpecSelector {
   /**
   * One or more labels that indicate a specific set of pods/VMs on which a policy should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#match_labels DataK8STelemetryIstioIoTelemetryV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#match_labels DataK8STelemetryIstioIoTelemetryV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1633,25 +1633,25 @@ export interface DataK8STelemetryIstioIoTelemetryV1ManifestSpecTargetRef {
   /**
   * group is the group of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#group DataK8STelemetryIstioIoTelemetryV1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#group DataK8STelemetryIstioIoTelemetryV1Manifest#group}
   */
   readonly group?: string;
   /**
   * kind is kind of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#kind DataK8STelemetryIstioIoTelemetryV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#kind DataK8STelemetryIstioIoTelemetryV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * name is the name of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#name DataK8STelemetryIstioIoTelemetryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#name DataK8STelemetryIstioIoTelemetryV1Manifest#name}
   */
   readonly name: string;
   /**
   * namespace is the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#namespace DataK8STelemetryIstioIoTelemetryV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#namespace DataK8STelemetryIstioIoTelemetryV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1828,25 +1828,25 @@ export interface DataK8STelemetryIstioIoTelemetryV1ManifestSpecTargetRefs {
   /**
   * group is the group of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#group DataK8STelemetryIstioIoTelemetryV1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#group DataK8STelemetryIstioIoTelemetryV1Manifest#group}
   */
   readonly group?: string;
   /**
   * kind is kind of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#kind DataK8STelemetryIstioIoTelemetryV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#kind DataK8STelemetryIstioIoTelemetryV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * name is the name of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#name DataK8STelemetryIstioIoTelemetryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#name DataK8STelemetryIstioIoTelemetryV1Manifest#name}
   */
   readonly name: string;
   /**
   * namespace is the namespace of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#namespace DataK8STelemetryIstioIoTelemetryV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#namespace DataK8STelemetryIstioIoTelemetryV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2045,13 +2045,13 @@ export interface DataK8STelemetryIstioIoTelemetryV1ManifestSpecTracingCustomTags
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#default_value DataK8STelemetryIstioIoTelemetryV1Manifest#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#default_value DataK8STelemetryIstioIoTelemetryV1Manifest#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Name of the environment variable from which to extract the tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#name DataK8STelemetryIstioIoTelemetryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#name DataK8STelemetryIstioIoTelemetryV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2173,13 +2173,13 @@ export interface DataK8STelemetryIstioIoTelemetryV1ManifestSpecTracingCustomTags
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#default_value DataK8STelemetryIstioIoTelemetryV1Manifest#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#default_value DataK8STelemetryIstioIoTelemetryV1Manifest#default_value}
   */
   readonly defaultValue?: string;
   /**
   * Name of the header from which to extract the tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#name DataK8STelemetryIstioIoTelemetryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#name DataK8STelemetryIstioIoTelemetryV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2301,7 +2301,7 @@ export interface DataK8STelemetryIstioIoTelemetryV1ManifestSpecTracingCustomTags
   /**
   * The tag value to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#value DataK8STelemetryIstioIoTelemetryV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#value DataK8STelemetryIstioIoTelemetryV1Manifest#value}
   */
   readonly value: string;
 }
@@ -2394,19 +2394,19 @@ export interface DataK8STelemetryIstioIoTelemetryV1ManifestSpecTracingCustomTags
   /**
   * Environment adds the value of an environment variable to each span.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#environment DataK8STelemetryIstioIoTelemetryV1Manifest#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#environment DataK8STelemetryIstioIoTelemetryV1Manifest#environment}
   */
   readonly environment?: DataK8STelemetryIstioIoTelemetryV1ManifestSpecTracingCustomTagsEnvironment;
   /**
   * RequestHeader adds the value of an header from the request to each span.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#header DataK8STelemetryIstioIoTelemetryV1Manifest#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#header DataK8STelemetryIstioIoTelemetryV1Manifest#header}
   */
   readonly header?: DataK8STelemetryIstioIoTelemetryV1ManifestSpecTracingCustomTagsHeader;
   /**
   * Literal adds the same, hard-coded value to each span.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#literal DataK8STelemetryIstioIoTelemetryV1Manifest#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#literal DataK8STelemetryIstioIoTelemetryV1Manifest#literal}
   */
   readonly literal?: DataK8STelemetryIstioIoTelemetryV1ManifestSpecTracingCustomTagsLiteral;
 }
@@ -2560,7 +2560,7 @@ export interface DataK8STelemetryIstioIoTelemetryV1ManifestSpecTracingMatch {
   /**
   * This determines whether or not to apply the tracing configuration based on the direction of traffic relative to the proxied workload. Valid Options: CLIENT_AND_SERVER, CLIENT, SERVER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#mode DataK8STelemetryIstioIoTelemetryV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#mode DataK8STelemetryIstioIoTelemetryV1Manifest#mode}
   */
   readonly mode?: string;
 }
@@ -2656,7 +2656,7 @@ export interface DataK8STelemetryIstioIoTelemetryV1ManifestSpecTracingProviders 
   /**
   * Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#name DataK8STelemetryIstioIoTelemetryV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#name DataK8STelemetryIstioIoTelemetryV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2771,35 +2771,35 @@ export interface DataK8STelemetryIstioIoTelemetryV1ManifestSpecTracing {
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#custom_tags DataK8STelemetryIstioIoTelemetryV1Manifest#custom_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#custom_tags DataK8STelemetryIstioIoTelemetryV1Manifest#custom_tags}
   */
   readonly customTags?: DataK8STelemetryIstioIoTelemetryV1ManifestSpecTracingCustomTags;
   /**
   * Controls span reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#disable_span_reporting DataK8STelemetryIstioIoTelemetryV1Manifest#disable_span_reporting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#disable_span_reporting DataK8STelemetryIstioIoTelemetryV1Manifest#disable_span_reporting}
   */
   readonly disableSpanReporting?: boolean | cdktf.IResolvable;
   /**
   * Allows tailoring of behavior to specific conditions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#match DataK8STelemetryIstioIoTelemetryV1Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#match DataK8STelemetryIstioIoTelemetryV1Manifest#match}
   */
   readonly match?: DataK8STelemetryIstioIoTelemetryV1ManifestSpecTracingMatch;
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#providers DataK8STelemetryIstioIoTelemetryV1Manifest#providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#providers DataK8STelemetryIstioIoTelemetryV1Manifest#providers}
   */
   readonly providers?: DataK8STelemetryIstioIoTelemetryV1ManifestSpecTracingProviders[] | cdktf.IResolvable;
   /**
   * Controls the rate at which traffic will be selected for tracing if no prior sampling decision has been made.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#random_sampling_percentage DataK8STelemetryIstioIoTelemetryV1Manifest#random_sampling_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#random_sampling_percentage DataK8STelemetryIstioIoTelemetryV1Manifest#random_sampling_percentage}
   */
   readonly randomSamplingPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#use_request_id_for_trace_sampling DataK8STelemetryIstioIoTelemetryV1Manifest#use_request_id_for_trace_sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#use_request_id_for_trace_sampling DataK8STelemetryIstioIoTelemetryV1Manifest#use_request_id_for_trace_sampling}
   */
   readonly useRequestIdForTraceSampling?: boolean | cdktf.IResolvable;
 }
@@ -3062,35 +3062,35 @@ export interface DataK8STelemetryIstioIoTelemetryV1ManifestSpec {
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#access_logging DataK8STelemetryIstioIoTelemetryV1Manifest#access_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#access_logging DataK8STelemetryIstioIoTelemetryV1Manifest#access_logging}
   */
   readonly accessLogging?: DataK8STelemetryIstioIoTelemetryV1ManifestSpecAccessLogging[] | cdktf.IResolvable;
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#metrics DataK8STelemetryIstioIoTelemetryV1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#metrics DataK8STelemetryIstioIoTelemetryV1Manifest#metrics}
   */
   readonly metrics?: DataK8STelemetryIstioIoTelemetryV1ManifestSpecMetrics[] | cdktf.IResolvable;
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#selector DataK8STelemetryIstioIoTelemetryV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#selector DataK8STelemetryIstioIoTelemetryV1Manifest#selector}
   */
   readonly selector?: DataK8STelemetryIstioIoTelemetryV1ManifestSpecSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#target_ref DataK8STelemetryIstioIoTelemetryV1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#target_ref DataK8STelemetryIstioIoTelemetryV1Manifest#target_ref}
   */
   readonly targetRef?: DataK8STelemetryIstioIoTelemetryV1ManifestSpecTargetRef;
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#target_refs DataK8STelemetryIstioIoTelemetryV1Manifest#target_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#target_refs DataK8STelemetryIstioIoTelemetryV1Manifest#target_refs}
   */
   readonly targetRefs?: DataK8STelemetryIstioIoTelemetryV1ManifestSpecTargetRefs[] | cdktf.IResolvable;
   /**
   * Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#tracing DataK8STelemetryIstioIoTelemetryV1Manifest#tracing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#tracing DataK8STelemetryIstioIoTelemetryV1Manifest#tracing}
   */
   readonly tracing?: DataK8STelemetryIstioIoTelemetryV1ManifestSpecTracing[] | cdktf.IResolvable;
 }
@@ -3329,7 +3329,7 @@ export class DataK8STelemetryIstioIoTelemetryV1ManifestSpecOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest k8s_telemetry_istio_io_telemetry_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest k8s_telemetry_istio_io_telemetry_v1_manifest}
 */
 export class DataK8STelemetryIstioIoTelemetryV1Manifest extends cdktf.TerraformDataSource {
 
@@ -3345,7 +3345,7 @@ export class DataK8STelemetryIstioIoTelemetryV1Manifest extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataK8STelemetryIstioIoTelemetryV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STelemetryIstioIoTelemetryV1Manifest to import
-  * @param importFromId The id of the existing DataK8STelemetryIstioIoTelemetryV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STelemetryIstioIoTelemetryV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STelemetryIstioIoTelemetryV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3357,7 +3357,7 @@ export class DataK8STelemetryIstioIoTelemetryV1Manifest extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest k8s_telemetry_istio_io_telemetry_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/telemetry_istio_io_telemetry_v1_manifest k8s_telemetry_istio_io_telemetry_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3368,8 +3368,8 @@ export class DataK8STelemetryIstioIoTelemetryV1Manifest extends cdktf.TerraformD
       terraformResourceType: 'k8s_telemetry_istio_io_telemetry_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

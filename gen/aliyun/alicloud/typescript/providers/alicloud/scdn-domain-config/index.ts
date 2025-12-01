@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/scdn_domain_config
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/scdn_domain_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface ScdnDomainConfigAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/scdn_domain_config#domain_name ScdnDomainConfigA#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/scdn_domain_config#domain_name ScdnDomainConfigA#domain_name}
   */
   readonly domainName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/scdn_domain_config#function_name ScdnDomainConfigA#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/scdn_domain_config#function_name ScdnDomainConfigA#function_name}
   */
   readonly functionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/scdn_domain_config#id ScdnDomainConfigA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/scdn_domain_config#id ScdnDomainConfigA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,17 +25,17 @@ export interface ScdnDomainConfigAConfig extends cdktf.TerraformMetaArguments {
   /**
   * function_args block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/scdn_domain_config#function_args ScdnDomainConfigA#function_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/scdn_domain_config#function_args ScdnDomainConfigA#function_args}
   */
   readonly functionArgs: ScdnDomainConfigFunctionArgs[] | cdktf.IResolvable;
 }
 export interface ScdnDomainConfigFunctionArgs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/scdn_domain_config#arg_name ScdnDomainConfigA#arg_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/scdn_domain_config#arg_name ScdnDomainConfigA#arg_name}
   */
   readonly argName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/scdn_domain_config#arg_value ScdnDomainConfigA#arg_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/scdn_domain_config#arg_value ScdnDomainConfigA#arg_value}
   */
   readonly argValue: string;
 }
@@ -174,7 +174,7 @@ export class ScdnDomainConfigFunctionArgsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/scdn_domain_config alicloud_scdn_domain_config}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/scdn_domain_config alicloud_scdn_domain_config}
 */
 export class ScdnDomainConfigA extends cdktf.TerraformResource {
 
@@ -190,7 +190,7 @@ export class ScdnDomainConfigA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScdnDomainConfigA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScdnDomainConfigA to import
-  * @param importFromId The id of the existing ScdnDomainConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/scdn_domain_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScdnDomainConfigA that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/scdn_domain_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScdnDomainConfigA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class ScdnDomainConfigA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/scdn_domain_config alicloud_scdn_domain_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/scdn_domain_config alicloud_scdn_domain_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,8 +213,8 @@ export class ScdnDomainConfigA extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_scdn_domain_config',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

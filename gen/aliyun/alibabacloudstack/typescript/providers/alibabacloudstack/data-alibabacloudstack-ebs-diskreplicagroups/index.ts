@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ebs_diskreplicagroups
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ebs_diskreplicagroups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackEbsDiskreplicagroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ebs_diskreplicagroups#description_regex DataAlibabacloudstackEbsDiskreplicagroups#description_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ebs_diskreplicagroups#description_regex DataAlibabacloudstackEbsDiskreplicagroups#description_regex}
   */
   readonly descriptionRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ebs_diskreplicagroups#id DataAlibabacloudstackEbsDiskreplicagroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ebs_diskreplicagroups#id DataAlibabacloudstackEbsDiskreplicagroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ebs_diskreplicagroups#ids DataAlibabacloudstackEbsDiskreplicagroups#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ebs_diskreplicagroups#ids DataAlibabacloudstackEbsDiskreplicagroups#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ebs_diskreplicagroups#name_regex DataAlibabacloudstackEbsDiskreplicagroups#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ebs_diskreplicagroups#name_regex DataAlibabacloudstackEbsDiskreplicagroups#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ebs_diskreplicagroups#site DataAlibabacloudstackEbsDiskreplicagroups#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ebs_diskreplicagroups#site DataAlibabacloudstackEbsDiskreplicagroups#site}
   */
   readonly site?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ebs_diskreplicagroups#source_region_id DataAlibabacloudstackEbsDiskreplicagroups#source_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ebs_diskreplicagroups#source_region_id DataAlibabacloudstackEbsDiskreplicagroups#source_region_id}
   */
   readonly sourceRegionId?: string;
 }
@@ -268,7 +268,7 @@ export class DataAlibabacloudstackEbsDiskreplicagroupsDiskReplicaGroupsList exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ebs_diskreplicagroups alibabacloudstack_ebs_diskreplicagroups}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ebs_diskreplicagroups alibabacloudstack_ebs_diskreplicagroups}
 */
 export class DataAlibabacloudstackEbsDiskreplicagroups extends cdktf.TerraformDataSource {
 
@@ -284,7 +284,7 @@ export class DataAlibabacloudstackEbsDiskreplicagroups extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataAlibabacloudstackEbsDiskreplicagroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackEbsDiskreplicagroups to import
-  * @param importFromId The id of the existing DataAlibabacloudstackEbsDiskreplicagroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ebs_diskreplicagroups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackEbsDiskreplicagroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ebs_diskreplicagroups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackEbsDiskreplicagroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -296,7 +296,7 @@ export class DataAlibabacloudstackEbsDiskreplicagroups extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/ebs_diskreplicagroups alibabacloudstack_ebs_diskreplicagroups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/ebs_diskreplicagroups alibabacloudstack_ebs_diskreplicagroups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -307,7 +307,8 @@ export class DataAlibabacloudstackEbsDiskreplicagroups extends cdktf.TerraformDa
       terraformResourceType: 'alibabacloudstack_ebs_diskreplicagroups',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_instance_cross_backup_policy
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_instance_cross_backup_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface RdsInstanceCrossBackupPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_instance_cross_backup_policy#cross_backup_region RdsInstanceCrossBackupPolicy#cross_backup_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_instance_cross_backup_policy#cross_backup_region RdsInstanceCrossBackupPolicy#cross_backup_region}
   */
   readonly crossBackupRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_instance_cross_backup_policy#id RdsInstanceCrossBackupPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_instance_cross_backup_policy#id RdsInstanceCrossBackupPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_instance_cross_backup_policy#instance_id RdsInstanceCrossBackupPolicy#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_instance_cross_backup_policy#instance_id RdsInstanceCrossBackupPolicy#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_instance_cross_backup_policy#log_backup_enabled RdsInstanceCrossBackupPolicy#log_backup_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_instance_cross_backup_policy#log_backup_enabled RdsInstanceCrossBackupPolicy#log_backup_enabled}
   */
   readonly logBackupEnabled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_instance_cross_backup_policy#retention RdsInstanceCrossBackupPolicy#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_instance_cross_backup_policy#retention RdsInstanceCrossBackupPolicy#retention}
   */
   readonly retention?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_instance_cross_backup_policy#timeouts RdsInstanceCrossBackupPolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_instance_cross_backup_policy#timeouts RdsInstanceCrossBackupPolicy#timeouts}
   */
   readonly timeouts?: RdsInstanceCrossBackupPolicyTimeouts;
 }
 export interface RdsInstanceCrossBackupPolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_instance_cross_backup_policy#create RdsInstanceCrossBackupPolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_instance_cross_backup_policy#create RdsInstanceCrossBackupPolicy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_instance_cross_backup_policy#delete RdsInstanceCrossBackupPolicy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_instance_cross_backup_policy#delete RdsInstanceCrossBackupPolicy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_instance_cross_backup_policy#update RdsInstanceCrossBackupPolicy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_instance_cross_backup_policy#update RdsInstanceCrossBackupPolicy#update}
   */
   readonly update?: string;
 }
@@ -199,7 +199,7 @@ export class RdsInstanceCrossBackupPolicyTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_instance_cross_backup_policy alicloud_rds_instance_cross_backup_policy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_instance_cross_backup_policy alicloud_rds_instance_cross_backup_policy}
 */
 export class RdsInstanceCrossBackupPolicy extends cdktf.TerraformResource {
 
@@ -215,7 +215,7 @@ export class RdsInstanceCrossBackupPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RdsInstanceCrossBackupPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsInstanceCrossBackupPolicy to import
-  * @param importFromId The id of the existing RdsInstanceCrossBackupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_instance_cross_backup_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsInstanceCrossBackupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_instance_cross_backup_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsInstanceCrossBackupPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -227,7 +227,7 @@ export class RdsInstanceCrossBackupPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_instance_cross_backup_policy alicloud_rds_instance_cross_backup_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_instance_cross_backup_policy alicloud_rds_instance_cross_backup_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -238,8 +238,8 @@ export class RdsInstanceCrossBackupPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_rds_instance_cross_backup_policy',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

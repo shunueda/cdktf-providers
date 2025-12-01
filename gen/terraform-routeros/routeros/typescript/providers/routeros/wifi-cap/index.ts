@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_cap
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_cap
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface WifiCapConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_cap#___path___ WifiCap#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_cap#___path___ WifiCap#___path___}
   */
   readonly path?: string;
   /**
   * List of Manager IP addresses that CAP will attempt to contact during discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_cap#caps_man_addresses WifiCap#caps_man_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_cap#caps_man_addresses WifiCap#caps_man_addresses}
   */
   readonly capsManAddresses?: string[];
   /**
   * List of manager certificate common names that CAP will connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_cap#caps_man_certificate_common_names WifiCap#caps_man_certificate_common_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_cap#caps_man_certificate_common_names WifiCap#caps_man_certificate_common_names}
   */
   readonly capsManCertificateCommonNames?: string[];
   /**
   * An ordered list of CAPs Manager names that the CAP will connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_cap#caps_man_names WifiCap#caps_man_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_cap#caps_man_names WifiCap#caps_man_names}
   */
   readonly capsManNames?: string[];
   /**
   * Certificate to use for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_cap#certificate WifiCap#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_cap#certificate WifiCap#certificate}
   */
   readonly certificate?: string;
   /**
   * List of interfaces over which CAP should attempt to discover CAPs Manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_cap#discovery_interfaces WifiCap#discovery_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_cap#discovery_interfaces WifiCap#discovery_interfaces}
   */
   readonly discoveryInterfaces?: string[];
   /**
   * Disable or enable the CAP functionality.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_cap#enabled WifiCap#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_cap#enabled WifiCap#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_cap#id WifiCap#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_cap#id WifiCap#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,25 +59,25 @@ export interface WifiCapConfig extends cdktf.TerraformMetaArguments {
   /**
   * Lock CAP to the first CAPsMAN it connects to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_cap#lock_to_caps_man WifiCap#lock_to_caps_man}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_cap#lock_to_caps_man WifiCap#lock_to_caps_man}
   */
   readonly lockToCapsMan?: boolean | cdktf.IResolvable;
   /**
   * Name of the bridge interface the CAP will be added to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_cap#slaves_datapath WifiCap#slaves_datapath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_cap#slaves_datapath WifiCap#slaves_datapath}
   */
   readonly slavesDatapath?: string;
   /**
   * An option that creates static virtual interfaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_cap#slaves_static WifiCap#slaves_static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_cap#slaves_static WifiCap#slaves_static}
   */
   readonly slavesStatic?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_cap routeros_wifi_cap}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_cap routeros_wifi_cap}
 */
 export class WifiCap extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class WifiCap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WifiCap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WifiCap to import
-  * @param importFromId The id of the existing WifiCap that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_cap#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WifiCap that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_cap#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WifiCap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class WifiCap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/wifi_cap routeros_wifi_cap} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/wifi_cap routeros_wifi_cap} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class WifiCap extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_wifi_cap',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.94.0',
-        providerVersionConstraint: '1.94.0'
+        providerVersion: '1.95.0',
+        providerVersionConstraint: '1.95.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

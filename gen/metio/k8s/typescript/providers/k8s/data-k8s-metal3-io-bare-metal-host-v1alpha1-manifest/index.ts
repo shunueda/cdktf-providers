@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SMetal3IoBareMetalHostV1Alpha1ManifestConfig extends cdkt
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#metadata DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#metadata DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SMetal3IoBareMetalHostV1Alpha1ManifestMetadata;
   /**
   * BareMetalHostSpec defines the desired state of BareMetalHost.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#spec DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#spec DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SMetal3IoBareMetalHostV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#annotations DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#annotations DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#labels DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#labels DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#name DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#name DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#namespace DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#namespace DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecBmc {
   /**
   * Address holds the URL for accessing the controller on the network. The scheme part designates the driver to use with the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#address DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#address DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#address}
   */
   readonly address: string;
   /**
   * The name of the secret containing the BMC credentials (requires keys 'username' and 'password').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#credentials_name DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#credentials_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#credentials_name DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#credentials_name}
   */
   readonly credentialsName: string;
   /**
   * DisableCertificateVerification disables verification of server certificates when using HTTPS to connect to the BMC. This is required when the server certificate is self-signed, but is insecure because it allows a man-in-the-middle to intercept the connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#disable_certificate_verification DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#disable_certificate_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#disable_certificate_verification DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#disable_certificate_verification}
   */
   readonly disableCertificateVerification?: boolean | cdktf.IResolvable;
 }
@@ -379,43 +379,43 @@ export interface DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecConsumerRef {
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#api_version DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#api_version DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object. TODO: this design is not final and this field is subject to change in the future.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#field_path DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#field_path DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#kind DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#kind DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#name DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#name DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#namespace DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#namespace DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#resource_version DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#resource_version DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#uid DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#uid DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -685,7 +685,7 @@ export interface DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecCustomDeploy {
   /**
   * Custom deploy method name. This name is specific to the deploy ramdisk used. If you don't have a custom deploy ramdisk, you shouldn't use CustomDeploy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#method DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#method DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#method}
   */
   readonly method: string;
 }
@@ -778,19 +778,19 @@ export interface DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecFirmware {
   /**
   * Allows a single physical processor core to appear as several logical processors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#simultaneous_multithreading_enabled DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#simultaneous_multithreading_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#simultaneous_multithreading_enabled DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#simultaneous_multithreading_enabled}
   */
   readonly simultaneousMultithreadingEnabled?: boolean | cdktf.IResolvable;
   /**
   * SR-IOV support enables a hypervisor to create virtual instances of a PCI-express device, potentially increasing performance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#sriov_enabled DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#sriov_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#sriov_enabled DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#sriov_enabled}
   */
   readonly sriovEnabled?: boolean | cdktf.IResolvable;
   /**
   * Supports the virtualization of platform hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#virtualization_enabled DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#virtualization_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#virtualization_enabled DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#virtualization_enabled}
   */
   readonly virtualizationEnabled?: boolean | cdktf.IResolvable;
 }
@@ -944,25 +944,25 @@ export interface DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecImage {
   /**
   * Checksum is the checksum for the image. Required for all formats except for 'live-iso'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#checksum DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#checksum DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#checksum}
   */
   readonly checksum?: string;
   /**
   * ChecksumType is the checksum algorithm for the image, e.g md5, sha256 or sha512. The special value 'auto' can be used to detect the algorithm from the checksum. If missing, MD5 is used. If in doubt, use 'auto'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#checksum_type DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#checksum_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#checksum_type DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#checksum_type}
   */
   readonly checksumType?: string;
   /**
   * Format contains the format of the image (raw, qcow2, ...). When set to 'live-iso', an ISO 9660 image referenced by the url will be live-booted and not deployed to disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#format DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#format DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#format}
   */
   readonly format?: string;
   /**
   * URL is a location of an image to deploy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#url DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#url DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#url}
   */
   readonly url: string;
 }
@@ -1142,13 +1142,13 @@ export interface DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecMetaData {
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#name DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#name DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#namespace DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#namespace DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1273,13 +1273,13 @@ export interface DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecNetworkData {
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#name DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#name DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#namespace DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#namespace DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1404,43 +1404,43 @@ export interface DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecRaidHardwareRai
   /**
   * The name of the RAID controller to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#controller DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#controller DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#controller}
   */
   readonly controller?: string;
   /**
   * RAID level for the logical disk. The following levels are supported: 0, 1, 2, 5, 6, 1+0, 5+0, 6+0 (drivers may support only some of them).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#level DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#level DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#level}
   */
   readonly level: string;
   /**
   * Name of the volume. Should be unique within the Node. If not specified, the name will be auto-generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#name DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#name DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Integer, number of physical disks to use for the logical disk. Defaults to minimum number of disks required for the particular RAID level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#number_of_physical_disks DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#number_of_physical_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#number_of_physical_disks DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#number_of_physical_disks}
   */
   readonly numberOfPhysicalDisks?: number;
   /**
   * Optional list of physical disk names to be used for the hardware RAID volumes. The disk names are interpreted by the hardware RAID controller, and the format is hardware specific.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#physical_disks DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#physical_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#physical_disks DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#physical_disks}
   */
   readonly physicalDisks?: string[];
   /**
   * Select disks with only rotational (if set to true) or solid-state (if set to false) storage. By default, any disks can be picked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#rotational DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#rotational}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#rotational DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#rotational}
   */
   readonly rotational?: boolean | cdktf.IResolvable;
   /**
   * Size of the logical disk to be created in GiB. If unspecified or set be 0, the maximum capacity of disk will be used for logical disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#size_gibibytes DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#size_gibibytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#size_gibibytes DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#size_gibibytes}
   */
   readonly sizeGibibytes?: number;
 }
@@ -1729,61 +1729,61 @@ export interface DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecRaidSoftwareRai
   /**
   * A Linux device name like '/dev/vda', or a by-path link to it like '/dev/disk/by-path/pci-0000:01:00.0-scsi-0:2:0:0'. The hint must match the actual value exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#device_name DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#device_name DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#device_name}
   */
   readonly deviceName?: string;
   /**
   * A SCSI bus address like 0:0:0:0. The hint must match the actual value exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#hctl DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#hctl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#hctl DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#hctl}
   */
   readonly hctl?: string;
   /**
   * The minimum size of the device in Gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#min_size_gigabytes DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#min_size_gigabytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#min_size_gigabytes DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#min_size_gigabytes}
   */
   readonly minSizeGigabytes?: number;
   /**
   * A vendor-specific device identifier. The hint can be a substring of the actual value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#model DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#model DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#model}
   */
   readonly model?: string;
   /**
   * True if the device should use spinning media, false otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#rotational DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#rotational}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#rotational DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#rotational}
   */
   readonly rotational?: boolean | cdktf.IResolvable;
   /**
   * Device serial number. The hint must match the actual value exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#serial_number DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#serial_number DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#serial_number}
   */
   readonly serialNumber?: string;
   /**
   * The name of the vendor or manufacturer of the device. The hint can be a substring of the actual value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#vendor DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#vendor DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#vendor}
   */
   readonly vendor?: string;
   /**
   * Unique storage identifier. The hint must match the actual value exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#wwn DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#wwn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#wwn DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#wwn}
   */
   readonly wwn?: string;
   /**
   * Unique vendor storage identifier. The hint must match the actual value exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#wwn_vendor_extension DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#wwn_vendor_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#wwn_vendor_extension DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#wwn_vendor_extension}
   */
   readonly wwnVendorExtension?: string;
   /**
   * Unique storage identifier with the vendor extension appended. The hint must match the actual value exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#wwn_with_extension DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#wwn_with_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#wwn_with_extension DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#wwn_with_extension}
   */
   readonly wwnWithExtension?: string;
 }
@@ -2162,19 +2162,19 @@ export interface DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecRaidSoftwareRai
   /**
   * RAID level for the logical disk. The following levels are supported: 0, 1 and 1+0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#level DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#level DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#level}
   */
   readonly level: string;
   /**
   * A list of device hints, the number of items should be greater than or equal to 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#physical_disks DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#physical_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#physical_disks DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#physical_disks}
   */
   readonly physicalDisks?: DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecRaidSoftwareRaidVolumesPhysicalDisks[] | cdktf.IResolvable;
   /**
   * Size of the logical disk to be created in GiB. If unspecified or set be 0, the maximum capacity of disk will be used for logical disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#size_gibibytes DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#size_gibibytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#size_gibibytes DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#size_gibibytes}
   */
   readonly sizeGibibytes?: number;
 }
@@ -2347,13 +2347,13 @@ export interface DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecRaid {
   /**
   * The list of logical disks for hardware RAID, if rootDeviceHints isn't used, first volume is root volume. You can set the value of this field to '[]' to clear all the hardware RAID configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#hardware_raid_volumes DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#hardware_raid_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#hardware_raid_volumes DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#hardware_raid_volumes}
   */
   readonly hardwareRaidVolumes?: DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecRaidHardwareRaidVolumes[] | cdktf.IResolvable;
   /**
   * The list of logical disks for software RAID, if rootDeviceHints isn't used, first volume is root volume. If HardwareRAIDVolumes is set this item will be invalid. The number of created Software RAID devices must be 1 or 2. If there is only one Software RAID device, it has to be a RAID-1. If there are two, the first one has to be a RAID-1, while the RAID level for the second one can be 0, 1, or 1+0. As the first RAID device will be the deployment device, enforcing a RAID-1 reduces the risk of ending up with a non-booting node in case of a disk failure. Software RAID will always be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#software_raid_volumes DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#software_raid_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#software_raid_volumes DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#software_raid_volumes}
   */
   readonly softwareRaidVolumes?: DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecRaidSoftwareRaidVolumes[] | cdktf.IResolvable;
 }
@@ -2478,61 +2478,61 @@ export interface DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecRootDeviceHints
   /**
   * A Linux device name like '/dev/vda', or a by-path link to it like '/dev/disk/by-path/pci-0000:01:00.0-scsi-0:2:0:0'. The hint must match the actual value exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#device_name DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#device_name DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#device_name}
   */
   readonly deviceName?: string;
   /**
   * A SCSI bus address like 0:0:0:0. The hint must match the actual value exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#hctl DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#hctl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#hctl DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#hctl}
   */
   readonly hctl?: string;
   /**
   * The minimum size of the device in Gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#min_size_gigabytes DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#min_size_gigabytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#min_size_gigabytes DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#min_size_gigabytes}
   */
   readonly minSizeGigabytes?: number;
   /**
   * A vendor-specific device identifier. The hint can be a substring of the actual value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#model DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#model DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#model}
   */
   readonly model?: string;
   /**
   * True if the device should use spinning media, false otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#rotational DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#rotational}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#rotational DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#rotational}
   */
   readonly rotational?: boolean | cdktf.IResolvable;
   /**
   * Device serial number. The hint must match the actual value exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#serial_number DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#serial_number DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#serial_number}
   */
   readonly serialNumber?: string;
   /**
   * The name of the vendor or manufacturer of the device. The hint can be a substring of the actual value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#vendor DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#vendor DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#vendor}
   */
   readonly vendor?: string;
   /**
   * Unique storage identifier. The hint must match the actual value exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#wwn DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#wwn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#wwn DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#wwn}
   */
   readonly wwn?: string;
   /**
   * Unique vendor storage identifier. The hint must match the actual value exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#wwn_vendor_extension DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#wwn_vendor_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#wwn_vendor_extension DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#wwn_vendor_extension}
   */
   readonly wwnVendorExtension?: string;
   /**
   * Unique storage identifier with the vendor extension appended. The hint must match the actual value exactly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#wwn_with_extension DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#wwn_with_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#wwn_with_extension DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#wwn_with_extension}
   */
   readonly wwnWithExtension?: string;
 }
@@ -2889,25 +2889,25 @@ export interface DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecTaints {
   /**
   * Required. The effect of the taint on pods that do not tolerate the taint. Valid effects are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#effect DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#effect DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#effect}
   */
   readonly effect: string;
   /**
   * Required. The taint key to be applied to a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#key DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#key DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * TimeAdded represents the time at which the taint was added. It is only written for NoExecute taints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#time_added DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#time_added}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#time_added DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#time_added}
   */
   readonly timeAdded?: string;
   /**
   * The taint value corresponding to the taint key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#value DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#value DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -3106,13 +3106,13 @@ export interface DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecUserData {
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#name DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#name DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#namespace DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#namespace DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -3237,121 +3237,121 @@ export interface DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpec {
   /**
   * CPU architecture of the host, e.g. 'x86_64' or 'aarch64'. If unset, eventually populated by inspection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#architecture DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#architecture}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#architecture DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#architecture}
   */
   readonly architecture?: string;
   /**
   * When set to disabled, automated cleaning will be skipped during provisioning and deprovisioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#automated_cleaning_mode DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#automated_cleaning_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#automated_cleaning_mode DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#automated_cleaning_mode}
   */
   readonly automatedCleaningMode?: string;
   /**
   * How do we connect to the BMC (Baseboard Management Controller) on the host?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#bmc DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#bmc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#bmc DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#bmc}
   */
   readonly bmc?: DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecBmc;
   /**
   * The MAC address of the NIC used for provisioning the host. In case of network boot, this is the MAC address of the PXE booting interface. The MAC address of the BMC must never be used here!
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#boot_mac_address DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#boot_mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#boot_mac_address DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#boot_mac_address}
   */
   readonly bootMacAddress?: string;
   /**
   * Select the method of initializing the hardware during boot. Defaults to UEFI. Legacy boot should only be used for hardware that does not support UEFI correctly. Set to UEFISecureBoot to turn secure boot on automatically after provisioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#boot_mode DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#boot_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#boot_mode DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#boot_mode}
   */
   readonly bootMode?: string;
   /**
   * ConsumerRef can be used to store information about something that is using a host. When it is not empty, the host is considered 'in use'. The common use case is a link to a Machine resource when the host is used by Cluster API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#consumer_ref DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#consumer_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#consumer_ref DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#consumer_ref}
   */
   readonly consumerRef?: DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecConsumerRef;
   /**
   * A custom deploy procedure. This is an advanced feature that allows using a custom deploy step provided by a site-specific deployment ramdisk. Most users will want to use 'image' instead. Settings this field triggers provisioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#custom_deploy DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#custom_deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#custom_deploy DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#custom_deploy}
   */
   readonly customDeploy?: DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecCustomDeploy;
   /**
   * Description is a human-entered text used to help identify the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#description DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#description DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#description}
   */
   readonly description?: string;
   /**
   * ExternallyProvisioned means something else has provisioned the image running on the host, and the operator should only manage the power status. This field is used for integration with already provisioned hosts and when pivoting hosts between clusters. If unsure, leave this field as false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#externally_provisioned DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#externally_provisioned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#externally_provisioned DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#externally_provisioned}
   */
   readonly externallyProvisioned?: boolean | cdktf.IResolvable;
   /**
   * Firmware (BIOS) configuration for bare metal server. If set, the requested settings will be applied before the host is provisioned. Only some vendor drivers support this field. An alternative is to use HostFirmwareSettings resources that allow changing arbitrary values and support the generic Redfish-based drivers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#firmware DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#firmware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#firmware DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#firmware}
   */
   readonly firmware?: DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecFirmware;
   /**
   * What is the name of the hardware profile for this host? Hardware profiles are deprecated and should not be used. Use the separate fields Architecture and RootDeviceHints instead. Set to 'empty' to prepare for the future version of the API without hardware profiles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#hardware_profile DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#hardware_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#hardware_profile DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#hardware_profile}
   */
   readonly hardwareProfile?: string;
   /**
   * Image holds the details of the image to be provisioned. Populating the image will cause the host to start provisioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#image DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#image DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#image}
   */
   readonly image?: DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecImage;
   /**
   * MetaData holds the reference to the Secret containing host metadata which is passed to the Config Drive. By default, the operater will generate metadata for the host, so most users do not need to set this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#meta_data DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#meta_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#meta_data DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#meta_data}
   */
   readonly metaData?: DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecMetaData;
   /**
   * NetworkData holds the reference to the Secret containing network configuration which is passed to the Config Drive and interpreted by the first boot software such as cloud-init.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#network_data DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#network_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#network_data DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#network_data}
   */
   readonly networkData?: DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecNetworkData;
   /**
   * Should the host be powered on? Changing this value will trigger a change in power state of the host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#online DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#online}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#online DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#online}
   */
   readonly online: boolean | cdktf.IResolvable;
   /**
   * PreprovisioningNetworkDataName is the name of the Secret in the local namespace containing network configuration which is passed to the preprovisioning image, and to the Config Drive if not overridden by specifying NetworkData.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#preprovisioning_network_data_name DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#preprovisioning_network_data_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#preprovisioning_network_data_name DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#preprovisioning_network_data_name}
   */
   readonly preprovisioningNetworkDataName?: string;
   /**
   * RAID configuration for bare metal server. If set, the RAID settings will be applied before the host is provisioned. If not, the current settings will not be modified. Only one of the sub-fields hardwareRAIDVolumes and softwareRAIDVolumes can be set at the same time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#raid DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#raid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#raid DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#raid}
   */
   readonly raid?: DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecRaid;
   /**
   * Provide guidance about how to choose the device for the image being provisioned. The default is currently to use /dev/sda as the root device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#root_device_hints DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#root_device_hints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#root_device_hints DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#root_device_hints}
   */
   readonly rootDeviceHints?: DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecRootDeviceHints;
   /**
   * Taints is the full, authoritative list of taints to apply to the corresponding Machine. This list will overwrite any modifications made to the Machine on an ongoing basis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#taints DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#taints DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#taints}
   */
   readonly taints?: DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecTaints[] | cdktf.IResolvable;
   /**
   * UserData holds the reference to the Secret containing the user data which is passed to the Config Drive and interpreted by the first-boot software such as cloud-init. The format of user data is specific to the first-boot software.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#user_data DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#user_data DataK8SMetal3IoBareMetalHostV1Alpha1Manifest#user_data}
   */
   readonly userData?: DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecUserData;
 }
@@ -3993,7 +3993,7 @@ export class DataK8SMetal3IoBareMetalHostV1Alpha1ManifestSpecOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest k8s_metal3_io_bare_metal_host_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest k8s_metal3_io_bare_metal_host_v1alpha1_manifest}
 */
 export class DataK8SMetal3IoBareMetalHostV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -4009,7 +4009,7 @@ export class DataK8SMetal3IoBareMetalHostV1Alpha1Manifest extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataK8SMetal3IoBareMetalHostV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SMetal3IoBareMetalHostV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SMetal3IoBareMetalHostV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SMetal3IoBareMetalHostV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SMetal3IoBareMetalHostV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4021,7 +4021,7 @@ export class DataK8SMetal3IoBareMetalHostV1Alpha1Manifest extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest k8s_metal3_io_bare_metal_host_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/metal3_io_bare_metal_host_v1alpha1_manifest k8s_metal3_io_bare_metal_host_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4032,8 +4032,8 @@ export class DataK8SMetal3IoBareMetalHostV1Alpha1Manifest extends cdktf.Terrafor
       terraformResourceType: 'k8s_metal3_io_bare_metal_host_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

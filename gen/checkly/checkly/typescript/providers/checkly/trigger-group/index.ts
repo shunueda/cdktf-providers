@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/trigger_group
+// https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/trigger_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TriggerGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The id of the group that you want to attach the trigger to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/trigger_group#group_id TriggerGroup#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/trigger_group#group_id TriggerGroup#group_id}
   */
   readonly groupId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/trigger_group#id TriggerGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/trigger_group#id TriggerGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface TriggerGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The token value created to trigger the group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/trigger_group#token TriggerGroup#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/trigger_group#token TriggerGroup#token}
   */
   readonly token?: string;
   /**
   * The request URL to trigger the group run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/trigger_group#url TriggerGroup#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/trigger_group#url TriggerGroup#url}
   */
   readonly url?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/trigger_group checkly_trigger_group}
+* Represents a {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/trigger_group checkly_trigger_group}
 */
 export class TriggerGroup extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class TriggerGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TriggerGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TriggerGroup to import
-  * @param importFromId The id of the existing TriggerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/trigger_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TriggerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/trigger_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TriggerGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class TriggerGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.16.0/docs/resources/trigger_group checkly_trigger_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/checkly/checkly/1.17.0/docs/resources/trigger_group checkly_trigger_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class TriggerGroup extends cdktf.TerraformResource {
       terraformResourceType: 'checkly_trigger_group',
       terraformGeneratorMetadata: {
         providerName: 'checkly',
-        providerVersion: '1.16.0',
-        providerVersionConstraint: '1.16.0'
+        providerVersion: '1.17.0',
+        providerVersionConstraint: '1.17.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

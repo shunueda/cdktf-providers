@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_cluster_database
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_cluster_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface PolardbClusterDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_cluster_database#character_set_name PolardbClusterDatabase#character_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_cluster_database#character_set_name PolardbClusterDatabase#character_set_name}
   */
   readonly characterSetName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_cluster_database#db_cluster_id PolardbClusterDatabase#db_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_cluster_database#db_cluster_id PolardbClusterDatabase#db_cluster_id}
   */
   readonly dbClusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_cluster_database#db_description PolardbClusterDatabase#db_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_cluster_database#db_description PolardbClusterDatabase#db_description}
   */
   readonly dbDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_cluster_database#db_name PolardbClusterDatabase#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_cluster_database#db_name PolardbClusterDatabase#db_name}
   */
   readonly dbName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_cluster_database#id PolardbClusterDatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_cluster_database#id PolardbClusterDatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,7 +33,7 @@ export interface PolardbClusterDatabaseConfig extends cdktf.TerraformMetaArgumen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_cluster_database alibabacloudstack_polardb_cluster_database}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_cluster_database alibabacloudstack_polardb_cluster_database}
 */
 export class PolardbClusterDatabase extends cdktf.TerraformResource {
 
@@ -49,7 +49,7 @@ export class PolardbClusterDatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolardbClusterDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolardbClusterDatabase to import
-  * @param importFromId The id of the existing PolardbClusterDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_cluster_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolardbClusterDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_cluster_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolardbClusterDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class PolardbClusterDatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/polardb_cluster_database alibabacloudstack_polardb_cluster_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/polardb_cluster_database alibabacloudstack_polardb_cluster_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,7 +72,8 @@ export class PolardbClusterDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_polardb_cluster_database',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

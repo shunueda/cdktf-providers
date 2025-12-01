@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestConfig
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#metadata DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#metadata DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestMetadata;
   /**
   * A Spark cluster stacklet. This resource is managed by the Stackable operator for Apache Spark. Find more information on how to use it and the resources that the operator generates in the [operator documentation](https://docs.stackable.tech/home/nightly/spark-k8s/). The SparkApplication CRD looks a little different than the CRDs of the other products on the Stackable Data Platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#spec DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#spec DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestMetada
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#annotations DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#annotations DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#labels DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#labels DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#name DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#name DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#namespace DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#namespace DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,25 +219,25 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDe
   /**
   * A list of excluded packages that is passed directly to 'spark-submit'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#exclude_packages DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#exclude_packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#exclude_packages DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#exclude_packages}
   */
   readonly excludePackages?: string[];
   /**
   * A list of packages that is passed directly to 'spark-submit'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#packages DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#packages DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#packages}
   */
   readonly packages?: string[];
   /**
   * A list of repositories that is passed directly to 'spark-submit'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#repositories DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#repositories DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#repositories}
   */
   readonly repositories?: string[];
   /**
   * Under the 'requirements' you can specify Python dependencies that will be installed with 'pip'. Example: 'tabulate==0.8.9'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#requirements DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#requirements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#requirements DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#requirements}
   */
   readonly requirements?: string[];
 }
@@ -420,25 +420,25 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDr
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#node_affinity DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#node_affinity DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#node_selector DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#node_selector DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#pod_affinity DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#pod_affinity DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#pod_anti_affinity DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#pod_anti_affinity DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -621,7 +621,7 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDr
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#level DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#level DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -717,7 +717,7 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDr
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#config_map DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#config_map DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -813,7 +813,7 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDr
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#level DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#level DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -909,7 +909,7 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDr
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#level DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#level DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -1005,25 +1005,25 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDr
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#console DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#console DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDriverConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#custom DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#custom DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDriverConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#file DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#file DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDriverConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#loggers DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#loggers DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDriverConfigLoggingContainersLoggers;
 }
@@ -1206,13 +1206,13 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDr
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#containers DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#containers DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDriverConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#enable_vector_agent DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#enable_vector_agent DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -1337,13 +1337,13 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDr
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#max DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#max DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#min DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#min DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -1468,13 +1468,13 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDr
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#limit DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#limit DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#runtime_limits DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#runtime_limits DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -1597,15 +1597,15 @@ export class DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDriver
 }
 export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDriverConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#cpu DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#cpu DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDriverConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#memory DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#memory DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDriverConfigResourcesMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#storage DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#storage DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#storage}
   */
   readonly storage?: { [key: string]: string };
 }
@@ -1759,25 +1759,25 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDr
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#affinity DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#affinity DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDriverConfigAffinity;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#logging DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#logging DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDriverConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#resources DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#resources DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDriverConfigResources;
   /**
   * Volume mounts for the spark-submit, driver and executor pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#volume_mounts DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#volume_mounts DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: { [key: string]: string }[] | cdktf.IResolvable;
 }
@@ -1958,29 +1958,29 @@ export class DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDriver
 }
 export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDriver {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#cli_overrides DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#cli_overrides DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#config DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#config DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDriverConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#config_overrides DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#config_overrides DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#env_overrides DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#env_overrides DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#pod_overrides DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#pod_overrides DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
 }
@@ -2192,19 +2192,19 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecEn
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#key DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#key DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#name DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#name DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#optional DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#optional DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2352,13 +2352,13 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecEn
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#api_version DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#api_version DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#field_path DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#field_path DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -2480,19 +2480,19 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecEn
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#container_name DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#container_name DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#divisor DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#divisor DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#resource DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#resource DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -2643,19 +2643,19 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecEn
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#key DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#key DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#name DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#name DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#optional DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#optional DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2803,25 +2803,25 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecEn
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#config_map_key_ref DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#config_map_key_ref DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#field_ref DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#field_ref DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#resource_field_ref DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#resource_field_ref DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#secret_key_ref DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#secret_key_ref DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecEnvValueFromSecretKeyRef;
 }
@@ -3004,19 +3004,19 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecEn
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#name DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#name DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#value DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#value DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#value_from DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#value_from DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecEnvValueFrom;
 }
@@ -3189,25 +3189,25 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecEx
   /**
   * Same as the 'spec.affinity.nodeAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#node_affinity DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#node_affinity DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: { [key: string]: string };
   /**
   * Simple key-value pairs forming a nodeSelector, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#node_selector DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#node_selector DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#pod_affinity DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#pod_affinity DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: { [key: string]: string };
   /**
   * Same as the 'spec.affinity.podAntiAffinity' field on the Pod, see the [Kubernetes docs](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#pod_anti_affinity DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#pod_anti_affinity DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: { [key: string]: string };
 }
@@ -3390,7 +3390,7 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecEx
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#level DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#level DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -3486,7 +3486,7 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecEx
   /**
   * ConfigMap containing the log configuration files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#config_map DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#config_map DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#config_map}
   */
   readonly configMap?: string;
 }
@@ -3582,7 +3582,7 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecEx
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#level DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#level DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -3678,7 +3678,7 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecEx
   /**
   * The log level threshold. Log events with a lower log level are discarded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#level DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#level DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#level}
   */
   readonly level?: string;
 }
@@ -3774,25 +3774,25 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecEx
   /**
   * Configuration for the console appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#console DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#console DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#console}
   */
   readonly console?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecExecutorConfigLoggingContainersConsole;
   /**
   * Custom log configuration provided in a ConfigMap
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#custom DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#custom DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#custom}
   */
   readonly custom?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecExecutorConfigLoggingContainersCustom;
   /**
   * Configuration for the file appender
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#file DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#file DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#file}
   */
   readonly file?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecExecutorConfigLoggingContainersFile;
   /**
   * Configuration per logger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#loggers DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#loggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#loggers DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#loggers}
   */
   readonly loggers?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecExecutorConfigLoggingContainersLoggers;
 }
@@ -3975,13 +3975,13 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecEx
   /**
   * Log configuration per container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#containers DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#containers DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#containers}
   */
   readonly containers?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecExecutorConfigLoggingContainers;
   /**
   * Wether or not to deploy a container with the Vector log agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#enable_vector_agent DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#enable_vector_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#enable_vector_agent DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#enable_vector_agent}
   */
   readonly enableVectorAgent?: boolean | cdktf.IResolvable;
 }
@@ -4106,13 +4106,13 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecEx
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#max DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#max DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#min DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#min DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -4237,13 +4237,13 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecEx
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#limit DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#limit DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#runtime_limits DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#runtime_limits DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -4366,15 +4366,15 @@ export class DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecExecut
 }
 export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecExecutorConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#cpu DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#cpu DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecExecutorConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#memory DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#memory DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecExecutorConfigResourcesMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#storage DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#storage DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#storage}
   */
   readonly storage?: { [key: string]: string };
 }
@@ -4528,25 +4528,25 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecEx
   /**
   * These configuration settings control [Pod placement](https://docs.stackable.tech/home/nightly/concepts/operations/pod_placement).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#affinity DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#affinity DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecExecutorConfigAffinity;
   /**
   * Logging configuration, learn more in the [logging concept documentation](https://docs.stackable.tech/home/nightly/concepts/logging).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#logging DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#logging DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecExecutorConfigLogging;
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#resources DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#resources DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecExecutorConfigResources;
   /**
   * Volume mounts for the spark-submit, driver and executor pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#volume_mounts DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#volume_mounts DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: { [key: string]: string }[] | cdktf.IResolvable;
 }
@@ -4727,33 +4727,33 @@ export class DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecExecut
 }
 export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecExecutor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#cli_overrides DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#cli_overrides DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#config DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#config DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecExecutorConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#config_overrides DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#config_overrides DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#env_overrides DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#env_overrides DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#pod_overrides DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#pod_overrides DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#replicas DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#replicas DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
 }
@@ -4994,13 +4994,13 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecJo
   /**
   * The maximum amount of CPU cores that can be requested by Pods. Equivalent to the 'limit' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#max DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#max DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#max}
   */
   readonly max?: string;
   /**
   * The minimal amount of CPU cores that Pods need to run. Equivalent to the 'request' for Pod resource configuration. Cores are specified either as a decimal point number or as milli units. For example:'1.5' will be 1.5 cores, also written as '1500m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#min DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#min DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#min}
   */
   readonly min?: string;
 }
@@ -5125,13 +5125,13 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecJo
   /**
   * The maximum amount of memory that should be available to the Pod. Specified as a byte [Quantity](https://kubernetes.io/docs/reference/kubernetes-api/common-definitions/quantity/), which means these suffixes are supported: E, P, T, G, M, k. You can also use the power-of-two equivalents: Ei, Pi, Ti, Gi, Mi, Ki. For example, the following represent roughly the same value: '128974848, 129e6, 129M, 128974848000m, 123Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#limit DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#limit DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#limit}
   */
   readonly limit?: string;
   /**
   * Additional options that can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#runtime_limits DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#runtime_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#runtime_limits DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#runtime_limits}
   */
   readonly runtimeLimits?: { [key: string]: string };
 }
@@ -5254,15 +5254,15 @@ export class DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecJobCon
 }
 export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecJobConfigResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#cpu DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#cpu DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#cpu}
   */
   readonly cpu?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecJobConfigResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#memory DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#memory DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#memory}
   */
   readonly memory?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecJobConfigResourcesMemory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#storage DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#storage DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#storage}
   */
   readonly storage?: { [key: string]: string };
 }
@@ -5416,13 +5416,13 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecJo
   /**
   * Resource usage is configured here, this includes CPU usage, memory usage and disk storage usage, if this role needs any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#resources DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#resources DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecJobConfigResources;
   /**
   * Volume mounts for the spark-submit, driver and executor pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#volume_mounts DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#volume_mounts DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#volume_mounts}
   */
   readonly volumeMounts?: { [key: string]: string }[] | cdktf.IResolvable;
 }
@@ -5545,29 +5545,29 @@ export class DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecJobCon
 }
 export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecJob {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#cli_overrides DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#cli_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#cli_overrides DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#cli_overrides}
   */
   readonly cliOverrides?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#config DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#config DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#config}
   */
   readonly config?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecJobConfig;
   /**
   * The 'configOverrides' can be used to configure properties in product config files that are not exposed in the CRD. Read the [config overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#config-overrides) and consult the operator specific usage guide documentation for details on the available config files and settings for the specific product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#config_overrides DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#config_overrides DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * 'envOverrides' configure environment variables to be set in the Pods. It is a map from strings to strings - environment variables and the value to set. Read the [environment variable overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#env-overrides) for more information and consult the operator specific usage guide to find out about the product specific environment variables that are available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#env_overrides DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#env_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#env_overrides DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#env_overrides}
   */
   readonly envOverrides?: { [key: string]: string };
   /**
   * In the 'podOverrides' property you can define a [PodTemplateSpec](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.27/#podtemplatespec-v1-core) to override any property that can be set on a Kubernetes Pod. Read the [Pod overrides documentation](https://docs.stackable.tech/home/nightly/concepts/overrides#pod-overrides) for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#pod_overrides DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#pod_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#pod_overrides DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#pod_overrides}
   */
   readonly podOverrides?: { [key: string]: string };
 }
@@ -5779,25 +5779,25 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecLo
   /**
   * The listener volume scope allows Node and Service scopes to be inferred from the applicable listeners. This must correspond to Volume names in the Pod that mount Listeners.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#listener_volumes DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#listener_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#listener_volumes DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#listener_volumes}
   */
   readonly listenerVolumes?: string[];
   /**
   * The node scope is resolved to the name of the Kubernetes Node object that the Pod is running on. This will typically be the DNS name of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#node DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#node DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#node}
   */
   readonly nodeAttribute?: boolean | cdktf.IResolvable;
   /**
   * The pod scope is resolved to the name of the Kubernetes Pod. This allows the secret to differentiate between StatefulSet replicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#pod DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#pod DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#pod}
   */
   readonly pod?: boolean | cdktf.IResolvable;
   /**
   * The service scope allows Pod objects to specify custom scopes. This should typically correspond to Service objects that the Pod participates in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#services DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#services DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#services}
   */
   readonly services?: string[];
 }
@@ -5980,13 +5980,13 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecLo
   /**
   * [Scope](https://docs.stackable.tech/home/nightly/secret-operator/scope) of the [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#scope DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#scope DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#scope}
   */
   readonly scope?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecLogFileDirectoryS3BucketInlineConnectionInlineCredentialsScope;
   /**
   * [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass) containing the LDAP bind credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#secret_class DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#secret_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#secret_class DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#secret_class}
   */
   readonly secretClass: string;
 }
@@ -6108,13 +6108,13 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecLo
   /**
   * Name of the [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass) which will provide the CA certificate. Note that a SecretClass does not need to have a key but can also work with just a CA certificate, so if you got provided with a CA cert but don't have access to the key you can still use this method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#secret_class DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#secret_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#secret_class DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#secret_class}
   */
   readonly secretClass?: string;
   /**
   * Use TLS and the CA certificates trusted by the common web browsers to verify the server. This can be useful when you e.g. use public AWS S3 or other public available services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#web_pki DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#web_pki}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#web_pki DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#web_pki}
   */
   readonly webPki?: { [key: string]: string };
 }
@@ -6239,7 +6239,7 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecLo
   /**
   * CA cert to verify the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#ca_cert DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#ca_cert DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#ca_cert}
   */
   readonly caCert: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecLogFileDirectoryS3BucketInlineConnectionInlineTlsVerificationServerCaCert;
 }
@@ -6332,13 +6332,13 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecLo
   /**
   * Use TLS but don't verify certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#none DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#none DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#none}
   */
   readonly none?: { [key: string]: string };
   /**
   * Use TLS and a CA certificate to verify the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#server DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#server DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#server}
   */
   readonly server?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecLogFileDirectoryS3BucketInlineConnectionInlineTlsVerificationServer;
 }
@@ -6463,7 +6463,7 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecLo
   /**
   * The verification method used to verify the certificates of the server and/or the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#verification DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#verification DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#verification}
   */
   readonly verification: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecLogFileDirectoryS3BucketInlineConnectionInlineTlsVerification;
 }
@@ -6556,31 +6556,31 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecLo
   /**
   * Which access style to use. Defaults to virtual hosted-style as most of the data products out there. Have a look at the [AWS documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/VirtualHosting.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#access_style DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#access_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#access_style DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#access_style}
   */
   readonly accessStyle?: string;
   /**
   * If the S3 uses authentication you have to specify you S3 credentials. In the most cases a [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass) providing 'accessKey' and 'secretKey' is sufficient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#credentials DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#credentials DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecLogFileDirectoryS3BucketInlineConnectionInlineCredentials;
   /**
   * Host of the S3 server without any protocol or port. For example: 'west1.my-cloud.com'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#host DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#host DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#host}
   */
   readonly host: string;
   /**
   * Port the S3 server listens on. If not specified the product will determine the port to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#port DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#port DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Use a TLS connection. If not specified no TLS will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#tls DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#tls DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecLogFileDirectoryS3BucketInlineConnectionInlineTls;
 }
@@ -6789,11 +6789,11 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecLo
   /**
   * S3 connection definition as a resource. Learn more on the [S3 concept documentation](https://docs.stackable.tech/home/nightly/concepts/s3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#inline DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#inline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#inline DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#inline}
   */
   readonly inline?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecLogFileDirectoryS3BucketInlineConnectionInline;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#reference DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#reference DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#reference}
   */
   readonly reference?: string;
 }
@@ -6918,13 +6918,13 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecLo
   /**
   * The name of the S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#bucket_name DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#bucket_name DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#bucket_name}
   */
   readonly bucketName: string;
   /**
   * The definition of an S3 connection, either inline or as a reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#connection DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#connection DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#connection}
   */
   readonly connection: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecLogFileDirectoryS3BucketInlineConnection;
 }
@@ -7043,11 +7043,11 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecLo
   /**
   * S3 bucket specification containing the bucket name and an inlined or referenced connection specification. Learn more on the [S3 concept documentation](https://docs.stackable.tech/home/nightly/concepts/s3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#inline DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#inline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#inline DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#inline}
   */
   readonly inline?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecLogFileDirectoryS3BucketInline;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#reference DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#reference DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#reference}
   */
   readonly reference?: string;
 }
@@ -7170,11 +7170,11 @@ export class DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecLogFil
 }
 export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecLogFileDirectoryS3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#bucket DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#bucket DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#bucket}
   */
   readonly bucket: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecLogFileDirectoryS3Bucket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#prefix DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#prefix DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#prefix}
   */
   readonly prefix: string;
 }
@@ -7291,7 +7291,7 @@ export class DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecLogFil
 }
 export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecLogFileDirectory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#s3 DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#s3 DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#s3}
   */
   readonly s3?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecLogFileDirectoryS3;
 }
@@ -7387,25 +7387,25 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecS3
   /**
   * The listener volume scope allows Node and Service scopes to be inferred from the applicable listeners. This must correspond to Volume names in the Pod that mount Listeners.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#listener_volumes DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#listener_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#listener_volumes DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#listener_volumes}
   */
   readonly listenerVolumes?: string[];
   /**
   * The node scope is resolved to the name of the Kubernetes Node object that the Pod is running on. This will typically be the DNS name of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#node DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#node DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#node}
   */
   readonly nodeAttribute?: boolean | cdktf.IResolvable;
   /**
   * The pod scope is resolved to the name of the Kubernetes Pod. This allows the secret to differentiate between StatefulSet replicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#pod DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#pod DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#pod}
   */
   readonly pod?: boolean | cdktf.IResolvable;
   /**
   * The service scope allows Pod objects to specify custom scopes. This should typically correspond to Service objects that the Pod participates in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#services DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#services DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#services}
   */
   readonly services?: string[];
 }
@@ -7588,13 +7588,13 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecS3
   /**
   * [Scope](https://docs.stackable.tech/home/nightly/secret-operator/scope) of the [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#scope DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#scope DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#scope}
   */
   readonly scope?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecS3ConnectionInlineCredentialsScope;
   /**
   * [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass) containing the LDAP bind credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#secret_class DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#secret_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#secret_class DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#secret_class}
   */
   readonly secretClass: string;
 }
@@ -7716,13 +7716,13 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecS3
   /**
   * Name of the [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass) which will provide the CA certificate. Note that a SecretClass does not need to have a key but can also work with just a CA certificate, so if you got provided with a CA cert but don't have access to the key you can still use this method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#secret_class DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#secret_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#secret_class DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#secret_class}
   */
   readonly secretClass?: string;
   /**
   * Use TLS and the CA certificates trusted by the common web browsers to verify the server. This can be useful when you e.g. use public AWS S3 or other public available services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#web_pki DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#web_pki}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#web_pki DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#web_pki}
   */
   readonly webPki?: { [key: string]: string };
 }
@@ -7847,7 +7847,7 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecS3
   /**
   * CA cert to verify the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#ca_cert DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#ca_cert DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#ca_cert}
   */
   readonly caCert: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecS3ConnectionInlineTlsVerificationServerCaCert;
 }
@@ -7940,13 +7940,13 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecS3
   /**
   * Use TLS but don't verify certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#none DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#none DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#none}
   */
   readonly none?: { [key: string]: string };
   /**
   * Use TLS and a CA certificate to verify the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#server DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#server DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#server}
   */
   readonly server?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecS3ConnectionInlineTlsVerificationServer;
 }
@@ -8071,7 +8071,7 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecS3
   /**
   * The verification method used to verify the certificates of the server and/or the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#verification DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#verification DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#verification}
   */
   readonly verification: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecS3ConnectionInlineTlsVerification;
 }
@@ -8164,31 +8164,31 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecS3
   /**
   * Which access style to use. Defaults to virtual hosted-style as most of the data products out there. Have a look at the [AWS documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/VirtualHosting.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#access_style DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#access_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#access_style DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#access_style}
   */
   readonly accessStyle?: string;
   /**
   * If the S3 uses authentication you have to specify you S3 credentials. In the most cases a [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass) providing 'accessKey' and 'secretKey' is sufficient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#credentials DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#credentials DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecS3ConnectionInlineCredentials;
   /**
   * Host of the S3 server without any protocol or port. For example: 'west1.my-cloud.com'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#host DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#host DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#host}
   */
   readonly host: string;
   /**
   * Port the S3 server listens on. If not specified the product will determine the port to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#port DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#port DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Use a TLS connection. If not specified no TLS will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#tls DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#tls DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecS3ConnectionInlineTls;
 }
@@ -8397,11 +8397,11 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecS3
   /**
   * S3 connection definition as a resource. Learn more on the [S3 concept documentation](https://docs.stackable.tech/home/nightly/concepts/s3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#inline DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#inline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#inline DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#inline}
   */
   readonly inline?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecS3ConnectionInline;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#reference DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#reference DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#reference}
   */
   readonly reference?: string;
 }
@@ -8526,7 +8526,7 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecSp
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#name DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#name DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -8641,37 +8641,37 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecSp
   /**
   * Overwrite the docker image. Specify the full docker image name, e.g. 'docker.stackable.tech/stackable/superset:1.4.1-stackable2.1.0'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#custom DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#custom DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#custom}
   */
   readonly custom?: string;
   /**
   * Version of the product, e.g. '1.4.1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#product_version DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#product_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#product_version DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#product_version}
   */
   readonly productVersion?: string;
   /**
   * [Pull policy](https://kubernetes.io/docs/concepts/containers/images/#image-pull-policy) used when pulling the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#pull_policy DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#pull_policy DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#pull_policy}
   */
   readonly pullPolicy?: string;
   /**
   * [Image pull secrets](https://kubernetes.io/docs/concepts/containers/images/#specifying-imagepullsecrets-on-a-pod) to pull images from a private registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#pull_secrets DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#pull_secrets DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#pull_secrets}
   */
   readonly pullSecrets?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecSparkImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Name of the docker repo, e.g. 'docker.stackable.tech/stackable'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#repo DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#repo DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#repo}
   */
   readonly repo?: string;
   /**
   * Stackable version of the product, e.g. '23.4', '23.4.1' or '0.0.0-dev'. If not specified, the operator will use its own version, e.g. '23.4.1'. When using a nightly operator or a pr version, it will use the nightly '0.0.0-dev' image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#stackable_version DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#stackable_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#stackable_version DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#stackable_version}
   */
   readonly stackableVersion?: string;
 }
@@ -8912,97 +8912,97 @@ export interface DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpec {
   /**
   * Arguments passed directly to the job artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#args DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#args DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Job dependencies: a list of python packages that will be installed via pip, a list of packages or repositories that is passed directly to spark-submit, or a list of excluded packages (also passed directly to spark-submit).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#deps DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#deps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#deps DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#deps}
   */
   readonly deps?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDeps;
   /**
   * The driver role specifies the configuration that, together with the driver pod template, is used by Spark to create driver pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#driver DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#driver DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#driver}
   */
   readonly driver?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecDriver;
   /**
   * A list of environment variables that will be set in the job pod and the driver and executor pod templates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#env DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#env DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecEnv[] | cdktf.IResolvable;
   /**
   * The executor role specifies the configuration that, together with the driver pod template, is used by Spark to create the executor pods. This is RoleGroup instead of plain CommonConfiguration because it needs to allows for the number of replicas. to be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#executor DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#executor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#executor DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#executor}
   */
   readonly executor?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecExecutor;
   /**
   * User-supplied image containing spark-job dependencies that will be copied to the specified volume mount. See the [examples](https://docs.stackable.tech/home/nightly/spark-k8s/usage-guide/examples).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#image DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#image DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * The job builds a spark-submit command, complete with arguments and referenced dependencies such as templates, and passes it on to Spark. The reason this property uses its own type (SubmitConfigFragment) is because logging is not supported for spark-submit processes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#job DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#job}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#job DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#job}
   */
   readonly job?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecJob;
   /**
   * The log file directory definition used by the Spark history server. Currently only S3 buckets are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#log_file_directory DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#log_file_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#log_file_directory DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#log_file_directory}
   */
   readonly logFileDirectory?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecLogFileDirectory;
   /**
   * The actual application file that will be called by 'spark-submit'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#main_application_file DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#main_application_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#main_application_file DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#main_application_file}
   */
   readonly mainApplicationFile: string;
   /**
   * The main class - i.e. entry point - for JVM artifacts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#main_class DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#main_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#main_class DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#main_class}
   */
   readonly mainClass?: string;
   /**
   * Mode: cluster or client. Currently only cluster is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#mode DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#mode DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#mode}
   */
   readonly mode: string;
   /**
   * Configure an S3 connection that the SparkApplication has access to. Read more in the [Spark S3 usage guide](https://docs.stackable.tech/home/nightly/spark-k8s/usage-guide/s3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#s3connection DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#s3connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#s3connection DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#s3connection}
   */
   readonly s3Connection?: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecS3Connection;
   /**
   * A map of key/value strings that will be passed directly to spark-submit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#spark_conf DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#spark_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#spark_conf DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#spark_conf}
   */
   readonly sparkConf?: { [key: string]: string };
   /**
   * Specify which image to use, the easiest way is to only configure the 'productVersion'. You can also configure a custom image registry to pull from, as well as completely custom images. Consult the [Product image selection documentation](https://docs.stackable.tech/home/nightly/concepts/product_image_selection) for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#spark_image DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#spark_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#spark_image DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#spark_image}
   */
   readonly sparkImage: DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecSparkImage;
   /**
   * Name of the Vector aggregator [discovery ConfigMap](https://docs.stackable.tech/home/nightly/concepts/service_discovery). It must contain the key 'ADDRESS' with the address of the Vector aggregator. Follow the [logging tutorial](https://docs.stackable.tech/home/nightly/tutorials/logging-vector-aggregator) to learn how to configure log aggregation with Vector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#vector_aggregator_config_map_name DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#vector_aggregator_config_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#vector_aggregator_config_map_name DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#vector_aggregator_config_map_name}
   */
   readonly vectorAggregatorConfigMapName?: string;
   /**
   * A list of volumes that can be made available to the job, driver or executors via their volume mounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#volumes DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#volumes DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest#volumes}
   */
   readonly volumes?: { [key: string]: string }[] | cdktf.IResolvable;
 }
@@ -9522,7 +9522,7 @@ export class DataK8SSparkStackableTechSparkApplicationV1Alpha1ManifestSpecOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest k8s_spark_stackable_tech_spark_application_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest k8s_spark_stackable_tech_spark_application_v1alpha1_manifest}
 */
 export class DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -9538,7 +9538,7 @@ export class DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest extends c
   * Generates CDKTF code for importing a DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -9550,7 +9550,7 @@ export class DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest extends c
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest k8s_spark_stackable_tech_spark_application_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/spark_stackable_tech_spark_application_v1alpha1_manifest k8s_spark_stackable_tech_spark_application_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -9561,8 +9561,8 @@ export class DataK8SSparkStackableTechSparkApplicationV1Alpha1Manifest extends c
       terraformResourceType: 'k8s_spark_stackable_tech_spark_application_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

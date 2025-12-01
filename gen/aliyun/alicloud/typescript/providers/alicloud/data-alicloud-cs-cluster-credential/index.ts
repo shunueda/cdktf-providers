@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cs_cluster_credential
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cs_cluster_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudCsClusterCredentialConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cs_cluster_credential#cluster_id DataAlicloudCsClusterCredential#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cs_cluster_credential#cluster_id DataAlicloudCsClusterCredential#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cs_cluster_credential#id DataAlicloudCsClusterCredential#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cs_cluster_credential#id DataAlicloudCsClusterCredential#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cs_cluster_credential#output_file DataAlicloudCsClusterCredential#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cs_cluster_credential#output_file DataAlicloudCsClusterCredential#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cs_cluster_credential#temporary_duration_minutes DataAlicloudCsClusterCredential#temporary_duration_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cs_cluster_credential#temporary_duration_minutes DataAlicloudCsClusterCredential#temporary_duration_minutes}
   */
   readonly temporaryDurationMinutes?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cs_cluster_credential alicloud_cs_cluster_credential}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cs_cluster_credential alicloud_cs_cluster_credential}
 */
 export class DataAlicloudCsClusterCredential extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataAlicloudCsClusterCredential extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudCsClusterCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudCsClusterCredential to import
-  * @param importFromId The id of the existing DataAlicloudCsClusterCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cs_cluster_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudCsClusterCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cs_cluster_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudCsClusterCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataAlicloudCsClusterCredential extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cs_cluster_credential alicloud_cs_cluster_credential} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cs_cluster_credential alicloud_cs_cluster_credential} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataAlicloudCsClusterCredential extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_cs_cluster_credential',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,114 +8,114 @@ import * as cdktf from 'cdktf';
 
 export interface AlbServerGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#cross_zone_enabled AlbServerGroup#cross_zone_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#cross_zone_enabled AlbServerGroup#cross_zone_enabled}
   */
   readonly crossZoneEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#dry_run AlbServerGroup#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#dry_run AlbServerGroup#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#health_check_template_id AlbServerGroup#health_check_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#health_check_template_id AlbServerGroup#health_check_template_id}
   */
   readonly healthCheckTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#id AlbServerGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#id AlbServerGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#ipv6_enabled AlbServerGroup#ipv6_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#ipv6_enabled AlbServerGroup#ipv6_enabled}
   */
   readonly ipv6Enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#protocol AlbServerGroup#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#protocol AlbServerGroup#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#resource_group_id AlbServerGroup#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#resource_group_id AlbServerGroup#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#scheduler AlbServerGroup#scheduler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#scheduler AlbServerGroup#scheduler}
   */
   readonly scheduler?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#server_group_name AlbServerGroup#server_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#server_group_name AlbServerGroup#server_group_name}
   */
   readonly serverGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#server_group_type AlbServerGroup#server_group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#server_group_type AlbServerGroup#server_group_type}
   */
   readonly serverGroupType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#service_name AlbServerGroup#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#service_name AlbServerGroup#service_name}
   */
   readonly serviceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#tags AlbServerGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#tags AlbServerGroup#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#upstream_keepalive_enabled AlbServerGroup#upstream_keepalive_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#upstream_keepalive_enabled AlbServerGroup#upstream_keepalive_enabled}
   */
   readonly upstreamKeepaliveEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#vpc_id AlbServerGroup#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#vpc_id AlbServerGroup#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * connection_drain_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#connection_drain_config AlbServerGroup#connection_drain_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#connection_drain_config AlbServerGroup#connection_drain_config}
   */
   readonly connectionDrainConfig?: AlbServerGroupConnectionDrainConfig;
   /**
   * health_check_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#health_check_config AlbServerGroup#health_check_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#health_check_config AlbServerGroup#health_check_config}
   */
   readonly healthCheckConfig: AlbServerGroupHealthCheckConfig;
   /**
   * servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#servers AlbServerGroup#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#servers AlbServerGroup#servers}
   */
   readonly servers?: AlbServerGroupServers[] | cdktf.IResolvable;
   /**
   * slow_start_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#slow_start_config AlbServerGroup#slow_start_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#slow_start_config AlbServerGroup#slow_start_config}
   */
   readonly slowStartConfig?: AlbServerGroupSlowStartConfig;
   /**
   * sticky_session_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#sticky_session_config AlbServerGroup#sticky_session_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#sticky_session_config AlbServerGroup#sticky_session_config}
   */
   readonly stickySessionConfig?: AlbServerGroupStickySessionConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#timeouts AlbServerGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#timeouts AlbServerGroup#timeouts}
   */
   readonly timeouts?: AlbServerGroupTimeouts;
   /**
   * uch_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#uch_config AlbServerGroup#uch_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#uch_config AlbServerGroup#uch_config}
   */
   readonly uchConfig?: AlbServerGroupUchConfig;
 }
 export interface AlbServerGroupConnectionDrainConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#connection_drain_enabled AlbServerGroup#connection_drain_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#connection_drain_enabled AlbServerGroup#connection_drain_enabled}
   */
   readonly connectionDrainEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#connection_drain_timeout AlbServerGroup#connection_drain_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#connection_drain_timeout AlbServerGroup#connection_drain_timeout}
   */
   readonly connectionDrainTimeout?: number;
 }
@@ -228,51 +228,51 @@ export class AlbServerGroupConnectionDrainConfigOutputReference extends cdktf.Co
 }
 export interface AlbServerGroupHealthCheckConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#health_check_codes AlbServerGroup#health_check_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#health_check_codes AlbServerGroup#health_check_codes}
   */
   readonly healthCheckCodes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#health_check_connect_port AlbServerGroup#health_check_connect_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#health_check_connect_port AlbServerGroup#health_check_connect_port}
   */
   readonly healthCheckConnectPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#health_check_enabled AlbServerGroup#health_check_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#health_check_enabled AlbServerGroup#health_check_enabled}
   */
   readonly healthCheckEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#health_check_host AlbServerGroup#health_check_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#health_check_host AlbServerGroup#health_check_host}
   */
   readonly healthCheckHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#health_check_http_version AlbServerGroup#health_check_http_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#health_check_http_version AlbServerGroup#health_check_http_version}
   */
   readonly healthCheckHttpVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#health_check_interval AlbServerGroup#health_check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#health_check_interval AlbServerGroup#health_check_interval}
   */
   readonly healthCheckInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#health_check_method AlbServerGroup#health_check_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#health_check_method AlbServerGroup#health_check_method}
   */
   readonly healthCheckMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#health_check_path AlbServerGroup#health_check_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#health_check_path AlbServerGroup#health_check_path}
   */
   readonly healthCheckPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#health_check_protocol AlbServerGroup#health_check_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#health_check_protocol AlbServerGroup#health_check_protocol}
   */
   readonly healthCheckProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#health_check_timeout AlbServerGroup#health_check_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#health_check_timeout AlbServerGroup#health_check_timeout}
   */
   readonly healthCheckTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#healthy_threshold AlbServerGroup#healthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#healthy_threshold AlbServerGroup#healthy_threshold}
   */
   readonly healthyThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#unhealthy_threshold AlbServerGroup#unhealthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#unhealthy_threshold AlbServerGroup#unhealthy_threshold}
   */
   readonly unhealthyThreshold?: number;
 }
@@ -672,31 +672,31 @@ export class AlbServerGroupHealthCheckConfigOutputReference extends cdktf.Comple
 }
 export interface AlbServerGroupServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#description AlbServerGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#description AlbServerGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#port AlbServerGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#port AlbServerGroup#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#remote_ip_enabled AlbServerGroup#remote_ip_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#remote_ip_enabled AlbServerGroup#remote_ip_enabled}
   */
   readonly remoteIpEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#server_id AlbServerGroup#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#server_id AlbServerGroup#server_id}
   */
   readonly serverId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#server_ip AlbServerGroup#server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#server_ip AlbServerGroup#server_ip}
   */
   readonly serverIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#server_type AlbServerGroup#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#server_type AlbServerGroup#server_type}
   */
   readonly serverType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#weight AlbServerGroup#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#weight AlbServerGroup#weight}
   */
   readonly weight?: number;
 }
@@ -990,11 +990,11 @@ export class AlbServerGroupServersList extends cdktf.ComplexList {
 }
 export interface AlbServerGroupSlowStartConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#slow_start_duration AlbServerGroup#slow_start_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#slow_start_duration AlbServerGroup#slow_start_duration}
   */
   readonly slowStartDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#slow_start_enabled AlbServerGroup#slow_start_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#slow_start_enabled AlbServerGroup#slow_start_enabled}
   */
   readonly slowStartEnabled?: boolean | cdktf.IResolvable;
 }
@@ -1107,19 +1107,19 @@ export class AlbServerGroupSlowStartConfigOutputReference extends cdktf.ComplexO
 }
 export interface AlbServerGroupStickySessionConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#cookie AlbServerGroup#cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#cookie AlbServerGroup#cookie}
   */
   readonly cookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#cookie_timeout AlbServerGroup#cookie_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#cookie_timeout AlbServerGroup#cookie_timeout}
   */
   readonly cookieTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#sticky_session_enabled AlbServerGroup#sticky_session_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#sticky_session_enabled AlbServerGroup#sticky_session_enabled}
   */
   readonly stickySessionEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#sticky_session_type AlbServerGroup#sticky_session_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#sticky_session_type AlbServerGroup#sticky_session_type}
   */
   readonly stickySessionType?: string;
 }
@@ -1290,15 +1290,15 @@ export class AlbServerGroupStickySessionConfigOutputReference extends cdktf.Comp
 }
 export interface AlbServerGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#create AlbServerGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#create AlbServerGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#delete AlbServerGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#delete AlbServerGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#update AlbServerGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#update AlbServerGroup#update}
   */
   readonly update?: string;
 }
@@ -1450,11 +1450,11 @@ export class AlbServerGroupTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 export interface AlbServerGroupUchConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#type AlbServerGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#type AlbServerGroup#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#value AlbServerGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#value AlbServerGroup#value}
   */
   readonly value?: string;
 }
@@ -1567,7 +1567,7 @@ export class AlbServerGroupUchConfigOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group alicloud_alb_server_group}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group alicloud_alb_server_group}
 */
 export class AlbServerGroup extends cdktf.TerraformResource {
 
@@ -1583,7 +1583,7 @@ export class AlbServerGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlbServerGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlbServerGroup to import
-  * @param importFromId The id of the existing AlbServerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlbServerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlbServerGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1595,7 +1595,7 @@ export class AlbServerGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_server_group alicloud_alb_server_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_server_group alicloud_alb_server_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1606,8 +1606,8 @@ export class AlbServerGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_alb_server_group',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

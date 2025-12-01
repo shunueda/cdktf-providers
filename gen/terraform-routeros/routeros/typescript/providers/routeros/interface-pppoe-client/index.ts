@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_pppoe_client
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_pppoe_client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface InterfacePppoeClientConfig extends cdktf.TerraformMetaArguments
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_pppoe_client#___path___ InterfacePppoeClient#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_pppoe_client#___path___ InterfacePppoeClient#___path___}
   */
   readonly path?: string;
   /**
   * Access Concentrator name, this may be left blank and the client will connect to any access concentrator on the broadcast domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_pppoe_client#ac_name InterfacePppoeClient#ac_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_pppoe_client#ac_name InterfacePppoeClient#ac_name}
   */
   readonly acName?: string;
   /**
   * Enable/Disable whether to add default route automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_pppoe_client#add_default_route InterfacePppoeClient#add_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_pppoe_client#add_default_route InterfacePppoeClient#add_default_route}
   */
   readonly addDefaultRoute?: boolean | cdktf.IResolvable;
   /**
   * Allowed authentication methods, by default all methods are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_pppoe_client#allow InterfacePppoeClient#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_pppoe_client#allow InterfacePppoeClient#allow}
   */
   readonly allow?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_pppoe_client#comment InterfacePppoeClient#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_pppoe_client#comment InterfacePppoeClient#comment}
   */
   readonly comment?: string;
   /**
   * sets distance value applied to auto created default route, if add-default-route is also selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_pppoe_client#default_route_distance InterfacePppoeClient#default_route_distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_pppoe_client#default_route_distance InterfacePppoeClient#default_route_distance}
   */
   readonly defaultRouteDistance?: number;
   /**
   * connects to AC only when outbound traffic is generated. If selected, then route with gateway address from 10.112.112.0/24 network will be added while connection is not established.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_pppoe_client#dial_on_demand InterfacePppoeClient#dial_on_demand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_pppoe_client#dial_on_demand InterfacePppoeClient#dial_on_demand}
   */
   readonly dialOnDemand?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_pppoe_client#disabled InterfacePppoeClient#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_pppoe_client#disabled InterfacePppoeClient#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_pppoe_client#host_uniq InterfacePppoeClient#host_uniq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_pppoe_client#host_uniq InterfacePppoeClient#host_uniq}
   */
   readonly hostUniq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_pppoe_client#id InterfacePppoeClient#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_pppoe_client#id InterfacePppoeClient#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,73 +65,73 @@ export interface InterfacePppoeClientConfig extends cdktf.TerraformMetaArguments
   /**
   * Interface name on which client will run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_pppoe_client#interface InterfacePppoeClient#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_pppoe_client#interface InterfacePppoeClient#interface}
   */
   readonly interface: string;
   /**
   * Sets keepalive timeout in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_pppoe_client#keepalive_timeout InterfacePppoeClient#keepalive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_pppoe_client#keepalive_timeout InterfacePppoeClient#keepalive_timeout}
   */
   readonly keepaliveTimeout?: number;
   /**
   * Maximum Receive Unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_pppoe_client#max_mru InterfacePppoeClient#max_mru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_pppoe_client#max_mru InterfacePppoeClient#max_mru}
   */
   readonly maxMru?: string;
   /**
   * Maximum Transmission Unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_pppoe_client#max_mtu InterfacePppoeClient#max_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_pppoe_client#max_mtu InterfacePppoeClient#max_mtu}
   */
   readonly maxMtu?: string;
   /**
   * Maximum packet size (512..65535 or disabled) that can be received on the link. If a packet is bigger than tunnel MTU, it will be split into multiple packets, allowing full size IP or Ethernet packets to be sent over the tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_pppoe_client#mrru InterfacePppoeClient#mrru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_pppoe_client#mrru InterfacePppoeClient#mrru}
   */
   readonly mrru?: string;
   /**
   * Name of the PPPoE interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_pppoe_client#name InterfacePppoeClient#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_pppoe_client#name InterfacePppoeClient#name}
   */
   readonly name: string;
   /**
   * Password used to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_pppoe_client#password InterfacePppoeClient#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_pppoe_client#password InterfacePppoeClient#password}
   */
   readonly password?: string;
   /**
   * Specifies which PPP profile configuration will be used when establishing the tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_pppoe_client#profile InterfacePppoeClient#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_pppoe_client#profile InterfacePppoeClient#profile}
   */
   readonly profile?: string;
   /**
   * Specifies the service name set on the access concentrator, can be left blank to connect to any PPPoE server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_pppoe_client#service_name InterfacePppoeClient#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_pppoe_client#service_name InterfacePppoeClient#service_name}
   */
   readonly serviceName?: string;
   /**
   * Enable/disable getting DNS settings from the peer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_pppoe_client#use_peer_dns InterfacePppoeClient#use_peer_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_pppoe_client#use_peer_dns InterfacePppoeClient#use_peer_dns}
   */
   readonly usePeerDns?: boolean | cdktf.IResolvable;
   /**
   * Username used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_pppoe_client#user InterfacePppoeClient#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_pppoe_client#user InterfacePppoeClient#user}
   */
   readonly user?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_pppoe_client routeros_interface_pppoe_client}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_pppoe_client routeros_interface_pppoe_client}
 */
 export class InterfacePppoeClient extends cdktf.TerraformResource {
 
@@ -147,7 +147,7 @@ export class InterfacePppoeClient extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfacePppoeClient resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfacePppoeClient to import
-  * @param importFromId The id of the existing InterfacePppoeClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_pppoe_client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfacePppoeClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_pppoe_client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfacePppoeClient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -159,7 +159,7 @@ export class InterfacePppoeClient extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_pppoe_client routeros_interface_pppoe_client} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_pppoe_client routeros_interface_pppoe_client} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -170,8 +170,8 @@ export class InterfacePppoeClient extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_interface_pppoe_client',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.94.0',
-        providerVersionConstraint: '1.94.0'
+        providerVersion: '1.95.0',
+        providerVersionConstraint: '1.95.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

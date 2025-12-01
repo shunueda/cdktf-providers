@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "alibabacloudstack": "3.16.21"
+    "alibabacloudstack": "3.18.20"
   }
 }

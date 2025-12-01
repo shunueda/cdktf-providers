@@ -15,17 +15,17 @@ export interface DataK8SAppsEmqxIoEmqxBrokerV1Beta3ManifestConfig extends cdktf.
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_emqx_io_emqx_broker_v1beta3_manifest#metadata DataK8SAppsEmqxIoEmqxBrokerV1Beta3Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_broker_v1beta3_manifest#metadata DataK8SAppsEmqxIoEmqxBrokerV1Beta3Manifest#metadata}
   */
   readonly metadata: DataK8SAppsEmqxIoEmqxBrokerV1Beta3ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_emqx_io_emqx_broker_v1beta3_manifest#spec DataK8SAppsEmqxIoEmqxBrokerV1Beta3Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_broker_v1beta3_manifest#spec DataK8SAppsEmqxIoEmqxBrokerV1Beta3Manifest#spec}
   */
   readonly spec?: DataK8SAppsEmqxIoEmqxBrokerV1Beta3ManifestSpec;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_emqx_io_emqx_broker_v1beta3_manifest k8s_apps_emqx_io_emqx_broker_v1beta3_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_broker_v1beta3_manifest k8s_apps_emqx_io_emqx_broker_v1beta3_manifest}
 */
 export class DataK8SAppsEmqxIoEmqxBrokerV1Beta3Manifest extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataK8SAppsEmqxIoEmqxBrokerV1Beta3Manifest extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataK8SAppsEmqxIoEmqxBrokerV1Beta3Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAppsEmqxIoEmqxBrokerV1Beta3Manifest to import
-  * @param importFromId The id of the existing DataK8SAppsEmqxIoEmqxBrokerV1Beta3Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_emqx_io_emqx_broker_v1beta3_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAppsEmqxIoEmqxBrokerV1Beta3Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_broker_v1beta3_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAppsEmqxIoEmqxBrokerV1Beta3Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataK8SAppsEmqxIoEmqxBrokerV1Beta3Manifest extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_emqx_io_emqx_broker_v1beta3_manifest k8s_apps_emqx_io_emqx_broker_v1beta3_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_emqx_io_emqx_broker_v1beta3_manifest k8s_apps_emqx_io_emqx_broker_v1beta3_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataK8SAppsEmqxIoEmqxBrokerV1Beta3Manifest extends cdktf.TerraformD
       terraformResourceType: 'k8s_apps_emqx_io_emqx_broker_v1beta3_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

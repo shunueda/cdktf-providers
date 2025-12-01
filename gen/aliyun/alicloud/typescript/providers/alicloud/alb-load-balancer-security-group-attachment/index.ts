@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_load_balancer_security_group_attachment
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_load_balancer_security_group_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface AlbLoadBalancerSecurityGroupAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_load_balancer_security_group_attachment#dry_run AlbLoadBalancerSecurityGroupAttachment#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_load_balancer_security_group_attachment#dry_run AlbLoadBalancerSecurityGroupAttachment#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_load_balancer_security_group_attachment#id AlbLoadBalancerSecurityGroupAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_load_balancer_security_group_attachment#id AlbLoadBalancerSecurityGroupAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_load_balancer_security_group_attachment#load_balancer_id AlbLoadBalancerSecurityGroupAttachment#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_load_balancer_security_group_attachment#load_balancer_id AlbLoadBalancerSecurityGroupAttachment#load_balancer_id}
   */
   readonly loadBalancerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_load_balancer_security_group_attachment#security_group_id AlbLoadBalancerSecurityGroupAttachment#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_load_balancer_security_group_attachment#security_group_id AlbLoadBalancerSecurityGroupAttachment#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_load_balancer_security_group_attachment#timeouts AlbLoadBalancerSecurityGroupAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_load_balancer_security_group_attachment#timeouts AlbLoadBalancerSecurityGroupAttachment#timeouts}
   */
   readonly timeouts?: AlbLoadBalancerSecurityGroupAttachmentTimeouts;
 }
 export interface AlbLoadBalancerSecurityGroupAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_load_balancer_security_group_attachment#create AlbLoadBalancerSecurityGroupAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_load_balancer_security_group_attachment#create AlbLoadBalancerSecurityGroupAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_load_balancer_security_group_attachment#delete AlbLoadBalancerSecurityGroupAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_load_balancer_security_group_attachment#delete AlbLoadBalancerSecurityGroupAttachment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_load_balancer_security_group_attachment#update AlbLoadBalancerSecurityGroupAttachment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_load_balancer_security_group_attachment#update AlbLoadBalancerSecurityGroupAttachment#update}
   */
   readonly update?: string;
 }
@@ -195,7 +195,7 @@ export class AlbLoadBalancerSecurityGroupAttachmentTimeoutsOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_load_balancer_security_group_attachment alicloud_alb_load_balancer_security_group_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_load_balancer_security_group_attachment alicloud_alb_load_balancer_security_group_attachment}
 */
 export class AlbLoadBalancerSecurityGroupAttachment extends cdktf.TerraformResource {
 
@@ -211,7 +211,7 @@ export class AlbLoadBalancerSecurityGroupAttachment extends cdktf.TerraformResou
   * Generates CDKTF code for importing a AlbLoadBalancerSecurityGroupAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlbLoadBalancerSecurityGroupAttachment to import
-  * @param importFromId The id of the existing AlbLoadBalancerSecurityGroupAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_load_balancer_security_group_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlbLoadBalancerSecurityGroupAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_load_balancer_security_group_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlbLoadBalancerSecurityGroupAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -223,7 +223,7 @@ export class AlbLoadBalancerSecurityGroupAttachment extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_load_balancer_security_group_attachment alicloud_alb_load_balancer_security_group_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_load_balancer_security_group_attachment alicloud_alb_load_balancer_security_group_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -234,8 +234,8 @@ export class AlbLoadBalancerSecurityGroupAttachment extends cdktf.TerraformResou
       terraformResourceType: 'alicloud_alb_load_balancer_security_group_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

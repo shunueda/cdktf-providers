@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_instances
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/gpdb_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudGpdbInstancesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_instances#availability_zone DataAlicloudGpdbInstances#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/gpdb_instances#availability_zone DataAlicloudGpdbInstances#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_instances#db_instance_categories DataAlicloudGpdbInstances#db_instance_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/gpdb_instances#db_instance_categories DataAlicloudGpdbInstances#db_instance_categories}
   */
   readonly dbInstanceCategories?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_instances#db_instance_modes DataAlicloudGpdbInstances#db_instance_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/gpdb_instances#db_instance_modes DataAlicloudGpdbInstances#db_instance_modes}
   */
   readonly dbInstanceModes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_instances#description DataAlicloudGpdbInstances#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/gpdb_instances#description DataAlicloudGpdbInstances#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_instances#enable_details DataAlicloudGpdbInstances#enable_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/gpdb_instances#enable_details DataAlicloudGpdbInstances#enable_details}
   */
   readonly enableDetails?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_instances#id DataAlicloudGpdbInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/gpdb_instances#id DataAlicloudGpdbInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_instances#ids DataAlicloudGpdbInstances#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/gpdb_instances#ids DataAlicloudGpdbInstances#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_instances#instance_network_type DataAlicloudGpdbInstances#instance_network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/gpdb_instances#instance_network_type DataAlicloudGpdbInstances#instance_network_type}
   */
   readonly instanceNetworkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_instances#name_regex DataAlicloudGpdbInstances#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/gpdb_instances#name_regex DataAlicloudGpdbInstances#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_instances#output_file DataAlicloudGpdbInstances#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/gpdb_instances#output_file DataAlicloudGpdbInstances#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_instances#resource_group_id DataAlicloudGpdbInstances#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/gpdb_instances#resource_group_id DataAlicloudGpdbInstances#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_instances#status DataAlicloudGpdbInstances#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/gpdb_instances#status DataAlicloudGpdbInstances#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_instances#tags DataAlicloudGpdbInstances#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/gpdb_instances#tags DataAlicloudGpdbInstances#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_instances#vswitch_id DataAlicloudGpdbInstances#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/gpdb_instances#vswitch_id DataAlicloudGpdbInstances#vswitch_id}
   */
   readonly vswitchId?: string;
 }
@@ -376,7 +376,7 @@ export class DataAlicloudGpdbInstancesInstancesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_instances alicloud_gpdb_instances}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/gpdb_instances alicloud_gpdb_instances}
 */
 export class DataAlicloudGpdbInstances extends cdktf.TerraformDataSource {
 
@@ -392,7 +392,7 @@ export class DataAlicloudGpdbInstances extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudGpdbInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudGpdbInstances to import
-  * @param importFromId The id of the existing DataAlicloudGpdbInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudGpdbInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/gpdb_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudGpdbInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -404,7 +404,7 @@ export class DataAlicloudGpdbInstances extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/gpdb_instances alicloud_gpdb_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/gpdb_instances alicloud_gpdb_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -415,8 +415,8 @@ export class DataAlicloudGpdbInstances extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_gpdb_instances',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

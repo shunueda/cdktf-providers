@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCrdProjectcalicoOrgBgpConfigurationV1ManifestConfig exte
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#metadata DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#metadata DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#metadata}
   */
   readonly metadata: DataK8SCrdProjectcalicoOrgBgpConfigurationV1ManifestMetadata;
   /**
   * BGPConfigurationSpec contains the values of the BGP configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#spec DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#spec DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#spec}
   */
   readonly spec?: DataK8SCrdProjectcalicoOrgBgpConfigurationV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SCrdProjectcalicoOrgBgpConfigurationV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#annotations DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#annotations DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#labels DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#labels DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#name DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#name DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,13 +187,13 @@ export interface DataK8SCrdProjectcalicoOrgBgpConfigurationV1ManifestSpecCommuni
   /**
   * Name given to community value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#name DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#name DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Value must be of format 'aa:nn' or 'aa:nn:mm'. For standard community use 'aa:nn' format, where 'aa' and 'nn' are 16 bit number. For large community use 'aa:nn:mm' format, where 'aa', 'nn' and 'mm' are 32 bit number. Where, 'aa' is an AS Number, 'nn' and 'mm' are per-AS identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#value DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#value DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -340,19 +340,19 @@ export interface DataK8SCrdProjectcalicoOrgBgpConfigurationV1ManifestSpecNodeMes
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#key DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#key DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#name DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#name DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#optional DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#optional DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -503,7 +503,7 @@ export interface DataK8SCrdProjectcalicoOrgBgpConfigurationV1ManifestSpecNodeMes
   /**
   * Selects a key of a secret in the node pod's namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#secret_key_ref DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#secret_key_ref DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SCrdProjectcalicoOrgBgpConfigurationV1ManifestSpecNodeMeshPasswordSecretKeyRef;
 }
@@ -599,13 +599,13 @@ export interface DataK8SCrdProjectcalicoOrgBgpConfigurationV1ManifestSpecPrefixA
   /**
   * CIDR for which properties should be advertised.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#cidr DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#cidr DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#cidr}
   */
   readonly cidr?: string;
   /**
   * Communities can be list of either community names already defined in 'Specs.Communities' or community value of format 'aa:nn' or 'aa:nn:mm'. For standard community use 'aa:nn' format, where 'aa' and 'nn' are 16 bit number. For large community use 'aa:nn:mm' format, where 'aa', 'nn' and 'mm' are 32 bit number. Where,'aa' is an AS Number, 'nn' and 'mm' are per-AS identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#communities DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#communities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#communities DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#communities}
   */
   readonly communities?: string[];
 }
@@ -750,7 +750,7 @@ export class DataK8SCrdProjectcalicoOrgBgpConfigurationV1ManifestSpecPrefixAdver
 }
 export interface DataK8SCrdProjectcalicoOrgBgpConfigurationV1ManifestSpecServiceClusterIPs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#cidr DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#cidr DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#cidr}
   */
   readonly cidr?: string;
 }
@@ -866,7 +866,7 @@ export class DataK8SCrdProjectcalicoOrgBgpConfigurationV1ManifestSpecServiceClus
 }
 export interface DataK8SCrdProjectcalicoOrgBgpConfigurationV1ManifestSpecServiceExternalIPs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#cidr DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#cidr DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#cidr}
   */
   readonly cidr?: string;
 }
@@ -982,7 +982,7 @@ export class DataK8SCrdProjectcalicoOrgBgpConfigurationV1ManifestSpecServiceExte
 }
 export interface DataK8SCrdProjectcalicoOrgBgpConfigurationV1ManifestSpecServiceLoadBalancerIPs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#cidr DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#cidr DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#cidr}
   */
   readonly cidr?: string;
 }
@@ -1100,79 +1100,79 @@ export interface DataK8SCrdProjectcalicoOrgBgpConfigurationV1ManifestSpec {
   /**
   * ASNumber is the default AS number used by a node. [Default: 64512]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#as_number DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#as_number DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#as_number}
   */
   readonly asNumber?: number;
   /**
   * BindMode indicates whether to listen for BGP connections on all addresses (None) or only on the node's canonical IP address Node.Spec.BGP.IPvXAddress (NodeIP). Default behaviour is to listen for BGP connections on all addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#bind_mode DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#bind_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#bind_mode DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#bind_mode}
   */
   readonly bindMode?: string;
   /**
   * Communities is a list of BGP community values and their arbitrary names for tagging routes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#communities DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#communities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#communities DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#communities}
   */
   readonly communities?: DataK8SCrdProjectcalicoOrgBgpConfigurationV1ManifestSpecCommunities[] | cdktf.IResolvable;
   /**
   * IgnoredInterfaces indicates the network interfaces that needs to be excluded when reading device routes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#ignored_interfaces DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#ignored_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#ignored_interfaces DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#ignored_interfaces}
   */
   readonly ignoredInterfaces?: string[];
   /**
   * ListenPort is the port where BGP protocol should listen. Defaults to 179
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#listen_port DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#listen_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#listen_port DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#listen_port}
   */
   readonly listenPort?: number;
   /**
   * LogSeverityScreen is the log severity above which logs are sent to the stdout. [Default: INFO]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#log_severity_screen DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#log_severity_screen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#log_severity_screen DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#log_severity_screen}
   */
   readonly logSeverityScreen?: string;
   /**
   * Time to allow for software restart for node-to-mesh peerings. When specified, this is configured as the graceful restart timeout. When not specified, the BIRD default of 120s is used. This field can only be set on the default BGPConfiguration instance and requires that NodeMesh is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#node_mesh_max_restart_time DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#node_mesh_max_restart_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#node_mesh_max_restart_time DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#node_mesh_max_restart_time}
   */
   readonly nodeMeshMaxRestartTime?: string;
   /**
   * Optional BGP password for full node-to-mesh peerings. This field can only be set on the default BGPConfiguration instance and requires that NodeMesh is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#node_mesh_password DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#node_mesh_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#node_mesh_password DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#node_mesh_password}
   */
   readonly nodeMeshPassword?: DataK8SCrdProjectcalicoOrgBgpConfigurationV1ManifestSpecNodeMeshPassword;
   /**
   * NodeToNodeMeshEnabled sets whether full node to node BGP mesh is enabled. [Default: true]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#node_to_node_mesh_enabled DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#node_to_node_mesh_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#node_to_node_mesh_enabled DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#node_to_node_mesh_enabled}
   */
   readonly nodeToNodeMeshEnabled?: boolean | cdktf.IResolvable;
   /**
   * PrefixAdvertisements contains per-prefix advertisement configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#prefix_advertisements DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#prefix_advertisements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#prefix_advertisements DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#prefix_advertisements}
   */
   readonly prefixAdvertisements?: DataK8SCrdProjectcalicoOrgBgpConfigurationV1ManifestSpecPrefixAdvertisements[] | cdktf.IResolvable;
   /**
   * ServiceClusterIPs are the CIDR blocks from which service cluster IPs are allocated. If specified, Calico will advertise these blocks, as well as any cluster IPs within them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#service_cluster_i_ps DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#service_cluster_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#service_cluster_i_ps DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#service_cluster_i_ps}
   */
   readonly serviceClusterIPs?: DataK8SCrdProjectcalicoOrgBgpConfigurationV1ManifestSpecServiceClusterIPs[] | cdktf.IResolvable;
   /**
   * ServiceExternalIPs are the CIDR blocks for Kubernetes Service External IPs. Kubernetes Service ExternalIPs will only be advertised if they are within one of these blocks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#service_external_i_ps DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#service_external_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#service_external_i_ps DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#service_external_i_ps}
   */
   readonly serviceExternalIPs?: DataK8SCrdProjectcalicoOrgBgpConfigurationV1ManifestSpecServiceExternalIPs[] | cdktf.IResolvable;
   /**
   * ServiceLoadBalancerIPs are the CIDR blocks for Kubernetes Service LoadBalancer IPs. Kubernetes Service status.LoadBalancer.Ingress IPs will only be advertised if they are within one of these blocks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#service_load_balancer_i_ps DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#service_load_balancer_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#service_load_balancer_i_ps DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest#service_load_balancer_i_ps}
   */
   readonly serviceLoadBalancerIPs?: DataK8SCrdProjectcalicoOrgBgpConfigurationV1ManifestSpecServiceLoadBalancerIPs[] | cdktf.IResolvable;
 }
@@ -1614,7 +1614,7 @@ export class DataK8SCrdProjectcalicoOrgBgpConfigurationV1ManifestSpecOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest k8s_crd_projectcalico_org_bgp_configuration_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest k8s_crd_projectcalico_org_bgp_configuration_v1_manifest}
 */
 export class DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest extends cdktf.TerraformDataSource {
 
@@ -1630,7 +1630,7 @@ export class DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest extends cdktf.
   * Generates CDKTF code for importing a DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest to import
-  * @param importFromId The id of the existing DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1642,7 +1642,7 @@ export class DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest k8s_crd_projectcalico_org_bgp_configuration_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_bgp_configuration_v1_manifest k8s_crd_projectcalico_org_bgp_configuration_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1653,8 +1653,8 @@ export class DataK8SCrdProjectcalicoOrgBgpConfigurationV1Manifest extends cdktf.
       terraformResourceType: 'k8s_crd_projectcalico_org_bgp_configuration_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

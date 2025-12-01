@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ecs_snapshot_group
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_snapshot_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface EcsSnapshotGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ecs_snapshot_group#create_time EcsSnapshotGroup#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_snapshot_group#create_time EcsSnapshotGroup#create_time}
   */
   readonly createTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ecs_snapshot_group#description EcsSnapshotGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_snapshot_group#description EcsSnapshotGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ecs_snapshot_group#disk_ids EcsSnapshotGroup#disk_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_snapshot_group#disk_ids EcsSnapshotGroup#disk_ids}
   */
   readonly diskIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ecs_snapshot_group#exclude_disk_ids EcsSnapshotGroup#exclude_disk_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_snapshot_group#exclude_disk_ids EcsSnapshotGroup#exclude_disk_ids}
   */
   readonly excludeDiskIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ecs_snapshot_group#id EcsSnapshotGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_snapshot_group#id EcsSnapshotGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ecs_snapshot_group#instance_id EcsSnapshotGroup#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_snapshot_group#instance_id EcsSnapshotGroup#instance_id}
   */
   readonly instanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ecs_snapshot_group#instant_access EcsSnapshotGroup#instant_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_snapshot_group#instant_access EcsSnapshotGroup#instant_access}
   */
   readonly instantAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ecs_snapshot_group#instant_access_retention_days EcsSnapshotGroup#instant_access_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_snapshot_group#instant_access_retention_days EcsSnapshotGroup#instant_access_retention_days}
   */
   readonly instantAccessRetentionDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ecs_snapshot_group#snapshot_group_name EcsSnapshotGroup#snapshot_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_snapshot_group#snapshot_group_name EcsSnapshotGroup#snapshot_group_name}
   */
   readonly snapshotGroupName?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ecs_snapshot_group#timeouts EcsSnapshotGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_snapshot_group#timeouts EcsSnapshotGroup#timeouts}
   */
   readonly timeouts?: EcsSnapshotGroupTimeouts;
 }
 export interface EcsSnapshotGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ecs_snapshot_group#create EcsSnapshotGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_snapshot_group#create EcsSnapshotGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ecs_snapshot_group#delete EcsSnapshotGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_snapshot_group#delete EcsSnapshotGroup#delete}
   */
   readonly delete?: string;
 }
@@ -182,7 +182,7 @@ export class EcsSnapshotGroupTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ecs_snapshot_group alibabacloudstack_ecs_snapshot_group}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_snapshot_group alibabacloudstack_ecs_snapshot_group}
 */
 export class EcsSnapshotGroup extends cdktf.TerraformResource {
 
@@ -198,7 +198,7 @@ export class EcsSnapshotGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EcsSnapshotGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcsSnapshotGroup to import
-  * @param importFromId The id of the existing EcsSnapshotGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ecs_snapshot_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcsSnapshotGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_snapshot_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcsSnapshotGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -210,7 +210,7 @@ export class EcsSnapshotGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/ecs_snapshot_group alibabacloudstack_ecs_snapshot_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/ecs_snapshot_group alibabacloudstack_ecs_snapshot_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -221,7 +221,8 @@ export class EcsSnapshotGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_ecs_snapshot_group',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

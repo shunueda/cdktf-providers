@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestConfig extends c
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#metadata DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#metadata DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestMetadata;
   /**
   * ClusterSpec defines the desired state of Cluster. An object representing an Amazon EKS cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#spec DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#spec DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#annotations DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#annotations DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#labels DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#labels DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#name DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#name DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestMetadataOutputRefere
 }
 export interface DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecAccessConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#authentication_mode DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#authentication_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#authentication_mode DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#authentication_mode}
   */
   readonly authenticationMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#bootstrap_cluster_creator_admin_permissions DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#bootstrap_cluster_creator_admin_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#bootstrap_cluster_creator_admin_permissions DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#bootstrap_cluster_creator_admin_permissions}
   */
   readonly bootstrapClusterCreatorAdminPermissions?: boolean | cdktf.IResolvable;
 }
@@ -344,11 +344,11 @@ export class DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecAccessConfigOutp
 }
 export interface DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecEncryptionConfigProviderKeyRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#name DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#name DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -473,7 +473,7 @@ export interface DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecEncryptionCo
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#from DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#from DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecEncryptionConfigProviderKeyRefFrom;
 }
@@ -567,13 +567,13 @@ export class DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecEncryptionConfig
 }
 export interface DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecEncryptionConfigProvider {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#key_arn DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#key_arn DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#key_arn}
   */
   readonly keyArn?: string;
   /**
   * Reference field for KeyARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#key_ref DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#key_ref DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#key_ref}
   */
   readonly keyRef?: DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecEncryptionConfigProviderKeyRef;
 }
@@ -698,11 +698,11 @@ export interface DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecEncryptionCo
   /**
   * Identifies the Key Management Service (KMS) key used to encrypt the secrets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#provider DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#provider DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#provider}
   */
   readonly provider?: DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecEncryptionConfigProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#resources DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#resources DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#resources}
   */
   readonly resources?: string[];
 }
@@ -847,11 +847,11 @@ export class DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecEncryptionConfig
 }
 export interface DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecKubernetesNetworkConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#ip_family DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#ip_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#ip_family DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#ip_family}
   */
   readonly ipFamily?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#service_i_pv4_cidr DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#service_i_pv4_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#service_i_pv4_cidr DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#service_i_pv4_cidr}
   */
   readonly serviceIPv4Cidr?: string;
 }
@@ -974,11 +974,11 @@ export class DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecKubernetesNetwor
 }
 export interface DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecLoggingClusterLogging {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#enabled DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#enabled DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#types DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#types DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#types}
   */
   readonly types?: string[];
 }
@@ -1123,7 +1123,7 @@ export class DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecLoggingClusterLo
 }
 export interface DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecLogging {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#cluster_logging DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#cluster_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#cluster_logging DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#cluster_logging}
   */
   readonly clusterLogging?: DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecLoggingClusterLogging[] | cdktf.IResolvable;
 }
@@ -1217,7 +1217,7 @@ export class DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecLoggingOutputRef
 }
 export interface DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecOutpostConfigControlPlanePlacement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#group_name DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#group_name DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#group_name}
   */
   readonly groupName?: string;
 }
@@ -1311,17 +1311,17 @@ export class DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecOutpostConfigCon
 }
 export interface DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecOutpostConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#control_plane_instance_type DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#control_plane_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#control_plane_instance_type DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#control_plane_instance_type}
   */
   readonly controlPlaneInstanceType?: string;
   /**
   * The placement configuration for all the control plane instances of your local Amazon EKS cluster on an Amazon Web Services Outpost. For more information, see Capacity considerations (https://docs.aws.amazon.com/eks/latest/userguide/eks-outposts-capacity-considerations.html) in the Amazon EKS User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#control_plane_placement DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#control_plane_placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#control_plane_placement DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#control_plane_placement}
   */
   readonly controlPlanePlacement?: DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecOutpostConfigControlPlanePlacement;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#outpost_ar_ns DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#outpost_ar_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#outpost_ar_ns DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#outpost_ar_ns}
   */
   readonly outpostArNs?: string[];
 }
@@ -1473,11 +1473,11 @@ export class DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecOutpostConfigOut
 }
 export interface DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecResourcesVpcConfigSecurityGroupRefsFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#name DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#name DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1602,7 +1602,7 @@ export interface DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecResourcesVpc
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#from DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#from DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecResourcesVpcConfigSecurityGroupRefsFrom;
 }
@@ -1718,11 +1718,11 @@ export class DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecResourcesVpcConf
 }
 export interface DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecResourcesVpcConfigSubnetRefsFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#name DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#name DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -1847,7 +1847,7 @@ export interface DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecResourcesVpc
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#from DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#from DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecResourcesVpcConfigSubnetRefsFrom;
 }
@@ -1963,35 +1963,35 @@ export class DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecResourcesVpcConf
 }
 export interface DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecResourcesVpcConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#endpoint_private_access DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#endpoint_private_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#endpoint_private_access DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#endpoint_private_access}
   */
   readonly endpointPrivateAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#endpoint_public_access DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#endpoint_public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#endpoint_public_access DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#endpoint_public_access}
   */
   readonly endpointPublicAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#public_access_cidrs DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#public_access_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#public_access_cidrs DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#public_access_cidrs}
   */
   readonly publicAccessCidrs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#security_group_i_ds DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#security_group_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#security_group_i_ds DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#security_group_i_ds}
   */
   readonly securityGroupIDs?: string[];
   /**
   * Reference field for SecurityGroupIDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#security_group_refs DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#security_group_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#security_group_refs DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#security_group_refs}
   */
   readonly securityGroupRefs?: DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecResourcesVpcConfigSecurityGroupRefs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#subnet_i_ds DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#subnet_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#subnet_i_ds DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#subnet_i_ds}
   */
   readonly subnetIDs?: string[];
   /**
   * Reference field for SubnetIDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#subnet_refs DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#subnet_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#subnet_refs DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#subnet_refs}
   */
   readonly subnetRefs?: DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecResourcesVpcConfigSubnetRefs[] | cdktf.IResolvable;
 }
@@ -2259,11 +2259,11 @@ export class DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecResourcesVpcConf
 }
 export interface DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecRoleRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#name DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#name DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#namespace DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2388,7 +2388,7 @@ export interface DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecRoleRef {
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#from DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#from DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecRoleRefFrom;
 }
@@ -2482,7 +2482,7 @@ export class DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecRoleRefOutputRef
 }
 export interface DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecUpgradePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#support_type DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#support_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#support_type DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#support_type}
   */
   readonly supportType?: string;
 }
@@ -2578,85 +2578,85 @@ export interface DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpec {
   /**
   * The access configuration for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#access_config DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#access_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#access_config DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#access_config}
   */
   readonly accessConfig?: DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecAccessConfig;
   /**
   * If you set this value to False when creating a cluster, the default networking add-ons will not be installed. The default networking addons include vpc-cni, coredns, and kube-proxy. Use this option when you plan to install third-party alternative add-ons or self-manage the default networking add-ons.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#bootstrap_self_managed_addons DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#bootstrap_self_managed_addons}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#bootstrap_self_managed_addons DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#bootstrap_self_managed_addons}
   */
   readonly bootstrapSelfManagedAddons?: boolean | cdktf.IResolvable;
   /**
   * A unique, case-sensitive identifier that you provide to ensure the idempotency of the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#client_request_token DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#client_request_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#client_request_token DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#client_request_token}
   */
   readonly clientRequestToken?: string;
   /**
   * The encryption configuration for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#encryption_config DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#encryption_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#encryption_config DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#encryption_config}
   */
   readonly encryptionConfig?: DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecEncryptionConfig[] | cdktf.IResolvable;
   /**
   * The Kubernetes network configuration for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#kubernetes_network_config DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#kubernetes_network_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#kubernetes_network_config DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#kubernetes_network_config}
   */
   readonly kubernetesNetworkConfig?: DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecKubernetesNetworkConfig;
   /**
   * Enable or disable exporting the Kubernetes control plane logs for your cluster to CloudWatch Logs. By default, cluster control plane logs aren't exported to CloudWatch Logs. For more information, see Amazon EKS Cluster control plane logs (https://docs.aws.amazon.com/eks/latest/userguide/control-plane-logs.html) in the Amazon EKS User Guide . CloudWatch Logs ingestion, archive storage, and data scanning rates apply to exported control plane logs. For more information, see CloudWatch Pricing (http://aws.amazon.com/cloudwatch/pricing/).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#logging DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#logging DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#logging}
   */
   readonly logging?: DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecLogging;
   /**
   * The unique name to give to your cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#name DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#name DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * An object representing the configuration of your local Amazon EKS cluster on an Amazon Web Services Outpost. Before creating a local cluster on an Outpost, review Local clusters for Amazon EKS on Amazon Web Services Outposts (https://docs.aws.amazon.com/eks/latest/userguide/eks-outposts-local-cluster-overview.html) in the Amazon EKS User Guide. This object isn't available for creating Amazon EKS clusters on the Amazon Web Services cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#outpost_config DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#outpost_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#outpost_config DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#outpost_config}
   */
   readonly outpostConfig?: DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecOutpostConfig;
   /**
   * The VPC configuration that's used by the cluster control plane. Amazon EKS VPC resources have specific requirements to work properly with Kubernetes. For more information, see Cluster VPC Considerations (https://docs.aws.amazon.com/eks/latest/userguide/network_reqs.html) and Cluster Security Group Considerations (https://docs.aws.amazon.com/eks/latest/userguide/sec-group-reqs.html) in the Amazon EKS User Guide. You must specify at least two subnets. You can specify up to five security groups. However, we recommend that you use a dedicated security group for your cluster control plane.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#resources_vpc_config DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#resources_vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#resources_vpc_config DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#resources_vpc_config}
   */
   readonly resourcesVpcConfig: DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecResourcesVpcConfig;
   /**
   * The Amazon Resource Name (ARN) of the IAM role that provides permissions for the Kubernetes control plane to make calls to Amazon Web Services API operations on your behalf. For more information, see Amazon EKS Service IAM Role (https://docs.aws.amazon.com/eks/latest/userguide/service_IAM_role.html) in the Amazon EKS User Guide .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#role_arn DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#role_arn DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#role_arn}
   */
   readonly roleArn?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#role_ref DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#role_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#role_ref DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#role_ref}
   */
   readonly roleRef?: DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecRoleRef;
   /**
   * Metadata that assists with categorization and organization. Each tag consists of a key and an optional value. You define both. Tags don't propagate to any other cluster or Amazon Web Services resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#tags DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#tags DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * New clusters, by default, have extended support enabled. You can disable extended support when creating a cluster by setting this value to STANDARD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#upgrade_policy DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#upgrade_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#upgrade_policy DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#upgrade_policy}
   */
   readonly upgradePolicy?: DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecUpgradePolicy;
   /**
   * The desired Kubernetes version for your cluster. If you don't specify a value here, the default version available in Amazon EKS is used. The default version might not be the latest version available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#version DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#version DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -3121,7 +3121,7 @@ export class DataK8SEksServicesK8SAwsClusterV1Alpha1ManifestSpecOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest k8s_eks_services_k8s_aws_cluster_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest k8s_eks_services_k8s_aws_cluster_v1alpha1_manifest}
 */
 export class DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -3137,7 +3137,7 @@ export class DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest extends cdktf.Terra
   * Generates CDKTF code for importing a DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3149,7 +3149,7 @@ export class DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest k8s_eks_services_k8s_aws_cluster_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/eks_services_k8s_aws_cluster_v1alpha1_manifest k8s_eks_services_k8s_aws_cluster_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3160,8 +3160,8 @@ export class DataK8SEksServicesK8SAwsClusterV1Alpha1Manifest extends cdktf.Terra
       terraformResourceType: 'k8s_eks_services_k8s_aws_cluster_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,276 +8,276 @@ import * as cdktf from 'cdktf';
 
 export interface RdsCloneDbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#acl RdsCloneDbInstance#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#acl RdsCloneDbInstance#acl}
   */
   readonly acl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#auto_upgrade_minor_version RdsCloneDbInstance#auto_upgrade_minor_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#auto_upgrade_minor_version RdsCloneDbInstance#auto_upgrade_minor_version}
   */
   readonly autoUpgradeMinorVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#backup_id RdsCloneDbInstance#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#backup_id RdsCloneDbInstance#backup_id}
   */
   readonly backupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#backup_type RdsCloneDbInstance#backup_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#backup_type RdsCloneDbInstance#backup_type}
   */
   readonly backupType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#ca_type RdsCloneDbInstance#ca_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#ca_type RdsCloneDbInstance#ca_type}
   */
   readonly caType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#category RdsCloneDbInstance#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#category RdsCloneDbInstance#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#certificate RdsCloneDbInstance#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#certificate RdsCloneDbInstance#certificate}
   */
   readonly certificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#client_ca_cert RdsCloneDbInstance#client_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#client_ca_cert RdsCloneDbInstance#client_ca_cert}
   */
   readonly clientCaCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#client_ca_enabled RdsCloneDbInstance#client_ca_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#client_ca_enabled RdsCloneDbInstance#client_ca_enabled}
   */
   readonly clientCaEnabled?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#client_cert_revocation_list RdsCloneDbInstance#client_cert_revocation_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#client_cert_revocation_list RdsCloneDbInstance#client_cert_revocation_list}
   */
   readonly clientCertRevocationList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#client_crl_enabled RdsCloneDbInstance#client_crl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#client_crl_enabled RdsCloneDbInstance#client_crl_enabled}
   */
   readonly clientCrlEnabled?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#connection_string_prefix RdsCloneDbInstance#connection_string_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#connection_string_prefix RdsCloneDbInstance#connection_string_prefix}
   */
   readonly connectionStringPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#db_instance_class RdsCloneDbInstance#db_instance_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#db_instance_class RdsCloneDbInstance#db_instance_class}
   */
   readonly dbInstanceClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#db_instance_description RdsCloneDbInstance#db_instance_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#db_instance_description RdsCloneDbInstance#db_instance_description}
   */
   readonly dbInstanceDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#db_instance_storage RdsCloneDbInstance#db_instance_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#db_instance_storage RdsCloneDbInstance#db_instance_storage}
   */
   readonly dbInstanceStorage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#db_instance_storage_type RdsCloneDbInstance#db_instance_storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#db_instance_storage_type RdsCloneDbInstance#db_instance_storage_type}
   */
   readonly dbInstanceStorageType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#db_name RdsCloneDbInstance#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#db_name RdsCloneDbInstance#db_name}
   */
   readonly dbName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#db_names RdsCloneDbInstance#db_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#db_names RdsCloneDbInstance#db_names}
   */
   readonly dbNames?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#dedicated_host_group_id RdsCloneDbInstance#dedicated_host_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#dedicated_host_group_id RdsCloneDbInstance#dedicated_host_group_id}
   */
   readonly dedicatedHostGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#deletion_protection RdsCloneDbInstance#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#deletion_protection RdsCloneDbInstance#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#direction RdsCloneDbInstance#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#direction RdsCloneDbInstance#direction}
   */
   readonly direction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#effective_time RdsCloneDbInstance#effective_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#effective_time RdsCloneDbInstance#effective_time}
   */
   readonly effectiveTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#encryption_key RdsCloneDbInstance#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#encryption_key RdsCloneDbInstance#encryption_key}
   */
   readonly encryptionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#engine RdsCloneDbInstance#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#engine RdsCloneDbInstance#engine}
   */
   readonly engine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#engine_version RdsCloneDbInstance#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#engine_version RdsCloneDbInstance#engine_version}
   */
   readonly engineVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#force_restart RdsCloneDbInstance#force_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#force_restart RdsCloneDbInstance#force_restart}
   */
   readonly forceRestart?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#ha_mode RdsCloneDbInstance#ha_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#ha_mode RdsCloneDbInstance#ha_mode}
   */
   readonly haMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#id RdsCloneDbInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#id RdsCloneDbInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#instance_network_type RdsCloneDbInstance#instance_network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#instance_network_type RdsCloneDbInstance#instance_network_type}
   */
   readonly instanceNetworkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#maintain_time RdsCloneDbInstance#maintain_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#maintain_time RdsCloneDbInstance#maintain_time}
   */
   readonly maintainTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#password RdsCloneDbInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#password RdsCloneDbInstance#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#payment_type RdsCloneDbInstance#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#payment_type RdsCloneDbInstance#payment_type}
   */
   readonly paymentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#period RdsCloneDbInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#period RdsCloneDbInstance#period}
   */
   readonly period?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#port RdsCloneDbInstance#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#port RdsCloneDbInstance#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#private_ip_address RdsCloneDbInstance#private_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#private_ip_address RdsCloneDbInstance#private_ip_address}
   */
   readonly privateIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#private_key RdsCloneDbInstance#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#private_key RdsCloneDbInstance#private_key}
   */
   readonly privateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#released_keep_policy RdsCloneDbInstance#released_keep_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#released_keep_policy RdsCloneDbInstance#released_keep_policy}
   */
   readonly releasedKeepPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#replication_acl RdsCloneDbInstance#replication_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#replication_acl RdsCloneDbInstance#replication_acl}
   */
   readonly replicationAcl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#resource_group_id RdsCloneDbInstance#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#resource_group_id RdsCloneDbInstance#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#restore_table RdsCloneDbInstance#restore_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#restore_table RdsCloneDbInstance#restore_table}
   */
   readonly restoreTable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#restore_time RdsCloneDbInstance#restore_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#restore_time RdsCloneDbInstance#restore_time}
   */
   readonly restoreTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#role_arn RdsCloneDbInstance#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#role_arn RdsCloneDbInstance#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#security_ips RdsCloneDbInstance#security_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#security_ips RdsCloneDbInstance#security_ips}
   */
   readonly securityIps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#server_cert RdsCloneDbInstance#server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#server_cert RdsCloneDbInstance#server_cert}
   */
   readonly serverCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#server_key RdsCloneDbInstance#server_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#server_key RdsCloneDbInstance#server_key}
   */
   readonly serverKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#source_biz RdsCloneDbInstance#source_biz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#source_biz RdsCloneDbInstance#source_biz}
   */
   readonly sourceBiz?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#source_db_instance_id RdsCloneDbInstance#source_db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#source_db_instance_id RdsCloneDbInstance#source_db_instance_id}
   */
   readonly sourceDbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#ssl_enabled RdsCloneDbInstance#ssl_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#ssl_enabled RdsCloneDbInstance#ssl_enabled}
   */
   readonly sslEnabled?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#switch_time RdsCloneDbInstance#switch_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#switch_time RdsCloneDbInstance#switch_time}
   */
   readonly switchTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#sync_mode RdsCloneDbInstance#sync_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#sync_mode RdsCloneDbInstance#sync_mode}
   */
   readonly syncMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#table_meta RdsCloneDbInstance#table_meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#table_meta RdsCloneDbInstance#table_meta}
   */
   readonly tableMeta?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#tcp_connection_type RdsCloneDbInstance#tcp_connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#tcp_connection_type RdsCloneDbInstance#tcp_connection_type}
   */
   readonly tcpConnectionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#tde_status RdsCloneDbInstance#tde_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#tde_status RdsCloneDbInstance#tde_status}
   */
   readonly tdeStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#used_time RdsCloneDbInstance#used_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#used_time RdsCloneDbInstance#used_time}
   */
   readonly usedTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#vpc_id RdsCloneDbInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#vpc_id RdsCloneDbInstance#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#vswitch_id RdsCloneDbInstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#vswitch_id RdsCloneDbInstance#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#zone_id RdsCloneDbInstance#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#zone_id RdsCloneDbInstance#zone_id}
   */
   readonly zoneId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#zone_id_slave_a RdsCloneDbInstance#zone_id_slave_a}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#zone_id_slave_a RdsCloneDbInstance#zone_id_slave_a}
   */
   readonly zoneIdSlaveA?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#zone_id_slave_b RdsCloneDbInstance#zone_id_slave_b}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#zone_id_slave_b RdsCloneDbInstance#zone_id_slave_b}
   */
   readonly zoneIdSlaveB?: string;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#parameters RdsCloneDbInstance#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#parameters RdsCloneDbInstance#parameters}
   */
   readonly parameters?: RdsCloneDbInstanceParameters[] | cdktf.IResolvable;
   /**
   * pg_hba_conf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#pg_hba_conf RdsCloneDbInstance#pg_hba_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#pg_hba_conf RdsCloneDbInstance#pg_hba_conf}
   */
   readonly pgHbaConf?: RdsCloneDbInstancePgHbaConf[] | cdktf.IResolvable;
   /**
   * serverless_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#serverless_config RdsCloneDbInstance#serverless_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#serverless_config RdsCloneDbInstance#serverless_config}
   */
   readonly serverlessConfig?: RdsCloneDbInstanceServerlessConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#timeouts RdsCloneDbInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#timeouts RdsCloneDbInstance#timeouts}
   */
   readonly timeouts?: RdsCloneDbInstanceTimeouts;
 }
 export interface RdsCloneDbInstanceParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#name RdsCloneDbInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#name RdsCloneDbInstance#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#value RdsCloneDbInstance#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#value RdsCloneDbInstance#value}
   */
   readonly value: string;
 }
@@ -416,35 +416,35 @@ export class RdsCloneDbInstanceParametersList extends cdktf.ComplexList {
 }
 export interface RdsCloneDbInstancePgHbaConf {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#address RdsCloneDbInstance#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#address RdsCloneDbInstance#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#database RdsCloneDbInstance#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#database RdsCloneDbInstance#database}
   */
   readonly database: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#mask RdsCloneDbInstance#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#mask RdsCloneDbInstance#mask}
   */
   readonly mask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#method RdsCloneDbInstance#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#method RdsCloneDbInstance#method}
   */
   readonly method: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#option RdsCloneDbInstance#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#option RdsCloneDbInstance#option}
   */
   readonly option?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#priority_id RdsCloneDbInstance#priority_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#priority_id RdsCloneDbInstance#priority_id}
   */
   readonly priorityId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#type RdsCloneDbInstance#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#type RdsCloneDbInstance#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#user RdsCloneDbInstance#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#user RdsCloneDbInstance#user}
   */
   readonly user: string;
 }
@@ -745,19 +745,19 @@ export class RdsCloneDbInstancePgHbaConfList extends cdktf.ComplexList {
 }
 export interface RdsCloneDbInstanceServerlessConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#auto_pause RdsCloneDbInstance#auto_pause}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#auto_pause RdsCloneDbInstance#auto_pause}
   */
   readonly autoPause?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#max_capacity RdsCloneDbInstance#max_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#max_capacity RdsCloneDbInstance#max_capacity}
   */
   readonly maxCapacity: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#min_capacity RdsCloneDbInstance#min_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#min_capacity RdsCloneDbInstance#min_capacity}
   */
   readonly minCapacity: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#switch_force RdsCloneDbInstance#switch_force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#switch_force RdsCloneDbInstance#switch_force}
   */
   readonly switchForce?: boolean | cdktf.IResolvable;
 }
@@ -922,15 +922,15 @@ export class RdsCloneDbInstanceServerlessConfigOutputReference extends cdktf.Com
 }
 export interface RdsCloneDbInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#create RdsCloneDbInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#create RdsCloneDbInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#delete RdsCloneDbInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#delete RdsCloneDbInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#update RdsCloneDbInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#update RdsCloneDbInstance#update}
   */
   readonly update?: string;
 }
@@ -1082,7 +1082,7 @@ export class RdsCloneDbInstanceTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance alicloud_rds_clone_db_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance alicloud_rds_clone_db_instance}
 */
 export class RdsCloneDbInstance extends cdktf.TerraformResource {
 
@@ -1098,7 +1098,7 @@ export class RdsCloneDbInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RdsCloneDbInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RdsCloneDbInstance to import
-  * @param importFromId The id of the existing RdsCloneDbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RdsCloneDbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RdsCloneDbInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1110,7 +1110,7 @@ export class RdsCloneDbInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/rds_clone_db_instance alicloud_rds_clone_db_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/rds_clone_db_instance alicloud_rds_clone_db_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1121,8 +1121,8 @@ export class RdsCloneDbInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_rds_clone_db_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

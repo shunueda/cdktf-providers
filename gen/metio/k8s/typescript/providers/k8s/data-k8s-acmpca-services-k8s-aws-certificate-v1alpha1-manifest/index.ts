@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestConfig ex
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#metadata DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#metadata DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestMetadata;
   /**
   * CertificateSpec defines the desired state of Certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#spec DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#spec DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestMetadata 
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#annotations DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#annotations DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#labels DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#labels DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#namespace DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#namespace DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export class DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestMetadataOutpu
 }
 export interface DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthroughExtensionsCertificatePoliciesPolicyQualifiersQualifier {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#cps_uri DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#cps_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#cps_uri DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#cps_uri}
   */
   readonly cpsUri?: string;
 }
@@ -311,13 +311,13 @@ export class DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassth
 }
 export interface DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthroughExtensionsCertificatePoliciesPolicyQualifiers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#policy_qualifier_id DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#policy_qualifier_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#policy_qualifier_id DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#policy_qualifier_id}
   */
   readonly policyQualifierId?: string;
   /**
   * Defines a PolicyInformation qualifier. Amazon Web Services Private CA supports the certification practice statement (CPS) qualifier (https://datatracker.ietf.org/doc/html/rfc5280#section-4.2.1.4) defined in RFC 5280.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#qualifier DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#qualifier DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#qualifier}
   */
   readonly qualifier?: DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthroughExtensionsCertificatePoliciesPolicyQualifiersQualifier;
 }
@@ -462,11 +462,11 @@ export class DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassth
 }
 export interface DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthroughExtensionsCertificatePolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#cert_policy_id DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#cert_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#cert_policy_id DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#cert_policy_id}
   */
   readonly certPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#policy_qualifiers DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#policy_qualifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#policy_qualifiers DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#policy_qualifiers}
   */
   readonly policyQualifiers?: DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthroughExtensionsCertificatePoliciesPolicyQualifiers[] | cdktf.IResolvable;
 }
@@ -611,15 +611,15 @@ export class DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassth
 }
 export interface DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthroughExtensionsCustomExtensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#critical DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#critical DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#critical}
   */
   readonly critical?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#object_identifier DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#object_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#object_identifier DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#object_identifier}
   */
   readonly objectIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#value DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#value DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -793,11 +793,11 @@ export class DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassth
 }
 export interface DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthroughExtensionsExtendedKeyUsage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#extended_key_usage_object_identifier DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#extended_key_usage_object_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#extended_key_usage_object_identifier DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#extended_key_usage_object_identifier}
   */
   readonly extendedKeyUsageObjectIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#extended_key_usage_type DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#extended_key_usage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#extended_key_usage_type DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#extended_key_usage_type}
   */
   readonly extendedKeyUsageType?: string;
 }
@@ -942,39 +942,39 @@ export class DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassth
 }
 export interface DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthroughExtensionsKeyUsage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#crl_sign DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#crl_sign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#crl_sign DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#crl_sign}
   */
   readonly crlSign?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#data_encipherment DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#data_encipherment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#data_encipherment DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#data_encipherment}
   */
   readonly dataEncipherment?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#decipher_only DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#decipher_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#decipher_only DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#decipher_only}
   */
   readonly decipherOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#digital_signature DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#digital_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#digital_signature DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#digital_signature}
   */
   readonly digitalSignature?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#encipher_only DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#encipher_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#encipher_only DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#encipher_only}
   */
   readonly encipherOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#key_agreement DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#key_agreement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#key_agreement DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#key_agreement}
   */
   readonly keyAgreement?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#key_cert_sign DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#key_cert_sign}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#key_cert_sign DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#key_cert_sign}
   */
   readonly keyCertSign?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#key_encipherment DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#key_encipherment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#key_encipherment DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#key_encipherment}
   */
   readonly keyEncipherment?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#non_repudiation DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#non_repudiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#non_repudiation DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#non_repudiation}
   */
   readonly nonRepudiation?: boolean | cdktf.IResolvable;
 }
@@ -1300,11 +1300,11 @@ export class DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassth
 }
 export interface DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthroughExtensionsSubjectAlternativeNamesDirectoryNameCustomAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#object_identifier DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#object_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#object_identifier DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#object_identifier}
   */
   readonly objectIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#value DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#value DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -1449,63 +1449,63 @@ export class DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassth
 }
 export interface DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthroughExtensionsSubjectAlternativeNamesDirectoryName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#common_name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#common_name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#common_name}
   */
   readonly commonName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#country DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#country DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#country}
   */
   readonly country?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#custom_attributes DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#custom_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#custom_attributes DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#custom_attributes}
   */
   readonly customAttributes?: DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthroughExtensionsSubjectAlternativeNamesDirectoryNameCustomAttributes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#distinguished_name_qualifier DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#distinguished_name_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#distinguished_name_qualifier DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#distinguished_name_qualifier}
   */
   readonly distinguishedNameQualifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#generation_qualifier DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#generation_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#generation_qualifier DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#generation_qualifier}
   */
   readonly generationQualifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#given_name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#given_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#given_name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#given_name}
   */
   readonly givenName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#initials DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#initials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#initials DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#initials}
   */
   readonly initials?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#locality DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#locality DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#locality}
   */
   readonly locality?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#organization DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#organization DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#organization}
   */
   readonly organization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#organizational_unit DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#organizational_unit DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#organizational_unit}
   */
   readonly organizationalUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#pseudonym DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#pseudonym}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#pseudonym DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#pseudonym}
   */
   readonly pseudonym?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#serial_number DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#serial_number DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#serial_number}
   */
   readonly serialNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#state DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#state DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#surname DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#surname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#surname DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#surname}
   */
   readonly surname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#title DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#title DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#title}
   */
   readonly title?: string;
 }
@@ -2005,11 +2005,11 @@ export class DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassth
 }
 export interface DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthroughExtensionsSubjectAlternativeNamesEdiPartyName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#name_assigner DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#name_assigner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#name_assigner DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#name_assigner}
   */
   readonly nameAssigner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#party_name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#party_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#party_name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#party_name}
   */
   readonly partyName?: string;
 }
@@ -2132,11 +2132,11 @@ export class DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassth
 }
 export interface DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthroughExtensionsSubjectAlternativeNamesOtherName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#type_id DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#type_id DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#type_id}
   */
   readonly typeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#value DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#value DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2261,39 +2261,39 @@ export interface DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPa
   /**
   * Contains information about the certificate subject. The Subject field in the certificate identifies the entity that owns or controls the public key in the certificate. The entity can be a user, computer, device, or service. The Subject must contain an X.500 distinguished name (DN). A DN is a sequence of relative distinguished names (RDNs). The RDNs are separated by commas in the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#directory_name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#directory_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#directory_name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#directory_name}
   */
   readonly directoryName?: DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthroughExtensionsSubjectAlternativeNamesDirectoryName;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#dns_name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#dns_name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#dns_name}
   */
   readonly dnsName?: string;
   /**
   * Describes an Electronic Data Interchange (EDI) entity as described in as defined in Subject Alternative Name (https://datatracker.ietf.org/doc/html/rfc5280) in RFC 5280.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#edi_party_name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#edi_party_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#edi_party_name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#edi_party_name}
   */
   readonly ediPartyName?: DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthroughExtensionsSubjectAlternativeNamesEdiPartyName;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#ip_address DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#ip_address DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Defines a custom ASN.1 X.400 GeneralName using an object identifier (OID) and value. The OID must satisfy the regular expression shown below. For more information, see NIST's definition of Object Identifier (OID) (https://csrc.nist.gov/glossary/term/Object_Identifier).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#other_name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#other_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#other_name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#other_name}
   */
   readonly otherName?: DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthroughExtensionsSubjectAlternativeNamesOtherName;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#registered_id DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#registered_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#registered_id DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#registered_id}
   */
   readonly registeredId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#rfc822_name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#rfc822_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#rfc822_name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#rfc822_name}
   */
   readonly rfc822Name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#uniform_resource_identifier DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#uniform_resource_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#uniform_resource_identifier DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#uniform_resource_identifier}
   */
   readonly uniformResourceIdentifier?: string;
 }
@@ -2612,25 +2612,25 @@ export class DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassth
 }
 export interface DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthroughExtensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#certificate_policies DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#certificate_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#certificate_policies DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#certificate_policies}
   */
   readonly certificatePolicies?: DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthroughExtensionsCertificatePolicies[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#custom_extensions DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#custom_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#custom_extensions DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#custom_extensions}
   */
   readonly customExtensions?: DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthroughExtensionsCustomExtensions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#extended_key_usage DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#extended_key_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#extended_key_usage DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#extended_key_usage}
   */
   readonly extendedKeyUsage?: DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthroughExtensionsExtendedKeyUsage[] | cdktf.IResolvable;
   /**
   * Defines one or more purposes for which the key contained in the certificate can be used. Default value for each option is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#key_usage DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#key_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#key_usage DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#key_usage}
   */
   readonly keyUsage?: DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthroughExtensionsKeyUsage;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#subject_alternative_names DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#subject_alternative_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#subject_alternative_names DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#subject_alternative_names}
   */
   readonly subjectAlternativeNames?: DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthroughExtensionsSubjectAlternativeNames[] | cdktf.IResolvable;
 }
@@ -2840,11 +2840,11 @@ export class DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassth
 }
 export interface DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthroughSubjectCustomAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#object_identifier DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#object_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#object_identifier DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#object_identifier}
   */
   readonly objectIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#value DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#value DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -2989,63 +2989,63 @@ export class DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassth
 }
 export interface DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthroughSubject {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#common_name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#common_name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#common_name}
   */
   readonly commonName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#country DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#country DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#country}
   */
   readonly country?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#custom_attributes DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#custom_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#custom_attributes DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#custom_attributes}
   */
   readonly customAttributes?: DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthroughSubjectCustomAttributes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#distinguished_name_qualifier DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#distinguished_name_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#distinguished_name_qualifier DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#distinguished_name_qualifier}
   */
   readonly distinguishedNameQualifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#generation_qualifier DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#generation_qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#generation_qualifier DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#generation_qualifier}
   */
   readonly generationQualifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#given_name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#given_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#given_name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#given_name}
   */
   readonly givenName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#initials DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#initials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#initials DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#initials}
   */
   readonly initials?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#locality DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#locality DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#locality}
   */
   readonly locality?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#organization DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#organization DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#organization}
   */
   readonly organization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#organizational_unit DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#organizational_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#organizational_unit DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#organizational_unit}
   */
   readonly organizationalUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#pseudonym DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#pseudonym}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#pseudonym DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#pseudonym}
   */
   readonly pseudonym?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#serial_number DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#serial_number DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#serial_number}
   */
   readonly serialNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#state DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#state DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#surname DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#surname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#surname DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#surname}
   */
   readonly surname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#title DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#title DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#title}
   */
   readonly title?: string;
 }
@@ -3547,13 +3547,13 @@ export interface DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPa
   /**
   * Contains X.509 extension information for a certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#extensions DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#extensions DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#extensions}
   */
   readonly extensions?: DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthroughExtensions;
   /**
   * Contains information about the certificate subject. The Subject field in the certificate identifies the entity that owns or controls the public key in the certificate. The entity can be a user, computer, device, or service. The Subject must contain an X.500 distinguished name (DN). A DN is a sequence of relative distinguished names (RDNs). The RDNs are separated by commas in the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#subject DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#subject DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#subject}
   */
   readonly subject?: DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthroughSubject;
 }
@@ -3676,11 +3676,11 @@ export class DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassth
 }
 export interface DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecCertificateAuthorityRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#namespace DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#namespace DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -3805,7 +3805,7 @@ export interface DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecCerti
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#from DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#from DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecCertificateAuthorityRefFrom;
 }
@@ -3901,19 +3901,19 @@ export interface DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecCerti
   /**
   * Key is the key within the secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#key DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#key DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * name is unique within a namespace to reference a secret resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * namespace defines the space within which the secret name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#namespace DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#namespace DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -4062,11 +4062,11 @@ export class DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecCertifica
 }
 export interface DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecCertificateSigningRequestRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#name DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#namespace DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#namespace DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -4191,7 +4191,7 @@ export interface DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecCerti
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#from DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#from DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecCertificateSigningRequestRefFrom;
 }
@@ -4285,11 +4285,11 @@ export class DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecCertifica
 }
 export interface DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecValidity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#type DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#type DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#value DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#value DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#value}
   */
   readonly value?: number;
 }
@@ -4412,11 +4412,11 @@ export class DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecValidityO
 }
 export interface DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecValidityNotBefore {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#type DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#type DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#value DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#value DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#value}
   */
   readonly value?: number;
 }
@@ -4541,59 +4541,59 @@ export interface DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpec {
   /**
   * Specifies X.509 certificate information to be included in the issued certificate. An APIPassthrough or APICSRPassthrough template variant must be selected, or else this parameter is ignored. For more information about using these templates, see Understanding Certificate Templates (https://docs.aws.amazon.com/privateca/latest/userguide/UsingTemplates.html). If conflicting or duplicate certificate information is supplied during certificate issuance, Amazon Web Services Private CA applies order of operation rules (https://docs.aws.amazon.com/privateca/latest/userguide/UsingTemplates.html#template-order-of-operations) to determine what information is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#api_passthrough DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#api_passthrough}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#api_passthrough DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#api_passthrough}
   */
   readonly apiPassthrough?: DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecApiPassthrough;
   /**
   * The Amazon Resource Name (ARN) that was returned when you called CreateCertificateAuthority (https://docs.aws.amazon.com/privateca/latest/APIReference/API_CreateCertificateAuthority.html). This must be of the form: arn:aws:acm-pca:region:account:certificate-authority/12345678-1234-1234-1234-123456789012
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#certificate_authority_arn DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#certificate_authority_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#certificate_authority_arn DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#certificate_authority_arn}
   */
   readonly certificateAuthorityArn?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#certificate_authority_ref DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#certificate_authority_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#certificate_authority_ref DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#certificate_authority_ref}
   */
   readonly certificateAuthorityRef?: DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecCertificateAuthorityRef;
   /**
   * SecretKeyReference combines a k8s corev1.SecretReference with a specific key within the referred-to Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#certificate_output DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#certificate_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#certificate_output DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#certificate_output}
   */
   readonly certificateOutput?: DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecCertificateOutput;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#certificate_signing_request DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#certificate_signing_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#certificate_signing_request DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#certificate_signing_request}
   */
   readonly certificateSigningRequest?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#certificate_signing_request_ref DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#certificate_signing_request_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#certificate_signing_request_ref DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#certificate_signing_request_ref}
   */
   readonly certificateSigningRequestRef?: DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecCertificateSigningRequestRef;
   /**
   * The name of the algorithm that will be used to sign the certificate to be issued. This parameter should not be confused with the SigningAlgorithm parameter used to sign a CSR in the CreateCertificateAuthority action. The specified signing algorithm family (RSA or ECDSA) must match the algorithm family of the CA's secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#signing_algorithm DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#signing_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#signing_algorithm DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#signing_algorithm}
   */
   readonly signingAlgorithm: string;
   /**
   * Specifies a custom configuration template to use when issuing a certificate. If this parameter is not provided, Amazon Web Services Private CA defaults to the EndEntityCertificate/V1 template. For CA certificates, you should choose the shortest path length that meets your needs. The path length is indicated by the PathLenN portion of the ARN, where N is the CA depth (https://docs.aws.amazon.com/privateca/latest/userguide/PcaTerms.html#terms-cadepth). Note: The CA depth configured on a subordinate CA certificate must not exceed the limit set by its parents in the CA hierarchy. For a list of TemplateArn values supported by Amazon Web Services Private CA, see Understanding Certificate Templates (https://docs.aws.amazon.com/privateca/latest/userguide/UsingTemplates.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#template_arn DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#template_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#template_arn DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#template_arn}
   */
   readonly templateArn?: string;
   /**
   * Information describing the end of the validity period of the certificate. This parameter sets the “Not After” date for the certificate. Certificate validity is the period of time during which a certificate is valid. Validity can be expressed as an explicit date and time when the certificate expires, or as a span of time after issuance, stated in days, months, or years. For more information, see Validity (https://datatracker.ietf.org/doc/html/rfc5280#section-4.1.2.5) in RFC 5280. This value is unaffected when ValidityNotBefore is also specified. For example, if Validity is set to 20 days in the future, the certificate will expire 20 days from issuance time regardless of the ValidityNotBefore value. The end of the validity period configured on a certificate must not exceed the limit set on its parents in the CA hierarchy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#validity DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#validity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#validity DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#validity}
   */
   readonly validity: DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecValidity;
   /**
   * Information describing the start of the validity period of the certificate. This parameter sets the “Not Before' date for the certificate. By default, when issuing a certificate, Amazon Web Services Private CA sets the 'Not Before' date to the issuance time minus 60 minutes. This compensates for clock inconsistencies across computer systems. The ValidityNotBefore parameter can be used to customize the “Not Before” value. Unlike the Validity parameter, the ValidityNotBefore parameter is optional. The ValidityNotBefore value is expressed as an explicit date and time, using the Validity type value ABSOLUTE. For more information, see Validity (https://docs.aws.amazon.com/privateca/latest/APIReference/API_Validity.html) in this API reference and Validity (https://datatracker.ietf.org/doc/html/rfc5280#section-4.1.2.5) in RFC 5280.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#validity_not_before DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#validity_not_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#validity_not_before DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest#validity_not_before}
   */
   readonly validityNotBefore?: DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecValidityNotBefore;
 }
@@ -4942,7 +4942,7 @@ export class DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1ManifestSpecOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest k8s_acmpca_services_k8s_aws_certificate_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest k8s_acmpca_services_k8s_aws_certificate_v1alpha1_manifest}
 */
 export class DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -4958,7 +4958,7 @@ export class DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest extends cdkt
   * Generates CDKTF code for importing a DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4970,7 +4970,7 @@ export class DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest k8s_acmpca_services_k8s_aws_certificate_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/acmpca_services_k8s_aws_certificate_v1alpha1_manifest k8s_acmpca_services_k8s_aws_certificate_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4981,8 +4981,8 @@ export class DataK8SAcmpcaServicesK8SAwsCertificateV1Alpha1Manifest extends cdkt
       terraformResourceType: 'k8s_acmpca_services_k8s_aws_certificate_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

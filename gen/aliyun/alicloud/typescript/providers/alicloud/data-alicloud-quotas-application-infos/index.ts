@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/quotas_application_infos
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/quotas_application_infos
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudQuotasApplicationInfosConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/quotas_application_infos#enable_details DataAlicloudQuotasApplicationInfos#enable_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/quotas_application_infos#enable_details DataAlicloudQuotasApplicationInfos#enable_details}
   */
   readonly enableDetails?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/quotas_application_infos#id DataAlicloudQuotasApplicationInfos#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/quotas_application_infos#id DataAlicloudQuotasApplicationInfos#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/quotas_application_infos#ids DataAlicloudQuotasApplicationInfos#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/quotas_application_infos#ids DataAlicloudQuotasApplicationInfos#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/quotas_application_infos#key_word DataAlicloudQuotasApplicationInfos#key_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/quotas_application_infos#key_word DataAlicloudQuotasApplicationInfos#key_word}
   */
   readonly keyWord?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/quotas_application_infos#output_file DataAlicloudQuotasApplicationInfos#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/quotas_application_infos#output_file DataAlicloudQuotasApplicationInfos#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/quotas_application_infos#product_code DataAlicloudQuotasApplicationInfos#product_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/quotas_application_infos#product_code DataAlicloudQuotasApplicationInfos#product_code}
   */
   readonly productCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/quotas_application_infos#quota_action_code DataAlicloudQuotasApplicationInfos#quota_action_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/quotas_application_infos#quota_action_code DataAlicloudQuotasApplicationInfos#quota_action_code}
   */
   readonly quotaActionCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/quotas_application_infos#quota_category DataAlicloudQuotasApplicationInfos#quota_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/quotas_application_infos#quota_category DataAlicloudQuotasApplicationInfos#quota_category}
   */
   readonly quotaCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/quotas_application_infos#status DataAlicloudQuotasApplicationInfos#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/quotas_application_infos#status DataAlicloudQuotasApplicationInfos#status}
   */
   readonly status?: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/quotas_application_infos#dimensions DataAlicloudQuotasApplicationInfos#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/quotas_application_infos#dimensions DataAlicloudQuotasApplicationInfos#dimensions}
   */
   readonly dimensions?: DataAlicloudQuotasApplicationInfosDimensions[] | cdktf.IResolvable;
 }
@@ -286,11 +286,11 @@ export class DataAlicloudQuotasApplicationInfosApplicationsList extends cdktf.Co
 }
 export interface DataAlicloudQuotasApplicationInfosDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/quotas_application_infos#key DataAlicloudQuotasApplicationInfos#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/quotas_application_infos#key DataAlicloudQuotasApplicationInfos#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/quotas_application_infos#value DataAlicloudQuotasApplicationInfos#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/quotas_application_infos#value DataAlicloudQuotasApplicationInfos#value}
   */
   readonly value?: string;
 }
@@ -435,7 +435,7 @@ export class DataAlicloudQuotasApplicationInfosDimensionsList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/quotas_application_infos alicloud_quotas_application_infos}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/quotas_application_infos alicloud_quotas_application_infos}
 */
 export class DataAlicloudQuotasApplicationInfos extends cdktf.TerraformDataSource {
 
@@ -451,7 +451,7 @@ export class DataAlicloudQuotasApplicationInfos extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataAlicloudQuotasApplicationInfos resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudQuotasApplicationInfos to import
-  * @param importFromId The id of the existing DataAlicloudQuotasApplicationInfos that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/quotas_application_infos#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudQuotasApplicationInfos that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/quotas_application_infos#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudQuotasApplicationInfos to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -463,7 +463,7 @@ export class DataAlicloudQuotasApplicationInfos extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/quotas_application_infos alicloud_quotas_application_infos} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/quotas_application_infos alicloud_quotas_application_infos} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -474,8 +474,8 @@ export class DataAlicloudQuotasApplicationInfos extends cdktf.TerraformDataSourc
       terraformResourceType: 'alicloud_quotas_application_infos',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

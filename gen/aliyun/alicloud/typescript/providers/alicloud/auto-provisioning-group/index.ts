@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,114 +8,114 @@ import * as cdktf from 'cdktf';
 
 export interface AutoProvisioningGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group#auto_provisioning_group_name AutoProvisioningGroup#auto_provisioning_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group#auto_provisioning_group_name AutoProvisioningGroup#auto_provisioning_group_name}
   */
   readonly autoProvisioningGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group#auto_provisioning_group_type AutoProvisioningGroup#auto_provisioning_group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group#auto_provisioning_group_type AutoProvisioningGroup#auto_provisioning_group_type}
   */
   readonly autoProvisioningGroupType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group#default_target_capacity_type AutoProvisioningGroup#default_target_capacity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group#default_target_capacity_type AutoProvisioningGroup#default_target_capacity_type}
   */
   readonly defaultTargetCapacityType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group#description AutoProvisioningGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group#description AutoProvisioningGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group#excess_capacity_termination_policy AutoProvisioningGroup#excess_capacity_termination_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group#excess_capacity_termination_policy AutoProvisioningGroup#excess_capacity_termination_policy}
   */
   readonly excessCapacityTerminationPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group#id AutoProvisioningGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group#id AutoProvisioningGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group#launch_template_id AutoProvisioningGroup#launch_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group#launch_template_id AutoProvisioningGroup#launch_template_id}
   */
   readonly launchTemplateId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group#launch_template_version AutoProvisioningGroup#launch_template_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group#launch_template_version AutoProvisioningGroup#launch_template_version}
   */
   readonly launchTemplateVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group#max_spot_price AutoProvisioningGroup#max_spot_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group#max_spot_price AutoProvisioningGroup#max_spot_price}
   */
   readonly maxSpotPrice?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group#pay_as_you_go_allocation_strategy AutoProvisioningGroup#pay_as_you_go_allocation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group#pay_as_you_go_allocation_strategy AutoProvisioningGroup#pay_as_you_go_allocation_strategy}
   */
   readonly payAsYouGoAllocationStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group#pay_as_you_go_target_capacity AutoProvisioningGroup#pay_as_you_go_target_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group#pay_as_you_go_target_capacity AutoProvisioningGroup#pay_as_you_go_target_capacity}
   */
   readonly payAsYouGoTargetCapacity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group#spot_allocation_strategy AutoProvisioningGroup#spot_allocation_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group#spot_allocation_strategy AutoProvisioningGroup#spot_allocation_strategy}
   */
   readonly spotAllocationStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group#spot_instance_interruption_behavior AutoProvisioningGroup#spot_instance_interruption_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group#spot_instance_interruption_behavior AutoProvisioningGroup#spot_instance_interruption_behavior}
   */
   readonly spotInstanceInterruptionBehavior?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group#spot_instance_pools_to_use_count AutoProvisioningGroup#spot_instance_pools_to_use_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group#spot_instance_pools_to_use_count AutoProvisioningGroup#spot_instance_pools_to_use_count}
   */
   readonly spotInstancePoolsToUseCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group#spot_target_capacity AutoProvisioningGroup#spot_target_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group#spot_target_capacity AutoProvisioningGroup#spot_target_capacity}
   */
   readonly spotTargetCapacity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group#terminate_instances AutoProvisioningGroup#terminate_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group#terminate_instances AutoProvisioningGroup#terminate_instances}
   */
   readonly terminateInstances?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group#terminate_instances_with_expiration AutoProvisioningGroup#terminate_instances_with_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group#terminate_instances_with_expiration AutoProvisioningGroup#terminate_instances_with_expiration}
   */
   readonly terminateInstancesWithExpiration?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group#total_target_capacity AutoProvisioningGroup#total_target_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group#total_target_capacity AutoProvisioningGroup#total_target_capacity}
   */
   readonly totalTargetCapacity: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group#valid_from AutoProvisioningGroup#valid_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group#valid_from AutoProvisioningGroup#valid_from}
   */
   readonly validFrom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group#valid_until AutoProvisioningGroup#valid_until}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group#valid_until AutoProvisioningGroup#valid_until}
   */
   readonly validUntil?: string;
   /**
   * launch_template_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group#launch_template_config AutoProvisioningGroup#launch_template_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group#launch_template_config AutoProvisioningGroup#launch_template_config}
   */
   readonly launchTemplateConfig: AutoProvisioningGroupLaunchTemplateConfig[] | cdktf.IResolvable;
 }
 export interface AutoProvisioningGroupLaunchTemplateConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group#instance_type AutoProvisioningGroup#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group#instance_type AutoProvisioningGroup#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group#max_price AutoProvisioningGroup#max_price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group#max_price AutoProvisioningGroup#max_price}
   */
   readonly maxPrice: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group#priority AutoProvisioningGroup#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group#priority AutoProvisioningGroup#priority}
   */
   readonly priority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group#vswitch_id AutoProvisioningGroup#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group#vswitch_id AutoProvisioningGroup#vswitch_id}
   */
   readonly vswitchId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group#weighted_capacity AutoProvisioningGroup#weighted_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group#weighted_capacity AutoProvisioningGroup#weighted_capacity}
   */
   readonly weightedCapacity: string;
 }
@@ -338,7 +338,7 @@ export class AutoProvisioningGroupLaunchTemplateConfigList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group alicloud_auto_provisioning_group}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group alicloud_auto_provisioning_group}
 */
 export class AutoProvisioningGroup extends cdktf.TerraformResource {
 
@@ -354,7 +354,7 @@ export class AutoProvisioningGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutoProvisioningGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutoProvisioningGroup to import
-  * @param importFromId The id of the existing AutoProvisioningGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutoProvisioningGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutoProvisioningGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -366,7 +366,7 @@ export class AutoProvisioningGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/auto_provisioning_group alicloud_auto_provisioning_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/auto_provisioning_group alicloud_auto_provisioning_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -377,8 +377,8 @@ export class AutoProvisioningGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_auto_provisioning_group',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

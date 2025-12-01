@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/file_upload_resource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/file_upload_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface FileUploadResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Path to the file to upload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/file_upload_resource#file_path FileUploadResource#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/file_upload_resource#file_path FileUploadResource#file_path}
   */
   readonly filePath: string;
   /**
   * File version identifier. This acts as a change trigger - increment this value when you need to re-upload the same file with modifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/file_upload_resource#file_version FileUploadResource#file_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/file_upload_resource#file_version FileUploadResource#file_version}
   */
   readonly fileVersion?: string;
   /**
   * Upload location: 'Datafiles' or 'SAV'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/file_upload_resource#path_location FileUploadResource#path_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/file_upload_resource#path_location FileUploadResource#path_location}
   */
   readonly pathLocation: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/file_upload_resource saviynt_file_upload_resource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/file_upload_resource saviynt_file_upload_resource}
 */
 export class FileUploadResource extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class FileUploadResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FileUploadResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FileUploadResource to import
-  * @param importFromId The id of the existing FileUploadResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/file_upload_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FileUploadResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/file_upload_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FileUploadResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class FileUploadResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/file_upload_resource saviynt_file_upload_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/file_upload_resource saviynt_file_upload_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class FileUploadResource extends cdktf.TerraformResource {
       terraformResourceType: 'saviynt_file_upload_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.3.1',
-        providerVersionConstraint: '0.3.1'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#metadata DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#metadata DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestMetadata;
   /**
   * VMAlertmanagerConfigSpec defines configuration for VMAlertmanagerConfig it must reference only locally defined objects
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#spec DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#spec DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#annotations DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#annotations DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#labels DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#labels DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#namespace DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#namespace DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Labels that must have an equal value in the source and target alert for the inhibition to take effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#equal DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#equal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#equal DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#equal}
   */
   readonly equal?: string[];
   /**
   * SourceMatchers defines a list of matchers for which one or more alerts have to exist for the inhibition to take effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#source_matchers DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#source_matchers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#source_matchers DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#source_matchers}
   */
   readonly sourceMatchers?: string[];
   /**
   * TargetMatchers defines a list of matchers that have to be fulfilled by the target alerts to be muted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#target_matchers DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#target_matchers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#target_matchers DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#target_matchers}
   */
   readonly targetMatchers?: string[];
 }
@@ -407,19 +407,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -570,19 +570,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Reference to the secret with value for authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#credentials DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#credentials DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#credentials}
   */
   readonly credentials?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversDiscordConfigsHttpConfigAuthorizationCredentials;
   /**
   * File with value for authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#credentials_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#credentials_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#credentials_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#credentials_file}
   */
   readonly credentialsFile?: string;
   /**
   * Type of authorization, default to bearer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#type DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#type DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -736,19 +736,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -899,19 +899,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1062,19 +1062,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Password defines reference for secret with password value The secret needs to be in the same namespace as scrape object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#password DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#password DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#password}
   */
   readonly password?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversDiscordConfigsHttpConfigBasicAuthPassword;
   /**
   * PasswordFile defines path to password file at disk must be pre-mounted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#password_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#password_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#password_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#password_file}
   */
   readonly passwordFile?: string;
   /**
   * Username defines reference for secret with username value The secret needs to be in the same namespace as scrape object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#username DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#username DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#username}
   */
   readonly username?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversDiscordConfigsHttpConfigBasicAuthUsername;
 }
@@ -1228,19 +1228,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1391,19 +1391,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1554,19 +1554,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1717,13 +1717,13 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversDiscordConfigsHttpConfigOauth2ClientIdConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversDiscordConfigsHttpConfigOauth2ClientIdSecret;
 }
@@ -1848,19 +1848,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2011,37 +2011,37 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The secret or configmap containing the OAuth2 client id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_id DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_id DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_id}
   */
   readonly clientId: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversDiscordConfigsHttpConfigOauth2ClientId;
   /**
   * The secret containing the OAuth2 client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_secret}
   */
   readonly clientSecret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversDiscordConfigsHttpConfigOauth2ClientSecret;
   /**
   * ClientSecretFile defines path for client secret file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_secret_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_secret_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_secret_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_secret_file}
   */
   readonly clientSecretFile?: string;
   /**
   * Parameters to append to the token URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#endpoint_params DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#endpoint_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#endpoint_params DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#endpoint_params}
   */
   readonly endpointParams?: { [key: string]: string };
   /**
   * OAuth2 scopes used for the token request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#scopes DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#scopes DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * The URL to fetch the token from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#token_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#token_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -2276,19 +2276,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2439,19 +2439,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2602,13 +2602,13 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversDiscordConfigsHttpConfigTlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversDiscordConfigsHttpConfigTlsConfigCaSecret;
 }
@@ -2733,19 +2733,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2896,19 +2896,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3059,13 +3059,13 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversDiscordConfigsHttpConfigTlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversDiscordConfigsHttpConfigTlsConfigCertSecret;
 }
@@ -3190,19 +3190,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3353,49 +3353,49 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Stuct containing the CA cert to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca}
   */
   readonly ca?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversDiscordConfigsHttpConfigTlsConfigCa;
   /**
   * Path to the CA cert in the container to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca_file}
   */
   readonly caFile?: string;
   /**
   * Struct containing the client cert file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert}
   */
   readonly cert?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversDiscordConfigsHttpConfigTlsConfigCert;
   /**
   * Path to the client cert file in the container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert_file}
   */
   readonly certFile?: string;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#insecure_skip_verify DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#insecure_skip_verify DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Path to the client key file in the container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_file}
   */
   readonly keyFile?: string;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversDiscordConfigsHttpConfigTlsConfigKeySecret;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#server_name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#server_name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -3694,43 +3694,43 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Authorization header configuration for the client. This is mutually exclusive with BasicAuth and is only available starting from Alertmanager v0.22+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#authorization DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#authorization DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#authorization}
   */
   readonly authorization?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversDiscordConfigsHttpConfigAuthorization;
   /**
   * BasicAuth for the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#basic_auth DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#basic_auth DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversDiscordConfigsHttpConfigBasicAuth;
   /**
   * BearerTokenFile defines filename for bearer token, it must be mounted to pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#bearer_token_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#bearer_token_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#bearer_token_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#bearer_token_file}
   */
   readonly bearerTokenFile?: string;
   /**
   * The secret's key that contains the bearer token It must be at them same namespace as CRD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#bearer_token_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#bearer_token_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#bearer_token_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#bearer_token_secret}
   */
   readonly bearerTokenSecret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversDiscordConfigsHttpConfigBearerTokenSecret;
   /**
   * OAuth2 client credentials used to fetch a token for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#oauth2 DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#oauth2 DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#oauth2}
   */
   readonly oauth2?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversDiscordConfigsHttpConfigOauth2;
   /**
   * Optional proxy URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#proxy_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#proxy_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * TLS configuration for the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#tls_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#tls_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversDiscordConfigsHttpConfigTlsConfig;
 }
@@ -4000,19 +4000,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4163,37 +4163,37 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * HTTP client configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#http_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#http_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#http_config}
   */
   readonly httpConfig?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversDiscordConfigsHttpConfig;
   /**
   * The message body template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#message DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#message DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#message}
   */
   readonly message?: string;
   /**
   * SendResolved controls notify about resolved alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#send_resolved DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#send_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#send_resolved DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#send_resolved}
   */
   readonly sendResolved?: boolean | cdktf.IResolvable;
   /**
   * The message title template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#title DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#title DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#title}
   */
   readonly title?: string;
   /**
   * The discord webhook URL one of 'urlSecret' and 'url' must be defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#webhook_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#webhook_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#webhook_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#webhook_url}
   */
   readonly webhookUrl?: string;
   /**
   * URLSecret defines secret name and key at the CRD namespace. It must contain the webhook URL. one of 'urlSecret' and 'url' must be defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#webhook_url_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#webhook_url_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#webhook_url_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#webhook_url_secret}
   */
   readonly webhookUrlSecret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversDiscordConfigsWebhookUrlSecret;
 }
@@ -4456,19 +4456,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4619,19 +4619,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4782,19 +4782,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4945,19 +4945,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5108,13 +5108,13 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversEmailConfigsTlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversEmailConfigsTlsConfigCaSecret;
 }
@@ -5239,19 +5239,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5402,19 +5402,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5565,13 +5565,13 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversEmailConfigsTlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversEmailConfigsTlsConfigCertSecret;
 }
@@ -5696,19 +5696,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5859,49 +5859,49 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Stuct containing the CA cert to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca}
   */
   readonly ca?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversEmailConfigsTlsConfigCa;
   /**
   * Path to the CA cert in the container to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca_file}
   */
   readonly caFile?: string;
   /**
   * Struct containing the client cert file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert}
   */
   readonly cert?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversEmailConfigsTlsConfigCert;
   /**
   * Path to the client cert file in the container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert_file}
   */
   readonly certFile?: string;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#insecure_skip_verify DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#insecure_skip_verify DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Path to the client key file in the container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_file}
   */
   readonly keyFile?: string;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversEmailConfigsTlsConfigKeySecret;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#server_name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#server_name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -6200,85 +6200,85 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The identity to use for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#auth_identity DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#auth_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#auth_identity DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#auth_identity}
   */
   readonly authIdentity?: string;
   /**
   * AuthPassword defines secret name and key at CRD namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#auth_password DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#auth_password DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#auth_password}
   */
   readonly authPassword?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversEmailConfigsAuthPassword;
   /**
   * AuthSecret defines secrent name and key at CRD namespace. It must contain the CRAM-MD5 secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#auth_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#auth_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#auth_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#auth_secret}
   */
   readonly authSecret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversEmailConfigsAuthSecret;
   /**
   * The username to use for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#auth_username DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#auth_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#auth_username DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#auth_username}
   */
   readonly authUsername?: string;
   /**
   * The sender address. fallback to global setting if empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#from DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#from DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#from}
   */
   readonly from?: string;
   /**
   * Further headers email header key/value pairs. Overrides any headers previously set by the notification implementation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#headers DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#headers DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * The hostname to identify to the SMTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#hello DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#hello}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#hello DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#hello}
   */
   readonly hello?: string;
   /**
   * The HTML body of the email notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#html DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#html}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#html DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#html}
   */
   readonly html?: string;
   /**
   * The SMTP TLS requirement. Note that Go does not support unencrypted connections to remote SMTP endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#require_tls DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#require_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#require_tls DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#require_tls}
   */
   readonly requireTls?: boolean | cdktf.IResolvable;
   /**
   * SendResolved controls notify about resolved alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#send_resolved DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#send_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#send_resolved DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#send_resolved}
   */
   readonly sendResolved?: boolean | cdktf.IResolvable;
   /**
   * The SMTP host through which emails are sent. fallback to global setting if empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#smarthost DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#smarthost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#smarthost DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#smarthost}
   */
   readonly smarthost?: string;
   /**
   * The text body of the email notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#text DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#text DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#text}
   */
   readonly text?: string;
   /**
   * TLS configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#tls_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#tls_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversEmailConfigsTlsConfig;
   /**
   * The email address to send notifications to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#to DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#to DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#to}
   */
   readonly to?: string;
 }
@@ -6773,19 +6773,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6936,19 +6936,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Reference to the secret with value for authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#credentials DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#credentials DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#credentials}
   */
   readonly credentials?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversMsteamsConfigsHttpConfigAuthorizationCredentials;
   /**
   * File with value for authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#credentials_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#credentials_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#credentials_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#credentials_file}
   */
   readonly credentialsFile?: string;
   /**
   * Type of authorization, default to bearer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#type DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#type DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -7102,19 +7102,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7265,19 +7265,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7428,19 +7428,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Password defines reference for secret with password value The secret needs to be in the same namespace as scrape object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#password DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#password DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#password}
   */
   readonly password?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversMsteamsConfigsHttpConfigBasicAuthPassword;
   /**
   * PasswordFile defines path to password file at disk must be pre-mounted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#password_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#password_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#password_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#password_file}
   */
   readonly passwordFile?: string;
   /**
   * Username defines reference for secret with username value The secret needs to be in the same namespace as scrape object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#username DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#username DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#username}
   */
   readonly username?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversMsteamsConfigsHttpConfigBasicAuthUsername;
 }
@@ -7594,19 +7594,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7757,19 +7757,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7920,19 +7920,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8083,13 +8083,13 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversMsteamsConfigsHttpConfigOauth2ClientIdConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversMsteamsConfigsHttpConfigOauth2ClientIdSecret;
 }
@@ -8214,19 +8214,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8377,37 +8377,37 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The secret or configmap containing the OAuth2 client id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_id DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_id DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_id}
   */
   readonly clientId: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversMsteamsConfigsHttpConfigOauth2ClientId;
   /**
   * The secret containing the OAuth2 client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_secret}
   */
   readonly clientSecret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversMsteamsConfigsHttpConfigOauth2ClientSecret;
   /**
   * ClientSecretFile defines path for client secret file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_secret_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_secret_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_secret_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_secret_file}
   */
   readonly clientSecretFile?: string;
   /**
   * Parameters to append to the token URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#endpoint_params DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#endpoint_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#endpoint_params DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#endpoint_params}
   */
   readonly endpointParams?: { [key: string]: string };
   /**
   * OAuth2 scopes used for the token request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#scopes DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#scopes DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * The URL to fetch the token from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#token_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#token_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -8642,19 +8642,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8805,19 +8805,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8968,13 +8968,13 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversMsteamsConfigsHttpConfigTlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversMsteamsConfigsHttpConfigTlsConfigCaSecret;
 }
@@ -9099,19 +9099,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9262,19 +9262,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9425,13 +9425,13 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversMsteamsConfigsHttpConfigTlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversMsteamsConfigsHttpConfigTlsConfigCertSecret;
 }
@@ -9556,19 +9556,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9719,49 +9719,49 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Stuct containing the CA cert to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca}
   */
   readonly ca?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversMsteamsConfigsHttpConfigTlsConfigCa;
   /**
   * Path to the CA cert in the container to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca_file}
   */
   readonly caFile?: string;
   /**
   * Struct containing the client cert file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert}
   */
   readonly cert?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversMsteamsConfigsHttpConfigTlsConfigCert;
   /**
   * Path to the client cert file in the container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert_file}
   */
   readonly certFile?: string;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#insecure_skip_verify DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#insecure_skip_verify DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Path to the client key file in the container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_file}
   */
   readonly keyFile?: string;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversMsteamsConfigsHttpConfigTlsConfigKeySecret;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#server_name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#server_name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -10060,43 +10060,43 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Authorization header configuration for the client. This is mutually exclusive with BasicAuth and is only available starting from Alertmanager v0.22+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#authorization DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#authorization DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#authorization}
   */
   readonly authorization?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversMsteamsConfigsHttpConfigAuthorization;
   /**
   * BasicAuth for the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#basic_auth DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#basic_auth DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversMsteamsConfigsHttpConfigBasicAuth;
   /**
   * BearerTokenFile defines filename for bearer token, it must be mounted to pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#bearer_token_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#bearer_token_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#bearer_token_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#bearer_token_file}
   */
   readonly bearerTokenFile?: string;
   /**
   * The secret's key that contains the bearer token It must be at them same namespace as CRD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#bearer_token_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#bearer_token_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#bearer_token_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#bearer_token_secret}
   */
   readonly bearerTokenSecret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversMsteamsConfigsHttpConfigBearerTokenSecret;
   /**
   * OAuth2 client credentials used to fetch a token for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#oauth2 DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#oauth2 DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#oauth2}
   */
   readonly oauth2?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversMsteamsConfigsHttpConfigOauth2;
   /**
   * Optional proxy URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#proxy_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#proxy_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * TLS configuration for the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#tls_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#tls_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversMsteamsConfigsHttpConfigTlsConfig;
 }
@@ -10366,19 +10366,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10529,37 +10529,37 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * HTTP client configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#http_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#http_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#http_config}
   */
   readonly httpConfig?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversMsteamsConfigsHttpConfig;
   /**
   * SendResolved controls notify about resolved alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#send_resolved DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#send_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#send_resolved DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#send_resolved}
   */
   readonly sendResolved?: boolean | cdktf.IResolvable;
   /**
   * The text body of the teams notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#text DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#text DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#text}
   */
   readonly text?: string;
   /**
   * The title of the teams notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#title DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#title DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#title}
   */
   readonly title?: string;
   /**
   * The incoming webhook URL one of 'urlSecret' and 'url' must be defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#webhook_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#webhook_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#webhook_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#webhook_url}
   */
   readonly webhookUrl?: string;
   /**
   * URLSecret defines secret name and key at the CRD namespace. It must contain the webhook URL. one of 'urlSecret' and 'url' must be defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#webhook_url_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#webhook_url_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#webhook_url_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#webhook_url_secret}
   */
   readonly webhookUrlSecret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversMsteamsConfigsWebhookUrlSecret;
 }
@@ -10822,19 +10822,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10985,7 +10985,7 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * ID of the responder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#id DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#id DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -10994,19 +10994,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Name of the responder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Type of responder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#type DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#type DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#type}
   */
   readonly type: string;
   /**
   * Username of the responder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#username DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#username DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#username}
   */
   readonly username?: string;
 }
@@ -11208,91 +11208,91 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Comma separated list of actions that will be available for the alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#actions DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#actions DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#actions}
   */
   readonly actions?: string;
   /**
   * The secret's key that contains the OpsGenie API key. It must be at them same namespace as CRD fallback to global setting if empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#api_key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#api_key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#api_key}
   */
   readonly apiKey?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversOpsgenieConfigsApiKey;
   /**
   * The URL to send OpsGenie API requests to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#api_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#api_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#api_url}
   */
   readonly apiUrl?: string;
   /**
   * Description of the incident.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#description DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#description DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#description}
   */
   readonly description?: string;
   /**
   * A set of arbitrary key/value pairs that provide further detail about the incident.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#details DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#details DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#details}
   */
   readonly details?: { [key: string]: string };
   /**
   * Optional field that can be used to specify which domain alert is related to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#entity DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#entity DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#entity}
   */
   readonly entity?: string;
   /**
   * HTTP client configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#http_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#http_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#http_config}
   */
   readonly httpConfig?: { [key: string]: string };
   /**
   * Alert text limited to 130 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#message DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#message DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#message}
   */
   readonly message?: string;
   /**
   * Additional alert note.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#note DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#note DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#note}
   */
   readonly note?: string;
   /**
   * Priority level of alert. Possible values are P1, P2, P3, P4, and P5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#priority DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#priority DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#priority}
   */
   readonly priority?: string;
   /**
   * List of responders responsible for notifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#responders DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#responders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#responders DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#responders}
   */
   readonly responders?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversOpsgenieConfigsResponders[] | cdktf.IResolvable;
   /**
   * SendResolved controls notify about resolved alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#send_resolved DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#send_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#send_resolved DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#send_resolved}
   */
   readonly sendResolved?: boolean | cdktf.IResolvable;
   /**
   * Backlink to the sender of the notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#source DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#source DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#source}
   */
   readonly source?: string;
   /**
   * Comma separated list of tags attached to the notifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#tags DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#tags DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#tags}
   */
   readonly tags?: string;
   /**
   * Whether to update message and description of the alert in OpsGenie if it already exists By default, the alert is never updated in OpsGenie, the new message only appears in activity log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#update_alerts DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#update_alerts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#update_alerts DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#update_alerts}
   */
   readonly updateAlerts?: boolean | cdktf.IResolvable;
 }
@@ -11814,15 +11814,15 @@ export class DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifes
 }
 export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversPagerdutyConfigsImages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#alt DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#alt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#alt DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#alt}
   */
   readonly alt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#href DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#href}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#href DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#href}
   */
   readonly href?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#source DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#source DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#source}
   */
   readonly source: string;
 }
@@ -11993,11 +11993,11 @@ export class DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifes
 }
 export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversPagerdutyConfigsLinks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#href DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#href}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#href DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#href}
   */
   readonly href: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#text DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#text DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#text}
   */
   readonly text?: string;
 }
@@ -12141,19 +12141,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -12304,19 +12304,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -12467,91 +12467,91 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The class/type of the event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#class DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#class DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#class}
   */
   readonly class?: string;
   /**
   * Client identification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client}
   */
   readonly client?: string;
   /**
   * Backlink to the sender of notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_url}
   */
   readonly clientUrl?: string;
   /**
   * The part or component of the affected system that is broken.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#component DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#component DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#component}
   */
   readonly component?: string;
   /**
   * Description of the incident.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#description DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#description DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#description}
   */
   readonly description?: string;
   /**
   * Arbitrary key/value pairs that provide further detail about the incident.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#details DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#details DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#details}
   */
   readonly details?: { [key: string]: string };
   /**
   * A cluster or grouping of sources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#group DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#group DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#group}
   */
   readonly group?: string;
   /**
   * HTTP client configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#http_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#http_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#http_config}
   */
   readonly httpConfig?: { [key: string]: string };
   /**
   * Images to attach to the incident.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#images DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#images DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#images}
   */
   readonly images?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversPagerdutyConfigsImages[] | cdktf.IResolvable;
   /**
   * Links to attach to the incident.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#links DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#links DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#links}
   */
   readonly links?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversPagerdutyConfigsLinks[] | cdktf.IResolvable;
   /**
   * The secret's key that contains the PagerDuty integration key (when using Events API v2). Either this field or 'serviceKey' needs to be defined. It must be at them same namespace as CRD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#routing_key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#routing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#routing_key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#routing_key}
   */
   readonly routingKey?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversPagerdutyConfigsRoutingKey;
   /**
   * SendResolved controls notify about resolved alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#send_resolved DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#send_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#send_resolved DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#send_resolved}
   */
   readonly sendResolved?: boolean | cdktf.IResolvable;
   /**
   * The secret's key that contains the PagerDuty service key (when using integration type 'Prometheus'). Either this field or 'routingKey' needs to be defined. It must be at them same namespace as CRD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#service_key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#service_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#service_key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#service_key}
   */
   readonly serviceKey?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversPagerdutyConfigsServiceKey;
   /**
   * Severity of the incident.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#severity DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#severity DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#severity}
   */
   readonly severity?: string;
   /**
   * The URL to send requests to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#url}
   */
   readonly url?: string;
 }
@@ -13075,19 +13075,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13238,19 +13238,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13401,79 +13401,79 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * How long your notification will continue to be retried for, unless the user acknowledges the notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#expire DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#expire DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#expire}
   */
   readonly expire?: string;
   /**
   * Whether notification message is HTML or plain text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#html DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#html}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#html DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#html}
   */
   readonly html?: boolean | cdktf.IResolvable;
   /**
   * HTTP client configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#http_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#http_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#http_config}
   */
   readonly httpConfig?: { [key: string]: string };
   /**
   * Notification message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#message DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#message DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#message}
   */
   readonly message?: string;
   /**
   * Priority, see https://pushover.net/api#priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#priority DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#priority DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#priority}
   */
   readonly priority?: string;
   /**
   * How often the Pushover servers will send the same notification to the user. Must be at least 30 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#retry DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#retry DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#retry}
   */
   readonly retry?: string;
   /**
   * SendResolved controls notify about resolved alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#send_resolved DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#send_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#send_resolved DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#send_resolved}
   */
   readonly sendResolved?: boolean | cdktf.IResolvable;
   /**
   * The name of one of the sounds supported by device clients to override the user's default sound choice
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#sound DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#sound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#sound DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#sound}
   */
   readonly sound?: string;
   /**
   * Notification title.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#title DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#title DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#title}
   */
   readonly title?: string;
   /**
   * The secret's key that contains the registered application’s API token, see https://pushover.net/apps. It must be at them same namespace as CRD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#token DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#token DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#token}
   */
   readonly token?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversPushoverConfigsToken;
   /**
   * A supplementary URL shown alongside the message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#url}
   */
   readonly url?: string;
   /**
   * A title for supplementary URL, otherwise just the URL is shown
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#url_title DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#url_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#url_title DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#url_title}
   */
   readonly urlTitle?: string;
   /**
   * The secret's key that contains the recipient user’s user key. It must be at them same namespace as CRD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#user_key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#user_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#user_key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#user_key}
   */
   readonly userKey?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversPushoverConfigsUserKey;
 }
@@ -13937,19 +13937,19 @@ export class DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifes
 }
 export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSlackConfigsActionsConfirm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#dismiss_text DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#dismiss_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#dismiss_text DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#dismiss_text}
   */
   readonly dismissText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ok_text DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ok_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ok_text DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ok_text}
   */
   readonly okText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#text DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#text DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#text}
   */
   readonly text: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#title DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#title DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#title}
   */
   readonly title?: string;
 }
@@ -14129,31 +14129,31 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * SlackConfirmationField protect users from destructive actions or particularly distinguished decisions by asking them to confirm their button click one more time. See https://api.slack.com/docs/interactive-message-field-guide#confirmation_fields for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#confirm DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#confirm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#confirm DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#confirm}
   */
   readonly confirm?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSlackConfigsActionsConfirm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#style DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#style DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#style}
   */
   readonly style?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#text DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#text DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#text}
   */
   readonly text: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#type DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#type DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#url}
   */
   readonly url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#value DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#value DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#value}
   */
   readonly value?: string;
 }
@@ -14439,19 +14439,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -14600,15 +14600,15 @@ export class DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifes
 }
 export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSlackConfigsFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#short DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#short}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#short DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#short}
   */
   readonly short?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#title DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#title DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#title}
   */
   readonly title: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#value DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#value DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#value}
   */
   readonly value: string;
 }
@@ -14778,101 +14778,101 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * A list of Slack actions that are sent with each notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#actions DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#actions DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#actions}
   */
   readonly actions?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSlackConfigsActions[] | cdktf.IResolvable;
   /**
   * The secret's key that contains the Slack webhook URL. It must be at them same namespace as CRD fallback to global setting if empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#api_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#api_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#api_url}
   */
   readonly apiUrl?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSlackConfigsApiUrl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#callback_id DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#callback_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#callback_id DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#callback_id}
   */
   readonly callbackId?: string;
   /**
   * The channel or user to send notifications to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#channel DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#channel DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#channel}
   */
   readonly channel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#color DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#color DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#color}
   */
   readonly color?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#fallback DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#fallback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#fallback DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#fallback}
   */
   readonly fallback?: string;
   /**
   * A list of Slack fields that are sent with each notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#fields DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#fields DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#fields}
   */
   readonly fields?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSlackConfigsFields[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#footer DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#footer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#footer DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#footer}
   */
   readonly footer?: string;
   /**
   * HTTP client configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#http_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#http_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#http_config}
   */
   readonly httpConfig?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#icon_emoji DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#icon_emoji}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#icon_emoji DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#icon_emoji}
   */
   readonly iconEmoji?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#icon_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#icon_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#icon_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#icon_url}
   */
   readonly iconUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#image_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#image_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#image_url}
   */
   readonly imageUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#link_names DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#link_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#link_names DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#link_names}
   */
   readonly linkNames?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#mrkdwn_in DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#mrkdwn_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#mrkdwn_in DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#mrkdwn_in}
   */
   readonly mrkdwnIn?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#pretext DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#pretext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#pretext DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#pretext}
   */
   readonly pretext?: string;
   /**
   * SendResolved controls notify about resolved alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#send_resolved DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#send_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#send_resolved DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#send_resolved}
   */
   readonly sendResolved?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#short_fields DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#short_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#short_fields DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#short_fields}
   */
   readonly shortFields?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#text DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#text DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#text}
   */
   readonly text?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#thumb_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#thumb_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#thumb_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#thumb_url}
   */
   readonly thumbUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#title DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#title DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#title}
   */
   readonly title?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#title_link DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#title_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#title_link DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#title_link}
   */
   readonly titleLink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#username DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#username DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#username}
   */
   readonly username?: string;
 }
@@ -15599,19 +15599,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -15762,19 +15762,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Reference to the secret with value for authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#credentials DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#credentials DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#credentials}
   */
   readonly credentials?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSnsConfigsHttpConfigAuthorizationCredentials;
   /**
   * File with value for authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#credentials_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#credentials_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#credentials_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#credentials_file}
   */
   readonly credentialsFile?: string;
   /**
   * Type of authorization, default to bearer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#type DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#type DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -15928,19 +15928,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16091,19 +16091,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16254,19 +16254,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Password defines reference for secret with password value The secret needs to be in the same namespace as scrape object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#password DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#password DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#password}
   */
   readonly password?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSnsConfigsHttpConfigBasicAuthPassword;
   /**
   * PasswordFile defines path to password file at disk must be pre-mounted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#password_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#password_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#password_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#password_file}
   */
   readonly passwordFile?: string;
   /**
   * Username defines reference for secret with username value The secret needs to be in the same namespace as scrape object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#username DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#username DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#username}
   */
   readonly username?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSnsConfigsHttpConfigBasicAuthUsername;
 }
@@ -16420,19 +16420,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16583,19 +16583,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16746,19 +16746,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16909,13 +16909,13 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSnsConfigsHttpConfigOauth2ClientIdConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSnsConfigsHttpConfigOauth2ClientIdSecret;
 }
@@ -17040,19 +17040,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -17203,37 +17203,37 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The secret or configmap containing the OAuth2 client id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_id DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_id DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_id}
   */
   readonly clientId: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSnsConfigsHttpConfigOauth2ClientId;
   /**
   * The secret containing the OAuth2 client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_secret}
   */
   readonly clientSecret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSnsConfigsHttpConfigOauth2ClientSecret;
   /**
   * ClientSecretFile defines path for client secret file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_secret_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_secret_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_secret_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_secret_file}
   */
   readonly clientSecretFile?: string;
   /**
   * Parameters to append to the token URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#endpoint_params DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#endpoint_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#endpoint_params DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#endpoint_params}
   */
   readonly endpointParams?: { [key: string]: string };
   /**
   * OAuth2 scopes used for the token request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#scopes DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#scopes DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * The URL to fetch the token from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#token_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#token_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -17468,19 +17468,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -17631,19 +17631,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -17794,13 +17794,13 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSnsConfigsHttpConfigTlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSnsConfigsHttpConfigTlsConfigCaSecret;
 }
@@ -17925,19 +17925,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18088,19 +18088,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18251,13 +18251,13 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSnsConfigsHttpConfigTlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSnsConfigsHttpConfigTlsConfigCertSecret;
 }
@@ -18382,19 +18382,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18545,49 +18545,49 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Stuct containing the CA cert to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca}
   */
   readonly ca?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSnsConfigsHttpConfigTlsConfigCa;
   /**
   * Path to the CA cert in the container to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca_file}
   */
   readonly caFile?: string;
   /**
   * Struct containing the client cert file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert}
   */
   readonly cert?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSnsConfigsHttpConfigTlsConfigCert;
   /**
   * Path to the client cert file in the container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert_file}
   */
   readonly certFile?: string;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#insecure_skip_verify DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#insecure_skip_verify DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Path to the client key file in the container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_file}
   */
   readonly keyFile?: string;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSnsConfigsHttpConfigTlsConfigKeySecret;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#server_name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#server_name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -18886,43 +18886,43 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Authorization header configuration for the client. This is mutually exclusive with BasicAuth and is only available starting from Alertmanager v0.22+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#authorization DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#authorization DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#authorization}
   */
   readonly authorization?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSnsConfigsHttpConfigAuthorization;
   /**
   * BasicAuth for the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#basic_auth DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#basic_auth DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSnsConfigsHttpConfigBasicAuth;
   /**
   * BearerTokenFile defines filename for bearer token, it must be mounted to pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#bearer_token_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#bearer_token_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#bearer_token_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#bearer_token_file}
   */
   readonly bearerTokenFile?: string;
   /**
   * The secret's key that contains the bearer token It must be at them same namespace as CRD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#bearer_token_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#bearer_token_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#bearer_token_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#bearer_token_secret}
   */
   readonly bearerTokenSecret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSnsConfigsHttpConfigBearerTokenSecret;
   /**
   * OAuth2 client credentials used to fetch a token for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#oauth2 DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#oauth2 DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#oauth2}
   */
   readonly oauth2?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSnsConfigsHttpConfigOauth2;
   /**
   * Optional proxy URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#proxy_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#proxy_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * TLS configuration for the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#tls_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#tls_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSnsConfigsHttpConfigTlsConfig;
 }
@@ -19192,19 +19192,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19355,19 +19355,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19518,37 +19518,37 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The AWS API keys. Both access_key and secret_key must be supplied or both must be blank. If blank the environment variables 'AWS_ACCESS_KEY_ID' and 'AWS_SECRET_ACCESS_KEY' are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#access_key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#access_key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#access_key}
   */
   readonly accessKey?: string;
   /**
   * secret key selector to get the keys from a Kubernetes Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#access_key_selector DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#access_key_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#access_key_selector DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#access_key_selector}
   */
   readonly accessKeySelector?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSnsConfigsSigv4AccessKeySelector;
   /**
   * Named AWS profile used to authenticate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#profile DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#profile DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#profile}
   */
   readonly profile?: string;
   /**
   * AWS region, if blank the region from the default credentials chain is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#region DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#region DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#region}
   */
   readonly region?: string;
   /**
   * AWS Role ARN, an alternative to using AWS API keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#role_arn DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#role_arn DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#role_arn}
   */
   readonly roleArn?: string;
   /**
   * secret key selector to get the keys from a Kubernetes Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret_key_selector DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret_key_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret_key_selector DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret_key_selector}
   */
   readonly secretKeySelector?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSnsConfigsSigv4SecretKeySelector;
 }
@@ -19789,61 +19789,61 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The api URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#api_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#api_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#api_url}
   */
   readonly apiUrl?: string;
   /**
   * SNS message attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#attributes DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#attributes DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
   * HTTP client configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#http_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#http_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#http_config}
   */
   readonly httpConfig?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSnsConfigsHttpConfig;
   /**
   * The message content of the SNS notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#message DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#message DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#message}
   */
   readonly message?: string;
   /**
   * Phone number if message is delivered via SMS Specify this, topic_arn or target_arn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#phone_number DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#phone_number DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#phone_number}
   */
   readonly phoneNumber?: string;
   /**
   * SendResolved controls notify about resolved alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#send_resolved DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#send_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#send_resolved DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#send_resolved}
   */
   readonly sendResolved?: boolean | cdktf.IResolvable;
   /**
   * Configure the AWS Signature Verification 4 signing process
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#sigv4 DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#sigv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#sigv4 DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#sigv4}
   */
   readonly sigv4?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSnsConfigsSigv4;
   /**
   * The subject line if message is delivered to an email endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#subject DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#subject DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#subject}
   */
   readonly subject?: string;
   /**
   * Mobile platform endpoint ARN if message is delivered via mobile notifications Specify this, topic_arn or phone_number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#target_arn DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#target_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#target_arn DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#target_arn}
   */
   readonly targetArn?: string;
   /**
   * SNS topic ARN, either specify this, phone_number or target_arn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#topic_arn DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#topic_arn DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#topic_arn}
   */
   readonly topicArn?: string;
 }
@@ -20222,19 +20222,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -20385,49 +20385,49 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * APIUrl the Telegram API URL i.e. https://api.telegram.org.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#api_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#api_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#api_url}
   */
   readonly apiUrl?: string;
   /**
   * BotToken token for the bot https://core.telegram.org/bots/api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#bot_token DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#bot_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#bot_token DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#bot_token}
   */
   readonly botToken: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversTelegramConfigsBotToken;
   /**
   * ChatID is ID of the chat where to send the messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#chat_id DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#chat_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#chat_id DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#chat_id}
   */
   readonly chatId: number;
   /**
   * DisableNotifications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#disable_notifications DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#disable_notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#disable_notifications DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#disable_notifications}
   */
   readonly disableNotifications?: boolean | cdktf.IResolvable;
   /**
   * HTTP client configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#http_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#http_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#http_config}
   */
   readonly httpConfig?: { [key: string]: string };
   /**
   * Message is templated message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#message DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#message DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#message}
   */
   readonly message?: string;
   /**
   * ParseMode for telegram message, supported values are MarkdownV2, Markdown, Markdown and empty string for plain text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#parse_mode DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#parse_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#parse_mode DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#parse_mode}
   */
   readonly parseMode?: string;
   /**
   * SendResolved controls notify about resolved alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#send_resolved DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#send_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#send_resolved DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#send_resolved}
   */
   readonly sendResolved?: boolean | cdktf.IResolvable;
 }
@@ -20742,19 +20742,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -20905,19 +20905,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21068,19 +21068,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Reference to the secret with value for authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#credentials DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#credentials DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#credentials}
   */
   readonly credentials?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversVictoropsConfigsHttpConfigAuthorizationCredentials;
   /**
   * File with value for authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#credentials_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#credentials_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#credentials_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#credentials_file}
   */
   readonly credentialsFile?: string;
   /**
   * Type of authorization, default to bearer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#type DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#type DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -21234,19 +21234,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21397,19 +21397,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21560,19 +21560,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Password defines reference for secret with password value The secret needs to be in the same namespace as scrape object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#password DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#password DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#password}
   */
   readonly password?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversVictoropsConfigsHttpConfigBasicAuthPassword;
   /**
   * PasswordFile defines path to password file at disk must be pre-mounted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#password_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#password_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#password_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#password_file}
   */
   readonly passwordFile?: string;
   /**
   * Username defines reference for secret with username value The secret needs to be in the same namespace as scrape object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#username DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#username DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#username}
   */
   readonly username?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversVictoropsConfigsHttpConfigBasicAuthUsername;
 }
@@ -21726,19 +21726,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21889,19 +21889,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -22052,19 +22052,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -22215,13 +22215,13 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversVictoropsConfigsHttpConfigOauth2ClientIdConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversVictoropsConfigsHttpConfigOauth2ClientIdSecret;
 }
@@ -22346,19 +22346,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -22509,37 +22509,37 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The secret or configmap containing the OAuth2 client id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_id DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_id DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_id}
   */
   readonly clientId: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversVictoropsConfigsHttpConfigOauth2ClientId;
   /**
   * The secret containing the OAuth2 client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_secret}
   */
   readonly clientSecret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversVictoropsConfigsHttpConfigOauth2ClientSecret;
   /**
   * ClientSecretFile defines path for client secret file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_secret_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_secret_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_secret_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_secret_file}
   */
   readonly clientSecretFile?: string;
   /**
   * Parameters to append to the token URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#endpoint_params DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#endpoint_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#endpoint_params DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#endpoint_params}
   */
   readonly endpointParams?: { [key: string]: string };
   /**
   * OAuth2 scopes used for the token request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#scopes DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#scopes DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * The URL to fetch the token from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#token_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#token_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -22774,19 +22774,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -22937,19 +22937,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -23100,13 +23100,13 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversVictoropsConfigsHttpConfigTlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversVictoropsConfigsHttpConfigTlsConfigCaSecret;
 }
@@ -23231,19 +23231,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -23394,19 +23394,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -23557,13 +23557,13 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversVictoropsConfigsHttpConfigTlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversVictoropsConfigsHttpConfigTlsConfigCertSecret;
 }
@@ -23688,19 +23688,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -23851,49 +23851,49 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Stuct containing the CA cert to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca}
   */
   readonly ca?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversVictoropsConfigsHttpConfigTlsConfigCa;
   /**
   * Path to the CA cert in the container to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca_file}
   */
   readonly caFile?: string;
   /**
   * Struct containing the client cert file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert}
   */
   readonly cert?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversVictoropsConfigsHttpConfigTlsConfigCert;
   /**
   * Path to the client cert file in the container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert_file}
   */
   readonly certFile?: string;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#insecure_skip_verify DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#insecure_skip_verify DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Path to the client key file in the container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_file}
   */
   readonly keyFile?: string;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversVictoropsConfigsHttpConfigTlsConfigKeySecret;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#server_name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#server_name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -24192,43 +24192,43 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Authorization header configuration for the client. This is mutually exclusive with BasicAuth and is only available starting from Alertmanager v0.22+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#authorization DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#authorization DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#authorization}
   */
   readonly authorization?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversVictoropsConfigsHttpConfigAuthorization;
   /**
   * BasicAuth for the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#basic_auth DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#basic_auth DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversVictoropsConfigsHttpConfigBasicAuth;
   /**
   * BearerTokenFile defines filename for bearer token, it must be mounted to pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#bearer_token_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#bearer_token_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#bearer_token_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#bearer_token_file}
   */
   readonly bearerTokenFile?: string;
   /**
   * The secret's key that contains the bearer token It must be at them same namespace as CRD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#bearer_token_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#bearer_token_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#bearer_token_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#bearer_token_secret}
   */
   readonly bearerTokenSecret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversVictoropsConfigsHttpConfigBearerTokenSecret;
   /**
   * OAuth2 client credentials used to fetch a token for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#oauth2 DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#oauth2 DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#oauth2}
   */
   readonly oauth2?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversVictoropsConfigsHttpConfigOauth2;
   /**
   * Optional proxy URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#proxy_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#proxy_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * TLS configuration for the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#tls_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#tls_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversVictoropsConfigsHttpConfigTlsConfig;
 }
@@ -24498,61 +24498,61 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The secret's key that contains the API key to use when talking to the VictorOps API. It must be at them same namespace as CRD fallback to global setting if empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#api_key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#api_key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#api_key}
   */
   readonly apiKey?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversVictoropsConfigsApiKey;
   /**
   * The VictorOps API URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#api_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#api_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#api_url}
   */
   readonly apiUrl?: string;
   /**
   * Adds optional custom fields https://github.com/prometheus/alertmanager/blob/v0.24.0/config/notifiers.go#L537
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#custom_fields DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#custom_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#custom_fields DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#custom_fields}
   */
   readonly customFields?: { [key: string]: string };
   /**
   * Contains summary of the alerted problem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#entity_display_name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#entity_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#entity_display_name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#entity_display_name}
   */
   readonly entityDisplayName?: string;
   /**
   * The HTTP client's configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#http_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#http_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#http_config}
   */
   readonly httpConfig?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversVictoropsConfigsHttpConfig;
   /**
   * Describes the behavior of the alert (CRITICAL, WARNING, INFO).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#message_type DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#message_type DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#message_type}
   */
   readonly messageType?: string;
   /**
   * The monitoring tool the state message is from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#monitoring_tool DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#monitoring_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#monitoring_tool DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#monitoring_tool}
   */
   readonly monitoringTool?: string;
   /**
   * A key used to map the alert to a team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#routing_key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#routing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#routing_key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#routing_key}
   */
   readonly routingKey: string;
   /**
   * SendResolved controls notify about resolved alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#send_resolved DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#send_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#send_resolved DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#send_resolved}
   */
   readonly sendResolved?: boolean | cdktf.IResolvable;
   /**
   * Contains long explanation of the alerted problem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#state_message DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#state_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#state_message DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#state_message}
   */
   readonly stateMessage?: string;
 }
@@ -24928,19 +24928,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -25091,19 +25091,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Reference to the secret with value for authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#credentials DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#credentials DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#credentials}
   */
   readonly credentials?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWebexConfigsHttpConfigAuthorizationCredentials;
   /**
   * File with value for authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#credentials_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#credentials_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#credentials_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#credentials_file}
   */
   readonly credentialsFile?: string;
   /**
   * Type of authorization, default to bearer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#type DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#type DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -25257,19 +25257,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -25420,19 +25420,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -25583,19 +25583,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Password defines reference for secret with password value The secret needs to be in the same namespace as scrape object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#password DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#password DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#password}
   */
   readonly password?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWebexConfigsHttpConfigBasicAuthPassword;
   /**
   * PasswordFile defines path to password file at disk must be pre-mounted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#password_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#password_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#password_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#password_file}
   */
   readonly passwordFile?: string;
   /**
   * Username defines reference for secret with username value The secret needs to be in the same namespace as scrape object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#username DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#username DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#username}
   */
   readonly username?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWebexConfigsHttpConfigBasicAuthUsername;
 }
@@ -25749,19 +25749,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -25912,19 +25912,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -26075,19 +26075,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -26238,13 +26238,13 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWebexConfigsHttpConfigOauth2ClientIdConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWebexConfigsHttpConfigOauth2ClientIdSecret;
 }
@@ -26369,19 +26369,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -26532,37 +26532,37 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The secret or configmap containing the OAuth2 client id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_id DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_id DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_id}
   */
   readonly clientId: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWebexConfigsHttpConfigOauth2ClientId;
   /**
   * The secret containing the OAuth2 client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_secret}
   */
   readonly clientSecret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWebexConfigsHttpConfigOauth2ClientSecret;
   /**
   * ClientSecretFile defines path for client secret file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_secret_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_secret_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_secret_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_secret_file}
   */
   readonly clientSecretFile?: string;
   /**
   * Parameters to append to the token URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#endpoint_params DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#endpoint_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#endpoint_params DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#endpoint_params}
   */
   readonly endpointParams?: { [key: string]: string };
   /**
   * OAuth2 scopes used for the token request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#scopes DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#scopes DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * The URL to fetch the token from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#token_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#token_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -26797,19 +26797,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -26960,19 +26960,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -27123,13 +27123,13 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWebexConfigsHttpConfigTlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWebexConfigsHttpConfigTlsConfigCaSecret;
 }
@@ -27254,19 +27254,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -27417,19 +27417,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -27580,13 +27580,13 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWebexConfigsHttpConfigTlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWebexConfigsHttpConfigTlsConfigCertSecret;
 }
@@ -27711,19 +27711,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -27874,49 +27874,49 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Stuct containing the CA cert to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca}
   */
   readonly ca?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWebexConfigsHttpConfigTlsConfigCa;
   /**
   * Path to the CA cert in the container to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca_file}
   */
   readonly caFile?: string;
   /**
   * Struct containing the client cert file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert}
   */
   readonly cert?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWebexConfigsHttpConfigTlsConfigCert;
   /**
   * Path to the client cert file in the container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert_file}
   */
   readonly certFile?: string;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#insecure_skip_verify DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#insecure_skip_verify DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Path to the client key file in the container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_file}
   */
   readonly keyFile?: string;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWebexConfigsHttpConfigTlsConfigKeySecret;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#server_name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#server_name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -28215,43 +28215,43 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Authorization header configuration for the client. This is mutually exclusive with BasicAuth and is only available starting from Alertmanager v0.22+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#authorization DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#authorization DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#authorization}
   */
   readonly authorization?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWebexConfigsHttpConfigAuthorization;
   /**
   * BasicAuth for the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#basic_auth DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#basic_auth DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWebexConfigsHttpConfigBasicAuth;
   /**
   * BearerTokenFile defines filename for bearer token, it must be mounted to pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#bearer_token_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#bearer_token_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#bearer_token_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#bearer_token_file}
   */
   readonly bearerTokenFile?: string;
   /**
   * The secret's key that contains the bearer token It must be at them same namespace as CRD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#bearer_token_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#bearer_token_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#bearer_token_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#bearer_token_secret}
   */
   readonly bearerTokenSecret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWebexConfigsHttpConfigBearerTokenSecret;
   /**
   * OAuth2 client credentials used to fetch a token for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#oauth2 DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#oauth2 DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#oauth2}
   */
   readonly oauth2?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWebexConfigsHttpConfigOauth2;
   /**
   * Optional proxy URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#proxy_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#proxy_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * TLS configuration for the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#tls_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#tls_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWebexConfigsHttpConfigTlsConfig;
 }
@@ -28521,31 +28521,31 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The Webex Teams API URL, i.e. https://webexapis.com/v1/messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#api_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#api_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#api_url}
   */
   readonly apiUrl?: string;
   /**
   * HTTP client configuration. You must use this configuration to supply the bot token as part of the HTTP 'Authorization' header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#http_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#http_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#http_config}
   */
   readonly httpConfig?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWebexConfigsHttpConfig;
   /**
   * The message body template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#message DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#message DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#message}
   */
   readonly message?: string;
   /**
   * The ID of the Webex Teams room where to send the messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#room_id DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#room_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#room_id DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#room_id}
   */
   readonly roomId?: string;
   /**
   * SendResolved controls notify about resolved alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#send_resolved DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#send_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#send_resolved DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#send_resolved}
   */
   readonly sendResolved?: boolean | cdktf.IResolvable;
 }
@@ -28779,19 +28779,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -28942,31 +28942,31 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * HTTP client configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#http_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#http_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#http_config}
   */
   readonly httpConfig?: { [key: string]: string };
   /**
   * Maximum number of alerts to be sent per webhook message. When 0, all alerts are included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#max_alerts DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#max_alerts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#max_alerts DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#max_alerts}
   */
   readonly maxAlerts?: number;
   /**
   * SendResolved controls notify about resolved alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#send_resolved DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#send_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#send_resolved DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#send_resolved}
   */
   readonly sendResolved?: boolean | cdktf.IResolvable;
   /**
   * URL to send requests to, one of 'urlSecret' and 'url' must be defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#url}
   */
   readonly url?: string;
   /**
   * URLSecret defines secret name and key at the CRD namespace. It must contain the webhook URL. one of 'urlSecret' and 'url' must be defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#url_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#url_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#url_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#url_secret}
   */
   readonly urlSecret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWebhookConfigsUrlSecret;
 }
@@ -29200,19 +29200,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -29363,19 +29363,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -29526,19 +29526,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Reference to the secret with value for authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#credentials DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#credentials DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#credentials}
   */
   readonly credentials?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWechatConfigsHttpConfigAuthorizationCredentials;
   /**
   * File with value for authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#credentials_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#credentials_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#credentials_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#credentials_file}
   */
   readonly credentialsFile?: string;
   /**
   * Type of authorization, default to bearer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#type DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#type DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#type}
   */
   readonly type?: string;
 }
@@ -29692,19 +29692,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -29855,19 +29855,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -30018,19 +30018,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Password defines reference for secret with password value The secret needs to be in the same namespace as scrape object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#password DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#password DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#password}
   */
   readonly password?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWechatConfigsHttpConfigBasicAuthPassword;
   /**
   * PasswordFile defines path to password file at disk must be pre-mounted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#password_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#password_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#password_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#password_file}
   */
   readonly passwordFile?: string;
   /**
   * Username defines reference for secret with username value The secret needs to be in the same namespace as scrape object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#username DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#username DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#username}
   */
   readonly username?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWechatConfigsHttpConfigBasicAuthUsername;
 }
@@ -30184,19 +30184,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -30347,19 +30347,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -30510,19 +30510,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -30673,13 +30673,13 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWechatConfigsHttpConfigOauth2ClientIdConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWechatConfigsHttpConfigOauth2ClientIdSecret;
 }
@@ -30804,19 +30804,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -30967,37 +30967,37 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The secret or configmap containing the OAuth2 client id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_id DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_id DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_id}
   */
   readonly clientId: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWechatConfigsHttpConfigOauth2ClientId;
   /**
   * The secret containing the OAuth2 client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_secret}
   */
   readonly clientSecret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWechatConfigsHttpConfigOauth2ClientSecret;
   /**
   * ClientSecretFile defines path for client secret file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_secret_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_secret_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#client_secret_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#client_secret_file}
   */
   readonly clientSecretFile?: string;
   /**
   * Parameters to append to the token URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#endpoint_params DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#endpoint_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#endpoint_params DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#endpoint_params}
   */
   readonly endpointParams?: { [key: string]: string };
   /**
   * OAuth2 scopes used for the token request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#scopes DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#scopes DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * The URL to fetch the token from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#token_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#token_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -31232,19 +31232,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -31395,19 +31395,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -31558,13 +31558,13 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWechatConfigsHttpConfigTlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWechatConfigsHttpConfigTlsConfigCaSecret;
 }
@@ -31689,19 +31689,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -31852,19 +31852,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -32015,13 +32015,13 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#config_map DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#config_map}
   */
   readonly configMap?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWechatConfigsHttpConfigTlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#secret}
   */
   readonly secret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWechatConfigsHttpConfigTlsConfigCertSecret;
 }
@@ -32146,19 +32146,19 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#optional DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -32309,49 +32309,49 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Stuct containing the CA cert to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca}
   */
   readonly ca?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWechatConfigsHttpConfigTlsConfigCa;
   /**
   * Path to the CA cert in the container to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#ca_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#ca_file}
   */
   readonly caFile?: string;
   /**
   * Struct containing the client cert file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert}
   */
   readonly cert?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWechatConfigsHttpConfigTlsConfigCert;
   /**
   * Path to the client cert file in the container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#cert_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#cert_file}
   */
   readonly certFile?: string;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#insecure_skip_verify DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#insecure_skip_verify DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Path to the client key file in the container for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_file}
   */
   readonly keyFile?: string;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#key_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWechatConfigsHttpConfigTlsConfigKeySecret;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#server_name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#server_name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -32650,43 +32650,43 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Authorization header configuration for the client. This is mutually exclusive with BasicAuth and is only available starting from Alertmanager v0.22+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#authorization DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#authorization DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#authorization}
   */
   readonly authorization?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWechatConfigsHttpConfigAuthorization;
   /**
   * BasicAuth for the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#basic_auth DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#basic_auth DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWechatConfigsHttpConfigBasicAuth;
   /**
   * BearerTokenFile defines filename for bearer token, it must be mounted to pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#bearer_token_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#bearer_token_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#bearer_token_file DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#bearer_token_file}
   */
   readonly bearerTokenFile?: string;
   /**
   * The secret's key that contains the bearer token It must be at them same namespace as CRD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#bearer_token_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#bearer_token_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#bearer_token_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#bearer_token_secret}
   */
   readonly bearerTokenSecret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWechatConfigsHttpConfigBearerTokenSecret;
   /**
   * OAuth2 client credentials used to fetch a token for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#oauth2 DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#oauth2 DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#oauth2}
   */
   readonly oauth2?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWechatConfigsHttpConfigOauth2;
   /**
   * Optional proxy URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#proxy_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#proxy_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * TLS configuration for the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#tls_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#tls_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWechatConfigsHttpConfigTlsConfig;
 }
@@ -32954,59 +32954,59 @@ export class DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifes
 }
 export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWechatConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#agent_id DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#agent_id DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#agent_id}
   */
   readonly agentId?: string;
   /**
   * The secret's key that contains the WeChat API key. The secret needs to be in the same namespace as the AlertmanagerConfig fallback to global alertmanager setting if empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#api_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#api_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#api_secret DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#api_secret}
   */
   readonly apiSecret?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWechatConfigsApiSecret;
   /**
   * The WeChat API URL. fallback to global alertmanager setting if empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#api_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#api_url DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#api_url}
   */
   readonly apiUrl?: string;
   /**
   * The corp id for authentication. fallback to global alertmanager setting if empty
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#corp_id DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#corp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#corp_id DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#corp_id}
   */
   readonly corpId?: string;
   /**
   * HTTP client configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#http_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#http_config DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#http_config}
   */
   readonly httpConfig?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWechatConfigsHttpConfig;
   /**
   * API request data as defined by the WeChat API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#message DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#message DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#message_type DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#message_type DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#message_type}
   */
   readonly messageType?: string;
   /**
   * SendResolved controls notify about resolved alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#send_resolved DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#send_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#send_resolved DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#send_resolved}
   */
   readonly sendResolved?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#to_party DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#to_party}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#to_party DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#to_party}
   */
   readonly toParty?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#to_tag DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#to_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#to_tag DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#to_tag}
   */
   readonly toTag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#to_user DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#to_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#to_user DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#to_user}
   */
   readonly toUser?: string;
 }
@@ -33412,77 +33412,77 @@ export class DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifes
 }
 export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceivers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#discord_configs DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#discord_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#discord_configs DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#discord_configs}
   */
   readonly discordConfigs?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversDiscordConfigs[] | cdktf.IResolvable;
   /**
   * EmailConfigs defines email notification configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#email_configs DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#email_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#email_configs DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#email_configs}
   */
   readonly emailConfigs?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversEmailConfigs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#msteams_configs DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#msteams_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#msteams_configs DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#msteams_configs}
   */
   readonly msteamsConfigs?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversMsteamsConfigs[] | cdktf.IResolvable;
   /**
   * Name of the receiver. Must be unique across all items from the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * OpsGenieConfigs defines ops genie notification configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#opsgenie_configs DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#opsgenie_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#opsgenie_configs DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#opsgenie_configs}
   */
   readonly opsgenieConfigs?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversOpsgenieConfigs[] | cdktf.IResolvable;
   /**
   * PagerDutyConfigs defines pager duty notification configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#pagerduty_configs DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#pagerduty_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#pagerduty_configs DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#pagerduty_configs}
   */
   readonly pagerdutyConfigs?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversPagerdutyConfigs[] | cdktf.IResolvable;
   /**
   * PushoverConfigs defines push over notification configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#pushover_configs DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#pushover_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#pushover_configs DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#pushover_configs}
   */
   readonly pushoverConfigs?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversPushoverConfigs[] | cdktf.IResolvable;
   /**
   * SlackConfigs defines slack notification configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#slack_configs DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#slack_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#slack_configs DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#slack_configs}
   */
   readonly slackConfigs?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSlackConfigs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#sns_configs DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#sns_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#sns_configs DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#sns_configs}
   */
   readonly snsConfigs?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversSnsConfigs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#telegram_configs DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#telegram_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#telegram_configs DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#telegram_configs}
   */
   readonly telegramConfigs?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversTelegramConfigs[] | cdktf.IResolvable;
   /**
   * VictorOpsConfigs defines victor ops notification configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#victorops_configs DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#victorops_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#victorops_configs DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#victorops_configs}
   */
   readonly victoropsConfigs?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversVictoropsConfigs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#webex_configs DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#webex_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#webex_configs DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#webex_configs}
   */
   readonly webexConfigs?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWebexConfigs[] | cdktf.IResolvable;
   /**
   * WebhookConfigs defines webhook notification configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#webhook_configs DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#webhook_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#webhook_configs DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#webhook_configs}
   */
   readonly webhookConfigs?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWebhookConfigs[] | cdktf.IResolvable;
   /**
   * WeChatConfigs defines wechat notification configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#wechat_configs DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#wechat_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#wechat_configs DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#wechat_configs}
   */
   readonly wechatConfigs?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceiversWechatConfigs[] | cdktf.IResolvable;
 }
@@ -33974,61 +33974,61 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * ActiveTimeIntervals Times when the route should be active These must match the name at time_intervals
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#active_time_intervals DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#active_time_intervals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#active_time_intervals DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#active_time_intervals}
   */
   readonly activeTimeIntervals?: string[];
   /**
   * Continue indicating whether an alert should continue matching subsequent sibling nodes. It will always be true for the first-level route if disableRouteContinueEnforce for vmalertmanager not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#continue DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#continue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#continue DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#continue}
   */
   readonly continue?: boolean | cdktf.IResolvable;
   /**
   * List of labels to group by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#group_by DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#group_by DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#group_by}
   */
   readonly groupBy?: string[];
   /**
   * How long to wait before sending an updated notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#group_interval DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#group_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#group_interval DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#group_interval}
   */
   readonly groupInterval?: string;
   /**
   * How long to wait before sending the initial notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#group_wait DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#group_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#group_wait DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#group_wait}
   */
   readonly groupWait?: string;
   /**
   * List of matchers that the alert’s labels should match. For the first level route, the operator adds a namespace: 'CRD_NS' matcher. https://prometheus.io/docs/alerting/latest/configuration/#matcher
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#matchers DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#matchers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#matchers DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#matchers}
   */
   readonly matchers?: string[];
   /**
   * MuteTimeIntervals is a list of interval names that will mute matched alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#mute_time_intervals DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#mute_time_intervals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#mute_time_intervals DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#mute_time_intervals}
   */
   readonly muteTimeIntervals?: string[];
   /**
   * Name of the receiver for this route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#receiver DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#receiver DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#receiver}
   */
   readonly receiver: string;
   /**
   * How long to wait before repeating the last notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#repeat_interval DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#repeat_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#repeat_interval DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#repeat_interval}
   */
   readonly repeatInterval?: string;
   /**
   * Child routes. https://prometheus.io/docs/alerting/latest/configuration/#route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#routes DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#routes DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#routes}
   */
   readonly routes?: string[];
 }
@@ -34382,13 +34382,13 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * EndTime for example HH:MM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#end_time DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#end_time DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#end_time}
   */
   readonly endTime: string;
   /**
   * StartTime for example HH:MM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#start_time DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#start_time DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#start_time}
   */
   readonly startTime: string;
 }
@@ -34529,37 +34529,37 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * DayOfMonth defines list of numerical days in the month. Days begin at 1. Negative values are also accepted. for example, ['1:5', '-3:-1']
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#days_of_month DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#days_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#days_of_month DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#days_of_month}
   */
   readonly daysOfMonth?: string[];
   /**
   * Location in golang time location form, e.g. UTC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#location DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#location DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#location}
   */
   readonly location?: string;
   /**
   * Months defines list of calendar months identified by a case-insensitive name (e.g. ‘January’) or numeric 1. For example, ['1:3', 'may:august', 'december']
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#months DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#months DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#months}
   */
   readonly months?: string[];
   /**
   * Times defines time range for mute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#times DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#times DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#times}
   */
   readonly times?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecTimeIntervalsTimeIntervalsTimes[] | cdktf.IResolvable;
   /**
   * Weekdays defines list of days of the week, where the week begins on Sunday and ends on Saturday.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#weekdays DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#weekdays}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#weekdays DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#weekdays}
   */
   readonly weekdays?: string[];
   /**
   * Years defines numerical list of years, ranges are accepted. For example, ['2020:2022', '2030']
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#years DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#years}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#years DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#years}
   */
   readonly years?: string[];
 }
@@ -34822,13 +34822,13 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * Name of interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#name DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * TimeIntervals interval configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#time_intervals DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#time_intervals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#time_intervals DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#time_intervals}
   */
   readonly timeIntervals: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecTimeIntervalsTimeIntervals[] | cdktf.IResolvable;
 }
@@ -34972,25 +34972,25 @@ export interface DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Man
   /**
   * InhibitRules will only apply for alerts matching the resource's namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#inhibit_rules DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#inhibit_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#inhibit_rules DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#inhibit_rules}
   */
   readonly inhibitRules?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecInhibitRules[] | cdktf.IResolvable;
   /**
   * Receivers defines alert receivers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#receivers DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#receivers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#receivers DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#receivers}
   */
   readonly receivers: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecReceivers[] | cdktf.IResolvable;
   /**
   * Route definition for alertmanager, may include nested routes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#route DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#route DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#route}
   */
   readonly route: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecRoute;
   /**
   * TimeIntervals defines named interval for active/mute notifications interval See https://prometheus.io/docs/alerting/latest/configuration/#time_interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#time_intervals DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#time_intervals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#time_intervals DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest#time_intervals}
   */
   readonly timeIntervals?: DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1ManifestSpecTimeIntervals[] | cdktf.IResolvable;
 }
@@ -35165,7 +35165,7 @@ export class DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifes
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest k8s_operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest k8s_operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest}
 */
 export class DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -35181,7 +35181,7 @@ export class DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifes
   * Generates CDKTF code for importing a DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -35193,7 +35193,7 @@ export class DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest k8s_operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest k8s_operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -35204,8 +35204,8 @@ export class DataK8SOperatorVictoriametricsComVmAlertmanagerConfigV1Beta1Manifes
       terraformResourceType: 'k8s_operator_victoriametrics_com_vm_alertmanager_config_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

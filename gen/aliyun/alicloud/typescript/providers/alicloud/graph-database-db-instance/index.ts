@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/graph_database_db_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/graph_database_db_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface GraphDatabaseDbInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/graph_database_db_instance#db_instance_category GraphDatabaseDbInstance#db_instance_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/graph_database_db_instance#db_instance_category GraphDatabaseDbInstance#db_instance_category}
   */
   readonly dbInstanceCategory: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/graph_database_db_instance#db_instance_description GraphDatabaseDbInstance#db_instance_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/graph_database_db_instance#db_instance_description GraphDatabaseDbInstance#db_instance_description}
   */
   readonly dbInstanceDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/graph_database_db_instance#db_instance_network_type GraphDatabaseDbInstance#db_instance_network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/graph_database_db_instance#db_instance_network_type GraphDatabaseDbInstance#db_instance_network_type}
   */
   readonly dbInstanceNetworkType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/graph_database_db_instance#db_instance_storage_type GraphDatabaseDbInstance#db_instance_storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/graph_database_db_instance#db_instance_storage_type GraphDatabaseDbInstance#db_instance_storage_type}
   */
   readonly dbInstanceStorageType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/graph_database_db_instance#db_node_class GraphDatabaseDbInstance#db_node_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/graph_database_db_instance#db_node_class GraphDatabaseDbInstance#db_node_class}
   */
   readonly dbNodeClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/graph_database_db_instance#db_node_storage GraphDatabaseDbInstance#db_node_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/graph_database_db_instance#db_node_storage GraphDatabaseDbInstance#db_node_storage}
   */
   readonly dbNodeStorage: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/graph_database_db_instance#db_version GraphDatabaseDbInstance#db_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/graph_database_db_instance#db_version GraphDatabaseDbInstance#db_version}
   */
   readonly dbVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/graph_database_db_instance#id GraphDatabaseDbInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/graph_database_db_instance#id GraphDatabaseDbInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/graph_database_db_instance#payment_type GraphDatabaseDbInstance#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/graph_database_db_instance#payment_type GraphDatabaseDbInstance#payment_type}
   */
   readonly paymentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/graph_database_db_instance#vpc_id GraphDatabaseDbInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/graph_database_db_instance#vpc_id GraphDatabaseDbInstance#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/graph_database_db_instance#vswitch_id GraphDatabaseDbInstance#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/graph_database_db_instance#vswitch_id GraphDatabaseDbInstance#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/graph_database_db_instance#zone_id GraphDatabaseDbInstance#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/graph_database_db_instance#zone_id GraphDatabaseDbInstance#zone_id}
   */
   readonly zoneId?: string;
   /**
   * db_instance_ip_array block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/graph_database_db_instance#db_instance_ip_array GraphDatabaseDbInstance#db_instance_ip_array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/graph_database_db_instance#db_instance_ip_array GraphDatabaseDbInstance#db_instance_ip_array}
   */
   readonly dbInstanceIpArray?: GraphDatabaseDbInstanceDbInstanceIpArray[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/graph_database_db_instance#timeouts GraphDatabaseDbInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/graph_database_db_instance#timeouts GraphDatabaseDbInstance#timeouts}
   */
   readonly timeouts?: GraphDatabaseDbInstanceTimeouts;
 }
 export interface GraphDatabaseDbInstanceDbInstanceIpArray {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/graph_database_db_instance#db_instance_ip_array_attribute GraphDatabaseDbInstance#db_instance_ip_array_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/graph_database_db_instance#db_instance_ip_array_attribute GraphDatabaseDbInstance#db_instance_ip_array_attribute}
   */
   readonly dbInstanceIpArrayAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/graph_database_db_instance#db_instance_ip_array_name GraphDatabaseDbInstance#db_instance_ip_array_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/graph_database_db_instance#db_instance_ip_array_name GraphDatabaseDbInstance#db_instance_ip_array_name}
   */
   readonly dbInstanceIpArrayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/graph_database_db_instance#security_ips GraphDatabaseDbInstance#security_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/graph_database_db_instance#security_ips GraphDatabaseDbInstance#security_ips}
   */
   readonly securityIps?: string;
 }
@@ -255,15 +255,15 @@ export class GraphDatabaseDbInstanceDbInstanceIpArrayList extends cdktf.ComplexL
 }
 export interface GraphDatabaseDbInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/graph_database_db_instance#create GraphDatabaseDbInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/graph_database_db_instance#create GraphDatabaseDbInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/graph_database_db_instance#delete GraphDatabaseDbInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/graph_database_db_instance#delete GraphDatabaseDbInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/graph_database_db_instance#update GraphDatabaseDbInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/graph_database_db_instance#update GraphDatabaseDbInstance#update}
   */
   readonly update?: string;
 }
@@ -415,7 +415,7 @@ export class GraphDatabaseDbInstanceTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/graph_database_db_instance alicloud_graph_database_db_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/graph_database_db_instance alicloud_graph_database_db_instance}
 */
 export class GraphDatabaseDbInstance extends cdktf.TerraformResource {
 
@@ -431,7 +431,7 @@ export class GraphDatabaseDbInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GraphDatabaseDbInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GraphDatabaseDbInstance to import
-  * @param importFromId The id of the existing GraphDatabaseDbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/graph_database_db_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GraphDatabaseDbInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/graph_database_db_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GraphDatabaseDbInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -443,7 +443,7 @@ export class GraphDatabaseDbInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/graph_database_db_instance alicloud_graph_database_db_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/graph_database_db_instance alicloud_graph_database_db_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -454,8 +454,8 @@ export class GraphDatabaseDbInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_graph_database_db_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -59,7 +59,7 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSearchd
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#name DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#name DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -174,19 +174,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSearchd
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#claims DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#claims DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSearchdSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#limits DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#limits DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#requests DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#requests DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -340,31 +340,31 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSearchd
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#effect DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#effect DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#toleration_seconds DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#toleration_seconds DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#value DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#value DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -598,19 +598,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSearchd
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -780,13 +780,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSearchd
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSearchdSpecTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -911,49 +911,49 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSearchd
   /**
   * LabelSelector is used to find matching pods. Pods that match this label selector are counted to determine the number of pods in their corresponding topology domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSearchdSpecTopologySpreadConstraintsLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select the pods over which spreading will be calculated. The keys are used to lookup values from the incoming pod labels, those key-value labels are ANDed with labelSelector to select the group of existing pods over which spreading will be calculated for the incoming pod. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. MatchLabelKeys cannot be set when LabelSelector isn't set. Keys that don't exist in the incoming pod labels will be ignored. A null or empty list means only match against labelSelector. This is a beta field and requires the MatchLabelKeysInPodTopologySpread feature gate to be enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MaxSkew describes the degree to which pods may be unevenly distributed. When 'whenUnsatisfiable=DoNotSchedule', it is the maximum permitted difference between the number of matching pods in the target topology and the global minimum. The global minimum is the minimum number of matching pods in an eligible domain or zero if the number of eligible domains is less than MinDomains. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 2/2/1: In this case, the global minimum is 1. | zone1 | zone2 | zone3 | | P P | P P | P | - if MaxSkew is 1, incoming pod can only be scheduled to zone3 to become 2/2/2; scheduling it onto zone1(zone2) would make the ActualSkew(3-1) on zone1(zone2) violate MaxSkew(1). - if MaxSkew is 2, incoming pod can be scheduled onto any zone. When 'whenUnsatisfiable=ScheduleAnyway', it is used to give higher precedence to topologies that satisfy it. It's a required field. Default value is 1 and 0 is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#max_skew DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#max_skew DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
   * MinDomains indicates a minimum number of eligible domains. When the number of eligible domains with matching topology keys is less than minDomains, Pod Topology Spread treats 'global minimum' as 0, and then the calculation of Skew is performed. And when the number of eligible domains with matching topology keys equals or greater than minDomains, this value has no effect on scheduling. As a result, when the number of eligible domains is less than minDomains, scheduler won't schedule more than maxSkew Pods to those domains. If value is nil, the constraint behaves as if MinDomains is equal to 1. Valid values are integers greater than 0. When value is not nil, WhenUnsatisfiable must be DoNotSchedule. For example, in a 3-zone cluster, MaxSkew is set to 2, MinDomains is set to 5 and pods with the same labelSelector spread as 2/2/2: | zone1 | zone2 | zone3 | | P P | P P | P P | The number of domains is less than 5(MinDomains), so 'global minimum' is treated as 0. In this situation, new pod with the same labelSelector cannot be scheduled, because computed skew will be 3(3 - 0) if new Pod is scheduled to any of the three zones, it will violate MaxSkew. This is a beta field and requires the MinDomainsInPodTopologySpread feature gate to be enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#min_domains DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#min_domains DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
   * NodeAffinityPolicy indicates how we will treat Pod's nodeAffinity/nodeSelector when calculating pod topology spread skew. Options are: - Honor: only nodes matching nodeAffinity/nodeSelector are included in the calculations. - Ignore: nodeAffinity/nodeSelector are ignored. All nodes are included in the calculations. If this value is nil, the behavior is equivalent to the Honor policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_affinity_policy DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_affinity_policy DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
   * NodeTaintsPolicy indicates how we will treat node taints when calculating pod topology spread skew. Options are: - Honor: nodes without taints, along with tainted nodes for which the incoming pod has a toleration, are included. - Ignore: node taints are ignored. All nodes are included. If this value is nil, the behavior is equivalent to the Ignore policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_taints_policy DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_taints_policy DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
   * TopologyKey is the key of node labels. Nodes that have a label with this key and identical values are considered to be in the same topology. We consider each <key, value> as a 'bucket', and try to put balanced number of pods into each bucket. We define a domain as a particular instance of a topology. Also, we define an eligible domain as a domain whose nodes meet the requirements of nodeAffinityPolicy and nodeTaintsPolicy. e.g. If TopologyKey is 'kubernetes.io/hostname', each Node is a domain of that topology. And, if TopologyKey is 'topology.kubernetes.io/zone', each zone is a domain of that topology. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
   * WhenUnsatisfiable indicates how to deal with a pod if it doesn't satisfy the spread constraint. - DoNotSchedule (default) tells the scheduler not to schedule it. - ScheduleAnyway tells the scheduler to schedule the pod in any location, but giving higher precedence to topologies that would help reduce the skew. A constraint is considered 'Unsatisfiable' for an incoming pod if and only if every possible node assignment for that pod would violate 'MaxSkew' on some topology. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 3/1/1: | zone1 | zone2 | zone3 | | P P P | P | P | If WhenUnsatisfiable is set to DoNotSchedule, incoming pod can only be scheduled to zone2(zone3) to become 3/2/1(3/1/2) as ActualSkew(2-1) on zone2(zone3) satisfies MaxSkew(1). In other words, the cluster can still be imbalanced, but scheduler won't make it *more* imbalanced. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#when_unsatisfiable DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#when_unsatisfiable DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -1265,41 +1265,41 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSearchd
   /**
   * Affinity is a group of affinity scheduling rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSearchdSpecAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#annotations DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#annotations DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#image DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#image DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#persistent_volume_claim DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#persistent_volume_claim DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#persistent_volume_claim}
   */
   readonly persistentVolumeClaim?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSearchdSpecPersistentVolumeClaim;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#priority_class_name DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#priority_class_name DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#resources DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#resources DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSearchdSpecResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#tolerations DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#tolerations DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSearchdSpecTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_spread_constraints DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_spread_constraints DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSearchdSpecTopologySpreadConstraints[] | cdktf.IResolvable;
 }
@@ -1627,19 +1627,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1809,19 +1809,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1991,13 +1991,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_fields DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_fields DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -2122,13 +2122,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#preference DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#preference DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#weight DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#weight DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2269,19 +2269,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2451,19 +2451,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2633,13 +2633,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_fields DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_fields DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -2786,7 +2786,7 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_selector_terms DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_selector_terms DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -2879,13 +2879,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -3010,19 +3010,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3192,13 +3192,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3323,19 +3323,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3505,13 +3505,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3636,37 +3636,37 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#mismatch_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#mismatch_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespace_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespace_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespaces DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespaces DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3904,13 +3904,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#pod_affinity_term DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#pod_affinity_term DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#weight DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#weight DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -4051,19 +4051,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4233,13 +4233,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4364,19 +4364,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4546,13 +4546,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4677,37 +4677,37 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#mismatch_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#mismatch_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespace_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespace_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespaces DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespaces DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4967,13 +4967,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -5098,19 +5098,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5280,13 +5280,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5411,19 +5411,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5593,13 +5593,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5724,37 +5724,37 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#mismatch_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#mismatch_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespace_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespace_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespaces DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespaces DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -5992,13 +5992,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#pod_affinity_term DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#pod_affinity_term DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#weight DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#weight DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -6139,19 +6139,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6321,13 +6321,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6452,19 +6452,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6634,13 +6634,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6765,37 +6765,37 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#mismatch_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#mismatch_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespace_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespace_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespaces DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespaces DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -7055,13 +7055,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -7186,19 +7186,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#pod_affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#pod_affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#pod_anti_affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#pod_anti_affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinityPodAntiAffinity;
 }
@@ -7352,7 +7352,7 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#name DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#name DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -7467,19 +7467,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#claims DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#claims DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#limits DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#limits DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#requests DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#requests DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -7633,31 +7633,31 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#effect DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#effect DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#toleration_seconds DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#toleration_seconds DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#value DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#value DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -7891,19 +7891,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8073,13 +8073,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -8204,49 +8204,49 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * LabelSelector is used to find matching pods. Pods that match this label selector are counted to determine the number of pods in their corresponding topology domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecTopologySpreadConstraintsLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select the pods over which spreading will be calculated. The keys are used to lookup values from the incoming pod labels, those key-value labels are ANDed with labelSelector to select the group of existing pods over which spreading will be calculated for the incoming pod. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. MatchLabelKeys cannot be set when LabelSelector isn't set. Keys that don't exist in the incoming pod labels will be ignored. A null or empty list means only match against labelSelector. This is a beta field and requires the MatchLabelKeysInPodTopologySpread feature gate to be enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MaxSkew describes the degree to which pods may be unevenly distributed. When 'whenUnsatisfiable=DoNotSchedule', it is the maximum permitted difference between the number of matching pods in the target topology and the global minimum. The global minimum is the minimum number of matching pods in an eligible domain or zero if the number of eligible domains is less than MinDomains. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 2/2/1: In this case, the global minimum is 1. | zone1 | zone2 | zone3 | | P P | P P | P | - if MaxSkew is 1, incoming pod can only be scheduled to zone3 to become 2/2/2; scheduling it onto zone1(zone2) would make the ActualSkew(3-1) on zone1(zone2) violate MaxSkew(1). - if MaxSkew is 2, incoming pod can be scheduled onto any zone. When 'whenUnsatisfiable=ScheduleAnyway', it is used to give higher precedence to topologies that satisfy it. It's a required field. Default value is 1 and 0 is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#max_skew DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#max_skew DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
   * MinDomains indicates a minimum number of eligible domains. When the number of eligible domains with matching topology keys is less than minDomains, Pod Topology Spread treats 'global minimum' as 0, and then the calculation of Skew is performed. And when the number of eligible domains with matching topology keys equals or greater than minDomains, this value has no effect on scheduling. As a result, when the number of eligible domains is less than minDomains, scheduler won't schedule more than maxSkew Pods to those domains. If value is nil, the constraint behaves as if MinDomains is equal to 1. Valid values are integers greater than 0. When value is not nil, WhenUnsatisfiable must be DoNotSchedule. For example, in a 3-zone cluster, MaxSkew is set to 2, MinDomains is set to 5 and pods with the same labelSelector spread as 2/2/2: | zone1 | zone2 | zone3 | | P P | P P | P P | The number of domains is less than 5(MinDomains), so 'global minimum' is treated as 0. In this situation, new pod with the same labelSelector cannot be scheduled, because computed skew will be 3(3 - 0) if new Pod is scheduled to any of the three zones, it will violate MaxSkew. This is a beta field and requires the MinDomainsInPodTopologySpread feature gate to be enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#min_domains DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#min_domains DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
   * NodeAffinityPolicy indicates how we will treat Pod's nodeAffinity/nodeSelector when calculating pod topology spread skew. Options are: - Honor: only nodes matching nodeAffinity/nodeSelector are included in the calculations. - Ignore: nodeAffinity/nodeSelector are ignored. All nodes are included in the calculations. If this value is nil, the behavior is equivalent to the Honor policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_affinity_policy DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_affinity_policy DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
   * NodeTaintsPolicy indicates how we will treat node taints when calculating pod topology spread skew. Options are: - Honor: nodes without taints, along with tainted nodes for which the incoming pod has a toleration, are included. - Ignore: node taints are ignored. All nodes are included. If this value is nil, the behavior is equivalent to the Ignore policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_taints_policy DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_taints_policy DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
   * TopologyKey is the key of node labels. Nodes that have a label with this key and identical values are considered to be in the same topology. We consider each <key, value> as a 'bucket', and try to put balanced number of pods into each bucket. We define a domain as a particular instance of a topology. Also, we define an eligible domain as a domain whose nodes meet the requirements of nodeAffinityPolicy and nodeTaintsPolicy. e.g. If TopologyKey is 'kubernetes.io/hostname', each Node is a domain of that topology. And, if TopologyKey is 'topology.kubernetes.io/zone', each zone is a domain of that topology. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
   * WhenUnsatisfiable indicates how to deal with a pod if it doesn't satisfy the spread constraint. - DoNotSchedule (default) tells the scheduler not to schedule it. - ScheduleAnyway tells the scheduler to schedule the pod in any location, but giving higher precedence to topologies that would help reduce the skew. A constraint is considered 'Unsatisfiable' for an incoming pod if and only if every possible node assignment for that pod would violate 'MaxSkew' on some topology. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 3/1/1: | zone1 | zone2 | zone3 | | P P P | P | P | If WhenUnsatisfiable is set to DoNotSchedule, incoming pod can only be scheduled to zone2(zone3) to become 3/2/1(3/1/2) as ActualSkew(2-1) on zone2(zone3) satisfies MaxSkew(1). In other words, the cluster can still be imbalanced, but scheduler won't make it *more* imbalanced. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#when_unsatisfiable DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#when_unsatisfiable DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -8558,37 +8558,37 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiq
   /**
   * Affinity is a group of affinity scheduling rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#annotations DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#annotations DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#priority_class_name DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#priority_class_name DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#replicas DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#replicas DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#resources DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#resources DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#tolerations DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#tolerations DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_spread_constraints DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_spread_constraints DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpecTopologySpreadConstraints[] | cdktf.IResolvable;
 }
@@ -8887,19 +8887,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9069,19 +9069,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9251,13 +9251,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_fields DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_fields DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -9382,13 +9382,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#preference DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#preference DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#weight DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#weight DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -9529,19 +9529,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9711,19 +9711,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -9893,13 +9893,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_fields DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_fields DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -10046,7 +10046,7 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_selector_terms DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_selector_terms DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -10139,13 +10139,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -10270,19 +10270,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10452,13 +10452,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -10583,19 +10583,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10765,13 +10765,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -10896,37 +10896,37 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#mismatch_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#mismatch_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespace_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespace_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespaces DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespaces DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -11164,13 +11164,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#pod_affinity_term DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#pod_affinity_term DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#weight DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#weight DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -11311,19 +11311,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11493,13 +11493,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11624,19 +11624,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -11806,13 +11806,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -11937,37 +11937,37 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#mismatch_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#mismatch_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespace_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespace_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespaces DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespaces DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -12227,13 +12227,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -12358,19 +12358,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12540,13 +12540,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -12671,19 +12671,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -12853,13 +12853,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -12984,37 +12984,37 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#mismatch_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#mismatch_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespace_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespace_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespaces DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespaces DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -13252,13 +13252,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#pod_affinity_term DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#pod_affinity_term DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#weight DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#weight DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -13399,19 +13399,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13581,13 +13581,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -13712,19 +13712,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -13894,13 +13894,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -14025,37 +14025,37 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#mismatch_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#mismatch_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespace_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespace_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespaces DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespaces DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -14315,13 +14315,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -14446,19 +14446,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#pod_affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#pod_affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#pod_anti_affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#pod_anti_affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinityPodAntiAffinity;
 }
@@ -14612,7 +14612,7 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#name DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#name DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -14727,19 +14727,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#claims DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#claims DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#limits DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#limits DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#requests DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#requests DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -14893,31 +14893,31 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#effect DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#effect DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#toleration_seconds DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#toleration_seconds DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#value DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#value DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -15151,19 +15151,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -15333,13 +15333,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -15464,49 +15464,49 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * LabelSelector is used to find matching pods. Pods that match this label selector are counted to determine the number of pods in their corresponding topology domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecTopologySpreadConstraintsLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select the pods over which spreading will be calculated. The keys are used to lookup values from the incoming pod labels, those key-value labels are ANDed with labelSelector to select the group of existing pods over which spreading will be calculated for the incoming pod. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. MatchLabelKeys cannot be set when LabelSelector isn't set. Keys that don't exist in the incoming pod labels will be ignored. A null or empty list means only match against labelSelector. This is a beta field and requires the MatchLabelKeysInPodTopologySpread feature gate to be enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MaxSkew describes the degree to which pods may be unevenly distributed. When 'whenUnsatisfiable=DoNotSchedule', it is the maximum permitted difference between the number of matching pods in the target topology and the global minimum. The global minimum is the minimum number of matching pods in an eligible domain or zero if the number of eligible domains is less than MinDomains. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 2/2/1: In this case, the global minimum is 1. | zone1 | zone2 | zone3 | | P P | P P | P | - if MaxSkew is 1, incoming pod can only be scheduled to zone3 to become 2/2/2; scheduling it onto zone1(zone2) would make the ActualSkew(3-1) on zone1(zone2) violate MaxSkew(1). - if MaxSkew is 2, incoming pod can be scheduled onto any zone. When 'whenUnsatisfiable=ScheduleAnyway', it is used to give higher precedence to topologies that satisfy it. It's a required field. Default value is 1 and 0 is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#max_skew DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#max_skew DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
   * MinDomains indicates a minimum number of eligible domains. When the number of eligible domains with matching topology keys is less than minDomains, Pod Topology Spread treats 'global minimum' as 0, and then the calculation of Skew is performed. And when the number of eligible domains with matching topology keys equals or greater than minDomains, this value has no effect on scheduling. As a result, when the number of eligible domains is less than minDomains, scheduler won't schedule more than maxSkew Pods to those domains. If value is nil, the constraint behaves as if MinDomains is equal to 1. Valid values are integers greater than 0. When value is not nil, WhenUnsatisfiable must be DoNotSchedule. For example, in a 3-zone cluster, MaxSkew is set to 2, MinDomains is set to 5 and pods with the same labelSelector spread as 2/2/2: | zone1 | zone2 | zone3 | | P P | P P | P P | The number of domains is less than 5(MinDomains), so 'global minimum' is treated as 0. In this situation, new pod with the same labelSelector cannot be scheduled, because computed skew will be 3(3 - 0) if new Pod is scheduled to any of the three zones, it will violate MaxSkew. This is a beta field and requires the MinDomainsInPodTopologySpread feature gate to be enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#min_domains DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#min_domains DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
   * NodeAffinityPolicy indicates how we will treat Pod's nodeAffinity/nodeSelector when calculating pod topology spread skew. Options are: - Honor: only nodes matching nodeAffinity/nodeSelector are included in the calculations. - Ignore: nodeAffinity/nodeSelector are ignored. All nodes are included in the calculations. If this value is nil, the behavior is equivalent to the Honor policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_affinity_policy DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_affinity_policy DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
   * NodeTaintsPolicy indicates how we will treat node taints when calculating pod topology spread skew. Options are: - Honor: nodes without taints, along with tainted nodes for which the incoming pod has a toleration, are included. - Ignore: node taints are ignored. All nodes are included. If this value is nil, the behavior is equivalent to the Ignore policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_taints_policy DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_taints_policy DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
   * TopologyKey is the key of node labels. Nodes that have a label with this key and identical values are considered to be in the same topology. We consider each <key, value> as a 'bucket', and try to put balanced number of pods into each bucket. We define a domain as a particular instance of a topology. Also, we define an eligible domain as a domain whose nodes meet the requirements of nodeAffinityPolicy and nodeTaintsPolicy. e.g. If TopologyKey is 'kubernetes.io/hostname', each Node is a domain of that topology. And, if TopologyKey is 'topology.kubernetes.io/zone', each zone is a domain of that topology. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
   * WhenUnsatisfiable indicates how to deal with a pod if it doesn't satisfy the spread constraint. - DoNotSchedule (default) tells the scheduler not to schedule it. - ScheduleAnyway tells the scheduler to schedule the pod in any location, but giving higher precedence to topologies that would help reduce the skew. A constraint is considered 'Unsatisfiable' for an incoming pod if and only if every possible node assignment for that pod would violate 'MaxSkew' on some topology. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 3/1/1: | zone1 | zone2 | zone3 | | P P P | P | P | If WhenUnsatisfiable is set to DoNotSchedule, incoming pod can only be scheduled to zone2(zone3) to become 3/2/1(3/1/2) as ActualSkew(2-1) on zone2(zone3) satisfies MaxSkew(1). In other words, the cluster can still be imbalanced, but scheduler won't make it *more* imbalanced. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#when_unsatisfiable DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#when_unsatisfiable DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -15818,25 +15818,25 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxS
   /**
   * Affinity is a group of affinity scheduling rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#priority_class_name DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#priority_class_name DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#resources DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#resources DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#tolerations DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#tolerations DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_spread_constraints DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_spread_constraints DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecTopologySpreadConstraints[] | cdktf.IResolvable;
 }
@@ -16046,109 +16046,109 @@ export class DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpecO
 }
 export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystem {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#app_spec DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#app_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#app_spec DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#app_spec}
   */
   readonly appSpec?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemAppSpec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#database DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#database DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#database}
   */
   readonly database?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemDatabase;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#file_storage DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#file_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#file_storage DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#file_storage}
   */
   readonly fileStorage?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemFileStorage;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#image DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#image DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Affinity is a group of affinity scheduling rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#memcached_affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#memcached_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#memcached_affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#memcached_affinity}
   */
   readonly memcachedAffinity?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemMemcachedAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#memcached_annotations DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#memcached_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#memcached_annotations DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#memcached_annotations}
   */
   readonly memcachedAnnotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#memcached_image DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#memcached_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#memcached_image DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#memcached_image}
   */
   readonly memcachedImage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#memcached_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#memcached_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#memcached_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#memcached_labels}
   */
   readonly memcachedLabels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#memcached_priority_class_name DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#memcached_priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#memcached_priority_class_name DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#memcached_priority_class_name}
   */
   readonly memcachedPriorityClassName?: string;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#memcached_resources DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#memcached_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#memcached_resources DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#memcached_resources}
   */
   readonly memcachedResources?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemMemcachedResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#memcached_tolerations DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#memcached_tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#memcached_tolerations DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#memcached_tolerations}
   */
   readonly memcachedTolerations?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemMemcachedTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#memcached_topology_spread_constraints DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#memcached_topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#memcached_topology_spread_constraints DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#memcached_topology_spread_constraints}
   */
   readonly memcachedTopologySpreadConstraints?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemMemcachedTopologySpreadConstraints[] | cdktf.IResolvable;
   /**
   * Affinity is a group of affinity scheduling rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#redis_affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#redis_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#redis_affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#redis_affinity}
   */
   readonly redisAffinity?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemRedisAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#redis_annotations DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#redis_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#redis_annotations DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#redis_annotations}
   */
   readonly redisAnnotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#redis_image DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#redis_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#redis_image DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#redis_image}
   */
   readonly redisImage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#redis_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#redis_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#redis_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#redis_labels}
   */
   readonly redisLabels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#redis_persistent_volume_claim DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#redis_persistent_volume_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#redis_persistent_volume_claim DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#redis_persistent_volume_claim}
   */
   readonly redisPersistentVolumeClaim?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemRedisPersistentVolumeClaim;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#redis_priority_class_name DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#redis_priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#redis_priority_class_name DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#redis_priority_class_name}
   */
   readonly redisPriorityClassName?: string;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#redis_resources DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#redis_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#redis_resources DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#redis_resources}
   */
   readonly redisResources?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemRedisResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#redis_tolerations DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#redis_tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#redis_tolerations DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#redis_tolerations}
   */
   readonly redisTolerations?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemRedisTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#redis_topology_spread_constraints DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#redis_topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#redis_topology_spread_constraints DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#redis_topology_spread_constraints}
   */
   readonly redisTopologySpreadConstraints?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemRedisTopologySpreadConstraints[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#searchd_spec DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#searchd_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#searchd_spec DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#searchd_spec}
   */
   readonly searchdSpec?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSearchdSpec;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#sidekiq_spec DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#sidekiq_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#sidekiq_spec DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#sidekiq_spec}
   */
   readonly sidekiqSpec?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSidekiqSpec;
   /**
   * Deprecated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#sphinx_spec DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#sphinx_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#sphinx_spec DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#sphinx_spec}
   */
   readonly sphinxSpec?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecSystemSphinxSpec;
 }
@@ -16911,19 +16911,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -17093,19 +17093,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -17275,13 +17275,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_fields DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_fields DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -17406,13 +17406,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#preference DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#preference DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#weight DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#weight DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -17553,19 +17553,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -17735,19 +17735,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -17917,13 +17917,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_fields DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_fields DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -18070,7 +18070,7 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_selector_terms DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_selector_terms DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -18163,13 +18163,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -18294,19 +18294,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18476,13 +18476,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -18607,19 +18607,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18789,13 +18789,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -18920,37 +18920,37 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#mismatch_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#mismatch_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespace_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespace_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespaces DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespaces DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -19188,13 +19188,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#pod_affinity_term DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#pod_affinity_term DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#weight DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#weight DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -19335,19 +19335,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19517,13 +19517,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -19648,19 +19648,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19830,13 +19830,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -19961,37 +19961,37 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#mismatch_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#mismatch_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespace_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespace_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespaces DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespaces DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -20251,13 +20251,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -20382,19 +20382,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20564,13 +20564,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -20695,19 +20695,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20877,13 +20877,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -21008,37 +21008,37 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#mismatch_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#mismatch_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespace_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespace_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespaces DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespaces DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -21276,13 +21276,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#pod_affinity_term DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#pod_affinity_term DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#weight DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#weight DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -21423,19 +21423,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21605,13 +21605,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -21736,19 +21736,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21918,13 +21918,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -22049,37 +22049,37 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. Also, MatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'LabelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both MismatchLabelKeys and LabelSelector. Also, MismatchLabelKeys cannot be set when LabelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#mismatch_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#mismatch_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespace_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespace_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespaces DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#namespaces DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -22339,13 +22339,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -22470,19 +22470,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAf
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#pod_affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#pod_affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#pod_anti_affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#pod_anti_affinity DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecAffinityPodAntiAffinity;
 }
@@ -22636,7 +22636,7 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecRe
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#name DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#name DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -22751,19 +22751,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecRe
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#claims DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#claims DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#claims}
   */
   readonly claims?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#limits DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#limits DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#requests DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#requests DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -22917,31 +22917,31 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecTo
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#effect DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#effect DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#toleration_seconds DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#toleration_seconds DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#value DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#value DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -23175,19 +23175,19 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecTo
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#operator DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#values DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -23357,13 +23357,13 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecTo
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_expressions DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_labels DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -23488,49 +23488,49 @@ export interface DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecTo
   /**
   * LabelSelector is used to find matching pods. Pods that match this label selector are counted to determine the number of pods in their corresponding topology domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#label_selector DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SApps3ScaleNetApiManagerV1Alpha1ManifestSpecZyncAppSpecTopologySpreadConstraintsLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select the pods over which spreading will be calculated. The keys are used to lookup values from the incoming pod labels, those key-value labels are ANDed with labelSelector to select the group of existing pods over which spreading will be calculated for the incoming pod. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. MatchLabelKeys cannot be set when LabelSelector isn't set. Keys that don't exist in the incoming pod labels will be ignored. A null or empty list means only match against labelSelector. This is a beta field and requires the MatchLabelKeysInPodTopologySpread feature gate to be enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#match_label_keys DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MaxSkew describes the degree to which pods may be unevenly distributed. When 'whenUnsatisfiable=DoNotSchedule', it is the maximum permitted difference between the number of matching pods in the target topology and the global minimum. The global minimum is the minimum number of matching pods in an eligible domain or zero if the number of eligible domains is less than MinDomains. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 2/2/1: In this case, the global minimum is 1. | zone1 | zone2 | zone3 | | P P | P P | P | - if MaxSkew is 1, incoming pod can only be scheduled to zone3 to become 2/2/2; scheduling it onto zone1(zone2) would make the ActualSkew(3-1) on zone1(zone2) violate MaxSkew(1). - if MaxSkew is 2, incoming pod can be scheduled onto any zone. When 'whenUnsatisfiable=ScheduleAnyway', it is used to give higher precedence to topologies that satisfy it. It's a required field. Default value is 1 and 0 is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#max_skew DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#max_skew DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
   * MinDomains indicates a minimum number of eligible domains. When the number of eligible domains with matching topology keys is less than minDomains, Pod Topology Spread treats 'global minimum' as 0, and then the calculation of Skew is performed. And when the number of eligible domains with matching topology keys equals or greater than minDomains, this value has no effect on scheduling. As a result, when the number of eligible domains is less than minDomains, scheduler won't schedule more than maxSkew Pods to those domains. If value is nil, the constraint behaves as if MinDomains is equal to 1. Valid values are integers greater than 0. When value is not nil, WhenUnsatisfiable must be DoNotSchedule. For example, in a 3-zone cluster, MaxSkew is set to 2, MinDomains is set to 5 and pods with the same labelSelector spread as 2/2/2: | zone1 | zone2 | zone3 | | P P | P P | P P | The number of domains is less than 5(MinDomains), so 'global minimum' is treated as 0. In this situation, new pod with the same labelSelector cannot be scheduled, because computed skew will be 3(3 - 0) if new Pod is scheduled to any of the three zones, it will violate MaxSkew. This is a beta field and requires the MinDomainsInPodTopologySpread feature gate to be enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#min_domains DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#min_domains DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
   * NodeAffinityPolicy indicates how we will treat Pod's nodeAffinity/nodeSelector when calculating pod topology spread skew. Options are: - Honor: only nodes matching nodeAffinity/nodeSelector are included in the calculations. - Ignore: nodeAffinity/nodeSelector are ignored. All nodes are included in the calculations. If this value is nil, the behavior is equivalent to the Honor policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_affinity_policy DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_affinity_policy DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
   * NodeTaintsPolicy indicates how we will treat node taints when calculating pod topology spread skew. Options are: - Honor: nodes without taints, along with tainted nodes for which the incoming pod has a toleration, are included. - Ignore: node taints are ignored. All nodes are included. If this value is nil, the behavior is equivalent to the Ignore policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_taints_policy DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#node_taints_policy DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
   * TopologyKey is the key of node labels. Nodes that have a label with this key and identical values are considered to be in the same topology. We consider each <key, value> as a 'bucket', and try to put balanced number of pods into each bucket. We define a domain as a particular instance of a topology. Also, we define an eligible domain as a domain whose nodes meet the requirements of nodeAffinityPolicy and nodeTaintsPolicy. e.g. If TopologyKey is 'kubernetes.io/hostname', each Node is a domain of that topology. And, if TopologyKey is 'topology.kubernetes.io/zone', each zone is a domain of that topology. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#topology_key DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
   * WhenUnsatisfiable indicates how to deal with a pod if it doesn't satisfy the spread constraint. - DoNotSchedule (default) tells the scheduler not to schedule it. - ScheduleAnyway tells the scheduler to schedule the pod in any location, but giving higher precedence to topologies that would help reduce the skew. A constraint is considered 'Unsatisfiable' for an incoming pod if and only if every possible node assignment for that pod would violate 'MaxSkew' on some topology. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 3/1/1: | zone1 | zone2 | zone3 | | P P P | P | P | If WhenUnsatisfiable is set to DoNotSchedule, incoming pod can only be scheduled to zone2(zone3) to become 3/2/1(3/1/2) as ActualSkew(2-1) on zone2(zone3) satisfies MaxSkew(1). In other words, the cluster can still be imbalanced, but scheduler won't make it *more* imbalanced. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#when_unsatisfiable DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/apps_3scale_net_api_manager_v1alpha1_manifest#when_unsatisfiable DataK8SApps3ScaleNetApiManagerV1Alpha1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }

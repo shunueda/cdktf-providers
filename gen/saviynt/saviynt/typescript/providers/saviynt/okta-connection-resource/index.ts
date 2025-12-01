@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,151 +10,151 @@ export interface OktaConnectionResourceConfig extends cdktf.TerraformMetaArgumen
   /**
   * Maps Okta user fields to Saviynt account fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource#account_field_mappings OktaConnectionResource#account_field_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource#account_field_mappings OktaConnectionResource#account_field_mappings}
   */
   readonly accountFieldMappings?: string;
   /**
   * Auto-enables disabled endpoints based on application status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource#activate_endpoint OktaConnectionResource#activate_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource#activate_endpoint OktaConnectionResource#activate_endpoint}
   */
   readonly activateEndpoint?: string;
   /**
   * Maps Okta application user fields to Saviynt account field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource#app_account_field_mappings OktaConnectionResource#app_account_field_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource#app_account_field_mappings OktaConnectionResource#app_account_field_mappings}
   */
   readonly appAccountFieldMappings?: string;
   /**
   * Filter for importing specific audit events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource#audit_filter OktaConnectionResource#audit_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource#audit_filter OktaConnectionResource#audit_filter}
   */
   readonly auditFilter?: string;
   /**
   * API token for Okta authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource#auth_token OktaConnectionResource#auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource#auth_token OktaConnectionResource#auth_token}
   */
   readonly authToken?: string;
   /**
   * API token for Okta authentication (write-only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource#auth_token_wo OktaConnectionResource#auth_token_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource#auth_token_wo OktaConnectionResource#auth_token_wo}
   */
   readonly authTokenWo?: string;
   /**
   * General connector configuration including timeouts, retries, and connector-specific settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource#config_json OktaConnectionResource#config_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource#config_json OktaConnectionResource#config_json}
   */
   readonly configJson?: string;
   /**
   * Name of the connection. Example: "Active Directory_Doc"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource#connection_name OktaConnectionResource#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource#connection_name OktaConnectionResource#connection_name}
   */
   readonly connectionName: string;
   /**
   * Default SAV roles for managing the connection. Example: "ROLE_ORG"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource#defaultsavroles OktaConnectionResource#defaultsavroles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource#defaultsavroles OktaConnectionResource#defaultsavroles}
   */
   readonly defaultsavroles?: string;
   /**
   * Description for the connection. Example: "ORG_AD"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource#description OktaConnectionResource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource#description OktaConnectionResource#description}
   */
   readonly description?: string;
   /**
   * Email template for notifications. Example: "New Account Task Creation"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource#email_template OktaConnectionResource#email_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource#email_template OktaConnectionResource#email_template}
   */
   readonly emailTemplate?: string;
   /**
   *  Maps Okta entitlements to Saviynt entitlement types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource#entitlement_types_mappings OktaConnectionResource#entitlement_types_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource#entitlement_types_mappings OktaConnectionResource#entitlement_types_mappings}
   */
   readonly entitlementTypesMappings?: string;
   /**
   *  Controls import of inactive/disabled Okta applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource#import_inactive_apps OktaConnectionResource#import_inactive_apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource#import_inactive_apps OktaConnectionResource#import_inactive_apps}
   */
   readonly importInactiveApps?: string;
   /**
   * Base URL for Okta API calls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource#import_url OktaConnectionResource#import_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource#import_url OktaConnectionResource#import_url}
   */
   readonly importUrl: string;
   /**
   *  JSON configuration for user data modification operations during provisioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource#modify_user_data_json OktaConnectionResource#modify_user_data_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource#modify_user_data_json OktaConnectionResource#modify_user_data_json}
   */
   readonly modifyUserDataJson?: string;
   /**
   * Saviynt security system name for Okta applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource#okta_application_securitysystem OktaConnectionResource#okta_application_securitysystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource#okta_application_securitysystem OktaConnectionResource#okta_application_securitysystem}
   */
   readonly oktaApplicationSecuritysystem: string;
   /**
   * Filter criteria for selective group import from Okta.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource#okta_groups_filter OktaConnectionResource#okta_groups_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource#okta_groups_filter OktaConnectionResource#okta_groups_filter}
   */
   readonly oktaGroupsFilter?: string;
   /**
   * Privileged Access Management configuration for PAM operations and bootstrap processes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource#pam_config OktaConnectionResource#pam_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource#pam_config OktaConnectionResource#pam_config}
   */
   readonly pamConfig?: string;
   /**
   * Flag indicating whether the encrypted attribute should be saved in the configured vault. Example: "false"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource#save_in_vault OktaConnectionResource#save_in_vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource#save_in_vault OktaConnectionResource#save_in_vault}
   */
   readonly saveInVault?: string;
   /**
   * JSON config for status mapping, thresholds, and bulk operation safety controls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource#status_threshold_config OktaConnectionResource#status_threshold_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource#status_threshold_config OktaConnectionResource#status_threshold_config}
   */
   readonly statusThresholdConfig?: string;
   /**
   *  Maps Okta user fields to Saviynt user fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource#user_field_mappings OktaConnectionResource#user_field_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource#user_field_mappings OktaConnectionResource#user_field_mappings}
   */
   readonly userFieldMappings?: string;
   /**
   * JSON string specifying vault configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource#vault_configuration OktaConnectionResource#vault_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource#vault_configuration OktaConnectionResource#vault_configuration}
   */
   readonly vaultConfiguration?: string;
   /**
   * Specifies the type of vault connection being used (e.g., 'Hashicorp'). Example: "Hashicorp"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource#vault_connection OktaConnectionResource#vault_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource#vault_connection OktaConnectionResource#vault_connection}
   */
   readonly vaultConnection?: string;
   /**
   * Add/change the value of this attribute to update the writeonly attributes like username, password etc in connection resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource#wo_version OktaConnectionResource#wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource#wo_version OktaConnectionResource#wo_version}
   */
   readonly woVersion?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource saviynt_okta_connection_resource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource saviynt_okta_connection_resource}
 */
 export class OktaConnectionResource extends cdktf.TerraformResource {
 
@@ -170,7 +170,7 @@ export class OktaConnectionResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OktaConnectionResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OktaConnectionResource to import
-  * @param importFromId The id of the existing OktaConnectionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OktaConnectionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OktaConnectionResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -182,7 +182,7 @@ export class OktaConnectionResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/okta_connection_resource saviynt_okta_connection_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/okta_connection_resource saviynt_okta_connection_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -193,8 +193,8 @@ export class OktaConnectionResource extends cdktf.TerraformResource {
       terraformResourceType: 'saviynt_okta_connection_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.3.1',
-        providerVersionConstraint: '0.3.1'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

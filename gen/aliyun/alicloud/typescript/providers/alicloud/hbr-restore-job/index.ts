@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,124 +8,124 @@ import * as cdktf from 'cdktf';
 
 export interface HbrRestoreJobConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#cross_account_role_name HbrRestoreJob#cross_account_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#cross_account_role_name HbrRestoreJob#cross_account_role_name}
   */
   readonly crossAccountRoleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#cross_account_type HbrRestoreJob#cross_account_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#cross_account_type HbrRestoreJob#cross_account_type}
   */
   readonly crossAccountType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#cross_account_user_id HbrRestoreJob#cross_account_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#cross_account_user_id HbrRestoreJob#cross_account_user_id}
   */
   readonly crossAccountUserId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#exclude HbrRestoreJob#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#exclude HbrRestoreJob#exclude}
   */
   readonly exclude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#id HbrRestoreJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#id HbrRestoreJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#include HbrRestoreJob#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#include HbrRestoreJob#include}
   */
   readonly include?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#options HbrRestoreJob#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#options HbrRestoreJob#options}
   */
   readonly options?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#restore_job_id HbrRestoreJob#restore_job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#restore_job_id HbrRestoreJob#restore_job_id}
   */
   readonly restoreJobId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#restore_type HbrRestoreJob#restore_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#restore_type HbrRestoreJob#restore_type}
   */
   readonly restoreType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#snapshot_hash HbrRestoreJob#snapshot_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#snapshot_hash HbrRestoreJob#snapshot_hash}
   */
   readonly snapshotHash: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#snapshot_id HbrRestoreJob#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#snapshot_id HbrRestoreJob#snapshot_id}
   */
   readonly snapshotId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#source_type HbrRestoreJob#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#source_type HbrRestoreJob#source_type}
   */
   readonly sourceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#target_bucket HbrRestoreJob#target_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#target_bucket HbrRestoreJob#target_bucket}
   */
   readonly targetBucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#target_client_id HbrRestoreJob#target_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#target_client_id HbrRestoreJob#target_client_id}
   */
   readonly targetClientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#target_create_time HbrRestoreJob#target_create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#target_create_time HbrRestoreJob#target_create_time}
   */
   readonly targetCreateTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#target_data_source_id HbrRestoreJob#target_data_source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#target_data_source_id HbrRestoreJob#target_data_source_id}
   */
   readonly targetDataSourceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#target_file_system_id HbrRestoreJob#target_file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#target_file_system_id HbrRestoreJob#target_file_system_id}
   */
   readonly targetFileSystemId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#target_instance_id HbrRestoreJob#target_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#target_instance_id HbrRestoreJob#target_instance_id}
   */
   readonly targetInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#target_instance_name HbrRestoreJob#target_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#target_instance_name HbrRestoreJob#target_instance_name}
   */
   readonly targetInstanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#target_path HbrRestoreJob#target_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#target_path HbrRestoreJob#target_path}
   */
   readonly targetPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#target_prefix HbrRestoreJob#target_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#target_prefix HbrRestoreJob#target_prefix}
   */
   readonly targetPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#target_table_name HbrRestoreJob#target_table_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#target_table_name HbrRestoreJob#target_table_name}
   */
   readonly targetTableName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#target_time HbrRestoreJob#target_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#target_time HbrRestoreJob#target_time}
   */
   readonly targetTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#udm_detail HbrRestoreJob#udm_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#udm_detail HbrRestoreJob#udm_detail}
   */
   readonly udmDetail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#vault_id HbrRestoreJob#vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#vault_id HbrRestoreJob#vault_id}
   */
   readonly vaultId: string;
   /**
   * ots_detail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#ots_detail HbrRestoreJob#ots_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#ots_detail HbrRestoreJob#ots_detail}
   */
   readonly otsDetail?: HbrRestoreJobOtsDetail;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#timeouts HbrRestoreJob#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#timeouts HbrRestoreJob#timeouts}
   */
   readonly timeouts?: HbrRestoreJobTimeouts;
 }
 export interface HbrRestoreJobOtsDetail {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#overwrite_existing HbrRestoreJob#overwrite_existing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#overwrite_existing HbrRestoreJob#overwrite_existing}
   */
   readonly overwriteExisting?: boolean | cdktf.IResolvable;
 }
@@ -209,7 +209,7 @@ export class HbrRestoreJobOtsDetailOutputReference extends cdktf.ComplexObject {
 }
 export interface HbrRestoreJobTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#create HbrRestoreJob#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#create HbrRestoreJob#create}
   */
   readonly create?: string;
 }
@@ -303,7 +303,7 @@ export class HbrRestoreJobTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job alicloud_hbr_restore_job}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job alicloud_hbr_restore_job}
 */
 export class HbrRestoreJob extends cdktf.TerraformResource {
 
@@ -319,7 +319,7 @@ export class HbrRestoreJob extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HbrRestoreJob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HbrRestoreJob to import
-  * @param importFromId The id of the existing HbrRestoreJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HbrRestoreJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HbrRestoreJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -331,7 +331,7 @@ export class HbrRestoreJob extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_restore_job alicloud_hbr_restore_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_restore_job alicloud_hbr_restore_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -342,8 +342,8 @@ export class HbrRestoreJob extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_hbr_restore_job',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

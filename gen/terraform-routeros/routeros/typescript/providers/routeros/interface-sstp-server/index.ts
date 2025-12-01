@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_sstp_server
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_sstp_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface InterfaceSstpServerConfig extends cdktf.TerraformMetaArguments 
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_sstp_server#___path___ InterfaceSstpServer#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_sstp_server#___path___ InterfaceSstpServer#___path___}
   */
   readonly path?: string;
   /**
   * Authentication algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_sstp_server#authentication InterfaceSstpServer#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_sstp_server#authentication InterfaceSstpServer#authentication}
   */
   readonly authentication?: string[];
   /**
   * Name of the certificate in use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_sstp_server#certificate InterfaceSstpServer#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_sstp_server#certificate InterfaceSstpServer#certificate}
   */
   readonly certificate?: string;
   /**
   * Allowed ciphers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_sstp_server#ciphers InterfaceSstpServer#ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_sstp_server#ciphers InterfaceSstpServer#ciphers}
   */
   readonly ciphers?: string;
   /**
   * Default profile to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_sstp_server#default_profile InterfaceSstpServer#default_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_sstp_server#default_profile InterfaceSstpServer#default_profile}
   */
   readonly defaultProfile?: string;
   /**
   * Enables/disables service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_sstp_server#enabled InterfaceSstpServer#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_sstp_server#enabled InterfaceSstpServer#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_sstp_server#id InterfaceSstpServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_sstp_server#id InterfaceSstpServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,55 +53,55 @@ export interface InterfaceSstpServerConfig extends cdktf.TerraformMetaArguments 
   /**
   * Sets keepalive timeout in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_sstp_server#keepalive_timeout InterfaceSstpServer#keepalive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_sstp_server#keepalive_timeout InterfaceSstpServer#keepalive_timeout}
   */
   readonly keepaliveTimeout?: string;
   /**
   * Maximum Receive Unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_sstp_server#max_mru InterfaceSstpServer#max_mru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_sstp_server#max_mru InterfaceSstpServer#max_mru}
   */
   readonly maxMru?: number;
   /**
   * Maximum Transmission Unit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_sstp_server#max_mtu InterfaceSstpServer#max_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_sstp_server#max_mtu InterfaceSstpServer#max_mtu}
   */
   readonly maxMtu?: number;
   /**
   * Maximum packet size that can be received on the link. If a packet is bigger than tunnel MTU, it will be split into multiple packets, allowing full size IP or Ethernet packets to be sent over the tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_sstp_server#mrru InterfaceSstpServer#mrru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_sstp_server#mrru InterfaceSstpServer#mrru}
   */
   readonly mrru?: string;
   /**
   * Specifies which TLS authentication to use. With pfs=yes, TLS will use ECDHE-RSA- and DHE-RSA-. For maximum security setting pfs=required will use only ECDHE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_sstp_server#pfs InterfaceSstpServer#pfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_sstp_server#pfs InterfaceSstpServer#pfs}
   */
   readonly pfs?: boolean | cdktf.IResolvable;
   /**
   * Sets port used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_sstp_server#port InterfaceSstpServer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_sstp_server#port InterfaceSstpServer#port}
   */
   readonly port?: string;
   /**
   * Specifies which TLS versions to allow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_sstp_server#tls_version InterfaceSstpServer#tls_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_sstp_server#tls_version InterfaceSstpServer#tls_version}
   */
   readonly tlsVersion?: string;
   /**
   * SSTP server will verify client certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_sstp_server#verify_client_certificate InterfaceSstpServer#verify_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_sstp_server#verify_client_certificate InterfaceSstpServer#verify_client_certificate}
   */
   readonly verifyClientCertificate?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_sstp_server routeros_interface_sstp_server}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_sstp_server routeros_interface_sstp_server}
 */
 export class InterfaceSstpServer extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class InterfaceSstpServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceSstpServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceSstpServer to import
-  * @param importFromId The id of the existing InterfaceSstpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_sstp_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceSstpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_sstp_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceSstpServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class InterfaceSstpServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/interface_sstp_server routeros_interface_sstp_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/interface_sstp_server routeros_interface_sstp_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class InterfaceSstpServer extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_interface_sstp_server',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.94.0',
-        providerVersionConstraint: '1.94.0'
+        providerVersion: '1.95.0',
+        providerVersionConstraint: '1.95.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

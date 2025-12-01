@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8STinkerbellOrgWorkflowV1Alpha2ManifestConfig extends cdkt
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest#metadata DataK8STinkerbellOrgWorkflowV1Alpha2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest#metadata DataK8STinkerbellOrgWorkflowV1Alpha2Manifest#metadata}
   */
   readonly metadata: DataK8STinkerbellOrgWorkflowV1Alpha2ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest#spec DataK8STinkerbellOrgWorkflowV1Alpha2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest#spec DataK8STinkerbellOrgWorkflowV1Alpha2Manifest#spec}
   */
   readonly spec?: DataK8STinkerbellOrgWorkflowV1Alpha2ManifestSpec;
 }
@@ -22,25 +22,25 @@ export interface DataK8STinkerbellOrgWorkflowV1Alpha2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest#annotations DataK8STinkerbellOrgWorkflowV1Alpha2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest#annotations DataK8STinkerbellOrgWorkflowV1Alpha2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest#labels DataK8STinkerbellOrgWorkflowV1Alpha2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest#labels DataK8STinkerbellOrgWorkflowV1Alpha2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest#name DataK8STinkerbellOrgWorkflowV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest#name DataK8STinkerbellOrgWorkflowV1Alpha2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest#namespace DataK8STinkerbellOrgWorkflowV1Alpha2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest#namespace DataK8STinkerbellOrgWorkflowV1Alpha2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export interface DataK8STinkerbellOrgWorkflowV1Alpha2ManifestSpecHardwareRef {
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest#name DataK8STinkerbellOrgWorkflowV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest#name DataK8STinkerbellOrgWorkflowV1Alpha2Manifest#name}
   */
   readonly name?: string;
 }
@@ -313,7 +313,7 @@ export interface DataK8STinkerbellOrgWorkflowV1Alpha2ManifestSpecTemplateRef {
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest#name DataK8STinkerbellOrgWorkflowV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest#name DataK8STinkerbellOrgWorkflowV1Alpha2Manifest#name}
   */
   readonly name?: string;
 }
@@ -409,25 +409,25 @@ export interface DataK8STinkerbellOrgWorkflowV1Alpha2ManifestSpec {
   /**
   * HardwareRef is a reference to a Hardware resource this workflow will execute on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest#hardware_ref DataK8STinkerbellOrgWorkflowV1Alpha2Manifest#hardware_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest#hardware_ref DataK8STinkerbellOrgWorkflowV1Alpha2Manifest#hardware_ref}
   */
   readonly hardwareRef?: DataK8STinkerbellOrgWorkflowV1Alpha2ManifestSpecHardwareRef;
   /**
   * TemplateParams are a list of key-value pairs that are injected into templates at render time. TemplateParams are exposed to templates using a top level .Params key. For example, TemplateParams = {'foo': 'bar'}, the foo key can be accessed via .Params.foo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest#template_params DataK8STinkerbellOrgWorkflowV1Alpha2Manifest#template_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest#template_params DataK8STinkerbellOrgWorkflowV1Alpha2Manifest#template_params}
   */
   readonly templateParams?: { [key: string]: string };
   /**
   * TemplateRef is a reference to a Template resource used to render workflow actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest#template_ref DataK8STinkerbellOrgWorkflowV1Alpha2Manifest#template_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest#template_ref DataK8STinkerbellOrgWorkflowV1Alpha2Manifest#template_ref}
   */
   readonly templateRef?: DataK8STinkerbellOrgWorkflowV1Alpha2ManifestSpecTemplateRef;
   /**
   * TimeoutSeconds defines the time the workflow has to complete. The timer begins when the first action is requested. When set to 0, no timeout is applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest#timeout DataK8STinkerbellOrgWorkflowV1Alpha2Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest#timeout DataK8STinkerbellOrgWorkflowV1Alpha2Manifest#timeout}
   */
   readonly timeout?: number;
 }
@@ -608,7 +608,7 @@ export class DataK8STinkerbellOrgWorkflowV1Alpha2ManifestSpecOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest k8s_tinkerbell_org_workflow_v1alpha2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest k8s_tinkerbell_org_workflow_v1alpha2_manifest}
 */
 export class DataK8STinkerbellOrgWorkflowV1Alpha2Manifest extends cdktf.TerraformDataSource {
 
@@ -624,7 +624,7 @@ export class DataK8STinkerbellOrgWorkflowV1Alpha2Manifest extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataK8STinkerbellOrgWorkflowV1Alpha2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STinkerbellOrgWorkflowV1Alpha2Manifest to import
-  * @param importFromId The id of the existing DataK8STinkerbellOrgWorkflowV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STinkerbellOrgWorkflowV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STinkerbellOrgWorkflowV1Alpha2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -636,7 +636,7 @@ export class DataK8STinkerbellOrgWorkflowV1Alpha2Manifest extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest k8s_tinkerbell_org_workflow_v1alpha2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/tinkerbell_org_workflow_v1alpha2_manifest k8s_tinkerbell_org_workflow_v1alpha2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -647,8 +647,8 @@ export class DataK8STinkerbellOrgWorkflowV1Alpha2Manifest extends cdktf.Terrafor
       terraformResourceType: 'k8s_tinkerbell_org_workflow_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

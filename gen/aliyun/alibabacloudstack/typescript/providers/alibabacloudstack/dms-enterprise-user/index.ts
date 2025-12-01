@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dms_enterprise_user
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dms_enterprise_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface DmsEnterpriseUserConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dms_enterprise_user#id DmsEnterpriseUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dms_enterprise_user#id DmsEnterpriseUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dms_enterprise_user#max_execute_count DmsEnterpriseUser#max_execute_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dms_enterprise_user#max_execute_count DmsEnterpriseUser#max_execute_count}
   */
   readonly maxExecuteCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dms_enterprise_user#max_result_count DmsEnterpriseUser#max_result_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dms_enterprise_user#max_result_count DmsEnterpriseUser#max_result_count}
   */
   readonly maxResultCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dms_enterprise_user#mobile DmsEnterpriseUser#mobile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dms_enterprise_user#mobile DmsEnterpriseUser#mobile}
   */
   readonly mobile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dms_enterprise_user#nick_name DmsEnterpriseUser#nick_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dms_enterprise_user#nick_name DmsEnterpriseUser#nick_name}
   */
   readonly nickName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dms_enterprise_user#role_names DmsEnterpriseUser#role_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dms_enterprise_user#role_names DmsEnterpriseUser#role_names}
   */
   readonly roleNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dms_enterprise_user#status DmsEnterpriseUser#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dms_enterprise_user#status DmsEnterpriseUser#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dms_enterprise_user#tid DmsEnterpriseUser#tid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dms_enterprise_user#tid DmsEnterpriseUser#tid}
   */
   readonly tid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dms_enterprise_user#uid DmsEnterpriseUser#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dms_enterprise_user#uid DmsEnterpriseUser#uid}
   */
   readonly uid: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dms_enterprise_user#user_name DmsEnterpriseUser#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dms_enterprise_user#user_name DmsEnterpriseUser#user_name}
   */
   readonly userName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dms_enterprise_user alibabacloudstack_dms_enterprise_user}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dms_enterprise_user alibabacloudstack_dms_enterprise_user}
 */
 export class DmsEnterpriseUser extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class DmsEnterpriseUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DmsEnterpriseUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DmsEnterpriseUser to import
-  * @param importFromId The id of the existing DmsEnterpriseUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dms_enterprise_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DmsEnterpriseUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dms_enterprise_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DmsEnterpriseUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class DmsEnterpriseUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/dms_enterprise_user alibabacloudstack_dms_enterprise_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/dms_enterprise_user alibabacloudstack_dms_enterprise_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class DmsEnterpriseUser extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_dms_enterprise_user',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

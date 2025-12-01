@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SNetworkingGkeIoHealthCheckPolicyV1ManifestConfig extends
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#metadata DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#metadata DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#metadata}
   */
   readonly metadata: DataK8SNetworkingGkeIoHealthCheckPolicyV1ManifestMetadata;
   /**
   * Spec defines the desired state of HealthCheckPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#spec DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#spec DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#spec}
   */
   readonly spec: DataK8SNetworkingGkeIoHealthCheckPolicyV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SNetworkingGkeIoHealthCheckPolicyV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#annotations DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#annotations DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#labels DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#labels DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#name DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#name DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#namespace DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#namespace DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,25 +219,25 @@ export interface DataK8SNetworkingGkeIoHealthCheckPolicyV1ManifestSpecDefaultCon
   /**
   * The gRPC service name for the health check. This field is optional. The value of grpcServiceName has the following meanings by convention: - Empty serviceName means the overall status of all services at the backend. - Non-empty serviceName means the health of that gRPC service, as defined by the owner of the service. The grpcServiceName can only be ASCII.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#grpc_service_name DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#grpc_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#grpc_service_name DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#grpc_service_name}
   */
   readonly grpcServiceName?: string;
   /**
   * The TCP port number for the health check request. Valid values are 1 through 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port}
   */
   readonly port?: number;
   /**
   * Port name as defined in InstanceGroup#NamedPort#name. If both port and portName are defined, port takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port_name DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port_name DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port_name}
   */
   readonly portName?: string;
   /**
   * Specifies how port is selected for health checking, can be one of following values: USE_FIXED_PORT: The port number in port is used for health checking. USE_NAMED_PORT: The portName is used for health checking. USE_SERVING_PORT: For NetworkEndpointGroup, the port specified for each network endpoint is used for health checking. For other backends, the port or named port specified in the Backend Service is used for health checking. If not specified, Protocol health check follows behavior specified in port and portName fields. If neither Port nor PortName is specified, this defaults to USE_SERVING_PORT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port_specification DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port_specification DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port_specification}
   */
   readonly portSpecification?: string;
 }
@@ -420,43 +420,43 @@ export interface DataK8SNetworkingGkeIoHealthCheckPolicyV1ManifestSpecDefaultCon
   /**
   * Host is the value of the host header in the HTTP health check request. This matches the RFC 1123 definition of a hostname with 1 notable exception that numeric IP addresses are not allowed. If not specified or left empty, the IP on behalf of which this health check is performed will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#host DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#host DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#host}
   */
   readonly host?: string;
   /**
   * The TCP port number for the health check request. Valid values are 1 through 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port}
   */
   readonly port?: number;
   /**
   * Port name as defined in InstanceGroup#NamedPort#name. If both port and portName are defined, port takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port_name DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port_name DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port_name}
   */
   readonly portName?: string;
   /**
   * Specifies how port is selected for health checking, can be one of following values: USE_FIXED_PORT: The port number in port is used for health checking. USE_NAMED_PORT: The portName is used for health checking. USE_SERVING_PORT: For NetworkEndpointGroup, the port specified for each network endpoint is used for health checking. For other backends, the port or named port specified in the Backend Service is used for health checking. If not specified, Protocol health check follows behavior specified in port and portName fields. If neither Port nor PortName is specified, this defaults to USE_SERVING_PORT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port_specification DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port_specification DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port_specification}
   */
   readonly portSpecification?: string;
   /**
   * Specifies the type of proxy header to append before sending data to the backend, either NONE or PROXY_V1. If not specified, this defaults to NONE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#proxy_header DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#proxy_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#proxy_header DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#proxy_header}
   */
   readonly proxyHeader?: string;
   /**
   * The request path of the HTTP health check request. If not specified or left empty, a default value of '/' is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#request_path DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#request_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#request_path DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#request_path}
   */
   readonly requestPath?: string;
   /**
   * The string to match anywhere in the first 1024 bytes of the response body. If not specified or left empty, the status code determines health. The response data can only be ASCII.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#response DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#response DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#response}
   */
   readonly response?: string;
 }
@@ -726,43 +726,43 @@ export interface DataK8SNetworkingGkeIoHealthCheckPolicyV1ManifestSpecDefaultCon
   /**
   * Host is the value of the host header in the HTTP health check request. This matches the RFC 1123 definition of a hostname with 1 notable exception that numeric IP addresses are not allowed. If not specified or left empty, the IP on behalf of which this health check is performed will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#host DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#host DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#host}
   */
   readonly host?: string;
   /**
   * The TCP port number for the health check request. Valid values are 1 through 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port}
   */
   readonly port?: number;
   /**
   * Port name as defined in InstanceGroup#NamedPort#name. If both port and portName are defined, port takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port_name DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port_name DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port_name}
   */
   readonly portName?: string;
   /**
   * Specifies how port is selected for health checking, can be one of following values: USE_FIXED_PORT: The port number in port is used for health checking. USE_NAMED_PORT: The portName is used for health checking. USE_SERVING_PORT: For NetworkEndpointGroup, the port specified for each network endpoint is used for health checking. For other backends, the port or named port specified in the Backend Service is used for health checking. If not specified, Protocol health check follows behavior specified in port and portName fields. If neither Port nor PortName is specified, this defaults to USE_SERVING_PORT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port_specification DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port_specification DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port_specification}
   */
   readonly portSpecification?: string;
   /**
   * Specifies the type of proxy header to append before sending data to the backend, either NONE or PROXY_V1. If not specified, this defaults to NONE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#proxy_header DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#proxy_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#proxy_header DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#proxy_header}
   */
   readonly proxyHeader?: string;
   /**
   * The request path of the HTTP health check request. If not specified or left empty, a default value of '/' is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#request_path DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#request_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#request_path DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#request_path}
   */
   readonly requestPath?: string;
   /**
   * The string to match anywhere in the first 1024 bytes of the response body. If not specified or left empty, the status code determines health. The response data can only be ASCII.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#response DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#response DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#response}
   */
   readonly response?: string;
 }
@@ -1032,43 +1032,43 @@ export interface DataK8SNetworkingGkeIoHealthCheckPolicyV1ManifestSpecDefaultCon
   /**
   * Host is the value of the host header in the HTTP health check request. This matches the RFC 1123 definition of a hostname with 1 notable exception that numeric IP addresses are not allowed. If not specified or left empty, the IP on behalf of which this health check is performed will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#host DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#host DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#host}
   */
   readonly host?: string;
   /**
   * The TCP port number for the health check request. Valid values are 1 through 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port}
   */
   readonly port?: number;
   /**
   * Port name as defined in InstanceGroup#NamedPort#name. If both port and portName are defined, port takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port_name DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port_name DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port_name}
   */
   readonly portName?: string;
   /**
   * Specifies how port is selected for health checking, can be one of following values: USE_FIXED_PORT: The port number in port is used for health checking. USE_NAMED_PORT: The portName is used for health checking. USE_SERVING_PORT: For NetworkEndpointGroup, the port specified for each network endpoint is used for health checking. For other backends, the port or named port specified in the Backend Service is used for health checking. If not specified, Protocol health check follows behavior specified in port and portName fields. If neither Port nor PortName is specified, this defaults to USE_SERVING_PORT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port_specification DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port_specification DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port_specification}
   */
   readonly portSpecification?: string;
   /**
   * Specifies the type of proxy header to append before sending data to the backend, either NONE or PROXY_V1. If not specified, this defaults to NONE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#proxy_header DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#proxy_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#proxy_header DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#proxy_header}
   */
   readonly proxyHeader?: string;
   /**
   * The request path of the HTTP health check request. If not specified or left empty, a default value of '/' is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#request_path DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#request_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#request_path DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#request_path}
   */
   readonly requestPath?: string;
   /**
   * The string to match anywhere in the first 1024 bytes of the response body. If not specified or left empty, the status code determines health. The response data can only be ASCII.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#response DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#response DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#response}
   */
   readonly response?: string;
 }
@@ -1338,37 +1338,37 @@ export interface DataK8SNetworkingGkeIoHealthCheckPolicyV1ManifestSpecDefaultCon
   /**
   * The TCP port number for the health check request. Valid values are 1 through 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port}
   */
   readonly port?: number;
   /**
   * Port name as defined in InstanceGroup#NamedPort#name. If both port and portName are defined, port takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port_name DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port_name DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port_name}
   */
   readonly portName?: string;
   /**
   * Specifies how port is selected for health checking, can be one of following values: USE_FIXED_PORT: The port number in port is used for health checking. USE_NAMED_PORT: The portName is used for health checking. USE_SERVING_PORT: For NetworkEndpointGroup, the port specified for each network endpoint is used for health checking. For other backends, the port or named port specified in the Backend Service is used for health checking. If not specified, Protocol health check follows behavior specified in port and portName fields. If neither Port nor PortName is specified, this defaults to USE_SERVING_PORT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port_specification DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#port_specification DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#port_specification}
   */
   readonly portSpecification?: string;
   /**
   * Specifies the type of proxy header to append before sending data to the backend, either NONE or PROXY_V1. If not specified, this defaults to NONE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#proxy_header DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#proxy_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#proxy_header DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#proxy_header}
   */
   readonly proxyHeader?: string;
   /**
   * The application data to send once the TCP connection has been established. If not specified, this defaults to empty. If both request and response are empty, the connection establishment alone will indicate health. The request data can only be ASCII.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#request DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#request DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#request}
   */
   readonly request?: string;
   /**
   * The bytes to match against the beginning of the response data. If not specified or left empty, any response will indicate health. The response data can only be ASCII.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#response DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#response DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#response}
   */
   readonly response?: string;
 }
@@ -1609,37 +1609,37 @@ export interface DataK8SNetworkingGkeIoHealthCheckPolicyV1ManifestSpecDefaultCon
   /**
   * GRPC is the health check configuration of type GRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#grpc_health_check DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#grpc_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#grpc_health_check DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#grpc_health_check}
   */
   readonly grpcHealthCheck?: DataK8SNetworkingGkeIoHealthCheckPolicyV1ManifestSpecDefaultConfigGrpcHealthCheck;
   /**
   * HTTP2 is the health check configuration of type HTTP2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#http2_health_check DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#http2_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#http2_health_check DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#http2_health_check}
   */
   readonly http2HealthCheck?: DataK8SNetworkingGkeIoHealthCheckPolicyV1ManifestSpecDefaultConfigHttp2HealthCheck;
   /**
   * HTTP is the health check configuration of type HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#http_health_check DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#http_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#http_health_check DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#http_health_check}
   */
   readonly httpHealthCheck?: DataK8SNetworkingGkeIoHealthCheckPolicyV1ManifestSpecDefaultConfigHttpHealthCheck;
   /**
   * HTTPS is the health check configuration of type HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#https_health_check DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#https_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#https_health_check DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#https_health_check}
   */
   readonly httpsHealthCheck?: DataK8SNetworkingGkeIoHealthCheckPolicyV1ManifestSpecDefaultConfigHttpsHealthCheck;
   /**
   * TCP is the health check configuration of type TCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#tcp_health_check DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#tcp_health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#tcp_health_check DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#tcp_health_check}
   */
   readonly tcpHealthCheck?: DataK8SNetworkingGkeIoHealthCheckPolicyV1ManifestSpecDefaultConfigTcpHealthCheck;
   /**
   * Specifies the type of the healthCheck, either TCP, HTTP, HTTPS, HTTP2 or GRPC. Exactly one of the protocol-specific health check field must be specified, which must match type field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#type DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#type DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -1880,7 +1880,7 @@ export interface DataK8SNetworkingGkeIoHealthCheckPolicyV1ManifestSpecDefaultLog
   /**
   * Enabled indicates whether or not to export health check logs. If not specified, this defaults to false, which means health check logging will be disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#enabled DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#enabled DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1976,37 +1976,37 @@ export interface DataK8SNetworkingGkeIoHealthCheckPolicyV1ManifestSpecDefault {
   /**
   * How often (in seconds) to send a health check. If not specified, a default value of 5 seconds will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#check_interval_sec DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#check_interval_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#check_interval_sec DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#check_interval_sec}
   */
   readonly checkIntervalSec?: number;
   /**
   * Specifies the type of the healthCheck, either TCP, HTTP, HTTPS, HTTP2 or GRPC. Exactly one of the protocol-specific health check field must be specified, which must match type field. Config contains per protocol (i.e. HTTP, HTTPS, HTTP2, TCP, GRPC) configuration. If not specified, health check type defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#config DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#config DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#config}
   */
   readonly config?: DataK8SNetworkingGkeIoHealthCheckPolicyV1ManifestSpecDefaultConfig;
   /**
   * A so-far unhealthy instance will be marked healthy after this many consecutive successes. If not specified, a default value of 2 will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#healthy_threshold DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#healthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#healthy_threshold DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#healthy_threshold}
   */
   readonly healthyThreshold?: number;
   /**
   * LogConfig configures logging on this health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#log_config DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#log_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#log_config DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#log_config}
   */
   readonly logConfig?: DataK8SNetworkingGkeIoHealthCheckPolicyV1ManifestSpecDefaultLogConfig;
   /**
   * How long (in seconds) to wait before claiming failure. If not specified, a default value of 5 seconds will be used. It is invalid for timeoutSec to have greater value than checkIntervalSec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#timeout_sec DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#timeout_sec DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#timeout_sec}
   */
   readonly timeoutSec?: number;
   /**
   * A so-far healthy instance will be marked unhealthy after this many consecutive failures. If not specified, a default value of 2 will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#unhealthy_threshold DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#unhealthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#unhealthy_threshold DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#unhealthy_threshold}
   */
   readonly unhealthyThreshold?: number;
 }
@@ -2247,25 +2247,25 @@ export interface DataK8SNetworkingGkeIoHealthCheckPolicyV1ManifestSpecTargetRef 
   /**
   * Group is the group of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#group DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#group DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#group}
   */
   readonly group: string;
   /**
   * Kind is kind of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#kind DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#kind DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#name DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#name DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of the referent. When unspecified, the local namespace is inferred. Even when policy targets a resource in a different namespace, it MUST only apply to traffic originating from the same namespace as the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#namespace DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#namespace DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2439,13 +2439,13 @@ export interface DataK8SNetworkingGkeIoHealthCheckPolicyV1ManifestSpec {
   /**
   * Default defines default policy configuration for the targeted resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#default DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#default DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#default}
   */
   readonly default?: DataK8SNetworkingGkeIoHealthCheckPolicyV1ManifestSpecDefault;
   /**
   * TargetRef identifies an API object to apply policy to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#target_ref DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#target_ref DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest#target_ref}
   */
   readonly targetRef: DataK8SNetworkingGkeIoHealthCheckPolicyV1ManifestSpecTargetRef;
 }
@@ -2565,7 +2565,7 @@ export class DataK8SNetworkingGkeIoHealthCheckPolicyV1ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest k8s_networking_gke_io_health_check_policy_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest k8s_networking_gke_io_health_check_policy_v1_manifest}
 */
 export class DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest extends cdktf.TerraformDataSource {
 
@@ -2581,7 +2581,7 @@ export class DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest to import
-  * @param importFromId The id of the existing DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2593,7 +2593,7 @@ export class DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest k8s_networking_gke_io_health_check_policy_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/networking_gke_io_health_check_policy_v1_manifest k8s_networking_gke_io_health_check_policy_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2604,8 +2604,8 @@ export class DataK8SNetworkingGkeIoHealthCheckPolicyV1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_networking_gke_io_health_check_policy_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

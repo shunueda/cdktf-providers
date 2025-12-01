@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication
+// https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface S3BucketReplicationConfig extends cdktf.TerraformMetaArguments 
   /**
   * Name of the bucket on which to setup replication rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication#bucket S3BucketReplication#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication#bucket S3BucketReplication#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication#id S3BucketReplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication#id S3BucketReplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,7 +23,7 @@ export interface S3BucketReplicationConfig extends cdktf.TerraformMetaArguments 
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication#rule S3BucketReplication#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication#rule S3BucketReplication#rule}
   */
   readonly rule?: S3BucketReplicationRule[] | cdktf.IResolvable;
 }
@@ -31,79 +31,79 @@ export interface S3BucketReplicationRuleTarget {
   /**
   * Access key for the replication service account in the target MinIO
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication#access_key S3BucketReplication#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication#access_key S3BucketReplication#access_key}
   */
   readonly accessKey: string;
   /**
   * Maximum bandwidth in byte per second that MinIO can used when syncronysing this target. Minimum is 100MB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication#bandwidth_limit S3BucketReplication#bandwidth_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication#bandwidth_limit S3BucketReplication#bandwidth_limit}
   */
   readonly bandwidthLimit?: string;
   /**
   * The name of the existing target bucket to replicate into
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication#bucket S3BucketReplication#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication#bucket S3BucketReplication#bucket}
   */
   readonly bucket: string;
   /**
   * Disable proxy for this target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication#disable_proxy S3BucketReplication#disable_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication#disable_proxy S3BucketReplication#disable_proxy}
   */
   readonly disableProxy?: boolean | cdktf.IResolvable;
   /**
   * Period where the health of this target will be checked. This must be a valid duration, such as `5s` or `2m`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication#health_check_period S3BucketReplication#health_check_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication#health_check_period S3BucketReplication#health_check_period}
   */
   readonly healthCheckPeriod?: string;
   /**
   * The target host (pair IP/port or domain port). If port is omitted, HTTPS port (or HTTP if unsecure) will be used. This host must be reachable by the MinIO instance itself
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication#host S3BucketReplication#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication#host S3BucketReplication#host}
   */
   readonly host: string;
   /**
   * Path of the Minio endpoint. This is usefull if MinIO API isn't served on at the root, e.g for `example.com/minio/`, the path would be `/minio/`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication#path S3BucketReplication#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication#path S3BucketReplication#path}
   */
   readonly path?: string;
   /**
   * Whether to use path-style or virtual-hosted-syle request to this target (https://docs.aws.amazon.com/AmazonS3/latest/userguide/VirtualHosting.html#path-style-access). `auto` allows MinIO to chose automatically the appropriate option (Recommened)`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication#path_style S3BucketReplication#path_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication#path_style S3BucketReplication#path_style}
   */
   readonly pathStyle?: string;
   /**
   * Region of the target MinIO. This will be used to generate the target ARN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication#region S3BucketReplication#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication#region S3BucketReplication#region}
   */
   readonly region?: string;
   /**
   * Secret key for the replication service account in the target MinIO. This is optional so it can be imported but prevent secret update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication#secret_key S3BucketReplication#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication#secret_key S3BucketReplication#secret_key}
   */
   readonly secretKey?: string;
   /**
   * Whether to use HTTPS with this target (Recommended). Note that disabling HTTPS will yield Terraform warning for security reason`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication#secure S3BucketReplication#secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication#secure S3BucketReplication#secure}
   */
   readonly secure?: boolean | cdktf.IResolvable;
   /**
   * The storage class to use for the object on this target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication#storage_class S3BucketReplication#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication#storage_class S3BucketReplication#storage_class}
   */
   readonly storageClass?: string;
   /**
   * Use synchronous replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication#syncronous S3BucketReplication#syncronous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication#syncronous S3BucketReplication#syncronous}
   */
   readonly syncronous?: boolean | cdktf.IResolvable;
 }
@@ -528,55 +528,55 @@ export interface S3BucketReplicationRule {
   /**
   * Whether or not to synchronise marker deletion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication#delete_marker_replication S3BucketReplication#delete_marker_replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication#delete_marker_replication S3BucketReplication#delete_marker_replication}
   */
   readonly deleteMarkerReplication?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to propagate deletion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication#delete_replication S3BucketReplication#delete_replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication#delete_replication S3BucketReplication#delete_replication}
   */
   readonly deleteReplication?: boolean | cdktf.IResolvable;
   /**
   * Whether or not this rule is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication#enabled S3BucketReplication#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication#enabled S3BucketReplication#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to synchronise object created prior the replication configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication#existing_object_replication S3BucketReplication#existing_object_replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication#existing_object_replication S3BucketReplication#existing_object_replication}
   */
   readonly existingObjectReplication?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to synchonise buckets and objects metadata (such as locks). This must be enabled to achieve a two-way replication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication#metadata_sync S3BucketReplication#metadata_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication#metadata_sync S3BucketReplication#metadata_sync}
   */
   readonly metadataSync?: boolean | cdktf.IResolvable;
   /**
   * Bucket prefix object must be in to be syncronised
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication#prefix S3BucketReplication#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication#prefix S3BucketReplication#prefix}
   */
   readonly prefix?: string;
   /**
   * Rule priority. If omitted, the inverted index will be used as priority. This means that the first rule definition will have the higher priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication#priority S3BucketReplication#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication#priority S3BucketReplication#priority}
   */
   readonly priority?: number;
   /**
   * Tags which objects must have to be syncronised
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication#tags S3BucketReplication#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication#tags S3BucketReplication#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication#target S3BucketReplication#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication#target S3BucketReplication#target}
   */
   readonly target: S3BucketReplicationRuleTarget;
 }
@@ -931,7 +931,7 @@ export class S3BucketReplicationRuleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication minio_s3_bucket_replication}
+* Represents a {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication minio_s3_bucket_replication}
 */
 export class S3BucketReplication extends cdktf.TerraformResource {
 
@@ -947,7 +947,7 @@ export class S3BucketReplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a S3BucketReplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the S3BucketReplication to import
-  * @param importFromId The id of the existing S3BucketReplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing S3BucketReplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the S3BucketReplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -959,7 +959,7 @@ export class S3BucketReplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aminueza/minio/3.11.4/docs/resources/s3_bucket_replication minio_s3_bucket_replication} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aminueza/minio/3.11.5/docs/resources/s3_bucket_replication minio_s3_bucket_replication} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -970,8 +970,8 @@ export class S3BucketReplication extends cdktf.TerraformResource {
       terraformResourceType: 'minio_s3_bucket_replication',
       terraformGeneratorMetadata: {
         providerName: 'minio',
-        providerVersion: '3.11.4',
-        providerVersionConstraint: '3.11.4'
+        providerVersion: '3.11.5',
+        providerVersionConstraint: '3.11.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

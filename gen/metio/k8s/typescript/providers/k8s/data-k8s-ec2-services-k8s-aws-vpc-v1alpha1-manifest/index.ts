@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SEc2ServicesK8SAwsVpcV1Alpha1ManifestConfig extends cdktf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#metadata DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#metadata DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SEc2ServicesK8SAwsVpcV1Alpha1ManifestMetadata;
   /**
   * VpcSpec defines the desired state of Vpc. Describes a VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#spec DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#spec DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SEc2ServicesK8SAwsVpcV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SEc2ServicesK8SAwsVpcV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#annotations DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#annotations DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#labels DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#labels DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#name DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#namespace DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#namespace DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SEc2ServicesK8SAwsVpcV1Alpha1ManifestMetadataOutputReference 
 }
 export interface DataK8SEc2ServicesK8SAwsVpcV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#key DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#key DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#value DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#value DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -368,81 +368,81 @@ export interface DataK8SEc2ServicesK8SAwsVpcV1Alpha1ManifestSpec {
   /**
   * Requests an Amazon-provided IPv6 CIDR block with a /56 prefix length for the VPC. You cannot specify the range of IP addresses, or the size of the CIDR block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#amazon_provided_i_pv6_cidr_block DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#amazon_provided_i_pv6_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#amazon_provided_i_pv6_cidr_block DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#amazon_provided_i_pv6_cidr_block}
   */
   readonly amazonProvidedIPv6CidrBlock?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#cidr_blocks DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#cidr_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#cidr_blocks DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#cidr_blocks}
   */
   readonly cidrBlocks: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#disallow_security_group_default_rules DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#disallow_security_group_default_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#disallow_security_group_default_rules DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#disallow_security_group_default_rules}
   */
   readonly disallowSecurityGroupDefaultRules?: boolean | cdktf.IResolvable;
   /**
   * The attribute value. The valid values are true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#enable_dns_hostnames DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#enable_dns_hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#enable_dns_hostnames DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#enable_dns_hostnames}
   */
   readonly enableDnsHostnames?: boolean | cdktf.IResolvable;
   /**
   * The attribute value. The valid values are true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#enable_dns_support DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#enable_dns_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#enable_dns_support DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#enable_dns_support}
   */
   readonly enableDnsSupport?: boolean | cdktf.IResolvable;
   /**
   * The tenancy options for instances launched into the VPC. For default, instances are launched with shared tenancy by default. You can launch instances with any tenancy into a shared tenancy VPC. For dedicated, instances are launched as dedicated tenancy instances by default. You can only launch instances with a tenancy of dedicated or host into a dedicated tenancy VPC. Important: The host value cannot be used with this parameter. Use the default or dedicated values only. Default: default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#instance_tenancy DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#instance_tenancy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#instance_tenancy DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#instance_tenancy}
   */
   readonly instanceTenancy?: string;
   /**
   * The ID of an IPv4 IPAM pool you want to use for allocating this VPC's CIDR. For more information, see What is IPAM? (https://docs.aws.amazon.com/vpc/latest/ipam/what-is-it-ipam.html) in the Amazon VPC IPAM User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#ipv4_ipam_pool_id DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#ipv4_ipam_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#ipv4_ipam_pool_id DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#ipv4_ipam_pool_id}
   */
   readonly ipv4IpamPoolId?: string;
   /**
   * The netmask length of the IPv4 CIDR you want to allocate to this VPC from an Amazon VPC IP Address Manager (IPAM) pool. For more information about IPAM, see What is IPAM? (https://docs.aws.amazon.com/vpc/latest/ipam/what-is-it-ipam.html) in the Amazon VPC IPAM User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#ipv4_netmask_length DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#ipv4_netmask_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#ipv4_netmask_length DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#ipv4_netmask_length}
   */
   readonly ipv4NetmaskLength?: number;
   /**
   * The IPv6 CIDR block from the IPv6 address pool. You must also specify Ipv6Pool in the request. To let Amazon choose the IPv6 CIDR block for you, omit this parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#ipv6_cidr_block DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#ipv6_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#ipv6_cidr_block DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#ipv6_cidr_block}
   */
   readonly ipv6CidrBlock?: string;
   /**
   * The name of the location from which we advertise the IPV6 CIDR block. Use this parameter to limit the address to this location. You must set AmazonProvidedIpv6CidrBlock to true to use this parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#ipv6_cidr_block_network_border_group DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#ipv6_cidr_block_network_border_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#ipv6_cidr_block_network_border_group DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#ipv6_cidr_block_network_border_group}
   */
   readonly ipv6CidrBlockNetworkBorderGroup?: string;
   /**
   * The ID of an IPv6 IPAM pool which will be used to allocate this VPC an IPv6 CIDR. IPAM is a VPC feature that you can use to automate your IP address management workflows including assigning, tracking, troubleshooting, and auditing IP addresses across Amazon Web Services Regions and accounts throughout your Amazon Web Services Organization. For more information, see What is IPAM? (https://docs.aws.amazon.com/vpc/latest/ipam/what-is-it-ipam.html) in the Amazon VPC IPAM User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#ipv6_ipam_pool_id DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#ipv6_ipam_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#ipv6_ipam_pool_id DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#ipv6_ipam_pool_id}
   */
   readonly ipv6IpamPoolId?: string;
   /**
   * The netmask length of the IPv6 CIDR you want to allocate to this VPC from an Amazon VPC IP Address Manager (IPAM) pool. For more information about IPAM, see What is IPAM? (https://docs.aws.amazon.com/vpc/latest/ipam/what-is-it-ipam.html) in the Amazon VPC IPAM User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#ipv6_netmask_length DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#ipv6_netmask_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#ipv6_netmask_length DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#ipv6_netmask_length}
   */
   readonly ipv6NetmaskLength?: number;
   /**
   * The ID of an IPv6 address pool from which to allocate the IPv6 CIDR block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#ipv6_pool DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#ipv6_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#ipv6_pool DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#ipv6_pool}
   */
   readonly ipv6Pool?: string;
   /**
   * The tags. The value parameter is required, but if you don't want the tag to have a value, specify the parameter with no value, and we set the value to an empty string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#tags DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#tags DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SEc2ServicesK8SAwsVpcV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
 }
@@ -910,7 +910,7 @@ export class DataK8SEc2ServicesK8SAwsVpcV1Alpha1ManifestSpecOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest k8s_ec2_services_k8s_aws_vpc_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest k8s_ec2_services_k8s_aws_vpc_v1alpha1_manifest}
 */
 export class DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -926,7 +926,7 @@ export class DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest extends cdktf.Terraform
   * Generates CDKTF code for importing a DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -938,7 +938,7 @@ export class DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest k8s_ec2_services_k8s_aws_vpc_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ec2_services_k8s_aws_vpc_v1alpha1_manifest k8s_ec2_services_k8s_aws_vpc_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -949,8 +949,8 @@ export class DataK8SEc2ServicesK8SAwsVpcV1Alpha1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_ec2_services_k8s_aws_vpc_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

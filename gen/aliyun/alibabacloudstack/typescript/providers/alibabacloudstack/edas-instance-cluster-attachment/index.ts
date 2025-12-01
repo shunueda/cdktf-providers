@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/edas_instance_cluster_attachment
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_instance_cluster_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface EdasInstanceClusterAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/edas_instance_cluster_attachment#cluster_id EdasInstanceClusterAttachment#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_instance_cluster_attachment#cluster_id EdasInstanceClusterAttachment#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/edas_instance_cluster_attachment#id EdasInstanceClusterAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_instance_cluster_attachment#id EdasInstanceClusterAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/edas_instance_cluster_attachment#instance_ids EdasInstanceClusterAttachment#instance_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_instance_cluster_attachment#instance_ids EdasInstanceClusterAttachment#instance_ids}
   */
   readonly instanceIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/edas_instance_cluster_attachment#pass_word EdasInstanceClusterAttachment#pass_word}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_instance_cluster_attachment#pass_word EdasInstanceClusterAttachment#pass_word}
   */
   readonly passWord: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/edas_instance_cluster_attachment alibabacloudstack_edas_instance_cluster_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_instance_cluster_attachment alibabacloudstack_edas_instance_cluster_attachment}
 */
 export class EdasInstanceClusterAttachment extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class EdasInstanceClusterAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdasInstanceClusterAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdasInstanceClusterAttachment to import
-  * @param importFromId The id of the existing EdasInstanceClusterAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/edas_instance_cluster_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdasInstanceClusterAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_instance_cluster_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdasInstanceClusterAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class EdasInstanceClusterAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/edas_instance_cluster_attachment alibabacloudstack_edas_instance_cluster_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_instance_cluster_attachment alibabacloudstack_edas_instance_cluster_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class EdasInstanceClusterAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_edas_instance_cluster_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

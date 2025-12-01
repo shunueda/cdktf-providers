@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface DataK8SConfigGrafanaComProjectConfigV1ManifestConfig extends cd
   /**
   * CacheNamespace if specified restricts the manager's cache to watch objects in the desired namespace Defaults to all namespaces Note: If a namespace is specified, controllers can still Watch for a cluster-scoped resource (e.g Node). For namespaced resources the cache will only hold objects from the desired namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#cache_namespace DataK8SConfigGrafanaComProjectConfigV1Manifest#cache_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#cache_namespace DataK8SConfigGrafanaComProjectConfigV1Manifest#cache_namespace}
   */
   readonly cacheNamespace?: string;
   /**
   * Controller contains global configuration options for controllers registered within this manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#controller DataK8SConfigGrafanaComProjectConfigV1Manifest#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#controller DataK8SConfigGrafanaComProjectConfigV1Manifest#controller}
   */
   readonly controller?: DataK8SConfigGrafanaComProjectConfigV1ManifestController;
   /**
   * FeatureFlags is a set of operator feature flags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#feature_flags DataK8SConfigGrafanaComProjectConfigV1Manifest#feature_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#feature_flags DataK8SConfigGrafanaComProjectConfigV1Manifest#feature_flags}
   */
   readonly featureFlags?: DataK8SConfigGrafanaComProjectConfigV1ManifestFeatureFlags;
   /**
   * GracefulShutdownTimeout is the duration given to runnable to stop before the manager actually returns on stop. To disable graceful shutdown, set to time.Duration(0) To use graceful shutdown without timeout, set to a negative duration, e.G. time.Duration(-1) The graceful shutdown is skipped for safety reasons in case the leader election lease is lost.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#graceful_shut_down DataK8SConfigGrafanaComProjectConfigV1Manifest#graceful_shut_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#graceful_shut_down DataK8SConfigGrafanaComProjectConfigV1Manifest#graceful_shut_down}
   */
   readonly gracefulShutDown?: string;
   /**
   * Health contains the controller health configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#health DataK8SConfigGrafanaComProjectConfigV1Manifest#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#health DataK8SConfigGrafanaComProjectConfigV1Manifest#health}
   */
   readonly health?: DataK8SConfigGrafanaComProjectConfigV1ManifestHealth;
   /**
   * LeaderElection is the LeaderElection config to be used when configuring the manager.Manager leader election
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#leader_election DataK8SConfigGrafanaComProjectConfigV1Manifest#leader_election}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#leader_election DataK8SConfigGrafanaComProjectConfigV1Manifest#leader_election}
   */
   readonly leaderElection?: DataK8SConfigGrafanaComProjectConfigV1ManifestLeaderElection;
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#metadata DataK8SConfigGrafanaComProjectConfigV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#metadata DataK8SConfigGrafanaComProjectConfigV1Manifest#metadata}
   */
   readonly metadata: DataK8SConfigGrafanaComProjectConfigV1ManifestMetadata;
   /**
   * Metrics contains thw controller metrics configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#metrics DataK8SConfigGrafanaComProjectConfigV1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#metrics DataK8SConfigGrafanaComProjectConfigV1Manifest#metrics}
   */
   readonly metrics?: DataK8SConfigGrafanaComProjectConfigV1ManifestMetrics;
   /**
   * SyncPeriod determines the minimum frequency at which watched resources are reconciled. A lower period will correct entropy more quickly, but reduce responsiveness to change if there are many watched resources. Change this value only if you know what you are doing. Defaults to 10 hours if unset. there will a 10 percent jitter between the SyncPeriod of all controllers so that all controllers will not send list requests simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#sync_period DataK8SConfigGrafanaComProjectConfigV1Manifest#sync_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#sync_period DataK8SConfigGrafanaComProjectConfigV1Manifest#sync_period}
   */
   readonly syncPeriod?: string;
   /**
   * Webhook contains the controllers webhook configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#webhook DataK8SConfigGrafanaComProjectConfigV1Manifest#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#webhook DataK8SConfigGrafanaComProjectConfigV1Manifest#webhook}
   */
   readonly webhook?: DataK8SConfigGrafanaComProjectConfigV1ManifestWebhook;
 }
@@ -72,13 +72,13 @@ export interface DataK8SConfigGrafanaComProjectConfigV1ManifestController {
   /**
   * CacheSyncTimeout refers to the time limit set to wait for syncing caches. Defaults to 2 minutes if not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#cache_sync_timeout DataK8SConfigGrafanaComProjectConfigV1Manifest#cache_sync_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#cache_sync_timeout DataK8SConfigGrafanaComProjectConfigV1Manifest#cache_sync_timeout}
   */
   readonly cacheSyncTimeout?: number;
   /**
   * GroupKindConcurrency is a map from a Kind to the number of concurrent reconciliation allowed for that controller. When a controller is registered within this manager using the builder utilities, users have to specify the type the controller reconciles in the For(...) call. If the object's kind passed matches one of the keys in this map, the concurrency for that controller is set to the number specified. The key is expected to be consistent in form with GroupKind.String(), e.g. ReplicaSet in apps group (regardless of version) would be 'ReplicaSet.apps'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#group_kind_concurrency DataK8SConfigGrafanaComProjectConfigV1Manifest#group_kind_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#group_kind_concurrency DataK8SConfigGrafanaComProjectConfigV1Manifest#group_kind_concurrency}
   */
   readonly groupKindConcurrency?: { [key: string]: string };
 }
@@ -201,51 +201,51 @@ export class DataK8SConfigGrafanaComProjectConfigV1ManifestControllerOutputRefer
 }
 export interface DataK8SConfigGrafanaComProjectConfigV1ManifestFeatureFlags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#enable_alerting_rule_webhook DataK8SConfigGrafanaComProjectConfigV1Manifest#enable_alerting_rule_webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#enable_alerting_rule_webhook DataK8SConfigGrafanaComProjectConfigV1Manifest#enable_alerting_rule_webhook}
   */
   readonly enableAlertingRuleWebhook?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#enable_cert_signing_service DataK8SConfigGrafanaComProjectConfigV1Manifest#enable_cert_signing_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#enable_cert_signing_service DataK8SConfigGrafanaComProjectConfigV1Manifest#enable_cert_signing_service}
   */
   readonly enableCertSigningService?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#enable_grafana_labs_stats DataK8SConfigGrafanaComProjectConfigV1Manifest#enable_grafana_labs_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#enable_grafana_labs_stats DataK8SConfigGrafanaComProjectConfigV1Manifest#enable_grafana_labs_stats}
   */
   readonly enableGrafanaLabsStats?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#enable_loki_stack_alerts DataK8SConfigGrafanaComProjectConfigV1Manifest#enable_loki_stack_alerts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#enable_loki_stack_alerts DataK8SConfigGrafanaComProjectConfigV1Manifest#enable_loki_stack_alerts}
   */
   readonly enableLokiStackAlerts?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#enable_loki_stack_gateway DataK8SConfigGrafanaComProjectConfigV1Manifest#enable_loki_stack_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#enable_loki_stack_gateway DataK8SConfigGrafanaComProjectConfigV1Manifest#enable_loki_stack_gateway}
   */
   readonly enableLokiStackGateway?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#enable_loki_stack_gateway_route DataK8SConfigGrafanaComProjectConfigV1Manifest#enable_loki_stack_gateway_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#enable_loki_stack_gateway_route DataK8SConfigGrafanaComProjectConfigV1Manifest#enable_loki_stack_gateway_route}
   */
   readonly enableLokiStackGatewayRoute?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#enable_recording_rule_webhook DataK8SConfigGrafanaComProjectConfigV1Manifest#enable_recording_rule_webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#enable_recording_rule_webhook DataK8SConfigGrafanaComProjectConfigV1Manifest#enable_recording_rule_webhook}
   */
   readonly enableRecordingRuleWebhook?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#enable_ruler_config_webhook DataK8SConfigGrafanaComProjectConfigV1Manifest#enable_ruler_config_webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#enable_ruler_config_webhook DataK8SConfigGrafanaComProjectConfigV1Manifest#enable_ruler_config_webhook}
   */
   readonly enableRulerConfigWebhook?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#enable_service_monitors DataK8SConfigGrafanaComProjectConfigV1Manifest#enable_service_monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#enable_service_monitors DataK8SConfigGrafanaComProjectConfigV1Manifest#enable_service_monitors}
   */
   readonly enableServiceMonitors?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#enable_tls_grpc_services DataK8SConfigGrafanaComProjectConfigV1Manifest#enable_tls_grpc_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#enable_tls_grpc_services DataK8SConfigGrafanaComProjectConfigV1Manifest#enable_tls_grpc_services}
   */
   readonly enableTlsGrpcServices?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#enable_tls_http_services DataK8SConfigGrafanaComProjectConfigV1Manifest#enable_tls_http_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#enable_tls_http_services DataK8SConfigGrafanaComProjectConfigV1Manifest#enable_tls_http_services}
   */
   readonly enableTlsHttpServices?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#enable_tls_service_monitor_config DataK8SConfigGrafanaComProjectConfigV1Manifest#enable_tls_service_monitor_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#enable_tls_service_monitor_config DataK8SConfigGrafanaComProjectConfigV1Manifest#enable_tls_service_monitor_config}
   */
   readonly enableTlsServiceMonitorConfig?: boolean | cdktf.IResolvable;
 }
@@ -660,19 +660,19 @@ export interface DataK8SConfigGrafanaComProjectConfigV1ManifestHealth {
   /**
   * HealthProbeBindAddress is the TCP address that the controller should bind to for serving health probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#health_probe_bind_address DataK8SConfigGrafanaComProjectConfigV1Manifest#health_probe_bind_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#health_probe_bind_address DataK8SConfigGrafanaComProjectConfigV1Manifest#health_probe_bind_address}
   */
   readonly healthProbeBindAddress?: string;
   /**
   * LivenessEndpointName, defaults to 'healthz'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#liveness_endpoint_name DataK8SConfigGrafanaComProjectConfigV1Manifest#liveness_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#liveness_endpoint_name DataK8SConfigGrafanaComProjectConfigV1Manifest#liveness_endpoint_name}
   */
   readonly livenessEndpointName?: string;
   /**
   * ReadinessEndpointName, defaults to 'readyz'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#readiness_endpoint_name DataK8SConfigGrafanaComProjectConfigV1Manifest#readiness_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#readiness_endpoint_name DataK8SConfigGrafanaComProjectConfigV1Manifest#readiness_endpoint_name}
   */
   readonly readinessEndpointName?: string;
 }
@@ -826,43 +826,43 @@ export interface DataK8SConfigGrafanaComProjectConfigV1ManifestLeaderElection {
   /**
   * leaderElect enables a leader election client to gain leadership before executing the main loop. Enable this when running replicated components for high availability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#leader_elect DataK8SConfigGrafanaComProjectConfigV1Manifest#leader_elect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#leader_elect DataK8SConfigGrafanaComProjectConfigV1Manifest#leader_elect}
   */
   readonly leaderElect: boolean | cdktf.IResolvable;
   /**
   * leaseDuration is the duration that non-leader candidates will wait after observing a leadership renewal until attempting to acquire leadership of a led but unrenewed leader slot. This is effectively the maximum duration that a leader can be stopped before it is replaced by another candidate. This is only applicable if leader election is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#lease_duration DataK8SConfigGrafanaComProjectConfigV1Manifest#lease_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#lease_duration DataK8SConfigGrafanaComProjectConfigV1Manifest#lease_duration}
   */
   readonly leaseDuration: string;
   /**
   * renewDeadline is the interval between attempts by the acting master to renew a leadership slot before it stops leading. This must be less than or equal to the lease duration. This is only applicable if leader election is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#renew_deadline DataK8SConfigGrafanaComProjectConfigV1Manifest#renew_deadline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#renew_deadline DataK8SConfigGrafanaComProjectConfigV1Manifest#renew_deadline}
   */
   readonly renewDeadline: string;
   /**
   * resourceLock indicates the resource object type that will be used to lock during leader election cycles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#resource_lock DataK8SConfigGrafanaComProjectConfigV1Manifest#resource_lock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#resource_lock DataK8SConfigGrafanaComProjectConfigV1Manifest#resource_lock}
   */
   readonly resourceLock: string;
   /**
   * resourceName indicates the name of resource object that will be used to lock during leader election cycles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#resource_name DataK8SConfigGrafanaComProjectConfigV1Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#resource_name DataK8SConfigGrafanaComProjectConfigV1Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
   * resourceName indicates the namespace of resource object that will be used to lock during leader election cycles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#resource_namespace DataK8SConfigGrafanaComProjectConfigV1Manifest#resource_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#resource_namespace DataK8SConfigGrafanaComProjectConfigV1Manifest#resource_namespace}
   */
   readonly resourceNamespace: string;
   /**
   * retryPeriod is the duration the clients should wait between attempting acquisition and renewal of a leadership. This is only applicable if leader election is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#retry_period DataK8SConfigGrafanaComProjectConfigV1Manifest#retry_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#retry_period DataK8SConfigGrafanaComProjectConfigV1Manifest#retry_period}
   */
   readonly retryPeriod: string;
 }
@@ -1111,25 +1111,25 @@ export interface DataK8SConfigGrafanaComProjectConfigV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#annotations DataK8SConfigGrafanaComProjectConfigV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#annotations DataK8SConfigGrafanaComProjectConfigV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#labels DataK8SConfigGrafanaComProjectConfigV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#labels DataK8SConfigGrafanaComProjectConfigV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#name DataK8SConfigGrafanaComProjectConfigV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#name DataK8SConfigGrafanaComProjectConfigV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#namespace DataK8SConfigGrafanaComProjectConfigV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#namespace DataK8SConfigGrafanaComProjectConfigV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -1306,7 +1306,7 @@ export interface DataK8SConfigGrafanaComProjectConfigV1ManifestMetrics {
   /**
   * BindAddress is the TCP address that the controller should bind to for serving prometheus metrics. It can be set to '0' to disable the metrics serving.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#bind_address DataK8SConfigGrafanaComProjectConfigV1Manifest#bind_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#bind_address DataK8SConfigGrafanaComProjectConfigV1Manifest#bind_address}
   */
   readonly bindAddress?: string;
 }
@@ -1402,19 +1402,19 @@ export interface DataK8SConfigGrafanaComProjectConfigV1ManifestWebhook {
   /**
   * CertDir is the directory that contains the server key and certificate. if not set, webhook server would look up the server key and certificate in {TempDir}/k8s-webhook-server/serving-certs. The server key and certificate must be named tls.key and tls.crt, respectively.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#cert_dir DataK8SConfigGrafanaComProjectConfigV1Manifest#cert_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#cert_dir DataK8SConfigGrafanaComProjectConfigV1Manifest#cert_dir}
   */
   readonly certDir?: string;
   /**
   * Host is the hostname that the webhook server binds to. It is used to set webhook.Server.Host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#host DataK8SConfigGrafanaComProjectConfigV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#host DataK8SConfigGrafanaComProjectConfigV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Port is the port that the webhook server serves at. It is used to set webhook.Server.Port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#port DataK8SConfigGrafanaComProjectConfigV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#port DataK8SConfigGrafanaComProjectConfigV1Manifest#port}
   */
   readonly port?: number;
 }
@@ -1566,7 +1566,7 @@ export class DataK8SConfigGrafanaComProjectConfigV1ManifestWebhookOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest k8s_config_grafana_com_project_config_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest k8s_config_grafana_com_project_config_v1_manifest}
 */
 export class DataK8SConfigGrafanaComProjectConfigV1Manifest extends cdktf.TerraformDataSource {
 
@@ -1582,7 +1582,7 @@ export class DataK8SConfigGrafanaComProjectConfigV1Manifest extends cdktf.Terraf
   * Generates CDKTF code for importing a DataK8SConfigGrafanaComProjectConfigV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SConfigGrafanaComProjectConfigV1Manifest to import
-  * @param importFromId The id of the existing DataK8SConfigGrafanaComProjectConfigV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SConfigGrafanaComProjectConfigV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SConfigGrafanaComProjectConfigV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1594,7 +1594,7 @@ export class DataK8SConfigGrafanaComProjectConfigV1Manifest extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/config_grafana_com_project_config_v1_manifest k8s_config_grafana_com_project_config_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/config_grafana_com_project_config_v1_manifest k8s_config_grafana_com_project_config_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1605,8 +1605,8 @@ export class DataK8SConfigGrafanaComProjectConfigV1Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_config_grafana_com_project_config_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

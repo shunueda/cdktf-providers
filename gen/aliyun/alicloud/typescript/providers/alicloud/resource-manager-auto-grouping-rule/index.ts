@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_auto_grouping_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_auto_grouping_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface ResourceManagerAutoGroupingRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_auto_grouping_rule#exclude_region_ids_scope ResourceManagerAutoGroupingRule#exclude_region_ids_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_auto_grouping_rule#exclude_region_ids_scope ResourceManagerAutoGroupingRule#exclude_region_ids_scope}
   */
   readonly excludeRegionIdsScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_auto_grouping_rule#exclude_resource_group_ids_scope ResourceManagerAutoGroupingRule#exclude_resource_group_ids_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_auto_grouping_rule#exclude_resource_group_ids_scope ResourceManagerAutoGroupingRule#exclude_resource_group_ids_scope}
   */
   readonly excludeResourceGroupIdsScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_auto_grouping_rule#exclude_resource_ids_scope ResourceManagerAutoGroupingRule#exclude_resource_ids_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_auto_grouping_rule#exclude_resource_ids_scope ResourceManagerAutoGroupingRule#exclude_resource_ids_scope}
   */
   readonly excludeResourceIdsScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_auto_grouping_rule#exclude_resource_types_scope ResourceManagerAutoGroupingRule#exclude_resource_types_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_auto_grouping_rule#exclude_resource_types_scope ResourceManagerAutoGroupingRule#exclude_resource_types_scope}
   */
   readonly excludeResourceTypesScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_auto_grouping_rule#id ResourceManagerAutoGroupingRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_auto_grouping_rule#id ResourceManagerAutoGroupingRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_auto_grouping_rule#region_ids_scope ResourceManagerAutoGroupingRule#region_ids_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_auto_grouping_rule#region_ids_scope ResourceManagerAutoGroupingRule#region_ids_scope}
   */
   readonly regionIdsScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_auto_grouping_rule#resource_group_ids_scope ResourceManagerAutoGroupingRule#resource_group_ids_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_auto_grouping_rule#resource_group_ids_scope ResourceManagerAutoGroupingRule#resource_group_ids_scope}
   */
   readonly resourceGroupIdsScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_auto_grouping_rule#resource_ids_scope ResourceManagerAutoGroupingRule#resource_ids_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_auto_grouping_rule#resource_ids_scope ResourceManagerAutoGroupingRule#resource_ids_scope}
   */
   readonly resourceIdsScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_auto_grouping_rule#resource_types_scope ResourceManagerAutoGroupingRule#resource_types_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_auto_grouping_rule#resource_types_scope ResourceManagerAutoGroupingRule#resource_types_scope}
   */
   readonly resourceTypesScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_auto_grouping_rule#rule_desc ResourceManagerAutoGroupingRule#rule_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_auto_grouping_rule#rule_desc ResourceManagerAutoGroupingRule#rule_desc}
   */
   readonly ruleDesc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_auto_grouping_rule#rule_name ResourceManagerAutoGroupingRule#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_auto_grouping_rule#rule_name ResourceManagerAutoGroupingRule#rule_name}
   */
   readonly ruleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_auto_grouping_rule#rule_type ResourceManagerAutoGroupingRule#rule_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_auto_grouping_rule#rule_type ResourceManagerAutoGroupingRule#rule_type}
   */
   readonly ruleType: string;
   /**
   * rule_contents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_auto_grouping_rule#rule_contents ResourceManagerAutoGroupingRule#rule_contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_auto_grouping_rule#rule_contents ResourceManagerAutoGroupingRule#rule_contents}
   */
   readonly ruleContents: ResourceManagerAutoGroupingRuleRuleContents[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_auto_grouping_rule#timeouts ResourceManagerAutoGroupingRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_auto_grouping_rule#timeouts ResourceManagerAutoGroupingRule#timeouts}
   */
   readonly timeouts?: ResourceManagerAutoGroupingRuleTimeouts;
 }
 export interface ResourceManagerAutoGroupingRuleRuleContents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_auto_grouping_rule#auto_grouping_scope_condition ResourceManagerAutoGroupingRule#auto_grouping_scope_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_auto_grouping_rule#auto_grouping_scope_condition ResourceManagerAutoGroupingRule#auto_grouping_scope_condition}
   */
   readonly autoGroupingScopeCondition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_auto_grouping_rule#target_resource_group_condition ResourceManagerAutoGroupingRule#target_resource_group_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_auto_grouping_rule#target_resource_group_condition ResourceManagerAutoGroupingRule#target_resource_group_condition}
   */
   readonly targetResourceGroupCondition: string;
 }
@@ -219,15 +219,15 @@ export class ResourceManagerAutoGroupingRuleRuleContentsList extends cdktf.Compl
 }
 export interface ResourceManagerAutoGroupingRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_auto_grouping_rule#create ResourceManagerAutoGroupingRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_auto_grouping_rule#create ResourceManagerAutoGroupingRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_auto_grouping_rule#delete ResourceManagerAutoGroupingRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_auto_grouping_rule#delete ResourceManagerAutoGroupingRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_auto_grouping_rule#update ResourceManagerAutoGroupingRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_auto_grouping_rule#update ResourceManagerAutoGroupingRule#update}
   */
   readonly update?: string;
 }
@@ -379,7 +379,7 @@ export class ResourceManagerAutoGroupingRuleTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_auto_grouping_rule alicloud_resource_manager_auto_grouping_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_auto_grouping_rule alicloud_resource_manager_auto_grouping_rule}
 */
 export class ResourceManagerAutoGroupingRule extends cdktf.TerraformResource {
 
@@ -395,7 +395,7 @@ export class ResourceManagerAutoGroupingRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourceManagerAutoGroupingRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceManagerAutoGroupingRule to import
-  * @param importFromId The id of the existing ResourceManagerAutoGroupingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_auto_grouping_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceManagerAutoGroupingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_auto_grouping_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceManagerAutoGroupingRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -407,7 +407,7 @@ export class ResourceManagerAutoGroupingRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_auto_grouping_rule alicloud_resource_manager_auto_grouping_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_auto_grouping_rule alicloud_resource_manager_auto_grouping_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -418,8 +418,8 @@ export class ResourceManagerAutoGroupingRule extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_resource_manager_auto_grouping_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

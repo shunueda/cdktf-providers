@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/signed_pipeline_steps
+// https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/signed_pipeline_steps
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -19,7 +19,7 @@ export interface DataBuildkiteSignedPipelineStepsConfig extends cdktf.TerraformM
   * to avoid this, use the `jwks_file` attribute instead.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/signed_pipeline_steps#jwks DataBuildkiteSignedPipelineSteps#jwks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/signed_pipeline_steps#jwks DataBuildkiteSignedPipelineSteps#jwks}
   */
   readonly jwks?: string;
   /**
@@ -35,7 +35,7 @@ export interface DataBuildkiteSignedPipelineStepsConfig extends cdktf.TerraformM
   * Terraform is running, and cleaning it up after it has finished running.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/signed_pipeline_steps#jwks_file DataBuildkiteSignedPipelineSteps#jwks_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/signed_pipeline_steps#jwks_file DataBuildkiteSignedPipelineSteps#jwks_file}
   */
   readonly jwksFile?: string;
   /**
@@ -44,25 +44,25 @@ export interface DataBuildkiteSignedPipelineStepsConfig extends cdktf.TerraformM
   * will be used.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/signed_pipeline_steps#jwks_key_id DataBuildkiteSignedPipelineSteps#jwks_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/signed_pipeline_steps#jwks_key_id DataBuildkiteSignedPipelineSteps#jwks_key_id}
   */
   readonly jwksKeyId?: string;
   /**
   * The repository that will be checked out in a build of the pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/signed_pipeline_steps#repository DataBuildkiteSignedPipelineSteps#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/signed_pipeline_steps#repository DataBuildkiteSignedPipelineSteps#repository}
   */
   readonly repository: string;
   /**
   * The steps to sign in YAML format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/signed_pipeline_steps#unsigned_steps DataBuildkiteSignedPipelineSteps#unsigned_steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/signed_pipeline_steps#unsigned_steps DataBuildkiteSignedPipelineSteps#unsigned_steps}
   */
   readonly unsignedSteps: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/signed_pipeline_steps buildkite_signed_pipeline_steps}
+* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/signed_pipeline_steps buildkite_signed_pipeline_steps}
 */
 export class DataBuildkiteSignedPipelineSteps extends cdktf.TerraformDataSource {
 
@@ -78,7 +78,7 @@ export class DataBuildkiteSignedPipelineSteps extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataBuildkiteSignedPipelineSteps resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataBuildkiteSignedPipelineSteps to import
-  * @param importFromId The id of the existing DataBuildkiteSignedPipelineSteps that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/signed_pipeline_steps#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataBuildkiteSignedPipelineSteps that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/signed_pipeline_steps#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataBuildkiteSignedPipelineSteps to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -90,7 +90,7 @@ export class DataBuildkiteSignedPipelineSteps extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/data-sources/signed_pipeline_steps buildkite_signed_pipeline_steps} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/data-sources/signed_pipeline_steps buildkite_signed_pipeline_steps} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -101,8 +101,8 @@ export class DataBuildkiteSignedPipelineSteps extends cdktf.TerraformDataSource 
       terraformResourceType: 'buildkite_signed_pipeline_steps',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.27.0',
-        providerVersionConstraint: '1.27.0'
+        providerVersion: '1.27.1',
+        providerVersionConstraint: '1.27.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

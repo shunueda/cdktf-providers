@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_experiment_plan
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_experiment_plan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface EfloExperimentPlanConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_experiment_plan#external_params EfloExperimentPlan#external_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_experiment_plan#external_params EfloExperimentPlan#external_params}
   */
   readonly externalParams?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_experiment_plan#id EfloExperimentPlan#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_experiment_plan#id EfloExperimentPlan#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_experiment_plan#plan_name EfloExperimentPlan#plan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_experiment_plan#plan_name EfloExperimentPlan#plan_name}
   */
   readonly planName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_experiment_plan#resource_group_id EfloExperimentPlan#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_experiment_plan#resource_group_id EfloExperimentPlan#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_experiment_plan#resource_id EfloExperimentPlan#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_experiment_plan#resource_id EfloExperimentPlan#resource_id}
   */
   readonly resourceId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_experiment_plan#tags EfloExperimentPlan#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_experiment_plan#tags EfloExperimentPlan#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_experiment_plan#template_id EfloExperimentPlan#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_experiment_plan#template_id EfloExperimentPlan#template_id}
   */
   readonly templateId: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_experiment_plan#timeouts EfloExperimentPlan#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_experiment_plan#timeouts EfloExperimentPlan#timeouts}
   */
   readonly timeouts?: EfloExperimentPlanTimeouts;
 }
 export interface EfloExperimentPlanTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_experiment_plan#create EfloExperimentPlan#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_experiment_plan#create EfloExperimentPlan#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_experiment_plan#delete EfloExperimentPlan#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_experiment_plan#delete EfloExperimentPlan#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_experiment_plan#update EfloExperimentPlan#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_experiment_plan#update EfloExperimentPlan#update}
   */
   readonly update?: string;
 }
@@ -207,7 +207,7 @@ export class EfloExperimentPlanTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_experiment_plan alicloud_eflo_experiment_plan}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_experiment_plan alicloud_eflo_experiment_plan}
 */
 export class EfloExperimentPlan extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class EfloExperimentPlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EfloExperimentPlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EfloExperimentPlan to import
-  * @param importFromId The id of the existing EfloExperimentPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_experiment_plan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EfloExperimentPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_experiment_plan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EfloExperimentPlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class EfloExperimentPlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eflo_experiment_plan alicloud_eflo_experiment_plan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eflo_experiment_plan alicloud_eflo_experiment_plan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class EfloExperimentPlan extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_eflo_experiment_plan',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

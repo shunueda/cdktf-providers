@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_health_check_template
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_health_check_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,90 +8,90 @@ import * as cdktf from 'cdktf';
 
 export interface AlbHealthCheckTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_health_check_template#dry_run AlbHealthCheckTemplate#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_health_check_template#dry_run AlbHealthCheckTemplate#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_health_check_template#health_check_codes AlbHealthCheckTemplate#health_check_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_health_check_template#health_check_codes AlbHealthCheckTemplate#health_check_codes}
   */
   readonly healthCheckCodes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_health_check_template#health_check_connect_port AlbHealthCheckTemplate#health_check_connect_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_health_check_template#health_check_connect_port AlbHealthCheckTemplate#health_check_connect_port}
   */
   readonly healthCheckConnectPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_health_check_template#health_check_host AlbHealthCheckTemplate#health_check_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_health_check_template#health_check_host AlbHealthCheckTemplate#health_check_host}
   */
   readonly healthCheckHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_health_check_template#health_check_http_version AlbHealthCheckTemplate#health_check_http_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_health_check_template#health_check_http_version AlbHealthCheckTemplate#health_check_http_version}
   */
   readonly healthCheckHttpVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_health_check_template#health_check_interval AlbHealthCheckTemplate#health_check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_health_check_template#health_check_interval AlbHealthCheckTemplate#health_check_interval}
   */
   readonly healthCheckInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_health_check_template#health_check_method AlbHealthCheckTemplate#health_check_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_health_check_template#health_check_method AlbHealthCheckTemplate#health_check_method}
   */
   readonly healthCheckMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_health_check_template#health_check_path AlbHealthCheckTemplate#health_check_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_health_check_template#health_check_path AlbHealthCheckTemplate#health_check_path}
   */
   readonly healthCheckPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_health_check_template#health_check_protocol AlbHealthCheckTemplate#health_check_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_health_check_template#health_check_protocol AlbHealthCheckTemplate#health_check_protocol}
   */
   readonly healthCheckProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_health_check_template#health_check_template_name AlbHealthCheckTemplate#health_check_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_health_check_template#health_check_template_name AlbHealthCheckTemplate#health_check_template_name}
   */
   readonly healthCheckTemplateName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_health_check_template#health_check_timeout AlbHealthCheckTemplate#health_check_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_health_check_template#health_check_timeout AlbHealthCheckTemplate#health_check_timeout}
   */
   readonly healthCheckTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_health_check_template#healthy_threshold AlbHealthCheckTemplate#healthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_health_check_template#healthy_threshold AlbHealthCheckTemplate#healthy_threshold}
   */
   readonly healthyThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_health_check_template#id AlbHealthCheckTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_health_check_template#id AlbHealthCheckTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_health_check_template#resource_group_id AlbHealthCheckTemplate#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_health_check_template#resource_group_id AlbHealthCheckTemplate#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_health_check_template#tags AlbHealthCheckTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_health_check_template#tags AlbHealthCheckTemplate#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_health_check_template#unhealthy_threshold AlbHealthCheckTemplate#unhealthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_health_check_template#unhealthy_threshold AlbHealthCheckTemplate#unhealthy_threshold}
   */
   readonly unhealthyThreshold?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_health_check_template#timeouts AlbHealthCheckTemplate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_health_check_template#timeouts AlbHealthCheckTemplate#timeouts}
   */
   readonly timeouts?: AlbHealthCheckTemplateTimeouts;
 }
 export interface AlbHealthCheckTemplateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_health_check_template#create AlbHealthCheckTemplate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_health_check_template#create AlbHealthCheckTemplate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_health_check_template#delete AlbHealthCheckTemplate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_health_check_template#delete AlbHealthCheckTemplate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_health_check_template#update AlbHealthCheckTemplate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_health_check_template#update AlbHealthCheckTemplate#update}
   */
   readonly update?: string;
 }
@@ -243,7 +243,7 @@ export class AlbHealthCheckTemplateTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_health_check_template alicloud_alb_health_check_template}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_health_check_template alicloud_alb_health_check_template}
 */
 export class AlbHealthCheckTemplate extends cdktf.TerraformResource {
 
@@ -259,7 +259,7 @@ export class AlbHealthCheckTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlbHealthCheckTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlbHealthCheckTemplate to import
-  * @param importFromId The id of the existing AlbHealthCheckTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_health_check_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlbHealthCheckTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_health_check_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlbHealthCheckTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -271,7 +271,7 @@ export class AlbHealthCheckTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alb_health_check_template alicloud_alb_health_check_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alb_health_check_template alicloud_alb_health_check_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -282,8 +282,8 @@ export class AlbHealthCheckTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_alb_health_check_template',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

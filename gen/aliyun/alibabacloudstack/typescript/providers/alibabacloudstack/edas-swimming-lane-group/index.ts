@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane_group
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface EdasSwimmingLaneGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane_group#apps EdasSwimmingLaneGroup#apps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane_group#apps EdasSwimmingLaneGroup#apps}
   */
   readonly apps: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane_group#entry_app_id EdasSwimmingLaneGroup#entry_app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane_group#entry_app_id EdasSwimmingLaneGroup#entry_app_id}
   */
   readonly entryAppId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane_group#id EdasSwimmingLaneGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane_group#id EdasSwimmingLaneGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane_group#logical_region_id EdasSwimmingLaneGroup#logical_region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane_group#logical_region_id EdasSwimmingLaneGroup#logical_region_id}
   */
   readonly logicalRegionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane_group#name EdasSwimmingLaneGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane_group#name EdasSwimmingLaneGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane_group#strategy_type EdasSwimmingLaneGroup#strategy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane_group#strategy_type EdasSwimmingLaneGroup#strategy_type}
   */
   readonly strategyType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane_group alibabacloudstack_edas_swimming_lane_group}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane_group alibabacloudstack_edas_swimming_lane_group}
 */
 export class EdasSwimmingLaneGroup extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class EdasSwimmingLaneGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdasSwimmingLaneGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdasSwimmingLaneGroup to import
-  * @param importFromId The id of the existing EdasSwimmingLaneGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdasSwimmingLaneGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdasSwimmingLaneGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class EdasSwimmingLaneGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/edas_swimming_lane_group alibabacloudstack_edas_swimming_lane_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/edas_swimming_lane_group alibabacloudstack_edas_swimming_lane_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,7 +76,8 @@ export class EdasSwimmingLaneGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_edas_swimming_lane_group',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

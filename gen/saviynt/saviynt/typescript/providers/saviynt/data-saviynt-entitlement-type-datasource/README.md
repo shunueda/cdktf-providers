@@ -1,3 +1,3 @@
 # `data_saviynt_entitlement_type_datasource`
 
-Refer to the Terraform Registry for docs: [`data_saviynt_entitlement_type_datasource`](https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/data-sources/entitlement_type_datasource).
+Refer to the Terraform Registry for docs: [`data_saviynt_entitlement_type_datasource`](https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/data-sources/entitlement_type_datasource).

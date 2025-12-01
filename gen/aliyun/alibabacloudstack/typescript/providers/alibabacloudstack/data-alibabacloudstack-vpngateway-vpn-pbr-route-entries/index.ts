@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/vpngateway_vpn_pbr_route_entries
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpngateway_vpn_pbr_route_entries
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,18 +8,18 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackVpngatewayVpnPbrRouteEntriesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/vpngateway_vpn_pbr_route_entries#id DataAlibabacloudstackVpngatewayVpnPbrRouteEntries#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpngateway_vpn_pbr_route_entries#id DataAlibabacloudstackVpngatewayVpnPbrRouteEntries#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/vpngateway_vpn_pbr_route_entries#ids DataAlibabacloudstackVpngatewayVpnPbrRouteEntries#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpngateway_vpn_pbr_route_entries#ids DataAlibabacloudstackVpngatewayVpnPbrRouteEntries#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/vpngateway_vpn_pbr_route_entries#vpn_gateway_id DataAlibabacloudstackVpngatewayVpnPbrRouteEntries#vpn_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpngateway_vpn_pbr_route_entries#vpn_gateway_id DataAlibabacloudstackVpngatewayVpnPbrRouteEntries#vpn_gateway_id}
   */
   readonly vpnGatewayId: string;
 }
@@ -140,7 +140,7 @@ export class DataAlibabacloudstackVpngatewayVpnPbrRouteEntriesVpnPbrRouteEntries
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/vpngateway_vpn_pbr_route_entries alibabacloudstack_vpngateway_vpn_pbr_route_entries}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpngateway_vpn_pbr_route_entries alibabacloudstack_vpngateway_vpn_pbr_route_entries}
 */
 export class DataAlibabacloudstackVpngatewayVpnPbrRouteEntries extends cdktf.TerraformDataSource {
 
@@ -156,7 +156,7 @@ export class DataAlibabacloudstackVpngatewayVpnPbrRouteEntries extends cdktf.Ter
   * Generates CDKTF code for importing a DataAlibabacloudstackVpngatewayVpnPbrRouteEntries resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackVpngatewayVpnPbrRouteEntries to import
-  * @param importFromId The id of the existing DataAlibabacloudstackVpngatewayVpnPbrRouteEntries that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/vpngateway_vpn_pbr_route_entries#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackVpngatewayVpnPbrRouteEntries that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpngateway_vpn_pbr_route_entries#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackVpngatewayVpnPbrRouteEntries to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -168,7 +168,7 @@ export class DataAlibabacloudstackVpngatewayVpnPbrRouteEntries extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/vpngateway_vpn_pbr_route_entries alibabacloudstack_vpngateway_vpn_pbr_route_entries} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/vpngateway_vpn_pbr_route_entries alibabacloudstack_vpngateway_vpn_pbr_route_entries} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -179,7 +179,8 @@ export class DataAlibabacloudstackVpngatewayVpnPbrRouteEntries extends cdktf.Ter
       terraformResourceType: 'alibabacloudstack_vpngateway_vpn_pbr_route_entries',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

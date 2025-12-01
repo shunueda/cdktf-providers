@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/mongodb_backups
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/mongodb_backups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackMongodbBackupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/mongodb_backups#backup_id DataAlibabacloudstackMongodbBackups#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/mongodb_backups#backup_id DataAlibabacloudstackMongodbBackups#backup_id}
   */
   readonly backupId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/mongodb_backups#db_instance_id DataAlibabacloudstackMongodbBackups#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/mongodb_backups#db_instance_id DataAlibabacloudstackMongodbBackups#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/mongodb_backups#end_time DataAlibabacloudstackMongodbBackups#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/mongodb_backups#end_time DataAlibabacloudstackMongodbBackups#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/mongodb_backups#id DataAlibabacloudstackMongodbBackups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/mongodb_backups#id DataAlibabacloudstackMongodbBackups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/mongodb_backups#ids DataAlibabacloudstackMongodbBackups#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/mongodb_backups#ids DataAlibabacloudstackMongodbBackups#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/mongodb_backups#start_time DataAlibabacloudstackMongodbBackups#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/mongodb_backups#start_time DataAlibabacloudstackMongodbBackups#start_time}
   */
   readonly startTime: string;
 }
@@ -172,7 +172,7 @@ export class DataAlibabacloudstackMongodbBackupsBackupsList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/mongodb_backups alibabacloudstack_mongodb_backups}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/mongodb_backups alibabacloudstack_mongodb_backups}
 */
 export class DataAlibabacloudstackMongodbBackups extends cdktf.TerraformDataSource {
 
@@ -188,7 +188,7 @@ export class DataAlibabacloudstackMongodbBackups extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataAlibabacloudstackMongodbBackups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackMongodbBackups to import
-  * @param importFromId The id of the existing DataAlibabacloudstackMongodbBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/mongodb_backups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackMongodbBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/mongodb_backups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackMongodbBackups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -200,7 +200,7 @@ export class DataAlibabacloudstackMongodbBackups extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/data-sources/mongodb_backups alibabacloudstack_mongodb_backups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/mongodb_backups alibabacloudstack_mongodb_backups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -211,7 +211,8 @@ export class DataAlibabacloudstackMongodbBackups extends cdktf.TerraformDataSour
       terraformResourceType: 'alibabacloudstack_mongodb_backups',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

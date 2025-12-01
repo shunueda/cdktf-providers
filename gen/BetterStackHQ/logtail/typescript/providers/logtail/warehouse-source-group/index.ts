@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/warehouse_source_group
+// https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_source_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface WarehouseSourceGroupConfig extends cdktf.TerraformMetaArguments
   /**
   * The name of the warehouse source group. Can contain letters, numbers, spaces, and special characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/warehouse_source_group#name WarehouseSourceGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_source_group#name WarehouseSourceGroup#name}
   */
   readonly name: string;
   /**
   * The sort index of this warehouse source group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/warehouse_source_group#sort_index WarehouseSourceGroup#sort_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_source_group#sort_index WarehouseSourceGroup#sort_index}
   */
   readonly sortIndex?: number;
   /**
   * Used to specify the team the resource should be created in when using global tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/warehouse_source_group#team_name WarehouseSourceGroup#team_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_source_group#team_name WarehouseSourceGroup#team_name}
   */
   readonly teamName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/warehouse_source_group logtail_warehouse_source_group}
+* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_source_group logtail_warehouse_source_group}
 */
 export class WarehouseSourceGroup extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class WarehouseSourceGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WarehouseSourceGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WarehouseSourceGroup to import
-  * @param importFromId The id of the existing WarehouseSourceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/warehouse_source_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WarehouseSourceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_source_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WarehouseSourceGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class WarehouseSourceGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/resources/warehouse_source_group logtail_warehouse_source_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/resources/warehouse_source_group logtail_warehouse_source_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class WarehouseSourceGroup extends cdktf.TerraformResource {
       terraformResourceType: 'logtail_warehouse_source_group',
       terraformGeneratorMetadata: {
         providerName: 'logtail',
-        providerVersion: '0.7.1',
-        providerVersionConstraint: '0.7.1'
+        providerVersion: '0.7.2',
+        providerVersionConstraint: '0.7.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cen_traffic_marking_policies
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_traffic_marking_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudCenTrafficMarkingPoliciesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cen_traffic_marking_policies#description DataAlicloudCenTrafficMarkingPolicies#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_traffic_marking_policies#description DataAlicloudCenTrafficMarkingPolicies#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cen_traffic_marking_policies#id DataAlicloudCenTrafficMarkingPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_traffic_marking_policies#id DataAlicloudCenTrafficMarkingPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cen_traffic_marking_policies#ids DataAlicloudCenTrafficMarkingPolicies#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_traffic_marking_policies#ids DataAlicloudCenTrafficMarkingPolicies#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cen_traffic_marking_policies#name_regex DataAlicloudCenTrafficMarkingPolicies#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_traffic_marking_policies#name_regex DataAlicloudCenTrafficMarkingPolicies#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cen_traffic_marking_policies#output_file DataAlicloudCenTrafficMarkingPolicies#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_traffic_marking_policies#output_file DataAlicloudCenTrafficMarkingPolicies#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cen_traffic_marking_policies#status DataAlicloudCenTrafficMarkingPolicies#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_traffic_marking_policies#status DataAlicloudCenTrafficMarkingPolicies#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cen_traffic_marking_policies#transit_router_id DataAlicloudCenTrafficMarkingPolicies#transit_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_traffic_marking_policies#transit_router_id DataAlicloudCenTrafficMarkingPolicies#transit_router_id}
   */
   readonly transitRouterId: string;
 }
@@ -151,7 +151,7 @@ export class DataAlicloudCenTrafficMarkingPoliciesPoliciesList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cen_traffic_marking_policies alicloud_cen_traffic_marking_policies}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_traffic_marking_policies alicloud_cen_traffic_marking_policies}
 */
 export class DataAlicloudCenTrafficMarkingPolicies extends cdktf.TerraformDataSource {
 
@@ -167,7 +167,7 @@ export class DataAlicloudCenTrafficMarkingPolicies extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataAlicloudCenTrafficMarkingPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudCenTrafficMarkingPolicies to import
-  * @param importFromId The id of the existing DataAlicloudCenTrafficMarkingPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cen_traffic_marking_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudCenTrafficMarkingPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_traffic_marking_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudCenTrafficMarkingPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -179,7 +179,7 @@ export class DataAlicloudCenTrafficMarkingPolicies extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/cen_traffic_marking_policies alicloud_cen_traffic_marking_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/cen_traffic_marking_policies alicloud_cen_traffic_marking_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -190,8 +190,8 @@ export class DataAlicloudCenTrafficMarkingPolicies extends cdktf.TerraformDataSo
       terraformResourceType: 'alicloud_cen_traffic_marking_policies',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

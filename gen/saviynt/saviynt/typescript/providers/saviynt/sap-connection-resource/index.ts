@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,433 +10,433 @@ export interface SapConnectionResourceConfig extends cdktf.TerraformMetaArgument
   /**
   * Alternateoutputparameteretdata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#alternate_output_parameter_et_data SapConnectionResource#alternate_output_parameter_et_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#alternate_output_parameter_et_data SapConnectionResource#alternate_output_parameter_et_data}
   */
   readonly alternateOutputParameterEtData?: string;
   /**
   * Auditlogjson.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#audit_log_json SapConnectionResource#audit_log_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#audit_log_json SapConnectionResource#audit_log_json}
   */
   readonly auditLogJson?: string;
   /**
   * Config json.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#config_json SapConnectionResource#config_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#config_json SapConnectionResource#config_json}
   */
   readonly configJson?: string;
   /**
   * Name of the connection. Example: "Active Directory_Doc"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#connection_name SapConnectionResource#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#connection_name SapConnectionResource#connection_name}
   */
   readonly connectionName: string;
   /**
   * Createaccountjson.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#create_account_json SapConnectionResource#create_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#create_account_json SapConnectionResource#create_account_json}
   */
   readonly createAccountJson?: string;
   /**
   * Data import filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#data_import_filter SapConnectionResource#data_import_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#data_import_filter SapConnectionResource#data_import_filter}
   */
   readonly dataImportFilter?: string;
   /**
   * Default SAV roles for managing the connection. Example: "ROLE_ORG"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#defaultsavroles SapConnectionResource#defaultsavroles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#defaultsavroles SapConnectionResource#defaultsavroles}
   */
   readonly defaultsavroles?: string;
   /**
   * Description for the connection. Example: "ORG_AD"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#description SapConnectionResource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#description SapConnectionResource#description}
   */
   readonly description?: string;
   /**
   * Eccors4hana.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#ecc_or_s4hana SapConnectionResource#ecc_or_s4hana}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#ecc_or_s4hana SapConnectionResource#ecc_or_s4hana}
   */
   readonly eccOrS4Hana?: string;
   /**
   * Email template for notifications. Example: "New Account Task Creation"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#email_template SapConnectionResource#email_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#email_template SapConnectionResource#email_template}
   */
   readonly emailTemplate?: string;
   /**
   * Enableaccountjson.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#enable_account_json SapConnectionResource#enable_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#enable_account_json SapConnectionResource#enable_account_json}
   */
   readonly enableAccountJson?: string;
   /**
   * Enforcepasswordchange.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#enforce_password_change SapConnectionResource#enforce_password_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#enforce_password_change SapConnectionResource#enforce_password_change}
   */
   readonly enforcePasswordChange?: string;
   /**
   * Externalsodevaljson.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#external_sod_eval_json SapConnectionResource#external_sod_eval_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#external_sod_eval_json SapConnectionResource#external_sod_eval_json}
   */
   readonly externalSodEvalJson?: string;
   /**
   * Externalsodevaljsondetail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#external_sod_eval_json_detail SapConnectionResource#external_sod_eval_json_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#external_sod_eval_json_detail SapConnectionResource#external_sod_eval_json_detail}
   */
   readonly externalSodEvalJsonDetail?: string;
   /**
   * Firefighteridgrantaccessjson.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#fire_fighter_id_grant_access_json SapConnectionResource#fire_fighter_id_grant_access_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#fire_fighter_id_grant_access_json SapConnectionResource#fire_fighter_id_grant_access_json}
   */
   readonly fireFighterIdGrantAccessJson?: string;
   /**
   * Firefighteridrevokeaccessjson.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#fire_fighter_id_revoke_access_json SapConnectionResource#fire_fighter_id_revoke_access_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#fire_fighter_id_revoke_access_json SapConnectionResource#fire_fighter_id_revoke_access_json}
   */
   readonly fireFighterIdRevokeAccessJson?: string;
   /**
   * Hanareftablejson.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#hanareftablejson SapConnectionResource#hanareftablejson}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#hanareftablejson SapConnectionResource#hanareftablejson}
   */
   readonly hanareftablejson?: string;
   /**
   * Jcoashost.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#jco_ashost SapConnectionResource#jco_ashost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#jco_ashost SapConnectionResource#jco_ashost}
   */
   readonly jcoAshost?: string;
   /**
   * Jcoclient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#jco_client SapConnectionResource#jco_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#jco_client SapConnectionResource#jco_client}
   */
   readonly jcoClient?: string;
   /**
   * Jcogroup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#jco_group SapConnectionResource#jco_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#jco_group SapConnectionResource#jco_group}
   */
   readonly jcoGroup?: string;
   /**
   * Jcolang.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#jco_lang SapConnectionResource#jco_lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#jco_lang SapConnectionResource#jco_lang}
   */
   readonly jcoLang?: string;
   /**
   * Jcomshost.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#jco_mshost SapConnectionResource#jco_mshost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#jco_mshost SapConnectionResource#jco_mshost}
   */
   readonly jcoMshost?: string;
   /**
   * Jcomsserv.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#jco_msserv SapConnectionResource#jco_msserv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#jco_msserv SapConnectionResource#jco_msserv}
   */
   readonly jcoMsserv?: string;
   /**
   * Jcor3name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#jco_r3name SapConnectionResource#jco_r3name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#jco_r3name SapConnectionResource#jco_r3name}
   */
   readonly jcoR3Name?: string;
   /**
   * Jcosnclibrary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#jco_snc_library SapConnectionResource#jco_snc_library}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#jco_snc_library SapConnectionResource#jco_snc_library}
   */
   readonly jcoSncLibrary?: string;
   /**
   * Jcosncmode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#jco_snc_mode SapConnectionResource#jco_snc_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#jco_snc_mode SapConnectionResource#jco_snc_mode}
   */
   readonly jcoSncMode?: string;
   /**
   * Jcosncmyname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#jco_snc_myname SapConnectionResource#jco_snc_myname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#jco_snc_myname SapConnectionResource#jco_snc_myname}
   */
   readonly jcoSncMyname?: string;
   /**
   * Jcosncpartnername.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#jco_snc_partnername SapConnectionResource#jco_snc_partnername}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#jco_snc_partnername SapConnectionResource#jco_snc_partnername}
   */
   readonly jcoSncPartnername?: string;
   /**
   * Jcosncqop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#jco_snc_qop SapConnectionResource#jco_snc_qop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#jco_snc_qop SapConnectionResource#jco_snc_qop}
   */
   readonly jcoSncQop?: string;
   /**
   * Jcosysnr.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#jco_sysnr SapConnectionResource#jco_sysnr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#jco_sysnr SapConnectionResource#jco_sysnr}
   */
   readonly jcoSysnr?: string;
   /**
   * Jcouser.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#jco_user SapConnectionResource#jco_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#jco_user SapConnectionResource#jco_user}
   */
   readonly jcoUser?: string;
   /**
   * Logstablefilter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#logs_table_filter SapConnectionResource#logs_table_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#logs_table_filter SapConnectionResource#logs_table_filter}
   */
   readonly logsTableFilter?: string;
   /**
   * Messageserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#message_server SapConnectionResource#message_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#message_server SapConnectionResource#message_server}
   */
   readonly messageServer?: string;
   /**
   * Modifyuserdatajson.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#modify_user_data_json SapConnectionResource#modify_user_data_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#modify_user_data_json SapConnectionResource#modify_user_data_json}
   */
   readonly modifyUserDataJson?: string;
   /**
   * Pamconfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#pam_config SapConnectionResource#pam_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#pam_config SapConnectionResource#pam_config}
   */
   readonly pamConfig?: string;
   /**
   * Password. Either this or password_wo need to be set to configure the password attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#password SapConnectionResource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#password SapConnectionResource#password}
   */
   readonly password?: string;
   /**
   * Passwordmaxlength.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#password_max_length SapConnectionResource#password_max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#password_max_length SapConnectionResource#password_max_length}
   */
   readonly passwordMaxLength?: string;
   /**
   * Passwordminlength.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#password_min_length SapConnectionResource#password_min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#password_min_length SapConnectionResource#password_min_length}
   */
   readonly passwordMinLength?: string;
   /**
   * Passwordnoofcapsalpha.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#password_no_of_caps_alpha SapConnectionResource#password_no_of_caps_alpha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#password_no_of_caps_alpha SapConnectionResource#password_no_of_caps_alpha}
   */
   readonly passwordNoOfCapsAlpha?: string;
   /**
   * Passwordnoofdigits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#password_no_of_digits SapConnectionResource#password_no_of_digits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#password_no_of_digits SapConnectionResource#password_no_of_digits}
   */
   readonly passwordNoOfDigits?: string;
   /**
   * Passwordnoofsplchars.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#password_no_of_spl_chars SapConnectionResource#password_no_of_spl_chars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#password_no_of_spl_chars SapConnectionResource#password_no_of_spl_chars}
   */
   readonly passwordNoOfSplChars?: string;
   /**
   * Password write-only attribute. Either this or password need to be set to configure the password attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#password_wo SapConnectionResource#password_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#password_wo SapConnectionResource#password_wo}
   */
   readonly passwordWo?: string;
   /**
   * Provcuaenabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#prov_cua_enabled SapConnectionResource#prov_cua_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#prov_cua_enabled SapConnectionResource#prov_cua_enabled}
   */
   readonly provCuaEnabled?: string;
   /**
   * Provcuasnc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#prov_cua_snc SapConnectionResource#prov_cua_snc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#prov_cua_snc SapConnectionResource#prov_cua_snc}
   */
   readonly provCuaSnc?: string;
   /**
   * Provjcoashost.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#prov_jco_ashost SapConnectionResource#prov_jco_ashost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#prov_jco_ashost SapConnectionResource#prov_jco_ashost}
   */
   readonly provJcoAshost?: string;
   /**
   * Provjcoclient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#prov_jco_client SapConnectionResource#prov_jco_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#prov_jco_client SapConnectionResource#prov_jco_client}
   */
   readonly provJcoClient?: string;
   /**
   * Provjcogroup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#prov_jco_group SapConnectionResource#prov_jco_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#prov_jco_group SapConnectionResource#prov_jco_group}
   */
   readonly provJcoGroup?: string;
   /**
   * Provjcolang.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#prov_jco_lang SapConnectionResource#prov_jco_lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#prov_jco_lang SapConnectionResource#prov_jco_lang}
   */
   readonly provJcoLang?: string;
   /**
   * Provjcomshost.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#prov_jco_mshost SapConnectionResource#prov_jco_mshost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#prov_jco_mshost SapConnectionResource#prov_jco_mshost}
   */
   readonly provJcoMshost?: string;
   /**
   * Provjcomsserv.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#prov_jco_msserv SapConnectionResource#prov_jco_msserv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#prov_jco_msserv SapConnectionResource#prov_jco_msserv}
   */
   readonly provJcoMsserv?: string;
   /**
   * Provjcor3name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#prov_jco_r3name SapConnectionResource#prov_jco_r3name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#prov_jco_r3name SapConnectionResource#prov_jco_r3name}
   */
   readonly provJcoR3Name?: string;
   /**
   * Provjcosysnr.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#prov_jco_sysnr SapConnectionResource#prov_jco_sysnr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#prov_jco_sysnr SapConnectionResource#prov_jco_sysnr}
   */
   readonly provJcoSysnr?: string;
   /**
   * Provjcouser.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#prov_jco_user SapConnectionResource#prov_jco_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#prov_jco_user SapConnectionResource#prov_jco_user}
   */
   readonly provJcoUser?: string;
   /**
   * Provpassword. Either this field or the prov_password_wo field must be populated to set the prov_password attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#prov_password SapConnectionResource#prov_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#prov_password SapConnectionResource#prov_password}
   */
   readonly provPassword?: string;
   /**
   * Provpassword write-only attribute. Either this field or the prov_password field must be populated to set the prov_password attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#prov_password_wo SapConnectionResource#prov_password_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#prov_password_wo SapConnectionResource#prov_password_wo}
   */
   readonly provPasswordWo?: string;
   /**
   * Resetpwdfornewaccount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#reset_pwd_for_newaccount SapConnectionResource#reset_pwd_for_newaccount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#reset_pwd_for_newaccount SapConnectionResource#reset_pwd_for_newaccount}
   */
   readonly resetPwdForNewaccount?: string;
   /**
   * Role default date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#role_default_date SapConnectionResource#role_default_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#role_default_date SapConnectionResource#role_default_date}
   */
   readonly roleDefaultDate?: string;
   /**
   * Saptablefilterlang.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#saptable_filter_lang SapConnectionResource#saptable_filter_lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#saptable_filter_lang SapConnectionResource#saptable_filter_lang}
   */
   readonly saptableFilterLang?: string;
   /**
   * Flag indicating whether the encrypted attribute should be saved in the configured vault. Example: "false"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#save_in_vault SapConnectionResource#save_in_vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#save_in_vault SapConnectionResource#save_in_vault}
   */
   readonly saveInVault?: string;
   /**
   * Setcuasystem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#set_cua_system SapConnectionResource#set_cua_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#set_cua_system SapConnectionResource#set_cua_system}
   */
   readonly setCuaSystem?: string;
   /**
   * Snc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#snc SapConnectionResource#snc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#snc SapConnectionResource#snc}
   */
   readonly snc?: string;
   /**
   * Statusthresholdconfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#status_threshold_config SapConnectionResource#status_threshold_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#status_threshold_config SapConnectionResource#status_threshold_config}
   */
   readonly statusThresholdConfig?: string;
   /**
   * Systemname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#system_name SapConnectionResource#system_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#system_name SapConnectionResource#system_name}
   */
   readonly systemName?: string;
   /**
   * Tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#tables SapConnectionResource#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#tables SapConnectionResource#tables}
   */
   readonly tables?: string;
   /**
   * Terminatedusergroup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#terminated_user_group SapConnectionResource#terminated_user_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#terminated_user_group SapConnectionResource#terminated_user_group}
   */
   readonly terminatedUserGroup?: string;
   /**
   * Terminateduserroleaction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#terminated_user_role_action SapConnectionResource#terminated_user_role_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#terminated_user_role_action SapConnectionResource#terminated_user_role_action}
   */
   readonly terminatedUserRoleAction?: string;
   /**
   * Updateaccountjson.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#update_account_json SapConnectionResource#update_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#update_account_json SapConnectionResource#update_account_json}
   */
   readonly updateAccountJson?: string;
   /**
   * Userimportjson.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#user_import_json SapConnectionResource#user_import_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#user_import_json SapConnectionResource#user_import_json}
   */
   readonly userImportJson?: string;
   /**
   * JSON string specifying vault configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#vault_configuration SapConnectionResource#vault_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#vault_configuration SapConnectionResource#vault_configuration}
   */
   readonly vaultConfiguration?: string;
   /**
   * Specifies the type of vault connection being used (e.g., 'Hashicorp'). Example: "Hashicorp"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#vault_connection SapConnectionResource#vault_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#vault_connection SapConnectionResource#vault_connection}
   */
   readonly vaultConnection?: string;
   /**
   * Add/change the value of this attribute to update the writeonly attributes like username, password etc in connection resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#wo_version SapConnectionResource#wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#wo_version SapConnectionResource#wo_version}
   */
   readonly woVersion?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource saviynt_sap_connection_resource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource saviynt_sap_connection_resource}
 */
 export class SapConnectionResource extends cdktf.TerraformResource {
 
@@ -452,7 +452,7 @@ export class SapConnectionResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SapConnectionResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SapConnectionResource to import
-  * @param importFromId The id of the existing SapConnectionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SapConnectionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SapConnectionResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -464,7 +464,7 @@ export class SapConnectionResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/sap_connection_resource saviynt_sap_connection_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/sap_connection_resource saviynt_sap_connection_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -475,8 +475,8 @@ export class SapConnectionResource extends cdktf.TerraformResource {
       terraformResourceType: 'saviynt_sap_connection_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.3.1',
-        providerVersionConstraint: '0.3.1'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

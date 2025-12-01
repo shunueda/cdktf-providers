@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SGetambassadorIoTracingServiceV3Alpha1ManifestConfig exte
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#metadata DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#metadata DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SGetambassadorIoTracingServiceV3Alpha1ManifestMetadata;
   /**
   * TracingServiceSpec defines the desired state of TracingService
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#spec DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#spec DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SGetambassadorIoTracingServiceV3Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SGetambassadorIoTracingServiceV3Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#annotations DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#annotations DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#labels DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#labels DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#name DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#name DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#namespace DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#namespace DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,39 +217,39 @@ export class DataK8SGetambassadorIoTracingServiceV3Alpha1ManifestMetadataOutputR
 }
 export interface DataK8SGetambassadorIoTracingServiceV3Alpha1ManifestSpecConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#access_token_file DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#access_token_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#access_token_file DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#access_token_file}
   */
   readonly accessTokenFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#collector_cluster DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#collector_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#collector_cluster DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#collector_cluster}
   */
   readonly collectorCluster?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#collector_endpoint DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#collector_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#collector_endpoint DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#collector_endpoint}
   */
   readonly collectorEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#collector_endpoint_version DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#collector_endpoint_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#collector_endpoint_version DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#collector_endpoint_version}
   */
   readonly collectorEndpointVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#collector_hostname DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#collector_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#collector_hostname DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#collector_hostname}
   */
   readonly collectorHostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#propagation_modes DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#propagation_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#propagation_modes DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#propagation_modes}
   */
   readonly propagationModes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#service_name DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#service_name DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#service_name}
   */
   readonly serviceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#shared_span_context DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#shared_span_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#shared_span_context DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#shared_span_context}
   */
   readonly sharedSpanContext?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#trace_id_128bit DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#trace_id_128bit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#trace_id_128bit DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#trace_id_128bit}
   */
   readonly traceId128Bit?: boolean | cdktf.IResolvable;
 }
@@ -575,11 +575,11 @@ export class DataK8SGetambassadorIoTracingServiceV3Alpha1ManifestSpecConfigOutpu
 }
 export interface DataK8SGetambassadorIoTracingServiceV3Alpha1ManifestSpecCustomTagsEnvironment {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#default_value DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#default_value DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#default_value}
   */
   readonly defaultValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#name DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#name DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -699,7 +699,7 @@ export class DataK8SGetambassadorIoTracingServiceV3Alpha1ManifestSpecCustomTagsE
 }
 export interface DataK8SGetambassadorIoTracingServiceV3Alpha1ManifestSpecCustomTagsLiteral {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#value DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#value DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -790,11 +790,11 @@ export class DataK8SGetambassadorIoTracingServiceV3Alpha1ManifestSpecCustomTagsL
 }
 export interface DataK8SGetambassadorIoTracingServiceV3Alpha1ManifestSpecCustomTagsRequestHeader {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#default_value DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#default_value DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#default_value}
   */
   readonly defaultValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#name DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#name DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -916,23 +916,23 @@ export interface DataK8SGetambassadorIoTracingServiceV3Alpha1ManifestSpecCustomT
   /**
   * Environment explicitly specifies the protocol stack to set up. Exactly one of Literal, Environment or Header must be supplied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#environment DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#environment DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#environment}
   */
   readonly environment?: DataK8SGetambassadorIoTracingServiceV3Alpha1ManifestSpecCustomTagsEnvironment;
   /**
   * Literal explicitly specifies the protocol stack to set up. Exactly one of Literal, Environment or Header must be supplied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#literal DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#literal DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#literal}
   */
   readonly literal?: DataK8SGetambassadorIoTracingServiceV3Alpha1ManifestSpecCustomTagsLiteral;
   /**
   * Header explicitly specifies the protocol stack to set up. Exactly one of Literal, Environment or Header must be supplied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#request_header DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#request_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#request_header DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#request_header}
   */
   readonly requestHeader?: DataK8SGetambassadorIoTracingServiceV3Alpha1ManifestSpecCustomTagsRequestHeader;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#tag DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#tag DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#tag}
   */
   readonly tag: string;
 }
@@ -1132,15 +1132,15 @@ export class DataK8SGetambassadorIoTracingServiceV3Alpha1ManifestSpecCustomTagsL
 }
 export interface DataK8SGetambassadorIoTracingServiceV3Alpha1ManifestSpecSampling {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#client DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#client DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#client}
   */
   readonly client?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#overall DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#overall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#overall DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#overall}
   */
   readonly overall?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#random DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#random}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#random DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#random}
   */
   readonly random?: number;
 }
@@ -1294,37 +1294,37 @@ export interface DataK8SGetambassadorIoTracingServiceV3Alpha1ManifestSpec {
   /**
   * AmbassadorID declares which Ambassador instances should pay attention to this resource. If no value is provided, the default is: ambassador_id: - 'default'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#ambassador_id DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#ambassador_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#ambassador_id DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#ambassador_id}
   */
   readonly ambassadorId?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#config DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#config DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#config}
   */
   readonly config?: DataK8SGetambassadorIoTracingServiceV3Alpha1ManifestSpecConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#custom_tags DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#custom_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#custom_tags DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#custom_tags}
   */
   readonly customTags?: DataK8SGetambassadorIoTracingServiceV3Alpha1ManifestSpecCustomTags[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#driver DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#driver DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#driver}
   */
   readonly driver: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#sampling DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#sampling DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#sampling}
   */
   readonly sampling?: DataK8SGetambassadorIoTracingServiceV3Alpha1ManifestSpecSampling;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#service DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#service DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#service}
   */
   readonly service: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#stats_name DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#stats_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#stats_name DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#stats_name}
   */
   readonly statsName?: string;
   /**
   * Deprecated: tag_headers is deprecated. Use custom_tags instead. 'tag_headers: ['header']' can be defined as 'custom_tags: [{'request_header': {'name': 'header'}}]'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#tag_headers DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#tag_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#tag_headers DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest#tag_headers}
   */
   readonly tagHeaders?: string[];
 }
@@ -1615,7 +1615,7 @@ export class DataK8SGetambassadorIoTracingServiceV3Alpha1ManifestSpecOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest k8s_getambassador_io_tracing_service_v3alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest k8s_getambassador_io_tracing_service_v3alpha1_manifest}
 */
 export class DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1631,7 +1631,7 @@ export class DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest extends cdktf.
   * Generates CDKTF code for importing a DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1643,7 +1643,7 @@ export class DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest k8s_getambassador_io_tracing_service_v3alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/getambassador_io_tracing_service_v3alpha1_manifest k8s_getambassador_io_tracing_service_v3alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1654,8 +1654,8 @@ export class DataK8SGetambassadorIoTracingServiceV3Alpha1Manifest extends cdktf.
       terraformResourceType: 'k8s_getambassador_io_tracing_service_v3alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

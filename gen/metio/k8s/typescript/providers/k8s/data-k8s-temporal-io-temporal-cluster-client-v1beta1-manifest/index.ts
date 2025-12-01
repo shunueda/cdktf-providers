@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/temporal_io_temporal_cluster_client_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_cluster_client_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8STemporalIoTemporalClusterClientV1Beta1ManifestConfig ext
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/temporal_io_temporal_cluster_client_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterClientV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_cluster_client_v1beta1_manifest#metadata DataK8STemporalIoTemporalClusterClientV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8STemporalIoTemporalClusterClientV1Beta1ManifestMetadata;
   /**
   * TemporalClusterClientSpec defines the desired state of ClusterClient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/temporal_io_temporal_cluster_client_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterClientV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_cluster_client_v1beta1_manifest#spec DataK8STemporalIoTemporalClusterClientV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8STemporalIoTemporalClusterClientV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8STemporalIoTemporalClusterClientV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/temporal_io_temporal_cluster_client_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterClientV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_cluster_client_v1beta1_manifest#annotations DataK8STemporalIoTemporalClusterClientV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/temporal_io_temporal_cluster_client_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterClientV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_cluster_client_v1beta1_manifest#labels DataK8STemporalIoTemporalClusterClientV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/temporal_io_temporal_cluster_client_v1beta1_manifest#name DataK8STemporalIoTemporalClusterClientV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_cluster_client_v1beta1_manifest#name DataK8STemporalIoTemporalClusterClientV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/temporal_io_temporal_cluster_client_v1beta1_manifest#namespace DataK8STemporalIoTemporalClusterClientV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_cluster_client_v1beta1_manifest#namespace DataK8STemporalIoTemporalClusterClientV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8STemporalIoTemporalClusterClientV1Beta1ManifestSpecCluste
   /**
   * The name of the temporal object to reference.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/temporal_io_temporal_cluster_client_v1beta1_manifest#name DataK8STemporalIoTemporalClusterClientV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_cluster_client_v1beta1_manifest#name DataK8STemporalIoTemporalClusterClientV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * The namespace of the temporal object to reference. Defaults to the namespace of the requested resource if omitted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/temporal_io_temporal_cluster_client_v1beta1_manifest#namespace DataK8STemporalIoTemporalClusterClientV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_cluster_client_v1beta1_manifest#namespace DataK8STemporalIoTemporalClusterClientV1Beta1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -350,7 +350,7 @@ export interface DataK8STemporalIoTemporalClusterClientV1Beta1ManifestSpec {
   /**
   * Reference to the temporal cluster the client will get access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/temporal_io_temporal_cluster_client_v1beta1_manifest#cluster_ref DataK8STemporalIoTemporalClusterClientV1Beta1Manifest#cluster_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_cluster_client_v1beta1_manifest#cluster_ref DataK8STemporalIoTemporalClusterClientV1Beta1Manifest#cluster_ref}
   */
   readonly clusterRef: DataK8STemporalIoTemporalClusterClientV1Beta1ManifestSpecClusterRef;
 }
@@ -441,7 +441,7 @@ export class DataK8STemporalIoTemporalClusterClientV1Beta1ManifestSpecOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/temporal_io_temporal_cluster_client_v1beta1_manifest k8s_temporal_io_temporal_cluster_client_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_cluster_client_v1beta1_manifest k8s_temporal_io_temporal_cluster_client_v1beta1_manifest}
 */
 export class DataK8STemporalIoTemporalClusterClientV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -457,7 +457,7 @@ export class DataK8STemporalIoTemporalClusterClientV1Beta1Manifest extends cdktf
   * Generates CDKTF code for importing a DataK8STemporalIoTemporalClusterClientV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STemporalIoTemporalClusterClientV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8STemporalIoTemporalClusterClientV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/temporal_io_temporal_cluster_client_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STemporalIoTemporalClusterClientV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_cluster_client_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STemporalIoTemporalClusterClientV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -469,7 +469,7 @@ export class DataK8STemporalIoTemporalClusterClientV1Beta1Manifest extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/temporal_io_temporal_cluster_client_v1beta1_manifest k8s_temporal_io_temporal_cluster_client_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/temporal_io_temporal_cluster_client_v1beta1_manifest k8s_temporal_io_temporal_cluster_client_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -480,8 +480,8 @@ export class DataK8STemporalIoTemporalClusterClientV1Beta1Manifest extends cdktf
       terraformResourceType: 'k8s_temporal_io_temporal_cluster_client_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

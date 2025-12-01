@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_exchange
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/amqp_exchange
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface AmqpExchangeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_exchange#alternate_exchange AmqpExchange#alternate_exchange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/amqp_exchange#alternate_exchange AmqpExchange#alternate_exchange}
   */
   readonly alternateExchange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_exchange#auto_delete_state AmqpExchange#auto_delete_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/amqp_exchange#auto_delete_state AmqpExchange#auto_delete_state}
   */
   readonly autoDeleteState: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_exchange#exchange_name AmqpExchange#exchange_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/amqp_exchange#exchange_name AmqpExchange#exchange_name}
   */
   readonly exchangeName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_exchange#exchange_type AmqpExchange#exchange_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/amqp_exchange#exchange_type AmqpExchange#exchange_type}
   */
   readonly exchangeType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_exchange#id AmqpExchange#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/amqp_exchange#id AmqpExchange#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_exchange#instance_id AmqpExchange#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/amqp_exchange#instance_id AmqpExchange#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_exchange#internal AmqpExchange#internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/amqp_exchange#internal AmqpExchange#internal}
   */
   readonly internal: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_exchange#virtual_host_name AmqpExchange#virtual_host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/amqp_exchange#virtual_host_name AmqpExchange#virtual_host_name}
   */
   readonly virtualHostName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_exchange#x_delayed_type AmqpExchange#x_delayed_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/amqp_exchange#x_delayed_type AmqpExchange#x_delayed_type}
   */
   readonly xDelayedType?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_exchange#timeouts AmqpExchange#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/amqp_exchange#timeouts AmqpExchange#timeouts}
   */
   readonly timeouts?: AmqpExchangeTimeouts;
 }
 export interface AmqpExchangeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_exchange#create AmqpExchange#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/amqp_exchange#create AmqpExchange#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_exchange#delete AmqpExchange#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/amqp_exchange#delete AmqpExchange#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_exchange#update AmqpExchange#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/amqp_exchange#update AmqpExchange#update}
   */
   readonly update?: string;
 }
@@ -215,7 +215,7 @@ export class AmqpExchangeTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_exchange alicloud_amqp_exchange}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/amqp_exchange alicloud_amqp_exchange}
 */
 export class AmqpExchange extends cdktf.TerraformResource {
 
@@ -231,7 +231,7 @@ export class AmqpExchange extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AmqpExchange resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AmqpExchange to import
-  * @param importFromId The id of the existing AmqpExchange that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_exchange#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AmqpExchange that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/amqp_exchange#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AmqpExchange to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -243,7 +243,7 @@ export class AmqpExchange extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/amqp_exchange alicloud_amqp_exchange} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/amqp_exchange alicloud_amqp_exchange} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -254,8 +254,8 @@ export class AmqpExchange extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_amqp_exchange',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SExecutionFurikoIoJobV1Alpha1ManifestConfig extends cdktf
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#metadata DataK8SExecutionFurikoIoJobV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#metadata DataK8SExecutionFurikoIoJobV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SExecutionFurikoIoJobV1Alpha1ManifestMetadata;
   /**
   * JobSpec defines the desired state of a Job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#spec DataK8SExecutionFurikoIoJobV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#spec DataK8SExecutionFurikoIoJobV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SExecutionFurikoIoJobV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SExecutionFurikoIoJobV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#annotations DataK8SExecutionFurikoIoJobV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#annotations DataK8SExecutionFurikoIoJobV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#labels DataK8SExecutionFurikoIoJobV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#labels DataK8SExecutionFurikoIoJobV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#name DataK8SExecutionFurikoIoJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#name DataK8SExecutionFurikoIoJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#namespace DataK8SExecutionFurikoIoJobV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#namespace DataK8SExecutionFurikoIoJobV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SExecutionFurikoIoJobV1Alpha1ManifestSpecStartPolicy {
   /**
   * Specifies the behaviour when there are other concurrent jobs for the JobConfig.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#concurrency_policy DataK8SExecutionFurikoIoJobV1Alpha1Manifest#concurrency_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#concurrency_policy DataK8SExecutionFurikoIoJobV1Alpha1Manifest#concurrency_policy}
   */
   readonly concurrencyPolicy: string;
   /**
   * Specifies the earliest time that the Job can be started after. Can be specified together with other fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#start_after DataK8SExecutionFurikoIoJobV1Alpha1Manifest#start_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#start_after DataK8SExecutionFurikoIoJobV1Alpha1Manifest#start_after}
   */
   readonly startAfter?: string;
 }
@@ -347,25 +347,25 @@ export interface DataK8SExecutionFurikoIoJobV1Alpha1ManifestSpecTemplateParallel
   /**
   * Defines when the Job will complete when there are multiple tasks running in parallel. For example, if using the AllSuccessful strategy, the Job will only terminate once all parallel tasks have terminated successfully, or once any task has exhausted its maxAttempts limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#completion_strategy DataK8SExecutionFurikoIoJobV1Alpha1Manifest#completion_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#completion_strategy DataK8SExecutionFurikoIoJobV1Alpha1Manifest#completion_strategy}
   */
   readonly completionStrategy?: string;
   /**
   * Specifies an exact number of tasks to be run in parallel. The index number can be retrieved via the '${task.index_num}' context variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#with_count DataK8SExecutionFurikoIoJobV1Alpha1Manifest#with_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#with_count DataK8SExecutionFurikoIoJobV1Alpha1Manifest#with_count}
   */
   readonly withCount?: number;
   /**
   * Specifies a list of keys corresponding to each task that will be run in parallel. The index key can be retrieved via the '${task.index_key}' context variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#with_keys DataK8SExecutionFurikoIoJobV1Alpha1Manifest#with_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#with_keys DataK8SExecutionFurikoIoJobV1Alpha1Manifest#with_keys}
   */
   readonly withKeys?: string[];
   /**
   * Specifies a matrix of key-value pairs, with each key mapped to a list of possible values, such that tasks will be started for each combination of key-value pairs. The matrix values can be retrieved via context variables in the following format: '${task.index_matrix.<key>}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#with_matrix DataK8SExecutionFurikoIoJobV1Alpha1Manifest#with_matrix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#with_matrix DataK8SExecutionFurikoIoJobV1Alpha1Manifest#with_matrix}
   */
   readonly withMatrix?: { [key: string]: string[] } | cdktf.IResolvable;
 }
@@ -548,13 +548,13 @@ export interface DataK8SExecutionFurikoIoJobV1Alpha1ManifestSpecTemplateTaskTemp
   /**
   * Standard object's metadata that will be added to Pod. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#metadata DataK8SExecutionFurikoIoJobV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#metadata DataK8SExecutionFurikoIoJobV1Alpha1Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * Specification of the desired behavior of the pod. API docs: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.23/#podspec-v1-core Supports context variable substitution in the following fields for containers and initContainers: image, command, args, env.value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#spec DataK8SExecutionFurikoIoJobV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#spec DataK8SExecutionFurikoIoJobV1Alpha1Manifest#spec}
   */
   readonly spec?: { [key: string]: string };
 }
@@ -679,7 +679,7 @@ export interface DataK8SExecutionFurikoIoJobV1Alpha1ManifestSpecTemplateTaskTemp
   /**
   * Describes how to create tasks as Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#pod DataK8SExecutionFurikoIoJobV1Alpha1Manifest#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#pod DataK8SExecutionFurikoIoJobV1Alpha1Manifest#pod}
   */
   readonly pod?: DataK8SExecutionFurikoIoJobV1Alpha1ManifestSpecTemplateTaskTemplatePod;
 }
@@ -775,37 +775,37 @@ export interface DataK8SExecutionFurikoIoJobV1Alpha1ManifestSpecTemplate {
   /**
   * Defines whether tasks are allowed to be force deleted or not. If the node is unresponsive, it may be possible that the task cannot be killed by normal graceful deletion. The controller may choose to force delete the task, which would ignore the final state of the task since the node is unable to return whether the task is actually still alive. If not set to true, there may be some cases when there may actually be two concurrently running tasks when even when ConcurrencyPolicyForbid. Setting this to true would prevent this from happening, but the Job may remain stuck indefinitely until the node recovers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#forbid_task_force_deletion DataK8SExecutionFurikoIoJobV1Alpha1Manifest#forbid_task_force_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#forbid_task_force_deletion DataK8SExecutionFurikoIoJobV1Alpha1Manifest#forbid_task_force_deletion}
   */
   readonly forbidTaskForceDeletion?: boolean | cdktf.IResolvable;
   /**
   * Specifies maximum number of attempts before the Job will terminate in failure. If defined, the controller will wait retryDelaySeconds before creating the next task. Once maxAttempts is reached, the Job terminates in RetryLimitExceeded. If parallelism is also defined, this corresponds to the maximum attempts for each parallel task. That is, if there are 5 parallel task to be run at a time, with maxAttempts of 3, the Job may create up to a maximum of 15 tasks if each has failed. Value must be a positive integer. Defaults to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#max_attempts DataK8SExecutionFurikoIoJobV1Alpha1Manifest#max_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#max_attempts DataK8SExecutionFurikoIoJobV1Alpha1Manifest#max_attempts}
   */
   readonly maxAttempts?: number;
   /**
   * Describes how to run multiple tasks in parallel for the Job. If not set, then there will be at most a single task running at any time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#parallelism DataK8SExecutionFurikoIoJobV1Alpha1Manifest#parallelism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#parallelism DataK8SExecutionFurikoIoJobV1Alpha1Manifest#parallelism}
   */
   readonly parallelism?: DataK8SExecutionFurikoIoJobV1Alpha1ManifestSpecTemplateParallelism;
   /**
   * Optional duration in seconds to wait between retries. If left empty or zero, it means no delay (i.e. retry immediately). If parallelism is also defined, the retry delay is from the time of the last failed task with the same index. That is, if there are two parallel tasks - index 0 and index 1 - which failed at t=0 and t=15, with retryDelaySeconds of 30, the controller will only create the next attempts at t=30 and t=45 respectively. Value must be a non-negative integer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#retry_delay_seconds DataK8SExecutionFurikoIoJobV1Alpha1Manifest#retry_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#retry_delay_seconds DataK8SExecutionFurikoIoJobV1Alpha1Manifest#retry_delay_seconds}
   */
   readonly retryDelaySeconds?: number;
   /**
   * Optional duration in seconds to wait before terminating the task if it is still pending. This field is useful to prevent jobs from being stuck forever if the Job has a deadline to start running by. If not set, it will be set to the DefaultPendingTimeoutSeconds configuration value in the controller. To disable pending timeout, set this to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#task_pending_timeout_seconds DataK8SExecutionFurikoIoJobV1Alpha1Manifest#task_pending_timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#task_pending_timeout_seconds DataK8SExecutionFurikoIoJobV1Alpha1Manifest#task_pending_timeout_seconds}
   */
   readonly taskPendingTimeoutSeconds?: number;
   /**
   * Defines the template to create a single task in the Job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#task_template DataK8SExecutionFurikoIoJobV1Alpha1Manifest#task_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#task_template DataK8SExecutionFurikoIoJobV1Alpha1Manifest#task_template}
   */
   readonly taskTemplate: DataK8SExecutionFurikoIoJobV1Alpha1ManifestSpecTemplateTaskTemplate;
 }
@@ -1043,49 +1043,49 @@ export interface DataK8SExecutionFurikoIoJobV1Alpha1ManifestSpec {
   /**
   * ConfigName allows specifying the name of the JobConfig to create the Job from. The JobConfig must be in the same namespace as the Job. It is provided as a write-only input field for convenience, and will override the template, labels and annotations from the JobConfig's template. This field will never be returned from the API. To look up the parent JobConfig, use ownerReferences.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#config_name DataK8SExecutionFurikoIoJobV1Alpha1Manifest#config_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#config_name DataK8SExecutionFurikoIoJobV1Alpha1Manifest#config_name}
   */
   readonly configName?: string;
   /**
   * Specifies the time to start killing the job. When the time passes this timestamp, the controller will start attempting to kill all tasks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#kill_timestamp DataK8SExecutionFurikoIoJobV1Alpha1Manifest#kill_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#kill_timestamp DataK8SExecutionFurikoIoJobV1Alpha1Manifest#kill_timestamp}
   */
   readonly killTimestamp?: string;
   /**
   * Specifies key-values pairs of values for Options, in JSON or YAML format. Example specification: spec: optionValues: |- myStringOption: 'value' myBoolOption: true mySelectOption: - option1 - option3 Each entry in the optionValues struct should consist of the option's name, and the value could be an arbitrary type that corresponds to the option's type itself. Each option value specified will be evaluated to a string based on the JobConfig's OptionsSpec and added to Substitutions. If the key also exists in Substitutions, that one takes priority. Cannot be updated after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#option_values DataK8SExecutionFurikoIoJobV1Alpha1Manifest#option_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#option_values DataK8SExecutionFurikoIoJobV1Alpha1Manifest#option_values}
   */
   readonly optionValues?: string;
   /**
   * Specifies optional start policy for a Job, which specifies certain conditions which have to be met before a Job is started.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#start_policy DataK8SExecutionFurikoIoJobV1Alpha1Manifest#start_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#start_policy DataK8SExecutionFurikoIoJobV1Alpha1Manifest#start_policy}
   */
   readonly startPolicy?: DataK8SExecutionFurikoIoJobV1Alpha1ManifestSpecStartPolicy;
   /**
   * Defines key-value pairs of context variables to be substituted into the TaskTemplate. Each entry should consist of the full context variable name (i.e. 'ctx.name'), and the values must be a string. Substitutions defined here take highest precedence over both predefined context variables and evaluated OptionValues. Most users should be using OptionValues to specify custom Job Option values for running the Job instead of using Subsitutions directly. Cannot be updated after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#substitutions DataK8SExecutionFurikoIoJobV1Alpha1Manifest#substitutions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#substitutions DataK8SExecutionFurikoIoJobV1Alpha1Manifest#substitutions}
   */
   readonly substitutions?: { [key: string]: string };
   /**
   * Template specifies how to create the Job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#template DataK8SExecutionFurikoIoJobV1Alpha1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#template DataK8SExecutionFurikoIoJobV1Alpha1Manifest#template}
   */
   readonly template?: DataK8SExecutionFurikoIoJobV1Alpha1ManifestSpecTemplate;
   /**
   * Specifies the maximum lifetime of a Job that is finished. If not set, it will be set to the DefaultTTLSecondsAfterFinished configuration value in the controller.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#ttl_seconds_after_finished DataK8SExecutionFurikoIoJobV1Alpha1Manifest#ttl_seconds_after_finished}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#ttl_seconds_after_finished DataK8SExecutionFurikoIoJobV1Alpha1Manifest#ttl_seconds_after_finished}
   */
   readonly ttlSecondsAfterFinished?: number;
   /**
   * Specifies the type of Job. Can be one of: Adhoc, Scheduled Default: Adhoc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#type DataK8SExecutionFurikoIoJobV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#type DataK8SExecutionFurikoIoJobV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -1382,7 +1382,7 @@ export class DataK8SExecutionFurikoIoJobV1Alpha1ManifestSpecOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest k8s_execution_furiko_io_job_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest k8s_execution_furiko_io_job_v1alpha1_manifest}
 */
 export class DataK8SExecutionFurikoIoJobV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1398,7 +1398,7 @@ export class DataK8SExecutionFurikoIoJobV1Alpha1Manifest extends cdktf.Terraform
   * Generates CDKTF code for importing a DataK8SExecutionFurikoIoJobV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SExecutionFurikoIoJobV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SExecutionFurikoIoJobV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SExecutionFurikoIoJobV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SExecutionFurikoIoJobV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1410,7 +1410,7 @@ export class DataK8SExecutionFurikoIoJobV1Alpha1Manifest extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest k8s_execution_furiko_io_job_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/execution_furiko_io_job_v1alpha1_manifest k8s_execution_furiko_io_job_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1421,8 +1421,8 @@ export class DataK8SExecutionFurikoIoJobV1Alpha1Manifest extends cdktf.Terraform
       terraformResourceType: 'k8s_execution_furiko_io_job_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Ma
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#metadata DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#metadata DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1ManifestMetadata;
   /**
   * HorizontalRunnerAutoscalerSpec defines the desired state of HorizontalRunnerAutoscaler
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#spec DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#spec DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Ma
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#annotations DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#annotations DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#labels DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#labels DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#name DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#name DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#namespace DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#namespace DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,19 +217,19 @@ export class DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manife
 }
 export interface DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1ManifestSpecCapacityReservations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#effective_time DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#effective_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#effective_time DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#effective_time}
   */
   readonly effectiveTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#expiration_time DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#expiration_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#expiration_time DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#expiration_time}
   */
   readonly expirationTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#name DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#name DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#replicas DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#replicas DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#replicas}
   */
   readonly replicas?: number;
 }
@@ -432,7 +432,7 @@ export class DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manife
 }
 export interface DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1ManifestSpecGithubApiCredentialsFromSecretRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#name DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#name DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -523,7 +523,7 @@ export class DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manife
 }
 export interface DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1ManifestSpecGithubApiCredentialsFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#secret_ref DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#secret_ref DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1ManifestSpecGithubApiCredentialsFromSecretRef;
 }
@@ -619,49 +619,49 @@ export interface DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Ma
   /**
   * RepositoryNames is the list of repository names to be used for calculating the metric. For example, a repository name is the REPO part of 'github.com/USER/REPO'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#repository_names DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#repository_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#repository_names DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#repository_names}
   */
   readonly repositoryNames?: string[];
   /**
   * ScaleDownAdjustment is the number of runners removed on scale-down. You can only specify either ScaleDownFactor or ScaleDownAdjustment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#scale_down_adjustment DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#scale_down_adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#scale_down_adjustment DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#scale_down_adjustment}
   */
   readonly scaleDownAdjustment?: number;
   /**
   * ScaleDownFactor is the multiplicative factor applied to the current number of runners used to determine how many pods should be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#scale_down_factor DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#scale_down_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#scale_down_factor DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#scale_down_factor}
   */
   readonly scaleDownFactor?: string;
   /**
   * ScaleDownThreshold is the percentage of busy runners less than which will trigger the hpa to scale the runners down.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#scale_down_threshold DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#scale_down_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#scale_down_threshold DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#scale_down_threshold}
   */
   readonly scaleDownThreshold?: string;
   /**
   * ScaleUpAdjustment is the number of runners added on scale-up. You can only specify either ScaleUpFactor or ScaleUpAdjustment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#scale_up_adjustment DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#scale_up_adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#scale_up_adjustment DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#scale_up_adjustment}
   */
   readonly scaleUpAdjustment?: number;
   /**
   * ScaleUpFactor is the multiplicative factor applied to the current number of runners used to determine how many pods should be added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#scale_up_factor DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#scale_up_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#scale_up_factor DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#scale_up_factor}
   */
   readonly scaleUpFactor?: string;
   /**
   * ScaleUpThreshold is the percentage of busy runners greater than which will trigger the hpa to scale runners up.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#scale_up_threshold DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#scale_up_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#scale_up_threshold DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#scale_up_threshold}
   */
   readonly scaleUpThreshold?: string;
   /**
   * Type is the type of metric to be used for autoscaling. It can be TotalNumberOfQueuedAndInProgressWorkflowRuns or PercentageRunnersBusy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#type DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#type DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -982,13 +982,13 @@ export interface DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Ma
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#kind DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#kind DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#name DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#name DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#name}
   */
   readonly name?: string;
 }
@@ -1113,23 +1113,23 @@ export interface DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Ma
   /**
   * Names is a list of GitHub Actions glob patterns. Any check_run event whose name matches one of patterns in the list can trigger autoscaling. Note that check_run name seem to equal to the job name you've defined in your actions workflow yaml file. So it is very likely that you can utilize this to trigger depending on the job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#names DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#names DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#names}
   */
   readonly names?: string[];
   /**
   * Repositories is a list of GitHub repositories. Any check_run event whose repository matches one of repositories in the list can trigger autoscaling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#repositories DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#repositories DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#repositories}
   */
   readonly repositories?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#status DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#status DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#status}
   */
   readonly status?: string;
   /**
   * One of: created, rerequested, or completed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#types DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#types DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#types}
   */
   readonly types?: string[];
 }
@@ -1310,11 +1310,11 @@ export class DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manife
 }
 export interface DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1ManifestSpecScaleUpTriggersGithubEventPullRequest {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#branches DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#branches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#branches DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#branches}
   */
   readonly branches?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#types DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#types DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#types}
   */
   readonly types?: string[];
 }
@@ -1439,25 +1439,25 @@ export interface DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Ma
   /**
   * https://docs.github.com/en/actions/reference/events-that-trigger-workflows#check_run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#check_run DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#check_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#check_run DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#check_run}
   */
   readonly checkRun?: DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1ManifestSpecScaleUpTriggersGithubEventCheckRun;
   /**
   * https://docs.github.com/en/actions/reference/events-that-trigger-workflows#pull_request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#pull_request DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#pull_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#pull_request DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#pull_request}
   */
   readonly pullRequest?: DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1ManifestSpecScaleUpTriggersGithubEventPullRequest;
   /**
   * PushSpec is the condition for triggering scale-up on push event Also see https://docs.github.com/en/actions/reference/events-that-trigger-workflows#push
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#push DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#push}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#push DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#push}
   */
   readonly push?: { [key: string]: string };
   /**
   * https://docs.github.com/en/developers/webhooks-and-events/webhooks/webhook-events-and-payloads#workflow_job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#workflow_job DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#workflow_job}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#workflow_job DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#workflow_job}
   */
   readonly workflowJob?: { [key: string]: string };
 }
@@ -1638,15 +1638,15 @@ export class DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manife
 }
 export interface DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1ManifestSpecScaleUpTriggers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#amount DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#amount DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#amount}
   */
   readonly amount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#duration DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#duration DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#github_event DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#github_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#github_event DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#github_event}
   */
   readonly githubEvent?: DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1ManifestSpecScaleUpTriggersGithubEvent;
 }
@@ -1822,13 +1822,13 @@ export interface DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Ma
   /**
   * Frequency is the name of a predefined interval of each recurrence. The valid values are 'Daily', 'Weekly', 'Monthly', and 'Yearly'. If empty, the corresponding override happens only once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#frequency DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#frequency DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#frequency}
   */
   readonly frequency?: string;
   /**
   * UntilTime is the time of the final recurrence. If empty, the schedule recurs forever.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#until_time DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#until_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#until_time DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#until_time}
   */
   readonly untilTime?: string;
 }
@@ -1953,23 +1953,23 @@ export interface DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Ma
   /**
   * EndTime is the time at which the first override ends.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#end_time DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#end_time DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#end_time}
   */
   readonly endTime: string;
   /**
   * MinReplicas is the number of runners while overriding. If omitted, it doesn't override minReplicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#min_replicas DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#min_replicas DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#min_replicas}
   */
   readonly minReplicas?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#recurrence_rule DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#recurrence_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#recurrence_rule DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#recurrence_rule}
   */
   readonly recurrenceRule?: DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1ManifestSpecScheduledOverridesRecurrenceRule;
   /**
   * StartTime is the time at which the first override starts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#start_time DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#start_time DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#start_time}
   */
   readonly startTime: string;
 }
@@ -2166,53 +2166,53 @@ export class DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manife
 }
 export interface DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#capacity_reservations DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#capacity_reservations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#capacity_reservations DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#capacity_reservations}
   */
   readonly capacityReservations?: DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1ManifestSpecCapacityReservations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#github_api_credentials_from DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#github_api_credentials_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#github_api_credentials_from DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#github_api_credentials_from}
   */
   readonly githubApiCredentialsFrom?: DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1ManifestSpecGithubApiCredentialsFrom;
   /**
   * MaxReplicas is the maximum number of replicas the deployment is allowed to scale
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#max_replicas DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#max_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#max_replicas DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#max_replicas}
   */
   readonly maxReplicas?: number;
   /**
   * Metrics is the collection of various metric targets to calculate desired number of runners
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#metrics DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#metrics DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#metrics}
   */
   readonly metrics?: DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1ManifestSpecMetrics[] | cdktf.IResolvable;
   /**
   * MinReplicas is the minimum number of replicas the deployment is allowed to scale
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#min_replicas DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#min_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#min_replicas DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#min_replicas}
   */
   readonly minReplicas?: number;
   /**
   * ScaleDownDelaySecondsAfterScaleUp is the approximate delay for a scale down followed by a scale up Used to prevent flapping (down->up->down->... loop)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#scale_down_delay_seconds_after_scale_out DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#scale_down_delay_seconds_after_scale_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#scale_down_delay_seconds_after_scale_out DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#scale_down_delay_seconds_after_scale_out}
   */
   readonly scaleDownDelaySecondsAfterScaleOut?: number;
   /**
   * ScaleTargetRef is the reference to scaled resource like RunnerDeployment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#scale_target_ref DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#scale_target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#scale_target_ref DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#scale_target_ref}
   */
   readonly scaleTargetRef?: DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1ManifestSpecScaleTargetRef;
   /**
   * ScaleUpTriggers is an experimental feature to increase the desired replicas by 1 on each webhook requested received by the webhookBasedAutoscaler. This feature requires you to also enable and deploy the webhookBasedAutoscaler onto your cluster. Note that the added runners remain until the next sync period at least, and they may or may not be used by GitHub Actions depending on the timing. They are intended to be used to gain 'resource slack' immediately after you receive a webhook from GitHub, so that you can loosely expect MinReplicas runners to be always available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#scale_up_triggers DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#scale_up_triggers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#scale_up_triggers DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#scale_up_triggers}
   */
   readonly scaleUpTriggers?: DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1ManifestSpecScaleUpTriggers[] | cdktf.IResolvable;
   /**
   * ScheduledOverrides is the list of ScheduledOverride. It can be used to override a few fields of HorizontalRunnerAutoscalerSpec on schedule. The earlier a scheduled override is, the higher it is prioritized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#scheduled_overrides DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#scheduled_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#scheduled_overrides DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest#scheduled_overrides}
   */
   readonly scheduledOverrides?: DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1ManifestSpecScheduledOverrides[] | cdktf.IResolvable;
 }
@@ -2538,7 +2538,7 @@ export class DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manife
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest k8s_actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest k8s_actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest}
 */
 export class DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -2554,7 +2554,7 @@ export class DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manife
   * Generates CDKTF code for importing a DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2566,7 +2566,7 @@ export class DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manife
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest k8s_actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest k8s_actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2577,8 +2577,8 @@ export class DataK8SActionsSummerwindDevHorizontalRunnerAutoscalerV1Alpha1Manife
       terraformResourceType: 'k8s_actions_summerwind_dev_horizontal_runner_autoscaler_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,110 +8,110 @@ import * as cdktf from 'cdktf';
 
 export interface EsaWaitingRoomEventConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event#custom_page_html EsaWaitingRoomEvent#custom_page_html}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event#custom_page_html EsaWaitingRoomEvent#custom_page_html}
   */
   readonly customPageHtml?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event#description EsaWaitingRoomEvent#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event#description EsaWaitingRoomEvent#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event#disable_session_renewal_enable EsaWaitingRoomEvent#disable_session_renewal_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event#disable_session_renewal_enable EsaWaitingRoomEvent#disable_session_renewal_enable}
   */
   readonly disableSessionRenewalEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event#end_time EsaWaitingRoomEvent#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event#end_time EsaWaitingRoomEvent#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event#id EsaWaitingRoomEvent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event#id EsaWaitingRoomEvent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event#json_response_enable EsaWaitingRoomEvent#json_response_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event#json_response_enable EsaWaitingRoomEvent#json_response_enable}
   */
   readonly jsonResponseEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event#language EsaWaitingRoomEvent#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event#language EsaWaitingRoomEvent#language}
   */
   readonly language?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event#new_users_per_minute EsaWaitingRoomEvent#new_users_per_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event#new_users_per_minute EsaWaitingRoomEvent#new_users_per_minute}
   */
   readonly newUsersPerMinute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event#pre_queue_enable EsaWaitingRoomEvent#pre_queue_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event#pre_queue_enable EsaWaitingRoomEvent#pre_queue_enable}
   */
   readonly preQueueEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event#pre_queue_start_time EsaWaitingRoomEvent#pre_queue_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event#pre_queue_start_time EsaWaitingRoomEvent#pre_queue_start_time}
   */
   readonly preQueueStartTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event#queuing_method EsaWaitingRoomEvent#queuing_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event#queuing_method EsaWaitingRoomEvent#queuing_method}
   */
   readonly queuingMethod: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event#queuing_status_code EsaWaitingRoomEvent#queuing_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event#queuing_status_code EsaWaitingRoomEvent#queuing_status_code}
   */
   readonly queuingStatusCode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event#random_pre_queue_enable EsaWaitingRoomEvent#random_pre_queue_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event#random_pre_queue_enable EsaWaitingRoomEvent#random_pre_queue_enable}
   */
   readonly randomPreQueueEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event#session_duration EsaWaitingRoomEvent#session_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event#session_duration EsaWaitingRoomEvent#session_duration}
   */
   readonly sessionDuration: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event#site_id EsaWaitingRoomEvent#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event#site_id EsaWaitingRoomEvent#site_id}
   */
-  readonly siteId: number;
+  readonly siteId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event#start_time EsaWaitingRoomEvent#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event#start_time EsaWaitingRoomEvent#start_time}
   */
   readonly startTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event#status EsaWaitingRoomEvent#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event#status EsaWaitingRoomEvent#status}
   */
   readonly status: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event#total_active_users EsaWaitingRoomEvent#total_active_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event#total_active_users EsaWaitingRoomEvent#total_active_users}
   */
   readonly totalActiveUsers: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event#waiting_room_event_name EsaWaitingRoomEvent#waiting_room_event_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event#waiting_room_event_name EsaWaitingRoomEvent#waiting_room_event_name}
   */
   readonly waitingRoomEventName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event#waiting_room_id EsaWaitingRoomEvent#waiting_room_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event#waiting_room_id EsaWaitingRoomEvent#waiting_room_id}
   */
   readonly waitingRoomId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event#waiting_room_type EsaWaitingRoomEvent#waiting_room_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event#waiting_room_type EsaWaitingRoomEvent#waiting_room_type}
   */
   readonly waitingRoomType: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event#timeouts EsaWaitingRoomEvent#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event#timeouts EsaWaitingRoomEvent#timeouts}
   */
   readonly timeouts?: EsaWaitingRoomEventTimeouts;
 }
 export interface EsaWaitingRoomEventTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event#create EsaWaitingRoomEvent#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event#create EsaWaitingRoomEvent#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event#delete EsaWaitingRoomEvent#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event#delete EsaWaitingRoomEvent#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event#update EsaWaitingRoomEvent#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event#update EsaWaitingRoomEvent#update}
   */
   readonly update?: string;
 }
@@ -263,7 +263,7 @@ export class EsaWaitingRoomEventTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event alicloud_esa_waiting_room_event}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event alicloud_esa_waiting_room_event}
 */
 export class EsaWaitingRoomEvent extends cdktf.TerraformResource {
 
@@ -279,7 +279,7 @@ export class EsaWaitingRoomEvent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EsaWaitingRoomEvent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EsaWaitingRoomEvent to import
-  * @param importFromId The id of the existing EsaWaitingRoomEvent that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EsaWaitingRoomEvent that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EsaWaitingRoomEvent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -291,7 +291,7 @@ export class EsaWaitingRoomEvent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/esa_waiting_room_event alicloud_esa_waiting_room_event} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/esa_waiting_room_event alicloud_esa_waiting_room_event} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -302,8 +302,8 @@ export class EsaWaitingRoomEvent extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_esa_waiting_room_event',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -551,11 +551,11 @@ export class EsaWaitingRoomEvent extends cdktf.TerraformResource {
   }
 
   // site_id - computed: false, optional: false, required: true
-  private _siteId?: number; 
+  private _siteId?: string; 
   public get siteId() {
-    return this.getNumberAttribute('site_id');
+    return this.getStringAttribute('site_id');
   }
-  public set siteId(value: number) {
+  public set siteId(value: string) {
     this._siteId = value;
   }
   // Temporarily expose input value. Use with caution.
@@ -685,7 +685,7 @@ export class EsaWaitingRoomEvent extends cdktf.TerraformResource {
       queuing_status_code: cdktf.stringToTerraform(this._queuingStatusCode),
       random_pre_queue_enable: cdktf.stringToTerraform(this._randomPreQueueEnable),
       session_duration: cdktf.stringToTerraform(this._sessionDuration),
-      site_id: cdktf.numberToTerraform(this._siteId),
+      site_id: cdktf.stringToTerraform(this._siteId),
       start_time: cdktf.stringToTerraform(this._startTime),
       status: cdktf.stringToTerraform(this._status),
       total_active_users: cdktf.stringToTerraform(this._totalActiveUsers),
@@ -783,10 +783,10 @@ export class EsaWaitingRoomEvent extends cdktf.TerraformResource {
         storageClassType: "string",
       },
       site_id: {
-        value: cdktf.numberToHclTerraform(this._siteId),
+        value: cdktf.stringToHclTerraform(this._siteId),
         isBlock: false,
         type: "simple",
-        storageClassType: "number",
+        storageClassType: "string",
       },
       start_time: {
         value: cdktf.stringToHclTerraform(this._startTime),

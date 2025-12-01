@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ConnectorSchemaConfigConfig extends cdktf.TerraformMetaArgument
   /**
   * The unique identifier for the connector within the Fivetran system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#connector_id ConnectorSchemaConfig#connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#connector_id ConnectorSchemaConfig#connector_id}
   */
   readonly connectorId?: string;
   /**
   * The name used both as the connection's name within the Fivetran system and as the source schema's name within your destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#connector_name ConnectorSchemaConfig#connector_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#connector_name ConnectorSchemaConfig#connector_name}
   */
   readonly connectorName?: string;
   /**
   * The unique identifier for the Group (Destination) within the Fivetran system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#group_id ConnectorSchemaConfig#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#group_id ConnectorSchemaConfig#group_id}
   */
   readonly groupId?: string;
   /**
   * The value specifying how new source data is handled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#schema_change_handling ConnectorSchemaConfig#schema_change_handling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#schema_change_handling ConnectorSchemaConfig#schema_change_handling}
   */
   readonly schemaChangeHandling?: string;
   /**
   * Map of schema configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#schemas ConnectorSchemaConfig#schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#schemas ConnectorSchemaConfig#schemas}
   */
   readonly schemas?: { [key: string]: ConnectorSchemaConfigSchemas } | cdktf.IResolvable;
   /**
   * Schema settings in Json format, following Fivetran API endpoint contract for `schemas` field (a map of schemas).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#schemas_json ConnectorSchemaConfig#schemas_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#schemas_json ConnectorSchemaConfig#schemas_json}
   */
   readonly schemasJson?: string;
   /**
@@ -51,19 +51,19 @@ export interface ConnectorSchemaConfigConfig extends cdktf.TerraformMetaArgument
   * - COLUMNS: validate the whole schema config including column names. The resource will try to fetch columns for every configured table and verify column names.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#validation_level ConnectorSchemaConfig#validation_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#validation_level ConnectorSchemaConfig#validation_level}
   */
   readonly validationLevel?: string;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#schema ConnectorSchemaConfig#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#schema ConnectorSchemaConfig#schema}
   */
   readonly schema?: ConnectorSchemaConfigSchema[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#timeouts ConnectorSchemaConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#timeouts ConnectorSchemaConfig#timeouts}
   */
   readonly timeouts?: ConnectorSchemaConfigTimeouts;
 }
@@ -71,21 +71,15 @@ export interface ConnectorSchemaConfigSchemasTablesColumns {
   /**
   * The boolean value specifying whether the sync of the column into the destination is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#enabled ConnectorSchemaConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#enabled ConnectorSchemaConfig#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The boolean value specifying whether a column should be hashed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#hashed ConnectorSchemaConfig#hashed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#hashed ConnectorSchemaConfig#hashed}
   */
   readonly hashed?: boolean | cdktf.IResolvable;
-  /**
-  * Boolean value indicating if the column is a primary key. This field is read-only and computed by the API.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#is_primary_key ConnectorSchemaConfig#is_primary_key}
-  */
-  readonly isPrimaryKey?: boolean | cdktf.IResolvable;
 }
 
 export function connectorSchemaConfigSchemasTablesColumnsToTerraform(struct?: ConnectorSchemaConfigSchemasTablesColumns | cdktf.IResolvable): any {
@@ -96,7 +90,6 @@ export function connectorSchemaConfigSchemasTablesColumnsToTerraform(struct?: Co
   return {
     enabled: cdktf.booleanToTerraform(struct!.enabled),
     hashed: cdktf.booleanToTerraform(struct!.hashed),
-    is_primary_key: cdktf.booleanToTerraform(struct!.isPrimaryKey),
   }
 }
 
@@ -115,12 +108,6 @@ export function connectorSchemaConfigSchemasTablesColumnsToHclTerraform(struct?:
     },
     hashed: {
       value: cdktf.booleanToHclTerraform(struct!.hashed),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    is_primary_key: {
-      value: cdktf.booleanToHclTerraform(struct!.isPrimaryKey),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -158,10 +145,6 @@ export class ConnectorSchemaConfigSchemasTablesColumnsOutputReference extends cd
       hasAnyValues = true;
       internalValueResult.hashed = this._hashed;
     }
-    if (this._isPrimaryKey !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.isPrimaryKey = this._isPrimaryKey;
-    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -171,7 +154,6 @@ export class ConnectorSchemaConfigSchemasTablesColumnsOutputReference extends cd
       this.resolvableValue = undefined;
       this._enabled = undefined;
       this._hashed = undefined;
-      this._isPrimaryKey = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -182,7 +164,6 @@ export class ConnectorSchemaConfigSchemasTablesColumnsOutputReference extends cd
       this.resolvableValue = undefined;
       this._enabled = value.enabled;
       this._hashed = value.hashed;
-      this._isPrimaryKey = value.isPrimaryKey;
     }
   }
 
@@ -218,20 +199,9 @@ export class ConnectorSchemaConfigSchemasTablesColumnsOutputReference extends cd
     return this._hashed;
   }
 
-  // is_primary_key - computed: true, optional: true, required: false
-  private _isPrimaryKey?: boolean | cdktf.IResolvable; 
+  // is_primary_key - computed: true, optional: false, required: false
   public get isPrimaryKey() {
     return this.getBooleanAttribute('is_primary_key');
-  }
-  public set isPrimaryKey(value: boolean | cdktf.IResolvable) {
-    this._isPrimaryKey = value;
-  }
-  public resetIsPrimaryKey() {
-    this._isPrimaryKey = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get isPrimaryKeyInput() {
-    return this._isPrimaryKey;
   }
 }
 
@@ -257,19 +227,19 @@ export interface ConnectorSchemaConfigSchemasTables {
   /**
   * Map of table configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#columns ConnectorSchemaConfig#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#columns ConnectorSchemaConfig#columns}
   */
   readonly columns?: { [key: string]: ConnectorSchemaConfigSchemasTablesColumns } | cdktf.IResolvable;
   /**
   * The boolean value specifying whether the sync for the table into the destination is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#enabled ConnectorSchemaConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#enabled ConnectorSchemaConfig#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * This field appears in the response if the connector supports switching sync modes for tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#sync_mode ConnectorSchemaConfig#sync_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#sync_mode ConnectorSchemaConfig#sync_mode}
   */
   readonly syncMode?: string;
 }
@@ -443,13 +413,13 @@ export interface ConnectorSchemaConfigSchemas {
   /**
   * The boolean value specifying whether the sync for the schema into the destination is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#enabled ConnectorSchemaConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#enabled ConnectorSchemaConfig#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Map of table configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#tables ConnectorSchemaConfig#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#tables ConnectorSchemaConfig#tables}
   */
   readonly tables?: { [key: string]: ConnectorSchemaConfigSchemasTables } | cdktf.IResolvable;
 }
@@ -594,25 +564,19 @@ export interface ConnectorSchemaConfigSchemaTableColumn {
   /**
   * The boolean value specifying whether the sync of the column into the destination is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#enabled ConnectorSchemaConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#enabled ConnectorSchemaConfig#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The boolean value specifying whether a column should be hashed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#hashed ConnectorSchemaConfig#hashed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#hashed ConnectorSchemaConfig#hashed}
   */
   readonly hashed?: boolean | cdktf.IResolvable;
   /**
-  * Boolean value indicating if the column is a primary key. This field is read-only and computed by the API.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#is_primary_key ConnectorSchemaConfig#is_primary_key}
-  */
-  readonly isPrimaryKey?: boolean | cdktf.IResolvable;
-  /**
   * The column name within your destination in accordance with Fivetran conventional rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#name ConnectorSchemaConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#name ConnectorSchemaConfig#name}
   */
   readonly name: string;
 }
@@ -625,7 +589,6 @@ export function connectorSchemaConfigSchemaTableColumnToTerraform(struct?: Conne
   return {
     enabled: cdktf.booleanToTerraform(struct!.enabled),
     hashed: cdktf.booleanToTerraform(struct!.hashed),
-    is_primary_key: cdktf.booleanToTerraform(struct!.isPrimaryKey),
     name: cdktf.stringToTerraform(struct!.name),
   }
 }
@@ -645,12 +608,6 @@ export function connectorSchemaConfigSchemaTableColumnToHclTerraform(struct?: Co
     },
     hashed: {
       value: cdktf.booleanToHclTerraform(struct!.hashed),
-      isBlock: false,
-      type: "simple",
-      storageClassType: "boolean",
-    },
-    is_primary_key: {
-      value: cdktf.booleanToHclTerraform(struct!.isPrimaryKey),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -695,10 +652,6 @@ export class ConnectorSchemaConfigSchemaTableColumnOutputReference extends cdktf
       hasAnyValues = true;
       internalValueResult.hashed = this._hashed;
     }
-    if (this._isPrimaryKey !== undefined) {
-      hasAnyValues = true;
-      internalValueResult.isPrimaryKey = this._isPrimaryKey;
-    }
     if (this._name !== undefined) {
       hasAnyValues = true;
       internalValueResult.name = this._name;
@@ -712,7 +665,6 @@ export class ConnectorSchemaConfigSchemaTableColumnOutputReference extends cdktf
       this.resolvableValue = undefined;
       this._enabled = undefined;
       this._hashed = undefined;
-      this._isPrimaryKey = undefined;
       this._name = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -724,7 +676,6 @@ export class ConnectorSchemaConfigSchemaTableColumnOutputReference extends cdktf
       this.resolvableValue = undefined;
       this._enabled = value.enabled;
       this._hashed = value.hashed;
-      this._isPrimaryKey = value.isPrimaryKey;
       this._name = value.name;
     }
   }
@@ -761,20 +712,9 @@ export class ConnectorSchemaConfigSchemaTableColumnOutputReference extends cdktf
     return this._hashed;
   }
 
-  // is_primary_key - computed: true, optional: true, required: false
-  private _isPrimaryKey?: boolean | cdktf.IResolvable; 
+  // is_primary_key - computed: true, optional: false, required: false
   public get isPrimaryKey() {
     return this.getBooleanAttribute('is_primary_key');
-  }
-  public set isPrimaryKey(value: boolean | cdktf.IResolvable) {
-    this._isPrimaryKey = value;
-  }
-  public resetIsPrimaryKey() {
-    this._isPrimaryKey = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get isPrimaryKeyInput() {
-    return this._isPrimaryKey;
   }
 
   // name - computed: false, optional: false, required: true
@@ -814,25 +754,25 @@ export interface ConnectorSchemaConfigSchemaTable {
   /**
   * The boolean value specifying whether the sync of table into the destination is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#enabled ConnectorSchemaConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#enabled ConnectorSchemaConfig#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The table name within your destination in accordance with Fivetran conventional rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#name ConnectorSchemaConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#name ConnectorSchemaConfig#name}
   */
   readonly name: string;
   /**
   * This field appears in the response if the connector supports switching sync modes for tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#sync_mode ConnectorSchemaConfig#sync_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#sync_mode ConnectorSchemaConfig#sync_mode}
   */
   readonly syncMode?: string;
   /**
   * column block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#column ConnectorSchemaConfig#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#column ConnectorSchemaConfig#column}
   */
   readonly column?: ConnectorSchemaConfigSchemaTableColumn[] | cdktf.IResolvable;
 }
@@ -1034,19 +974,19 @@ export interface ConnectorSchemaConfigSchema {
   /**
   * The boolean value specifying whether the sync for the schema into the destination is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#enabled ConnectorSchemaConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#enabled ConnectorSchemaConfig#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The schema name within your destination in accordance with Fivetran conventional rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#name ConnectorSchemaConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#name ConnectorSchemaConfig#name}
   */
   readonly name: string;
   /**
   * table block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#table ConnectorSchemaConfig#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#table ConnectorSchemaConfig#table}
   */
   readonly table?: ConnectorSchemaConfigSchemaTable[] | cdktf.IResolvable;
 }
@@ -1219,19 +1159,19 @@ export interface ConnectorSchemaConfigTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#create ConnectorSchemaConfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#create ConnectorSchemaConfig#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#read ConnectorSchemaConfig#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#read ConnectorSchemaConfig#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#update ConnectorSchemaConfig#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#update ConnectorSchemaConfig#update}
   */
   readonly update?: string;
 }
@@ -1383,7 +1323,7 @@ export class ConnectorSchemaConfigTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config fivetran_connector_schema_config}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config fivetran_connector_schema_config}
 */
 export class ConnectorSchemaConfig extends cdktf.TerraformResource {
 
@@ -1399,7 +1339,7 @@ export class ConnectorSchemaConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConnectorSchemaConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectorSchemaConfig to import
-  * @param importFromId The id of the existing ConnectorSchemaConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectorSchemaConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectorSchemaConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1411,7 +1351,7 @@ export class ConnectorSchemaConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/connector_schema_config fivetran_connector_schema_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/connector_schema_config fivetran_connector_schema_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1422,8 +1362,8 @@ export class ConnectorSchemaConfig extends cdktf.TerraformResource {
       terraformResourceType: 'fivetran_connector_schema_config',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.15',
-        providerVersionConstraint: '1.9.15'
+        providerVersion: '1.9.16',
+        providerVersionConstraint: '1.9.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,308 +8,308 @@ import * as cdktf from 'cdktf';
 
 export interface PolardbClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#allow_shut_down PolardbCluster#allow_shut_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#allow_shut_down PolardbCluster#allow_shut_down}
   */
   readonly allowShutDown?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#auto_renew_period PolardbCluster#auto_renew_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#auto_renew_period PolardbCluster#auto_renew_period}
   */
   readonly autoRenewPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#backup_retention_policy_on_cluster_deletion PolardbCluster#backup_retention_policy_on_cluster_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#backup_retention_policy_on_cluster_deletion PolardbCluster#backup_retention_policy_on_cluster_deletion}
   */
   readonly backupRetentionPolicyOnClusterDeletion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#clone_data_point PolardbCluster#clone_data_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#clone_data_point PolardbCluster#clone_data_point}
   */
   readonly cloneDataPoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#collector_status PolardbCluster#collector_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#collector_status PolardbCluster#collector_status}
   */
   readonly collectorStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#compress_storage PolardbCluster#compress_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#compress_storage PolardbCluster#compress_storage}
   */
   readonly compressStorage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#creation_category PolardbCluster#creation_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#creation_category PolardbCluster#creation_category}
   */
   readonly creationCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#creation_option PolardbCluster#creation_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#creation_option PolardbCluster#creation_option}
   */
   readonly creationOption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#db_minor_version PolardbCluster#db_minor_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#db_minor_version PolardbCluster#db_minor_version}
   */
   readonly dbMinorVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#db_node_class PolardbCluster#db_node_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#db_node_class PolardbCluster#db_node_class}
   */
   readonly dbNodeClass: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#db_node_count PolardbCluster#db_node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#db_node_count PolardbCluster#db_node_count}
   */
   readonly dbNodeCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#db_node_id PolardbCluster#db_node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#db_node_id PolardbCluster#db_node_id}
   */
   readonly dbNodeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#db_node_num PolardbCluster#db_node_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#db_node_num PolardbCluster#db_node_num}
   */
   readonly dbNodeNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#db_type PolardbCluster#db_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#db_type PolardbCluster#db_type}
   */
   readonly dbType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#db_version PolardbCluster#db_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#db_version PolardbCluster#db_version}
   */
   readonly dbVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#default_time_zone PolardbCluster#default_time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#default_time_zone PolardbCluster#default_time_zone}
   */
   readonly defaultTimeZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#deletion_lock PolardbCluster#deletion_lock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#deletion_lock PolardbCluster#deletion_lock}
   */
   readonly deletionLock?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#description PolardbCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#description PolardbCluster#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#encrypt_new_tables PolardbCluster#encrypt_new_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#encrypt_new_tables PolardbCluster#encrypt_new_tables}
   */
   readonly encryptNewTables?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#encryption_key PolardbCluster#encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#encryption_key PolardbCluster#encryption_key}
   */
   readonly encryptionKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#from_time_service PolardbCluster#from_time_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#from_time_service PolardbCluster#from_time_service}
   */
   readonly fromTimeService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#gdn_id PolardbCluster#gdn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#gdn_id PolardbCluster#gdn_id}
   */
   readonly gdnId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#hot_replica_mode PolardbCluster#hot_replica_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#hot_replica_mode PolardbCluster#hot_replica_mode}
   */
   readonly hotReplicaMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#hot_standby_cluster PolardbCluster#hot_standby_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#hot_standby_cluster PolardbCluster#hot_standby_cluster}
   */
   readonly hotStandbyCluster?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#id PolardbCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#id PolardbCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#imci_switch PolardbCluster#imci_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#imci_switch PolardbCluster#imci_switch}
   */
   readonly imciSwitch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#loose_polar_log_bin PolardbCluster#loose_polar_log_bin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#loose_polar_log_bin PolardbCluster#loose_polar_log_bin}
   */
   readonly loosePolarLogBin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#loose_xengine PolardbCluster#loose_xengine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#loose_xengine PolardbCluster#loose_xengine}
   */
   readonly looseXengine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#loose_xengine_use_memory_pct PolardbCluster#loose_xengine_use_memory_pct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#loose_xengine_use_memory_pct PolardbCluster#loose_xengine_use_memory_pct}
   */
   readonly looseXengineUseMemoryPct?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#lower_case_table_names PolardbCluster#lower_case_table_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#lower_case_table_names PolardbCluster#lower_case_table_names}
   */
   readonly lowerCaseTableNames?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#maintain_time PolardbCluster#maintain_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#maintain_time PolardbCluster#maintain_time}
   */
   readonly maintainTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#modify_type PolardbCluster#modify_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#modify_type PolardbCluster#modify_type}
   */
   readonly modifyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#parameter_group_id PolardbCluster#parameter_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#parameter_group_id PolardbCluster#parameter_group_id}
   */
   readonly parameterGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#pay_type PolardbCluster#pay_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#pay_type PolardbCluster#pay_type}
   */
   readonly payType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#period PolardbCluster#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#period PolardbCluster#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#planned_end_time PolardbCluster#planned_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#planned_end_time PolardbCluster#planned_end_time}
   */
   readonly plannedEndTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#planned_start_time PolardbCluster#planned_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#planned_start_time PolardbCluster#planned_start_time}
   */
   readonly plannedStartTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#provisioned_iops PolardbCluster#provisioned_iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#provisioned_iops PolardbCluster#provisioned_iops}
   */
   readonly provisionedIops?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#proxy_class PolardbCluster#proxy_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#proxy_class PolardbCluster#proxy_class}
   */
   readonly proxyClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#proxy_type PolardbCluster#proxy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#proxy_type PolardbCluster#proxy_type}
   */
   readonly proxyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#renewal_status PolardbCluster#renewal_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#renewal_status PolardbCluster#renewal_status}
   */
   readonly renewalStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#resource_group_id PolardbCluster#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#resource_group_id PolardbCluster#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#role_arn PolardbCluster#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#role_arn PolardbCluster#role_arn}
   */
   readonly roleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#scale_ap_ro_num_max PolardbCluster#scale_ap_ro_num_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#scale_ap_ro_num_max PolardbCluster#scale_ap_ro_num_max}
   */
   readonly scaleApRoNumMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#scale_ap_ro_num_min PolardbCluster#scale_ap_ro_num_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#scale_ap_ro_num_min PolardbCluster#scale_ap_ro_num_min}
   */
   readonly scaleApRoNumMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#scale_max PolardbCluster#scale_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#scale_max PolardbCluster#scale_max}
   */
   readonly scaleMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#scale_min PolardbCluster#scale_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#scale_min PolardbCluster#scale_min}
   */
   readonly scaleMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#scale_ro_num_max PolardbCluster#scale_ro_num_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#scale_ro_num_max PolardbCluster#scale_ro_num_max}
   */
   readonly scaleRoNumMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#scale_ro_num_min PolardbCluster#scale_ro_num_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#scale_ro_num_min PolardbCluster#scale_ro_num_min}
   */
   readonly scaleRoNumMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#seconds_until_auto_pause PolardbCluster#seconds_until_auto_pause}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#seconds_until_auto_pause PolardbCluster#seconds_until_auto_pause}
   */
   readonly secondsUntilAutoPause?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#security_group_ids PolardbCluster#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#security_group_ids PolardbCluster#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#security_ips PolardbCluster#security_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#security_ips PolardbCluster#security_ips}
   */
   readonly securityIps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#serverless_rule_cpu_enlarge_threshold PolardbCluster#serverless_rule_cpu_enlarge_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#serverless_rule_cpu_enlarge_threshold PolardbCluster#serverless_rule_cpu_enlarge_threshold}
   */
   readonly serverlessRuleCpuEnlargeThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#serverless_rule_cpu_shrink_threshold PolardbCluster#serverless_rule_cpu_shrink_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#serverless_rule_cpu_shrink_threshold PolardbCluster#serverless_rule_cpu_shrink_threshold}
   */
   readonly serverlessRuleCpuShrinkThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#serverless_rule_mode PolardbCluster#serverless_rule_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#serverless_rule_mode PolardbCluster#serverless_rule_mode}
   */
   readonly serverlessRuleMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#serverless_steady_switch PolardbCluster#serverless_steady_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#serverless_steady_switch PolardbCluster#serverless_steady_switch}
   */
   readonly serverlessSteadySwitch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#serverless_type PolardbCluster#serverless_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#serverless_type PolardbCluster#serverless_type}
   */
   readonly serverlessType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#source_resource_id PolardbCluster#source_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#source_resource_id PolardbCluster#source_resource_id}
   */
   readonly sourceResourceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#standby_az PolardbCluster#standby_az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#standby_az PolardbCluster#standby_az}
   */
   readonly standbyAz?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#storage_pay_type PolardbCluster#storage_pay_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#storage_pay_type PolardbCluster#storage_pay_type}
   */
   readonly storagePayType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#storage_space PolardbCluster#storage_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#storage_space PolardbCluster#storage_space}
   */
   readonly storageSpace?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#storage_type PolardbCluster#storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#storage_type PolardbCluster#storage_type}
   */
   readonly storageType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#strict_consistency PolardbCluster#strict_consistency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#strict_consistency PolardbCluster#strict_consistency}
   */
   readonly strictConsistency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#sub_category PolardbCluster#sub_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#sub_category PolardbCluster#sub_category}
   */
   readonly subCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#tags PolardbCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#tags PolardbCluster#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#target_db_revision_version_code PolardbCluster#target_db_revision_version_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#target_db_revision_version_code PolardbCluster#target_db_revision_version_code}
   */
   readonly targetDbRevisionVersionCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#tde_status PolardbCluster#tde_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#tde_status PolardbCluster#tde_status}
   */
   readonly tdeStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#upgrade_type PolardbCluster#upgrade_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#upgrade_type PolardbCluster#upgrade_type}
   */
   readonly upgradeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#vpc_id PolardbCluster#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#vpc_id PolardbCluster#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#vswitch_id PolardbCluster#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#vswitch_id PolardbCluster#vswitch_id}
   */
   readonly vswitchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#zone_id PolardbCluster#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#zone_id PolardbCluster#zone_id}
   */
   readonly zoneId?: string;
   /**
   * db_cluster_ip_array block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#db_cluster_ip_array PolardbCluster#db_cluster_ip_array}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#db_cluster_ip_array PolardbCluster#db_cluster_ip_array}
   */
   readonly dbClusterIpArray?: PolardbClusterDbClusterIpArray[] | cdktf.IResolvable;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#parameters PolardbCluster#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#parameters PolardbCluster#parameters}
   */
   readonly parameters?: PolardbClusterParameters[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#timeouts PolardbCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#timeouts PolardbCluster#timeouts}
   */
   readonly timeouts?: PolardbClusterTimeouts;
 }
@@ -405,15 +405,15 @@ export class PolardbClusterDbRevisionVersionListStructList extends cdktf.Complex
 }
 export interface PolardbClusterDbClusterIpArray {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#db_cluster_ip_array_name PolardbCluster#db_cluster_ip_array_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#db_cluster_ip_array_name PolardbCluster#db_cluster_ip_array_name}
   */
   readonly dbClusterIpArrayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#modify_mode PolardbCluster#modify_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#modify_mode PolardbCluster#modify_mode}
   */
   readonly modifyMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#security_ips PolardbCluster#security_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#security_ips PolardbCluster#security_ips}
   */
   readonly securityIps?: string[];
 }
@@ -587,11 +587,11 @@ export class PolardbClusterDbClusterIpArrayList extends cdktf.ComplexList {
 }
 export interface PolardbClusterParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#name PolardbCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#name PolardbCluster#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#value PolardbCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#value PolardbCluster#value}
   */
   readonly value: string;
 }
@@ -730,15 +730,15 @@ export class PolardbClusterParametersList extends cdktf.ComplexList {
 }
 export interface PolardbClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#create PolardbCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#create PolardbCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#delete PolardbCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#delete PolardbCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#update PolardbCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#update PolardbCluster#update}
   */
   readonly update?: string;
 }
@@ -890,7 +890,7 @@ export class PolardbClusterTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster alicloud_polardb_cluster}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster alicloud_polardb_cluster}
 */
 export class PolardbCluster extends cdktf.TerraformResource {
 
@@ -906,7 +906,7 @@ export class PolardbCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolardbCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolardbCluster to import
-  * @param importFromId The id of the existing PolardbCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolardbCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolardbCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -918,7 +918,7 @@ export class PolardbCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/polardb_cluster alicloud_polardb_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/polardb_cluster alicloud_polardb_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -929,8 +929,8 @@ export class PolardbCluster extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_polardb_cluster',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_policy_binding
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_policy_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface HbrPolicyBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_policy_binding#cross_account_role_name HbrPolicyBinding#cross_account_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_policy_binding#cross_account_role_name HbrPolicyBinding#cross_account_role_name}
   */
   readonly crossAccountRoleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_policy_binding#cross_account_type HbrPolicyBinding#cross_account_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_policy_binding#cross_account_type HbrPolicyBinding#cross_account_type}
   */
   readonly crossAccountType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_policy_binding#cross_account_user_id HbrPolicyBinding#cross_account_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_policy_binding#cross_account_user_id HbrPolicyBinding#cross_account_user_id}
   */
   readonly crossAccountUserId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_policy_binding#data_source_id HbrPolicyBinding#data_source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_policy_binding#data_source_id HbrPolicyBinding#data_source_id}
   */
   readonly dataSourceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_policy_binding#disabled HbrPolicyBinding#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_policy_binding#disabled HbrPolicyBinding#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_policy_binding#exclude HbrPolicyBinding#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_policy_binding#exclude HbrPolicyBinding#exclude}
   */
   readonly exclude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_policy_binding#id HbrPolicyBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_policy_binding#id HbrPolicyBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_policy_binding#include HbrPolicyBinding#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_policy_binding#include HbrPolicyBinding#include}
   */
   readonly include?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_policy_binding#policy_binding_description HbrPolicyBinding#policy_binding_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_policy_binding#policy_binding_description HbrPolicyBinding#policy_binding_description}
   */
   readonly policyBindingDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_policy_binding#policy_id HbrPolicyBinding#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_policy_binding#policy_id HbrPolicyBinding#policy_id}
   */
   readonly policyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_policy_binding#source HbrPolicyBinding#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_policy_binding#source HbrPolicyBinding#source}
   */
   readonly source?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_policy_binding#source_type HbrPolicyBinding#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_policy_binding#source_type HbrPolicyBinding#source_type}
   */
   readonly sourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_policy_binding#speed_limit HbrPolicyBinding#speed_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_policy_binding#speed_limit HbrPolicyBinding#speed_limit}
   */
   readonly speedLimit?: string;
   /**
   * advanced_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_policy_binding#advanced_options HbrPolicyBinding#advanced_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_policy_binding#advanced_options HbrPolicyBinding#advanced_options}
   */
   readonly advancedOptions?: HbrPolicyBindingAdvancedOptions;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_policy_binding#timeouts HbrPolicyBinding#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_policy_binding#timeouts HbrPolicyBinding#timeouts}
   */
   readonly timeouts?: HbrPolicyBindingTimeouts;
 }
 export interface HbrPolicyBindingAdvancedOptionsUdmDetail {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_policy_binding#destination_kms_key_id HbrPolicyBinding#destination_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_policy_binding#destination_kms_key_id HbrPolicyBinding#destination_kms_key_id}
   */
   readonly destinationKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_policy_binding#disk_id_list HbrPolicyBinding#disk_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_policy_binding#disk_id_list HbrPolicyBinding#disk_id_list}
   */
   readonly diskIdList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_policy_binding#exclude_disk_id_list HbrPolicyBinding#exclude_disk_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_policy_binding#exclude_disk_id_list HbrPolicyBinding#exclude_disk_id_list}
   */
   readonly excludeDiskIdList?: string[];
 }
@@ -229,7 +229,7 @@ export interface HbrPolicyBindingAdvancedOptions {
   /**
   * udm_detail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_policy_binding#udm_detail HbrPolicyBinding#udm_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_policy_binding#udm_detail HbrPolicyBinding#udm_detail}
   */
   readonly udmDetail?: HbrPolicyBindingAdvancedOptionsUdmDetail;
 }
@@ -313,15 +313,15 @@ export class HbrPolicyBindingAdvancedOptionsOutputReference extends cdktf.Comple
 }
 export interface HbrPolicyBindingTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_policy_binding#create HbrPolicyBinding#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_policy_binding#create HbrPolicyBinding#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_policy_binding#delete HbrPolicyBinding#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_policy_binding#delete HbrPolicyBinding#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_policy_binding#update HbrPolicyBinding#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_policy_binding#update HbrPolicyBinding#update}
   */
   readonly update?: string;
 }
@@ -473,7 +473,7 @@ export class HbrPolicyBindingTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_policy_binding alicloud_hbr_policy_binding}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_policy_binding alicloud_hbr_policy_binding}
 */
 export class HbrPolicyBinding extends cdktf.TerraformResource {
 
@@ -489,7 +489,7 @@ export class HbrPolicyBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HbrPolicyBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HbrPolicyBinding to import
-  * @param importFromId The id of the existing HbrPolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_policy_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HbrPolicyBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_policy_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HbrPolicyBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -501,7 +501,7 @@ export class HbrPolicyBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/hbr_policy_binding alicloud_hbr_policy_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/hbr_policy_binding alicloud_hbr_policy_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -512,8 +512,8 @@ export class HbrPolicyBinding extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_hbr_policy_binding',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

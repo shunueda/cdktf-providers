@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cloudmonitorservice_metricalarmrules
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cloudmonitorservice_metricalarmrules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,16 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackCloudmonitorserviceMetricalarmrulesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cloudmonitorservice_metricalarmrules#id DataAlibabacloudstackCloudmonitorserviceMetricalarmrules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cloudmonitorservice_metricalarmrules#id DataAlibabacloudstackCloudmonitorserviceMetricalarmrules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cloudmonitorservice_metricalarmrules#name_regex DataAlibabacloudstackCloudmonitorserviceMetricalarmrules#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cloudmonitorservice_metricalarmrules#name_regex DataAlibabacloudstackCloudmonitorserviceMetricalarmrules#name_regex}
   */
   readonly nameRegex?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cloudmonitorservice_metricalarmrules#output_file DataAlibabacloudstackCloudmonitorserviceMetricalarmrules#output_file}
+  */
+  readonly outputFile?: string;
 }
 export interface DataAlibabacloudstackCloudmonitorserviceMetricalarmrulesAlarmsEscalations {
 }
@@ -307,7 +311,7 @@ export class DataAlibabacloudstackCloudmonitorserviceMetricalarmrulesAlarmsList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cloudmonitorservice_metricalarmrules alibabacloudstack_cloudmonitorservice_metricalarmrules}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cloudmonitorservice_metricalarmrules alibabacloudstack_cloudmonitorservice_metricalarmrules}
 */
 export class DataAlibabacloudstackCloudmonitorserviceMetricalarmrules extends cdktf.TerraformDataSource {
 
@@ -323,7 +327,7 @@ export class DataAlibabacloudstackCloudmonitorserviceMetricalarmrules extends cd
   * Generates CDKTF code for importing a DataAlibabacloudstackCloudmonitorserviceMetricalarmrules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackCloudmonitorserviceMetricalarmrules to import
-  * @param importFromId The id of the existing DataAlibabacloudstackCloudmonitorserviceMetricalarmrules that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cloudmonitorservice_metricalarmrules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackCloudmonitorserviceMetricalarmrules that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cloudmonitorservice_metricalarmrules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackCloudmonitorserviceMetricalarmrules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -335,7 +339,7 @@ export class DataAlibabacloudstackCloudmonitorserviceMetricalarmrules extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/cloudmonitorservice_metricalarmrules alibabacloudstack_cloudmonitorservice_metricalarmrules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/cloudmonitorservice_metricalarmrules alibabacloudstack_cloudmonitorservice_metricalarmrules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -346,8 +350,8 @@ export class DataAlibabacloudstackCloudmonitorserviceMetricalarmrules extends cd
       terraformResourceType: 'alibabacloudstack_cloudmonitorservice_metricalarmrules',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -359,6 +363,7 @@ export class DataAlibabacloudstackCloudmonitorserviceMetricalarmrules extends cd
     });
     this._id = config.id;
     this._nameRegex = config.nameRegex;
+    this._outputFile = config.outputFile;
   }
 
   // ==========
@@ -403,6 +408,22 @@ export class DataAlibabacloudstackCloudmonitorserviceMetricalarmrules extends cd
     return this._nameRegex;
   }
 
+  // output_file - computed: false, optional: true, required: false
+  private _outputFile?: string; 
+  public get outputFile() {
+    return this.getStringAttribute('output_file');
+  }
+  public set outputFile(value: string) {
+    this._outputFile = value;
+  }
+  public resetOutputFile() {
+    this._outputFile = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get outputFileInput() {
+    return this._outputFile;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -411,6 +432,7 @@ export class DataAlibabacloudstackCloudmonitorserviceMetricalarmrules extends cd
     return {
       id: cdktf.stringToTerraform(this._id),
       name_regex: cdktf.stringToTerraform(this._nameRegex),
+      output_file: cdktf.stringToTerraform(this._outputFile),
     };
   }
 
@@ -424,6 +446,12 @@ export class DataAlibabacloudstackCloudmonitorserviceMetricalarmrules extends cd
       },
       name_regex: {
         value: cdktf.stringToHclTerraform(this._nameRegex),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      output_file: {
+        value: cdktf.stringToHclTerraform(this._outputFile),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

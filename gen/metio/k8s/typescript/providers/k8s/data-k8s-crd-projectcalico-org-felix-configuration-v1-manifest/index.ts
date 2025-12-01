@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SCrdProjectcalicoOrgFelixConfigurationV1ManifestConfig ex
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#metadata DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#metadata DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#metadata}
   */
   readonly metadata: DataK8SCrdProjectcalicoOrgFelixConfigurationV1ManifestMetadata;
   /**
   * FelixConfigurationSpec contains the values of the Felix configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#spec DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#spec DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#spec}
   */
   readonly spec?: DataK8SCrdProjectcalicoOrgFelixConfigurationV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SCrdProjectcalicoOrgFelixConfigurationV1ManifestMetadata 
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#annotations DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#annotations DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#labels DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#labels DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#name DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#name DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#name}
   */
   readonly name: string;
 }
@@ -185,15 +185,15 @@ export class DataK8SCrdProjectcalicoOrgFelixConfigurationV1ManifestMetadataOutpu
 }
 export interface DataK8SCrdProjectcalicoOrgFelixConfigurationV1ManifestSpecFailsafeInboundHostPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#net DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#net}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#net DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#net}
   */
   readonly net?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#port DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#port DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#protocol DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#protocol DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#protocol}
   */
   readonly protocol: string;
 }
@@ -361,15 +361,15 @@ export class DataK8SCrdProjectcalicoOrgFelixConfigurationV1ManifestSpecFailsafeI
 }
 export interface DataK8SCrdProjectcalicoOrgFelixConfigurationV1ManifestSpecFailsafeOutboundHostPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#net DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#net}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#net DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#net}
   */
   readonly net?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#port DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#port DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#port}
   */
   readonly port: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#protocol DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#protocol DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#protocol}
   */
   readonly protocol: string;
 }
@@ -537,11 +537,11 @@ export class DataK8SCrdProjectcalicoOrgFelixConfigurationV1ManifestSpecFailsafeO
 }
 export interface DataK8SCrdProjectcalicoOrgFelixConfigurationV1ManifestSpecHealthTimeoutOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#name DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#name DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#timeout DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#timeout DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#timeout}
   */
   readonly timeout: string;
 }
@@ -680,11 +680,11 @@ export class DataK8SCrdProjectcalicoOrgFelixConfigurationV1ManifestSpecHealthTim
 }
 export interface DataK8SCrdProjectcalicoOrgFelixConfigurationV1ManifestSpecRouteTableRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#max DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#max DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#max}
   */
   readonly max: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#min DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#min DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#min}
   */
   readonly min: number;
 }
@@ -801,11 +801,11 @@ export class DataK8SCrdProjectcalicoOrgFelixConfigurationV1ManifestSpecRouteTabl
 }
 export interface DataK8SCrdProjectcalicoOrgFelixConfigurationV1ManifestSpecRouteTableRanges {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#max DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#max DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#max}
   */
   readonly max: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#min DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#min DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#min}
   */
   readonly min: number;
 }
@@ -946,843 +946,843 @@ export interface DataK8SCrdProjectcalicoOrgFelixConfigurationV1ManifestSpec {
   /**
   * AllowIPIPPacketsFromWorkloads controls whether Felix will add a rule to drop IPIP encapsulated traffic from workloads [Default: false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#allow_ipip_packets_from_workloads DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#allow_ipip_packets_from_workloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#allow_ipip_packets_from_workloads DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#allow_ipip_packets_from_workloads}
   */
   readonly allowIpipPacketsFromWorkloads?: boolean | cdktf.IResolvable;
   /**
   * AllowVXLANPacketsFromWorkloads controls whether Felix will add a rule to drop VXLAN encapsulated traffic from workloads [Default: false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#allow_vxlan_packets_from_workloads DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#allow_vxlan_packets_from_workloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#allow_vxlan_packets_from_workloads DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#allow_vxlan_packets_from_workloads}
   */
   readonly allowVxlanPacketsFromWorkloads?: boolean | cdktf.IResolvable;
   /**
   * Set source-destination-check on AWS EC2 instances. Accepted value must be one of 'DoNothing', 'Enable' or 'Disable'. [Default: DoNothing]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#aws_src_dst_check DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#aws_src_dst_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#aws_src_dst_check DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#aws_src_dst_check}
   */
   readonly awsSrcDstCheck?: string;
   /**
   * BPFConnectTimeLoadBalancing when in BPF mode, controls whether Felix installs the connect-time load balancer. The connect-time load balancer is required for the host to be able to reach Kubernetes services and it improves the performance of pod-to-service connections.When set to TCP, connect time load balancing is available only for services with TCP ports. [Default: TCP]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_connect_time_load_balancing DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_connect_time_load_balancing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_connect_time_load_balancing DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_connect_time_load_balancing}
   */
   readonly bpfConnectTimeLoadBalancing?: string;
   /**
   * BPFConnectTimeLoadBalancingEnabled when in BPF mode, controls whether Felix installs the connection-time load balancer. The connect-time load balancer is required for the host to be able to reach Kubernetes services and it improves the performance of pod-to-service connections. The only reason to disable it is for debugging purposes. This will be deprecated. Use BPFConnectTimeLoadBalancing [Default: true]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_connect_time_load_balancing_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_connect_time_load_balancing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_connect_time_load_balancing_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_connect_time_load_balancing_enabled}
   */
   readonly bpfConnectTimeLoadBalancingEnabled?: boolean | cdktf.IResolvable;
   /**
   * BPFCTLBLogFilter specifies, what is logged by connect time load balancer when BPFLogLevel is debug. Currently has to be specified as 'all' when BPFLogFilters is set to see CTLB logs. [Default: unset - means logs are emitted when BPFLogLevel id debug and BPFLogFilters not set.]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_ctlb_log_filter DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_ctlb_log_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_ctlb_log_filter DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_ctlb_log_filter}
   */
   readonly bpfCtlbLogFilter?: string;
   /**
   * BPFDataIfacePattern is a regular expression that controls which interfaces Felix should attach BPF programs to in order to catch traffic to/from the network. This needs to match the interfaces that Calico workload traffic flows over as well as any interfaces that handle incoming traffic to nodeports and services from outside the cluster. It should not match the workload interfaces (usually named cali...).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_data_iface_pattern DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_data_iface_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_data_iface_pattern DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_data_iface_pattern}
   */
   readonly bpfDataIfacePattern?: string;
   /**
   * BPFDisableGROForIfaces is a regular expression that controls which interfaces Felix should disable the Generic Receive Offload [GRO] option. It should not match the workload interfaces (usually named cali...).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_disable_gro_for_ifaces DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_disable_gro_for_ifaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_disable_gro_for_ifaces DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_disable_gro_for_ifaces}
   */
   readonly bpfDisableGroForIfaces?: string;
   /**
   * BPFDisableUnprivileged, if enabled, Felix sets the kernel.unprivileged_bpf_disabled sysctl to disable unprivileged use of BPF. This ensures that unprivileged users cannot access Calico's BPF maps and cannot insert their own BPF programs to interfere with Calico's. [Default: true]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_disable_unprivileged DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_disable_unprivileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_disable_unprivileged DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_disable_unprivileged}
   */
   readonly bpfDisableUnprivileged?: boolean | cdktf.IResolvable;
   /**
   * BPFDSROptoutCIDRs is a list of CIDRs which are excluded from DSR. That is, clients in those CIDRs will accesses nodeports as if BPFExternalServiceMode was set to Tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_dsr_optout_cidrs DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_dsr_optout_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_dsr_optout_cidrs DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_dsr_optout_cidrs}
   */
   readonly bpfDsrOptoutCidrs?: string[];
   /**
   * BPFEnabled, if enabled Felix will use the BPF dataplane. [Default: false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_enabled}
   */
   readonly bpfEnabled?: boolean | cdktf.IResolvable;
   /**
   * BPFEnforceRPF enforce strict RPF on all host interfaces with BPF programs regardless of what is the per-interfaces or global setting. Possible values are Disabled, Strict or Loose. [Default: Loose]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_enforce_rpf DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_enforce_rpf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_enforce_rpf DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_enforce_rpf}
   */
   readonly bpfEnforceRpf?: string;
   /**
   * BPFExcludeCIDRsFromNAT is a list of CIDRs that are to be excluded from NAT resolution so that host can handle them. A typical usecase is node local DNS cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_exclude_cidrs_from_nat DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_exclude_cidrs_from_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_exclude_cidrs_from_nat DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_exclude_cidrs_from_nat}
   */
   readonly bpfExcludeCidrsFromNat?: string[];
   /**
   * BPFExtToServiceConnmark in BPF mode, control a 32bit mark that is set on connections from an external client to a local service. This mark allows us to control how packets of that connection are routed within the host and how is routing interpreted by RPF check. [Default: 0]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_ext_to_service_connmark DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_ext_to_service_connmark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_ext_to_service_connmark DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_ext_to_service_connmark}
   */
   readonly bpfExtToServiceConnmark?: number;
   /**
   * BPFExternalServiceMode in BPF mode, controls how connections from outside the cluster to services (node ports and cluster IPs) are forwarded to remote workloads. If set to 'Tunnel' then both request and response traffic is tunneled to the remote node. If set to 'DSR', the request traffic is tunneled but the response traffic is sent directly from the remote node. In 'DSR' mode, the remote node appears to use the IP of the ingress node; this requires a permissive L2 network. [Default: Tunnel]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_external_service_mode DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_external_service_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_external_service_mode DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_external_service_mode}
   */
   readonly bpfExternalServiceMode?: string;
   /**
   * BPFForceTrackPacketsFromIfaces in BPF mode, forces traffic from these interfaces to skip Calico's iptables NOTRACK rule, allowing traffic from those interfaces to be tracked by Linux conntrack. Should only be used for interfaces that are not used for the Calico fabric. For example, a docker bridge device for non-Calico-networked containers. [Default: docker+]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_force_track_packets_from_ifaces DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_force_track_packets_from_ifaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_force_track_packets_from_ifaces DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_force_track_packets_from_ifaces}
   */
   readonly bpfForceTrackPacketsFromIfaces?: string[];
   /**
   * BPFHostConntrackBypass Controls whether to bypass Linux conntrack in BPF mode for workloads and services. [Default: true - bypass Linux conntrack]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_host_conntrack_bypass DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_host_conntrack_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_host_conntrack_bypass DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_host_conntrack_bypass}
   */
   readonly bpfHostConntrackBypass?: boolean | cdktf.IResolvable;
   /**
   * BPFHostNetworkedNATWithoutCTLB when in BPF mode, controls whether Felix does a NAT without CTLB. This along with BPFConnectTimeLoadBalancing determines the CTLB behavior. [Default: Enabled]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_host_networked_nat_without_ctlb DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_host_networked_nat_without_ctlb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_host_networked_nat_without_ctlb DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_host_networked_nat_without_ctlb}
   */
   readonly bpfHostNetworkedNatWithoutCtlb?: string;
   /**
   * BPFKubeProxyEndpointSlicesEnabled is deprecated and has no effect. BPF kube-proxy always accepts endpoint slices. This option will be removed in the next release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_kube_proxy_endpoint_slices_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_kube_proxy_endpoint_slices_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_kube_proxy_endpoint_slices_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_kube_proxy_endpoint_slices_enabled}
   */
   readonly bpfKubeProxyEndpointSlicesEnabled?: boolean | cdktf.IResolvable;
   /**
   * BPFKubeProxyIptablesCleanupEnabled, if enabled in BPF mode, Felix will proactively clean up the upstream Kubernetes kube-proxy's iptables chains. Should only be enabled if kube-proxy is not running. [Default: true]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_kube_proxy_iptables_cleanup_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_kube_proxy_iptables_cleanup_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_kube_proxy_iptables_cleanup_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_kube_proxy_iptables_cleanup_enabled}
   */
   readonly bpfKubeProxyIptablesCleanupEnabled?: boolean | cdktf.IResolvable;
   /**
   * BPFKubeProxyMinSyncPeriod, in BPF mode, controls the minimum time between updates to the dataplane for Felix's embedded kube-proxy. Lower values give reduced set-up latency. Higher values reduce Felix CPU usage by batching up more work. [Default: 1s]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_kube_proxy_min_sync_period DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_kube_proxy_min_sync_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_kube_proxy_min_sync_period DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_kube_proxy_min_sync_period}
   */
   readonly bpfKubeProxyMinSyncPeriod?: string;
   /**
   * BPFL3IfacePattern is a regular expression that allows to list tunnel devices like wireguard or vxlan (i.e., L3 devices) in addition to BPFDataIfacePattern. That is, tunnel interfaces not created by Calico, that Calico workload traffic flows over as well as any interfaces that handle incoming traffic to nodeports and services from outside the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_l3_iface_pattern DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_l3_iface_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_l3_iface_pattern DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_l3_iface_pattern}
   */
   readonly bpfL3IfacePattern?: string;
   /**
   * BPFLogFilters is a map of key=values where the value is a pcap filter expression and the key is an interface name with 'all' denoting all interfaces, 'weps' all workload endpoints and 'heps' all host endpoints. When specified as an env var, it accepts a comma-separated list of key=values. [Default: unset - means all debug logs are emitted]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_log_filters DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_log_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_log_filters DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_log_filters}
   */
   readonly bpfLogFilters?: { [key: string]: string };
   /**
   * BPFLogLevel controls the log level of the BPF programs when in BPF dataplane mode. One of 'Off', 'Info', or 'Debug'. The logs are emitted to the BPF trace pipe, accessible with the command 'tc exec bpf debug'. [Default: Off].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_log_level DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_log_level DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_log_level}
   */
   readonly bpfLogLevel?: string;
   /**
   * BPFMapSizeConntrack sets the size for the conntrack map. This map must be large enough to hold an entry for each active connection. Warning: changing the size of the conntrack map can cause disruption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_map_size_conntrack DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_map_size_conntrack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_map_size_conntrack DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_map_size_conntrack}
   */
   readonly bpfMapSizeConntrack?: number;
   /**
   * BPFMapSizeIfState sets the size for ifstate map. The ifstate map must be large enough to hold an entry for each device (host + workloads) on a host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_map_size_if_state DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_map_size_if_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_map_size_if_state DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_map_size_if_state}
   */
   readonly bpfMapSizeIfState?: number;
   /**
   * BPFMapSizeIPSets sets the size for ipsets map. The IP sets map must be large enough to hold an entry for each endpoint matched by every selector in the source/destination matches in network policy. Selectors such as 'all()' can result in large numbers of entries (one entry per endpoint in that case).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_map_size_ip_sets DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_map_size_ip_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_map_size_ip_sets DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_map_size_ip_sets}
   */
   readonly bpfMapSizeIpSets?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_map_size_nat_affinity DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_map_size_nat_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_map_size_nat_affinity DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_map_size_nat_affinity}
   */
   readonly bpfMapSizeNatAffinity?: number;
   /**
   * BPFMapSizeNATBackend sets the size for nat back end map. This is the total number of endpoints. This is mostly more than the size of the number of services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_map_size_nat_backend DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_map_size_nat_backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_map_size_nat_backend DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_map_size_nat_backend}
   */
   readonly bpfMapSizeNatBackend?: number;
   /**
   * BPFMapSizeNATFrontend sets the size for nat front end map. FrontendMap should be large enough to hold an entry for each nodeport, external IP and each port in each service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_map_size_nat_frontend DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_map_size_nat_frontend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_map_size_nat_frontend DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_map_size_nat_frontend}
   */
   readonly bpfMapSizeNatFrontend?: number;
   /**
   * BPFMapSizeRoute sets the size for the routes map. The routes map should be large enough to hold one entry per workload and a handful of entries per host (enough to cover its own IPs and tunnel IPs).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_map_size_route DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_map_size_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_map_size_route DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_map_size_route}
   */
   readonly bpfMapSizeRoute?: number;
   /**
   * BPFPolicyDebugEnabled when true, Felix records detailed information about the BPF policy programs, which can be examined with the calico-bpf command-line tool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_policy_debug_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_policy_debug_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_policy_debug_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_policy_debug_enabled}
   */
   readonly bpfPolicyDebugEnabled?: boolean | cdktf.IResolvable;
   /**
   * BPFPSNATPorts sets the range from which we randomly pick a port if there is a source port collision. This should be within the ephemeral range as defined by RFC 6056 (1024–65535) and preferably outside the ephemeral ranges used by common operating systems. Linux uses 32768–60999, while others mostly use the IANA defined range 49152–65535. It is not necessarily a problem if this range overlaps with the operating systems. Both ends of the range are inclusive. [Default: 20000:29999]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_psnat_ports DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_psnat_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_psnat_ports DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_psnat_ports}
   */
   readonly bpfPsnatPorts?: string;
   /**
   * BPFRedirectToPeer controls which whether it is allowed to forward straight to the peer side of the workload devices. It is allowed for any host L2 devices by default (L2Only), but it breaks TCP dump on the host side of workload device as it bypasses it on ingress. Value of Enabled also allows redirection from L3 host devices like IPIP tunnel or Wireguard directly to the peer side of the workload's device. This makes redirection faster, however, it breaks tools like tcpdump on the peer side. Use Enabled with caution. [Default: L2Only]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_redirect_to_peer DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_redirect_to_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#bpf_redirect_to_peer DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#bpf_redirect_to_peer}
   */
   readonly bpfRedirectToPeer?: string;
   /**
   * ChainInsertMode controls whether Felix hooks the kernel's top-level iptables chains by inserting a rule at the top of the chain or by appending a rule at the bottom. insert is the safe default since it prevents Calico's rules from being bypassed. If you switch to append mode, be sure that the other rules in the chains signal acceptance by falling through to the Calico rules, otherwise the Calico policy will be bypassed. [Default: insert]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#chain_insert_mode DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#chain_insert_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#chain_insert_mode DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#chain_insert_mode}
   */
   readonly chainInsertMode?: string;
   /**
   * DataplaneDriver filename of the external dataplane driver to use. Only used if UseInternalDataplaneDriver is set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#dataplane_driver DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#dataplane_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#dataplane_driver DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#dataplane_driver}
   */
   readonly dataplaneDriver?: string;
   /**
   * DataplaneWatchdogTimeout is the readiness/liveness timeout used for Felix's (internal) dataplane driver. Increase this value if you experience spurious non-ready or non-live events when Felix is under heavy load. Decrease the value to get felix to report non-live or non-ready more quickly. [Default: 90s] Deprecated: replaced by the generic HealthTimeoutOverrides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#dataplane_watchdog_timeout DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#dataplane_watchdog_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#dataplane_watchdog_timeout DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#dataplane_watchdog_timeout}
   */
   readonly dataplaneWatchdogTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#debug_disable_log_dropping DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#debug_disable_log_dropping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#debug_disable_log_dropping DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#debug_disable_log_dropping}
   */
   readonly debugDisableLogDropping?: boolean | cdktf.IResolvable;
   /**
   * DebugHost is the host IP or hostname to bind the debug port to. Only used if DebugPort is set. [Default:localhost]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#debug_host DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#debug_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#debug_host DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#debug_host}
   */
   readonly debugHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#debug_memory_profile_path DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#debug_memory_profile_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#debug_memory_profile_path DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#debug_memory_profile_path}
   */
   readonly debugMemoryProfilePath?: string;
   /**
   * DebugPort if set, enables Felix's debug HTTP port, which allows memory and CPU profiles to be retrieved. The debug port is not secure, it should not be exposed to the internet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#debug_port DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#debug_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#debug_port DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#debug_port}
   */
   readonly debugPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#debug_simulate_calc_graph_hang_after DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#debug_simulate_calc_graph_hang_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#debug_simulate_calc_graph_hang_after DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#debug_simulate_calc_graph_hang_after}
   */
   readonly debugSimulateCalcGraphHangAfter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#debug_simulate_dataplane_apply_delay DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#debug_simulate_dataplane_apply_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#debug_simulate_dataplane_apply_delay DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#debug_simulate_dataplane_apply_delay}
   */
   readonly debugSimulateDataplaneApplyDelay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#debug_simulate_dataplane_hang_after DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#debug_simulate_dataplane_hang_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#debug_simulate_dataplane_hang_after DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#debug_simulate_dataplane_hang_after}
   */
   readonly debugSimulateDataplaneHangAfter?: string;
   /**
   * DefaultEndpointToHostAction controls what happens to traffic that goes from a workload endpoint to the host itself (after the traffic hits the endpoint egress policy). By default Calico blocks traffic from workload endpoints to the host itself with an iptables 'DROP' action. If you want to allow some or all traffic from endpoint to host, set this parameter to RETURN or ACCEPT. Use RETURN if you have your own rules in the iptables 'INPUT' chain; Calico will insert its rules at the top of that chain, then 'RETURN' packets to the 'INPUT' chain once it has completed processing workload endpoint egress policy. Use ACCEPT to unconditionally accept packets from workloads after processing workload endpoint egress policy. [Default: Drop]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#default_endpoint_to_host_action DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#default_endpoint_to_host_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#default_endpoint_to_host_action DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#default_endpoint_to_host_action}
   */
   readonly defaultEndpointToHostAction?: string;
   /**
   * This defines the route protocol added to programmed device routes, by default this will be RTPROT_BOOT when left blank.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#device_route_protocol DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#device_route_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#device_route_protocol DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#device_route_protocol}
   */
   readonly deviceRouteProtocol?: number;
   /**
   * This is the IPv4 source address to use on programmed device routes. By default the source address is left blank, leaving the kernel to choose the source address used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#device_route_source_address DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#device_route_source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#device_route_source_address DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#device_route_source_address}
   */
   readonly deviceRouteSourceAddress?: string;
   /**
   * This is the IPv6 source address to use on programmed device routes. By default the source address is left blank, leaving the kernel to choose the source address used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#device_route_source_address_i_pv6 DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#device_route_source_address_i_pv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#device_route_source_address_i_pv6 DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#device_route_source_address_i_pv6}
   */
   readonly deviceRouteSourceAddressIPv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#disable_conntrack_invalid_check DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#disable_conntrack_invalid_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#disable_conntrack_invalid_check DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#disable_conntrack_invalid_check}
   */
   readonly disableConntrackInvalidCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#endpoint_reporting_delay DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#endpoint_reporting_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#endpoint_reporting_delay DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#endpoint_reporting_delay}
   */
   readonly endpointReportingDelay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#endpoint_reporting_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#endpoint_reporting_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#endpoint_reporting_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#endpoint_reporting_enabled}
   */
   readonly endpointReportingEnabled?: boolean | cdktf.IResolvable;
   /**
   * EndpointStatusPathPrefix is the path to the directory where endpoint status will be written. Endpoint status file reporting is disabled if field is left empty. Chosen directory should match the directory used by the CNI for PodStartupDelay. [Default: '']
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#endpoint_status_path_prefix DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#endpoint_status_path_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#endpoint_status_path_prefix DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#endpoint_status_path_prefix}
   */
   readonly endpointStatusPathPrefix?: string;
   /**
   * ExternalNodesCIDRList is a list of CIDR's of external-non-calico-nodes which may source tunnel traffic and have the tunneled traffic be accepted at calico nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#external_nodes_list DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#external_nodes_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#external_nodes_list DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#external_nodes_list}
   */
   readonly externalNodesList?: string[];
   /**
   * FailsafeInboundHostPorts is a list of PortProto struct objects including UDP/TCP/SCTP ports and CIDRs that Felix will allow incoming traffic to host endpoints on irrespective of the security policy. This is useful to avoid accidentally cutting off a host with incorrect configuration. For backwards compatibility, if the protocol is not specified, it defaults to 'tcp'. If a CIDR is not specified, it will allow traffic from all addresses. To disable all inbound host ports, use the value '[]'. The default value allows ssh access, DHCP, BGP, etcd and the Kubernetes API. [Default: tcp:22, udp:68, tcp:179, tcp:2379, tcp:2380, tcp:5473, tcp:6443, tcp:6666, tcp:6667 ]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#failsafe_inbound_host_ports DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#failsafe_inbound_host_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#failsafe_inbound_host_ports DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#failsafe_inbound_host_ports}
   */
   readonly failsafeInboundHostPorts?: DataK8SCrdProjectcalicoOrgFelixConfigurationV1ManifestSpecFailsafeInboundHostPorts[] | cdktf.IResolvable;
   /**
   * FailsafeOutboundHostPorts is a list of List of PortProto struct objects including UDP/TCP/SCTP ports and CIDRs that Felix will allow outgoing traffic from host endpoints to irrespective of the security policy. This is useful to avoid accidentally cutting off a host with incorrect configuration. For backwards compatibility, if the protocol is not specified, it defaults to 'tcp'. If a CIDR is not specified, it will allow traffic from all addresses. To disable all outbound host ports, use the value '[]'. The default value opens etcd's standard ports to ensure that Felix does not get cut off from etcd as well as allowing DHCP, DNS, BGP and the Kubernetes API. [Default: udp:53, udp:67, tcp:179, tcp:2379, tcp:2380, tcp:5473, tcp:6443, tcp:6666, tcp:6667 ]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#failsafe_outbound_host_ports DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#failsafe_outbound_host_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#failsafe_outbound_host_ports DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#failsafe_outbound_host_ports}
   */
   readonly failsafeOutboundHostPorts?: DataK8SCrdProjectcalicoOrgFelixConfigurationV1ManifestSpecFailsafeOutboundHostPorts[] | cdktf.IResolvable;
   /**
   * FeatureDetectOverride is used to override feature detection based on auto-detected platform capabilities. Values are specified in a comma separated list with no spaces, example; 'SNATFullyRandom=true,MASQFullyRandom=false,RestoreSupportsLock='. 'true' or 'false' will force the feature, empty or omitted values are auto-detected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#feature_detect_override DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#feature_detect_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#feature_detect_override DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#feature_detect_override}
   */
   readonly featureDetectOverride?: string;
   /**
   * FeatureGates is used to enable or disable tech-preview Calico features. Values are specified in a comma separated list with no spaces, example; 'BPFConnectTimeLoadBalancingWorkaround=enabled,XyZ=false'. This is used to enable features that are not fully production ready.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#feature_gates DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#feature_gates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#feature_gates DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#feature_gates}
   */
   readonly featureGates?: string;
   /**
   * FloatingIPs configures whether or not Felix will program non-OpenStack floating IP addresses. (OpenStack-derived floating IPs are always programmed, regardless of this setting.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#floating_i_ps DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#floating_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#floating_i_ps DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#floating_i_ps}
   */
   readonly floatingIPs?: string;
   /**
   * GenericXDPEnabled enables Generic XDP so network cards that don't support XDP offload or driver modes can use XDP. This is not recommended since it doesn't provide better performance than iptables. [Default: false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#generic_xdp_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#generic_xdp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#generic_xdp_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#generic_xdp_enabled}
   */
   readonly genericXdpEnabled?: boolean | cdktf.IResolvable;
   /**
   * GoGCThreshold Sets the Go runtime's garbage collection threshold. I.e. the percentage that the heap is allowed to grow before garbage collection is triggered. In general, doubling the value halves the CPU time spent doing GC, but it also doubles peak GC memory overhead. A special value of -1 can be used to disable GC entirely; this should only be used in conjunction with the GoMemoryLimitMB setting. This setting is overridden by the GOGC environment variable. [Default: 40]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#go_gc_threshold DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#go_gc_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#go_gc_threshold DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#go_gc_threshold}
   */
   readonly goGcThreshold?: number;
   /**
   * GoMaxProcs sets the maximum number of CPUs that the Go runtime will use concurrently. A value of -1 means 'use the system default'; typically the number of real CPUs on the system. this setting is overridden by the GOMAXPROCS environment variable. [Default: -1]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#go_max_procs DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#go_max_procs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#go_max_procs DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#go_max_procs}
   */
   readonly goMaxProcs?: number;
   /**
   * GoMemoryLimitMB sets a (soft) memory limit for the Go runtime in MB. The Go runtime will try to keep its memory usage under the limit by triggering GC as needed. To avoid thrashing, it will exceed the limit if GC starts to take more than 50% of the process's CPU time. A value of -1 disables the memory limit. Note that the memory limit, if used, must be considerably less than any hard resource limit set at the container or pod level. This is because felix is not the only process that must run in the container or pod. This setting is overridden by the GOMEMLIMIT environment variable. [Default: -1]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#go_memory_limit_mb DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#go_memory_limit_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#go_memory_limit_mb DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#go_memory_limit_mb}
   */
   readonly goMemoryLimitMb?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#health_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#health_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#health_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#health_enabled}
   */
   readonly healthEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#health_host DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#health_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#health_host DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#health_host}
   */
   readonly healthHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#health_port DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#health_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#health_port DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#health_port}
   */
   readonly healthPort?: number;
   /**
   * HealthTimeoutOverrides allows the internal watchdog timeouts of individual subcomponents to be overridden. This is useful for working around 'false positive' liveness timeouts that can occur in particularly stressful workloads or if CPU is constrained. For a list of active subcomponents, see Felix's logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#health_timeout_overrides DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#health_timeout_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#health_timeout_overrides DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#health_timeout_overrides}
   */
   readonly healthTimeoutOverrides?: DataK8SCrdProjectcalicoOrgFelixConfigurationV1ManifestSpecHealthTimeoutOverrides[] | cdktf.IResolvable;
   /**
   * InterfaceExclude is a comma-separated list of interfaces that Felix should exclude when monitoring for host endpoints. The default value ensures that Felix ignores Kubernetes' IPVS dummy interface, which is used internally by kube-proxy. If you want to exclude multiple interface names using a single value, the list supports regular expressions. For regular expressions you must wrap the value with '/'. For example having values '/^kube/,veth1' will exclude all interfaces that begin with 'kube' and also the interface 'veth1'. [Default: kube-ipvs0]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#interface_exclude DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#interface_exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#interface_exclude DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#interface_exclude}
   */
   readonly interfaceExclude?: string;
   /**
   * InterfacePrefix is the interface name prefix that identifies workload endpoints and so distinguishes them from host endpoint interfaces. Note: in environments other than bare metal, the orchestrators configure this appropriately. For example our Kubernetes and Docker integrations set the 'cali' value, and our OpenStack integration sets the 'tap' value. [Default: cali]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#interface_prefix DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#interface_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#interface_prefix DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#interface_prefix}
   */
   readonly interfacePrefix?: string;
   /**
   * InterfaceRefreshInterval is the period at which Felix rescans local interfaces to verify their state. The rescan can be disabled by setting the interval to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#interface_refresh_interval DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#interface_refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#interface_refresh_interval DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#interface_refresh_interval}
   */
   readonly interfaceRefreshInterval?: string;
   /**
   * IPForwarding controls whether Felix sets the host sysctls to enable IP forwarding. IP forwarding is required when using Calico for workload networking. This should only be disabled on hosts where Calico is used for host protection. In BPF mode, due to a kernel interaction, either IPForwarding must be enabled or BPFEnforceRPF must be disabled. [Default: Enabled]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#ip_forwarding DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#ip_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#ip_forwarding DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#ip_forwarding}
   */
   readonly ipForwarding?: string;
   /**
   * IPIPEnabled overrides whether Felix should configure an IPIP interface on the host. Optional as Felix determines this based on the existing IP pools. [Default: nil (unset)]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#ipip_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#ipip_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#ipip_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#ipip_enabled}
   */
   readonly ipipEnabled?: boolean | cdktf.IResolvable;
   /**
   * IPIPMTU is the MTU to set on the tunnel device. See Configuring MTU [Default: 1440]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#ipip_mtu DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#ipip_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#ipip_mtu DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#ipip_mtu}
   */
   readonly ipipMtu?: number;
   /**
   * IpsetsRefreshInterval is the period at which Felix re-checks all iptables state to ensure that no other process has accidentally broken Calico's rules. Set to 0 to disable iptables refresh. [Default: 90s]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#ipsets_refresh_interval DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#ipsets_refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#ipsets_refresh_interval DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#ipsets_refresh_interval}
   */
   readonly ipsetsRefreshInterval?: string;
   /**
   * IptablesBackend specifies which backend of iptables will be used. The default is Auto.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#iptables_backend DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#iptables_backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#iptables_backend DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#iptables_backend}
   */
   readonly iptablesBackend?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#iptables_filter_allow_action DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#iptables_filter_allow_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#iptables_filter_allow_action DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#iptables_filter_allow_action}
   */
   readonly iptablesFilterAllowAction?: string;
   /**
   * IptablesFilterDenyAction controls what happens to traffic that is denied by network policy. By default Calico blocks traffic with an iptables 'DROP' action. If you want to use 'REJECT' action instead you can configure it in here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#iptables_filter_deny_action DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#iptables_filter_deny_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#iptables_filter_deny_action DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#iptables_filter_deny_action}
   */
   readonly iptablesFilterDenyAction?: string;
   /**
   * IptablesLockFilePath is the location of the iptables lock file. You may need to change this if the lock file is not in its standard location (for example if you have mapped it into Felix's container at a different path). [Default: /run/xtables.lock]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#iptables_lock_file_path DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#iptables_lock_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#iptables_lock_file_path DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#iptables_lock_file_path}
   */
   readonly iptablesLockFilePath?: string;
   /**
   * IptablesLockProbeInterval is the time that Felix will wait between attempts to acquire the iptables lock if it is not available. Lower values make Felix more responsive when the lock is contended, but use more CPU. [Default: 50ms]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#iptables_lock_probe_interval DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#iptables_lock_probe_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#iptables_lock_probe_interval DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#iptables_lock_probe_interval}
   */
   readonly iptablesLockProbeInterval?: string;
   /**
   * IptablesLockTimeout is the time that Felix will wait for the iptables lock, or 0, to disable. To use this feature, Felix must share the iptables lock file with all other processes that also take the lock. When running Felix inside a container, this requires the /run directory of the host to be mounted into the calico/node or calico/felix container. [Default: 0s disabled]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#iptables_lock_timeout DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#iptables_lock_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#iptables_lock_timeout DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#iptables_lock_timeout}
   */
   readonly iptablesLockTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#iptables_mangle_allow_action DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#iptables_mangle_allow_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#iptables_mangle_allow_action DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#iptables_mangle_allow_action}
   */
   readonly iptablesMangleAllowAction?: string;
   /**
   * IptablesMarkMask is the mask that Felix selects its IPTables Mark bits from. Should be a 32 bit hexadecimal number with at least 8 bits set, none of which clash with any other mark bits in use on the system. [Default: 0xff000000]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#iptables_mark_mask DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#iptables_mark_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#iptables_mark_mask DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#iptables_mark_mask}
   */
   readonly iptablesMarkMask?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#iptables_nat_outgoing_interface_filter DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#iptables_nat_outgoing_interface_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#iptables_nat_outgoing_interface_filter DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#iptables_nat_outgoing_interface_filter}
   */
   readonly iptablesNatOutgoingInterfaceFilter?: string;
   /**
   * IptablesPostWriteCheckInterval is the period after Felix has done a write to the dataplane that it schedules an extra read back in order to check the write was not clobbered by another process. This should only occur if another application on the system doesn't respect the iptables lock. [Default: 1s]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#iptables_post_write_check_interval DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#iptables_post_write_check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#iptables_post_write_check_interval DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#iptables_post_write_check_interval}
   */
   readonly iptablesPostWriteCheckInterval?: string;
   /**
   * IptablesRefreshInterval is the period at which Felix re-checks the IP sets in the dataplane to ensure that no other process has accidentally broken Calico's rules. Set to 0 to disable IP sets refresh. Note: the default for this value is lower than the other refresh intervals as a workaround for a Linux kernel bug that was fixed in kernel version 4.11. If you are using v4.11 or greater you may want to set this to, a higher value to reduce Felix CPU usage. [Default: 10s]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#iptables_refresh_interval DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#iptables_refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#iptables_refresh_interval DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#iptables_refresh_interval}
   */
   readonly iptablesRefreshInterval?: string;
   /**
   * IPv6Support controls whether Felix enables support for IPv6 (if supported by the in-use dataplane).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#ipv6_support DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#ipv6_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#ipv6_support DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#ipv6_support}
   */
   readonly ipv6Support?: boolean | cdktf.IResolvable;
   /**
   * KubeNodePortRanges holds list of port ranges used for service node ports. Only used if felix detects kube-proxy running in ipvs mode. Felix uses these ranges to separate host and workload traffic. [Default: 30000:32767].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#kube_node_port_ranges DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#kube_node_port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#kube_node_port_ranges DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#kube_node_port_ranges}
   */
   readonly kubeNodePortRanges?: string[];
   /**
   * LogDebugFilenameRegex controls which source code files have their Debug log output included in the logs. Only logs from files with names that match the given regular expression are included. The filter only applies to Debug level logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#log_debug_filename_regex DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#log_debug_filename_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#log_debug_filename_regex DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#log_debug_filename_regex}
   */
   readonly logDebugFilenameRegex?: string;
   /**
   * LogFilePath is the full path to the Felix log. Set to none to disable file logging. [Default: /var/log/calico/felix.log]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#log_file_path DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#log_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#log_file_path DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#log_file_path}
   */
   readonly logFilePath?: string;
   /**
   * LogPrefix is the log prefix that Felix uses when rendering LOG rules. [Default: calico-packet]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#log_prefix DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#log_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#log_prefix DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#log_prefix}
   */
   readonly logPrefix?: string;
   /**
   * LogSeverityFile is the log severity above which logs are sent to the log file. [Default: Info]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#log_severity_file DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#log_severity_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#log_severity_file DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#log_severity_file}
   */
   readonly logSeverityFile?: string;
   /**
   * LogSeverityScreen is the log severity above which logs are sent to the stdout. [Default: Info]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#log_severity_screen DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#log_severity_screen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#log_severity_screen DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#log_severity_screen}
   */
   readonly logSeverityScreen?: string;
   /**
   * LogSeveritySys is the log severity above which logs are sent to the syslog. Set to None for no logging to syslog. [Default: Info]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#log_severity_sys DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#log_severity_sys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#log_severity_sys DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#log_severity_sys}
   */
   readonly logSeveritySys?: string;
   /**
   * MaxIpsetSize is the maximum number of IP addresses that can be stored in an IP set. Not applicable if using the nftables backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#max_ipset_size DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#max_ipset_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#max_ipset_size DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#max_ipset_size}
   */
   readonly maxIpsetSize?: number;
   /**
   * MetadataAddr is the IP address or domain name of the server that can answer VM queries for cloud-init metadata. In OpenStack, this corresponds to the machine running nova-api (or in Ubuntu, nova-api-metadata). A value of none (case-insensitive) means that Felix should not set up any NAT rule for the metadata path. [Default: 127.0.0.1]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#metadata_addr DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#metadata_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#metadata_addr DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#metadata_addr}
   */
   readonly metadataAddr?: string;
   /**
   * MetadataPort is the port of the metadata server. This, combined with global.MetadataAddr (if not 'None'), is used to set up a NAT rule, from 169.254.169.254:80 to MetadataAddr:MetadataPort. In most cases this should not need to be changed [Default: 8775].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#metadata_port DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#metadata_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#metadata_port DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#metadata_port}
   */
   readonly metadataPort?: number;
   /**
   * MTUIfacePattern is a regular expression that controls which interfaces Felix should scan in order to calculate the host's MTU. This should not match workload interfaces (usually named cali...).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#mtu_iface_pattern DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#mtu_iface_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#mtu_iface_pattern DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#mtu_iface_pattern}
   */
   readonly mtuIfacePattern?: string;
   /**
   * NATOutgoingAddress specifies an address to use when performing source NAT for traffic in a natOutgoing pool that is leaving the network. By default the address used is an address on the interface the traffic is leaving on (ie it uses the iptables MASQUERADE target)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#nat_outgoing_address DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#nat_outgoing_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#nat_outgoing_address DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#nat_outgoing_address}
   */
   readonly natOutgoingAddress?: string;
   /**
   * NATPortRange specifies the range of ports that is used for port mapping when doing outgoing NAT. When unset the default behavior of the network stack is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#nat_port_range DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#nat_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#nat_port_range DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#nat_port_range}
   */
   readonly natPortRange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#netlink_timeout DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#netlink_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#netlink_timeout DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#netlink_timeout}
   */
   readonly netlinkTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#nftables_filter_allow_action DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#nftables_filter_allow_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#nftables_filter_allow_action DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#nftables_filter_allow_action}
   */
   readonly nftablesFilterAllowAction?: string;
   /**
   * FilterDenyAction controls what happens to traffic that is denied by network policy. By default Calico blocks traffic with a 'drop' action. If you want to use a 'reject' action instead you can configure it here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#nftables_filter_deny_action DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#nftables_filter_deny_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#nftables_filter_deny_action DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#nftables_filter_deny_action}
   */
   readonly nftablesFilterDenyAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#nftables_mangle_allow_action DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#nftables_mangle_allow_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#nftables_mangle_allow_action DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#nftables_mangle_allow_action}
   */
   readonly nftablesMangleAllowAction?: string;
   /**
   * MarkMask is the mask that Felix selects its nftables Mark bits from. Should be a 32 bit hexadecimal number with at least 8 bits set, none of which clash with any other mark bits in use on the system. [Default: 0xffff0000]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#nftables_mark_mask DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#nftables_mark_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#nftables_mark_mask DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#nftables_mark_mask}
   */
   readonly nftablesMarkMask?: number;
   /**
   * NFTablesMode configures nftables support in Felix. [Default: Disabled]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#nftables_mode DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#nftables_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#nftables_mode DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#nftables_mode}
   */
   readonly nftablesMode?: string;
   /**
   * NftablesRefreshInterval controls the interval at which Felix periodically refreshes the nftables rules. [Default: 90s]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#nftables_refresh_interval DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#nftables_refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#nftables_refresh_interval DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#nftables_refresh_interval}
   */
   readonly nftablesRefreshInterval?: string;
   /**
   * OpenstackRegion is the name of the region that a particular Felix belongs to. In a multi-region Calico/OpenStack deployment, this must be configured somehow for each Felix (here in the datamodel, or in felix.cfg or the environment on each compute node), and must match the [calico] openstack_region value configured in neutron.conf on each node. [Default: Empty]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#openstack_region DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#openstack_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#openstack_region DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#openstack_region}
   */
   readonly openstackRegion?: string;
   /**
   * PolicySyncPathPrefix is used to by Felix to communicate policy changes to external services, like Application layer policy. [Default: Empty]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#policy_sync_path_prefix DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#policy_sync_path_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#policy_sync_path_prefix DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#policy_sync_path_prefix}
   */
   readonly policySyncPathPrefix?: string;
   /**
   * PrometheusGoMetricsEnabled disables Go runtime metrics collection, which the Prometheus client does by default, when set to false. This reduces the number of metrics reported, reducing Prometheus load. [Default: true]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#prometheus_go_metrics_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#prometheus_go_metrics_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#prometheus_go_metrics_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#prometheus_go_metrics_enabled}
   */
   readonly prometheusGoMetricsEnabled?: boolean | cdktf.IResolvable;
   /**
   * PrometheusMetricsEnabled enables the Prometheus metrics server in Felix if set to true. [Default: false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#prometheus_metrics_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#prometheus_metrics_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#prometheus_metrics_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#prometheus_metrics_enabled}
   */
   readonly prometheusMetricsEnabled?: boolean | cdktf.IResolvable;
   /**
   * PrometheusMetricsHost is the host that the Prometheus metrics server should bind to. [Default: empty]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#prometheus_metrics_host DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#prometheus_metrics_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#prometheus_metrics_host DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#prometheus_metrics_host}
   */
   readonly prometheusMetricsHost?: string;
   /**
   * PrometheusMetricsPort is the TCP port that the Prometheus metrics server should bind to. [Default: 9091]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#prometheus_metrics_port DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#prometheus_metrics_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#prometheus_metrics_port DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#prometheus_metrics_port}
   */
   readonly prometheusMetricsPort?: number;
   /**
   * PrometheusProcessMetricsEnabled disables process metrics collection, which the Prometheus client does by default, when set to false. This reduces the number of metrics reported, reducing Prometheus load. [Default: true]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#prometheus_process_metrics_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#prometheus_process_metrics_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#prometheus_process_metrics_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#prometheus_process_metrics_enabled}
   */
   readonly prometheusProcessMetricsEnabled?: boolean | cdktf.IResolvable;
   /**
   * PrometheusWireGuardMetricsEnabled disables wireguard metrics collection, which the Prometheus client does by default, when set to false. This reduces the number of metrics reported, reducing Prometheus load. [Default: true]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#prometheus_wire_guard_metrics_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#prometheus_wire_guard_metrics_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#prometheus_wire_guard_metrics_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#prometheus_wire_guard_metrics_enabled}
   */
   readonly prometheusWireGuardMetricsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to remove device routes that have not been programmed by Felix. Disabling this will allow external applications to also add device routes. This is enabled by default which means we will remove externally added routes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#remove_external_routes DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#remove_external_routes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#remove_external_routes DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#remove_external_routes}
   */
   readonly removeExternalRoutes?: boolean | cdktf.IResolvable;
   /**
   * ReportingInterval is the interval at which Felix reports its status into the datastore or 0 to disable. Must be non-zero in OpenStack deployments. [Default: 30s]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#reporting_interval DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#reporting_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#reporting_interval DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#reporting_interval}
   */
   readonly reportingInterval?: string;
   /**
   * ReportingTTL is the time-to-live setting for process-wide status reports. [Default: 90s]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#reporting_ttl DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#reporting_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#reporting_ttl DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#reporting_ttl}
   */
   readonly reportingTtl?: string;
   /**
   * RouteRefreshInterval is the period at which Felix re-checks the routes in the dataplane to ensure that no other process has accidentally broken Calico's rules. Set to 0 to disable route refresh. [Default: 90s]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#route_refresh_interval DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#route_refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#route_refresh_interval DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#route_refresh_interval}
   */
   readonly routeRefreshInterval?: string;
   /**
   * RouteSource configures where Felix gets its routing information. - WorkloadIPs: use workload endpoints to construct routes. - CalicoIPAM: the default - use IPAM data to construct routes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#route_source DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#route_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#route_source DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#route_source}
   */
   readonly routeSource?: string;
   /**
   * RouteSyncDisabled will disable all operations performed on the route table. Set to true to run in network-policy mode only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#route_sync_disabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#route_sync_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#route_sync_disabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#route_sync_disabled}
   */
   readonly routeSyncDisabled?: boolean | cdktf.IResolvable;
   /**
   * Deprecated in favor of RouteTableRanges. Calico programs additional Linux route tables for various purposes. RouteTableRange specifies the indices of the route tables that Calico should use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#route_table_range DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#route_table_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#route_table_range DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#route_table_range}
   */
   readonly routeTableRange?: DataK8SCrdProjectcalicoOrgFelixConfigurationV1ManifestSpecRouteTableRange;
   /**
   * Calico programs additional Linux route tables for various purposes. RouteTableRanges specifies a set of table index ranges that Calico should use. Deprecates'RouteTableRange', overrides 'RouteTableRange'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#route_table_ranges DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#route_table_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#route_table_ranges DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#route_table_ranges}
   */
   readonly routeTableRanges?: DataK8SCrdProjectcalicoOrgFelixConfigurationV1ManifestSpecRouteTableRanges[] | cdktf.IResolvable;
   /**
   * When service IP advertisement is enabled, prevent routing loops to service IPs that are not in use, by dropping or rejecting packets that do not get DNAT'd by kube-proxy. Unless set to 'Disabled', in which case such routing loops continue to be allowed. [Default: Drop]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#service_loop_prevention DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#service_loop_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#service_loop_prevention DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#service_loop_prevention}
   */
   readonly serviceLoopPrevention?: string;
   /**
   * SidecarAccelerationEnabled enables experimental sidecar acceleration [Default: false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#sidecar_acceleration_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#sidecar_acceleration_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#sidecar_acceleration_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#sidecar_acceleration_enabled}
   */
   readonly sidecarAccelerationEnabled?: boolean | cdktf.IResolvable;
   /**
   * UsageReportingEnabled reports anonymous Calico version number and cluster size to projectcalico.org. Logs warnings returned by the usage server. For example, if a significant security vulnerability has been discovered in the version of Calico being used. [Default: true]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#usage_reporting_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#usage_reporting_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#usage_reporting_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#usage_reporting_enabled}
   */
   readonly usageReportingEnabled?: boolean | cdktf.IResolvable;
   /**
   * UsageReportingInitialDelay controls the minimum delay before Felix makes a report. [Default: 300s]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#usage_reporting_initial_delay DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#usage_reporting_initial_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#usage_reporting_initial_delay DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#usage_reporting_initial_delay}
   */
   readonly usageReportingInitialDelay?: string;
   /**
   * UsageReportingInterval controls the interval at which Felix makes reports. [Default: 86400s]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#usage_reporting_interval DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#usage_reporting_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#usage_reporting_interval DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#usage_reporting_interval}
   */
   readonly usageReportingInterval?: string;
   /**
   * UseInternalDataplaneDriver, if true, Felix will use its internal dataplane programming logic. If false, it will launch an external dataplane driver and communicate with it over protobuf.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#use_internal_dataplane_driver DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#use_internal_dataplane_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#use_internal_dataplane_driver DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#use_internal_dataplane_driver}
   */
   readonly useInternalDataplaneDriver?: boolean | cdktf.IResolvable;
   /**
   * VXLANEnabled overrides whether Felix should create the VXLAN tunnel device for IPv4 VXLAN networking. Optional as Felix determines this based on the existing IP pools. [Default: nil (unset)]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#vxlan_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#vxlan_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#vxlan_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#vxlan_enabled}
   */
   readonly vxlanEnabled?: boolean | cdktf.IResolvable;
   /**
   * VXLANMTU is the MTU to set on the IPv4 VXLAN tunnel device. See Configuring MTU [Default: 1410]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#vxlan_mtu DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#vxlan_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#vxlan_mtu DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#vxlan_mtu}
   */
   readonly vxlanMtu?: number;
   /**
   * VXLANMTUV6 is the MTU to set on the IPv6 VXLAN tunnel device. See Configuring MTU [Default: 1390]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#vxlan_mtuv6 DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#vxlan_mtuv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#vxlan_mtuv6 DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#vxlan_mtuv6}
   */
   readonly vxlanMtuv6?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#vxlan_port DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#vxlan_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#vxlan_port DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#vxlan_port}
   */
   readonly vxlanPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#vxlan_vni DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#vxlan_vni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#vxlan_vni DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#vxlan_vni}
   */
   readonly vxlanVni?: number;
   /**
   * WindowsManageFirewallRules configures whether or not Felix will program Windows Firewall rules. (to allow inbound access to its own metrics ports) [Default: Disabled]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#windows_manage_firewall_rules DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#windows_manage_firewall_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#windows_manage_firewall_rules DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#windows_manage_firewall_rules}
   */
   readonly windowsManageFirewallRules?: string;
   /**
   * WireguardEnabled controls whether Wireguard is enabled for IPv4 (encapsulating IPv4 traffic over an IPv4 underlay network). [Default: false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#wireguard_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#wireguard_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#wireguard_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#wireguard_enabled}
   */
   readonly wireguardEnabled?: boolean | cdktf.IResolvable;
   /**
   * WireguardEnabledV6 controls whether Wireguard is enabled for IPv6 (encapsulating IPv6 traffic over an IPv6 underlay network). [Default: false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#wireguard_enabled_v6 DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#wireguard_enabled_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#wireguard_enabled_v6 DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#wireguard_enabled_v6}
   */
   readonly wireguardEnabledV6?: boolean | cdktf.IResolvable;
   /**
   * WireguardHostEncryptionEnabled controls whether Wireguard host-to-host encryption is enabled. [Default: false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#wireguard_host_encryption_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#wireguard_host_encryption_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#wireguard_host_encryption_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#wireguard_host_encryption_enabled}
   */
   readonly wireguardHostEncryptionEnabled?: boolean | cdktf.IResolvable;
   /**
   * WireguardInterfaceName specifies the name to use for the IPv4 Wireguard interface. [Default: wireguard.cali]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#wireguard_interface_name DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#wireguard_interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#wireguard_interface_name DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#wireguard_interface_name}
   */
   readonly wireguardInterfaceName?: string;
   /**
   * WireguardInterfaceNameV6 specifies the name to use for the IPv6 Wireguard interface. [Default: wg-v6.cali]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#wireguard_interface_name_v6 DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#wireguard_interface_name_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#wireguard_interface_name_v6 DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#wireguard_interface_name_v6}
   */
   readonly wireguardInterfaceNameV6?: string;
   /**
   * WireguardKeepAlive controls Wireguard PersistentKeepalive option. Set 0 to disable. [Default: 0]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#wireguard_keep_alive DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#wireguard_keep_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#wireguard_keep_alive DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#wireguard_keep_alive}
   */
   readonly wireguardKeepAlive?: string;
   /**
   * WireguardListeningPort controls the listening port used by IPv4 Wireguard. [Default: 51820]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#wireguard_listening_port DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#wireguard_listening_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#wireguard_listening_port DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#wireguard_listening_port}
   */
   readonly wireguardListeningPort?: number;
   /**
   * WireguardListeningPortV6 controls the listening port used by IPv6 Wireguard. [Default: 51821]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#wireguard_listening_port_v6 DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#wireguard_listening_port_v6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#wireguard_listening_port_v6 DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#wireguard_listening_port_v6}
   */
   readonly wireguardListeningPortV6?: number;
   /**
   * WireguardMTU controls the MTU on the IPv4 Wireguard interface. See Configuring MTU [Default: 1440]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#wireguard_mtu DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#wireguard_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#wireguard_mtu DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#wireguard_mtu}
   */
   readonly wireguardMtu?: number;
   /**
   * WireguardMTUV6 controls the MTU on the IPv6 Wireguard interface. See Configuring MTU [Default: 1420]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#wireguard_mtuv6 DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#wireguard_mtuv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#wireguard_mtuv6 DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#wireguard_mtuv6}
   */
   readonly wireguardMtuv6?: number;
   /**
   * WireguardRoutingRulePriority controls the priority value to use for the Wireguard routing rule. [Default: 99]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#wireguard_routing_rule_priority DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#wireguard_routing_rule_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#wireguard_routing_rule_priority DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#wireguard_routing_rule_priority}
   */
   readonly wireguardRoutingRulePriority?: number;
   /**
   * WorkloadSourceSpoofing controls whether pods can use the allowedSourcePrefixes annotation to send traffic with a source IP address that is not theirs. This is disabled by default. When set to 'Any', pods can request any prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#workload_source_spoofing DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#workload_source_spoofing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#workload_source_spoofing DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#workload_source_spoofing}
   */
   readonly workloadSourceSpoofing?: string;
   /**
   * XDPEnabled enables XDP acceleration for suitable untracked incoming deny rules. [Default: true]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#xdp_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#xdp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#xdp_enabled DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#xdp_enabled}
   */
   readonly xdpEnabled?: boolean | cdktf.IResolvable;
   /**
   * XDPRefreshInterval is the period at which Felix re-checks all XDP state to ensure that no other process has accidentally broken Calico's BPF maps or attached programs. Set to 0 to disable XDP refresh. [Default: 90s]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#xdp_refresh_interval DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#xdp_refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#xdp_refresh_interval DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest#xdp_refresh_interval}
   */
   readonly xdpRefreshInterval?: string;
 }
@@ -6110,7 +6110,7 @@ export class DataK8SCrdProjectcalicoOrgFelixConfigurationV1ManifestSpecOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest k8s_crd_projectcalico_org_felix_configuration_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest k8s_crd_projectcalico_org_felix_configuration_v1_manifest}
 */
 export class DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest extends cdktf.TerraformDataSource {
 
@@ -6126,7 +6126,7 @@ export class DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest extends cdkt
   * Generates CDKTF code for importing a DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest to import
-  * @param importFromId The id of the existing DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6138,7 +6138,7 @@ export class DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest extends cdkt
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest k8s_crd_projectcalico_org_felix_configuration_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/crd_projectcalico_org_felix_configuration_v1_manifest k8s_crd_projectcalico_org_felix_configuration_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6149,8 +6149,8 @@ export class DataK8SCrdProjectcalicoOrgFelixConfigurationV1Manifest extends cdkt
       terraformResourceType: 'k8s_crd_projectcalico_org_felix_configuration_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

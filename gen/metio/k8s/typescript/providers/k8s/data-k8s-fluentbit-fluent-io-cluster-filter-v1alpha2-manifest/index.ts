@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestConfig ext
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#metadata DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#metadata DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#metadata}
   */
   readonly metadata: DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestMetadata;
   /**
   * Specification of desired Filter configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#spec DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#spec DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#spec}
   */
   readonly spec?: DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#annotations DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#annotations DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#labels DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#labels DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#name DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#name DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#name}
   */
   readonly name: string;
 }
@@ -187,67 +187,67 @@ export interface DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFilter
   /**
   * The account ID for current EC2 instance.Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#account_id DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#account_id DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#account_id}
   */
   readonly accountId?: boolean | cdktf.IResolvable;
   /**
   * Alias for the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#alias}
   */
   readonly alias?: string;
   /**
   * The EC2 instance image id.Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#ami_id DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#ami_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#ami_id DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#ami_id}
   */
   readonly amiId?: boolean | cdktf.IResolvable;
   /**
   * The availability zone; for example, 'us-east-1a'. Default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#az DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#az DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#az}
   */
   readonly az?: boolean | cdktf.IResolvable;
   /**
   * The EC2 instance ID.Default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#ec2_instance_id DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#ec2_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#ec2_instance_id DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#ec2_instance_id}
   */
   readonly ec2InstanceId?: boolean | cdktf.IResolvable;
   /**
   * The EC2 instance type.Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#ec2_instance_type DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#ec2_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#ec2_instance_type DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#ec2_instance_type}
   */
   readonly ec2InstanceType?: boolean | cdktf.IResolvable;
   /**
   * The hostname for current EC2 instance.Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#host_name DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#host_name DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#host_name}
   */
   readonly hostName?: boolean | cdktf.IResolvable;
   /**
   * Specify which version of the instance metadata service to use. Valid values are 'v1' or 'v2'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#imds_version DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#imds_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#imds_version DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#imds_version}
   */
   readonly imdsVersion?: string;
   /**
   * The EC2 instance private ip.Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#private_ip DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#private_ip DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#private_ip}
   */
   readonly privateIp?: boolean | cdktf.IResolvable;
   /**
   * RetryLimit describes how many times fluent-bit should retry to send data to a specific output. If set to false fluent-bit will try indefinetly. If set to any integer N>0 it will try at most N+1 times. Leading zeros are not allowed (values such as 007, 0150, 01 do not work). If this property is not defined fluent-bit will use the default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#retry_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#retry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#retry_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#retry_limit}
   */
   readonly retryLimit?: string;
   /**
   * The VPC ID for current EC2 instance.Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#vpc_id DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#vpc_id DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#vpc_id}
   */
   readonly vpcId?: boolean | cdktf.IResolvable;
 }
@@ -633,13 +633,13 @@ export interface DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFilter
   /**
   * Config holds any unsupported plugins classic configurations, if ConfigFileFormat is set to yaml, this filed will be ignored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#config DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#config DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#config}
   */
   readonly config?: string;
   /**
   * YamlConfig holds the unsupported plugins yaml configurations, it only works when the ConfigFileFormat is yaml
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#yaml_config DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#yaml_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#yaml_config DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#yaml_config}
   */
   readonly yamlConfig?: { [key: string]: string };
 }
@@ -764,25 +764,25 @@ export interface DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFilter
   /**
   * Alias for the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#alias}
   */
   readonly alias?: string;
   /**
   * Exclude records which field matches the regular expression. Value Format: FIELD REGEX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#exclude DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#exclude DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#exclude}
   */
   readonly exclude?: string;
   /**
   * Keep records which field matches the regular expression. Value Format: FIELD REGEX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#regex DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#regex DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#regex}
   */
   readonly regex?: string;
   /**
   * RetryLimit describes how many times fluent-bit should retry to send data to a specific output. If set to false fluent-bit will try indefinetly. If set to any integer N>0 it will try at most N+1 times. Leading zeros are not allowed (values such as 007, 0150, 01 do not work). If this property is not defined fluent-bit will use the default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#retry_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#retry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#retry_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#retry_limit}
   */
   readonly retryLimit?: string;
 }
@@ -965,217 +965,217 @@ export interface DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFilter
   /**
   * Alias for the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#alias}
   */
   readonly alias?: string;
   /**
   * Include Kubernetes resource annotations in the extra metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#annotations DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#annotations DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#annotations}
   */
   readonly annotations?: boolean | cdktf.IResolvable;
   /**
   * Set the buffer size for HTTP client when reading responses from Kubernetes API server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#buffer_size DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#buffer_size DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#buffer_size}
   */
   readonly bufferSize?: string;
   /**
   * When enabled, metadata will be fetched from K8s when docker_id is changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#cache_use_docker_id DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#cache_use_docker_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#cache_use_docker_id DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#cache_use_docker_id}
   */
   readonly cacheUseDockerId?: boolean | cdktf.IResolvable;
   /**
   * DNS lookup retries N times until the network start working
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#dns_retries DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#dns_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#dns_retries DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#dns_retries}
   */
   readonly dnsRetries?: number;
   /**
   * DNS lookup interval between network status checks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#dns_wait_time DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#dns_wait_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#dns_wait_time DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#dns_wait_time}
   */
   readonly dnsWaitTime?: number;
   /**
   * If set, use dummy-meta data (for test/dev purposes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#dummy_meta DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#dummy_meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#dummy_meta DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#dummy_meta}
   */
   readonly dummyMeta?: boolean | cdktf.IResolvable;
   /**
   * Allow Kubernetes Pods to exclude their logs from the log processor (read more about it in Kubernetes Annotations section).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#k8s_logging_exclude DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#k8s_logging_exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#k8s_logging_exclude DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#k8s_logging_exclude}
   */
   readonly k8SLoggingExclude?: boolean | cdktf.IResolvable;
   /**
   * Allow Kubernetes Pods to suggest a pre-defined Parser (read more about it in Kubernetes Annotations section)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#k8s_logging_parser DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#k8s_logging_parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#k8s_logging_parser DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#k8s_logging_parser}
   */
   readonly k8SLoggingParser?: boolean | cdktf.IResolvable;
   /**
   * When Keep_Log is disabled, the log field is removed from the incoming message once it has been successfully merged (Merge_Log must be enabled as well).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#keep_log DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#keep_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#keep_log DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#keep_log}
   */
   readonly keepLog?: boolean | cdktf.IResolvable;
   /**
   * CA certificate file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kube_ca_file DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kube_ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kube_ca_file DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kube_ca_file}
   */
   readonly kubeCaFile?: string;
   /**
   * Absolute path to scan for certificate files
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kube_ca_path DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kube_ca_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kube_ca_path DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kube_ca_path}
   */
   readonly kubeCaPath?: string;
   /**
   * configurable TTL for K8s cached metadata. By default, it is set to 0 which means TTL for cache entries is disabled and cache entries are evicted at random when capacity is reached. In order to enable this option, you should set the number to a time interval. For example, set this value to 60 or 60s and cache entries which have been created more than 60s will be evicted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kube_meta_cache_ttl DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kube_meta_cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kube_meta_cache_ttl DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kube_meta_cache_ttl}
   */
   readonly kubeMetaCacheTtl?: string;
   /**
   * Configurable TTL for K8s cached namespace metadata. By default, it is set to 900 which means a 15min TTL for namespace cache entries. Setting this to 0 will mean entries are evicted at random once the cache is full.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kube_meta_namespace_cache_ttl DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kube_meta_namespace_cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kube_meta_namespace_cache_ttl DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kube_meta_namespace_cache_ttl}
   */
   readonly kubeMetaNamespaceCacheTtl?: number;
   /**
   * If set, Kubernetes meta-data can be cached/pre-loaded from files in JSON format in this directory, named as namespace-pod.meta
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kube_meta_preload_cache_dir DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kube_meta_preload_cache_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kube_meta_preload_cache_dir DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kube_meta_preload_cache_dir}
   */
   readonly kubeMetaPreloadCacheDir?: string;
   /**
   * When the source records comes from Tail input plugin, this option allows to specify what's the prefix used in Tail configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kube_tag_prefix DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kube_tag_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kube_tag_prefix DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kube_tag_prefix}
   */
   readonly kubeTagPrefix?: string;
   /**
   * Command to get Kubernetes authorization token. By default, it will be NULL and we will use token file to get token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kube_token_command DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kube_token_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kube_token_command DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kube_token_command}
   */
   readonly kubeTokenCommand?: string;
   /**
   * Token file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kube_token_file DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kube_token_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kube_token_file DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kube_token_file}
   */
   readonly kubeTokenFile?: string;
   /**
   * configurable 'time to live' for the K8s token. By default, it is set to 600 seconds. After this time, the token is reloaded from Kube_Token_File or the Kube_Token_Command.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kube_token_ttl DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kube_token_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kube_token_ttl DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kube_token_ttl}
   */
   readonly kubeTokenTtl?: string;
   /**
   * API Server end-point
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kube_url DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kube_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kube_url DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kube_url}
   */
   readonly kubeUrl?: string;
   /**
   * kubelet host using for HTTP request, this only works when Use_Kubelet set to On.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kubelet_host DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kubelet_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kubelet_host DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kubelet_host}
   */
   readonly kubeletHost?: string;
   /**
   * kubelet port using for HTTP request, this only works when useKubelet is set to On.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kubelet_port DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kubelet_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kubelet_port DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kubelet_port}
   */
   readonly kubeletPort?: number;
   /**
   * Include Kubernetes resource labels in the extra metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#labels DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#labels DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#labels}
   */
   readonly labels?: boolean | cdktf.IResolvable;
   /**
   * When enabled, it checks if the log field content is a JSON string map, if so, it append the map fields as part of the log structure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#merge_log DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#merge_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#merge_log DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#merge_log}
   */
   readonly mergeLog?: boolean | cdktf.IResolvable;
   /**
   * When Merge_Log is enabled, the filter tries to assume the log field from the incoming message is a JSON string message and make a structured representation of it at the same level of the log field in the map. Now if Merge_Log_Key is set (a string name), all the new structured fields taken from the original log content are inserted under the new key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#merge_log_key DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#merge_log_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#merge_log_key DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#merge_log_key}
   */
   readonly mergeLogKey?: string;
   /**
   * When Merge_Log is enabled, trim (remove possible n or r) field values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#merge_log_trim DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#merge_log_trim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#merge_log_trim DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#merge_log_trim}
   */
   readonly mergeLogTrim?: boolean | cdktf.IResolvable;
   /**
   * Optional parser name to specify how to parse the data contained in the log key. Recommended use is for developers or testing only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#merge_parser DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#merge_parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#merge_parser DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#merge_parser}
   */
   readonly mergeParser?: string;
   /**
   * Include Kubernetes namespace resource annotations in the extra metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#namespace_annotations DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#namespace_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#namespace_annotations DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#namespace_annotations}
   */
   readonly namespaceAnnotations?: boolean | cdktf.IResolvable;
   /**
   * Include Kubernetes namespace resource labels in the extra metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#namespace_labels DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#namespace_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#namespace_labels DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#namespace_labels}
   */
   readonly namespaceLabels?: boolean | cdktf.IResolvable;
   /**
   * Include Kubernetes namespace metadata only and no pod metadata. If this is set, the values of Labels and Annotations are ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#namespace_metadata_only DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#namespace_metadata_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#namespace_metadata_only DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#namespace_metadata_only}
   */
   readonly namespaceMetadataOnly?: boolean | cdktf.IResolvable;
   /**
   * Set an alternative Parser to process record Tag and extract pod_name, namespace_name, container_name and docker_id. The parser must be registered in a parsers file (refer to parser filter-kube-test as an example).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#regex_parser DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#regex_parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#regex_parser DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#regex_parser}
   */
   readonly regexParser?: string;
   /**
   * RetryLimit describes how many times fluent-bit should retry to send data to a specific output. If set to false fluent-bit will try indefinetly. If set to any integer N>0 it will try at most N+1 times. Leading zeros are not allowed (values such as 007, 0150, 01 do not work). If this property is not defined fluent-bit will use the default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#retry_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#retry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#retry_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#retry_limit}
   */
   readonly retryLimit?: string;
   /**
   * Debug level between 0 (nothing) and 4 (every detail).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#tls_debug DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#tls_debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#tls_debug DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#tls_debug}
   */
   readonly tlsDebug?: number;
   /**
   * When enabled, turns on certificate validation when connecting to the Kubernetes API server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#tls_verify DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#tls_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#tls_verify DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#tls_verify}
   */
   readonly tlsVerify?: boolean | cdktf.IResolvable;
   /**
   * When enabled, the filter reads logs coming in Journald format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#use_journal DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#use_journal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#use_journal DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#use_journal}
   */
   readonly useJournal?: boolean | cdktf.IResolvable;
   /**
   * This is an optional feature flag to get metadata information from kubelet instead of calling Kube Server API to enhance the log. This could mitigate the Kube API heavy traffic issue for large cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#use_kubelet DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#use_kubelet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#use_kubelet DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#use_kubelet}
   */
   readonly useKubelet?: boolean | cdktf.IResolvable;
 }
@@ -2286,109 +2286,109 @@ export interface DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFilter
   /**
   * Add a custom label NAME and set the value to the value of KEY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#add_label DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#add_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#add_label DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#add_label}
   */
   readonly addLabel?: string[];
   /**
   * Alias for the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#alias}
   */
   readonly alias?: string;
   /**
   * Defines a bucket for histogram
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#bucket DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#bucket DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#bucket}
   */
   readonly bucket?: string[];
   /**
   * Flag that defines if logs should be discarded after processing. This applies for all logs, no matter if they have emitted metrics or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#discard_logs DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#discard_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#discard_logs DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#discard_logs}
   */
   readonly discardLogs?: boolean | cdktf.IResolvable;
   /**
   * set a buffer limit to restrict memory usage of metrics emitter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#emitter_mem_buf_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#emitter_mem_buf_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#emitter_mem_buf_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#emitter_mem_buf_limit}
   */
   readonly emitterMemBufLimit?: string;
   /**
   * Name of the emitter (advanced users)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#emitter_name DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#emitter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#emitter_name DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#emitter_name}
   */
   readonly emitterName?: string;
   /**
   * Optional filter for records in which the content of KEY does not matches the regular expression. Value Format: FIELD REGEX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#exclude DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#exclude DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#exclude}
   */
   readonly exclude?: string[];
   /**
   * If enabled, it will automatically put pod_id, pod_name, namespace_name, docker_id and container_name into the metric as labels. This option is intended to be used in combination with the kubernetes filter plugin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kubernetes_mode DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kubernetes_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kubernetes_mode DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kubernetes_mode}
   */
   readonly kubernetesMode?: boolean | cdktf.IResolvable;
   /**
   * Includes a record field as label dimension in the metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#label_field DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#label_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#label_field DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#label_field}
   */
   readonly labelField?: string[];
   /**
   * Sets a help text for the metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#metric_description DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#metric_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#metric_description DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#metric_description}
   */
   readonly metricDescription?: string;
   /**
   * Defines the mode for the metric. Valid values are [counter, gauge or histogram]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#metric_mode DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#metric_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#metric_mode DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#metric_mode}
   */
   readonly metricMode?: string;
   /**
   * Sets the name of the metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#metric_name DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#metric_name DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#metric_name}
   */
   readonly metricName?: string;
   /**
   * Namespace of the metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#metric_namespace DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#metric_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#metric_namespace DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#metric_namespace}
   */
   readonly metricNamespace?: string;
   /**
   * Sets a sub-system for the metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#metric_subsystem DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#metric_subsystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#metric_subsystem DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#metric_subsystem}
   */
   readonly metricSubsystem?: string;
   /**
   * Optional filter for records in which the content of KEY matches the regular expression. Value Format: FIELD REGEX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#regex DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#regex DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#regex}
   */
   readonly regex?: string[];
   /**
   * RetryLimit describes how many times fluent-bit should retry to send data to a specific output. If set to false fluent-bit will try indefinetly. If set to any integer N>0 it will try at most N+1 times. Leading zeros are not allowed (values such as 007, 0150, 01 do not work). If this property is not defined fluent-bit will use the default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#retry_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#retry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#retry_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#retry_limit}
   */
   readonly retryLimit?: string;
   /**
   * Defines the tag for the generated metrics record
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#tag DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#tag DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#tag}
   */
   readonly tag?: string;
   /**
   * Specify the record field that holds a numerical value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#value_field DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#value_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#value_field DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#value_field}
   */
   readonly valueField?: string;
 }
@@ -2977,19 +2977,19 @@ export interface DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFilter
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#key DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#key DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#name DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#name DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#optional DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#optional DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3140,55 +3140,55 @@ export interface DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFilter
   /**
   * Alias for the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#alias}
   */
   readonly alias?: string;
   /**
   * Lua function name that will be triggered to do filtering. It's assumed that the function is declared inside the Script defined above.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#call DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#call}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#call DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#call}
   */
   readonly call: string;
   /**
   * Inline LUA code instead of loading from a path via script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#code DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#code DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#code}
   */
   readonly code?: string;
   /**
   * If enabled, Lua script will be executed in protected mode. It prevents to crash when invalid Lua script is executed. Default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#protected_mode DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#protected_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#protected_mode DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#protected_mode}
   */
   readonly protectedMode?: boolean | cdktf.IResolvable;
   /**
   * RetryLimit describes how many times fluent-bit should retry to send data to a specific output. If set to false fluent-bit will try indefinetly. If set to any integer N>0 it will try at most N+1 times. Leading zeros are not allowed (values such as 007, 0150, 01 do not work). If this property is not defined fluent-bit will use the default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#retry_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#retry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#retry_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#retry_limit}
   */
   readonly retryLimit?: string;
   /**
   * Path to the Lua script that will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#script DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#script DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#script}
   */
   readonly script?: DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFiltersLuaScript;
   /**
   * By default when the Lua script is invoked, the record timestamp is passed as a Floating number which might lead to loss precision when the data is converted back. If you desire timestamp precision enabling this option will pass the timestamp as a Lua table with keys sec for seconds since epoch and nsec for nanoseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#time_as_table DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#time_as_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#time_as_table DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#time_as_table}
   */
   readonly timeAsTable?: boolean | cdktf.IResolvable;
   /**
   * If these keys are matched, the fields are handled as array. If more than one key, delimit by space. It is useful the array can be empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#type_array_key DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#type_array_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#type_array_key DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#type_array_key}
   */
   readonly typeArrayKey?: string[];
   /**
   * If these keys are matched, the fields are converted to integer. If more than one key, delimit by space. Note that starting from Fluent Bit v1.6 integer data types are preserved and not converted to double as in previous versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#type_int_key DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#type_int_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#type_int_key DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#type_int_key}
   */
   readonly typeIntKey?: string[];
 }
@@ -3513,61 +3513,61 @@ export interface DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFilter
   /**
   * Is true if a key matches regex KEY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#a_key_matches DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#a_key_matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#a_key_matches DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#a_key_matches}
   */
   readonly aKeyMatches?: string;
   /**
   * Is true if KEY does not exist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#key_does_not_exist DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#key_does_not_exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#key_does_not_exist DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#key_does_not_exist}
   */
   readonly keyDoesNotExist?: { [key: string]: string };
   /**
   * Is true if KEY exists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#key_exists DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#key_exists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#key_exists DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#key_exists}
   */
   readonly keyExists?: string;
   /**
   * Is true if KEY exists and its value is not VALUE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#key_value_does_not_equal DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#key_value_does_not_equal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#key_value_does_not_equal DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#key_value_does_not_equal}
   */
   readonly keyValueDoesNotEqual?: { [key: string]: string };
   /**
   * Is true if key KEY exists and its value does not match VALUE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#key_value_does_not_match DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#key_value_does_not_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#key_value_does_not_match DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#key_value_does_not_match}
   */
   readonly keyValueDoesNotMatch?: { [key: string]: string };
   /**
   * Is true if KEY exists and its value is VALUE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#key_value_equals DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#key_value_equals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#key_value_equals DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#key_value_equals}
   */
   readonly keyValueEquals?: { [key: string]: string };
   /**
   * Is true if key KEY exists and its value matches VALUE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#key_value_matches DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#key_value_matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#key_value_matches DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#key_value_matches}
   */
   readonly keyValueMatches?: { [key: string]: string };
   /**
   * Is true if all keys matching KEY have values that do not match VALUE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#matching_keys_do_not_have_matching_values DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#matching_keys_do_not_have_matching_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#matching_keys_do_not_have_matching_values DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#matching_keys_do_not_have_matching_values}
   */
   readonly matchingKeysDoNotHaveMatchingValues?: { [key: string]: string };
   /**
   * Is true if all keys matching KEY have values that match VALUE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#matching_keys_have_matching_values DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#matching_keys_have_matching_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#matching_keys_have_matching_values DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#matching_keys_have_matching_values}
   */
   readonly matchingKeysHaveMatchingValues?: { [key: string]: string };
   /**
   * Is true if no key matches regex KEY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#no_key_matches DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#no_key_matches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#no_key_matches DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#no_key_matches}
   */
   readonly noKeyMatches?: string;
 }
@@ -3946,55 +3946,55 @@ export interface DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFilter
   /**
   * Add a key/value pair with key KEY and value VALUE if KEY does not exist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#add DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#add DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#add}
   */
   readonly add?: { [key: string]: string };
   /**
   * Copy a key/value pair with key KEY to COPIED_KEY if KEY exists AND COPIED_KEY does not exist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#copy DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#copy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#copy DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#copy}
   */
   readonly copy?: { [key: string]: string };
   /**
   * Copy a key/value pair with key KEY to COPIED_KEY if KEY exists. If COPIED_KEY already exists, this field is overwritten
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#hard_copy DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#hard_copy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#hard_copy DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#hard_copy}
   */
   readonly hardCopy?: { [key: string]: string };
   /**
   * Rename a key/value pair with key KEY to RENAMED_KEY if KEY exists. If RENAMED_KEY already exists, this field is overwritten
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#hard_rename DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#hard_rename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#hard_rename DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#hard_rename}
   */
   readonly hardRename?: { [key: string]: string };
   /**
   * Remove a key/value pair with key KEY if it exists
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#remove DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#remove DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#remove}
   */
   readonly remove?: string;
   /**
   * Remove all key/value pairs with key matching regexp KEY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#remove_regex DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#remove_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#remove_regex DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#remove_regex}
   */
   readonly removeRegex?: string;
   /**
   * Remove all key/value pairs with key matching wildcard KEY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#remove_wildcard DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#remove_wildcard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#remove_wildcard DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#remove_wildcard}
   */
   readonly removeWildcard?: string;
   /**
   * Rename a key/value pair with key KEY to RENAMED_KEY if KEY exists AND RENAMED_KEY does not exist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#rename DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#rename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#rename DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#rename}
   */
   readonly rename?: { [key: string]: string };
   /**
   * Add a key/value pair with key KEY and value VALUE. If KEY already exists, this field is overwritten
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#set DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#set DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#set}
   */
   readonly set?: { [key: string]: string };
 }
@@ -4344,25 +4344,25 @@ export interface DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFilter
   /**
   * Alias for the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#alias}
   */
   readonly alias?: string;
   /**
   * All conditions have to be true for the rules to be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#conditions DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#conditions DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#conditions}
   */
   readonly conditions?: DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFiltersModifyConditions[] | cdktf.IResolvable;
   /**
   * RetryLimit describes how many times fluent-bit should retry to send data to a specific output. If set to false fluent-bit will try indefinetly. If set to any integer N>0 it will try at most N+1 times. Leading zeros are not allowed (values such as 007, 0150, 01 do not work). If this property is not defined fluent-bit will use the default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#retry_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#retry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#retry_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#retry_limit}
   */
   readonly retryLimit?: string;
   /**
   * Rules are applied in the order they appear, with each rule operating on the result of the previous rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#rules DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#rules DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#rules}
   */
   readonly rules?: DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFiltersModifyRules[] | cdktf.IResolvable;
 }
@@ -4545,55 +4545,55 @@ export interface DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFilter
   /**
   * Alias for the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#alias}
   */
   readonly alias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#buffer DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#buffer DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#buffer}
   */
   readonly buffer?: boolean | cdktf.IResolvable;
   /**
   * Set a limit on the amount of memory in MB the emitter can consume if the outputs provide backpressure. The default for this limit is 10M. The pipeline will pause once the buffer exceeds the value of this setting. For example, if the value is set to 10MB then the pipeline will pause if the buffer exceeds 10M. The pipeline will remain paused until the output drains the buffer below the 10M limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#emitter_mem_buf_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#emitter_mem_buf_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#emitter_mem_buf_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#emitter_mem_buf_limit}
   */
   readonly emitterMemBufLimit?: number;
   /**
   * Name for the emitter input instance which re-emits the completed records at the beginning of the pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#emitter_name DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#emitter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#emitter_name DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#emitter_name}
   */
   readonly emitterName?: string;
   /**
   * The storage type for the emitter input instance. This option supports the values memory (default) and filesystem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#emitter_type DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#emitter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#emitter_type DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#emitter_type}
   */
   readonly emitterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#flush_ms DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#flush_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#flush_ms DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#flush_ms}
   */
   readonly flushMs?: number;
   /**
   * Key name that holds the content to process. Note that a Multiline Parser definition can already specify the key_content to use, but this option allows to overwrite that value for the purpose of the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#key_content DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#key_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#key_content DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#key_content}
   */
   readonly keyContent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#mode DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#mode DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#mode}
   */
   readonly mode?: string;
   /**
   * Specify one or multiple Multiline Parsing definitions to apply to the content. You can specify multiple multiline parsers to detect different formats by separating them with a comma.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#parser DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#parser DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#parser}
   */
   readonly parser: string;
   /**
   * RetryLimit describes how many times fluent-bit should retry to send data to a specific output. If set to false fluent-bit will try indefinetly. If set to any integer N>0 it will try at most N+1 times. Leading zeros are not allowed (values such as 007, 0150, 01 do not work). If this property is not defined fluent-bit will use the default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#retry_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#retry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#retry_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#retry_limit}
   */
   readonly retryLimit?: string;
 }
@@ -4947,49 +4947,49 @@ export interface DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFilter
   /**
   * Prefix affected keys with this string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#add_prefix DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#add_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#add_prefix DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#add_prefix}
   */
   readonly addPrefix?: string;
   /**
   * Alias for the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#alias}
   */
   readonly alias?: string;
   /**
   * Nest records matching the Wildcard under this key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#nest_under DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#nest_under}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#nest_under DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#nest_under}
   */
   readonly nestUnder?: string;
   /**
   * Lift records nested under the Nested_under key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#nested_under DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#nested_under}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#nested_under DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#nested_under}
   */
   readonly nestedUnder?: string;
   /**
   * Select the operation nest or lift
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#operation DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#operation DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#operation}
   */
   readonly operation?: string;
   /**
   * Remove prefix from affected keys if it matches this string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#remove_prefix DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#remove_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#remove_prefix DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#remove_prefix}
   */
   readonly removePrefix?: string;
   /**
   * RetryLimit describes how many times fluent-bit should retry to send data to a specific output. If set to false fluent-bit will try indefinetly. If set to any integer N>0 it will try at most N+1 times. Leading zeros are not allowed (values such as 007, 0150, 01 do not work). If this property is not defined fluent-bit will use the default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#retry_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#retry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#retry_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#retry_limit}
   */
   readonly retryLimit?: string;
   /**
   * Nest records which field matches the wildcard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#wildcard DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#wildcard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#wildcard DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#wildcard}
   */
   readonly wildcard?: string[];
 }
@@ -5288,43 +5288,43 @@ export interface DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFilter
   /**
   * Alias for the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#alias}
   */
   readonly alias?: string;
   /**
   * Specify field name in record to parse.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#key_name DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#key_name DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#key_name}
   */
   readonly keyName?: string;
   /**
   * Specify the parser name to interpret the field. Multiple Parser entries are allowed (split by comma).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#parser DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#parser DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#parser}
   */
   readonly parser?: string;
   /**
   * Keep original Key_Name field in the parsed result. If false, the field will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#preserve_key DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#preserve_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#preserve_key DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#preserve_key}
   */
   readonly preserveKey?: boolean | cdktf.IResolvable;
   /**
   * Keep all other original fields in the parsed result. If false, all other original fields will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#reserve_data DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#reserve_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#reserve_data DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#reserve_data}
   */
   readonly reserveData?: boolean | cdktf.IResolvable;
   /**
   * RetryLimit describes how many times fluent-bit should retry to send data to a specific output. If set to false fluent-bit will try indefinetly. If set to any integer N>0 it will try at most N+1 times. Leading zeros are not allowed (values such as 007, 0150, 01 do not work). If this property is not defined fluent-bit will use the default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#retry_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#retry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#retry_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#retry_limit}
   */
   readonly retryLimit?: string;
   /**
   * If the key is a escaped string (e.g: stringify JSON), unescape the string before to apply the parser.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#unescape_key DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#unescape_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#unescape_key DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#unescape_key}
   */
   readonly unescapeKey?: boolean | cdktf.IResolvable;
 }
@@ -5594,43 +5594,43 @@ export interface DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFilter
   /**
   * Alias for the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#alias}
   */
   readonly alias?: string;
   /**
   * If the key is not matched, that field is removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#allowlist_keys DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#allowlist_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#allowlist_keys DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#allowlist_keys}
   */
   readonly allowlistKeys?: string[];
   /**
   * Append fields. This parameter needs key and value pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#records DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#records DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#records}
   */
   readonly records?: string[];
   /**
   * If the key is matched, that field is removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#remove_keys DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#remove_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#remove_keys DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#remove_keys}
   */
   readonly removeKeys?: string[];
   /**
   * RetryLimit describes how many times fluent-bit should retry to send data to a specific output. If set to false fluent-bit will try indefinetly. If set to any integer N>0 it will try at most N+1 times. Leading zeros are not allowed (values such as 007, 0150, 01 do not work). If this property is not defined fluent-bit will use the default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#retry_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#retry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#retry_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#retry_limit}
   */
   readonly retryLimit?: string;
   /**
   * If set, the plugin appends uuid to each record. The value assigned becomes the key in the map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#uuid_keys DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#uuid_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#uuid_keys DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#uuid_keys}
   */
   readonly uuidKeys?: string[];
   /**
   * An alias of allowlistKeys for backwards compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#whitelist_keys DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#whitelist_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#whitelist_keys DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#whitelist_keys}
   */
   readonly whitelistKeys?: string[];
 }
@@ -5900,33 +5900,33 @@ export interface DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFilter
   /**
   * Alias for the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#alias}
   */
   readonly alias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#emitter_mem_buf_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#emitter_mem_buf_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#emitter_mem_buf_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#emitter_mem_buf_limit}
   */
   readonly emitterMemBufLimit?: string;
   /**
   * When the filter emits a record under the new Tag, there is an internal emitter plugin that takes care of the job. Since this emitter expose metrics as any other component of the pipeline, you can use this property to configure an optional name for it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#emitter_name DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#emitter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#emitter_name DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#emitter_name}
   */
   readonly emitterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#emitter_storage_type DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#emitter_storage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#emitter_storage_type DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#emitter_storage_type}
   */
   readonly emitterStorageType?: string;
   /**
   * RetryLimit describes how many times fluent-bit should retry to send data to a specific output. If set to false fluent-bit will try indefinetly. If set to any integer N>0 it will try at most N+1 times. Leading zeros are not allowed (values such as 007, 0150, 01 do not work). If this property is not defined fluent-bit will use the default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#retry_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#retry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#retry_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#retry_limit}
   */
   readonly retryLimit?: string;
   /**
   * Defines the matching criteria and the format of the Tag for the matching record. The Rule format have four components: KEY REGEX NEW_TAG KEEP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#rules DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#rules DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#rules}
   */
   readonly rules?: string[];
 }
@@ -6167,37 +6167,37 @@ export interface DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFilter
   /**
   * Alias for the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#alias}
   */
   readonly alias?: string;
   /**
   * Interval is the time interval expressed in 'sleep' format. e.g. 3s, 1.5m, 0.5h, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#interval DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#interval DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#interval}
   */
   readonly interval?: string;
   /**
   * PrintStatus represents whether to print status messages with current rate and the limits to information logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#print_status DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#print_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#print_status DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#print_status}
   */
   readonly printStatus?: boolean | cdktf.IResolvable;
   /**
   * Rate is the amount of messages for the time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#rate DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#rate DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#rate}
   */
   readonly rate?: number;
   /**
   * RetryLimit describes how many times fluent-bit should retry to send data to a specific output. If set to false fluent-bit will try indefinetly. If set to any integer N>0 it will try at most N+1 times. Leading zeros are not allowed (values such as 007, 0150, 01 do not work). If this property is not defined fluent-bit will use the default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#retry_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#retry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#retry_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#retry_limit}
   */
   readonly retryLimit?: string;
   /**
   * Window is the amount of intervals to calculate average over.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#window DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#window DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#window}
   */
   readonly window?: number;
 }
@@ -6438,49 +6438,49 @@ export interface DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFilter
   /**
   * Specify the whitelist of paths to be able to access paths from WASM programs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#accessible_paths DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#accessible_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#accessible_paths DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#accessible_paths}
   */
   readonly accessiblePaths?: string[];
   /**
   * Alias for the plugin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#alias DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#alias}
   */
   readonly alias?: string;
   /**
   * Define event format to interact with Wasm programs: msgpack or json. Default: json
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#event_format DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#event_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#event_format DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#event_format}
   */
   readonly eventFormat?: string;
   /**
   * Wasm function name that will be triggered to do filtering. It's assumed that the function is built inside the Wasm program specified above.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#function_name DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#function_name DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#function_name}
   */
   readonly functionName?: string;
   /**
   * RetryLimit describes how many times fluent-bit should retry to send data to a specific output. If set to false fluent-bit will try indefinetly. If set to any integer N>0 it will try at most N+1 times. Leading zeros are not allowed (values such as 007, 0150, 01 do not work). If this property is not defined fluent-bit will use the default value: 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#retry_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#retry_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#retry_limit DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#retry_limit}
   */
   readonly retryLimit?: string;
   /**
   * Size of the heap size of Wasm execution. Review unit sizes for allowed values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#wasm_heap_size DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#wasm_heap_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#wasm_heap_size DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#wasm_heap_size}
   */
   readonly wasmHeapSize?: string;
   /**
   * Path to the built Wasm program that will be used. This can be a relative path against the main configuration file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#wasm_path DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#wasm_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#wasm_path DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#wasm_path}
   */
   readonly wasmPath?: string;
   /**
   * Size of the stack size of Wasm execution. Review unit sizes for allowed values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#wasm_stack_size DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#wasm_stack_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#wasm_stack_size DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#wasm_stack_size}
   */
   readonly wasmStackSize?: string;
 }
@@ -6779,85 +6779,85 @@ export interface DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFilter
   /**
   * Aws defines a Aws configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#aws DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#aws DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#aws}
   */
   readonly aws?: DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFiltersAws;
   /**
   * CustomPlugin defines a Custom plugin configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#custom_plugin DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#custom_plugin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#custom_plugin DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#custom_plugin}
   */
   readonly customPlugin?: DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFiltersCustomPlugin;
   /**
   * Grep defines Grep Filter configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#grep DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#grep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#grep DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#grep}
   */
   readonly grep?: DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFiltersGrep;
   /**
   * Kubernetes defines Kubernetes Filter configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kubernetes DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#kubernetes DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#kubernetes}
   */
   readonly kubernetes?: DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFiltersKubernetes;
   /**
   * LogToMetrics defines a Log to Metrics Filter configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#log_to_metrics DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#log_to_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#log_to_metrics DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#log_to_metrics}
   */
   readonly logToMetrics?: DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFiltersLogToMetrics;
   /**
   * Lua defines Lua Filter configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#lua DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#lua}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#lua DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#lua}
   */
   readonly lua?: DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFiltersLua;
   /**
   * Modify defines Modify Filter configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#modify DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#modify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#modify DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#modify}
   */
   readonly modify?: DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFiltersModify;
   /**
   * Multiline defines a Multiline configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#multiline DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#multiline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#multiline DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#multiline}
   */
   readonly multiline?: DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFiltersMultiline;
   /**
   * Nest defines Nest Filter configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#nest DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#nest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#nest DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#nest}
   */
   readonly nest?: DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFiltersNest;
   /**
   * Parser defines Parser Filter configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#parser DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#parser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#parser DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#parser}
   */
   readonly parser?: DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFiltersParser;
   /**
   * RecordModifier defines Record Modifier Filter configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#record_modifier DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#record_modifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#record_modifier DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#record_modifier}
   */
   readonly recordModifier?: DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFiltersRecordModifier;
   /**
   * RewriteTag defines a RewriteTag configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#rewrite_tag DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#rewrite_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#rewrite_tag DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#rewrite_tag}
   */
   readonly rewriteTag?: DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFiltersRewriteTag;
   /**
   * Throttle defines a Throttle configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#throttle DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#throttle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#throttle DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#throttle}
   */
   readonly throttle?: DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFiltersThrottle;
   /**
   * Wasm defines a Wasm configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#wasm DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#wasm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#wasm DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#wasm}
   */
   readonly wasm?: DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFiltersWasm;
 }
@@ -7352,23 +7352,23 @@ export interface DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpec {
   /**
   * A set of filter plugins in order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#filters DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#filters DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#filters}
   */
   readonly filters?: DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecFilters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#log_level DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#log_level DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * A pattern to match against the tags of incoming records. It's case-sensitive and support the star (*) character as a wildcard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#match DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#match DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#match}
   */
   readonly match?: string;
   /**
   * A regular expression to match against the tags of incoming records. Use this option if you want to use the full regex syntax.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#match_regex DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#match_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#match_regex DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest#match_regex}
   */
   readonly matchRegex?: string;
 }
@@ -7549,7 +7549,7 @@ export class DataK8SFluentbitFluentIoClusterFilterV1Alpha2ManifestSpecOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest k8s_fluentbit_fluent_io_cluster_filter_v1alpha2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest k8s_fluentbit_fluent_io_cluster_filter_v1alpha2_manifest}
 */
 export class DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest extends cdktf.TerraformDataSource {
 
@@ -7565,7 +7565,7 @@ export class DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest extends cdktf
   * Generates CDKTF code for importing a DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest to import
-  * @param importFromId The id of the existing DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7577,7 +7577,7 @@ export class DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest k8s_fluentbit_fluent_io_cluster_filter_v1alpha2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/fluentbit_fluent_io_cluster_filter_v1alpha2_manifest k8s_fluentbit_fluent_io_cluster_filter_v1alpha2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7588,8 +7588,8 @@ export class DataK8SFluentbitFluentIoClusterFilterV1Alpha2Manifest extends cdktf
       terraformResourceType: 'k8s_fluentbit_fluent_io_cluster_filter_v1alpha2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

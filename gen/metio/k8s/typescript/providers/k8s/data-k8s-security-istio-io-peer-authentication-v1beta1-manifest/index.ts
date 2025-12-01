@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSecurityIstioIoPeerAuthenticationV1Beta1ManifestConfig e
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest#metadata DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest#metadata DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SSecurityIstioIoPeerAuthenticationV1Beta1ManifestMetadata;
   /**
   * Peer authentication configuration for workloads. See more details at: https://istio.io/docs/reference/config/security/peer_authentication.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest#spec DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest#spec DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SSecurityIstioIoPeerAuthenticationV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSecurityIstioIoPeerAuthenticationV1Beta1ManifestMetadata
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest#annotations DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest#annotations DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest#labels DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest#labels DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest#name DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest#name DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest#namespace DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest#namespace DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8SSecurityIstioIoPeerAuthenticationV1Beta1ManifestSpecMtls
   /**
   * Defines the mTLS mode used for peer authentication. Valid Options: DISABLE, PERMISSIVE, STRICT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest#mode DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest#mode DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest#mode}
   */
   readonly mode?: string;
 }
@@ -315,7 +315,7 @@ export interface DataK8SSecurityIstioIoPeerAuthenticationV1Beta1ManifestSpecPort
   /**
   * Defines the mTLS mode used for peer authentication. Valid Options: DISABLE, PERMISSIVE, STRICT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest#mode DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest#mode DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest#mode}
   */
   readonly mode?: string;
 }
@@ -411,7 +411,7 @@ export interface DataK8SSecurityIstioIoPeerAuthenticationV1Beta1ManifestSpecSele
   /**
   * One or more labels that indicate a specific set of pods/VMs on which a policy should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest#match_labels DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest#match_labels DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -507,19 +507,19 @@ export interface DataK8SSecurityIstioIoPeerAuthenticationV1Beta1ManifestSpec {
   /**
   * Mutual TLS settings for workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest#mtls DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest#mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest#mtls DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest#mtls}
   */
   readonly mtls?: DataK8SSecurityIstioIoPeerAuthenticationV1Beta1ManifestSpecMtls;
   /**
   * Port specific mutual TLS settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest#port_level_mtls DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest#port_level_mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest#port_level_mtls DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest#port_level_mtls}
   */
   readonly portLevelMtls?: DataK8SSecurityIstioIoPeerAuthenticationV1Beta1ManifestSpecPortLevelMtls;
   /**
   * The selector determines the workloads to apply the PeerAuthentication on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest#selector DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest#selector DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest#selector}
   */
   readonly selector?: DataK8SSecurityIstioIoPeerAuthenticationV1Beta1ManifestSpecSelector;
 }
@@ -671,7 +671,7 @@ export class DataK8SSecurityIstioIoPeerAuthenticationV1Beta1ManifestSpecOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest k8s_security_istio_io_peer_authentication_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest k8s_security_istio_io_peer_authentication_v1beta1_manifest}
 */
 export class DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -687,7 +687,7 @@ export class DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest extends cdk
   * Generates CDKTF code for importing a DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -699,7 +699,7 @@ export class DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest k8s_security_istio_io_peer_authentication_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/security_istio_io_peer_authentication_v1beta1_manifest k8s_security_istio_io_peer_authentication_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -710,8 +710,8 @@ export class DataK8SSecurityIstioIoPeerAuthenticationV1Beta1Manifest extends cdk
       terraformResourceType: 'k8s_security_istio_io_peer_authentication_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

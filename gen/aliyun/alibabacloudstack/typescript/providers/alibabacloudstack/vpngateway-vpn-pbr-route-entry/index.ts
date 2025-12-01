@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/vpngateway_vpn_pbr_route_entry
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpngateway_vpn_pbr_route_entry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface VpngatewayVpnPbrRouteEntryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/vpngateway_vpn_pbr_route_entry#id VpngatewayVpnPbrRouteEntry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpngateway_vpn_pbr_route_entry#id VpngatewayVpnPbrRouteEntry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/vpngateway_vpn_pbr_route_entry#next_hop VpngatewayVpnPbrRouteEntry#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpngateway_vpn_pbr_route_entry#next_hop VpngatewayVpnPbrRouteEntry#next_hop}
   */
   readonly nextHop: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/vpngateway_vpn_pbr_route_entry#overlay_mode VpngatewayVpnPbrRouteEntry#overlay_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpngateway_vpn_pbr_route_entry#overlay_mode VpngatewayVpnPbrRouteEntry#overlay_mode}
   */
   readonly overlayMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/vpngateway_vpn_pbr_route_entry#publish_vpc VpngatewayVpnPbrRouteEntry#publish_vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpngateway_vpn_pbr_route_entry#publish_vpc VpngatewayVpnPbrRouteEntry#publish_vpc}
   */
   readonly publishVpc: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/vpngateway_vpn_pbr_route_entry#route_dest VpngatewayVpnPbrRouteEntry#route_dest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpngateway_vpn_pbr_route_entry#route_dest VpngatewayVpnPbrRouteEntry#route_dest}
   */
   readonly routeDest: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/vpngateway_vpn_pbr_route_entry#route_source VpngatewayVpnPbrRouteEntry#route_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpngateway_vpn_pbr_route_entry#route_source VpngatewayVpnPbrRouteEntry#route_source}
   */
   readonly routeSource: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/vpngateway_vpn_pbr_route_entry#vpn_gateway_id VpngatewayVpnPbrRouteEntry#vpn_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpngateway_vpn_pbr_route_entry#vpn_gateway_id VpngatewayVpnPbrRouteEntry#vpn_gateway_id}
   */
   readonly vpnGatewayId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/vpngateway_vpn_pbr_route_entry#weight VpngatewayVpnPbrRouteEntry#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpngateway_vpn_pbr_route_entry#weight VpngatewayVpnPbrRouteEntry#weight}
   */
   readonly weight: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/vpngateway_vpn_pbr_route_entry alibabacloudstack_vpngateway_vpn_pbr_route_entry}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpngateway_vpn_pbr_route_entry alibabacloudstack_vpngateway_vpn_pbr_route_entry}
 */
 export class VpngatewayVpnPbrRouteEntry extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class VpngatewayVpnPbrRouteEntry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpngatewayVpnPbrRouteEntry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpngatewayVpnPbrRouteEntry to import
-  * @param importFromId The id of the existing VpngatewayVpnPbrRouteEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/vpngateway_vpn_pbr_route_entry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpngatewayVpnPbrRouteEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpngateway_vpn_pbr_route_entry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpngatewayVpnPbrRouteEntry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class VpngatewayVpnPbrRouteEntry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/vpngateway_vpn_pbr_route_entry alibabacloudstack_vpngateway_vpn_pbr_route_entry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/vpngateway_vpn_pbr_route_entry alibabacloudstack_vpngateway_vpn_pbr_route_entry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,7 +84,8 @@ export class VpngatewayVpnPbrRouteEntry extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_vpngateway_vpn_pbr_route_entry',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

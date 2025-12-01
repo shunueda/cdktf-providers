@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/hologram_instance_backup_policy
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hologram_instance_backup_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface HologramInstanceBackupPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/hologram_instance_backup_policy#data_keep_quantity HologramInstanceBackupPolicy#data_keep_quantity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hologram_instance_backup_policy#data_keep_quantity HologramInstanceBackupPolicy#data_keep_quantity}
   */
   readonly dataKeepQuantity: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/hologram_instance_backup_policy#enabled HologramInstanceBackupPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hologram_instance_backup_policy#enabled HologramInstanceBackupPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/hologram_instance_backup_policy#hour HologramInstanceBackupPolicy#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hologram_instance_backup_policy#hour HologramInstanceBackupPolicy#hour}
   */
   readonly hour: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/hologram_instance_backup_policy#id HologramInstanceBackupPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hologram_instance_backup_policy#id HologramInstanceBackupPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/hologram_instance_backup_policy#instance_id HologramInstanceBackupPolicy#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hologram_instance_backup_policy#instance_id HologramInstanceBackupPolicy#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/hologram_instance_backup_policy#week HologramInstanceBackupPolicy#week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hologram_instance_backup_policy#week HologramInstanceBackupPolicy#week}
   */
   readonly week: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/hologram_instance_backup_policy alibabacloudstack_hologram_instance_backup_policy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hologram_instance_backup_policy alibabacloudstack_hologram_instance_backup_policy}
 */
 export class HologramInstanceBackupPolicy extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class HologramInstanceBackupPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HologramInstanceBackupPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HologramInstanceBackupPolicy to import
-  * @param importFromId The id of the existing HologramInstanceBackupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/hologram_instance_backup_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HologramInstanceBackupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hologram_instance_backup_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HologramInstanceBackupPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class HologramInstanceBackupPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/hologram_instance_backup_policy alibabacloudstack_hologram_instance_backup_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/hologram_instance_backup_policy alibabacloudstack_hologram_instance_backup_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,7 +76,8 @@ export class HologramInstanceBackupPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_hologram_instance_backup_policy',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

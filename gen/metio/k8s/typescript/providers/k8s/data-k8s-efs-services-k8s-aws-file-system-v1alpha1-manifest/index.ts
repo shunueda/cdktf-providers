@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SEfsServicesK8SAwsFileSystemV1Alpha1ManifestConfig extend
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#metadata DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#metadata DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SEfsServicesK8SAwsFileSystemV1Alpha1ManifestMetadata;
   /**
   * FileSystemSpec defines the desired state of FileSystem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#spec DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#spec DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SEfsServicesK8SAwsFileSystemV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SEfsServicesK8SAwsFileSystemV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#annotations DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#annotations DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#labels DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#labels DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#name DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#name DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#namespace DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#namespace DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,7 +217,7 @@ export class DataK8SEfsServicesK8SAwsFileSystemV1Alpha1ManifestMetadataOutputRef
 }
 export interface DataK8SEfsServicesK8SAwsFileSystemV1Alpha1ManifestSpecBackupPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#status DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#status DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#status}
   */
   readonly status?: string;
 }
@@ -311,7 +311,7 @@ export class DataK8SEfsServicesK8SAwsFileSystemV1Alpha1ManifestSpecBackupPolicyO
 }
 export interface DataK8SEfsServicesK8SAwsFileSystemV1Alpha1ManifestSpecFileSystemProtection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#replication_overwrite_protection DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#replication_overwrite_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#replication_overwrite_protection DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#replication_overwrite_protection}
   */
   readonly replicationOverwriteProtection?: string;
 }
@@ -405,11 +405,11 @@ export class DataK8SEfsServicesK8SAwsFileSystemV1Alpha1ManifestSpecFileSystemPro
 }
 export interface DataK8SEfsServicesK8SAwsFileSystemV1Alpha1ManifestSpecKmsKeyRefFrom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#name DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#name DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#namespace DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#namespace DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -534,7 +534,7 @@ export interface DataK8SEfsServicesK8SAwsFileSystemV1Alpha1ManifestSpecKmsKeyRef
   /**
   * AWSResourceReference provides all the values necessary to reference another k8s resource for finding the identifier(Id/ARN/Name)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#from DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#from DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#from}
   */
   readonly from?: DataK8SEfsServicesK8SAwsFileSystemV1Alpha1ManifestSpecKmsKeyRefFrom;
 }
@@ -628,15 +628,15 @@ export class DataK8SEfsServicesK8SAwsFileSystemV1Alpha1ManifestSpecKmsKeyRefOutp
 }
 export interface DataK8SEfsServicesK8SAwsFileSystemV1Alpha1ManifestSpecLifecyclePolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#transition_to_archive DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#transition_to_archive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#transition_to_archive DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#transition_to_archive}
   */
   readonly transitionToArchive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#transition_to_ia DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#transition_to_ia}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#transition_to_ia DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#transition_to_ia}
   */
   readonly transitionToIa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#transition_to_primary_storage_class DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#transition_to_primary_storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#transition_to_primary_storage_class DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#transition_to_primary_storage_class}
   */
   readonly transitionToPrimaryStorageClass?: string;
 }
@@ -810,11 +810,11 @@ export class DataK8SEfsServicesK8SAwsFileSystemV1Alpha1ManifestSpecLifecyclePoli
 }
 export interface DataK8SEfsServicesK8SAwsFileSystemV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#key DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#key DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#value DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#value DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -961,77 +961,77 @@ export interface DataK8SEfsServicesK8SAwsFileSystemV1Alpha1ManifestSpec {
   /**
   * Used to create a One Zone file system. It specifies the Amazon Web Services Availability Zone in which to create the file system. Use the format us-east-1a to specify the Availability Zone. For more information about One Zone file systems, see Using EFS storage classes (https://docs.aws.amazon.com/efs/latest/ug/storage-classes.html) in the Amazon EFS User Guide. One Zone file systems are not available in all Availability Zones in Amazon Web Services Regions where Amazon EFS is available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#availability_zone_name DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#availability_zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#availability_zone_name DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#availability_zone_name}
   */
   readonly availabilityZoneName?: string;
   /**
   * Specifies whether automatic backups are enabled on the file system that you are creating. Set the value to true to enable automatic backups. If you are creating a One Zone file system, automatic backups are enabled by default. For more information, see Automatic backups (https://docs.aws.amazon.com/efs/latest/ug/awsbackup.html#automatic-backups) in the Amazon EFS User Guide. Default is false. However, if you specify an AvailabilityZoneName, the default is true. Backup is not available in all Amazon Web Services Regions where Amazon EFS is available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#backup DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#backup DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#backup}
   */
   readonly backup?: boolean | cdktf.IResolvable;
   /**
   * The backup policy included in the PutBackupPolicy request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#backup_policy DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#backup_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#backup_policy DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#backup_policy}
   */
   readonly backupPolicy?: DataK8SEfsServicesK8SAwsFileSystemV1Alpha1ManifestSpecBackupPolicy;
   /**
   * A Boolean value that, if true, creates an encrypted file system. When creating an encrypted file system, you have the option of specifying an existing Key Management Service key (KMS key). If you don't specify a KMS key, then the default KMS key for Amazon EFS, /aws/elasticfilesystem, is used to protect the encrypted file system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#encrypted DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#encrypted DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#encrypted}
   */
   readonly encrypted?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#file_system_protection DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#file_system_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#file_system_protection DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#file_system_protection}
   */
   readonly fileSystemProtection?: DataK8SEfsServicesK8SAwsFileSystemV1Alpha1ManifestSpecFileSystemProtection;
   /**
   * The ID of the KMS key that you want to use to protect the encrypted file system. This parameter is required only if you want to use a non-default KMS key. If this parameter is not specified, the default KMS key for Amazon EFS is used. You can specify a KMS key ID using the following formats: * Key ID - A unique identifier of the key, for example 1234abcd-12ab-34cd-56ef-1234567890ab. * ARN - An Amazon Resource Name (ARN) for the key, for example arn:aws:kms:us-west-2:111122223333:key/1234abcd-12ab-34cd-56ef-1234567890ab. * Key alias - A previously created display name for a key, for example alias/projectKey1. * Key alias ARN - An ARN for a key alias, for example arn:aws:kms:us-west-2:444455556666:alias/projectKey1. If you use KmsKeyId, you must set the CreateFileSystemRequest$Encrypted parameter to true. EFS accepts only symmetric KMS keys. You cannot use asymmetric KMS keys with Amazon EFS file systems.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#kms_key_id DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#kms_key_id DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * AWSResourceReferenceWrapper provides a wrapper around *AWSResourceReference type to provide more user friendly syntax for references using 'from' field Ex: APIIDRef: from: name: my-api
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#kms_key_ref DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#kms_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#kms_key_ref DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#kms_key_ref}
   */
   readonly kmsKeyRef?: DataK8SEfsServicesK8SAwsFileSystemV1Alpha1ManifestSpecKmsKeyRef;
   /**
   * An array of LifecyclePolicy objects that define the file system's LifecycleConfiguration object. A LifecycleConfiguration object informs EFS Lifecycle management of the following: * TransitionToIA – When to move files in the file system from primary storage (Standard storage class) into the Infrequent Access (IA) storage. * TransitionToArchive – When to move files in the file system from their current storage class (either IA or Standard storage) into the Archive storage. File systems cannot transition into Archive storage before transitioning into IA storage. Therefore, TransitionToArchive must either not be set or must be later than TransitionToIA. The Archive storage class is available only for file systems that use the Elastic Throughput mode and the General Purpose Performance mode. * TransitionToPrimaryStorageClass – Whether to move files in the file system back to primary storage (Standard storage class) after they are accessed in IA or Archive storage. When using the put-lifecycle-configuration CLI command or the PutLifecycleConfiguration API action, Amazon EFS requires that each LifecyclePolicy object have only a single transition. This means that in a request body, LifecyclePolicies must be structured as an array of LifecyclePolicy objects, one object for each storage transition. See the example requests in the following section for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#lifecycle_policies DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#lifecycle_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#lifecycle_policies DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#lifecycle_policies}
   */
   readonly lifecyclePolicies?: DataK8SEfsServicesK8SAwsFileSystemV1Alpha1ManifestSpecLifecyclePolicies[] | cdktf.IResolvable;
   /**
   * The Performance mode of the file system. We recommend generalPurpose performance mode for all file systems. File systems using the maxIO performance mode can scale to higher levels of aggregate throughput and operations per second with a tradeoff of slightly higher latencies for most file operations. The performance mode can't be changed after the file system has been created. The maxIO mode is not supported on One Zone file systems. Due to the higher per-operation latencies with Max I/O, we recommend using General Purpose performance mode for all file systems. Default is generalPurpose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#performance_mode DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#performance_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#performance_mode DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#performance_mode}
   */
   readonly performanceMode?: string;
   /**
   * The FileSystemPolicy that you're creating. Accepts a JSON formatted policy definition. EFS file system policies have a 20,000 character limit. To find out more about the elements that make up a file system policy, see EFS Resource-based Policies (https://docs.aws.amazon.com/efs/latest/ug/access-control-overview.html#access-control-manage-access-intro-resource-policies).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#policy DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#policy DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#policy}
   */
   readonly policy?: string;
   /**
   * The throughput, measured in mebibytes per second (MiBps), that you want to provision for a file system that you're creating. Required if ThroughputMode is set to provisioned. Valid values are 1-3414 MiBps, with the upper limit depending on Region. To increase this limit, contact Amazon Web Services Support. For more information, see Amazon EFS quotas that you can increase (https://docs.aws.amazon.com/efs/latest/ug/limits.html#soft-limits) in the Amazon EFS User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#provisioned_throughput_in_mi_bps DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#provisioned_throughput_in_mi_bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#provisioned_throughput_in_mi_bps DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#provisioned_throughput_in_mi_bps}
   */
   readonly provisionedThroughputInMiBps?: number;
   /**
   * Use to create one or more tags associated with the file system. Each tag is a user-defined key-value pair. Name your file system on creation by including a 'Key':'Name','Value':'{value}' key-value pair. Each key must be unique. For more information, see Tagging Amazon Web Services resources (https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html) in the Amazon Web Services General Reference Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#tags DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#tags DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SEfsServicesK8SAwsFileSystemV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
   /**
   * Specifies the throughput mode for the file system. The mode can be bursting, provisioned, or elastic. If you set ThroughputMode to provisioned, you must also set a value for ProvisionedThroughputInMibps. After you create the file system, you can decrease your file system's Provisioned throughput or change between the throughput modes, with certain time restrictions. For more information, see Specifying throughput with provisioned mode (https://docs.aws.amazon.com/efs/latest/ug/performance.html#provisioned-throughput) in the Amazon EFS User Guide. Default is bursting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#throughput_mode DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#throughput_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#throughput_mode DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest#throughput_mode}
   */
   readonly throughputMode?: string;
 }
@@ -1473,7 +1473,7 @@ export class DataK8SEfsServicesK8SAwsFileSystemV1Alpha1ManifestSpecOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest k8s_efs_services_k8s_aws_file_system_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest k8s_efs_services_k8s_aws_file_system_v1alpha1_manifest}
 */
 export class DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1489,7 +1489,7 @@ export class DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest extends cdktf.Te
   * Generates CDKTF code for importing a DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1501,7 +1501,7 @@ export class DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest k8s_efs_services_k8s_aws_file_system_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/efs_services_k8s_aws_file_system_v1alpha1_manifest k8s_efs_services_k8s_aws_file_system_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1512,8 +1512,8 @@ export class DataK8SEfsServicesK8SAwsFileSystemV1Alpha1Manifest extends cdktf.Te
       terraformResourceType: 'k8s_efs_services_k8s_aws_file_system_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

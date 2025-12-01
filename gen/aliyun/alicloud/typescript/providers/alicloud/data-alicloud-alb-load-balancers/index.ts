@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_load_balancers
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_load_balancers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudAlbLoadBalancersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_load_balancers#address_type DataAlicloudAlbLoadBalancers#address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_load_balancers#address_type DataAlicloudAlbLoadBalancers#address_type}
   */
   readonly addressType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_load_balancers#enable_details DataAlicloudAlbLoadBalancers#enable_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_load_balancers#enable_details DataAlicloudAlbLoadBalancers#enable_details}
   */
   readonly enableDetails?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_load_balancers#id DataAlicloudAlbLoadBalancers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_load_balancers#id DataAlicloudAlbLoadBalancers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_load_balancers#ids DataAlicloudAlbLoadBalancers#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_load_balancers#ids DataAlicloudAlbLoadBalancers#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_load_balancers#load_balancer_business_status DataAlicloudAlbLoadBalancers#load_balancer_business_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_load_balancers#load_balancer_business_status DataAlicloudAlbLoadBalancers#load_balancer_business_status}
   */
   readonly loadBalancerBusinessStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_load_balancers#load_balancer_bussiness_status DataAlicloudAlbLoadBalancers#load_balancer_bussiness_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_load_balancers#load_balancer_bussiness_status DataAlicloudAlbLoadBalancers#load_balancer_bussiness_status}
   */
   readonly loadBalancerBussinessStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_load_balancers#load_balancer_ids DataAlicloudAlbLoadBalancers#load_balancer_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_load_balancers#load_balancer_ids DataAlicloudAlbLoadBalancers#load_balancer_ids}
   */
   readonly loadBalancerIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_load_balancers#load_balancer_name DataAlicloudAlbLoadBalancers#load_balancer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_load_balancers#load_balancer_name DataAlicloudAlbLoadBalancers#load_balancer_name}
   */
   readonly loadBalancerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_load_balancers#name_regex DataAlicloudAlbLoadBalancers#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_load_balancers#name_regex DataAlicloudAlbLoadBalancers#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_load_balancers#output_file DataAlicloudAlbLoadBalancers#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_load_balancers#output_file DataAlicloudAlbLoadBalancers#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_load_balancers#resource_group_id DataAlicloudAlbLoadBalancers#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_load_balancers#resource_group_id DataAlicloudAlbLoadBalancers#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_load_balancers#status DataAlicloudAlbLoadBalancers#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_load_balancers#status DataAlicloudAlbLoadBalancers#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_load_balancers#tags DataAlicloudAlbLoadBalancers#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_load_balancers#tags DataAlicloudAlbLoadBalancers#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_load_balancers#vpc_id DataAlicloudAlbLoadBalancers#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_load_balancers#vpc_id DataAlicloudAlbLoadBalancers#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_load_balancers#vpc_ids DataAlicloudAlbLoadBalancers#vpc_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_load_balancers#vpc_ids DataAlicloudAlbLoadBalancers#vpc_ids}
   */
   readonly vpcIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_load_balancers#zone_id DataAlicloudAlbLoadBalancers#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_load_balancers#zone_id DataAlicloudAlbLoadBalancers#zone_id}
   */
   readonly zoneId?: string;
 }
@@ -860,7 +860,7 @@ export class DataAlicloudAlbLoadBalancersBalancersList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_load_balancers alicloud_alb_load_balancers}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_load_balancers alicloud_alb_load_balancers}
 */
 export class DataAlicloudAlbLoadBalancers extends cdktf.TerraformDataSource {
 
@@ -876,7 +876,7 @@ export class DataAlicloudAlbLoadBalancers extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAlicloudAlbLoadBalancers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudAlbLoadBalancers to import
-  * @param importFromId The id of the existing DataAlicloudAlbLoadBalancers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_load_balancers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudAlbLoadBalancers that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_load_balancers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudAlbLoadBalancers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -888,7 +888,7 @@ export class DataAlicloudAlbLoadBalancers extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/alb_load_balancers alicloud_alb_load_balancers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/alb_load_balancers alicloud_alb_load_balancers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -899,8 +899,8 @@ export class DataAlicloudAlbLoadBalancers extends cdktf.TerraformDataSource {
       terraformResourceType: 'alicloud_alb_load_balancers',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

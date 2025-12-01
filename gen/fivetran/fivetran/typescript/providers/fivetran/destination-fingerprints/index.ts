@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/destination_fingerprints
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination_fingerprints
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DestinationFingerprintsConfig extends cdktf.TerraformMetaArgume
   /**
   * The unique identifier for the target destination within the Fivetran system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/destination_fingerprints#destination_id DestinationFingerprints#destination_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination_fingerprints#destination_id DestinationFingerprints#destination_id}
   */
   readonly destinationId: string;
   /**
   * fingerprint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/destination_fingerprints#fingerprint DestinationFingerprints#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination_fingerprints#fingerprint DestinationFingerprints#fingerprint}
   */
   readonly fingerprint?: DestinationFingerprintsFingerprint[] | cdktf.IResolvable;
 }
@@ -24,13 +24,13 @@ export interface DestinationFingerprintsFingerprint {
   /**
   * Hash of the fingerprint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/destination_fingerprints#hash DestinationFingerprints#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination_fingerprints#hash DestinationFingerprints#hash}
   */
   readonly hash: string;
   /**
   * The SSH public key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/destination_fingerprints#public_key DestinationFingerprints#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination_fingerprints#public_key DestinationFingerprints#public_key}
   */
   readonly publicKey: string;
 }
@@ -179,7 +179,7 @@ export class DestinationFingerprintsFingerprintList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/destination_fingerprints fivetran_destination_fingerprints}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination_fingerprints fivetran_destination_fingerprints}
 */
 export class DestinationFingerprints extends cdktf.TerraformResource {
 
@@ -195,7 +195,7 @@ export class DestinationFingerprints extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DestinationFingerprints resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DestinationFingerprints to import
-  * @param importFromId The id of the existing DestinationFingerprints that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/destination_fingerprints#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DestinationFingerprints that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination_fingerprints#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DestinationFingerprints to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -207,7 +207,7 @@ export class DestinationFingerprints extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/destination_fingerprints fivetran_destination_fingerprints} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/destination_fingerprints fivetran_destination_fingerprints} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -218,8 +218,8 @@ export class DestinationFingerprints extends cdktf.TerraformResource {
       terraformResourceType: 'fivetran_destination_fingerprints',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.15',
-        providerVersionConstraint: '1.9.15'
+        providerVersion: '1.9.16',
+        providerVersionConstraint: '1.9.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

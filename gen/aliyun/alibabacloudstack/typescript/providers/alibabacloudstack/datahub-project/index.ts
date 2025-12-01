@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/datahub_project
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/datahub_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DatahubProjectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/datahub_project#comment DatahubProject#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/datahub_project#comment DatahubProject#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/datahub_project#id DatahubProject#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/datahub_project#id DatahubProject#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/datahub_project#name DatahubProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/datahub_project#name DatahubProject#name}
   */
   readonly name: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/datahub_project#vpc_ids DatahubProject#vpc_ids}
+  */
+  readonly vpcIds?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/datahub_project alibabacloudstack_datahub_project}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/datahub_project alibabacloudstack_datahub_project}
 */
 export class DatahubProject extends cdktf.TerraformResource {
 
@@ -41,7 +45,7 @@ export class DatahubProject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatahubProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatahubProject to import
-  * @param importFromId The id of the existing DatahubProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/datahub_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatahubProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/datahub_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatahubProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +57,7 @@ export class DatahubProject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/datahub_project alibabacloudstack_datahub_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/datahub_project alibabacloudstack_datahub_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +68,8 @@ export class DatahubProject extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_datahub_project',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -78,6 +82,7 @@ export class DatahubProject extends cdktf.TerraformResource {
     this._comment = config.comment;
     this._id = config.id;
     this._name = config.name;
+    this._vpcIds = config.vpcIds;
   }
 
   // ==========
@@ -139,6 +144,22 @@ export class DatahubProject extends cdktf.TerraformResource {
     return this._name;
   }
 
+  // vpc_ids - computed: false, optional: true, required: false
+  private _vpcIds?: string[]; 
+  public get vpcIds() {
+    return cdktf.Fn.tolist(this.getListAttribute('vpc_ids'));
+  }
+  public set vpcIds(value: string[]) {
+    this._vpcIds = value;
+  }
+  public resetVpcIds() {
+    this._vpcIds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vpcIdsInput() {
+    return this._vpcIds;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -148,6 +169,7 @@ export class DatahubProject extends cdktf.TerraformResource {
       comment: cdktf.stringToTerraform(this._comment),
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
+      vpc_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._vpcIds),
     };
   }
 
@@ -170,6 +192,12 @@ export class DatahubProject extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      vpc_ids: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._vpcIds),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
       },
     };
 

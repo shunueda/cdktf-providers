@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_ntp_server
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_ntp_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface SystemNtpServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_ntp_server#___path___ SystemNtpServer#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_ntp_server#___path___ SystemNtpServer#___path___}
   */
   readonly path?: string;
   /**
   * NTP symmetric key, used for authentication between the NTP client and server. Key Identifier (Key ID) - an integer identifying the cryptographic key used to generate the message-authentication code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_ntp_server#auth_key SystemNtpServer#auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_ntp_server#auth_key SystemNtpServer#auth_key}
   */
   readonly authKey?: string;
   /**
   * Enable certain NTP server mode, for this mode to work you have to set up broadcast-addresses field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_ntp_server#broadcast SystemNtpServer#broadcast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_ntp_server#broadcast SystemNtpServer#broadcast}
   */
   readonly broadcast?: boolean | cdktf.IResolvable;
   /**
   * Set broadcast address to use for NTP server broadcast mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_ntp_server#broadcast_addresses SystemNtpServer#broadcast_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_ntp_server#broadcast_addresses SystemNtpServer#broadcast_addresses}
   */
   readonly broadcastAddresses?: string;
   /**
   * Enable NTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_ntp_server#enabled SystemNtpServer#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_ntp_server#enabled SystemNtpServer#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_ntp_server#id SystemNtpServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_ntp_server#id SystemNtpServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,37 +47,37 @@ export interface SystemNtpServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Manually set stratum if ```use_local_clock = true```.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_ntp_server#local_clock_stratum SystemNtpServer#local_clock_stratum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_ntp_server#local_clock_stratum SystemNtpServer#local_clock_stratum}
   */
   readonly localClockStratum?: number;
   /**
   * Enable certain NTP server mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_ntp_server#manycast SystemNtpServer#manycast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_ntp_server#manycast SystemNtpServer#manycast}
   */
   readonly manycast?: boolean | cdktf.IResolvable;
   /**
   * Enable certain NTP server mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_ntp_server#multicast SystemNtpServer#multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_ntp_server#multicast SystemNtpServer#multicast}
   */
   readonly multicast?: boolean | cdktf.IResolvable;
   /**
   * The server will supply its local system time as valid if others are not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_ntp_server#use_local_clock SystemNtpServer#use_local_clock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_ntp_server#use_local_clock SystemNtpServer#use_local_clock}
   */
   readonly useLocalClock?: boolean | cdktf.IResolvable;
   /**
   * The VRF table this resource operates on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_ntp_server#vrf SystemNtpServer#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_ntp_server#vrf SystemNtpServer#vrf}
   */
   readonly vrf?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_ntp_server routeros_system_ntp_server}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_ntp_server routeros_system_ntp_server}
 */
 export class SystemNtpServer extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class SystemNtpServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemNtpServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemNtpServer to import
-  * @param importFromId The id of the existing SystemNtpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_ntp_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemNtpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_ntp_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemNtpServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class SystemNtpServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/system_ntp_server routeros_system_ntp_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/system_ntp_server routeros_system_ntp_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class SystemNtpServer extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_system_ntp_server',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.94.0',
-        providerVersionConstraint: '1.94.0'
+        providerVersion: '1.95.0',
+        providerVersionConstraint: '1.95.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

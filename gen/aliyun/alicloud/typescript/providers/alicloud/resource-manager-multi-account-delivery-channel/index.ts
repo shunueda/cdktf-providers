@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface ResourceManagerMultiAccountDeliveryChannelConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel#delivery_channel_description ResourceManagerMultiAccountDeliveryChannel#delivery_channel_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel#delivery_channel_description ResourceManagerMultiAccountDeliveryChannel#delivery_channel_description}
   */
   readonly deliveryChannelDescription: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel#id ResourceManagerMultiAccountDeliveryChannel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel#id ResourceManagerMultiAccountDeliveryChannel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel#multi_account_delivery_channel_name ResourceManagerMultiAccountDeliveryChannel#multi_account_delivery_channel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel#multi_account_delivery_channel_name ResourceManagerMultiAccountDeliveryChannel#multi_account_delivery_channel_name}
   */
   readonly multiAccountDeliveryChannelName: string;
   /**
   * delivery_channel_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel#delivery_channel_filter ResourceManagerMultiAccountDeliveryChannel#delivery_channel_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel#delivery_channel_filter ResourceManagerMultiAccountDeliveryChannel#delivery_channel_filter}
   */
   readonly deliveryChannelFilter: ResourceManagerMultiAccountDeliveryChannelDeliveryChannelFilter;
   /**
   * resource_change_delivery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel#resource_change_delivery ResourceManagerMultiAccountDeliveryChannel#resource_change_delivery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel#resource_change_delivery ResourceManagerMultiAccountDeliveryChannel#resource_change_delivery}
   */
   readonly resourceChangeDelivery?: ResourceManagerMultiAccountDeliveryChannelResourceChangeDelivery;
   /**
   * resource_snapshot_delivery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel#resource_snapshot_delivery ResourceManagerMultiAccountDeliveryChannel#resource_snapshot_delivery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel#resource_snapshot_delivery ResourceManagerMultiAccountDeliveryChannel#resource_snapshot_delivery}
   */
   readonly resourceSnapshotDelivery?: ResourceManagerMultiAccountDeliveryChannelResourceSnapshotDelivery;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel#timeouts ResourceManagerMultiAccountDeliveryChannel#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel#timeouts ResourceManagerMultiAccountDeliveryChannel#timeouts}
   */
   readonly timeouts?: ResourceManagerMultiAccountDeliveryChannelTimeouts;
 }
 export interface ResourceManagerMultiAccountDeliveryChannelDeliveryChannelFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel#account_scopes ResourceManagerMultiAccountDeliveryChannel#account_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel#account_scopes ResourceManagerMultiAccountDeliveryChannel#account_scopes}
   */
   readonly accountScopes: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel#resource_types ResourceManagerMultiAccountDeliveryChannel#resource_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel#resource_types ResourceManagerMultiAccountDeliveryChannel#resource_types}
   */
   readonly resourceTypes?: string[];
 }
@@ -163,7 +163,7 @@ export class ResourceManagerMultiAccountDeliveryChannelDeliveryChannelFilterOutp
 }
 export interface ResourceManagerMultiAccountDeliveryChannelResourceChangeDeliverySlsProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel#oversized_data_oss_target_arn ResourceManagerMultiAccountDeliveryChannel#oversized_data_oss_target_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel#oversized_data_oss_target_arn ResourceManagerMultiAccountDeliveryChannel#oversized_data_oss_target_arn}
   */
   readonly oversizedDataOssTargetArn?: string;
 }
@@ -247,21 +247,21 @@ export class ResourceManagerMultiAccountDeliveryChannelResourceChangeDeliverySls
 }
 export interface ResourceManagerMultiAccountDeliveryChannelResourceChangeDelivery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel#enabled ResourceManagerMultiAccountDeliveryChannel#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel#enabled ResourceManagerMultiAccountDeliveryChannel#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel#target_arn ResourceManagerMultiAccountDeliveryChannel#target_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel#target_arn ResourceManagerMultiAccountDeliveryChannel#target_arn}
   */
   readonly targetArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel#target_type ResourceManagerMultiAccountDeliveryChannel#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel#target_type ResourceManagerMultiAccountDeliveryChannel#target_type}
   */
   readonly targetType?: string;
   /**
   * sls_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel#sls_properties ResourceManagerMultiAccountDeliveryChannel#sls_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel#sls_properties ResourceManagerMultiAccountDeliveryChannel#sls_properties}
   */
   readonly slsProperties?: ResourceManagerMultiAccountDeliveryChannelResourceChangeDeliverySlsProperties;
 }
@@ -432,7 +432,7 @@ export class ResourceManagerMultiAccountDeliveryChannelResourceChangeDeliveryOut
 }
 export interface ResourceManagerMultiAccountDeliveryChannelResourceSnapshotDeliverySlsProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel#oversized_data_oss_target_arn ResourceManagerMultiAccountDeliveryChannel#oversized_data_oss_target_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel#oversized_data_oss_target_arn ResourceManagerMultiAccountDeliveryChannel#oversized_data_oss_target_arn}
   */
   readonly oversizedDataOssTargetArn?: string;
 }
@@ -516,29 +516,29 @@ export class ResourceManagerMultiAccountDeliveryChannelResourceSnapshotDeliveryS
 }
 export interface ResourceManagerMultiAccountDeliveryChannelResourceSnapshotDelivery {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel#custom_expression ResourceManagerMultiAccountDeliveryChannel#custom_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel#custom_expression ResourceManagerMultiAccountDeliveryChannel#custom_expression}
   */
   readonly customExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel#delivery_time ResourceManagerMultiAccountDeliveryChannel#delivery_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel#delivery_time ResourceManagerMultiAccountDeliveryChannel#delivery_time}
   */
   readonly deliveryTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel#enabled ResourceManagerMultiAccountDeliveryChannel#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel#enabled ResourceManagerMultiAccountDeliveryChannel#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel#target_arn ResourceManagerMultiAccountDeliveryChannel#target_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel#target_arn ResourceManagerMultiAccountDeliveryChannel#target_arn}
   */
   readonly targetArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel#target_type ResourceManagerMultiAccountDeliveryChannel#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel#target_type ResourceManagerMultiAccountDeliveryChannel#target_type}
   */
   readonly targetType?: string;
   /**
   * sls_properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel#sls_properties ResourceManagerMultiAccountDeliveryChannel#sls_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel#sls_properties ResourceManagerMultiAccountDeliveryChannel#sls_properties}
   */
   readonly slsProperties?: ResourceManagerMultiAccountDeliveryChannelResourceSnapshotDeliverySlsProperties;
 }
@@ -767,15 +767,15 @@ export class ResourceManagerMultiAccountDeliveryChannelResourceSnapshotDeliveryO
 }
 export interface ResourceManagerMultiAccountDeliveryChannelTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel#create ResourceManagerMultiAccountDeliveryChannel#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel#create ResourceManagerMultiAccountDeliveryChannel#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel#delete ResourceManagerMultiAccountDeliveryChannel#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel#delete ResourceManagerMultiAccountDeliveryChannel#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel#update ResourceManagerMultiAccountDeliveryChannel#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel#update ResourceManagerMultiAccountDeliveryChannel#update}
   */
   readonly update?: string;
 }
@@ -927,7 +927,7 @@ export class ResourceManagerMultiAccountDeliveryChannelTimeoutsOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel alicloud_resource_manager_multi_account_delivery_channel}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel alicloud_resource_manager_multi_account_delivery_channel}
 */
 export class ResourceManagerMultiAccountDeliveryChannel extends cdktf.TerraformResource {
 
@@ -943,7 +943,7 @@ export class ResourceManagerMultiAccountDeliveryChannel extends cdktf.TerraformR
   * Generates CDKTF code for importing a ResourceManagerMultiAccountDeliveryChannel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceManagerMultiAccountDeliveryChannel to import
-  * @param importFromId The id of the existing ResourceManagerMultiAccountDeliveryChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceManagerMultiAccountDeliveryChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceManagerMultiAccountDeliveryChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -955,7 +955,7 @@ export class ResourceManagerMultiAccountDeliveryChannel extends cdktf.TerraformR
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/resource_manager_multi_account_delivery_channel alicloud_resource_manager_multi_account_delivery_channel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/resource_manager_multi_account_delivery_channel alicloud_resource_manager_multi_account_delivery_channel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -966,8 +966,8 @@ export class ResourceManagerMultiAccountDeliveryChannel extends cdktf.TerraformR
       terraformResourceType: 'alicloud_resource_manager_multi_account_delivery_channel',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

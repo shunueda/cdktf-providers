@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestConfig extends cdktf.
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#metadata DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#metadata DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestMetadata;
   /**
   * KeycloakSpec defines the desired state of Keycloak.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#spec DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#spec DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#annotations DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#annotations DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#labels DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#labels DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#namespace DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#namespace DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecExternal {
   /**
   * Context root for Keycloak. If not set, the default '/auth/' is used. Must end with '/'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#context_root DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#context_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#context_root DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#context_root}
   */
   readonly contextRoot?: string;
   /**
   * If set to true, this Keycloak will be treated as an external instance. The unmanaged field also needs to be set to true if this field is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#enabled DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#enabled DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The URL to use for the keycloak admin API. Needs to be set if external is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#url DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#url DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#url}
   */
   readonly url?: string;
 }
@@ -385,19 +385,19 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecExternalAccess {
   /**
   * If set to true, the Operator will create an Ingress or a Route pointing to Keycloak.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#enabled DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#enabled DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * If set, the Operator will use value of host for Ingress host instead of default value keycloak.local. Using this setting in OpenShift environment will result an error. Only users with special permissions are allowed to modify the hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#host DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#host DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#host}
   */
   readonly host?: string;
   /**
   * TLS Termination type for the external access. Setting this field to 'reencrypt' will terminate TLS on the Ingress/Route level. Setting this field to 'passthrough' will send encrypted traffic to the Pod. If unspecified, defaults to 'reencrypt'. Note, that this setting has no effect on Ingress as Ingress TLS settings are not reconciled by this operator. In other words, Ingress TLS configuration is the same in both cases and it is up to the user to configure TLS section of the Ingress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#tls_termination DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#tls_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#tls_termination DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#tls_termination}
   */
   readonly tlsTermination?: string;
 }
@@ -551,7 +551,7 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecExternalDatabase 
   /**
   * If set to true, the Operator will use an external database pointing to Keycloak. The embedded database (externalDatabase.enabled = false) is deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#enabled DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#enabled DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -647,19 +647,19 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#operator DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#operator DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#values DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#values DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -829,19 +829,19 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#operator DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#operator DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#values DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#values DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1011,13 +1011,13 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#match_expressions DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#match_expressions DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#match_fields DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#match_fields DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -1142,13 +1142,13 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#preference DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#preference DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#preference}
   */
   readonly preference: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#weight DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#weight DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -1289,19 +1289,19 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#operator DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#operator DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#values DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#values DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1471,19 +1471,19 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#operator DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#operator DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#values DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#values DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1653,13 +1653,13 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#match_expressions DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#match_expressions DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#match_fields DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#match_fields DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -1806,7 +1806,7 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#node_selector_terms DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#node_selector_terms DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -1899,13 +1899,13 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -2030,19 +2030,19 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#operator DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#operator DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#values DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#values DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2212,13 +2212,13 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#match_expressions DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#match_expressions DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#match_labels DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#match_labels DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2343,19 +2343,19 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#label_selector DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#label_selector DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * namespaces specifies which namespaces the labelSelector applies to (matches against); null or empty list means 'this pod's namespace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#namespaces DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#namespaces DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#topology_key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#topology_key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -2506,13 +2506,13 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#pod_affinity_term DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#pod_affinity_term DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#weight DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#weight DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -2653,19 +2653,19 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#operator DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#operator DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#values DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#values DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2835,13 +2835,13 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#match_expressions DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#match_expressions DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#match_labels DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#match_labels DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2966,19 +2966,19 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#label_selector DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#label_selector DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * namespaces specifies which namespaces the labelSelector applies to (matches against); null or empty list means 'this pod's namespace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#namespaces DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#namespaces DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#topology_key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#topology_key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3151,13 +3151,13 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -3282,19 +3282,19 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#operator DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#operator DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#values DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#values DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3464,13 +3464,13 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#match_expressions DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#match_expressions DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#match_labels DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#match_labels DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3595,19 +3595,19 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#label_selector DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#label_selector DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * namespaces specifies which namespaces the labelSelector applies to (matches against); null or empty list means 'this pod's namespace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#namespaces DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#namespaces DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#topology_key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#topology_key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -3758,13 +3758,13 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#pod_affinity_term DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#pod_affinity_term DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#weight DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#weight DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -3905,19 +3905,19 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#operator DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#operator DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#values DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#values DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4087,13 +4087,13 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#match_expressions DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#match_expressions DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#match_labels DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#match_labels DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4218,19 +4218,19 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#label_selector DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#label_selector DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * namespaces specifies which namespaces the labelSelector applies to (matches against); null or empty list means 'this pod's namespace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#namespaces DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#namespaces DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#topology_key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#topology_key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -4403,13 +4403,13 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#required_during_scheduling_ignored_during_execution DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -4534,19 +4534,19 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#node_affinity DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#node_affinity DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#pod_affinity DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#pod_affinity DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#pod_anti_affinity DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#pod_anti_affinity DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalAffinityPodAntiAffinity;
 }
@@ -4700,19 +4700,19 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#optional DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#optional DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4863,13 +4863,13 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#api_version DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#api_version DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#field_path DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#field_path DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -4991,19 +4991,19 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#container_name DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#container_name DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#divisor DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#divisor DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#resource DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#resource DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#resource}
   */
   readonly resource: string;
 }
@@ -5154,19 +5154,19 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#optional DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#optional DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -5317,25 +5317,25 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#config_map_key_ref DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#config_map_key_ref DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#field_ref DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#field_ref DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#resource_field_ref DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#resource_field_ref DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#secret_key_ref DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#secret_key_ref DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalEnvValueFromSecretKeyRef;
 }
@@ -5518,19 +5518,19 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previous defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. The $(VAR_NAME) syntax can be escaped with a double $$, ie: $$(VAR_NAME). Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#value DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#value DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#value_from DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#value_from DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#value_from}
   */
   readonly valueFrom?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalEnvValueFrom;
 }
@@ -5703,19 +5703,19 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * The key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#key DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#mode DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#mode DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * The relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#path DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#path DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#path}
   */
   readonly path: string;
 }
@@ -5885,31 +5885,31 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * Allow multiple configmaps to mount to the same directory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#config_maps DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#config_maps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#config_maps DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#config_maps}
   */
   readonly configMaps?: string[];
   /**
   * Mount details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#items DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#items DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalVolumesItemsItems[] | cdktf.IResolvable;
   /**
   * An absolute path where to mount it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#mount_path DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#mount_path DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * Volume name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#name DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Secret mount
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#secrets DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#secrets DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#secrets}
   */
   readonly secrets?: string[];
 }
@@ -6140,11 +6140,11 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * Permissions mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#default_mode DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#default_mode DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#items DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#items DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#items}
   */
   readonly items?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalVolumesItems[] | cdktf.IResolvable;
 }
@@ -6269,37 +6269,37 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * Affinity settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#affinity DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#affinity DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#affinity}
   */
   readonly affinity?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalAffinity;
   /**
   * Arguments to the entrypoint. Translates into Container CMD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#args DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#args DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#args}
   */
   readonly args?: string[];
   /**
   * Container command. Translates into Container ENTRYPOINT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#command DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#command DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#command}
   */
   readonly command?: string[];
   /**
   * List of environment variables to set in the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#env DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#env DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#env}
   */
   readonly env?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalEnv[] | cdktf.IResolvable;
   /**
   * ServiceAccountName settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#service_account_name DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#service_account_name DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
   * Additional volume mounts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#volumes DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#volumes DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#volumes}
   */
   readonly volumes?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimentalVolumes;
 }
@@ -6540,13 +6540,13 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#limits DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#limits DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#requests DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#requests DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -6671,31 +6671,31 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymen
   /**
   * Experimental section NOTE: This section might change or get removed without any notice. It may also cause the deployment to behave in an unpredictable fashion. Please use with care.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#experimental DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#experimental}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#experimental DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#experimental}
   */
   readonly experimental?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecExperimental;
   /**
   * ImagePullPolicy for the Containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#image_pull_policy DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#image_pull_policy DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * List of annotations to set in the keycloak pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#podannotations DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#podannotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#podannotations DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#podannotations}
   */
   readonly podannotations?: { [key: string]: string };
   /**
   * List of labels to set in the keycloak pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#podlabels DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#podlabels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#podlabels DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#podlabels}
   */
   readonly podlabels?: { [key: string]: string };
   /**
   * Resources (Requests and Limits) for the Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#resources DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#resources DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpecResources;
 }
@@ -6907,7 +6907,7 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecMigrationBackups 
   /**
   * If set to true, the operator will do database backup before doing migration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#enabled DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#enabled DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -7003,13 +7003,13 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecMigration {
   /**
   * Set it to config backup policy for migration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#backups DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#backups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#backups DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#backups}
   */
   readonly backups?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecMigrationBackups;
   /**
   * Specify migration strategy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#strategy DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#strategy DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#strategy}
   */
   readonly strategy?: string;
 }
@@ -7134,7 +7134,7 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecMultiAvailablityZ
   /**
   * If set to true, the operator will create a podAntiAffinity settings for the Keycloak deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#enabled DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#enabled DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -7230,7 +7230,7 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecPodDisruptionBudg
   /**
   * If set to true, the operator will create a PodDistruptionBudget for the Keycloak deployment and set its 'maxUnavailable' value to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#enabled DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#enabled DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -7326,13 +7326,13 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecPostgresDeploymen
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#limits DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#limits DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-compute-resources-container/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#requests DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#requests DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -7457,13 +7457,13 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecPostgresDeploymen
   /**
   * ImagePullPolicy for the Containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#image_pull_policy DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#image_pull_policy DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Resources (Requests and Limits) for the Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#resources DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#resources DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecPostgresDeploymentSpecResources;
 }
@@ -7588,91 +7588,91 @@ export interface DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpec {
   /**
   * Disables the integration with Application Monitoring Operator. When set to true, the operator doesn't create default PrometheusRule, ServiceMonitor and GrafanaDashboard objects and users will have to create them manually, if needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#disable_default_service_monitor DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#disable_default_service_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#disable_default_service_monitor DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#disable_default_service_monitor}
   */
   readonly disableDefaultServiceMonitor?: boolean | cdktf.IResolvable;
   /**
   * Specify whether disabling the syncing of instances from the Keycloak CR to the statefulset replicas should be enabled or disabled. This option could be used when enabling HPA(horizontal pod autoscaler). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#disable_replicas_syncing DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#disable_replicas_syncing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#disable_replicas_syncing DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#disable_replicas_syncing}
   */
   readonly disableReplicasSyncing?: boolean | cdktf.IResolvable;
   /**
   * A list of extensions, where each one is a URL to a JAR files that will be deployed in Keycloak.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#extensions DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#extensions DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#extensions}
   */
   readonly extensions?: string[];
   /**
   * Contains configuration for external Keycloak instances. Unmanaged needs to be set to true to use this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#external DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#external DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#external}
   */
   readonly external?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecExternal;
   /**
   * Controls external Ingress/Route settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#external_access DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#external_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#external_access DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#external_access}
   */
   readonly externalAccess?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecExternalAccess;
   /**
   * Controls external database settings. Using an external database requires providing a secret containing credentials as well as connection details. Here's an example of such secret: apiVersion: v1 kind: Secret metadata: name: keycloak-db-secret namespace: keycloak stringData: POSTGRES_DATABASE: <Database Name> POSTGRES_EXTERNAL_ADDRESS: <External Database IP or URL (resolvable by K8s)> POSTGRES_EXTERNAL_PORT: <External Database Port> # Strongly recommended to use <'Keycloak CR Name'-postgresql> POSTGRES_HOST: <Database Service Name> POSTGRES_PASSWORD: <Database Password> # Required for AWS Backup functionality POSTGRES_SUPERUSER: true POSTGRES_USERNAME: <Database Username> type: Opaque Both POSTGRES_EXTERNAL_ADDRESS and POSTGRES_EXTERNAL_PORT are specifically required for creating connection to the external database. The secret name is created using the following convention: <Custom Resource Name>-db-secret For more information, please refer to the Operator documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#external_database DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#external_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#external_database DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#external_database}
   */
   readonly externalDatabase?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecExternalDatabase;
   /**
   * Number of Keycloak instances in HA mode. Default is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#instances DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#instances DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#instances}
   */
   readonly instances?: number;
   /**
   * Resources (Requests and Limits) and ImagePullPolicy for KeycloakDeployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#keycloak_deployment_spec DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#keycloak_deployment_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#keycloak_deployment_spec DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#keycloak_deployment_spec}
   */
   readonly keycloakDeploymentSpec?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecKeycloakDeploymentSpec;
   /**
   * Specify Migration configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#migration DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#migration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#migration DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#migration}
   */
   readonly migration?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecMigration;
   /**
   * Specify PodAntiAffinity settings for Keycloak deployment in Multi AZ
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#multi_availablity_zones DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#multi_availablity_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#multi_availablity_zones DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#multi_availablity_zones}
   */
   readonly multiAvailablityZones?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecMultiAvailablityZones;
   /**
   * Specify PodDisruptionBudget configuration. This field is deprecated and will be ignored on K8s >=1.25
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#pod_disruption_budget DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#pod_disruption_budget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#pod_disruption_budget DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#pod_disruption_budget}
   */
   readonly podDisruptionBudget?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecPodDisruptionBudget;
   /**
   * Resources (Requests and Limits) and ImagePullPolicy for PostgresDeployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#postgres_deployment_spec DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#postgres_deployment_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#postgres_deployment_spec DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#postgres_deployment_spec}
   */
   readonly postgresDeploymentSpec?: DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecPostgresDeploymentSpec;
   /**
   * Profile used for controlling Operator behavior. Default is empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#profile DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#profile DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#profile}
   */
   readonly profile?: string;
   /**
   * Name of the StorageClass for Postgresql Persistent Volume Claim
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#storage_class_name DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#storage_class_name DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * When set to true, this Keycloak will be marked as unmanaged and will not be managed by this operator. It can then be used for targeting purposes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#unmanaged DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#unmanaged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#unmanaged DataK8SKeycloakOrgKeycloakV1Alpha1Manifest#unmanaged}
   */
   readonly unmanaged?: boolean | cdktf.IResolvable;
 }
@@ -8172,7 +8172,7 @@ export class DataK8SKeycloakOrgKeycloakV1Alpha1ManifestSpecOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest k8s_keycloak_org_keycloak_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest k8s_keycloak_org_keycloak_v1alpha1_manifest}
 */
 export class DataK8SKeycloakOrgKeycloakV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -8188,7 +8188,7 @@ export class DataK8SKeycloakOrgKeycloakV1Alpha1Manifest extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataK8SKeycloakOrgKeycloakV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKeycloakOrgKeycloakV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SKeycloakOrgKeycloakV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKeycloakOrgKeycloakV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKeycloakOrgKeycloakV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8200,7 +8200,7 @@ export class DataK8SKeycloakOrgKeycloakV1Alpha1Manifest extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest k8s_keycloak_org_keycloak_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/keycloak_org_keycloak_v1alpha1_manifest k8s_keycloak_org_keycloak_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8211,8 +8211,8 @@ export class DataK8SKeycloakOrgKeycloakV1Alpha1Manifest extends cdktf.TerraformD
       terraformResourceType: 'k8s_keycloak_org_keycloak_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

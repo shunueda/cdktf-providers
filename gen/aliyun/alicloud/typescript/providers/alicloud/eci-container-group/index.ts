@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,176 +8,176 @@ import * as cdktf from 'cdktf';
 
 export interface EciContainerGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#auto_create_eip EciContainerGroup#auto_create_eip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#auto_create_eip EciContainerGroup#auto_create_eip}
   */
   readonly autoCreateEip?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#auto_match_image_cache EciContainerGroup#auto_match_image_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#auto_match_image_cache EciContainerGroup#auto_match_image_cache}
   */
   readonly autoMatchImageCache?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#container_group_name EciContainerGroup#container_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#container_group_name EciContainerGroup#container_group_name}
   */
   readonly containerGroupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#cpu EciContainerGroup#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#cpu EciContainerGroup#cpu}
   */
   readonly cpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#dns_policy EciContainerGroup#dns_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#dns_policy EciContainerGroup#dns_policy}
   */
   readonly dnsPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#eip_bandwidth EciContainerGroup#eip_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#eip_bandwidth EciContainerGroup#eip_bandwidth}
   */
   readonly eipBandwidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#eip_instance_id EciContainerGroup#eip_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#eip_instance_id EciContainerGroup#eip_instance_id}
   */
   readonly eipInstanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#ephemeral_storage EciContainerGroup#ephemeral_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#ephemeral_storage EciContainerGroup#ephemeral_storage}
   */
   readonly ephemeralStorage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#id EciContainerGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#id EciContainerGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#insecure_registry EciContainerGroup#insecure_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#insecure_registry EciContainerGroup#insecure_registry}
   */
   readonly insecureRegistry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#instance_type EciContainerGroup#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#instance_type EciContainerGroup#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#memory EciContainerGroup#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#memory EciContainerGroup#memory}
   */
   readonly memory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#plain_http_registry EciContainerGroup#plain_http_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#plain_http_registry EciContainerGroup#plain_http_registry}
   */
   readonly plainHttpRegistry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#ram_role_name EciContainerGroup#ram_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#ram_role_name EciContainerGroup#ram_role_name}
   */
   readonly ramRoleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#resource_group_id EciContainerGroup#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#resource_group_id EciContainerGroup#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#restart_policy EciContainerGroup#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#restart_policy EciContainerGroup#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#security_group_id EciContainerGroup#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#security_group_id EciContainerGroup#security_group_id}
   */
   readonly securityGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#spot_price_limit EciContainerGroup#spot_price_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#spot_price_limit EciContainerGroup#spot_price_limit}
   */
   readonly spotPriceLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#spot_strategy EciContainerGroup#spot_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#spot_strategy EciContainerGroup#spot_strategy}
   */
   readonly spotStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#tags EciContainerGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#tags EciContainerGroup#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#termination_grace_period_seconds EciContainerGroup#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#termination_grace_period_seconds EciContainerGroup#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#vswitch_id EciContainerGroup#vswitch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#vswitch_id EciContainerGroup#vswitch_id}
   */
   readonly vswitchId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#zone_id EciContainerGroup#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#zone_id EciContainerGroup#zone_id}
   */
   readonly zoneId?: string;
   /**
   * acr_registry_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#acr_registry_info EciContainerGroup#acr_registry_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#acr_registry_info EciContainerGroup#acr_registry_info}
   */
   readonly acrRegistryInfo?: EciContainerGroupAcrRegistryInfo[] | cdktf.IResolvable;
   /**
   * containers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#containers EciContainerGroup#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#containers EciContainerGroup#containers}
   */
   readonly containers: EciContainerGroupContainers[] | cdktf.IResolvable;
   /**
   * dns_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#dns_config EciContainerGroup#dns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#dns_config EciContainerGroup#dns_config}
   */
   readonly dnsConfig?: EciContainerGroupDnsConfig;
   /**
   * eci_security_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#eci_security_context EciContainerGroup#eci_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#eci_security_context EciContainerGroup#eci_security_context}
   */
   readonly eciSecurityContext?: EciContainerGroupEciSecurityContext;
   /**
   * host_aliases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#host_aliases EciContainerGroup#host_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#host_aliases EciContainerGroup#host_aliases}
   */
   readonly hostAliases?: EciContainerGroupHostAliases[] | cdktf.IResolvable;
   /**
   * image_registry_credential block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#image_registry_credential EciContainerGroup#image_registry_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#image_registry_credential EciContainerGroup#image_registry_credential}
   */
   readonly imageRegistryCredential?: EciContainerGroupImageRegistryCredential[] | cdktf.IResolvable;
   /**
   * init_containers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#init_containers EciContainerGroup#init_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#init_containers EciContainerGroup#init_containers}
   */
   readonly initContainers?: EciContainerGroupInitContainers[] | cdktf.IResolvable;
   /**
   * security_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#security_context EciContainerGroup#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#security_context EciContainerGroup#security_context}
   */
   readonly securityContext?: EciContainerGroupSecurityContext;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#timeouts EciContainerGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#timeouts EciContainerGroup#timeouts}
   */
   readonly timeouts?: EciContainerGroupTimeouts;
   /**
   * volumes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#volumes EciContainerGroup#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#volumes EciContainerGroup#volumes}
   */
   readonly volumes?: EciContainerGroupVolumes[] | cdktf.IResolvable;
 }
 export interface EciContainerGroupAcrRegistryInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#domains EciContainerGroup#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#domains EciContainerGroup#domains}
   */
   readonly domains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#instance_id EciContainerGroup#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#instance_id EciContainerGroup#instance_id}
   */
   readonly instanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#instance_name EciContainerGroup#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#instance_name EciContainerGroup#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#region_id EciContainerGroup#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#region_id EciContainerGroup#region_id}
   */
   readonly regionId?: string;
 }
@@ -380,7 +380,7 @@ export class EciContainerGroupAcrRegistryInfoList extends cdktf.ComplexList {
 }
 export interface EciContainerGroupContainersEnvironmentVarsFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#field_path EciContainerGroup#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#field_path EciContainerGroup#field_path}
   */
   readonly fieldPath?: string;
 }
@@ -496,17 +496,17 @@ export class EciContainerGroupContainersEnvironmentVarsFieldRefList extends cdkt
 }
 export interface EciContainerGroupContainersEnvironmentVars {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#key EciContainerGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#key EciContainerGroup#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#value EciContainerGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#value EciContainerGroup#value}
   */
   readonly value?: string;
   /**
   * field_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#field_ref EciContainerGroup#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#field_ref EciContainerGroup#field_ref}
   */
   readonly fieldRef?: EciContainerGroupContainersEnvironmentVarsFieldRef[] | cdktf.IResolvable;
 }
@@ -680,7 +680,7 @@ export class EciContainerGroupContainersEnvironmentVarsList extends cdktf.Comple
 }
 export interface EciContainerGroupContainersLivenessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#commands EciContainerGroup#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#commands EciContainerGroup#commands}
   */
   readonly commands?: string[];
 }
@@ -796,15 +796,15 @@ export class EciContainerGroupContainersLivenessProbeExecList extends cdktf.Comp
 }
 export interface EciContainerGroupContainersLivenessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#path EciContainerGroup#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#path EciContainerGroup#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#port EciContainerGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#port EciContainerGroup#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#scheme EciContainerGroup#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#scheme EciContainerGroup#scheme}
   */
   readonly scheme?: string;
 }
@@ -978,7 +978,7 @@ export class EciContainerGroupContainersLivenessProbeHttpGetList extends cdktf.C
 }
 export interface EciContainerGroupContainersLivenessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#port EciContainerGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#port EciContainerGroup#port}
   */
   readonly port?: number;
 }
@@ -1094,41 +1094,41 @@ export class EciContainerGroupContainersLivenessProbeTcpSocketList extends cdktf
 }
 export interface EciContainerGroupContainersLivenessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#failure_threshold EciContainerGroup#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#failure_threshold EciContainerGroup#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#initial_delay_seconds EciContainerGroup#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#initial_delay_seconds EciContainerGroup#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#period_seconds EciContainerGroup#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#period_seconds EciContainerGroup#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#success_threshold EciContainerGroup#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#success_threshold EciContainerGroup#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#timeout_seconds EciContainerGroup#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#timeout_seconds EciContainerGroup#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * exec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#exec EciContainerGroup#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#exec EciContainerGroup#exec}
   */
   readonly exec?: EciContainerGroupContainersLivenessProbeExec[] | cdktf.IResolvable;
   /**
   * http_get block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#http_get EciContainerGroup#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#http_get EciContainerGroup#http_get}
   */
   readonly httpGet?: EciContainerGroupContainersLivenessProbeHttpGet[] | cdktf.IResolvable;
   /**
   * tcp_socket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#tcp_socket EciContainerGroup#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#tcp_socket EciContainerGroup#tcp_socket}
   */
   readonly tcpSocket?: EciContainerGroupContainersLivenessProbeTcpSocket[] | cdktf.IResolvable;
 }
@@ -1447,11 +1447,11 @@ export class EciContainerGroupContainersLivenessProbeList extends cdktf.ComplexL
 }
 export interface EciContainerGroupContainersPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#port EciContainerGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#port EciContainerGroup#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#protocol EciContainerGroup#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#protocol EciContainerGroup#protocol}
   */
   readonly protocol?: string;
 }
@@ -1596,7 +1596,7 @@ export class EciContainerGroupContainersPortsList extends cdktf.ComplexList {
 }
 export interface EciContainerGroupContainersReadinessProbeExec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#commands EciContainerGroup#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#commands EciContainerGroup#commands}
   */
   readonly commands?: string[];
 }
@@ -1712,15 +1712,15 @@ export class EciContainerGroupContainersReadinessProbeExecList extends cdktf.Com
 }
 export interface EciContainerGroupContainersReadinessProbeHttpGet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#path EciContainerGroup#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#path EciContainerGroup#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#port EciContainerGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#port EciContainerGroup#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#scheme EciContainerGroup#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#scheme EciContainerGroup#scheme}
   */
   readonly scheme?: string;
 }
@@ -1894,7 +1894,7 @@ export class EciContainerGroupContainersReadinessProbeHttpGetList extends cdktf.
 }
 export interface EciContainerGroupContainersReadinessProbeTcpSocket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#port EciContainerGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#port EciContainerGroup#port}
   */
   readonly port?: number;
 }
@@ -2010,41 +2010,41 @@ export class EciContainerGroupContainersReadinessProbeTcpSocketList extends cdkt
 }
 export interface EciContainerGroupContainersReadinessProbe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#failure_threshold EciContainerGroup#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#failure_threshold EciContainerGroup#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#initial_delay_seconds EciContainerGroup#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#initial_delay_seconds EciContainerGroup#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#period_seconds EciContainerGroup#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#period_seconds EciContainerGroup#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#success_threshold EciContainerGroup#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#success_threshold EciContainerGroup#success_threshold}
   */
   readonly successThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#timeout_seconds EciContainerGroup#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#timeout_seconds EciContainerGroup#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * exec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#exec EciContainerGroup#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#exec EciContainerGroup#exec}
   */
   readonly exec?: EciContainerGroupContainersReadinessProbeExec[] | cdktf.IResolvable;
   /**
   * http_get block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#http_get EciContainerGroup#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#http_get EciContainerGroup#http_get}
   */
   readonly httpGet?: EciContainerGroupContainersReadinessProbeHttpGet[] | cdktf.IResolvable;
   /**
   * tcp_socket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#tcp_socket EciContainerGroup#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#tcp_socket EciContainerGroup#tcp_socket}
   */
   readonly tcpSocket?: EciContainerGroupContainersReadinessProbeTcpSocket[] | cdktf.IResolvable;
 }
@@ -2363,7 +2363,7 @@ export class EciContainerGroupContainersReadinessProbeList extends cdktf.Complex
 }
 export interface EciContainerGroupContainersSecurityContextCapability {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#add EciContainerGroup#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#add EciContainerGroup#add}
   */
   readonly add?: string[];
 }
@@ -2479,17 +2479,17 @@ export class EciContainerGroupContainersSecurityContextCapabilityList extends cd
 }
 export interface EciContainerGroupContainersSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#privileged EciContainerGroup#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#privileged EciContainerGroup#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#run_as_user EciContainerGroup#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#run_as_user EciContainerGroup#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * capability block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#capability EciContainerGroup#capability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#capability EciContainerGroup#capability}
   */
   readonly capability?: EciContainerGroupContainersSecurityContextCapability[] | cdktf.IResolvable;
 }
@@ -2663,15 +2663,15 @@ export class EciContainerGroupContainersSecurityContextList extends cdktf.Comple
 }
 export interface EciContainerGroupContainersVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#mount_path EciContainerGroup#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#mount_path EciContainerGroup#mount_path}
   */
   readonly mountPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#name EciContainerGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#name EciContainerGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#read_only EciContainerGroup#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#read_only EciContainerGroup#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -2845,79 +2845,79 @@ export class EciContainerGroupContainersVolumeMountsList extends cdktf.ComplexLi
 }
 export interface EciContainerGroupContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#args EciContainerGroup#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#args EciContainerGroup#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#commands EciContainerGroup#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#commands EciContainerGroup#commands}
   */
   readonly commands?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#cpu EciContainerGroup#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#cpu EciContainerGroup#cpu}
   */
   readonly cpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#gpu EciContainerGroup#gpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#gpu EciContainerGroup#gpu}
   */
   readonly gpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#image EciContainerGroup#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#image EciContainerGroup#image}
   */
   readonly image: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#image_pull_policy EciContainerGroup#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#image_pull_policy EciContainerGroup#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#lifecycle_pre_stop_handler_exec EciContainerGroup#lifecycle_pre_stop_handler_exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#lifecycle_pre_stop_handler_exec EciContainerGroup#lifecycle_pre_stop_handler_exec}
   */
   readonly lifecyclePreStopHandlerExec?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#memory EciContainerGroup#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#memory EciContainerGroup#memory}
   */
   readonly memory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#name EciContainerGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#name EciContainerGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#working_dir EciContainerGroup#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#working_dir EciContainerGroup#working_dir}
   */
   readonly workingDir?: string;
   /**
   * environment_vars block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#environment_vars EciContainerGroup#environment_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#environment_vars EciContainerGroup#environment_vars}
   */
   readonly environmentVars?: EciContainerGroupContainersEnvironmentVars[] | cdktf.IResolvable;
   /**
   * liveness_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#liveness_probe EciContainerGroup#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#liveness_probe EciContainerGroup#liveness_probe}
   */
   readonly livenessProbe?: EciContainerGroupContainersLivenessProbe[] | cdktf.IResolvable;
   /**
   * ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#ports EciContainerGroup#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#ports EciContainerGroup#ports}
   */
   readonly ports?: EciContainerGroupContainersPorts[] | cdktf.IResolvable;
   /**
   * readiness_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#readiness_probe EciContainerGroup#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#readiness_probe EciContainerGroup#readiness_probe}
   */
   readonly readinessProbe?: EciContainerGroupContainersReadinessProbe[] | cdktf.IResolvable;
   /**
   * security_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#security_context EciContainerGroup#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#security_context EciContainerGroup#security_context}
   */
   readonly securityContext?: EciContainerGroupContainersSecurityContext[] | cdktf.IResolvable;
   /**
   * volume_mounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#volume_mounts EciContainerGroup#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#volume_mounts EciContainerGroup#volume_mounts}
   */
   readonly volumeMounts?: EciContainerGroupContainersVolumeMounts[] | cdktf.IResolvable;
 }
@@ -3472,11 +3472,11 @@ export class EciContainerGroupContainersList extends cdktf.ComplexList {
 }
 export interface EciContainerGroupDnsConfigOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#name EciContainerGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#name EciContainerGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#value EciContainerGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#value EciContainerGroup#value}
   */
   readonly value?: string;
 }
@@ -3621,17 +3621,17 @@ export class EciContainerGroupDnsConfigOptionsList extends cdktf.ComplexList {
 }
 export interface EciContainerGroupDnsConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#name_servers EciContainerGroup#name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#name_servers EciContainerGroup#name_servers}
   */
   readonly nameServers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#searches EciContainerGroup#searches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#searches EciContainerGroup#searches}
   */
   readonly searches?: string[];
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#options EciContainerGroup#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#options EciContainerGroup#options}
   */
   readonly options?: EciContainerGroupDnsConfigOptions[] | cdktf.IResolvable;
 }
@@ -3773,11 +3773,11 @@ export class EciContainerGroupDnsConfigOutputReference extends cdktf.ComplexObje
 }
 export interface EciContainerGroupEciSecurityContextSysctls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#name EciContainerGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#name EciContainerGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#value EciContainerGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#value EciContainerGroup#value}
   */
   readonly value?: string;
 }
@@ -3924,7 +3924,7 @@ export interface EciContainerGroupEciSecurityContext {
   /**
   * sysctls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#sysctls EciContainerGroup#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#sysctls EciContainerGroup#sysctls}
   */
   readonly sysctls?: EciContainerGroupEciSecurityContextSysctls[] | cdktf.IResolvable;
 }
@@ -4008,11 +4008,11 @@ export class EciContainerGroupEciSecurityContextOutputReference extends cdktf.Co
 }
 export interface EciContainerGroupHostAliases {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#hostnames EciContainerGroup#hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#hostnames EciContainerGroup#hostnames}
   */
   readonly hostnames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#ip EciContainerGroup#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#ip EciContainerGroup#ip}
   */
   readonly ip?: string;
 }
@@ -4157,15 +4157,15 @@ export class EciContainerGroupHostAliasesList extends cdktf.ComplexList {
 }
 export interface EciContainerGroupImageRegistryCredential {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#password EciContainerGroup#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#password EciContainerGroup#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#server EciContainerGroup#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#server EciContainerGroup#server}
   */
   readonly server: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#user_name EciContainerGroup#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#user_name EciContainerGroup#user_name}
   */
   readonly userName: string;
 }
@@ -4330,7 +4330,7 @@ export class EciContainerGroupImageRegistryCredentialList extends cdktf.ComplexL
 }
 export interface EciContainerGroupInitContainersEnvironmentVarsFieldRef {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#field_path EciContainerGroup#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#field_path EciContainerGroup#field_path}
   */
   readonly fieldPath?: string;
 }
@@ -4446,17 +4446,17 @@ export class EciContainerGroupInitContainersEnvironmentVarsFieldRefList extends 
 }
 export interface EciContainerGroupInitContainersEnvironmentVars {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#key EciContainerGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#key EciContainerGroup#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#value EciContainerGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#value EciContainerGroup#value}
   */
   readonly value?: string;
   /**
   * field_ref block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#field_ref EciContainerGroup#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#field_ref EciContainerGroup#field_ref}
   */
   readonly fieldRef?: EciContainerGroupInitContainersEnvironmentVarsFieldRef[] | cdktf.IResolvable;
 }
@@ -4630,11 +4630,11 @@ export class EciContainerGroupInitContainersEnvironmentVarsList extends cdktf.Co
 }
 export interface EciContainerGroupInitContainersPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#port EciContainerGroup#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#port EciContainerGroup#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#protocol EciContainerGroup#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#protocol EciContainerGroup#protocol}
   */
   readonly protocol?: string;
 }
@@ -4779,7 +4779,7 @@ export class EciContainerGroupInitContainersPortsList extends cdktf.ComplexList 
 }
 export interface EciContainerGroupInitContainersSecurityContextCapability {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#add EciContainerGroup#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#add EciContainerGroup#add}
   */
   readonly add?: string[];
 }
@@ -4895,13 +4895,13 @@ export class EciContainerGroupInitContainersSecurityContextCapabilityList extend
 }
 export interface EciContainerGroupInitContainersSecurityContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#run_as_user EciContainerGroup#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#run_as_user EciContainerGroup#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * capability block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#capability EciContainerGroup#capability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#capability EciContainerGroup#capability}
   */
   readonly capability?: EciContainerGroupInitContainersSecurityContextCapability[] | cdktf.IResolvable;
 }
@@ -5046,15 +5046,15 @@ export class EciContainerGroupInitContainersSecurityContextList extends cdktf.Co
 }
 export interface EciContainerGroupInitContainersVolumeMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#mount_path EciContainerGroup#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#mount_path EciContainerGroup#mount_path}
   */
   readonly mountPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#name EciContainerGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#name EciContainerGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#read_only EciContainerGroup#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#read_only EciContainerGroup#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
 }
@@ -5228,63 +5228,63 @@ export class EciContainerGroupInitContainersVolumeMountsList extends cdktf.Compl
 }
 export interface EciContainerGroupInitContainers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#args EciContainerGroup#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#args EciContainerGroup#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#commands EciContainerGroup#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#commands EciContainerGroup#commands}
   */
   readonly commands?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#cpu EciContainerGroup#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#cpu EciContainerGroup#cpu}
   */
   readonly cpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#gpu EciContainerGroup#gpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#gpu EciContainerGroup#gpu}
   */
   readonly gpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#image EciContainerGroup#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#image EciContainerGroup#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#image_pull_policy EciContainerGroup#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#image_pull_policy EciContainerGroup#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#memory EciContainerGroup#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#memory EciContainerGroup#memory}
   */
   readonly memory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#name EciContainerGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#name EciContainerGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#working_dir EciContainerGroup#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#working_dir EciContainerGroup#working_dir}
   */
   readonly workingDir?: string;
   /**
   * environment_vars block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#environment_vars EciContainerGroup#environment_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#environment_vars EciContainerGroup#environment_vars}
   */
   readonly environmentVars?: EciContainerGroupInitContainersEnvironmentVars[] | cdktf.IResolvable;
   /**
   * ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#ports EciContainerGroup#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#ports EciContainerGroup#ports}
   */
   readonly ports?: EciContainerGroupInitContainersPorts[] | cdktf.IResolvable;
   /**
   * security_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#security_context EciContainerGroup#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#security_context EciContainerGroup#security_context}
   */
   readonly securityContext?: EciContainerGroupInitContainersSecurityContext[] | cdktf.IResolvable;
   /**
   * volume_mounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#volume_mounts EciContainerGroup#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#volume_mounts EciContainerGroup#volume_mounts}
   */
   readonly volumeMounts?: EciContainerGroupInitContainersVolumeMounts[] | cdktf.IResolvable;
 }
@@ -5758,11 +5758,11 @@ export class EciContainerGroupInitContainersList extends cdktf.ComplexList {
 }
 export interface EciContainerGroupSecurityContextSysctl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#name EciContainerGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#name EciContainerGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#value EciContainerGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#value EciContainerGroup#value}
   */
   readonly value?: string;
 }
@@ -5909,7 +5909,7 @@ export interface EciContainerGroupSecurityContext {
   /**
   * sysctl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#sysctl EciContainerGroup#sysctl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#sysctl EciContainerGroup#sysctl}
   */
   readonly sysctl?: EciContainerGroupSecurityContextSysctl[] | cdktf.IResolvable;
 }
@@ -5993,15 +5993,15 @@ export class EciContainerGroupSecurityContextOutputReference extends cdktf.Compl
 }
 export interface EciContainerGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#create EciContainerGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#create EciContainerGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#delete EciContainerGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#delete EciContainerGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#update EciContainerGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#update EciContainerGroup#update}
   */
   readonly update?: string;
 }
@@ -6153,11 +6153,11 @@ export class EciContainerGroupTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 export interface EciContainerGroupVolumesConfigFileVolumeConfigFileToPaths {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#content EciContainerGroup#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#content EciContainerGroup#content}
   */
   readonly content?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#path EciContainerGroup#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#path EciContainerGroup#path}
   */
   readonly path?: string;
 }
@@ -6302,49 +6302,49 @@ export class EciContainerGroupVolumesConfigFileVolumeConfigFileToPathsList exten
 }
 export interface EciContainerGroupVolumes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#disk_volume_disk_id EciContainerGroup#disk_volume_disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#disk_volume_disk_id EciContainerGroup#disk_volume_disk_id}
   */
   readonly diskVolumeDiskId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#disk_volume_fs_type EciContainerGroup#disk_volume_fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#disk_volume_fs_type EciContainerGroup#disk_volume_fs_type}
   */
   readonly diskVolumeFsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#flex_volume_driver EciContainerGroup#flex_volume_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#flex_volume_driver EciContainerGroup#flex_volume_driver}
   */
   readonly flexVolumeDriver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#flex_volume_fs_type EciContainerGroup#flex_volume_fs_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#flex_volume_fs_type EciContainerGroup#flex_volume_fs_type}
   */
   readonly flexVolumeFsType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#flex_volume_options EciContainerGroup#flex_volume_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#flex_volume_options EciContainerGroup#flex_volume_options}
   */
   readonly flexVolumeOptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#name EciContainerGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#name EciContainerGroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#nfs_volume_path EciContainerGroup#nfs_volume_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#nfs_volume_path EciContainerGroup#nfs_volume_path}
   */
   readonly nfsVolumePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#nfs_volume_read_only EciContainerGroup#nfs_volume_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#nfs_volume_read_only EciContainerGroup#nfs_volume_read_only}
   */
   readonly nfsVolumeReadOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#nfs_volume_server EciContainerGroup#nfs_volume_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#nfs_volume_server EciContainerGroup#nfs_volume_server}
   */
   readonly nfsVolumeServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#type EciContainerGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#type EciContainerGroup#type}
   */
   readonly type?: string;
   /**
   * config_file_volume_config_file_to_paths block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#config_file_volume_config_file_to_paths EciContainerGroup#config_file_volume_config_file_to_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#config_file_volume_config_file_to_paths EciContainerGroup#config_file_volume_config_file_to_paths}
   */
   readonly configFileVolumeConfigFileToPaths?: EciContainerGroupVolumesConfigFileVolumeConfigFileToPaths[] | cdktf.IResolvable;
 }
@@ -6750,7 +6750,7 @@ export class EciContainerGroupVolumesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group alicloud_eci_container_group}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group alicloud_eci_container_group}
 */
 export class EciContainerGroup extends cdktf.TerraformResource {
 
@@ -6766,7 +6766,7 @@ export class EciContainerGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EciContainerGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EciContainerGroup to import
-  * @param importFromId The id of the existing EciContainerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EciContainerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EciContainerGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6778,7 +6778,7 @@ export class EciContainerGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/eci_container_group alicloud_eci_container_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/eci_container_group alicloud_eci_container_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6789,8 +6789,8 @@ export class EciContainerGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_eci_container_group',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

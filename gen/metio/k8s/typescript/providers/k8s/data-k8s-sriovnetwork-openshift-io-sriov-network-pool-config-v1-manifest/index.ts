@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1ManifestC
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#metadata DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#metadata DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#metadata}
   */
   readonly metadata: DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1ManifestMetadata;
   /**
   * SriovNetworkPoolConfigSpec defines the desired state of SriovNetworkPoolConfig
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#spec DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#spec DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#spec}
   */
   readonly spec?: DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1ManifestM
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#annotations DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#annotations DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#labels DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#labels DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#name DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#name DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#namespace DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#namespace DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1ManifestS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#key DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#key DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#operator DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#operator DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#values DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#values DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -401,13 +401,13 @@ export interface DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1ManifestS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#match_expressions DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#match_expressions DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1ManifestSpecNodeSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#match_labels DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#match_labels DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -532,7 +532,7 @@ export interface DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1ManifestS
   /**
   * Name is mandatory and must be unique. On Kubernetes: Name is the name of OvsHardwareOffloadConfig On OpenShift: Name is the name of MachineConfigPool to be enabled with OVS hardware offload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#name DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#name DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -628,19 +628,19 @@ export interface DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1ManifestS
   /**
   * maxUnavailable defines either an integer number or percentage of nodes in the pool that can go Unavailable during an update. A value larger than 1 will mean multiple nodes going unavailable during the update, which may affect your workload stress on the remaining nodes. Drain will respect Pod Disruption Budgets (PDBs) such as etcd quorum guards, even if maxUnavailable is greater than one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#max_unavailable DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#max_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#max_unavailable DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#max_unavailable}
   */
   readonly maxUnavailable?: string;
   /**
   * nodeSelector specifies a label selector for Nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#node_selector DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#node_selector DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#node_selector}
   */
   readonly nodeSelector?: DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1ManifestSpecNodeSelector;
   /**
   * OvsHardwareOffloadConfig describes the OVS HWOL configuration for selected Nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#ovs_hardware_offload_config DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#ovs_hardware_offload_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#ovs_hardware_offload_config DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest#ovs_hardware_offload_config}
   */
   readonly ovsHardwareOffloadConfig?: DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1ManifestSpecOvsHardwareOffloadConfig;
 }
@@ -792,7 +792,7 @@ export class DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1ManifestSpecO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest k8s_sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest k8s_sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest}
 */
 export class DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest extends cdktf.TerraformDataSource {
 
@@ -808,7 +808,7 @@ export class DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest exte
   * Generates CDKTF code for importing a DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest to import
-  * @param importFromId The id of the existing DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -820,7 +820,7 @@ export class DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest exte
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest k8s_sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest k8s_sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -831,8 +831,8 @@ export class DataK8SSriovnetworkOpenshiftIoSriovNetworkPoolConfigV1Manifest exte
       terraformResourceType: 'k8s_sriovnetwork_openshift_io_sriov_network_pool_config_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

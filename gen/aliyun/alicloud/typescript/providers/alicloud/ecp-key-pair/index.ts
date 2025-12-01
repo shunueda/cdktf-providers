@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecp_key_pair
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecp_key_pair
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface EcpKeyPairConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecp_key_pair#id EcpKeyPair#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecp_key_pair#id EcpKeyPair#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecp_key_pair#key_pair_name EcpKeyPair#key_pair_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecp_key_pair#key_pair_name EcpKeyPair#key_pair_name}
   */
   readonly keyPairName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecp_key_pair#public_key_body EcpKeyPair#public_key_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecp_key_pair#public_key_body EcpKeyPair#public_key_body}
   */
   readonly publicKeyBody: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecp_key_pair alicloud_ecp_key_pair}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecp_key_pair alicloud_ecp_key_pair}
 */
 export class EcpKeyPair extends cdktf.TerraformResource {
 
@@ -41,7 +41,7 @@ export class EcpKeyPair extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EcpKeyPair resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EcpKeyPair to import
-  * @param importFromId The id of the existing EcpKeyPair that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecp_key_pair#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EcpKeyPair that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecp_key_pair#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EcpKeyPair to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class EcpKeyPair extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/ecp_key_pair alicloud_ecp_key_pair} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/ecp_key_pair alicloud_ecp_key_pair} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class EcpKeyPair extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_ecp_key_pair',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

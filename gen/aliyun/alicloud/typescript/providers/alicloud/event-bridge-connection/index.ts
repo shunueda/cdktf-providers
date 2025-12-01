@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface EventBridgeConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#connection_name EventBridgeConnection#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#connection_name EventBridgeConnection#connection_name}
   */
   readonly connectionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#description EventBridgeConnection#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#description EventBridgeConnection#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#id EventBridgeConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#id EventBridgeConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,29 +25,29 @@ export interface EventBridgeConnectionConfig extends cdktf.TerraformMetaArgument
   /**
   * auth_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#auth_parameters EventBridgeConnection#auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#auth_parameters EventBridgeConnection#auth_parameters}
   */
   readonly authParameters?: EventBridgeConnectionAuthParameters;
   /**
   * network_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#network_parameters EventBridgeConnection#network_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#network_parameters EventBridgeConnection#network_parameters}
   */
   readonly networkParameters: EventBridgeConnectionNetworkParameters;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#timeouts EventBridgeConnection#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#timeouts EventBridgeConnection#timeouts}
   */
   readonly timeouts?: EventBridgeConnectionTimeouts;
 }
 export interface EventBridgeConnectionAuthParametersApiKeyAuthParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#api_key_name EventBridgeConnection#api_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#api_key_name EventBridgeConnection#api_key_name}
   */
   readonly apiKeyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#api_key_value EventBridgeConnection#api_key_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#api_key_value EventBridgeConnection#api_key_value}
   */
   readonly apiKeyValue?: string;
 }
@@ -160,11 +160,11 @@ export class EventBridgeConnectionAuthParametersApiKeyAuthParametersOutputRefere
 }
 export interface EventBridgeConnectionAuthParametersBasicAuthParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#password EventBridgeConnection#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#password EventBridgeConnection#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#username EventBridgeConnection#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#username EventBridgeConnection#username}
   */
   readonly username?: string;
 }
@@ -277,11 +277,11 @@ export class EventBridgeConnectionAuthParametersBasicAuthParametersOutputReferen
 }
 export interface EventBridgeConnectionAuthParametersOauthParametersClientParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#client_id EventBridgeConnection#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#client_id EventBridgeConnection#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#client_secret EventBridgeConnection#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#client_secret EventBridgeConnection#client_secret}
   */
   readonly clientSecret?: string;
 }
@@ -394,15 +394,15 @@ export class EventBridgeConnectionAuthParametersOauthParametersClientParametersO
 }
 export interface EventBridgeConnectionAuthParametersOauthParametersOauthHttpParametersBodyParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#is_value_secret EventBridgeConnection#is_value_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#is_value_secret EventBridgeConnection#is_value_secret}
   */
   readonly isValueSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#key EventBridgeConnection#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#key EventBridgeConnection#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#value EventBridgeConnection#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#value EventBridgeConnection#value}
   */
   readonly value?: string;
 }
@@ -576,15 +576,15 @@ export class EventBridgeConnectionAuthParametersOauthParametersOauthHttpParamete
 }
 export interface EventBridgeConnectionAuthParametersOauthParametersOauthHttpParametersHeaderParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#is_value_secret EventBridgeConnection#is_value_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#is_value_secret EventBridgeConnection#is_value_secret}
   */
   readonly isValueSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#key EventBridgeConnection#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#key EventBridgeConnection#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#value EventBridgeConnection#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#value EventBridgeConnection#value}
   */
   readonly value?: string;
 }
@@ -758,15 +758,15 @@ export class EventBridgeConnectionAuthParametersOauthParametersOauthHttpParamete
 }
 export interface EventBridgeConnectionAuthParametersOauthParametersOauthHttpParametersQueryStringParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#is_value_secret EventBridgeConnection#is_value_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#is_value_secret EventBridgeConnection#is_value_secret}
   */
   readonly isValueSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#key EventBridgeConnection#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#key EventBridgeConnection#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#value EventBridgeConnection#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#value EventBridgeConnection#value}
   */
   readonly value?: string;
 }
@@ -942,19 +942,19 @@ export interface EventBridgeConnectionAuthParametersOauthParametersOauthHttpPara
   /**
   * body_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#body_parameters EventBridgeConnection#body_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#body_parameters EventBridgeConnection#body_parameters}
   */
   readonly bodyParameters?: EventBridgeConnectionAuthParametersOauthParametersOauthHttpParametersBodyParameters[] | cdktf.IResolvable;
   /**
   * header_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#header_parameters EventBridgeConnection#header_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#header_parameters EventBridgeConnection#header_parameters}
   */
   readonly headerParameters?: EventBridgeConnectionAuthParametersOauthParametersOauthHttpParametersHeaderParameters[] | cdktf.IResolvable;
   /**
   * query_string_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#query_string_parameters EventBridgeConnection#query_string_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#query_string_parameters EventBridgeConnection#query_string_parameters}
   */
   readonly queryStringParameters?: EventBridgeConnectionAuthParametersOauthParametersOauthHttpParametersQueryStringParameters[] | cdktf.IResolvable;
 }
@@ -1096,23 +1096,23 @@ export class EventBridgeConnectionAuthParametersOauthParametersOauthHttpParamete
 }
 export interface EventBridgeConnectionAuthParametersOauthParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#authorization_endpoint EventBridgeConnection#authorization_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#authorization_endpoint EventBridgeConnection#authorization_endpoint}
   */
   readonly authorizationEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#http_method EventBridgeConnection#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#http_method EventBridgeConnection#http_method}
   */
   readonly httpMethod?: string;
   /**
   * client_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#client_parameters EventBridgeConnection#client_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#client_parameters EventBridgeConnection#client_parameters}
   */
   readonly clientParameters?: EventBridgeConnectionAuthParametersOauthParametersClientParameters;
   /**
   * oauth_http_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#oauth_http_parameters EventBridgeConnection#oauth_http_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#oauth_http_parameters EventBridgeConnection#oauth_http_parameters}
   */
   readonly oauthHttpParameters?: EventBridgeConnectionAuthParametersOauthParametersOauthHttpParameters;
 }
@@ -1283,25 +1283,25 @@ export class EventBridgeConnectionAuthParametersOauthParametersOutputReference e
 }
 export interface EventBridgeConnectionAuthParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#authorization_type EventBridgeConnection#authorization_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#authorization_type EventBridgeConnection#authorization_type}
   */
   readonly authorizationType?: string;
   /**
   * api_key_auth_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#api_key_auth_parameters EventBridgeConnection#api_key_auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#api_key_auth_parameters EventBridgeConnection#api_key_auth_parameters}
   */
   readonly apiKeyAuthParameters?: EventBridgeConnectionAuthParametersApiKeyAuthParameters;
   /**
   * basic_auth_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#basic_auth_parameters EventBridgeConnection#basic_auth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#basic_auth_parameters EventBridgeConnection#basic_auth_parameters}
   */
   readonly basicAuthParameters?: EventBridgeConnectionAuthParametersBasicAuthParameters;
   /**
   * oauth_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#oauth_parameters EventBridgeConnection#oauth_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#oauth_parameters EventBridgeConnection#oauth_parameters}
   */
   readonly oauthParameters?: EventBridgeConnectionAuthParametersOauthParameters;
 }
@@ -1472,19 +1472,19 @@ export class EventBridgeConnectionAuthParametersOutputReference extends cdktf.Co
 }
 export interface EventBridgeConnectionNetworkParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#network_type EventBridgeConnection#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#network_type EventBridgeConnection#network_type}
   */
   readonly networkType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#security_group_id EventBridgeConnection#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#security_group_id EventBridgeConnection#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#vpc_id EventBridgeConnection#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#vpc_id EventBridgeConnection#vpc_id}
   */
   readonly vpcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#vswitche_id EventBridgeConnection#vswitche_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#vswitche_id EventBridgeConnection#vswitche_id}
   */
   readonly vswitcheId?: string;
 }
@@ -1652,15 +1652,15 @@ export class EventBridgeConnectionNetworkParametersOutputReference extends cdktf
 }
 export interface EventBridgeConnectionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#create EventBridgeConnection#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#create EventBridgeConnection#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#delete EventBridgeConnection#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#delete EventBridgeConnection#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#update EventBridgeConnection#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#update EventBridgeConnection#update}
   */
   readonly update?: string;
 }
@@ -1812,7 +1812,7 @@ export class EventBridgeConnectionTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection alicloud_event_bridge_connection}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection alicloud_event_bridge_connection}
 */
 export class EventBridgeConnection extends cdktf.TerraformResource {
 
@@ -1828,7 +1828,7 @@ export class EventBridgeConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EventBridgeConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EventBridgeConnection to import
-  * @param importFromId The id of the existing EventBridgeConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EventBridgeConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EventBridgeConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1840,7 +1840,7 @@ export class EventBridgeConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/event_bridge_connection alicloud_event_bridge_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/event_bridge_connection alicloud_event_bridge_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1851,8 +1851,8 @@ export class EventBridgeConnection extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_event_bridge_connection',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

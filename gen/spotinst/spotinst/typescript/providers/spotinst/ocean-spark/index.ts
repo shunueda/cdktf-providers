@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark
+// https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface OceanSparkConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#id OceanSpark#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#id OceanSpark#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#ocean_cluster_id OceanSpark#ocean_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#ocean_cluster_id OceanSpark#ocean_cluster_id}
   */
   readonly oceanClusterId: string;
   /**
   * compute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#compute OceanSpark#compute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#compute OceanSpark#compute}
   */
   readonly compute?: OceanSparkCompute;
   /**
   * ingress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#ingress OceanSpark#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#ingress OceanSpark#ingress}
   */
   readonly ingress?: OceanSparkIngress;
   /**
   * log_collection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#log_collection OceanSpark#log_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#log_collection OceanSpark#log_collection}
   */
   readonly logCollection?: OceanSparkLogCollection;
   /**
   * spark block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#spark OceanSpark#spark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#spark OceanSpark#spark}
   */
   readonly spark?: OceanSparkSpark;
   /**
   * webhook block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#webhook OceanSpark#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#webhook OceanSpark#webhook}
   */
   readonly webhook?: OceanSparkWebhook;
   /**
   * workspaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#workspaces OceanSpark#workspaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#workspaces OceanSpark#workspaces}
   */
   readonly workspaces?: OceanSparkWorkspaces;
 }
 export interface OceanSparkCompute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#create_vngs OceanSpark#create_vngs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#create_vngs OceanSpark#create_vngs}
   */
   readonly createVngs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#use_taints OceanSpark#use_taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#use_taints OceanSpark#use_taints}
   */
   readonly useTaints?: boolean | cdktf.IResolvable;
 }
@@ -174,7 +174,7 @@ export class OceanSparkComputeOutputReference extends cdktf.ComplexObject {
 }
 export interface OceanSparkIngressController {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#managed OceanSpark#managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#managed OceanSpark#managed}
   */
   readonly managed?: boolean | cdktf.IResolvable;
 }
@@ -258,11 +258,11 @@ export class OceanSparkIngressControllerOutputReference extends cdktf.ComplexObj
 }
 export interface OceanSparkIngressCustomEndpoint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#address OceanSpark#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#address OceanSpark#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#enabled OceanSpark#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#enabled OceanSpark#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -375,15 +375,15 @@ export class OceanSparkIngressCustomEndpointOutputReference extends cdktf.Comple
 }
 export interface OceanSparkIngressLoadBalancer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#managed OceanSpark#managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#managed OceanSpark#managed}
   */
   readonly managed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#service_annotations OceanSpark#service_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#service_annotations OceanSpark#service_annotations}
   */
   readonly serviceAnnotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#target_group_arn OceanSpark#target_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#target_group_arn OceanSpark#target_group_arn}
   */
   readonly targetGroupArn?: string;
 }
@@ -525,11 +525,11 @@ export class OceanSparkIngressLoadBalancerOutputReference extends cdktf.ComplexO
 }
 export interface OceanSparkIngressPrivateLink {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#enabled OceanSpark#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#enabled OceanSpark#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#vpc_endpoint_service OceanSpark#vpc_endpoint_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#vpc_endpoint_service OceanSpark#vpc_endpoint_service}
   */
   readonly vpcEndpointService?: string;
 }
@@ -642,31 +642,31 @@ export class OceanSparkIngressPrivateLinkOutputReference extends cdktf.ComplexOb
 }
 export interface OceanSparkIngress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#service_annotations OceanSpark#service_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#service_annotations OceanSpark#service_annotations}
   */
   readonly serviceAnnotations?: { [key: string]: string };
   /**
   * controller block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#controller OceanSpark#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#controller OceanSpark#controller}
   */
   readonly controller?: OceanSparkIngressController;
   /**
   * custom_endpoint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#custom_endpoint OceanSpark#custom_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#custom_endpoint OceanSpark#custom_endpoint}
   */
   readonly customEndpoint?: OceanSparkIngressCustomEndpoint;
   /**
   * load_balancer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#load_balancer OceanSpark#load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#load_balancer OceanSpark#load_balancer}
   */
   readonly loadBalancer?: OceanSparkIngressLoadBalancer;
   /**
   * private_link block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#private_link OceanSpark#private_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#private_link OceanSpark#private_link}
   */
   readonly privateLink?: OceanSparkIngressPrivateLink;
 }
@@ -866,7 +866,7 @@ export class OceanSparkIngressOutputReference extends cdktf.ComplexObject {
 }
 export interface OceanSparkLogCollection {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#collect_app_logs OceanSpark#collect_app_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#collect_app_logs OceanSpark#collect_app_logs}
   */
   readonly collectAppLogs?: boolean | cdktf.IResolvable;
 }
@@ -950,7 +950,7 @@ export class OceanSparkLogCollectionOutputReference extends cdktf.ComplexObject 
 }
 export interface OceanSparkSpark {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#additional_app_namespaces OceanSpark#additional_app_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#additional_app_namespaces OceanSpark#additional_app_namespaces}
   */
   readonly additionalAppNamespaces?: string[];
 }
@@ -1034,11 +1034,11 @@ export class OceanSparkSparkOutputReference extends cdktf.ComplexObject {
 }
 export interface OceanSparkWebhook {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#host_network_ports OceanSpark#host_network_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#host_network_ports OceanSpark#host_network_ports}
   */
   readonly hostNetworkPorts?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#use_host_network OceanSpark#use_host_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#use_host_network OceanSpark#use_host_network}
   */
   readonly useHostNetwork?: boolean | cdktf.IResolvable;
 }
@@ -1153,7 +1153,7 @@ export interface OceanSparkWorkspacesStorageDefaults {
   /**
   * The name of the persistent volume storage class to use by default for new workspaces. Leave it empty to use the cluster defaults.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#storage_class_name OceanSpark#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#storage_class_name OceanSpark#storage_class_name}
   */
   readonly storageClassName?: string;
 }
@@ -1239,7 +1239,7 @@ export interface OceanSparkWorkspacesStorage {
   /**
   * defaults block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#defaults OceanSpark#defaults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#defaults OceanSpark#defaults}
   */
   readonly defaults?: OceanSparkWorkspacesStorageDefaults;
 }
@@ -1325,7 +1325,7 @@ export interface OceanSparkWorkspaces {
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#storage OceanSpark#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#storage OceanSpark#storage}
   */
   readonly storage?: OceanSparkWorkspacesStorage;
 }
@@ -1409,7 +1409,7 @@ export class OceanSparkWorkspacesOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark spotinst_ocean_spark}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark spotinst_ocean_spark}
 */
 export class OceanSpark extends cdktf.TerraformResource {
 
@@ -1425,7 +1425,7 @@ export class OceanSpark extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OceanSpark resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OceanSpark to import
-  * @param importFromId The id of the existing OceanSpark that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OceanSpark that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OceanSpark to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1437,7 +1437,7 @@ export class OceanSpark extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/ocean_spark spotinst_ocean_spark} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/ocean_spark spotinst_ocean_spark} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1448,8 +1448,8 @@ export class OceanSpark extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_ocean_spark',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.230.0',
-        providerVersionConstraint: '1.230.0'
+        providerVersion: '1.231.0',
+        providerVersionConstraint: '1.231.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/rds_cross_region_backups
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/rds_cross_region_backups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlicloudRdsCrossRegionBackupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/rds_cross_region_backups#backup_id DataAlicloudRdsCrossRegionBackups#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/rds_cross_region_backups#backup_id DataAlicloudRdsCrossRegionBackups#backup_id}
   */
   readonly backupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/rds_cross_region_backups#cross_backup_id DataAlicloudRdsCrossRegionBackups#cross_backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/rds_cross_region_backups#cross_backup_id DataAlicloudRdsCrossRegionBackups#cross_backup_id}
   */
   readonly crossBackupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/rds_cross_region_backups#cross_backup_region DataAlicloudRdsCrossRegionBackups#cross_backup_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/rds_cross_region_backups#cross_backup_region DataAlicloudRdsCrossRegionBackups#cross_backup_region}
   */
   readonly crossBackupRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/rds_cross_region_backups#db_instance_id DataAlicloudRdsCrossRegionBackups#db_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/rds_cross_region_backups#db_instance_id DataAlicloudRdsCrossRegionBackups#db_instance_id}
   */
   readonly dbInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/rds_cross_region_backups#end_time DataAlicloudRdsCrossRegionBackups#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/rds_cross_region_backups#end_time DataAlicloudRdsCrossRegionBackups#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/rds_cross_region_backups#id DataAlicloudRdsCrossRegionBackups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/rds_cross_region_backups#id DataAlicloudRdsCrossRegionBackups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/rds_cross_region_backups#ids DataAlicloudRdsCrossRegionBackups#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/rds_cross_region_backups#ids DataAlicloudRdsCrossRegionBackups#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/rds_cross_region_backups#output_file DataAlicloudRdsCrossRegionBackups#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/rds_cross_region_backups#output_file DataAlicloudRdsCrossRegionBackups#output_file}
   */
   readonly outputFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/rds_cross_region_backups#resource_group_id DataAlicloudRdsCrossRegionBackups#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/rds_cross_region_backups#resource_group_id DataAlicloudRdsCrossRegionBackups#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/rds_cross_region_backups#start_time DataAlicloudRdsCrossRegionBackups#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/rds_cross_region_backups#start_time DataAlicloudRdsCrossRegionBackups#start_time}
   */
   readonly startTime?: string;
 }
@@ -233,7 +233,7 @@ export class DataAlicloudRdsCrossRegionBackupsBackupsList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/rds_cross_region_backups alicloud_rds_cross_region_backups}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/rds_cross_region_backups alicloud_rds_cross_region_backups}
 */
 export class DataAlicloudRdsCrossRegionBackups extends cdktf.TerraformDataSource {
 
@@ -249,7 +249,7 @@ export class DataAlicloudRdsCrossRegionBackups extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataAlicloudRdsCrossRegionBackups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlicloudRdsCrossRegionBackups to import
-  * @param importFromId The id of the existing DataAlicloudRdsCrossRegionBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/rds_cross_region_backups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlicloudRdsCrossRegionBackups that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/rds_cross_region_backups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlicloudRdsCrossRegionBackups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -261,7 +261,7 @@ export class DataAlicloudRdsCrossRegionBackups extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/data-sources/rds_cross_region_backups alicloud_rds_cross_region_backups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/data-sources/rds_cross_region_backups alicloud_rds_cross_region_backups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -272,8 +272,8 @@ export class DataAlicloudRdsCrossRegionBackups extends cdktf.TerraformDataSource
       terraformResourceType: 'alicloud_rds_cross_region_backups',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/realtime_compute_vvp_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/realtime_compute_vvp_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface RealtimeComputeVvpInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/realtime_compute_vvp_instance#duration RealtimeComputeVvpInstance#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/realtime_compute_vvp_instance#duration RealtimeComputeVvpInstance#duration}
   */
   readonly duration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/realtime_compute_vvp_instance#id RealtimeComputeVvpInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/realtime_compute_vvp_instance#id RealtimeComputeVvpInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/realtime_compute_vvp_instance#payment_type RealtimeComputeVvpInstance#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/realtime_compute_vvp_instance#payment_type RealtimeComputeVvpInstance#payment_type}
   */
   readonly paymentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/realtime_compute_vvp_instance#pricing_cycle RealtimeComputeVvpInstance#pricing_cycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/realtime_compute_vvp_instance#pricing_cycle RealtimeComputeVvpInstance#pricing_cycle}
   */
   readonly pricingCycle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/realtime_compute_vvp_instance#resource_group_id RealtimeComputeVvpInstance#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/realtime_compute_vvp_instance#resource_group_id RealtimeComputeVvpInstance#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/realtime_compute_vvp_instance#tags RealtimeComputeVvpInstance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/realtime_compute_vvp_instance#tags RealtimeComputeVvpInstance#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/realtime_compute_vvp_instance#vpc_id RealtimeComputeVvpInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/realtime_compute_vvp_instance#vpc_id RealtimeComputeVvpInstance#vpc_id}
   */
   readonly vpcId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/realtime_compute_vvp_instance#vswitch_ids RealtimeComputeVvpInstance#vswitch_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/realtime_compute_vvp_instance#vswitch_ids RealtimeComputeVvpInstance#vswitch_ids}
   */
   readonly vswitchIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/realtime_compute_vvp_instance#vvp_instance_name RealtimeComputeVvpInstance#vvp_instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/realtime_compute_vvp_instance#vvp_instance_name RealtimeComputeVvpInstance#vvp_instance_name}
   */
   readonly vvpInstanceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/realtime_compute_vvp_instance#zone_id RealtimeComputeVvpInstance#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/realtime_compute_vvp_instance#zone_id RealtimeComputeVvpInstance#zone_id}
   */
   readonly zoneId: string;
   /**
   * resource_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/realtime_compute_vvp_instance#resource_spec RealtimeComputeVvpInstance#resource_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/realtime_compute_vvp_instance#resource_spec RealtimeComputeVvpInstance#resource_spec}
   */
   readonly resourceSpec?: RealtimeComputeVvpInstanceResourceSpec;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/realtime_compute_vvp_instance#storage RealtimeComputeVvpInstance#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/realtime_compute_vvp_instance#storage RealtimeComputeVvpInstance#storage}
   */
   readonly storage: RealtimeComputeVvpInstanceStorage;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/realtime_compute_vvp_instance#timeouts RealtimeComputeVvpInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/realtime_compute_vvp_instance#timeouts RealtimeComputeVvpInstance#timeouts}
   */
   readonly timeouts?: RealtimeComputeVvpInstanceTimeouts;
 }
 export interface RealtimeComputeVvpInstanceResourceSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/realtime_compute_vvp_instance#cpu RealtimeComputeVvpInstance#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/realtime_compute_vvp_instance#cpu RealtimeComputeVvpInstance#cpu}
   */
   readonly cpu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/realtime_compute_vvp_instance#memory_gb RealtimeComputeVvpInstance#memory_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/realtime_compute_vvp_instance#memory_gb RealtimeComputeVvpInstance#memory_gb}
   */
   readonly memoryGb?: number;
 }
@@ -188,7 +188,7 @@ export class RealtimeComputeVvpInstanceResourceSpecOutputReference extends cdktf
 }
 export interface RealtimeComputeVvpInstanceStorageOss {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/realtime_compute_vvp_instance#bucket RealtimeComputeVvpInstance#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/realtime_compute_vvp_instance#bucket RealtimeComputeVvpInstance#bucket}
   */
   readonly bucket: string;
 }
@@ -271,7 +271,7 @@ export interface RealtimeComputeVvpInstanceStorage {
   /**
   * oss block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/realtime_compute_vvp_instance#oss RealtimeComputeVvpInstance#oss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/realtime_compute_vvp_instance#oss RealtimeComputeVvpInstance#oss}
   */
   readonly oss: RealtimeComputeVvpInstanceStorageOss;
 }
@@ -352,15 +352,15 @@ export class RealtimeComputeVvpInstanceStorageOutputReference extends cdktf.Comp
 }
 export interface RealtimeComputeVvpInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/realtime_compute_vvp_instance#create RealtimeComputeVvpInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/realtime_compute_vvp_instance#create RealtimeComputeVvpInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/realtime_compute_vvp_instance#delete RealtimeComputeVvpInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/realtime_compute_vvp_instance#delete RealtimeComputeVvpInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/realtime_compute_vvp_instance#update RealtimeComputeVvpInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/realtime_compute_vvp_instance#update RealtimeComputeVvpInstance#update}
   */
   readonly update?: string;
 }
@@ -512,7 +512,7 @@ export class RealtimeComputeVvpInstanceTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/realtime_compute_vvp_instance alicloud_realtime_compute_vvp_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/realtime_compute_vvp_instance alicloud_realtime_compute_vvp_instance}
 */
 export class RealtimeComputeVvpInstance extends cdktf.TerraformResource {
 
@@ -528,7 +528,7 @@ export class RealtimeComputeVvpInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RealtimeComputeVvpInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RealtimeComputeVvpInstance to import
-  * @param importFromId The id of the existing RealtimeComputeVvpInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/realtime_compute_vvp_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RealtimeComputeVvpInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/realtime_compute_vvp_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RealtimeComputeVvpInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -540,7 +540,7 @@ export class RealtimeComputeVvpInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/realtime_compute_vvp_instance alicloud_realtime_compute_vvp_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/realtime_compute_vvp_instance alicloud_realtime_compute_vvp_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -551,8 +551,8 @@ export class RealtimeComputeVvpInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_realtime_compute_vvp_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -661,6 +661,11 @@ export class RealtimeComputeVvpInstance extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get resourceGroupIdInput() {
     return this._resourceGroupId;
+  }
+
+  // resource_id - computed: true, optional: false, required: false
+  public get resourceId() {
+    return this.getStringAttribute('resource_id');
   }
 
   // status - computed: true, optional: false, required: false

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pai_workspace_dataset
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pai_workspace_dataset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface PaiWorkspaceDatasetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pai_workspace_dataset#accessibility PaiWorkspaceDataset#accessibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pai_workspace_dataset#accessibility PaiWorkspaceDataset#accessibility}
   */
   readonly accessibility?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pai_workspace_dataset#data_source_type PaiWorkspaceDataset#data_source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pai_workspace_dataset#data_source_type PaiWorkspaceDataset#data_source_type}
   */
   readonly dataSourceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pai_workspace_dataset#data_type PaiWorkspaceDataset#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pai_workspace_dataset#data_type PaiWorkspaceDataset#data_type}
   */
   readonly dataType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pai_workspace_dataset#dataset_name PaiWorkspaceDataset#dataset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pai_workspace_dataset#dataset_name PaiWorkspaceDataset#dataset_name}
   */
   readonly datasetName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pai_workspace_dataset#description PaiWorkspaceDataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pai_workspace_dataset#description PaiWorkspaceDataset#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pai_workspace_dataset#id PaiWorkspaceDataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pai_workspace_dataset#id PaiWorkspaceDataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pai_workspace_dataset#options PaiWorkspaceDataset#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pai_workspace_dataset#options PaiWorkspaceDataset#options}
   */
   readonly options?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pai_workspace_dataset#property PaiWorkspaceDataset#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pai_workspace_dataset#property PaiWorkspaceDataset#property}
   */
   readonly property: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pai_workspace_dataset#source_id PaiWorkspaceDataset#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pai_workspace_dataset#source_id PaiWorkspaceDataset#source_id}
   */
   readonly sourceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pai_workspace_dataset#source_type PaiWorkspaceDataset#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pai_workspace_dataset#source_type PaiWorkspaceDataset#source_type}
   */
   readonly sourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pai_workspace_dataset#uri PaiWorkspaceDataset#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pai_workspace_dataset#uri PaiWorkspaceDataset#uri}
   */
   readonly uri: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pai_workspace_dataset#user_id PaiWorkspaceDataset#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pai_workspace_dataset#user_id PaiWorkspaceDataset#user_id}
   */
   readonly userId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pai_workspace_dataset#workspace_id PaiWorkspaceDataset#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pai_workspace_dataset#workspace_id PaiWorkspaceDataset#workspace_id}
   */
   readonly workspaceId: string;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pai_workspace_dataset#labels PaiWorkspaceDataset#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pai_workspace_dataset#labels PaiWorkspaceDataset#labels}
   */
   readonly labels?: PaiWorkspaceDatasetLabels[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pai_workspace_dataset#timeouts PaiWorkspaceDataset#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pai_workspace_dataset#timeouts PaiWorkspaceDataset#timeouts}
   */
   readonly timeouts?: PaiWorkspaceDatasetTimeouts;
 }
 export interface PaiWorkspaceDatasetLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pai_workspace_dataset#key PaiWorkspaceDataset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pai_workspace_dataset#key PaiWorkspaceDataset#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pai_workspace_dataset#value PaiWorkspaceDataset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pai_workspace_dataset#value PaiWorkspaceDataset#value}
   */
   readonly value?: string;
 }
@@ -226,15 +226,15 @@ export class PaiWorkspaceDatasetLabelsList extends cdktf.ComplexList {
 }
 export interface PaiWorkspaceDatasetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pai_workspace_dataset#create PaiWorkspaceDataset#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pai_workspace_dataset#create PaiWorkspaceDataset#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pai_workspace_dataset#delete PaiWorkspaceDataset#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pai_workspace_dataset#delete PaiWorkspaceDataset#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pai_workspace_dataset#update PaiWorkspaceDataset#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pai_workspace_dataset#update PaiWorkspaceDataset#update}
   */
   readonly update?: string;
 }
@@ -386,7 +386,7 @@ export class PaiWorkspaceDatasetTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pai_workspace_dataset alicloud_pai_workspace_dataset}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pai_workspace_dataset alicloud_pai_workspace_dataset}
 */
 export class PaiWorkspaceDataset extends cdktf.TerraformResource {
 
@@ -402,7 +402,7 @@ export class PaiWorkspaceDataset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PaiWorkspaceDataset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PaiWorkspaceDataset to import
-  * @param importFromId The id of the existing PaiWorkspaceDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pai_workspace_dataset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PaiWorkspaceDataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pai_workspace_dataset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PaiWorkspaceDataset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -414,7 +414,7 @@ export class PaiWorkspaceDataset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pai_workspace_dataset alicloud_pai_workspace_dataset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pai_workspace_dataset alicloud_pai_workspace_dataset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -425,8 +425,8 @@ export class PaiWorkspaceDataset extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_pai_workspace_dataset',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

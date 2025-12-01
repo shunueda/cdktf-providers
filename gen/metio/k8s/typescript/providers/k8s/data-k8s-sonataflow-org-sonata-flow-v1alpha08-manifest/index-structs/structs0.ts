@@ -3,25 +3,25 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#annotations DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#annotations DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#labels DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#labels DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#namespace DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#namespace DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -196,11 +196,11 @@ export class DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestMetadataOutputRefere
 }
 export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecFlowDataInputSchema {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#fail_on_validation_errors DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#fail_on_validation_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#fail_on_validation_errors DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#fail_on_validation_errors}
   */
   readonly failOnValidationErrors: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#schema DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#schema DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#schema}
   */
   readonly schema: string;
 }
@@ -319,19 +319,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecFlowErrors {
   /**
   * Code OnError code. Can be used in addition to the name to help runtimes resolve to technical errors/exceptions. Should not be defined if error is set to '*'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#code DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#code DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#code}
   */
   readonly code?: string;
   /**
   * OnError description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#description DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#description DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#description}
   */
   readonly description?: string;
   /**
   * Name Domain-specific error name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name: string;
 }
@@ -504,13 +504,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecFlowEventsCo
   /**
   * CloudEvent Extension Context Attribute name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#context_attribute_name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#context_attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#context_attribute_name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#context_attribute_name}
   */
   readonly contextAttributeName: string;
   /**
   * CloudEvent Extension Context Attribute value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#context_attribute_value DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#context_attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#context_attribute_value DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#context_attribute_value}
   */
   readonly contextAttributeValue?: string;
 }
@@ -713,43 +713,43 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecFlowEvents {
   /**
   * Define event correlation rules for this event. Only used for consumed events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#correlation DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#correlation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#correlation DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#correlation}
   */
   readonly correlation?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecFlowEventsCorrelation[] | cdktf.IResolvable;
   /**
   * If 'true', only the Event payload is accessible to consuming Workflow states. If 'false', both event payload and context attributes should be accessible. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#data_only DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#data_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#data_only DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#data_only}
   */
   readonly dataOnly?: boolean | cdktf.IResolvable;
   /**
   * Defines the CloudEvent as either 'consumed' or 'produced' by the workflow. Defaults to 'consumed'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#kind DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#kind DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Metadata information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#metadata DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#metadata DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#metadata}
   */
   readonly metadata?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecFlowEventsMetadata;
   /**
   * Unique event name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name: string;
   /**
   * CloudEvent source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#source DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#source DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#source}
   */
   readonly source?: string;
   /**
   * CloudEvent type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#type DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#type DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#type}
   */
   readonly type: string;
 }
@@ -1094,31 +1094,31 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecFlowFunction
   /**
   * References an auth definition name to be used to access to resource defined in the operation parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#auth_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#auth_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#auth_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#auth_ref}
   */
   readonly authRef?: string;
   /**
   * Metadata information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#metadata DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#metadata DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#metadata}
   */
   readonly metadata?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecFlowFunctionsMetadata;
   /**
   * Unique function name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name: string;
   /**
   * If type is 'rest', <path_to_openapi_definition>#<operation_id>. If type is 'rpc', <path_to_grpc_proto_file>#<service_name>#<service_method>. If type is 'expression', defines the workflow expression. If the type is 'custom', <path_to_custom_script>#<custom_service_method>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#operation DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#operation DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#operation}
   */
   readonly operation: string;
   /**
   * Defines the function type. Is either 'custom', 'rest', 'rpc', 'expression', 'graphql', 'odata' or 'asyncapi'. Default is 'rest'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#type DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#type DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#type}
   */
   readonly type?: string;
 }
@@ -1344,17 +1344,17 @@ export class DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecFlowFunctionsLis
 }
 export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecFlowRetriesJitter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#float_val DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#float_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#float_val DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#float_val}
   */
   readonly floatVal?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#str_val DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#str_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#str_val DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#str_val}
   */
   readonly strVal?: string;
   /**
   * Type represents the stored type of Float32OrString.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#type DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#type DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#type}
   */
   readonly type?: number;
 }
@@ -1506,17 +1506,17 @@ export class DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecFlowRetriesJitte
 }
 export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecFlowRetriesMultiplier {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#float_val DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#float_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#float_val DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#float_val}
   */
   readonly floatVal?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#str_val DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#str_val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#str_val DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#str_val}
   */
   readonly strVal?: string;
   /**
   * Type represents the stored type of Float32OrString.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#type DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#type DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#type}
   */
   readonly type?: number;
 }
@@ -1670,43 +1670,43 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecFlowRetries 
   /**
   * Time delay between retry attempts (ISO 8601 duration format)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#delay DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#delay DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#delay}
   */
   readonly delay?: string;
   /**
   * Static value by which the delay increases during each attempt (ISO 8601 time format)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#increment DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#increment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#increment DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#increment}
   */
   readonly increment?: string;
   /**
   * If float type, maximum amount of random time added or subtracted from the delay between each retry relative to total delay (between 0 and 1). If string type, absolute maximum amount of random time added or subtracted from the delay between each retry (ISO 8601 duration format) TODO: make iso8601duration compatible this type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#jitter DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#jitter DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#jitter}
   */
   readonly jitter?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecFlowRetriesJitter;
   /**
   * Maximum number of retry attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#max_attempts DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#max_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#max_attempts DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#max_attempts}
   */
   readonly maxAttempts: string;
   /**
   * Maximum time delay between retry attempts (ISO 8601 duration format)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#max_delay DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#max_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#max_delay DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#max_delay}
   */
   readonly maxDelay?: string;
   /**
   * Numeric value, if specified the delay between retries is multiplied by this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#multiplier DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#multiplier DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#multiplier}
   */
   readonly multiplier?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecFlowRetriesMultiplier;
   /**
   * Unique retry strategy name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name: string;
 }
@@ -1992,13 +1992,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecFlowTimeouts
   /**
   * Single state execution timeout, not including retries (ISO 8601 duration format)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#single DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#single}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#single DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#single}
   */
   readonly single?: string;
   /**
   * Total state execution timeout, including retries (ISO 8601 duration format)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#total DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#total}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#total DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#total}
   */
   readonly total: string;
 }
@@ -2120,19 +2120,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecFlowTimeouts
   /**
   * Workflow execution timeout duration (ISO 8601 duration format). If not specified should be 'unlimited'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#duration DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#duration DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#duration}
   */
   readonly duration: string;
   /**
   * If false, workflow instance is allowed to finish current execution. If true, current workflow execution is stopped immediately. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#interrupt DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#interrupt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#interrupt DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#interrupt}
   */
   readonly interrupt?: boolean | cdktf.IResolvable;
   /**
   * Name of a workflow state to be executed before workflow instance is terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#run_before DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#run_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#run_before DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#run_before}
   */
   readonly runBefore?: string;
 }
@@ -2283,31 +2283,31 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecFlowTimeouts
   /**
   * ActionExecTimeout Single actions definition execution timeout duration (ISO 8601 duration format).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#action_exec_timeout DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#action_exec_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#action_exec_timeout DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#action_exec_timeout}
   */
   readonly actionExecTimeout?: string;
   /**
   * BranchExecTimeout Single branch execution timeout duration (ISO 8601 duration format).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#branch_exec_timeout DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#branch_exec_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#branch_exec_timeout DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#branch_exec_timeout}
   */
   readonly branchExecTimeout?: string;
   /**
   * EventTimeout Timeout duration to wait for consuming defined events (ISO 8601 duration format).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#event_timeout DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#event_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#event_timeout DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#event_timeout}
   */
   readonly eventTimeout?: string;
   /**
   * StateExecTimeout Total state execution timeout (including retries) (ISO 8601 duration format).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#state_exec_timeout DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#state_exec_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#state_exec_timeout DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#state_exec_timeout}
   */
   readonly stateExecTimeout?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecFlowTimeoutsStateExecTimeout;
   /**
   * WorkflowExecTimeout Workflow execution timeout duration (ISO 8601 duration format). If not specified should be 'unlimited'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#workflow_exec_timeout DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#workflow_exec_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#workflow_exec_timeout DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#workflow_exec_timeout}
   */
   readonly workflowExecTimeout?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecFlowTimeoutsWorkflowExecTimeout;
 }
@@ -2519,83 +2519,83 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecFlow {
   /**
   * Annotations List of helpful terms describing the workflows intended purpose, subject areas, or other important qualities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#annotations DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#annotations DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#annotations}
   */
   readonly annotations?: string[];
   /**
   * Auth definitions can be used to define authentication information that should be applied to resources defined in the operation property of function definitions. It is not used as authentication information for the function invocation, but just to access the resource containing the function invocation information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#auth DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#auth DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#auth}
   */
   readonly auth?: { [key: string]: string };
   /**
   * AutoRetries If set to true, actions should automatically be retried on unchecked errors. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#auto_retries DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#auto_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#auto_retries DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#auto_retries}
   */
   readonly autoRetries?: boolean | cdktf.IResolvable;
   /**
   * Constants Workflow constants are used to define static, and immutable, data which is available to Workflow Expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#constants DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#constants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#constants DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#constants}
   */
   readonly constants?: { [key: string]: string };
   /**
   * DataInputSchema URI of the JSON Schema used to validate the workflow data input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#data_input_schema DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#data_input_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#data_input_schema DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#data_input_schema}
   */
   readonly dataInputSchema?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecFlowDataInputSchema;
   /**
   * Defines checked errors that can be explicitly handled during workflow execution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#errors DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#errors DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#errors}
   */
   readonly errors?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecFlowErrors[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#events DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#events DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#events}
   */
   readonly events?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecFlowEvents[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#functions DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#functions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#functions DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#functions}
   */
   readonly functions?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecFlowFunctions[] | cdktf.IResolvable;
   /**
   * If 'true', workflow instances is not terminated when there are no active execution paths. Instance can be terminated with 'terminate end definition' or reaching defined 'workflowExecTimeout'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#keep_active DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#keep_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#keep_active DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#keep_active}
   */
   readonly keepActive?: boolean | cdktf.IResolvable;
   /**
   * Metadata custom information shared with the runtime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#metadata DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#metadata DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#retries DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#retries DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#retries}
   */
   readonly retries?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecFlowRetries[] | cdktf.IResolvable;
   /**
   * Secrets allow you to access sensitive information, such as passwords, OAuth tokens, ssh keys, etc, inside your Workflow Expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#secrets DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#secrets DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#secrets}
   */
   readonly secrets?: string[];
   /**
   * Workflow start definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#start DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#start DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#start}
   */
   readonly start?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#states DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#states}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#states DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#states}
   */
   readonly states: { [key: string]: string };
   /**
   * Defines the workflow default timeout settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#timeouts DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#timeouts DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#timeouts}
   */
   readonly timeouts?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecFlowTimeouts;
 }
@@ -3094,19 +3094,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPersistenceP
   /**
   * Name of the postgresql credentials secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name: string;
   /**
   * Defaults to POSTGRESQL_PASSWORD
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#password_key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#password_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#password_key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#password_key}
   */
   readonly passwordKey?: string;
   /**
   * Defaults to POSTGRESQL_USER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#user_key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#user_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#user_key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#user_key}
   */
   readonly userKey?: string;
 }
@@ -3257,31 +3257,31 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPersistenceP
   /**
   * Name of postgresql database to be used. Defaults to 'sonataflow'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#database_name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#database_name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#database_name}
   */
   readonly databaseName?: string;
   /**
   * Schema of postgresql database to be used. Defaults to 'data-index-service'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#database_schema DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#database_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#database_schema DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#database_schema}
   */
   readonly databaseSchema?: string;
   /**
   * Name of the postgresql k8s service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace of the postgresql k8s service. Defaults to the SonataFlowPlatform's local namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#namespace DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#namespace DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Port to use when connecting to the postgresql k8s service. Defaults to 5432.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
   */
   readonly port?: number;
 }
@@ -3490,19 +3490,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPersistenceP
   /**
   * PostgreSql JDBC URL. Mutually exclusive to serviceRef. e.g. 'jdbc:postgresql://host:port/database?currentSchema=data-index-service'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#jdbc_url DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#jdbc_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#jdbc_url DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#jdbc_url}
   */
   readonly jdbcUrl?: string;
   /**
   * Secret reference to the database user credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#secret_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#secret_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#secret_ref}
   */
   readonly secretRef: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPersistencePostgresqlSecretRef;
   /**
   * Service reference to postgresql datasource. Mutually exclusive to jdbcUrl.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#service_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#service_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#service_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#service_ref}
   */
   readonly serviceRef?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPersistencePostgresqlServiceRef;
 }
@@ -3653,13 +3653,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPersistence 
   /**
   * Whether to migrate database on service startup?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#migrate_db_on_start_up DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#migrate_db_on_start_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#migrate_db_on_start_up DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#migrate_db_on_start_up}
   */
   readonly migrateDbOnStartUp?: boolean | cdktf.IResolvable;
   /**
   * Connect configured services to a postgresql database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#postgresql DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#postgresql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#postgresql DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#postgresql}
   */
   readonly postgresql?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPersistencePostgresql;
 }
@@ -3784,19 +3784,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#operator DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#operator DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#values DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#values DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3966,19 +3966,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#operator DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#operator DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#values DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#values DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4148,13 +4148,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_expressions DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_expressions DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_fields DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_fields DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_fields}
   */
   readonly matchFields?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -4279,13 +4279,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#preference DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#preference DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#preference}
   */
   readonly preference: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#weight DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#weight DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#weight}
   */
   readonly weight: number;
 }
@@ -4426,19 +4426,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#operator DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#operator DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#values DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#values DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4608,19 +4608,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#operator DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#operator DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#values DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#values DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4790,13 +4790,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_expressions DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_expressions DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_fields DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_fields DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_fields}
   */
   readonly matchFields?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -4943,7 +4943,7 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#node_selector_terms DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#node_selector_terms DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -5036,13 +5036,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#preferred_during_scheduling_ignored_during_execution DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#preferred_during_scheduling_ignored_during_execution DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#required_during_scheduling_ignored_during_execution DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#required_during_scheduling_ignored_during_execution DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -5167,19 +5167,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#operator DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#operator DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#values DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#values DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5349,13 +5349,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_expressions DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_expressions DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_labels DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_labels DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5480,19 +5480,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#operator DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#operator DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#values DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#values DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5662,13 +5662,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_expressions DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_expressions DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_labels DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_labels DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5793,37 +5793,37 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#label_selector DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#label_selector DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_label_keys DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_label_keys DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#mismatch_label_keys DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#mismatch_label_keys DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#namespace_selector DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#namespace_selector DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#namespaces DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#namespaces DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#topology_key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#topology_key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -6061,13 +6061,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#pod_affinity_term DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#pod_affinity_term DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#weight DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#weight DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#weight}
   */
   readonly weight: number;
 }
@@ -6208,19 +6208,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#operator DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#operator DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#values DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#values DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6390,13 +6390,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_expressions DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_expressions DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_labels DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_labels DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6521,19 +6521,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#operator DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#operator DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#values DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#values DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6703,13 +6703,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_expressions DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_expressions DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_labels DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_labels DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6834,37 +6834,37 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#label_selector DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#label_selector DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_label_keys DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_label_keys DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#mismatch_label_keys DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#mismatch_label_keys DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#namespace_selector DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#namespace_selector DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#namespaces DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#namespaces DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#topology_key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#topology_key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -7124,13 +7124,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#preferred_during_scheduling_ignored_during_execution DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#preferred_during_scheduling_ignored_during_execution DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#required_during_scheduling_ignored_during_execution DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#required_during_scheduling_ignored_during_execution DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -7255,19 +7255,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#operator DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#operator DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#values DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#values DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7437,13 +7437,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_expressions DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_expressions DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_labels DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_labels DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -7568,19 +7568,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#operator DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#operator DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#values DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#values DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#values}
   */
   readonly values?: string[];
 }
@@ -7750,13 +7750,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_expressions DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_expressions DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_labels DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_labels DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -7881,37 +7881,37 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#label_selector DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#label_selector DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_label_keys DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_label_keys DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#mismatch_label_keys DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#mismatch_label_keys DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#namespace_selector DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#namespace_selector DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#namespaces DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#namespaces DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#topology_key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#topology_key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -8149,13 +8149,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#pod_affinity_term DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#pod_affinity_term DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#weight DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#weight DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#weight}
   */
   readonly weight: number;
 }
@@ -8296,19 +8296,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#operator DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#operator DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#values DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#values DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8478,13 +8478,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_expressions DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_expressions DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_labels DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_labels DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -8609,19 +8609,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#operator DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#operator DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#values DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#values DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8791,13 +8791,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_expressions DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_expressions DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_labels DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_labels DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -8922,37 +8922,37 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * A label query over a set of resources, in this case pods. If it's null, this PodAffinityTerm matches with no Pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#label_selector DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#label_selector DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key in (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both matchLabelKeys and labelSelector. Also, matchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_label_keys DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#match_label_keys DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MismatchLabelKeys is a set of pod label keys to select which pods will be taken into consideration. The keys are used to lookup values from the incoming pod labels, those key-value labels are merged with 'labelSelector' as 'key notin (value)' to select the group of existing pods which pods will be taken into consideration for the incoming pod's pod (anti) affinity. Keys that don't exist in the incoming pod labels will be ignored. The default value is empty. The same key is forbidden to exist in both mismatchLabelKeys and labelSelector. Also, mismatchLabelKeys cannot be set when labelSelector isn't set. This is an alpha field and requires enabling MatchLabelKeysInPodAffinity feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#mismatch_label_keys DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#mismatch_label_keys DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#namespace_selector DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#namespace_selector DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#namespaces DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#namespaces DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#topology_key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#topology_key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -9212,13 +9212,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#preferred_during_scheduling_ignored_during_execution DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#preferred_during_scheduling_ignored_during_execution DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#required_during_scheduling_ignored_during_execution DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#required_during_scheduling_ignored_during_execution DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -9343,19 +9343,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateA
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#node_affinity DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#node_affinity DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#pod_affinity DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#pod_affinity DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#pod_anti_affinity DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#pod_anti_affinity DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateAffinityPodAntiAffinity;
 }
@@ -9509,19 +9509,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#optional DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#optional DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9672,13 +9672,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#api_version DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#api_version DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#field_path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#field_path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -9800,19 +9800,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#container_name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#container_name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#divisor DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#divisor DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#resource DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#resource DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#resource}
   */
   readonly resource: string;
 }
@@ -9963,19 +9963,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#optional DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#optional DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10126,25 +10126,25 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#config_map_key_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#config_map_key_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#field_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#field_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#resource_field_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#resource_field_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#secret_key_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#secret_key_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerEnvValueFromSecretKeyRef;
 }
@@ -10327,19 +10327,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value_from DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value_from DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value_from}
   */
   readonly valueFrom?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerEnvValueFrom;
 }
@@ -10512,13 +10512,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#optional DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#optional DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10643,13 +10643,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#optional DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#optional DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10774,19 +10774,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#config_map_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#config_map_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#prefix DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#prefix DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#secret_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#secret_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerEnvFromSecretRef;
 }
@@ -10962,7 +10962,7 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#command DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#command DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#command}
   */
   readonly command?: string[];
 }
@@ -11058,13 +11058,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value}
   */
   readonly value: string;
 }
@@ -11205,31 +11205,31 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_headers DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_headers DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#scheme DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#scheme DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -11438,7 +11438,7 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Seconds is the number of seconds to sleep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -11531,13 +11531,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
   */
   readonly port: string;
 }
@@ -11659,25 +11659,25 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#exec DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#exec DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#exec}
   */
   readonly exec?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerLifecyclePostStartExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_get DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_get DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_get}
   */
   readonly httpGet?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerLifecyclePostStartHttpGet;
   /**
   * Sleep represents the duration that the container should sleep before being terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#sleep DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#sleep DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#sleep}
   */
   readonly sleep?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerLifecyclePostStartSleep;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#tcp_socket DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#tcp_socket DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerLifecyclePostStartTcpSocket;
 }
@@ -11860,7 +11860,7 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#command DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#command DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#command}
   */
   readonly command?: string[];
 }
@@ -11956,13 +11956,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value}
   */
   readonly value: string;
 }
@@ -12103,31 +12103,31 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_headers DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_headers DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#scheme DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#scheme DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -12336,7 +12336,7 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Seconds is the number of seconds to sleep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -12429,13 +12429,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
   */
   readonly port: string;
 }
@@ -12557,25 +12557,25 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#exec DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#exec DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#exec}
   */
   readonly exec?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerLifecyclePreStopExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_get DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_get DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_get}
   */
   readonly httpGet?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerLifecyclePreStopHttpGet;
   /**
   * Sleep represents the duration that the container should sleep before being terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#sleep DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#sleep DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#sleep}
   */
   readonly sleep?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerLifecyclePreStopSleep;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#tcp_socket DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#tcp_socket DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerLifecyclePreStopTcpSocket;
 }
@@ -12758,13 +12758,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * PostStart is called immediately after a container is created. If the handler fails, the container is terminated and restarted according to its restart policy. Other management of the container blocks until the hook completes. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#post_start DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#post_start DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#post_start}
   */
   readonly postStart?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerLifecyclePostStart;
   /**
   * PreStop is called immediately before a container is terminated due to an API request or management event such as liveness/startup probe failure, preemption, resource contention, etc. The handler is not called if the container crashes or exits. The Pod's termination grace period countdown begins before the PreStop hook is executed. Regardless of the outcome of the handler, the container will eventually terminate within the Pod's termination grace period (unless delayed by finalizers). Other management of the container blocks until the hook completes or until the termination grace period is reached. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#pre_stop DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#pre_stop DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#pre_stop}
   */
   readonly preStop?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerLifecyclePreStop;
 }
@@ -12889,7 +12889,7 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#command DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#command DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#command}
   */
   readonly command?: string[];
 }
@@ -12985,13 +12985,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#service DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#service DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#service}
   */
   readonly service?: string;
 }
@@ -13113,13 +13113,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value}
   */
   readonly value: string;
 }
@@ -13260,31 +13260,31 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_headers DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_headers DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#scheme DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#scheme DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -13493,13 +13493,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
   */
   readonly port: string;
 }
@@ -13621,61 +13621,61 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#exec DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#exec DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#exec}
   */
   readonly exec?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#failure_threshold DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#failure_threshold DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#grpc DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#grpc DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#grpc}
   */
   readonly grpc?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerLivenessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_get DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_get DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_get}
   */
   readonly httpGet?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerLivenessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#initial_delay_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#initial_delay_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#period_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#period_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#success_threshold DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#success_threshold DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#tcp_socket DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#tcp_socket DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerLivenessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#termination_grace_period_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#termination_grace_period_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#timeout_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#timeout_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -14032,31 +14032,31 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Number of port to expose on the pod's IP address. This must be a valid port number, 0 < x < 65536.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#container_port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#container_port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#container_port}
   */
   readonly containerPort: number;
   /**
   * What host IP to bind the external port to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host_ip DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host_ip DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
   * Number of port to expose on the host. If specified, this must be a valid port number, 0 < x < 65536. If HostNetwork is specified, this must match ContainerPort. Most containers do not need this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host_port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host_port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
   * If specified, this must be an IANA_SVC_NAME and unique within the pod. Each named port in a pod must have a unique name. Name for the port that can be referred to by services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name?: string;
   /**
   * Protocol for port. Must be UDP, TCP, or SCTP. Defaults to 'TCP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#protocol DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#protocol DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -14287,7 +14287,7 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#command DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#command DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#command}
   */
   readonly command?: string[];
 }
@@ -14383,13 +14383,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#service DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#service DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#service}
   */
   readonly service?: string;
 }
@@ -14511,13 +14511,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value}
   */
   readonly value: string;
 }
@@ -14658,31 +14658,31 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_headers DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_headers DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#scheme DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#scheme DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -14891,13 +14891,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
   */
   readonly port: string;
 }
@@ -15019,61 +15019,61 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#exec DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#exec DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#exec}
   */
   readonly exec?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerReadinessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#failure_threshold DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#failure_threshold DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#grpc DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#grpc DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#grpc}
   */
   readonly grpc?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerReadinessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_get DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_get DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_get}
   */
   readonly httpGet?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerReadinessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#initial_delay_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#initial_delay_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#period_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#period_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#success_threshold DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#success_threshold DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#tcp_socket DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#tcp_socket DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerReadinessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#termination_grace_period_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#termination_grace_period_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#timeout_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#timeout_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -15430,13 +15430,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Name of the resource to which this resource resize policy applies. Supported values: cpu, memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#resource_name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#resource_name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
   * Restart policy to apply when specified resource is resized. If not specified, it defaults to NotRequired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#restart_policy DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#restart_policy DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#restart_policy}
   */
   readonly restartPolicy: string;
 }
@@ -15577,7 +15577,7 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name: string;
 }
@@ -15692,19 +15692,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#claims DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#claims DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#claims}
   */
   readonly claims?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#limits DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#limits DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#requests DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#requests DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -15858,13 +15858,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * localhostProfile indicates a profile loaded on the node that should be used. The profile must be preconfigured on the node to work. Must match the loaded name of the profile. Must be set if and only if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#localhost_profile DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#localhost_profile DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of AppArmor profile will be applied. Valid options are: Localhost - a profile pre-loaded on the node. RuntimeDefault - the container runtime's default profile. Unconfined - no AppArmor enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#type DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#type DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#type}
   */
   readonly type: string;
 }
@@ -15986,13 +15986,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#add DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#add DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#drop DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#drop DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -16117,25 +16117,25 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#level DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#level DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#role DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#role DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#type DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#type DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#user DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#user DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#user}
   */
   readonly user?: string;
 }
@@ -16318,13 +16318,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#localhost_profile DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#localhost_profile DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#type DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#type DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#type}
   */
   readonly type: string;
 }
@@ -16446,25 +16446,25 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#gmsa_credential_spec DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#gmsa_credential_spec DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#gmsa_credential_spec_name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#gmsa_credential_spec_name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host_process DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host_process DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#run_as_user_name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#run_as_user_name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -16647,73 +16647,73 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#allow_privilege_escalation DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#allow_privilege_escalation DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * appArmorProfile is the AppArmor options to use by this container. If set, this profile overrides the pod's appArmorProfile. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#app_armor_profile DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#app_armor_profile DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerSecurityContextAppArmorProfile;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#capabilities DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#capabilities DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#capabilities}
   */
   readonly capabilities?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#privileged DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#privileged DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default is DefaultProcMount which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#proc_mount DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#proc_mount DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#read_only_root_filesystem DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#read_only_root_filesystem DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#run_as_group DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#run_as_group DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#run_as_non_root DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#run_as_non_root DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#run_as_user DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#run_as_user DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#se_linux_options DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#se_linux_options DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#seccomp_profile DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#seccomp_profile DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#windows_options DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#windows_options DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerSecurityContextWindowsOptions;
 }
@@ -17128,7 +17128,7 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#command DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#command DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#command}
   */
   readonly command?: string[];
 }
@@ -17224,13 +17224,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#service DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#service DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#service}
   */
   readonly service?: string;
 }
@@ -17352,13 +17352,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value}
   */
   readonly value: string;
 }
@@ -17499,31 +17499,31 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_headers DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_headers DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#scheme DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#scheme DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -17732,13 +17732,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
   */
   readonly port: string;
 }
@@ -17860,61 +17860,61 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#exec DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#exec DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#exec}
   */
   readonly exec?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerStartupProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#failure_threshold DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#failure_threshold DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#grpc DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#grpc DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#grpc}
   */
   readonly grpc?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerStartupProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_get DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_get DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_get}
   */
   readonly httpGet?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerStartupProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#initial_delay_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#initial_delay_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#period_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#period_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#success_threshold DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#success_threshold DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#tcp_socket DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#tcp_socket DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerStartupProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#termination_grace_period_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#termination_grace_period_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#timeout_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#timeout_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -18271,13 +18271,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * devicePath is the path inside of the container that the device will be mapped to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#device_path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#device_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#device_path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#device_path}
   */
   readonly devicePath: string;
   /**
   * name must match the name of a persistentVolumeClaim in the pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name: string;
 }
@@ -18418,43 +18418,43 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#mount_path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#mount_path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#mount_path}
   */
   readonly mountPath: string;
   /**
   * mountPropagation determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used. This field is beta in 1.10. When RecursiveReadOnly is set to IfPossible or to Enabled, MountPropagation must be None or unspecified (which defaults to None).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#mount_propagation DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#mount_propagation DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise (false or unspecified). Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#read_only DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#read_only DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * RecursiveReadOnly specifies whether read-only mounts should be handled recursively. If ReadOnly is false, this field has no meaning and must be unspecified. If ReadOnly is true, and this field is set to Disabled, the mount is not made recursively read-only. If this field is set to IfPossible, the mount is made recursively read-only, if it is supported by the container runtime. If this field is set to Enabled, the mount is made recursively read-only if it is supported by the container runtime, otherwise the pod will not be started and an error will be generated to indicate the reason. If this field is set to IfPossible or Enabled, MountPropagation must be set to None (or be unspecified, which defaults to None). If this field is not specified, it is treated as an equivalent of Disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#recursive_read_only DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#recursive_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#recursive_read_only DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#recursive_read_only}
   */
   readonly recursiveReadOnly?: string;
   /**
   * Path within the volume from which the container's volume should be mounted. Defaults to '' (volume's root).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#sub_path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#sub_path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to SubPath but environment variable references $(VAR_NAME) are expanded using the container's environment. Defaults to '' (volume's root). SubPathExpr and SubPath are mutually exclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#sub_path_expr DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#sub_path_expr DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -18740,127 +18740,127 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Arguments to the entrypoint. The container image's CMD is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#args DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#args DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#args}
   */
   readonly args?: string[];
   /**
   * Entrypoint array. Not executed within a shell. The container image's ENTRYPOINT is used if this is not provided. Variable references $(VAR_NAME) are expanded using the container's environment. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Cannot be updated. More info: https://kubernetes.io/docs/tasks/inject-data-application/define-command-argument-container/#running-a-command-in-a-shell
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#command DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#command DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#command}
   */
   readonly command?: string[];
   /**
   * List of environment variables to set in the container. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#env DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#env DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#env}
   */
   readonly env?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerEnv[] | cdktf.IResolvable;
   /**
   * List of sources to populate environment variables in the container. The keys defined within a source must be a C_IDENTIFIER. All invalid keys will be reported as an event when the container is starting. When a key exists in multiple sources, the value associated with the last source will take precedence. Values defined by an Env with a duplicate key will take precedence. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#env_from DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#env_from DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#env_from}
   */
   readonly envFrom?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerEnvFrom[] | cdktf.IResolvable;
   /**
   * Container image name. More info: https://kubernetes.io/docs/concepts/containers/images This field is optional to allow higher level config management to default or override container images in workload controllers like Deployments and StatefulSets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#image DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#image DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#image}
   */
   readonly image?: string;
   /**
   * Image pull policy. One of Always, Never, IfNotPresent. Defaults to Always if :latest tag is specified, or IfNotPresent otherwise. Cannot be updated. More info: https://kubernetes.io/docs/concepts/containers/images#updating-images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#image_pull_policy DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#image_pull_policy DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Actions that the management system should take in response to container lifecycle events. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#lifecycle DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#lifecycle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#lifecycle DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#lifecycle}
   */
   readonly lifecycle?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerLifecycle;
   /**
   * Periodic probe of container liveness. Container will be restarted if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#liveness_probe DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#liveness_probe DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerLivenessProbe;
   /**
   * List of ports to expose from the container. Not specifying a port here DOES NOT prevent that port from being exposed. Any port which is listening on the default '0.0.0.0' address inside a container will be accessible from the network. Modifying this array with strategic merge patch may corrupt the data. For more information See https://github.com/kubernetes/kubernetes/issues/108255. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#ports DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#ports DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#ports}
   */
   readonly ports?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerPorts[] | cdktf.IResolvable;
   /**
   * Periodic probe of container service readiness. Container will be removed from service endpoints if the probe fails. Cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#readiness_probe DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#readiness_probe DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#readiness_probe}
   */
   readonly readinessProbe?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerReadinessProbe;
   /**
   * Resources resize policy for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#resize_policy DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#resize_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#resize_policy DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#resize_policy}
   */
   readonly resizePolicy?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerResizePolicy[] | cdktf.IResolvable;
   /**
   * Compute Resources required by this container. Cannot be updated. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#resources DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#resources DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#resources}
   */
   readonly resources?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerResources;
   /**
   * SecurityContext defines the security options the container should be run with. If set, the fields of SecurityContext override the equivalent fields of PodSecurityContext. More info: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#security_context DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#security_context DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#security_context}
   */
   readonly securityContext?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerSecurityContext;
   /**
   * StartupProbe indicates that the Pod has successfully initialized. If specified, no other probes are executed until this completes successfully. If this probe fails, the Pod will be restarted, just as if the livenessProbe failed. This can be used to provide different probe parameters at the beginning of a Pod's lifecycle, when it might take a long time to load data or warm a cache, than during steady-state operation. This cannot be updated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#startup_probe DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#startup_probe DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerStartupProbe;
   /**
   * Whether this container should allocate a buffer for stdin in the container runtime. If this is not set, reads from stdin in the container will always result in EOF. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#stdin DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#stdin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#stdin DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#stdin}
   */
   readonly stdin?: boolean | cdktf.IResolvable;
   /**
   * Whether the container runtime should close the stdin channel after it has been opened by a single attach. When stdin is true the stdin stream will remain open across multiple attach sessions. If stdinOnce is set to true, stdin is opened on container start, is empty until the first client attaches to stdin, and then remains open and accepts data until the client disconnects, at which time stdin is closed and remains closed until the container is restarted. If this flag is false, a container processes that reads from stdin will never receive an EOF. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#stdin_once DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#stdin_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#stdin_once DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#stdin_once}
   */
   readonly stdinOnce?: boolean | cdktf.IResolvable;
   /**
   * Optional: Path at which the file to which the container's termination message will be written is mounted into the container's filesystem. Message written is intended to be brief final status, such as an assertion failure message. Will be truncated by the node if greater than 4096 bytes. The total message length across all containers will be limited to 12kb. Defaults to /dev/termination-log. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#termination_message_path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#termination_message_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#termination_message_path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#termination_message_path}
   */
   readonly terminationMessagePath?: string;
   /**
   * Indicate how the termination message should be populated. File will use the contents of terminationMessagePath to populate the container status message on both success and failure. FallbackToLogsOnError will use the last chunk of container log output if the termination message file is empty and the container exited with an error. The log output is limited to 2048 bytes or 80 lines, whichever is smaller. Defaults to File. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#termination_message_policy DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#termination_message_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#termination_message_policy DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#termination_message_policy}
   */
   readonly terminationMessagePolicy?: string;
   /**
   * Whether this container should allocate a TTY for itself, also requires 'stdin' to be true. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#tty DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#tty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#tty DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#tty}
   */
   readonly tty?: boolean | cdktf.IResolvable;
   /**
   * volumeDevices is the list of block devices to be used by the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#volume_devices DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#volume_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#volume_devices DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#volume_devices}
   */
   readonly volumeDevices?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerVolumeDevices[] | cdktf.IResolvable;
   /**
   * Pod volumes to mount into the container's filesystem. Cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#volume_mounts DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#volume_mounts DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainerVolumeMounts[] | cdktf.IResolvable;
 }
@@ -19536,19 +19536,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#optional DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#optional DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19699,13 +19699,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#api_version DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#api_version DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#field_path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#field_path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -19827,19 +19827,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#container_name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#container_name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#divisor DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#divisor DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#resource DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#resource DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#resource}
   */
   readonly resource: string;
 }
@@ -19990,19 +19990,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#key DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#optional DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#optional DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -20153,25 +20153,25 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#config_map_key_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#config_map_key_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#field_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#field_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#resource_field_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#resource_field_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#secret_key_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#secret_key_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersEnvValueFromSecretKeyRef;
 }
@@ -20354,19 +20354,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value_from DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value_from DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value_from}
   */
   readonly valueFrom?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersEnvValueFrom;
 }
@@ -20539,13 +20539,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#optional DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#optional DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -20670,13 +20670,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. TODO: Add other useful fields. apiVersion, kind, uid? More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Drop 'kubebuilder:default' when controller-gen doesn't need it https://github.com/kubernetes-sigs/kubebuilder/issues/3896.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#optional DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#optional DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -20801,19 +20801,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#config_map_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#config_map_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#prefix DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#prefix DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#secret_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#secret_ref DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersEnvFromSecretRef;
 }
@@ -20989,7 +20989,7 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#command DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#command DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#command}
   */
   readonly command?: string[];
 }
@@ -21085,13 +21085,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value}
   */
   readonly value: string;
 }
@@ -21232,31 +21232,31 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_headers DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_headers DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersLifecyclePostStartHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#scheme DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#scheme DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -21465,7 +21465,7 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Seconds is the number of seconds to sleep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -21558,13 +21558,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
   */
   readonly port: string;
 }
@@ -21686,25 +21686,25 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#exec DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#exec DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#exec}
   */
   readonly exec?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersLifecyclePostStartExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_get DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_get DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_get}
   */
   readonly httpGet?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersLifecyclePostStartHttpGet;
   /**
   * Sleep represents the duration that the container should sleep before being terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#sleep DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#sleep DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#sleep}
   */
   readonly sleep?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersLifecyclePostStartSleep;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#tcp_socket DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#tcp_socket DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersLifecyclePostStartTcpSocket;
 }
@@ -21887,7 +21887,7 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#command DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#command DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#command}
   */
   readonly command?: string[];
 }
@@ -21983,13 +21983,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value}
   */
   readonly value: string;
 }
@@ -22130,31 +22130,31 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_headers DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_headers DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersLifecyclePreStopHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#scheme DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#scheme DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -22363,7 +22363,7 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Seconds is the number of seconds to sleep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#seconds}
   */
   readonly seconds: number;
 }
@@ -22456,13 +22456,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
   */
   readonly port: string;
 }
@@ -22584,25 +22584,25 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#exec DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#exec DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#exec}
   */
   readonly exec?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersLifecyclePreStopExec;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_get DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_get DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_get}
   */
   readonly httpGet?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersLifecyclePreStopHttpGet;
   /**
   * Sleep represents the duration that the container should sleep before being terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#sleep DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#sleep DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#sleep}
   */
   readonly sleep?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersLifecyclePreStopSleep;
   /**
   * Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#tcp_socket DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#tcp_socket DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersLifecyclePreStopTcpSocket;
 }
@@ -22785,13 +22785,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * PostStart is called immediately after a container is created. If the handler fails, the container is terminated and restarted according to its restart policy. Other management of the container blocks until the hook completes. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#post_start DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#post_start DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#post_start}
   */
   readonly postStart?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersLifecyclePostStart;
   /**
   * PreStop is called immediately before a container is terminated due to an API request or management event such as liveness/startup probe failure, preemption, resource contention, etc. The handler is not called if the container crashes or exits. The Pod's termination grace period countdown begins before the PreStop hook is executed. Regardless of the outcome of the handler, the container will eventually terminate within the Pod's termination grace period (unless delayed by finalizers). Other management of the container blocks until the hook completes or until the termination grace period is reached. More info: https://kubernetes.io/docs/concepts/containers/container-lifecycle-hooks/#container-hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#pre_stop DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#pre_stop DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#pre_stop}
   */
   readonly preStop?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersLifecyclePreStop;
 }
@@ -22916,7 +22916,7 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#command DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#command DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#command}
   */
   readonly command?: string[];
 }
@@ -23012,13 +23012,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#service DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#service DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#service}
   */
   readonly service?: string;
 }
@@ -23140,13 +23140,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value}
   */
   readonly value: string;
 }
@@ -23287,31 +23287,31 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_headers DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_headers DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersLivenessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#scheme DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#scheme DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -23520,13 +23520,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
   */
   readonly port: string;
 }
@@ -23648,61 +23648,61 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#exec DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#exec DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#exec}
   */
   readonly exec?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersLivenessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#failure_threshold DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#failure_threshold DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#grpc DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#grpc DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#grpc}
   */
   readonly grpc?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersLivenessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_get DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_get DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_get}
   */
   readonly httpGet?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersLivenessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#initial_delay_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#initial_delay_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#period_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#period_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#success_threshold DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#success_threshold DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#tcp_socket DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#tcp_socket DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersLivenessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#termination_grace_period_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#termination_grace_period_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#timeout_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#timeout_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -24059,31 +24059,31 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Number of port to expose on the pod's IP address. This must be a valid port number, 0 < x < 65536.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#container_port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#container_port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#container_port}
   */
   readonly containerPort: number;
   /**
   * What host IP to bind the external port to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host_ip DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host_ip DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host_ip}
   */
   readonly hostIp?: string;
   /**
   * Number of port to expose on the host. If specified, this must be a valid port number, 0 < x < 65536. If HostNetwork is specified, this must match ContainerPort. Most containers do not need this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host_port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host_port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host_port}
   */
   readonly hostPort?: number;
   /**
   * If specified, this must be an IANA_SVC_NAME and unique within the pod. Each named port in a pod must have a unique name. Name for the port that can be referred to by services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name?: string;
   /**
   * Protocol for port. Must be UDP, TCP, or SCTP. Defaults to 'TCP'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#protocol DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#protocol DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -24314,7 +24314,7 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#command DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#command DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#command}
   */
   readonly command?: string[];
 }
@@ -24410,13 +24410,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#service DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#service DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#service}
   */
   readonly service?: string;
 }
@@ -24538,13 +24538,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value}
   */
   readonly value: string;
 }
@@ -24685,31 +24685,31 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_headers DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_headers DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersReadinessProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#scheme DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#scheme DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -24918,13 +24918,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
   */
   readonly port: string;
 }
@@ -25046,61 +25046,61 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#exec DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#exec DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#exec}
   */
   readonly exec?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersReadinessProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#failure_threshold DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#failure_threshold DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#grpc DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#grpc DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#grpc}
   */
   readonly grpc?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersReadinessProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_get DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_get DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_get}
   */
   readonly httpGet?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersReadinessProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#initial_delay_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#initial_delay_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#period_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#period_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#success_threshold DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#success_threshold DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#tcp_socket DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#tcp_socket DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersReadinessProbeTcpSocket;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully upon probe failure. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. If this value is nil, the pod's terminationGracePeriodSeconds will be used. Otherwise, this value overrides the value provided by the pod spec. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). This is a beta field and requires enabling ProbeTerminationGracePeriod feature gate. Minimum value is 1. spec.terminationGracePeriodSeconds is used if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#termination_grace_period_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#termination_grace_period_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#timeout_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#timeout_seconds DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -25457,13 +25457,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Name of the resource to which this resource resize policy applies. Supported values: cpu, memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#resource_name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#resource_name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#resource_name}
   */
   readonly resourceName: string;
   /**
   * Restart policy to apply when specified resource is resized. If not specified, it defaults to NotRequired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#restart_policy DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#restart_policy DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#restart_policy}
   */
   readonly restartPolicy: string;
 }
@@ -25604,7 +25604,7 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name: string;
 }
@@ -25719,19 +25719,19 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#claims DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#claims DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#claims}
   */
   readonly claims?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#limits DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#limits DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#requests DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#requests DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -25885,13 +25885,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * localhostProfile indicates a profile loaded on the node that should be used. The profile must be preconfigured on the node to work. Must match the loaded name of the profile. Must be set if and only if type is 'Localhost'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#localhost_profile DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#localhost_profile DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of AppArmor profile will be applied. Valid options are: Localhost - a profile pre-loaded on the node. RuntimeDefault - the container runtime's default profile. Unconfined - no AppArmor enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#type DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#type DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#type}
   */
   readonly type: string;
 }
@@ -26013,13 +26013,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#add DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#add DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#drop DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#drop DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -26144,25 +26144,25 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#level DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#level DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#role DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#role DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#type DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#type DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#user DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#user DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#user}
   */
   readonly user?: string;
 }
@@ -26345,13 +26345,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#localhost_profile DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#localhost_profile DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#type DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#type DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#type}
   */
   readonly type: string;
 }
@@ -26473,25 +26473,25 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#gmsa_credential_spec DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#gmsa_credential_spec DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#gmsa_credential_spec_name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#gmsa_credential_spec_name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host_process DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host_process DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#run_as_user_name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#run_as_user_name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -26674,73 +26674,73 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#allow_privilege_escalation DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#allow_privilege_escalation DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * appArmorProfile is the AppArmor options to use by this container. If set, this profile overrides the pod's appArmorProfile. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#app_armor_profile DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#app_armor_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#app_armor_profile DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#app_armor_profile}
   */
   readonly appArmorProfile?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersSecurityContextAppArmorProfile;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#capabilities DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#capabilities DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#capabilities}
   */
   readonly capabilities?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersSecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#privileged DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#privileged DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default is DefaultProcMount which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#proc_mount DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#proc_mount DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#read_only_root_filesystem DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#read_only_root_filesystem DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#run_as_group DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#run_as_group DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#run_as_non_root DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#run_as_non_root DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#run_as_user DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#run_as_user DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#se_linux_options DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#se_linux_options DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#seccomp_profile DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#seccomp_profile DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersSecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#windows_options DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#windows_options DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersSecurityContextWindowsOptions;
 }
@@ -27155,7 +27155,7 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#command DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#command DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#command}
   */
   readonly command?: string[];
 }
@@ -27251,13 +27251,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#service DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#service DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#service}
   */
   readonly service?: string;
 }
@@ -27379,13 +27379,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#name DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#value DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#value}
   */
   readonly value: string;
 }
@@ -27526,31 +27526,31 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_headers DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#http_headers DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateContainersStartupProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#path DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#scheme DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#scheme DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -27759,13 +27759,13 @@ export interface DataK8SSonataflowOrgSonataFlowV1Alpha08ManifestSpecPodTemplateC
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#host DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sonataflow_org_sonata_flow_v1alpha08_manifest#port DataK8SSonataflowOrgSonataFlowV1Alpha08Manifest#port}
   */
   readonly port: string;
 }

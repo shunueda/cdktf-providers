@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,162 +8,162 @@ import * as cdktf from 'cdktf';
 
 export interface ThreatDetectionInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#buy_number ThreatDetectionInstance#buy_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#buy_number ThreatDetectionInstance#buy_number}
   */
   readonly buyNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#container_image_scan ThreatDetectionInstance#container_image_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#container_image_scan ThreatDetectionInstance#container_image_scan}
   */
   readonly containerImageScan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#container_image_scan_new ThreatDetectionInstance#container_image_scan_new}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#container_image_scan_new ThreatDetectionInstance#container_image_scan_new}
   */
   readonly containerImageScanNew?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#honeypot ThreatDetectionInstance#honeypot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#honeypot ThreatDetectionInstance#honeypot}
   */
   readonly honeypot?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#honeypot_switch ThreatDetectionInstance#honeypot_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#honeypot_switch ThreatDetectionInstance#honeypot_switch}
   */
   readonly honeypotSwitch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#id ThreatDetectionInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#id ThreatDetectionInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#modify_type ThreatDetectionInstance#modify_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#modify_type ThreatDetectionInstance#modify_type}
   */
   readonly modifyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#payment_type ThreatDetectionInstance#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#payment_type ThreatDetectionInstance#payment_type}
   */
   readonly paymentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#period ThreatDetectionInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#period ThreatDetectionInstance#period}
   */
   readonly period?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#post_paid_flag ThreatDetectionInstance#post_paid_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#post_paid_flag ThreatDetectionInstance#post_paid_flag}
   */
   readonly postPaidFlag?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#post_pay_module_switch ThreatDetectionInstance#post_pay_module_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#post_pay_module_switch ThreatDetectionInstance#post_pay_module_switch}
   */
   readonly postPayModuleSwitch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#rasp_count ThreatDetectionInstance#rasp_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#rasp_count ThreatDetectionInstance#rasp_count}
   */
   readonly raspCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#renew_period ThreatDetectionInstance#renew_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#renew_period ThreatDetectionInstance#renew_period}
   */
   readonly renewPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#renewal_period_unit ThreatDetectionInstance#renewal_period_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#renewal_period_unit ThreatDetectionInstance#renewal_period_unit}
   */
   readonly renewalPeriodUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#renewal_status ThreatDetectionInstance#renewal_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#renewal_status ThreatDetectionInstance#renewal_status}
   */
   readonly renewalStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#sas_anti_ransomware ThreatDetectionInstance#sas_anti_ransomware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#sas_anti_ransomware ThreatDetectionInstance#sas_anti_ransomware}
   */
   readonly sasAntiRansomware?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#sas_cspm ThreatDetectionInstance#sas_cspm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#sas_cspm ThreatDetectionInstance#sas_cspm}
   */
   readonly sasCspm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#sas_cspm_switch ThreatDetectionInstance#sas_cspm_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#sas_cspm_switch ThreatDetectionInstance#sas_cspm_switch}
   */
   readonly sasCspmSwitch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#sas_sc ThreatDetectionInstance#sas_sc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#sas_sc ThreatDetectionInstance#sas_sc}
   */
   readonly sasSc?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#sas_sdk ThreatDetectionInstance#sas_sdk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#sas_sdk ThreatDetectionInstance#sas_sdk}
   */
   readonly sasSdk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#sas_sdk_switch ThreatDetectionInstance#sas_sdk_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#sas_sdk_switch ThreatDetectionInstance#sas_sdk_switch}
   */
   readonly sasSdkSwitch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#sas_sls_storage ThreatDetectionInstance#sas_sls_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#sas_sls_storage ThreatDetectionInstance#sas_sls_storage}
   */
   readonly sasSlsStorage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#sas_webguard_boolean ThreatDetectionInstance#sas_webguard_boolean}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#sas_webguard_boolean ThreatDetectionInstance#sas_webguard_boolean}
   */
   readonly sasWebguardBoolean?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#sas_webguard_order_num ThreatDetectionInstance#sas_webguard_order_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#sas_webguard_order_num ThreatDetectionInstance#sas_webguard_order_num}
   */
   readonly sasWebguardOrderNum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#subscription_type ThreatDetectionInstance#subscription_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#subscription_type ThreatDetectionInstance#subscription_type}
   */
   readonly subscriptionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#threat_analysis ThreatDetectionInstance#threat_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#threat_analysis ThreatDetectionInstance#threat_analysis}
   */
   readonly threatAnalysis?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#threat_analysis_flow ThreatDetectionInstance#threat_analysis_flow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#threat_analysis_flow ThreatDetectionInstance#threat_analysis_flow}
   */
   readonly threatAnalysisFlow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#threat_analysis_sls_storage ThreatDetectionInstance#threat_analysis_sls_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#threat_analysis_sls_storage ThreatDetectionInstance#threat_analysis_sls_storage}
   */
   readonly threatAnalysisSlsStorage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#threat_analysis_switch ThreatDetectionInstance#threat_analysis_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#threat_analysis_switch ThreatDetectionInstance#threat_analysis_switch}
   */
   readonly threatAnalysisSwitch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#threat_analysis_switch1 ThreatDetectionInstance#threat_analysis_switch1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#threat_analysis_switch1 ThreatDetectionInstance#threat_analysis_switch1}
   */
   readonly threatAnalysisSwitch1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#v_core ThreatDetectionInstance#v_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#v_core ThreatDetectionInstance#v_core}
   */
   readonly vCore?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#version_code ThreatDetectionInstance#version_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#version_code ThreatDetectionInstance#version_code}
   */
   readonly versionCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#vul_count ThreatDetectionInstance#vul_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#vul_count ThreatDetectionInstance#vul_count}
   */
   readonly vulCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#vul_switch ThreatDetectionInstance#vul_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#vul_switch ThreatDetectionInstance#vul_switch}
   */
   readonly vulSwitch?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#timeouts ThreatDetectionInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#timeouts ThreatDetectionInstance#timeouts}
   */
   readonly timeouts?: ThreatDetectionInstanceTimeouts;
 }
 export interface ThreatDetectionInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#create ThreatDetectionInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#create ThreatDetectionInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#delete ThreatDetectionInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#delete ThreatDetectionInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#update ThreatDetectionInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#update ThreatDetectionInstance#update}
   */
   readonly update?: string;
 }
@@ -315,7 +315,7 @@ export class ThreatDetectionInstanceTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance alicloud_threat_detection_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance alicloud_threat_detection_instance}
 */
 export class ThreatDetectionInstance extends cdktf.TerraformResource {
 
@@ -331,7 +331,7 @@ export class ThreatDetectionInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ThreatDetectionInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ThreatDetectionInstance to import
-  * @param importFromId The id of the existing ThreatDetectionInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ThreatDetectionInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ThreatDetectionInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -343,7 +343,7 @@ export class ThreatDetectionInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_instance alicloud_threat_detection_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_instance alicloud_threat_detection_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -354,8 +354,8 @@ export class ThreatDetectionInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_threat_detection_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

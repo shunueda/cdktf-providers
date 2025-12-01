@@ -1,0 +1,683 @@
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_image_import
+// generated from terraform resource schema
+
+import { Construct } from 'constructs';
+import * as cdktf from 'cdktf';
+
+// Configuration
+
+export interface ApsarastackImageImportConfig extends cdktf.TerraformMetaArguments {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_image_import#architecture ApsarastackImageImport#architecture}
+  */
+  readonly architecture?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_image_import#description ApsarastackImageImport#description}
+  */
+  readonly description?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_image_import#id ApsarastackImageImport#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_image_import#image_name ApsarastackImageImport#image_name}
+  */
+  readonly imageName?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_image_import#license_type ApsarastackImageImport#license_type}
+  */
+  readonly licenseType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_image_import#os_type ApsarastackImageImport#os_type}
+  */
+  readonly osType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_image_import#platform ApsarastackImageImport#platform}
+  */
+  readonly platform?: string;
+  /**
+  * disk_device_mapping block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_image_import#disk_device_mapping ApsarastackImageImport#disk_device_mapping}
+  */
+  readonly diskDeviceMapping: ApsarastackImageImportDiskDeviceMapping[] | cdktf.IResolvable;
+  /**
+  * timeouts block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_image_import#timeouts ApsarastackImageImport#timeouts}
+  */
+  readonly timeouts?: ApsarastackImageImportTimeouts;
+}
+export interface ApsarastackImageImportDiskDeviceMapping {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_image_import#disk_image_size ApsarastackImageImport#disk_image_size}
+  */
+  readonly diskImageSize?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_image_import#format ApsarastackImageImport#format}
+  */
+  readonly format?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_image_import#oss_bucket ApsarastackImageImport#oss_bucket}
+  */
+  readonly ossBucket?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_image_import#oss_object ApsarastackImageImport#oss_object}
+  */
+  readonly ossObject?: string;
+}
+
+export function apsarastackImageImportDiskDeviceMappingToTerraform(struct?: ApsarastackImageImportDiskDeviceMapping | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    disk_image_size: cdktf.numberToTerraform(struct!.diskImageSize),
+    format: cdktf.stringToTerraform(struct!.format),
+    oss_bucket: cdktf.stringToTerraform(struct!.ossBucket),
+    oss_object: cdktf.stringToTerraform(struct!.ossObject),
+  }
+}
+
+
+export function apsarastackImageImportDiskDeviceMappingToHclTerraform(struct?: ApsarastackImageImportDiskDeviceMapping | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    disk_image_size: {
+      value: cdktf.numberToHclTerraform(struct!.diskImageSize),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    format: {
+      value: cdktf.stringToHclTerraform(struct!.format),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    oss_bucket: {
+      value: cdktf.stringToHclTerraform(struct!.ossBucket),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    oss_object: {
+      value: cdktf.stringToHclTerraform(struct!.ossObject),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ApsarastackImageImportDiskDeviceMappingOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ApsarastackImageImportDiskDeviceMapping | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._diskImageSize !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.diskImageSize = this._diskImageSize;
+    }
+    if (this._format !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.format = this._format;
+    }
+    if (this._ossBucket !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ossBucket = this._ossBucket;
+    }
+    if (this._ossObject !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ossObject = this._ossObject;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ApsarastackImageImportDiskDeviceMapping | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._diskImageSize = undefined;
+      this._format = undefined;
+      this._ossBucket = undefined;
+      this._ossObject = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._diskImageSize = value.diskImageSize;
+      this._format = value.format;
+      this._ossBucket = value.ossBucket;
+      this._ossObject = value.ossObject;
+    }
+  }
+
+  // disk_image_size - computed: false, optional: true, required: false
+  private _diskImageSize?: number; 
+  public get diskImageSize() {
+    return this.getNumberAttribute('disk_image_size');
+  }
+  public set diskImageSize(value: number) {
+    this._diskImageSize = value;
+  }
+  public resetDiskImageSize() {
+    this._diskImageSize = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get diskImageSizeInput() {
+    return this._diskImageSize;
+  }
+
+  // format - computed: true, optional: true, required: false
+  private _format?: string; 
+  public get format() {
+    return this.getStringAttribute('format');
+  }
+  public set format(value: string) {
+    this._format = value;
+  }
+  public resetFormat() {
+    this._format = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get formatInput() {
+    return this._format;
+  }
+
+  // oss_bucket - computed: false, optional: true, required: false
+  private _ossBucket?: string; 
+  public get ossBucket() {
+    return this.getStringAttribute('oss_bucket');
+  }
+  public set ossBucket(value: string) {
+    this._ossBucket = value;
+  }
+  public resetOssBucket() {
+    this._ossBucket = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ossBucketInput() {
+    return this._ossBucket;
+  }
+
+  // oss_object - computed: false, optional: true, required: false
+  private _ossObject?: string; 
+  public get ossObject() {
+    return this.getStringAttribute('oss_object');
+  }
+  public set ossObject(value: string) {
+    this._ossObject = value;
+  }
+  public resetOssObject() {
+    this._ossObject = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ossObjectInput() {
+    return this._ossObject;
+  }
+}
+
+export class ApsarastackImageImportDiskDeviceMappingList extends cdktf.ComplexList {
+  public internalValue? : ApsarastackImageImportDiskDeviceMapping[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ApsarastackImageImportDiskDeviceMappingOutputReference {
+    return new ApsarastackImageImportDiskDeviceMappingOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ApsarastackImageImportTimeouts {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_image_import#create ApsarastackImageImport#create}
+  */
+  readonly create?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_image_import#delete ApsarastackImageImport#delete}
+  */
+  readonly delete?: string;
+}
+
+export function apsarastackImageImportTimeoutsToTerraform(struct?: ApsarastackImageImportTimeouts | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    create: cdktf.stringToTerraform(struct!.create),
+    delete: cdktf.stringToTerraform(struct!.delete),
+  }
+}
+
+
+export function apsarastackImageImportTimeoutsToHclTerraform(struct?: ApsarastackImageImportTimeouts | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    create: {
+      value: cdktf.stringToHclTerraform(struct!.create),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    delete: {
+      value: cdktf.stringToHclTerraform(struct!.delete),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ApsarastackImageImportTimeoutsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): ApsarastackImageImportTimeouts | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._create !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.create = this._create;
+    }
+    if (this._delete !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.delete = this._delete;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ApsarastackImageImportTimeouts | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._create = undefined;
+      this._delete = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._create = value.create;
+      this._delete = value.delete;
+    }
+  }
+
+  // create - computed: false, optional: true, required: false
+  private _create?: string; 
+  public get create() {
+    return this.getStringAttribute('create');
+  }
+  public set create(value: string) {
+    this._create = value;
+  }
+  public resetCreate() {
+    this._create = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get createInput() {
+    return this._create;
+  }
+
+  // delete - computed: false, optional: true, required: false
+  private _delete?: string; 
+  public get delete() {
+    return this.getStringAttribute('delete');
+  }
+  public set delete(value: string) {
+    this._delete = value;
+  }
+  public resetDelete() {
+    this._delete = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get deleteInput() {
+    return this._delete;
+  }
+}
+
+/**
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_image_import apsarastack_image_import}
+*/
+export class ApsarastackImageImport extends cdktf.TerraformResource {
+
+  // =================
+  // STATIC PROPERTIES
+  // =================
+  public static readonly tfResourceType = "apsarastack_image_import";
+
+  // ==============
+  // STATIC Methods
+  // ==============
+  /**
+  * Generates CDKTF code for importing a ApsarastackImageImport resource upon running "cdktf plan <stack-name>"
+  * @param scope The scope in which to define this construct
+  * @param importToId The construct id used in the generated config for the ApsarastackImageImport to import
+  * @param importFromId The id of the existing ApsarastackImageImport that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_image_import#import import section} in the documentation of this resource for the id to use
+  * @param provider? Optional instance of the provider where the ApsarastackImageImport to import is found
+  */
+  public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
+        return new cdktf.ImportableResource(scope, importToId, { terraformResourceType: "apsarastack_image_import", importId: importFromId, provider });
+      }
+
+  // ===========
+  // INITIALIZER
+  // ===========
+
+  /**
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/apsarastack_image_import apsarastack_image_import} Resource
+  *
+  * @param scope The scope in which to define this construct
+  * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
+  * @param options ApsarastackImageImportConfig
+  */
+  public constructor(scope: Construct, id: string, config: ApsarastackImageImportConfig) {
+    super(scope, id, {
+      terraformResourceType: 'apsarastack_image_import',
+      terraformGeneratorMetadata: {
+        providerName: 'alibabacloudstack',
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
+      },
+      provider: config.provider,
+      dependsOn: config.dependsOn,
+      count: config.count,
+      lifecycle: config.lifecycle,
+      provisioners: config.provisioners,
+      connection: config.connection,
+      forEach: config.forEach
+    });
+    this._architecture = config.architecture;
+    this._description = config.description;
+    this._id = config.id;
+    this._imageName = config.imageName;
+    this._licenseType = config.licenseType;
+    this._osType = config.osType;
+    this._platform = config.platform;
+    this._diskDeviceMapping.internalValue = config.diskDeviceMapping;
+    this._timeouts.internalValue = config.timeouts;
+  }
+
+  // ==========
+  // ATTRIBUTES
+  // ==========
+
+  // architecture - computed: false, optional: true, required: false
+  private _architecture?: string; 
+  public get architecture() {
+    return this.getStringAttribute('architecture');
+  }
+  public set architecture(value: string) {
+    this._architecture = value;
+  }
+  public resetArchitecture() {
+    this._architecture = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get architectureInput() {
+    return this._architecture;
+  }
+
+  // description - computed: false, optional: true, required: false
+  private _description?: string; 
+  public get description() {
+    return this.getStringAttribute('description');
+  }
+  public set description(value: string) {
+    this._description = value;
+  }
+  public resetDescription() {
+    this._description = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get descriptionInput() {
+    return this._description;
+  }
+
+  // id - computed: true, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+
+  // image_name - computed: false, optional: true, required: false
+  private _imageName?: string; 
+  public get imageName() {
+    return this.getStringAttribute('image_name');
+  }
+  public set imageName(value: string) {
+    this._imageName = value;
+  }
+  public resetImageName() {
+    this._imageName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get imageNameInput() {
+    return this._imageName;
+  }
+
+  // license_type - computed: false, optional: true, required: false
+  private _licenseType?: string; 
+  public get licenseType() {
+    return this.getStringAttribute('license_type');
+  }
+  public set licenseType(value: string) {
+    this._licenseType = value;
+  }
+  public resetLicenseType() {
+    this._licenseType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get licenseTypeInput() {
+    return this._licenseType;
+  }
+
+  // os_type - computed: false, optional: true, required: false
+  private _osType?: string; 
+  public get osType() {
+    return this.getStringAttribute('os_type');
+  }
+  public set osType(value: string) {
+    this._osType = value;
+  }
+  public resetOsType() {
+    this._osType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get osTypeInput() {
+    return this._osType;
+  }
+
+  // platform - computed: false, optional: true, required: false
+  private _platform?: string; 
+  public get platform() {
+    return this.getStringAttribute('platform');
+  }
+  public set platform(value: string) {
+    this._platform = value;
+  }
+  public resetPlatform() {
+    this._platform = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get platformInput() {
+    return this._platform;
+  }
+
+  // disk_device_mapping - computed: false, optional: false, required: true
+  private _diskDeviceMapping = new ApsarastackImageImportDiskDeviceMappingList(this, "disk_device_mapping", false);
+  public get diskDeviceMapping() {
+    return this._diskDeviceMapping;
+  }
+  public putDiskDeviceMapping(value: ApsarastackImageImportDiskDeviceMapping[] | cdktf.IResolvable) {
+    this._diskDeviceMapping.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get diskDeviceMappingInput() {
+    return this._diskDeviceMapping.internalValue;
+  }
+
+  // timeouts - computed: false, optional: true, required: false
+  private _timeouts = new ApsarastackImageImportTimeoutsOutputReference(this, "timeouts");
+  public get timeouts() {
+    return this._timeouts;
+  }
+  public putTimeouts(value: ApsarastackImageImportTimeouts) {
+    this._timeouts.internalValue = value;
+  }
+  public resetTimeouts() {
+    this._timeouts.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get timeoutsInput() {
+    return this._timeouts.internalValue;
+  }
+
+  // =========
+  // SYNTHESIS
+  // =========
+
+  protected synthesizeAttributes(): { [name: string]: any } {
+    return {
+      architecture: cdktf.stringToTerraform(this._architecture),
+      description: cdktf.stringToTerraform(this._description),
+      id: cdktf.stringToTerraform(this._id),
+      image_name: cdktf.stringToTerraform(this._imageName),
+      license_type: cdktf.stringToTerraform(this._licenseType),
+      os_type: cdktf.stringToTerraform(this._osType),
+      platform: cdktf.stringToTerraform(this._platform),
+      disk_device_mapping: cdktf.listMapper(apsarastackImageImportDiskDeviceMappingToTerraform, true)(this._diskDeviceMapping.internalValue),
+      timeouts: apsarastackImageImportTimeoutsToTerraform(this._timeouts.internalValue),
+    };
+  }
+
+  protected synthesizeHclAttributes(): { [name: string]: any } {
+    const attrs = {
+      architecture: {
+        value: cdktf.stringToHclTerraform(this._architecture),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      description: {
+        value: cdktf.stringToHclTerraform(this._description),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      id: {
+        value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      image_name: {
+        value: cdktf.stringToHclTerraform(this._imageName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      license_type: {
+        value: cdktf.stringToHclTerraform(this._licenseType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      os_type: {
+        value: cdktf.stringToHclTerraform(this._osType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      platform: {
+        value: cdktf.stringToHclTerraform(this._platform),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      disk_device_mapping: {
+        value: cdktf.listMapperHcl(apsarastackImageImportDiskDeviceMappingToHclTerraform, true)(this._diskDeviceMapping.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "ApsarastackImageImportDiskDeviceMappingList",
+      },
+      timeouts: {
+        value: apsarastackImageImportTimeoutsToHclTerraform(this._timeouts.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "ApsarastackImageImportTimeouts",
+      },
+    };
+
+    // remove undefined attributes
+    return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined ))
+  }
+}

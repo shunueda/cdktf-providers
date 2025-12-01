@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/alikafka_sasl_user
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/alikafka_sasl_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface AlikafkaSaslUserConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/alikafka_sasl_user#id AlikafkaSaslUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/alikafka_sasl_user#id AlikafkaSaslUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/alikafka_sasl_user#instance_id AlikafkaSaslUser#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/alikafka_sasl_user#instance_id AlikafkaSaslUser#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/alikafka_sasl_user#kms_encrypted_password AlikafkaSaslUser#kms_encrypted_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/alikafka_sasl_user#kms_encrypted_password AlikafkaSaslUser#kms_encrypted_password}
   */
   readonly kmsEncryptedPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/alikafka_sasl_user#kms_encryption_context AlikafkaSaslUser#kms_encryption_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/alikafka_sasl_user#kms_encryption_context AlikafkaSaslUser#kms_encryption_context}
   */
   readonly kmsEncryptionContext?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/alikafka_sasl_user#password AlikafkaSaslUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/alikafka_sasl_user#password AlikafkaSaslUser#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/alikafka_sasl_user#type AlikafkaSaslUser#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/alikafka_sasl_user#type AlikafkaSaslUser#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/alikafka_sasl_user#username AlikafkaSaslUser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/alikafka_sasl_user#username AlikafkaSaslUser#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/alikafka_sasl_user alibabacloudstack_alikafka_sasl_user}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/alikafka_sasl_user alibabacloudstack_alikafka_sasl_user}
 */
 export class AlikafkaSaslUser extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class AlikafkaSaslUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlikafkaSaslUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlikafkaSaslUser to import
-  * @param importFromId The id of the existing AlikafkaSaslUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/alikafka_sasl_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlikafkaSaslUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/alikafka_sasl_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlikafkaSaslUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class AlikafkaSaslUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/resources/alikafka_sasl_user alibabacloudstack_alikafka_sasl_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/alikafka_sasl_user alibabacloudstack_alikafka_sasl_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class AlikafkaSaslUser extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_alikafka_sasl_user',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

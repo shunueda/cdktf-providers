@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_vpc_binding
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_vpc_binding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface Fcv3VpcBindingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_vpc_binding#function_name Fcv3VpcBinding#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_vpc_binding#function_name Fcv3VpcBinding#function_name}
   */
   readonly functionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_vpc_binding#id Fcv3VpcBinding#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_vpc_binding#id Fcv3VpcBinding#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_vpc_binding#vpc_id Fcv3VpcBinding#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_vpc_binding#vpc_id Fcv3VpcBinding#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_vpc_binding#timeouts Fcv3VpcBinding#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_vpc_binding#timeouts Fcv3VpcBinding#timeouts}
   */
   readonly timeouts?: Fcv3VpcBindingTimeouts;
 }
 export interface Fcv3VpcBindingTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_vpc_binding#create Fcv3VpcBinding#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_vpc_binding#create Fcv3VpcBinding#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_vpc_binding#delete Fcv3VpcBinding#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_vpc_binding#delete Fcv3VpcBinding#delete}
   */
   readonly delete?: string;
 }
@@ -158,7 +158,7 @@ export class Fcv3VpcBindingTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_vpc_binding alicloud_fcv3_vpc_binding}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_vpc_binding alicloud_fcv3_vpc_binding}
 */
 export class Fcv3VpcBinding extends cdktf.TerraformResource {
 
@@ -174,7 +174,7 @@ export class Fcv3VpcBinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Fcv3VpcBinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Fcv3VpcBinding to import
-  * @param importFromId The id of the existing Fcv3VpcBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_vpc_binding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Fcv3VpcBinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_vpc_binding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Fcv3VpcBinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -186,7 +186,7 @@ export class Fcv3VpcBinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/fcv3_vpc_binding alicloud_fcv3_vpc_binding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/fcv3_vpc_binding alicloud_fcv3_vpc_binding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -197,8 +197,8 @@ export class Fcv3VpcBinding extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_fcv3_vpc_binding',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

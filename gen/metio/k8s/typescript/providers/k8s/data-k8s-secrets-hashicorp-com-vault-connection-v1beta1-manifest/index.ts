@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSecretsHashicorpComVaultConnectionV1Beta1ManifestConfig 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest#metadata DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest#metadata DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SSecretsHashicorpComVaultConnectionV1Beta1ManifestMetadata;
   /**
   * VaultConnectionSpec defines the desired state of VaultConnection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest#spec DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest#spec DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SSecretsHashicorpComVaultConnectionV1Beta1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSecretsHashicorpComVaultConnectionV1Beta1ManifestMetadat
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest#annotations DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest#annotations DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest#labels DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest#labels DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest#name DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest#namespace DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest#namespace DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,37 +219,37 @@ export interface DataK8SSecretsHashicorpComVaultConnectionV1Beta1ManifestSpec {
   /**
   * Address of the Vault server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest#address DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest#address DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest#address}
   */
   readonly address: string;
   /**
   * CACertSecretRef is the name of a Kubernetes secret containing the trusted PEM encoded CA certificate chain as 'ca.crt'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest#ca_cert_secret_ref DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest#ca_cert_secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest#ca_cert_secret_ref DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest#ca_cert_secret_ref}
   */
   readonly caCertSecretRef?: string;
   /**
   * Headers to be included in all Vault requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest#headers DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest#headers DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * SkipTLSVerify for TLS connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest#skip_tls_verify DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest#skip_tls_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest#skip_tls_verify DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest#skip_tls_verify}
   */
   readonly skipTlsVerify: boolean | cdktf.IResolvable;
   /**
   * Timeout applied to all Vault requests for this connection. If not set, the default timeout from the Vault API client config is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest#timeout DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest#timeout DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * TLSServerName to use as the SNI host for TLS connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest#tls_server_name DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest#tls_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest#tls_server_name DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest#tls_server_name}
   */
   readonly tlsServerName?: string;
 }
@@ -482,7 +482,7 @@ export class DataK8SSecretsHashicorpComVaultConnectionV1Beta1ManifestSpecOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest k8s_secrets_hashicorp_com_vault_connection_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest k8s_secrets_hashicorp_com_vault_connection_v1beta1_manifest}
 */
 export class DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -498,7 +498,7 @@ export class DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest extends cd
   * Generates CDKTF code for importing a DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -510,7 +510,7 @@ export class DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest k8s_secrets_hashicorp_com_vault_connection_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/secrets_hashicorp_com_vault_connection_v1beta1_manifest k8s_secrets_hashicorp_com_vault_connection_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -521,8 +521,8 @@ export class DataK8SSecretsHashicorpComVaultConnectionV1Beta1Manifest extends cd
       terraformResourceType: 'k8s_secrets_hashicorp_com_vault_connection_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

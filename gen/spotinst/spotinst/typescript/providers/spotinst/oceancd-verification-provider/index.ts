@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_verification_provider
+// https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_verification_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface OceancdVerificationProviderConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_verification_provider#cluster_ids OceancdVerificationProvider#cluster_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_verification_provider#cluster_ids OceancdVerificationProvider#cluster_ids}
   */
   readonly clusterIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_verification_provider#id OceancdVerificationProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_verification_provider#id OceancdVerificationProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_verification_provider#name OceancdVerificationProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_verification_provider#name OceancdVerificationProvider#name}
   */
   readonly name: string;
   /**
   * cloud_watch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_verification_provider#cloud_watch OceancdVerificationProvider#cloud_watch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_verification_provider#cloud_watch OceancdVerificationProvider#cloud_watch}
   */
   readonly cloudWatch?: OceancdVerificationProviderCloudWatch;
   /**
   * datadog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_verification_provider#datadog OceancdVerificationProvider#datadog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_verification_provider#datadog OceancdVerificationProvider#datadog}
   */
   readonly datadog?: OceancdVerificationProviderDatadog;
   /**
   * jenkins block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_verification_provider#jenkins OceancdVerificationProvider#jenkins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_verification_provider#jenkins OceancdVerificationProvider#jenkins}
   */
   readonly jenkins?: OceancdVerificationProviderJenkins;
   /**
   * new_relic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_verification_provider#new_relic OceancdVerificationProvider#new_relic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_verification_provider#new_relic OceancdVerificationProvider#new_relic}
   */
   readonly newRelic?: OceancdVerificationProviderNewRelic;
   /**
   * prometheus block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_verification_provider#prometheus OceancdVerificationProvider#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_verification_provider#prometheus OceancdVerificationProvider#prometheus}
   */
   readonly prometheus?: OceancdVerificationProviderPrometheus;
 }
 export interface OceancdVerificationProviderCloudWatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_verification_provider#iam_arn OceancdVerificationProvider#iam_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_verification_provider#iam_arn OceancdVerificationProvider#iam_arn}
   */
   readonly iamArn: string;
 }
@@ -136,15 +136,15 @@ export class OceancdVerificationProviderCloudWatchOutputReference extends cdktf.
 }
 export interface OceancdVerificationProviderDatadog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_verification_provider#address OceancdVerificationProvider#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_verification_provider#address OceancdVerificationProvider#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_verification_provider#api_key OceancdVerificationProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_verification_provider#api_key OceancdVerificationProvider#api_key}
   */
   readonly apiKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_verification_provider#app_key OceancdVerificationProvider#app_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_verification_provider#app_key OceancdVerificationProvider#app_key}
   */
   readonly appKey: string;
 }
@@ -277,15 +277,15 @@ export class OceancdVerificationProviderDatadogOutputReference extends cdktf.Com
 }
 export interface OceancdVerificationProviderJenkins {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_verification_provider#api_token OceancdVerificationProvider#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_verification_provider#api_token OceancdVerificationProvider#api_token}
   */
   readonly apiToken: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_verification_provider#base_url OceancdVerificationProvider#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_verification_provider#base_url OceancdVerificationProvider#base_url}
   */
   readonly baseUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_verification_provider#username OceancdVerificationProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_verification_provider#username OceancdVerificationProvider#username}
   */
   readonly username: string;
 }
@@ -418,23 +418,23 @@ export class OceancdVerificationProviderJenkinsOutputReference extends cdktf.Com
 }
 export interface OceancdVerificationProviderNewRelic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_verification_provider#account_id OceancdVerificationProvider#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_verification_provider#account_id OceancdVerificationProvider#account_id}
   */
   readonly accountId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_verification_provider#base_url_nerd_graph OceancdVerificationProvider#base_url_nerd_graph}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_verification_provider#base_url_nerd_graph OceancdVerificationProvider#base_url_nerd_graph}
   */
   readonly baseUrlNerdGraph?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_verification_provider#base_url_rest OceancdVerificationProvider#base_url_rest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_verification_provider#base_url_rest OceancdVerificationProvider#base_url_rest}
   */
   readonly baseUrlRest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_verification_provider#personal_api_key OceancdVerificationProvider#personal_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_verification_provider#personal_api_key OceancdVerificationProvider#personal_api_key}
   */
   readonly personalApiKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_verification_provider#region OceancdVerificationProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_verification_provider#region OceancdVerificationProvider#region}
   */
   readonly region?: string;
 }
@@ -628,7 +628,7 @@ export class OceancdVerificationProviderNewRelicOutputReference extends cdktf.Co
 }
 export interface OceancdVerificationProviderPrometheus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_verification_provider#address OceancdVerificationProvider#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_verification_provider#address OceancdVerificationProvider#address}
   */
   readonly address: string;
 }
@@ -709,7 +709,7 @@ export class OceancdVerificationProviderPrometheusOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_verification_provider spotinst_oceancd_verification_provider}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_verification_provider spotinst_oceancd_verification_provider}
 */
 export class OceancdVerificationProvider extends cdktf.TerraformResource {
 
@@ -725,7 +725,7 @@ export class OceancdVerificationProvider extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OceancdVerificationProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OceancdVerificationProvider to import
-  * @param importFromId The id of the existing OceancdVerificationProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_verification_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OceancdVerificationProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_verification_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OceancdVerificationProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -737,7 +737,7 @@ export class OceancdVerificationProvider extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/oceancd_verification_provider spotinst_oceancd_verification_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/oceancd_verification_provider spotinst_oceancd_verification_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -748,8 +748,8 @@ export class OceancdVerificationProvider extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_oceancd_verification_provider',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.230.0',
-        providerVersionConstraint: '1.230.0'
+        providerVersion: '1.231.0',
+        providerVersionConstraint: '1.231.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

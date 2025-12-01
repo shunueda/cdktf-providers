@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1ManifestConfig extends
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#metadata DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#metadata DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1ManifestMetadata;
   /**
   * EC2NodeClassSpec is the top level specification for the AWS Karpenter Provider. This will contain configuration necessary to launch instances in AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#spec DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#spec DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#annotations DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#annotations DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#labels DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#labels DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#name DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#name DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,7 +187,7 @@ export interface DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1ManifestSpecAmiSelecto
   /**
   * ID is the ami id in EC2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#id DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#id DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -196,19 +196,19 @@ export interface DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1ManifestSpecAmiSelecto
   /**
   * Name is the ami name in EC2. This value is the name field, which is different from the name tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#name DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#name DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Owner is the owner for the ami. You can specify a combination of AWS account IDs, 'self', 'amazon', and 'aws-marketplace'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#owner DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#owner DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#owner}
   */
   readonly owner?: string;
   /**
   * Tags is a map of key/value tags used to select subnets Specifying '*' for a value selects all values for a given tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#tags DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#tags DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -413,49 +413,49 @@ export interface DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1ManifestSpecBlockDevic
   /**
   * DeleteOnTermination indicates whether the EBS volume is deleted on instance termination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#delete_on_termination DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#delete_on_termination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#delete_on_termination DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#delete_on_termination}
   */
   readonly deleteOnTermination?: boolean | cdktf.IResolvable;
   /**
   * Encrypted indicates whether the EBS volume is encrypted. Encrypted volumes can only be attached to instances that support Amazon EBS encryption. If you are creating a volume from a snapshot, you can't specify an encryption value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#encrypted DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#encrypted DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#encrypted}
   */
   readonly encrypted?: boolean | cdktf.IResolvable;
   /**
   * IOPS is the number of I/O operations per second (IOPS). For gp3, io1, and io2 volumes, this represents the number of IOPS that are provisioned for the volume. For gp2 volumes, this represents the baseline performance of the volume and the rate at which the volume accumulates I/O credits for bursting. The following are the supported values for each volume type: * gp3: 3,000-16,000 IOPS * io1: 100-64,000 IOPS * io2: 100-64,000 IOPS For io1 and io2 volumes, we guarantee 64,000 IOPS only for Instances built on the Nitro System (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html#ec2-nitro-instances). Other instance families guarantee performance up to 32,000 IOPS. This parameter is supported for io1, io2, and gp3 volumes only. This parameter is not supported for gp2, st1, sc1, or standard volumes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#iops DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#iops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#iops DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#iops}
   */
   readonly iops?: number;
   /**
   * KMSKeyID (ARN) of the symmetric Key Management Service (KMS) CMK used for encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#kms_key_id DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#kms_key_id DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * SnapshotID is the ID of an EBS snapshot
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#snapshot_id DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#snapshot_id DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
   * Throughput to provision for a gp3 volume, with a maximum of 1,000 MiB/s. Valid Range: Minimum value of 125. Maximum value of 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#throughput DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#throughput}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#throughput DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#throughput}
   */
   readonly throughput?: number;
   /**
   * VolumeSize in 'Gi', 'G', 'Ti', or 'T'. You must specify either a snapshot ID or a volume size. The following are the supported volumes sizes for each volume type: * gp2 and gp3: 1-16,384 * io1 and io2: 4-16,384 * st1 and sc1: 125-16,384 * standard: 1-1,024
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#volume_size DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#volume_size DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#volume_size}
   */
   readonly volumeSize?: string;
   /**
   * VolumeType of the block device. For more information, see Amazon EBS volume types (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html) in the Amazon Elastic Compute Cloud User Guide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#volume_type DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#volume_type DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#volume_type}
   */
   readonly volumeType?: string;
 }
@@ -754,19 +754,19 @@ export interface DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1ManifestSpecBlockDevic
   /**
   * The device name (for example, /dev/sdh or xvdh).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#device_name DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#device_name DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#device_name}
   */
   readonly deviceName?: string;
   /**
   * EBS contains parameters used to automatically set up EBS volumes when an instance is launched.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#ebs DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#ebs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#ebs DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#ebs}
   */
   readonly ebs?: DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1ManifestSpecBlockDeviceMappingsEbs;
   /**
   * RootVolume is a flag indicating if this device is mounted as kubelet root dir. You can configure at most one root volume in BlockDeviceMappings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#root_volume DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#root_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#root_volume DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#root_volume}
   */
   readonly rootVolume?: boolean | cdktf.IResolvable;
 }
@@ -942,25 +942,25 @@ export interface DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1ManifestSpecMetadataOp
   /**
   * HTTPEndpoint enables or disables the HTTP metadata endpoint on provisioned nodes. If metadata options is non-nil, but this parameter is not specified, the default state is 'enabled'. If you specify a value of 'disabled', instance metadata will not be accessible on the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#http_endpoint DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#http_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#http_endpoint DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#http_endpoint}
   */
   readonly httpEndpoint?: string;
   /**
   * HTTPProtocolIPv6 enables or disables the IPv6 endpoint for the instance metadata service on provisioned nodes. If metadata options is non-nil, but this parameter is not specified, the default state is 'disabled'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#http_protocol_i_pv6 DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#http_protocol_i_pv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#http_protocol_i_pv6 DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#http_protocol_i_pv6}
   */
   readonly httpProtocolIPv6?: string;
   /**
   * HTTPPutResponseHopLimit is the desired HTTP PUT response hop limit for instance metadata requests. The larger the number, the further instance metadata requests can travel. Possible values are integers from 1 to 64. If metadata options is non-nil, but this parameter is not specified, the default value is 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#http_put_response_hop_limit DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#http_put_response_hop_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#http_put_response_hop_limit DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#http_put_response_hop_limit}
   */
   readonly httpPutResponseHopLimit?: number;
   /**
   * HTTPTokens determines the state of token usage for instance metadata requests. If metadata options is non-nil, but this parameter is not specified, the default state is 'required'. If the state is optional, one can choose to retrieve instance metadata with or without a signed token header on the request. If one retrieves the IAM role credentials without a token, the version 1.0 role credentials are returned. If one retrieves the IAM role credentials using a valid signed token, the version 2.0 role credentials are returned. If the state is 'required', one must send a signed token header with any instance metadata retrieval requests. In this state, retrieving the IAM role credentials always returns the version 2.0 credentials; the version 1.0 credentials are not available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#http_tokens DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#http_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#http_tokens DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#http_tokens}
   */
   readonly httpTokens?: string;
 }
@@ -1143,7 +1143,7 @@ export interface DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1ManifestSpecSecurityGr
   /**
   * ID is the security group id in EC2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#id DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#id DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1152,13 +1152,13 @@ export interface DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1ManifestSpecSecurityGr
   /**
   * Name is the security group name in EC2. This value is the name field, which is different from the name tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#name DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#name DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
   * Tags is a map of key/value tags used to select subnets Specifying '*' for a value selects all values for a given tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#tags DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#tags DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -1334,7 +1334,7 @@ export interface DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1ManifestSpecSubnetSele
   /**
   * ID is the subnet id in EC2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#id DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#id DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1343,7 +1343,7 @@ export interface DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1ManifestSpecSubnetSele
   /**
   * Tags is a map of key/value tags used to select subnets Specifying '*' for a value selects all values for a given tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#tags DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#tags DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -1490,85 +1490,85 @@ export interface DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1ManifestSpec {
   /**
   * AMIFamily is the AMI family that instances use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#ami_family DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#ami_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#ami_family DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#ami_family}
   */
   readonly amiFamily: string;
   /**
   * AMISelectorTerms is a list of or ami selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#ami_selector_terms DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#ami_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#ami_selector_terms DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#ami_selector_terms}
   */
   readonly amiSelectorTerms?: DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1ManifestSpecAmiSelectorTerms[] | cdktf.IResolvable;
   /**
   * AssociatePublicIPAddress controls if public IP addresses are assigned to instances that are launched with the nodeclass.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#associate_public_ip_address DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#associate_public_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#associate_public_ip_address DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#associate_public_ip_address}
   */
   readonly associatePublicIpAddress?: boolean | cdktf.IResolvable;
   /**
   * BlockDeviceMappings to be applied to provisioned nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#block_device_mappings DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#block_device_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#block_device_mappings DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#block_device_mappings}
   */
   readonly blockDeviceMappings?: DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1ManifestSpecBlockDeviceMappings[] | cdktf.IResolvable;
   /**
   * Context is a Reserved field in EC2 APIs https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_CreateFleet.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#context DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#context DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#context}
   */
   readonly context?: string;
   /**
   * DetailedMonitoring controls if detailed monitoring is enabled for instances that are launched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#detailed_monitoring DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#detailed_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#detailed_monitoring DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#detailed_monitoring}
   */
   readonly detailedMonitoring?: boolean | cdktf.IResolvable;
   /**
   * InstanceProfile is the AWS entity that instances use. This field is mutually exclusive from role. The instance profile should already have a role assigned to it that Karpenter has PassRole permission on for instance launch using this instanceProfile to succeed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#instance_profile DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#instance_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#instance_profile DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#instance_profile}
   */
   readonly instanceProfile?: string;
   /**
   * InstanceStorePolicy specifies how to handle instance-store disks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#instance_store_policy DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#instance_store_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#instance_store_policy DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#instance_store_policy}
   */
   readonly instanceStorePolicy?: string;
   /**
   * MetadataOptions for the generated launch template of provisioned nodes. This specifies the exposure of the Instance Metadata Service to provisioned EC2 nodes. For more information, see Instance Metadata and User Data (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) in the Amazon Elastic Compute Cloud User Guide. Refer to recommended, security best practices (https://aws.github.io/aws-eks-best-practices/security/docs/iam/#restrict-access-to-the-instance-profile-assigned-to-the-worker-node) for limiting exposure of Instance Metadata and User Data to pods. If omitted, defaults to httpEndpoint enabled, with httpProtocolIPv6 disabled, with httpPutResponseLimit of 1, and with httpTokens required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#metadata_options DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#metadata_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#metadata_options DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#metadata_options}
   */
   readonly metadataOptions?: DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1ManifestSpecMetadataOptions;
   /**
   * Role is the AWS identity that nodes use. This field is immutable. This field is mutually exclusive from instanceProfile. Marking this field as immutable avoids concerns around terminating managed instance profiles from running instances. This field may be made mutable in the future, assuming the correct garbage collection and drift handling is implemented for the old instance profiles on an update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#role DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#role DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#role}
   */
   readonly role?: string;
   /**
   * SecurityGroupSelectorTerms is a list of or security group selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#security_group_selector_terms DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#security_group_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#security_group_selector_terms DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#security_group_selector_terms}
   */
   readonly securityGroupSelectorTerms: DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1ManifestSpecSecurityGroupSelectorTerms[] | cdktf.IResolvable;
   /**
   * SubnetSelectorTerms is a list of or subnet selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#subnet_selector_terms DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#subnet_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#subnet_selector_terms DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#subnet_selector_terms}
   */
   readonly subnetSelectorTerms: DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1ManifestSpecSubnetSelectorTerms[] | cdktf.IResolvable;
   /**
   * Tags to be applied on ec2 resources like instances and launch templates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#tags DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#tags DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * UserData to be applied to the provisioned nodes. It must be in the appropriate format based on the AMIFamily in use. Karpenter will merge certain fields into this UserData to ensure nodes are being provisioned with the correct configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#user_data DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#user_data DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest#user_data}
   */
   readonly userData?: string;
 }
@@ -2030,7 +2030,7 @@ export class DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest k8s_karpenter_k8s_aws_ec2_node_class_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest k8s_karpenter_k8s_aws_ec2_node_class_v1beta1_manifest}
 */
 export class DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -2046,7 +2046,7 @@ export class DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2058,7 +2058,7 @@ export class DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest k8s_karpenter_k8s_aws_ec2_node_class_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/karpenter_k8s_aws_ec2_node_class_v1beta1_manifest k8s_karpenter_k8s_aws_ec2_node_class_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2069,8 +2069,8 @@ export class DataK8SKarpenterK8SAwsEc2NodeClassV1Beta1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_karpenter_k8s_aws_ec2_node_class_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

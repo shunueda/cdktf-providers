@@ -83,19 +83,19 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecProjectedVolumeTemp
   /**
   * key is the key to project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#key DataK8SPostgresqlCnpgIoClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#key DataK8SPostgresqlCnpgIoClusterV1Manifest#key}
   */
   readonly key: string;
   /**
   * mode is Optional: mode bits used to set permissions on this file. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. If not specified, the volume defaultMode will be used. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#mode DataK8SPostgresqlCnpgIoClusterV1Manifest#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#mode DataK8SPostgresqlCnpgIoClusterV1Manifest#mode}
   */
   readonly mode?: number;
   /**
   * path is the relative path of the file to map the key to. May not be an absolute path. May not contain the path element '..'. May not start with the string '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#path DataK8SPostgresqlCnpgIoClusterV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#path DataK8SPostgresqlCnpgIoClusterV1Manifest#path}
   */
   readonly path: string;
 }
@@ -265,19 +265,19 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecProjectedVolumeTemp
   /**
   * items if unspecified, each key-value pair in the Data field of the referenced Secret will be projected into the volume as a file whose name is the key and content is the value. If specified, the listed keys will be projected into the specified paths, and unlisted keys will not be present. If a key is specified which is not present in the Secret, the volume setup will error unless it is marked optional. Paths must be relative and may not contain the '..' path or start with '..'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#items DataK8SPostgresqlCnpgIoClusterV1Manifest#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#items DataK8SPostgresqlCnpgIoClusterV1Manifest#items}
   */
   readonly items?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecProjectedVolumeTemplateSourcesSecretItems[] | cdktf.IResolvable;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#name DataK8SPostgresqlCnpgIoClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#name DataK8SPostgresqlCnpgIoClusterV1Manifest#name}
   */
   readonly name?: string;
   /**
   * optional field specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#optional DataK8SPostgresqlCnpgIoClusterV1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#optional DataK8SPostgresqlCnpgIoClusterV1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -431,19 +431,19 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecProjectedVolumeTemp
   /**
   * audience is the intended audience of the token. A recipient of a token must identify itself with an identifier specified in the audience of the token, and otherwise should reject the token. The audience defaults to the identifier of the apiserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#audience DataK8SPostgresqlCnpgIoClusterV1Manifest#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#audience DataK8SPostgresqlCnpgIoClusterV1Manifest#audience}
   */
   readonly audience?: string;
   /**
   * expirationSeconds is the requested duration of validity of the service account token. As the token approaches expiration, the kubelet volume plugin will proactively rotate the service account token. The kubelet will start trying to rotate the token if the token is older than 80 percent of its time to live or if the token is older than 24 hours.Defaults to 1 hour and must be at least 10 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#expiration_seconds DataK8SPostgresqlCnpgIoClusterV1Manifest#expiration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#expiration_seconds DataK8SPostgresqlCnpgIoClusterV1Manifest#expiration_seconds}
   */
   readonly expirationSeconds?: number;
   /**
   * path is the path relative to the mount point of the file to project the token into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#path DataK8SPostgresqlCnpgIoClusterV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#path DataK8SPostgresqlCnpgIoClusterV1Manifest#path}
   */
   readonly path: string;
 }
@@ -594,31 +594,31 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecProjectedVolumeTemp
   /**
   * ClusterTrustBundle allows a pod to access the '.spec.trustBundle' field of ClusterTrustBundle objects in an auto-updating file. Alpha, gated by the ClusterTrustBundleProjection feature gate. ClusterTrustBundle objects can either be selected by name, or by the combination of signer name and a label selector. Kubelet performs aggressive normalization of the PEM contents written into the pod filesystem. Esoteric PEM features such as inter-block comments and block headers are stripped. Certificates are deduplicated. The ordering of certificates within the file is arbitrary, and Kubelet may change the order over time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#cluster_trust_bundle DataK8SPostgresqlCnpgIoClusterV1Manifest#cluster_trust_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#cluster_trust_bundle DataK8SPostgresqlCnpgIoClusterV1Manifest#cluster_trust_bundle}
   */
   readonly clusterTrustBundle?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecProjectedVolumeTemplateSourcesClusterTrustBundle;
   /**
   * configMap information about the configMap data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#config_map DataK8SPostgresqlCnpgIoClusterV1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#config_map DataK8SPostgresqlCnpgIoClusterV1Manifest#config_map}
   */
   readonly configMap?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecProjectedVolumeTemplateSourcesConfigMap;
   /**
   * downwardAPI information about the downwardAPI data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#downward_api DataK8SPostgresqlCnpgIoClusterV1Manifest#downward_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#downward_api DataK8SPostgresqlCnpgIoClusterV1Manifest#downward_api}
   */
   readonly downwardApi?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecProjectedVolumeTemplateSourcesDownwardApi;
   /**
   * secret information about the secret data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#secret DataK8SPostgresqlCnpgIoClusterV1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#secret DataK8SPostgresqlCnpgIoClusterV1Manifest#secret}
   */
   readonly secret?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecProjectedVolumeTemplateSourcesSecret;
   /**
   * serviceAccountToken is information about the serviceAccountToken data to project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#service_account_token DataK8SPostgresqlCnpgIoClusterV1Manifest#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#service_account_token DataK8SPostgresqlCnpgIoClusterV1Manifest#service_account_token}
   */
   readonly serviceAccountToken?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecProjectedVolumeTemplateSourcesServiceAccountToken;
 }
@@ -852,13 +852,13 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecProjectedVolumeTemp
   /**
   * defaultMode are the mode bits used to set permissions on created files by default. Must be an octal value between 0000 and 0777 or a decimal value between 0 and 511. YAML accepts both octal and decimal values, JSON requires decimal values for mode bits. Directories within the path are not affected by this setting. This might be in conflict with other options that affect the file mode, like fsGroup, and the result can be other mode bits set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#default_mode DataK8SPostgresqlCnpgIoClusterV1Manifest#default_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#default_mode DataK8SPostgresqlCnpgIoClusterV1Manifest#default_mode}
   */
   readonly defaultMode?: number;
   /**
   * sources is the list of volume projections. Each entry in this list handles one source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#sources DataK8SPostgresqlCnpgIoClusterV1Manifest#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#sources DataK8SPostgresqlCnpgIoClusterV1Manifest#sources}
   */
   readonly sources?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecProjectedVolumeTemplateSources[] | cdktf.IResolvable;
 }
@@ -983,37 +983,37 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecReplica {
   /**
   * If replica mode is enabled, this cluster will be a replica of an existing cluster. Replica cluster can be created from a recovery object store or via streaming through pg_basebackup. Refer to the Replica clusters page of the documentation for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#enabled DataK8SPostgresqlCnpgIoClusterV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#enabled DataK8SPostgresqlCnpgIoClusterV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * When replica mode is enabled, this parameter allows you to replay transactions only when the system time is at least the configured time past the commit time. This provides an opportunity to correct data loss errors. Note that when this parameter is set, a promotion token cannot be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#min_apply_delay DataK8SPostgresqlCnpgIoClusterV1Manifest#min_apply_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#min_apply_delay DataK8SPostgresqlCnpgIoClusterV1Manifest#min_apply_delay}
   */
   readonly minApplyDelay?: string;
   /**
   * Primary defines which Cluster is defined to be the primary in the distributed PostgreSQL cluster, based on the topology specified in externalClusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#primary DataK8SPostgresqlCnpgIoClusterV1Manifest#primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#primary DataK8SPostgresqlCnpgIoClusterV1Manifest#primary}
   */
   readonly primary?: string;
   /**
   * A demotion token generated by an external cluster used to check if the promotion requirements are met.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#promotion_token DataK8SPostgresqlCnpgIoClusterV1Manifest#promotion_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#promotion_token DataK8SPostgresqlCnpgIoClusterV1Manifest#promotion_token}
   */
   readonly promotionToken?: string;
   /**
   * Self defines the name of this cluster. It is used to determine if this is a primary or a replica cluster, comparing it with 'primary'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#self DataK8SPostgresqlCnpgIoClusterV1Manifest#self}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#self DataK8SPostgresqlCnpgIoClusterV1Manifest#self}
   */
   readonly selfAttribute?: string;
   /**
   * The name of the external cluster which is the replication origin
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#source DataK8SPostgresqlCnpgIoClusterV1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#source DataK8SPostgresqlCnpgIoClusterV1Manifest#source}
   */
   readonly source: string;
 }
@@ -1251,13 +1251,13 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecReplicationSlotsHig
   /**
   * If enabled (default), the operator will automatically manage replication slots on the primary instance and use them in streaming replication connections with all the standby instances that are part of the HA cluster. If disabled, the operator will not take advantage of replication slots in streaming connections with the replicas. This feature also controls replication slots in replica cluster, from the designated primary to its cascading replicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#enabled DataK8SPostgresqlCnpgIoClusterV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#enabled DataK8SPostgresqlCnpgIoClusterV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Prefix for replication slots managed by the operator for HA. It may only contain lower case letters, numbers, and the underscore character. This can only be set at creation time. By default set to '_cnpg_'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#slot_prefix DataK8SPostgresqlCnpgIoClusterV1Manifest#slot_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#slot_prefix DataK8SPostgresqlCnpgIoClusterV1Manifest#slot_prefix}
   */
   readonly slotPrefix?: string;
 }
@@ -1382,13 +1382,13 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecReplicationSlotsSyn
   /**
   * When set to true, every replication slot that is on the primary is synchronized on each standby
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#enabled DataK8SPostgresqlCnpgIoClusterV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#enabled DataK8SPostgresqlCnpgIoClusterV1Manifest#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * List of regular expression patterns to match the names of replication slots to be excluded (by default empty)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#exclude_patterns DataK8SPostgresqlCnpgIoClusterV1Manifest#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#exclude_patterns DataK8SPostgresqlCnpgIoClusterV1Manifest#exclude_patterns}
   */
   readonly excludePatterns?: string[];
 }
@@ -1510,19 +1510,19 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecReplicationSlots {
   /**
   * Replication slots for high availability configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#high_availability DataK8SPostgresqlCnpgIoClusterV1Manifest#high_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#high_availability DataK8SPostgresqlCnpgIoClusterV1Manifest#high_availability}
   */
   readonly highAvailability?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecReplicationSlotsHighAvailability;
   /**
   * Configures the synchronization of the user defined physical replication slots
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#synchronize_replicas DataK8SPostgresqlCnpgIoClusterV1Manifest#synchronize_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#synchronize_replicas DataK8SPostgresqlCnpgIoClusterV1Manifest#synchronize_replicas}
   */
   readonly synchronizeReplicas?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecReplicationSlotsSynchronizeReplicas;
   /**
   * Standby will update the status of the local replication slots every 'updateInterval' seconds (default 30).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#update_interval DataK8SPostgresqlCnpgIoClusterV1Manifest#update_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#update_interval DataK8SPostgresqlCnpgIoClusterV1Manifest#update_interval}
   */
   readonly updateInterval?: number;
 }
@@ -1676,13 +1676,13 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecResourcesClaims {
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#name DataK8SPostgresqlCnpgIoClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#name DataK8SPostgresqlCnpgIoClusterV1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#request DataK8SPostgresqlCnpgIoClusterV1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#request DataK8SPostgresqlCnpgIoClusterV1Manifest#request}
   */
   readonly request?: string;
 }
@@ -1826,19 +1826,19 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecResources {
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#claims DataK8SPostgresqlCnpgIoClusterV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#claims DataK8SPostgresqlCnpgIoClusterV1Manifest#claims}
   */
   readonly claims?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#limits DataK8SPostgresqlCnpgIoClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#limits DataK8SPostgresqlCnpgIoClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#requests DataK8SPostgresqlCnpgIoClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#requests DataK8SPostgresqlCnpgIoClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1992,13 +1992,13 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecSeccompProfile {
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#localhost_profile DataK8SPostgresqlCnpgIoClusterV1Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#localhost_profile DataK8SPostgresqlCnpgIoClusterV1Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#type DataK8SPostgresqlCnpgIoClusterV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#type DataK8SPostgresqlCnpgIoClusterV1Manifest#type}
   */
   readonly type: string;
 }
@@ -2120,19 +2120,19 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecServiceAccountTempl
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#annotations DataK8SPostgresqlCnpgIoClusterV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#annotations DataK8SPostgresqlCnpgIoClusterV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#labels DataK8SPostgresqlCnpgIoClusterV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#labels DataK8SPostgresqlCnpgIoClusterV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The name of the resource. Only supported for certain types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#name DataK8SPostgresqlCnpgIoClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#name DataK8SPostgresqlCnpgIoClusterV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -2286,7 +2286,7 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecServiceAccountTempl
   /**
   * Metadata are the metadata to be used for the generated service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#metadata DataK8SPostgresqlCnpgIoClusterV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#metadata DataK8SPostgresqlCnpgIoClusterV1Manifest#metadata}
   */
   readonly metadata: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecServiceAccountTemplateMetadata;
 }
@@ -2379,19 +2379,19 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecStoragePvcTemplateD
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#api_group DataK8SPostgresqlCnpgIoClusterV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#api_group DataK8SPostgresqlCnpgIoClusterV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#kind DataK8SPostgresqlCnpgIoClusterV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#kind DataK8SPostgresqlCnpgIoClusterV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#name DataK8SPostgresqlCnpgIoClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#name DataK8SPostgresqlCnpgIoClusterV1Manifest#name}
   */
   readonly name: string;
 }
@@ -2539,25 +2539,25 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecStoragePvcTemplateD
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#api_group DataK8SPostgresqlCnpgIoClusterV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#api_group DataK8SPostgresqlCnpgIoClusterV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#kind DataK8SPostgresqlCnpgIoClusterV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#kind DataK8SPostgresqlCnpgIoClusterV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#name DataK8SPostgresqlCnpgIoClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#name DataK8SPostgresqlCnpgIoClusterV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#namespace DataK8SPostgresqlCnpgIoClusterV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#namespace DataK8SPostgresqlCnpgIoClusterV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -2734,13 +2734,13 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecStoragePvcTemplateR
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#limits DataK8SPostgresqlCnpgIoClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#limits DataK8SPostgresqlCnpgIoClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#requests DataK8SPostgresqlCnpgIoClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#requests DataK8SPostgresqlCnpgIoClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2865,19 +2865,19 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecStoragePvcTemplateS
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#key DataK8SPostgresqlCnpgIoClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#key DataK8SPostgresqlCnpgIoClusterV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#operator DataK8SPostgresqlCnpgIoClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#operator DataK8SPostgresqlCnpgIoClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#values DataK8SPostgresqlCnpgIoClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#values DataK8SPostgresqlCnpgIoClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -3047,13 +3047,13 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecStoragePvcTemplateS
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#match_expressions DataK8SPostgresqlCnpgIoClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#match_expressions DataK8SPostgresqlCnpgIoClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecStoragePvcTemplateSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#match_labels DataK8SPostgresqlCnpgIoClusterV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#match_labels DataK8SPostgresqlCnpgIoClusterV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -3178,55 +3178,55 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecStoragePvcTemplate 
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#access_modes DataK8SPostgresqlCnpgIoClusterV1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#access_modes DataK8SPostgresqlCnpgIoClusterV1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#data_source DataK8SPostgresqlCnpgIoClusterV1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#data_source DataK8SPostgresqlCnpgIoClusterV1Manifest#data_source}
   */
   readonly dataSource?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecStoragePvcTemplateDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#data_source_ref DataK8SPostgresqlCnpgIoClusterV1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#data_source_ref DataK8SPostgresqlCnpgIoClusterV1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecStoragePvcTemplateDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#resources DataK8SPostgresqlCnpgIoClusterV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#resources DataK8SPostgresqlCnpgIoClusterV1Manifest#resources}
   */
   readonly resources?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecStoragePvcTemplateResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#selector DataK8SPostgresqlCnpgIoClusterV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#selector DataK8SPostgresqlCnpgIoClusterV1Manifest#selector}
   */
   readonly selector?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecStoragePvcTemplateSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#storage_class_name DataK8SPostgresqlCnpgIoClusterV1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#storage_class_name DataK8SPostgresqlCnpgIoClusterV1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeAttributesClassName may be used to set the VolumeAttributesClass used by this claim. If specified, the CSI driver will create or update the volume with the attributes defined in the corresponding VolumeAttributesClass. This has a different purpose than storageClassName, it can be changed after the claim is created. An empty string value means that no VolumeAttributesClass will be applied to the claim but it's not allowed to reset this field to empty string once it is set. If unspecified and the PersistentVolumeClaim is unbound, the default VolumeAttributesClass will be set by the persistentvolume controller if it exists. If the resource referred to by volumeAttributesClass does not exist, this PersistentVolumeClaim will be set to a Pending state, as reflected by the modifyVolumeStatus field, until such as a resource exists. More info: https://kubernetes.io/docs/concepts/storage/volume-attributes-classes/ (Beta) Using this field requires the VolumeAttributesClass feature gate to be enabled (off by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#volume_attributes_class_name DataK8SPostgresqlCnpgIoClusterV1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#volume_attributes_class_name DataK8SPostgresqlCnpgIoClusterV1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#volume_mode DataK8SPostgresqlCnpgIoClusterV1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#volume_mode DataK8SPostgresqlCnpgIoClusterV1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#volume_name DataK8SPostgresqlCnpgIoClusterV1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#volume_name DataK8SPostgresqlCnpgIoClusterV1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -3554,25 +3554,25 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecStorage {
   /**
   * Template to be used to generate the Persistent Volume Claim
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#pvc_template DataK8SPostgresqlCnpgIoClusterV1Manifest#pvc_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#pvc_template DataK8SPostgresqlCnpgIoClusterV1Manifest#pvc_template}
   */
   readonly pvcTemplate?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecStoragePvcTemplate;
   /**
   * Resize existent PVCs, defaults to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#resize_in_use_volumes DataK8SPostgresqlCnpgIoClusterV1Manifest#resize_in_use_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#resize_in_use_volumes DataK8SPostgresqlCnpgIoClusterV1Manifest#resize_in_use_volumes}
   */
   readonly resizeInUseVolumes?: boolean | cdktf.IResolvable;
   /**
   * Size of the storage. Required if not already specified in the PVC template. Changes to this field are automatically reapplied to the created PVCs. Size cannot be decreased.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#size DataK8SPostgresqlCnpgIoClusterV1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#size DataK8SPostgresqlCnpgIoClusterV1Manifest#size}
   */
   readonly size?: string;
   /**
   * StorageClass to use for PVCs. Applied after evaluating the PVC template, if available. If not specified, the generated PVCs will use the default storage class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#storage_class DataK8SPostgresqlCnpgIoClusterV1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#storage_class DataK8SPostgresqlCnpgIoClusterV1Manifest#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -3755,7 +3755,7 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecSuperuserSecret {
   /**
   * Name of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#name DataK8SPostgresqlCnpgIoClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#name DataK8SPostgresqlCnpgIoClusterV1Manifest#name}
   */
   readonly name: string;
 }
@@ -3846,7 +3846,7 @@ export class DataK8SPostgresqlCnpgIoClusterV1ManifestSpecSuperuserSecretOutputRe
 }
 export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecTablespacesOwner {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#name DataK8SPostgresqlCnpgIoClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#name DataK8SPostgresqlCnpgIoClusterV1Manifest#name}
   */
   readonly name?: string;
 }
@@ -3942,19 +3942,19 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecTablespacesStorageP
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#api_group DataK8SPostgresqlCnpgIoClusterV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#api_group DataK8SPostgresqlCnpgIoClusterV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#kind DataK8SPostgresqlCnpgIoClusterV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#kind DataK8SPostgresqlCnpgIoClusterV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#name DataK8SPostgresqlCnpgIoClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#name DataK8SPostgresqlCnpgIoClusterV1Manifest#name}
   */
   readonly name: string;
 }
@@ -4102,25 +4102,25 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecTablespacesStorageP
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#api_group DataK8SPostgresqlCnpgIoClusterV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#api_group DataK8SPostgresqlCnpgIoClusterV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#kind DataK8SPostgresqlCnpgIoClusterV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#kind DataK8SPostgresqlCnpgIoClusterV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#name DataK8SPostgresqlCnpgIoClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#name DataK8SPostgresqlCnpgIoClusterV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#namespace DataK8SPostgresqlCnpgIoClusterV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#namespace DataK8SPostgresqlCnpgIoClusterV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -4297,13 +4297,13 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecTablespacesStorageP
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#limits DataK8SPostgresqlCnpgIoClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#limits DataK8SPostgresqlCnpgIoClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#requests DataK8SPostgresqlCnpgIoClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#requests DataK8SPostgresqlCnpgIoClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -4428,19 +4428,19 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecTablespacesStorageP
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#key DataK8SPostgresqlCnpgIoClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#key DataK8SPostgresqlCnpgIoClusterV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#operator DataK8SPostgresqlCnpgIoClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#operator DataK8SPostgresqlCnpgIoClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#values DataK8SPostgresqlCnpgIoClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#values DataK8SPostgresqlCnpgIoClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4610,13 +4610,13 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecTablespacesStorageP
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#match_expressions DataK8SPostgresqlCnpgIoClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#match_expressions DataK8SPostgresqlCnpgIoClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecTablespacesStoragePvcTemplateSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#match_labels DataK8SPostgresqlCnpgIoClusterV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#match_labels DataK8SPostgresqlCnpgIoClusterV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -4741,55 +4741,55 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecTablespacesStorageP
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#access_modes DataK8SPostgresqlCnpgIoClusterV1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#access_modes DataK8SPostgresqlCnpgIoClusterV1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#data_source DataK8SPostgresqlCnpgIoClusterV1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#data_source DataK8SPostgresqlCnpgIoClusterV1Manifest#data_source}
   */
   readonly dataSource?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecTablespacesStoragePvcTemplateDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#data_source_ref DataK8SPostgresqlCnpgIoClusterV1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#data_source_ref DataK8SPostgresqlCnpgIoClusterV1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecTablespacesStoragePvcTemplateDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#resources DataK8SPostgresqlCnpgIoClusterV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#resources DataK8SPostgresqlCnpgIoClusterV1Manifest#resources}
   */
   readonly resources?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecTablespacesStoragePvcTemplateResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#selector DataK8SPostgresqlCnpgIoClusterV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#selector DataK8SPostgresqlCnpgIoClusterV1Manifest#selector}
   */
   readonly selector?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecTablespacesStoragePvcTemplateSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#storage_class_name DataK8SPostgresqlCnpgIoClusterV1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#storage_class_name DataK8SPostgresqlCnpgIoClusterV1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeAttributesClassName may be used to set the VolumeAttributesClass used by this claim. If specified, the CSI driver will create or update the volume with the attributes defined in the corresponding VolumeAttributesClass. This has a different purpose than storageClassName, it can be changed after the claim is created. An empty string value means that no VolumeAttributesClass will be applied to the claim but it's not allowed to reset this field to empty string once it is set. If unspecified and the PersistentVolumeClaim is unbound, the default VolumeAttributesClass will be set by the persistentvolume controller if it exists. If the resource referred to by volumeAttributesClass does not exist, this PersistentVolumeClaim will be set to a Pending state, as reflected by the modifyVolumeStatus field, until such as a resource exists. More info: https://kubernetes.io/docs/concepts/storage/volume-attributes-classes/ (Beta) Using this field requires the VolumeAttributesClass feature gate to be enabled (off by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#volume_attributes_class_name DataK8SPostgresqlCnpgIoClusterV1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#volume_attributes_class_name DataK8SPostgresqlCnpgIoClusterV1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#volume_mode DataK8SPostgresqlCnpgIoClusterV1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#volume_mode DataK8SPostgresqlCnpgIoClusterV1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#volume_name DataK8SPostgresqlCnpgIoClusterV1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#volume_name DataK8SPostgresqlCnpgIoClusterV1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -5117,25 +5117,25 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecTablespacesStorage 
   /**
   * Template to be used to generate the Persistent Volume Claim
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#pvc_template DataK8SPostgresqlCnpgIoClusterV1Manifest#pvc_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#pvc_template DataK8SPostgresqlCnpgIoClusterV1Manifest#pvc_template}
   */
   readonly pvcTemplate?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecTablespacesStoragePvcTemplate;
   /**
   * Resize existent PVCs, defaults to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#resize_in_use_volumes DataK8SPostgresqlCnpgIoClusterV1Manifest#resize_in_use_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#resize_in_use_volumes DataK8SPostgresqlCnpgIoClusterV1Manifest#resize_in_use_volumes}
   */
   readonly resizeInUseVolumes?: boolean | cdktf.IResolvable;
   /**
   * Size of the storage. Required if not already specified in the PVC template. Changes to this field are automatically reapplied to the created PVCs. Size cannot be decreased.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#size DataK8SPostgresqlCnpgIoClusterV1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#size DataK8SPostgresqlCnpgIoClusterV1Manifest#size}
   */
   readonly size?: string;
   /**
   * StorageClass to use for PVCs. Applied after evaluating the PVC template, if available. If not specified, the generated PVCs will use the default storage class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#storage_class DataK8SPostgresqlCnpgIoClusterV1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#storage_class DataK8SPostgresqlCnpgIoClusterV1Manifest#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -5318,25 +5318,25 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecTablespaces {
   /**
   * The name of the tablespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#name DataK8SPostgresqlCnpgIoClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#name DataK8SPostgresqlCnpgIoClusterV1Manifest#name}
   */
   readonly name: string;
   /**
   * Owner is the PostgreSQL user owning the tablespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#owner DataK8SPostgresqlCnpgIoClusterV1Manifest#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#owner DataK8SPostgresqlCnpgIoClusterV1Manifest#owner}
   */
   readonly owner?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecTablespacesOwner;
   /**
   * The storage configuration for the tablespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#storage DataK8SPostgresqlCnpgIoClusterV1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#storage DataK8SPostgresqlCnpgIoClusterV1Manifest#storage}
   */
   readonly storage: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecTablespacesStorage;
   /**
   * When set to true, the tablespace will be added as a 'temp_tablespaces' entry in PostgreSQL, and will be available to automatically house temp database objects, or other temporary files. Please refer to PostgreSQL documentation for more information on the 'temp_tablespaces' GUC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#temporary DataK8SPostgresqlCnpgIoClusterV1Manifest#temporary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#temporary DataK8SPostgresqlCnpgIoClusterV1Manifest#temporary}
   */
   readonly temporary?: boolean | cdktf.IResolvable;
 }
@@ -5535,19 +5535,19 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecTopologySpreadConst
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#key DataK8SPostgresqlCnpgIoClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#key DataK8SPostgresqlCnpgIoClusterV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#operator DataK8SPostgresqlCnpgIoClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#operator DataK8SPostgresqlCnpgIoClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#values DataK8SPostgresqlCnpgIoClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#values DataK8SPostgresqlCnpgIoClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5717,13 +5717,13 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecTopologySpreadConst
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#match_expressions DataK8SPostgresqlCnpgIoClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#match_expressions DataK8SPostgresqlCnpgIoClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#match_labels DataK8SPostgresqlCnpgIoClusterV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#match_labels DataK8SPostgresqlCnpgIoClusterV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -5848,49 +5848,49 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecTopologySpreadConst
   /**
   * LabelSelector is used to find matching pods. Pods that match this label selector are counted to determine the number of pods in their corresponding topology domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#label_selector DataK8SPostgresqlCnpgIoClusterV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#label_selector DataK8SPostgresqlCnpgIoClusterV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecTopologySpreadConstraintsLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select the pods over which spreading will be calculated. The keys are used to lookup values from the incoming pod labels, those key-value labels are ANDed with labelSelector to select the group of existing pods over which spreading will be calculated for the incoming pod. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. MatchLabelKeys cannot be set when LabelSelector isn't set. Keys that don't exist in the incoming pod labels will be ignored. A null or empty list means only match against labelSelector. This is a beta field and requires the MatchLabelKeysInPodTopologySpread feature gate to be enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#match_label_keys DataK8SPostgresqlCnpgIoClusterV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#match_label_keys DataK8SPostgresqlCnpgIoClusterV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MaxSkew describes the degree to which pods may be unevenly distributed. When 'whenUnsatisfiable=DoNotSchedule', it is the maximum permitted difference between the number of matching pods in the target topology and the global minimum. The global minimum is the minimum number of matching pods in an eligible domain or zero if the number of eligible domains is less than MinDomains. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 2/2/1: In this case, the global minimum is 1. | zone1 | zone2 | zone3 | | P P | P P | P | - if MaxSkew is 1, incoming pod can only be scheduled to zone3 to become 2/2/2; scheduling it onto zone1(zone2) would make the ActualSkew(3-1) on zone1(zone2) violate MaxSkew(1). - if MaxSkew is 2, incoming pod can be scheduled onto any zone. When 'whenUnsatisfiable=ScheduleAnyway', it is used to give higher precedence to topologies that satisfy it. It's a required field. Default value is 1 and 0 is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#max_skew DataK8SPostgresqlCnpgIoClusterV1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#max_skew DataK8SPostgresqlCnpgIoClusterV1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
   * MinDomains indicates a minimum number of eligible domains. When the number of eligible domains with matching topology keys is less than minDomains, Pod Topology Spread treats 'global minimum' as 0, and then the calculation of Skew is performed. And when the number of eligible domains with matching topology keys equals or greater than minDomains, this value has no effect on scheduling. As a result, when the number of eligible domains is less than minDomains, scheduler won't schedule more than maxSkew Pods to those domains. If value is nil, the constraint behaves as if MinDomains is equal to 1. Valid values are integers greater than 0. When value is not nil, WhenUnsatisfiable must be DoNotSchedule. For example, in a 3-zone cluster, MaxSkew is set to 2, MinDomains is set to 5 and pods with the same labelSelector spread as 2/2/2: | zone1 | zone2 | zone3 | | P P | P P | P P | The number of domains is less than 5(MinDomains), so 'global minimum' is treated as 0. In this situation, new pod with the same labelSelector cannot be scheduled, because computed skew will be 3(3 - 0) if new Pod is scheduled to any of the three zones, it will violate MaxSkew.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#min_domains DataK8SPostgresqlCnpgIoClusterV1Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#min_domains DataK8SPostgresqlCnpgIoClusterV1Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
   * NodeAffinityPolicy indicates how we will treat Pod's nodeAffinity/nodeSelector when calculating pod topology spread skew. Options are: - Honor: only nodes matching nodeAffinity/nodeSelector are included in the calculations. - Ignore: nodeAffinity/nodeSelector are ignored. All nodes are included in the calculations. If this value is nil, the behavior is equivalent to the Honor policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#node_affinity_policy DataK8SPostgresqlCnpgIoClusterV1Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#node_affinity_policy DataK8SPostgresqlCnpgIoClusterV1Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
   * NodeTaintsPolicy indicates how we will treat node taints when calculating pod topology spread skew. Options are: - Honor: nodes without taints, along with tainted nodes for which the incoming pod has a toleration, are included. - Ignore: node taints are ignored. All nodes are included. If this value is nil, the behavior is equivalent to the Ignore policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#node_taints_policy DataK8SPostgresqlCnpgIoClusterV1Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#node_taints_policy DataK8SPostgresqlCnpgIoClusterV1Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
   * TopologyKey is the key of node labels. Nodes that have a label with this key and identical values are considered to be in the same topology. We consider each <key, value> as a 'bucket', and try to put balanced number of pods into each bucket. We define a domain as a particular instance of a topology. Also, we define an eligible domain as a domain whose nodes meet the requirements of nodeAffinityPolicy and nodeTaintsPolicy. e.g. If TopologyKey is 'kubernetes.io/hostname', each Node is a domain of that topology. And, if TopologyKey is 'topology.kubernetes.io/zone', each zone is a domain of that topology. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#topology_key DataK8SPostgresqlCnpgIoClusterV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#topology_key DataK8SPostgresqlCnpgIoClusterV1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
   * WhenUnsatisfiable indicates how to deal with a pod if it doesn't satisfy the spread constraint. - DoNotSchedule (default) tells the scheduler not to schedule it. - ScheduleAnyway tells the scheduler to schedule the pod in any location, but giving higher precedence to topologies that would help reduce the skew. A constraint is considered 'Unsatisfiable' for an incoming pod if and only if every possible node assignment for that pod would violate 'MaxSkew' on some topology. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 3/1/1: | zone1 | zone2 | zone3 | | P P P | P | P | If WhenUnsatisfiable is set to DoNotSchedule, incoming pod can only be scheduled to zone2(zone3) to become 3/2/1(3/1/2) as ActualSkew(2-1) on zone2(zone3) satisfies MaxSkew(1). In other words, the cluster can still be imbalanced, but scheduler won't make it *more* imbalanced. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#when_unsatisfiable DataK8SPostgresqlCnpgIoClusterV1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#when_unsatisfiable DataK8SPostgresqlCnpgIoClusterV1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -6202,19 +6202,19 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecWalStoragePvcTempla
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#api_group DataK8SPostgresqlCnpgIoClusterV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#api_group DataK8SPostgresqlCnpgIoClusterV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#kind DataK8SPostgresqlCnpgIoClusterV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#kind DataK8SPostgresqlCnpgIoClusterV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#name DataK8SPostgresqlCnpgIoClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#name DataK8SPostgresqlCnpgIoClusterV1Manifest#name}
   */
   readonly name: string;
 }
@@ -6362,25 +6362,25 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecWalStoragePvcTempla
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#api_group DataK8SPostgresqlCnpgIoClusterV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#api_group DataK8SPostgresqlCnpgIoClusterV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#kind DataK8SPostgresqlCnpgIoClusterV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#kind DataK8SPostgresqlCnpgIoClusterV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#name DataK8SPostgresqlCnpgIoClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#name DataK8SPostgresqlCnpgIoClusterV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#namespace DataK8SPostgresqlCnpgIoClusterV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#namespace DataK8SPostgresqlCnpgIoClusterV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -6557,13 +6557,13 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecWalStoragePvcTempla
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#limits DataK8SPostgresqlCnpgIoClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#limits DataK8SPostgresqlCnpgIoClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#requests DataK8SPostgresqlCnpgIoClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#requests DataK8SPostgresqlCnpgIoClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -6688,19 +6688,19 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecWalStoragePvcTempla
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#key DataK8SPostgresqlCnpgIoClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#key DataK8SPostgresqlCnpgIoClusterV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#operator DataK8SPostgresqlCnpgIoClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#operator DataK8SPostgresqlCnpgIoClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#values DataK8SPostgresqlCnpgIoClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#values DataK8SPostgresqlCnpgIoClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6870,13 +6870,13 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecWalStoragePvcTempla
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#match_expressions DataK8SPostgresqlCnpgIoClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#match_expressions DataK8SPostgresqlCnpgIoClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecWalStoragePvcTemplateSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#match_labels DataK8SPostgresqlCnpgIoClusterV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#match_labels DataK8SPostgresqlCnpgIoClusterV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -7001,55 +7001,55 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecWalStoragePvcTempla
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#access_modes DataK8SPostgresqlCnpgIoClusterV1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#access_modes DataK8SPostgresqlCnpgIoClusterV1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#data_source DataK8SPostgresqlCnpgIoClusterV1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#data_source DataK8SPostgresqlCnpgIoClusterV1Manifest#data_source}
   */
   readonly dataSource?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecWalStoragePvcTemplateDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#data_source_ref DataK8SPostgresqlCnpgIoClusterV1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#data_source_ref DataK8SPostgresqlCnpgIoClusterV1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecWalStoragePvcTemplateDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#resources DataK8SPostgresqlCnpgIoClusterV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#resources DataK8SPostgresqlCnpgIoClusterV1Manifest#resources}
   */
   readonly resources?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecWalStoragePvcTemplateResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#selector DataK8SPostgresqlCnpgIoClusterV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#selector DataK8SPostgresqlCnpgIoClusterV1Manifest#selector}
   */
   readonly selector?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecWalStoragePvcTemplateSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#storage_class_name DataK8SPostgresqlCnpgIoClusterV1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#storage_class_name DataK8SPostgresqlCnpgIoClusterV1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeAttributesClassName may be used to set the VolumeAttributesClass used by this claim. If specified, the CSI driver will create or update the volume with the attributes defined in the corresponding VolumeAttributesClass. This has a different purpose than storageClassName, it can be changed after the claim is created. An empty string value means that no VolumeAttributesClass will be applied to the claim but it's not allowed to reset this field to empty string once it is set. If unspecified and the PersistentVolumeClaim is unbound, the default VolumeAttributesClass will be set by the persistentvolume controller if it exists. If the resource referred to by volumeAttributesClass does not exist, this PersistentVolumeClaim will be set to a Pending state, as reflected by the modifyVolumeStatus field, until such as a resource exists. More info: https://kubernetes.io/docs/concepts/storage/volume-attributes-classes/ (Beta) Using this field requires the VolumeAttributesClass feature gate to be enabled (off by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#volume_attributes_class_name DataK8SPostgresqlCnpgIoClusterV1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#volume_attributes_class_name DataK8SPostgresqlCnpgIoClusterV1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#volume_mode DataK8SPostgresqlCnpgIoClusterV1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#volume_mode DataK8SPostgresqlCnpgIoClusterV1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#volume_name DataK8SPostgresqlCnpgIoClusterV1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#volume_name DataK8SPostgresqlCnpgIoClusterV1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -7377,25 +7377,25 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpecWalStorage {
   /**
   * Template to be used to generate the Persistent Volume Claim
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#pvc_template DataK8SPostgresqlCnpgIoClusterV1Manifest#pvc_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#pvc_template DataK8SPostgresqlCnpgIoClusterV1Manifest#pvc_template}
   */
   readonly pvcTemplate?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecWalStoragePvcTemplate;
   /**
   * Resize existent PVCs, defaults to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#resize_in_use_volumes DataK8SPostgresqlCnpgIoClusterV1Manifest#resize_in_use_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#resize_in_use_volumes DataK8SPostgresqlCnpgIoClusterV1Manifest#resize_in_use_volumes}
   */
   readonly resizeInUseVolumes?: boolean | cdktf.IResolvable;
   /**
   * Size of the storage. Required if not already specified in the PVC template. Changes to this field are automatically reapplied to the created PVCs. Size cannot be decreased.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#size DataK8SPostgresqlCnpgIoClusterV1Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#size DataK8SPostgresqlCnpgIoClusterV1Manifest#size}
   */
   readonly size?: string;
   /**
   * StorageClass to use for PVCs. Applied after evaluating the PVC template, if available. If not specified, the generated PVCs will use the default storage class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#storage_class DataK8SPostgresqlCnpgIoClusterV1Manifest#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#storage_class DataK8SPostgresqlCnpgIoClusterV1Manifest#storage_class}
   */
   readonly storageClass?: string;
 }
@@ -7578,295 +7578,295 @@ export interface DataK8SPostgresqlCnpgIoClusterV1ManifestSpec {
   /**
   * Affinity/Anti-affinity rules for Pods
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#affinity DataK8SPostgresqlCnpgIoClusterV1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#affinity DataK8SPostgresqlCnpgIoClusterV1Manifest#affinity}
   */
   readonly affinity?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecAffinity;
   /**
   * The configuration to be used for backups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#backup DataK8SPostgresqlCnpgIoClusterV1Manifest#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#backup DataK8SPostgresqlCnpgIoClusterV1Manifest#backup}
   */
   readonly backup?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecBackup;
   /**
   * Instructions to bootstrap this cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#bootstrap DataK8SPostgresqlCnpgIoClusterV1Manifest#bootstrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#bootstrap DataK8SPostgresqlCnpgIoClusterV1Manifest#bootstrap}
   */
   readonly bootstrap?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecBootstrap;
   /**
   * The configuration for the CA and related certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#certificates DataK8SPostgresqlCnpgIoClusterV1Manifest#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#certificates DataK8SPostgresqlCnpgIoClusterV1Manifest#certificates}
   */
   readonly certificates?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecCertificates;
   /**
   * Description of this PostgreSQL cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#description DataK8SPostgresqlCnpgIoClusterV1Manifest#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#description DataK8SPostgresqlCnpgIoClusterV1Manifest#description}
   */
   readonly description?: string;
   /**
   * Manage the 'PodDisruptionBudget' resources within the cluster. When configured as 'true' (default setting), the pod disruption budgets will safeguard the primary node from being terminated. Conversely, setting it to 'false' will result in the absence of any 'PodDisruptionBudget' resource, permitting the shutdown of all nodes hosting the PostgreSQL cluster. This latter configuration is advisable for any PostgreSQL cluster employed for development/staging purposes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#enable_pdb DataK8SPostgresqlCnpgIoClusterV1Manifest#enable_pdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#enable_pdb DataK8SPostgresqlCnpgIoClusterV1Manifest#enable_pdb}
   */
   readonly enablePdb?: boolean | cdktf.IResolvable;
   /**
   * When this option is enabled, the operator will use the 'SuperuserSecret' to update the 'postgres' user password (if the secret is not present, the operator will automatically create one). When this option is disabled, the operator will ignore the 'SuperuserSecret' content, delete it when automatically created, and then blank the password of the 'postgres' user by setting it to 'NULL'. Disabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#enable_superuser_access DataK8SPostgresqlCnpgIoClusterV1Manifest#enable_superuser_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#enable_superuser_access DataK8SPostgresqlCnpgIoClusterV1Manifest#enable_superuser_access}
   */
   readonly enableSuperuserAccess?: boolean | cdktf.IResolvable;
   /**
   * Env follows the Env format to pass environment variables to the pods created in the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#env DataK8SPostgresqlCnpgIoClusterV1Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#env DataK8SPostgresqlCnpgIoClusterV1Manifest#env}
   */
   readonly env?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecEnv[] | cdktf.IResolvable;
   /**
   * EnvFrom follows the EnvFrom format to pass environment variables sources to the pods to be used by Env
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#env_from DataK8SPostgresqlCnpgIoClusterV1Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#env_from DataK8SPostgresqlCnpgIoClusterV1Manifest#env_from}
   */
   readonly envFrom?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecEnvFrom[] | cdktf.IResolvable;
   /**
   * EphemeralVolumeSource allows the user to configure the source of ephemeral volumes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#ephemeral_volume_source DataK8SPostgresqlCnpgIoClusterV1Manifest#ephemeral_volume_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#ephemeral_volume_source DataK8SPostgresqlCnpgIoClusterV1Manifest#ephemeral_volume_source}
   */
   readonly ephemeralVolumeSource?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecEphemeralVolumeSource;
   /**
   * EphemeralVolumesSizeLimit allows the user to set the limits for the ephemeral volumes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#ephemeral_volumes_size_limit DataK8SPostgresqlCnpgIoClusterV1Manifest#ephemeral_volumes_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#ephemeral_volumes_size_limit DataK8SPostgresqlCnpgIoClusterV1Manifest#ephemeral_volumes_size_limit}
   */
   readonly ephemeralVolumesSizeLimit?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecEphemeralVolumesSizeLimit;
   /**
   * The list of external clusters which are used in the configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#external_clusters DataK8SPostgresqlCnpgIoClusterV1Manifest#external_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#external_clusters DataK8SPostgresqlCnpgIoClusterV1Manifest#external_clusters}
   */
   readonly externalClusters?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecExternalClusters[] | cdktf.IResolvable;
   /**
   * The amount of time (in seconds) to wait before triggering a failover after the primary PostgreSQL instance in the cluster was detected to be unhealthy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#failover_delay DataK8SPostgresqlCnpgIoClusterV1Manifest#failover_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#failover_delay DataK8SPostgresqlCnpgIoClusterV1Manifest#failover_delay}
   */
   readonly failoverDelay?: number;
   /**
   * Defines the major PostgreSQL version we want to use within an ImageCatalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#image_catalog_ref DataK8SPostgresqlCnpgIoClusterV1Manifest#image_catalog_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#image_catalog_ref DataK8SPostgresqlCnpgIoClusterV1Manifest#image_catalog_ref}
   */
   readonly imageCatalogRef?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecImageCatalogRef;
   /**
   * Name of the container image, supporting both tags ('<image>:<tag>') and digests for deterministic and repeatable deployments ('<image>:<tag>@sha256:<digestValue>')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#image_name DataK8SPostgresqlCnpgIoClusterV1Manifest#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#image_name DataK8SPostgresqlCnpgIoClusterV1Manifest#image_name}
   */
   readonly imageName?: string;
   /**
   * Image pull policy. One of 'Always', 'Never' or 'IfNotPresent'. If not defined, it defaults to 'IfNotPresent'. Cannot be updated. More info: https://kubernetes.io/docs/concepts/containers/images#updating-images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#image_pull_policy DataK8SPostgresqlCnpgIoClusterV1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#image_pull_policy DataK8SPostgresqlCnpgIoClusterV1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * The list of pull secrets to be used to pull the images
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#image_pull_secrets DataK8SPostgresqlCnpgIoClusterV1Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#image_pull_secrets DataK8SPostgresqlCnpgIoClusterV1Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Metadata that will be inherited by all objects related to the Cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#inherited_metadata DataK8SPostgresqlCnpgIoClusterV1Manifest#inherited_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#inherited_metadata DataK8SPostgresqlCnpgIoClusterV1Manifest#inherited_metadata}
   */
   readonly inheritedMetadata?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecInheritedMetadata;
   /**
   * Number of instances required in the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#instances DataK8SPostgresqlCnpgIoClusterV1Manifest#instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#instances DataK8SPostgresqlCnpgIoClusterV1Manifest#instances}
   */
   readonly instances: number;
   /**
   * LivenessProbeTimeout is the time (in seconds) that is allowed for a PostgreSQL instance to successfully respond to the liveness probe (default 30). The Liveness probe failure threshold is derived from this value using the formula: ceiling(livenessProbe / 10).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#liveness_probe_timeout DataK8SPostgresqlCnpgIoClusterV1Manifest#liveness_probe_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#liveness_probe_timeout DataK8SPostgresqlCnpgIoClusterV1Manifest#liveness_probe_timeout}
   */
   readonly livenessProbeTimeout?: number;
   /**
   * The instances' log level, one of the following values: error, warning, info (default), debug, trace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#log_level DataK8SPostgresqlCnpgIoClusterV1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#log_level DataK8SPostgresqlCnpgIoClusterV1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * The configuration that is used by the portions of PostgreSQL that are managed by the instance manager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#managed DataK8SPostgresqlCnpgIoClusterV1Manifest#managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#managed DataK8SPostgresqlCnpgIoClusterV1Manifest#managed}
   */
   readonly managed?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecManaged;
   /**
   * The target value for the synchronous replication quorum, that can be decreased if the number of ready standbys is lower than this. Undefined or 0 disable synchronous replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#max_sync_replicas DataK8SPostgresqlCnpgIoClusterV1Manifest#max_sync_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#max_sync_replicas DataK8SPostgresqlCnpgIoClusterV1Manifest#max_sync_replicas}
   */
   readonly maxSyncReplicas?: number;
   /**
   * Minimum number of instances required in synchronous replication with the primary. Undefined or 0 allow writes to complete when no standby is available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#min_sync_replicas DataK8SPostgresqlCnpgIoClusterV1Manifest#min_sync_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#min_sync_replicas DataK8SPostgresqlCnpgIoClusterV1Manifest#min_sync_replicas}
   */
   readonly minSyncReplicas?: number;
   /**
   * The configuration of the monitoring infrastructure of this cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#monitoring DataK8SPostgresqlCnpgIoClusterV1Manifest#monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#monitoring DataK8SPostgresqlCnpgIoClusterV1Manifest#monitoring}
   */
   readonly monitoring?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecMonitoring;
   /**
   * Define a maintenance window for the Kubernetes nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#node_maintenance_window DataK8SPostgresqlCnpgIoClusterV1Manifest#node_maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#node_maintenance_window DataK8SPostgresqlCnpgIoClusterV1Manifest#node_maintenance_window}
   */
   readonly nodeMaintenanceWindow?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecNodeMaintenanceWindow;
   /**
   * The plugins configuration, containing any plugin to be loaded with the corresponding configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#plugins DataK8SPostgresqlCnpgIoClusterV1Manifest#plugins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#plugins DataK8SPostgresqlCnpgIoClusterV1Manifest#plugins}
   */
   readonly plugins?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecPlugins[] | cdktf.IResolvable;
   /**
   * The GID of the 'postgres' user inside the image, defaults to '26'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#postgres_gid DataK8SPostgresqlCnpgIoClusterV1Manifest#postgres_gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#postgres_gid DataK8SPostgresqlCnpgIoClusterV1Manifest#postgres_gid}
   */
   readonly postgresGid?: number;
   /**
   * The UID of the 'postgres' user inside the image, defaults to '26'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#postgres_uid DataK8SPostgresqlCnpgIoClusterV1Manifest#postgres_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#postgres_uid DataK8SPostgresqlCnpgIoClusterV1Manifest#postgres_uid}
   */
   readonly postgresUid?: number;
   /**
   * Configuration of the PostgreSQL server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#postgresql DataK8SPostgresqlCnpgIoClusterV1Manifest#postgresql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#postgresql DataK8SPostgresqlCnpgIoClusterV1Manifest#postgresql}
   */
   readonly postgresql?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecPostgresql;
   /**
   * Method to follow to upgrade the primary server during a rolling update procedure, after all replicas have been successfully updated: it can be with a switchover ('switchover') or in-place ('restart' - default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#primary_update_method DataK8SPostgresqlCnpgIoClusterV1Manifest#primary_update_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#primary_update_method DataK8SPostgresqlCnpgIoClusterV1Manifest#primary_update_method}
   */
   readonly primaryUpdateMethod?: string;
   /**
   * Deployment strategy to follow to upgrade the primary server during a rolling update procedure, after all replicas have been successfully updated: it can be automated ('unsupervised' - default) or manual ('supervised')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#primary_update_strategy DataK8SPostgresqlCnpgIoClusterV1Manifest#primary_update_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#primary_update_strategy DataK8SPostgresqlCnpgIoClusterV1Manifest#primary_update_strategy}
   */
   readonly primaryUpdateStrategy?: string;
   /**
   * Name of the priority class which will be used in every generated Pod, if the PriorityClass specified does not exist, the pod will not be able to schedule. Please refer to https://kubernetes.io/docs/concepts/scheduling-eviction/pod-priority-preemption/#priorityclass for more information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#priority_class_name DataK8SPostgresqlCnpgIoClusterV1Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#priority_class_name DataK8SPostgresqlCnpgIoClusterV1Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
   * Template to be used to define projected volumes, projected volumes will be mounted under '/projected' base folder
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#projected_volume_template DataK8SPostgresqlCnpgIoClusterV1Manifest#projected_volume_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#projected_volume_template DataK8SPostgresqlCnpgIoClusterV1Manifest#projected_volume_template}
   */
   readonly projectedVolumeTemplate?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecProjectedVolumeTemplate;
   /**
   * Replica cluster configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#replica DataK8SPostgresqlCnpgIoClusterV1Manifest#replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#replica DataK8SPostgresqlCnpgIoClusterV1Manifest#replica}
   */
   readonly replica?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecReplica;
   /**
   * Replication slots management configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#replication_slots DataK8SPostgresqlCnpgIoClusterV1Manifest#replication_slots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#replication_slots DataK8SPostgresqlCnpgIoClusterV1Manifest#replication_slots}
   */
   readonly replicationSlots?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecReplicationSlots;
   /**
   * Resources requirements of every generated Pod. Please refer to https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/ for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#resources DataK8SPostgresqlCnpgIoClusterV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#resources DataK8SPostgresqlCnpgIoClusterV1Manifest#resources}
   */
   readonly resources?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecResources;
   /**
   * If specified, the pod will be dispatched by specified Kubernetes scheduler. If not specified, the pod will be dispatched by the default scheduler. More info: https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#scheduler_name DataK8SPostgresqlCnpgIoClusterV1Manifest#scheduler_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#scheduler_name DataK8SPostgresqlCnpgIoClusterV1Manifest#scheduler_name}
   */
   readonly schedulerName?: string;
   /**
   * The SeccompProfile applied to every Pod and Container. Defaults to: 'RuntimeDefault'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#seccomp_profile DataK8SPostgresqlCnpgIoClusterV1Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#seccomp_profile DataK8SPostgresqlCnpgIoClusterV1Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecSeccompProfile;
   /**
   * Configure the generation of the service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#service_account_template DataK8SPostgresqlCnpgIoClusterV1Manifest#service_account_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#service_account_template DataK8SPostgresqlCnpgIoClusterV1Manifest#service_account_template}
   */
   readonly serviceAccountTemplate?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecServiceAccountTemplate;
   /**
   * The time in seconds that controls the window of time reserved for the smart shutdown of Postgres to complete. Make sure you reserve enough time for the operator to request a fast shutdown of Postgres (that is: 'stopDelay' - 'smartShutdownTimeout').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#smart_shutdown_timeout DataK8SPostgresqlCnpgIoClusterV1Manifest#smart_shutdown_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#smart_shutdown_timeout DataK8SPostgresqlCnpgIoClusterV1Manifest#smart_shutdown_timeout}
   */
   readonly smartShutdownTimeout?: number;
   /**
   * The time in seconds that is allowed for a PostgreSQL instance to successfully start up (default 3600). The startup probe failure threshold is derived from this value using the formula: ceiling(startDelay / 10).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#start_delay DataK8SPostgresqlCnpgIoClusterV1Manifest#start_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#start_delay DataK8SPostgresqlCnpgIoClusterV1Manifest#start_delay}
   */
   readonly startDelay?: number;
   /**
   * The time in seconds that is allowed for a PostgreSQL instance to gracefully shutdown (default 1800)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#stop_delay DataK8SPostgresqlCnpgIoClusterV1Manifest#stop_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#stop_delay DataK8SPostgresqlCnpgIoClusterV1Manifest#stop_delay}
   */
   readonly stopDelay?: number;
   /**
   * Configuration of the storage of the instances
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#storage DataK8SPostgresqlCnpgIoClusterV1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#storage DataK8SPostgresqlCnpgIoClusterV1Manifest#storage}
   */
   readonly storage?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecStorage;
   /**
   * The secret containing the superuser password. If not defined a new secret will be created with a randomly generated password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#superuser_secret DataK8SPostgresqlCnpgIoClusterV1Manifest#superuser_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#superuser_secret DataK8SPostgresqlCnpgIoClusterV1Manifest#superuser_secret}
   */
   readonly superuserSecret?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecSuperuserSecret;
   /**
   * The time in seconds that is allowed for a primary PostgreSQL instance to gracefully shutdown during a switchover. Default value is 3600 seconds (1 hour).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#switchover_delay DataK8SPostgresqlCnpgIoClusterV1Manifest#switchover_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#switchover_delay DataK8SPostgresqlCnpgIoClusterV1Manifest#switchover_delay}
   */
   readonly switchoverDelay?: number;
   /**
   * The tablespaces configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#tablespaces DataK8SPostgresqlCnpgIoClusterV1Manifest#tablespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#tablespaces DataK8SPostgresqlCnpgIoClusterV1Manifest#tablespaces}
   */
   readonly tablespaces?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecTablespaces[] | cdktf.IResolvable;
   /**
   * TopologySpreadConstraints specifies how to spread matching pods among the given topology. More info: https://kubernetes.io/docs/concepts/scheduling-eviction/topology-spread-constraints/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#topology_spread_constraints DataK8SPostgresqlCnpgIoClusterV1Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#topology_spread_constraints DataK8SPostgresqlCnpgIoClusterV1Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecTopologySpreadConstraints[] | cdktf.IResolvable;
   /**
   * Configuration of the storage for PostgreSQL WAL (Write-Ahead Log)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#wal_storage DataK8SPostgresqlCnpgIoClusterV1Manifest#wal_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/postgresql_cnpg_io_cluster_v1_manifest#wal_storage DataK8SPostgresqlCnpgIoClusterV1Manifest#wal_storage}
   */
   readonly walStorage?: DataK8SPostgresqlCnpgIoClusterV1ManifestSpecWalStorage;
 }

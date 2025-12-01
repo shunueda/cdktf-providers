@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle
+// https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,157 +10,157 @@ export interface FirewallMangleConfig extends cdktf.TerraformMetaArguments {
   /**
   * <em>Resource path for CRUD operations. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#___path___ FirewallMangle#___path___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#___path___ FirewallMangle#___path___}
   */
   readonly path?: string;
   /**
   * <em>A set of transformations for field names. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#___skip___ FirewallMangle#___skip___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#___skip___ FirewallMangle#___skip___}
   */
   readonly skip?: string;
   /**
   * <em>A set of fields that require setting/unsetting. This is an internal service field, setting a value is not required.</em>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#___unset___ FirewallMangle#___unset___}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#___unset___ FirewallMangle#___unset___}
   */
   readonly unset?: string;
   /**
   * Action to take if a packet is matched by the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#action FirewallMangle#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#action FirewallMangle#action}
   */
   readonly action: string;
   /**
   * Name of the address list to be used. Applicable if action is add-dst-to-address-list or add-src-to-address-list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#address_list FirewallMangle#address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#address_list FirewallMangle#address_list}
   */
   readonly addressList?: string;
   /**
   * Time interval after which the address will be removed from the address list specified by address-list parameter. Used in conjunction with add-dst-to-address-list or add-src-to-address-list actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#address_list_timeout FirewallMangle#address_list_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#address_list_timeout FirewallMangle#address_list_timeout}
   */
   readonly addressListTimeout?: string;
   /**
   * Specifies to which chain rule will be added. If the input does not match the name of an already defined chain, a new chain will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#chain FirewallMangle#chain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#chain FirewallMangle#chain}
   */
   readonly chain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#comment FirewallMangle#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#comment FirewallMangle#comment}
   */
   readonly comment?: string;
   /**
   * Matches packets only if a given amount of bytes has been transfered through the particular connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#connection_bytes FirewallMangle#connection_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#connection_bytes FirewallMangle#connection_bytes}
   */
   readonly connectionBytes?: string;
   /**
   * Matches connections per address or address block after given value is reached. Should be used together with connection-state=new and/or with tcp-flags=syn because matcher is very resource intensive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#connection_limit FirewallMangle#connection_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#connection_limit FirewallMangle#connection_limit}
   */
   readonly connectionLimit?: string;
   /**
   * Matches packets marked via mangle facility with particular connection mark. If no-mark is set, rule will match any unmarked connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#connection_mark FirewallMangle#connection_mark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#connection_mark FirewallMangle#connection_mark}
   */
   readonly connectionMark?: string;
   /**
   * Can match connections that are srcnatted, dstnatted or both.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#connection_nat_state FirewallMangle#connection_nat_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#connection_nat_state FirewallMangle#connection_nat_state}
   */
   readonly connectionNatState?: string;
   /**
   * Connection Rate is a firewall matcher that allow to capture traffic based on present speed of the connection (0..4294967295).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#connection_rate FirewallMangle#connection_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#connection_rate FirewallMangle#connection_rate}
   */
   readonly connectionRate?: string;
   /**
   * Interprets the connection tracking analysis data for a particular packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#connection_state FirewallMangle#connection_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#connection_state FirewallMangle#connection_state}
   */
   readonly connectionState?: string;
   /**
   * Matches packets from related connections based on information from their connection tracking helpers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#connection_type FirewallMangle#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#connection_type FirewallMangle#connection_type}
   */
   readonly connectionType?: string;
   /**
   * Match packets that contain specified text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#content FirewallMangle#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#content FirewallMangle#content}
   */
   readonly content?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#disabled FirewallMangle#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#disabled FirewallMangle#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Matches DSCP IP header field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#dscp FirewallMangle#dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#dscp FirewallMangle#dscp}
   */
   readonly dscp?: number;
   /**
   * Matches packets which destination is equal to specified IP or falls into specified IP range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#dst_address FirewallMangle#dst_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#dst_address FirewallMangle#dst_address}
   */
   readonly dstAddress?: string;
   /**
   * Matches destination address of a packet against user-defined address list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#dst_address_list FirewallMangle#dst_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#dst_address_list FirewallMangle#dst_address_list}
   */
   readonly dstAddressList?: string;
   /**
   * Matches destination address type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#dst_address_type FirewallMangle#dst_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#dst_address_type FirewallMangle#dst_address_type}
   */
   readonly dstAddressType?: string;
   /**
   * Matches packets until a given rate is exceeded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#dst_limit FirewallMangle#dst_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#dst_limit FirewallMangle#dst_limit}
   */
   readonly dstLimit?: string;
   /**
   * List of destination port numbers or port number ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#dst_port FirewallMangle#dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#dst_port FirewallMangle#dst_port}
   */
   readonly dstPort?: string;
   /**
   * Matches fragmented packets. First (starting) fragment does not count. If connection tracking is enabled there will be no fragments as system automatically assembles every packet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#fragment FirewallMangle#fragment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#fragment FirewallMangle#fragment}
   */
   readonly fragment?: boolean | cdktf.IResolvable;
   /**
   * Matches packets received from HotSpot clients against various HotSpot matchers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#hotspot FirewallMangle#hotspot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#hotspot FirewallMangle#hotspot}
   */
   readonly hotspot?: string;
   /**
   * Matches ICMP type: code fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#icmp_options FirewallMangle#icmp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#icmp_options FirewallMangle#icmp_options}
   */
   readonly icmpOptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#id FirewallMangle#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#id FirewallMangle#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -169,85 +169,85 @@ export interface FirewallMangleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Actual interface the packet has entered the router if the incoming interface is a bridge. Works only if use-ip-firewall is enabled in bridge settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#in_bridge_port FirewallMangle#in_bridge_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#in_bridge_port FirewallMangle#in_bridge_port}
   */
   readonly inBridgePort?: string;
   /**
   * Set of interfaces defined in interface list. Works the same as in-bridge-port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#in_bridge_port_list FirewallMangle#in_bridge_port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#in_bridge_port_list FirewallMangle#in_bridge_port_list}
   */
   readonly inBridgePortList?: string;
   /**
   * Interface the packet has entered the router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#in_interface FirewallMangle#in_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#in_interface FirewallMangle#in_interface}
   */
   readonly inInterface?: string;
   /**
   * Set of interfaces defined in interface list. Works the same as in-interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#in_interface_list FirewallMangle#in_interface_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#in_interface_list FirewallMangle#in_interface_list}
   */
   readonly inInterfaceList?: string;
   /**
   * Matches the priority of an ingress packet. Priority may be derived from VLAN, WMM, DSCP, or MPLS EXP bit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#ingress_priority FirewallMangle#ingress_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#ingress_priority FirewallMangle#ingress_priority}
   */
   readonly ingressPriority?: number;
   /**
   * Matches the policy used by IPsec. Value is written in the following format: direction, policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#ipsec_policy FirewallMangle#ipsec_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#ipsec_policy FirewallMangle#ipsec_policy}
   */
   readonly ipsecPolicy?: string;
   /**
   * Matches IPv4 header options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#ipv4_options FirewallMangle#ipv4_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#ipv4_options FirewallMangle#ipv4_options}
   */
   readonly ipv4Options?: string;
   /**
   * Name of the target chain to jump to. Applicable only if action=jump.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#jump_target FirewallMangle#jump_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#jump_target FirewallMangle#jump_target}
   */
   readonly jumpTarget?: string;
   /**
   * Layer7 filter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#layer7_protocol FirewallMangle#layer7_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#layer7_protocol FirewallMangle#layer7_protocol}
   */
   readonly layer7Protocol?: string;
   /**
   * Matches packets up to a limited rate (packet rate or bit rate). A rule using this matcher will match until this limit is reached. Parameters are written in the following format: rate[/time],burst:mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#limit FirewallMangle#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#limit FirewallMangle#limit}
   */
   readonly limit?: string;
   /**
   * Add a message to the system log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#log FirewallMangle#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#log FirewallMangle#log}
   */
   readonly log?: boolean | cdktf.IResolvable;
   /**
   * Adds specified text at the beginning of every log message. Applicable if action=log or log=yes configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#log_prefix FirewallMangle#log_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#log_prefix FirewallMangle#log_prefix}
   */
   readonly logPrefix?: string;
   /**
   * Sets a new connection-mark value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#new_connection_mark FirewallMangle#new_connection_mark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#new_connection_mark FirewallMangle#new_connection_mark}
   */
   readonly newConnectionMark?: string;
   /**
   * Sets a new DSCP value for a packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#new_dscp FirewallMangle#new_dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#new_dscp FirewallMangle#new_dscp}
   */
   readonly newDscp?: number;
   /**
@@ -257,85 +257,85 @@ export interface FirewallMangleConfig extends cdktf.TerraformMetaArguments {
   *   * Destination Unreachable messages with a code meaning `fragmentation needed and DF set`.
   *   * Upon receipt of such a message, the source host reduces its assumed PMTU for the path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#new_mss FirewallMangle#new_mss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#new_mss FirewallMangle#new_mss}
   */
   readonly newMss?: string;
   /**
   * Sets a new packet-mark value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#new_packet_mark FirewallMangle#new_packet_mark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#new_packet_mark FirewallMangle#new_packet_mark}
   */
   readonly newPacketMark?: string;
   /**
   * Sets a new priority for a packet. This can be the VLAN, WMM, DSCP or MPLS EXP priority. This property can also be used to set an internal priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#new_priority FirewallMangle#new_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#new_priority FirewallMangle#new_priority}
   */
   readonly newPriority?: string;
   /**
   * Sets a new routing-mark value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#new_routing_mark FirewallMangle#new_routing_mark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#new_routing_mark FirewallMangle#new_routing_mark}
   */
   readonly newRoutingMark?: string;
   /**
   * Sets a new TTL for a packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#new_ttl FirewallMangle#new_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#new_ttl FirewallMangle#new_ttl}
   */
   readonly newTtl?: string;
   /**
   * Matches every nth packet: nth=2,1 rule will match every first packet of 2, hence, 50% of all the traffic that is matched by the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#nth FirewallMangle#nth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#nth FirewallMangle#nth}
   */
   readonly nth?: string;
   /**
   * Actual interface the packet is leaving the router if the outgoing interface is a bridge. Works only if use-ip-firewall is enabled in bridge settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#out_bridge_port FirewallMangle#out_bridge_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#out_bridge_port FirewallMangle#out_bridge_port}
   */
   readonly outBridgePort?: string;
   /**
   * Set of interfaces defined in interface list. Works the same as out-bridge-port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#out_bridge_port_list FirewallMangle#out_bridge_port_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#out_bridge_port_list FirewallMangle#out_bridge_port_list}
   */
   readonly outBridgePortList?: string;
   /**
   * Interface the packet is leaving the router.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#out_interface FirewallMangle#out_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#out_interface FirewallMangle#out_interface}
   */
   readonly outInterface?: string;
   /**
   * Set of interfaces defined in interface list. Works the same as out-interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#out_interface_list FirewallMangle#out_interface_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#out_interface_list FirewallMangle#out_interface_list}
   */
   readonly outInterfaceList?: string;
   /**
   * Matches packets marked via mangle facility with particular packet mark. If no-mark is set, the rule will match any unmarked packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#packet_mark FirewallMangle#packet_mark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#packet_mark FirewallMangle#packet_mark}
   */
   readonly packetMark?: string;
   /**
   * Matches packets of specified size or size range in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#packet_size FirewallMangle#packet_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#packet_size FirewallMangle#packet_size}
   */
   readonly packetSize?: string;
   /**
   * Whether to let the packet to pass further (like action passthrough) into the firewall or not (property only valid some actions).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#passthrough FirewallMangle#passthrough}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#passthrough FirewallMangle#passthrough}
   */
   readonly passthrough?: boolean | cdktf.IResolvable;
   /**
   * PCC matcher allows dividing traffic into equal streams with the ability to keep packets with a specific set of options in one particular stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#per_connection_classifier FirewallMangle#per_connection_classifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#per_connection_classifier FirewallMangle#per_connection_classifier}
   */
   readonly perConnectionClassifier?: string;
   /**
@@ -344,109 +344,109 @@ export interface FirewallMangleConfig extends cdktf.TerraformMetaArguments {
   * 	> Best way to use in conjunction with a data source. See [example](../data-sources/ip_firewall.md#example-usage).  
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#place_before FirewallMangle#place_before}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#place_before FirewallMangle#place_before}
   */
   readonly placeBefore?: string;
   /**
   * Matches if any (source or destination) port matches the specified list of ports or port ranges. Applicable only if protocol is TCP or UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#port FirewallMangle#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#port FirewallMangle#port}
   */
   readonly port?: string;
   /**
   * Matches particular IP protocol specified by protocol name or number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#protocol FirewallMangle#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#protocol FirewallMangle#protocol}
   */
   readonly protocol?: string;
   /**
   * Attempts to detect TCP and UDP scans. Parameters are in the following format WeightThreshold, DelayThreshold, LowPortWeight, HighPortWeight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#psd FirewallMangle#psd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#psd FirewallMangle#psd}
   */
   readonly psd?: string;
   /**
   * Matches packets randomly with a given probability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#random FirewallMangle#random}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#random FirewallMangle#random}
   */
   readonly random?: number;
   /**
   * Matches packets with a specific gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#route_dst FirewallMangle#route_dst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#route_dst FirewallMangle#route_dst}
   */
   readonly routeDst?: string;
   /**
   * Matches packets marked by mangle facility with particular routing mark.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#routing_mark FirewallMangle#routing_mark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#routing_mark FirewallMangle#routing_mark}
   */
   readonly routingMark?: string;
   /**
   * Matches packets which source is equal to specified IP or falls into a specified IP range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#src_address FirewallMangle#src_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#src_address FirewallMangle#src_address}
   */
   readonly srcAddress?: string;
   /**
   * Matches source address of a packet against user-defined address list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#src_address_list FirewallMangle#src_address_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#src_address_list FirewallMangle#src_address_list}
   */
   readonly srcAddressList?: string;
   /**
   * Matches source address type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#src_address_type FirewallMangle#src_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#src_address_type FirewallMangle#src_address_type}
   */
   readonly srcAddressType?: string;
   /**
   * Matches source MAC address of the packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#src_mac_address FirewallMangle#src_mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#src_mac_address FirewallMangle#src_mac_address}
   */
   readonly srcMacAddress?: string;
   /**
   * List of source ports and ranges of source ports. Applicable only if a protocol is TCP or UDP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#src_port FirewallMangle#src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#src_port FirewallMangle#src_port}
   */
   readonly srcPort?: string;
   /**
   * Matches specified TCP flags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#tcp_flags FirewallMangle#tcp_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#tcp_flags FirewallMangle#tcp_flags}
   */
   readonly tcpFlags?: string;
   /**
   * Matches TCP MSS value of an IP packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#tcp_mss FirewallMangle#tcp_mss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#tcp_mss FirewallMangle#tcp_mss}
   */
   readonly tcpMss?: string;
   /**
   * Allows to create a filter based on the packets' arrival time and date or, for locally generated packets, departure time and date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#time FirewallMangle#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#time FirewallMangle#time}
   */
   readonly time?: string;
   /**
   * Allows matching HTTPS traffic based on TLS SNI hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#tls_host FirewallMangle#tls_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#tls_host FirewallMangle#tls_host}
   */
   readonly tlsHost?: string;
   /**
   * Matches packets TTL value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#ttl FirewallMangle#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#ttl FirewallMangle#ttl}
   */
   readonly ttl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle routeros_firewall_mangle}
+* Represents a {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle routeros_firewall_mangle}
 */
 export class FirewallMangle extends cdktf.TerraformResource {
 
@@ -462,7 +462,7 @@ export class FirewallMangle extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FirewallMangle resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FirewallMangle to import
-  * @param importFromId The id of the existing FirewallMangle that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FirewallMangle that should be imported. Refer to the {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FirewallMangle to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -474,7 +474,7 @@ export class FirewallMangle extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.94.0/docs/resources/firewall_mangle routeros_firewall_mangle} Resource
+  * Create a new {@link https://registry.terraform.io/providers/terraform-routeros/routeros/1.95.0/docs/resources/firewall_mangle routeros_firewall_mangle} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -485,8 +485,8 @@ export class FirewallMangle extends cdktf.TerraformResource {
       terraformResourceType: 'routeros_firewall_mangle',
       terraformGeneratorMetadata: {
         providerName: 'routeros',
-        providerVersion: '1.94.0',
-        providerVersionConstraint: '1.94.0'
+        providerVersion: '1.95.0',
+        providerVersionConstraint: '1.95.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

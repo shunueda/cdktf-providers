@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cen_transit_router_route_entry
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_route_entry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CenTransitRouterRouteEntryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cen_transit_router_route_entry#id CenTransitRouterRouteEntry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_route_entry#id CenTransitRouterRouteEntry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface CenTransitRouterRouteEntryConfig extends cdktf.TerraformMetaArg
   /**
   * Description of the route entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cen_transit_router_route_entry#transit_router_route_entry_description CenTransitRouterRouteEntry#transit_router_route_entry_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_route_entry#transit_router_route_entry_description CenTransitRouterRouteEntry#transit_router_route_entry_description}
   */
   readonly transitRouterRouteEntryDescription?: string;
   /**
   * Destination CIDR block of the route entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cen_transit_router_route_entry#transit_router_route_entry_destination_cidr_block CenTransitRouterRouteEntry#transit_router_route_entry_destination_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_route_entry#transit_router_route_entry_destination_cidr_block CenTransitRouterRouteEntry#transit_router_route_entry_destination_cidr_block}
   */
   readonly transitRouterRouteEntryDestinationCidrBlock: string;
   /**
   * Name of the route entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cen_transit_router_route_entry#transit_router_route_entry_name CenTransitRouterRouteEntry#transit_router_route_entry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_route_entry#transit_router_route_entry_name CenTransitRouterRouteEntry#transit_router_route_entry_name}
   */
   readonly transitRouterRouteEntryName?: string;
   /**
   * Next hop ID of the route entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cen_transit_router_route_entry#transit_router_route_entry_next_hop_id CenTransitRouterRouteEntry#transit_router_route_entry_next_hop_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_route_entry#transit_router_route_entry_next_hop_id CenTransitRouterRouteEntry#transit_router_route_entry_next_hop_id}
   */
   readonly transitRouterRouteEntryNextHopId?: string;
   /**
   * Next hop type of the route entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cen_transit_router_route_entry#transit_router_route_entry_next_hop_type CenTransitRouterRouteEntry#transit_router_route_entry_next_hop_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_route_entry#transit_router_route_entry_next_hop_type CenTransitRouterRouteEntry#transit_router_route_entry_next_hop_type}
   */
   readonly transitRouterRouteEntryNextHopType: string;
   /**
   * ID of the route table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cen_transit_router_route_entry#transit_router_route_table_id CenTransitRouterRouteEntry#transit_router_route_table_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_route_entry#transit_router_route_table_id CenTransitRouterRouteEntry#transit_router_route_table_id}
   */
   readonly transitRouterRouteTableId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cen_transit_router_route_entry alibabacloudstack_cen_transit_router_route_entry}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_route_entry alibabacloudstack_cen_transit_router_route_entry}
 */
 export class CenTransitRouterRouteEntry extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class CenTransitRouterRouteEntry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CenTransitRouterRouteEntry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CenTransitRouterRouteEntry to import
-  * @param importFromId The id of the existing CenTransitRouterRouteEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cen_transit_router_route_entry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CenTransitRouterRouteEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_route_entry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CenTransitRouterRouteEntry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class CenTransitRouterRouteEntry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/cen_transit_router_route_entry alibabacloudstack_cen_transit_router_route_entry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/cen_transit_router_route_entry alibabacloudstack_cen_transit_router_route_entry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,7 +92,8 @@ export class CenTransitRouterRouteEntry extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_cen_transit_router_route_entry',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

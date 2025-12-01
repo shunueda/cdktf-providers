@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_user_define_rule
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_client_user_define_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,90 +8,90 @@ import * as cdktf from 'cdktf';
 
 export interface ThreatDetectionClientUserDefineRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_user_define_rule#action_type ThreatDetectionClientUserDefineRule#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_client_user_define_rule#action_type ThreatDetectionClientUserDefineRule#action_type}
   */
   readonly actionType: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_user_define_rule#client_user_define_rule_name ThreatDetectionClientUserDefineRule#client_user_define_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_client_user_define_rule#client_user_define_rule_name ThreatDetectionClientUserDefineRule#client_user_define_rule_name}
   */
   readonly clientUserDefineRuleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_user_define_rule#cmdline ThreatDetectionClientUserDefineRule#cmdline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_client_user_define_rule#cmdline ThreatDetectionClientUserDefineRule#cmdline}
   */
   readonly cmdline?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_user_define_rule#file_path ThreatDetectionClientUserDefineRule#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_client_user_define_rule#file_path ThreatDetectionClientUserDefineRule#file_path}
   */
   readonly filePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_user_define_rule#hash ThreatDetectionClientUserDefineRule#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_client_user_define_rule#hash ThreatDetectionClientUserDefineRule#hash}
   */
   readonly hash?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_user_define_rule#id ThreatDetectionClientUserDefineRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_client_user_define_rule#id ThreatDetectionClientUserDefineRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_user_define_rule#ip ThreatDetectionClientUserDefineRule#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_client_user_define_rule#ip ThreatDetectionClientUserDefineRule#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_user_define_rule#new_file_path ThreatDetectionClientUserDefineRule#new_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_client_user_define_rule#new_file_path ThreatDetectionClientUserDefineRule#new_file_path}
   */
   readonly newFilePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_user_define_rule#parent_cmdline ThreatDetectionClientUserDefineRule#parent_cmdline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_client_user_define_rule#parent_cmdline ThreatDetectionClientUserDefineRule#parent_cmdline}
   */
   readonly parentCmdline?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_user_define_rule#parent_proc_path ThreatDetectionClientUserDefineRule#parent_proc_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_client_user_define_rule#parent_proc_path ThreatDetectionClientUserDefineRule#parent_proc_path}
   */
   readonly parentProcPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_user_define_rule#platform ThreatDetectionClientUserDefineRule#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_client_user_define_rule#platform ThreatDetectionClientUserDefineRule#platform}
   */
   readonly platform: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_user_define_rule#port_str ThreatDetectionClientUserDefineRule#port_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_client_user_define_rule#port_str ThreatDetectionClientUserDefineRule#port_str}
   */
   readonly portStr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_user_define_rule#proc_path ThreatDetectionClientUserDefineRule#proc_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_client_user_define_rule#proc_path ThreatDetectionClientUserDefineRule#proc_path}
   */
   readonly procPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_user_define_rule#registry_content ThreatDetectionClientUserDefineRule#registry_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_client_user_define_rule#registry_content ThreatDetectionClientUserDefineRule#registry_content}
   */
   readonly registryContent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_user_define_rule#registry_key ThreatDetectionClientUserDefineRule#registry_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_client_user_define_rule#registry_key ThreatDetectionClientUserDefineRule#registry_key}
   */
   readonly registryKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_user_define_rule#type ThreatDetectionClientUserDefineRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_client_user_define_rule#type ThreatDetectionClientUserDefineRule#type}
   */
   readonly type: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_user_define_rule#timeouts ThreatDetectionClientUserDefineRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_client_user_define_rule#timeouts ThreatDetectionClientUserDefineRule#timeouts}
   */
   readonly timeouts?: ThreatDetectionClientUserDefineRuleTimeouts;
 }
 export interface ThreatDetectionClientUserDefineRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_user_define_rule#create ThreatDetectionClientUserDefineRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_client_user_define_rule#create ThreatDetectionClientUserDefineRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_user_define_rule#delete ThreatDetectionClientUserDefineRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_client_user_define_rule#delete ThreatDetectionClientUserDefineRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_user_define_rule#update ThreatDetectionClientUserDefineRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_client_user_define_rule#update ThreatDetectionClientUserDefineRule#update}
   */
   readonly update?: string;
 }
@@ -243,7 +243,7 @@ export class ThreatDetectionClientUserDefineRuleTimeoutsOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_user_define_rule alicloud_threat_detection_client_user_define_rule}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_client_user_define_rule alicloud_threat_detection_client_user_define_rule}
 */
 export class ThreatDetectionClientUserDefineRule extends cdktf.TerraformResource {
 
@@ -259,7 +259,7 @@ export class ThreatDetectionClientUserDefineRule extends cdktf.TerraformResource
   * Generates CDKTF code for importing a ThreatDetectionClientUserDefineRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ThreatDetectionClientUserDefineRule to import
-  * @param importFromId The id of the existing ThreatDetectionClientUserDefineRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_user_define_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ThreatDetectionClientUserDefineRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_client_user_define_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ThreatDetectionClientUserDefineRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -271,7 +271,7 @@ export class ThreatDetectionClientUserDefineRule extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/threat_detection_client_user_define_rule alicloud_threat_detection_client_user_define_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/threat_detection_client_user_define_rule alicloud_threat_detection_client_user_define_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -282,8 +282,8 @@ export class ThreatDetectionClientUserDefineRule extends cdktf.TerraformResource
       terraformResourceType: 'alicloud_threat_detection_client_user_define_rule',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

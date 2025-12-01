@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_bgp_group
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_bgp_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface ExpressconnectBgpGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_bgp_group#auth_key ExpressconnectBgpGroup#auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_bgp_group#auth_key ExpressconnectBgpGroup#auth_key}
   */
   readonly authKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_bgp_group#bgp_group_id ExpressconnectBgpGroup#bgp_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_bgp_group#bgp_group_id ExpressconnectBgpGroup#bgp_group_id}
   */
   readonly bgpGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_bgp_group#bgp_group_name ExpressconnectBgpGroup#bgp_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_bgp_group#bgp_group_name ExpressconnectBgpGroup#bgp_group_name}
   */
   readonly bgpGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_bgp_group#description ExpressconnectBgpGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_bgp_group#description ExpressconnectBgpGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_bgp_group#id ExpressconnectBgpGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_bgp_group#id ExpressconnectBgpGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_bgp_group#ip_version ExpressconnectBgpGroup#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_bgp_group#ip_version ExpressconnectBgpGroup#ip_version}
   */
   readonly ipVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_bgp_group#local_asn ExpressconnectBgpGroup#local_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_bgp_group#local_asn ExpressconnectBgpGroup#local_asn}
   */
   readonly localAsn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_bgp_group#peer_asn ExpressconnectBgpGroup#peer_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_bgp_group#peer_asn ExpressconnectBgpGroup#peer_asn}
   */
   readonly peerAsn: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_bgp_group#router_id ExpressconnectBgpGroup#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_bgp_group#router_id ExpressconnectBgpGroup#router_id}
   */
   readonly routerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_bgp_group#status ExpressconnectBgpGroup#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_bgp_group#status ExpressconnectBgpGroup#status}
   */
   readonly status?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_bgp_group#timeouts ExpressconnectBgpGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_bgp_group#timeouts ExpressconnectBgpGroup#timeouts}
   */
   readonly timeouts?: ExpressconnectBgpGroupTimeouts;
 }
 export interface ExpressconnectBgpGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_bgp_group#create ExpressconnectBgpGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_bgp_group#create ExpressconnectBgpGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_bgp_group#delete ExpressconnectBgpGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_bgp_group#delete ExpressconnectBgpGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_bgp_group#update ExpressconnectBgpGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_bgp_group#update ExpressconnectBgpGroup#update}
   */
   readonly update?: string;
 }
@@ -219,7 +219,7 @@ export class ExpressconnectBgpGroupTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_bgp_group alibabacloudstack_expressconnect_bgp_group}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_bgp_group alibabacloudstack_expressconnect_bgp_group}
 */
 export class ExpressconnectBgpGroup extends cdktf.TerraformResource {
 
@@ -235,7 +235,7 @@ export class ExpressconnectBgpGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExpressconnectBgpGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExpressconnectBgpGroup to import
-  * @param importFromId The id of the existing ExpressconnectBgpGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_bgp_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExpressconnectBgpGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_bgp_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExpressconnectBgpGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -247,7 +247,7 @@ export class ExpressconnectBgpGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.19/docs/resources/expressconnect_bgp_group alibabacloudstack_expressconnect_bgp_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/resources/expressconnect_bgp_group alibabacloudstack_expressconnect_bgp_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -258,7 +258,8 @@ export class ExpressconnectBgpGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alibabacloudstack_expressconnect_bgp_group',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.18.19'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

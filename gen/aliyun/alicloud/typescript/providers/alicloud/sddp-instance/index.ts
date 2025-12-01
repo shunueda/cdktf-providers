@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sddp_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sddp_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface SddpInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sddp_instance#dataphin SddpInstance#dataphin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sddp_instance#dataphin SddpInstance#dataphin}
   */
   readonly dataphin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sddp_instance#dataphin_count SddpInstance#dataphin_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sddp_instance#dataphin_count SddpInstance#dataphin_count}
   */
   readonly dataphinCount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sddp_instance#id SddpInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sddp_instance#id SddpInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sddp_instance#logistics SddpInstance#logistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sddp_instance#logistics SddpInstance#logistics}
   */
   readonly logistics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sddp_instance#modify_type SddpInstance#modify_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sddp_instance#modify_type SddpInstance#modify_type}
   */
   readonly modifyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sddp_instance#oss_size SddpInstance#oss_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sddp_instance#oss_size SddpInstance#oss_size}
   */
   readonly ossSize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sddp_instance#payment_type SddpInstance#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sddp_instance#payment_type SddpInstance#payment_type}
   */
   readonly paymentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sddp_instance#period SddpInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sddp_instance#period SddpInstance#period}
   */
   readonly period: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sddp_instance#renew_period SddpInstance#renew_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sddp_instance#renew_period SddpInstance#renew_period}
   */
   readonly renewPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sddp_instance#renewal_status SddpInstance#renewal_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sddp_instance#renewal_status SddpInstance#renewal_status}
   */
   readonly renewalStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sddp_instance#sd_cbool SddpInstance#sd_cbool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sddp_instance#sd_cbool SddpInstance#sd_cbool}
   */
   readonly sdCbool: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sddp_instance#sdc SddpInstance#sdc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sddp_instance#sdc SddpInstance#sdc}
   */
   readonly sdc: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sddp_instance#sddp_version SddpInstance#sddp_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sddp_instance#sddp_version SddpInstance#sddp_version}
   */
   readonly sddpVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sddp_instance#ud_cbool SddpInstance#ud_cbool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sddp_instance#ud_cbool SddpInstance#ud_cbool}
   */
   readonly udCbool: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sddp_instance#udc SddpInstance#udc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sddp_instance#udc SddpInstance#udc}
   */
   readonly udc: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sddp_instance alicloud_sddp_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sddp_instance alicloud_sddp_instance}
 */
 export class SddpInstance extends cdktf.TerraformResource {
 
@@ -89,7 +89,7 @@ export class SddpInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SddpInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SddpInstance to import
-  * @param importFromId The id of the existing SddpInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sddp_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SddpInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sddp_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SddpInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class SddpInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sddp_instance alicloud_sddp_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sddp_instance alicloud_sddp_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,8 +112,8 @@ export class SddpInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_sddp_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

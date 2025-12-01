@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/data-sources/warehouse_source
+// https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/data-sources/warehouse_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataLogtailWarehouseSourceConfig extends cdktf.TerraformMetaArg
   /**
   * The name of the new Warehouse source. Can contain letters, numbers, spaces, and special characters. Source names do not need to be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/data-sources/warehouse_source#name DataLogtailWarehouseSource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/data-sources/warehouse_source#name DataLogtailWarehouseSource#name}
   */
   readonly name: string;
 }
@@ -111,7 +111,7 @@ export class DataLogtailWarehouseSourceCustomBucketList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/data-sources/warehouse_source logtail_warehouse_source}
+* Represents a {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/data-sources/warehouse_source logtail_warehouse_source}
 */
 export class DataLogtailWarehouseSource extends cdktf.TerraformDataSource {
 
@@ -127,7 +127,7 @@ export class DataLogtailWarehouseSource extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLogtailWarehouseSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLogtailWarehouseSource to import
-  * @param importFromId The id of the existing DataLogtailWarehouseSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/data-sources/warehouse_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLogtailWarehouseSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/data-sources/warehouse_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLogtailWarehouseSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -139,7 +139,7 @@ export class DataLogtailWarehouseSource extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.1/docs/data-sources/warehouse_source logtail_warehouse_source} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/betterstackhq/logtail/0.7.2/docs/data-sources/warehouse_source logtail_warehouse_source} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -150,8 +150,8 @@ export class DataLogtailWarehouseSource extends cdktf.TerraformDataSource {
       terraformResourceType: 'logtail_warehouse_source',
       terraformGeneratorMetadata: {
         providerName: 'logtail',
-        providerVersion: '0.7.1',
-        providerVersionConstraint: '0.7.1'
+        providerVersion: '0.7.2',
+        providerVersionConstraint: '0.7.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

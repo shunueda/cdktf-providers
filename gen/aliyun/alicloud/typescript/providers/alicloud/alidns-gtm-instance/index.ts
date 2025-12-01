@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,110 +8,110 @@ import * as cdktf from 'cdktf';
 
 export interface AlidnsGtmInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance#alert_group AlidnsGtmInstance#alert_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance#alert_group AlidnsGtmInstance#alert_group}
   */
   readonly alertGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance#cname_type AlidnsGtmInstance#cname_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance#cname_type AlidnsGtmInstance#cname_type}
   */
   readonly cnameType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance#force_update AlidnsGtmInstance#force_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance#force_update AlidnsGtmInstance#force_update}
   */
   readonly forceUpdate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance#health_check_task_count AlidnsGtmInstance#health_check_task_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance#health_check_task_count AlidnsGtmInstance#health_check_task_count}
   */
   readonly healthCheckTaskCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance#id AlidnsGtmInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance#id AlidnsGtmInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance#instance_name AlidnsGtmInstance#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance#instance_name AlidnsGtmInstance#instance_name}
   */
   readonly instanceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance#lang AlidnsGtmInstance#lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance#lang AlidnsGtmInstance#lang}
   */
   readonly lang?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance#package_edition AlidnsGtmInstance#package_edition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance#package_edition AlidnsGtmInstance#package_edition}
   */
   readonly packageEdition: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance#payment_type AlidnsGtmInstance#payment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance#payment_type AlidnsGtmInstance#payment_type}
   */
   readonly paymentType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance#period AlidnsGtmInstance#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance#period AlidnsGtmInstance#period}
   */
   readonly period: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance#public_cname_mode AlidnsGtmInstance#public_cname_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance#public_cname_mode AlidnsGtmInstance#public_cname_mode}
   */
   readonly publicCnameMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance#public_rr AlidnsGtmInstance#public_rr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance#public_rr AlidnsGtmInstance#public_rr}
   */
   readonly publicRr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance#public_user_domain_name AlidnsGtmInstance#public_user_domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance#public_user_domain_name AlidnsGtmInstance#public_user_domain_name}
   */
   readonly publicUserDomainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance#public_zone_name AlidnsGtmInstance#public_zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance#public_zone_name AlidnsGtmInstance#public_zone_name}
   */
   readonly publicZoneName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance#renew_period AlidnsGtmInstance#renew_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance#renew_period AlidnsGtmInstance#renew_period}
   */
   readonly renewPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance#renewal_status AlidnsGtmInstance#renewal_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance#renewal_status AlidnsGtmInstance#renewal_status}
   */
   readonly renewalStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance#resource_group_id AlidnsGtmInstance#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance#resource_group_id AlidnsGtmInstance#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance#sms_notification_count AlidnsGtmInstance#sms_notification_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance#sms_notification_count AlidnsGtmInstance#sms_notification_count}
   */
   readonly smsNotificationCount: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance#strategy_mode AlidnsGtmInstance#strategy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance#strategy_mode AlidnsGtmInstance#strategy_mode}
   */
   readonly strategyMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance#ttl AlidnsGtmInstance#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance#ttl AlidnsGtmInstance#ttl}
   */
   readonly ttl?: number;
   /**
   * alert_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance#alert_config AlidnsGtmInstance#alert_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance#alert_config AlidnsGtmInstance#alert_config}
   */
   readonly alertConfig?: AlidnsGtmInstanceAlertConfig[] | cdktf.IResolvable;
 }
 export interface AlidnsGtmInstanceAlertConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance#dingtalk_notice AlidnsGtmInstance#dingtalk_notice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance#dingtalk_notice AlidnsGtmInstance#dingtalk_notice}
   */
   readonly dingtalkNotice?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance#email_notice AlidnsGtmInstance#email_notice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance#email_notice AlidnsGtmInstance#email_notice}
   */
   readonly emailNotice?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance#notice_type AlidnsGtmInstance#notice_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance#notice_type AlidnsGtmInstance#notice_type}
   */
   readonly noticeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance#sms_notice AlidnsGtmInstance#sms_notice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance#sms_notice AlidnsGtmInstance#sms_notice}
   */
   readonly smsNotice?: boolean | cdktf.IResolvable;
 }
@@ -314,7 +314,7 @@ export class AlidnsGtmInstanceAlertConfigList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance alicloud_alidns_gtm_instance}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance alicloud_alidns_gtm_instance}
 */
 export class AlidnsGtmInstance extends cdktf.TerraformResource {
 
@@ -330,7 +330,7 @@ export class AlidnsGtmInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlidnsGtmInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlidnsGtmInstance to import
-  * @param importFromId The id of the existing AlidnsGtmInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlidnsGtmInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlidnsGtmInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -342,7 +342,7 @@ export class AlidnsGtmInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/alidns_gtm_instance alicloud_alidns_gtm_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/alidns_gtm_instance alicloud_alidns_gtm_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -353,8 +353,8 @@ export class AlidnsGtmInstance extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_alidns_gtm_instance',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1ManifestCon
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#metadata DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#metadata DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#topology_policies DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#topology_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#topology_policies DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#topology_policies}
   */
   readonly topologyPolicies: string[];
   /**
   * ZoneList contains an array of Zone objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#zones DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#zones DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#zones}
   */
   readonly zones: DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1ManifestZones[] | cdktf.IResolvable;
 }
@@ -28,19 +28,19 @@ export interface DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1ManifestMet
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#annotations DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#annotations DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#labels DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#labels DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#name DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#name DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -189,11 +189,11 @@ export class DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1ManifestMetadat
 }
 export interface DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1ManifestZonesAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#name DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#name DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#value DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#value DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -332,11 +332,11 @@ export class DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1ManifestZonesAt
 }
 export interface DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1ManifestZonesCosts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#name DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#name DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#value DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#value DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#value}
   */
   readonly value: number;
 }
@@ -477,25 +477,25 @@ export interface DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1ManifestZon
   /**
   * Allocatable quantity of the resource, corresponding to allocatable in node status, i.e. total amount of this resource available to be used by pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#allocatable DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#allocatable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#allocatable DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#allocatable}
   */
   readonly allocatable: string;
   /**
   * Available is the amount of this resource currently available for new (to be scheduled) pods, i.e. Allocatable minus the resources reserved by currently running pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#available DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#available}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#available DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#available}
   */
   readonly available: string;
   /**
   * Capacity of the resource, corresponding to capacity in node status, i.e. total amount of this resource that the node has.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#capacity DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#capacity DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#capacity}
   */
   readonly capacity: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#name DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#name DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -688,31 +688,31 @@ export interface DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1ManifestZon
   /**
   * AttributeList contains an array of AttributeInfo objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#attributes DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#attributes DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#attributes}
   */
   readonly attributes?: DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1ManifestZonesAttributes[] | cdktf.IResolvable;
   /**
   * CostList contains an array of CostInfo objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#costs DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#costs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#costs DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#costs}
   */
   readonly costs?: DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1ManifestZonesCosts[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#name DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#name DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#parent DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#parent DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#parent}
   */
   readonly parent?: string;
   /**
   * ResourceInfoList contains an array of ResourceInfo objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#resources DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#resources DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#resources}
   */
   readonly resources?: DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1ManifestZonesResources[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#type DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#type DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest#type}
   */
   readonly type: string;
 }
@@ -967,7 +967,7 @@ export class DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1ManifestZonesLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest k8s_topology_node_k8s_io_node_resource_topology_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest k8s_topology_node_k8s_io_node_resource_topology_v1alpha1_manifest}
 */
 export class DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -983,7 +983,7 @@ export class DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest extend
   * Generates CDKTF code for importing a DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -995,7 +995,7 @@ export class DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest k8s_topology_node_k8s_io_node_resource_topology_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/topology_node_k8s_io_node_resource_topology_v1alpha1_manifest k8s_topology_node_k8s_io_node_resource_topology_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1006,8 +1006,8 @@ export class DataK8STopologyNodeK8SIoNodeResourceTopologyV1Alpha1Manifest extend
       terraformResourceType: 'k8s_topology_node_k8s_io_node_resource_topology_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

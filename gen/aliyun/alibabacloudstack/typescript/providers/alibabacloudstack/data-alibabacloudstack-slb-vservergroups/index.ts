@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/slb_vservergroups
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/slb_vservergroups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackSlbVservergroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/slb_vservergroups#id DataAlibabacloudstackSlbVservergroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/slb_vservergroups#id DataAlibabacloudstackSlbVservergroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/slb_vservergroups#ids DataAlibabacloudstackSlbVservergroups#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/slb_vservergroups#ids DataAlibabacloudstackSlbVservergroups#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/slb_vservergroups#load_balancer_id DataAlibabacloudstackSlbVservergroups#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/slb_vservergroups#load_balancer_id DataAlibabacloudstackSlbVservergroups#load_balancer_id}
   */
   readonly loadBalancerId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/slb_vservergroups#name_regex DataAlibabacloudstackSlbVservergroups#name_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/slb_vservergroups#name_regex DataAlibabacloudstackSlbVservergroups#name_regex}
   */
   readonly nameRegex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/slb_vservergroups#output_file DataAlibabacloudstackSlbVservergroups#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/slb_vservergroups#output_file DataAlibabacloudstackSlbVservergroups#output_file}
   */
   readonly outputFile?: string;
 }
@@ -204,7 +204,7 @@ export class DataAlibabacloudstackSlbVservergroupsSlbServerGroupsList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/slb_vservergroups alibabacloudstack_slb_vservergroups}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/slb_vservergroups alibabacloudstack_slb_vservergroups}
 */
 export class DataAlibabacloudstackSlbVservergroups extends cdktf.TerraformDataSource {
 
@@ -220,7 +220,7 @@ export class DataAlibabacloudstackSlbVservergroups extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataAlibabacloudstackSlbVservergroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackSlbVservergroups to import
-  * @param importFromId The id of the existing DataAlibabacloudstackSlbVservergroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/slb_vservergroups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackSlbVservergroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/slb_vservergroups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackSlbVservergroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -232,7 +232,7 @@ export class DataAlibabacloudstackSlbVservergroups extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/slb_vservergroups alibabacloudstack_slb_vservergroups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/slb_vservergroups alibabacloudstack_slb_vservergroups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,8 +243,8 @@ export class DataAlibabacloudstackSlbVservergroups extends cdktf.TerraformDataSo
       terraformResourceType: 'alibabacloudstack_slb_vservergroups',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

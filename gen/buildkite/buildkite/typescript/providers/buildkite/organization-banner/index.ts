@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/organization_banner
+// https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/organization_banner
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface OrganizationBannerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The organization banner's message. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/organization_banner#message OrganizationBanner#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/organization_banner#message OrganizationBanner#message}
   */
   readonly message: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/organization_banner buildkite_organization_banner}
+* Represents a {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/organization_banner buildkite_organization_banner}
 */
 export class OrganizationBanner extends cdktf.TerraformResource {
 
@@ -32,7 +32,7 @@ export class OrganizationBanner extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationBanner resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationBanner to import
-  * @param importFromId The id of the existing OrganizationBanner that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/organization_banner#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationBanner that should be imported. Refer to the {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/organization_banner#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationBanner to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class OrganizationBanner extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.0/docs/resources/organization_banner buildkite_organization_banner} Resource
+  * Create a new {@link https://registry.terraform.io/providers/buildkite/buildkite/1.27.1/docs/resources/organization_banner buildkite_organization_banner} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class OrganizationBanner extends cdktf.TerraformResource {
       terraformResourceType: 'buildkite_organization_banner',
       terraformGeneratorMetadata: {
         providerName: 'buildkite',
-        providerVersion: '1.27.0',
-        providerVersionConstraint: '1.27.0'
+        providerVersion: '1.27.1',
+        providerVersionConstraint: '1.27.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

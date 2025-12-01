@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/maxcompute_projects
+// https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/maxcompute_projects
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface DataAlibabacloudstackMaxcomputeProjectsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/maxcompute_projects#id DataAlibabacloudstackMaxcomputeProjects#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/maxcompute_projects#id DataAlibabacloudstackMaxcomputeProjects#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/maxcompute_projects#ids DataAlibabacloudstackMaxcomputeProjects#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/maxcompute_projects#ids DataAlibabacloudstackMaxcomputeProjects#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/maxcompute_projects#name DataAlibabacloudstackMaxcomputeProjects#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/maxcompute_projects#name DataAlibabacloudstackMaxcomputeProjects#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/maxcompute_projects#output_file DataAlibabacloudstackMaxcomputeProjects#output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/maxcompute_projects#status DataAlibabacloudstackMaxcomputeProjects#status}
   */
-  readonly outputFile?: string;
+  readonly status?: string;
 }
 export interface DataAlibabacloudstackMaxcomputeProjectsProjects {
 }
@@ -78,6 +78,26 @@ export class DataAlibabacloudstackMaxcomputeProjectsProjectsOutputReference exte
     }
   }
 
+  // account - computed: true, optional: false, required: false
+  public get account() {
+    return this.getStringAttribute('account');
+  }
+
+  // account_pk - computed: true, optional: false, required: false
+  public get accountPk() {
+    return this.getStringAttribute('account_pk');
+  }
+
+  // core_arch - computed: true, optional: false, required: false
+  public get coreArch() {
+    return this.getStringAttribute('core_arch');
+  }
+
+  // disk - computed: true, optional: false, required: false
+  public get disk() {
+    return this.getNumberAttribute('disk');
+  }
+
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
@@ -86,6 +106,16 @@ export class DataAlibabacloudstackMaxcomputeProjectsProjectsOutputReference exte
   // name - computed: true, optional: false, required: false
   public get name() {
     return this.getStringAttribute('name');
+  }
+
+  // quota_id - computed: true, optional: false, required: false
+  public get quotaId() {
+    return this.getStringAttribute('quota_id');
+  }
+
+  // vpc_ids - computed: true, optional: false, required: false
+  public get vpcIds() {
+    return this.getListAttribute('vpc_ids');
   }
 }
 
@@ -109,7 +139,7 @@ export class DataAlibabacloudstackMaxcomputeProjectsProjectsList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/maxcompute_projects alibabacloudstack_maxcompute_projects}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/maxcompute_projects alibabacloudstack_maxcompute_projects}
 */
 export class DataAlibabacloudstackMaxcomputeProjects extends cdktf.TerraformDataSource {
 
@@ -125,7 +155,7 @@ export class DataAlibabacloudstackMaxcomputeProjects extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataAlibabacloudstackMaxcomputeProjects resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAlibabacloudstackMaxcomputeProjects to import
-  * @param importFromId The id of the existing DataAlibabacloudstackMaxcomputeProjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/maxcompute_projects#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAlibabacloudstackMaxcomputeProjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/maxcompute_projects#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAlibabacloudstackMaxcomputeProjects to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -137,7 +167,7 @@ export class DataAlibabacloudstackMaxcomputeProjects extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.16.21/docs/data-sources/maxcompute_projects alibabacloudstack_maxcompute_projects} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alibabacloudstack/3.18.20/docs/data-sources/maxcompute_projects alibabacloudstack_maxcompute_projects} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -148,8 +178,8 @@ export class DataAlibabacloudstackMaxcomputeProjects extends cdktf.TerraformData
       terraformResourceType: 'alibabacloudstack_maxcompute_projects',
       terraformGeneratorMetadata: {
         providerName: 'alibabacloudstack',
-        providerVersion: '3.16.21',
-        providerVersionConstraint: '3.16.21'
+        providerVersion: '3.18.20',
+        providerVersionConstraint: '3.18.20'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -162,7 +192,7 @@ export class DataAlibabacloudstackMaxcomputeProjects extends cdktf.TerraformData
     this._id = config.id;
     this._ids = config.ids;
     this._name = config.name;
-    this._outputFile = config.outputFile;
+    this._status = config.status;
   }
 
   // ==========
@@ -217,26 +247,26 @@ export class DataAlibabacloudstackMaxcomputeProjects extends cdktf.TerraformData
     return this._name;
   }
 
-  // output_file - computed: false, optional: true, required: false
-  private _outputFile?: string; 
-  public get outputFile() {
-    return this.getStringAttribute('output_file');
-  }
-  public set outputFile(value: string) {
-    this._outputFile = value;
-  }
-  public resetOutputFile() {
-    this._outputFile = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get outputFileInput() {
-    return this._outputFile;
-  }
-
   // projects - computed: true, optional: false, required: false
   private _projects = new DataAlibabacloudstackMaxcomputeProjectsProjectsList(this, "projects", false);
   public get projects() {
     return this._projects;
+  }
+
+  // status - computed: false, optional: true, required: false
+  private _status?: string; 
+  public get status() {
+    return this.getStringAttribute('status');
+  }
+  public set status(value: string) {
+    this._status = value;
+  }
+  public resetStatus() {
+    this._status = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get statusInput() {
+    return this._status;
   }
 
   // =========
@@ -248,7 +278,7 @@ export class DataAlibabacloudstackMaxcomputeProjects extends cdktf.TerraformData
       id: cdktf.stringToTerraform(this._id),
       ids: cdktf.listMapper(cdktf.stringToTerraform, false)(this._ids),
       name: cdktf.stringToTerraform(this._name),
-      output_file: cdktf.stringToTerraform(this._outputFile),
+      status: cdktf.stringToTerraform(this._status),
     };
   }
 
@@ -272,8 +302,8 @@ export class DataAlibabacloudstackMaxcomputeProjects extends cdktf.TerraformData
         type: "simple",
         storageClassType: "string",
       },
-      output_file: {
-        value: cdktf.stringToHclTerraform(this._outputFile),
+      status: {
+        value: cdktf.stringToHclTerraform(this._status),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

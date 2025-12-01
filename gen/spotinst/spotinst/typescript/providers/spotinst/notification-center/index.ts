@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/notification_center
+// https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/notification_center
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface NotificationCenterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/notification_center#description NotificationCenter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/notification_center#description NotificationCenter#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/notification_center#id NotificationCenter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/notification_center#id NotificationCenter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/notification_center#is_active NotificationCenter#is_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/notification_center#is_active NotificationCenter#is_active}
   */
   readonly isActive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/notification_center#name NotificationCenter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/notification_center#name NotificationCenter#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/notification_center#privacy_level NotificationCenter#privacy_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/notification_center#privacy_level NotificationCenter#privacy_level}
   */
   readonly privacyLevel: string;
   /**
   * compute_policy_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/notification_center#compute_policy_config NotificationCenter#compute_policy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/notification_center#compute_policy_config NotificationCenter#compute_policy_config}
   */
   readonly computePolicyConfig: NotificationCenterComputePolicyConfig;
   /**
   * registered_users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/notification_center#registered_users NotificationCenter#registered_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/notification_center#registered_users NotificationCenter#registered_users}
   */
   readonly registeredUsers?: NotificationCenterRegisteredUsers[] | cdktf.IResolvable;
   /**
   * subscriptions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/notification_center#subscriptions NotificationCenter#subscriptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/notification_center#subscriptions NotificationCenter#subscriptions}
   */
   readonly subscriptions?: NotificationCenterSubscriptions[] | cdktf.IResolvable;
 }
 export interface NotificationCenterComputePolicyConfigDynamicRulesFilterConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/notification_center#expression NotificationCenter#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/notification_center#expression NotificationCenter#expression}
   */
   readonly expression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/notification_center#identifier NotificationCenter#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/notification_center#identifier NotificationCenter#identifier}
   */
   readonly identifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/notification_center#operator NotificationCenter#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/notification_center#operator NotificationCenter#operator}
   */
   readonly operator?: string;
 }
@@ -235,7 +235,7 @@ export interface NotificationCenterComputePolicyConfigDynamicRules {
   /**
   * filter_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/notification_center#filter_conditions NotificationCenter#filter_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/notification_center#filter_conditions NotificationCenter#filter_conditions}
   */
   readonly filterConditions?: NotificationCenterComputePolicyConfigDynamicRulesFilterConditions[] | cdktf.IResolvable;
 }
@@ -351,11 +351,11 @@ export class NotificationCenterComputePolicyConfigDynamicRulesList extends cdktf
 }
 export interface NotificationCenterComputePolicyConfigEvents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/notification_center#event NotificationCenter#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/notification_center#event NotificationCenter#event}
   */
   readonly event?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/notification_center#event_type NotificationCenter#event_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/notification_center#event_type NotificationCenter#event_type}
   */
   readonly eventType?: string;
 }
@@ -500,23 +500,23 @@ export class NotificationCenterComputePolicyConfigEventsList extends cdktf.Compl
 }
 export interface NotificationCenterComputePolicyConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/notification_center#resource_ids NotificationCenter#resource_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/notification_center#resource_ids NotificationCenter#resource_ids}
   */
   readonly resourceIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/notification_center#should_include_all_resources NotificationCenter#should_include_all_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/notification_center#should_include_all_resources NotificationCenter#should_include_all_resources}
   */
   readonly shouldIncludeAllResources?: boolean | cdktf.IResolvable;
   /**
   * dynamic_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/notification_center#dynamic_rules NotificationCenter#dynamic_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/notification_center#dynamic_rules NotificationCenter#dynamic_rules}
   */
   readonly dynamicRules?: NotificationCenterComputePolicyConfigDynamicRules[] | cdktf.IResolvable;
   /**
   * events block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/notification_center#events NotificationCenter#events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/notification_center#events NotificationCenter#events}
   */
   readonly events: NotificationCenterComputePolicyConfigEvents[] | cdktf.IResolvable;
 }
@@ -684,11 +684,11 @@ export class NotificationCenterComputePolicyConfigOutputReference extends cdktf.
 }
 export interface NotificationCenterRegisteredUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/notification_center#subscription_types NotificationCenter#subscription_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/notification_center#subscription_types NotificationCenter#subscription_types}
   */
   readonly subscriptionTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/notification_center#user_email NotificationCenter#user_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/notification_center#user_email NotificationCenter#user_email}
   */
   readonly userEmail?: string;
 }
@@ -833,11 +833,11 @@ export class NotificationCenterRegisteredUsersList extends cdktf.ComplexList {
 }
 export interface NotificationCenterSubscriptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/notification_center#endpoint NotificationCenter#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/notification_center#endpoint NotificationCenter#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/notification_center#subscription_type NotificationCenter#subscription_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/notification_center#subscription_type NotificationCenter#subscription_type}
   */
   readonly subscriptionType?: string;
 }
@@ -982,7 +982,7 @@ export class NotificationCenterSubscriptionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/notification_center spotinst_notification_center}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/notification_center spotinst_notification_center}
 */
 export class NotificationCenter extends cdktf.TerraformResource {
 
@@ -998,7 +998,7 @@ export class NotificationCenter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NotificationCenter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NotificationCenter to import
-  * @param importFromId The id of the existing NotificationCenter that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/notification_center#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NotificationCenter that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/notification_center#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NotificationCenter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1010,7 +1010,7 @@ export class NotificationCenter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/notification_center spotinst_notification_center} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/notification_center spotinst_notification_center} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1021,8 +1021,8 @@ export class NotificationCenter extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_notification_center',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.230.0',
-        providerVersionConstraint: '1.230.0'
+        providerVersion: '1.231.0',
+        providerVersionConstraint: '1.231.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

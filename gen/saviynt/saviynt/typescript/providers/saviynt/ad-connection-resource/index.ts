@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,397 +10,397 @@ export interface AdConnectionResourceConfig extends cdktf.TerraformMetaArguments
   /**
   * Mapping for LDAP user to EIC account attribute. Example: '["ACCOUNTID::objectGUID#Binary", "NAME::sAMAccountName#String", ...]'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#account_attribute AdConnectionResource#account_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#account_attribute AdConnectionResource#account_attribute}
   */
   readonly accountAttribute?: string;
   /**
   * Rule to generate account name. Example: "uid=${task.accountName.toString().toLowerCase()},ou=People,dc=racf,dc=com"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#account_name_rule AdConnectionResource#account_name_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#account_name_rule AdConnectionResource#account_name_rule}
   */
   readonly accountNameRule?: string;
   /**
   * Advanced filter JSON configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#advance_filter_json AdConnectionResource#advance_filter_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#advance_filter_json AdConnectionResource#advance_filter_json}
   */
   readonly advanceFilterJson?: string;
   /**
   * Advanced search settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#advsearch AdConnectionResource#advsearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#advsearch AdConnectionResource#advsearch}
   */
   readonly advsearch?: string;
   /**
   * LDAP base DN. Example: "CN=Users,DC=Saviynt,DC=ABC,DC=Com"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#base AdConnectionResource#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#base AdConnectionResource#base}
   */
   readonly base?: string;
   /**
   * Uniqueness validation rule JSON. Example: '{"sAMAccountName":"${task.accountName}"}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#check_for_unique AdConnectionResource#check_for_unique}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#check_for_unique AdConnectionResource#check_for_unique}
   */
   readonly checkForUnique?: string;
   /**
   * JSON for connection timeout configuration. Example: '{"connectionTimeoutConfig":{"connectionTimeout":10,"readTimeout":50,"retryWait":2,"retryCount":3}}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#config_json AdConnectionResource#config_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#config_json AdConnectionResource#config_json}
   */
   readonly configJson?: string;
   /**
   * Name of the connection. Example: "Active Directory_Doc"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#connection_name AdConnectionResource#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#connection_name AdConnectionResource#connection_name}
   */
   readonly connectionName: string;
   /**
   * JSON to create an account. Example: '{"cn":"${cn}","displayname":"${user.displayname}", ...}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#create_account_json AdConnectionResource#create_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#create_account_json AdConnectionResource#create_account_json}
   */
   readonly createAccountJson?: string;
   /**
   * JSON for organization creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#create_org_json AdConnectionResource#create_org_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#create_org_json AdConnectionResource#create_org_json}
   */
   readonly createOrgJson?: string;
   /**
   * Mapping for group creation/updation (JSON string). Example: '{"cn":"${role?.customproperty27}","objectCategory":"CN=Group,CN=Schema,CN=Configuration,...}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#create_update_mappings AdConnectionResource#create_update_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#create_update_mappings AdConnectionResource#create_update_mappings}
   */
   readonly createUpdateMappings?: string;
   /**
   * Domain controller locator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#dc_locator AdConnectionResource#dc_locator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#dc_locator AdConnectionResource#dc_locator}
   */
   readonly dcLocator?: string;
   /**
   * Default SAV Role for imported users. Example: "ROLE_TASK_ADMIN"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#default_user_role AdConnectionResource#default_user_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#default_user_role AdConnectionResource#default_user_role}
   */
   readonly defaultUserRole?: string;
   /**
   * Default SAV roles for managing the connection. Example: "ROLE_ORG"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#defaultsavroles AdConnectionResource#defaultsavroles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#defaultsavroles AdConnectionResource#defaultsavroles}
   */
   readonly defaultsavroles?: string;
   /**
   * Description for the connection. Example: "ORG_AD"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#description AdConnectionResource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#description AdConnectionResource#description}
   */
   readonly description?: string;
   /**
   * JSON to disable an account. Example: '{"userAccountControl":"546", ...}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#disable_account_json AdConnectionResource#disable_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#disable_account_json AdConnectionResource#disable_account_json}
   */
   readonly disableAccountJson?: string;
   /**
   * Email template for notifications. Example: "New Account Task Creation"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#email_template AdConnectionResource#email_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#email_template AdConnectionResource#email_template}
   */
   readonly emailTemplate?: string;
   /**
   * JSON configuration to enable account actions. Example: '{"USEDNFROMACCOUNT":"NO", ...}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#enable_account_json AdConnectionResource#enable_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#enable_account_json AdConnectionResource#enable_account_json}
   */
   readonly enableAccountJson?: string;
   /**
   * Enable group management. Example: "TRUE"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#enable_group_management AdConnectionResource#enable_group_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#enable_group_management AdConnectionResource#enable_group_management}
   */
   readonly enableGroupManagement?: string;
   /**
   * Configuration for child endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#endpoints_filter AdConnectionResource#endpoints_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#endpoints_filter AdConnectionResource#endpoints_filter}
   */
   readonly endpointsFilter?: string;
   /**
   * Enforce tree deletion flag. Example: "TRUE"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#enforce_tree_deletion AdConnectionResource#enforce_tree_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#enforce_tree_deletion AdConnectionResource#enforce_tree_deletion}
   */
   readonly enforceTreeDeletion?: string;
   /**
   * Attribute used for entitlements. Example: "memberOf"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#entitlement_attribute AdConnectionResource#entitlement_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#entitlement_attribute AdConnectionResource#entitlement_attribute}
   */
   readonly entitlementAttribute?: string;
   /**
   * Simple filter string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#filter AdConnectionResource#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#filter AdConnectionResource#filter}
   */
   readonly filter?: string;
   /**
   * JSON mapping for LDAP groups. Example: '{"entitlementTypeName":"memberOf", ...}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#group_import_mapping AdConnectionResource#group_import_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#group_import_mapping AdConnectionResource#group_import_mapping}
   */
   readonly groupImportMapping?: string;
   /**
   * Base DN for group search. Example: "CN=Users,DC=Saviynt,DC=ABC,DC=Com"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#group_search_base_dn AdConnectionResource#group_search_base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#group_search_base_dn AdConnectionResource#group_search_base_dn}
   */
   readonly groupSearchBaseDn?: string;
   /**
   * JSON import configuration. Example: '{"envproperties":{"com.sun.jndi.ldap.connect.timeout":"10000",...}}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#import_json AdConnectionResource#import_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#import_json AdConnectionResource#import_json}
   */
   readonly importJson?: string;
   /**
   * Incremental import configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#incremental_config AdConnectionResource#incremental_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#incremental_config AdConnectionResource#incremental_config}
   */
   readonly incrementalConfig?: string;
   /**
   * Type of Endpoint - LDAP or AD. Default is 'AD'. Example: "AD"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#ldap_or_ad AdConnectionResource#ldap_or_ad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#ldap_or_ad AdConnectionResource#ldap_or_ad}
   */
   readonly ldapOrAd?: string;
   /**
   * Maximum change number. Example: "4"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#max_changenumber AdConnectionResource#max_changenumber}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#max_changenumber AdConnectionResource#max_changenumber}
   */
   readonly maxChangenumber?: string;
   /**
   * JSON for inline user data transformation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#modify_user_data_json AdConnectionResource#modify_user_data_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#modify_user_data_json AdConnectionResource#modify_user_data_json}
   */
   readonly modifyUserDataJson?: string;
   /**
   * LDAP object filter. Example: "(objectClass=inetorgperson)"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#objectfilter AdConnectionResource#objectfilter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#objectfilter AdConnectionResource#objectfilter}
   */
   readonly objectfilter?: string;
   /**
   * Organization BASE for provisioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#org_base AdConnectionResource#org_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#org_base AdConnectionResource#org_base}
   */
   readonly orgBase?: string;
   /**
   * JSON for organization import configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#org_import_json AdConnectionResource#org_import_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#org_import_json AdConnectionResource#org_import_json}
   */
   readonly orgImportJson?: string;
   /**
   * Organization attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#organization_attribute AdConnectionResource#organization_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#organization_attribute AdConnectionResource#organization_attribute}
   */
   readonly organizationAttribute?: string;
   /**
   * LDAP page size. Example: "1000"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#page_size AdConnectionResource#page_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#page_size AdConnectionResource#page_size}
   */
   readonly pageSize?: string;
   /**
   * JSON for PAM bootstrap configuration. Example: '{"Connection":"AD",...}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#pam_config AdConnectionResource#pam_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#pam_config AdConnectionResource#pam_config}
   */
   readonly pamConfig?: string;
   /**
   * Set the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#password AdConnectionResource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#password AdConnectionResource#password}
   */
   readonly password?: string;
   /**
   * Maximum password length. Example: "12"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#password_max_length AdConnectionResource#password_max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#password_max_length AdConnectionResource#password_max_length}
   */
   readonly passwordMaxLength?: string;
   /**
   * Minimum password length. Example: "8"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#password_min_length AdConnectionResource#password_min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#password_min_length AdConnectionResource#password_min_length}
   */
   readonly passwordMinLength?: string;
   /**
   * Number of capital letters required. Example: "2"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#password_noofcapsalpha AdConnectionResource#password_noofcapsalpha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#password_noofcapsalpha AdConnectionResource#password_noofcapsalpha}
   */
   readonly passwordNoofcapsalpha?: string;
   /**
   * Number of digits required. Example: "5"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#password_noofdigits AdConnectionResource#password_noofdigits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#password_noofdigits AdConnectionResource#password_noofdigits}
   */
   readonly passwordNoofdigits?: string;
   /**
   * Number of special characters required. Example: "1"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#password_noofsplchars AdConnectionResource#password_noofsplchars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#password_noofsplchars AdConnectionResource#password_noofsplchars}
   */
   readonly passwordNoofsplchars?: string;
   /**
   * Set the password_wo (write-only).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#password_wo AdConnectionResource#password_wo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#password_wo AdConnectionResource#password_wo}
   */
   readonly passwordWo?: string;
   /**
   * Flag for reading operational attributes. Example: "FALSE"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#read_operational_attributes AdConnectionResource#read_operational_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#read_operational_attributes AdConnectionResource#read_operational_attributes}
   */
   readonly readOperationalAttributes?: string;
   /**
   * Action on account removal. Example: '{"removeAction":"DELETE"}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#remove_account_action AdConnectionResource#remove_account_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#remove_account_action AdConnectionResource#remove_account_action}
   */
   readonly removeAccountAction?: string;
   /**
   * JSON for reset/change password actions. Example: '{"RESET":{"pwdLastSet":"0","title":"password reset"},"CHANGE":{"pwdLastSet":"-1","title":"password changed"}}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#reset_and_change_passwrd_json AdConnectionResource#reset_and_change_passwrd_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#reset_and_change_passwrd_json AdConnectionResource#reset_and_change_passwrd_json}
   */
   readonly resetAndChangePasswrdJson?: string;
   /**
   * JSON to reuse an account. Example: '{"ATTRIBUTESTOCHECK":{"userAccountControl":"514",...}}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#reuse_account_json AdConnectionResource#reuse_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#reuse_account_json AdConnectionResource#reuse_account_json}
   */
   readonly reuseAccountJson?: string;
   /**
   * Reuse inactive account flag. Example: "TRUE"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#reuse_inactive_account AdConnectionResource#reuse_inactive_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#reuse_inactive_account AdConnectionResource#reuse_inactive_account}
   */
   readonly reuseInactiveAccount?: string;
   /**
   * Flag indicating whether the encrypted attribute should be saved in the configured vault. Example: "false"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#save_in_vault AdConnectionResource#save_in_vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#save_in_vault AdConnectionResource#save_in_vault}
   */
   readonly saveInVault?: string;
   /**
   * LDAP search filter for users. Example: "OU=Users,DC=domainname,DC=com"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#searchfilter AdConnectionResource#searchfilter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#searchfilter AdConnectionResource#searchfilter}
   */
   readonly searchfilter?: string;
   /**
   * Option to set a random password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#set_random_password AdConnectionResource#set_random_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#set_random_password AdConnectionResource#set_random_password}
   */
   readonly setRandomPassword?: string;
   /**
   * Default page size setting. Example: "FALSE"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#setdefaultpagesize AdConnectionResource#setdefaultpagesize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#setdefaultpagesize AdConnectionResource#setdefaultpagesize}
   */
   readonly setdefaultpagesize?: string;
   /**
   * JSON for account status keys. Example: '{"STATUS_ACTIVE":["512","544"], ...}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#status_key_json AdConnectionResource#status_key_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#status_key_json AdConnectionResource#status_key_json}
   */
   readonly statusKeyJson?: string;
   /**
   * JSON configuration for status thresholds. Example: '{"statusAndThresholdConfig":{...}}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#status_threshold_config AdConnectionResource#status_threshold_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#status_threshold_config AdConnectionResource#status_threshold_config}
   */
   readonly statusThresholdConfig?: string;
   /**
   * Flag for sending empty values. Example: "FALSE"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#support_empty_string AdConnectionResource#support_empty_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#support_empty_string AdConnectionResource#support_empty_string}
   */
   readonly supportEmptyString?: string;
   /**
   * JSON to unlock accounts. Example: '{"lockoutTime":"0"}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#unlock_account_json AdConnectionResource#unlock_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#unlock_account_json AdConnectionResource#unlock_account_json}
   */
   readonly unlockAccountJson?: string;
   /**
   * JSON to update an account. Example: '{"uid":"${task.accountName.toString().toLowerCase()}", ...}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#update_account_json AdConnectionResource#update_account_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#update_account_json AdConnectionResource#update_account_json}
   */
   readonly updateAccountJson?: string;
   /**
   * JSON for organization update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#update_org_json AdConnectionResource#update_org_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#update_org_json AdConnectionResource#update_org_json}
   */
   readonly updateOrgJson?: string;
   /**
   * JSON to update a user. Example: '{"mail":"${user.email}", ...}'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#update_user_json AdConnectionResource#update_user_json}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#update_user_json AdConnectionResource#update_user_json}
   */
   readonly updateUserJson?: string;
   /**
   * LDAP or target system URL. Example: "ldap://uscentral.com:8972/"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#url AdConnectionResource#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#url AdConnectionResource#url}
   */
   readonly url?: string;
   /**
   * Mapping for LDAP user to EIC user attribute. Example: '["USERNAME::sAMAccountName#String", ...]'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#user_attribute AdConnectionResource#user_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#user_attribute AdConnectionResource#user_attribute}
   */
   readonly userAttribute?: string;
   /**
   * System admin username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#username AdConnectionResource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#username AdConnectionResource#username}
   */
   readonly username?: string;
   /**
   * JSON string specifying vault configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#vault_configuration AdConnectionResource#vault_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#vault_configuration AdConnectionResource#vault_configuration}
   */
   readonly vaultConfiguration?: string;
   /**
   * Specifies the type of vault connection being used (e.g., 'Hashicorp'). Example: "Hashicorp"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#vault_connection AdConnectionResource#vault_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#vault_connection AdConnectionResource#vault_connection}
   */
   readonly vaultConnection?: string;
   /**
   * Add/change the value of this attribute to update the writeonly attributes like username, password etc in connection resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#wo_version AdConnectionResource#wo_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#wo_version AdConnectionResource#wo_version}
   */
   readonly woVersion?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource saviynt_ad_connection_resource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource saviynt_ad_connection_resource}
 */
 export class AdConnectionResource extends cdktf.TerraformResource {
 
@@ -416,7 +416,7 @@ export class AdConnectionResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AdConnectionResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AdConnectionResource to import
-  * @param importFromId The id of the existing AdConnectionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AdConnectionResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AdConnectionResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -428,7 +428,7 @@ export class AdConnectionResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/ad_connection_resource saviynt_ad_connection_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/ad_connection_resource saviynt_ad_connection_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -439,8 +439,8 @@ export class AdConnectionResource extends cdktf.TerraformResource {
       terraformResourceType: 'saviynt_ad_connection_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.3.1',
-        providerVersionConstraint: '0.3.1'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

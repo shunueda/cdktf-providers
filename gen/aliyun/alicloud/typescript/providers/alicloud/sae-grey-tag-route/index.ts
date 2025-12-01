@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface SaeGreyTagRouteConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#app_id SaeGreyTagRoute#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#app_id SaeGreyTagRoute#app_id}
   */
   readonly appId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#description SaeGreyTagRoute#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#description SaeGreyTagRoute#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#grey_tag_route_name SaeGreyTagRoute#grey_tag_route_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#grey_tag_route_name SaeGreyTagRoute#grey_tag_route_name}
   */
   readonly greyTagRouteName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#id SaeGreyTagRoute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#id SaeGreyTagRoute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,41 +29,41 @@ export interface SaeGreyTagRouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * dubbo_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#dubbo_rules SaeGreyTagRoute#dubbo_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#dubbo_rules SaeGreyTagRoute#dubbo_rules}
   */
   readonly dubboRules?: SaeGreyTagRouteDubboRules[] | cdktf.IResolvable;
   /**
   * sc_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#sc_rules SaeGreyTagRoute#sc_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#sc_rules SaeGreyTagRoute#sc_rules}
   */
   readonly scRules?: SaeGreyTagRouteScRules[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#timeouts SaeGreyTagRoute#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#timeouts SaeGreyTagRoute#timeouts}
   */
   readonly timeouts?: SaeGreyTagRouteTimeouts;
 }
 export interface SaeGreyTagRouteDubboRulesItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#cond SaeGreyTagRoute#cond}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#cond SaeGreyTagRoute#cond}
   */
   readonly cond?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#expr SaeGreyTagRoute#expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#expr SaeGreyTagRoute#expr}
   */
   readonly expr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#index SaeGreyTagRoute#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#index SaeGreyTagRoute#index}
   */
   readonly index?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#operator SaeGreyTagRoute#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#operator SaeGreyTagRoute#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#value SaeGreyTagRoute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#value SaeGreyTagRoute#value}
   */
   readonly value?: string;
 }
@@ -295,29 +295,29 @@ export class SaeGreyTagRouteDubboRulesItemsList extends cdktf.ComplexList {
 }
 export interface SaeGreyTagRouteDubboRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#condition SaeGreyTagRoute#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#condition SaeGreyTagRoute#condition}
   */
   readonly condition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#group SaeGreyTagRoute#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#group SaeGreyTagRoute#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#method_name SaeGreyTagRoute#method_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#method_name SaeGreyTagRoute#method_name}
   */
   readonly methodName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#service_name SaeGreyTagRoute#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#service_name SaeGreyTagRoute#service_name}
   */
   readonly serviceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#version SaeGreyTagRoute#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#version SaeGreyTagRoute#version}
   */
   readonly version?: string;
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#items SaeGreyTagRoute#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#items SaeGreyTagRoute#items}
   */
   readonly items?: SaeGreyTagRouteDubboRulesItems[] | cdktf.IResolvable;
 }
@@ -578,23 +578,23 @@ export class SaeGreyTagRouteDubboRulesList extends cdktf.ComplexList {
 }
 export interface SaeGreyTagRouteScRulesItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#cond SaeGreyTagRoute#cond}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#cond SaeGreyTagRoute#cond}
   */
   readonly cond?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#name SaeGreyTagRoute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#name SaeGreyTagRoute#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#operator SaeGreyTagRoute#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#operator SaeGreyTagRoute#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#type SaeGreyTagRoute#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#type SaeGreyTagRoute#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#value SaeGreyTagRoute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#value SaeGreyTagRoute#value}
   */
   readonly value?: string;
 }
@@ -826,17 +826,17 @@ export class SaeGreyTagRouteScRulesItemsList extends cdktf.ComplexList {
 }
 export interface SaeGreyTagRouteScRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#condition SaeGreyTagRoute#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#condition SaeGreyTagRoute#condition}
   */
   readonly condition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#path SaeGreyTagRoute#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#path SaeGreyTagRoute#path}
   */
   readonly path?: string;
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#items SaeGreyTagRoute#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#items SaeGreyTagRoute#items}
   */
   readonly items?: SaeGreyTagRouteScRulesItems[] | cdktf.IResolvable;
 }
@@ -1010,15 +1010,15 @@ export class SaeGreyTagRouteScRulesList extends cdktf.ComplexList {
 }
 export interface SaeGreyTagRouteTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#create SaeGreyTagRoute#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#create SaeGreyTagRoute#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#delete SaeGreyTagRoute#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#delete SaeGreyTagRoute#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#update SaeGreyTagRoute#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#update SaeGreyTagRoute#update}
   */
   readonly update?: string;
 }
@@ -1170,7 +1170,7 @@ export class SaeGreyTagRouteTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route alicloud_sae_grey_tag_route}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route alicloud_sae_grey_tag_route}
 */
 export class SaeGreyTagRoute extends cdktf.TerraformResource {
 
@@ -1186,7 +1186,7 @@ export class SaeGreyTagRoute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SaeGreyTagRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SaeGreyTagRoute to import
-  * @param importFromId The id of the existing SaeGreyTagRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SaeGreyTagRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SaeGreyTagRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1198,7 +1198,7 @@ export class SaeGreyTagRoute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/sae_grey_tag_route alicloud_sae_grey_tag_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/sae_grey_tag_route alicloud_sae_grey_tag_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1209,8 +1209,8 @@ export class SaeGreyTagRoute extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_sae_grey_tag_route',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

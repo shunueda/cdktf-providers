@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_rule_attachment
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_rule_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface PvtzRuleAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_rule_attachment#id PvtzRuleAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_rule_attachment#id PvtzRuleAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_rule_attachment#rule_id PvtzRuleAttachment#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_rule_attachment#rule_id PvtzRuleAttachment#rule_id}
   */
   readonly ruleId: string;
   /**
   * vpcs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_rule_attachment#vpcs PvtzRuleAttachment#vpcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_rule_attachment#vpcs PvtzRuleAttachment#vpcs}
   */
   readonly vpcs: PvtzRuleAttachmentVpcs[] | cdktf.IResolvable;
 }
 export interface PvtzRuleAttachmentVpcs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_rule_attachment#region_id PvtzRuleAttachment#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_rule_attachment#region_id PvtzRuleAttachment#region_id}
   */
   readonly regionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_rule_attachment#vpc_id PvtzRuleAttachment#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_rule_attachment#vpc_id PvtzRuleAttachment#vpc_id}
   */
   readonly vpcId: string;
 }
@@ -170,7 +170,7 @@ export class PvtzRuleAttachmentVpcsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_rule_attachment alicloud_pvtz_rule_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_rule_attachment alicloud_pvtz_rule_attachment}
 */
 export class PvtzRuleAttachment extends cdktf.TerraformResource {
 
@@ -186,7 +186,7 @@ export class PvtzRuleAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PvtzRuleAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PvtzRuleAttachment to import
-  * @param importFromId The id of the existing PvtzRuleAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_rule_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PvtzRuleAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_rule_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PvtzRuleAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -198,7 +198,7 @@ export class PvtzRuleAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/pvtz_rule_attachment alicloud_pvtz_rule_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/pvtz_rule_attachment alicloud_pvtz_rule_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -209,8 +209,8 @@ export class PvtzRuleAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_pvtz_rule_attachment',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

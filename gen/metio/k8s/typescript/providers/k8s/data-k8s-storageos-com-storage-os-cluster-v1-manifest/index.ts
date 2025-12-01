@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SStorageosComStorageOsClusterV1ManifestConfig extends cdk
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#metadata DataK8SStorageosComStorageOsClusterV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#metadata DataK8SStorageosComStorageOsClusterV1Manifest#metadata}
   */
   readonly metadata: DataK8SStorageosComStorageOsClusterV1ManifestMetadata;
   /**
   * StorageOSClusterSpec defines the desired state of StorageOSCluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#spec DataK8SStorageosComStorageOsClusterV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#spec DataK8SStorageosComStorageOsClusterV1Manifest#spec}
   */
   readonly spec?: DataK8SStorageosComStorageOsClusterV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SStorageosComStorageOsClusterV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#annotations DataK8SStorageosComStorageOsClusterV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#annotations DataK8SStorageosComStorageOsClusterV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#labels DataK8SStorageosComStorageOsClusterV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#labels DataK8SStorageosComStorageOsClusterV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#name DataK8SStorageosComStorageOsClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#name DataK8SStorageosComStorageOsClusterV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#namespace DataK8SStorageosComStorageOsClusterV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#namespace DataK8SStorageosComStorageOsClusterV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResou
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -350,13 +350,13 @@ export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResou
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -481,13 +481,13 @@ export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResou
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -612,13 +612,13 @@ export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResou
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -743,13 +743,13 @@ export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResou
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -874,13 +874,13 @@ export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResou
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1005,13 +1005,13 @@ export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResou
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1136,13 +1136,13 @@ export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResou
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1267,13 +1267,13 @@ export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResou
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1398,13 +1398,13 @@ export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResou
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1529,13 +1529,13 @@ export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResou
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1660,13 +1660,13 @@ export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResou
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1791,13 +1791,13 @@ export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResou
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -1922,13 +1922,13 @@ export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResou
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2053,13 +2053,13 @@ export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResou
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -2184,91 +2184,91 @@ export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResou
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#api_manager_container DataK8SStorageosComStorageOsClusterV1Manifest#api_manager_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#api_manager_container DataK8SStorageosComStorageOsClusterV1Manifest#api_manager_container}
   */
   readonly apiManagerContainer?: DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResourcesApiManagerContainer;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#cli_container DataK8SStorageosComStorageOsClusterV1Manifest#cli_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#cli_container DataK8SStorageosComStorageOsClusterV1Manifest#cli_container}
   */
   readonly cliContainer?: DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResourcesCliContainer;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi_external_attacher_container DataK8SStorageosComStorageOsClusterV1Manifest#csi_external_attacher_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi_external_attacher_container DataK8SStorageosComStorageOsClusterV1Manifest#csi_external_attacher_container}
   */
   readonly csiExternalAttacherContainer?: DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResourcesCsiExternalAttacherContainer;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi_external_provisioner_container DataK8SStorageosComStorageOsClusterV1Manifest#csi_external_provisioner_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi_external_provisioner_container DataK8SStorageosComStorageOsClusterV1Manifest#csi_external_provisioner_container}
   */
   readonly csiExternalProvisionerContainer?: DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResourcesCsiExternalProvisionerContainer;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi_external_resizer_container DataK8SStorageosComStorageOsClusterV1Manifest#csi_external_resizer_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi_external_resizer_container DataK8SStorageosComStorageOsClusterV1Manifest#csi_external_resizer_container}
   */
   readonly csiExternalResizerContainer?: DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResourcesCsiExternalResizerContainer;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi_external_snapshotter_container DataK8SStorageosComStorageOsClusterV1Manifest#csi_external_snapshotter_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi_external_snapshotter_container DataK8SStorageosComStorageOsClusterV1Manifest#csi_external_snapshotter_container}
   */
   readonly csiExternalSnapshotterContainer?: DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResourcesCsiExternalSnapshotterContainer;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi_liveness_probe_container DataK8SStorageosComStorageOsClusterV1Manifest#csi_liveness_probe_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi_liveness_probe_container DataK8SStorageosComStorageOsClusterV1Manifest#csi_liveness_probe_container}
   */
   readonly csiLivenessProbeContainer?: DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResourcesCsiLivenessProbeContainer;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi_node_driver_registrar_container DataK8SStorageosComStorageOsClusterV1Manifest#csi_node_driver_registrar_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi_node_driver_registrar_container DataK8SStorageosComStorageOsClusterV1Manifest#csi_node_driver_registrar_container}
   */
   readonly csiNodeDriverRegistrarContainer?: DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResourcesCsiNodeDriverRegistrarContainer;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#init_container DataK8SStorageosComStorageOsClusterV1Manifest#init_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#init_container DataK8SStorageosComStorageOsClusterV1Manifest#init_container}
   */
   readonly initContainer?: DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResourcesInitContainer;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#kube_scheduler_container DataK8SStorageosComStorageOsClusterV1Manifest#kube_scheduler_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#kube_scheduler_container DataK8SStorageosComStorageOsClusterV1Manifest#kube_scheduler_container}
   */
   readonly kubeSchedulerContainer?: DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResourcesKubeSchedulerContainer;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#metrics_exporter_container DataK8SStorageosComStorageOsClusterV1Manifest#metrics_exporter_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#metrics_exporter_container DataK8SStorageosComStorageOsClusterV1Manifest#metrics_exporter_container}
   */
   readonly metricsExporterContainer?: DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResourcesMetricsExporterContainer;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#node_container DataK8SStorageosComStorageOsClusterV1Manifest#node_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#node_container DataK8SStorageosComStorageOsClusterV1Manifest#node_container}
   */
   readonly nodeContainer?: DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResourcesNodeContainer;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#node_manager_container DataK8SStorageosComStorageOsClusterV1Manifest#node_manager_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#node_manager_container DataK8SStorageosComStorageOsClusterV1Manifest#node_manager_container}
   */
   readonly nodeManagerContainer?: DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResourcesNodeManagerContainer;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#portal_manager_container DataK8SStorageosComStorageOsClusterV1Manifest#portal_manager_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#portal_manager_container DataK8SStorageosComStorageOsClusterV1Manifest#portal_manager_container}
   */
   readonly portalManagerContainer?: DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResourcesPortalManagerContainer;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#snapshot_controller_container DataK8SStorageosComStorageOsClusterV1Manifest#snapshot_controller_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#snapshot_controller_container DataK8SStorageosComStorageOsClusterV1Manifest#snapshot_controller_container}
   */
   readonly snapshotControllerContainer?: DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResourcesSnapshotControllerContainer;
 }
@@ -2768,87 +2768,87 @@ export class DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResources
 }
 export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecCsi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#attacher_timeout DataK8SStorageosComStorageOsClusterV1Manifest#attacher_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#attacher_timeout DataK8SStorageosComStorageOsClusterV1Manifest#attacher_timeout}
   */
   readonly attacherTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#deployment_strategy DataK8SStorageosComStorageOsClusterV1Manifest#deployment_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#deployment_strategy DataK8SStorageosComStorageOsClusterV1Manifest#deployment_strategy}
   */
   readonly deploymentStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#device_dir DataK8SStorageosComStorageOsClusterV1Manifest#device_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#device_dir DataK8SStorageosComStorageOsClusterV1Manifest#device_dir}
   */
   readonly deviceDir?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#driver_registeration_mode DataK8SStorageosComStorageOsClusterV1Manifest#driver_registeration_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#driver_registeration_mode DataK8SStorageosComStorageOsClusterV1Manifest#driver_registeration_mode}
   */
   readonly driverRegisterationMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#driver_requires_attachment DataK8SStorageosComStorageOsClusterV1Manifest#driver_requires_attachment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#driver_requires_attachment DataK8SStorageosComStorageOsClusterV1Manifest#driver_requires_attachment}
   */
   readonly driverRequiresAttachment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#enable DataK8SStorageosComStorageOsClusterV1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#enable DataK8SStorageosComStorageOsClusterV1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#enable_controller_expand_creds DataK8SStorageosComStorageOsClusterV1Manifest#enable_controller_expand_creds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#enable_controller_expand_creds DataK8SStorageosComStorageOsClusterV1Manifest#enable_controller_expand_creds}
   */
   readonly enableControllerExpandCreds?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#enable_controller_publish_creds DataK8SStorageosComStorageOsClusterV1Manifest#enable_controller_publish_creds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#enable_controller_publish_creds DataK8SStorageosComStorageOsClusterV1Manifest#enable_controller_publish_creds}
   */
   readonly enableControllerPublishCreds?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#enable_node_publish_creds DataK8SStorageosComStorageOsClusterV1Manifest#enable_node_publish_creds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#enable_node_publish_creds DataK8SStorageosComStorageOsClusterV1Manifest#enable_node_publish_creds}
   */
   readonly enableNodePublishCreds?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#enable_provision_creds DataK8SStorageosComStorageOsClusterV1Manifest#enable_provision_creds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#enable_provision_creds DataK8SStorageosComStorageOsClusterV1Manifest#enable_provision_creds}
   */
   readonly enableProvisionCreds?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#endpoint DataK8SStorageosComStorageOsClusterV1Manifest#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#endpoint DataK8SStorageosComStorageOsClusterV1Manifest#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#kubelet_dir DataK8SStorageosComStorageOsClusterV1Manifest#kubelet_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#kubelet_dir DataK8SStorageosComStorageOsClusterV1Manifest#kubelet_dir}
   */
   readonly kubeletDir?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#kubelet_registration_path DataK8SStorageosComStorageOsClusterV1Manifest#kubelet_registration_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#kubelet_registration_path DataK8SStorageosComStorageOsClusterV1Manifest#kubelet_registration_path}
   */
   readonly kubeletRegistrationPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#plugin_dir DataK8SStorageosComStorageOsClusterV1Manifest#plugin_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#plugin_dir DataK8SStorageosComStorageOsClusterV1Manifest#plugin_dir}
   */
   readonly pluginDir?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#provisioner_timeout DataK8SStorageosComStorageOsClusterV1Manifest#provisioner_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#provisioner_timeout DataK8SStorageosComStorageOsClusterV1Manifest#provisioner_timeout}
   */
   readonly provisionerTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#provisioner_worker_count DataK8SStorageosComStorageOsClusterV1Manifest#provisioner_worker_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#provisioner_worker_count DataK8SStorageosComStorageOsClusterV1Manifest#provisioner_worker_count}
   */
   readonly provisionerWorkerCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#registrar_socket_dir DataK8SStorageosComStorageOsClusterV1Manifest#registrar_socket_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#registrar_socket_dir DataK8SStorageosComStorageOsClusterV1Manifest#registrar_socket_dir}
   */
   readonly registrarSocketDir?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#registration_dir DataK8SStorageosComStorageOsClusterV1Manifest#registration_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#registration_dir DataK8SStorageosComStorageOsClusterV1Manifest#registration_dir}
   */
   readonly registrationDir?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#resizer_timeout DataK8SStorageosComStorageOsClusterV1Manifest#resizer_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#resizer_timeout DataK8SStorageosComStorageOsClusterV1Manifest#resizer_timeout}
   */
   readonly resizerTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#snapshotter_timeout DataK8SStorageosComStorageOsClusterV1Manifest#snapshotter_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#snapshotter_timeout DataK8SStorageosComStorageOsClusterV1Manifest#snapshotter_timeout}
   */
   readonly snapshotterTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#version DataK8SStorageosComStorageOsClusterV1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#version DataK8SStorageosComStorageOsClusterV1Manifest#version}
   */
   readonly version?: string;
 }
@@ -3522,79 +3522,79 @@ export class DataK8SStorageosComStorageOsClusterV1ManifestSpecCsiOutputReference
 }
 export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecImages {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#api_manager_container DataK8SStorageosComStorageOsClusterV1Manifest#api_manager_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#api_manager_container DataK8SStorageosComStorageOsClusterV1Manifest#api_manager_container}
   */
   readonly apiManagerContainer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#cli_container DataK8SStorageosComStorageOsClusterV1Manifest#cli_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#cli_container DataK8SStorageosComStorageOsClusterV1Manifest#cli_container}
   */
   readonly cliContainer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi_cluster_driver_registrar_container DataK8SStorageosComStorageOsClusterV1Manifest#csi_cluster_driver_registrar_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi_cluster_driver_registrar_container DataK8SStorageosComStorageOsClusterV1Manifest#csi_cluster_driver_registrar_container}
   */
   readonly csiClusterDriverRegistrarContainer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi_external_attacher_container DataK8SStorageosComStorageOsClusterV1Manifest#csi_external_attacher_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi_external_attacher_container DataK8SStorageosComStorageOsClusterV1Manifest#csi_external_attacher_container}
   */
   readonly csiExternalAttacherContainer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi_external_provisioner_container DataK8SStorageosComStorageOsClusterV1Manifest#csi_external_provisioner_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi_external_provisioner_container DataK8SStorageosComStorageOsClusterV1Manifest#csi_external_provisioner_container}
   */
   readonly csiExternalProvisionerContainer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi_external_resizer_container DataK8SStorageosComStorageOsClusterV1Manifest#csi_external_resizer_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi_external_resizer_container DataK8SStorageosComStorageOsClusterV1Manifest#csi_external_resizer_container}
   */
   readonly csiExternalResizerContainer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi_external_snapshotter_container DataK8SStorageosComStorageOsClusterV1Manifest#csi_external_snapshotter_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi_external_snapshotter_container DataK8SStorageosComStorageOsClusterV1Manifest#csi_external_snapshotter_container}
   */
   readonly csiExternalSnapshotterContainer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi_liveness_probe_container DataK8SStorageosComStorageOsClusterV1Manifest#csi_liveness_probe_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi_liveness_probe_container DataK8SStorageosComStorageOsClusterV1Manifest#csi_liveness_probe_container}
   */
   readonly csiLivenessProbeContainer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi_node_driver_registrar_container DataK8SStorageosComStorageOsClusterV1Manifest#csi_node_driver_registrar_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi_node_driver_registrar_container DataK8SStorageosComStorageOsClusterV1Manifest#csi_node_driver_registrar_container}
   */
   readonly csiNodeDriverRegistrarContainer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#hyperkube_container DataK8SStorageosComStorageOsClusterV1Manifest#hyperkube_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#hyperkube_container DataK8SStorageosComStorageOsClusterV1Manifest#hyperkube_container}
   */
   readonly hyperkubeContainer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#init_container DataK8SStorageosComStorageOsClusterV1Manifest#init_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#init_container DataK8SStorageosComStorageOsClusterV1Manifest#init_container}
   */
   readonly initContainer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#kube_scheduler_container DataK8SStorageosComStorageOsClusterV1Manifest#kube_scheduler_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#kube_scheduler_container DataK8SStorageosComStorageOsClusterV1Manifest#kube_scheduler_container}
   */
   readonly kubeSchedulerContainer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#metrics_exporter_container DataK8SStorageosComStorageOsClusterV1Manifest#metrics_exporter_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#metrics_exporter_container DataK8SStorageosComStorageOsClusterV1Manifest#metrics_exporter_container}
   */
   readonly metricsExporterContainer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#nfs_container DataK8SStorageosComStorageOsClusterV1Manifest#nfs_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#nfs_container DataK8SStorageosComStorageOsClusterV1Manifest#nfs_container}
   */
   readonly nfsContainer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#node_container DataK8SStorageosComStorageOsClusterV1Manifest#node_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#node_container DataK8SStorageosComStorageOsClusterV1Manifest#node_container}
   */
   readonly nodeContainer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#node_guard_container DataK8SStorageosComStorageOsClusterV1Manifest#node_guard_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#node_guard_container DataK8SStorageosComStorageOsClusterV1Manifest#node_guard_container}
   */
   readonly nodeGuardContainer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#node_manager_container DataK8SStorageosComStorageOsClusterV1Manifest#node_manager_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#node_manager_container DataK8SStorageosComStorageOsClusterV1Manifest#node_manager_container}
   */
   readonly nodeManagerContainer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#portal_manager_container DataK8SStorageosComStorageOsClusterV1Manifest#portal_manager_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#portal_manager_container DataK8SStorageosComStorageOsClusterV1Manifest#portal_manager_container}
   */
   readonly portalManagerContainer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#snapshot_controller_container DataK8SStorageosComStorageOsClusterV1Manifest#snapshot_controller_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#snapshot_controller_container DataK8SStorageosComStorageOsClusterV1Manifest#snapshot_controller_container}
   */
   readonly snapshotControllerContainer?: string;
 }
@@ -4210,19 +4210,19 @@ export class DataK8SStorageosComStorageOsClusterV1ManifestSpecImagesOutputRefere
 }
 export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecIngress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#annotations DataK8SStorageosComStorageOsClusterV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#annotations DataK8SStorageosComStorageOsClusterV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#enable DataK8SStorageosComStorageOsClusterV1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#enable DataK8SStorageosComStorageOsClusterV1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#hostname DataK8SStorageosComStorageOsClusterV1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#hostname DataK8SStorageosComStorageOsClusterV1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#tls DataK8SStorageosComStorageOsClusterV1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#tls DataK8SStorageosComStorageOsClusterV1Manifest#tls}
   */
   readonly tls?: boolean | cdktf.IResolvable;
 }
@@ -4403,11 +4403,11 @@ export class DataK8SStorageosComStorageOsClusterV1ManifestSpecIngressOutputRefer
 }
 export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecKvBackend {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#address DataK8SStorageosComStorageOsClusterV1Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#address DataK8SStorageosComStorageOsClusterV1Manifest#address}
   */
   readonly address: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#backend DataK8SStorageosComStorageOsClusterV1Manifest#backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#backend DataK8SStorageosComStorageOsClusterV1Manifest#backend}
   */
   readonly backend?: string;
 }
@@ -4529,23 +4529,23 @@ export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecMetrics {
   /**
   * DisabledCollectors is a list of collectors that shall be disabled. By default, all are enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#disabled_collectors DataK8SStorageosComStorageOsClusterV1Manifest#disabled_collectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#disabled_collectors DataK8SStorageosComStorageOsClusterV1Manifest#disabled_collectors}
   */
   readonly disabledCollectors?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#enabled DataK8SStorageosComStorageOsClusterV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#enabled DataK8SStorageosComStorageOsClusterV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Verbosity of log messages. Accepts go.uber.org/zap log levels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#log_level DataK8SStorageosComStorageOsClusterV1Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#log_level DataK8SStorageosComStorageOsClusterV1Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * Timeout in seconds to serve metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#timeout DataK8SStorageosComStorageOsClusterV1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#timeout DataK8SStorageosComStorageOsClusterV1Manifest#timeout}
   */
   readonly timeout?: number;
 }
@@ -4728,19 +4728,19 @@ export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecNodeSelectorTe
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#key DataK8SStorageosComStorageOsClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#key DataK8SStorageosComStorageOsClusterV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#operator DataK8SStorageosComStorageOsClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#operator DataK8SStorageosComStorageOsClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#values DataK8SStorageosComStorageOsClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#values DataK8SStorageosComStorageOsClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -4910,19 +4910,19 @@ export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecNodeSelectorTe
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#key DataK8SStorageosComStorageOsClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#key DataK8SStorageosComStorageOsClusterV1Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#operator DataK8SStorageosComStorageOsClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#operator DataK8SStorageosComStorageOsClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#values DataK8SStorageosComStorageOsClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#values DataK8SStorageosComStorageOsClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -5092,13 +5092,13 @@ export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecNodeSelectorTe
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#match_expressions DataK8SStorageosComStorageOsClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#match_expressions DataK8SStorageosComStorageOsClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SStorageosComStorageOsClusterV1ManifestSpecNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#match_fields DataK8SStorageosComStorageOsClusterV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#match_fields DataK8SStorageosComStorageOsClusterV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SStorageosComStorageOsClusterV1ManifestSpecNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -5245,13 +5245,13 @@ export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecResources {
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#limits DataK8SStorageosComStorageOsClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#requests DataK8SStorageosComStorageOsClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -5374,23 +5374,23 @@ export class DataK8SStorageosComStorageOsClusterV1ManifestSpecResourcesOutputRef
 }
 export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#annotations DataK8SStorageosComStorageOsClusterV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#annotations DataK8SStorageosComStorageOsClusterV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#external_port DataK8SStorageosComStorageOsClusterV1Manifest#external_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#external_port DataK8SStorageosComStorageOsClusterV1Manifest#external_port}
   */
   readonly externalPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#internal_port DataK8SStorageosComStorageOsClusterV1Manifest#internal_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#internal_port DataK8SStorageosComStorageOsClusterV1Manifest#internal_port}
   */
   readonly internalPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#name DataK8SStorageosComStorageOsClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#name DataK8SStorageosComStorageOsClusterV1Manifest#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#type DataK8SStorageosComStorageOsClusterV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#type DataK8SStorageosComStorageOsClusterV1Manifest#type}
   */
   readonly type: string;
 }
@@ -5596,7 +5596,7 @@ export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecSnapshots {
   /**
   * VolumeSnapshotClassName is the name of default VolumeSnapshotClass created for StorageOS volumes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#volume_snapshot_class_name DataK8SStorageosComStorageOsClusterV1Manifest#volume_snapshot_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#volume_snapshot_class_name DataK8SStorageosComStorageOsClusterV1Manifest#volume_snapshot_class_name}
   */
   readonly volumeSnapshotClassName?: string;
 }
@@ -5692,31 +5692,31 @@ export interface DataK8SStorageosComStorageOsClusterV1ManifestSpecTolerations {
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#effect DataK8SStorageosComStorageOsClusterV1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#effect DataK8SStorageosComStorageOsClusterV1Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#key DataK8SStorageosComStorageOsClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#key DataK8SStorageosComStorageOsClusterV1Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#operator DataK8SStorageosComStorageOsClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#operator DataK8SStorageosComStorageOsClusterV1Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#toleration_seconds DataK8SStorageosComStorageOsClusterV1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#toleration_seconds DataK8SStorageosComStorageOsClusterV1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#value DataK8SStorageosComStorageOsClusterV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#value DataK8SStorageosComStorageOsClusterV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -5950,187 +5950,187 @@ export interface DataK8SStorageosComStorageOsClusterV1ManifestSpec {
   /**
   * ContainerResources is to set the resource requirements of each individual container managed by the operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#container_resources DataK8SStorageosComStorageOsClusterV1Manifest#container_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#container_resources DataK8SStorageosComStorageOsClusterV1Manifest#container_resources}
   */
   readonly containerResources?: DataK8SStorageosComStorageOsClusterV1ManifestSpecContainerResources;
   /**
   * CSI defines the configurations for CSI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi DataK8SStorageosComStorageOsClusterV1Manifest#csi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#csi DataK8SStorageosComStorageOsClusterV1Manifest#csi}
   */
   readonly csi?: DataK8SStorageosComStorageOsClusterV1ManifestSpecCsi;
   /**
   * Debug is to set debug mode of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#debug DataK8SStorageosComStorageOsClusterV1Manifest#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#debug DataK8SStorageosComStorageOsClusterV1Manifest#debug}
   */
   readonly debug?: boolean | cdktf.IResolvable;
   /**
   * Disable StorageOS CLI deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#disable_cli DataK8SStorageosComStorageOsClusterV1Manifest#disable_cli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#disable_cli DataK8SStorageosComStorageOsClusterV1Manifest#disable_cli}
   */
   readonly disableCli?: boolean | cdktf.IResolvable;
   /**
   * Disable Pod Fencing. With StatefulSets, Pods are only re-scheduled if the Pod has been marked as killed. In practice this means that failover of a StatefulSet pod is a manual operation. By enabling Pod Fencing and setting the 'storageos.com/fenced=true' label on a Pod, StorageOS will enable automated Pod failover (by killing the application Pod on the failed node) if the following conditions exist: - Pod fencing has not been explicitly disabled. - StorageOS has determined that the node the Pod is running on is offline. StorageOS uses Gossip and TCP checks and will retry for 30 seconds. At this point all volumes on the failed node are marked offline (irrespective of whether fencing is enabled) and volume failover starts. - The Pod has the label 'storageos.com/fenced=true' set. - The Pod has at least one StorageOS volume attached. - Each StorageOS volume has at least 1 healthy replica. When Pod Fencing is disabled, StorageOS will not perform any interaction with Kubernetes when it detects that a node has gone offline. Additionally, the Kubernetes permissions required for Fencing will not be added to the StorageOS role. Deprecated: Not used any more, fencing is enabled/disabled by storageos.com/fenced label on pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#disable_fencing DataK8SStorageosComStorageOsClusterV1Manifest#disable_fencing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#disable_fencing DataK8SStorageosComStorageOsClusterV1Manifest#disable_fencing}
   */
   readonly disableFencing?: boolean | cdktf.IResolvable;
   /**
   * Disable StorageOS scheduler extender.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#disable_scheduler DataK8SStorageosComStorageOsClusterV1Manifest#disable_scheduler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#disable_scheduler DataK8SStorageosComStorageOsClusterV1Manifest#disable_scheduler}
   */
   readonly disableScheduler?: boolean | cdktf.IResolvable;
   /**
   * Disable TCMU can be set to true to disable the TCMU storage driver. This is required when there are multiple storage systems running on the same node and you wish to avoid conflicts. Only one TCMU-based storage system can run on a node at a time. Disabling TCMU will degrade performance. Deprecated: Not used any more.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#disable_tcmu DataK8SStorageosComStorageOsClusterV1Manifest#disable_tcmu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#disable_tcmu DataK8SStorageosComStorageOsClusterV1Manifest#disable_tcmu}
   */
   readonly disableTcmu?: boolean | cdktf.IResolvable;
   /**
   * Disable Telemetry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#disable_telemetry DataK8SStorageosComStorageOsClusterV1Manifest#disable_telemetry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#disable_telemetry DataK8SStorageosComStorageOsClusterV1Manifest#disable_telemetry}
   */
   readonly disableTelemetry?: boolean | cdktf.IResolvable;
   /**
   * EnablePortalManager enables Portal Manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#enable_portal_manager DataK8SStorageosComStorageOsClusterV1Manifest#enable_portal_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#enable_portal_manager DataK8SStorageosComStorageOsClusterV1Manifest#enable_portal_manager}
   */
   readonly enablePortalManager?: boolean | cdktf.IResolvable;
   /**
   * Environment contains environment variables that are passed to StorageOS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#environment DataK8SStorageosComStorageOsClusterV1Manifest#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#environment DataK8SStorageosComStorageOsClusterV1Manifest#environment}
   */
   readonly environment?: { [key: string]: string };
   /**
   * Force TCMU can be set to true to ensure that TCMU is enabled or cause StorageOS to abort startup. At startup, StorageOS will automatically fallback to non-TCMU mode if another TCMU-based storage system is running on the node. Since non-TCMU will degrade performance, this may not always be desired. Deprecated: Not used any more.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#force_tcmu DataK8SStorageosComStorageOsClusterV1Manifest#force_tcmu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#force_tcmu DataK8SStorageosComStorageOsClusterV1Manifest#force_tcmu}
   */
   readonly forceTcmu?: boolean | cdktf.IResolvable;
   /**
   * Images defines the various container images used in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#images DataK8SStorageosComStorageOsClusterV1Manifest#images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#images DataK8SStorageosComStorageOsClusterV1Manifest#images}
   */
   readonly images?: DataK8SStorageosComStorageOsClusterV1ManifestSpecImages;
   /**
   * Ingress defines the ingress configurations used in the cluster. Deprecated: Not used any more, please create your ingress for dashboard on your own.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#ingress DataK8SStorageosComStorageOsClusterV1Manifest#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#ingress DataK8SStorageosComStorageOsClusterV1Manifest#ingress}
   */
   readonly ingress?: DataK8SStorageosComStorageOsClusterV1ManifestSpecIngress;
   /**
   * Join is the join token used for service discovery. Deprecated: Not used any more.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#join DataK8SStorageosComStorageOsClusterV1Manifest#join}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#join DataK8SStorageosComStorageOsClusterV1Manifest#join}
   */
   readonly join?: string;
   /**
   * K8sDistro is the name of the Kubernetes distribution where the operator is being deployed. It should be in the format: 'name[-1.0]', where the version is optional and should only be appended if known. Suitable names include: 'openshift', 'rancher', 'aks', 'gke', 'eks', or the deployment method if using upstream directly, e.g 'minishift' or 'kubeadm'. Setting k8sDistro is optional, and will be used to simplify cluster configuration by setting appropriate defaults for the distribution. The distribution information will also be included in the product telemetry (if enabled), to help focus development efforts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#k8s_distro DataK8SStorageosComStorageOsClusterV1Manifest#k8s_distro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#k8s_distro DataK8SStorageosComStorageOsClusterV1Manifest#k8s_distro}
   */
   readonly k8SDistro?: string;
   /**
   * KVBackend defines the key-value store backend used in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#kv_backend DataK8SStorageosComStorageOsClusterV1Manifest#kv_backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#kv_backend DataK8SStorageosComStorageOsClusterV1Manifest#kv_backend}
   */
   readonly kvBackend: DataK8SStorageosComStorageOsClusterV1ManifestSpecKvBackend;
   /**
   * Metrics feature configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#metrics DataK8SStorageosComStorageOsClusterV1Manifest#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#metrics DataK8SStorageosComStorageOsClusterV1Manifest#metrics}
   */
   readonly metrics?: DataK8SStorageosComStorageOsClusterV1ManifestSpecMetrics;
   /**
   * Namespace is the kubernetes Namespace where storageos resources are provisioned. Deprecated: StorageOS uses namespace of storageosclusters.storageos.com resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#namespace DataK8SStorageosComStorageOsClusterV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#namespace DataK8SStorageosComStorageOsClusterV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Node manager feature list with optional configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#node_manager_features DataK8SStorageosComStorageOsClusterV1Manifest#node_manager_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#node_manager_features DataK8SStorageosComStorageOsClusterV1Manifest#node_manager_features}
   */
   readonly nodeManagerFeatures?: { [key: string]: string };
   /**
   * NodeSelectorTerms is to set the placement of storageos pods using node affinity requiredDuringSchedulingIgnoredDuringExecution.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#node_selector_terms DataK8SStorageosComStorageOsClusterV1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#node_selector_terms DataK8SStorageosComStorageOsClusterV1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms?: DataK8SStorageosComStorageOsClusterV1ManifestSpecNodeSelectorTerms[] | cdktf.IResolvable;
   /**
   * Pause is to pause the operator for the cluster. Deprecated: Not used any more, operator is always running.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#pause DataK8SStorageosComStorageOsClusterV1Manifest#pause}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#pause DataK8SStorageosComStorageOsClusterV1Manifest#pause}
   */
   readonly pause?: boolean | cdktf.IResolvable;
   /**
   * Resources is to set the resource requirements of the storageos containers. Deprecated: Set resource requests for individual containers via ContainerResources field in spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#resources DataK8SStorageosComStorageOsClusterV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#resources DataK8SStorageosComStorageOsClusterV1Manifest#resources}
   */
   readonly resources?: DataK8SStorageosComStorageOsClusterV1ManifestSpecResources;
   /**
   * SecretRefName is the name of the secret object that contains all the sensitive cluster configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#secret_ref_name DataK8SStorageosComStorageOsClusterV1Manifest#secret_ref_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#secret_ref_name DataK8SStorageosComStorageOsClusterV1Manifest#secret_ref_name}
   */
   readonly secretRefName: string;
   /**
   * SecretRefNamespace is the namespace of the secret reference. Deprecated: StorageOS uses namespace of storageosclusters.storageos.com resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#secret_ref_namespace DataK8SStorageosComStorageOsClusterV1Manifest#secret_ref_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#secret_ref_namespace DataK8SStorageosComStorageOsClusterV1Manifest#secret_ref_namespace}
   */
   readonly secretRefNamespace?: string;
   /**
   * Service is the Service configuration for the cluster nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#service DataK8SStorageosComStorageOsClusterV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#service DataK8SStorageosComStorageOsClusterV1Manifest#service}
   */
   readonly service?: DataK8SStorageosComStorageOsClusterV1ManifestSpecService;
   /**
   * SharedDir is the shared directory to be used when the kubelet is running in a container. Typically: '/var/lib/kubelet/plugins/kubernetes.io~storageos'. If not set, defaults will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#shared_dir DataK8SStorageosComStorageOsClusterV1Manifest#shared_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#shared_dir DataK8SStorageosComStorageOsClusterV1Manifest#shared_dir}
   */
   readonly sharedDir?: string;
   /**
   * Snapshots feature configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#snapshots DataK8SStorageosComStorageOsClusterV1Manifest#snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#snapshots DataK8SStorageosComStorageOsClusterV1Manifest#snapshots}
   */
   readonly snapshots?: DataK8SStorageosComStorageOsClusterV1ManifestSpecSnapshots;
   /**
   * StorageClassName is the name of default StorageClass created for StorageOS volumes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#storage_class_name DataK8SStorageosComStorageOsClusterV1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#storage_class_name DataK8SStorageosComStorageOsClusterV1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * TLSEtcdSecretRefName is the name of the secret object that contains the etcd TLS certs. This secret is shared with etcd, therefore it's not part of the main storageos secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#tls_etcd_secret_ref_name DataK8SStorageosComStorageOsClusterV1Manifest#tls_etcd_secret_ref_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#tls_etcd_secret_ref_name DataK8SStorageosComStorageOsClusterV1Manifest#tls_etcd_secret_ref_name}
   */
   readonly tlsEtcdSecretRefName?: string;
   /**
   * TLSEtcdSecretRefNamespace is the namespace of the etcd TLS secret object. Deprecated: StorageOS uses namespace of storageosclusters.storageos.com resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#tls_etcd_secret_ref_namespace DataK8SStorageosComStorageOsClusterV1Manifest#tls_etcd_secret_ref_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#tls_etcd_secret_ref_namespace DataK8SStorageosComStorageOsClusterV1Manifest#tls_etcd_secret_ref_namespace}
   */
   readonly tlsEtcdSecretRefNamespace?: string;
   /**
   * Tolerations is to set the placement of storageos pods using pod toleration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#tolerations DataK8SStorageosComStorageOsClusterV1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#tolerations DataK8SStorageosComStorageOsClusterV1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SStorageosComStorageOsClusterV1ManifestSpecTolerations[] | cdktf.IResolvable;
 }
@@ -7088,7 +7088,7 @@ export class DataK8SStorageosComStorageOsClusterV1ManifestSpecOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest k8s_storageos_com_storage_os_cluster_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest k8s_storageos_com_storage_os_cluster_v1_manifest}
 */
 export class DataK8SStorageosComStorageOsClusterV1Manifest extends cdktf.TerraformDataSource {
 
@@ -7104,7 +7104,7 @@ export class DataK8SStorageosComStorageOsClusterV1Manifest extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataK8SStorageosComStorageOsClusterV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SStorageosComStorageOsClusterV1Manifest to import
-  * @param importFromId The id of the existing DataK8SStorageosComStorageOsClusterV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SStorageosComStorageOsClusterV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SStorageosComStorageOsClusterV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7116,7 +7116,7 @@ export class DataK8SStorageosComStorageOsClusterV1Manifest extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest k8s_storageos_com_storage_os_cluster_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/storageos_com_storage_os_cluster_v1_manifest k8s_storageos_com_storage_os_cluster_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7127,8 +7127,8 @@ export class DataK8SStorageosComStorageOsClusterV1Manifest extends cdktf.Terrafo
       terraformResourceType: 'k8s_storageos_com_storage_os_cluster_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

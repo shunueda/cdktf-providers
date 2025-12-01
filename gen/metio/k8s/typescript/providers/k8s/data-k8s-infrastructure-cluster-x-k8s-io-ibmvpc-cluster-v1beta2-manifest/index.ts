@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestC
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#metadata DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#metadata DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#metadata}
   */
   readonly metadata: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestMetadata;
   /**
   * IBMVPCClusterSpec defines the desired state of IBMVPCCluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#spec DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#spec DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#spec}
   */
   readonly spec?: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestM
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#annotations DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#annotations DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#labels DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#labels DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#namespace DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#namespace DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * The hostname on which the API server is serving.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#host DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#host DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#host}
   */
   readonly host: string;
   /**
   * The port on which the API server is serving.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#port DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#port DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#port}
   */
   readonly port: number;
 }
@@ -344,19 +344,19 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * defaultPoolName defines the name of a VPC Load Balancer Backend Pool to use for the VPC Load Balancer Listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#default_pool_name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#default_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#default_pool_name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#default_pool_name}
   */
   readonly defaultPoolName?: string;
   /**
   * Port sets the port for the additional listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#port DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#port DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#port}
   */
   readonly port: number;
   /**
   * protocol defines the protocol to use for the VPC Load Balancer Listener. Will default to TCP protocol if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#protocol DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#protocol DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -529,37 +529,37 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * delay defines the seconds to wait between health checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#delay DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#delay DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#delay}
   */
   readonly delay: number;
   /**
   * port defines the port to perform health monitoring on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#port DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#port DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#port}
   */
   readonly port?: number;
   /**
   * retries defines the max retries for health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#retries DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#retries DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#retries}
   */
   readonly retries: number;
   /**
   * timeout defines the seconds to wait for a health check response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#timeout DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#timeout DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#timeout}
   */
   readonly timeout: number;
   /**
   * type defines the protocol used for health checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#type DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#type DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#type}
   */
   readonly type: string;
   /**
   * urlPath defines the URL to use for health monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#url_path DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#url_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#url_path DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#url_path}
   */
   readonly urlPath?: string;
 }
@@ -788,25 +788,25 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * algorithm defines the load balancing algorithm to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#algorithm DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#algorithm DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#algorithm}
   */
   readonly algorithm: string;
   /**
   * healthMonitor defines the backend pool's health monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#health_monitor DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#health_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#health_monitor DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#health_monitor}
   */
   readonly healthMonitor: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecControlPlaneLoadBalancerBackendPoolsHealthMonitor;
   /**
   * name defines the name of the Backend Pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * protocol defines the protocol to use for the Backend Pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#protocol DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#protocol DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#protocol}
   */
   readonly protocol: string;
 }
@@ -1002,7 +1002,7 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * id of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1011,7 +1011,7 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
   */
   readonly name?: string;
 }
@@ -1158,7 +1158,7 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * id of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1167,7 +1167,7 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
   */
   readonly name?: string;
 }
@@ -1314,19 +1314,19 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * AdditionalListeners sets the additional listeners for the control plane load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#additional_listeners DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#additional_listeners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#additional_listeners DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#additional_listeners}
   */
   readonly additionalListeners?: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecControlPlaneLoadBalancerAdditionalListeners[] | cdktf.IResolvable;
   /**
   * backendPools defines the load balancer's backend pools.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#backend_pools DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#backend_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#backend_pools DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#backend_pools}
   */
   readonly backendPools?: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecControlPlaneLoadBalancerBackendPools[] | cdktf.IResolvable;
   /**
   * id of the loadbalancer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1335,25 +1335,25 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * Name sets the name of the VPC load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * public indicates that load balancer is public or private
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#public DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#public DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#public}
   */
   readonly public?: boolean | cdktf.IResolvable;
   /**
   * securityGroups defines the Security Groups to attach to the load balancer. Security Groups defined here are expected to already exist when the load balancer is reconciled (these do not get created when reconciling the load balancer).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#security_groups DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#security_groups DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#security_groups}
   */
   readonly securityGroups?: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecControlPlaneLoadBalancerSecurityGroups[] | cdktf.IResolvable;
   /**
   * subnets defines the VPC Subnets to attach to the load balancer. Subnets defiens here are expected to already exist when the load balancer is reconciled (these do not get created when reconciling the load balancer).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#subnets DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#subnets DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#subnets}
   */
   readonly subnets?: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecControlPlaneLoadBalancerSubnets[] | cdktf.IResolvable;
 }
@@ -1623,7 +1623,7 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * id defines the IBM Cloud Resource ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1632,7 +1632,7 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * name defines the IBM Cloud Resource Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
   */
   readonly name?: string;
 }
@@ -1754,49 +1754,49 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * cosBucket is the name of the IBM Cloud COS Bucket containing the source of the image, if necessary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#cos_bucket DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#cos_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#cos_bucket DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#cos_bucket}
   */
   readonly cosBucket?: string;
   /**
   * cosBucketRegion is the COS region the bucket is in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#cos_bucket_region DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#cos_bucket_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#cos_bucket_region DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#cos_bucket_region}
   */
   readonly cosBucketRegion?: string;
   /**
   * cosInstance is the name of the IBM Cloud COS Instance containing the source of the image, if necessary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#cos_instance DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#cos_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#cos_instance DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#cos_instance}
   */
   readonly cosInstance?: string;
   /**
   * cosObject is the name of a IBM Cloud COS Object used as the source of the image, if necessary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#cos_object DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#cos_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#cos_object DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#cos_object}
   */
   readonly cosObject?: string;
   /**
   * crn is the IBM Cloud CRN of the existing VPC Custom Image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#crn DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#crn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#crn DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#crn}
   */
   readonly crn?: string;
   /**
   * name is the name of the desired VPC Custom Image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * operatingSystem is the Custom Image's Operating System name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#operating_system DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#operating_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#operating_system DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#operating_system}
   */
   readonly operatingSystem?: string;
   /**
   * resourceGroup is the Resource Group to create the Custom Image in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#resource_group DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#resource_group DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#resource_group}
   */
   readonly resourceGroup?: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecImageResourceGroup;
 }
@@ -2093,22 +2093,22 @@ export class DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecI
 }
 export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecNetworkControlPlaneSubnets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#cidr DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#cidr DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#cidr}
   */
   readonly cidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#zone DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#zone DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#zone}
   */
   readonly zone?: string;
 }
@@ -2313,19 +2313,19 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * defaultPoolName defines the name of a VPC Load Balancer Backend Pool to use for the VPC Load Balancer Listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#default_pool_name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#default_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#default_pool_name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#default_pool_name}
   */
   readonly defaultPoolName?: string;
   /**
   * Port sets the port for the additional listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#port DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#port DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#port}
   */
   readonly port: number;
   /**
   * protocol defines the protocol to use for the VPC Load Balancer Listener. Will default to TCP protocol if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#protocol DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#protocol DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#protocol}
   */
   readonly protocol?: string;
 }
@@ -2498,37 +2498,37 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * delay defines the seconds to wait between health checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#delay DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#delay DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#delay}
   */
   readonly delay: number;
   /**
   * port defines the port to perform health monitoring on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#port DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#port DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#port}
   */
   readonly port?: number;
   /**
   * retries defines the max retries for health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#retries DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#retries DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#retries}
   */
   readonly retries: number;
   /**
   * timeout defines the seconds to wait for a health check response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#timeout DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#timeout DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#timeout}
   */
   readonly timeout: number;
   /**
   * type defines the protocol used for health checks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#type DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#type DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#type}
   */
   readonly type: string;
   /**
   * urlPath defines the URL to use for health monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#url_path DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#url_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#url_path DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#url_path}
   */
   readonly urlPath?: string;
 }
@@ -2757,25 +2757,25 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * algorithm defines the load balancing algorithm to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#algorithm DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#algorithm DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#algorithm}
   */
   readonly algorithm: string;
   /**
   * healthMonitor defines the backend pool's health monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#health_monitor DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#health_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#health_monitor DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#health_monitor}
   */
   readonly healthMonitor: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecNetworkLoadBalancersBackendPoolsHealthMonitor;
   /**
   * name defines the name of the Backend Pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * protocol defines the protocol to use for the Backend Pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#protocol DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#protocol DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#protocol}
   */
   readonly protocol: string;
 }
@@ -2971,7 +2971,7 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * id of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2980,7 +2980,7 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
   */
   readonly name?: string;
 }
@@ -3127,7 +3127,7 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * id of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3136,7 +3136,7 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
   */
   readonly name?: string;
 }
@@ -3283,19 +3283,19 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * AdditionalListeners sets the additional listeners for the control plane load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#additional_listeners DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#additional_listeners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#additional_listeners DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#additional_listeners}
   */
   readonly additionalListeners?: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecNetworkLoadBalancersAdditionalListeners[] | cdktf.IResolvable;
   /**
   * backendPools defines the load balancer's backend pools.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#backend_pools DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#backend_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#backend_pools DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#backend_pools}
   */
   readonly backendPools?: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecNetworkLoadBalancersBackendPools[] | cdktf.IResolvable;
   /**
   * id of the loadbalancer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3304,25 +3304,25 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * Name sets the name of the VPC load balancer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * public indicates that load balancer is public or private
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#public DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#public DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#public}
   */
   readonly public?: boolean | cdktf.IResolvable;
   /**
   * securityGroups defines the Security Groups to attach to the load balancer. Security Groups defined here are expected to already exist when the load balancer is reconciled (these do not get created when reconciling the load balancer).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#security_groups DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#security_groups DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#security_groups}
   */
   readonly securityGroups?: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecNetworkLoadBalancersSecurityGroups[] | cdktf.IResolvable;
   /**
   * subnets defines the VPC Subnets to attach to the load balancer. Subnets defiens here are expected to already exist when the load balancer is reconciled (these do not get created when reconciling the load balancer).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#subnets DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#subnets DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#subnets}
   */
   readonly subnets?: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecNetworkLoadBalancersSubnets[] | cdktf.IResolvable;
 }
@@ -3614,7 +3614,7 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * id defines the IBM Cloud Resource ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3623,7 +3623,7 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * name defines the IBM Cloud Resource Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
   */
   readonly name?: string;
 }
@@ -3745,13 +3745,13 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * maximumPort is the inclusive upper range of ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#maximum_port DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#maximum_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#maximum_port DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#maximum_port}
   */
   readonly maximumPort?: number;
   /**
   * minimumPort is the inclusive lower range of ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#minimum_port DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#minimum_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#minimum_port DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#minimum_port}
   */
   readonly minimumPort?: number;
 }
@@ -3876,25 +3876,25 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   *  address is the address to use for the remote's destination/source. Only used when remoteType is VPCSecurityGroupRuleRemoteTypeAddress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#address DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#address DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#address}
   */
   readonly address?: string;
   /**
   * cidrSubnetName is the name of the VPC Subnet to retrieve the CIDR from, to use for the remote's destination/source. Only used when remoteType is VPCSecurityGroupRuleRemoteTypeCIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#cidr_subnet_name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#cidr_subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#cidr_subnet_name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#cidr_subnet_name}
   */
   readonly cidrSubnetName?: string;
   /**
   * remoteType defines the type of filter to define for the remote's destination/source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#remote_type DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#remote_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#remote_type DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#remote_type}
   */
   readonly remoteType: string;
   /**
   * securityGroupName is the name of the VPC Security Group to use for the remote's destination/source. Only used when remoteType is VPCSecurityGroupRuleRemoteTypeSG
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#security_group_name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#security_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#security_group_name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#security_group_name}
   */
   readonly securityGroupName?: string;
 }
@@ -4096,31 +4096,31 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * icmpCode is the ICMP code for the Rule. Only used when Protocol is VPCSecurityGroupRuleProtocolIcmp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#icmp_code DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#icmp_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#icmp_code DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#icmp_code}
   */
   readonly icmpCode?: number;
   /**
   * icmpType is the ICMP type for the Rule. Only used when Protocol is VPCSecurityGroupRuleProtocolIcmp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#icmp_type DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#icmp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#icmp_type DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#icmp_type}
   */
   readonly icmpType?: number;
   /**
   * portRange is a range of ports allowed for the Rule's remote.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#port_range DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#port_range DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#port_range}
   */
   readonly portRange?: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecNetworkSecurityGroupsRulesDestinationPortRange;
   /**
   * protocol defines the traffic protocol used for the Security Group Rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#protocol DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#protocol DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#protocol}
   */
   readonly protocol: string;
   /**
   * remotes is a set of VPCSecurityGroupRuleRemote's that define the traffic allowed by the Rule's remote. Specifying multiple VPCSecurityGroupRuleRemote's creates a unique Security Group Rule with the shared Protocol, PortRange, etc. This allows for easier management of Security Group Rule's for sets of CIDR's, IP's, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#remotes DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#remotes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#remotes DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#remotes}
   */
   readonly remotes: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecNetworkSecurityGroupsRulesDestinationRemotes[] | cdktf.IResolvable;
 }
@@ -4326,13 +4326,13 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * maximumPort is the inclusive upper range of ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#maximum_port DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#maximum_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#maximum_port DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#maximum_port}
   */
   readonly maximumPort?: number;
   /**
   * minimumPort is the inclusive lower range of ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#minimum_port DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#minimum_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#minimum_port DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#minimum_port}
   */
   readonly minimumPort?: number;
 }
@@ -4457,25 +4457,25 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   *  address is the address to use for the remote's destination/source. Only used when remoteType is VPCSecurityGroupRuleRemoteTypeAddress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#address DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#address DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#address}
   */
   readonly address?: string;
   /**
   * cidrSubnetName is the name of the VPC Subnet to retrieve the CIDR from, to use for the remote's destination/source. Only used when remoteType is VPCSecurityGroupRuleRemoteTypeCIDR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#cidr_subnet_name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#cidr_subnet_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#cidr_subnet_name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#cidr_subnet_name}
   */
   readonly cidrSubnetName?: string;
   /**
   * remoteType defines the type of filter to define for the remote's destination/source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#remote_type DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#remote_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#remote_type DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#remote_type}
   */
   readonly remoteType: string;
   /**
   * securityGroupName is the name of the VPC Security Group to use for the remote's destination/source. Only used when remoteType is VPCSecurityGroupRuleRemoteTypeSG
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#security_group_name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#security_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#security_group_name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#security_group_name}
   */
   readonly securityGroupName?: string;
 }
@@ -4677,31 +4677,31 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * icmpCode is the ICMP code for the Rule. Only used when Protocol is VPCSecurityGroupRuleProtocolIcmp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#icmp_code DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#icmp_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#icmp_code DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#icmp_code}
   */
   readonly icmpCode?: number;
   /**
   * icmpType is the ICMP type for the Rule. Only used when Protocol is VPCSecurityGroupRuleProtocolIcmp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#icmp_type DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#icmp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#icmp_type DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#icmp_type}
   */
   readonly icmpType?: number;
   /**
   * portRange is a range of ports allowed for the Rule's remote.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#port_range DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#port_range DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#port_range}
   */
   readonly portRange?: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecNetworkSecurityGroupsRulesSourcePortRange;
   /**
   * protocol defines the traffic protocol used for the Security Group Rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#protocol DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#protocol DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#protocol}
   */
   readonly protocol: string;
   /**
   * remotes is a set of VPCSecurityGroupRuleRemote's that define the traffic allowed by the Rule's remote. Specifying multiple VPCSecurityGroupRuleRemote's creates a unique Security Group Rule with the shared Protocol, PortRange, etc. This allows for easier management of Security Group Rule's for sets of CIDR's, IP's, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#remotes DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#remotes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#remotes DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#remotes}
   */
   readonly remotes: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecNetworkSecurityGroupsRulesSourceRemotes[] | cdktf.IResolvable;
 }
@@ -4907,31 +4907,31 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * action defines whether to allow or deny traffic defined by the Security Group Rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#action DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#action DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#action}
   */
   readonly action: string;
   /**
   * destination is a VPCSecurityGroupRulePrototype which defines the destination of outbound traffic for the Security Group Rule. Only used when direction is VPCSecurityGroupRuleDirectionOutbound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#destination DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#destination DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#destination}
   */
   readonly destination?: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecNetworkSecurityGroupsRulesDestination;
   /**
   * direction defines whether the traffic is inbound or outbound for the Security Group Rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#direction DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#direction DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#direction}
   */
   readonly direction: string;
   /**
   * securityGroupID is the ID of the Security Group for the Security Group Rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#security_group_id DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#security_group_id DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#security_group_id}
   */
   readonly securityGroupId?: string;
   /**
   * source is a VPCSecurityGroupRulePrototype which defines the source of inbound traffic for the Security Group Rule. Only used when direction is VPCSecurityGroupRuleDirectionInbound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#source DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#source DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#source}
   */
   readonly source?: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecNetworkSecurityGroupsRulesSource;
 }
@@ -5159,7 +5159,7 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * id of the Security Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5168,19 +5168,19 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * name of the Security Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
   * rules are the Security Group Rules for the Security Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#rules DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#rules DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#rules}
   */
   readonly rules?: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecNetworkSecurityGroupsRules[] | cdktf.IResolvable;
   /**
   * tags are tags to add to the Security Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#tags DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#tags DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#tags}
   */
   readonly tags?: string[];
 }
@@ -5385,7 +5385,7 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * id of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5394,7 +5394,7 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
   */
   readonly name?: string;
 }
@@ -5517,22 +5517,22 @@ export class DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecN
 }
 export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecNetworkWorkerSubnets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#cidr DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#cidr DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#cidr}
   */
   readonly cidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#id DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#name DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#zone DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#zone DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#zone}
   */
   readonly zone?: string;
 }
@@ -5737,37 +5737,37 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * controlPlaneSubnets is a set of Subnet's which define the Control Plane subnets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#control_plane_subnets DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#control_plane_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#control_plane_subnets DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#control_plane_subnets}
   */
   readonly controlPlaneSubnets?: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecNetworkControlPlaneSubnets[] | cdktf.IResolvable;
   /**
   * loadBalancers is a set of VPC Load Balancer definitions to use for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#load_balancers DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#load_balancers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#load_balancers DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#load_balancers}
   */
   readonly loadBalancers?: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecNetworkLoadBalancers[] | cdktf.IResolvable;
   /**
   * resourceGroup is the Resource Group containing all of the newtork resources. This can be different than the Resource Group containing the remaining cluster resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#resource_group DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#resource_group DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#resource_group}
   */
   readonly resourceGroup?: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecNetworkResourceGroup;
   /**
   * securityGroups is a set of VPCSecurityGroup's which define the VPC Security Groups that manage traffic within and out of the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#security_groups DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#security_groups DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#security_groups}
   */
   readonly securityGroups?: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecNetworkSecurityGroups[] | cdktf.IResolvable;
   /**
   * vpc defines the IBM Cloud VPC for extended VPC Infrastructure support.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#vpc DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#vpc DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#vpc}
   */
   readonly vpc?: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecNetworkVpc;
   /**
   * workerSubnets is a set of Subnet's which define the Worker subnets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#worker_subnets DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#worker_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#worker_subnets DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#worker_subnets}
   */
   readonly workerSubnets?: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecNetworkWorkerSubnets[] | cdktf.IResolvable;
 }
@@ -6008,49 +6008,49 @@ export interface DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestS
   /**
   * ControlPlaneEndpoint represents the endpoint used to communicate with the control plane.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#control_plane_endpoint DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#control_plane_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#control_plane_endpoint DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#control_plane_endpoint}
   */
   readonly controlPlaneEndpoint?: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecControlPlaneEndpoint;
   /**
   * ControlPlaneLoadBalancer is optional configuration for customizing control plane behavior. Use this for legacy support, use Network.LoadBalancers for the extended VPC support.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#control_plane_load_balancer DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#control_plane_load_balancer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#control_plane_load_balancer DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#control_plane_load_balancer}
   */
   readonly controlPlaneLoadBalancer?: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecControlPlaneLoadBalancer;
   /**
   * image represents the Image details used for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#image DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#image DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#image}
   */
   readonly image?: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecImage;
   /**
   * network represents the VPC network to use for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#network DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#network DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#network}
   */
   readonly network?: DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecNetwork;
   /**
   * The IBM Cloud Region the cluster lives in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#region DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#region DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#region}
   */
   readonly region: string;
   /**
   * The VPC resources should be created under the resource group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#resource_group DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#resource_group DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#resource_group}
   */
   readonly resourceGroup: string;
   /**
   * The Name of VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#vpc DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#vpc DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#vpc}
   */
   readonly vpc?: string;
   /**
   * The Name of availability zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#zone DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#zone DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest#zone}
   */
   readonly zone?: string;
 }
@@ -6341,7 +6341,7 @@ export class DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2ManifestSpecO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest k8s_infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest k8s_infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest}
 */
 export class DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest extends cdktf.TerraformDataSource {
 
@@ -6357,7 +6357,7 @@ export class DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest exte
   * Generates CDKTF code for importing a DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest to import
-  * @param importFromId The id of the existing DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6369,7 +6369,7 @@ export class DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest exte
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest k8s_infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest k8s_infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6380,8 +6380,8 @@ export class DataK8SInfrastructureClusterXK8SIoIbmvpcClusterV1Beta2Manifest exte
       terraformResourceType: 'k8s_infrastructure_cluster_x_k8s_io_ibmvpc_cluster_v1beta2_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestConfig
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#metadata DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#metadata DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestMetadata;
   /**
   * TrainingJobSpec defines the desired state of TrainingJob. Contains information about a training job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#spec DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#spec DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestMetada
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#annotations DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#annotations DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#labels DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#labels DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#namespace DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#namespace DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,11 +217,11 @@ export class DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestMetadataOu
 }
 export interface DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecAlgorithmSpecificationMetricDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#regex DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#regex DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#regex}
   */
   readonly regex?: string;
 }
@@ -366,25 +366,25 @@ export class DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecAlgori
 }
 export interface DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecAlgorithmSpecification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#algorithm_name DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#algorithm_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#algorithm_name DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#algorithm_name}
   */
   readonly algorithmName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#enable_sage_maker_metrics_time_series DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#enable_sage_maker_metrics_time_series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#enable_sage_maker_metrics_time_series DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#enable_sage_maker_metrics_time_series}
   */
   readonly enableSageMakerMetricsTimeSeries?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#metric_definitions DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#metric_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#metric_definitions DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#metric_definitions}
   */
   readonly metricDefinitions?: DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecAlgorithmSpecificationMetricDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#training_image DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#training_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#training_image DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#training_image}
   */
   readonly trainingImage?: string;
   /**
   * The training input mode that the algorithm supports. For more information about input modes, see Algorithms (https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html). Pipe mode If an algorithm supports Pipe mode, Amazon SageMaker streams data directly from Amazon S3 to the container. File mode If an algorithm supports File mode, SageMaker downloads the training data from S3 to the provisioned ML storage volume, and mounts the directory to the Docker volume for the training container. You must provision the ML storage volume with sufficient capacity to accommodate the data downloaded from S3. In addition to the training data, the ML storage volume also stores the output model. The algorithm container uses the ML storage volume to also store intermediate information, if any. For distributed algorithms, training data is distributed uniformly. Your training duration is predictable if the input data objects sizes are approximately the same. SageMaker does not split the files any further for model training. If the object sizes are skewed, training won't be optimal as the data distribution is also skewed when one host in a training cluster is overloaded, thus becoming a bottleneck in training. FastFile mode If an algorithm supports FastFile mode, SageMaker streams data directly from S3 to the container with no code changes, and provides file system access to the data. Users can author their training script to interact with these files as if they were stored on disk. FastFile mode works best when the data is read sequentially. Augmented manifest files aren't supported. The startup time is lower when there are fewer files in the S3 bucket provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#training_input_mode DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#training_input_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#training_input_mode DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#training_input_mode}
   */
   readonly trainingInputMode?: string;
 }
@@ -594,11 +594,11 @@ export class DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecAlgori
 }
 export interface DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecCheckpointConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#local_path DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#local_path DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#local_path}
   */
   readonly localPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -721,11 +721,11 @@ export class DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecCheckp
 }
 export interface DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecDebugHookConfigCollectionConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#collection_name DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#collection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#collection_name DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#collection_name}
   */
   readonly collectionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#collection_parameters DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#collection_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#collection_parameters DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#collection_parameters}
   */
   readonly collectionParameters?: { [key: string]: string };
 }
@@ -870,19 +870,19 @@ export class DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecDebugH
 }
 export interface DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecDebugHookConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#collection_configurations DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#collection_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#collection_configurations DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#collection_configurations}
   */
   readonly collectionConfigurations?: DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecDebugHookConfigCollectionConfigurations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#hook_parameters DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#hook_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#hook_parameters DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#hook_parameters}
   */
   readonly hookParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#local_path DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#local_path DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#local_path}
   */
   readonly localPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#s3_output_path DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#s3_output_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#s3_output_path DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#s3_output_path}
   */
   readonly s3OutputPath?: string;
 }
@@ -1063,31 +1063,31 @@ export class DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecDebugH
 }
 export interface DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecDebugRuleConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#local_path DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#local_path DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#local_path}
   */
   readonly localPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#rule_configuration_name DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#rule_configuration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#rule_configuration_name DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#rule_configuration_name}
   */
   readonly ruleConfigurationName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#rule_evaluator_image DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#rule_evaluator_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#rule_evaluator_image DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#rule_evaluator_image}
   */
   readonly ruleEvaluatorImage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#rule_parameters DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#rule_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#rule_parameters DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#rule_parameters}
   */
   readonly ruleParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#s3_output_path DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#s3_output_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#s3_output_path DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#s3_output_path}
   */
   readonly s3OutputPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#volume_size_in_gb DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#volume_size_in_gb DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#volume_size_in_gb}
   */
   readonly volumeSizeInGb?: number;
 }
@@ -1377,15 +1377,15 @@ export class DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecDebugR
 }
 export interface DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecExperimentConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#experiment_name DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#experiment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#experiment_name DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#experiment_name}
   */
   readonly experimentName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#trial_component_display_name DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#trial_component_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#trial_component_display_name DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#trial_component_display_name}
   */
   readonly trialComponentDisplayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#trial_name DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#trial_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#trial_name DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#trial_name}
   */
   readonly trialName?: string;
 }
@@ -1537,7 +1537,7 @@ export class DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecExperi
 }
 export interface DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecInfraCheckConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#enable_infra_check DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#enable_infra_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#enable_infra_check DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#enable_infra_check}
   */
   readonly enableInfraCheck?: boolean | cdktf.IResolvable;
 }
@@ -1631,19 +1631,19 @@ export class DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecInfraC
 }
 export interface DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecInputDataConfigDataSourceFileSystemDataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#directory_path DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#directory_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#directory_path DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#directory_path}
   */
   readonly directoryPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#file_system_access_mode DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#file_system_access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#file_system_access_mode DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#file_system_access_mode}
   */
   readonly fileSystemAccessMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#file_system_id DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#file_system_id DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#file_system_id}
   */
   readonly fileSystemId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#file_system_type DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#file_system_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#file_system_type DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#file_system_type}
   */
   readonly fileSystemType?: string;
 }
@@ -1824,23 +1824,23 @@ export class DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecInputD
 }
 export interface DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecInputDataConfigDataSourceS3DataSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#attribute_names DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#attribute_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#attribute_names DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#attribute_names}
   */
   readonly attributeNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#instance_group_names DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#instance_group_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#instance_group_names DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#instance_group_names}
   */
   readonly instanceGroupNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#s3_data_distribution_type DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#s3_data_distribution_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#s3_data_distribution_type DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#s3_data_distribution_type}
   */
   readonly s3DataDistributionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#s3_data_type DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#s3_data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#s3_data_type DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#s3_data_type}
   */
   readonly s3DataType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#s3_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#s3_uri DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#s3_uri}
   */
   readonly s3Uri?: string;
 }
@@ -2052,13 +2052,13 @@ export interface DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecIn
   /**
   * Specifies a file system data source for a channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#file_system_data_source DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#file_system_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#file_system_data_source DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#file_system_data_source}
   */
   readonly fileSystemDataSource?: DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecInputDataConfigDataSourceFileSystemDataSource;
   /**
   * Describes the S3 data source. Your input bucket must be in the same Amazon Web Services region as your training job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#s3_data_source DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#s3_data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#s3_data_source DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#s3_data_source}
   */
   readonly s3DataSource?: DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecInputDataConfigDataSourceS3DataSource;
 }
@@ -2181,7 +2181,7 @@ export class DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecInputD
 }
 export interface DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecInputDataConfigShuffleConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#seed DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#seed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#seed DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#seed}
   */
   readonly seed?: number;
 }
@@ -2275,37 +2275,37 @@ export class DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecInputD
 }
 export interface DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecInputDataConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#channel_name DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#channel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#channel_name DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#channel_name}
   */
   readonly channelName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#compression_type DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#compression_type DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#compression_type}
   */
   readonly compressionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#content_type DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#content_type}
   */
   readonly contentType?: string;
   /**
   * Describes the location of the channel data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#data_source DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#data_source DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#data_source}
   */
   readonly dataSource?: DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecInputDataConfigDataSource;
   /**
   * The training input mode that the algorithm supports. For more information about input modes, see Algorithms (https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html). Pipe mode If an algorithm supports Pipe mode, Amazon SageMaker streams data directly from Amazon S3 to the container. File mode If an algorithm supports File mode, SageMaker downloads the training data from S3 to the provisioned ML storage volume, and mounts the directory to the Docker volume for the training container. You must provision the ML storage volume with sufficient capacity to accommodate the data downloaded from S3. In addition to the training data, the ML storage volume also stores the output model. The algorithm container uses the ML storage volume to also store intermediate information, if any. For distributed algorithms, training data is distributed uniformly. Your training duration is predictable if the input data objects sizes are approximately the same. SageMaker does not split the files any further for model training. If the object sizes are skewed, training won't be optimal as the data distribution is also skewed when one host in a training cluster is overloaded, thus becoming a bottleneck in training. FastFile mode If an algorithm supports FastFile mode, SageMaker streams data directly from S3 to the container with no code changes, and provides file system access to the data. Users can author their training script to interact with these files as if they were stored on disk. FastFile mode works best when the data is read sequentially. Augmented manifest files aren't supported. The startup time is lower when there are fewer files in the S3 bucket provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#input_mode DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#input_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#input_mode DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#input_mode}
   */
   readonly inputMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#record_wrapper_type DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#record_wrapper_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#record_wrapper_type DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#record_wrapper_type}
   */
   readonly recordWrapperType?: string;
   /**
   * A configuration for a shuffle option for input data in a channel. If you use S3Prefix for S3DataType, the results of the S3 key prefix matches are shuffled. If you use ManifestFile, the order of the S3 object references in the ManifestFile is shuffled. If you use AugmentedManifestFile, the order of the JSON lines in the AugmentedManifestFile is shuffled. The shuffling order is determined using the Seed value. For Pipe input mode, when ShuffleConfig is specified shuffling is done at the start of every epoch. With large datasets, this ensures that the order of the training data is different for each epoch, and it helps reduce bias and possible overfitting. In a multi-node training job when ShuffleConfig is combined with S3DataDistributionType of ShardedByS3Key, the data is shuffled across nodes so that the content sent to a particular node on the first epoch might be sent to a different node on the second epoch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#shuffle_config DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#shuffle_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#shuffle_config DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#shuffle_config}
   */
   readonly shuffleConfig?: DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecInputDataConfigShuffleConfig;
 }
@@ -2595,15 +2595,15 @@ export class DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecInputD
 }
 export interface DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecOutputDataConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#compression_type DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#compression_type DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#compression_type}
   */
   readonly compressionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#kms_key_id DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#s3_output_path DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#s3_output_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#s3_output_path DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#s3_output_path}
   */
   readonly s3OutputPath?: string;
 }
@@ -2755,15 +2755,15 @@ export class DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecOutput
 }
 export interface DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecProfilerConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#profiling_interval_in_milliseconds DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#profiling_interval_in_milliseconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#profiling_interval_in_milliseconds DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#profiling_interval_in_milliseconds}
   */
   readonly profilingIntervalInMilliseconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#profiling_parameters DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#profiling_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#profiling_parameters DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#profiling_parameters}
   */
   readonly profilingParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#s3_output_path DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#s3_output_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#s3_output_path DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#s3_output_path}
   */
   readonly s3OutputPath?: string;
 }
@@ -2915,31 +2915,31 @@ export class DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecProfil
 }
 export interface DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecProfilerRuleConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#local_path DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#local_path DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#local_path}
   */
   readonly localPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#rule_configuration_name DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#rule_configuration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#rule_configuration_name DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#rule_configuration_name}
   */
   readonly ruleConfigurationName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#rule_evaluator_image DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#rule_evaluator_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#rule_evaluator_image DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#rule_evaluator_image}
   */
   readonly ruleEvaluatorImage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#rule_parameters DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#rule_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#rule_parameters DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#rule_parameters}
   */
   readonly ruleParameters?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#s3_output_path DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#s3_output_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#s3_output_path DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#s3_output_path}
   */
   readonly s3OutputPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#volume_size_in_gb DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#volume_size_in_gb DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#volume_size_in_gb}
   */
   readonly volumeSizeInGb?: number;
 }
@@ -3229,7 +3229,7 @@ export class DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecProfil
 }
 export interface DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecRemoteDebugConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#enable_remote_debug DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#enable_remote_debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#enable_remote_debug DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#enable_remote_debug}
   */
   readonly enableRemoteDebug?: boolean | cdktf.IResolvable;
 }
@@ -3323,15 +3323,15 @@ export class DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecRemote
 }
 export interface DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecResourceConfigInstanceGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#instance_count DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#instance_count DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#instance_count}
   */
   readonly instanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#instance_group_name DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#instance_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#instance_group_name DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#instance_group_name}
   */
   readonly instanceGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#instance_type}
   */
   readonly instanceType?: string;
 }
@@ -3505,29 +3505,29 @@ export class DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecResour
 }
 export interface DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecResourceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#instance_count DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#instance_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#instance_count DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#instance_count}
   */
   readonly instanceCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#instance_groups DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#instance_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#instance_groups DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#instance_groups}
   */
   readonly instanceGroups?: DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecResourceConfigInstanceGroups[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#instance_type}
   */
   readonly instanceType?: string;
   /**
   * Optional. Customer requested period in seconds for which the Training cluster is kept alive after the job is finished.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#keep_alive_period_in_seconds DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#keep_alive_period_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#keep_alive_period_in_seconds DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#keep_alive_period_in_seconds}
   */
   readonly keepAlivePeriodInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#volume_kms_key_id DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#volume_kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#volume_kms_key_id DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#volume_kms_key_id}
   */
   readonly volumeKmsKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#volume_size_in_gb DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#volume_size_in_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#volume_size_in_gb DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#volume_size_in_gb}
   */
   readonly volumeSizeInGb?: number;
 }
@@ -3766,7 +3766,7 @@ export class DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecResour
 }
 export interface DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecRetryStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#maximum_retry_attempts DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#maximum_retry_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#maximum_retry_attempts DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#maximum_retry_attempts}
   */
   readonly maximumRetryAttempts?: number;
 }
@@ -3862,15 +3862,15 @@ export interface DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecSt
   /**
   * Maximum job scheduler pending time in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#max_pending_time_in_seconds DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#max_pending_time_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#max_pending_time_in_seconds DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#max_pending_time_in_seconds}
   */
   readonly maxPendingTimeInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#max_runtime_in_seconds DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#max_runtime_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#max_runtime_in_seconds DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#max_runtime_in_seconds}
   */
   readonly maxRuntimeInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#max_wait_time_in_seconds DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#max_wait_time_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#max_wait_time_in_seconds DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#max_wait_time_in_seconds}
   */
   readonly maxWaitTimeInSeconds?: number;
 }
@@ -4022,11 +4022,11 @@ export class DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecStoppi
 }
 export interface DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#key DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#key DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -4171,11 +4171,11 @@ export class DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecTagsLi
 }
 export interface DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecTensorBoardOutputConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#local_path DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#local_path DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#local_path}
   */
   readonly localPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#s3_output_path DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#s3_output_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#s3_output_path DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#s3_output_path}
   */
   readonly s3OutputPath?: string;
 }
@@ -4298,11 +4298,11 @@ export class DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecTensor
 }
 export interface DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecVpcConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#security_group_i_ds DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#security_group_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#security_group_i_ds DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#security_group_i_ds}
   */
   readonly securityGroupIDs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#subnets DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#subnets DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#subnets}
   */
   readonly subnets?: string[];
 }
@@ -4427,145 +4427,145 @@ export interface DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpec {
   /**
   * The registry path of the Docker image that contains the training algorithm and algorithm-specific metadata, including the input mode. For more information about algorithms provided by SageMaker, see Algorithms (https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html). For information about providing your own algorithms, see Using Your Own Algorithms with Amazon SageMaker (https://docs.aws.amazon.com/sagemaker/latest/dg/your-algorithms.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#algorithm_specification DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#algorithm_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#algorithm_specification DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#algorithm_specification}
   */
   readonly algorithmSpecification: DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecAlgorithmSpecification;
   /**
   * Contains information about the output location for managed spot training checkpoint data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#checkpoint_config DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#checkpoint_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#checkpoint_config DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#checkpoint_config}
   */
   readonly checkpointConfig?: DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecCheckpointConfig;
   /**
   * Configuration information for the Amazon SageMaker Debugger hook parameters, metric and tensor collections, and storage paths. To learn more about how to configure the DebugHookConfig parameter, see Use the SageMaker and Debugger Configuration API Operations to Create, Update, and Debug Your Training Job (https://docs.aws.amazon.com/sagemaker/latest/dg/debugger-createtrainingjob-api.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#debug_hook_config DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#debug_hook_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#debug_hook_config DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#debug_hook_config}
   */
   readonly debugHookConfig?: DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecDebugHookConfig;
   /**
   * Configuration information for Amazon SageMaker Debugger rules for debugging output tensors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#debug_rule_configurations DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#debug_rule_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#debug_rule_configurations DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#debug_rule_configurations}
   */
   readonly debugRuleConfigurations?: DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecDebugRuleConfigurations[] | cdktf.IResolvable;
   /**
   * To encrypt all communications between ML compute instances in distributed training, choose True. Encryption provides greater security for distributed training, but training might take longer. How long it takes depends on the amount of communication between compute instances, especially if you use a deep learning algorithm in distributed training. For more information, see Protect Communications Between ML Compute Instances in a Distributed Training Job (https://docs.aws.amazon.com/sagemaker/latest/dg/train-encrypt.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#enable_inter_container_traffic_encryption DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#enable_inter_container_traffic_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#enable_inter_container_traffic_encryption DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#enable_inter_container_traffic_encryption}
   */
   readonly enableInterContainerTrafficEncryption?: boolean | cdktf.IResolvable;
   /**
   * To train models using managed spot training, choose True. Managed spot training provides a fully managed and scalable infrastructure for training machine learning models. this option is useful when training jobs can be interrupted and when there is flexibility when the training job is run. The complete and intermediate results of jobs are stored in an Amazon S3 bucket, and can be used as a starting point to train models incrementally. Amazon SageMaker provides metrics and logs in CloudWatch. They can be used to see when managed spot training jobs are running, interrupted, resumed, or completed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#enable_managed_spot_training DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#enable_managed_spot_training}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#enable_managed_spot_training DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#enable_managed_spot_training}
   */
   readonly enableManagedSpotTraining?: boolean | cdktf.IResolvable;
   /**
   * Isolates the training container. No inbound or outbound network calls can be made, except for calls between peers within a training cluster for distributed training. If you enable network isolation for training jobs that are configured to use a VPC, SageMaker downloads and uploads customer data and model artifacts through the specified VPC, but the training container does not have network access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#enable_network_isolation DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#enable_network_isolation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#enable_network_isolation DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#enable_network_isolation}
   */
   readonly enableNetworkIsolation?: boolean | cdktf.IResolvable;
   /**
   * The environment variables to set in the Docker container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#environment DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#environment DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#environment}
   */
   readonly environment?: { [key: string]: string };
   /**
   * Associates a SageMaker job as a trial component with an experiment and trial. Specified when you call the following APIs: * CreateProcessingJob (https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_CreateProcessingJob.html) * CreateTrainingJob (https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_CreateTrainingJob.html) * CreateTransformJob (https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_CreateTransformJob.html)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#experiment_config DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#experiment_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#experiment_config DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#experiment_config}
   */
   readonly experimentConfig?: DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecExperimentConfig;
   /**
   * Algorithm-specific parameters that influence the quality of the model. You set hyperparameters before you start the learning process. For a list of hyperparameters for each training algorithm provided by SageMaker, see Algorithms (https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html). You can specify a maximum of 100 hyperparameters. Each hyperparameter is a key-value pair. Each key and value is limited to 256 characters, as specified by the Length Constraint. Do not include any security-sensitive information including account access IDs, secrets or tokens in any hyperparameter field. If the use of security-sensitive credentials are detected, SageMaker will reject your training job request and return an exception error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#hyper_parameters DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#hyper_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#hyper_parameters DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#hyper_parameters}
   */
   readonly hyperParameters?: { [key: string]: string };
   /**
   * Contains information about the infrastructure health check configuration for the training job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#infra_check_config DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#infra_check_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#infra_check_config DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#infra_check_config}
   */
   readonly infraCheckConfig?: DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecInfraCheckConfig;
   /**
   * An array of Channel objects. Each channel is a named input source. InputDataConfig describes the input data and its location. Algorithms can accept input data from one or more channels. For example, an algorithm might have two channels of input data, training_data and validation_data. The configuration for each channel provides the S3, EFS, or FSx location where the input data is stored. It also provides information about the stored data: the MIME type, compression method, and whether the data is wrapped in RecordIO format. Depending on the input mode that the algorithm supports, SageMaker either copies input data files from an S3 bucket to a local directory in the Docker container, or makes it available as input streams. For example, if you specify an EFS location, input data files are available as input streams. They do not need to be downloaded. Your input must be in the same Amazon Web Services region as your training job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#input_data_config DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#input_data_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#input_data_config DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#input_data_config}
   */
   readonly inputDataConfig?: DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecInputDataConfig[] | cdktf.IResolvable;
   /**
   * Specifies the path to the S3 location where you want to store model artifacts. SageMaker creates subfolders for the artifacts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#output_data_config DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#output_data_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#output_data_config DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#output_data_config}
   */
   readonly outputDataConfig: DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecOutputDataConfig;
   /**
   * Configuration information for Amazon SageMaker Debugger system monitoring, framework profiling, and storage paths.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#profiler_config DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#profiler_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#profiler_config DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#profiler_config}
   */
   readonly profilerConfig?: DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecProfilerConfig;
   /**
   * Configuration information for Amazon SageMaker Debugger rules for profiling system and framework metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#profiler_rule_configurations DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#profiler_rule_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#profiler_rule_configurations DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#profiler_rule_configurations}
   */
   readonly profilerRuleConfigurations?: DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecProfilerRuleConfigurations[] | cdktf.IResolvable;
   /**
   * Configuration for remote debugging. To learn more about the remote debugging functionality of SageMaker, see Access a training container through Amazon Web Services Systems Manager (SSM) for remote debugging (https://docs.aws.amazon.com/sagemaker/latest/dg/train-remote-debugging.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#remote_debug_config DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#remote_debug_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#remote_debug_config DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#remote_debug_config}
   */
   readonly remoteDebugConfig?: DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecRemoteDebugConfig;
   /**
   * The resources, including the ML compute instances and ML storage volumes, to use for model training. ML storage volumes store model artifacts and incremental states. Training algorithms might also use ML storage volumes for scratch space. If you want SageMaker to use the ML storage volume to store the training data, choose File as the TrainingInputMode in the algorithm specification. For distributed training algorithms, specify an instance count greater than 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#resource_config DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#resource_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#resource_config DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#resource_config}
   */
   readonly resourceConfig: DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecResourceConfig;
   /**
   * The number of times to retry the job when the job fails due to an InternalServerError.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#retry_strategy DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#retry_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#retry_strategy DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#retry_strategy}
   */
   readonly retryStrategy?: DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecRetryStrategy;
   /**
   * The Amazon Resource Name (ARN) of an IAM role that SageMaker can assume to perform tasks on your behalf. During model training, SageMaker needs your permission to read input data from an S3 bucket, download a Docker image that contains training code, write model artifacts to an S3 bucket, write logs to Amazon CloudWatch Logs, and publish metrics to Amazon CloudWatch. You grant permissions for all of these tasks to an IAM role. For more information, see SageMaker Roles (https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-roles.html). To be able to pass this role to SageMaker, the caller of this API must have the iam:PassRole permission.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#role_arn DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#role_arn DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#role_arn}
   */
   readonly roleArn: string;
   /**
   * Specifies a limit to how long a model training job can run. It also specifies how long a managed Spot training job has to complete. When the job reaches the time limit, SageMaker ends the training job. Use this API to cap model training costs. To stop a job, SageMaker sends the algorithm the SIGTERM signal, which delays job termination for 120 seconds. Algorithms can use this 120-second window to save the model artifacts, so the results of training are not lost.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#stopping_condition DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#stopping_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#stopping_condition DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#stopping_condition}
   */
   readonly stoppingCondition: DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecStoppingCondition;
   /**
   * An array of key-value pairs. You can use tags to categorize your Amazon Web Services resources in different ways, for example, by purpose, owner, or environment. For more information, see Tagging Amazon Web Services Resources (https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#tags DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#tags DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
   /**
   * Configuration of storage locations for the Amazon SageMaker Debugger TensorBoard output data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#tensor_board_output_config DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#tensor_board_output_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#tensor_board_output_config DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#tensor_board_output_config}
   */
   readonly tensorBoardOutputConfig?: DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecTensorBoardOutputConfig;
   /**
   * The name of the training job. The name must be unique within an Amazon Web Services Region in an Amazon Web Services account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#training_job_name DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#training_job_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#training_job_name DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#training_job_name}
   */
   readonly trainingJobName: string;
   /**
   * A VpcConfig (https://docs.aws.amazon.com/sagemaker/latest/APIReference/API_VpcConfig.html) object that specifies the VPC that you want your training job to connect to. Control access to and from your training container by configuring the VPC. For more information, see Protect Training Jobs by Using an Amazon Virtual Private Cloud (https://docs.aws.amazon.com/sagemaker/latest/dg/train-vpc.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#vpc_config DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#vpc_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#vpc_config DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest#vpc_config}
   */
   readonly vpcConfig?: DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecVpcConfig;
 }
@@ -5308,7 +5308,7 @@ export class DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1ManifestSpecOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_training_job_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_training_job_v1alpha1_manifest}
 */
 export class DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -5324,7 +5324,7 @@ export class DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest extends c
   * Generates CDKTF code for importing a DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5336,7 +5336,7 @@ export class DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest extends c
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_training_job_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_training_job_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_training_job_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5347,8 +5347,8 @@ export class DataK8SSagemakerServicesK8SAwsTrainingJobV1Alpha1Manifest extends c
       terraformResourceType: 'k8s_sagemaker_services_k8s_aws_training_job_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

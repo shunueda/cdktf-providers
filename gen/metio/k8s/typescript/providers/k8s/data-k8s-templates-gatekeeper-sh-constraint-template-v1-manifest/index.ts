@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8STemplatesGatekeeperShConstraintTemplateV1ManifestConfig 
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#metadata DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#metadata DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#metadata}
   */
   readonly metadata: DataK8STemplatesGatekeeperShConstraintTemplateV1ManifestMetadata;
   /**
   * ConstraintTemplateSpec defines the desired state of ConstraintTemplate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#spec DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#spec DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#spec}
   */
   readonly spec?: DataK8STemplatesGatekeeperShConstraintTemplateV1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8STemplatesGatekeeperShConstraintTemplateV1ManifestMetadat
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#annotations DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#annotations DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#labels DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#labels DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#name DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#name DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#name}
   */
   readonly name: string;
 }
@@ -185,11 +185,11 @@ export class DataK8STemplatesGatekeeperShConstraintTemplateV1ManifestMetadataOut
 }
 export interface DataK8STemplatesGatekeeperShConstraintTemplateV1ManifestSpecCrdSpecNames {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#kind DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#kind DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#short_names DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#short_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#short_names DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#short_names}
   */
   readonly shortNames?: string[];
 }
@@ -312,11 +312,11 @@ export class DataK8STemplatesGatekeeperShConstraintTemplateV1ManifestSpecCrdSpec
 }
 export interface DataK8STemplatesGatekeeperShConstraintTemplateV1ManifestSpecCrdSpecValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#legacy_schema DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#legacy_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#legacy_schema DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#legacy_schema}
   */
   readonly legacySchema?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#open_apiv3_schema DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#open_apiv3_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#open_apiv3_schema DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#open_apiv3_schema}
   */
   readonly openApiv3Schema?: { [key: string]: string };
 }
@@ -439,11 +439,11 @@ export class DataK8STemplatesGatekeeperShConstraintTemplateV1ManifestSpecCrdSpec
 }
 export interface DataK8STemplatesGatekeeperShConstraintTemplateV1ManifestSpecCrdSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#names DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#names DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#names}
   */
   readonly names?: DataK8STemplatesGatekeeperShConstraintTemplateV1ManifestSpecCrdSpecNames;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#validation DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#validation DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#validation}
   */
   readonly validation?: DataK8STemplatesGatekeeperShConstraintTemplateV1ManifestSpecCrdSpecValidation;
 }
@@ -566,7 +566,7 @@ export class DataK8STemplatesGatekeeperShConstraintTemplateV1ManifestSpecCrdSpec
 }
 export interface DataK8STemplatesGatekeeperShConstraintTemplateV1ManifestSpecCrd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#spec DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#spec DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#spec}
   */
   readonly spec?: DataK8STemplatesGatekeeperShConstraintTemplateV1ManifestSpecCrdSpec;
 }
@@ -662,13 +662,13 @@ export interface DataK8STemplatesGatekeeperShConstraintTemplateV1ManifestSpecTar
   /**
   * The engine used to evaluate the code. Example: 'Rego'. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#engine DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#engine DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#engine}
   */
   readonly engine: string;
   /**
   * The source code for the template. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#source DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#source DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#source}
   */
   readonly source: { [key: string]: string };
 }
@@ -809,19 +809,19 @@ export interface DataK8STemplatesGatekeeperShConstraintTemplateV1ManifestSpecTar
   /**
   * The source code options for the constraint template. 'Rego' can only be specified in one place (either here or in the 'rego' field)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#code DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#code DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#code}
   */
   readonly code?: DataK8STemplatesGatekeeperShConstraintTemplateV1ManifestSpecTargetsCode[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#libs DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#libs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#libs DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#libs}
   */
   readonly libs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#rego DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#rego}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#rego DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#rego}
   */
   readonly rego?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#target DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#target DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#target}
   */
   readonly target?: string;
 }
@@ -1024,11 +1024,11 @@ export class DataK8STemplatesGatekeeperShConstraintTemplateV1ManifestSpecTargets
 }
 export interface DataK8STemplatesGatekeeperShConstraintTemplateV1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#crd DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#crd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#crd DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#crd}
   */
   readonly crd?: DataK8STemplatesGatekeeperShConstraintTemplateV1ManifestSpecCrd;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#targets DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#targets DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest#targets}
   */
   readonly targets?: DataK8STemplatesGatekeeperShConstraintTemplateV1ManifestSpecTargets[] | cdktf.IResolvable;
 }
@@ -1151,7 +1151,7 @@ export class DataK8STemplatesGatekeeperShConstraintTemplateV1ManifestSpecOutputR
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest k8s_templates_gatekeeper_sh_constraint_template_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest k8s_templates_gatekeeper_sh_constraint_template_v1_manifest}
 */
 export class DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest extends cdktf.TerraformDataSource {
 
@@ -1167,7 +1167,7 @@ export class DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest extends cd
   * Generates CDKTF code for importing a DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest to import
-  * @param importFromId The id of the existing DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1179,7 +1179,7 @@ export class DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest k8s_templates_gatekeeper_sh_constraint_template_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/templates_gatekeeper_sh_constraint_template_v1_manifest k8s_templates_gatekeeper_sh_constraint_template_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1190,8 +1190,8 @@ export class DataK8STemplatesGatekeeperShConstraintTemplateV1Manifest extends cd
       terraformResourceType: 'k8s_templates_gatekeeper_sh_constraint_template_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

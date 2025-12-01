@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSchedulingVolcanoShQueueV1Beta1ManifestConfig extends cd
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#metadata DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#metadata DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#metadata}
   */
   readonly metadata: DataK8SSchedulingVolcanoShQueueV1Beta1ManifestMetadata;
   /**
   * Specification of the desired behavior of the queue. More info: https://git.k8s.io/community/contributors/devel/api-conventions.md#spec-and-status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#spec DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#spec DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#spec}
   */
   readonly spec?: DataK8SSchedulingVolcanoShQueueV1Beta1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SSchedulingVolcanoShQueueV1Beta1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#annotations DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#annotations DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#labels DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#labels DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#name DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#name DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#name}
   */
   readonly name: string;
 }
@@ -185,11 +185,11 @@ export class DataK8SSchedulingVolcanoShQueueV1Beta1ManifestMetadataOutputReferen
 }
 export interface DataK8SSchedulingVolcanoShQueueV1Beta1ManifestSpecAffinityNodeGroupAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: string[];
 }
@@ -312,11 +312,11 @@ export class DataK8SSchedulingVolcanoShQueueV1Beta1ManifestSpecAffinityNodeGroup
 }
 export interface DataK8SSchedulingVolcanoShQueueV1Beta1ManifestSpecAffinityNodeGroupAntiAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#required_during_scheduling_ignored_during_execution DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: string[];
 }
@@ -441,13 +441,13 @@ export interface DataK8SSchedulingVolcanoShQueueV1Beta1ManifestSpecAffinity {
   /**
   * Describes nodegroup affinity scheduling rules for the queue(e.g. putting pods of the queue in the nodes of the nodegroup)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#node_group_affinity DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#node_group_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#node_group_affinity DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#node_group_affinity}
   */
   readonly nodeGroupAffinity?: DataK8SSchedulingVolcanoShQueueV1Beta1ManifestSpecAffinityNodeGroupAffinity;
   /**
   * Describes nodegroup anti-affinity scheduling rules for the queue(e.g. avoid putting pods of the queue in the nodes of the nodegroup).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#node_group_anti_affinity DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#node_group_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#node_group_anti_affinity DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#node_group_anti_affinity}
   */
   readonly nodeGroupAntiAffinity?: DataK8SSchedulingVolcanoShQueueV1Beta1ManifestSpecAffinityNodeGroupAntiAffinity;
 }
@@ -572,15 +572,15 @@ export interface DataK8SSchedulingVolcanoShQueueV1Beta1ManifestSpecExtendCluster
   /**
   * ResourceList is a set of (resource name, quantity) pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#capacity DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#capacity DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#capacity}
   */
   readonly capacity?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#name DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#name DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#weight DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#weight DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -756,7 +756,7 @@ export interface DataK8SSchedulingVolcanoShQueueV1Beta1ManifestSpecGuarantee {
   /**
   * The amount of cluster resource reserved for queue. Just set either 'percentage' or 'resource'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#resource DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#resource DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#resource}
   */
   readonly resource?: { [key: string]: string };
 }
@@ -852,59 +852,59 @@ export interface DataK8SSchedulingVolcanoShQueueV1Beta1ManifestSpec {
   /**
   * If specified, the pod owned by the queue will be scheduled with constraint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#affinity DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#affinity DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#affinity}
   */
   readonly affinity?: DataK8SSchedulingVolcanoShQueueV1Beta1ManifestSpecAffinity;
   /**
   * ResourceList is a set of (resource name, quantity) pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#capability DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#capability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#capability DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#capability}
   */
   readonly capability?: { [key: string]: string };
   /**
   * The amount of resources configured by the user. This part of resource can be shared with other queues and reclaimed back.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#deserved DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#deserved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#deserved DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#deserved}
   */
   readonly deserved?: { [key: string]: string };
   /**
   * extendCluster indicate the jobs in this Queue will be dispatched to these clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#extend_clusters DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#extend_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#extend_clusters DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#extend_clusters}
   */
   readonly extendClusters?: DataK8SSchedulingVolcanoShQueueV1Beta1ManifestSpecExtendClusters[] | cdktf.IResolvable;
   /**
   * Guarantee indicate configuration about resource reservation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#guarantee DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#guarantee}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#guarantee DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#guarantee}
   */
   readonly guarantee?: DataK8SSchedulingVolcanoShQueueV1Beta1ManifestSpecGuarantee;
   /**
   * Parent define the parent of queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#parent DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#parent DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#parent}
   */
   readonly parent?: string;
   /**
   * Priority define the priority of queue. Higher values are prioritized for scheduling and considered later during reclamation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#priority DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#priority DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#priority}
   */
   readonly priority?: number;
   /**
   * Reclaimable indicate whether the queue can be reclaimed by other queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#reclaimable DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#reclaimable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#reclaimable DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#reclaimable}
   */
   readonly reclaimable?: boolean | cdktf.IResolvable;
   /**
   * Type define the type of queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#type DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#type DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#weight DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#weight DataK8SSchedulingVolcanoShQueueV1Beta1Manifest#weight}
   */
   readonly weight?: number;
 }
@@ -1259,7 +1259,7 @@ export class DataK8SSchedulingVolcanoShQueueV1Beta1ManifestSpecOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest k8s_scheduling_volcano_sh_queue_v1beta1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest k8s_scheduling_volcano_sh_queue_v1beta1_manifest}
 */
 export class DataK8SSchedulingVolcanoShQueueV1Beta1Manifest extends cdktf.TerraformDataSource {
 
@@ -1275,7 +1275,7 @@ export class DataK8SSchedulingVolcanoShQueueV1Beta1Manifest extends cdktf.Terraf
   * Generates CDKTF code for importing a DataK8SSchedulingVolcanoShQueueV1Beta1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSchedulingVolcanoShQueueV1Beta1Manifest to import
-  * @param importFromId The id of the existing DataK8SSchedulingVolcanoShQueueV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSchedulingVolcanoShQueueV1Beta1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSchedulingVolcanoShQueueV1Beta1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1287,7 +1287,7 @@ export class DataK8SSchedulingVolcanoShQueueV1Beta1Manifest extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest k8s_scheduling_volcano_sh_queue_v1beta1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/scheduling_volcano_sh_queue_v1beta1_manifest k8s_scheduling_volcano_sh_queue_v1beta1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1298,8 +1298,8 @@ export class DataK8SSchedulingVolcanoShQueueV1Beta1Manifest extends cdktf.Terraf
       terraformResourceType: 'k8s_scheduling_volcano_sh_queue_v1beta1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

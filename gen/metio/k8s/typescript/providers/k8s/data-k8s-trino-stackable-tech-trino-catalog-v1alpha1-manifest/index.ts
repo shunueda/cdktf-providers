@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestConfig ext
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#metadata DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#metadata DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestMetadata;
   /**
   * The TrinoCatalog resource can be used to define catalogs in Kubernetes objects. Read more about it in the [Trino operator concept docs](https://docs.stackable.tech/home/nightly/trino/concepts) and the [Trino operator usage guide](https://docs.stackable.tech/home/nightly/trino/usage-guide/catalogs/). The documentation also contains a list of all the supported backends.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#spec DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#spec DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#annotations DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#annotations DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#labels DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#labels DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#name DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#name DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#namespace DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#namespace DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,7 +219,7 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * Name of the [discovery ConfigMap](https://docs.stackable.tech/home/nightly/concepts/service_discovery) providing information about the HDFS cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#config_map DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#config_map DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#config_map}
   */
   readonly configMap: string;
 }
@@ -312,7 +312,7 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * Name of the [discovery ConfigMap](https://docs.stackable.tech/home/nightly/concepts/service_discovery) providing information about the Hive metastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#config_map DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#config_map DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#config_map}
   */
   readonly configMap: string;
 }
@@ -405,25 +405,25 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * The listener volume scope allows Node and Service scopes to be inferred from the applicable listeners. This must correspond to Volume names in the Pod that mount Listeners.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#listener_volumes DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#listener_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#listener_volumes DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#listener_volumes}
   */
   readonly listenerVolumes?: string[];
   /**
   * The node scope is resolved to the name of the Kubernetes Node object that the Pod is running on. This will typically be the DNS name of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#node DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#node DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#node}
   */
   readonly nodeAttribute?: boolean | cdktf.IResolvable;
   /**
   * The pod scope is resolved to the name of the Kubernetes Pod. This allows the secret to differentiate between StatefulSet replicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#pod DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#pod DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#pod}
   */
   readonly pod?: boolean | cdktf.IResolvable;
   /**
   * The service scope allows Pod objects to specify custom scopes. This should typically correspond to Service objects that the Pod participates in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#services DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#services DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#services}
   */
   readonly services?: string[];
 }
@@ -606,13 +606,13 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * [Scope](https://docs.stackable.tech/home/nightly/secret-operator/scope) of the [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#scope DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#scope DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#scope}
   */
   readonly scope?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorDeltaLakeS3InlineCredentialsScope;
   /**
   * [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass) containing the LDAP bind credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#secret_class DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#secret_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#secret_class DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#secret_class}
   */
   readonly secretClass: string;
 }
@@ -734,13 +734,13 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * Name of the [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass) which will provide the CA certificate. Note that a SecretClass does not need to have a key but can also work with just a CA certificate, so if you got provided with a CA cert but don't have access to the key you can still use this method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#secret_class DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#secret_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#secret_class DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#secret_class}
   */
   readonly secretClass?: string;
   /**
   * Use TLS and the CA certificates trusted by the common web browsers to verify the server. This can be useful when you e.g. use public AWS S3 or other public available services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#web_pki DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#web_pki}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#web_pki DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#web_pki}
   */
   readonly webPki?: { [key: string]: string };
 }
@@ -865,7 +865,7 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * CA cert to verify the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#ca_cert DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#ca_cert DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#ca_cert}
   */
   readonly caCert: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorDeltaLakeS3InlineTlsVerificationServerCaCert;
 }
@@ -958,13 +958,13 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * Use TLS but don't verify certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#none DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#none DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#none}
   */
   readonly none?: { [key: string]: string };
   /**
   * Use TLS and a CA certificate to verify the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#server DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#server DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#server}
   */
   readonly server?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorDeltaLakeS3InlineTlsVerificationServer;
 }
@@ -1089,7 +1089,7 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * The verification method used to verify the certificates of the server and/or the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#verification DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#verification DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#verification}
   */
   readonly verification: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorDeltaLakeS3InlineTlsVerification;
 }
@@ -1182,31 +1182,31 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * Which access style to use. Defaults to virtual hosted-style as most of the data products out there. Have a look at the [AWS documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/VirtualHosting.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#access_style DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#access_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#access_style DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#access_style}
   */
   readonly accessStyle?: string;
   /**
   * If the S3 uses authentication you have to specify you S3 credentials. In the most cases a [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass) providing 'accessKey' and 'secretKey' is sufficient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#credentials DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#credentials DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorDeltaLakeS3InlineCredentials;
   /**
   * Host of the S3 server without any protocol or port. For example: 'west1.my-cloud.com'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#host DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#host DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#host}
   */
   readonly host: string;
   /**
   * Port the S3 server listens on. If not specified the product will determine the port to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#port DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#port DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Use a TLS connection. If not specified no TLS will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#tls DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#tls DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorDeltaLakeS3InlineTls;
 }
@@ -1415,11 +1415,11 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * S3 connection definition as a resource. Learn more on the [S3 concept documentation](https://docs.stackable.tech/home/nightly/concepts/s3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#inline DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#inline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#inline DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#inline}
   */
   readonly inline?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorDeltaLakeS3Inline;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#reference DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#reference DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#reference}
   */
   readonly reference?: string;
 }
@@ -1544,19 +1544,19 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * Connection to an HDFS cluster. Please make sure that the underlying Hive metastore also has access to the HDFS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#hdfs DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#hdfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#hdfs DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#hdfs}
   */
   readonly hdfs?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorDeltaLakeHdfs;
   /**
   * Mandatory connection to a Hive Metastore, which will be used as a storage for metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#metastore DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#metastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#metastore DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#metastore}
   */
   readonly metastore: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorDeltaLakeMetastore;
   /**
   * Connection to an S3 store. Please make sure that the underlying Hive metastore also has access to the S3 store. Learn more about S3 configuration in the [S3 concept docs](https://docs.stackable.tech/home/nightly/concepts/s3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#s3 DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#s3 DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#s3}
   */
   readonly s3?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorDeltaLakeS3;
 }
@@ -1707,19 +1707,19 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#key DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#key DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#name DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#name DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#optional DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#optional DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1867,19 +1867,19 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#key DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#key DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#name DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#name DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#optional DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#optional DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2025,19 +2025,19 @@ export class DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorG
 }
 export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorGenericProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#value DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#value DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#value}
   */
   readonly value?: string;
   /**
   * Selects a key from a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#value_from_config_map DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#value_from_config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#value_from_config_map DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#value_from_config_map}
   */
   readonly valueFromConfigMap?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorGenericPropertiesValueFromConfigMap;
   /**
   * SecretKeySelector selects a key of a Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#value_from_secret DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#value_from_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#value_from_secret DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#value_from_secret}
   */
   readonly valueFromSecret?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorGenericPropertiesValueFromSecret;
 }
@@ -2191,13 +2191,13 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * Name of the Trino connector. Will be passed to 'connector.name'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#connector_name DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#connector_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#connector_name DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#connector_name}
   */
   readonly connectorName: string;
   /**
   * A map of properties to put in the connector configuration file. They can be specified either as a raw value or be read from a Secret or ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#properties DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#properties DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#properties}
   */
   readonly properties?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorGenericProperties;
 }
@@ -2319,13 +2319,13 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * How long to cache spreadsheet data or metadata, defaults to '5m'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#sheets_data_expire_after_write DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#sheets_data_expire_after_write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#sheets_data_expire_after_write DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#sheets_data_expire_after_write}
   */
   readonly sheetsDataExpireAfterWrite?: string;
   /**
   * Maximum number of spreadsheets to cache, defaults to 1000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#sheets_data_max_cache_size DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#sheets_data_max_cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#sheets_data_max_cache_size DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#sheets_data_max_cache_size}
   */
   readonly sheetsDataMaxCacheSize?: string;
 }
@@ -2450,19 +2450,19 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * Cache the contents of sheets. This is used to reduce Google Sheets API usage and latency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#cache DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#cache DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#cache}
   */
   readonly cache?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorGoogleSheetCache;
   /**
   * The Secret containing the Google API JSON key file. The key used from the Secret is 'credentials'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#credentials_secret DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#credentials_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#credentials_secret DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#credentials_secret}
   */
   readonly credentialsSecret: string;
   /**
   * Sheet ID of the spreadsheet, that contains the table mapping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#metadata_sheet_id DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#metadata_sheet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#metadata_sheet_id DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#metadata_sheet_id}
   */
   readonly metadataSheetId: string;
 }
@@ -2610,7 +2610,7 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * Name of the [discovery ConfigMap](https://docs.stackable.tech/home/nightly/concepts/service_discovery) providing information about the HDFS cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#config_map DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#config_map DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#config_map}
   */
   readonly configMap: string;
 }
@@ -2703,7 +2703,7 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * Name of the [discovery ConfigMap](https://docs.stackable.tech/home/nightly/concepts/service_discovery) providing information about the Hive metastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#config_map DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#config_map DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#config_map}
   */
   readonly configMap: string;
 }
@@ -2796,25 +2796,25 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * The listener volume scope allows Node and Service scopes to be inferred from the applicable listeners. This must correspond to Volume names in the Pod that mount Listeners.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#listener_volumes DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#listener_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#listener_volumes DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#listener_volumes}
   */
   readonly listenerVolumes?: string[];
   /**
   * The node scope is resolved to the name of the Kubernetes Node object that the Pod is running on. This will typically be the DNS name of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#node DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#node DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#node}
   */
   readonly nodeAttribute?: boolean | cdktf.IResolvable;
   /**
   * The pod scope is resolved to the name of the Kubernetes Pod. This allows the secret to differentiate between StatefulSet replicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#pod DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#pod DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#pod}
   */
   readonly pod?: boolean | cdktf.IResolvable;
   /**
   * The service scope allows Pod objects to specify custom scopes. This should typically correspond to Service objects that the Pod participates in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#services DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#services DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#services}
   */
   readonly services?: string[];
 }
@@ -2997,13 +2997,13 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * [Scope](https://docs.stackable.tech/home/nightly/secret-operator/scope) of the [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#scope DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#scope DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#scope}
   */
   readonly scope?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorHiveS3InlineCredentialsScope;
   /**
   * [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass) containing the LDAP bind credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#secret_class DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#secret_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#secret_class DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#secret_class}
   */
   readonly secretClass: string;
 }
@@ -3125,13 +3125,13 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * Name of the [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass) which will provide the CA certificate. Note that a SecretClass does not need to have a key but can also work with just a CA certificate, so if you got provided with a CA cert but don't have access to the key you can still use this method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#secret_class DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#secret_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#secret_class DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#secret_class}
   */
   readonly secretClass?: string;
   /**
   * Use TLS and the CA certificates trusted by the common web browsers to verify the server. This can be useful when you e.g. use public AWS S3 or other public available services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#web_pki DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#web_pki}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#web_pki DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#web_pki}
   */
   readonly webPki?: { [key: string]: string };
 }
@@ -3256,7 +3256,7 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * CA cert to verify the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#ca_cert DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#ca_cert DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#ca_cert}
   */
   readonly caCert: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorHiveS3InlineTlsVerificationServerCaCert;
 }
@@ -3349,13 +3349,13 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * Use TLS but don't verify certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#none DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#none DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#none}
   */
   readonly none?: { [key: string]: string };
   /**
   * Use TLS and a CA certificate to verify the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#server DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#server DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#server}
   */
   readonly server?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorHiveS3InlineTlsVerificationServer;
 }
@@ -3480,7 +3480,7 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * The verification method used to verify the certificates of the server and/or the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#verification DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#verification DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#verification}
   */
   readonly verification: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorHiveS3InlineTlsVerification;
 }
@@ -3573,31 +3573,31 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * Which access style to use. Defaults to virtual hosted-style as most of the data products out there. Have a look at the [AWS documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/VirtualHosting.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#access_style DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#access_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#access_style DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#access_style}
   */
   readonly accessStyle?: string;
   /**
   * If the S3 uses authentication you have to specify you S3 credentials. In the most cases a [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass) providing 'accessKey' and 'secretKey' is sufficient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#credentials DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#credentials DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorHiveS3InlineCredentials;
   /**
   * Host of the S3 server without any protocol or port. For example: 'west1.my-cloud.com'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#host DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#host DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#host}
   */
   readonly host: string;
   /**
   * Port the S3 server listens on. If not specified the product will determine the port to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#port DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#port DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Use a TLS connection. If not specified no TLS will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#tls DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#tls DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorHiveS3InlineTls;
 }
@@ -3806,11 +3806,11 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * S3 connection definition as a resource. Learn more on the [S3 concept documentation](https://docs.stackable.tech/home/nightly/concepts/s3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#inline DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#inline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#inline DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#inline}
   */
   readonly inline?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorHiveS3Inline;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#reference DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#reference DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#reference}
   */
   readonly reference?: string;
 }
@@ -3935,19 +3935,19 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * Connection to an HDFS cluster. Please make sure that the underlying Hive metastore also has access to the HDFS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#hdfs DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#hdfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#hdfs DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#hdfs}
   */
   readonly hdfs?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorHiveHdfs;
   /**
   * Mandatory connection to a Hive Metastore, which will be used as a storage for metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#metastore DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#metastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#metastore DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#metastore}
   */
   readonly metastore: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorHiveMetastore;
   /**
   * Connection to an S3 store. Please make sure that the underlying Hive metastore also has access to the S3 store. Learn more about S3 configuration in the [S3 concept docs](https://docs.stackable.tech/home/nightly/concepts/s3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#s3 DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#s3 DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#s3}
   */
   readonly s3?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorHiveS3;
 }
@@ -4098,7 +4098,7 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * Name of the [discovery ConfigMap](https://docs.stackable.tech/home/nightly/concepts/service_discovery) providing information about the HDFS cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#config_map DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#config_map DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#config_map}
   */
   readonly configMap: string;
 }
@@ -4191,7 +4191,7 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * Name of the [discovery ConfigMap](https://docs.stackable.tech/home/nightly/concepts/service_discovery) providing information about the Hive metastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#config_map DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#config_map DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#config_map}
   */
   readonly configMap: string;
 }
@@ -4284,25 +4284,25 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * The listener volume scope allows Node and Service scopes to be inferred from the applicable listeners. This must correspond to Volume names in the Pod that mount Listeners.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#listener_volumes DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#listener_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#listener_volumes DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#listener_volumes}
   */
   readonly listenerVolumes?: string[];
   /**
   * The node scope is resolved to the name of the Kubernetes Node object that the Pod is running on. This will typically be the DNS name of the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#node DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#node DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#node}
   */
   readonly nodeAttribute?: boolean | cdktf.IResolvable;
   /**
   * The pod scope is resolved to the name of the Kubernetes Pod. This allows the secret to differentiate between StatefulSet replicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#pod DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#pod DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#pod}
   */
   readonly pod?: boolean | cdktf.IResolvable;
   /**
   * The service scope allows Pod objects to specify custom scopes. This should typically correspond to Service objects that the Pod participates in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#services DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#services DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#services}
   */
   readonly services?: string[];
 }
@@ -4485,13 +4485,13 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * [Scope](https://docs.stackable.tech/home/nightly/secret-operator/scope) of the [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#scope DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#scope DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#scope}
   */
   readonly scope?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorIcebergS3InlineCredentialsScope;
   /**
   * [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass) containing the LDAP bind credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#secret_class DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#secret_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#secret_class DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#secret_class}
   */
   readonly secretClass: string;
 }
@@ -4613,13 +4613,13 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * Name of the [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass) which will provide the CA certificate. Note that a SecretClass does not need to have a key but can also work with just a CA certificate, so if you got provided with a CA cert but don't have access to the key you can still use this method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#secret_class DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#secret_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#secret_class DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#secret_class}
   */
   readonly secretClass?: string;
   /**
   * Use TLS and the CA certificates trusted by the common web browsers to verify the server. This can be useful when you e.g. use public AWS S3 or other public available services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#web_pki DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#web_pki}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#web_pki DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#web_pki}
   */
   readonly webPki?: { [key: string]: string };
 }
@@ -4744,7 +4744,7 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * CA cert to verify the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#ca_cert DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#ca_cert DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#ca_cert}
   */
   readonly caCert: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorIcebergS3InlineTlsVerificationServerCaCert;
 }
@@ -4837,13 +4837,13 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * Use TLS but don't verify certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#none DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#none DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#none}
   */
   readonly none?: { [key: string]: string };
   /**
   * Use TLS and a CA certificate to verify the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#server DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#server DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#server}
   */
   readonly server?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorIcebergS3InlineTlsVerificationServer;
 }
@@ -4968,7 +4968,7 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * The verification method used to verify the certificates of the server and/or the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#verification DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#verification DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#verification}
   */
   readonly verification: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorIcebergS3InlineTlsVerification;
 }
@@ -5061,31 +5061,31 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * Which access style to use. Defaults to virtual hosted-style as most of the data products out there. Have a look at the [AWS documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/VirtualHosting.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#access_style DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#access_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#access_style DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#access_style}
   */
   readonly accessStyle?: string;
   /**
   * If the S3 uses authentication you have to specify you S3 credentials. In the most cases a [SecretClass](https://docs.stackable.tech/home/nightly/secret-operator/secretclass) providing 'accessKey' and 'secretKey' is sufficient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#credentials DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#credentials DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorIcebergS3InlineCredentials;
   /**
   * Host of the S3 server without any protocol or port. For example: 'west1.my-cloud.com'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#host DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#host DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#host}
   */
   readonly host: string;
   /**
   * Port the S3 server listens on. If not specified the product will determine the port to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#port DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#port DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#port}
   */
   readonly port?: number;
   /**
   * Use a TLS connection. If not specified no TLS will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#tls DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#tls DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorIcebergS3InlineTls;
 }
@@ -5294,11 +5294,11 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * S3 connection definition as a resource. Learn more on the [S3 concept documentation](https://docs.stackable.tech/home/nightly/concepts/s3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#inline DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#inline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#inline DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#inline}
   */
   readonly inline?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorIcebergS3Inline;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#reference DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#reference DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#reference}
   */
   readonly reference?: string;
 }
@@ -5423,19 +5423,19 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * Connection to an HDFS cluster. Please make sure that the underlying Hive metastore also has access to the HDFS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#hdfs DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#hdfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#hdfs DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#hdfs}
   */
   readonly hdfs?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorIcebergHdfs;
   /**
   * Mandatory connection to a Hive Metastore, which will be used as a storage for metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#metastore DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#metastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#metastore DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#metastore}
   */
   readonly metastore: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorIcebergMetastore;
   /**
   * Connection to an S3 store. Please make sure that the underlying Hive metastore also has access to the S3 store. Learn more about S3 configuration in the [S3 concept docs](https://docs.stackable.tech/home/nightly/concepts/s3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#s3 DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#s3 DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#s3}
   */
   readonly s3?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorIcebergS3;
 }
@@ -5586,49 +5586,49 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnec
   /**
   * A [Black Hole](https://docs.stackable.tech/home/nightly/trino/usage-guide/catalogs/black-hole) connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#black_hole DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#black_hole}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#black_hole DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#black_hole}
   */
   readonly blackHole?: { [key: string]: string };
   /**
   * An [Delta Lake](https://docs.stackable.tech/home/nightly/trino/usage-guide/catalogs/delta-lake) connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#delta_lake DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#delta_lake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#delta_lake DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#delta_lake}
   */
   readonly deltaLake?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorDeltaLake;
   /**
   * A [generic](https://docs.stackable.tech/home/nightly/trino/usage-guide/catalogs/generic) connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#generic DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#generic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#generic DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#generic}
   */
   readonly generic?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorGeneric;
   /**
   * A [Google sheets](https://docs.stackable.tech/home/nightly/trino/usage-guide/catalogs/google-sheets) connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#google_sheet DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#google_sheet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#google_sheet DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#google_sheet}
   */
   readonly googleSheet?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorGoogleSheet;
   /**
   * An [Apache Hive](https://docs.stackable.tech/home/nightly/trino/usage-guide/catalogs/hive) connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#hive DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#hive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#hive DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#hive}
   */
   readonly hive?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorHive;
   /**
   * An [Apache Iceberg](https://docs.stackable.tech/home/nightly/trino/usage-guide/catalogs/iceberg) connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#iceberg DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#iceberg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#iceberg DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#iceberg}
   */
   readonly iceberg?: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnectorIceberg;
   /**
   * A [TPC-DS](https://docs.stackable.tech/home/nightly/trino/usage-guide/catalogs/tpcds) connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#tpcds DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#tpcds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#tpcds DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#tpcds}
   */
   readonly tpcds?: { [key: string]: string };
   /**
   * A [TPC-H](https://docs.stackable.tech/home/nightly/trino/usage-guide/catalogs/tpch) connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#tpch DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#tpch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#tpch DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#tpch}
   */
   readonly tpch?: { [key: string]: string };
 }
@@ -5927,13 +5927,13 @@ export interface DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpec {
   /**
   * The 'configOverrides' allow overriding arbitrary Trino settings. For example, for Hive you could add 'hive.metastore.username: trino'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#config_overrides DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#config_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#config_overrides DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#config_overrides}
   */
   readonly configOverrides?: { [key: string]: string };
   /**
   * The 'connector' defines which connector is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#connector DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#connector DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest#connector}
   */
   readonly connector: DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecConnector;
 }
@@ -6053,7 +6053,7 @@ export class DataK8STrinoStackableTechTrinoCatalogV1Alpha1ManifestSpecOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest k8s_trino_stackable_tech_trino_catalog_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest k8s_trino_stackable_tech_trino_catalog_v1alpha1_manifest}
 */
 export class DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -6069,7 +6069,7 @@ export class DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest extends cdktf
   * Generates CDKTF code for importing a DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6081,7 +6081,7 @@ export class DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest k8s_trino_stackable_tech_trino_catalog_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/trino_stackable_tech_trino_catalog_v1alpha1_manifest k8s_trino_stackable_tech_trino_catalog_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6092,8 +6092,8 @@ export class DataK8STrinoStackableTechTrinoCatalogV1Alpha1Manifest extends cdktf
       terraformResourceType: 'k8s_trino_stackable_tech_trino_catalog_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

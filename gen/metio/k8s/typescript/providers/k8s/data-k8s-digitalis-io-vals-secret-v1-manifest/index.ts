@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SDigitalisIoValsSecretV1ManifestConfig extends cdktf.Terr
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest#metadata DataK8SDigitalisIoValsSecretV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest#metadata DataK8SDigitalisIoValsSecretV1Manifest#metadata}
   */
   readonly metadata: DataK8SDigitalisIoValsSecretV1ManifestMetadata;
   /**
   * ValsSecretSpec defines the desired state of ValsSecret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest#spec DataK8SDigitalisIoValsSecretV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest#spec DataK8SDigitalisIoValsSecretV1Manifest#spec}
   */
   readonly spec?: DataK8SDigitalisIoValsSecretV1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SDigitalisIoValsSecretV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest#annotations DataK8SDigitalisIoValsSecretV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest#annotations DataK8SDigitalisIoValsSecretV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest#labels DataK8SDigitalisIoValsSecretV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest#labels DataK8SDigitalisIoValsSecretV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest#name DataK8SDigitalisIoValsSecretV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest#name DataK8SDigitalisIoValsSecretV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest#namespace DataK8SDigitalisIoValsSecretV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest#namespace DataK8SDigitalisIoValsSecretV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,13 +219,13 @@ export interface DataK8SDigitalisIoValsSecretV1ManifestSpecData {
   /**
   * Encoding type for the secret. Only base64 supported. Optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest#encoding DataK8SDigitalisIoValsSecretV1Manifest#encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest#encoding DataK8SDigitalisIoValsSecretV1Manifest#encoding}
   */
   readonly encoding?: string;
   /**
   * Ref value to the secret in the format ref+backend://path https://github.com/helmfile/vals
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest#ref DataK8SDigitalisIoValsSecretV1Manifest#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest#ref DataK8SDigitalisIoValsSecretV1Manifest#ref}
   */
   readonly ref: string;
 }
@@ -347,25 +347,25 @@ export interface DataK8SDigitalisIoValsSecretV1ManifestSpecDatabasesLoginCredent
   /**
   * Optional namespace of the secret, default current namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest#namespace DataK8SDigitalisIoValsSecretV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest#namespace DataK8SDigitalisIoValsSecretV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Key in the secret containing the database username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest#password_key DataK8SDigitalisIoValsSecretV1Manifest#password_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest#password_key DataK8SDigitalisIoValsSecretV1Manifest#password_key}
   */
   readonly passwordKey: string;
   /**
   * Name of the secret containing the credentials to be able to log in to the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest#secret_name DataK8SDigitalisIoValsSecretV1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest#secret_name DataK8SDigitalisIoValsSecretV1Manifest#secret_name}
   */
   readonly secretName: string;
   /**
   * Key in the secret containing the database username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest#username_key DataK8SDigitalisIoValsSecretV1Manifest#username_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest#username_key DataK8SDigitalisIoValsSecretV1Manifest#username_key}
   */
   readonly usernameKey?: string;
 }
@@ -542,43 +542,43 @@ export interface DataK8SDigitalisIoValsSecretV1ManifestSpecDatabases {
   /**
   * Defines the database type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest#driver DataK8SDigitalisIoValsSecretV1Manifest#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest#driver DataK8SDigitalisIoValsSecretV1Manifest#driver}
   */
   readonly driver: string;
   /**
   * List of hosts to connect to, they'll be tried in sequence until one succeeds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest#hosts DataK8SDigitalisIoValsSecretV1Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest#hosts DataK8SDigitalisIoValsSecretV1Manifest#hosts}
   */
   readonly hosts: string[];
   /**
   * Credentials to access the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest#login_credentials DataK8SDigitalisIoValsSecretV1Manifest#login_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest#login_credentials DataK8SDigitalisIoValsSecretV1Manifest#login_credentials}
   */
   readonly loginCredentials?: DataK8SDigitalisIoValsSecretV1ManifestSpecDatabasesLoginCredentials;
   /**
   * Key in the secret containing the database username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest#password_key DataK8SDigitalisIoValsSecretV1Manifest#password_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest#password_key DataK8SDigitalisIoValsSecretV1Manifest#password_key}
   */
   readonly passwordKey: string;
   /**
   * Database port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest#port DataK8SDigitalisIoValsSecretV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest#port DataK8SDigitalisIoValsSecretV1Manifest#port}
   */
   readonly port?: number;
   /**
   * Used for MySQL only, the host part for the username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest#user_host DataK8SDigitalisIoValsSecretV1Manifest#user_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest#user_host DataK8SDigitalisIoValsSecretV1Manifest#user_host}
   */
   readonly userHost?: string;
   /**
   * Key in the secret containing the database username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest#username_key DataK8SDigitalisIoValsSecretV1Manifest#username_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest#username_key DataK8SDigitalisIoValsSecretV1Manifest#username_key}
   */
   readonly usernameKey?: string;
 }
@@ -859,27 +859,27 @@ export class DataK8SDigitalisIoValsSecretV1ManifestSpecDatabasesList extends cdk
 }
 export interface DataK8SDigitalisIoValsSecretV1ManifestSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest#data DataK8SDigitalisIoValsSecretV1Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest#data DataK8SDigitalisIoValsSecretV1Manifest#data}
   */
   readonly data: DataK8SDigitalisIoValsSecretV1ManifestSpecData;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest#databases DataK8SDigitalisIoValsSecretV1Manifest#databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest#databases DataK8SDigitalisIoValsSecretV1Manifest#databases}
   */
   readonly databases?: DataK8SDigitalisIoValsSecretV1ManifestSpecDatabases[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest#name DataK8SDigitalisIoValsSecretV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest#name DataK8SDigitalisIoValsSecretV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest#template DataK8SDigitalisIoValsSecretV1Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest#template DataK8SDigitalisIoValsSecretV1Manifest#template}
   */
   readonly template?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest#ttl DataK8SDigitalisIoValsSecretV1Manifest#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest#ttl DataK8SDigitalisIoValsSecretV1Manifest#ttl}
   */
   readonly ttl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest#type DataK8SDigitalisIoValsSecretV1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest#type DataK8SDigitalisIoValsSecretV1Manifest#type}
   */
   readonly type?: string;
 }
@@ -1115,7 +1115,7 @@ export class DataK8SDigitalisIoValsSecretV1ManifestSpecOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest k8s_digitalis_io_vals_secret_v1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest k8s_digitalis_io_vals_secret_v1_manifest}
 */
 export class DataK8SDigitalisIoValsSecretV1Manifest extends cdktf.TerraformDataSource {
 
@@ -1131,7 +1131,7 @@ export class DataK8SDigitalisIoValsSecretV1Manifest extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataK8SDigitalisIoValsSecretV1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SDigitalisIoValsSecretV1Manifest to import
-  * @param importFromId The id of the existing DataK8SDigitalisIoValsSecretV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SDigitalisIoValsSecretV1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SDigitalisIoValsSecretV1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1143,7 +1143,7 @@ export class DataK8SDigitalisIoValsSecretV1Manifest extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/digitalis_io_vals_secret_v1_manifest k8s_digitalis_io_vals_secret_v1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/digitalis_io_vals_secret_v1_manifest k8s_digitalis_io_vals_secret_v1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1154,8 +1154,8 @@ export class DataK8SDigitalisIoValsSecretV1Manifest extends cdktf.TerraformDataS
       terraformResourceType: 'k8s_digitalis_io_vals_secret_v1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

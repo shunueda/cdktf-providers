@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource
+// https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface UserImportJobResourceConfig extends cdktf.TerraformMetaArgument
   /**
   * List of User Import Jobs to create
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource#jobs UserImportJobResource#jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource#jobs UserImportJobResource#jobs}
   */
   readonly jobs: UserImportJobResourceJobs[] | cdktf.IResolvable;
 }
@@ -18,139 +18,139 @@ export interface UserImportJobResourceJobs {
   /**
   * Build user map configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource#build_user_map UserImportJobResource#build_user_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource#build_user_map UserImportJobResource#build_user_map}
   */
   readonly buildUserMap?: string;
   /**
   * Check rules configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource#check_rules UserImportJobResource#check_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource#check_rules UserImportJobResource#check_rules}
   */
   readonly checkRules?: string;
   /**
   * Cron expression defining the schedule for the trigger. Example: "0 0 2 * * ?"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource#cron_expression UserImportJobResource#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource#cron_expression UserImportJobResource#cron_expression}
   */
   readonly cronExpression: string;
   /**
   * Endpoints to associate orphan accounts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource#endpoints_to_associate_orphan_accounts UserImportJobResource#endpoints_to_associate_orphan_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource#endpoints_to_associate_orphan_accounts UserImportJobResource#endpoints_to_associate_orphan_accounts}
   */
   readonly endpointsToAssociateOrphanAccounts?: string;
   /**
   * Export to SAV cloud configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource#export_to_sav_cloud UserImportJobResource#export_to_sav_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource#export_to_sav_cloud UserImportJobResource#export_to_sav_cloud}
   */
   readonly exportToSavCloud?: string;
   /**
   * External connection for the user import
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource#external_conn UserImportJobResource#external_conn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource#external_conn UserImportJobResource#external_conn}
   */
   readonly externalConn: string;
   /**
   * Full or incremental import type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource#full_or_incremental UserImportJobResource#full_or_incremental}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource#full_or_incremental UserImportJobResource#full_or_incremental}
   */
   readonly fullOrIncremental?: string;
   /**
   * Generate email configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource#generate_email UserImportJobResource#generate_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource#generate_email UserImportJobResource#generate_email}
   */
   readonly generateEmail?: string;
   /**
   * Generate system username configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource#generate_system_username UserImportJobResource#generate_system_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource#generate_system_username UserImportJobResource#generate_system_username}
   */
   readonly generateSystemUsername?: string;
   /**
   * Import SAV connect configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource#import_sav_connect UserImportJobResource#import_sav_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource#import_sav_connect UserImportJobResource#import_sav_connect}
   */
   readonly importSavConnect?: string;
   /**
   * Name of the job group associated with the trigger. Example: "utility"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource#job_group UserImportJobResource#job_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource#job_group UserImportJobResource#job_group}
   */
   readonly jobGroup: string;
   /**
   * Action to take on failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource#on_failure UserImportJobResource#on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource#on_failure UserImportJobResource#on_failure}
   */
   readonly onFailure?: string;
   /**
   * Term user limit configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource#term_user_limit UserImportJobResource#term_user_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource#term_user_limit UserImportJobResource#term_user_limit}
   */
   readonly termUserLimit?: string;
   /**
   * Group classification for the trigger. Example: "GRAILS_JOBS"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource#trigger_group UserImportJobResource#trigger_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource#trigger_group UserImportJobResource#trigger_group}
   */
   readonly triggerGroup?: string;
   /**
   * Unique name of the trigger. Example: "MyTrigger_001"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource#trigger_name UserImportJobResource#trigger_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource#trigger_name UserImportJobResource#trigger_name}
   */
   readonly triggerName: string;
   /**
   * User default SAV role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource#user_default_sav_role UserImportJobResource#user_default_sav_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource#user_default_sav_role UserImportJobResource#user_default_sav_role}
   */
   readonly userDefaultSavRole?: string;
   /**
   * Action to take for users not in feed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource#user_not_in_feed_action UserImportJobResource#user_not_in_feed_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource#user_not_in_feed_action UserImportJobResource#user_not_in_feed_action}
   */
   readonly userNotInFeedAction?: string;
   /**
   * User operations allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource#user_operations_allowed UserImportJobResource#user_operations_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource#user_operations_allowed UserImportJobResource#user_operations_allowed}
   */
   readonly userOperationsAllowed?: string;
   /**
   * User reconciliation field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource#user_reconciliation_field UserImportJobResource#user_reconciliation_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource#user_reconciliation_field UserImportJobResource#user_reconciliation_field}
   */
   readonly userReconciliationField?: string;
   /**
   * User status configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource#user_status_config UserImportJobResource#user_status_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource#user_status_config UserImportJobResource#user_status_config}
   */
   readonly userStatusConfig?: string;
   /**
   * User threshold configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource#user_threshold UserImportJobResource#user_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource#user_threshold UserImportJobResource#user_threshold}
   */
   readonly userThreshold?: string;
   /**
   * Zero day limit configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource#zero_day_limit UserImportJobResource#zero_day_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource#zero_day_limit UserImportJobResource#zero_day_limit}
   */
   readonly zeroDayLimit?: string;
   /**
   * Zero day provisioning configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource#zero_day_provisioning UserImportJobResource#zero_day_provisioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource#zero_day_provisioning UserImportJobResource#zero_day_provisioning}
   */
   readonly zeroDayProvisioning?: string;
 }
@@ -892,7 +892,7 @@ export class UserImportJobResourceJobsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource saviynt_user_import_job_resource}
+* Represents a {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource saviynt_user_import_job_resource}
 */
 export class UserImportJobResource extends cdktf.TerraformResource {
 
@@ -908,7 +908,7 @@ export class UserImportJobResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserImportJobResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserImportJobResource to import
-  * @param importFromId The id of the existing UserImportJobResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserImportJobResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserImportJobResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -920,7 +920,7 @@ export class UserImportJobResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.1/docs/resources/user_import_job_resource saviynt_user_import_job_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/saviynt/saviynt/0.3.2/docs/resources/user_import_job_resource saviynt_user_import_job_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -931,8 +931,8 @@ export class UserImportJobResource extends cdktf.TerraformResource {
       terraformResourceType: 'saviynt_user_import_job_resource',
       terraformGeneratorMetadata: {
         providerName: 'saviynt',
-        providerVersion: '0.3.1',
-        providerVersionConstraint: '0.3.1'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

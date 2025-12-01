@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/organization_programmatic_user
+// https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/organization_programmatic_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface OrganizationProgrammaticUserConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/organization_programmatic_user#description OrganizationProgrammaticUser#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/organization_programmatic_user#description OrganizationProgrammaticUser#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/organization_programmatic_user#id OrganizationProgrammaticUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/organization_programmatic_user#id OrganizationProgrammaticUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/organization_programmatic_user#name OrganizationProgrammaticUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/organization_programmatic_user#name OrganizationProgrammaticUser#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/organization_programmatic_user#user_group_ids OrganizationProgrammaticUser#user_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/organization_programmatic_user#user_group_ids OrganizationProgrammaticUser#user_group_ids}
   */
   readonly userGroupIds?: string[];
   /**
   * accounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/organization_programmatic_user#accounts OrganizationProgrammaticUser#accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/organization_programmatic_user#accounts OrganizationProgrammaticUser#accounts}
   */
   readonly accounts?: OrganizationProgrammaticUserAccounts[] | cdktf.IResolvable;
   /**
   * policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/organization_programmatic_user#policies OrganizationProgrammaticUser#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/organization_programmatic_user#policies OrganizationProgrammaticUser#policies}
   */
   readonly policies?: OrganizationProgrammaticUserPolicies[] | cdktf.IResolvable;
 }
 export interface OrganizationProgrammaticUserAccounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/organization_programmatic_user#account_id OrganizationProgrammaticUser#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/organization_programmatic_user#account_id OrganizationProgrammaticUser#account_id}
   */
   readonly accountId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/organization_programmatic_user#account_role OrganizationProgrammaticUser#account_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/organization_programmatic_user#account_role OrganizationProgrammaticUser#account_role}
   */
   readonly accountRole: string;
 }
@@ -184,11 +184,11 @@ export class OrganizationProgrammaticUserAccountsList extends cdktf.ComplexList 
 }
 export interface OrganizationProgrammaticUserPolicies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/organization_programmatic_user#policy_account_ids OrganizationProgrammaticUser#policy_account_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/organization_programmatic_user#policy_account_ids OrganizationProgrammaticUser#policy_account_ids}
   */
   readonly policyAccountIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/organization_programmatic_user#policy_id OrganizationProgrammaticUser#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/organization_programmatic_user#policy_id OrganizationProgrammaticUser#policy_id}
   */
   readonly policyId: string;
 }
@@ -330,7 +330,7 @@ export class OrganizationProgrammaticUserPoliciesList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/organization_programmatic_user spotinst_organization_programmatic_user}
+* Represents a {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/organization_programmatic_user spotinst_organization_programmatic_user}
 */
 export class OrganizationProgrammaticUser extends cdktf.TerraformResource {
 
@@ -346,7 +346,7 @@ export class OrganizationProgrammaticUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationProgrammaticUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationProgrammaticUser to import
-  * @param importFromId The id of the existing OrganizationProgrammaticUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/organization_programmatic_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationProgrammaticUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/organization_programmatic_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationProgrammaticUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -358,7 +358,7 @@ export class OrganizationProgrammaticUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.230.0/docs/resources/organization_programmatic_user spotinst_organization_programmatic_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/spotinst/spotinst/1.231.0/docs/resources/organization_programmatic_user spotinst_organization_programmatic_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -369,8 +369,8 @@ export class OrganizationProgrammaticUser extends cdktf.TerraformResource {
       terraformResourceType: 'spotinst_organization_programmatic_user',
       terraformGeneratorMetadata: {
         providerName: 'spotinst',
-        providerVersion: '1.230.0',
-        providerVersionConstraint: '1.230.0'
+        providerVersion: '1.231.0',
+        providerVersionConstraint: '1.231.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

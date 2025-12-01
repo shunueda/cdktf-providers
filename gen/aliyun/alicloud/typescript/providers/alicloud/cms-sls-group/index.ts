@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_sls_group
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_sls_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface CmsSlsGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_sls_group#id CmsSlsGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_sls_group#id CmsSlsGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_sls_group#sls_group_description CmsSlsGroup#sls_group_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_sls_group#sls_group_description CmsSlsGroup#sls_group_description}
   */
   readonly slsGroupDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_sls_group#sls_group_name CmsSlsGroup#sls_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_sls_group#sls_group_name CmsSlsGroup#sls_group_name}
   */
   readonly slsGroupName: string;
   /**
   * sls_group_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_sls_group#sls_group_config CmsSlsGroup#sls_group_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_sls_group#sls_group_config CmsSlsGroup#sls_group_config}
   */
   readonly slsGroupConfig: CmsSlsGroupSlsGroupConfig[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_sls_group#timeouts CmsSlsGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_sls_group#timeouts CmsSlsGroup#timeouts}
   */
   readonly timeouts?: CmsSlsGroupTimeouts;
 }
 export interface CmsSlsGroupSlsGroupConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_sls_group#sls_logstore CmsSlsGroup#sls_logstore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_sls_group#sls_logstore CmsSlsGroup#sls_logstore}
   */
   readonly slsLogstore: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_sls_group#sls_project CmsSlsGroup#sls_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_sls_group#sls_project CmsSlsGroup#sls_project}
   */
   readonly slsProject: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_sls_group#sls_region CmsSlsGroup#sls_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_sls_group#sls_region CmsSlsGroup#sls_region}
   */
   readonly slsRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_sls_group#sls_user_id CmsSlsGroup#sls_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_sls_group#sls_user_id CmsSlsGroup#sls_user_id}
   */
   readonly slsUserId?: string;
 }
@@ -243,15 +243,15 @@ export class CmsSlsGroupSlsGroupConfigList extends cdktf.ComplexList {
 }
 export interface CmsSlsGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_sls_group#create CmsSlsGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_sls_group#create CmsSlsGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_sls_group#delete CmsSlsGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_sls_group#delete CmsSlsGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_sls_group#update CmsSlsGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_sls_group#update CmsSlsGroup#update}
   */
   readonly update?: string;
 }
@@ -403,7 +403,7 @@ export class CmsSlsGroupTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_sls_group alicloud_cms_sls_group}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_sls_group alicloud_cms_sls_group}
 */
 export class CmsSlsGroup extends cdktf.TerraformResource {
 
@@ -419,7 +419,7 @@ export class CmsSlsGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CmsSlsGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CmsSlsGroup to import
-  * @param importFromId The id of the existing CmsSlsGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_sls_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CmsSlsGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_sls_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CmsSlsGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -431,7 +431,7 @@ export class CmsSlsGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/cms_sls_group alicloud_cms_sls_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/cms_sls_group alicloud_cms_sls_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -442,8 +442,8 @@ export class CmsSlsGroup extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_cms_sls_group',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

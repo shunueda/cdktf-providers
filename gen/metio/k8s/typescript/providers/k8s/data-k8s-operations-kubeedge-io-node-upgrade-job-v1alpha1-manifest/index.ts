@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1ManifestConfig
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#metadata DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#metadata DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1ManifestMetadata;
   /**
   * Specification of the desired behavior of NodeUpgradeJob.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#spec DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#spec DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1ManifestSpec;
 }
@@ -24,19 +24,19 @@ export interface DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1ManifestMetada
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#annotations DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#annotations DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#labels DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#labels DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#name DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#name DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -187,19 +187,19 @@ export interface DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1ManifestSpecLa
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#key DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#key DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#operator DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#operator DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#values DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#values DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -369,13 +369,13 @@ export interface DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1ManifestSpecLa
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#match_expressions DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#match_expressions DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1ManifestSpecLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#match_labels DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#match_labels DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -500,47 +500,47 @@ export interface DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1ManifestSpec {
   /**
   * CheckItems specifies the items need to be checked before the task is executed. The default CheckItems value is nil.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#check_items DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#check_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#check_items DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#check_items}
   */
   readonly checkItems?: string[];
   /**
   * Concurrency specifies the max number of edge nodes that can be upgraded at the same time. The default Concurrency value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#concurrency DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#concurrency DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#concurrency}
   */
   readonly concurrency?: number;
   /**
   * FailureTolerate specifies the task tolerance failure ratio. The default FailureTolerate value is 0.1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#failure_tolerate DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#failure_tolerate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#failure_tolerate DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#failure_tolerate}
   */
   readonly failureTolerate?: string;
   /**
   * Image specifies a container image name, the image contains: keadm and edgecore. keadm is used as upgradetool, to install the new version of edgecore. The image name consists of registry hostname and repository name, if it includes the tag or digest, the tag or digest will be overwritten by Version field above. If the registry hostname is empty, docker.io will be used as default. The default image name is: kubeedge/installation-package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#image DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#image DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * LabelSelector is a filter to select member clusters by labels. It must match a node's labels for the NodeUpgradeJob to be operated on that node. Please note that sets of NodeNames and LabelSelector are ORed. Users must set one and can only set one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#label_selector DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#label_selector DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1ManifestSpecLabelSelector;
   /**
   * NodeNames is a request to select some specific nodes. If it is non-empty, the upgrade job simply select these edge nodes to do upgrade operation. Please note that sets of NodeNames and LabelSelector are ORed. Users must set one and can only set one.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#node_names DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#node_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#node_names DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#node_names}
   */
   readonly nodeNames?: string[];
   /**
   * TimeoutSeconds limits the duration of the node upgrade job. Default to 300. If set to 0, we'll use the default value 300.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#timeout_seconds DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#timeout_seconds DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#version DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#version DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest#version}
   */
   readonly version?: string;
 }
@@ -837,7 +837,7 @@ export class DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1ManifestSpecOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest k8s_operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest k8s_operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest}
 */
 export class DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -853,7 +853,7 @@ export class DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest extends c
   * Generates CDKTF code for importing a DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -865,7 +865,7 @@ export class DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest extends c
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest k8s_operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest k8s_operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -876,8 +876,8 @@ export class DataK8SOperationsKubeedgeIoNodeUpgradeJobV1Alpha1Manifest extends c
       terraformResourceType: 'k8s_operations_kubeedge_io_node_upgrade_job_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

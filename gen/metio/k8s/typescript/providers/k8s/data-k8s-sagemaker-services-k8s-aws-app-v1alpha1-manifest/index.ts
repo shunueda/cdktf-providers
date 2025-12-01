@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SSagemakerServicesK8SAwsAppV1Alpha1ManifestConfig extends
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#metadata DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#metadata DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SSagemakerServicesK8SAwsAppV1Alpha1ManifestMetadata;
   /**
   * AppSpec defines the desired state of App.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#spec DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#spec DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SSagemakerServicesK8SAwsAppV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SSagemakerServicesK8SAwsAppV1Alpha1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#annotations DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#annotations DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#labels DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#labels DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#name DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#namespace DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#namespace DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -217,23 +217,23 @@ export class DataK8SSagemakerServicesK8SAwsAppV1Alpha1ManifestMetadataOutputRefe
 }
 export interface DataK8SSagemakerServicesK8SAwsAppV1Alpha1ManifestSpecResourceSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#instance_type DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#instance_type}
   */
   readonly instanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#lifecycle_config_arn DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#lifecycle_config_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#lifecycle_config_arn DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#lifecycle_config_arn}
   */
   readonly lifecycleConfigArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#sage_maker_image_arn DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#sage_maker_image_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#sage_maker_image_arn DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#sage_maker_image_arn}
   */
   readonly sageMakerImageArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#sage_maker_image_version_alias DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#sage_maker_image_version_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#sage_maker_image_version_alias DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#sage_maker_image_version_alias}
   */
   readonly sageMakerImageVersionAlias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#sage_maker_image_version_arn DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#sage_maker_image_version_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#sage_maker_image_version_arn DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#sage_maker_image_version_arn}
   */
   readonly sageMakerImageVersionArn?: string;
 }
@@ -443,11 +443,11 @@ export class DataK8SSagemakerServicesK8SAwsAppV1Alpha1ManifestSpecResourceSpecOu
 }
 export interface DataK8SSagemakerServicesK8SAwsAppV1Alpha1ManifestSpecTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#key DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#key DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#value DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#value}
   */
   readonly value?: string;
 }
@@ -594,37 +594,37 @@ export interface DataK8SSagemakerServicesK8SAwsAppV1Alpha1ManifestSpec {
   /**
   * The name of the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#app_name DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#app_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#app_name DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#app_name}
   */
   readonly appName: string;
   /**
   * The type of app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#app_type DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#app_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#app_type DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#app_type}
   */
   readonly appType: string;
   /**
   * The domain ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#domain_id DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#domain_id DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#domain_id}
   */
   readonly domainId: string;
   /**
   * The instance type and the Amazon Resource Name (ARN) of the SageMaker image created on the instance. The value of InstanceType passed as part of the ResourceSpec in the CreateApp call overrides the value passed as part of the ResourceSpec configured for the user profile or the domain. If InstanceType is not specified in any of those three ResourceSpec values for a KernelGateway app, the CreateApp call fails with a request validation error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#resource_spec DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#resource_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#resource_spec DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#resource_spec}
   */
   readonly resourceSpec?: DataK8SSagemakerServicesK8SAwsAppV1Alpha1ManifestSpecResourceSpec;
   /**
   * Each tag consists of a key and an optional value. Tag keys must be unique per resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#tags DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#tags DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#tags}
   */
   readonly tags?: DataK8SSagemakerServicesK8SAwsAppV1Alpha1ManifestSpecTags[] | cdktf.IResolvable;
   /**
   * The user profile name. If this value is not set, then SpaceName must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#user_profile_name DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#user_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#user_profile_name DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest#user_profile_name}
   */
   readonly userProfileName?: string;
 }
@@ -854,7 +854,7 @@ export class DataK8SSagemakerServicesK8SAwsAppV1Alpha1ManifestSpecOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_app_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_app_v1alpha1_manifest}
 */
 export class DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -870,7 +870,7 @@ export class DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest extends cdktf.Ter
   * Generates CDKTF code for importing a DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -882,7 +882,7 @@ export class DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_app_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/sagemaker_services_k8s_aws_app_v1alpha1_manifest k8s_sagemaker_services_k8s_aws_app_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -893,8 +893,8 @@ export class DataK8SSagemakerServicesK8SAwsAppV1Alpha1Manifest extends cdktf.Ter
       terraformResourceType: 'k8s_sagemaker_services_k8s_aws_app_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

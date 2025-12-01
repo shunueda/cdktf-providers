@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1ManifestConfig e
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#metadata DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#metadata DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1ManifestMetadata;
   /**
   * DevfileRegistrySpec defines the desired state of DevfileRegistry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#spec DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#spec DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#spec}
   */
   readonly spec?: DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1ManifestSpec;
 }
@@ -24,25 +24,25 @@ export interface DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1ManifestMetadata
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#annotations DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#annotations DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#labels DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#labels DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#name DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#name DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#namespace DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#namespace DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -219,19 +219,19 @@ export interface DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1ManifestSpecDevf
   /**
   * Sets the container image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#image DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#image DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Sets the image pull policy for the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#image_pull_policy DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#image_pull_policy DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Sets the memory limit for the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#memory_limit DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#memory_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#memory_limit DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#memory_limit}
   */
   readonly memoryLimit?: string;
 }
@@ -385,13 +385,13 @@ export interface DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1ManifestSpecK8S 
   /**
   * Ingress class for a Kubernetes cluster. Defaults to nginx.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#ingress_class DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#ingress_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#ingress_class DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#ingress_class}
   */
   readonly ingressClass?: string;
   /**
   * Ingress domain for a Kubernetes cluster. This MUST be explicitly specified on Kubernetes. There are no defaults
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#ingress_domain DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#ingress_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#ingress_domain DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#ingress_domain}
   */
   readonly ingressDomain?: string;
 }
@@ -516,19 +516,19 @@ export interface DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1ManifestSpecOciR
   /**
   * Sets the container image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#image DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#image DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Sets the image pull policy for the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#image_pull_policy DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#image_pull_policy DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Sets the memory limit for the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#memory_limit DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#memory_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#memory_limit DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#memory_limit}
   */
   readonly memoryLimit?: string;
 }
@@ -682,19 +682,19 @@ export interface DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1ManifestSpecRegi
   /**
   * Sets the container image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#image DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#image DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#image}
   */
   readonly image?: string;
   /**
   * Sets the image pull policy for the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#image_pull_policy DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#image_pull_policy DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Sets the memory limit for the container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#memory_limit DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#memory_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#memory_limit DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#memory_limit}
   */
   readonly memoryLimit?: string;
 }
@@ -848,13 +848,13 @@ export interface DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1ManifestSpecStor
   /**
   * Instructs the operator to deploy the DevfileRegistry with persistent storage Disabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#enabled DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#enabled DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Configures the size of the devfile registry's persistent volume, if enabled. Defaults to 1Gi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#registry_volume_size DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#registry_volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#registry_volume_size DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#registry_volume_size}
   */
   readonly registryVolumeSize?: string;
 }
@@ -979,19 +979,19 @@ export interface DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1ManifestSpecTele
   /**
   * Specify a telemetry key to allow devfile specific data to be sent to a client's own Segment analytics source. If the write key is specified then telemetry will be enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#key DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#key DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#key}
   */
   readonly key?: string;
   /**
   * The registry name (can be any string) that is used as identifier for devfile telemetry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#registry_name DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#registry_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#registry_name DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#registry_name}
   */
   readonly registryName?: string;
   /**
   * Specify a telemetry write key for the registry viewer component to allow data to be sent to a client's own Segment analytics source. If the write key is specified then telemetry for the registry viewer component will be enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#registry_viewer_write_key DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#registry_viewer_write_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#registry_viewer_write_key DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#registry_viewer_write_key}
   */
   readonly registryViewerWriteKey?: string;
 }
@@ -1145,13 +1145,13 @@ export interface DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1ManifestSpecTls 
   /**
   * Instructs the operator to deploy the DevfileRegistry with TLS enabled. Enabled by default. Disabling is only recommended for development or test.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#enabled DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#enabled DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Name of an optional, pre-existing TLS secret to use for TLS termination on ingress/route resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#secret_name DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#secret_name DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#secret_name}
   */
   readonly secretName?: string;
 }
@@ -1276,85 +1276,85 @@ export interface DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1ManifestSpec {
   /**
   * Sets the devfile index container spec to be deployed on the Devfile Registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#devfile_index DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#devfile_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#devfile_index DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#devfile_index}
   */
   readonly devfileIndex?: DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1ManifestSpecDevfileIndex;
   /**
   * Sets the container image containing devfile stacks to be deployed on the Devfile Registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#devfile_index_image DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#devfile_index_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#devfile_index_image DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#devfile_index_image}
   */
   readonly devfileIndexImage?: string;
   /**
   * Overrides the fully qualified app name of the devfile registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#fullname_override DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#fullname_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#fullname_override DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#fullname_override}
   */
   readonly fullnameOverride?: string;
   /**
   * Sets the registry server deployment to run under headless mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#headless DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#headless}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#headless DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#headless}
   */
   readonly headless?: boolean | cdktf.IResolvable;
   /**
   * Overrides the entire hostname and domain of the devfile registry ingress
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#hostname_override DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#hostname_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#hostname_override DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#hostname_override}
   */
   readonly hostnameOverride?: string;
   /**
   * DevfileRegistrySpecK8sOnly defines the desired state of the kubernetes-only fields of the DevfileRegistry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#k8s DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#k8s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#k8s DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#k8s}
   */
   readonly k8S?: DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1ManifestSpecK8S;
   /**
   * Overrides the app name of the devfile registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#name_override DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#name_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#name_override DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#name_override}
   */
   readonly nameOverride?: string;
   /**
   * Sets the OCI registry container spec to be deployed on the Devfile Registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#oci_registry DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#oci_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#oci_registry DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#oci_registry}
   */
   readonly ociRegistry?: DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1ManifestSpecOciRegistry;
   /**
   * Overrides the container image used for the OCI registry. Recommended to leave blank and default to the image specified by the operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#oci_registry_image DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#oci_registry_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#oci_registry_image DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#oci_registry_image}
   */
   readonly ociRegistryImage?: string;
   /**
   * Sets the registry viewer container spec to be deployed on the Devfile Registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#registry_viewer DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#registry_viewer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#registry_viewer DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#registry_viewer}
   */
   readonly registryViewer?: DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1ManifestSpecRegistryViewer;
   /**
   * Overrides the container image used for the registry viewer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#registry_viewer_image DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#registry_viewer_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#registry_viewer_image DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#registry_viewer_image}
   */
   readonly registryViewerImage?: string;
   /**
   * DevfileRegistrySpecStorage defines the desired state of the storage for the DevfileRegistry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#storage DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#storage DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#storage}
   */
   readonly storage?: DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1ManifestSpecStorage;
   /**
   * Telemetry defines the desired state for telemetry in the DevfileRegistry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#telemetry DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#telemetry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#telemetry DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#telemetry}
   */
   readonly telemetry?: DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1ManifestSpecTelemetry;
   /**
   * DevfileRegistrySpecTLS defines the desired state for TLS in the DevfileRegistry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#tls DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#tls DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest#tls}
   */
   readonly tls?: DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1ManifestSpecTls;
 }
@@ -1825,7 +1825,7 @@ export class DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1ManifestSpecOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest k8s_registry_devfile_io_devfile_registry_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest k8s_registry_devfile_io_devfile_registry_v1alpha1_manifest}
 */
 export class DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -1841,7 +1841,7 @@ export class DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest extends cdk
   * Generates CDKTF code for importing a DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1853,7 +1853,7 @@ export class DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest k8s_registry_devfile_io_devfile_registry_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/registry_devfile_io_devfile_registry_v1alpha1_manifest k8s_registry_devfile_io_devfile_registry_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1864,8 +1864,8 @@ export class DataK8SRegistryDevfileIoDevfileRegistryV1Alpha1Manifest extends cdk
       terraformResourceType: 'k8s_registry_devfile_io_devfile_registry_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

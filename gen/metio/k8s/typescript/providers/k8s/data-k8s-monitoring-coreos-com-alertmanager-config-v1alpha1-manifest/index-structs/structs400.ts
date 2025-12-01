@@ -9,15 +9,15 @@ dataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackCo
 DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsApiUrlOutputReference } from './structs0'
 export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#short DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#short}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#short DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#short}
   */
   readonly short?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#title DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#title DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#title}
   */
   readonly title: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#value DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#value DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -187,19 +187,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -350,13 +350,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * Selects a key of a Secret in the namespace that contains the credentials for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfigAuthorizationCredentials;
   /**
   * Defines the authentication type. The value is case-insensitive. 'Basic' is not a supported value. Default: 'Bearer'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -481,19 +481,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -644,19 +644,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -807,13 +807,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * 'password' specifies a key of a Secret containing the password for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#password DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#password DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfigBasicAuthPassword;
   /**
   * 'username' specifies a key of a Secret containing the username for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#username DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#username DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#username}
   */
   readonly username?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfigBasicAuthUsername;
 }
@@ -938,19 +938,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1101,19 +1101,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1264,19 +1264,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1427,13 +1427,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfigOauth2ClientIdConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfigOauth2ClientIdSecret;
 }
@@ -1558,19 +1558,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1721,19 +1721,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -1884,19 +1884,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2047,13 +2047,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfigOauth2TlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfigOauth2TlsConfigCaSecret;
 }
@@ -2178,19 +2178,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2341,19 +2341,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2504,13 +2504,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfigOauth2TlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfigOauth2TlsConfigCertSecret;
 }
@@ -2635,19 +2635,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -2798,43 +2798,43 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfigOauth2TlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfigOauth2TlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfigOauth2TlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -3104,61 +3104,61 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * 'clientId' specifies a key of a Secret or ConfigMap containing the OAuth2 client's ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#client_id}
   */
   readonly clientId: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfigOauth2ClientId;
   /**
   * 'clientSecret' specifies a key of a Secret containing the OAuth2 client's secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#client_secret}
   */
   readonly clientSecret: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfigOauth2ClientSecret;
   /**
   * 'endpointParams' configures the HTTP parameters to append to the token URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#endpoint_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#endpoint_params}
   */
   readonly endpointParams?: { [key: string]: string };
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * 'scopes' defines the OAuth2 scopes used for the token request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * TLS configuration to use when connecting to the OAuth2 server. It requires Prometheus >= v2.43.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfigOauth2TlsConfig;
   /**
   * 'tokenURL' configures the URL to fetch the token from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -3506,19 +3506,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3669,19 +3669,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -3832,13 +3832,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfigTlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfigTlsConfigCaSecret;
 }
@@ -3963,19 +3963,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4126,19 +4126,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4289,13 +4289,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfigTlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfigTlsConfigCertSecret;
 }
@@ -4420,19 +4420,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -4583,43 +4583,43 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfigTlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfigTlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfigTlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -4889,61 +4889,61 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * Authorization header configuration for the client. This is mutually exclusive with BasicAuth and is only available starting from Alertmanager v0.22+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#authorization}
   */
   readonly authorization?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfigAuthorization;
   /**
   * BasicAuth for the client. This is mutually exclusive with Authorization. If both are defined, BasicAuth takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#basic_auth DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#basic_auth DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfigBasicAuth;
   /**
   * The secret's key that contains the bearer token to be used by the client for authentication. The secret needs to be in the same namespace as the AlertmanagerConfig object and accessible by the Prometheus Operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#bearer_token_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#bearer_token_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#bearer_token_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#bearer_token_secret}
   */
   readonly bearerTokenSecret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfigBearerTokenSecret;
   /**
   * FollowRedirects specifies whether the client should follow HTTP 3xx redirects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * OAuth2 client credentials used to fetch a token for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#oauth2 DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#oauth2 DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#oauth2}
   */
   readonly oauth2?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfigOauth2;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * TLS configuration for the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfigTlsConfig;
 }
@@ -5300,101 +5300,101 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * A list of Slack actions that are sent with each notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#actions DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#actions DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#actions}
   */
   readonly actions?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsActions[] | cdktf.IResolvable;
   /**
   * The secret's key that contains the Slack webhook URL. The secret needs to be in the same namespace as the AlertmanagerConfig object and accessible by the Prometheus Operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#api_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#api_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#api_url}
   */
   readonly apiUrl?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsApiUrl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#callback_id DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#callback_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#callback_id DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#callback_id}
   */
   readonly callbackId?: string;
   /**
   * The channel or user to send notifications to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#channel DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#channel DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#channel}
   */
   readonly channel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#color DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#color DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#color}
   */
   readonly color?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#fallback DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#fallback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#fallback DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#fallback}
   */
   readonly fallback?: string;
   /**
   * A list of Slack fields that are sent with each notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#fields DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#fields DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#fields}
   */
   readonly fields?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsFields[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#footer DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#footer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#footer DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#footer}
   */
   readonly footer?: string;
   /**
   * HTTP client configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#http_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#http_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#http_config}
   */
   readonly httpConfig?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSlackConfigsHttpConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#icon_emoji DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#icon_emoji}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#icon_emoji DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#icon_emoji}
   */
   readonly iconEmoji?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#icon_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#icon_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#icon_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#icon_url}
   */
   readonly iconUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#image_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#image_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#image_url}
   */
   readonly imageUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#link_names DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#link_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#link_names DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#link_names}
   */
   readonly linkNames?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#mrkdwn_in DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#mrkdwn_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#mrkdwn_in DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#mrkdwn_in}
   */
   readonly mrkdwnIn?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#pretext DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#pretext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#pretext DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#pretext}
   */
   readonly pretext?: string;
   /**
   * Whether or not to notify about resolved alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#send_resolved DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#send_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#send_resolved DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#send_resolved}
   */
   readonly sendResolved?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#short_fields DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#short_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#short_fields DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#short_fields}
   */
   readonly shortFields?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#text DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#text DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#text}
   */
   readonly text?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#thumb_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#thumb_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#thumb_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#thumb_url}
   */
   readonly thumbUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#title DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#title DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#title}
   */
   readonly title?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#title_link DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#title_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#title_link DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#title_link}
   */
   readonly titleLink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#username DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#username DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#username}
   */
   readonly username?: string;
 }
@@ -6121,19 +6121,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6284,13 +6284,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * Selects a key of a Secret in the namespace that contains the credentials for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfigAuthorizationCredentials;
   /**
   * Defines the authentication type. The value is case-insensitive. 'Basic' is not a supported value. Default: 'Bearer'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -6415,19 +6415,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6578,19 +6578,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -6741,13 +6741,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * 'password' specifies a key of a Secret containing the password for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#password DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#password DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfigBasicAuthPassword;
   /**
   * 'username' specifies a key of a Secret containing the username for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#username DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#username DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#username}
   */
   readonly username?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfigBasicAuthUsername;
 }
@@ -6872,19 +6872,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7035,19 +7035,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7198,19 +7198,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7361,13 +7361,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfigOauth2ClientIdConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfigOauth2ClientIdSecret;
 }
@@ -7492,19 +7492,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7655,19 +7655,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7818,19 +7818,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -7981,13 +7981,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfigOauth2TlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfigOauth2TlsConfigCaSecret;
 }
@@ -8112,19 +8112,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8275,19 +8275,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8438,13 +8438,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfigOauth2TlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfigOauth2TlsConfigCertSecret;
 }
@@ -8569,19 +8569,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -8732,43 +8732,43 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfigOauth2TlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfigOauth2TlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfigOauth2TlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -9038,61 +9038,61 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * 'clientId' specifies a key of a Secret or ConfigMap containing the OAuth2 client's ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#client_id}
   */
   readonly clientId: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfigOauth2ClientId;
   /**
   * 'clientSecret' specifies a key of a Secret containing the OAuth2 client's secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#client_secret}
   */
   readonly clientSecret: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfigOauth2ClientSecret;
   /**
   * 'endpointParams' configures the HTTP parameters to append to the token URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#endpoint_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#endpoint_params}
   */
   readonly endpointParams?: { [key: string]: string };
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * 'scopes' defines the OAuth2 scopes used for the token request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * TLS configuration to use when connecting to the OAuth2 server. It requires Prometheus >= v2.43.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfigOauth2TlsConfig;
   /**
   * 'tokenURL' configures the URL to fetch the token from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -9440,19 +9440,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9603,19 +9603,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -9766,13 +9766,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfigTlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfigTlsConfigCaSecret;
 }
@@ -9897,19 +9897,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10060,19 +10060,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10223,13 +10223,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfigTlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfigTlsConfigCertSecret;
 }
@@ -10354,19 +10354,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -10517,43 +10517,43 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfigTlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfigTlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfigTlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -10823,61 +10823,61 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * Authorization header configuration for the client. This is mutually exclusive with BasicAuth and is only available starting from Alertmanager v0.22+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#authorization}
   */
   readonly authorization?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfigAuthorization;
   /**
   * BasicAuth for the client. This is mutually exclusive with Authorization. If both are defined, BasicAuth takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#basic_auth DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#basic_auth DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfigBasicAuth;
   /**
   * The secret's key that contains the bearer token to be used by the client for authentication. The secret needs to be in the same namespace as the AlertmanagerConfig object and accessible by the Prometheus Operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#bearer_token_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#bearer_token_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#bearer_token_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#bearer_token_secret}
   */
   readonly bearerTokenSecret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfigBearerTokenSecret;
   /**
   * FollowRedirects specifies whether the client should follow HTTP 3xx redirects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * OAuth2 client credentials used to fetch a token for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#oauth2 DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#oauth2 DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#oauth2}
   */
   readonly oauth2?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfigOauth2;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * TLS configuration for the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfigTlsConfig;
 }
@@ -11234,19 +11234,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11397,19 +11397,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -11560,31 +11560,31 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * AccessKey is the AWS API key. If not specified, the environment variable 'AWS_ACCESS_KEY_ID' is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#access_key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#access_key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#access_key}
   */
   readonly accessKey?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsSigv4AccessKey;
   /**
   * Profile is the named AWS profile used to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#profile DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#profile DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#profile}
   */
   readonly profile?: string;
   /**
   * Region is the AWS region. If blank, the region from the default credentials chain used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#region DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#region DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#region}
   */
   readonly region?: string;
   /**
   * RoleArn is the named AWS profile used to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#role_arn DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#role_arn DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#role_arn}
   */
   readonly roleArn?: string;
   /**
   * SecretKey is the AWS API secret. If not specified, the environment variable 'AWS_SECRET_ACCESS_KEY' is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret_key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret_key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret_key}
   */
   readonly secretKey?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsSigv4SecretKey;
 }
@@ -11796,61 +11796,61 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The SNS API URL i.e. https://sns.us-east-2.amazonaws.com. If not specified, the SNS API URL from the SNS SDK will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#api_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#api_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#api_url}
   */
   readonly apiUrl?: string;
   /**
   * SNS message attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#attributes DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#attributes DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
   * HTTP client configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#http_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#http_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#http_config}
   */
   readonly httpConfig?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsHttpConfig;
   /**
   * The message content of the SNS notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#message DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#message DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#message}
   */
   readonly message?: string;
   /**
   * Phone number if message is delivered via SMS in E.164 format. If you don't specify this value, you must specify a value for the TopicARN or TargetARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#phone_number DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#phone_number DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#phone_number}
   */
   readonly phoneNumber?: string;
   /**
   * Whether or not to notify about resolved alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#send_resolved DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#send_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#send_resolved DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#send_resolved}
   */
   readonly sendResolved?: boolean | cdktf.IResolvable;
   /**
   * Configures AWS's Signature Verification 4 signing process to sign requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#sigv4 DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#sigv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#sigv4 DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#sigv4}
   */
   readonly sigv4?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversSnsConfigsSigv4;
   /**
   * Subject line when the message is delivered to email endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#subject DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#subject DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#subject}
   */
   readonly subject?: string;
   /**
   * The mobile platform endpoint ARN if message is delivered via mobile notifications. If you don't specify this value, you must specify a value for the topic_arn or PhoneNumber.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#target_arn DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#target_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#target_arn DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#target_arn}
   */
   readonly targetArn?: string;
   /**
   * SNS topic ARN, i.e. arn:aws:sns:us-east-2:698519295917:My-Topic If you don't specify this value, you must specify a value for the PhoneNumber or TargetARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#topic_arn DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#topic_arn DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#topic_arn}
   */
   readonly topicArn?: string;
 }
@@ -12229,19 +12229,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -12392,19 +12392,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -12555,13 +12555,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * Selects a key of a Secret in the namespace that contains the credentials for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfigAuthorizationCredentials;
   /**
   * Defines the authentication type. The value is case-insensitive. 'Basic' is not a supported value. Default: 'Bearer'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -12686,19 +12686,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -12849,19 +12849,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13012,13 +13012,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * 'password' specifies a key of a Secret containing the password for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#password DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#password DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfigBasicAuthPassword;
   /**
   * 'username' specifies a key of a Secret containing the username for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#username DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#username DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#username}
   */
   readonly username?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfigBasicAuthUsername;
 }
@@ -13143,19 +13143,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13306,19 +13306,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13469,19 +13469,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13632,13 +13632,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfigOauth2ClientIdConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfigOauth2ClientIdSecret;
 }
@@ -13763,19 +13763,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -13926,19 +13926,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -14089,19 +14089,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -14252,13 +14252,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfigOauth2TlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfigOauth2TlsConfigCaSecret;
 }
@@ -14383,19 +14383,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -14546,19 +14546,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -14709,13 +14709,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfigOauth2TlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfigOauth2TlsConfigCertSecret;
 }
@@ -14840,19 +14840,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -15003,43 +15003,43 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfigOauth2TlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfigOauth2TlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfigOauth2TlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -15309,61 +15309,61 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * 'clientId' specifies a key of a Secret or ConfigMap containing the OAuth2 client's ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#client_id}
   */
   readonly clientId: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfigOauth2ClientId;
   /**
   * 'clientSecret' specifies a key of a Secret containing the OAuth2 client's secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#client_secret}
   */
   readonly clientSecret: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfigOauth2ClientSecret;
   /**
   * 'endpointParams' configures the HTTP parameters to append to the token URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#endpoint_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#endpoint_params}
   */
   readonly endpointParams?: { [key: string]: string };
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * 'scopes' defines the OAuth2 scopes used for the token request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * TLS configuration to use when connecting to the OAuth2 server. It requires Prometheus >= v2.43.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfigOauth2TlsConfig;
   /**
   * 'tokenURL' configures the URL to fetch the token from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -15711,19 +15711,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -15874,19 +15874,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16037,13 +16037,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfigTlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfigTlsConfigCaSecret;
 }
@@ -16168,19 +16168,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16331,19 +16331,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16494,13 +16494,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfigTlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfigTlsConfigCertSecret;
 }
@@ -16625,19 +16625,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -16788,43 +16788,43 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfigTlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfigTlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfigTlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -17094,61 +17094,61 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * Authorization header configuration for the client. This is mutually exclusive with BasicAuth and is only available starting from Alertmanager v0.22+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#authorization}
   */
   readonly authorization?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfigAuthorization;
   /**
   * BasicAuth for the client. This is mutually exclusive with Authorization. If both are defined, BasicAuth takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#basic_auth DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#basic_auth DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfigBasicAuth;
   /**
   * The secret's key that contains the bearer token to be used by the client for authentication. The secret needs to be in the same namespace as the AlertmanagerConfig object and accessible by the Prometheus Operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#bearer_token_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#bearer_token_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#bearer_token_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#bearer_token_secret}
   */
   readonly bearerTokenSecret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfigBearerTokenSecret;
   /**
   * FollowRedirects specifies whether the client should follow HTTP 3xx redirects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * OAuth2 client credentials used to fetch a token for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#oauth2 DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#oauth2 DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#oauth2}
   */
   readonly oauth2?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfigOauth2;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * TLS configuration for the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfigTlsConfig;
 }
@@ -17505,55 +17505,55 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The Telegram API URL i.e. https://api.telegram.org. If not specified, default API URL will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#api_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#api_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#api_url}
   */
   readonly apiUrl?: string;
   /**
   * Telegram bot token. It is mutually exclusive with 'botTokenFile'. The secret needs to be in the same namespace as the AlertmanagerConfig object and accessible by the Prometheus Operator. Either 'botToken' or 'botTokenFile' is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#bot_token DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#bot_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#bot_token DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#bot_token}
   */
   readonly botToken?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsBotToken;
   /**
   * File to read the Telegram bot token from. It is mutually exclusive with 'botToken'. Either 'botToken' or 'botTokenFile' is required. It requires Alertmanager >= v0.26.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#bot_token_file DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#bot_token_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#bot_token_file DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#bot_token_file}
   */
   readonly botTokenFile?: string;
   /**
   * The Telegram chat ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#chat_id DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#chat_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#chat_id DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#chat_id}
   */
   readonly chatId: number;
   /**
   * Disable telegram notifications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#disable_notifications DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#disable_notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#disable_notifications DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#disable_notifications}
   */
   readonly disableNotifications?: boolean | cdktf.IResolvable;
   /**
   * HTTP client configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#http_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#http_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#http_config}
   */
   readonly httpConfig?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversTelegramConfigsHttpConfig;
   /**
   * Message template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#message DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#message DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#message}
   */
   readonly message?: string;
   /**
   * Parse mode for telegram message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#parse_mode DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#parse_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#parse_mode DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#parse_mode}
   */
   readonly parseMode?: string;
   /**
   * Whether to notify about resolved alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#send_resolved DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#send_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#send_resolved DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#send_resolved}
   */
   readonly sendResolved?: boolean | cdktf.IResolvable;
 }
@@ -17900,19 +17900,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18063,13 +18063,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * Key of the tuple.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Value of the tuple.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#value DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#value DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#value}
   */
   readonly value: string;
 }
@@ -18210,19 +18210,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18373,13 +18373,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * Selects a key of a Secret in the namespace that contains the credentials for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfigAuthorizationCredentials;
   /**
   * Defines the authentication type. The value is case-insensitive. 'Basic' is not a supported value. Default: 'Bearer'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -18504,19 +18504,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18667,19 +18667,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18830,13 +18830,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * 'password' specifies a key of a Secret containing the password for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#password DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#password DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfigBasicAuthPassword;
   /**
   * 'username' specifies a key of a Secret containing the username for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#username DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#username DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#username}
   */
   readonly username?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfigBasicAuthUsername;
 }
@@ -18961,19 +18961,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19124,19 +19124,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19287,19 +19287,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19450,13 +19450,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfigOauth2ClientIdConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfigOauth2ClientIdSecret;
 }
@@ -19581,19 +19581,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19744,19 +19744,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -19907,19 +19907,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -20070,13 +20070,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfigOauth2TlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfigOauth2TlsConfigCaSecret;
 }
@@ -20201,19 +20201,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -20364,19 +20364,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -20527,13 +20527,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfigOauth2TlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfigOauth2TlsConfigCertSecret;
 }
@@ -20658,19 +20658,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -20821,43 +20821,43 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfigOauth2TlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfigOauth2TlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfigOauth2TlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -21127,61 +21127,61 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * 'clientId' specifies a key of a Secret or ConfigMap containing the OAuth2 client's ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#client_id}
   */
   readonly clientId: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfigOauth2ClientId;
   /**
   * 'clientSecret' specifies a key of a Secret containing the OAuth2 client's secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#client_secret}
   */
   readonly clientSecret: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfigOauth2ClientSecret;
   /**
   * 'endpointParams' configures the HTTP parameters to append to the token URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#endpoint_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#endpoint_params}
   */
   readonly endpointParams?: { [key: string]: string };
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * 'scopes' defines the OAuth2 scopes used for the token request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * TLS configuration to use when connecting to the OAuth2 server. It requires Prometheus >= v2.43.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfigOauth2TlsConfig;
   /**
   * 'tokenURL' configures the URL to fetch the token from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -21529,19 +21529,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21692,19 +21692,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -21855,13 +21855,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfigTlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfigTlsConfigCaSecret;
 }
@@ -21986,19 +21986,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -22149,19 +22149,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -22312,13 +22312,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfigTlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfigTlsConfigCertSecret;
 }
@@ -22443,19 +22443,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -22606,43 +22606,43 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfigTlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfigTlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfigTlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -22912,61 +22912,61 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * Authorization header configuration for the client. This is mutually exclusive with BasicAuth and is only available starting from Alertmanager v0.22+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#authorization}
   */
   readonly authorization?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfigAuthorization;
   /**
   * BasicAuth for the client. This is mutually exclusive with Authorization. If both are defined, BasicAuth takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#basic_auth DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#basic_auth DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfigBasicAuth;
   /**
   * The secret's key that contains the bearer token to be used by the client for authentication. The secret needs to be in the same namespace as the AlertmanagerConfig object and accessible by the Prometheus Operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#bearer_token_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#bearer_token_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#bearer_token_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#bearer_token_secret}
   */
   readonly bearerTokenSecret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfigBearerTokenSecret;
   /**
   * FollowRedirects specifies whether the client should follow HTTP 3xx redirects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * OAuth2 client credentials used to fetch a token for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#oauth2 DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#oauth2 DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#oauth2}
   */
   readonly oauth2?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfigOauth2;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * TLS configuration for the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfigTlsConfig;
 }
@@ -23323,61 +23323,61 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The secret's key that contains the API key to use when talking to the VictorOps API. The secret needs to be in the same namespace as the AlertmanagerConfig object and accessible by the Prometheus Operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#api_key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#api_key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#api_key}
   */
   readonly apiKey?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsApiKey;
   /**
   * The VictorOps API URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#api_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#api_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#api_url}
   */
   readonly apiUrl?: string;
   /**
   * Additional custom fields for notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#custom_fields DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#custom_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#custom_fields DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#custom_fields}
   */
   readonly customFields?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsCustomFields[] | cdktf.IResolvable;
   /**
   * Contains summary of the alerted problem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#entity_display_name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#entity_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#entity_display_name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#entity_display_name}
   */
   readonly entityDisplayName?: string;
   /**
   * The HTTP client's configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#http_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#http_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#http_config}
   */
   readonly httpConfig?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversVictoropsConfigsHttpConfig;
   /**
   * Describes the behavior of the alert (CRITICAL, WARNING, INFO).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#message_type DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#message_type DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#message_type}
   */
   readonly messageType?: string;
   /**
   * The monitoring tool the state message is from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#monitoring_tool DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#monitoring_tool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#monitoring_tool DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#monitoring_tool}
   */
   readonly monitoringTool?: string;
   /**
   * A key used to map the alert to a team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#routing_key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#routing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#routing_key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#routing_key}
   */
   readonly routingKey?: string;
   /**
   * Whether or not to notify about resolved alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#send_resolved DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#send_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#send_resolved DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#send_resolved}
   */
   readonly sendResolved?: boolean | cdktf.IResolvable;
   /**
   * Contains long explanation of the alerted problem.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#state_message DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#state_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#state_message DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#state_message}
   */
   readonly stateMessage?: string;
 }
@@ -23756,19 +23756,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -23919,13 +23919,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * Selects a key of a Secret in the namespace that contains the credentials for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfigAuthorizationCredentials;
   /**
   * Defines the authentication type. The value is case-insensitive. 'Basic' is not a supported value. Default: 'Bearer'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -24050,19 +24050,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -24213,19 +24213,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -24376,13 +24376,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * 'password' specifies a key of a Secret containing the password for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#password DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#password DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfigBasicAuthPassword;
   /**
   * 'username' specifies a key of a Secret containing the username for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#username DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#username DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#username}
   */
   readonly username?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfigBasicAuthUsername;
 }
@@ -24507,19 +24507,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -24670,19 +24670,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -24833,19 +24833,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -24996,13 +24996,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfigOauth2ClientIdConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfigOauth2ClientIdSecret;
 }
@@ -25127,19 +25127,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -25290,19 +25290,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -25453,19 +25453,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -25616,13 +25616,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfigOauth2TlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfigOauth2TlsConfigCaSecret;
 }
@@ -25747,19 +25747,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -25910,19 +25910,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -26073,13 +26073,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfigOauth2TlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfigOauth2TlsConfigCertSecret;
 }
@@ -26204,19 +26204,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -26367,43 +26367,43 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfigOauth2TlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfigOauth2TlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfigOauth2TlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -26673,61 +26673,61 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * 'clientId' specifies a key of a Secret or ConfigMap containing the OAuth2 client's ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#client_id}
   */
   readonly clientId: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfigOauth2ClientId;
   /**
   * 'clientSecret' specifies a key of a Secret containing the OAuth2 client's secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#client_secret}
   */
   readonly clientSecret: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfigOauth2ClientSecret;
   /**
   * 'endpointParams' configures the HTTP parameters to append to the token URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#endpoint_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#endpoint_params}
   */
   readonly endpointParams?: { [key: string]: string };
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * 'scopes' defines the OAuth2 scopes used for the token request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * TLS configuration to use when connecting to the OAuth2 server. It requires Prometheus >= v2.43.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfigOauth2TlsConfig;
   /**
   * 'tokenURL' configures the URL to fetch the token from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -27075,19 +27075,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -27238,19 +27238,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -27401,13 +27401,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfigTlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfigTlsConfigCaSecret;
 }
@@ -27532,19 +27532,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -27695,19 +27695,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -27858,13 +27858,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfigTlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfigTlsConfigCertSecret;
 }
@@ -27989,19 +27989,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -28152,43 +28152,43 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfigTlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfigTlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfigTlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -28458,61 +28458,61 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * Authorization header configuration for the client. This is mutually exclusive with BasicAuth and is only available starting from Alertmanager v0.22+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#authorization}
   */
   readonly authorization?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfigAuthorization;
   /**
   * BasicAuth for the client. This is mutually exclusive with Authorization. If both are defined, BasicAuth takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#basic_auth DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#basic_auth DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfigBasicAuth;
   /**
   * The secret's key that contains the bearer token to be used by the client for authentication. The secret needs to be in the same namespace as the AlertmanagerConfig object and accessible by the Prometheus Operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#bearer_token_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#bearer_token_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#bearer_token_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#bearer_token_secret}
   */
   readonly bearerTokenSecret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfigBearerTokenSecret;
   /**
   * FollowRedirects specifies whether the client should follow HTTP 3xx redirects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * OAuth2 client credentials used to fetch a token for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#oauth2 DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#oauth2 DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#oauth2}
   */
   readonly oauth2?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfigOauth2;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * TLS configuration for the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfigTlsConfig;
 }
@@ -28869,31 +28869,31 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The Webex Teams API URL i.e. https://webexapis.com/v1/messages Provide if different from the default API URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#api_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#api_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#api_url}
   */
   readonly apiUrl?: string;
   /**
   * The HTTP client's configuration. You must supply the bot token via the 'httpConfig.authorization' field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#http_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#http_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#http_config}
   */
   readonly httpConfig?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebexConfigsHttpConfig;
   /**
   * Message template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#message DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#message DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#message}
   */
   readonly message?: string;
   /**
   * ID of the Webex Teams room where to send the messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#room_id DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#room_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#room_id DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#room_id}
   */
   readonly roomId: string;
   /**
   * Whether to notify about resolved alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#send_resolved DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#send_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#send_resolved DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#send_resolved}
   */
   readonly sendResolved?: boolean | cdktf.IResolvable;
 }
@@ -29124,19 +29124,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -29287,13 +29287,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * Selects a key of a Secret in the namespace that contains the credentials for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfigAuthorizationCredentials;
   /**
   * Defines the authentication type. The value is case-insensitive. 'Basic' is not a supported value. Default: 'Bearer'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -29418,19 +29418,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -29581,19 +29581,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -29744,13 +29744,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * 'password' specifies a key of a Secret containing the password for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#password DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#password DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfigBasicAuthPassword;
   /**
   * 'username' specifies a key of a Secret containing the username for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#username DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#username DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#username}
   */
   readonly username?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfigBasicAuthUsername;
 }
@@ -29875,19 +29875,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -30038,19 +30038,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -30201,19 +30201,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -30364,13 +30364,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfigOauth2ClientIdConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfigOauth2ClientIdSecret;
 }
@@ -30495,19 +30495,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -30658,19 +30658,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -30821,19 +30821,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -30984,13 +30984,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfigOauth2TlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfigOauth2TlsConfigCaSecret;
 }
@@ -31115,19 +31115,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -31278,19 +31278,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -31441,13 +31441,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfigOauth2TlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfigOauth2TlsConfigCertSecret;
 }
@@ -31572,19 +31572,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -31735,43 +31735,43 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfigOauth2TlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfigOauth2TlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfigOauth2TlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -32041,61 +32041,61 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * 'clientId' specifies a key of a Secret or ConfigMap containing the OAuth2 client's ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#client_id DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#client_id}
   */
   readonly clientId: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfigOauth2ClientId;
   /**
   * 'clientSecret' specifies a key of a Secret containing the OAuth2 client's secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#client_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#client_secret}
   */
   readonly clientSecret: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfigOauth2ClientSecret;
   /**
   * 'endpointParams' configures the HTTP parameters to append to the token URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#endpoint_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#endpoint_params DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#endpoint_params}
   */
   readonly endpointParams?: { [key: string]: string };
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * 'scopes' defines the OAuth2 scopes used for the token request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#scopes DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#scopes}
   */
   readonly scopes?: string[];
   /**
   * TLS configuration to use when connecting to the OAuth2 server. It requires Prometheus >= v2.43.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfigOauth2TlsConfig;
   /**
   * 'tokenURL' configures the URL to fetch the token from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#token_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -32443,19 +32443,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -32606,19 +32606,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -32769,13 +32769,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfigTlsConfigCaConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfigTlsConfigCaSecret;
 }
@@ -32900,19 +32900,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -33063,19 +33063,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -33226,13 +33226,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfigTlsConfigCertConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfigTlsConfigCertSecret;
 }
@@ -33357,19 +33357,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -33520,43 +33520,43 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * Certificate authority used when verifying server certificates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#ca DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#ca}
   */
   readonly ca?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfigTlsConfigCa;
   /**
   * Client certificate to present when doing client-authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#cert DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#cert}
   */
   readonly cert?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfigTlsConfigCert;
   /**
   * Disable target certificate validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#insecure_skip_verify DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Secret containing the client key file for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key_secret}
   */
   readonly keySecret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfigTlsConfigKeySecret;
   /**
   * Maximum acceptable TLS version. It requires Prometheus >= v2.41.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#max_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#max_version}
   */
   readonly maxVersion?: string;
   /**
   * Minimum acceptable TLS version. It requires Prometheus >= v2.35.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#min_version DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#min_version}
   */
   readonly minVersion?: string;
   /**
   * Used to verify the hostname for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#server_name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -33826,61 +33826,61 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * Authorization header configuration for the client. This is mutually exclusive with BasicAuth and is only available starting from Alertmanager v0.22+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#authorization DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#authorization}
   */
   readonly authorization?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfigAuthorization;
   /**
   * BasicAuth for the client. This is mutually exclusive with Authorization. If both are defined, BasicAuth takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#basic_auth DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#basic_auth DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#basic_auth}
   */
   readonly basicAuth?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfigBasicAuth;
   /**
   * The secret's key that contains the bearer token to be used by the client for authentication. The secret needs to be in the same namespace as the AlertmanagerConfig object and accessible by the Prometheus Operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#bearer_token_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#bearer_token_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#bearer_token_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#bearer_token_secret}
   */
   readonly bearerTokenSecret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfigBearerTokenSecret;
   /**
   * FollowRedirects specifies whether the client should follow HTTP 3xx redirects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#follow_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#follow_redirects DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#follow_redirects}
   */
   readonly followRedirects?: boolean | cdktf.IResolvable;
   /**
   * 'noProxy' is a comma-separated string that can contain IPs, CIDR notation, domain names that should be excluded from proxying. IP and domain names can contain port numbers. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#no_proxy DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * OAuth2 client credentials used to fetch a token for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#oauth2 DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#oauth2 DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#oauth2}
   */
   readonly oauth2?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfigOauth2;
   /**
   * ProxyConnectHeader optionally specifies headers to send to proxies during CONNECT requests. It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_connect_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_connect_header DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_connect_header}
   */
   readonly proxyConnectHeader?: { [key: string]: string };
   /**
   * Whether to use the proxy configuration defined by environment variables (HTTP_PROXY, HTTPS_PROXY, and NO_PROXY). It requires Prometheus >= v2.43.0 or Alertmanager >= 0.25.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_from_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_from_environment DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_from_environment}
   */
   readonly proxyFromEnvironment?: boolean | cdktf.IResolvable;
   /**
   * 'proxyURL' defines the HTTP proxy server to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#proxy_url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * TLS configuration for the client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#tls_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfigTlsConfig;
 }
@@ -34237,19 +34237,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -34400,31 +34400,31 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * HTTP client configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#http_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#http_config DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#http_config}
   */
   readonly httpConfig?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsHttpConfig;
   /**
   * Maximum number of alerts to be sent per webhook message. When 0, all alerts are included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#max_alerts DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#max_alerts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#max_alerts DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#max_alerts}
   */
   readonly maxAlerts?: number;
   /**
   * Whether or not to notify about resolved alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#send_resolved DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#send_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#send_resolved DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#send_resolved}
   */
   readonly sendResolved?: boolean | cdktf.IResolvable;
   /**
   * The URL to send HTTP POST requests to. 'urlSecret' takes precedence over 'url'. One of 'urlSecret' and 'url' should be defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#url DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#url}
   */
   readonly url?: string;
   /**
   * The secret's key that contains the webhook URL to send HTTP requests to. 'urlSecret' takes precedence over 'url'. One of 'urlSecret' and 'url' should be defined. The secret needs to be in the same namespace as the AlertmanagerConfig object and accessible by the Prometheus Operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#url_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#url_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#url_secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#url_secret}
   */
   readonly urlSecret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWebhookConfigsUrlSecret;
 }
@@ -34658,19 +34658,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -34821,19 +34821,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -34984,13 +34984,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * Selects a key of a Secret in the namespace that contains the credentials for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#credentials DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#credentials}
   */
   readonly credentials?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWechatConfigsHttpConfigAuthorizationCredentials;
   /**
   * Defines the authentication type. The value is case-insensitive. 'Basic' is not a supported value. Default: 'Bearer'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#type DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#type}
   */
   readonly type?: string;
 }
@@ -35115,19 +35115,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -35278,19 +35278,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -35441,13 +35441,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * 'password' specifies a key of a Secret containing the password for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#password DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#password DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#password}
   */
   readonly password?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWechatConfigsHttpConfigBasicAuthPassword;
   /**
   * 'username' specifies a key of a Secret containing the username for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#username DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#username DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#username}
   */
   readonly username?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWechatConfigsHttpConfigBasicAuthUsername;
 }
@@ -35572,19 +35572,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -35735,19 +35735,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -35898,19 +35898,19 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#key DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. This field is effectively required, but due to backwards compatibility is allowed to be empty. Instances of this type with an empty value here are almost certainly wrong. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#name DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#optional DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -36061,13 +36061,13 @@ export interface DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpe
   /**
   * ConfigMap containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#config_map DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#config_map}
   */
   readonly configMap?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWechatConfigsHttpConfigOauth2ClientIdConfigMap;
   /**
   * Secret containing data to use for the targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/monitoring_coreos_com_alertmanager_config_v1alpha1_manifest#secret DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1Manifest#secret}
   */
   readonly secret?: DataK8SMonitoringCoreosComAlertmanagerConfigV1Alpha1ManifestSpecReceiversWechatConfigsHttpConfigOauth2ClientIdSecret;
 }

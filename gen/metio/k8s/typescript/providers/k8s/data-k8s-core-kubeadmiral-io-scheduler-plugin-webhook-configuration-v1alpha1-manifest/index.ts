@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest
+// https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Al
   /**
   * Data that helps uniquely identify this object. See https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#metadata DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#metadata DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#metadata}
   */
   readonly metadata: DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1ManifestMetadata;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#spec DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#spec DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#spec}
   */
   readonly spec: DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1ManifestSpec;
 }
@@ -22,19 +22,19 @@ export interface DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Al
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#annotations DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#annotations DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#labels DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#labels DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#name DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#name DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#name}
   */
   readonly name: string;
 }
@@ -185,31 +185,31 @@ export interface DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Al
   /**
   * CAData holds PEM-encoded bytes (typically read from a root certificates bundle).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#ca_data DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#ca_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#ca_data DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#ca_data}
   */
   readonly caData?: string;
   /**
   * CertData holds PEM-encoded bytes (typically read from a client certificate file).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#cert_data DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#cert_data DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#cert_data}
   */
   readonly certData?: string;
   /**
   * Server should be accessed without verifying the TLS certificate. For testing only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#insecure DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#insecure DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * KeyData holds PEM-encoded bytes (typically read from a client certificate key file).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#key_data DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#key_data DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#key_data}
   */
   readonly keyData?: string;
   /**
   * ServerName is passed to the server for SNI and is used in the client to check server certificates against. If ServerName is empty, the hostname used to contact the server is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#server_name DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#server_name DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#server_name}
   */
   readonly serverName?: string;
 }
@@ -421,43 +421,43 @@ export interface DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Al
   /**
   * Path for the filter call, empty if not supported. This path is appended to the URLPrefix when issuing the filter call to webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#filter_path DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#filter_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#filter_path DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#filter_path}
   */
   readonly filterPath?: string;
   /**
   * HTTPTimeout specifies the timeout duration for a call to the webhook. Timeout fails the scheduling of the workload. Defaults to 5 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#http_timeout DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#http_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#http_timeout DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#http_timeout}
   */
   readonly httpTimeout?: string;
   /**
   * PayloadVersions is an ordered list of preferred request and response versions the webhook expects. The scheduler will try to use the first version in the list which it supports. If none of the versions specified in this list supported by the scheduler, scheduling will fail for this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#payload_versions DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#payload_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#payload_versions DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#payload_versions}
   */
   readonly payloadVersions: string[];
   /**
   * Path for the score call, empty if not supported. This verb is appended to the URLPrefix when issuing the score call to webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#score_path DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#score_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#score_path DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#score_path}
   */
   readonly scorePath?: string;
   /**
   * Path for the select call, empty if not supported. This verb is appended to the URLPrefix when issuing the select call to webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#select_path DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#select_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#select_path DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#select_path}
   */
   readonly selectPath?: string;
   /**
   * TLSConfig specifies the transport layer security config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#tls_config DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#tls_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#tls_config DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#tls_config}
   */
   readonly tlsConfig?: DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1ManifestSpecTlsConfig;
   /**
   * URLPrefix at which the webhook is available
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#url_prefix DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#url_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#url_prefix DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest#url_prefix}
   */
   readonly urlPrefix: string;
 }
@@ -719,7 +719,7 @@ export class DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest k8s_core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest}
+* Represents a {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest k8s_core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest}
 */
 export class DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest extends cdktf.TerraformDataSource {
 
@@ -735,7 +735,7 @@ export class DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1
   * Generates CDKTF code for importing a DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest to import
-  * @param importFromId The id of the existing DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest that should be imported. Refer to the {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1Manifest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -747,7 +747,7 @@ export class DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest k8s_core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest k8s_core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -758,8 +758,8 @@ export class DataK8SCoreKubeadmiralIoSchedulerPluginWebhookConfigurationV1Alpha1
       terraformResourceType: 'k8s_core_kubeadmiral_io_scheduler_plugin_webhook_configuration_v1alpha1_manifest',
       terraformGeneratorMetadata: {
         providerName: 'k8s',
-        providerVersion: '2025.11.24',
-        providerVersionConstraint: '2025.11.24'
+        providerVersion: '2025.12.1',
+        providerVersionConstraint: '2025.12.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

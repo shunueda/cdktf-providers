@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/proxy_agent
+// https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/proxy_agent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ProxyAgentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Proxy agent name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/proxy_agent#display_name ProxyAgent#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/proxy_agent#display_name ProxyAgent#display_name}
   */
   readonly displayName: string;
   /**
   * Data processing location. This is where Fivetran will operate and run computation on data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/proxy_agent#group_region ProxyAgent#group_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/proxy_agent#group_region ProxyAgent#group_region}
   */
   readonly groupRegion: string;
   /**
   * Determines whether regenerarion secrets needs to be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/proxy_agent#regeneration_counter ProxyAgent#regeneration_counter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/proxy_agent#regeneration_counter ProxyAgent#regeneration_counter}
   */
   readonly regenerationCounter?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/proxy_agent fivetran_proxy_agent}
+* Represents a {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/proxy_agent fivetran_proxy_agent}
 */
 export class ProxyAgent extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class ProxyAgent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProxyAgent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProxyAgent to import
-  * @param importFromId The id of the existing ProxyAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/proxy_agent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProxyAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/proxy_agent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProxyAgent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class ProxyAgent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.15/docs/resources/proxy_agent fivetran_proxy_agent} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fivetran/fivetran/1.9.16/docs/resources/proxy_agent fivetran_proxy_agent} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class ProxyAgent extends cdktf.TerraformResource {
       terraformResourceType: 'fivetran_proxy_agent',
       terraformGeneratorMetadata: {
         providerName: 'fivetran',
-        providerVersion: '1.9.15',
-        providerVersionConstraint: '1.9.15'
+        providerVersion: '1.9.16',
+        providerVersionConstraint: '1.9.16'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

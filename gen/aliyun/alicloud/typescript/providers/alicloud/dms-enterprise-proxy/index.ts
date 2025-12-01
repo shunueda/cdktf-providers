@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dms_enterprise_proxy
+// https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_proxy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface DmsEnterpriseProxyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dms_enterprise_proxy#id DmsEnterpriseProxy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_proxy#id DmsEnterpriseProxy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dms_enterprise_proxy#instance_id DmsEnterpriseProxy#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_proxy#instance_id DmsEnterpriseProxy#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dms_enterprise_proxy#password DmsEnterpriseProxy#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_proxy#password DmsEnterpriseProxy#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dms_enterprise_proxy#tid DmsEnterpriseProxy#tid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_proxy#tid DmsEnterpriseProxy#tid}
   */
   readonly tid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dms_enterprise_proxy#username DmsEnterpriseProxy#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_proxy#username DmsEnterpriseProxy#username}
   */
   readonly username: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dms_enterprise_proxy#timeouts DmsEnterpriseProxy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_proxy#timeouts DmsEnterpriseProxy#timeouts}
   */
   readonly timeouts?: DmsEnterpriseProxyTimeouts;
 }
 export interface DmsEnterpriseProxyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dms_enterprise_proxy#create DmsEnterpriseProxy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_proxy#create DmsEnterpriseProxy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dms_enterprise_proxy#delete DmsEnterpriseProxy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_proxy#delete DmsEnterpriseProxy#delete}
   */
   readonly delete?: string;
 }
@@ -166,7 +166,7 @@ export class DmsEnterpriseProxyTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dms_enterprise_proxy alicloud_dms_enterprise_proxy}
+* Represents a {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_proxy alicloud_dms_enterprise_proxy}
 */
 export class DmsEnterpriseProxy extends cdktf.TerraformResource {
 
@@ -182,7 +182,7 @@ export class DmsEnterpriseProxy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DmsEnterpriseProxy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DmsEnterpriseProxy to import
-  * @param importFromId The id of the existing DmsEnterpriseProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dms_enterprise_proxy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DmsEnterpriseProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_proxy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DmsEnterpriseProxy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -194,7 +194,7 @@ export class DmsEnterpriseProxy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.263.0/docs/resources/dms_enterprise_proxy alicloud_dms_enterprise_proxy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aliyun/alicloud/1.264.0/docs/resources/dms_enterprise_proxy alicloud_dms_enterprise_proxy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -205,8 +205,8 @@ export class DmsEnterpriseProxy extends cdktf.TerraformResource {
       terraformResourceType: 'alicloud_dms_enterprise_proxy',
       terraformGeneratorMetadata: {
         providerName: 'alicloud',
-        providerVersion: '1.263.0',
-        providerVersionConstraint: '1.263.0'
+        providerVersion: '1.264.0',
+        providerVersionConstraint: '1.264.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -3,25 +3,25 @@ export interface DataK8SCephRookIoCephClusterV1ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#annotations DataK8SCephRookIoCephClusterV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#annotations DataK8SCephRookIoCephClusterV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#labels DataK8SCephRookIoCephClusterV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#labels DataK8SCephRookIoCephClusterV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace DataK8SCephRookIoCephClusterV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace DataK8SCephRookIoCephClusterV1Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -198,19 +198,19 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecCephVersion {
   /**
   * Whether to allow unsupported versions (do not set to true in production)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#allow_unsupported DataK8SCephRookIoCephClusterV1Manifest#allow_unsupported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#allow_unsupported DataK8SCephRookIoCephClusterV1Manifest#allow_unsupported}
   */
   readonly allowUnsupported?: boolean | cdktf.IResolvable;
   /**
   * Image is the container image used to launch the ceph daemons, such as quay.io/ceph/ceph:<tag> The full list of images can be found at https://quay.io/repository/ceph/ceph?tab=tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#image DataK8SCephRookIoCephClusterV1Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#image DataK8SCephRookIoCephClusterV1Manifest#image}
   */
   readonly image?: string;
   /**
   * ImagePullPolicy describes a policy for if/when to pull a container image One of Always, Never, IfNotPresent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#image_pull_policy DataK8SCephRookIoCephClusterV1Manifest#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#image_pull_policy DataK8SCephRookIoCephClusterV1Manifest#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
 }
@@ -364,19 +364,19 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecCleanupPolicySanitize
   /**
   * DataSource is the data source to use to sanitize the disk with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#data_source DataK8SCephRookIoCephClusterV1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#data_source DataK8SCephRookIoCephClusterV1Manifest#data_source}
   */
   readonly dataSource?: string;
   /**
   * Iteration is the number of pass to apply the sanitizing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#iteration DataK8SCephRookIoCephClusterV1Manifest#iteration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#iteration DataK8SCephRookIoCephClusterV1Manifest#iteration}
   */
   readonly iteration?: number;
   /**
   * Method is the method we use to sanitize disks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#method DataK8SCephRookIoCephClusterV1Manifest#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#method DataK8SCephRookIoCephClusterV1Manifest#method}
   */
   readonly method?: string;
 }
@@ -530,19 +530,19 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecCleanupPolicy {
   /**
   * AllowUninstallWithVolumes defines whether we can proceed with the uninstall if they are RBD images still present
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#allow_uninstall_with_volumes DataK8SCephRookIoCephClusterV1Manifest#allow_uninstall_with_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#allow_uninstall_with_volumes DataK8SCephRookIoCephClusterV1Manifest#allow_uninstall_with_volumes}
   */
   readonly allowUninstallWithVolumes?: boolean | cdktf.IResolvable;
   /**
   * Confirmation represents the cleanup confirmation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#confirmation DataK8SCephRookIoCephClusterV1Manifest#confirmation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#confirmation DataK8SCephRookIoCephClusterV1Manifest#confirmation}
   */
   readonly confirmation?: string;
   /**
   * SanitizeDisks represents way we sanitize disks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#sanitize_disks DataK8SCephRookIoCephClusterV1Manifest#sanitize_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#sanitize_disks DataK8SCephRookIoCephClusterV1Manifest#sanitize_disks}
   */
   readonly sanitizeDisks?: DataK8SCephRookIoCephClusterV1ManifestSpecCleanupPolicySanitizeDisks;
 }
@@ -696,13 +696,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecCrashCollector {
   /**
   * DaysToRetain represents the number of days to retain crash until they get pruned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#days_to_retain DataK8SCephRookIoCephClusterV1Manifest#days_to_retain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#days_to_retain DataK8SCephRookIoCephClusterV1Manifest#days_to_retain}
   */
   readonly daysToRetain?: number;
   /**
   * Disable determines whether we should enable the crash collector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#disable DataK8SCephRookIoCephClusterV1Manifest#disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#disable DataK8SCephRookIoCephClusterV1Manifest#disable}
   */
   readonly disable?: boolean | cdktf.IResolvable;
 }
@@ -827,13 +827,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecCsiCephfs {
   /**
   * FuseMountOptions defines the mount options for ceph fuse mounter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#fuse_mount_options DataK8SCephRookIoCephClusterV1Manifest#fuse_mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#fuse_mount_options DataK8SCephRookIoCephClusterV1Manifest#fuse_mount_options}
   */
   readonly fuseMountOptions?: string;
   /**
   * KernelMountOptions defines the mount options for kernel mounter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#kernel_mount_options DataK8SCephRookIoCephClusterV1Manifest#kernel_mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#kernel_mount_options DataK8SCephRookIoCephClusterV1Manifest#kernel_mount_options}
   */
   readonly kernelMountOptions?: string;
 }
@@ -958,13 +958,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecCsiReadAffinity {
   /**
   * CrushLocationLabels defines which node labels to use as CRUSH location. This should correspond to the values set in the CRUSH map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#crush_location_labels DataK8SCephRookIoCephClusterV1Manifest#crush_location_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#crush_location_labels DataK8SCephRookIoCephClusterV1Manifest#crush_location_labels}
   */
   readonly crushLocationLabels?: string[];
   /**
   * Enables read affinity for CSI driver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#enabled DataK8SCephRookIoCephClusterV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#enabled DataK8SCephRookIoCephClusterV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1089,13 +1089,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecCsi {
   /**
   * CephFS defines CSI Driver settings for CephFS driver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#cephfs DataK8SCephRookIoCephClusterV1Manifest#cephfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#cephfs DataK8SCephRookIoCephClusterV1Manifest#cephfs}
   */
   readonly cephfs?: DataK8SCephRookIoCephClusterV1ManifestSpecCsiCephfs;
   /**
   * ReadAffinity defines the read affinity settings for CSI driver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#read_affinity DataK8SCephRookIoCephClusterV1Manifest#read_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#read_affinity DataK8SCephRookIoCephClusterV1Manifest#read_affinity}
   */
   readonly readAffinity?: DataK8SCephRookIoCephClusterV1ManifestSpecCsiReadAffinity;
 }
@@ -1220,37 +1220,37 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecDashboard {
   /**
   * Enabled determines whether to enable the dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#enabled DataK8SCephRookIoCephClusterV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#enabled DataK8SCephRookIoCephClusterV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Port is the dashboard webserver port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#port DataK8SCephRookIoCephClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#port DataK8SCephRookIoCephClusterV1Manifest#port}
   */
   readonly port?: number;
   /**
   * Endpoint for the Prometheus host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#prometheus_endpoint DataK8SCephRookIoCephClusterV1Manifest#prometheus_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#prometheus_endpoint DataK8SCephRookIoCephClusterV1Manifest#prometheus_endpoint}
   */
   readonly prometheusEndpoint?: string;
   /**
   * Whether to verify the ssl endpoint for prometheus. Set to false for a self-signed cert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#prometheus_endpoint_ssl_verify DataK8SCephRookIoCephClusterV1Manifest#prometheus_endpoint_ssl_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#prometheus_endpoint_ssl_verify DataK8SCephRookIoCephClusterV1Manifest#prometheus_endpoint_ssl_verify}
   */
   readonly prometheusEndpointSslVerify?: boolean | cdktf.IResolvable;
   /**
   * SSL determines whether SSL should be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#ssl DataK8SCephRookIoCephClusterV1Manifest#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#ssl DataK8SCephRookIoCephClusterV1Manifest#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * URLPrefix is a prefix for all URLs to use the dashboard with a reverse proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#url_prefix DataK8SCephRookIoCephClusterV1Manifest#url_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#url_prefix DataK8SCephRookIoCephClusterV1Manifest#url_prefix}
   */
   readonly urlPrefix?: string;
 }
@@ -1491,37 +1491,37 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecDisruptionManagement 
   /**
   * Deprecated. Namespace to look for MDBs by the machineDisruptionBudgetController
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#machine_disruption_budget_namespace DataK8SCephRookIoCephClusterV1Manifest#machine_disruption_budget_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#machine_disruption_budget_namespace DataK8SCephRookIoCephClusterV1Manifest#machine_disruption_budget_namespace}
   */
   readonly machineDisruptionBudgetNamespace?: string;
   /**
   * Deprecated. This enables management of machinedisruptionbudgets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#manage_machine_disruption_budgets DataK8SCephRookIoCephClusterV1Manifest#manage_machine_disruption_budgets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#manage_machine_disruption_budgets DataK8SCephRookIoCephClusterV1Manifest#manage_machine_disruption_budgets}
   */
   readonly manageMachineDisruptionBudgets?: boolean | cdktf.IResolvable;
   /**
   * This enables management of poddisruptionbudgets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#manage_pod_budgets DataK8SCephRookIoCephClusterV1Manifest#manage_pod_budgets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#manage_pod_budgets DataK8SCephRookIoCephClusterV1Manifest#manage_pod_budgets}
   */
   readonly managePodBudgets?: boolean | cdktf.IResolvable;
   /**
   * OSDMaintenanceTimeout sets how many additional minutes the DOWN/OUT interval is for drained failure domains it only works if managePodBudgets is true. the default is 30 minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#osd_maintenance_timeout DataK8SCephRookIoCephClusterV1Manifest#osd_maintenance_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#osd_maintenance_timeout DataK8SCephRookIoCephClusterV1Manifest#osd_maintenance_timeout}
   */
   readonly osdMaintenanceTimeout?: number;
   /**
   * PGHealthCheckTimeout is the time (in minutes) that the operator will wait for the placement groups to become healthy (active+clean) after a drain was completed and OSDs came back up. Rook will continue with the next drain if the timeout exceeds. It only works if managePodBudgets is true. No values or 0 means that the operator will wait until the placement groups are healthy before unblocking the next drain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#pg_health_check_timeout DataK8SCephRookIoCephClusterV1Manifest#pg_health_check_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#pg_health_check_timeout DataK8SCephRookIoCephClusterV1Manifest#pg_health_check_timeout}
   */
   readonly pgHealthCheckTimeout?: number;
   /**
   * PgHealthyRegex is the regular expression that is used to determine which PG states should be considered healthy. The default is '^(active+clean|active+clean+scrubbing|active+clean+scrubbing+deep)$'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#pg_healthy_regex DataK8SCephRookIoCephClusterV1Manifest#pg_healthy_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#pg_healthy_regex DataK8SCephRookIoCephClusterV1Manifest#pg_healthy_regex}
   */
   readonly pgHealthyRegex?: string;
 }
@@ -1762,7 +1762,7 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecExternal {
   /**
   * Enable determines whether external mode is enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#enable DataK8SCephRookIoCephClusterV1Manifest#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#enable DataK8SCephRookIoCephClusterV1Manifest#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
 }
@@ -1856,17 +1856,17 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecExternalOutputReference e
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckDaemonHealthMon {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#disabled DataK8SCephRookIoCephClusterV1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#disabled DataK8SCephRookIoCephClusterV1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Interval is the internal in second or minute for the health check to run like 60s for 60 seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#interval DataK8SCephRookIoCephClusterV1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#interval DataK8SCephRookIoCephClusterV1Manifest#interval}
   */
   readonly interval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#timeout DataK8SCephRookIoCephClusterV1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#timeout DataK8SCephRookIoCephClusterV1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -2018,17 +2018,17 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckDaemonHealthMo
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckDaemonHealthOsd {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#disabled DataK8SCephRookIoCephClusterV1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#disabled DataK8SCephRookIoCephClusterV1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Interval is the internal in second or minute for the health check to run like 60s for 60 seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#interval DataK8SCephRookIoCephClusterV1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#interval DataK8SCephRookIoCephClusterV1Manifest#interval}
   */
   readonly interval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#timeout DataK8SCephRookIoCephClusterV1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#timeout DataK8SCephRookIoCephClusterV1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -2180,17 +2180,17 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckDaemonHealthOs
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckDaemonHealthStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#disabled DataK8SCephRookIoCephClusterV1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#disabled DataK8SCephRookIoCephClusterV1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Interval is the internal in second or minute for the health check to run like 60s for 60 seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#interval DataK8SCephRookIoCephClusterV1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#interval DataK8SCephRookIoCephClusterV1Manifest#interval}
   */
   readonly interval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#timeout DataK8SCephRookIoCephClusterV1Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#timeout DataK8SCephRookIoCephClusterV1Manifest#timeout}
   */
   readonly timeout?: string;
 }
@@ -2344,19 +2344,19 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckDaemonHeal
   /**
   * Monitor represents the health check settings for the Ceph monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#mon DataK8SCephRookIoCephClusterV1Manifest#mon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#mon DataK8SCephRookIoCephClusterV1Manifest#mon}
   */
   readonly mon?: DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckDaemonHealthMon;
   /**
   * ObjectStorageDaemon represents the health check settings for the Ceph OSDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#osd DataK8SCephRookIoCephClusterV1Manifest#osd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#osd DataK8SCephRookIoCephClusterV1Manifest#osd}
   */
   readonly osd?: DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckDaemonHealthOsd;
   /**
   * Status represents the health check settings for the Ceph health
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#status DataK8SCephRookIoCephClusterV1Manifest#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#status DataK8SCephRookIoCephClusterV1Manifest#status}
   */
   readonly status?: DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckDaemonHealthStatus;
 }
@@ -2510,7 +2510,7 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckLivenessPr
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#command DataK8SCephRookIoCephClusterV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#command DataK8SCephRookIoCephClusterV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -2606,13 +2606,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckLivenessPr
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#port DataK8SCephRookIoCephClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#port DataK8SCephRookIoCephClusterV1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#service DataK8SCephRookIoCephClusterV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#service DataK8SCephRookIoCephClusterV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -2734,13 +2734,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckLivenessPr
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#value DataK8SCephRookIoCephClusterV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#value DataK8SCephRookIoCephClusterV1Manifest#value}
   */
   readonly value: string;
 }
@@ -2881,31 +2881,31 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckLivenessPr
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#host DataK8SCephRookIoCephClusterV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#host DataK8SCephRookIoCephClusterV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#http_headers DataK8SCephRookIoCephClusterV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#http_headers DataK8SCephRookIoCephClusterV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckLivenessProbeProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#path DataK8SCephRookIoCephClusterV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#path DataK8SCephRookIoCephClusterV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#port DataK8SCephRookIoCephClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#port DataK8SCephRookIoCephClusterV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#scheme DataK8SCephRookIoCephClusterV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#scheme DataK8SCephRookIoCephClusterV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -3114,13 +3114,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckLivenessPr
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#host DataK8SCephRookIoCephClusterV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#host DataK8SCephRookIoCephClusterV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#port DataK8SCephRookIoCephClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#port DataK8SCephRookIoCephClusterV1Manifest#port}
   */
   readonly port: string;
 }
@@ -3242,59 +3242,59 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckLivenessPr
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#exec DataK8SCephRookIoCephClusterV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#exec DataK8SCephRookIoCephClusterV1Manifest#exec}
   */
   readonly exec?: DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckLivenessProbeProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#failure_threshold DataK8SCephRookIoCephClusterV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#failure_threshold DataK8SCephRookIoCephClusterV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#grpc DataK8SCephRookIoCephClusterV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#grpc DataK8SCephRookIoCephClusterV1Manifest#grpc}
   */
   readonly grpc?: DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckLivenessProbeProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#http_get DataK8SCephRookIoCephClusterV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#http_get DataK8SCephRookIoCephClusterV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckLivenessProbeProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#initial_delay_seconds DataK8SCephRookIoCephClusterV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#initial_delay_seconds DataK8SCephRookIoCephClusterV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#period_seconds DataK8SCephRookIoCephClusterV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#period_seconds DataK8SCephRookIoCephClusterV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#success_threshold DataK8SCephRookIoCephClusterV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#success_threshold DataK8SCephRookIoCephClusterV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#tcp_socket DataK8SCephRookIoCephClusterV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#tcp_socket DataK8SCephRookIoCephClusterV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckLivenessProbeProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#termination_grace_period_seconds DataK8SCephRookIoCephClusterV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#termination_grace_period_seconds DataK8SCephRookIoCephClusterV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#timeout_seconds DataK8SCephRookIoCephClusterV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#timeout_seconds DataK8SCephRookIoCephClusterV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -3651,13 +3651,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckLivenessPr
   /**
   * Disabled determines whether probe is disable or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#disabled DataK8SCephRookIoCephClusterV1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#disabled DataK8SCephRookIoCephClusterV1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Probe describes a health check to be performed against a container to determine whether it is alive or ready to receive traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#probe DataK8SCephRookIoCephClusterV1Manifest#probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#probe DataK8SCephRookIoCephClusterV1Manifest#probe}
   */
   readonly probe?: DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckLivenessProbeProbe;
 }
@@ -3782,7 +3782,7 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckStartupPro
   /**
   * Command is the command line to execute inside the container, the working directory for the command is root ('/') in the container's filesystem. The command is simply exec'd, it is not run inside a shell, so traditional shell instructions ('|', etc) won't work. To use a shell, you need to explicitly call out to that shell. Exit status of 0 is treated as live/healthy and non-zero is unhealthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#command DataK8SCephRookIoCephClusterV1Manifest#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#command DataK8SCephRookIoCephClusterV1Manifest#command}
   */
   readonly command?: string[];
 }
@@ -3878,13 +3878,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckStartupPro
   /**
   * Port number of the gRPC service. Number must be in the range 1 to 65535.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#port DataK8SCephRookIoCephClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#port DataK8SCephRookIoCephClusterV1Manifest#port}
   */
   readonly port: number;
   /**
   * Service is the name of the service to place in the gRPC HealthCheckRequest (see https://github.com/grpc/grpc/blob/master/doc/health-checking.md). If this is not specified, the default behavior is defined by gRPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#service DataK8SCephRookIoCephClusterV1Manifest#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#service DataK8SCephRookIoCephClusterV1Manifest#service}
   */
   readonly service?: string;
 }
@@ -4006,13 +4006,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckStartupPro
   /**
   * The header field name. This will be canonicalized upon output, so case-variant names will be understood as the same header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
   */
   readonly name: string;
   /**
   * The header field value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#value DataK8SCephRookIoCephClusterV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#value DataK8SCephRookIoCephClusterV1Manifest#value}
   */
   readonly value: string;
 }
@@ -4153,31 +4153,31 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckStartupPro
   /**
   * Host name to connect to, defaults to the pod IP. You probably want to set 'Host' in httpHeaders instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#host DataK8SCephRookIoCephClusterV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#host DataK8SCephRookIoCephClusterV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Custom headers to set in the request. HTTP allows repeated headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#http_headers DataK8SCephRookIoCephClusterV1Manifest#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#http_headers DataK8SCephRookIoCephClusterV1Manifest#http_headers}
   */
   readonly httpHeaders?: DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckStartupProbeProbeHttpGetHttpHeaders[] | cdktf.IResolvable;
   /**
   * Path to access on the HTTP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#path DataK8SCephRookIoCephClusterV1Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#path DataK8SCephRookIoCephClusterV1Manifest#path}
   */
   readonly path?: string;
   /**
   * Name or number of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#port DataK8SCephRookIoCephClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#port DataK8SCephRookIoCephClusterV1Manifest#port}
   */
   readonly port: string;
   /**
   * Scheme to use for connecting to the host. Defaults to HTTP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#scheme DataK8SCephRookIoCephClusterV1Manifest#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#scheme DataK8SCephRookIoCephClusterV1Manifest#scheme}
   */
   readonly scheme?: string;
 }
@@ -4386,13 +4386,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckStartupPro
   /**
   * Optional: Host name to connect to, defaults to the pod IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#host DataK8SCephRookIoCephClusterV1Manifest#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#host DataK8SCephRookIoCephClusterV1Manifest#host}
   */
   readonly host?: string;
   /**
   * Number or name of the port to access on the container. Number must be in the range 1 to 65535. Name must be an IANA_SVC_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#port DataK8SCephRookIoCephClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#port DataK8SCephRookIoCephClusterV1Manifest#port}
   */
   readonly port: string;
 }
@@ -4514,59 +4514,59 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckStartupPro
   /**
   * Exec specifies the action to take.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#exec DataK8SCephRookIoCephClusterV1Manifest#exec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#exec DataK8SCephRookIoCephClusterV1Manifest#exec}
   */
   readonly exec?: DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckStartupProbeProbeExec;
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded. Defaults to 3. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#failure_threshold DataK8SCephRookIoCephClusterV1Manifest#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#failure_threshold DataK8SCephRookIoCephClusterV1Manifest#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * GRPC specifies an action involving a GRPC port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#grpc DataK8SCephRookIoCephClusterV1Manifest#grpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#grpc DataK8SCephRookIoCephClusterV1Manifest#grpc}
   */
   readonly grpc?: DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckStartupProbeProbeGrpc;
   /**
   * HTTPGet specifies the http request to perform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#http_get DataK8SCephRookIoCephClusterV1Manifest#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#http_get DataK8SCephRookIoCephClusterV1Manifest#http_get}
   */
   readonly httpGet?: DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckStartupProbeProbeHttpGet;
   /**
   * Number of seconds after the container has started before liveness probes are initiated. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#initial_delay_seconds DataK8SCephRookIoCephClusterV1Manifest#initial_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#initial_delay_seconds DataK8SCephRookIoCephClusterV1Manifest#initial_delay_seconds}
   */
   readonly initialDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#period_seconds DataK8SCephRookIoCephClusterV1Manifest#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#period_seconds DataK8SCephRookIoCephClusterV1Manifest#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Defaults to 1. Must be 1 for liveness and startup. Minimum value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#success_threshold DataK8SCephRookIoCephClusterV1Manifest#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#success_threshold DataK8SCephRookIoCephClusterV1Manifest#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCPSocket specifies an action involving a TCP port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#tcp_socket DataK8SCephRookIoCephClusterV1Manifest#tcp_socket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#tcp_socket DataK8SCephRookIoCephClusterV1Manifest#tcp_socket}
   */
   readonly tcpSocket?: DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckStartupProbeProbeTcpSocket;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#termination_grace_period_seconds DataK8SCephRookIoCephClusterV1Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#termination_grace_period_seconds DataK8SCephRookIoCephClusterV1Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * Number of seconds after which the probe times out. Defaults to 1 second. Minimum value is 1. More info: https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle#container-probes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#timeout_seconds DataK8SCephRookIoCephClusterV1Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#timeout_seconds DataK8SCephRookIoCephClusterV1Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -4923,13 +4923,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckStartupPro
   /**
   * Disabled determines whether probe is disable or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#disabled DataK8SCephRookIoCephClusterV1Manifest#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#disabled DataK8SCephRookIoCephClusterV1Manifest#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Probe describes a health check to be performed against a container to determine whether it is alive or ready to receive traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#probe DataK8SCephRookIoCephClusterV1Manifest#probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#probe DataK8SCephRookIoCephClusterV1Manifest#probe}
   */
   readonly probe?: DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckStartupProbeProbe;
 }
@@ -5054,19 +5054,19 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheck {
   /**
   * DaemonHealth is the health check for a given daemon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#daemon_health DataK8SCephRookIoCephClusterV1Manifest#daemon_health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#daemon_health DataK8SCephRookIoCephClusterV1Manifest#daemon_health}
   */
   readonly daemonHealth?: DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckDaemonHealth;
   /**
   * LivenessProbe allows changing the livenessProbe configuration for a given daemon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#liveness_probe DataK8SCephRookIoCephClusterV1Manifest#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#liveness_probe DataK8SCephRookIoCephClusterV1Manifest#liveness_probe}
   */
   readonly livenessProbe?: DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckLivenessProbe;
   /**
   * StartupProbe allows changing the startupProbe configuration for a given daemon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#startup_probe DataK8SCephRookIoCephClusterV1Manifest#startup_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#startup_probe DataK8SCephRookIoCephClusterV1Manifest#startup_probe}
   */
   readonly startupProbe?: DataK8SCephRookIoCephClusterV1ManifestSpecHealthCheckStartupProbe;
 }
@@ -5220,19 +5220,19 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecLogCollector {
   /**
   * Enabled represents whether the log collector is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#enabled DataK8SCephRookIoCephClusterV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#enabled DataK8SCephRookIoCephClusterV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * MaxLogSize is the maximum size of the log per ceph daemons. Must be at least 1M.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#max_log_size DataK8SCephRookIoCephClusterV1Manifest#max_log_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#max_log_size DataK8SCephRookIoCephClusterV1Manifest#max_log_size}
   */
   readonly maxLogSize?: string;
   /**
   * Periodicity is the periodicity of the log rotation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#periodicity DataK8SCephRookIoCephClusterV1Manifest#periodicity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#periodicity DataK8SCephRookIoCephClusterV1Manifest#periodicity}
   */
   readonly periodicity?: string;
 }
@@ -5386,7 +5386,7 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMgrModulesSettings {
   /**
   * BalancerMode sets the 'balancer' module with different modes like 'upmap', 'crush-compact' etc
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#balancer_mode DataK8SCephRookIoCephClusterV1Manifest#balancer_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#balancer_mode DataK8SCephRookIoCephClusterV1Manifest#balancer_mode}
   */
   readonly balancerMode?: string;
 }
@@ -5482,19 +5482,19 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMgrModules {
   /**
   * Enabled determines whether a module should be enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#enabled DataK8SCephRookIoCephClusterV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#enabled DataK8SCephRookIoCephClusterV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Name is the name of the ceph manager module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Settings to further configure the module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#settings DataK8SCephRookIoCephClusterV1Manifest#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#settings DataK8SCephRookIoCephClusterV1Manifest#settings}
   */
   readonly settings?: DataK8SCephRookIoCephClusterV1ManifestSpecMgrModulesSettings;
 }
@@ -5670,19 +5670,19 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMgr {
   /**
   * AllowMultiplePerNode allows to run multiple managers on the same node (not recommended)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#allow_multiple_per_node DataK8SCephRookIoCephClusterV1Manifest#allow_multiple_per_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#allow_multiple_per_node DataK8SCephRookIoCephClusterV1Manifest#allow_multiple_per_node}
   */
   readonly allowMultiplePerNode?: boolean | cdktf.IResolvable;
   /**
   * Count is the number of manager daemons to run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#count DataK8SCephRookIoCephClusterV1Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#count DataK8SCephRookIoCephClusterV1Manifest#count}
   */
   readonly count?: number;
   /**
   * Modules is the list of ceph manager modules to enable/disable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#modules DataK8SCephRookIoCephClusterV1Manifest#modules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#modules DataK8SCephRookIoCephClusterV1Manifest#modules}
   */
   readonly modules?: DataK8SCephRookIoCephClusterV1ManifestSpecMgrModules[] | cdktf.IResolvable;
 }
@@ -5834,23 +5834,23 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecMgrOutputReference extend
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonStretchClusterZonesVolumeClaimTemplateMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#annotations DataK8SCephRookIoCephClusterV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#annotations DataK8SCephRookIoCephClusterV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#finalizers DataK8SCephRookIoCephClusterV1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#finalizers DataK8SCephRookIoCephClusterV1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#labels DataK8SCephRookIoCephClusterV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#labels DataK8SCephRookIoCephClusterV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace DataK8SCephRookIoCephClusterV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace DataK8SCephRookIoCephClusterV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -6062,19 +6062,19 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonStretchClusterZone
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#api_group DataK8SCephRookIoCephClusterV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#api_group DataK8SCephRookIoCephClusterV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#kind DataK8SCephRookIoCephClusterV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#kind DataK8SCephRookIoCephClusterV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
   */
   readonly name: string;
 }
@@ -6222,25 +6222,25 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonStretchClusterZone
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#api_group DataK8SCephRookIoCephClusterV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#api_group DataK8SCephRookIoCephClusterV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#kind DataK8SCephRookIoCephClusterV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#kind DataK8SCephRookIoCephClusterV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace DataK8SCephRookIoCephClusterV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace DataK8SCephRookIoCephClusterV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -6417,13 +6417,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonStretchClusterZone
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#limits DataK8SCephRookIoCephClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#limits DataK8SCephRookIoCephClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#requests DataK8SCephRookIoCephClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#requests DataK8SCephRookIoCephClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -6548,19 +6548,19 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonStretchClusterZone
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -6730,13 +6730,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonStretchClusterZone
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephClusterV1ManifestSpecMonStretchClusterZonesVolumeClaimTemplateSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -6861,55 +6861,55 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonStretchClusterZone
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#access_modes DataK8SCephRookIoCephClusterV1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#access_modes DataK8SCephRookIoCephClusterV1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#data_source DataK8SCephRookIoCephClusterV1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#data_source DataK8SCephRookIoCephClusterV1Manifest#data_source}
   */
   readonly dataSource?: DataK8SCephRookIoCephClusterV1ManifestSpecMonStretchClusterZonesVolumeClaimTemplateSpecDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#data_source_ref DataK8SCephRookIoCephClusterV1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#data_source_ref DataK8SCephRookIoCephClusterV1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SCephRookIoCephClusterV1ManifestSpecMonStretchClusterZonesVolumeClaimTemplateSpecDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#resources DataK8SCephRookIoCephClusterV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#resources DataK8SCephRookIoCephClusterV1Manifest#resources}
   */
   readonly resources?: DataK8SCephRookIoCephClusterV1ManifestSpecMonStretchClusterZonesVolumeClaimTemplateSpecResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#selector DataK8SCephRookIoCephClusterV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#selector DataK8SCephRookIoCephClusterV1Manifest#selector}
   */
   readonly selector?: DataK8SCephRookIoCephClusterV1ManifestSpecMonStretchClusterZonesVolumeClaimTemplateSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#storage_class_name DataK8SCephRookIoCephClusterV1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#storage_class_name DataK8SCephRookIoCephClusterV1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeAttributesClassName may be used to set the VolumeAttributesClass used by this claim. If specified, the CSI driver will create or update the volume with the attributes defined in the corresponding VolumeAttributesClass. This has a different purpose than storageClassName, it can be changed after the claim is created. An empty string value means that no VolumeAttributesClass will be applied to the claim but it's not allowed to reset this field to empty string once it is set. If unspecified and the PersistentVolumeClaim is unbound, the default VolumeAttributesClass will be set by the persistentvolume controller if it exists. If the resource referred to by volumeAttributesClass does not exist, this PersistentVolumeClaim will be set to a Pending state, as reflected by the modifyVolumeStatus field, until such as a resource exists. More info: https://kubernetes.io/docs/concepts/storage/volume-attributes-classes/ (Beta) Using this field requires the VolumeAttributesClass feature gate to be enabled (off by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_attributes_class_name DataK8SCephRookIoCephClusterV1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_attributes_class_name DataK8SCephRookIoCephClusterV1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_mode DataK8SCephRookIoCephClusterV1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_mode DataK8SCephRookIoCephClusterV1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_name DataK8SCephRookIoCephClusterV1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_name DataK8SCephRookIoCephClusterV1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -7237,13 +7237,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonStretchClusterZone
   /**
   * Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#metadata DataK8SCephRookIoCephClusterV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#metadata DataK8SCephRookIoCephClusterV1Manifest#metadata}
   */
   readonly metadata?: DataK8SCephRookIoCephClusterV1ManifestSpecMonStretchClusterZonesVolumeClaimTemplateMetadata;
   /**
   * spec defines the desired characteristics of a volume requested by a pod author. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#spec DataK8SCephRookIoCephClusterV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#spec DataK8SCephRookIoCephClusterV1Manifest#spec}
   */
   readonly spec?: DataK8SCephRookIoCephClusterV1ManifestSpecMonStretchClusterZonesVolumeClaimTemplateSpec;
 }
@@ -7368,19 +7368,19 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonStretchClusterZone
   /**
   * Arbiter determines if the zone contains the arbiter used for stretch cluster mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#arbiter DataK8SCephRookIoCephClusterV1Manifest#arbiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#arbiter DataK8SCephRookIoCephClusterV1Manifest#arbiter}
   */
   readonly arbiter?: boolean | cdktf.IResolvable;
   /**
   * Name is the name of the zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
   */
   readonly name?: string;
   /**
   * VolumeClaimTemplate is the PVC template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_claim_template DataK8SCephRookIoCephClusterV1Manifest#volume_claim_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_claim_template DataK8SCephRookIoCephClusterV1Manifest#volume_claim_template}
   */
   readonly volumeClaimTemplate?: DataK8SCephRookIoCephClusterV1ManifestSpecMonStretchClusterZonesVolumeClaimTemplate;
 }
@@ -7556,19 +7556,19 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonStretchCluster {
   /**
   * FailureDomainLabel the failure domain name (e,g: zone)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#failure_domain_label DataK8SCephRookIoCephClusterV1Manifest#failure_domain_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#failure_domain_label DataK8SCephRookIoCephClusterV1Manifest#failure_domain_label}
   */
   readonly failureDomainLabel?: string;
   /**
   * SubFailureDomain is the failure domain within a zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#sub_failure_domain DataK8SCephRookIoCephClusterV1Manifest#sub_failure_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#sub_failure_domain DataK8SCephRookIoCephClusterV1Manifest#sub_failure_domain}
   */
   readonly subFailureDomain?: string;
   /**
   * Zones is the list of zones
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#zones DataK8SCephRookIoCephClusterV1Manifest#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#zones DataK8SCephRookIoCephClusterV1Manifest#zones}
   */
   readonly zones?: DataK8SCephRookIoCephClusterV1ManifestSpecMonStretchClusterZones[] | cdktf.IResolvable;
 }
@@ -7720,23 +7720,23 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecMonStretchClusterOutputRe
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonVolumeClaimTemplateMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#annotations DataK8SCephRookIoCephClusterV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#annotations DataK8SCephRookIoCephClusterV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#finalizers DataK8SCephRookIoCephClusterV1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#finalizers DataK8SCephRookIoCephClusterV1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#labels DataK8SCephRookIoCephClusterV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#labels DataK8SCephRookIoCephClusterV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace DataK8SCephRookIoCephClusterV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace DataK8SCephRookIoCephClusterV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -7948,19 +7948,19 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonVolumeClaimTemplat
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#api_group DataK8SCephRookIoCephClusterV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#api_group DataK8SCephRookIoCephClusterV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#kind DataK8SCephRookIoCephClusterV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#kind DataK8SCephRookIoCephClusterV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
   */
   readonly name: string;
 }
@@ -8108,25 +8108,25 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonVolumeClaimTemplat
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#api_group DataK8SCephRookIoCephClusterV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#api_group DataK8SCephRookIoCephClusterV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#kind DataK8SCephRookIoCephClusterV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#kind DataK8SCephRookIoCephClusterV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace DataK8SCephRookIoCephClusterV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace DataK8SCephRookIoCephClusterV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -8303,13 +8303,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonVolumeClaimTemplat
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#limits DataK8SCephRookIoCephClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#limits DataK8SCephRookIoCephClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#requests DataK8SCephRookIoCephClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#requests DataK8SCephRookIoCephClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -8434,19 +8434,19 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonVolumeClaimTemplat
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -8616,13 +8616,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonVolumeClaimTemplat
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephClusterV1ManifestSpecMonVolumeClaimTemplateSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -8747,55 +8747,55 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonVolumeClaimTemplat
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#access_modes DataK8SCephRookIoCephClusterV1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#access_modes DataK8SCephRookIoCephClusterV1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#data_source DataK8SCephRookIoCephClusterV1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#data_source DataK8SCephRookIoCephClusterV1Manifest#data_source}
   */
   readonly dataSource?: DataK8SCephRookIoCephClusterV1ManifestSpecMonVolumeClaimTemplateSpecDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#data_source_ref DataK8SCephRookIoCephClusterV1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#data_source_ref DataK8SCephRookIoCephClusterV1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SCephRookIoCephClusterV1ManifestSpecMonVolumeClaimTemplateSpecDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#resources DataK8SCephRookIoCephClusterV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#resources DataK8SCephRookIoCephClusterV1Manifest#resources}
   */
   readonly resources?: DataK8SCephRookIoCephClusterV1ManifestSpecMonVolumeClaimTemplateSpecResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#selector DataK8SCephRookIoCephClusterV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#selector DataK8SCephRookIoCephClusterV1Manifest#selector}
   */
   readonly selector?: DataK8SCephRookIoCephClusterV1ManifestSpecMonVolumeClaimTemplateSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#storage_class_name DataK8SCephRookIoCephClusterV1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#storage_class_name DataK8SCephRookIoCephClusterV1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeAttributesClassName may be used to set the VolumeAttributesClass used by this claim. If specified, the CSI driver will create or update the volume with the attributes defined in the corresponding VolumeAttributesClass. This has a different purpose than storageClassName, it can be changed after the claim is created. An empty string value means that no VolumeAttributesClass will be applied to the claim but it's not allowed to reset this field to empty string once it is set. If unspecified and the PersistentVolumeClaim is unbound, the default VolumeAttributesClass will be set by the persistentvolume controller if it exists. If the resource referred to by volumeAttributesClass does not exist, this PersistentVolumeClaim will be set to a Pending state, as reflected by the modifyVolumeStatus field, until such as a resource exists. More info: https://kubernetes.io/docs/concepts/storage/volume-attributes-classes/ (Beta) Using this field requires the VolumeAttributesClass feature gate to be enabled (off by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_attributes_class_name DataK8SCephRookIoCephClusterV1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_attributes_class_name DataK8SCephRookIoCephClusterV1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_mode DataK8SCephRookIoCephClusterV1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_mode DataK8SCephRookIoCephClusterV1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_name DataK8SCephRookIoCephClusterV1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_name DataK8SCephRookIoCephClusterV1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -9123,13 +9123,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonVolumeClaimTemplat
   /**
   * Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#metadata DataK8SCephRookIoCephClusterV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#metadata DataK8SCephRookIoCephClusterV1Manifest#metadata}
   */
   readonly metadata?: DataK8SCephRookIoCephClusterV1ManifestSpecMonVolumeClaimTemplateMetadata;
   /**
   * spec defines the desired characteristics of a volume requested by a pod author. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#spec DataK8SCephRookIoCephClusterV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#spec DataK8SCephRookIoCephClusterV1Manifest#spec}
   */
   readonly spec?: DataK8SCephRookIoCephClusterV1ManifestSpecMonVolumeClaimTemplateSpec;
 }
@@ -9252,23 +9252,23 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecMonVolumeClaimTemplateOut
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonZonesVolumeClaimTemplateMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#annotations DataK8SCephRookIoCephClusterV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#annotations DataK8SCephRookIoCephClusterV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#finalizers DataK8SCephRookIoCephClusterV1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#finalizers DataK8SCephRookIoCephClusterV1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#labels DataK8SCephRookIoCephClusterV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#labels DataK8SCephRookIoCephClusterV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace DataK8SCephRookIoCephClusterV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace DataK8SCephRookIoCephClusterV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -9480,19 +9480,19 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonZonesVolumeClaimTe
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#api_group DataK8SCephRookIoCephClusterV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#api_group DataK8SCephRookIoCephClusterV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#kind DataK8SCephRookIoCephClusterV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#kind DataK8SCephRookIoCephClusterV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
   */
   readonly name: string;
 }
@@ -9640,25 +9640,25 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonZonesVolumeClaimTe
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#api_group DataK8SCephRookIoCephClusterV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#api_group DataK8SCephRookIoCephClusterV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#kind DataK8SCephRookIoCephClusterV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#kind DataK8SCephRookIoCephClusterV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace DataK8SCephRookIoCephClusterV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace DataK8SCephRookIoCephClusterV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -9835,13 +9835,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonZonesVolumeClaimTe
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#limits DataK8SCephRookIoCephClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#limits DataK8SCephRookIoCephClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#requests DataK8SCephRookIoCephClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#requests DataK8SCephRookIoCephClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -9966,19 +9966,19 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonZonesVolumeClaimTe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -10148,13 +10148,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonZonesVolumeClaimTe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephClusterV1ManifestSpecMonZonesVolumeClaimTemplateSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -10279,55 +10279,55 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonZonesVolumeClaimTe
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#access_modes DataK8SCephRookIoCephClusterV1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#access_modes DataK8SCephRookIoCephClusterV1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#data_source DataK8SCephRookIoCephClusterV1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#data_source DataK8SCephRookIoCephClusterV1Manifest#data_source}
   */
   readonly dataSource?: DataK8SCephRookIoCephClusterV1ManifestSpecMonZonesVolumeClaimTemplateSpecDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#data_source_ref DataK8SCephRookIoCephClusterV1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#data_source_ref DataK8SCephRookIoCephClusterV1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SCephRookIoCephClusterV1ManifestSpecMonZonesVolumeClaimTemplateSpecDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#resources DataK8SCephRookIoCephClusterV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#resources DataK8SCephRookIoCephClusterV1Manifest#resources}
   */
   readonly resources?: DataK8SCephRookIoCephClusterV1ManifestSpecMonZonesVolumeClaimTemplateSpecResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#selector DataK8SCephRookIoCephClusterV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#selector DataK8SCephRookIoCephClusterV1Manifest#selector}
   */
   readonly selector?: DataK8SCephRookIoCephClusterV1ManifestSpecMonZonesVolumeClaimTemplateSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#storage_class_name DataK8SCephRookIoCephClusterV1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#storage_class_name DataK8SCephRookIoCephClusterV1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeAttributesClassName may be used to set the VolumeAttributesClass used by this claim. If specified, the CSI driver will create or update the volume with the attributes defined in the corresponding VolumeAttributesClass. This has a different purpose than storageClassName, it can be changed after the claim is created. An empty string value means that no VolumeAttributesClass will be applied to the claim but it's not allowed to reset this field to empty string once it is set. If unspecified and the PersistentVolumeClaim is unbound, the default VolumeAttributesClass will be set by the persistentvolume controller if it exists. If the resource referred to by volumeAttributesClass does not exist, this PersistentVolumeClaim will be set to a Pending state, as reflected by the modifyVolumeStatus field, until such as a resource exists. More info: https://kubernetes.io/docs/concepts/storage/volume-attributes-classes/ (Beta) Using this field requires the VolumeAttributesClass feature gate to be enabled (off by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_attributes_class_name DataK8SCephRookIoCephClusterV1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_attributes_class_name DataK8SCephRookIoCephClusterV1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_mode DataK8SCephRookIoCephClusterV1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_mode DataK8SCephRookIoCephClusterV1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_name DataK8SCephRookIoCephClusterV1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_name DataK8SCephRookIoCephClusterV1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -10655,13 +10655,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonZonesVolumeClaimTe
   /**
   * Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#metadata DataK8SCephRookIoCephClusterV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#metadata DataK8SCephRookIoCephClusterV1Manifest#metadata}
   */
   readonly metadata?: DataK8SCephRookIoCephClusterV1ManifestSpecMonZonesVolumeClaimTemplateMetadata;
   /**
   * spec defines the desired characteristics of a volume requested by a pod author. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#spec DataK8SCephRookIoCephClusterV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#spec DataK8SCephRookIoCephClusterV1Manifest#spec}
   */
   readonly spec?: DataK8SCephRookIoCephClusterV1ManifestSpecMonZonesVolumeClaimTemplateSpec;
 }
@@ -10786,19 +10786,19 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonZones {
   /**
   * Arbiter determines if the zone contains the arbiter used for stretch cluster mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#arbiter DataK8SCephRookIoCephClusterV1Manifest#arbiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#arbiter DataK8SCephRookIoCephClusterV1Manifest#arbiter}
   */
   readonly arbiter?: boolean | cdktf.IResolvable;
   /**
   * Name is the name of the zone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
   */
   readonly name?: string;
   /**
   * VolumeClaimTemplate is the PVC template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_claim_template DataK8SCephRookIoCephClusterV1Manifest#volume_claim_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_claim_template DataK8SCephRookIoCephClusterV1Manifest#volume_claim_template}
   */
   readonly volumeClaimTemplate?: DataK8SCephRookIoCephClusterV1ManifestSpecMonZonesVolumeClaimTemplate;
 }
@@ -10974,35 +10974,35 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMon {
   /**
   * AllowMultiplePerNode determines if we can run multiple monitors on the same node (not recommended)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#allow_multiple_per_node DataK8SCephRookIoCephClusterV1Manifest#allow_multiple_per_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#allow_multiple_per_node DataK8SCephRookIoCephClusterV1Manifest#allow_multiple_per_node}
   */
   readonly allowMultiplePerNode?: boolean | cdktf.IResolvable;
   /**
   * Count is the number of Ceph monitors
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#count DataK8SCephRookIoCephClusterV1Manifest#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#count DataK8SCephRookIoCephClusterV1Manifest#count}
   */
   readonly count?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#failure_domain_label DataK8SCephRookIoCephClusterV1Manifest#failure_domain_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#failure_domain_label DataK8SCephRookIoCephClusterV1Manifest#failure_domain_label}
   */
   readonly failureDomainLabel?: string;
   /**
   * StretchCluster is the stretch cluster specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#stretch_cluster DataK8SCephRookIoCephClusterV1Manifest#stretch_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#stretch_cluster DataK8SCephRookIoCephClusterV1Manifest#stretch_cluster}
   */
   readonly stretchCluster?: DataK8SCephRookIoCephClusterV1ManifestSpecMonStretchCluster;
   /**
   * VolumeClaimTemplate is the PVC definition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_claim_template DataK8SCephRookIoCephClusterV1Manifest#volume_claim_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_claim_template DataK8SCephRookIoCephClusterV1Manifest#volume_claim_template}
   */
   readonly volumeClaimTemplate?: DataK8SCephRookIoCephClusterV1ManifestSpecMonVolumeClaimTemplate;
   /**
   * Zones are specified when we want to provide zonal awareness to mons
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#zones DataK8SCephRookIoCephClusterV1Manifest#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#zones DataK8SCephRookIoCephClusterV1Manifest#zones}
   */
   readonly zones?: DataK8SCephRookIoCephClusterV1ManifestSpecMonZones[] | cdktf.IResolvable;
 }
@@ -11243,13 +11243,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonitoringExporter {
   /**
   * Only performance counters greater than or equal to this option are fetched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#perf_counters_prio_limit DataK8SCephRookIoCephClusterV1Manifest#perf_counters_prio_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#perf_counters_prio_limit DataK8SCephRookIoCephClusterV1Manifest#perf_counters_prio_limit}
   */
   readonly perfCountersPrioLimit?: number;
   /**
   * Time to wait before sending requests again to exporter server (seconds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#stats_period_seconds DataK8SCephRookIoCephClusterV1Manifest#stats_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#stats_period_seconds DataK8SCephRookIoCephClusterV1Manifest#stats_period_seconds}
   */
   readonly statsPeriodSeconds?: number;
 }
@@ -11374,43 +11374,43 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonitoringExternalMgr
   /**
   * API version of the referent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#api_version DataK8SCephRookIoCephClusterV1Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#api_version DataK8SCephRookIoCephClusterV1Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * If referring to a piece of an object instead of an entire object, this string should contain a valid JSON/Go field access statement, such as desiredState.manifest.containers[2]. For example, if the object reference is to a container within a pod, this would take on a value like: 'spec.containers{name}' (where 'name' refers to the name of the container that triggered the event) or if no container name is specified 'spec.containers[2]' (container with index 2 in this pod). This syntax is chosen only to have some well-defined way of referencing a part of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#field_path DataK8SCephRookIoCephClusterV1Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#field_path DataK8SCephRookIoCephClusterV1Manifest#field_path}
   */
   readonly fieldPath?: string;
   /**
   * Kind of the referent. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#types-kinds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#kind DataK8SCephRookIoCephClusterV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#kind DataK8SCephRookIoCephClusterV1Manifest#kind}
   */
   readonly kind?: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
   */
   readonly name?: string;
   /**
   * Namespace of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace DataK8SCephRookIoCephClusterV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace DataK8SCephRookIoCephClusterV1Manifest#namespace}
   */
   readonly namespace?: string;
   /**
   * Specific resourceVersion to which this reference is made, if any. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#concurrency-control-and-consistency
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#resource_version DataK8SCephRookIoCephClusterV1Manifest#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#resource_version DataK8SCephRookIoCephClusterV1Manifest#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * UID of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#uids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#uid DataK8SCephRookIoCephClusterV1Manifest#uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#uid DataK8SCephRookIoCephClusterV1Manifest#uid}
   */
   readonly uid?: string;
 }
@@ -11680,25 +11680,25 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonitoringExternalMgr
   /**
   * The Hostname of this endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#hostname DataK8SCephRookIoCephClusterV1Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#hostname DataK8SCephRookIoCephClusterV1Manifest#hostname}
   */
   readonly hostname?: string;
   /**
   * The IP of this endpoint. May not be loopback (127.0.0.0/8 or ::1), link-local (169.254.0.0/16 or fe80::/10), or link-local multicast (224.0.0.0/24 or ff02::/16).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#ip DataK8SCephRookIoCephClusterV1Manifest#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#ip DataK8SCephRookIoCephClusterV1Manifest#ip}
   */
   readonly ip: string;
   /**
   * Optional: Node hosting this endpoint. This can be used to determine endpoints local to a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#node_name DataK8SCephRookIoCephClusterV1Manifest#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#node_name DataK8SCephRookIoCephClusterV1Manifest#node_name}
   */
   readonly nodeName?: string;
   /**
   * Reference to object providing the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#target_ref DataK8SCephRookIoCephClusterV1Manifest#target_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#target_ref DataK8SCephRookIoCephClusterV1Manifest#target_ref}
   */
   readonly targetRef?: DataK8SCephRookIoCephClusterV1ManifestSpecMonitoringExternalMgrEndpointsTargetRef;
 }
@@ -11900,43 +11900,43 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecMonitoring {
   /**
   * Enabled determines whether to create the prometheus rules for the ceph cluster. If true, the prometheus types must exist or the creation will fail. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#enabled DataK8SCephRookIoCephClusterV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#enabled DataK8SCephRookIoCephClusterV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Ceph exporter configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#exporter DataK8SCephRookIoCephClusterV1Manifest#exporter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#exporter DataK8SCephRookIoCephClusterV1Manifest#exporter}
   */
   readonly exporter?: DataK8SCephRookIoCephClusterV1ManifestSpecMonitoringExporter;
   /**
   * ExternalMgrEndpoints points to an existing Ceph prometheus exporter endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#external_mgr_endpoints DataK8SCephRookIoCephClusterV1Manifest#external_mgr_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#external_mgr_endpoints DataK8SCephRookIoCephClusterV1Manifest#external_mgr_endpoints}
   */
   readonly externalMgrEndpoints?: DataK8SCephRookIoCephClusterV1ManifestSpecMonitoringExternalMgrEndpoints[] | cdktf.IResolvable;
   /**
   * ExternalMgrPrometheusPort Prometheus exporter port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#external_mgr_prometheus_port DataK8SCephRookIoCephClusterV1Manifest#external_mgr_prometheus_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#external_mgr_prometheus_port DataK8SCephRookIoCephClusterV1Manifest#external_mgr_prometheus_port}
   */
   readonly externalMgrPrometheusPort?: number;
   /**
   * Interval determines prometheus scrape interval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#interval DataK8SCephRookIoCephClusterV1Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#interval DataK8SCephRookIoCephClusterV1Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Whether to disable the metrics reported by Ceph. If false, the prometheus mgr module and Ceph exporter are enabled. If true, the prometheus mgr module and Ceph exporter are both disabled. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#metrics_disabled DataK8SCephRookIoCephClusterV1Manifest#metrics_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#metrics_disabled DataK8SCephRookIoCephClusterV1Manifest#metrics_disabled}
   */
   readonly metricsDisabled?: boolean | cdktf.IResolvable;
   /**
   * Port is the prometheus server port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#port DataK8SCephRookIoCephClusterV1Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#port DataK8SCephRookIoCephClusterV1Manifest#port}
   */
   readonly port?: number;
 }
@@ -12206,13 +12206,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecNetworkAddressRanges 
   /**
   * Cluster defines a list of CIDRs to use for Ceph cluster network communication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#cluster DataK8SCephRookIoCephClusterV1Manifest#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#cluster DataK8SCephRookIoCephClusterV1Manifest#cluster}
   */
   readonly cluster?: string[];
   /**
   * Public defines a list of CIDRs to use for Ceph public network communication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#public DataK8SCephRookIoCephClusterV1Manifest#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#public DataK8SCephRookIoCephClusterV1Manifest#public}
   */
   readonly public?: string[];
 }
@@ -12337,7 +12337,7 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecNetworkConnectionsCom
   /**
   * Whether to compress the data in transit across the wire. The default is not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#enabled DataK8SCephRookIoCephClusterV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#enabled DataK8SCephRookIoCephClusterV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -12433,7 +12433,7 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecNetworkConnectionsEnc
   /**
   * Whether to encrypt the data in transit across the wire to prevent eavesdropping the data on the network. The default is not set. Even if encryption is not enabled, clients still establish a strong initial authentication for the connection and data integrity is still validated with a crc check. When encryption is enabled, all communication between clients and Ceph daemons, or between Ceph daemons will be encrypted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#enabled DataK8SCephRookIoCephClusterV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#enabled DataK8SCephRookIoCephClusterV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -12529,19 +12529,19 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecNetworkConnections {
   /**
   * Compression settings for the network connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#compression DataK8SCephRookIoCephClusterV1Manifest#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#compression DataK8SCephRookIoCephClusterV1Manifest#compression}
   */
   readonly compression?: DataK8SCephRookIoCephClusterV1ManifestSpecNetworkConnectionsCompression;
   /**
   * Encryption settings for the network connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#encryption DataK8SCephRookIoCephClusterV1Manifest#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#encryption DataK8SCephRookIoCephClusterV1Manifest#encryption}
   */
   readonly encryption?: DataK8SCephRookIoCephClusterV1ManifestSpecNetworkConnectionsEncryption;
   /**
   * Whether to require msgr2 (port 3300) even if compression or encryption are not enabled. If true, the msgr1 port (6789) will be disabled. Requires a kernel that supports msgr2 (kernel 5.11 or CentOS 8.4 or newer).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#require_msgr2 DataK8SCephRookIoCephClusterV1Manifest#require_msgr2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#require_msgr2 DataK8SCephRookIoCephClusterV1Manifest#require_msgr2}
   */
   readonly requireMsgr2?: boolean | cdktf.IResolvable;
 }
@@ -12695,13 +12695,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecNetworkMultiClusterSe
   /**
   * ClusterID uniquely identifies a cluster. It is used as a prefix to nslookup exported services. For example: <clusterid>.<svc>.<ns>.svc.clusterset.local
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#cluster_id DataK8SCephRookIoCephClusterV1Manifest#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#cluster_id DataK8SCephRookIoCephClusterV1Manifest#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Enable multiClusterService to export the mon and OSD services to peer cluster. Ensure that peer clusters are connected using an MCS API compatible application, like Globalnet Submariner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#enabled DataK8SCephRookIoCephClusterV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#enabled DataK8SCephRookIoCephClusterV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -12826,49 +12826,49 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecNetwork {
   /**
   * AddressRanges specify a list of CIDRs that Rook will apply to Ceph's 'public_network' and/or 'cluster_network' configurations. This config section may be used for the 'host' or 'multus' network providers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#address_ranges DataK8SCephRookIoCephClusterV1Manifest#address_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#address_ranges DataK8SCephRookIoCephClusterV1Manifest#address_ranges}
   */
   readonly addressRanges?: DataK8SCephRookIoCephClusterV1ManifestSpecNetworkAddressRanges;
   /**
   * Settings for network connections such as compression and encryption across the wire.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#connections DataK8SCephRookIoCephClusterV1Manifest#connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#connections DataK8SCephRookIoCephClusterV1Manifest#connections}
   */
   readonly connections?: DataK8SCephRookIoCephClusterV1ManifestSpecNetworkConnections;
   /**
   * DualStack determines whether Ceph daemons should listen on both IPv4 and IPv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#dual_stack DataK8SCephRookIoCephClusterV1Manifest#dual_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#dual_stack DataK8SCephRookIoCephClusterV1Manifest#dual_stack}
   */
   readonly dualStack?: boolean | cdktf.IResolvable;
   /**
   * HostNetwork to enable host network. If host networking is enabled or disabled on a running cluster, then the operator will automatically fail over all the mons to apply the new network settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#host_network DataK8SCephRookIoCephClusterV1Manifest#host_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#host_network DataK8SCephRookIoCephClusterV1Manifest#host_network}
   */
   readonly hostNetwork?: boolean | cdktf.IResolvable;
   /**
   * IPFamily is the single stack IPv6 or IPv4 protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#ip_family DataK8SCephRookIoCephClusterV1Manifest#ip_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#ip_family DataK8SCephRookIoCephClusterV1Manifest#ip_family}
   */
   readonly ipFamily?: string;
   /**
   * Enable multiClusterService to export the Services between peer clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#multi_cluster_service DataK8SCephRookIoCephClusterV1Manifest#multi_cluster_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#multi_cluster_service DataK8SCephRookIoCephClusterV1Manifest#multi_cluster_service}
   */
   readonly multiClusterService?: DataK8SCephRookIoCephClusterV1ManifestSpecNetworkMultiClusterService;
   /**
   * Provider is what provides network connectivity to the cluster e.g. 'host' or 'multus'. If the Provider is updated from being empty to 'host' on a running cluster, then the operator will automatically fail over all the mons to apply the 'host' network settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#provider DataK8SCephRookIoCephClusterV1Manifest#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#provider DataK8SCephRookIoCephClusterV1Manifest#provider}
   */
   readonly provider?: string;
   /**
   * Selectors define NetworkAttachmentDefinitions to be used for Ceph public and/or cluster networks when the 'multus' network provider is used. This config section is not used for other network providers. Valid keys are 'public' and 'cluster'. Refer to Ceph networking documentation for more: https://docs.ceph.com/en/latest/rados/configuration/network-config-ref/ Refer to Multus network annotation documentation for help selecting values: https://github.com/k8snetworkplumbingwg/multus-cni/blob/master/docs/how-to-use.md#run-pod-with-network-annotation Rook will make a best-effort attempt to automatically detect CIDR address ranges for given network attachment definitions. Rook's methods are robust but may be imprecise for sufficiently complicated networks. Rook's auto-detection process obtains a new IP address lease for each CephCluster reconcile. If Rook fails to detect, incorrectly detects, only partially detects, or if underlying networks do not support reusing old IP addresses, it is best to use the 'addressRanges' config section to specify CIDR ranges for the Ceph cluster. As a contrived example, one can use a theoretical Kubernetes-wide network for Ceph client traffic and a theoretical Rook-only network for Ceph replication traffic as shown: selectors: public: 'default/cluster-fast-net' cluster: 'rook-ceph/ceph-backend-net'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#selectors DataK8SCephRookIoCephClusterV1Manifest#selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#selectors DataK8SCephRookIoCephClusterV1Manifest#selectors}
   */
   readonly selectors?: { [key: string]: string };
 }
@@ -13167,13 +13167,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecSecurityKeyRotation {
   /**
   * Enabled represents whether the key rotation is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#enabled DataK8SCephRookIoCephClusterV1Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#enabled DataK8SCephRookIoCephClusterV1Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Schedule represents the cron schedule for key rotation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#schedule DataK8SCephRookIoCephClusterV1Manifest#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#schedule DataK8SCephRookIoCephClusterV1Manifest#schedule}
   */
   readonly schedule?: string;
 }
@@ -13298,13 +13298,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecSecurityKms {
   /**
   * ConnectionDetails contains the KMS connection details (address, port etc)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#connection_details DataK8SCephRookIoCephClusterV1Manifest#connection_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#connection_details DataK8SCephRookIoCephClusterV1Manifest#connection_details}
   */
   readonly connectionDetails?: { [key: string]: string };
   /**
   * TokenSecretName is the kubernetes secret containing the KMS token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#token_secret_name DataK8SCephRookIoCephClusterV1Manifest#token_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#token_secret_name DataK8SCephRookIoCephClusterV1Manifest#token_secret_name}
   */
   readonly tokenSecretName?: string;
 }
@@ -13429,13 +13429,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecSecurity {
   /**
   * KeyRotation defines options for Key Rotation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key_rotation DataK8SCephRookIoCephClusterV1Manifest#key_rotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key_rotation DataK8SCephRookIoCephClusterV1Manifest#key_rotation}
   */
   readonly keyRotation?: DataK8SCephRookIoCephClusterV1ManifestSpecSecurityKeyRotation;
   /**
   * KeyManagementService is the main Key Management option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#kms DataK8SCephRookIoCephClusterV1Manifest#kms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#kms DataK8SCephRookIoCephClusterV1Manifest#kms}
   */
   readonly kms?: DataK8SCephRookIoCephClusterV1ManifestSpecSecurityKms;
 }
@@ -13560,13 +13560,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageNodesResources
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
   */
   readonly name: string;
   /**
   * Request is the name chosen for a request in the referenced claim. If empty, everything from the claim is made available, otherwise only the result of this request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#request DataK8SCephRookIoCephClusterV1Manifest#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#request DataK8SCephRookIoCephClusterV1Manifest#request}
   */
   readonly request?: string;
 }
@@ -13710,19 +13710,19 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageNodesResources
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#claims DataK8SCephRookIoCephClusterV1Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#claims DataK8SCephRookIoCephClusterV1Manifest#claims}
   */
   readonly claims?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageNodesResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#limits DataK8SCephRookIoCephClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#limits DataK8SCephRookIoCephClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#requests DataK8SCephRookIoCephClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#requests DataK8SCephRookIoCephClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -13874,23 +13874,23 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageNodesResourcesOutp
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageNodesVolumeClaimTemplatesMetadata {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#annotations DataK8SCephRookIoCephClusterV1Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#annotations DataK8SCephRookIoCephClusterV1Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#finalizers DataK8SCephRookIoCephClusterV1Manifest#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#finalizers DataK8SCephRookIoCephClusterV1Manifest#finalizers}
   */
   readonly finalizers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#labels DataK8SCephRookIoCephClusterV1Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#labels DataK8SCephRookIoCephClusterV1Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace DataK8SCephRookIoCephClusterV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace DataK8SCephRookIoCephClusterV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -14102,19 +14102,19 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageNodesVolumeCla
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#api_group DataK8SCephRookIoCephClusterV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#api_group DataK8SCephRookIoCephClusterV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#kind DataK8SCephRookIoCephClusterV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#kind DataK8SCephRookIoCephClusterV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
   */
   readonly name: string;
 }
@@ -14262,25 +14262,25 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageNodesVolumeCla
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#api_group DataK8SCephRookIoCephClusterV1Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#api_group DataK8SCephRookIoCephClusterV1Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#kind DataK8SCephRookIoCephClusterV1Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#kind DataK8SCephRookIoCephClusterV1Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace DataK8SCephRookIoCephClusterV1Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace DataK8SCephRookIoCephClusterV1Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -14457,13 +14457,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageNodesVolumeCla
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#limits DataK8SCephRookIoCephClusterV1Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#limits DataK8SCephRookIoCephClusterV1Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#requests DataK8SCephRookIoCephClusterV1Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#requests DataK8SCephRookIoCephClusterV1Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -14588,19 +14588,19 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageNodesVolumeCla
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -14770,13 +14770,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageNodesVolumeCla
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageNodesVolumeClaimTemplatesSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -14901,55 +14901,55 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageNodesVolumeCla
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#access_modes DataK8SCephRookIoCephClusterV1Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#access_modes DataK8SCephRookIoCephClusterV1Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSource field can be used to specify either: * An existing VolumeSnapshot object (snapshot.storage.k8s.io/VolumeSnapshot) * An existing PVC (PersistentVolumeClaim) If the provisioner or an external controller can support the specified data source, it will create a new volume based on the contents of the specified data source. When the AnyVolumeDataSource feature gate is enabled, dataSource contents will be copied to dataSourceRef, and dataSourceRef contents will be copied to dataSource when dataSourceRef.namespace is not specified. If the namespace is specified, then dataSourceRef will not be copied to dataSource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#data_source DataK8SCephRookIoCephClusterV1Manifest#data_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#data_source DataK8SCephRookIoCephClusterV1Manifest#data_source}
   */
   readonly dataSource?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageNodesVolumeClaimTemplatesSpecDataSource;
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#data_source_ref DataK8SCephRookIoCephClusterV1Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#data_source_ref DataK8SCephRookIoCephClusterV1Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageNodesVolumeClaimTemplatesSpecDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#resources DataK8SCephRookIoCephClusterV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#resources DataK8SCephRookIoCephClusterV1Manifest#resources}
   */
   readonly resources?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageNodesVolumeClaimTemplatesSpecResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#selector DataK8SCephRookIoCephClusterV1Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#selector DataK8SCephRookIoCephClusterV1Manifest#selector}
   */
   readonly selector?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageNodesVolumeClaimTemplatesSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#storage_class_name DataK8SCephRookIoCephClusterV1Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#storage_class_name DataK8SCephRookIoCephClusterV1Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeAttributesClassName may be used to set the VolumeAttributesClass used by this claim. If specified, the CSI driver will create or update the volume with the attributes defined in the corresponding VolumeAttributesClass. This has a different purpose than storageClassName, it can be changed after the claim is created. An empty string value means that no VolumeAttributesClass will be applied to the claim but it's not allowed to reset this field to empty string once it is set. If unspecified and the PersistentVolumeClaim is unbound, the default VolumeAttributesClass will be set by the persistentvolume controller if it exists. If the resource referred to by volumeAttributesClass does not exist, this PersistentVolumeClaim will be set to a Pending state, as reflected by the modifyVolumeStatus field, until such as a resource exists. More info: https://kubernetes.io/docs/concepts/storage/volume-attributes-classes/ (Beta) Using this field requires the VolumeAttributesClass feature gate to be enabled (off by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_attributes_class_name DataK8SCephRookIoCephClusterV1Manifest#volume_attributes_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_attributes_class_name DataK8SCephRookIoCephClusterV1Manifest#volume_attributes_class_name}
   */
   readonly volumeAttributesClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_mode DataK8SCephRookIoCephClusterV1Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_mode DataK8SCephRookIoCephClusterV1Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_name DataK8SCephRookIoCephClusterV1Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_name DataK8SCephRookIoCephClusterV1Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -15277,13 +15277,13 @@ export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageNodesVolumeCla
   /**
   * Standard object's metadata. More info: https://git.k8s.io/community/contributors/devel/sig-architecture/api-conventions.md#metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#metadata DataK8SCephRookIoCephClusterV1Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#metadata DataK8SCephRookIoCephClusterV1Manifest#metadata}
   */
   readonly metadata?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageNodesVolumeClaimTemplatesMetadata;
   /**
   * spec defines the desired characteristics of a volume requested by a pod author. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#persistentvolumeclaims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#spec DataK8SCephRookIoCephClusterV1Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#spec DataK8SCephRookIoCephClusterV1Manifest#spec}
   */
   readonly spec?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageNodesVolumeClaimTemplatesSpec;
 }
@@ -15428,47 +15428,47 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageNodesVolumeClaimTe
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#config DataK8SCephRookIoCephClusterV1Manifest#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#config DataK8SCephRookIoCephClusterV1Manifest#config}
   */
   readonly config?: { [key: string]: string };
   /**
   * A regular expression to allow more fine-grained selection of devices on nodes across the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#device_filter DataK8SCephRookIoCephClusterV1Manifest#device_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#device_filter DataK8SCephRookIoCephClusterV1Manifest#device_filter}
   */
   readonly deviceFilter?: string;
   /**
   * A regular expression to allow more fine-grained selection of devices with path names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#device_path_filter DataK8SCephRookIoCephClusterV1Manifest#device_path_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#device_path_filter DataK8SCephRookIoCephClusterV1Manifest#device_path_filter}
   */
   readonly devicePathFilter?: string;
   /**
   * List of devices to use as storage devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#devices DataK8SCephRookIoCephClusterV1Manifest#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#devices DataK8SCephRookIoCephClusterV1Manifest#devices}
   */
   readonly devices?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#name DataK8SCephRookIoCephClusterV1Manifest#name}
   */
   readonly name?: string;
   /**
   * ResourceRequirements describes the compute resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#resources DataK8SCephRookIoCephClusterV1Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#resources DataK8SCephRookIoCephClusterV1Manifest#resources}
   */
   readonly resources?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageNodesResources;
   /**
   * Whether to consume all the storage devices found on a machine
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#use_all_devices DataK8SCephRookIoCephClusterV1Manifest#use_all_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#use_all_devices DataK8SCephRookIoCephClusterV1Manifest#use_all_devices}
   */
   readonly useAllDevices?: boolean | cdktf.IResolvable;
   /**
   * PersistentVolumeClaims to use as storage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_claim_templates DataK8SCephRookIoCephClusterV1Manifest#volume_claim_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#volume_claim_templates DataK8SCephRookIoCephClusterV1Manifest#volume_claim_templates}
   */
   readonly volumeClaimTemplates?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageNodesVolumeClaimTemplates[] | cdktf.IResolvable;
 }
@@ -15787,15 +15787,15 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageNodesList extends 
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -15963,15 +15963,15 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -16139,11 +16139,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_fields DataK8SCephRookIoCephClusterV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_fields DataK8SCephRookIoCephClusterV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -16266,11 +16266,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#preference DataK8SCephRookIoCephClusterV1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#preference DataK8SCephRookIoCephClusterV1Manifest#preference}
   */
   readonly preference: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#weight DataK8SCephRookIoCephClusterV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#weight DataK8SCephRookIoCephClusterV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -16409,15 +16409,15 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -16585,15 +16585,15 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -16761,11 +16761,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_fields DataK8SCephRookIoCephClusterV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_fields DataK8SCephRookIoCephClusterV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -16910,7 +16910,7 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#node_selector_terms DataK8SCephRookIoCephClusterV1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#node_selector_terms DataK8SCephRookIoCephClusterV1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -17001,11 +17001,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementNodeAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCephRookIoCephClusterV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCephRookIoCephClusterV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SCephRookIoCephClusterV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SCephRookIoCephClusterV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -17128,15 +17128,15 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -17304,11 +17304,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -17431,15 +17431,15 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -17607,11 +17607,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -17734,27 +17734,27 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#label_selector DataK8SCephRookIoCephClusterV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#label_selector DataK8SCephRookIoCephClusterV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_label_keys DataK8SCephRookIoCephClusterV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_label_keys DataK8SCephRookIoCephClusterV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephClusterV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephClusterV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace_selector DataK8SCephRookIoCephClusterV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace_selector DataK8SCephRookIoCephClusterV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespaces DataK8SCephRookIoCephClusterV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespaces DataK8SCephRookIoCephClusterV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#topology_key DataK8SCephRookIoCephClusterV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#topology_key DataK8SCephRookIoCephClusterV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -17990,11 +17990,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#pod_affinity_term DataK8SCephRookIoCephClusterV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#pod_affinity_term DataK8SCephRookIoCephClusterV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#weight DataK8SCephRookIoCephClusterV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#weight DataK8SCephRookIoCephClusterV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -18133,15 +18133,15 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18309,11 +18309,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -18436,15 +18436,15 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -18612,11 +18612,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -18739,27 +18739,27 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#label_selector DataK8SCephRookIoCephClusterV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#label_selector DataK8SCephRookIoCephClusterV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_label_keys DataK8SCephRookIoCephClusterV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_label_keys DataK8SCephRookIoCephClusterV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephClusterV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephClusterV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace_selector DataK8SCephRookIoCephClusterV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace_selector DataK8SCephRookIoCephClusterV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespaces DataK8SCephRookIoCephClusterV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespaces DataK8SCephRookIoCephClusterV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#topology_key DataK8SCephRookIoCephClusterV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#topology_key DataK8SCephRookIoCephClusterV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -19017,11 +19017,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCephRookIoCephClusterV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCephRookIoCephClusterV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SCephRookIoCephClusterV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SCephRookIoCephClusterV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -19144,15 +19144,15 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19320,11 +19320,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -19447,15 +19447,15 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19623,11 +19623,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -19750,27 +19750,27 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#label_selector DataK8SCephRookIoCephClusterV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#label_selector DataK8SCephRookIoCephClusterV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_label_keys DataK8SCephRookIoCephClusterV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_label_keys DataK8SCephRookIoCephClusterV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephClusterV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephClusterV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace_selector DataK8SCephRookIoCephClusterV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace_selector DataK8SCephRookIoCephClusterV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespaces DataK8SCephRookIoCephClusterV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespaces DataK8SCephRookIoCephClusterV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#topology_key DataK8SCephRookIoCephClusterV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#topology_key DataK8SCephRookIoCephClusterV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -20006,11 +20006,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#pod_affinity_term DataK8SCephRookIoCephClusterV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#pod_affinity_term DataK8SCephRookIoCephClusterV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#weight DataK8SCephRookIoCephClusterV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#weight DataK8SCephRookIoCephClusterV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -20149,15 +20149,15 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20325,11 +20325,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -20452,15 +20452,15 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20628,11 +20628,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -20755,27 +20755,27 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#label_selector DataK8SCephRookIoCephClusterV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#label_selector DataK8SCephRookIoCephClusterV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_label_keys DataK8SCephRookIoCephClusterV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_label_keys DataK8SCephRookIoCephClusterV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephClusterV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephClusterV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace_selector DataK8SCephRookIoCephClusterV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace_selector DataK8SCephRookIoCephClusterV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespaces DataK8SCephRookIoCephClusterV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespaces DataK8SCephRookIoCephClusterV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#topology_key DataK8SCephRookIoCephClusterV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#topology_key DataK8SCephRookIoCephClusterV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -21033,11 +21033,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAntiAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCephRookIoCephClusterV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCephRookIoCephClusterV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SCephRookIoCephClusterV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SCephRookIoCephClusterV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -21160,23 +21160,23 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#effect DataK8SCephRookIoCephClusterV1Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#effect DataK8SCephRookIoCephClusterV1Manifest#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#toleration_seconds DataK8SCephRookIoCephClusterV1Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#toleration_seconds DataK8SCephRookIoCephClusterV1Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#value DataK8SCephRookIoCephClusterV1Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#value DataK8SCephRookIoCephClusterV1Manifest#value}
   */
   readonly value?: string;
 }
@@ -21408,15 +21408,15 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementTopologySpreadConstraintsLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21584,11 +21584,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementTopologySpreadConstraintsLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -21711,35 +21711,35 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementTopologySpreadConstraints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#label_selector DataK8SCephRookIoCephClusterV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#label_selector DataK8SCephRookIoCephClusterV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementTopologySpreadConstraintsLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_label_keys DataK8SCephRookIoCephClusterV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_label_keys DataK8SCephRookIoCephClusterV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#max_skew DataK8SCephRookIoCephClusterV1Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#max_skew DataK8SCephRookIoCephClusterV1Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#min_domains DataK8SCephRookIoCephClusterV1Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#min_domains DataK8SCephRookIoCephClusterV1Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#node_affinity_policy DataK8SCephRookIoCephClusterV1Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#node_affinity_policy DataK8SCephRookIoCephClusterV1Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#node_taints_policy DataK8SCephRookIoCephClusterV1Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#node_taints_policy DataK8SCephRookIoCephClusterV1Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#topology_key DataK8SCephRookIoCephClusterV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#topology_key DataK8SCephRookIoCephClusterV1Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#when_unsatisfiable DataK8SCephRookIoCephClusterV1Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#when_unsatisfiable DataK8SCephRookIoCephClusterV1Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -22049,23 +22049,23 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#node_affinity DataK8SCephRookIoCephClusterV1Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#node_affinity DataK8SCephRookIoCephClusterV1Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementNodeAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#pod_affinity DataK8SCephRookIoCephClusterV1Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#pod_affinity DataK8SCephRookIoCephClusterV1Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#pod_anti_affinity DataK8SCephRookIoCephClusterV1Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#pod_anti_affinity DataK8SCephRookIoCephClusterV1Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementPodAntiAffinity;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#tolerations DataK8SCephRookIoCephClusterV1Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#tolerations DataK8SCephRookIoCephClusterV1Manifest#tolerations}
   */
   readonly tolerations?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#topology_spread_constraints DataK8SCephRookIoCephClusterV1Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#topology_spread_constraints DataK8SCephRookIoCephClusterV1Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPlacementTopologySpreadConstraints[] | cdktf.IResolvable;
 }
@@ -22275,15 +22275,15 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -22451,15 +22451,15 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -22627,11 +22627,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_fields DataK8SCephRookIoCephClusterV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_fields DataK8SCephRookIoCephClusterV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -22754,11 +22754,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#preference DataK8SCephRookIoCephClusterV1Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#preference DataK8SCephRookIoCephClusterV1Manifest#preference}
   */
   readonly preference: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#weight DataK8SCephRookIoCephClusterV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#weight DataK8SCephRookIoCephClusterV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -22897,15 +22897,15 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -23073,15 +23073,15 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -23249,11 +23249,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_fields DataK8SCephRookIoCephClusterV1Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_fields DataK8SCephRookIoCephClusterV1Manifest#match_fields}
   */
   readonly matchFields?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -23398,7 +23398,7 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#node_selector_terms DataK8SCephRookIoCephClusterV1Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#node_selector_terms DataK8SCephRookIoCephClusterV1Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -23489,11 +23489,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementNodeAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCephRookIoCephClusterV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCephRookIoCephClusterV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SCephRookIoCephClusterV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SCephRookIoCephClusterV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -23616,15 +23616,15 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -23792,11 +23792,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -23919,15 +23919,15 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -24095,11 +24095,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -24222,27 +24222,27 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#label_selector DataK8SCephRookIoCephClusterV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#label_selector DataK8SCephRookIoCephClusterV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_label_keys DataK8SCephRookIoCephClusterV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_label_keys DataK8SCephRookIoCephClusterV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephClusterV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephClusterV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace_selector DataK8SCephRookIoCephClusterV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace_selector DataK8SCephRookIoCephClusterV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespaces DataK8SCephRookIoCephClusterV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespaces DataK8SCephRookIoCephClusterV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#topology_key DataK8SCephRookIoCephClusterV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#topology_key DataK8SCephRookIoCephClusterV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -24478,11 +24478,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#pod_affinity_term DataK8SCephRookIoCephClusterV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#pod_affinity_term DataK8SCephRookIoCephClusterV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#weight DataK8SCephRookIoCephClusterV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#weight DataK8SCephRookIoCephClusterV1Manifest#weight}
   */
   readonly weight: number;
 }
@@ -24621,15 +24621,15 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -24797,11 +24797,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -24924,15 +24924,15 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -25100,11 +25100,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -25227,27 +25227,27 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#label_selector DataK8SCephRookIoCephClusterV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#label_selector DataK8SCephRookIoCephClusterV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_label_keys DataK8SCephRookIoCephClusterV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_label_keys DataK8SCephRookIoCephClusterV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephClusterV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephClusterV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace_selector DataK8SCephRookIoCephClusterV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace_selector DataK8SCephRookIoCephClusterV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespaces DataK8SCephRookIoCephClusterV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespaces DataK8SCephRookIoCephClusterV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#topology_key DataK8SCephRookIoCephClusterV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#topology_key DataK8SCephRookIoCephClusterV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -25505,11 +25505,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAffinity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCephRookIoCephClusterV1Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCephRookIoCephClusterV1Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SCephRookIoCephClusterV1Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#required_during_scheduling_ignored_during_execution DataK8SCephRookIoCephClusterV1Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -25632,15 +25632,15 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -25808,11 +25808,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -25935,15 +25935,15 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#key DataK8SCephRookIoCephClusterV1Manifest#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#operator DataK8SCephRookIoCephClusterV1Manifest#operator}
   */
   readonly operator: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#values DataK8SCephRookIoCephClusterV1Manifest#values}
   */
   readonly values?: string[];
 }
@@ -26111,11 +26111,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_expressions DataK8SCephRookIoCephClusterV1Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_labels DataK8SCephRookIoCephClusterV1Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -26238,27 +26238,27 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#label_selector DataK8SCephRookIoCephClusterV1Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#label_selector DataK8SCephRookIoCephClusterV1Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_label_keys DataK8SCephRookIoCephClusterV1Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#match_label_keys DataK8SCephRookIoCephClusterV1Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephClusterV1Manifest#mismatch_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#mismatch_label_keys DataK8SCephRookIoCephClusterV1Manifest#mismatch_label_keys}
   */
   readonly mismatchLabelKeys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace_selector DataK8SCephRookIoCephClusterV1Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespace_selector DataK8SCephRookIoCephClusterV1Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespaces DataK8SCephRookIoCephClusterV1Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#namespaces DataK8SCephRookIoCephClusterV1Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#topology_key DataK8SCephRookIoCephClusterV1Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#topology_key DataK8SCephRookIoCephClusterV1Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -26494,11 +26494,11 @@ export class DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDevice
 }
 export interface DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#pod_affinity_term DataK8SCephRookIoCephClusterV1Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#pod_affinity_term DataK8SCephRookIoCephClusterV1Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SCephRookIoCephClusterV1ManifestSpecStorageStorageClassDeviceSetsPreparePlacementPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#weight DataK8SCephRookIoCephClusterV1Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/ceph_rook_io_ceph_cluster_v1_manifest#weight DataK8SCephRookIoCephClusterV1Manifest#weight}
   */
   readonly weight: number;
 }

@@ -3,25 +3,25 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestMetadata {
   /**
   * Keys and values that can be used by external tooling to store and retrieve arbitrary metadata about this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#annotations DataK8SCouchbaseComCouchbaseClusterV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#annotations DataK8SCouchbaseComCouchbaseClusterV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Keys and values that can be used to organize and categorize objects. See https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Unique identifier for this object. See https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespaces provides a mechanism for isolating groups of resources within a single cluster. See https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#namespace DataK8SCouchbaseComCouchbaseClusterV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#namespace DataK8SCouchbaseComCouchbaseClusterV2Manifest#namespace}
   */
   readonly namespace: string;
 }
@@ -198,25 +198,25 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecAutoResourceAl
   /**
   * CPULimits automatically populates the CPU limits across all Couchbase server pods. This field defaults to '4' CPUs. Explicitly specifying the CPU limit for a particular server class will override this value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#resource-units-in-kubernetes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cpu_limits DataK8SCouchbaseComCouchbaseClusterV2Manifest#cpu_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cpu_limits DataK8SCouchbaseComCouchbaseClusterV2Manifest#cpu_limits}
   */
   readonly cpuLimits?: string;
   /**
   * CPURequests automatically populates the CPU requests across all Couchbase server pods. The default value of '2', is the minimum recommended number of CPUs required to run Couchbase Server. Explicitly specifying the CPU request for a particular server class will override this value. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#resource-units-in-kubernetes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cpu_requests DataK8SCouchbaseComCouchbaseClusterV2Manifest#cpu_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cpu_requests DataK8SCouchbaseComCouchbaseClusterV2Manifest#cpu_requests}
   */
   readonly cpuRequests?: string;
   /**
   * Enabled defines whether auto-resource allocation is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * OverheadPercent defines the amount of memory above that required for individual services on a pod. For Couchbase Server this should be approximately 25%.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#overhead_percent DataK8SCouchbaseComCouchbaseClusterV2Manifest#overhead_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#overhead_percent DataK8SCouchbaseComCouchbaseClusterV2Manifest#overhead_percent}
   */
   readonly overheadPercent?: number;
 }
@@ -399,7 +399,7 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecBackupImagePul
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
   */
   readonly name?: string;
 }
@@ -517,19 +517,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecBackupObjectEn
   /**
   * The name of the secret, in this namespace, that contains the CA certificate for verification of a TLS endpoint The secret must have the key with the name 'tls.crt'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#secret DataK8SCouchbaseComCouchbaseClusterV2Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#secret DataK8SCouchbaseComCouchbaseClusterV2Manifest#secret}
   */
   readonly secret?: string;
   /**
   * The host/address of the custom object endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#url DataK8SCouchbaseComCouchbaseClusterV2Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#url DataK8SCouchbaseComCouchbaseClusterV2Manifest#url}
   */
   readonly url?: string;
   /**
   * UseVirtualPath will force the AWS SDK to use the new virtual style paths which are often required by S3 compatible object stores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#use_virtual_path DataK8SCouchbaseComCouchbaseClusterV2Manifest#use_virtual_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#use_virtual_path DataK8SCouchbaseComCouchbaseClusterV2Manifest#use_virtual_path}
   */
   readonly useVirtualPath?: boolean | cdktf.IResolvable;
 }
@@ -683,7 +683,7 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecBackupResource
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
   */
   readonly name: string;
 }
@@ -798,19 +798,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecBackupResource
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#claims DataK8SCouchbaseComCouchbaseClusterV2Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#claims DataK8SCouchbaseComCouchbaseClusterV2Manifest#claims}
   */
   readonly claims?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecBackupResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#limits DataK8SCouchbaseComCouchbaseClusterV2Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#limits DataK8SCouchbaseComCouchbaseClusterV2Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#requests DataK8SCouchbaseComCouchbaseClusterV2Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#requests DataK8SCouchbaseComCouchbaseClusterV2Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -964,19 +964,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecBackupSelector
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -1146,13 +1146,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecBackupSelector
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecBackupSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -1277,31 +1277,31 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecBackupTolerati
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#effect DataK8SCouchbaseComCouchbaseClusterV2Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#effect DataK8SCouchbaseComCouchbaseClusterV2Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#toleration_seconds DataK8SCouchbaseComCouchbaseClusterV2Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#toleration_seconds DataK8SCouchbaseComCouchbaseClusterV2Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#value DataK8SCouchbaseComCouchbaseClusterV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#value DataK8SCouchbaseComCouchbaseClusterV2Manifest#value}
   */
   readonly value?: string;
 }
@@ -1535,79 +1535,79 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecBackup {
   /**
   * Annotations defines additional annotations to appear on the backup/restore pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#annotations DataK8SCouchbaseComCouchbaseClusterV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#annotations DataK8SCouchbaseComCouchbaseClusterV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * The Backup Image to run on backup pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#image DataK8SCouchbaseComCouchbaseClusterV2Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#image DataK8SCouchbaseComCouchbaseClusterV2Manifest#image}
   */
   readonly image: string;
   /**
   * ImagePullSecrets allow you to use an image from private repositories and non-dockerhub ones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#image_pull_secrets DataK8SCouchbaseComCouchbaseClusterV2Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#image_pull_secrets DataK8SCouchbaseComCouchbaseClusterV2Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecBackupImagePullSecrets[] | cdktf.IResolvable;
   /**
   * Labels defines additional labels to appear on the backup/restore pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Managed defines whether backups are managed by us or the clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#managed DataK8SCouchbaseComCouchbaseClusterV2Manifest#managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#managed DataK8SCouchbaseComCouchbaseClusterV2Manifest#managed}
   */
   readonly managed?: boolean | cdktf.IResolvable;
   /**
   * NodeSelector defines which nodes to constrain the pods that run any backup and restore operations to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#node_selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#node_selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Deprecated: by CouchbaseBackup.spec.objectStore.Endpoint ObjectEndpoint contains the configuration for connecting to a custom S3 compliant object store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#object_endpoint DataK8SCouchbaseComCouchbaseClusterV2Manifest#object_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#object_endpoint DataK8SCouchbaseComCouchbaseClusterV2Manifest#object_endpoint}
   */
   readonly objectEndpoint?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecBackupObjectEndpoint;
   /**
   * Resources is the resource requirements for the backup and restore containers. Will be populated by defaults if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#resources DataK8SCouchbaseComCouchbaseClusterV2Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#resources DataK8SCouchbaseComCouchbaseClusterV2Manifest#resources}
   */
   readonly resources?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecBackupResources;
   /**
   * Deprecated: by CouchbaseBackup.spec.objectStore.secret S3Secret contains the key region and optionally access-key-id and secret-access-key for operating backups in S3. This field must be popluated when the 'spec.s3bucket' field is specified for a backup or restore resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#s3_secret DataK8SCouchbaseComCouchbaseClusterV2Manifest#s3_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#s3_secret DataK8SCouchbaseComCouchbaseClusterV2Manifest#s3_secret}
   */
   readonly s3Secret?: string;
   /**
   * Selector allows CouchbaseBackup and CouchbaseBackupRestore resources to be filtered based on labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#selector}
   */
   readonly selector?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecBackupSelector;
   /**
   * The Service Account to run backup (and restore) pods under. Without this backup pods will not be able to update status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#service_account_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#service_account_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
   * Tolerations specifies all backup and restore pod tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#tolerations DataK8SCouchbaseComCouchbaseClusterV2Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#tolerations DataK8SCouchbaseComCouchbaseClusterV2Manifest#tolerations}
   */
   readonly tolerations?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecBackupTolerations[] | cdktf.IResolvable;
   /**
   * Deprecated: by CouchbaseBackup.spec.objectStore.useIAM UseIAMRole enables backup to fetch EC2 instance metadata. This allows the AWS SDK to use the EC2's IAM Role for S3 access. UseIAMRole will ignore credentials in s3Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#use_iam_role DataK8SCouchbaseComCouchbaseClusterV2Manifest#use_iam_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#use_iam_role DataK8SCouchbaseComCouchbaseClusterV2Manifest#use_iam_role}
   */
   readonly useIamRole?: boolean | cdktf.IResolvable;
 }
@@ -2048,19 +2048,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecBucketsSelecto
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -2230,13 +2230,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecBucketsSelecto
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecBucketsSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -2361,19 +2361,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecBuckets {
   /**
   * Managed defines whether buckets are managed by the Operator (true), or user managed (false). When Operator managed, all buckets must be defined with either CouchbaseBucket, CouchbaseEphemeralBucket or CouchbaseMemcachedBucket resources. Manual addition of buckets will be reverted by the Operator. When user managed, the Operator will not interrogate buckets at all. This field defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#managed DataK8SCouchbaseComCouchbaseClusterV2Manifest#managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#managed DataK8SCouchbaseComCouchbaseClusterV2Manifest#managed}
   */
   readonly managed?: boolean | cdktf.IResolvable;
   /**
   * Selector is a label selector used to list buckets in the namespace that are managed by the Operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#selector}
   */
   readonly selector?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecBucketsSelector;
   /**
   * Synchronize allows unmanaged buckets, scopes, and collections to be synchronized as Kubernetes resources by the Operator. This feature is intended for development only and should not be used for production workloads. The synchronization workflow starts with 'spec.buckets.managed' being set to false, the user can manually create buckets, scopes, and collections using the Couchbase UI, or other tooling. When you wish to commit to Kubernetes resources, you must specify a unique label selector in the 'spec.buckets.selector' field, and this field is set to true. The Operator will create Kubernetes resources for you, and upon completion set the cluster's 'Synchronized' status condition. Synchronizing will not create a Kubernetes resource for the Couchbase Server maintained _system scope. You may then safely set 'spec.buckets.managed' to true and the Operator will manage these resources as per usual. To update an already managed data topology, you must first set it to unmanaged, make any changes, and delete any old resources, then follow the standard synchronization workflow. The Operator can not, and will not, ever delete, or make modifications to resource specifications that are intended to be user managed, or managed by a life cycle management tool. These actions must be instigated by an end user. For a more complete experience, refer to the documentation for the 'cao save' and 'cao restore' CLI commands.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#synchronize DataK8SCouchbaseComCouchbaseClusterV2Manifest#synchronize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#synchronize DataK8SCouchbaseComCouchbaseClusterV2Manifest#synchronize}
   */
   readonly synchronize?: boolean | cdktf.IResolvable;
 }
@@ -2527,13 +2527,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecClusterAutoCom
   /**
   * Percent is the percentage of disk fragmentation after which to decompaction will be triggered. This field must be in the range 2-100, defaulting to 30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#percent DataK8SCouchbaseComCouchbaseClusterV2Manifest#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#percent DataK8SCouchbaseComCouchbaseClusterV2Manifest#percent}
   */
   readonly percent?: number;
   /**
   * Size is the amount of disk framentation, that once exceeded, will trigger decompaction. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#resource-units-in-kubernetes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#size DataK8SCouchbaseComCouchbaseClusterV2Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#size DataK8SCouchbaseComCouchbaseClusterV2Manifest#size}
   */
   readonly size?: string;
 }
@@ -2658,19 +2658,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecClusterAutoCom
   /**
   * AbortCompactionOutsideWindow stops compaction processes when the process moves outside the window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#abort_compaction_outside_window DataK8SCouchbaseComCouchbaseClusterV2Manifest#abort_compaction_outside_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#abort_compaction_outside_window DataK8SCouchbaseComCouchbaseClusterV2Manifest#abort_compaction_outside_window}
   */
   readonly abortCompactionOutsideWindow?: boolean | cdktf.IResolvable;
   /**
   * End is a wallclock time, in the form HH:MM, when a compaction should stop.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#end DataK8SCouchbaseComCouchbaseClusterV2Manifest#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#end DataK8SCouchbaseComCouchbaseClusterV2Manifest#end}
   */
   readonly end?: string;
   /**
   * Start is a wallclock time, in the form HH:MM, when a compaction is permitted to start.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#start DataK8SCouchbaseComCouchbaseClusterV2Manifest#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#start DataK8SCouchbaseComCouchbaseClusterV2Manifest#start}
   */
   readonly start?: string;
 }
@@ -2824,13 +2824,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecClusterAutoCom
   /**
   * Percent is the percentage of disk fragmentation after which to decompaction will be triggered. This field must be in the range 2-100, defaulting to 30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#percent DataK8SCouchbaseComCouchbaseClusterV2Manifest#percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#percent DataK8SCouchbaseComCouchbaseClusterV2Manifest#percent}
   */
   readonly percent?: number;
   /**
   * Size is the amount of disk framentation, that once exceeded, will trigger decompaction. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#resource-units-in-kubernetes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#size DataK8SCouchbaseComCouchbaseClusterV2Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#size DataK8SCouchbaseComCouchbaseClusterV2Manifest#size}
   */
   readonly size?: string;
 }
@@ -2955,31 +2955,31 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecClusterAutoCom
   /**
   * DatabaseFragmentationThreshold defines triggers for when database compaction should start.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#database_fragmentation_threshold DataK8SCouchbaseComCouchbaseClusterV2Manifest#database_fragmentation_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#database_fragmentation_threshold DataK8SCouchbaseComCouchbaseClusterV2Manifest#database_fragmentation_threshold}
   */
   readonly databaseFragmentationThreshold?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecClusterAutoCompactionDatabaseFragmentationThreshold;
   /**
   * ParallelCompaction controls whether database and view compactions can happen in parallel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#parallel_compaction DataK8SCouchbaseComCouchbaseClusterV2Manifest#parallel_compaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#parallel_compaction DataK8SCouchbaseComCouchbaseClusterV2Manifest#parallel_compaction}
   */
   readonly parallelCompaction?: boolean | cdktf.IResolvable;
   /**
   * TimeWindow allows restriction of when compaction can occur.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#time_window DataK8SCouchbaseComCouchbaseClusterV2Manifest#time_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#time_window DataK8SCouchbaseComCouchbaseClusterV2Manifest#time_window}
   */
   readonly timeWindow?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecClusterAutoCompactionTimeWindow;
   /**
   * TombstonePurgeInterval controls how long to wait before purging tombstones. This field must be in the range 1h-1440h, defaulting to 72h. More info: https://golang.org/pkg/time/#ParseDuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#tombstone_purge_interval DataK8SCouchbaseComCouchbaseClusterV2Manifest#tombstone_purge_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#tombstone_purge_interval DataK8SCouchbaseComCouchbaseClusterV2Manifest#tombstone_purge_interval}
   */
   readonly tombstonePurgeInterval?: string;
   /**
   * ViewFragmentationThreshold defines triggers for when view compaction should start.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#view_fragmentation_threshold DataK8SCouchbaseComCouchbaseClusterV2Manifest#view_fragmentation_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#view_fragmentation_threshold DataK8SCouchbaseComCouchbaseClusterV2Manifest#view_fragmentation_threshold}
   */
   readonly viewFragmentationThreshold?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecClusterAutoCompactionViewFragmentationThreshold;
 }
@@ -3191,31 +3191,31 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecClusterData {
   /**
   * AuxIOThreads allows the number of threads used by the data service, per pod, to be altered. This indicates the number of threads that are to be used in the AuxIO thread pool to run auxiliary I/O tasks. This value must be between 1 and 64 threads and is only supported on CB versions 7.1.0+. and should only be increased where there are sufficient CPU resources allocated for their use. If not specified, this defaults to the default value set by Couchbase Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#aux_io_threads DataK8SCouchbaseComCouchbaseClusterV2Manifest#aux_io_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#aux_io_threads DataK8SCouchbaseComCouchbaseClusterV2Manifest#aux_io_threads}
   */
   readonly auxIoThreads?: number;
   /**
   * MinReplicasCount allows the minimum number of replicas required for buckets to be set. New buckets cannot be created with less than this minimum. Defaults to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#min_replicas_count DataK8SCouchbaseComCouchbaseClusterV2Manifest#min_replicas_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#min_replicas_count DataK8SCouchbaseComCouchbaseClusterV2Manifest#min_replicas_count}
   */
   readonly minReplicasCount?: number;
   /**
   * NonIOThreads allows the number of threads used by the data service, per pod, to be altered. This indicates the number of threads that are to be used in the NonIO thread pool to run in memory tasks. This value must be between 1 and 64 threads and is only supported on CB versions 7.1.0+. and should only be increased where there are sufficient CPU resources allocated for their use. If not specified, this defaults to the default value set by Couchbase Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#non_io_threads DataK8SCouchbaseComCouchbaseClusterV2Manifest#non_io_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#non_io_threads DataK8SCouchbaseComCouchbaseClusterV2Manifest#non_io_threads}
   */
   readonly nonIoThreads?: number;
   /**
   * ReaderThreads allows the number of threads used by the data service, per pod, to be altered. This value must be between 4 and 64 threads for CB versions below 7.1.0 and, or 1 and 64 for CB versions 7.1.0+. and should only be increased where there are sufficient CPU resources allocated for their use. If not specified, this defaults to the default value set by Couchbase Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#reader_threads DataK8SCouchbaseComCouchbaseClusterV2Manifest#reader_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#reader_threads DataK8SCouchbaseComCouchbaseClusterV2Manifest#reader_threads}
   */
   readonly readerThreads?: number;
   /**
   * WriterThreads allows the number of threads used by the data service, per pod, to be altered. This setting is especially relevant when using 'durable writes', increasing this field will have a large impact on performance. This value must be between 4 and 64 threads for CB versions below 7.1.0 and, // or 1 and 64 for CB versions 7.1.0+. and should only be increased where there are sufficient CPU resources allocated for their use. If not specified, this defaults to the default value set by Couchbase Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#writer_threads DataK8SCouchbaseComCouchbaseClusterV2Manifest#writer_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#writer_threads DataK8SCouchbaseComCouchbaseClusterV2Manifest#writer_threads}
   */
   readonly writerThreads?: number;
 }
@@ -3427,55 +3427,55 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecClusterIndexer
   /**
   * EnableShardAffinity when false Index Servers rebuild any index that are newly assigned to them during a rebalance. When set to true, Couchbase Server moves a reassigned index’s files between Index Servers. This field is only supported on CB versions 7.6.0+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#enable_shard_affinity DataK8SCouchbaseComCouchbaseClusterV2Manifest#enable_shard_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#enable_shard_affinity DataK8SCouchbaseComCouchbaseClusterV2Manifest#enable_shard_affinity}
   */
   readonly enableShardAffinity?: boolean | cdktf.IResolvable;
   /**
   * LogLevel controls the verbosity of indexer logs. This field must be one of 'silent', 'fatal', 'error', 'warn', 'info', 'verbose', 'timing', 'debug' or 'trace', defaulting to 'info'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#log_level DataK8SCouchbaseComCouchbaseClusterV2Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#log_level DataK8SCouchbaseComCouchbaseClusterV2Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * MaxRollbackPoints controls the number of checkpoints that can be rolled back to. The default is 2, with a minimum of 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#max_rollback_points DataK8SCouchbaseComCouchbaseClusterV2Manifest#max_rollback_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#max_rollback_points DataK8SCouchbaseComCouchbaseClusterV2Manifest#max_rollback_points}
   */
   readonly maxRollbackPoints?: number;
   /**
   * MemorySnapshotInterval controls when memory indexes should be snapshotted. This defaults to 200ms, and must be greater than or equal to 1ms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#memory_snapshot_interval DataK8SCouchbaseComCouchbaseClusterV2Manifest#memory_snapshot_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#memory_snapshot_interval DataK8SCouchbaseComCouchbaseClusterV2Manifest#memory_snapshot_interval}
   */
   readonly memorySnapshotInterval?: string;
   /**
   * NumberOfReplica specifies number of secondary index replicas to be created by the Index Service whenever CREATE INDEX is invoked, which ensures high availability and high performance. Note, if nodes and num_replica are both specified in the WITH clause, the specified number of nodes must be one greater than num_replica This defaults to 0, which means no index replicas to be created by default. Minimum must be 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#num_replica DataK8SCouchbaseComCouchbaseClusterV2Manifest#num_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#num_replica DataK8SCouchbaseComCouchbaseClusterV2Manifest#num_replica}
   */
   readonly numReplica?: number;
   /**
   * RedistributeIndexes when true, Couchbase Server redistributes indexes when rebalance occurs, in order to optimize performance. If false (the default), such redistribution does not occur.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#redistribute_indexes DataK8SCouchbaseComCouchbaseClusterV2Manifest#redistribute_indexes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#redistribute_indexes DataK8SCouchbaseComCouchbaseClusterV2Manifest#redistribute_indexes}
   */
   readonly redistributeIndexes?: boolean | cdktf.IResolvable;
   /**
   * StableSnapshotInterval controls when disk indexes should be snapshotted. This defaults to 5s, and must be greater than or equal to 1ms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#stable_snapshot_interval DataK8SCouchbaseComCouchbaseClusterV2Manifest#stable_snapshot_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#stable_snapshot_interval DataK8SCouchbaseComCouchbaseClusterV2Manifest#stable_snapshot_interval}
   */
   readonly stableSnapshotInterval?: string;
   /**
   * StorageMode controls the underlying storage engine for indexes. Once set it can only be modified if there are no nodes in the cluster running the index service. The field must be one of 'memory_optimized' or 'plasma', defaulting to 'memory_optimized'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#storage_mode DataK8SCouchbaseComCouchbaseClusterV2Manifest#storage_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#storage_mode DataK8SCouchbaseComCouchbaseClusterV2Manifest#storage_mode}
   */
   readonly storageMode?: string;
   /**
   * Threads controls the number of processor threads to use for indexing. A value of 0 means 1 per CPU. This attribute must be greater than or equal to 0, defaulting to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#threads DataK8SCouchbaseComCouchbaseClusterV2Manifest#threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#threads DataK8SCouchbaseComCouchbaseClusterV2Manifest#threads}
   */
   readonly threads?: number;
 }
@@ -3803,151 +3803,151 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecClusterQuery {
   /**
   * BackfillEnabled allows the query service to backfill.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#backfill_enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#backfill_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#backfill_enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#backfill_enabled}
   */
   readonly backfillEnabled?: boolean | cdktf.IResolvable;
   /**
   * CBOEnabled specifies whether the cost-based optimizer is enabled. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cbo_enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#cbo_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cbo_enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#cbo_enabled}
   */
   readonly cboEnabled: boolean | cdktf.IResolvable;
   /**
   * CleanupClientAttemptsEnabled specifies whether the Query service preferentially aims to clean up just transactions that it has created, leaving transactions for the distributed cleanup process only when it is forced to. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cleanup_client_attempts_enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#cleanup_client_attempts_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cleanup_client_attempts_enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#cleanup_client_attempts_enabled}
   */
   readonly cleanupClientAttemptsEnabled: boolean | cdktf.IResolvable;
   /**
   * CleanupLostAttemptsEnabled specifies the Query service takes part in the distributed cleanup process, and cleans up expired transactions created by any client. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cleanup_lost_attempts_enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#cleanup_lost_attempts_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cleanup_lost_attempts_enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#cleanup_lost_attempts_enabled}
   */
   readonly cleanupLostAttemptsEnabled: boolean | cdktf.IResolvable;
   /**
   * CleanupWindow specifies how frequently the Query service checks its subset of active transaction records for cleanup. Defaults to 60s
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cleanup_window DataK8SCouchbaseComCouchbaseClusterV2Manifest#cleanup_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cleanup_window DataK8SCouchbaseComCouchbaseClusterV2Manifest#cleanup_window}
   */
   readonly cleanupWindow: string;
   /**
   * CompletedLimit sets the number of requests to be logged in the completed requests catalog. As new completed requests are added, old ones are removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#completed_limit DataK8SCouchbaseComCouchbaseClusterV2Manifest#completed_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#completed_limit DataK8SCouchbaseComCouchbaseClusterV2Manifest#completed_limit}
   */
   readonly completedLimit: number;
   /**
   * CompletedMaxPlanSize limits the size of query execution plans that can be logged in the completed requests catalog. Queries with plans larger than this are not logged. This field is only supported on CB versions 7.6.0+. Defaults to 262144, maximum value is 20840448, and minimum value is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#completed_max_plan_size DataK8SCouchbaseComCouchbaseClusterV2Manifest#completed_max_plan_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#completed_max_plan_size DataK8SCouchbaseComCouchbaseClusterV2Manifest#completed_max_plan_size}
   */
   readonly completedMaxPlanSize: string;
   /**
   * CompletedTrackingAllRequests allows all requests to be tracked regardless of their time. This field requires 'completedTrackingEnabled' to be true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#completed_tracking_all_requests DataK8SCouchbaseComCouchbaseClusterV2Manifest#completed_tracking_all_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#completed_tracking_all_requests DataK8SCouchbaseComCouchbaseClusterV2Manifest#completed_tracking_all_requests}
   */
   readonly completedTrackingAllRequests: boolean | cdktf.IResolvable;
   /**
   * CompletedTrackingEnabled allows completed requests to be tracked in the requests catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#completed_tracking_enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#completed_tracking_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#completed_tracking_enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#completed_tracking_enabled}
   */
   readonly completedTrackingEnabled: boolean | cdktf.IResolvable;
   /**
   * CompletedThreshold is a trigger for queries to be logged in the completed requests catalog. All completed queries lasting longer than this threshold are logged in the completed requests catalog. This field requires 'completedTrackingEnabled' to be set to true and 'completedTrackingAllRequests' to be false to have any effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#completed_tracking_threshold DataK8SCouchbaseComCouchbaseClusterV2Manifest#completed_tracking_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#completed_tracking_threshold DataK8SCouchbaseComCouchbaseClusterV2Manifest#completed_tracking_threshold}
   */
   readonly completedTrackingThreshold?: string;
   /**
   * LogLevel controls the verbosity of query logs. This field must be one of 'debug', 'trace', 'info', 'warn', 'error', 'severe', or 'none', defaulting to 'info'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#log_level DataK8SCouchbaseComCouchbaseClusterV2Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#log_level DataK8SCouchbaseComCouchbaseClusterV2Manifest#log_level}
   */
   readonly logLevel?: string;
   /**
   * MaxParallelism specifies the maximum parallelism for queries on all Query nodes in the cluster. If the value is zero, negative, or larger than the number of allowed cored the maximum parallelism is restricted to the number of allowed cores. Defaults to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#max_parallelism DataK8SCouchbaseComCouchbaseClusterV2Manifest#max_parallelism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#max_parallelism DataK8SCouchbaseComCouchbaseClusterV2Manifest#max_parallelism}
   */
   readonly maxParallelism: number;
   /**
   * MemoryQuota specifies the maximum amount of memory a request may use on any Query node in the cluster. This parameter enforces a ceiling on the memory used for the tracked documents required for processing a request. It does not take into account any other memory that might be used to process a request, such as the stack, the operators, or some intermediate values. Defaults to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#memory_quota DataK8SCouchbaseComCouchbaseClusterV2Manifest#memory_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#memory_quota DataK8SCouchbaseComCouchbaseClusterV2Manifest#memory_quota}
   */
   readonly memoryQuota?: string;
   /**
   * NodeQuotaValPercent sets the percentage of the 'useReplica' that is dedicated to tracked value content memory across all active requests for every Query node in the cluster. This field is only supported on CB versions 7.6.0+. Defaults to 67.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#node_quota_val_percent DataK8SCouchbaseComCouchbaseClusterV2Manifest#node_quota_val_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#node_quota_val_percent DataK8SCouchbaseComCouchbaseClusterV2Manifest#node_quota_val_percent}
   */
   readonly nodeQuotaValPercent: number;
   /**
   * NumActiveTransactionRecords specifies the total number of active transaction records for all Query nodes in the cluster. Default to 1024 and has a minimum of 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#num_active_transaction_records DataK8SCouchbaseComCouchbaseClusterV2Manifest#num_active_transaction_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#num_active_transaction_records DataK8SCouchbaseComCouchbaseClusterV2Manifest#num_active_transaction_records}
   */
   readonly numActiveTransactionRecords: number;
   /**
   * NumCpus is the number of CPUs the Query service can use on any Query node in the cluster. When set to 0 (the default), the Query service can use all available CPUs, up to the limits described below. The number of CPUs can never be greater than the number of logical CPUs. In Community Edition, the number of allowed CPUs cannot be greater than 4. In Enterprise Edition, there is no limit to the number of allowed CPUs. This field is only supported on CB versions 7.6.0+. NOTE: This change requires a restart of the Query service to take effect which can be done by rescheduling nodes that are running the query service. Defaults to 0
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#num_cpus DataK8SCouchbaseComCouchbaseClusterV2Manifest#num_cpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#num_cpus DataK8SCouchbaseComCouchbaseClusterV2Manifest#num_cpus}
   */
   readonly numCpus: number;
   /**
   * PipelineBatch controls the number of items execution operators can batch for Fetch from the KV. Defaults to 16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#pipeline_batch DataK8SCouchbaseComCouchbaseClusterV2Manifest#pipeline_batch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#pipeline_batch DataK8SCouchbaseComCouchbaseClusterV2Manifest#pipeline_batch}
   */
   readonly pipelineBatch: number;
   /**
   * PipelineCap controls the maximum number of items each execution operator can buffer between various operators. Defaults to 512.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#pipeline_cap DataK8SCouchbaseComCouchbaseClusterV2Manifest#pipeline_cap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#pipeline_cap DataK8SCouchbaseComCouchbaseClusterV2Manifest#pipeline_cap}
   */
   readonly pipelineCap: number;
   /**
   * PreparedLimit is the maximum number of prepared statements in the cache. When this cache reaches the limit, the least recently used prepared statements will be discarded as new prepared statements are created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#prepared_limit DataK8SCouchbaseComCouchbaseClusterV2Manifest#prepared_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#prepared_limit DataK8SCouchbaseComCouchbaseClusterV2Manifest#prepared_limit}
   */
   readonly preparedLimit: number;
   /**
   * ScapCan sets the maximum buffered channel size between the indexer client and the query service for index scans. Defaults to 512.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#scan_cap DataK8SCouchbaseComCouchbaseClusterV2Manifest#scan_cap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#scan_cap DataK8SCouchbaseComCouchbaseClusterV2Manifest#scan_cap}
   */
   readonly scanCap: number;
   /**
   * TemporarySpace allows the temporary storage used by the query service backfill, per-pod, to be modified. This field requires 'backfillEnabled' to be set to true in order to have any effect. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#resource-units-in-kubernetes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#temporary_space DataK8SCouchbaseComCouchbaseClusterV2Manifest#temporary_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#temporary_space DataK8SCouchbaseComCouchbaseClusterV2Manifest#temporary_space}
   */
   readonly temporarySpace?: string;
   /**
   * TemporarySpaceUnlimited allows the temporary storage used by the query service backfill, per-pod, to be unconstrained. This field requires 'backfillEnabled' to be set to true in order to have any effect. This field overrides 'temporarySpace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#temporary_space_unlimited DataK8SCouchbaseComCouchbaseClusterV2Manifest#temporary_space_unlimited}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#temporary_space_unlimited DataK8SCouchbaseComCouchbaseClusterV2Manifest#temporary_space_unlimited}
   */
   readonly temporarySpaceUnlimited?: boolean | cdktf.IResolvable;
   /**
   * Timeout is the maximum time to spend on the request before timing out. If this field is not set then there will be no timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#timeout DataK8SCouchbaseComCouchbaseClusterV2Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#timeout DataK8SCouchbaseComCouchbaseClusterV2Manifest#timeout}
   */
   readonly timeout?: string;
   /**
   * TxTimeout is the maximum time to spend on a transaction before timing out. This setting only applies to requests containing the BEGIN TRANSACTION statement, or to requests where the tximplicit parameter is set. For all other requests, it is ignored. Defaults to 0ms (no timeout).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#tx_timeout DataK8SCouchbaseComCouchbaseClusterV2Manifest#tx_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#tx_timeout DataK8SCouchbaseComCouchbaseClusterV2Manifest#tx_timeout}
   */
   readonly txTimeout?: string;
   /**
   * UseReplica specifies whether a query can fetch data from a replica vBucket if active vBuckets are inaccessible. If set to true then read from replica is enabled for all queries, but can be disabled at request level. If set to false read from replica is disabled for all queries and cannot be overridden at request level. If this field is unset then it is enabled/disabled at the request level. This field is only supported on CB versions 7.6.0+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#use_replica DataK8SCouchbaseComCouchbaseClusterV2Manifest#use_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#use_replica DataK8SCouchbaseComCouchbaseClusterV2Manifest#use_replica}
   */
   readonly useReplica?: boolean | cdktf.IResolvable;
 }
@@ -4691,103 +4691,103 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecCluster {
   /**
   * AnalyticsServiceMemQuota is the amount of memory that should be allocated to the analytics service. This value is per-pod, and only applicable to pods belonging to server classes running the analytics service. This field must be a quantity greater than or equal to 1Gi. This field defaults to 1Gi. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#resource-units-in-kubernetes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#analytics_service_memory_quota DataK8SCouchbaseComCouchbaseClusterV2Manifest#analytics_service_memory_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#analytics_service_memory_quota DataK8SCouchbaseComCouchbaseClusterV2Manifest#analytics_service_memory_quota}
   */
   readonly analyticsServiceMemoryQuota?: string;
   /**
   * AutoCompaction allows the configuration of auto-compaction, including on what conditions disk space is reclaimed and when it is allowed to run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#auto_compaction DataK8SCouchbaseComCouchbaseClusterV2Manifest#auto_compaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#auto_compaction DataK8SCouchbaseComCouchbaseClusterV2Manifest#auto_compaction}
   */
   readonly autoCompaction?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecClusterAutoCompaction;
   /**
   * AutoFailoverMaxCount is the maximum number of automatic failovers Couchbase server will allow before not allowing any more. This field must be between 1-3 for server versions prior to 7.1.0 default is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#auto_failover_max_count DataK8SCouchbaseComCouchbaseClusterV2Manifest#auto_failover_max_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#auto_failover_max_count DataK8SCouchbaseComCouchbaseClusterV2Manifest#auto_failover_max_count}
   */
   readonly autoFailoverMaxCount?: number;
   /**
   * AutoFailoverOnDataDiskIssues defines whether Couchbase server should failover a pod if a disk issue was detected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#auto_failover_on_data_disk_issues DataK8SCouchbaseComCouchbaseClusterV2Manifest#auto_failover_on_data_disk_issues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#auto_failover_on_data_disk_issues DataK8SCouchbaseComCouchbaseClusterV2Manifest#auto_failover_on_data_disk_issues}
   */
   readonly autoFailoverOnDataDiskIssues?: boolean | cdktf.IResolvable;
   /**
   * AutoFailoverOnDataDiskIssuesTimePeriod defines how long to wait for transient errors before failing over a faulty disk. This field must be in the range 5-3600s, defaulting to 120s. More info: https://golang.org/pkg/time/#ParseDuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#auto_failover_on_data_disk_issues_time_period DataK8SCouchbaseComCouchbaseClusterV2Manifest#auto_failover_on_data_disk_issues_time_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#auto_failover_on_data_disk_issues_time_period DataK8SCouchbaseComCouchbaseClusterV2Manifest#auto_failover_on_data_disk_issues_time_period}
   */
   readonly autoFailoverOnDataDiskIssuesTimePeriod?: string;
   /**
   * AutoFailoverServerGroup whether to enable failing over a server group. This field is ignored in server versions 7.1+ as it has been removed from the Couchbase API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#auto_failover_server_group DataK8SCouchbaseComCouchbaseClusterV2Manifest#auto_failover_server_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#auto_failover_server_group DataK8SCouchbaseComCouchbaseClusterV2Manifest#auto_failover_server_group}
   */
   readonly autoFailoverServerGroup?: boolean | cdktf.IResolvable;
   /**
   * AutoFailoverTimeout defines how long Couchbase server will wait between a pod being witnessed as down, until when it will failover the pod. Couchbase server will only failover pods if it deems it safe to do so, and not result in data loss. This field must be in the range 5-3600s, defaulting to 120s. More info: https://golang.org/pkg/time/#ParseDuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#auto_failover_timeout DataK8SCouchbaseComCouchbaseClusterV2Manifest#auto_failover_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#auto_failover_timeout DataK8SCouchbaseComCouchbaseClusterV2Manifest#auto_failover_timeout}
   */
   readonly autoFailoverTimeout?: string;
   /**
   * ClusterName defines the name of the cluster, as displayed in the Couchbase UI. By default, the cluster name is that specified in the CouchbaseCluster resource's metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cluster_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cluster_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * Data allows the data service to be configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#data DataK8SCouchbaseComCouchbaseClusterV2Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#data DataK8SCouchbaseComCouchbaseClusterV2Manifest#data}
   */
   readonly data?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecClusterData;
   /**
   * DataServiceMemQuota is the amount of memory that should be allocated to the data service. This value is per-pod, and only applicable to pods belonging to server classes running the data service. This field must be a quantity greater than or equal to 256Mi. This field defaults to 256Mi. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#resource-units-in-kubernetes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#data_service_memory_quota DataK8SCouchbaseComCouchbaseClusterV2Manifest#data_service_memory_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#data_service_memory_quota DataK8SCouchbaseComCouchbaseClusterV2Manifest#data_service_memory_quota}
   */
   readonly dataServiceMemoryQuota?: string;
   /**
   * EventingServiceMemQuota is the amount of memory that should be allocated to the eventing service. This value is per-pod, and only applicable to pods belonging to server classes running the eventing service. This field must be a quantity greater than or equal to 256Mi. This field defaults to 256Mi. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#resource-units-in-kubernetes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#eventing_service_memory_quota DataK8SCouchbaseComCouchbaseClusterV2Manifest#eventing_service_memory_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#eventing_service_memory_quota DataK8SCouchbaseComCouchbaseClusterV2Manifest#eventing_service_memory_quota}
   */
   readonly eventingServiceMemoryQuota?: string;
   /**
   * IndexServiceMemQuota is the amount of memory that should be allocated to the index service. This value is per-pod, and only applicable to pods belonging to server classes running the index service. This field must be a quantity greater than or equal to 256Mi. This field defaults to 256Mi. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#resource-units-in-kubernetes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#index_service_memory_quota DataK8SCouchbaseComCouchbaseClusterV2Manifest#index_service_memory_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#index_service_memory_quota DataK8SCouchbaseComCouchbaseClusterV2Manifest#index_service_memory_quota}
   */
   readonly indexServiceMemoryQuota?: string;
   /**
   * DEPRECATED - by indexer. The index storage mode to use for secondary indexing. This field must be one of 'memory_optimized' or 'plasma', defaulting to 'memory_optimized'. This field is immutable and cannot be changed unless there are no server classes running the index service in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#index_storage_setting DataK8SCouchbaseComCouchbaseClusterV2Manifest#index_storage_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#index_storage_setting DataK8SCouchbaseComCouchbaseClusterV2Manifest#index_storage_setting}
   */
   readonly indexStorageSetting?: string;
   /**
   * Indexer allows the indexer to be configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#indexer DataK8SCouchbaseComCouchbaseClusterV2Manifest#indexer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#indexer DataK8SCouchbaseComCouchbaseClusterV2Manifest#indexer}
   */
   readonly indexer?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecClusterIndexer;
   /**
   * Query allows the query service to be configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#query DataK8SCouchbaseComCouchbaseClusterV2Manifest#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#query DataK8SCouchbaseComCouchbaseClusterV2Manifest#query}
   */
   readonly query?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecClusterQuery;
   /**
   * QueryServiceMemQuota is used when the spec.autoResourceAllocation feature is enabled, and is used to define the amount of memory reserved by the query service for use with Kubernetes resource scheduling. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#resource-units-in-kubernetes In CB Server 7.6.0+ QueryServiceMemQuota also sets a soft memory limit for every Query node in the cluster. The garbage collector tries to keep below this target. It is not a hard, absolute limit, and memory usage may exceed this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#query_service_memory_quota DataK8SCouchbaseComCouchbaseClusterV2Manifest#query_service_memory_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#query_service_memory_quota DataK8SCouchbaseComCouchbaseClusterV2Manifest#query_service_memory_quota}
   */
   readonly queryServiceMemoryQuota?: string;
   /**
   * SearchServiceMemQuota is the amount of memory that should be allocated to the search service. This value is per-pod, and only applicable to pods belonging to server classes running the search service. This field must be a quantity greater than or equal to 256Mi. This field defaults to 256Mi. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#resource-units-in-kubernetes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#search_service_memory_quota DataK8SCouchbaseComCouchbaseClusterV2Manifest#search_service_memory_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#search_service_memory_quota DataK8SCouchbaseComCouchbaseClusterV2Manifest#search_service_memory_quota}
   */
   readonly searchServiceMemoryQuota?: string;
 }
@@ -5347,7 +5347,7 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecLoggingAuditGa
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
   */
   readonly name: string;
 }
@@ -5462,19 +5462,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecLoggingAuditGa
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#claims DataK8SCouchbaseComCouchbaseClusterV2Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#claims DataK8SCouchbaseComCouchbaseClusterV2Manifest#claims}
   */
   readonly claims?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecLoggingAuditGarbageCollectionSidecarResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#limits DataK8SCouchbaseComCouchbaseClusterV2Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#limits DataK8SCouchbaseComCouchbaseClusterV2Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#requests DataK8SCouchbaseComCouchbaseClusterV2Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#requests DataK8SCouchbaseComCouchbaseClusterV2Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -5628,31 +5628,31 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecLoggingAuditGa
   /**
   * The minimum age of rotated log files to remove, defaults to one hour.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#age DataK8SCouchbaseComCouchbaseClusterV2Manifest#age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#age DataK8SCouchbaseComCouchbaseClusterV2Manifest#age}
   */
   readonly age?: string;
   /**
   * Enable this sidecar by setting to true, defaults to being disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Image is the image to be used to run the audit sidecar helper. No validation is carried out as this can be any arbitrary repo and tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#image DataK8SCouchbaseComCouchbaseClusterV2Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#image DataK8SCouchbaseComCouchbaseClusterV2Manifest#image}
   */
   readonly image?: string;
   /**
   * The interval at which to check for rotated log files to remove, defaults to 20 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#interval DataK8SCouchbaseComCouchbaseClusterV2Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#interval DataK8SCouchbaseComCouchbaseClusterV2Manifest#interval}
   */
   readonly interval?: string;
   /**
   * Resources is the resource requirements for the cleanup container. Will be populated by Kubernetes defaults if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#resources DataK8SCouchbaseComCouchbaseClusterV2Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#resources DataK8SCouchbaseComCouchbaseClusterV2Manifest#resources}
   */
   readonly resources?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecLoggingAuditGarbageCollectionSidecarResources;
 }
@@ -5864,7 +5864,7 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecLoggingAuditGa
   /**
   * DEPRECATED - by spec.logging.audit.nativePruning for Couchbase Server 7.2.4+ Provide the sidecar configuration required (if so desired) to automatically clean up audit logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#sidecar DataK8SCouchbaseComCouchbaseClusterV2Manifest#sidecar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#sidecar DataK8SCouchbaseComCouchbaseClusterV2Manifest#sidecar}
   */
   readonly sidecar?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecLoggingAuditGarbageCollectionSidecar;
 }
@@ -5960,19 +5960,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecLoggingAuditRo
   /**
   * The interval at which to rotate log files, defaults to 15 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#interval DataK8SCouchbaseComCouchbaseClusterV2Manifest#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#interval DataK8SCouchbaseComCouchbaseClusterV2Manifest#interval}
   */
   readonly interval?: string;
   /**
   * How long Couchbase Server keeps rotated audit logs. If set to 0 (the default) then audit logs won't be pruned. Has a maximum of 35791394 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#prune_age DataK8SCouchbaseComCouchbaseClusterV2Manifest#prune_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#prune_age DataK8SCouchbaseComCouchbaseClusterV2Manifest#prune_age}
   */
   readonly pruneAge?: string;
   /**
   * Size allows the specification of a rotation size for the log, defaults to 20Mi. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#resource-units-in-kubernetes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#size DataK8SCouchbaseComCouchbaseClusterV2Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#size DataK8SCouchbaseComCouchbaseClusterV2Manifest#size}
   */
   readonly size?: string;
 }
@@ -6126,31 +6126,31 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecLoggingAudit {
   /**
   * The list of event ids to disable for auditing purposes. This is passed to the REST API with no verification by the operator. Refer to the documentation for details: https://docs.couchbase.com/server/current/audit-event-reference/audit-event-reference.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#disabled_events DataK8SCouchbaseComCouchbaseClusterV2Manifest#disabled_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#disabled_events DataK8SCouchbaseComCouchbaseClusterV2Manifest#disabled_events}
   */
   readonly disabledEvents?: string[];
   /**
   * The list of users to ignore for auditing purposes. This is passed to the REST API with minimal validation it meets an acceptable regex pattern. Refer to the documentation for full details on how to configure this: https://docs.couchbase.com/server/current/manage/manage-security/manage-auditing.html#ignoring-events-by-user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#disabled_users DataK8SCouchbaseComCouchbaseClusterV2Manifest#disabled_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#disabled_users DataK8SCouchbaseComCouchbaseClusterV2Manifest#disabled_users}
   */
   readonly disabledUsers?: string[];
   /**
   * Enabled is a boolean that enables the audit capabilities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Handle all optional garbage collection (GC) configuration for the audit functionality. This is not part of the audit REST API, it is intended to handle GC automatically for the audit logs. By default the Couchbase Server rotates the audit logs but does not clean up the rotated logs. This is left as an operation for the cluster administrator to manage, the operator allows for us to automate this: https://docs.couchbase.com/server/current/manage/manage-security/manage-auditing.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#garbage_collection DataK8SCouchbaseComCouchbaseClusterV2Manifest#garbage_collection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#garbage_collection DataK8SCouchbaseComCouchbaseClusterV2Manifest#garbage_collection}
   */
   readonly garbageCollection?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecLoggingAuditGarbageCollection;
   /**
   * The interval to optionally rotate the audit log. This is passed to the REST API, see here for details: https://docs.couchbase.com/server/current/manage/manage-security/manage-auditing.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#rotation DataK8SCouchbaseComCouchbaseClusterV2Manifest#rotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#rotation DataK8SCouchbaseComCouchbaseClusterV2Manifest#rotation}
   */
   readonly rotation?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecLoggingAuditRotation;
 }
@@ -6362,7 +6362,7 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecLoggingServerS
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
   */
   readonly name: string;
 }
@@ -6477,19 +6477,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecLoggingServerS
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#claims DataK8SCouchbaseComCouchbaseClusterV2Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#claims DataK8SCouchbaseComCouchbaseClusterV2Manifest#claims}
   */
   readonly claims?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecLoggingServerSidecarResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#limits DataK8SCouchbaseComCouchbaseClusterV2Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#limits DataK8SCouchbaseComCouchbaseClusterV2Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#requests DataK8SCouchbaseComCouchbaseClusterV2Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#requests DataK8SCouchbaseComCouchbaseClusterV2Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -6643,19 +6643,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecLoggingServerS
   /**
   * ConfigurationMountPath is the location to mount the ConfigurationName Secret into the image. If another log shipping image is used that needs a different mount then modify this. Note that the configuration file must be called 'fluent-bit.conf' at the root of this path, there is no provision for overriding the name of the config file passed as the COUCHBASE_LOGS_CONFIG_FILE environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#configuration_mount_path DataK8SCouchbaseComCouchbaseClusterV2Manifest#configuration_mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#configuration_mount_path DataK8SCouchbaseComCouchbaseClusterV2Manifest#configuration_mount_path}
   */
   readonly configurationMountPath?: string;
   /**
   * Image is the image to be used to deal with logging as a sidecar. No validation is carried out as this can be any arbitrary repo and tag. It will default to the latest supported version of Fluent Bit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#image DataK8SCouchbaseComCouchbaseClusterV2Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#image DataK8SCouchbaseComCouchbaseClusterV2Manifest#image}
   */
   readonly image?: string;
   /**
   * Resources is the resource requirements for the sidecar container. Will be populated by Kubernetes defaults if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#resources DataK8SCouchbaseComCouchbaseClusterV2Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#resources DataK8SCouchbaseComCouchbaseClusterV2Manifest#resources}
   */
   readonly resources?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecLoggingServerSidecarResources;
 }
@@ -6809,25 +6809,25 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecLoggingServer 
   /**
   * ConfigurationName is the name of the Secret to use holding the logging configuration in the namespace. A Secret is used to ensure we can safely store credentials but this can be populated from plaintext if acceptable too. If it does not exist then one will be created with defaults in the namespace so it can be easily updated whilst running. Note that if running multiple clusters in the same kubernetes namespace then you should use a separate Secret for each, otherwise the first cluster will take ownership (if created) and the Secret will be cleaned up when that cluster is removed. If running clusters in separate namespaces then they will be separate Secrets anyway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#configuration_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#configuration_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#configuration_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#configuration_name}
   */
   readonly configurationName?: string;
   /**
   * Enabled is a boolean that enables the logging sidecar container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A boolean which indicates whether the operator should manage the configuration or not. If omitted then this defaults to true which means the operator will attempt to reconcile it to default values. To use a custom configuration make sure to set this to false. Note that the ownership of any Secret is not changed so if a Secret is created externally it can be updated by the operator but it's ownership stays the same so it will be cleaned up when it's owner is.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#manage_configuration DataK8SCouchbaseComCouchbaseClusterV2Manifest#manage_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#manage_configuration DataK8SCouchbaseComCouchbaseClusterV2Manifest#manage_configuration}
   */
   readonly manageConfiguration?: boolean | cdktf.IResolvable;
   /**
   * Any specific logging sidecar container configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#sidecar DataK8SCouchbaseComCouchbaseClusterV2Manifest#sidecar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#sidecar DataK8SCouchbaseComCouchbaseClusterV2Manifest#sidecar}
   */
   readonly sidecar?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecLoggingServerSidecar;
 }
@@ -7010,25 +7010,25 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecLogging {
   /**
   * Used to manage the audit configuration directly
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#audit DataK8SCouchbaseComCouchbaseClusterV2Manifest#audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#audit DataK8SCouchbaseComCouchbaseClusterV2Manifest#audit}
   */
   readonly audit?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecLoggingAudit;
   /**
   * LogRetentionCount gives the number of persistent log PVCs to keep.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#log_retention_count DataK8SCouchbaseComCouchbaseClusterV2Manifest#log_retention_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#log_retention_count DataK8SCouchbaseComCouchbaseClusterV2Manifest#log_retention_count}
   */
   readonly logRetentionCount?: number;
   /**
   * LogRetentionTime gives the time to keep persistent log PVCs alive for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#log_retention_time DataK8SCouchbaseComCouchbaseClusterV2Manifest#log_retention_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#log_retention_time DataK8SCouchbaseComCouchbaseClusterV2Manifest#log_retention_time}
   */
   readonly logRetentionTime?: string;
   /**
   * Specification of all logging configuration required to manage the sidecar containers in each pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#server DataK8SCouchbaseComCouchbaseClusterV2Manifest#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#server DataK8SCouchbaseComCouchbaseClusterV2Manifest#server}
   */
   readonly server?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecLoggingServer;
 }
@@ -7211,7 +7211,7 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecMonitoringProm
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
   */
   readonly name: string;
 }
@@ -7326,19 +7326,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecMonitoringProm
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#claims DataK8SCouchbaseComCouchbaseClusterV2Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#claims DataK8SCouchbaseComCouchbaseClusterV2Manifest#claims}
   */
   readonly claims?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecMonitoringPrometheusResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#limits DataK8SCouchbaseComCouchbaseClusterV2Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#limits DataK8SCouchbaseComCouchbaseClusterV2Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#requests DataK8SCouchbaseComCouchbaseClusterV2Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#requests DataK8SCouchbaseComCouchbaseClusterV2Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -7492,31 +7492,31 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecMonitoringProm
   /**
   * AuthorizationSecret is the name of a Kubernetes secret that contains a bearer token to authorize GET requests to the metrics endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#authorization_secret DataK8SCouchbaseComCouchbaseClusterV2Manifest#authorization_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#authorization_secret DataK8SCouchbaseComCouchbaseClusterV2Manifest#authorization_secret}
   */
   readonly authorizationSecret?: string;
   /**
   * Enabled is a boolean that enables/disables the metrics sidecar container. This must be set to true, when image is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Image is the metrics image to be used to collect metrics. No validation is carried out as this can be any arbitrary repo and tag. enabled must be set to true, when image is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#image DataK8SCouchbaseComCouchbaseClusterV2Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#image DataK8SCouchbaseComCouchbaseClusterV2Manifest#image}
   */
   readonly image: string;
   /**
   * RefreshRate is the frequency in which cached statistics are updated in seconds. Shorter intervals will add additional resource overhead to clusters running Couchbase Server 7.0+ Default is 60 seconds, Maximum value is 600 seconds, and minimum value is 1 second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#refresh_rate DataK8SCouchbaseComCouchbaseClusterV2Manifest#refresh_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#refresh_rate DataK8SCouchbaseComCouchbaseClusterV2Manifest#refresh_rate}
   */
   readonly refreshRate?: number;
   /**
   * Resources is the resource requirements for the metrics container. Will be populated by Kubernetes defaults if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#resources DataK8SCouchbaseComCouchbaseClusterV2Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#resources DataK8SCouchbaseComCouchbaseClusterV2Manifest#resources}
   */
   readonly resources?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecMonitoringPrometheusResources;
 }
@@ -7725,7 +7725,7 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecMonitoring {
   /**
   * DEPRECATED - By Couchbase Server metrics endpoint on version 7.0+ Prometheus provides integration with Prometheus monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#prometheus DataK8SCouchbaseComCouchbaseClusterV2Manifest#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#prometheus DataK8SCouchbaseComCouchbaseClusterV2Manifest#prometheus}
   */
   readonly prometheus?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecMonitoringPrometheus;
 }
@@ -7821,13 +7821,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingAdmi
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#annotations DataK8SCouchbaseComCouchbaseClusterV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#annotations DataK8SCouchbaseComCouchbaseClusterV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -7952,7 +7952,7 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingAdmi
   /**
   * timeoutSeconds specifies the seconds of ClientIP type session sticky time. The value must be >0 && <=86400(for 1 day) if ServiceAffinity == 'ClientIP'. Default value is 10800(for 3 hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#timeout_seconds DataK8SCouchbaseComCouchbaseClusterV2Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#timeout_seconds DataK8SCouchbaseComCouchbaseClusterV2Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -8048,7 +8048,7 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingAdmi
   /**
   * clientIP contains the configurations of Client IP based session affinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#client_ip DataK8SCouchbaseComCouchbaseClusterV2Manifest#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#client_ip DataK8SCouchbaseComCouchbaseClusterV2Manifest#client_ip}
   */
   readonly clientIp?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingAdminConsoleServiceTemplateSpecSessionAffinityConfigClientIp;
 }
@@ -8144,97 +8144,97 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingAdmi
   /**
   * allocateLoadBalancerNodePorts defines if NodePorts will be automatically allocated for services with type LoadBalancer. Default is 'true'. It may be set to 'false' if the cluster load-balancer does not rely on NodePorts. If the caller requests specific NodePorts (by specifying a value), those requests will be respected, regardless of this field. This field may only be set for services with type LoadBalancer and will be cleared if the type is changed to any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#allocate_load_balancer_node_ports DataK8SCouchbaseComCouchbaseClusterV2Manifest#allocate_load_balancer_node_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#allocate_load_balancer_node_ports DataK8SCouchbaseComCouchbaseClusterV2Manifest#allocate_load_balancer_node_ports}
   */
   readonly allocateLoadBalancerNodePorts?: boolean | cdktf.IResolvable;
   /**
   * ClusterIPs is a list of IP addresses assigned to this service, and are usually assigned randomly. If an address is specified manually, is in-range (as per system configuration), and is not in use, it will be allocated to the service; otherwise creation of the service will fail. This field may not be changed through updates unless the type field is also being changed to ExternalName (which requires this field to be empty) or the type field is being changed from ExternalName (in which case this field may optionally be specified, as describe above). Valid values are 'None', empty string (''), or a valid IP address. Setting this to 'None' makes a 'headless service' (no virtual IP), which is useful when direct endpoint connections are preferred and proxying is not required. Only applies to types ClusterIP, NodePort, and LoadBalancer. If this field is specified when creating a Service of type ExternalName, creation will fail. This field will be wiped when updating a Service to type ExternalName. If this field is not specified, it will be initialized from the clusterIP field. If this field is specified, clients must ensure that clusterIPs[0] and clusterIP have the same value. This field may hold a maximum of two entries (dual-stack IPs, in either order). These IPs must correspond to the values of the ipFamilies field. Both clusterIPs and ipFamilies are governed by the ipFamilyPolicy field. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cluster_i_ps DataK8SCouchbaseComCouchbaseClusterV2Manifest#cluster_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cluster_i_ps DataK8SCouchbaseComCouchbaseClusterV2Manifest#cluster_i_ps}
   */
   readonly clusterIPs?: string[];
   /**
   * clusterIP is the IP address of the service and is usually assigned randomly. If an address is specified manually, is in-range (as per system configuration), and is not in use, it will be allocated to the service; otherwise creation of the service will fail. This field may not be changed through updates unless the type field is also being changed to ExternalName (which requires this field to be blank) or the type field is being changed from ExternalName (in which case this field may optionally be specified, as describe above). Valid values are 'None', empty string (''), or a valid IP address. Setting this to 'None' makes a 'headless service' (no virtual IP), which is useful when direct endpoint connections are preferred and proxying is not required. Only applies to types ClusterIP, NodePort, and LoadBalancer. If this field is specified when creating a Service of type ExternalName, creation will fail. This field will be wiped when updating a Service to type ExternalName. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cluster_ip DataK8SCouchbaseComCouchbaseClusterV2Manifest#cluster_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cluster_ip DataK8SCouchbaseComCouchbaseClusterV2Manifest#cluster_ip}
   */
   readonly clusterIp?: string;
   /**
   * externalIPs is a list of IP addresses for which nodes in the cluster will also accept traffic for this service. These IPs are not managed by Kubernetes. The user is responsible for ensuring that traffic arrives at a node with this IP. A common example is external load-balancers that are not part of the Kubernetes system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#external_i_ps DataK8SCouchbaseComCouchbaseClusterV2Manifest#external_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#external_i_ps DataK8SCouchbaseComCouchbaseClusterV2Manifest#external_i_ps}
   */
   readonly externalIPs?: string[];
   /**
   * externalName is the external reference that discovery mechanisms will return as an alias for this service (e.g. a DNS CNAME record). No proxying will be involved. Must be a lowercase RFC-1123 hostname (https://tools.ietf.org/html/rfc1123) and requires 'type' to be 'ExternalName'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#external_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#external_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#external_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#external_name}
   */
   readonly externalName?: string;
   /**
   * externalTrafficPolicy describes how nodes distribute service traffic they receive on one of the Service's 'externally-facing' addresses (NodePorts, ExternalIPs, and LoadBalancer IPs). If set to 'Local', the proxy will configure the service in a way that assumes that external load balancers will take care of balancing the service traffic between nodes, and so each node will deliver traffic only to the node-local endpoints of the service, without masquerading the client source IP. (Traffic mistakenly sent to a node with no endpoints will be dropped.) The default value, 'Cluster', uses the standard behavior of routing to all endpoints evenly (possibly modified by topology and other features). Note that traffic sent to an External IP or LoadBalancer IP from within the cluster will always get 'Cluster' semantics, but clients sending to a NodePort from within the cluster may need to take traffic policy into account when picking a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#external_traffic_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#external_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#external_traffic_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#external_traffic_policy}
   */
   readonly externalTrafficPolicy?: string;
   /**
   * healthCheckNodePort specifies the healthcheck nodePort for the service. This only applies when type is set to LoadBalancer and externalTrafficPolicy is set to Local. If a value is specified, is in-range, and is not in use, it will be used. If not specified, a value will be automatically allocated. External systems (e.g. load-balancers) can use this port to determine if a given node holds endpoints for this service or not. If this field is specified when creating a Service which does not need it, creation will fail. This field will be wiped when updating a Service to no longer need it (e.g. changing type). This field cannot be updated once set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#health_check_node_port DataK8SCouchbaseComCouchbaseClusterV2Manifest#health_check_node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#health_check_node_port DataK8SCouchbaseComCouchbaseClusterV2Manifest#health_check_node_port}
   */
   readonly healthCheckNodePort?: number;
   /**
   * InternalTrafficPolicy describes how nodes distribute service traffic they receive on the ClusterIP. If set to 'Local', the proxy will assume that pods only want to talk to endpoints of the service on the same node as the pod, dropping the traffic if there are no local endpoints. The default value, 'Cluster', uses the standard behavior of routing to all endpoints evenly (possibly modified by topology and other features).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#internal_traffic_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#internal_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#internal_traffic_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#internal_traffic_policy}
   */
   readonly internalTrafficPolicy?: string;
   /**
   * IPFamilies is a list of IP families (e.g. IPv4, IPv6) assigned to this service. This field is usually assigned automatically based on cluster configuration and the ipFamilyPolicy field. If this field is specified manually, the requested family is available in the cluster, and ipFamilyPolicy allows it, it will be used; otherwise creation of the service will fail. This field is conditionally mutable: it allows for adding or removing a secondary IP family, but it does not allow changing the primary IP family of the Service. Valid values are 'IPv4' and 'IPv6'. This field only applies to Services of types ClusterIP, NodePort, and LoadBalancer, and does apply to 'headless' services. This field will be wiped when updating a Service to type ExternalName. This field may hold a maximum of two entries (dual-stack families, in either order). These families must correspond to the values of the clusterIPs field, if specified. Both clusterIPs and ipFamilies are governed by the ipFamilyPolicy field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#ip_families DataK8SCouchbaseComCouchbaseClusterV2Manifest#ip_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#ip_families DataK8SCouchbaseComCouchbaseClusterV2Manifest#ip_families}
   */
   readonly ipFamilies?: string[];
   /**
   * IPFamilyPolicy represents the dual-stack-ness requested or required by this Service. If there is no value provided, then this field will be set to SingleStack. Services can be 'SingleStack' (a single IP family), 'PreferDualStack' (two IP families on dual-stack configured clusters or a single IP family on single-stack clusters), or 'RequireDualStack' (two IP families on dual-stack configured clusters, otherwise fail). The ipFamilies and clusterIPs fields depend on the value of this field. This field will be wiped when updating a service to type ExternalName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#ip_family_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#ip_family_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#ip_family_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#ip_family_policy}
   */
   readonly ipFamilyPolicy?: string;
   /**
   * loadBalancerClass is the class of the load balancer implementation this Service belongs to. If specified, the value of this field must be a label-style identifier, with an optional prefix, e.g. 'internal-vip' or 'example.com/internal-vip'. Unprefixed names are reserved for end-users. This field can only be set when the Service type is 'LoadBalancer'. If not set, the default load balancer implementation is used, today this is typically done through the cloud provider integration, but should apply for any default implementation. If set, it is assumed that a load balancer implementation is watching for Services with a matching class. Any default load balancer implementation (e.g. cloud providers) should ignore Services that set this field. This field can only be set when creating or updating a Service to type 'LoadBalancer'. Once set, it can not be changed. This field will be wiped when a service is updated to a non 'LoadBalancer' type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#load_balancer_class DataK8SCouchbaseComCouchbaseClusterV2Manifest#load_balancer_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#load_balancer_class DataK8SCouchbaseComCouchbaseClusterV2Manifest#load_balancer_class}
   */
   readonly loadBalancerClass?: string;
   /**
   * Only applies to Service Type: LoadBalancer. This feature depends on whether the underlying cloud-provider supports specifying the loadBalancerIP when a load balancer is created. This field will be ignored if the cloud-provider does not support the feature. Deprecated: This field was under-specified and its meaning varies across implementations. Using it is non-portable and it may not support dual-stack. Users are encouraged to use implementation-specific annotations when available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#load_balancer_ip DataK8SCouchbaseComCouchbaseClusterV2Manifest#load_balancer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#load_balancer_ip DataK8SCouchbaseComCouchbaseClusterV2Manifest#load_balancer_ip}
   */
   readonly loadBalancerIp?: string;
   /**
   * If specified and supported by the platform, this will restrict traffic through the cloud-provider load-balancer will be restricted to the specified client IPs. This field will be ignored if the cloud-provider does not support the feature.' More info: https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#load_balancer_source_ranges DataK8SCouchbaseComCouchbaseClusterV2Manifest#load_balancer_source_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#load_balancer_source_ranges DataK8SCouchbaseComCouchbaseClusterV2Manifest#load_balancer_source_ranges}
   */
   readonly loadBalancerSourceRanges?: string[];
   /**
   * Supports 'ClientIP' and 'None'. Used to maintain session affinity. Enable client IP based session affinity. Must be ClientIP or None. Defaults to None. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#session_affinity DataK8SCouchbaseComCouchbaseClusterV2Manifest#session_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#session_affinity DataK8SCouchbaseComCouchbaseClusterV2Manifest#session_affinity}
   */
   readonly sessionAffinity?: string;
   /**
   * sessionAffinityConfig contains the configurations of session affinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#session_affinity_config DataK8SCouchbaseComCouchbaseClusterV2Manifest#session_affinity_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#session_affinity_config DataK8SCouchbaseComCouchbaseClusterV2Manifest#session_affinity_config}
   */
   readonly sessionAffinityConfig?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingAdminConsoleServiceTemplateSpecSessionAffinityConfig;
   /**
   * type determines how the Service is exposed. Defaults to ClusterIP. Valid options are ExternalName, ClusterIP, NodePort, and LoadBalancer. 'ClusterIP' allocates a cluster-internal IP address for load-balancing to endpoints. Endpoints are determined by the selector or if that is not specified, by manual construction of an Endpoints object or EndpointSlice objects. If clusterIP is 'None', no virtual IP is allocated and the endpoints are published as a set of endpoints rather than a virtual IP. 'NodePort' builds on ClusterIP and allocates a port on every node which routes to the same endpoints as the clusterIP. 'LoadBalancer' builds on NodePort and creates an external load-balancer (if supported in the current cloud) which routes to the same endpoints as the clusterIP. 'ExternalName' aliases this service to the specified externalName. Several other fields do not apply to ExternalName services. More info: https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services-service-types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#type DataK8SCouchbaseComCouchbaseClusterV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#type DataK8SCouchbaseComCouchbaseClusterV2Manifest#type}
   */
   readonly type?: string;
 }
@@ -8765,13 +8765,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingAdmi
   /**
   * Standard objects metadata. This is a curated version for use with Couchbase resource templates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#metadata DataK8SCouchbaseComCouchbaseClusterV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#metadata DataK8SCouchbaseComCouchbaseClusterV2Manifest#metadata}
   */
   readonly metadata?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingAdminConsoleServiceTemplateMetadata;
   /**
   * ServiceSpec describes the attributes that a user creates on a service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#spec DataK8SCouchbaseComCouchbaseClusterV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#spec DataK8SCouchbaseComCouchbaseClusterV2Manifest#spec}
   */
   readonly spec?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingAdminConsoleServiceTemplateSpec;
 }
@@ -8896,7 +8896,7 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingClou
   /**
   * ServerSecretName specifies the secret name, in the same namespace as the cluster, that contains Cloud Native Gateway gRPC server TLS data. The secret is expected to contain 'tls.crt' and 'tls.key' as per the kubernetes.io/tls secret type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#server_secret_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#server_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#server_secret_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#server_secret_name}
   */
   readonly serverSecretName?: string;
 }
@@ -8992,25 +8992,25 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingClou
   /**
   * Image is the Cloud Native Gateway image to be used to run the sidecar container. No validation is carried out as this can be any arbitrary repo and tag. TODO: provide a default kubebuilder default image tag as field is mandatory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#image DataK8SCouchbaseComCouchbaseClusterV2Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#image DataK8SCouchbaseComCouchbaseClusterV2Manifest#image}
   */
   readonly image: string;
   /**
   * DEVELOPER PREVIEW - This feature is in developer preview. LogLevel controls the verbosity of cloud native logs. This field must be one of 'fatal', 'panic', 'dpanic', 'error', 'warn', 'info', 'debug' defaulting to 'info'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#log_level DataK8SCouchbaseComCouchbaseClusterV2Manifest#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#log_level DataK8SCouchbaseComCouchbaseClusterV2Manifest#log_level}
   */
   readonly logLevel: string;
   /**
   * TerminationGracePeriodSeconds specifies the grace period for the container to terminate. Defaults to 75 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#termination_grace_period_seconds DataK8SCouchbaseComCouchbaseClusterV2Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#termination_grace_period_seconds DataK8SCouchbaseComCouchbaseClusterV2Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * TLS defines the TLS configuration for the Cloud Native Gateway server including server and client certificate configuration, and TLS security policies. If no TLS config are explicitly provided, the operator generates/manages self-signed certs/keys and creates a k8s secret named 'couchbase-cloud-native-gateway-self-signed-secret-<cluster-name>' unique to a Couchbase cluster, which is volume mounted to the cb k8s pod. This action could be overidden at the outset or later, by using the below TLS config or generating the secret of same name as 'couchbase-cloud-native-gateway-self-signed-secret-<cluster-name>' with certificates conforming to the keys of well-known type 'kubernetes.io/tls' with 'tls.crt' and 'tls.key'. N.B. The secret is on per cluster basis so it's advised to use the unique cluster name else would be ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#tls DataK8SCouchbaseComCouchbaseClusterV2Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#tls DataK8SCouchbaseComCouchbaseClusterV2Manifest#tls}
   */
   readonly tls?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingCloudNativeGatewayTls;
 }
@@ -9187,7 +9187,7 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingDns 
   /**
   * Domain is the domain to create pods in. When populated the Operator will annotate the admin console and per-pod services with the key 'external-dns.alpha.kubernetes.io/hostname'. These annotations can be used directly by a Kubernetes External-DNS controller to replicate load balancer service IP addresses into a public DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#domain DataK8SCouchbaseComCouchbaseClusterV2Manifest#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#domain DataK8SCouchbaseComCouchbaseClusterV2Manifest#domain}
   */
   readonly domain?: string;
 }
@@ -9283,13 +9283,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingExpo
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#annotations DataK8SCouchbaseComCouchbaseClusterV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#annotations DataK8SCouchbaseComCouchbaseClusterV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -9414,7 +9414,7 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingExpo
   /**
   * timeoutSeconds specifies the seconds of ClientIP type session sticky time. The value must be >0 && <=86400(for 1 day) if ServiceAffinity == 'ClientIP'. Default value is 10800(for 3 hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#timeout_seconds DataK8SCouchbaseComCouchbaseClusterV2Manifest#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#timeout_seconds DataK8SCouchbaseComCouchbaseClusterV2Manifest#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -9510,7 +9510,7 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingExpo
   /**
   * clientIP contains the configurations of Client IP based session affinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#client_ip DataK8SCouchbaseComCouchbaseClusterV2Manifest#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#client_ip DataK8SCouchbaseComCouchbaseClusterV2Manifest#client_ip}
   */
   readonly clientIp?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingExposedFeatureServiceTemplateSpecSessionAffinityConfigClientIp;
 }
@@ -9606,97 +9606,97 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingExpo
   /**
   * allocateLoadBalancerNodePorts defines if NodePorts will be automatically allocated for services with type LoadBalancer. Default is 'true'. It may be set to 'false' if the cluster load-balancer does not rely on NodePorts. If the caller requests specific NodePorts (by specifying a value), those requests will be respected, regardless of this field. This field may only be set for services with type LoadBalancer and will be cleared if the type is changed to any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#allocate_load_balancer_node_ports DataK8SCouchbaseComCouchbaseClusterV2Manifest#allocate_load_balancer_node_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#allocate_load_balancer_node_ports DataK8SCouchbaseComCouchbaseClusterV2Manifest#allocate_load_balancer_node_ports}
   */
   readonly allocateLoadBalancerNodePorts?: boolean | cdktf.IResolvable;
   /**
   * ClusterIPs is a list of IP addresses assigned to this service, and are usually assigned randomly. If an address is specified manually, is in-range (as per system configuration), and is not in use, it will be allocated to the service; otherwise creation of the service will fail. This field may not be changed through updates unless the type field is also being changed to ExternalName (which requires this field to be empty) or the type field is being changed from ExternalName (in which case this field may optionally be specified, as describe above). Valid values are 'None', empty string (''), or a valid IP address. Setting this to 'None' makes a 'headless service' (no virtual IP), which is useful when direct endpoint connections are preferred and proxying is not required. Only applies to types ClusterIP, NodePort, and LoadBalancer. If this field is specified when creating a Service of type ExternalName, creation will fail. This field will be wiped when updating a Service to type ExternalName. If this field is not specified, it will be initialized from the clusterIP field. If this field is specified, clients must ensure that clusterIPs[0] and clusterIP have the same value. This field may hold a maximum of two entries (dual-stack IPs, in either order). These IPs must correspond to the values of the ipFamilies field. Both clusterIPs and ipFamilies are governed by the ipFamilyPolicy field. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cluster_i_ps DataK8SCouchbaseComCouchbaseClusterV2Manifest#cluster_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cluster_i_ps DataK8SCouchbaseComCouchbaseClusterV2Manifest#cluster_i_ps}
   */
   readonly clusterIPs?: string[];
   /**
   * clusterIP is the IP address of the service and is usually assigned randomly. If an address is specified manually, is in-range (as per system configuration), and is not in use, it will be allocated to the service; otherwise creation of the service will fail. This field may not be changed through updates unless the type field is also being changed to ExternalName (which requires this field to be blank) or the type field is being changed from ExternalName (in which case this field may optionally be specified, as describe above). Valid values are 'None', empty string (''), or a valid IP address. Setting this to 'None' makes a 'headless service' (no virtual IP), which is useful when direct endpoint connections are preferred and proxying is not required. Only applies to types ClusterIP, NodePort, and LoadBalancer. If this field is specified when creating a Service of type ExternalName, creation will fail. This field will be wiped when updating a Service to type ExternalName. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cluster_ip DataK8SCouchbaseComCouchbaseClusterV2Manifest#cluster_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cluster_ip DataK8SCouchbaseComCouchbaseClusterV2Manifest#cluster_ip}
   */
   readonly clusterIp?: string;
   /**
   * externalIPs is a list of IP addresses for which nodes in the cluster will also accept traffic for this service. These IPs are not managed by Kubernetes. The user is responsible for ensuring that traffic arrives at a node with this IP. A common example is external load-balancers that are not part of the Kubernetes system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#external_i_ps DataK8SCouchbaseComCouchbaseClusterV2Manifest#external_i_ps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#external_i_ps DataK8SCouchbaseComCouchbaseClusterV2Manifest#external_i_ps}
   */
   readonly externalIPs?: string[];
   /**
   * externalName is the external reference that discovery mechanisms will return as an alias for this service (e.g. a DNS CNAME record). No proxying will be involved. Must be a lowercase RFC-1123 hostname (https://tools.ietf.org/html/rfc1123) and requires 'type' to be 'ExternalName'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#external_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#external_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#external_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#external_name}
   */
   readonly externalName?: string;
   /**
   * externalTrafficPolicy describes how nodes distribute service traffic they receive on one of the Service's 'externally-facing' addresses (NodePorts, ExternalIPs, and LoadBalancer IPs). If set to 'Local', the proxy will configure the service in a way that assumes that external load balancers will take care of balancing the service traffic between nodes, and so each node will deliver traffic only to the node-local endpoints of the service, without masquerading the client source IP. (Traffic mistakenly sent to a node with no endpoints will be dropped.) The default value, 'Cluster', uses the standard behavior of routing to all endpoints evenly (possibly modified by topology and other features). Note that traffic sent to an External IP or LoadBalancer IP from within the cluster will always get 'Cluster' semantics, but clients sending to a NodePort from within the cluster may need to take traffic policy into account when picking a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#external_traffic_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#external_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#external_traffic_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#external_traffic_policy}
   */
   readonly externalTrafficPolicy?: string;
   /**
   * healthCheckNodePort specifies the healthcheck nodePort for the service. This only applies when type is set to LoadBalancer and externalTrafficPolicy is set to Local. If a value is specified, is in-range, and is not in use, it will be used. If not specified, a value will be automatically allocated. External systems (e.g. load-balancers) can use this port to determine if a given node holds endpoints for this service or not. If this field is specified when creating a Service which does not need it, creation will fail. This field will be wiped when updating a Service to no longer need it (e.g. changing type). This field cannot be updated once set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#health_check_node_port DataK8SCouchbaseComCouchbaseClusterV2Manifest#health_check_node_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#health_check_node_port DataK8SCouchbaseComCouchbaseClusterV2Manifest#health_check_node_port}
   */
   readonly healthCheckNodePort?: number;
   /**
   * InternalTrafficPolicy describes how nodes distribute service traffic they receive on the ClusterIP. If set to 'Local', the proxy will assume that pods only want to talk to endpoints of the service on the same node as the pod, dropping the traffic if there are no local endpoints. The default value, 'Cluster', uses the standard behavior of routing to all endpoints evenly (possibly modified by topology and other features).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#internal_traffic_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#internal_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#internal_traffic_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#internal_traffic_policy}
   */
   readonly internalTrafficPolicy?: string;
   /**
   * IPFamilies is a list of IP families (e.g. IPv4, IPv6) assigned to this service. This field is usually assigned automatically based on cluster configuration and the ipFamilyPolicy field. If this field is specified manually, the requested family is available in the cluster, and ipFamilyPolicy allows it, it will be used; otherwise creation of the service will fail. This field is conditionally mutable: it allows for adding or removing a secondary IP family, but it does not allow changing the primary IP family of the Service. Valid values are 'IPv4' and 'IPv6'. This field only applies to Services of types ClusterIP, NodePort, and LoadBalancer, and does apply to 'headless' services. This field will be wiped when updating a Service to type ExternalName. This field may hold a maximum of two entries (dual-stack families, in either order). These families must correspond to the values of the clusterIPs field, if specified. Both clusterIPs and ipFamilies are governed by the ipFamilyPolicy field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#ip_families DataK8SCouchbaseComCouchbaseClusterV2Manifest#ip_families}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#ip_families DataK8SCouchbaseComCouchbaseClusterV2Manifest#ip_families}
   */
   readonly ipFamilies?: string[];
   /**
   * IPFamilyPolicy represents the dual-stack-ness requested or required by this Service. If there is no value provided, then this field will be set to SingleStack. Services can be 'SingleStack' (a single IP family), 'PreferDualStack' (two IP families on dual-stack configured clusters or a single IP family on single-stack clusters), or 'RequireDualStack' (two IP families on dual-stack configured clusters, otherwise fail). The ipFamilies and clusterIPs fields depend on the value of this field. This field will be wiped when updating a service to type ExternalName.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#ip_family_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#ip_family_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#ip_family_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#ip_family_policy}
   */
   readonly ipFamilyPolicy?: string;
   /**
   * loadBalancerClass is the class of the load balancer implementation this Service belongs to. If specified, the value of this field must be a label-style identifier, with an optional prefix, e.g. 'internal-vip' or 'example.com/internal-vip'. Unprefixed names are reserved for end-users. This field can only be set when the Service type is 'LoadBalancer'. If not set, the default load balancer implementation is used, today this is typically done through the cloud provider integration, but should apply for any default implementation. If set, it is assumed that a load balancer implementation is watching for Services with a matching class. Any default load balancer implementation (e.g. cloud providers) should ignore Services that set this field. This field can only be set when creating or updating a Service to type 'LoadBalancer'. Once set, it can not be changed. This field will be wiped when a service is updated to a non 'LoadBalancer' type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#load_balancer_class DataK8SCouchbaseComCouchbaseClusterV2Manifest#load_balancer_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#load_balancer_class DataK8SCouchbaseComCouchbaseClusterV2Manifest#load_balancer_class}
   */
   readonly loadBalancerClass?: string;
   /**
   * Only applies to Service Type: LoadBalancer. This feature depends on whether the underlying cloud-provider supports specifying the loadBalancerIP when a load balancer is created. This field will be ignored if the cloud-provider does not support the feature. Deprecated: This field was under-specified and its meaning varies across implementations. Using it is non-portable and it may not support dual-stack. Users are encouraged to use implementation-specific annotations when available.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#load_balancer_ip DataK8SCouchbaseComCouchbaseClusterV2Manifest#load_balancer_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#load_balancer_ip DataK8SCouchbaseComCouchbaseClusterV2Manifest#load_balancer_ip}
   */
   readonly loadBalancerIp?: string;
   /**
   * If specified and supported by the platform, this will restrict traffic through the cloud-provider load-balancer will be restricted to the specified client IPs. This field will be ignored if the cloud-provider does not support the feature.' More info: https://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#load_balancer_source_ranges DataK8SCouchbaseComCouchbaseClusterV2Manifest#load_balancer_source_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#load_balancer_source_ranges DataK8SCouchbaseComCouchbaseClusterV2Manifest#load_balancer_source_ranges}
   */
   readonly loadBalancerSourceRanges?: string[];
   /**
   * Supports 'ClientIP' and 'None'. Used to maintain session affinity. Enable client IP based session affinity. Must be ClientIP or None. Defaults to None. More info: https://kubernetes.io/docs/concepts/services-networking/service/#virtual-ips-and-service-proxies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#session_affinity DataK8SCouchbaseComCouchbaseClusterV2Manifest#session_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#session_affinity DataK8SCouchbaseComCouchbaseClusterV2Manifest#session_affinity}
   */
   readonly sessionAffinity?: string;
   /**
   * sessionAffinityConfig contains the configurations of session affinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#session_affinity_config DataK8SCouchbaseComCouchbaseClusterV2Manifest#session_affinity_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#session_affinity_config DataK8SCouchbaseComCouchbaseClusterV2Manifest#session_affinity_config}
   */
   readonly sessionAffinityConfig?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingExposedFeatureServiceTemplateSpecSessionAffinityConfig;
   /**
   * type determines how the Service is exposed. Defaults to ClusterIP. Valid options are ExternalName, ClusterIP, NodePort, and LoadBalancer. 'ClusterIP' allocates a cluster-internal IP address for load-balancing to endpoints. Endpoints are determined by the selector or if that is not specified, by manual construction of an Endpoints object or EndpointSlice objects. If clusterIP is 'None', no virtual IP is allocated and the endpoints are published as a set of endpoints rather than a virtual IP. 'NodePort' builds on ClusterIP and allocates a port on every node which routes to the same endpoints as the clusterIP. 'LoadBalancer' builds on NodePort and creates an external load-balancer (if supported in the current cloud) which routes to the same endpoints as the clusterIP. 'ExternalName' aliases this service to the specified externalName. Several other fields do not apply to ExternalName services. More info: https://kubernetes.io/docs/concepts/services-networking/service/#publishing-services-service-types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#type DataK8SCouchbaseComCouchbaseClusterV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#type DataK8SCouchbaseComCouchbaseClusterV2Manifest#type}
   */
   readonly type?: string;
 }
@@ -10227,13 +10227,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingExpo
   /**
   * Standard objects metadata. This is a curated version for use with Couchbase resource templates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#metadata DataK8SCouchbaseComCouchbaseClusterV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#metadata DataK8SCouchbaseComCouchbaseClusterV2Manifest#metadata}
   */
   readonly metadata?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingExposedFeatureServiceTemplateMetadata;
   /**
   * ServiceSpec describes the attributes that a user creates on a service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#spec DataK8SCouchbaseComCouchbaseClusterV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#spec DataK8SCouchbaseComCouchbaseClusterV2Manifest#spec}
   */
   readonly spec?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingExposedFeatureServiceTemplateSpec;
 }
@@ -10358,19 +10358,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingTlsC
   /**
   * Delimiter if specified allows a suffix to be stripped from the username, once extracted from the certificate path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#delimiter DataK8SCouchbaseComCouchbaseClusterV2Manifest#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#delimiter DataK8SCouchbaseComCouchbaseClusterV2Manifest#delimiter}
   */
   readonly delimiter?: string;
   /**
   * Path defines where in the X.509 specification to extract the username from. This field must be either 'subject.cn', 'san.uri', 'san.dnsname' or 'san.email'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#path DataK8SCouchbaseComCouchbaseClusterV2Manifest#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#path DataK8SCouchbaseComCouchbaseClusterV2Manifest#path}
   */
   readonly path: string;
   /**
   * Prefix allows a prefix to be stripped from the username, once extracted from the certificate path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#prefix DataK8SCouchbaseComCouchbaseClusterV2Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#prefix DataK8SCouchbaseComCouchbaseClusterV2Manifest#prefix}
   */
   readonly prefix?: string;
 }
@@ -10543,31 +10543,31 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingTlsP
   /**
   * AddressFamily is the address family to use. By default inet (meaning IPV4) is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#address_family DataK8SCouchbaseComCouchbaseClusterV2Manifest#address_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#address_family DataK8SCouchbaseComCouchbaseClusterV2Manifest#address_family}
   */
   readonly addressFamily?: string;
   /**
   * Headers is a map of one or more key-value pairs to pass alongside the Get request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#headers DataK8SCouchbaseComCouchbaseClusterV2Manifest#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#headers DataK8SCouchbaseComCouchbaseClusterV2Manifest#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Timeout is the number of milliseconds that must elapse before the call is timed out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#timeout DataK8SCouchbaseComCouchbaseClusterV2Manifest#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#timeout DataK8SCouchbaseComCouchbaseClusterV2Manifest#timeout}
   */
   readonly timeout?: number;
   /**
   * URL is the endpoint to be called to retrieve the passphrase. URL will be called using the GET method and may use http/https protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#url DataK8SCouchbaseComCouchbaseClusterV2Manifest#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#url DataK8SCouchbaseComCouchbaseClusterV2Manifest#url}
   */
   readonly url: string;
   /**
   * VerifyPeer ensures peer verification is performed when Https is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#verify_peer DataK8SCouchbaseComCouchbaseClusterV2Manifest#verify_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#verify_peer DataK8SCouchbaseComCouchbaseClusterV2Manifest#verify_peer}
   */
   readonly verifyPeer?: boolean | cdktf.IResolvable;
 }
@@ -10776,7 +10776,7 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingTlsP
   /**
   * Secret is the secret containing the passphrase string. The secret is expected to contain 'passphrase' key with the passphrase string as a value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#secret DataK8SCouchbaseComCouchbaseClusterV2Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#secret DataK8SCouchbaseComCouchbaseClusterV2Manifest#secret}
   */
   readonly secret: string;
 }
@@ -10869,13 +10869,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingTlsP
   /**
   * PassphraseRestConfig is the configuration to register a private key passphrase with a rest endpoint. When the private key is accessed, Couchbase Server attempts to extract the password by means of the specified endpoint. The response status must be 200 and the response text must be the exact passphrase excluding newlines and extraneous spaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#rest DataK8SCouchbaseComCouchbaseClusterV2Manifest#rest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#rest DataK8SCouchbaseComCouchbaseClusterV2Manifest#rest}
   */
   readonly rest?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingTlsPassphraseRest;
   /**
   * PassphraseScriptConfig is the configuration to register a private key passphrase with a script. The Operator auto-provisions the underlying script so this config simply provides a mechanism to perform the decryption of the Couchbase Private Key using a local script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#script DataK8SCouchbaseComCouchbaseClusterV2Manifest#script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#script DataK8SCouchbaseComCouchbaseClusterV2Manifest#script}
   */
   readonly script?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingTlsPassphraseScript;
 }
@@ -11000,13 +11000,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingTlsS
   /**
   * ClientSecretName specifies the secret name, in the same namespace as the cluster, the contains client TLS data. The secret is expected to contain 'tls.crt' and 'tls.key' as per the Kubernetes.io/tls secret type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#client_secret_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#client_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#client_secret_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#client_secret_name}
   */
   readonly clientSecretName?: string;
   /**
   * ServerSecretName specifies the secret name, in the same namespace as the cluster, that contains server TLS data. The secret is expected to contain 'tls.crt' and 'tls.key' as per the kubernetes.io/tls secret type. It may also contain 'ca.crt'. Only a single PEM formated x509 certificate can be provided to 'ca.crt'. The single certificate may also bundle together multiple root CA certificates. Multiple root CA certificates are only supported on Couchbase Server 7.1 and greater.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#server_secret_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#server_secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#server_secret_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#server_secret_name}
   */
   readonly serverSecretName: string;
 }
@@ -11128,13 +11128,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingTlsS
   /**
   * OperatorSecret is a secret name containing TLS certs used by operator to talk securely to this cluster. The secret must contain a CA certificate (data key ca.crt). If client authentication is enabled, then the secret must also contain a client certificate chain (data key 'couchbase-operator.crt') and private key (data key 'couchbase-operator.key').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator_secret DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator_secret DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator_secret}
   */
   readonly operatorSecret?: string;
   /**
   * ServerSecret is a secret name containing TLS certs used by each Couchbase member pod for the communication between Couchbase server and its clients. The secret must contain a certificate chain (data key 'chain.pem') and a private key (data key 'pkey.key'). The private key must be in the PKCS#1 RSA format. The certificate chain must have a required set of X.509v3 subject alternative names for all cluster addressing modes. See the Operator TLS documentation for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#server_secret DataK8SCouchbaseComCouchbaseClusterV2Manifest#server_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#server_secret DataK8SCouchbaseComCouchbaseClusterV2Manifest#server_secret}
   */
   readonly serverSecret?: string;
 }
@@ -11259,61 +11259,61 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingTls 
   /**
   * AllowPlainTextCertReload allows the reload of TLS certificates in plain text. This option should only be enabled as a means to recover connectivity with server in the event that any of the server certificates expire. When enabled the Operator only attempts plain text cert reloading when expired certificates are detected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#allow_plain_text_cert_reload DataK8SCouchbaseComCouchbaseClusterV2Manifest#allow_plain_text_cert_reload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#allow_plain_text_cert_reload DataK8SCouchbaseComCouchbaseClusterV2Manifest#allow_plain_text_cert_reload}
   */
   readonly allowPlainTextCertReload?: boolean | cdktf.IResolvable;
   /**
   * CipherSuites specifies a list of cipher suites for Couchbase server to select from when negotiating TLS handshakes with a client. Suites are not validated by the Operator. Run 'openssl ciphers -v' in a Couchbase server pod to interrogate supported values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cipher_suites DataK8SCouchbaseComCouchbaseClusterV2Manifest#cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cipher_suites DataK8SCouchbaseComCouchbaseClusterV2Manifest#cipher_suites}
   */
   readonly cipherSuites?: string[];
   /**
   * ClientCertificatePaths defines where to look in client certificates in order to extract the user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#client_certificate_paths DataK8SCouchbaseComCouchbaseClusterV2Manifest#client_certificate_paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#client_certificate_paths DataK8SCouchbaseComCouchbaseClusterV2Manifest#client_certificate_paths}
   */
   readonly clientCertificatePaths?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingTlsClientCertificatePaths[] | cdktf.IResolvable;
   /**
   * ClientCertificatePolicy defines the client authentication policy to use. If set, the Operator expects TLS configuration to contain a valid certificate/key pair for the Administrator account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#client_certificate_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#client_certificate_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#client_certificate_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#client_certificate_policy}
   */
   readonly clientCertificatePolicy?: string;
   /**
   * NodeToNodeEncryption specifies whether to encrypt data between Couchbase nodes within the same cluster. This may come at the expense of performance. When control plane only encryption is used, only cluster management traffic is encrypted between nodes. When all, all traffic is encrypted, including database documents. When strict mode is used, it is the same as all, but also disables all plaintext ports. Strict mode is only available on Couchbase Server versions 7.1 and greater. Node to node encryption can only be used when TLS certificates are managed by the Operator. This field must be either 'ControlPlaneOnly', 'All', or 'Strict'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#node_to_node_encryption DataK8SCouchbaseComCouchbaseClusterV2Manifest#node_to_node_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#node_to_node_encryption DataK8SCouchbaseComCouchbaseClusterV2Manifest#node_to_node_encryption}
   */
   readonly nodeToNodeEncryption?: string;
   /**
   * PassphraseConfig configures the passphrase key to use with encrypted certificates. The passphrase may be registered with Couchbase Server using a local script or a rest endpoint. Private key encryption is only available on Couchbase Server versions 7.1 and greater.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#passphrase DataK8SCouchbaseComCouchbaseClusterV2Manifest#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#passphrase DataK8SCouchbaseComCouchbaseClusterV2Manifest#passphrase}
   */
   readonly passphrase?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingTlsPassphrase;
   /**
   * RootCAs defines a set of secrets that reside in this namespace that contain additional CA certificates that should be installed in Couchbase. The CA certificates that are defined here are in addition to those defined for the cluster, optionally by couchbaseclusters.spec.networking.tls.secretSource, and thus should not be duplicated. Each Secret referred to must be of well-known type 'kubernetes.io/tls' and must contain one or more CA certificates under the key 'tls.crt'. Multiple root CA certificates are only supported on Couchbase Server 7.1 and greater, and not with legacy couchbaseclusters.spec.networking.tls.static configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#root_c_as DataK8SCouchbaseComCouchbaseClusterV2Manifest#root_c_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#root_c_as DataK8SCouchbaseComCouchbaseClusterV2Manifest#root_c_as}
   */
   readonly rootCAs?: string[];
   /**
   * SecretSource enables the user to specify a secret conforming to the Kubernetes TLS secret specification that is used for the Couchbase server certificate, and optionally the Operator's client certificate, providing cert-manager compatibility without having to specify a separate root CA. A server CA certificate must be supplied by one of the provided methods. Certificates referred to must conform to the keys of well-known type 'kubernetes.io/tls' with 'tls.crt' and 'tls.key'. If the 'tls.key' is an encrypted private key then the secret type can be the generic Opaque type since 'kubernetes.io/tls' type secrets cannot verify encrypted keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#secret_source DataK8SCouchbaseComCouchbaseClusterV2Manifest#secret_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#secret_source DataK8SCouchbaseComCouchbaseClusterV2Manifest#secret_source}
   */
   readonly secretSource?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingTlsSecretSource;
   /**
   * DEPRECATED - by couchbaseclusters.spec.networking.tls.secretSource. Static enables user to generate static x509 certificates and keys, put them into Kubernetes secrets, and specify them here. Static secrets are Couchbase specific, and follow no well-known standards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#static DataK8SCouchbaseComCouchbaseClusterV2Manifest#static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#static DataK8SCouchbaseComCouchbaseClusterV2Manifest#static}
   */
   readonly static?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingTlsStatic;
   /**
   * TLSMinimumVersion specifies the minimum TLS version the Couchbase server can negotiate with a client. Must be one of TLS1.0, TLS1.1 TLS1.2 or TLS1.3, defaulting to TLS1.2. TLS1.3 is only valid for Couchbase Server 7.1.0 onward. TLS1.0 and TLS1.1 are not valid for Couchbase Server 7.6.0 onward.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#tls_minimum_version DataK8SCouchbaseComCouchbaseClusterV2Manifest#tls_minimum_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#tls_minimum_version DataK8SCouchbaseComCouchbaseClusterV2Manifest#tls_minimum_version}
   */
   readonly tlsMinimumVersion?: string;
 }
@@ -11670,115 +11670,115 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworking {
   /**
   * AddressFamily allows the manual selection of the address family to use. When this field is not set, Couchbase server will default to using IPv4 for internal communication and also support IPv6 on dual stack systems. Setting this field to either IPv4 or IPv6 will force Couchbase to use the selected protocol for internal communication, and also disable all other protocols to provide added security and simplicty when defining firewall rules. Disabling of address families is only supported in Couchbase Server 7.0.2+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#address_family DataK8SCouchbaseComCouchbaseClusterV2Manifest#address_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#address_family DataK8SCouchbaseComCouchbaseClusterV2Manifest#address_family}
   */
   readonly addressFamily?: string;
   /**
   * AdminConsoleServiceTemplate provides a template used by the Operator to create and manage the admin console service. This allows services to be annotated, the service type defined and any other options that Kubernetes provides. When using a LoadBalancer service type, TLS and dynamic DNS must also be enabled. The Operator reserves the right to modify or replace any field. More info: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#service-v1-core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#admin_console_service_template DataK8SCouchbaseComCouchbaseClusterV2Manifest#admin_console_service_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#admin_console_service_template DataK8SCouchbaseComCouchbaseClusterV2Manifest#admin_console_service_template}
   */
   readonly adminConsoleServiceTemplate?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingAdminConsoleServiceTemplate;
   /**
   * DEPRECATED - by adminConsoleServiceTemplate. AdminConsoleServiceType defines whether to create a node port or load balancer service. When using a LoadBalancer service type, TLS and dynamic DNS must also be enabled. This field must be one of 'NodePort' or 'LoadBalancer', defaulting to 'NodePort'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#admin_console_service_type DataK8SCouchbaseComCouchbaseClusterV2Manifest#admin_console_service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#admin_console_service_type DataK8SCouchbaseComCouchbaseClusterV2Manifest#admin_console_service_type}
   */
   readonly adminConsoleServiceType?: string;
   /**
   * DEPRECATED - not required by Couchbase Server. AdminConsoleServices is a selector to choose specific services to expose via the admin console. This field may contain any of 'data', 'index', 'query', 'search', 'eventing' and 'analytics'. Each service may only be included once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#admin_console_services DataK8SCouchbaseComCouchbaseClusterV2Manifest#admin_console_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#admin_console_services DataK8SCouchbaseComCouchbaseClusterV2Manifest#admin_console_services}
   */
   readonly adminConsoleServices?: string[];
   /**
   * CloudNativeGateway is used to provision a gRPC gateway proxying a Couchbase cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cloud_native_gateway DataK8SCouchbaseComCouchbaseClusterV2Manifest#cloud_native_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cloud_native_gateway DataK8SCouchbaseComCouchbaseClusterV2Manifest#cloud_native_gateway}
   */
   readonly cloudNativeGateway?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingCloudNativeGateway;
   /**
   * DisableUIOverHTTP is used to explicitly enable and disable UI access over the HTTP protocol. If not specified, this field defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#disable_ui_over_http DataK8SCouchbaseComCouchbaseClusterV2Manifest#disable_ui_over_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#disable_ui_over_http DataK8SCouchbaseComCouchbaseClusterV2Manifest#disable_ui_over_http}
   */
   readonly disableUiOverHttp?: boolean | cdktf.IResolvable;
   /**
   * DisableUIOverHTTPS is used to explicitly enable and disable UI access over the HTTPS protocol. If not specified, this field defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#disable_ui_over_https DataK8SCouchbaseComCouchbaseClusterV2Manifest#disable_ui_over_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#disable_ui_over_https DataK8SCouchbaseComCouchbaseClusterV2Manifest#disable_ui_over_https}
   */
   readonly disableUiOverHttps?: boolean | cdktf.IResolvable;
   /**
   * DNS defines information required for Dynamic DNS support.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#dns DataK8SCouchbaseComCouchbaseClusterV2Manifest#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#dns DataK8SCouchbaseComCouchbaseClusterV2Manifest#dns}
   */
   readonly dns?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingDns;
   /**
   * ExposeAdminConsole creates a service referencing the admin console. The service is configured by the adminConsoleServiceTemplate field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#expose_admin_console DataK8SCouchbaseComCouchbaseClusterV2Manifest#expose_admin_console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#expose_admin_console DataK8SCouchbaseComCouchbaseClusterV2Manifest#expose_admin_console}
   */
   readonly exposeAdminConsole?: boolean | cdktf.IResolvable;
   /**
   * ExposedFeatureServiceTemplate provides a template used by the Operator to create and manage per-pod services. This allows services to be annotated, the service type defined and any other options that Kubernetes provides. When using a LoadBalancer service type, TLS and dynamic DNS must also be enabled. The Operator reserves the right to modify or replace any field. More info: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#service-v1-core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#exposed_feature_service_template DataK8SCouchbaseComCouchbaseClusterV2Manifest#exposed_feature_service_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#exposed_feature_service_template DataK8SCouchbaseComCouchbaseClusterV2Manifest#exposed_feature_service_template}
   */
   readonly exposedFeatureServiceTemplate?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingExposedFeatureServiceTemplate;
   /**
   * DEPRECATED - by exposedFeatureServiceTemplate. ExposedFeatureServiceType defines whether to create a node port or load balancer service. When using a LoadBalancer service type, TLS and dynamic DNS must also be enabled. This field must be one of 'NodePort' or 'LoadBalancer', defaulting to 'NodePort'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#exposed_feature_service_type DataK8SCouchbaseComCouchbaseClusterV2Manifest#exposed_feature_service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#exposed_feature_service_type DataK8SCouchbaseComCouchbaseClusterV2Manifest#exposed_feature_service_type}
   */
   readonly exposedFeatureServiceType?: string;
   /**
   * DEPRECATED - by exposedFeatureServiceTemplate. ExposedFeatureTrafficPolicy defines how packets should be routed from a load balancer service to a Couchbase pod. When local, traffic is routed directly to the pod. When cluster, traffic is routed to any node, then forwarded on. While cluster routing may be slower, there are some situations where it is required for connectivity. This field must be either 'Cluster' or 'Local', defaulting to 'Local',
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#exposed_feature_traffic_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#exposed_feature_traffic_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#exposed_feature_traffic_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#exposed_feature_traffic_policy}
   */
   readonly exposedFeatureTrafficPolicy?: string;
   /**
   * ExposedFeatures is a list of Couchbase features to expose when using a networking model that exposes the Couchbase cluster externally to Kubernetes. This field also triggers the creation of per-pod services used by clients to connect to the Couchbase cluster. When admin, only the administrator port is exposed, allowing remote administration. When xdcr, only the services required for remote replication are exposed. The xdcr feature is only required when the cluster is the destination of an XDCR replication. When client, all services are exposed as required for client SDK operation. This field may contain any of 'admin', 'xdcr' and 'client'. Each feature may only be included once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#exposed_features DataK8SCouchbaseComCouchbaseClusterV2Manifest#exposed_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#exposed_features DataK8SCouchbaseComCouchbaseClusterV2Manifest#exposed_features}
   */
   readonly exposedFeatures?: string[];
   /**
   * DEPRECATED - by adminConsoleServiceTemplate and exposedFeatureServiceTemplate. LoadBalancerSourceRanges applies only when an exposed service is of type LoadBalancer and limits the source IP ranges that are allowed to use the service. Items must use IPv4 class-less interdomain routing (CIDR) notation e.g. 10.0.0.0/16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#load_balancer_source_ranges DataK8SCouchbaseComCouchbaseClusterV2Manifest#load_balancer_source_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#load_balancer_source_ranges DataK8SCouchbaseComCouchbaseClusterV2Manifest#load_balancer_source_ranges}
   */
   readonly loadBalancerSourceRanges?: string[];
   /**
   * NetworkPlatform is used to enable support for various networking technologies. This field must be one of 'Istio'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#network_platform DataK8SCouchbaseComCouchbaseClusterV2Manifest#network_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#network_platform DataK8SCouchbaseComCouchbaseClusterV2Manifest#network_platform}
   */
   readonly networkPlatform?: string;
   /**
   * DEPRECATED - by adminConsoleServiceTemplate and exposedFeatureServiceTemplate. ServiceAnnotations allows services to be annotated with custom labels. Operator annotations are merged on top of these so have precedence as they are required for correct operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#service_annotations DataK8SCouchbaseComCouchbaseClusterV2Manifest#service_annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#service_annotations DataK8SCouchbaseComCouchbaseClusterV2Manifest#service_annotations}
   */
   readonly serviceAnnotations?: { [key: string]: string };
   /**
   * TLS defines the TLS configuration for the cluster including server and client certificate configuration, and TLS security policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#tls DataK8SCouchbaseComCouchbaseClusterV2Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#tls DataK8SCouchbaseComCouchbaseClusterV2Manifest#tls}
   */
   readonly tls?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecNetworkingTls;
   /**
   * WaitForAddressReachable is used to set the timeout between when polling of external addresses is started, and when it is deemed a failure. Polling of DNS name availability inherently dangerous due to negative caching, so prefer the use of an initial 'waitForAddressReachableDelay' to allow propagation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#wait_for_address_reachable DataK8SCouchbaseComCouchbaseClusterV2Manifest#wait_for_address_reachable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#wait_for_address_reachable DataK8SCouchbaseComCouchbaseClusterV2Manifest#wait_for_address_reachable}
   */
   readonly waitForAddressReachable?: string;
   /**
   * WaitForAddressReachableDelay is used to defer operator checks that ensure external addresses are reachable before new nodes are balanced in to the cluster. This prevents negative DNS caching while waiting for external-DDNS controllers to propagate addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#wait_for_address_reachable_delay DataK8SCouchbaseComCouchbaseClusterV2Manifest#wait_for_address_reachable_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#wait_for_address_reachable_delay DataK8SCouchbaseComCouchbaseClusterV2Manifest#wait_for_address_reachable_delay}
   */
   readonly waitForAddressReachableDelay?: string;
 }
@@ -12396,13 +12396,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecRollingUpgrade
   /**
   * MaxUpgradable allows the number of pods affected by an upgrade at any one time to be increased. By default a rolling upgrade will upgrade one pod at a time. This field allows that limit to be removed. This field must be greater than zero. The smallest of 'maxUpgradable' and 'maxUpgradablePercent' takes precedence if both are defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#max_upgradable DataK8SCouchbaseComCouchbaseClusterV2Manifest#max_upgradable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#max_upgradable DataK8SCouchbaseComCouchbaseClusterV2Manifest#max_upgradable}
   */
   readonly maxUpgradable?: number;
   /**
   * MaxUpgradablePercent allows the number of pods affected by an upgrade at any one time to be increased. By default a rolling upgrade will upgrade one pod at a time. This field allows that limit to be removed. This field must be an integer percentage, e.g. '10%', in the range 1% to 100%. Percentages are relative to the total cluster size, and rounded down to the nearest whole number, with a minimum of 1. For example, a 10 pod cluster, and 25% allowed to upgrade, would yield 2.5 pods per iteration, rounded down to 2. The smallest of 'maxUpgradable' and 'maxUpgradablePercent' takes precedence if both are defined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#max_upgradable_percent DataK8SCouchbaseComCouchbaseClusterV2Manifest#max_upgradable_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#max_upgradable_percent DataK8SCouchbaseComCouchbaseClusterV2Manifest#max_upgradable_percent}
   */
   readonly maxUpgradablePercent?: string;
 }
@@ -12527,13 +12527,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityLdapUs
   /**
   * Query is the LDAP query to run to map from Couchbase user to LDAP distinguished name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#query DataK8SCouchbaseComCouchbaseClusterV2Manifest#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#query DataK8SCouchbaseComCouchbaseClusterV2Manifest#query}
   */
   readonly query?: string;
   /**
   * This field specifies list of templates to use for providing username to DN mapping. The template may contain a placeholder specified as '%u' to represent the Couchbase user who is attempting to gain access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#template DataK8SCouchbaseComCouchbaseClusterV2Manifest#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#template DataK8SCouchbaseComCouchbaseClusterV2Manifest#template}
   */
   readonly template?: string;
 }
@@ -12658,97 +12658,97 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityLdap {
   /**
   * AuthenticationEnabled allows users who attempt to access Couchbase Server without having been added as local users to be authenticated against the specified LDAP Host(s).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#authentication_enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#authentication_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#authentication_enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#authentication_enabled}
   */
   readonly authenticationEnabled?: boolean | cdktf.IResolvable;
   /**
   * AuthorizationEnabled allows authenticated LDAP users to be authorized with RBAC roles granted to any Couchbase Server group associated with the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#authorization_enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#authorization_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#authorization_enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#authorization_enabled}
   */
   readonly authorizationEnabled?: boolean | cdktf.IResolvable;
   /**
   * DN to use for searching users and groups synchronization. More info: https://docs.couchbase.com/server/current/manage/manage-security/configure-ldap.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#bind_dn DataK8SCouchbaseComCouchbaseClusterV2Manifest#bind_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#bind_dn DataK8SCouchbaseComCouchbaseClusterV2Manifest#bind_dn}
   */
   readonly bindDn?: string;
   /**
   * BindSecret is the name of a Kubernetes secret to use containing password for LDAP user binding. The bindSecret must have a key with the name 'password' and a value which corresponds to the password of the binding LDAP user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#bind_secret DataK8SCouchbaseComCouchbaseClusterV2Manifest#bind_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#bind_secret DataK8SCouchbaseComCouchbaseClusterV2Manifest#bind_secret}
   */
   readonly bindSecret: string;
   /**
   * DEPRECATED - Field is ignored, use tlsSecret. CA Certificate in PEM format to be used in LDAP server certificate validation. This cert is the string form of the secret provided to 'spec.tls.tlsSecret'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cacert DataK8SCouchbaseComCouchbaseClusterV2Manifest#cacert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cacert DataK8SCouchbaseComCouchbaseClusterV2Manifest#cacert}
   */
   readonly cacert?: string;
   /**
   * Lifetime of values in cache in milliseconds. Default 300000 ms. More info: https://docs.couchbase.com/server/current/manage/manage-security/configure-ldap.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cache_value_lifetime DataK8SCouchbaseComCouchbaseClusterV2Manifest#cache_value_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#cache_value_lifetime DataK8SCouchbaseComCouchbaseClusterV2Manifest#cache_value_lifetime}
   */
   readonly cacheValueLifetime?: number;
   /**
   * Encryption determines how the connection with the LDAP server should be encrypted. Encryption may set as either StartTLSExtension, TLS, or false. When set to 'false' then no verification of the LDAP hostname is performed. When Encryption is StartTLSExtension, or TLS is set then the default behavior is to use the certificate already loaded into the Couchbase Cluster for certificate validation, otherwise 'ldap.tlsSecret' may be set to override The Couchbase certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#encryption DataK8SCouchbaseComCouchbaseClusterV2Manifest#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#encryption DataK8SCouchbaseComCouchbaseClusterV2Manifest#encryption}
   */
   readonly encryption?: string;
   /**
   * LDAP query, to get the users' groups by username in RFC4516 format. More info: https://docs.couchbase.com/server/current/manage/manage-security/configure-ldap.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#groups_query DataK8SCouchbaseComCouchbaseClusterV2Manifest#groups_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#groups_query DataK8SCouchbaseComCouchbaseClusterV2Manifest#groups_query}
   */
   readonly groupsQuery?: string;
   /**
   * List of LDAP hosts to provide authentication-support for Couchbase Server. Host name must be a valid IP address or DNS Name e.g openldap.default.svc, 10.0.92.147.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#hosts DataK8SCouchbaseComCouchbaseClusterV2Manifest#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#hosts DataK8SCouchbaseComCouchbaseClusterV2Manifest#hosts}
   */
   readonly hosts: string[];
   /**
   * Sets middlebox compatibility mode for LDAP. This option is only available on Couchbase Server 7.6.0+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#middlebox_comp_mode DataK8SCouchbaseComCouchbaseClusterV2Manifest#middlebox_comp_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#middlebox_comp_mode DataK8SCouchbaseComCouchbaseClusterV2Manifest#middlebox_comp_mode}
   */
   readonly middleboxCompMode?: boolean | cdktf.IResolvable;
   /**
   * If enabled Couchbase server will try to recursively search for groups for every discovered ldap group. groups_query will be user for the search. More info: https://docs.couchbase.com/server/current/manage/manage-security/configure-ldap.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#nested_groups_enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#nested_groups_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#nested_groups_enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#nested_groups_enabled}
   */
   readonly nestedGroupsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Maximum number of recursive groups requests the server is allowed to perform. Requires NestedGroupsEnabled. Values between 1 and 100: the default is 10. More info: https://docs.couchbase.com/server/current/manage/manage-security/configure-ldap.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#nested_groups_max_depth DataK8SCouchbaseComCouchbaseClusterV2Manifest#nested_groups_max_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#nested_groups_max_depth DataK8SCouchbaseComCouchbaseClusterV2Manifest#nested_groups_max_depth}
   */
   readonly nestedGroupsMaxDepth?: number;
   /**
   * LDAP port. This is typically 389 for LDAP, and 636 for LDAPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#port DataK8SCouchbaseComCouchbaseClusterV2Manifest#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#port DataK8SCouchbaseComCouchbaseClusterV2Manifest#port}
   */
   readonly port: number;
   /**
   * Whether server certificate validation be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#server_cert_validation DataK8SCouchbaseComCouchbaseClusterV2Manifest#server_cert_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#server_cert_validation DataK8SCouchbaseComCouchbaseClusterV2Manifest#server_cert_validation}
   */
   readonly serverCertValidation?: boolean | cdktf.IResolvable;
   /**
   * TLSSecret is the name of a Kubernetes secret to use explcitly for LDAP ca cert. If TLSSecret is not provided, certificates found in 'couchbaseclusters.spec.networking.tls.rootCAs' will be used instead. If provided, the secret must contain the ca to be used under the name 'ca.crt'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#tls_secret DataK8SCouchbaseComCouchbaseClusterV2Manifest#tls_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#tls_secret DataK8SCouchbaseComCouchbaseClusterV2Manifest#tls_secret}
   */
   readonly tlsSecret?: string;
   /**
   * User to distinguished name (DN) mapping. If none is specified, the username is used as the user’s distinguished name. More info: https://docs.couchbase.com/server/current/manage/manage-security/configure-ldap.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#user_dn_mapping DataK8SCouchbaseComCouchbaseClusterV2Manifest#user_dn_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#user_dn_mapping DataK8SCouchbaseComCouchbaseClusterV2Manifest#user_dn_mapping}
   */
   readonly userDnMapping?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityLdapUserDnMapping;
 }
@@ -13270,25 +13270,25 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityPodSec
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#level DataK8SCouchbaseComCouchbaseClusterV2Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#level DataK8SCouchbaseComCouchbaseClusterV2Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#role DataK8SCouchbaseComCouchbaseClusterV2Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#role DataK8SCouchbaseComCouchbaseClusterV2Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#type DataK8SCouchbaseComCouchbaseClusterV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#type DataK8SCouchbaseComCouchbaseClusterV2Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#user DataK8SCouchbaseComCouchbaseClusterV2Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#user DataK8SCouchbaseComCouchbaseClusterV2Manifest#user}
   */
   readonly user?: string;
 }
@@ -13471,13 +13471,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityPodSec
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#localhost_profile DataK8SCouchbaseComCouchbaseClusterV2Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#localhost_profile DataK8SCouchbaseComCouchbaseClusterV2Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#type DataK8SCouchbaseComCouchbaseClusterV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#type DataK8SCouchbaseComCouchbaseClusterV2Manifest#type}
   */
   readonly type: string;
 }
@@ -13599,13 +13599,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityPodSec
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#value DataK8SCouchbaseComCouchbaseClusterV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#value DataK8SCouchbaseComCouchbaseClusterV2Manifest#value}
   */
   readonly value: string;
 }
@@ -13746,25 +13746,25 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityPodSec
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#gmsa_credential_spec DataK8SCouchbaseComCouchbaseClusterV2Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#gmsa_credential_spec DataK8SCouchbaseComCouchbaseClusterV2Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#gmsa_credential_spec_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#gmsa_credential_spec_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#host_process DataK8SCouchbaseComCouchbaseClusterV2Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#host_process DataK8SCouchbaseComCouchbaseClusterV2Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#run_as_user_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#run_as_user_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -13947,61 +13947,61 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityPodSec
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#fs_group DataK8SCouchbaseComCouchbaseClusterV2Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#fs_group DataK8SCouchbaseComCouchbaseClusterV2Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#fs_group_change_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#fs_group_change_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#run_as_group DataK8SCouchbaseComCouchbaseClusterV2Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#run_as_group DataK8SCouchbaseComCouchbaseClusterV2Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#run_as_non_root DataK8SCouchbaseComCouchbaseClusterV2Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#run_as_non_root DataK8SCouchbaseComCouchbaseClusterV2Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#run_as_user DataK8SCouchbaseComCouchbaseClusterV2Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#run_as_user DataK8SCouchbaseComCouchbaseClusterV2Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#se_linux_options DataK8SCouchbaseComCouchbaseClusterV2Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#se_linux_options DataK8SCouchbaseComCouchbaseClusterV2Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityPodSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#seccomp_profile DataK8SCouchbaseComCouchbaseClusterV2Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#seccomp_profile DataK8SCouchbaseComCouchbaseClusterV2Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityPodSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID, the fsGroup (if specified), and group memberships defined in the container image for the uid of the container process. If unspecified, no additional groups are added to any container. Note that group memberships defined in the container image for the uid of the container process are still effective, even if they are not included in this list. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#supplemental_groups DataK8SCouchbaseComCouchbaseClusterV2Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#supplemental_groups DataK8SCouchbaseComCouchbaseClusterV2Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#sysctls DataK8SCouchbaseComCouchbaseClusterV2Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#sysctls DataK8SCouchbaseComCouchbaseClusterV2Manifest#sysctls}
   */
   readonly sysctls?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityPodSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#windows_options DataK8SCouchbaseComCouchbaseClusterV2Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#windows_options DataK8SCouchbaseComCouchbaseClusterV2Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityPodSecurityContextWindowsOptions;
 }
@@ -14358,19 +14358,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityRbacSe
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -14540,13 +14540,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityRbacSe
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityRbacSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -14671,13 +14671,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityRbac {
   /**
   * Managed defines whether RBAC is managed by us or the clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#managed DataK8SCouchbaseComCouchbaseClusterV2Manifest#managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#managed DataK8SCouchbaseComCouchbaseClusterV2Manifest#managed}
   */
   readonly managed?: boolean | cdktf.IResolvable;
   /**
   * Selector is a label selector used to list RBAC resources in the namespace that are managed by the Operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#selector}
   */
   readonly selector?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityRbacSelector;
 }
@@ -14802,13 +14802,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecuritySecuri
   /**
   * Added capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#add DataK8SCouchbaseComCouchbaseClusterV2Manifest#add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#add DataK8SCouchbaseComCouchbaseClusterV2Manifest#add}
   */
   readonly add?: string[];
   /**
   * Removed capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#drop DataK8SCouchbaseComCouchbaseClusterV2Manifest#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#drop DataK8SCouchbaseComCouchbaseClusterV2Manifest#drop}
   */
   readonly drop?: string[];
 }
@@ -14933,25 +14933,25 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecuritySecuri
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#level DataK8SCouchbaseComCouchbaseClusterV2Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#level DataK8SCouchbaseComCouchbaseClusterV2Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#role DataK8SCouchbaseComCouchbaseClusterV2Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#role DataK8SCouchbaseComCouchbaseClusterV2Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#type DataK8SCouchbaseComCouchbaseClusterV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#type DataK8SCouchbaseComCouchbaseClusterV2Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#user DataK8SCouchbaseComCouchbaseClusterV2Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#user DataK8SCouchbaseComCouchbaseClusterV2Manifest#user}
   */
   readonly user?: string;
 }
@@ -15134,13 +15134,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecuritySecuri
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#localhost_profile DataK8SCouchbaseComCouchbaseClusterV2Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#localhost_profile DataK8SCouchbaseComCouchbaseClusterV2Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#type DataK8SCouchbaseComCouchbaseClusterV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#type DataK8SCouchbaseComCouchbaseClusterV2Manifest#type}
   */
   readonly type: string;
 }
@@ -15262,25 +15262,25 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecuritySecuri
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#gmsa_credential_spec DataK8SCouchbaseComCouchbaseClusterV2Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#gmsa_credential_spec DataK8SCouchbaseComCouchbaseClusterV2Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#gmsa_credential_spec_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#gmsa_credential_spec_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#host_process DataK8SCouchbaseComCouchbaseClusterV2Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#host_process DataK8SCouchbaseComCouchbaseClusterV2Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#run_as_user_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#run_as_user_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -15463,67 +15463,67 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecuritySecuri
   /**
   * AllowPrivilegeEscalation controls whether a process can gain more privileges than its parent process. This bool directly controls if the no_new_privs flag will be set on the container process. AllowPrivilegeEscalation is true always when the container is: 1) run as Privileged 2) has CAP_SYS_ADMIN Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#allow_privilege_escalation DataK8SCouchbaseComCouchbaseClusterV2Manifest#allow_privilege_escalation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#allow_privilege_escalation DataK8SCouchbaseComCouchbaseClusterV2Manifest#allow_privilege_escalation}
   */
   readonly allowPrivilegeEscalation?: boolean | cdktf.IResolvable;
   /**
   * The capabilities to add/drop when running containers. Defaults to the default set of capabilities granted by the container runtime. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#capabilities DataK8SCouchbaseComCouchbaseClusterV2Manifest#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#capabilities DataK8SCouchbaseComCouchbaseClusterV2Manifest#capabilities}
   */
   readonly capabilities?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecuritySecurityContextCapabilities;
   /**
   * Run container in privileged mode. Processes in privileged containers are essentially equivalent to root on the host. Defaults to false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#privileged DataK8SCouchbaseComCouchbaseClusterV2Manifest#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#privileged DataK8SCouchbaseComCouchbaseClusterV2Manifest#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * procMount denotes the type of proc mount to use for the containers. The default is DefaultProcMount which uses the container runtime defaults for readonly paths and masked paths. This requires the ProcMountType feature flag to be enabled. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#proc_mount DataK8SCouchbaseComCouchbaseClusterV2Manifest#proc_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#proc_mount DataK8SCouchbaseComCouchbaseClusterV2Manifest#proc_mount}
   */
   readonly procMount?: string;
   /**
   * Whether this container has a read-only root filesystem. Default is false. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#read_only_root_filesystem DataK8SCouchbaseComCouchbaseClusterV2Manifest#read_only_root_filesystem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#read_only_root_filesystem DataK8SCouchbaseComCouchbaseClusterV2Manifest#read_only_root_filesystem}
   */
   readonly readOnlyRootFilesystem?: boolean | cdktf.IResolvable;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#run_as_group DataK8SCouchbaseComCouchbaseClusterV2Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#run_as_group DataK8SCouchbaseComCouchbaseClusterV2Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#run_as_non_root DataK8SCouchbaseComCouchbaseClusterV2Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#run_as_non_root DataK8SCouchbaseComCouchbaseClusterV2Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#run_as_user DataK8SCouchbaseComCouchbaseClusterV2Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#run_as_user DataK8SCouchbaseComCouchbaseClusterV2Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to the container. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#se_linux_options DataK8SCouchbaseComCouchbaseClusterV2Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#se_linux_options DataK8SCouchbaseComCouchbaseClusterV2Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecuritySecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by this container. If seccomp options are provided at both the pod & container level, the container options override the pod options. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#seccomp_profile DataK8SCouchbaseComCouchbaseClusterV2Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#seccomp_profile DataK8SCouchbaseComCouchbaseClusterV2Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecuritySecurityContextSeccompProfile;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options from the PodSecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#windows_options DataK8SCouchbaseComCouchbaseClusterV2Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#windows_options DataK8SCouchbaseComCouchbaseClusterV2Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecuritySecurityContextWindowsOptions;
 }
@@ -15909,37 +15909,37 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurity {
   /**
   * AdminSecret is the name of a Kubernetes secret to use for administrator authentication. The admin secret must contain the keys 'username' and 'password'. The password data must be at least 6 characters in length, and not contain the any of the characters '()<>,;:'/[]?={}'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#admin_secret DataK8SCouchbaseComCouchbaseClusterV2Manifest#admin_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#admin_secret DataK8SCouchbaseComCouchbaseClusterV2Manifest#admin_secret}
   */
   readonly adminSecret: string;
   /**
   * LDAP provides settings to authenticate and authorize LDAP users with Couchbase Server. When specified, the Operator keeps these settings in sync with Cocuhbase Server's LDAP configuration. Leave empty to manually manage LDAP configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#ldap DataK8SCouchbaseComCouchbaseClusterV2Manifest#ldap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#ldap DataK8SCouchbaseComCouchbaseClusterV2Manifest#ldap}
   */
   readonly ldap?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityLdap;
   /**
   * PodSecurityContext allows the configuration of the security context for all Couchbase server pods. When using persistent volumes you may need to set the fsGroup field in order to write to the volume. For non-root clusters you must also set runAsUser to 1000, corresponding to the Couchbase user in official container images. More info: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#pod_security_context DataK8SCouchbaseComCouchbaseClusterV2Manifest#pod_security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#pod_security_context DataK8SCouchbaseComCouchbaseClusterV2Manifest#pod_security_context}
   */
   readonly podSecurityContext?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityPodSecurityContext;
   /**
   * RBAC is the options provided for enabling and selecting RBAC User resources to manage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#rbac DataK8SCouchbaseComCouchbaseClusterV2Manifest#rbac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#rbac DataK8SCouchbaseComCouchbaseClusterV2Manifest#rbac}
   */
   readonly rbac?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityRbac;
   /**
   * SecurityContext defines the security options the container should be run with. If set, the fields of SecurityContext override the equivalent fields of PodSecurityContext. Use securityContext.allowPrivilegeEscalation field to grant more privileges than its parent process. More info: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#security_context DataK8SCouchbaseComCouchbaseClusterV2Manifest#security_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#security_context DataK8SCouchbaseComCouchbaseClusterV2Manifest#security_context}
   */
   readonly securityContext?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecuritySecurityContext;
   /**
   * UISessionTimeout sets how long, in minutes, before a user is declared inactive and signed out from the Couchbase Server UI. 0 represents no time out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#ui_session_timeout DataK8SCouchbaseComCouchbaseClusterV2Manifest#ui_session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#ui_session_timeout DataK8SCouchbaseComCouchbaseClusterV2Manifest#ui_session_timeout}
   */
   readonly uiSessionTimeout?: number;
 }
@@ -16177,25 +16177,25 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityContex
   /**
   * Level is SELinux level label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#level DataK8SCouchbaseComCouchbaseClusterV2Manifest#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#level DataK8SCouchbaseComCouchbaseClusterV2Manifest#level}
   */
   readonly level?: string;
   /**
   * Role is a SELinux role label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#role DataK8SCouchbaseComCouchbaseClusterV2Manifest#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#role DataK8SCouchbaseComCouchbaseClusterV2Manifest#role}
   */
   readonly role?: string;
   /**
   * Type is a SELinux type label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#type DataK8SCouchbaseComCouchbaseClusterV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#type DataK8SCouchbaseComCouchbaseClusterV2Manifest#type}
   */
   readonly type?: string;
   /**
   * User is a SELinux user label that applies to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#user DataK8SCouchbaseComCouchbaseClusterV2Manifest#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#user DataK8SCouchbaseComCouchbaseClusterV2Manifest#user}
   */
   readonly user?: string;
 }
@@ -16378,13 +16378,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityContex
   /**
   * localhostProfile indicates a profile defined in a file on the node should be used. The profile must be preconfigured on the node to work. Must be a descending path, relative to the kubelet's configured seccomp profile location. Must be set if type is 'Localhost'. Must NOT be set for any other type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#localhost_profile DataK8SCouchbaseComCouchbaseClusterV2Manifest#localhost_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#localhost_profile DataK8SCouchbaseComCouchbaseClusterV2Manifest#localhost_profile}
   */
   readonly localhostProfile?: string;
   /**
   * type indicates which kind of seccomp profile will be applied. Valid options are: Localhost - a profile defined in a file on the node should be used. RuntimeDefault - the container runtime default profile should be used. Unconfined - no profile should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#type DataK8SCouchbaseComCouchbaseClusterV2Manifest#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#type DataK8SCouchbaseComCouchbaseClusterV2Manifest#type}
   */
   readonly type: string;
 }
@@ -16506,13 +16506,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityContex
   /**
   * Name of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
   */
   readonly name: string;
   /**
   * Value of a property to set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#value DataK8SCouchbaseComCouchbaseClusterV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#value DataK8SCouchbaseComCouchbaseClusterV2Manifest#value}
   */
   readonly value: string;
 }
@@ -16653,25 +16653,25 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityContex
   /**
   * GMSACredentialSpec is where the GMSA admission webhook (https://github.com/kubernetes-sigs/windows-gmsa) inlines the contents of the GMSA credential spec named by the GMSACredentialSpecName field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#gmsa_credential_spec DataK8SCouchbaseComCouchbaseClusterV2Manifest#gmsa_credential_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#gmsa_credential_spec DataK8SCouchbaseComCouchbaseClusterV2Manifest#gmsa_credential_spec}
   */
   readonly gmsaCredentialSpec?: string;
   /**
   * GMSACredentialSpecName is the name of the GMSA credential spec to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#gmsa_credential_spec_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#gmsa_credential_spec_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#gmsa_credential_spec_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#gmsa_credential_spec_name}
   */
   readonly gmsaCredentialSpecName?: string;
   /**
   * HostProcess determines if a container should be run as a 'Host Process' container. All of a Pod's containers must have the same effective HostProcess value (it is not allowed to have a mix of HostProcess containers and non-HostProcess containers). In addition, if HostProcess is true then HostNetwork must also be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#host_process DataK8SCouchbaseComCouchbaseClusterV2Manifest#host_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#host_process DataK8SCouchbaseComCouchbaseClusterV2Manifest#host_process}
   */
   readonly hostProcess?: boolean | cdktf.IResolvable;
   /**
   * The UserName in Windows to run the entrypoint of the container process. Defaults to the user specified in image metadata if unspecified. May also be set in PodSecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#run_as_user_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#run_as_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#run_as_user_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#run_as_user_name}
   */
   readonly runAsUserName?: string;
 }
@@ -16854,61 +16854,61 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityContex
   /**
   * A special supplemental group that applies to all containers in a pod. Some volume types allow the Kubelet to change the ownership of that volume to be owned by the pod: 1. The owning GID will be the FSGroup 2. The setgid bit is set (new files created in the volume will be owned by FSGroup) 3. The permission bits are OR'd with rw-rw---- If unset, the Kubelet will not modify the ownership and permissions of any volume. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#fs_group DataK8SCouchbaseComCouchbaseClusterV2Manifest#fs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#fs_group DataK8SCouchbaseComCouchbaseClusterV2Manifest#fs_group}
   */
   readonly fsGroup?: number;
   /**
   * fsGroupChangePolicy defines behavior of changing ownership and permission of the volume before being exposed inside Pod. This field will only apply to volume types which support fsGroup based ownership(and permissions). It will have no effect on ephemeral volume types such as: secret, configmaps and emptydir. Valid values are 'OnRootMismatch' and 'Always'. If not specified, 'Always' is used. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#fs_group_change_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#fs_group_change_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#fs_group_change_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#fs_group_change_policy}
   */
   readonly fsGroupChangePolicy?: string;
   /**
   * The GID to run the entrypoint of the container process. Uses runtime default if unset. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#run_as_group DataK8SCouchbaseComCouchbaseClusterV2Manifest#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#run_as_group DataK8SCouchbaseComCouchbaseClusterV2Manifest#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * Indicates that the container must run as a non-root user. If true, the Kubelet will validate the image at runtime to ensure that it does not run as UID 0 (root) and fail to start the container if it does. If unset or false, no such validation will be performed. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#run_as_non_root DataK8SCouchbaseComCouchbaseClusterV2Manifest#run_as_non_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#run_as_non_root DataK8SCouchbaseComCouchbaseClusterV2Manifest#run_as_non_root}
   */
   readonly runAsNonRoot?: boolean | cdktf.IResolvable;
   /**
   * The UID to run the entrypoint of the container process. Defaults to user specified in image metadata if unspecified. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#run_as_user DataK8SCouchbaseComCouchbaseClusterV2Manifest#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#run_as_user DataK8SCouchbaseComCouchbaseClusterV2Manifest#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * The SELinux context to be applied to all containers. If unspecified, the container runtime will allocate a random SELinux context for each container. May also be set in SecurityContext. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence for that container. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#se_linux_options DataK8SCouchbaseComCouchbaseClusterV2Manifest#se_linux_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#se_linux_options DataK8SCouchbaseComCouchbaseClusterV2Manifest#se_linux_options}
   */
   readonly seLinuxOptions?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityContextSeLinuxOptions;
   /**
   * The seccomp options to use by the containers in this pod. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#seccomp_profile DataK8SCouchbaseComCouchbaseClusterV2Manifest#seccomp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#seccomp_profile DataK8SCouchbaseComCouchbaseClusterV2Manifest#seccomp_profile}
   */
   readonly seccompProfile?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityContextSeccompProfile;
   /**
   * A list of groups applied to the first process run in each container, in addition to the container's primary GID, the fsGroup (if specified), and group memberships defined in the container image for the uid of the container process. If unspecified, no additional groups are added to any container. Note that group memberships defined in the container image for the uid of the container process are still effective, even if they are not included in this list. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#supplemental_groups DataK8SCouchbaseComCouchbaseClusterV2Manifest#supplemental_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#supplemental_groups DataK8SCouchbaseComCouchbaseClusterV2Manifest#supplemental_groups}
   */
   readonly supplementalGroups?: string[];
   /**
   * Sysctls hold a list of namespaced sysctls used for the pod. Pods with unsupported sysctls (by the container runtime) might fail to launch. Note that this field cannot be set when spec.os.name is windows.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#sysctls DataK8SCouchbaseComCouchbaseClusterV2Manifest#sysctls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#sysctls DataK8SCouchbaseComCouchbaseClusterV2Manifest#sysctls}
   */
   readonly sysctls?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityContextSysctls[] | cdktf.IResolvable;
   /**
   * The Windows specific settings applied to all containers. If unspecified, the options within a container's SecurityContext will be used. If set in both SecurityContext and PodSecurityContext, the value specified in SecurityContext takes precedence. Note that this field cannot be set when spec.os.name is linux.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#windows_options DataK8SCouchbaseComCouchbaseClusterV2Manifest#windows_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#windows_options DataK8SCouchbaseComCouchbaseClusterV2Manifest#windows_options}
   */
   readonly windowsOptions?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecSecurityContextWindowsOptions;
 }
@@ -17265,19 +17265,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersEnvValu
   /**
   * The key to select.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#optional DataK8SCouchbaseComCouchbaseClusterV2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#optional DataK8SCouchbaseComCouchbaseClusterV2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -17428,13 +17428,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersEnvValu
   /**
   * Version of the schema the FieldPath is written in terms of, defaults to 'v1'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#api_version DataK8SCouchbaseComCouchbaseClusterV2Manifest#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#api_version DataK8SCouchbaseComCouchbaseClusterV2Manifest#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Path of the field to select in the specified API version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#field_path DataK8SCouchbaseComCouchbaseClusterV2Manifest#field_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#field_path DataK8SCouchbaseComCouchbaseClusterV2Manifest#field_path}
   */
   readonly fieldPath: string;
 }
@@ -17556,19 +17556,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersEnvValu
   /**
   * Container name: required for volumes, optional for env vars
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#container_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#container_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#container_name}
   */
   readonly containerName?: string;
   /**
   * Specifies the output format of the exposed resources, defaults to '1'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#divisor DataK8SCouchbaseComCouchbaseClusterV2Manifest#divisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#divisor DataK8SCouchbaseComCouchbaseClusterV2Manifest#divisor}
   */
   readonly divisor?: string;
   /**
   * Required: resource to select
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#resource DataK8SCouchbaseComCouchbaseClusterV2Manifest#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#resource DataK8SCouchbaseComCouchbaseClusterV2Manifest#resource}
   */
   readonly resource: string;
 }
@@ -17719,19 +17719,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersEnvValu
   /**
   * The key of the secret to select from. Must be a valid secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
   */
   readonly key: string;
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret or its key must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#optional DataK8SCouchbaseComCouchbaseClusterV2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#optional DataK8SCouchbaseComCouchbaseClusterV2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -17882,25 +17882,25 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersEnvValu
   /**
   * Selects a key of a ConfigMap.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#config_map_key_ref DataK8SCouchbaseComCouchbaseClusterV2Manifest#config_map_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#config_map_key_ref DataK8SCouchbaseComCouchbaseClusterV2Manifest#config_map_key_ref}
   */
   readonly configMapKeyRef?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersEnvValueFromConfigMapKeyRef;
   /**
   * Selects a field of the pod: supports metadata.name, metadata.namespace, 'metadata.labels['<KEY>']', 'metadata.annotations['<KEY>']', spec.nodeName, spec.serviceAccountName, status.hostIP, status.podIP, status.podIPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#field_ref DataK8SCouchbaseComCouchbaseClusterV2Manifest#field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#field_ref DataK8SCouchbaseComCouchbaseClusterV2Manifest#field_ref}
   */
   readonly fieldRef?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersEnvValueFromFieldRef;
   /**
   * Selects a resource of the container: only resources limits and requests (limits.cpu, limits.memory, limits.ephemeral-storage, requests.cpu, requests.memory and requests.ephemeral-storage) are currently supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#resource_field_ref DataK8SCouchbaseComCouchbaseClusterV2Manifest#resource_field_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#resource_field_ref DataK8SCouchbaseComCouchbaseClusterV2Manifest#resource_field_ref}
   */
   readonly resourceFieldRef?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersEnvValueFromResourceFieldRef;
   /**
   * Selects a key of a secret in the pod's namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#secret_key_ref DataK8SCouchbaseComCouchbaseClusterV2Manifest#secret_key_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#secret_key_ref DataK8SCouchbaseComCouchbaseClusterV2Manifest#secret_key_ref}
   */
   readonly secretKeyRef?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersEnvValueFromSecretKeyRef;
 }
@@ -18083,19 +18083,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersEnv {
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the previously defined environment variables in the container and any service environment variables. If a variable cannot be resolved, the reference in the input string will be unchanged. Double $$ are reduced to a single $, which allows for escaping the $(VAR_NAME) syntax: i.e. '$$(VAR_NAME)' will produce the string literal '$(VAR_NAME)'. Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to ''.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#value DataK8SCouchbaseComCouchbaseClusterV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#value DataK8SCouchbaseComCouchbaseClusterV2Manifest#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#value_from DataK8SCouchbaseComCouchbaseClusterV2Manifest#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#value_from DataK8SCouchbaseComCouchbaseClusterV2Manifest#value_from}
   */
   readonly valueFrom?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersEnvValueFrom;
 }
@@ -18268,13 +18268,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersEnvFrom
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the ConfigMap must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#optional DataK8SCouchbaseComCouchbaseClusterV2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#optional DataK8SCouchbaseComCouchbaseClusterV2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18399,13 +18399,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersEnvFrom
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
   */
   readonly name?: string;
   /**
   * Specify whether the Secret must be defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#optional DataK8SCouchbaseComCouchbaseClusterV2Manifest#optional}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#optional DataK8SCouchbaseComCouchbaseClusterV2Manifest#optional}
   */
   readonly optional?: boolean | cdktf.IResolvable;
 }
@@ -18530,19 +18530,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersEnvFrom
   /**
   * The ConfigMap to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#config_map_ref DataK8SCouchbaseComCouchbaseClusterV2Manifest#config_map_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#config_map_ref DataK8SCouchbaseComCouchbaseClusterV2Manifest#config_map_ref}
   */
   readonly configMapRef?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersEnvFromConfigMapRef;
   /**
   * An optional identifier to prepend to each key in the ConfigMap. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#prefix DataK8SCouchbaseComCouchbaseClusterV2Manifest#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#prefix DataK8SCouchbaseComCouchbaseClusterV2Manifest#prefix}
   */
   readonly prefix?: string;
   /**
   * The Secret to select from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#secret_ref DataK8SCouchbaseComCouchbaseClusterV2Manifest#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#secret_ref DataK8SCouchbaseComCouchbaseClusterV2Manifest#secret_ref}
   */
   readonly secretRef?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersEnvFromSecretRef;
 }
@@ -18718,13 +18718,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodMeta
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#annotations DataK8SCouchbaseComCouchbaseClusterV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#annotations DataK8SCouchbaseComCouchbaseClusterV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -18849,19 +18849,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19031,19 +19031,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19213,13 +19213,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_fields DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_fields DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_fields}
   */
   readonly matchFields?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreferenceMatchFields[] | cdktf.IResolvable;
 }
@@ -19344,13 +19344,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * A node selector term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#preference DataK8SCouchbaseComCouchbaseClusterV2Manifest#preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#preference DataK8SCouchbaseComCouchbaseClusterV2Manifest#preference}
   */
   readonly preference: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecutionPreference;
   /**
   * Weight associated with matching the corresponding nodeSelectorTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#weight DataK8SCouchbaseComCouchbaseClusterV2Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#weight DataK8SCouchbaseComCouchbaseClusterV2Manifest#weight}
   */
   readonly weight: number;
 }
@@ -19491,19 +19491,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19673,19 +19673,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * The label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
   */
   readonly key: string;
   /**
   * Represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists, DoesNotExist. Gt, and Lt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * An array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. If the operator is Gt or Lt, the values array must have a single element, which will be interpreted as an integer. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -19855,13 +19855,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * A list of node selector requirements by node's labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchExpressions[] | cdktf.IResolvable;
   /**
   * A list of node selector requirements by node's fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_fields DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_fields DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_fields}
   */
   readonly matchFields?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTermsMatchFields[] | cdktf.IResolvable;
 }
@@ -20008,7 +20008,7 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * Required. A list of node selector terms. The terms are ORed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#node_selector_terms DataK8SCouchbaseComCouchbaseClusterV2Manifest#node_selector_terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#node_selector_terms DataK8SCouchbaseComCouchbaseClusterV2Manifest#node_selector_terms}
   */
   readonly nodeSelectorTerms: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecutionNodeSelectorTerms[] | cdktf.IResolvable;
 }
@@ -20101,13 +20101,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node matches the corresponding matchExpressions; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCouchbaseComCouchbaseClusterV2Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCouchbaseComCouchbaseClusterV2Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityNodeAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to an update), the system may or may not try to eventually evict the pod from its node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#required_during_scheduling_ignored_during_execution DataK8SCouchbaseComCouchbaseClusterV2Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#required_during_scheduling_ignored_during_execution DataK8SCouchbaseComCouchbaseClusterV2Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityNodeAffinityRequiredDuringSchedulingIgnoredDuringExecution;
 }
@@ -20232,19 +20232,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20414,13 +20414,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -20545,19 +20545,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -20727,13 +20727,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -20858,25 +20858,25 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#label_selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#label_selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#namespace_selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#namespace_selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#namespaces DataK8SCouchbaseComCouchbaseClusterV2Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#namespaces DataK8SCouchbaseComCouchbaseClusterV2Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#topology_key DataK8SCouchbaseComCouchbaseClusterV2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#topology_key DataK8SCouchbaseComCouchbaseClusterV2Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -21056,13 +21056,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#pod_affinity_term DataK8SCouchbaseComCouchbaseClusterV2Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#pod_affinity_term DataK8SCouchbaseComCouchbaseClusterV2Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#weight DataK8SCouchbaseComCouchbaseClusterV2Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#weight DataK8SCouchbaseComCouchbaseClusterV2Manifest#weight}
   */
   readonly weight: number;
 }
@@ -21203,19 +21203,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21385,13 +21385,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -21516,19 +21516,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -21698,13 +21698,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -21829,25 +21829,25 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#label_selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#label_selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#namespace_selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#namespace_selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#namespaces DataK8SCouchbaseComCouchbaseClusterV2Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#namespaces DataK8SCouchbaseComCouchbaseClusterV2Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#topology_key DataK8SCouchbaseComCouchbaseClusterV2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#topology_key DataK8SCouchbaseComCouchbaseClusterV2Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -22049,13 +22049,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCouchbaseComCouchbaseClusterV2Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCouchbaseComCouchbaseClusterV2Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityPodAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#required_during_scheduling_ignored_during_execution DataK8SCouchbaseComCouchbaseClusterV2Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#required_during_scheduling_ignored_during_execution DataK8SCouchbaseComCouchbaseClusterV2Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityPodAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -22180,19 +22180,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -22362,13 +22362,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -22493,19 +22493,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -22675,13 +22675,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -22806,25 +22806,25 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#label_selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#label_selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#namespace_selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#namespace_selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTermNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#namespaces DataK8SCouchbaseComCouchbaseClusterV2Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#namespaces DataK8SCouchbaseComCouchbaseClusterV2Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#topology_key DataK8SCouchbaseComCouchbaseClusterV2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#topology_key DataK8SCouchbaseComCouchbaseClusterV2Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -23004,13 +23004,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * Required. A pod affinity term, associated with the corresponding weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#pod_affinity_term DataK8SCouchbaseComCouchbaseClusterV2Manifest#pod_affinity_term}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#pod_affinity_term DataK8SCouchbaseComCouchbaseClusterV2Manifest#pod_affinity_term}
   */
   readonly podAffinityTerm: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecutionPodAffinityTerm;
   /**
   * weight associated with matching the corresponding podAffinityTerm, in the range 1-100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#weight DataK8SCouchbaseComCouchbaseClusterV2Manifest#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#weight DataK8SCouchbaseComCouchbaseClusterV2Manifest#weight}
   */
   readonly weight: number;
 }
@@ -23151,19 +23151,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -23333,13 +23333,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -23464,19 +23464,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -23646,13 +23646,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -23777,25 +23777,25 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * A label query over a set of resources, in this case pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#label_selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#label_selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionLabelSelector;
   /**
   * A label query over the set of namespaces that the term applies to. The term is applied to the union of the namespaces selected by this field and the ones listed in the namespaces field. null selector and null or empty namespaces list means 'this pod's namespace'. An empty selector ({}) matches all namespaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#namespace_selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#namespace_selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#namespace_selector}
   */
   readonly namespaceSelector?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecutionNamespaceSelector;
   /**
   * namespaces specifies a static list of namespace names that the term applies to. The term is applied to the union of the namespaces listed in this field and the ones selected by namespaceSelector. null or empty namespaces list and null namespaceSelector means 'this pod's namespace'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#namespaces DataK8SCouchbaseComCouchbaseClusterV2Manifest#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#namespaces DataK8SCouchbaseComCouchbaseClusterV2Manifest#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This pod should be co-located (affinity) or not co-located (anti-affinity) with the pods matching the labelSelector in the specified namespaces, where co-located is defined as running on a node whose value of the label with key topologyKey matches that of any node on which any of the selected pods is running. Empty topologyKey is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#topology_key DataK8SCouchbaseComCouchbaseClusterV2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#topology_key DataK8SCouchbaseComCouchbaseClusterV2Manifest#topology_key}
   */
   readonly topologyKey: string;
 }
@@ -23997,13 +23997,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * The scheduler will prefer to schedule pods to nodes that satisfy the anti-affinity expressions specified by this field, but it may choose a node that violates one or more of the expressions. The node that is most preferred is the one with the greatest sum of weights, i.e. for each node that meets all of the scheduling requirements (resource request, requiredDuringScheduling anti-affinity expressions, etc.), compute a sum by iterating through the elements of this field and adding 'weight' to the sum if the node has pods which matches the corresponding podAffinityTerm; the node(s) with the highest sum are the most preferred.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCouchbaseComCouchbaseClusterV2Manifest#preferred_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#preferred_during_scheduling_ignored_during_execution DataK8SCouchbaseComCouchbaseClusterV2Manifest#preferred_during_scheduling_ignored_during_execution}
   */
   readonly preferredDuringSchedulingIgnoredDuringExecution?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityPodAntiAffinityPreferredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
   /**
   * If the anti-affinity requirements specified by this field are not met at scheduling time, the pod will not be scheduled onto the node. If the anti-affinity requirements specified by this field cease to be met at some point during pod execution (e.g. due to a pod label update), the system may or may not try to eventually evict the pod from its node. When there are multiple elements, the lists of nodes corresponding to each podAffinityTerm are intersected, i.e. all terms must be satisfied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#required_during_scheduling_ignored_during_execution DataK8SCouchbaseComCouchbaseClusterV2Manifest#required_during_scheduling_ignored_during_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#required_during_scheduling_ignored_during_execution DataK8SCouchbaseComCouchbaseClusterV2Manifest#required_during_scheduling_ignored_during_execution}
   */
   readonly requiredDuringSchedulingIgnoredDuringExecution?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityPodAntiAffinityRequiredDuringSchedulingIgnoredDuringExecution[] | cdktf.IResolvable;
 }
@@ -24128,19 +24128,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * Describes node affinity scheduling rules for the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#node_affinity DataK8SCouchbaseComCouchbaseClusterV2Manifest#node_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#node_affinity DataK8SCouchbaseComCouchbaseClusterV2Manifest#node_affinity}
   */
   readonly nodeAffinity?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityNodeAffinity;
   /**
   * Describes pod affinity scheduling rules (e.g. co-locate this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#pod_affinity DataK8SCouchbaseComCouchbaseClusterV2Manifest#pod_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#pod_affinity DataK8SCouchbaseComCouchbaseClusterV2Manifest#pod_affinity}
   */
   readonly podAffinity?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityPodAffinity;
   /**
   * Describes pod anti-affinity scheduling rules (e.g. avoid putting this pod in the same node, zone, etc. as some other pod(s)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#pod_anti_affinity DataK8SCouchbaseComCouchbaseClusterV2Manifest#pod_anti_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#pod_anti_affinity DataK8SCouchbaseComCouchbaseClusterV2Manifest#pod_anti_affinity}
   */
   readonly podAntiAffinity?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinityPodAntiAffinity;
 }
@@ -24294,11 +24294,11 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#value DataK8SCouchbaseComCouchbaseClusterV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#value DataK8SCouchbaseComCouchbaseClusterV2Manifest#value}
   */
   readonly value?: string;
 }
@@ -24445,19 +24445,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * A list of DNS name server IP addresses. This will be appended to the base nameservers generated from DNSPolicy. Duplicated nameservers will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#nameservers DataK8SCouchbaseComCouchbaseClusterV2Manifest#nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#nameservers DataK8SCouchbaseComCouchbaseClusterV2Manifest#nameservers}
   */
   readonly nameservers?: string[];
   /**
   * A list of DNS resolver options. This will be merged with the base options generated from DNSPolicy. Duplicated entries will be removed. Resolution options given in Options will override those that appear in the base DNSPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#options DataK8SCouchbaseComCouchbaseClusterV2Manifest#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#options DataK8SCouchbaseComCouchbaseClusterV2Manifest#options}
   */
   readonly options?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecDnsConfigOptions[] | cdktf.IResolvable;
   /**
   * A list of DNS search domains for host-name lookup. This will be appended to the base search paths generated from DNSPolicy. Duplicated search paths will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#searches DataK8SCouchbaseComCouchbaseClusterV2Manifest#searches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#searches DataK8SCouchbaseComCouchbaseClusterV2Manifest#searches}
   */
   readonly searches?: string[];
 }
@@ -24611,7 +24611,7 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * Name of the referent. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/names/#names TODO: Add other useful fields. apiVersion, kind, uid?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
   */
   readonly name?: string;
 }
@@ -24729,7 +24729,7 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * Name is the name of the operating system. The currently supported values are linux and windows. Additional value may be defined in future and can be one of: https://github.com/opencontainers/runtime-spec/blob/master/config.md#platform-specific-configuration Clients should expect to handle additional values and treat unrecognized values in this field as os: null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
   */
   readonly name: string;
 }
@@ -24822,13 +24822,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * ResourceClaimName is the name of a ResourceClaim object in the same namespace as this pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#resource_claim_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#resource_claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#resource_claim_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#resource_claim_name}
   */
   readonly resourceClaimName?: string;
   /**
   * ResourceClaimTemplateName is the name of a ResourceClaimTemplate object in the same namespace as this pod. The template will be used to create a new ResourceClaim, which will be bound to this pod. When this pod is deleted, the ResourceClaim will also be deleted. The pod name and resource name, along with a generated component, will be used to form a unique name for the ResourceClaim, which will be recorded in pod.status.resourceClaimStatuses. This field is immutable and no changes will be made to the corresponding ResourceClaim by the control plane after creating the ResourceClaim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#resource_claim_template_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#resource_claim_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#resource_claim_template_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#resource_claim_template_name}
   */
   readonly resourceClaimTemplateName?: string;
 }
@@ -24953,13 +24953,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * Name uniquely identifies this resource claim inside the pod. This must be a DNS_LABEL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
   */
   readonly name: string;
   /**
   * Source describes where to find the ResourceClaim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#source DataK8SCouchbaseComCouchbaseClusterV2Manifest#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#source DataK8SCouchbaseComCouchbaseClusterV2Manifest#source}
   */
   readonly source?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecResourceClaimsSource;
 }
@@ -25103,7 +25103,7 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * Name of the scheduling gate. Each scheduling gate must have a unique name field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
   */
   readonly name: string;
 }
@@ -25218,31 +25218,31 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * Effect indicates the taint effect to match. Empty means match all taint effects. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#effect DataK8SCouchbaseComCouchbaseClusterV2Manifest#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#effect DataK8SCouchbaseComCouchbaseClusterV2Manifest#effect}
   */
   readonly effect?: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists; this combination means to match all values and all keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
   */
   readonly key?: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal. Exists is equivalent to wildcard for value, so that a pod can tolerate all taints of a particular category.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
   */
   readonly operator?: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#toleration_seconds DataK8SCouchbaseComCouchbaseClusterV2Manifest#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#toleration_seconds DataK8SCouchbaseComCouchbaseClusterV2Manifest#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#value DataK8SCouchbaseComCouchbaseClusterV2Manifest#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#value DataK8SCouchbaseComCouchbaseClusterV2Manifest#value}
   */
   readonly value?: string;
 }
@@ -25476,19 +25476,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -25658,13 +25658,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecTopologySpreadConstraintsLabelSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -25789,49 +25789,49 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * LabelSelector is used to find matching pods. Pods that match this label selector are counted to determine the number of pods in their corresponding topology domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#label_selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#label_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#label_selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#label_selector}
   */
   readonly labelSelector?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecTopologySpreadConstraintsLabelSelector;
   /**
   * MatchLabelKeys is a set of pod label keys to select the pods over which spreading will be calculated. The keys are used to lookup values from the incoming pod labels, those key-value labels are ANDed with labelSelector to select the group of existing pods over which spreading will be calculated for the incoming pod. The same key is forbidden to exist in both MatchLabelKeys and LabelSelector. MatchLabelKeys cannot be set when LabelSelector isn't set. Keys that don't exist in the incoming pod labels will be ignored. A null or empty list means only match against labelSelector. This is a beta field and requires the MatchLabelKeysInPodTopologySpread feature gate to be enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_label_keys DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_label_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_label_keys DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_label_keys}
   */
   readonly matchLabelKeys?: string[];
   /**
   * MaxSkew describes the degree to which pods may be unevenly distributed. When 'whenUnsatisfiable=DoNotSchedule', it is the maximum permitted difference between the number of matching pods in the target topology and the global minimum. The global minimum is the minimum number of matching pods in an eligible domain or zero if the number of eligible domains is less than MinDomains. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 2/2/1: In this case, the global minimum is 1. | zone1 | zone2 | zone3 | | P P | P P | P | - if MaxSkew is 1, incoming pod can only be scheduled to zone3 to become 2/2/2; scheduling it onto zone1(zone2) would make the ActualSkew(3-1) on zone1(zone2) violate MaxSkew(1). - if MaxSkew is 2, incoming pod can be scheduled onto any zone. When 'whenUnsatisfiable=ScheduleAnyway', it is used to give higher precedence to topologies that satisfy it. It's a required field. Default value is 1 and 0 is not allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#max_skew DataK8SCouchbaseComCouchbaseClusterV2Manifest#max_skew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#max_skew DataK8SCouchbaseComCouchbaseClusterV2Manifest#max_skew}
   */
   readonly maxSkew: number;
   /**
   * MinDomains indicates a minimum number of eligible domains. When the number of eligible domains with matching topology keys is less than minDomains, Pod Topology Spread treats 'global minimum' as 0, and then the calculation of Skew is performed. And when the number of eligible domains with matching topology keys equals or greater than minDomains, this value has no effect on scheduling. As a result, when the number of eligible domains is less than minDomains, scheduler won't schedule more than maxSkew Pods to those domains. If value is nil, the constraint behaves as if MinDomains is equal to 1. Valid values are integers greater than 0. When value is not nil, WhenUnsatisfiable must be DoNotSchedule. For example, in a 3-zone cluster, MaxSkew is set to 2, MinDomains is set to 5 and pods with the same labelSelector spread as 2/2/2: | zone1 | zone2 | zone3 | | P P | P P | P P | The number of domains is less than 5(MinDomains), so 'global minimum' is treated as 0. In this situation, new pod with the same labelSelector cannot be scheduled, because computed skew will be 3(3 - 0) if new Pod is scheduled to any of the three zones, it will violate MaxSkew. This is a beta field and requires the MinDomainsInPodTopologySpread feature gate to be enabled (enabled by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#min_domains DataK8SCouchbaseComCouchbaseClusterV2Manifest#min_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#min_domains DataK8SCouchbaseComCouchbaseClusterV2Manifest#min_domains}
   */
   readonly minDomains?: number;
   /**
   * NodeAffinityPolicy indicates how we will treat Pod's nodeAffinity/nodeSelector when calculating pod topology spread skew. Options are: - Honor: only nodes matching nodeAffinity/nodeSelector are included in the calculations. - Ignore: nodeAffinity/nodeSelector are ignored. All nodes are included in the calculations. If this value is nil, the behavior is equivalent to the Honor policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#node_affinity_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#node_affinity_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#node_affinity_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#node_affinity_policy}
   */
   readonly nodeAffinityPolicy?: string;
   /**
   * NodeTaintsPolicy indicates how we will treat node taints when calculating pod topology spread skew. Options are: - Honor: nodes without taints, along with tainted nodes for which the incoming pod has a toleration, are included. - Ignore: node taints are ignored. All nodes are included. If this value is nil, the behavior is equivalent to the Ignore policy. This is a beta-level feature default enabled by the NodeInclusionPolicyInPodTopologySpread feature flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#node_taints_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#node_taints_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#node_taints_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#node_taints_policy}
   */
   readonly nodeTaintsPolicy?: string;
   /**
   * TopologyKey is the key of node labels. Nodes that have a label with this key and identical values are considered to be in the same topology. We consider each <key, value> as a 'bucket', and try to put balanced number of pods into each bucket. We define a domain as a particular instance of a topology. Also, we define an eligible domain as a domain whose nodes meet the requirements of nodeAffinityPolicy and nodeTaintsPolicy. e.g. If TopologyKey is 'kubernetes.io/hostname', each Node is a domain of that topology. And, if TopologyKey is 'topology.kubernetes.io/zone', each zone is a domain of that topology. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#topology_key DataK8SCouchbaseComCouchbaseClusterV2Manifest#topology_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#topology_key DataK8SCouchbaseComCouchbaseClusterV2Manifest#topology_key}
   */
   readonly topologyKey: string;
   /**
   * WhenUnsatisfiable indicates how to deal with a pod if it doesn't satisfy the spread constraint. - DoNotSchedule (default) tells the scheduler not to schedule it. - ScheduleAnyway tells the scheduler to schedule the pod in any location, but giving higher precedence to topologies that would help reduce the skew. A constraint is considered 'Unsatisfiable' for an incoming pod if and only if every possible node assignment for that pod would violate 'MaxSkew' on some topology. For example, in a 3-zone cluster, MaxSkew is set to 1, and pods with the same labelSelector spread as 3/1/1: | zone1 | zone2 | zone3 | | P P P | P | P | If WhenUnsatisfiable is set to DoNotSchedule, incoming pod can only be scheduled to zone2(zone3) to become 3/2/1(3/1/2) as ActualSkew(2-1) on zone2(zone3) satisfies MaxSkew(1). In other words, the cluster can still be imbalanced, but scheduler won't make it *more* imbalanced. It's a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#when_unsatisfiable DataK8SCouchbaseComCouchbaseClusterV2Manifest#when_unsatisfiable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#when_unsatisfiable DataK8SCouchbaseComCouchbaseClusterV2Manifest#when_unsatisfiable}
   */
   readonly whenUnsatisfiable: string;
 }
@@ -26143,175 +26143,175 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec
   /**
   * Optional duration in seconds the pod may be active on the node relative to StartTime before the system will actively try to mark it failed and kill associated containers. Value must be a positive integer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#active_deadline_seconds DataK8SCouchbaseComCouchbaseClusterV2Manifest#active_deadline_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#active_deadline_seconds DataK8SCouchbaseComCouchbaseClusterV2Manifest#active_deadline_seconds}
   */
   readonly activeDeadlineSeconds?: number;
   /**
   * If specified, the pod's scheduling constraints
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#affinity DataK8SCouchbaseComCouchbaseClusterV2Manifest#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#affinity DataK8SCouchbaseComCouchbaseClusterV2Manifest#affinity}
   */
   readonly affinity?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecAffinity;
   /**
   * AutomountServiceAccountToken indicates whether a service account token should be automatically mounted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#automount_service_account_token DataK8SCouchbaseComCouchbaseClusterV2Manifest#automount_service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#automount_service_account_token DataK8SCouchbaseComCouchbaseClusterV2Manifest#automount_service_account_token}
   */
   readonly automountServiceAccountToken?: boolean | cdktf.IResolvable;
   /**
   * Specifies the DNS parameters of a pod. Parameters specified here will be merged to the generated DNS configuration based on DNSPolicy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#dns_config DataK8SCouchbaseComCouchbaseClusterV2Manifest#dns_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#dns_config DataK8SCouchbaseComCouchbaseClusterV2Manifest#dns_config}
   */
   readonly dnsConfig?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecDnsConfig;
   /**
   * Set DNS policy for the pod. Defaults to 'ClusterFirst'. Valid values are 'ClusterFirstWithHostNet', 'ClusterFirst', 'Default' or 'None'. DNS parameters given in DNSConfig will be merged with the policy selected with DNSPolicy. To have DNS options set along with hostNetwork, you have to specify DNS policy explicitly to 'ClusterFirstWithHostNet'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#dns_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#dns_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#dns_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#dns_policy}
   */
   readonly dnsPolicy?: string;
   /**
   * EnableServiceLinks indicates whether information about services should be injected into pod's environment variables, matching the syntax of Docker links. Optional: Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#enable_service_links DataK8SCouchbaseComCouchbaseClusterV2Manifest#enable_service_links}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#enable_service_links DataK8SCouchbaseComCouchbaseClusterV2Manifest#enable_service_links}
   */
   readonly enableServiceLinks?: boolean | cdktf.IResolvable;
   /**
   * Use the host's ipc namespace. Optional: Default to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#host_ipc DataK8SCouchbaseComCouchbaseClusterV2Manifest#host_ipc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#host_ipc DataK8SCouchbaseComCouchbaseClusterV2Manifest#host_ipc}
   */
   readonly hostIpc?: boolean | cdktf.IResolvable;
   /**
   * Host networking requested for this pod. Use the host's network namespace. If this option is set, the ports that will be used must be specified. Default to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#host_network DataK8SCouchbaseComCouchbaseClusterV2Manifest#host_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#host_network DataK8SCouchbaseComCouchbaseClusterV2Manifest#host_network}
   */
   readonly hostNetwork?: boolean | cdktf.IResolvable;
   /**
   * Use the host's pid namespace. Optional: Default to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#host_pid DataK8SCouchbaseComCouchbaseClusterV2Manifest#host_pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#host_pid DataK8SCouchbaseComCouchbaseClusterV2Manifest#host_pid}
   */
   readonly hostPid?: boolean | cdktf.IResolvable;
   /**
   * Use the host's user namespace. Optional: Default to true. If set to true or not present, the pod will be run in the host user namespace, useful for when the pod needs a feature only available to the host user namespace, such as loading a kernel module with CAP_SYS_MODULE. When set to false, a new userns is created for the pod. Setting false is useful for mitigating container breakout vulnerabilities even allowing users to run their containers as root without actually having root privileges on the host. This field is alpha-level and is only honored by servers that enable the UserNamespacesSupport feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#host_users DataK8SCouchbaseComCouchbaseClusterV2Manifest#host_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#host_users DataK8SCouchbaseComCouchbaseClusterV2Manifest#host_users}
   */
   readonly hostUsers?: boolean | cdktf.IResolvable;
   /**
   * ImagePullSecrets is an optional list of references to secrets in the same namespace to use for pulling any of the images used by this PodSpec. If specified, these secrets will be passed to individual puller implementations for them to use. More info: https://kubernetes.io/docs/concepts/containers/images#specifying-imagepullsecrets-on-a-pod
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#image_pull_secrets DataK8SCouchbaseComCouchbaseClusterV2Manifest#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#image_pull_secrets DataK8SCouchbaseComCouchbaseClusterV2Manifest#image_pull_secrets}
   */
   readonly imagePullSecrets?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecImagePullSecrets[] | cdktf.IResolvable;
   /**
   * NodeName is a request to schedule this pod onto a specific node. If it is non-empty, the scheduler simply schedules this pod onto that node, assuming that it fits resource requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#node_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#node_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#node_name}
   */
   readonly nodeName?: string;
   /**
   * NodeSelector is a selector which must be true for the pod to fit on a node. Selector which must match a node's labels for the pod to be scheduled on that node. More info: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#node_selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#node_selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * Specifies the OS of the containers in the pod. Some pod and container fields are restricted if this is set. If the OS field is set to linux, the following fields must be unset: -securityContext.windowsOptions If the OS field is set to windows, following fields must be unset: - spec.hostPID - spec.hostIPC - spec.hostUsers - spec.securityContext.seLinuxOptions - spec.securityContext.seccompProfile - spec.securityContext.fsGroup - spec.securityContext.fsGroupChangePolicy - spec.securityContext.sysctls - spec.shareProcessNamespace - spec.securityContext.runAsUser - spec.securityContext.runAsGroup - spec.securityContext.supplementalGroups - spec.containers[*].securityContext.seLinuxOptions - spec.containers[*].securityContext.seccompProfile - spec.containers[*].securityContext.capabilities - spec.containers[*].securityContext.readOnlyRootFilesystem - spec.containers[*].securityContext.privileged - spec.containers[*].securityContext.allowPrivilegeEscalation - spec.containers[*].securityContext.procMount - spec.containers[*].securityContext.runAsUser - spec.containers[*].securityContext.runAsGroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#os DataK8SCouchbaseComCouchbaseClusterV2Manifest#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#os DataK8SCouchbaseComCouchbaseClusterV2Manifest#os}
   */
   readonly os?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecOs;
   /**
   * Overhead represents the resource overhead associated with running a pod for a given RuntimeClass. This field will be autopopulated at admission time by the RuntimeClass admission controller. If the RuntimeClass admission controller is enabled, overhead must not be set in Pod create requests. The RuntimeClass admission controller will reject Pod create requests which have the overhead already set. If RuntimeClass is configured and selected in the PodSpec, Overhead will be set to the value defined in the corresponding RuntimeClass, otherwise it will remain unset and treated as zero. More info: https://git.k8s.io/enhancements/keps/sig-node/688-pod-overhead/README.md
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#overhead DataK8SCouchbaseComCouchbaseClusterV2Manifest#overhead}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#overhead DataK8SCouchbaseComCouchbaseClusterV2Manifest#overhead}
   */
   readonly overhead?: { [key: string]: string };
   /**
   * PreemptionPolicy is the Policy for preempting pods with lower priority. One of Never, PreemptLowerPriority. Defaults to PreemptLowerPriority if unset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#preemption_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#preemption_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#preemption_policy DataK8SCouchbaseComCouchbaseClusterV2Manifest#preemption_policy}
   */
   readonly preemptionPolicy?: string;
   /**
   * The priority value. Various system components use this field to find the priority of the pod. When Priority Admission Controller is enabled, it prevents users from setting this field. The admission controller populates this field from PriorityClassName. The higher the value, the higher the priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#priority DataK8SCouchbaseComCouchbaseClusterV2Manifest#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#priority DataK8SCouchbaseComCouchbaseClusterV2Manifest#priority}
   */
   readonly priority?: number;
   /**
   * If specified, indicates the pod's priority. 'system-node-critical' and 'system-cluster-critical' are two special keywords which indicate the highest priorities with the former being the highest priority. Any other name must be defined by creating a PriorityClass object with that name. If not specified, the pod priority will be default or zero if there is no default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#priority_class_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#priority_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#priority_class_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#priority_class_name}
   */
   readonly priorityClassName?: string;
   /**
   * ResourceClaims defines which ResourceClaims must be allocated and reserved before the Pod is allowed to start. The resources will be made available to those containers which consume them by name. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#resource_claims DataK8SCouchbaseComCouchbaseClusterV2Manifest#resource_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#resource_claims DataK8SCouchbaseComCouchbaseClusterV2Manifest#resource_claims}
   */
   readonly resourceClaims?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecResourceClaims[] | cdktf.IResolvable;
   /**
   * RuntimeClassName refers to a RuntimeClass object in the node.k8s.io group, which should be used to run this pod. If no RuntimeClass resource matches the named class, the pod will not be run. If unset or empty, the 'legacy' RuntimeClass will be used, which is an implicit class with an empty definition that uses the default runtime handler. More info: https://git.k8s.io/enhancements/keps/sig-node/585-runtime-class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#runtime_class_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#runtime_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#runtime_class_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#runtime_class_name}
   */
   readonly runtimeClassName?: string;
   /**
   * If specified, the pod will be dispatched by specified scheduler. If not specified, the pod will be dispatched by default scheduler.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#scheduler_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#scheduler_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#scheduler_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#scheduler_name}
   */
   readonly schedulerName?: string;
   /**
   * SchedulingGates is an opaque list of values that if specified will block scheduling the pod. If schedulingGates is not empty, the pod will stay in the SchedulingGated state and the scheduler will not attempt to schedule the pod. SchedulingGates can only be set at pod creation time, and be removed only afterwards. This is a beta feature enabled by the PodSchedulingReadiness feature gate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#scheduling_gates DataK8SCouchbaseComCouchbaseClusterV2Manifest#scheduling_gates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#scheduling_gates DataK8SCouchbaseComCouchbaseClusterV2Manifest#scheduling_gates}
   */
   readonly schedulingGates?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecSchedulingGates[] | cdktf.IResolvable;
   /**
   * DeprecatedServiceAccount is a depreciated alias for ServiceAccountName. Deprecated: Use serviceAccountName instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#service_account DataK8SCouchbaseComCouchbaseClusterV2Manifest#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#service_account DataK8SCouchbaseComCouchbaseClusterV2Manifest#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * ServiceAccountName is the name of the ServiceAccount to use to run this pod. More info: https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#service_account_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#service_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#service_account_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#service_account_name}
   */
   readonly serviceAccountName?: string;
   /**
   * If true the pod's hostname will be configured as the pod's FQDN, rather than the leaf name (the default). In Linux containers, this means setting the FQDN in the hostname field of the kernel (the nodename field of struct utsname). In Windows containers, this means setting the registry value of hostname for the registry key HKEY_LOCAL_MACHINESYSTEMCurrentControlSetServicesTcpipParameters to FQDN. If a pod does not have FQDN, this has no effect. Default to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#set_hostname_as_fqdn DataK8SCouchbaseComCouchbaseClusterV2Manifest#set_hostname_as_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#set_hostname_as_fqdn DataK8SCouchbaseComCouchbaseClusterV2Manifest#set_hostname_as_fqdn}
   */
   readonly setHostnameAsFqdn?: boolean | cdktf.IResolvable;
   /**
   * Share a single process namespace between all of the containers in a pod. When this is set containers will be able to view and signal processes from other containers in the same pod, and the first process in each container will not be assigned PID 1. HostPID and ShareProcessNamespace cannot both be set. Optional: Default to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#share_process_namespace DataK8SCouchbaseComCouchbaseClusterV2Manifest#share_process_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#share_process_namespace DataK8SCouchbaseComCouchbaseClusterV2Manifest#share_process_namespace}
   */
   readonly shareProcessNamespace?: boolean | cdktf.IResolvable;
   /**
   * Optional duration in seconds the pod needs to terminate gracefully. May be decreased in delete request. Value must be non-negative integer. The value zero indicates stop immediately via the kill signal (no opportunity to shut down). If this value is nil, the default grace period will be used instead. The grace period is the duration in seconds after the processes running in the pod are sent a termination signal and the time when the processes are forcibly halted with a kill signal. Set this value longer than the expected cleanup time for your process. Defaults to 30 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#termination_grace_period_seconds DataK8SCouchbaseComCouchbaseClusterV2Manifest#termination_grace_period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#termination_grace_period_seconds DataK8SCouchbaseComCouchbaseClusterV2Manifest#termination_grace_period_seconds}
   */
   readonly terminationGracePeriodSeconds?: number;
   /**
   * If specified, the pod's tolerations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#tolerations DataK8SCouchbaseComCouchbaseClusterV2Manifest#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#tolerations DataK8SCouchbaseComCouchbaseClusterV2Manifest#tolerations}
   */
   readonly tolerations?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecTolerations[] | cdktf.IResolvable;
   /**
   * TopologySpreadConstraints describes how a group of pods ought to spread across topology domains. Scheduler will schedule pods in a way which abides by the constraints. All topologySpreadConstraints are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#topology_spread_constraints DataK8SCouchbaseComCouchbaseClusterV2Manifest#topology_spread_constraints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#topology_spread_constraints DataK8SCouchbaseComCouchbaseClusterV2Manifest#topology_spread_constraints}
   */
   readonly topologySpreadConstraints?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpecTopologySpreadConstraints[] | cdktf.IResolvable;
 }
@@ -27219,13 +27219,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPod {
   /**
   * Standard objects metadata. This is a curated version for use with Couchbase resource templates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#metadata DataK8SCouchbaseComCouchbaseClusterV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#metadata DataK8SCouchbaseComCouchbaseClusterV2Manifest#metadata}
   */
   readonly metadata?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodMetadata;
   /**
   * PodSpec is a description of a pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#spec DataK8SCouchbaseComCouchbaseClusterV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#spec DataK8SCouchbaseComCouchbaseClusterV2Manifest#spec}
   */
   readonly spec?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPodSpec;
 }
@@ -27350,7 +27350,7 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersResourc
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
   */
   readonly name: string;
 }
@@ -27465,19 +27465,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersResourc
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#claims DataK8SCouchbaseComCouchbaseClusterV2Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#claims DataK8SCouchbaseComCouchbaseClusterV2Manifest#claims}
   */
   readonly claims?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#limits DataK8SCouchbaseComCouchbaseClusterV2Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#limits DataK8SCouchbaseComCouchbaseClusterV2Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#requests DataK8SCouchbaseComCouchbaseClusterV2Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#requests DataK8SCouchbaseComCouchbaseClusterV2Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -27631,31 +27631,31 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersVolumeM
   /**
   * AnalyticsClaims are persistent volumes that encompass analytics storage associated with the analytics service. Analytics claims can only be used on server classes running the analytics service, and must be used in conjunction with the default claim. This field allows the analytics service to use different storage media (e.g. SSD), and scale horizontally, to improve performance of this service. This field references a volume claim template name as defined in 'spec.volumeClaimTemplates'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#analytics DataK8SCouchbaseComCouchbaseClusterV2Manifest#analytics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#analytics DataK8SCouchbaseComCouchbaseClusterV2Manifest#analytics}
   */
   readonly analytics?: string[];
   /**
   * DataClaim is a persistent volume that encompasses key/value storage associated with the data service. The data claim can only be used on server classes running the data service, and must be used in conjunction with the default claim. This field allows the data service to use different storage media (e.g. SSD) to improve performance of this service. This field references a volume claim template name as defined in 'spec.volumeClaimTemplates'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#data DataK8SCouchbaseComCouchbaseClusterV2Manifest#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#data DataK8SCouchbaseComCouchbaseClusterV2Manifest#data}
   */
   readonly data?: string;
   /**
   * DefaultClaim is a persistent volume that encompasses all Couchbase persistent data, including document storage, indexes and logs. The default volume can be used with any server class. Use of the default claim allows the Operator to recover failed pods from the persistent volume far quicker than if the pod were using ephemeral storage. The default claim cannot be used at the same time as the logs claim within the same server class. This field references a volume claim template name as defined in 'spec.volumeClaimTemplates'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#default DataK8SCouchbaseComCouchbaseClusterV2Manifest#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#default DataK8SCouchbaseComCouchbaseClusterV2Manifest#default}
   */
   readonly default?: string;
   /**
   * IndexClaim s a persistent volume that encompasses index storage associated with the index and search services. The index claim can only be used on server classes running the index or search services, and must be used in conjunction with the default claim. This field allows the index and/or search service to use different storage media (e.g. SSD) to improve performance of this service. This field references a volume claim template name as defined in 'spec.volumeClaimTemplates'. Whilst this references index primarily, note that the full text search (FTS) service also uses this same mount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#index DataK8SCouchbaseComCouchbaseClusterV2Manifest#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#index DataK8SCouchbaseComCouchbaseClusterV2Manifest#index}
   */
   readonly index?: string;
   /**
   * LogsClaim is a persistent volume that encompasses only Couchbase server logs to aid with supporting the product. The logs claim can only be used on server classes running the following services: query, search & eventing. The logs claim cannot be used at the same time as the default claim within the same server class. This field references a volume claim template name as defined in 'spec.volumeClaimTemplates'. Whilst the logs claim can be used with the search service, the recommendation is to use the default claim for these. The reason for this is that a failure of these nodes will require indexes to be rebuilt and subsequent performance impact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#logs DataK8SCouchbaseComCouchbaseClusterV2Manifest#logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#logs DataK8SCouchbaseComCouchbaseClusterV2Manifest#logs}
   */
   readonly logs?: string;
 }
@@ -27867,67 +27867,67 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServers {
   /**
   * AutoscaledEnabled defines whether the autoscaling feature is enabled for this class. When true, the Operator will create a CouchbaseAutoscaler resource for this server class. The CouchbaseAutoscaler implements the Kubernetes scale API and can be controlled by the Kubernetes horizontal pod autoscaler (HPA).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#autoscale_enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#autoscale_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#autoscale_enabled DataK8SCouchbaseComCouchbaseClusterV2Manifest#autoscale_enabled}
   */
   readonly autoscaleEnabled?: boolean | cdktf.IResolvable;
   /**
   * Env allows the setting of environment variables in the Couchbase server container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#env DataK8SCouchbaseComCouchbaseClusterV2Manifest#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#env DataK8SCouchbaseComCouchbaseClusterV2Manifest#env}
   */
   readonly env?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersEnv[] | cdktf.IResolvable;
   /**
   * EnvFrom allows the setting of environment variables in the Couchbase server container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#env_from DataK8SCouchbaseComCouchbaseClusterV2Manifest#env_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#env_from DataK8SCouchbaseComCouchbaseClusterV2Manifest#env_from}
   */
   readonly envFrom?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersEnvFrom[] | cdktf.IResolvable;
   /**
   * Image is the container image name that will be used to launch Couchbase server instances in this server class. You cannot downgrade the Couchbase version. Across spec.image and all server classes there can only be two different Couchbase images. Updating this field to a value different than spec.image will cause an automatic upgrade of the server class. If it isn't specified then the cluster image will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#image DataK8SCouchbaseComCouchbaseClusterV2Manifest#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#image DataK8SCouchbaseComCouchbaseClusterV2Manifest#image}
   */
   readonly image?: string;
   /**
   * Name is a textual name for the server configuration and must be unique. The name is used by the operator to uniquely identify a server class, and map pods back to an intended configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
   */
   readonly name: string;
   /**
   * Pod defines a template used to create pod for each Couchbase server instance. Modifying pod metadata such as labels and annotations will update the pod in-place. Any other modification will result in a cluster upgrade in order to fulfill the request. The Operator reserves the right to modify or replace any field. More info: https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.28/#pod-v1-core
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#pod DataK8SCouchbaseComCouchbaseClusterV2Manifest#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#pod DataK8SCouchbaseComCouchbaseClusterV2Manifest#pod}
   */
   readonly pod?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersPod;
   /**
   * Resources are the resource requirements for the Couchbase server container. This field overrides any automatic allocation as defined by 'spec.autoResourceAllocation'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#resources DataK8SCouchbaseComCouchbaseClusterV2Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#resources DataK8SCouchbaseComCouchbaseClusterV2Manifest#resources}
   */
   readonly resources?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersResources;
   /**
   * ServerGroups define the set of availability zones you want to distribute pods over, and construct Couchbase server groups for. By default, most cloud providers will label nodes with the key 'topology.kubernetes.io/zone', the values associated with that key are used here to provide explicit scheduling by the Operator. You may manually label nodes using the 'topology.kubernetes.io/zone' key, to provide failure-domain aware scheduling when none is provided for you. Global server groups are applied to all server classes, and may be overridden on a per-server class basis to give more control over scheduling and server groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#server_groups DataK8SCouchbaseComCouchbaseClusterV2Manifest#server_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#server_groups DataK8SCouchbaseComCouchbaseClusterV2Manifest#server_groups}
   */
   readonly serverGroups?: string[];
   /**
   * Services is the set of Couchbase services to run on this server class. At least one class must contain the data service. The field may contain any of 'data', 'index', 'query', 'search', 'eventing' or 'analytics'. Each service may only be specified once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#services DataK8SCouchbaseComCouchbaseClusterV2Manifest#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#services DataK8SCouchbaseComCouchbaseClusterV2Manifest#services}
   */
   readonly services: string[];
   /**
   * Size is the expected requested of the server class. This field must be greater than or equal to 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#size DataK8SCouchbaseComCouchbaseClusterV2Manifest#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#size DataK8SCouchbaseComCouchbaseClusterV2Manifest#size}
   */
   readonly size: number;
   /**
   * VolumeMounts define persistent volume claims to attach to pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#volume_mounts DataK8SCouchbaseComCouchbaseClusterV2Manifest#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#volume_mounts DataK8SCouchbaseComCouchbaseClusterV2Manifest#volume_mounts}
   */
   readonly volumeMounts?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecServersVolumeMounts;
 }
@@ -28326,19 +28326,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecVolumeClaimTem
   /**
   * Annotations is an unstructured key value map stored with a resource that may be set by external tools to store and retrieve arbitrary metadata. They are not queryable and should be preserved when modifying objects. More info: http://kubernetes.io/docs/user-guide/annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#annotations DataK8SCouchbaseComCouchbaseClusterV2Manifest#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#annotations DataK8SCouchbaseComCouchbaseClusterV2Manifest#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Map of string keys and values that can be used to organize and categorize (scope and select) objects. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name must be unique within a namespace. Is required when creating resources, although some resources may allow a client to request the generation of an appropriate name automatically. Name is primarily intended for creation idempotence and configuration definition. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
   */
   readonly name: string;
 }
@@ -28489,25 +28489,25 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecVolumeClaimTem
   /**
   * APIGroup is the group for the resource being referenced. If APIGroup is not specified, the specified Kind must be in the core API group. For any other third-party types, APIGroup is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#api_group DataK8SCouchbaseComCouchbaseClusterV2Manifest#api_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#api_group DataK8SCouchbaseComCouchbaseClusterV2Manifest#api_group}
   */
   readonly apiGroup?: string;
   /**
   * Kind is the type of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#kind DataK8SCouchbaseComCouchbaseClusterV2Manifest#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#kind DataK8SCouchbaseComCouchbaseClusterV2Manifest#kind}
   */
   readonly kind: string;
   /**
   * Name is the name of resource being referenced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
   */
   readonly name: string;
   /**
   * Namespace is the namespace of resource being referenced Note that when a namespace is specified, a gateway.networking.k8s.io/ReferenceGrant object is required in the referent namespace to allow that namespace's owner to accept the reference. See the ReferenceGrant documentation for details. (Alpha) This field requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#namespace DataK8SCouchbaseComCouchbaseClusterV2Manifest#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#namespace DataK8SCouchbaseComCouchbaseClusterV2Manifest#namespace}
   */
   readonly namespace?: string;
 }
@@ -28684,7 +28684,7 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecVolumeClaimTem
   /**
   * Name must match the name of one entry in pod.spec.resourceClaims of the Pod where this field is used. It makes that resource available inside a container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
   */
   readonly name: string;
 }
@@ -28799,19 +28799,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecVolumeClaimTem
   /**
   * Claims lists the names of resources, defined in spec.resourceClaims, that are used by this container. This is an alpha field and requires enabling the DynamicResourceAllocation feature gate. This field is immutable. It can only be set for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#claims DataK8SCouchbaseComCouchbaseClusterV2Manifest#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#claims DataK8SCouchbaseComCouchbaseClusterV2Manifest#claims}
   */
   readonly claims?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecVolumeClaimTemplatesSpecResourcesClaims[] | cdktf.IResolvable;
   /**
   * Limits describes the maximum amount of compute resources allowed. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#limits DataK8SCouchbaseComCouchbaseClusterV2Manifest#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#limits DataK8SCouchbaseComCouchbaseClusterV2Manifest#limits}
   */
   readonly limits?: { [key: string]: string };
   /**
   * Requests describes the minimum amount of compute resources required. If Requests is omitted for a container, it defaults to Limits if that is explicitly specified, otherwise to an implementation-defined value. Requests cannot exceed Limits. More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#requests DataK8SCouchbaseComCouchbaseClusterV2Manifest#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#requests DataK8SCouchbaseComCouchbaseClusterV2Manifest#requests}
   */
   readonly requests?: { [key: string]: string };
 }
@@ -28965,19 +28965,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecVolumeClaimTem
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -29147,13 +29147,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecVolumeClaimTem
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecVolumeClaimTemplatesSpecSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -29278,43 +29278,43 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecVolumeClaimTem
   /**
   * accessModes contains the desired access modes the volume should have. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#access-modes-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#access_modes DataK8SCouchbaseComCouchbaseClusterV2Manifest#access_modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#access_modes DataK8SCouchbaseComCouchbaseClusterV2Manifest#access_modes}
   */
   readonly accessModes?: string[];
   /**
   * dataSourceRef specifies the object from which to populate the volume with data, if a non-empty volume is desired. This may be any object from a non-empty API group (non core object) or a PersistentVolumeClaim object. When this field is specified, volume binding will only succeed if the type of the specified object matches some installed volume populator or dynamic provisioner. This field will replace the functionality of the dataSource field and as such if both fields are non-empty, they must have the same value. For backwards compatibility, when namespace isn't specified in dataSourceRef, both fields (dataSource and dataSourceRef) will be set to the same value automatically if one of them is empty and the other is non-empty. When namespace is specified in dataSourceRef, dataSource isn't set to the same value and must be empty. There are three important differences between dataSource and dataSourceRef: * While dataSource only allows two specific types of objects, dataSourceRef allows any non-core object, as well as PersistentVolumeClaim objects. * While dataSource ignores disallowed values (dropping them), dataSourceRef preserves all values, and generates an error if a disallowed value is specified. * While dataSource only allows local objects, dataSourceRef allows objects in any namespaces. (Beta) Using this field requires the AnyVolumeDataSource feature gate to be enabled. (Alpha) Using the namespace field of dataSourceRef requires the CrossNamespaceVolumeDataSource feature gate to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#data_source_ref DataK8SCouchbaseComCouchbaseClusterV2Manifest#data_source_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#data_source_ref DataK8SCouchbaseComCouchbaseClusterV2Manifest#data_source_ref}
   */
   readonly dataSourceRef?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecVolumeClaimTemplatesSpecDataSourceRef;
   /**
   * resources represents the minimum resources the volume should have. If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements that are lower than previous value but must still be higher than capacity recorded in the status field of the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#resources DataK8SCouchbaseComCouchbaseClusterV2Manifest#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#resources DataK8SCouchbaseComCouchbaseClusterV2Manifest#resources}
   */
   readonly resources?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecVolumeClaimTemplatesSpecResources;
   /**
   * selector is a label query over volumes to consider for binding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#selector}
   */
   readonly selector?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecVolumeClaimTemplatesSpecSelector;
   /**
   * storageClassName is the name of the StorageClass required by the claim. More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#class-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#storage_class_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#storage_class_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#storage_class_name}
   */
   readonly storageClassName?: string;
   /**
   * volumeMode defines what type of volume is required by the claim. Value of Filesystem is implied when not included in claim spec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#volume_mode DataK8SCouchbaseComCouchbaseClusterV2Manifest#volume_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#volume_mode DataK8SCouchbaseComCouchbaseClusterV2Manifest#volume_mode}
   */
   readonly volumeMode?: string;
   /**
   * volumeName is the binding reference to the PersistentVolume backing this claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#volume_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#volume_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#volume_name DataK8SCouchbaseComCouchbaseClusterV2Manifest#volume_name}
   */
   readonly volumeName?: string;
 }
@@ -29584,13 +29584,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecVolumeClaimTem
   /**
   * Standard objects metadata. This is a curated version for use with Couchbase resource templates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#metadata DataK8SCouchbaseComCouchbaseClusterV2Manifest#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#metadata DataK8SCouchbaseComCouchbaseClusterV2Manifest#metadata}
   */
   readonly metadata: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecVolumeClaimTemplatesMetadata;
   /**
   * PersistentVolumeClaimSpec describes the common attributes of storage devices and allows a Source for provider-specific attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#spec DataK8SCouchbaseComCouchbaseClusterV2Manifest#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#spec DataK8SCouchbaseComCouchbaseClusterV2Manifest#spec}
   */
   readonly spec: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecVolumeClaimTemplatesSpec;
 }
@@ -29731,19 +29731,19 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecXdcrRemoteClus
   /**
   * key is the label key that the selector applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#key DataK8SCouchbaseComCouchbaseClusterV2Manifest#key}
   */
   readonly key: string;
   /**
   * operator represents a key's relationship to a set of values. Valid operators are In, NotIn, Exists and DoesNotExist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#operator DataK8SCouchbaseComCouchbaseClusterV2Manifest#operator}
   */
   readonly operator: string;
   /**
   * values is an array of string values. If the operator is In or NotIn, the values array must be non-empty. If the operator is Exists or DoesNotExist, the values array must be empty. This array is replaced during a strategic merge patch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#values DataK8SCouchbaseComCouchbaseClusterV2Manifest#values}
   */
   readonly values?: string[];
 }
@@ -29913,13 +29913,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecXdcrRemoteClus
   /**
   * matchExpressions is a list of label selector requirements. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_expressions DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_expressions}
   */
   readonly matchExpressions?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecXdcrRemoteClustersReplicationsSelectorMatchExpressions[] | cdktf.IResolvable;
   /**
   * matchLabels is a map of {key,value} pairs. A single {key,value} in the matchLabels map is equivalent to an element of matchExpressions, whose key field is 'key', the operator is 'In', and the values array contains only 'value'. The requirements are ANDed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#match_labels DataK8SCouchbaseComCouchbaseClusterV2Manifest#match_labels}
   */
   readonly matchLabels?: { [key: string]: string };
 }
@@ -30044,7 +30044,7 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecXdcrRemoteClus
   /**
   * Selector allows CouchbaseReplication resources to be filtered based on labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#selector DataK8SCouchbaseComCouchbaseClusterV2Manifest#selector}
   */
   readonly selector?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecXdcrRemoteClustersReplicationsSelector;
 }
@@ -30140,7 +30140,7 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecXdcrRemoteClus
   /**
   * Secret references a secret containing the CA certificate (data key 'ca'), and optionally a client certificate (data key 'certificate') and key (data key 'key').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#secret DataK8SCouchbaseComCouchbaseClusterV2Manifest#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#secret DataK8SCouchbaseComCouchbaseClusterV2Manifest#secret}
   */
   readonly secret: string;
 }
@@ -30233,37 +30233,37 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecXdcrRemoteClus
   /**
   * AuthenticationSecret is a secret used to authenticate when establishing a remote connection. It is only required when not using mTLS. The secret must contain a username (secret key 'username') and password (secret key 'password').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#authentication_secret DataK8SCouchbaseComCouchbaseClusterV2Manifest#authentication_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#authentication_secret DataK8SCouchbaseComCouchbaseClusterV2Manifest#authentication_secret}
   */
   readonly authenticationSecret?: string;
   /**
   * Hostname is the connection string to use to connect the remote cluster. To use IPv6, place brackets ('[', ']') around the IPv6 value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#hostname DataK8SCouchbaseComCouchbaseClusterV2Manifest#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#hostname DataK8SCouchbaseComCouchbaseClusterV2Manifest#hostname}
   */
   readonly hostname: string;
   /**
   * Name of the remote cluster. Note that, -operator-managed is added as suffix by operator automatically to the name in order to diffrentiate from non operator managed remote clusters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#name DataK8SCouchbaseComCouchbaseClusterV2Manifest#name}
   */
   readonly name: string;
   /**
   * Replications are replication streams from this cluster to the remote one. This field defines how to look up CouchbaseReplication resources. By default any CouchbaseReplication resources in the namespace will be considered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#replications DataK8SCouchbaseComCouchbaseClusterV2Manifest#replications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#replications DataK8SCouchbaseComCouchbaseClusterV2Manifest#replications}
   */
   readonly replications?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecXdcrRemoteClustersReplications;
   /**
   * TLS if specified references a resource containing the necessary certificate data for an encrypted connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#tls DataK8SCouchbaseComCouchbaseClusterV2Manifest#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#tls DataK8SCouchbaseComCouchbaseClusterV2Manifest#tls}
   */
   readonly tls?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecXdcrRemoteClustersTls;
   /**
   * UUID of the remote cluster. The UUID of a CouchbaseCluster resource is advertised in the status.clusterId field of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#uuid DataK8SCouchbaseComCouchbaseClusterV2Manifest#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#uuid DataK8SCouchbaseComCouchbaseClusterV2Manifest#uuid}
   */
   readonly uuid: string;
 }
@@ -30517,13 +30517,13 @@ export interface DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecXdcr {
   /**
   * Managed defines whether XDCR is managed by the operator or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#managed DataK8SCouchbaseComCouchbaseClusterV2Manifest#managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#managed DataK8SCouchbaseComCouchbaseClusterV2Manifest#managed}
   */
   readonly managed?: boolean | cdktf.IResolvable;
   /**
   * RemoteClusters is a set of named remote clusters to establish replications to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.11.24/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#remote_clusters DataK8SCouchbaseComCouchbaseClusterV2Manifest#remote_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/metio/k8s/2025.12.1/docs/data-sources/couchbase_com_couchbase_cluster_v2_manifest#remote_clusters DataK8SCouchbaseComCouchbaseClusterV2Manifest#remote_clusters}
   */
   readonly remoteClusters?: DataK8SCouchbaseComCouchbaseClusterV2ManifestSpecXdcrRemoteClusters[] | cdktf.IResolvable;
 }
